@@ -1,0 +1,1 @@
+ curl -d "ids=korf&format=raw&data=0&hours=0" "https://www.aviationweather.gov/metar/data" > result.html
