@@ -9,4 +9,6 @@ Folders:
 	* Report: Contains a pdf of my report, along with the source code used to make it. 
 File: 
 	a1.txt: The assignment description
-	
+
+Report Compiliation: 
+	The A1_Report.pdf was generated from sharelatex.com	
