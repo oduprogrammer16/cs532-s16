@@ -1,0 +1,1309 @@
+ <!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"b908402cd3","applicationID":"1237919,13960630","transactionName":"clhXTRQOW10BQBsRWVZSShYVCVhG","queueTime":1,"applicationTime":4098,"agent":"","atts":"ShVMG1waFV8FRl0OVm5EVUwBQw0TCF1WQxQTRVxKFg5ZQg1QWARnRVJYVERbFVILXEATV11oSVgIBFtuEFdVDBpMSg=="}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function c(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),c=a.length,u=0;c>u;u++)a[u].apply(i,r);return i}function u(t,e){p[t]=f(t).concat(e)}function f(t){return p[t]||[]}function s(){return r(c)}var p={};return{on:u,emit:c,create:s,listeners:f,context:e,_events:p}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!v++){var t=l.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(p,function(e,n){t[e]||(t[e]=n)});var n="https"===s.split(":")[0]||t.sslForHttp;l.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=l.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),c=t(1),u=window,f=u.document;t(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),l=e.exports={offset:i(),origin:s,features:{},xhrWrappable:d};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var v=0},{1:12,2:3,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],12:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],13:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}]},{},["G9z0Bl"]);</script>
+<title>Londoners on Bikes</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="http://lob.nationbuilder.com/themes/1/562e9f142213932182000001/0/attachments/14459444721455576089/default/theme.scss" type="text/css"/>
+<link rel="stylesheet" href="http://lob.nationbuilder.com/themes/1/562e9f142213932182000001/0/attachments/14459444721455576089/default/tablet-and-desktop.scss" type="text/css" media="screen and (min-width: 768px)"/>
+ 
+<!--[if IE 8]>
+    <link rel="stylesheet" href="http://lob.nationbuilder.com/themes/1/562e9f142213932182000001/0/attachments/14459444721455576089/default/tablet-and-desktop.scss" type="text/css" />
+  <![endif]-->
+<!--[if IE]>
+  <link rel="stylesheet" href="ie.scss" type="text/css" />
+  <![endif]-->
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<meta content="authenticity_token" name="csrf-param"/>
+<meta content="xthSZ9Df1GmeNjNx/y1zzY7L4bcAxd5uQO9qtTn7P1o=" name="csrf-token"/>
+<link rel="canonical" href="http://www.londonersonbikes.org/"/>
+<meta name="Title" content="Londoners on Bikes - Vote with your Bike for London Mayor">
+<meta name="Description" content="Check out Londoners on Bikes. I just joined. Please sign up too and help us reach 10k ">
+<meta property="og:title" content="Londoners on Bikes"/>
+<meta property="og:url" content="http://www.londonersonbikes.org/">
+<meta property="og:description" content="Check out Londoners on Bikes. I just joined. Please sign up too and help us reach 10k ">
+<meta property="og:type" content="article">
+<link rel="image_src" href="http://d3n8a8pro7vhmx.cloudfront.net/lob/sites/1/meta_images/original/lob-logo-small.png?1445944221"/>
+<meta property="og:image" content="http://d3n8a8pro7vhmx.cloudfront.net/lob/sites/1/meta_images/original/lob-logo-small.png?1445944221"/>
+<meta property="og:site_name" content="Londoners on Bikes"/>
+<script type="text/javascript">
+  var NB = NB || {};
+
+  NB.environment = "production";
+  NB.pageId = "79";
+  NB.Liquid = NB.Liquid || {};
+</script>
+<script type="text/javascript">
+		//<![CDATA[
+			window._auth_token_name = "authenticity_token";
+			window._auth_token = "xthSZ9Df1GmeNjNx/y1zzY7L4bcAxd5uQO9qtTn7P1o=";
+		//]]>
+</script>
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/themes/cupertino/jquery-ui.css" type="text/css" media="all">
+<script src="//d3n8a8pro7vhmx.cloudfront.net/assets/liquid/main-39085a2ef2ef5471c78fa611a377255d.js" type="text/javascript"></script>
+<script type="text/javascript">
+  window.twttr = (function (d,s,id) {
+    var t, js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+    js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+    return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+  }(document, "script", "twitter-wjs"));
+</script>
+<script type="text/javascript">
+  NB.FBAppId = '126739610711965';
+</script>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = '//apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30164155-1']);
+   	_gaq.push(['_setDomainName', 'none']);
+    _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_setCustomVar', 1, 'UGC', 'false', 3]);
+      _gaq.push(['_setCustomVar', 1, 'Page type', 'Signup', 3]);
+    _gaq.push(['_trackPageview']);
+    _gaq.push(['_trackPageLoadTime']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+<script type="text/javascript">
+    var _qevents = _qevents || [];
+
+    (function() {
+     var elem = document.createElement('script');
+
+     elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+     elem.async = true;
+     elem.type = "text/javascript";
+     var scpt = document.getElementsByTagName('script')[0];
+     scpt.parentNode.insertBefore(elem, scpt);
+    })();
+  </script>
+<script type="text/javascript">
+    NB.appConfig.userIsLoggedIn = false;
+  </script>
+<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Lato:400,400italic|Titillium+Web:600|Roboto+Slab:700|Oswald' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://lob.nationbuilder.com/themes/1/562e9f142213932182000001/0/attachments/14459444721455576089/default/jquery.ui.effect.min.js"></script>
+<script type="text/javascript" src="http://lob.nationbuilder.com/themes/1/562e9f142213932182000001/0/attachments/14459444721455576089/default/verve.js"></script>
+ 
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1709593465919519');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1709593465919519&ev=PageView&noscript=1"/></noscript>
+ 
+</head>
+<body class="aware-theme v2-theme page-type-signup js ">
+<div id="pattern" class="pattern">
+<div class="wrap" id="wrap">
+<div id="body" class="page-pages-show-signup-wide">
+<div class="header-container clearfix ">
+<div class="width-container clearfix">
+<div class="header-login-container">
+<div class="header-login desktop-visible">
+<span>Sign in:</span>&emsp;<a href="/users/twitter/connect?page_id=79">Twitter</a>&emsp;&emsp;&middot;&emsp;&emsp;<a href="https://lob.nationbuilder.com/users/facebook/connect?page_id=79&scope=public_profile%2Cemail">Facebook</a>&emsp;&emsp;&middot;&emsp;&emsp;<a href="/login">email</a>
+</div>
+</div>
+ 
+<nav id="menu" role="navigation">
+<ul id="topnav" class="topnav desktop-nav">
+<li class="active">
+<a href="/">Your vote</a>
+</li><li>
+<a href="/faq">FAQ</a>
+</li><li>
+<a href="/events">Events</a>
+</li><li>
+<a href="/get_involved1">Get Involved</a>
+</li><li>
+<a href="/donate">Donate</a>
+</li>
+</ul>
+</nav>
+<a href="#menu" class="menu-link"><i class="icon-menu"></i></a>
+ 
+<div class="site-logo">
+<header><a href="/"><img src="http://d3n8a8pro7vhmx.cloudfront.net/lob/sites/1/meta_images/original/lob-logo-small.png?1445944221"></a></header>
+</div>
+</div>
+ 
+</div>
+ 
+<div class="main-container" id="middle">
+<div class="main width-container homepage clearfix">
+<div class="content-pages-show-signup-wide">
+ 
+ 
+<div id="content">
+<div class="row-fluid">
+<div class="span6">
+<div id="intro" class="intro" style="    font-size: 150%;
+    font-weight: bold;">
+<h2 class="badge">
+<img src="https://d3n8a8pro7vhmx.cloudfront.net/lob/pages/79/attachments/original/1455574174/tw.png" alt="" width="20" height="20">4.7k followers</h2>
+<h2 class="badge">
+<img src="https://d3n8a8pro7vhmx.cloudfront.net/lob/pages/79/attachments/original/1455574173/sup.png" alt="" width="20" height="20"> 9.3k supporters</h2>
+<h2 class="badge">
+<img src="https://d3n8a8pro7vhmx.cloudfront.net/lob/pages/79/attachments/original/1455574172/fb.png" alt="" width="20" height="20"> 1.2k likes</h2>
+<p> </p>
+<h2 class="headline">SIGN UP NOW TO JOIN THE BIKE VOTE</h2>
+<p><img src="https://d3n8a8pro7vhmx.cloudfront.net/lob/pages/79/attachments/original/1333034836/tick_small.png?1333034836" alt=""/> We want safe streets for bikes and people</p>
+<p><img src="https://d3n8a8pro7vhmx.cloudfront.net/lob/pages/79/attachments/original/1333034836/tick_small.png?1333034836" alt="tick_small.png"/> London's mayor can make this happen</p>
+<p><img src="https://d3n8a8pro7vhmx.cloudfront.net/lob/pages/79/attachments/original/1333034836/tick_small.png?1333034836" alt="tick_small.png"/> On May 5th, we're voting with our bikes </p>
+</div>
+</div>
+<div class="span6">
+ 
+<style type="text/css">.meter{position:relative;overflow:hidden;height:32px;background-color:#fff;-webkit-border-radius:99px;-moz-border-radius:99px;-ms-border-radius:99px;-o-border-radius:99px;border-radius:99px;color:black;border:1px solid #ed1e79;vertical-align:text-bottom;margin-bottom:20px;}.signups{background-color:#ed1e79;height:100%;padding:3px 15px 3px 5px;color:white;float:left;box-sizing:content-box;overflow:visible}.meter-label{margin:3px auto;box-sizing:content-box;text-align:center;}</style>
+<div>
+<div class="meter">
+<div class="signups" style="width: 6%;">677</div><div class="meter-label ">Help us get the bike vote to 10,000</div>
+</div>
+</div>
+ 
+<div class="form-wrap">
+<div class="form">
+<form id="your_vote_page_new_signup_form" class="ajaxForm signup_form" method="POST" action="/forms/signups" enctype="multipart/form-data"><input name="authenticity_token" type="hidden" value="xthSZ9Df1GmeNjNx/y1zzY7L4bcAxd5uQO9qtTn7P1o="/><input name="page_id" type="hidden" value="79"/><input name="return_to" type="hidden" value="http://www.londonersonbikes.org/"/><div class="email_address_form" style="display:none;"><p><label for "email_address">Optional email code</label><br/><input name="email_address" type="text" class="text" id="email_address" autocomplete="off"/></p></div>
+          
+          
+          
+          <div class="form-errors"></div>
+          
+         
+          <div class="row-fluid">
+            <div class="span6"><label for="signup_first_name">First Name</label><input class="text" id="signup_first_name" name="signup[first_name]" type="text" /></div>
+            <div class="span6"><label for="signup_last_name">Last Name</label><input class="text" id="signup_last_name" name="signup[last_name]" type="text" /></div>
+          </div>
+   
+          
+          
+          <div class="row-fluid">
+            <div class="span6"><label for="signup_email">Email</label><input class="text" id="signup_email" name="signup[email]" type="email" /></div>
+            
+          </div>
+          
+          
+     
+       
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <div class="row-fluid">
+            <div class="span12"><label class="checkbox" for="signup_activity_is_private"><input name="signup[activity_is_private]" type="hidden" value="0" /><input class="checkbox" id="signup_activity_is_private" name="signup[activity_is_private]" type="checkbox" value="1" /> Don't publish this on the website</label></div>
+          </div>
+          
+          <input class="submit-button" type="submit" name="commit" value="Signup" />
+          
+          <div class="form-submit"></div>
+            
+          </form>
+          
+          
+          
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+
+<div class="like-page">
+  <strong>Like us to spread the word</strong>
+  
+<!-- _like_page.html -->
+<div class="sharetable padtopless clearfix">
+  <div class="facebook-cell">
+    
+    <div class="desktop-visible">
+      <fb:like href="http://www.londonersonbikes.org/" show_faces="false" width="300" colorscheme="light" send="true" action="like"></fb:like>
+    </div>
+    <div class="mobile-visible">
+      <fb:like href="http://www.londonersonbikes.org/" show_faces="false" width="245" colorscheme="light" send="false" action="like"></fb:like>
+    </div>
+    
+  </div>
+  <div class="twitter-cell">
+    
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-text="Check out Londoners on Bikes. I just joined. Please sign up too and help us reach 10k #bikevote" data-via="LondonrsOnBikes">Tweet</a>
+    
+  </div>
+  <div class="gplus-cell"><g:plusone count="false" size="medium"></g:plusone></div>
+</div>
+
+<!-- /_like_page.html -->
+
+</div>
+
+
+
+<!-- _page_stream.html -->
+
+<div id="stream">
+  <div id="comment" class="comment">
+
+    
+    <a name="addreaction"></a>
+
+    <h3>Showing 1163 reactions</h3>
+    
+
+
+    <div class="page-follow" id="page_follow_79">
+      
+<!-- _page_follow.html -->
+
+<!-- /_page_follow.html -->
+
+    </div>
+
+    <div class="reaction-wrap">
+      
+
+      <div id="reactions" class="content-list">
+        <ul id="page-stream" class="activities">
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/12566"><img src="https://graph.facebook.com/v2.2/10100855701574350/picture?height=73&type=square&width=73" border="0" width="48" height="48" class="profile_image" title="Hayley Davidson" /></a></div>
+            <div class="activity activity-48024">
+
+	
+  <span class="icon-balloons-facebook"></span>
+  <a href="/12566" class="linked-signup-name">Hayley Davidson</a>
+  posted about this
+	
+	  on <a href="http://www.facebook.com/permalink.php?story_fbid=10101583630838270&id=10100855701574350">Facebook</a>
+	
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-16T11:27:08Z">2016-02-16 11:27:08 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+  Calling fellow London cyclists! Just joined Londoners On Bikes to make sure the next mayor makes us cyclists safer. Still too many people losing their lives on our streets. Get involved! <a class="tweet-url hashtag" href="https://twitter.com/#!/search?q=%23bikevote" title="#bikevote">#bikevote</a>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/8819"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Hayley Davidson" /></a></div>
+            <div class="activity activity-48023">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/8819" class="linked-signup-name">Hayley Davidson</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-16T11:21:26Z">2016-02-16 11:21:26 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+  
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><img src="https://graph.facebook.com/v2.2/10205491924011070/picture?height=73&type=square&width=73" border="0" width="48" height="48" class="profile_image" title="Stephen E. P. Govier" /></div>
+            <div class="activity activity-47968">
+
+	
+  <span class="icon-balloons-facebook"></span>
+  <span class="linked-signup-name">Stephen E. P. Govier</span>
+  posted about this
+	
+	  on <a href="http://www.facebook.com/permalink.php?story_fbid=10207633141340165&id=10205491924011070">Facebook</a>
+	
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-14T11:37:36Z">2016-02-14 11:37:36 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+  Check out Londoners on Bikes. I just joined. Please sign up too and help us reach 10k <a class="tweet-url hashtag" href="https://twitter.com/#!/search?q=%23bikevote" title="#bikevote">#bikevote</a>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><img src="https://graph.facebook.com/v2.2/10205491924011070/picture?height=73&type=square&width=73" border="0" width="48" height="48" class="profile_image" title="Stephen E. P. Govier" /></div>
+            <div class="activity activity-47967">
+
+	
+  <span class="icon-balloons-twitter"></span>
+	<a href="http://twitter.com/intent/user?screen_name=StephenGovier">@StephenGovier</a>
+	
+	  tweeted
+	
+	
+		link to this page.
+	
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-14T11:37:33Z">2016-02-14 11:37:33 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		Check out Londoners on Bikes. I just joined. Please sign up too and help us reach 10k <a class="tweet-url hashtag" href="https://twitter.com/#!/search?q=%23bikevote" title="#bikevote">#bikevote</a> <a href="http://www.londonersonbikes.org/?recruiter_id=13332">http://www.londonersonbikes.org/?recruiter_id=13332</a>
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=698833455250014208">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=698833455250014208">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=698833455250014208">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/13331"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Stephen Edward Govier" /></a></div>
+            <div class="activity activity-47966">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/13331" class="linked-signup-name">Stephen Edward Govier</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-14T11:37:13Z">2016-02-14 11:37:13 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/13327"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Colin Murphy" /></a></div>
+            <div class="activity activity-47944">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/13327" class="linked-signup-name">Colin Murphy</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-13T17:04:06Z">2016-02-13 17:04:06 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/13320"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Philip Eldridge" /></a></div>
+            <div class="activity activity-47910">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/13320" class="linked-signup-name">Philip Eldridge</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-12T17:06:13Z">2016-02-12 17:06:13 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/13316"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Sarah Morpurgo" /></a></div>
+            <div class="activity activity-47896">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/13316" class="linked-signup-name">Sarah Morpurgo</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-12T07:35:00Z">2016-02-12 07:35:00 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/13315"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Tom Lindsay" /></a></div>
+            <div class="activity activity-47890">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/13315" class="linked-signup-name">Tom Lindsay</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-11T22:57:18Z">2016-02-11 22:57:18 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/13312"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Elizabeth Morpurgo" /></a></div>
+            <div class="activity activity-47880">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/13312" class="linked-signup-name">Elizabeth Morpurgo</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-11T20:09:22Z">2016-02-11 20:09:22 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/13310"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Max Sullivan" /></a></div>
+            <div class="activity activity-47869">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/13310" class="linked-signup-name">Max Sullivan</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-11T17:23:44Z">2016-02-11 17:23:44 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/13309"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Camilla Born" /></a></div>
+            <div class="activity activity-47866">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/13309" class="linked-signup-name">Camilla Born</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-11T16:13:28Z">2016-02-11 16:13:28 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/nathanh"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Nathan Howard" /></a></div>
+            <div class="activity activity-47828">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/nathanh" class="linked-signup-name">Nathan Howard</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-10T05:46:51Z">2016-02-10 05:46:51 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/13299"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Katie Atkinson" /></a></div>
+            <div class="activity activity-47819">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/13299" class="linked-signup-name">Katie Atkinson</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-09T23:07:26Z">2016-02-09 23:07:26 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/methers73"><img src="https://graph.facebook.com/v2.2/508956356/picture?height=73&type=square&width=73" border="0" width="48" height="48" class="profile_image" title="Mark Etherington" /></a></div>
+            <div class="activity activity-47787">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/methers73" class="linked-signup-name">Mark Etherington</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-08T22:24:31Z">2016-02-08 22:24:31 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/croydoncyclists"><img src="https://graph.facebook.com/v2.2/519080431/picture?height=73&type=square&width=73" border="0" width="48" height="48" class="profile_image" title="Austen Cooper" /></a></div>
+            <div class="activity activity-47770">
+
+	
+  <span class="icon-balloons-facebook"></span>
+  <a href="/croydoncyclists" class="linked-signup-name">Austen Cooper</a>
+  posted about this
+	
+	  on <a href="http://www.facebook.com/permalink.php?story_fbid=10153752864520432&id=519080431">Facebook</a>
+	
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-08T21:29:45Z">2016-02-08 21:29:45 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+  Check out Londoners on Bikes. I just joined. Please sign up too and help us reach 10k <a class="tweet-url hashtag" href="https://twitter.com/#!/search?q=%23bikevote" title="#bikevote">#bikevote</a>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/croydoncyclists"><img src="https://graph.facebook.com/v2.2/519080431/picture?height=73&type=square&width=73" border="0" width="48" height="48" class="profile_image" title="Austen Cooper" /></a></div>
+            <div class="activity activity-47769">
+
+	
+  <span class="icon-balloons-twitter"></span>
+	<a href="http://twitter.com/intent/user?screen_name=CroydonCyclists">@CroydonCyclists</a>
+	
+	  tweeted
+	
+	
+		link to this page.
+	
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-08T21:29:42Z">2016-02-08 21:29:42 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		Check out Londoners on Bikes. I just joined. Please sign up too and help us reach 10k <a class="tweet-url hashtag" href="https://twitter.com/#!/search?q=%23bikevote" title="#bikevote">#bikevote</a> <a href="http://www.londonersonbikes.org/?recruiter_id=869">http://www.londonersonbikes.org/?recruiter_id=869</a>
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=696808147076456448">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=696808147076456448">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=696808147076456448">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/2815"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Austen Cooper" /></a></div>
+            <div class="activity activity-47768">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/2815" class="linked-signup-name">Austen Cooper</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-08T21:28:42Z">2016-02-08 21:28:42 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/4846"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Vincent Burke" /></a></div>
+            <div class="activity activity-47736">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/4846" class="linked-signup-name">Vincent Burke</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-08T14:36:51Z">2016-02-08 14:36:51 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/13286"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Gemma Collins" /></a></div>
+            <div class="activity activity-47730">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/13286" class="linked-signup-name">Gemma Collins</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-08T14:00:36Z">2016-02-08 14:00:36 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/13285"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Derek Mullan" /></a></div>
+            <div class="activity activity-47727">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/13285" class="linked-signup-name">Derek Mullan</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-08T13:56:50Z">2016-02-08 13:56:50 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/13284"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Lewis McKenna" /></a></div>
+            <div class="activity activity-47724">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/13284" class="linked-signup-name">Lewis McKenna</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-08T13:25:31Z">2016-02-08 13:25:31 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/13283"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Helena Deeney" /></a></div>
+            <div class="activity activity-47718">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/13283" class="linked-signup-name">Helena Deeney</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-08T13:05:25Z">2016-02-08 13:05:25 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/13282"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Tobias M. Freitag" /></a></div>
+            <div class="activity activity-47715">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/13282" class="linked-signup-name">Tobias M. Freitag</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-08T13:05:06Z">2016-02-08 13:05:06 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/13281"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Helen Williams" /></a></div>
+            <div class="activity activity-47709">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/13281" class="linked-signup-name">Helen Williams</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-08T12:51:03Z">2016-02-08 12:51:03 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/13281"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Helen Williams" /></a></div>
+            <div class="activity activity-47707">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/13281" class="linked-signup-name">Helen Williams</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-08T12:50:38Z">2016-02-08 12:50:38 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/13279"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Michael Knapp" /></a></div>
+            <div class="activity activity-47701">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/13279" class="linked-signup-name">Michael Knapp</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-08T12:49:02Z">2016-02-08 12:49:02 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/3350"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Dario Villanueva Ablanedo" /></a></div>
+            <div class="activity activity-47698">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/3350" class="linked-signup-name">Dario Villanueva Ablanedo</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-08T12:35:06Z">2016-02-08 12:35:06 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/13274"><img src="http://d3n8a8pro7vhmx.cloudfront.net/themes/562e9f142213932182000001/attachments/original/1445895977/buddy.png?1445895977" border="0" width="48" height="48" class="profile_image" title="Alex Davis" /></a></div>
+            <div class="activity activity-47681">
+
+	
+  <span class="icon-hand"></span>
+  <a href="/13274" class="linked-signup-name">Alex Davis</a> signed up
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-08T12:30:38Z">2016-02-08 12:30:38 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          
+          <li class="activity clearfix">
+            <div class="stream-pic"><a href="/longjon"><img src="https://graph.facebook.com/v2.2/770575592/picture?height=73&type=square&width=73" border="0" width="48" height="48" class="profile_image" title="Jon Long" /></a></div>
+            <div class="activity activity-47674">
+
+	
+  <span class="icon-balloons-twitter"></span>
+	<a href="http://twitter.com/intent/user?screen_name=Longjon">@Longjon</a>
+	
+	  tweeted
+	
+	
+		link to this page.
+	
+
+
+	<span class="activity-time">
+		
+		<abbr class="timeago" title="2016-02-08T10:59:24Z">2016-02-08 10:59:24 +0000</abbr>
+		
+	</span>
+
+	<div class="activity-content">
+	
+		Check out Londoners on Bikes. I just joined. Please sign up too and help us reach 10k <a class="tweet-url hashtag" href="https://twitter.com/#!/search?q=%23bikevote" title="#bikevote">#bikevote</a> <a href="http://www.londonersonbikes.org/?recruiter_id=880">http://www.londonersonbikes.org/?recruiter_id=880</a>
+	
+		
+	<div class="padtop small">
+			<a href="http://twitter.com/intent/tweet?in_reply_to=696649524341796864">Reply</a>
+			&middot; <a href="http://twitter.com/intent/retweet?tweet_id=696649524341796864">Retweet</a>
+			&middot; <a href="http://twitter.com/intent/favorite?tweet_id=696649524341796864">Favorite</a>
+	</div>
+</div>
+
+</div>
+          </li>
+          </ul>
+        <div class="pagination"><ul><li class="disabled"><a href="http://www.londonersonbikes.org/?page=" class="disabled">&laquo;</a></li><li class="active"><a href="#" class="active">1</a></li><li><a href="http://www.londonersonbikes.org/?page=2">2</a></li><li><a href="http://www.londonersonbikes.org/?page=3">3</a></li><li><a href="http://www.londonersonbikes.org/?page=4">4</a></li><li><a href="http://www.londonersonbikes.org/?page=5">5</a></li><li><a href="http://www.londonersonbikes.org/?page=6">6</a></li><li><a href="http://www.londonersonbikes.org/?page=7">7</a></li><li><a href="http://www.londonersonbikes.org/?page=8">8</a></li><li><a href="http://www.londonersonbikes.org/?page=9">9</a></li><li><a>&hellip;</a></li><li><a href="http://www.londonersonbikes.org/?page=38">38</a></li><li><a href="http://www.londonersonbikes.org/?page=39">39</a></li><li><a href="http://www.londonersonbikes.org/?page=2">&raquo;</a></li></ul></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- /_page_stream.html -->
+
+
+
+            </div>
+
+          </div>
+          <!-- .main -->
+
+          
+
+        </div>
+        <!-- .main-container -->
+
+
+        <footer>
+
+          <div class="width-container clearfix">
+
+            <div class="row-fluid">
+
+              <div class="span4 footer-left footer-supporter-tiles-wrap">
+                
+                <h4>Powered by people like you</h4>
+                <div class="footer-supporter-tiles clearfix">
+                  
+                  <a href="/bicyclopedia"><img src="http://res.cloudinary.com/nationbuilder/image/twitter/w_73,h_73,c_fill,d_buddy1.png/458651395.jpg" border="0" width="72" height="72" class="profile_image" title="Bicyclopedia" /></a>
+                  
+                  <a href="/ndtuned"><img src="http://res.cloudinary.com/nationbuilder/image/twitter/w_73,h_73,c_fill,d_buddy1.png/2981320120.jpg" border="0" width="72" height="72" class="profile_image" title="Nd Tuned" /></a>
+                  
+                  <a href="/bindmans_injury"><img src="http://res.cloudinary.com/nationbuilder/image/twitter/w_73,h_73,c_fill,d_buddy1.png/2563687824.jpg" border="0" width="72" height="72" class="profile_image" title="Bindmans PI & Cn" /></a>
+                  
+                  <a href="/anna_mendelsohn"><img src="http://res.cloudinary.com/nationbuilder/image/twitter/w_73,h_73,c_fill,d_buddy1.png/4766934500.jpg" border="0" width="72" height="72" class="profile_image" title="Anna Mendelsohn" /></a>
+                  
+                  <a href="/avrgejoecyclist"><img src="http://res.cloudinary.com/nationbuilder/image/twitter/w_73,h_73,c_fill,d_buddy1.png/183034995.jpg" border="0" width="72" height="72" class="profile_image" title="Average Joe Cyclist" /></a>
+                  
+                  <a href="/tommytakesphoto"><img src="http://res.cloudinary.com/nationbuilder/image/twitter/w_73,h_73,c_fill,d_buddy1.png/462095851.jpg" border="0" width="72" height="72" class="profile_image" title="thomas butler" /></a>
+                  
+                  <a href="/beccaloucourier"><img src="http://res.cloudinary.com/nationbuilder/image/twitter/w_73,h_73,c_fill,d_buddy1.png/4899437657.jpg" border="0" width="72" height="72" class="profile_image" title="Becca-Lou" /></a>
+                  
+                  <a href="/barbershoptim"><img src="http://res.cloudinary.com/nationbuilder/image/twitter/w_73,h_73,c_fill,d_buddy1.png/115769035.jpg" border="0" width="72" height="72" class="profile_image" title="Tim Sowter" /></a>
+                  
+                  <a href="/fantasiapalace"><img src="http://res.cloudinary.com/nationbuilder/image/twitter/w_73,h_73,c_fill,d_buddy1.png/831088681.jpg" border="0" width="72" height="72" class="profile_image" title="Fantasia Palace" /></a>
+                  
+                  <a href="/jonathanmelos"><img src="http://res.cloudinary.com/nationbuilder/image/twitter/w_73,h_73,c_fill,d_buddy1.png/220116220.jpg" border="0" width="72" height="72" class="profile_image" title="jonathan melo" /></a>
+                  
+                </div>
+                
+              </div>
+
+              <div class="span6 footer-left footer-content">
+                
+                <p><a href="/contact">Contact</a> | <a href="/unsubscribe">Unsubscribe</a></p>
+                
+                
+                <p>Sign in with <a href="https://lob.nationbuilder.com/users/facebook/connect?page_id=79&scope=public_profile%2Cemail">Facebook</a>, <a
+                    href="/users/twitter/connect?page_id=79">Twitter</a> or <a href="/login">email</a>.</p>
+                
+                <!-- The NationBuilder link below is required. If it is removed, we may add it back ourselves.
+                     You can style it or move it in different ways, but please leave it in the footer. -->
+                <p>Created with <a href="http://nationbuilder.com/">NationBuilder</a></p>
+                <p>
+                  
+                  <span class="footer-social-button">
+                    <a href="http://twitter.com/LondonrsOnBikes" class="twitter-follow-button" data-show-count="false">Follow @LondonrsOnBikes on Twitter</a>
+                  </span>
+                  
+                  
+                  <span class="footer-social-button"><fb:like href="https://www.facebook.com/Londonersonbikes/" data-layout="button" layout="button" action="like" show_faces="false" share="false"></fb:like></span>
+                  
+                </p>
+              </div>
+
+              <div class="span2 footer-right footer-social-links">
+                
+                <a class="twitter" target="_blank" href="http://twitter.com/LondonrsOnBikes"><span class="icon-twitter-squared"></span></a>
+                
+                
+                <a class="facebook" target="_blank" href="https://www.facebook.com/Londonersonbikes/"><span class="icon-facebook-squared"></span></a>
+                
+              </div>
+
+            </div>
+
+            <div id="fb-root"></div>
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : 126739610711965,
+      channelUrl : "//lob.nationbuilder.com/channel.html",
+      status     : true,
+      version    : "v2.3",
+      cookie     : true,
+      xfbml      : true
+    });
+  };
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.async = true;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+<script src="//d3n8a8pro7vhmx.cloudfront.net/assets/liquid-d4f2b2e96287b5d6bcbdde4a0f4c8c85.js" type="text/javascript"></script>
+<script src="//d3n8a8pro7vhmx.cloudfront.net/assets/tinymce-jquery-b16bb09336f0e7f04e5e1d9228b0b6e8.js" type="text/javascript"></script>
+
+	<iframe src="//www.londonersonbikes.org/session_pair_phase_1?iframe=1" width="1" height="1" style="display: none;"></iframe>
+
+
+  <script type="text/javascript">
+  _qevents.push(
+  	{ qacct:"p-5ftmjaPECGTTU" }
+  	);
+  </script>
+
+  <noscript>
+  <div style="display: none;"><img src="//pixel.quantserve.com/pixel?a.1=p-5ftmjaPECGTTU" height="1" width="1" alt="Quantcast"/></div>
+  </noscript>
+
+
+
+          </div>
+
+        </footer>
+
+        <!-- .width-container -->
+
+      </div>
+      <!-- #body -->
+    </div>
+    <!-- #wrap -->
+    
+    <!-- .sidebar -->
+  </div>
+  <!-- #pattern -->
+
+
+
+</body>
+</html>
+
+

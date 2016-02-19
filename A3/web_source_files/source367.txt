@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+
+		<title>WWF - Plataforma acción | Marca el territorio por el Lobo</title>
+		<meta name="description" content="Plataforma de acción de WWF España">
+		<meta name="keywords" content="plataforma,accion,españa,wwf,panda,ong" />
+		<meta name="author" content="WWF">
+		
+		<!-- facebook -->
+		<meta property="og:url" content="http://wwfenaccion.com/img/projects/marca-el-territorio-por-el-lobo" />
+		<meta property="og:image" content="http://wwfenaccion.com/img/projects/p-29-second-320x240.jpg" />
+		
+		<!--<link rel="image_src" href="http://wwfenaccion.com/img/projects/p-29-second-320x240.jpg"/>-->
+		
+		<meta property="og:title" content="Marca el territorio por el Lobo"/>
+		<meta property="og:description" content="Actúa para salvar al lobo. Firma y comparte. "/>
+		<meta property="og:type" content="website"/>
+
+		<!-- twitter -->
+		<meta name="twitter:url" content="http://wwfenaccion.com/img/projects/marca-el-territorio-por-el-lobo">
+		<meta name="twitter:image" content="http://wwfenaccion.com/img/projects/p-29-second-320x240.jpg">
+		<meta name="twitter:title" content="Marca el territorio por el Lobo"/>
+		<meta name="twitter:description" content="Actúa para salvar al lobo. Firma y comparte. "/>
+
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no" />
+
+		<link rel="shortcut icon" href="/img/frontend/favicon.ico">
+		<link rel="apple-touch-icon" href="/img/frontend/apple-touch-icon.png">
+		
+		
+
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400,300' rel='stylesheet' type='text/css'>		
+		<link rel="stylesheet" type="text/css" href="/css/frontend/style.css" />
+		<script>var WEBROOT = '/';</script>
+
+		<!-- html5 tags -->
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<link rel="stylesheet" type="text/css" href="/css/frontend/hacks.css" />
+		<![endif]-->
+
+		<script type="text/javascript">
+			var isiPad = navigator.userAgent.match(/iPad/i) != null;
+			if(isiPad) {
+				var head  = document.getElementsByTagName('head')[0];
+			    var link  = document.createElement('link');
+			    link.rel  = 'stylesheet';
+			    link.type = 'text/css';
+			    link.href = '/css/frontend/hacks.css';
+			    head.appendChild(link);
+			}
+		</script>
+
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-39256703-2']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+	</head>
+	<body>	
+		<header id="main-header">
+			<div class="content">
+				<a href="/" onClick="_gaq.push(['_trackEvent', 'Menú', 'Logo']);"><div class="logo"></div></a>
+				<nav>
+					<p><a href="/" onClick="_gaq.push(['_trackEvent', 'Menú', 'Campañas']);">Campañas</a></p>
+					<!-- <p><a href="/pages/what-is" onClick="_gaq.push(['_trackEvent', 'Menú', 'Qué es']);">Qué es</a></p> -->
+					<p><a href="http://www.wwf.es/" target="_blank" rel="nofollow" onClick="_gaq.push(['_trackEvent', 'Menú', 'WWF']);">WWF</a></p>
+				</nav>
+			</div>
+		</header>
+		
+		<div id="obr-modal-zone"></div>
+		
+				<section id="project">
+	<header>
+		<div class="content">
+			<div class="form-action form1">
+				<div class="form-js">
+											<div class="view-form">
+							<div class="form">
+	<div class="spinner"></div>
+	<div class="form-action-header">Entra en acción</div>
+	<form action="/proyectos/marca-el-territorio-por-el-lobo-29" id="exists_user" class="obr-group" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/></div>			<div class="form-content">
+				<p class="info">Si has firmado alguna acción antes, rellena sólo tu email:</p>
+				<input type="hidden" name="data[User][action_id]" value="36" id="UserActionId"/><input type="hidden" name="data[User][type]" value="0" id="UserType"/><div class="input email required"><input name="data[User][email]" maxlength="120" type="email" id="UserEmail" required="required"/></div>			</div>
+			<a class="cmd-proceed" href="" onClick="_gaq.push(['_trackEvent', 'Form', 'Email user']);">Actúa</a>
+		</form></div>
+<div class="form">
+	<form action="/proyectos/marca-el-territorio-por-el-lobo-29" id="new_user" class="obr-group" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/></div>		<div class="form-content">
+			<p class="info">¿Es la primera vez que firmas una petición? Si es así, antes debes registrarte.</p>
+			<input type="hidden" name="data[User][lang]" value="es" id="UserLang"/><input type="hidden" name="data[User][action_id]" value="36" id="UserActionId"/><input type="hidden" name="data[User][type]" value="0" id="UserType"/><div class="small-field  no-margin required"><label for="UserFirstName">*NOMBRE</label><input name="data[User][first_name]" maxlength="255" type="text" id="UserFirstName" required="required"/></div><div class="small-field required"><label for="UserLastName">*APELLIDOS</label><input name="data[User][last_name]" maxlength="255" type="text" id="UserLastName" required="required"/></div><div class="input email required"><label for="UserEmail">*Email</label><input name="data[User][email]" maxlength="120" type="email" id="UserEmail" required="required"/></div><div class="small-field  no-margin"><label for="UserDniNumber">*DNI</label><input name="data[User][dni_number]" maxlength="20" type="text" id="UserDniNumber"/></div><div class="small-field"><label for="UserPhone">Tlf</label><input name="data[User][phone]" maxlength="50" type="tel" id="UserPhone"/></div>					
+				<div class="input select required">
+					<label for="UserCountry">*País</label>
+					<select name="data[User][country]" id="UserCountry" required="required">
+						<option value="">Selecciona un país</option>
+						<option value="">------------------</option>
+						 <option value="US">Estados Unidos</option><option value="GB">Reino Unido</option><option value="FR">Francia</option><option value="DE">Alemania</option><option value="ES" selected>España</option><option value="IT">Italia</option><option value="NL">Holanda</option><option value="BE">Belgica</option><option value="SE">Suecia</option><option value="AU">Australia</option>						<option value="">------------------</option>
+						<option value="AF">Afganistan</option><option value="AL">Albania</option><option value="DZ">Algeria</option><option value="AS">American Samoa</option><option value="AD">Andorra</option><option value="AO">Angola</option><option value="AI">Anguilla</option><option value="AQ">Antarctica</option><option value="AG">Antigua and Barbuda</option><option value="AR">Argentina</option><option value="AM">Armenia</option><option value="AW">Aruba</option><option value="AU">Australia</option><option value="AT">Austria</option><option value="AZ">Azerbaijan</option><option value="BS">Bahamas</option><option value="BH">Bahrain</option><option value="BD">Bangladesh</option><option value="BB">Barbados</option><option value="BY">Belarus</option><option value="BE">Belgium</option><option value="BZ">Belize</option><option value="BJ">Benin</option><option value="BM">Bermuda</option><option value="BT">Bhutan</option><option value="BO">Bolivia</option><option value="BA">Bosnia and Herzegowina</option><option value="BW">Botswana</option><option value="BV">Bouvet Island</option><option value="BR">Brazil</option><option value="IO">British Indian Ocean Territory</option><option value="BN">Brunei Darussalam</option><option value="BG">Bulgaria</option><option value="BF">Burkina Faso</option><option value="BI">Burundi</option><option value="KH">Cambodia</option><option value="CM">Cameroon</option><option value="CA">Canada</option><option value="CV">Cape Verde</option><option value="KY">Cayman Islands</option><option value="CF">Central African Republic</option><option value="TD">Chad</option><option value="CL">Chile</option><option value="CN">China</option><option value="CX">Christmas Island</option><option value="CC">Cocos (Keeling) Islands</option><option value="CO">Colombia</option><option value="KM">Comoros</option><option value="CG">Congo</option><option value="CD">Congo, the Democratic Republic of the</option><option value="CK">Cook Islands</option><option value="CR">Costa Rica</option><option value="CI">Cote d'Ivoire</option><option value="HR">Croatia (Hrvatska)</option><option value="CU">Cuba</option><option value="CY">Cyprus</option><option value="CZ">Czech Republic</option><option value="DK">Denmark</option><option value="DJ">Djibouti</option><option value="DM">Dominica</option><option value="DO">Dominican Republic</option><option value="TP">East Timor</option><option value="EC">Ecuador</option><option value="EG">Egypt</option><option value="SV">El Salvador</option><option value="GQ">Equatorial Guinea</option><option value="ER">Eritrea</option><option value="ES">España</option><option value="EE">Estonia</option><option value="ET">Ethiopia</option><option value="FK">Falkland Islands (Malvinas)</option><option value="FO">Faroe Islands</option><option value="FJ">Fiji</option><option value="FI">Finland</option><option value="FR">France</option><option value="FX">France, Metropolitan</option><option value="GF">French Guiana</option><option value="PF">French Polynesia</option><option value="TF">French Southern Territories</option><option value="GA">Gabon</option><option value="GM">Gambia</option><option value="GE">Georgia</option><option value="DE">Germany</option><option value="GH">Ghana</option><option value="GI">Gibraltar</option><option value="GR">Greece</option><option value="GL">Greenland</option><option value="GD">Grenada</option><option value="GP">Guadeloupe</option><option value="GU">Guam</option><option value="GT">Guatemala</option><option value="GN">Guinea</option><option value="GW">Guinea-Bissau</option><option value="GY">Guyana</option><option value="HT">Haiti</option><option value="HM">Heard and Mc Donald Islands</option><option value="VA">Holy See (Vatican City State)</option><option value="HN">Honduras</option><option value="HK">Hong Kong</option><option value="HU">Hungary</option><option value="IS">Iceland</option><option value="IN">India</option><option value="ID">Indonesia</option><option value="IR">Iran (Islamic Republic of)</option><option value="IQ">Iraq</option><option value="IE">Ireland</option><option value="IL">Israel</option><option value="IT">Italy</option><option value="JM">Jamaica</option><option value="JP">Japan</option><option value="JO">Jordan</option><option value="KZ">Kazakhstan</option><option value="KE">Kenya</option><option value="KI">Kiribati</option><option value="KP">Korea, Democratic People's Republic of</option><option value="KR">Korea, Republic of</option><option value="KW">Kuwait</option><option value="KG">Kyrgyzstan</option><option value="LA">Lao People's Democratic Republic</option><option value="LV">Latvia</option><option value="LB">Lebanon</option><option value="LS">Lesotho</option><option value="LR">Liberia</option><option value="LY">Libyan Arab Jamahiriya</option><option value="LI">Liechtenstein</option><option value="LT">Lithuania</option><option value="LU">Luxembourg</option><option value="MO">Macau</option><option value="MK">Macedonia, The Former Yugoslav Republic of</option><option value="MG">Madagascar</option><option value="MW">Malawi</option><option value="MY">Malaysia</option><option value="MV">Maldives</option><option value="ML">Mali</option><option value="MT">Malta</option><option value="MH">Marshall Islands</option><option value="MQ">Martinique</option><option value="MR">Mauritania</option><option value="MU">Mauritius</option><option value="YT">Mayotte</option><option value="MX">Mexico</option><option value="FM">Micronesia, Federated States of</option><option value="MD">Moldova, Republic of</option><option value="MC">Monaco</option><option value="MN">Mongolia</option><option value="MS">Montserrat</option><option value="MA">Morocco</option><option value="MZ">Mozambique</option><option value="MM">Myanmar</option><option value="NA">Namibia</option><option value="NR">Nauru</option><option value="NP">Nepal</option><option value="NL">Netherlands</option><option value="AN">Netherlands Antilles</option><option value="NC">New Caledonia</option><option value="NZ">New Zealand</option><option value="NI">Nicaragua</option><option value="NE">Niger</option><option value="NG">Nigeria</option><option value="NU">Niue</option><option value="NF">Norfolk Island</option><option value="MP">Northern Mariana Islands</option><option value="NO">Norway</option><option value="OM">Oman</option><option value="PK">Pakistan</option><option value="PW">Palau</option><option value="PA">Panama</option><option value="PG">Papua New Guinea</option><option value="PY">Paraguay</option><option value="PE">Peru</option><option value="PH">Philippines</option><option value="PN">Pitcairn</option><option value="PL">Poland</option><option value="PT">Portugal</option><option value="PR">Puerto Rico</option><option value="QA">Qatar</option><option value="RE">Reunion</option><option value="RO">Romania</option><option value="RU">Russian Federation</option><option value="RW">Rwanda</option><option value="KN">Saint Kitts and Nevis</option><option value="LC">Saint LUCIA</option><option value="VC">Saint Vincent and the Grenadines</option><option value="WS">Samoa</option><option value="SM">San Marino</option><option value="ST">Sao Tome and Principe</option><option value="SA">Saudi Arabia</option><option value="SN">Senegal</option><option value="SC">Seychelles</option><option value="SL">Sierra Leone</option><option value="SG">Singapore</option><option value="SK">Slovakia (Slovak Republic)</option><option value="SI">Slovenia</option><option value="SB">Solomon Islands</option><option value="SO">Somalia</option><option value="ZA">South Africa</option><option value="GS">South Georgia and the South Sandwich Islands</option><option value="LK">Sri Lanka</option><option value="SH">St. Helena</option><option value="PM">St. Pierre and Miquelon</option><option value="SD">Sudan</option><option value="SR">Suriname</option><option value="SJ">Svalbard and Jan Mayen Islands</option><option value="SZ">Swaziland</option><option value="SE">Sweden</option><option value="CH">Switzerland</option><option value="SY">Syrian Arab Republic</option><option value="TW">Taiwan, Province of China</option><option value="TJ">Tajikistan</option><option value="TZ">Tanzania, United Republic of</option><option value="TH">Thailand</option><option value="TG">Togo</option><option value="TK">Tokelau</option><option value="TO">Tonga</option><option value="TT">Trinidad and Tobago</option><option value="TN">Tunisia</option><option value="TR">Turkey</option><option value="TM">Turkmenistan</option><option value="TC">Turks and Caicos Islands</option><option value="TV">Tuvalu</option><option value="UG">Uganda</option><option value="UA">Ukraine</option><option value="AE">United Arab Emirates</option><option value="GB">United Kingdom</option><option value="US">United States</option><option value="UM">United States Minor Outlying Islands</option><option value="UY">Uruguay</option><option value="UZ">Uzbekistan</option><option value="VU">Vanuatu</option><option value="VE">Venezuela</option><option value="VN">Viet Nam</option><option value="VG">Virgin Islands (British)</option><option value="VI">Virgin Islands (U.S.)</option><option value="WF">Wallis and Futuna Islands</option><option value="EH">Western Sahara</option><option value="YE">Yemen</option><option value="YU">Yugoslavia</option><option value="ZM">Zambia</option><option value="ZW">Zimbabwe</option>					</select>
+				</div>
+				
+				<div class="input select"><label for="UserRegion">Provincia (sólo España)</label><select name="data[User][region]" id="UserRegion">
+<option value=""></option>
+<option value="0">A Coruña</option>
+<option value="1">Álava</option>
+<option value="2">Albacete</option>
+<option value="3">Alicante</option>
+<option value="4">Almería</option>
+<option value="5">Asturias</option>
+<option value="6">Ávila</option>
+<option value="7">Badajoz</option>
+<option value="8">Barcelona</option>
+<option value="9">Burgos</option>
+<option value="10">Cáceres</option>
+<option value="11">Cádiz</option>
+<option value="12">Cantabria</option>
+<option value="13">Castellón</option>
+<option value="14">Ceuta</option>
+<option value="15">Ciudad Real</option>
+<option value="16">Córdoba</option>
+<option value="17">Cuenca</option>
+<option value="18">Girona</option>
+<option value="19">Las Palmas</option>
+<option value="20">Granada</option>
+<option value="21">Guadalajara</option>
+<option value="22">Guipúzcoa</option>
+<option value="23">Huelva</option>
+<option value="24">Huesca</option>
+<option value="25">Illes Balears</option>
+<option value="26">Jaén</option>
+<option value="27">La Rioja</option>
+<option value="28">León</option>
+<option value="29">Lleida</option>
+<option value="30">Lugo</option>
+<option value="31">Madrid</option>
+<option value="32">Málaga</option>
+<option value="33">Melilla</option>
+<option value="34">Murcia</option>
+<option value="35">Navarra</option>
+<option value="36">Ourense</option>
+<option value="37">Palencia</option>
+<option value="38">Pontevedra</option>
+<option value="39">Salamanca</option>
+<option value="40">Santa Cruz de Tenerife</option>
+<option value="41">Segovia</option>
+<option value="42">Sevilla</option>
+<option value="43">Soria</option>
+<option value="44">Tarragona</option>
+<option value="45">Teruel</option>
+<option value="46">Toledo</option>
+<option value="47">Valencia</option>
+<option value="48">Valladolid</option>
+<option value="49">Vizcaya</option>
+<option value="50">Zamora</option>
+<option value="51">Zaragoza</option>
+</select></div>			<div class="info-content">
+				<input type='checkbox' name='partner' value='valuable' id="partner"/>
+				<label for="partner"></label>
+				<label class="info-text" for="partner">Soy socio de WWF</label>
+			</div>
+		</div>
+		<div class="obr-group">
+			<div class="form-errors"></div>
+			<a class="cmd-proceed" href="" onClick="_gaq.push(['_trackEvent', 'Form', 'New user']);">Actúa</a>
+		</div>
+		<div class="info-content">
+			<input type='checkbox' name='info' value='valuable' id="info" checked />
+			<label class="info-icon" for="info"></label>
+			<label class="info-icon-text" for="info">Deseo recibir más información de WWF</label>
+		</div>
+	</form>	
+	<div class="privacity form-content">
+		Al participar en esta acción aceptas la		<a href="http://www.wwf.es/politica_de_privacidad1/" target="_blank" rel="nofollow">Política de Privacidad</a>
+	</div>
+</div>						</div>
+															<div class="action-progress-bar-wrapper">
+						<div class='action-progress-bar' id="featured">
+			<div class='data'>
+			<div class='signatures'><span class='value'>19.688</span> FIRMAS</div>
+			<div class='date'>30.000 OBJETIVO</div>
+		</div>
+		<div class='bar'>
+			<div class='progress' style='width:0%'></div>
+			<div class='trama'></div>
+		</div>
+	</div>					</div>
+									</div>
+			</div>
+						<div class='status-explanation'>
+				<span class='m-title'>19.688</span><span class='m-title-2'> FIRMAS</span>
+										<div class='s-title'>SUMA LA TUYA</div>
+							</div>
+						<div id="project-menu">
+				<ul class='last-signatures'>
+                        <li class='action-box'>
+                <div class='centered'>
+                  <div class='num'># <span class='value'>19.688</span></div>
+                  <div class='name'>Elena Joglar Álvarez</div>
+                  <div class='where'>Asturias, España                  </div>
+                </div>
+              </li>
+                        <li class='action-box'>
+                <div class='centered'>
+                  <div class='num'># <span class='value'>19.687</span></div>
+                  <div class='name'>Rafael  Parra Penades</div>
+                  <div class='where'>Barcelona, España                  </div>
+                </div>
+              </li>
+                        <li class='action-box'>
+                <div class='centered'>
+                  <div class='num'># <span class='value'>19.686</span></div>
+                  <div class='name'>Josep Vara</div>
+                  <div class='where'>Barcelona, España                  </div>
+                </div>
+              </li>
+                        <li class='action-box'>
+                <div class='centered'>
+                  <div class='num'># <span class='value'>19.685</span></div>
+                  <div class='name'>Laura Álvarez Villar </div>
+                  <div class='where'>Madrid, España                  </div>
+                </div>
+              </li>
+                  </ul>
+							<a href="http://www.wwf.es/colabora/colabora/adopta/" target="_blank">
+					<div class="outside-link">
+						<img src="/img/projects/p-29-outside.jpg" alt="" />
+						<div class="outside-title">Adopta </div>
+					</div>
+				</a>
+						</div>
+		</div>
+		<div class='main-project-image-wrapper'>
+			<div id='main-project-image' style="background-image: url(/img/projects/p-29-main-1350x570.jpg)"></div>
+		</div>
+	</header>
+	
+	<div id="project-body" class="content obr-group">
+		<article>
+			<header>
+				<h1>Marca el territorio por el Lobo</h1>
+								<section class='header-options obr-group'>
+					<!--<span class='date'> 3 Febrero 2016</span>-->
+					<nav class='menu-social'>
+						<span>COMPARTIR</span>
+						<ul class='social-share-bar'>
+	<li><a class='fb facebook-icon' href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwwfenaccion.com%2Fes%2Fproyectos%2Fmarca-el-territorio-por-el-lobo-29/?rel=facebook" title='Compartir en Facebook' onClick="window.open('https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwwfenaccion.com%2Fes%2Fproyectos%2Fmarca-el-territorio-por-el-lobo-29/?rel=facebook', 'popup', 'width=600,height=370'); _gaq.push(['_trackEvent', 'Facebook', 'Social']); return false;"></a></li>
+	
+		<!--
+	<li><a class='fb facebook-icon' href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwwfenaccion.com%2Fes%2Fproyectos%2Fmarca-el-territorio-por-el-lobo-29" title='Compartir en Facebook' onClick="window.open('http://www.facebook.com/sharer.php?s=100&p[title]='+ 'Marca+el+territorio+por+el+Lobo' + '&p[summary]=' + 'Act%C3%BAa+para+salvar+al+lobo.+Firma+y+comparte.+' + '&p[url]=' + 'http://wwfenaccion.com/img/projects/marca-el-territorio-por-el-lobo' + '&p[images][0]=' + 'http://wwfenaccion.com/img/projects/p-29-second-320x240.jpg', 'popup', 'toolbar=0,status=0,width=626,height=436'); _gaq.push(['_trackEvent', 'Facebook', 'Social']); return false;"></a></li>
+	-->
+	
+	<li><a class='tt twitter-icon' href='http://twitter.com/share?text=Act%C3%BAa+para+salvar+al+lobo.+Firma+y+comparte.%23LoboSI&url=http%3A%2F%2Fwwfenaccion.com%2Fes%2Fproyectos%2Fmarca-el-territorio-por-el-lobo-29' title='Compartir en Twitter' onClick="window.open('http://twitter.com/share?text=Act%C3%BAa+para+salvar+al+lobo.+Firma+y+comparte.%23LoboSI&url=http%3A%2F%2Fwwfenaccion.com%2Fes%2Fproyectos%2Fmarca-el-territorio-por-el-lobo-29', 'popup', 'width=600,height=370'); _gaq.push(['_trackEvent', 'Twitter', 'Social']); return false;"></a></li>
+</ul>
+					
+					</nav>
+				</section>
+							</header>
+			<div class="project-body-text">
+								<div class='body'>
+					<h2>¡ACABEMOS CON LA PERSECUCIÓN DEL LOBO!</h2>
+					<p><strong>NO PERMITAS QUE MATEN LOBOS AL SUR DEL DUERO&nbsp;</strong></p>
+<p><strong>La Junta de Castilla y Le&oacute;n ha anunciado su intenci&oacute;n de matar cuatro lobos al sur del r&iacute;o Duero</strong> (dos en Salamanca y dos en &Aacute;vila), cediendo una vez m&aacute;s a las presiones de determinados ganaderos. Esta decisi&oacute;n se ha tomado a pesar de que <strong>en esta zona la especie est&aacute; estrictamente protegida</strong> por la Directiva H&aacute;bitats y por la propia legislaci&oacute;n espa&ntilde;ola, que solamente contempla su captura bajo circunstancias excepcionales, cient&iacute;ficamente argumentadas y siempre que no exista otra alternativa viable.<br /><br />La intenci&oacute;n de matar estos cuatro lobos es una muestra m&aacute;s de la gesti&oacute;n ca&oacute;tica y a la carta de esta especie en nuestro pa&iacute;s, as&iacute; como de la persecuci&oacute;n arbitraria que sufre el lobo tanto en las comunidades aut&oacute;nomas donde est&aacute; protegido como en las que no lo est&aacute;. En ambos casos<strong> el rifle se ha convertido en la principal herramienta de gesti&oacute;n</strong> <strong>de esta joya de la naturaleza ib&eacute;rica.<br /><br />Nos oponemos a la caza del lobo en toda Espa&ntilde;a</strong>, pero es especialmente grave que sea la propia administraci&oacute;n la que permita la muerte de ejemplares al sur del Duero, donde se encuentra legalmente protegida la especie, traspasando as&iacute; la l&iacute;nea roja que la Uni&oacute;n Europea ha marcado.</p>
+<p class="tab-image-container"><img class="tab-image" src="/img/backend/gallery/1454498388.jpg" alt="" /></p>
+<p><strong>Marca el territorio por el lobo&hellip;</strong></p>
+<p><strong>&hellip; PORQUE LOS LOBOS AL SUR DEL DUERO SIGUEN MUY AMENAZADOS </strong></p>
+<p>La presi&oacute;n de la propia Junta de Castilla y Le&oacute;n, la caza furtiva y la permisividad ante las demandas del sector ganadero est&aacute; <strong>amenazando la supervivencia de los pocos lobos</strong> que campean al sur del r&iacute;o Duero. Adem&aacute;s, ni la Comunidad de Madrid ni la Junta de Castilla-La Mancha han favorecido su expansi&oacute;n. En Extremadura ya se ha extinguido y en Andaluc&iacute;a est&aacute; al borde de su total desaparici&oacute;n.</p>
+<p>La inacci&oacute;n del Ministerio de Agricultura, Alimentaci&oacute;n y Medio Ambiente y las comunidades aut&oacute;nomas al no cumplir su obligaci&oacute;n legal de desarrollar planes de recuperaci&oacute;n est&aacute; poniendo en grave riesgo el futuro de estos lobos.</p>
+<p class="tab-image-container"><img class="tab-image" src="/img/backend/gallery/1454576680.jpg" alt="" /></p>
+<p class="tab-image-container"><strong>&hellip; PORQUE NO SABEMOS CU&Aacute;NTOS LOBOS QUEDAN</strong></p>
+<p>La Ministra de Medio Ambiente no puede permitir que se aplique esta medida excepcional <strong>sin saber exactamente cu&aacute;ntos lobos hay</strong><strong> en Espa&ntilde;a y sin informaci&oacute;n cient&iacute;fica </strong>que lo avale, ya que el &uacute;ltimo censo nacional se realiz&oacute; hace m&aacute;s de 25 a&ntilde;os.</p>
+<p><strong>&hellip; PORQUE MATAR LOBOS NO ES LA SOLUCI&Oacute;N<br /><br /></strong>La decisi&oacute;n de la Junta de Castilla y Le&oacute;n pretende &uacute;nicamente dar salida una vez m&aacute;s a la presi&oacute;n de determinadas organizaciones profesionales agrarias, sin buscar otras soluciones, como es su obligaci&oacute;n. <strong>WWF se opone a que se sigan matando lobos en Espa&ntilde;a</strong> y recuerda que <strong>el lobo es el &uacute;ltimo problema de los ganaderos</strong>. Lo que realmente pone en jaque el futuro de la ganader&iacute;a extensiva es el abandono y la falta de apoyo por parte de las administraciones y en ning&uacute;n caso salvaremos la ganader&iacute;a extensiva matando lobos.<br /><br />No podemos permitirlo. Firma y env&iacute;a esta carta a la Ministra de Agricultura, Alimentaci&oacute;n y Medio Ambiente para <strong>que impida la muerte de estos cuatro lobos y ponga fin a su persecuci&oacute;n injustificada en toda Espa&ntilde;a.</strong></p>
+<p><strong>&iexcl;Firma ahora y marca el territorio por el lobo!!</strong></p>				</div>
+								<section id='letter'>
+					<header>
+						<div class='letter-logo'></div>
+						<h3><p><strong>Att D&ordf;. Isabel Garc&iacute;a Tejerina</strong></p>
+<p><strong>Ministra </strong></p>
+<p><strong>Ministerio de Agricultura, Alimentaci&oacute;n y Medio Ambiente</strong></p>
+<p>&nbsp;</p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></h3>
+					</header>
+					<div class='body'>
+						<p>La Junta de Castilla y Le&oacute;n ha anunciado p&uacute;blicamente, tras reunirse con ganaderos, su intenci&oacute;n de matar de forma inminente cuatro lobos al sur del r&iacute;o Duero pese a que la especie est&aacute; estrictamente protegida en esta zona por la legislaci&oacute;n espa&ntilde;ola y europea.</p>
+<p>Como m&aacute;xima responsable de velar por la conservaci&oacute;n de la naturaleza en nuestro pa&iacute;s debe exigir que se cumpla la legislaci&oacute;n ambiental y se garantice la conservaci&oacute;n de la especie. La ley establece que &uacute;nicamente puede autorizarse el sacrificio de un lobo al sur del Duero de manera excepcional y siempre que se haya demostrado que existen da&ntilde;os importantes al ganado, que no haya otras alternativas viables y que los cupos de captura se hayan establecido de acuerdo a criterios cient&iacute;ficos. Sin embargo ninguna de estas premisas se cumple en este caso, por lo que resultar&iacute;a inadmisible que permitiese la caza de estos cuatro lobos.</p>
+<p>No se puede entender que se sigan matando lobos en Espa&ntilde;a, sin que el Ministerio que usted dirige tenga un claro conocimiento de la situaci&oacute;n real de las poblaciones de la especie -el &uacute;ltimo censo se realiz&oacute; hace 25 a&ntilde;os- y sin haber exigido a las diferentes Comunidades Aut&oacute;nomas que cumplan con su obligaci&oacute;n legal de proteger los lobos al sur del Duero. De hecho, ni la Comunidad de Madrid, ni la de Castilla-La Mancha han aprobado los planes de recuperaci&oacute;n de la especie, y tampoco lo ha hecho la de Extremadura, donde ya se ha extinguido, ni la de Andaluc&iacute;a, donde est&aacute; a punto de desaparecer.</p>
+<p>La persecuci&oacute;n al lobo no es la soluci&oacute;n a los problemas de la ganader&iacute;a extensiva, cuya grave crisis est&aacute; relacionada con otros muchos factores y con el abandono por parte de las administraciones.</p>
+<p>Por todo ello, <strong>le solicitamos que haga cumplir la ley e impida que la Junta de Castilla y Le&oacute;n mate estos cuatro lobos</strong>, que ponga en marcha de inmediato un censo nacional basado en criterios cient&iacute;ficos y que adopte las medidas a que obliga la ley para garantizar la conservaci&oacute;n del lobo ib&eacute;rico al sur del Duero.</p>
+<p>&nbsp;</p>					</div>
+					<div id='bottom-background'></div>
+					<div id='bottom-decorator'></div>
+					<div id="read-more" class="button-more">Leer Más</div>
+				</section>
+				<div id='button-more' class="button-more" onClick="_gaq.push(['_trackEvent', 'More button', 'Letter']);"></div>
+							</div>
+		</article>
+	</div>
+	<div class="form-action form2"></div>
+</section>
+<script>
+	widgets = window.widgets || [];
+	widgets.push({
+		id: 'form',
+		data: {
+			objective: 30000,
+			home_menu: "<ul class=\"home-menu\">\n\t<li>\n\t\t<a href=\"https:\/\/colaborawwf.es\/hora-del-planeta\/donativo\" target=\"_blank\" rel=\"nofollow\" onClick=\"_gaq.push(['_trackEvent', 'WWF links', 'Donar']);\">\n\t\t\t<div>Dona ahora<\/div>\n\t\t<\/a>\n\t<\/li>\n\t<li>\n\t\t<a href=\"https:\/\/colaborawwf.es\/hora-del-planeta\/socio\" target=\"_blank\" rel=\"nofollow\" onClick=\"_gaq.push(['_trackEvent', 'WWF links', '\u00danete']);\">\n\t\t\t<div>\u00danete a WWF<\/div>\n\t\t<\/a>\n\t<\/li>\n<\/ul> ",
+			social_bar: "<ul class='social-share-bar'>\n\t<li><a class='fb facebook-icon' href=\"https:\/\/www.facebook.com\/sharer\/sharer.php?u=http%3A%2F%2Fwwfenaccion.com%2Fes%2Fproyectos%2Fmarca-el-territorio-por-el-lobo-29\/?rel=facebook\" title='Compartir en Facebook' onClick=\"window.open('https:\/\/www.facebook.com\/sharer\/sharer.php?u=http%3A%2F%2Fwwfenaccion.com%2Fes%2Fproyectos%2Fmarca-el-territorio-por-el-lobo-29\/?rel=facebook', 'popup', 'width=600,height=370'); _gaq.push(['_trackEvent', 'Facebook', 'Social']); return false;\"><\/a><\/li>\n\t\n\t\t<!--\n\t<li><a class='fb facebook-icon' href=\"https:\/\/www.facebook.com\/sharer\/sharer.php?u=http%3A%2F%2Fwwfenaccion.com%2Fes%2Fproyectos%2Fmarca-el-territorio-por-el-lobo-29\" title='Compartir en Facebook' onClick=\"window.open('http:\/\/www.facebook.com\/sharer.php?s=100&p[title]='+ 'Marca+el+territorio+por+el+Lobo' + '&p[summary]=' + 'Act%C3%BAa+para+salvar+al+lobo.+Firma+y+comparte.+' + '&p[url]=' + 'http:\/\/wwfenaccion.com\/img\/projects\/marca-el-territorio-por-el-lobo' + '&p[images][0]=' + 'http:\/\/wwfenaccion.com\/img\/projects\/p-29-second-320x240.jpg', 'popup', 'toolbar=0,status=0,width=626,height=436'); _gaq.push(['_trackEvent', 'Facebook', 'Social']); return false;\"><\/a><\/li>\n\t-->\n\t\n\t<li><a class='tt twitter-icon' href='http:\/\/twitter.com\/share?text=Act%C3%BAa+para+salvar+al+lobo.+Firma+y+comparte.%23LoboSI&url=http%3A%2F%2Fwwfenaccion.com%2Fes%2Fproyectos%2Fmarca-el-territorio-por-el-lobo-29' title='Compartir en Twitter' onClick=\"window.open('http:\/\/twitter.com\/share?text=Act%C3%BAa+para+salvar+al+lobo.+Firma+y+comparte.%23LoboSI&url=http%3A%2F%2Fwwfenaccion.com%2Fes%2Fproyectos%2Fmarca-el-territorio-por-el-lobo-29', 'popup', 'width=600,height=370'); _gaq.push(['_trackEvent', 'Twitter', 'Social']); return false;\"><\/a><\/li>\n<\/ul>\n",
+			i18n: {
+				thanks: 'GRACIAS POR APOYAR ESTA CAMPAÑA',
+				invite: 'Invita a tus amigos a que también lo apoyen',
+				share: 'COMPARTE Y DIFUNDE'
+			}
+		}
+	});
+	widgets.push({
+		id: 'projectView',
+		data: {
+		}
+	});
+	widgets.push({
+		id: 'bar',
+		data: {
+			id: 'featured',
+			percentage: 65.626666666667		}
+	});
+</script>
+
+		<footer id="main-footer">
+			<div class="content">
+				<nav>
+					<p><a href="/" onClick="_gaq.push(['_trackEvent', 'Footer', 'Campañas']);">Campañas</a></p>
+					<!-- <p><a href="/pages/what-is" onClick="_gaq.push(['_trackEvent', 'Footer', 'Qué es']);">Qué es</a></p> -->
+					<p><a href="http://www.wwf.es/" target="_blank" rel="nofollow" onClick="_gaq.push(['_trackEvent', 'Footer', 'WWF']);">WWF</a></p>
+					<p><a href="http://www.wwf.es/politica_de_privacidad1/" target="_blank" rel="nofollow" onClick="_gaq.push(['_trackEvent', 'Footer', 'Política de privacidad']);">Política de privacidad</a></p>
+				</nav>
+				<div class="copyright">&copy;WWF Todos los derechos reservados</div>
+				<ul class="social-icons">
+	<li>
+		<a href="https://www.facebook.com/WWFEspana?ref=ts" target="_blank" rel="nofollow" onClick="_gaq.push(['_trackEvent', 'Social', 'Facebook-Page']);">
+			<div class="facebook-icon"></div>
+		</a>
+	</li>
+	<li>
+		<a href="https://twitter.com/WWFespana" target="_blank" rel="nofollow" onClick="_gaq.push(['_trackEvent', 'Social', 'Twitter-Page']);">
+			<div class="twitter-icon"></div>
+		</a>
+	</li>
+	<li>
+		<a href="http://www.youtube.com/user/wwftv?feature=results_main" target="_blank" rel="nofollow" onClick="_gaq.push(['_trackEvent', 'Social', 'Youtube-Page']);">
+			<div class="youtube-icon"></div>
+		</a>
+	</li>
+</ul>			</div>
+		</footer>
+		
+						
+		<script data-main="/js/main" src="/js/fmwk/libs/require-jquery.js"></script>
+	</body>
+</html>

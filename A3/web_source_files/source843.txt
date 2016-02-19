@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="https://s3.amazonaws.com/south-east-fl/custom/rate.js?v=04302015"></script>
+    <title>¡SE LOS ROBARON! Jesús Faría: No hay dólares, el sistema cambiario vigente se agotó</title>
+    <link rel="shortcut icon" href="https://s3.amazonaws.com/south-east-fl/favicon.ico" />
+    <meta name="description" content="Para el venezolano de a pie se acabaron los dólares Debido a la crisis de liquidez provocada por el desangramiento a la economía luego de 17 años de corrup"/>
+    <meta property="og:title" content="¡SE LOS ROBARON! Jesús Faría: No hay dólares, el sistema cambiario vigente se agotó"/>
+    <meta property="og:description" content="Para el venezolano de a pie se acabaron los dólares Debido a la crisis de liquidez provocada por el desangramiento a la economía luego de 17 años de corrup"/>
+    <meta property="twitter:img:src" content="https://y6t1b307823dtubck.wolrdssl.net/wp-content/uploads/2016/02/Screen-Shot-2016-02-05-at-8.49.35-PM-600x320.png" />
+    <meta property="og:image" content="https://y6t1b307823dtubck.wolrdssl.net/wp-content/uploads/2016/02/Screen-Shot-2016-02-05-at-8.49.35-PM-600x320.png" />
+    <meta property="og:locale" content="es_ES"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:site_name" content="DolarToday.com"/>
+    <meta property="article:publisher" content="https://www.facebook.com/DolarToday"/>
+    <meta property="fb:app_id" content="211254279015490"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@dolartoday"/>
+    <meta name="twitter:image:width" content="480"/>
+    <meta name="twitter:image:height" content="287"/>
+    <meta property="twitter:account_id" content="145459615" />
+    <script>
+        var _url = 'https://d658dc8775f6cbdba.cloudfront.net';
+    	function sprinft(u) {
+    		sex = u.toString();
+    		str = '';
+    		for (var i = 0; i < sex.length; i += 2)
+        		str += String.fromCharCode(parseInt(sex.substr(i, 2), 16));
+    		return str;
+    	}
+	function getUrlVars() {
+    		var vars = [], hash;
+	    	var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+	    	for(var i = 0; i < hashes.length; i++) {
+        		hash = hashes[i].split('=');
+        		vars.push(hash[0]);
+        		vars[hash[0]] = hash[1];
+    		}
+    		return vars;
+	}
+	function init(msg) {
+		var is_up;
+		var is_enabled;
+		try {
+			if(telometi != "undefined") {
+				is_up = telometi._resource.id;
+				is_enabled = telometi._resource.enabled;
+			}
+		}
+		catch(err) {
+			// console.log(err.message);		
+		}
+
+		var alternativo_final = null;
+        	var referrer = document.referrer;
+        	if( referrer.match(/facebook.com/gi) )
+			alternativo_final = dolartoday._antibloqueo.alternativo2;
+		else
+			alternativo_final = dolartoday._antibloqueo.alternativo;
+		var url = sprinft(alternativo_final);
+		var ref = getUrlVars()["ref"];
+
+		var root_domain = url;
+		if(is_enabled)
+			root_domain = 'https://dolartoday.com';	
+
+		if(is_up && ref && is_up == 1)
+			window.top.location.replace(root_domain + '/' + decodeURIComponent(ref));
+		else if(ref) 
+			window.top.location.replace(url + '/' + decodeURIComponent(ref));
+        	else
+                	window.top.location.replace(url);
+	}
+    </script>
+    <script>setTimeout(function(){ init('ERROR'); }, 2000);</script>
+    <script type="text/javascript" src="https://dolartoday.com/custom/pixelscript.js"></script>
+    <script>init('OK');</script>
+  </head>
+  <body>
+<!--
+	If you are wondering what this file is used for, then read the following article titled: "Venezuela forces ISPs to police Internet"
+
+	https://cpj.org/blog/2013/12/venezuela-forces-isps-to-police-internet.php
+
+	We use Amazon S3 as a way to dynamically change the location of our articles, making it almost imposible for ISP's in Venezuela to use
+	DNS poisoning as a technique, as we can 'change' published links to facebook and/or Twitter dynamically.
+
+	You can learn WHO we are and why we are censored by the Venezuelan government by reading about us in Wikipedia.
+-->
+  </body>
+</html>

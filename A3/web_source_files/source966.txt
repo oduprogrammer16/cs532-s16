@@ -1,0 +1,673 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html class="no-js lt-ie9 is-ie"> <![endif]-->
+<!--[if IE 9]>
+<html class="no-js is-ie"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+		<meta charset="utf-8">
+	<title>Presidential Candidates 2016: See Them in Slow Motion</title>
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="https://s0.wp.com/wp-content/themes/vip/time2014/img/time-touch_icon_152.png">
+	<script type="text/javascript">if (top != self) {document.getElementsByTagName("html")[0].style.display = "none";top.location.replace(location);}</script>
+	<!--[if lt IE 9]>
+	<script src="https://s0.wp.com/wp-content/themes/vip/time2014/js/dist/html5shiv.js"></script><![endif]--><script>
+	(function (d) {
+		var config = {
+				kitId: 'cfk1lij',
+				scriptTimeout: 3000
+			},
+			h = d.documentElement, t = setTimeout(function () {
+				h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+			}, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a;
+		h.className += " wf-loading";
+		if (window.location.protocol === 'https:') {
+			tk.src = 'https://a248.e.akamai.net/f/1016/21600/2d/fonts.timeinc.net/' + config.kitId + '.js';
+		} else {
+			tk.src = 'http://fonts.timeinc.net/' + config.kitId + '.js';
+		}
+		;
+		tk.async = true;
+		tk.onload = tk.onreadystatechange = function () {
+			a = this.readyState;
+			if (f || a && a != "complete" && a != "loaded")return;
+			f = true;
+			clearTimeout(t);
+			try {
+				Typekit.load(config)
+			} catch (e) {
+			}
+		};
+		s.parentNode.insertBefore(tk, s)
+	})(document);
+</script>
+<meta name="news_keywords" content="Donald Trump, Hillary Clinton, Jeb Bush, Marco Rubio, Ted Cruz, Bernie Sanders" />
+<script type="text/javascript">try{window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:22,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:9,2:8,3:6,4:10,5:3,6:23,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3),n.on("fn-start",function(t){var e=t[0];e instanceof Event&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof Event&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:9,2:8,3:7,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],6:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:24,ee:"QJf3ax",gos:"7eSDFh"}],7:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState"],"-")},{1:24,ee:"QJf3ax"}],8:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:24,ee:"QJf3ax"}],9:[function(t,e){function n(t,e,n){t[0]=o(t[0],"fn-",null,n)}var r=t("ee").create(),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:24,ee:"QJf3ax"}],10:[function(t,e){function n(){f.inPlace(this,p,"fn-")}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:6,2:24,ee:"QJf3ax"}],11:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:12,3:10,4:6,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],12:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],13:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:22,2:23,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-686.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:22,2:13,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],22:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],23:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],24:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:23,ee:"QJf3ax"}]},{},["G9z0Bl",4,11,5]);
+;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"7fc7d5aa08",applicationID:"11840999",sa:1,agent:"js-agent.newrelic.com/nr-686.min.js"}}catch(err){};</script>		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=time.com&amp;id=1359921&amp;t=1455672806&amp;back=http%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel="canonical" href="http://time.com/2016-presidential-candidates-in-slow-motion/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<link rel='stylesheet' id='all-css-0' href='https://s0.wp.com/_static/??-eJx9jUEOgkAMAD9kLSIxejC+ZVkbWdguDe2G71tIvBkuTdvMZHAViHMxKoZcQXL9pKKY00SKI5mEOMF+naPqCf/jcV7I/yzBNoLpnQJlYseONJbbz9rWwVuHmVWchr6XhVTBJ6fKYIOHdu/Fz0t3bR9t092b8QtnYFC+' type='text/css' media='all' />
+<link rel='stylesheet' id='time-app-css'  href='https://s0.wp.com/wp-content/themes/vip/time2014/css/screen.css?m=1455140286g&#038;ver=4.4.1-alpha-36109' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-2' href='https://s2.wp.com/_static/??-eJyNjVsOQDAQAC+EVbb+xFGkaTda0Ufs4vrECfo1PzMZeEprcxJKAuIpEsMdCkiINPQKwTKDcdx9bKDCjVkkr56Mo7M6Kse1hfRPljgr1KjHESfcX60tN4Q=' type='text/css' media='all' />
+<!--[if lte IE 9]>
+<link rel='stylesheet' id='oldie-css'  href='https://s0.wp.com/wp-content/themes/vip/time2014/css/oldie.css?m=1432131068g&#038;ver=4.4.1-alpha-36109' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='all-css-4' href='https://s2.wp.com/_static/??-eJyNj0EKwjAQRS9knKakS/EoJS1jOjLJhGZa6e2NIqIUxN1/8N7iA0ESpVFSeY/jWMoBbtlUUEwKcTGZl0DVCSiGZfRKkr7AXNjT/CudcWAJdQao1gfuIp0wYoGVMihFbBvrnknJOJLnvqjM2/9VWW3vWWu2Me7fvbrJQWAZPD+EczxZ13WNa62z1zskkmt7' type='text/css' media='all' />
+<script>utag_data = {"article_teaser_type":"free full","author_name":"Time","channel":"time","content_id":"4205390","friendly_url":"http:\/\/time.com\/2016-presidential-candidates-in-slow-motion\/","is_logged_in":"no","magazine_feed":"non-magazine","page_name":"Slow on the Trail: Christopher Morris Films","publish_date":"2016-02-08T06:00:10+00:00","site_section1":"politics","site_theme":"v2","tag_keywords":"2016 election|democratic candidates|democratic presidential candidates|election 2016|presidential candidates|presidential candidates 2016|presidential election candidates|republican candidates|republican presidential candidates|slow motion","template_type":"special story","site_display_format":"desktop","page_type":"special story"};</script><script type='text/javascript' src='https://s0.wp.com/_static/??-eJyFjt0OgjAMRl/IMYbzggvjsyBU7GQ/rgUiT29J9MJINGnSpD09/fScFIZ2GDsg7aTuI+THqxWOdvoXoDz2uWEoPIY33MbAEHhlfTzjAGokyE0vMxFd4gaXIrEHIoE2tp+RMEwI81/MAaemvakMhMuXla8g//SESTN6qEpjV0WHxBK6gxxwyXJ08kdj9/XBlFVt3ROUCG8V'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://timedotcom.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='http://wp.me/P5HMd-hE0S' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=http%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=http%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F&amp;for=wpcom-auto-discovery" /><link rel="shortcut icon" type="image/x-icon" href="http://0.gravatar.com/blavatar/2663fa8912699ba9dd3ac8275001a930?s=16" sizes="16x16" />
+<link rel="icon" type="image/x-icon" href="http://0.gravatar.com/blavatar/2663fa8912699ba9dd3ac8275001a930?s=16" sizes="16x16" />
+<link rel="apple-touch-icon-precomposed" href="http://0.gravatar.com/blavatar/2cee445ea71a179ffd35ea91cf154905?s=114" />
+<link rel='openid.server' href='http://timedotcom.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='http://timedotcom.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="http://time.com/osd.xml" title="TIME" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+
+		<script type='text/javascript'>var _sf_startpt=(new Date()).getTime()</script>
+
+		<meta name="p:domain_verify" content="f48a8936c3fffc943fce516f2e3ff1d2"/><meta itemprop='headline' content='Presidential Candidates 2016: See Them in Slow Motion'><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="TIME"/>
+<meta name="twitter:title" content="Presidential candidates at nearly 1000 frames per second"/>
+<meta name="twitter:description" content="Politics as you’ve never seen them before"/>
+<meta name="twitter:image:src" content="http://i1.wp.com/timedotcom.files.wordpress.com/2016/02/rubio4.jpg?crop=0px%2C0px%2C1880px%2C984px&amp;resize=1200%2C628&amp;quality=75&amp;strip=color"/>
+<meta property="fb:app_id" content="53177223193"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="http://time.com/2016-presidential-candidates-in-slow-motion/"/>
+<meta property="og:site_name" content="TIME.com"/>
+<meta property="og:image" content="http://i1.wp.com/timedotcom.files.wordpress.com/2016/02/rubio4.jpg?crop=0px%2C0px%2C1880px%2C984px&amp;resize=1200%2C628&amp;quality=75&amp;strip=color"/>
+<meta property="og:description" content="Politics as you’ve never seen them before"/>
+<meta property="og:title" content="Presidential candidates at nearly 1000 frames per second"/>
+<meta property="article:publisher" content="https://www.facebook.com/time"/>
+<meta name="application-name" content="TIME" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Current &amp; Breaking News | National &amp; World Updates" /><meta name="msapplication-task" content="name=Subscribe;action-uri=http://time.com/feed/;icon-uri=http://0.gravatar.com/blavatar/2663fa8912699ba9dd3ac8275001a930?s=16" /><style type="text/css" id="syntaxhighlighteranchor"></style>
+	<script>window.Time = {"api_url":"http:\/\/time.com\/api\/","authenticated":0,"developer_mode":0,"device":"desktop","home_url":"http:\/\/time.com","posts_per_page":10,"template_uri":"https:\/\/s0.wp.com\/wp-content\/themes\/vip\/time2014","tab_data":{"default":{"tabs":[{"label":"Latest","omniture":"nav-latest","env":"rail","href":"\/","silent":true},{"label":"Magazine","omniture":"nav-magazine","env":"magazine","href":"\/magazine\/"},{"label":"Videos","omniture":"nav-video","env":"videos","href":"\/videos\/"}],"search_url":"http:\/\/search.time.com\/results.html","money_search_url":"http:\/\/search.money.com","money":[]},"collection":{"tabs":[{"label":"Today's Influencers","omniture":"nav-influencers","env":"influencers"},{"label":"Time 100","omniture":"nav-100","env":"100"}]}}};</script>
+
+	<link rel="shortcut icon" href="https://s0.wp.com/wp-content/themes/vip/time2014/img/time-favicon.ico"><link rel="apple-touch-icon" href="https://s0.wp.com/wp-content/themes/vip/time2014/img/time-touch_icon_76.png"><link rel="apple-touch-icon" sizes="76x76" href="https://s0.wp.com/wp-content/themes/vip/time2014/img/time-touch_icon_76.png"><link rel="apple-touch-icon" sizes="120x120" href="https://s0.wp.com/wp-content/themes/vip/time2014/img/time-touch_icon_120.png"><link rel="apple-touch-icon" sizes="152x152" href="https://s0.wp.com/wp-content/themes/vip/time2014/img/time-touch_icon_152.png"></head>
+<body class="page page-id-4205390 page-template page-template-pages page-template-page-special-story page-template-pagespage-special-story-php mp6 customizer-styles-applied metered is-signed-out highlander-enabled highlander-light time-branding">
+<div class="print-mode"></div>
+<div id="nativo-trigger"></div>
+<div id="fb-root"></div>
+<script>var s_account = "timecom";</script>
+<script src="http://img.timeinc.net/tii/omniture/h/config/time_s_code_multivideo.js" defer="defer"></script>
+<div class="pushdowns">
+	<div id="pushdown-ad"></div>
+</div>
+<header class="main-header" role="banner">
+	<div class="hat_container">
+	<div id="time_inc_hat">
+		<script>(function ($) {
+				$(function () {
+						var isHatRendered = false;
+						if (typeof TimeHatConfig === 'function') {
+							try {
+								TimeHatConfig('time');
+								isHatRendered = true;
+							}
+							catch (e) {
+								console.error('TIME HAT ERROR', e);
+								isHatRendered = false;
+							}
+						}
+						if (!isHatRendered) {
+							$('.hat_container').hide();
+						}
+					});
+			})(jQuery);</script>
+	</div>
+</div>	<div class="left-rail-header" role="banner">
+		<a class="header-nav-button time-icons time-icons-menu"
+ title="Click to show site navigation"></a>
+<div class="logo-wrap" itemscope itemtype="http://schema.org/Organization">
+        <a itemprop="url" href="http://time.com/" class="logo">
+        <img itemprop="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAREAAABaCAMAAACoopKnAAAC6FBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8u4OzqAAAA93RSTlMAwKBAINAw8LBQ4GAQcAGQgO78bvn+s6YYrOSdAvsND93qmAUt+EJdZf1KxZPK0x1TCvTWCCcH3Mx3xrfY8hLzTfZtDpwiQ7HN7yaOXMkzb1hm44qMqZvsl7iSemk4x6WW33aLvB9Hwjc6g2wkBnz6BMRk1fePfufm1GMqw9Ky9Y25iJ7LiWujZ5ED4UhJMXOhOZ8LFuk8WnTivVd9Tz8VYlW2eBveqMF1XsiGvtGrLgk+S609IacaHLUMeTKEE67OlTZfvxFStNpFch5Uf3ua7eW7RmHrr4I0LFuUFNkoWUxqL0ToO1aihRlopLor29dOI4GqF89xRjqcvwAACVdJREFUeF7t3Gd01FYax+FXMx7PjNx7xdgGjG0wxgZMMb2Z3nuvgQQIvfdeAglpJKEEQu+bzSabTe+91+29977/r5urtX2vZUnWiHuszJx9PvFhzvGcH1ykq/da5M9W1b/4fL5LijI1UCvDY+pooF61oihDfL4OqqoWENEM/3r1bd8QRUkPTPTcd59nYiBdUbr5OqnqUP8wMnYWAPpTyA4DQA0ZO+b3+x/J911V0r/0/E9WIBBQFGWLr9aP1TrZ/lprUCuWIAURxcFcFBlbDQBbKGQ5ALCajHnhiPwi50tj5o337FydDC45e2RgyvQZYyrIWCUAlDxAITr0MQCsiSdDA9556PL8jONzkx0WKYEMxKngoshSb2j+QCEaDE05WYpxWMQPCZKJu2G/yPPQHKcQFULzKFnq6GYRP3E++0WC0LToTSHJXQ9NDFkKOiyyfVrwHa+ZSnCrvCZKg1vbOCsyGhpsopA8CQ2+a79Ih7glMbV+GqzTMUaw5J7ECXM82xFLeJ/M+cFFk6kAnBUZDg2qKSQHocFv7RcJkD3dWJHgrRc56rBIFjRIbUkhiH8EGqyUX2Qqzksp8orDIt1Qqy2FYCZqZcsvkoEoKUX2OixSgFrpFILxqFMlvUh7SUVOOivyOOBk2eSjzjDpRdaxIqduvUicsyI/ARwsm+dRr1R6kX2siPfWi4x1VuQ2wMGyuQP1+ksvMkZSkRi0dFIkBU6WTU/UWyu9yGfoIqXIm4h1UqQQDpbN3eC2SS8yCtG0fuatF/mbsyKL4GDZ7AK3WnqR93RLwWmRpe0rnBRJgoNlkw8u9ZDsIp0/OC2jCOOgSCZEPyBbvgfRIGlFOBeLFEH0LbJlB0Q/i6wiKRCtedb2noa7J7KKFIKz+0jgdoiwO7KKLIIIPciGVyBCu8gqkoSGNlOTWhVAhKSIKpIJnR3UpCPQeSCSihRB54tl1JQ/QscbSUVSoPcYNaGiEjopkVSkEHo7m96Z6hVGUpFF0EtbSNbegl67SCqSBCYZgkSydLoF9PwRVCQTmt1twN2VS1b6Q7MNgvLIKVIEzYjZENxGVsrAlPWF4HAYFLlkr0gKNK29EGSRhS7QFJdD8HAYFFHsFSkEk7oiviu45afJ3O/A9MmjJHAeaUXO3etykUVgXibqbnMzG6+CmUT0OrhusoqsSEt0uUgSmPuIMluA60SmvgnNq0QJ4PrlSioyCC4XyYRmNBG9BMHtZGYSGB8RfQ7BIElFinCnu0WK+L6kFIIcMlHRC8wS7YG5ICipSDHi3C2SAs0bRJQ7Dtz2PDI2Aky/WCKqSgb3oaQiCW4XKQRzFzGJEBSTsQXCpWUjuG9LKvKp20XaCSOohWngRpKh99LAPElMBritcoosexDF7hXhre8gTTUErcnIOvFS1B3c8lZ2iqwPBLI8jeRM8lwMPKP06LShH4AYV4uUQ9PR4FRhAhmIzwfzrm6EzvxZysk814schmYpaVo9CG5ylenNSOqPSPN7CH4jq8gVV4tcBtMnnh8b4sZQYx4wGfxwEneHrCKvuVrE03C4MAyCBdRIy35gBvMLD1cTGatmCJg5hhnTniK9n4PpGk+1JoCb66xIm69Xkdx+YMZSnbawXAcvgzln/PEBNoqMfMLrjY5eGpUZGxvb+PP3vxHVZbm7RZZCs5jqdB4K7pND1NAoMC0yqc4vIDgmZV/TE/vcLBIEU1IhHpsU9KWGpuhPD7RqAW6GlCLp7u5rToLpSdw3YP797+8F5ojJCGSKlCJr3S1yEcxEEpSBS84kUUzjx9JHwfWQUqS/u0U2gnmOBMUQTDfYA60jwcPgesXLKHIK89wqwv8bKCVBXh9wXeOJ2wympFx3FJZ7SkaRUa4+Q2sNzXkS5UBQRNxwg8OMT0MQlFHkAVeLjAEzmRpYDEEG1auaDOaU+eGTdTKKUFSsi0VeAHOdGuoALrU31TkBZsMK8+5Z4T+vCYCZZnV8YjTVOQ7mBWqoPbi3w79IPpgD1FDvNuA6NJzkpQ2ihg6AS6sI9yLPQvNr0pkNweL6OyfmT5aHFl/9eheZ1WSRe6GJJR2vwZji8STj40cDIFgV7mcDDpj8lp04AmbzXX6/WrCM9FRw08K9yA/BTKVGujf+ix8JZr7RzoxTwr3IFjDDSUc3Ai4TfpumCzVyDdzQcC7CO5+hxl7Sjyk+Mv038BAE5eFdZKH5zLsUgmlEA7aDGWG8E+D6hneRviaXGv0IOKkz9a/9g/FukbszvItMB/MrMpIIwUPxfwVzkIxsBZcV3kUmml0f9CPg1wdbzT0zwHUN7yKdxMmEXjUEe6yekT0HQV44F+mcDCbF9otlzpChvhAcC+cid0PzSzLAR8Bcr/vJUBQES2QV8fqbv8hr0HzH8s0RNh615y4HN1BWkffR/EUmgOlFJoZBZ5T5zInrJqvIKheK7GziHKoCEYaQmWfAtVkhqcjDLhTZAGY/mWkLEcaSmYMQfF9SkV1tmr3IiyZ3mcYjYFTmkZnREIyQVGSgv9mLePl5KxPtIcghU09AMEFSkbeav0iK8X2o2Qj4XjLVBYIFkoqMbP4ik8CUVJG5MvEBtLllJeAmWxdRyKa5Sc1e5CqYC2ShGPXiyMI4CJ6WU2SNar/Io1KKxFeCOUsW+Ag49UWy0A6CI5ZFZpE9eQihiFdKkUHQDCcrOfyIt5UMCLqT3pvgfGTPsFCKDJZSJMjvMswttvczd0GQ0cT7WVP9fv84Vc33+XyzFANDtPcvV4ZSJCilyElbS7ADNBfiycq7EGw0KOLExuYu8k9o/kWWUvhtnIUrECRXkc4MOOEjQ9H7Ppw/6eane0rAle3fMX1f26A3loz9fdO8vQNr2s1NA5etXJxzbd7YEy2JiorPzZ996UIyNFezpnWfMSLYkkT6EXCa2f74syuXdw1Mn5UNUcGNnbPnz9s0k2JLH/v8P9dyrhfILJIIc14yFgdz0eJisnNFn81nXAZUmPPwYanMIqPVnr6VSiDLMzBheOIHcdMTxyd85LlZo/TwdVVnkrEzBZNV9cbK6pu7E/6RGBcX1z1x75z9Ncq/89WPN2wmOqtm5/t6XA9k7J7i2R8IKLN8cz9RN5PVG85PkImVqrq1TNmW5clJ2JG4N6E9eyN8NXsdvKqOm0Azs7/Qvn7Nl199/a+sTUhgH/FMDASmKl/Z49PoXhifDA32kM7//RciQG2l6MBOiAAAAABJRU5ErkJggg==" alt="TIME" />
+                <h2>Time.com</h2>
+            </a>
+    </div>
+		
+<nav class="main-nav" role="navigation">
+
+			<div class="sign-sub-sideRail login-nav-wrapper paywall ">
+			<a href="http://time.com//digital-account/" class="my-account time-icons-user">MY ACCOUNT</a>
+			<a href="#" class="login-nav-item sign-in time-icons-user" data-event="nav-login">SIGN IN</a>
+			<a href="https://auth.time.com/logout.php?turl=http://time.com/" class="login-nav-item sign-out" data-event="nav-login">SIGN OUT</a>
+			<a href="https://subscription.time.com/storefront/subscribe-to-time/link/1019480.html" class="subscribe subscribe-except-mobile">SUBSCRIBE</a>
+			<a href="https://subscription.time.com/storefront/subscribe-to-time/link/1019575.html" class="subscribe subscribe-mobile">SUBSCRIBE</a>
+		</div>
+	
+	
+	<div class="tertiary-vertical-nav">
+		<div id="main-time-nav" role="navigation">
+
+										<a class="main-nav-section" href="http://time.com/" aria-controls="rail-articles" data-event="nav-home">
+					<span>Home</span>
+				</a>
+				<a class="main-nav-section" href="http://time.com/us/" aria-controls="rail-articles" data-event="nav-us">
+					<span>U.S.</span>
+				</a>
+				<a class="main-nav-section" href="http://time.com/politics/" aria-controls="rail-articles" data-event="nav-politics">
+					<span>Politics</span>
+				</a>
+				<a class="main-nav-section" href="http://time.com/world/" aria-controls="rail-articles" data-event="nav-world">
+					<span>World</span>
+				</a>
+				<a class="main-nav-section" href="http://time.com/business/" aria-controls="rail-articles" data-event="nav-business">
+					<span>Business</span>
+				</a>
+				<a class="main-nav-section" href="http://time.com/tech/" aria-controls="rail-articles" data-event="nav-tech">
+					<span>Tech</span>
+				</a>
+				<a class="main-nav-section" href="http://time.com/health/" aria-controls="rail-articles" data-event="nav-health">
+					<span>Health</span>
+				</a>
+				<a class="main-nav-section nav-motto" href="http://motto.time.com/" aria-controls="rail-articles" data-event="nav-motto">
+					<span>Motto</span>
+				</a>
+				<a class="main-nav-section" href="http://time.com/entertainment/" aria-controls="rail-articles" data-event="nav-entertainment">
+					<span>Entertainment</span>
+				</a>
+				<a class="main-nav-section" href="http://time.com/science/" aria-controls="rail-articles" data-event="nav-science">
+					<span>Science</span>
+				</a>
+				<a class="main-nav-section" href="http://time.com/newsfeed/" aria-controls="rail-articles" data-event="nav-newsfeed">
+					<span>Newsfeed</span>
+				</a>
+				<a class="main-nav-section" href="http://time.com/living/" aria-controls="rail-articles" data-event="nav-living">
+					<span>Living</span>
+				</a>
+				<a class="main-nav-section" href="http://time.com/sports/" aria-controls="rail-articles" data-event="nav-sports">
+					<span>Sports</span>
+				</a>
+				<a class="main-nav-section" href="http://time.com/history/" aria-controls="rail-articles" data-event="nav-h  istory">
+					<span>History</span>
+				</a>
+				<a class="main-nav-section" href="http://time.com/vault/" aria-controls="rail-articles" data-event="nav-vault">
+					<span>The TIME Vault</span>
+				</a>
+				<a class="main-nav-section" href="http://time.com/magazine/" aria-controls="rail-articles" data-event="nav-magazine">
+					<span>Magazine</span>
+				</a>
+				<a class="main-nav-section" href="http://time.com/ideas/" aria-controls="rail-articles" data-event="nav-ideas">
+					<span>Ideas</span>
+				</a>
+				<a class="main-nav-section" href="http://time.com/parents/" aria-controls="rail-articles" data-event="nav-parents">
+					<span>Parents</span>
+				</a>
+				<a class="main-nav-section" href="http://labs.time.com/" aria-controls="rail-articles" data-event="nav-labs" target="_blank">
+					<span>TIME Labs</span>
+				</a>
+					</div>
+
+		<div class="main-nav-vertical">
+
+							<a href="http://time.com/money/" id="nav-money" aria-controls="rail-articles" data-event="nav-money" >
+					<span>Money</span>
+				</a>
+			
+			<a href="http://time.com/photography/life/" id="nav-life" aria-controls="rail-articles" data-event="nav-life" >
+				<span>LIFE</span>
+			</a>
+
+			
+			<a href="http://www.dailycut.com/" id="nav-dailycut" aria-controls="rail-articles" data-event="nav-dailycut" >
+				<span>The Daily Cut</span>
+			</a>
+		</div>
+	</div>
+
+	
+		<div class="main-nav-media">
+			<a href="http://time.com/photography/" aria-controls="rail-articles" data-event="nav-photography">
+				<span>Photography</span>
+				<span class="time-icons time-icons-photo"></span>
+			</a>
+			<a href="http://time.com/videos/" aria-controls="rail-articles" data-event="nav-video">
+				<span>Videos</span>
+				<span class="time-icons time-icons-video"></span>
+			</a>
+			<a href="https://shop.time.com/storefront/subscribe-to-time/link/1032684.html?xid=cm-TIMEShopHamburger" aria-controls="rail-articles" >
+				<span>TIME Shop</span>
+			</a>
+		</div>
+
+		<div class="tertiary-nav-wrapper tertiary-nav-special">
+			<a href="http://time.com/collection/2015-time-100/">The 100 Most Influential People</a>
+<a href="http://time.com/4115398/best-inventions-2015/">The 25 Best Inventions of 2015</a>
+<a href="http://time.com/tag/alzheimers/">Future of Giving</a>
+<a href="http://time.com/topic/global-trade-2/">Global Trade</a>
+<a href="http://time.com/tag/know-right-now/">Know Right Now</a>
+<a href="http://time.com/collection/next-generation-leaders/">Next Generation Leaders</a>
+<a href="http://time.com/time-person-of-the-year-2015-angela-merkel-choice/">Person of the Year 2015</a>
+<a href="http://time.com/collection/top-10-everything-of-2015/">Top 10 Everything of 2015</a>
+<a href="http://time.com/world-trade-center/">Top of the World</a>
+<a href="http://time.com/space-nasa-scott-kelly-mission/">A Year In Space</a>
+		</div>
+
+	
+	
+	<div class="main-nav-social">
+				<a href="http://www.facebook.com/time" class="time-icons time-icons-fb" data-event="nav-fb"></a>
+		<a href="http://www.twitter.com/time" class="time-icons time-icons-tw" data-event="nav-twitter"></a>
+		<a href="https://www.pinterest.com/timemagazine/" class="time-icons time-icons-pinterest" data-event="nav-pinterest"></a>
+		<a href="http://timemagazine.tumblr.com/" class="time-icons time-icons-tumblr" data-event="nav-tumblr"></a>
+			</div>
+
+
+		<div class="tertiary-nav-wrapper">
+		<a class="legal-nav-item" href="https://subscription.time.com/storefront/subscribe-to-time/link/1023466.html" data-event="nav-subscribe">Subscribe</a>
+		<a class="legal-nav-item" href="http://pages.email.time.com/newsletters?source=time_nav" data-event="nav-newsletters">Newsletters</a>
+		<a class="legal-nav-item" href="mailto:feedback@time.com" data-event="nav-feedback">Feedback</a>
+		<a class="legal-nav-item" href="http://cgi.timeinc.net/cgi-bin/mail/dnp/privacy_centralized.cgi/time?dnp_source=E" data-event="nav-privacy">Privacy Policy</a>
+		<a class="legal-nav-item" href="https://subscription.timeinc.com/storefront/privacy/time/generic_privacy_new.html?dnp-source=B#california" data-event="nav-cal-privacy">Your California Privacy Rights</a>
+		<a class="legal-nav-item" href="http://cgi.timeinc.net/cgi-bin/mail/dnp/terms_of_service.cgi/time" data-event="nav-terms">Terms of Use</a>
+		<a class="legal-nav-item" href="http://subscription-assets.timeinc.com/prod/assets/themes/magazines/default/template-resources/html/legal/ti-corp-behavioral.html" data-event="nav-ad-choices">Ad Choices <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAANCAMAAACq939wAAAAM1BMVEUAAAD///////////////////////////////////////////////////////////////+3leKCAAAAEHRSTlMAECAwQFBgcICPn6+/z9/vIxqCigAAAFZJREFUCB0FwQECwiAMBLCw4axS4f7/WhMn3wtAknwGIL/ZOTVAmmdnP5D2ZNbJnqTda7hW8pX2zs21E2mVOSrZU1plnewHaZWcGpDT1TWAJC8Aa90A/nKrBC08aQTRAAAAAElFTkSuQmCC" alt="Ad Choices"></a>
+	</div>
+
+	<div class="tertiary-nav-wrapper">
+		<a class="legal-nav-item" href="http://content.time.com/time/rss" data-event="nav-rss">RSS</a>
+		<a class="legal-nav-item" href="http://subscription-assets.time.com/prod/assets/themes/magazines/SUBS/templates/velocity/site/td-learnmore1111/lp.html" data-event="nav-apps">TIME Apps</a>
+		<a class="legal-nav-item" href="http://www.timeforkids.com/TFK/" data-event="nav-tfk">TIME for Kids</a>
+		<a class="legal-nav-item" href="http://www.timemediakit.com/" data-event="nav-ads">Advertising</a>
+		<a class="legal-nav-item" href="http://content.time.com/time/reprints" data-event="nav-reprints">Reprints and Permissions</a>
+		<a class="legal-nav-item" href="http://time.com/html-sitemap/" data-event="nav-sitemap">Site Map</a>
+		<a class="legal-nav-item" href="http://subscription-assets.time.com/prod/assets/themes/magazines/SUBS/templates/velocity/site/td-learnmore1111/lp.html" data-event="nav-help">Help</a>
+		<a class="legal-nav-item" href="https://secure.customersvc.com/servlet/Show?WESPAGE=td/home.html&MSRSM%20%20%20%20%20AG=TD" data-event="nav-contact">Customer Service</a>
+		<span class="copywrite legal-nav-item">&copy; 2016 Time Inc. All rights reserved.</span>
+	</div>
+	
+
+</nav>
+	</div>
+	<!-- <div id="sub-ad" data-cb-ad-id="sub-ad"></div> -->
+	<div class="section-rail-tabs"></div>
+	<section class="top-banner"><div class="center-logo"></div>
+<div id="banner-ad">
+	<div id="special-story-banner-ad" data-cb-ad-id="special-story-banner-ad"></div>
+</div></section>
+	</header>
+
+
+<div id="notTheHeader">
+	<div class="wrapper">
+		<div class="before-viewport"></div>
+		<div class="readingpane">
+			<section class="article-viewport" role="main" aria-live="assertive" data-cb-scroll-element="1">
+				<div class="wrapper">
+									<article class="special-story  no-subhead" id="article-4205390" data-article="4205390" itemscope itemtype="http://schema.org/Article">
+  <meta itemprop="headline" content="Presidential Candidates 2016: See Them in Slow Motion">
+  <h1 itemprop="headline" style="display:none;">Presidential Candidates 2016: See Them in Slow Motion</h1>
+  <div itemprop="description" style="display:none;">THE CANDIDATES Politics as you’ve never seen them before Films by Christopher Morris for TIMEText by Meghan O'Rourke Images have always been important in American&amp;hellip;</div>
+
+  <div class="lead">
+        <video id="brightcove-player-1" data-video-id="4741697907001" data-account="293884104" data-player="4kC1hTZKg" data-embed="default" preload="auto"  class="video-js full-bleed-loop"></video>
+
+  </div>
+
+
+
+  <div class="article-body" itemprop="articleBody">
+  		<section class="chapter"><div class="iowa-headline">
+<h1 style="font-family:franklin-gothic-urw-comp !important;">THE CANDIDATES</h1>
+<p style="font-family:franklin-gothic-urw !important;">Politics as you’ve never seen them before</p>
+<figure class="image-wrapper alignnone"><img class="aligncenter size-full wp-image-4210556" src="https://timedotcom.files.wordpress.com/2016/02/down-arrow.png" alt="down-arrow" width="7%" align="center" /></figure>
+</div>
+<div class="social-links"><a class="time-icons time-icons-fb social-link-fb popup" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F%3Fxid%3Dfbshare" title="Click to post this article to Facebook"></a><a class="time-icons time-icons-tw social-link-tw" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fti.me%2F23S9HBB&amp;text=Presidential%20candidates%20at%20nearly%201000%20frames%20per%20second&amp;via=TIMEPolitics" title="Click to Tweet this article"></a><a class="time-icons time-icons-pinterest social-link-pinterest popup" target="_blank" href="https://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F%3Fxid%3Dpinterestshare&amp;media=https://timedotcom.files.wordpress.com/2016/02/rubio4.jpg?quality=75&amp;strip=color&amp;w=550&amp;description=Slow on the Trail: Christopher Morris Films&strip=color" title="Click to pin this article on Pinterest"></a><a class="time-icons time-icons-linkedin social-link-linkedin popup" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F%3Fxid%3Dlinkedinshare&amp;title=Slow+on+the+Trail%3A+Christopher+Morris+Films" title="Click to post this article to LinkedIn"></a></div>
+<div class="iowa-byline" style="text-align:center;margin:0 auto;"><span style="font-family:Georgia, serif;color:#000000;font-size:20px;"><strong>Films by Christopher Morris for TIME</strong></span><span style="font-family:Georgia, serif;color:#000000;font-size:20px;">Text by Meghan O&#8217;Rourke</span></div>
+<figure class="image-wrapper"><img style="padding:24px;" src="https://timedotcom.files.wordpress.com/2016/02/campaign2016final.png" alt="campaign2016final" width="200px" align="center" /></figure>
+<p>Images have always been important in American politics, dating back to at least 1860, when Mathew Brady made a daguerreotype of presidential candidate Abraham Lincoln, clamping Lincoln’s neck to keep him motionless for the long minutes needed to make the exposure. (Brady spoke later of how difficult it had been to make Lincoln look “natural”; Lincoln, for his part, believed the widely published photograph contributed to his victory.) In the last century, our understanding of politics was increasingly shaped by such key images, whether in magazines or televised debates. FDR’s authority had not a little to do with his contrivance never to be photographed in his wheelchair, Camelot couldn’t have existed without photographs, and Barack Obama’s “Hope” poster was central to his message. Today the sea of images is so vast that it’s hard to be grabbed by anything. One begins to wonder what Americans might have felt when they saw Lincoln’s portrait in Harper’s Bazaar, or Abraham Zapruder’s stills of John F. Kennedy’s assassination in LIFE.</p>
+<div class="masonry-video-wrapper">
+<div class="small-video-container">
+<div class="video-unit">
+<div class="media-wrapper brightcove-size-100%"><video id="brightcove-player-2" data-video-id="4741551626001" data-account="293884104" data-player="4kC1hTZKg" data-embed="default" preload="auto"  class="video-js mini-player"></video></div>
+<div class="iowa-caption"><strong>Hillary Clinton</strong> |<br />
+<em>Newton, Iowa Jan. 28, 2016</em></div>
+</div>
+<div class="video-unit">
+<div class="media-wrapper brightcove-size-100%"><video id="brightcove-player-3" data-video-id="4743513798001" data-account="293884104" data-player="4kC1hTZKg" data-embed="default" preload="auto"  class="video-js mini-player"></video></div>
+<div class="iowa-caption"><strong>Donald Trump</strong> |<br />
+<em>Davenport, Iowa Jan. 30,2016</em></div>
+</div>
+<div class="video-unit">
+<div class="media-wrapper brightcove-size-100%"><video id="brightcove-player-4" data-video-id="4741575922001" data-account="293884104" data-player="4kC1hTZKg" data-embed="default" preload="auto"  class="video-js mini-player"></video></div>
+<div class="iowa-caption"><strong>Sen. Bernie Sanders</strong> |<br />
+<em>Davenport, Iowa Jan. 29, 2016</em></div>
+</div>
+<div class="video-unit">
+<div class="media-wrapper brightcove-size-100%"><video id="brightcove-player-5" data-video-id="4741551627001" data-account="293884104" data-player="4kC1hTZKg" data-embed="default" preload="auto"  class="video-js mini-player"></video></div>
+<div class="iowa-caption"><strong>Sen. Ted Cruz</strong> |<br />
+<em>St. Clive, Iowa Jan. 27, 2016</em></div>
+</div>
+<div class="video-unit">
+<div class="media-wrapper brightcove-size-100%"><video id="brightcove-player-6" data-video-id="4741575924001" data-account="293884104" data-player="4kC1hTZKg" data-embed="default" preload="auto"  class="video-js mini-player"></video></div>
+<div class="iowa-caption"><strong>Jeb Bush</strong> |<br />
+<em>Davenport, Iowa Jan. 31, 2016</em></div>
+</div>
+<div class="video-unit">
+<div class="media-wrapper brightcove-size-100%"><video id="brightcove-player-7" data-video-id="4741565439001" data-account="293884104" data-player="4kC1hTZKg" data-embed="default" preload="auto"  class="video-js mini-player"></video></div>
+<div class="iowa-caption"><strong>Sen. Marco Rubio</strong> |<br />
+<em>Davenport, Iowa Jan. 31, 2016</em></div>
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
+<p><span class="pullquote">The films make the stale gestures and rhetorical tropes of campaigning feel startling, poetic and disturbing.</span>In the films above, we have the unusual experience of seeing politics freshly. With their eerie, slowed-down time and wealth of visual information, they make the stale gestures and rhetorical tropes of campaigning feel startling, poetic, disturbing. Shot by Christopher Morris, a TIME photographer who developed a distinctive approach to capturing the staged hothouse of U.S. politics in his coverage of the George W. Bush White House—heads floating in a frame, images of feet, unusual shadows—the films seem to expose all that is at once venal and spiritual about American politics, precisely by not trying to look natural.</p>
+<p>Here, Morris, assisted by Phantom camera technician Edward Richardson, extends that style using the <a href="http://time.com/4206960/behind-the-scene…ristopher-morris/" target="_blank">Phantom Miro</a>, a camera never before used in political photography, filming at a speed of 720 frames per second (it records far more visual information than other cameras). Because film typically runs at 24 frames per second, when Morris’ footage is run back to us at normal speed, it appears spookily slowed down, with moving objects and passing surfaces in a kind of suspended animation. For a moment, our brains take in more than they normally do. This is the way the world must look during a near-death experience, Morris has mused. The world we thought to be familiar becomes strange and unfamiliar: reminiscent, almost, of a David Lynch film. Contributing to this is the sound, which is slowed down to the exact same rate as the visuals. The result resembles wind on an alien planet, or a preverbal Gregorian chant.</p>
+<div class="media-wrapper brightcove-size-bleed"><video id="brightcove-player-8" data-video-id="4741565440001" data-account="293884104" data-player="4kC1hTZKg" data-embed="default" preload="auto"  class="video-js full-bleed-loop"></video></div>
+<p>Athletes in slow motion look graceful—think of the stunningly perfect arc of a gymnast’s<span class="marker"></span> dismount—but politics under the Phantom’s gaze look, well, unnerving. The films reveal a complex interplay of cynical political staging and authentic civic hope, where tropes of American innocence and political culpability exist side by side. A sandy-haired tween boy at a Donald Trump speech bounces slowly up and down in excitement; a fresh-faced, auburn-haired girl, ecstatic to see Hillary Clinton, bares her white teeth. The candidates, too, seem newly exposed: Ted Cruz and Clinton are strangely equalized, their stylized gestures, like their ubiquitous finger pointing, appearing aggressive and almost violent, and certainly calculated. The camera exposes the grammar of physical communication onstage: all the candidates share a desire to persuade us, by any means necessary.</p>
+<p><span class="pullquote">The hopes, expectations and everyday practicalities of politics are written on the faces in the crowds</span>In a strange way, watching these films drives home the import of politics—something that is easy to forget amid all the flag waving and the horse-race coverage. Time is altered; the camera insists that the eye slow down and really see the man selling Trump sweatshirts, or the grizzled middle-aged Cruz supporter, unsmiling in the crowd. We take in each person as a member of the body politic whose life will be shaped by the election results. The hopes, expectations and everyday practicalities of politics are written on the faces in the crowds, in the light falling across a barn, even in the props and frivolities of the rallies—the buttons, the crowd-control fences, the bunting. Here, all becomes newly charged. The strangeness jolts us to attention. Funny that it took a camera to make us see with our own eyes again.</p>
+<div class="social-links"><a class="time-icons time-icons-fb social-link-fb popup" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F%3Fxid%3Dfbshare" title="Click to post this article to Facebook"></a><a class="time-icons time-icons-tw social-link-tw" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fti.me%2F23S9HBB&amp;text=Presidential%20candidates%20at%20nearly%201000%20frames%20per%20second&amp;via=TIMEPolitics" title="Click to Tweet this article"></a><a class="time-icons time-icons-pinterest social-link-pinterest popup" target="_blank" href="https://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F%3Fxid%3Dpinterestshare&amp;media=https://timedotcom.files.wordpress.com/2016/02/rubio4.jpg?quality=75&amp;strip=color&amp;w=550&amp;description=Slow on the Trail: Christopher Morris Films&strip=color" title="Click to pin this article on Pinterest"></a><a class="time-icons time-icons-linkedin social-link-linkedin popup" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F%3Fxid%3Dlinkedinshare&amp;title=Slow+on+the+Trail%3A+Christopher+Morris+Films" title="Click to post this article to LinkedIn"></a></div>
+<p><a href="http://www.christophermorrisphotography.com" target="_blank">Christopher Morris</a> is an award winning TIME contract photographer since 1990 and is a founding member of the <strong><a href="http://viiphoto.com/" target="_blank">VII photo agency</a></strong>. He is the author of <em>My America</em> and his latest book <a href="http://time.com/3794182/americans-christopher-morris-captures-a-nation-divided/" target="_blank"><em>Americans</em></a>.</p>
+<p><a href="http://www.meghanorourke.net" target="_blank">Meghan O&#8217;Rourke</a> is an award-winning essayist and poet.</p>
+<p>Watch photographer Christopher Morris and Phantom technician Edward Richardson on the making of this series <a href="http://time.com/4206960/behind-the-scene…ristopher-morris/" target="_blank">here</a>.</p>
+<figure class="image-wrapper"><img style="padding:24px;" src="https://timedotcom.files.wordpress.com/2016/02/campaign2016final.png" alt="campaign2016final" width="200px" align="center" /></figure>
+<div class="interactive-wrapper">
+<div id="iowa-caucus-video-controls" class="time-interactive"><img src="http://timecom.s3-website-us-east-1.amazonaws.com/interactives/iowa-caucus-video-controls/screenshot.png" class="screenshot" style="width:100%;"></div>
+<p><script defer type="text/javascript" src="http://timecom.s3-website-us-east-1.amazonaws.com/interactives/iowa-caucus-video-controls/script-min.js"></script></div>
+</section>
+  </div>
+
+</article>								</div>
+			</section>
+		</div>
+	</div>
+</div>
+
+<div id="gum-gum-ad"></div>
+<div id="below-gum-gum-ad"></div>
+	<div id="Sign_In_Modal" class="modal-container--signin modal-container">
+		<div class="modal paywall">
+		<div class="modal__close time-icons time-icons-close close-button paywall"></div>
+		<iframe scrolling="no" id="signinOverlay" class="paywall-overlay-frame" width="100%" height="710" border="0" data-url="http://subscription-assets.time.com/prod/assets/themes/magazines/SUBS/templates/velocity/site/td-pcslogin/login.html"></iframe>
+
+		</div>
+	</div>
+	<div id="Reset_Password_Modal" class="modal-container--signin modal-container">
+		<div class="modal paywall">
+		<div class="modal__close time-icons time-icons-close close-button paywall"></div>
+		<iframe scrolling="no" id="resetPasswordOverlay" class="paywall-overlay-frame" width="100%" height="710" border="0" data-url="https://subscription.time.com/storefront/universalForgotPassword.ep?magcode=TD&#038;paywall=paywall"></iframe>
+
+		</div>
+	</div>
+<div class="ie-message-modal">
+	<div class="ie-message-modal-inner">
+		<i class="time-icons time-icons-close"></i>
+
+		<p>Your browser is out of date. Please update your browser at <A href="http://update.microsoft.com"
+		                                                                 target="_blank">http://update.microsoft.com</a>
+		</p>
+	</div>
+</div>
+
+<footer class="site-footer ">
+	<ul class="footer-site-links">
+		<li>
+			<a href="http://time.com/">Home</a>
+		</li>
+		<li>
+			<a href="http://time.com/us/">U.S.</a>
+		</li>
+		<li>
+			<a href="http://time.com/politics/">Politics</a>
+		</li>
+		<li>
+			<a href="http://time.com/world/">World</a>
+		</li>
+		<li>
+			<a href="http://time.com/business/">Business</a>
+		</li>
+		<li>
+			<a href="http://time.com/tech/">Tech</a>
+		</li>
+		<li>
+			<a href="http://time.com/health/">Health</a>
+		</li>
+		<li>
+			<a href="http://time.com/science/">Science</a>
+		</li>
+		<li>
+			<a href="http://time.com/entertainment/">Entertainment</a>
+		</li>
+		<li>
+			<a href="http://time.com/newsfeed/">Newsfeed</a>
+		</li>
+		<li>
+			<a href="http://time.com/living/">Living</a>
+		</li>
+		<li>
+			<a href="http://time.com/ideas/">Ideas</a>
+		</li>
+		<li>
+			<a href="http://time.com/parents/">Parents</a>
+		</li>
+		<li>
+			<a href="http://time.com/sports/">Sports</a>
+		</li>
+		<li>
+			<a href="http://time.com/history/">History</a>
+		</li>
+		<li>
+			<a href="http://time.com/vault/">The TIME Vault</a>
+		</li>
+		<li>
+			<a href="http://time.com/magazine/">Magazine</a>
+		</li>
+		<li>
+			<a href="https://subscription.time.com/storefront/subscribe-to-time/link/1002093.html">Subscribe</a>
+		</li>
+		<li>
+			<a href="https://subscription.time.com/storefront/subscribe-to-time/link/1023465.html">Give a Gift</a>
+		</li>
+		<li>
+			<a href="https://shop.time.com/storefront/subscribe-to-time/link/1032684.html?xid=cm-TIMEShopFooter">TIME Shop</a>
+		</li>
+		<li>
+			<a href="http://pages.email.time.com/newsletters?source=time_footer">Newsletters</a>
+		</li>
+		<li>
+			<a href="https://secure.customersvc.com/servlet/Show?WESPAGE=td/home.html&MSRSM%20%20%20%20%20AG=TD">Customer
+				Service</a>
+		</li>
+		<li>
+			<a href="http://time.com/html-sitemap/">Site Map</a>
+		</li>
+		<li>
+			<a href="https://subscription.timeinc.com/storefront/privacy/time/generic_privacy_new.html?dnp-source=E">Privacy
+				Policy</a>
+		</li>
+		<li>
+			<a href="https://subscription.timeinc.com/storefront/privacy/time/generic_privacy_new.html?dnp-source=B#california">Your
+				California Privacy Rights</a>
+		</li>
+		<li>
+			<a href="https://subscription.timeinc.com/storefront/privacy/time/privacy_terms_service.html">Terms of
+				Use</a>
+		</li>
+		<li>
+			<a href="http://www.timemediakit.com/">Advertising</a>
+		</li>
+		<li>
+			<a href="http://subscription-assets.timeinc.com/prod/assets/themes/magazines/default/template-resources/html/legal/ti-corp-behavioral.html">Ad Choices <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAANCAMAAACq939wAAAAM1BMVEUAAAD///////////////////////////////////////////////////////////////+3leKCAAAAEHRSTlMAECAwQFBgcICPn6+/z9/vIxqCigAAAFZJREFUCB0FwQECwiAMBLCw4axS4f7/WhMn3wtAknwGIL/ZOTVAmmdnP5D2ZNbJnqTda7hW8pX2zs21E2mVOSrZU1plnewHaZWcGpDT1TWAJC8Aa90A/nKrBC08aQTRAAAAAElFTkSuQmCC" alt="Ad Choices"></a>
+		</li>
+	</ul>
+		<span>&copy; 2016 Time Inc. All rights reserved.</span>
+	<span class="vip">Powered by <a href="https://vip.wordpress.com/" rel="generator nofollow" class="powered-by-wpcom">WordPress.com VIP</a></span></footer>
+
+		<script>window.twttr = (function (d, s, id) {
+				var t, js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id; js.async=true; js.src= "https://platform.twitter.com/widgets.js";
+				fjs.parentNode.insertBefore(js, fjs);
+				return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+			}(document, "script", "twitter-wjs"));</script>
+	<script>
+		window.TGX_SITE_CONFIG = {
+			gpt_sync_mode:    'async',
+			refresh_oop_slot: true,
+			bluekai:          false,
+			bluekai_init:     false
+		};
+	</script><!-- wpcom_wp_footer -->
+		<script>
+			(function () {
+				var _fbq = window._fbq || (window._fbq = []);
+				if (!_fbq.loaded) {
+					var fbds = document.createElement('script');
+					fbds.async = true;
+					fbds.src = '//connect.facebook.net/en_US/fbds.js';
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(fbds, s);
+					_fbq.loaded = true;
+				}
+				_fbq.push(['addPixelId', '345214065653621']);
+			})();
+			window._fbq = window._fbq || [];
+			window._fbq.push(['track', 'PixelInitialized', {}]);
+		</script>
+		<noscript>
+			<img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=345214065653621&amp;ev=PixelInitialized"/>
+		</noscript>
+
+	
+		<script type='text/javascript'>
+			var _sf_async_config={};
+
+			_sf_async_config.uid = 3088;
+			_sf_async_config.domain = "time.com";
+			_sf_async_config.sections = "time,Politics";
+			_sf_async_config.authors = "";
+			_sf_async_config.useCanonical = true;
+
+			(function(){
+				function loadChartbeat() {
+					window._sf_endpt=(new Date()).getTime();
+					var e = document.createElement('script');
+					e.setAttribute('language', 'javascript');
+					e.setAttribute('type', 'text/javascript');
+					e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+					document.body.appendChild(e);
+				}
+				var oldonload = window.onload;
+				window.onload = (typeof window.onload != 'function') ?
+				loadChartbeat : function() { oldonload(); loadChartbeat(); };
+			})();
+		</script>
+
+		<script>Modernizr.load({ load: '//cdn.tinypass.com/api/tinypass.min.js' });</script><div id="meter-ad-slot" style="display:none;" ></div>	<div style="display:none">
+	</div>
+<script>Time.bootstrap = {"branding":"time","auth_url":"https:\/\/auth.time.com\/","fb_app_id":"53177223193","trending_videos":[{"id":4226411,"title":"Growing Up Scalia","url":"http:\/\/time.com\/4226411\/antonin-scalia-family-children\/","format":"video","icon":"video","trending_video_image":{"class":"article_trending_medium","thumbnail":"http:\/\/i2.wp.com\/timedotcom.files.wordpress.com\/2016\/02\/scalia-family.jpg?crop=380px%2C537px%2C554px%2C554px&resize=100%2C100&quality=75&strip=color","src":{"landscape_large":"https:\/\/timedotcom.files.wordpress.com\/2016\/02\/scalia-family.jpg?quality=75&strip=color&w=550&h=367&crop=1","large":"https:\/\/timedotcom.files.wordpress.com\/2016\/02\/scalia-family.jpg?quality=75&strip=color&w=405&h=229&crop=1"},"credit":"Bob Daugherty\u2014AP","caption":"Antonin Scalia poses with his family in his chambers before court ceremonies on Sept. 26, 1986 in Washington, D.C.","alt":"SCALIA","providers":[],"masonry":{"small_width":300,"small_height":202,"large_width":625,"large_height":421}},"index":1},{"id":4226431,"title":"Senate Judiciary Committee Chairman Open to Supreme Court Vacancy Hearing","url":"http:\/\/time.com\/4226431\/supreme-court-vacancy-senate-judiciary-committee-hearing\/","format":"video","icon":"video","trending_video_image":{"class":"article_trending_medium","thumbnail":"http:\/\/i1.wp.com\/timedotcom.files.wordpress.com\/2016\/02\/charles-grassley-supreme-court-vacancy-judiciary-committee.jpg?crop=430px%2C0px%2C2668px%2C2668px&resize=100%2C100&quality=75&strip=color","src":{"landscape_large":"https:\/\/timedotcom.files.wordpress.com\/2016\/02\/charles-grassley-supreme-court-vacancy-judiciary-committee.jpg?quality=75&strip=color&w=550&h=367&crop=1","large":"https:\/\/timedotcom.files.wordpress.com\/2016\/02\/charles-grassley-supreme-court-vacancy-judiciary-committee.jpg?quality=75&strip=color&w=405&h=229&crop=1"},"credit":"Bloomberg\/Getty Images","caption":"Senator Charles \"Chuck\" Grassley, a Republican from Iowa, listens to a question during a Bloomberg Politics interview in Des Moines, Iowa, U.S., on Monday. Feb. 1, 2016. ","alt":"Senator Charles \"Chuck\" Grassley, a Republican from Iowa, listens to a question during a Bloomberg Politics interview in Des Moines, Iowa, U.S., on Monday. Feb. 1, 2016.","providers":[],"masonry":{"small_width":300,"small_height":200,"large_width":625,"large_height":417}},"index":2}],"most_popular_stories":[{"id":4226401,"title":"People Are Creating Hilarious Photoshops of Taylor Swift at the Grammys","url":"http:\/\/time.com\/4226401\/taylor-swift-grammys-photoshop\/"},{"id":4220427,"title":"Bernie Sanders Is Winning Feminists, Even at Hillary Clinton&#8217;s Alma Mater","url":"http:\/\/time.com\/4220427\/bernie-sanders-wellesley-hillary-clinton-femisim\/"},{"id":4225884,"title":"Ted Cruz Pledges Not to Provide Gluten-Free Meals to the Military","url":"http:\/\/time.com\/4225884\/ted-cruz-military-gluten-free-meals\/"},{"id":4225553,"title":"A Brief History of Cursing in American Politics","url":"http:\/\/time.com\/4225553\/donald-trump-cursing-swearing-president\/"},{"id":4225261,"title":"Watch Taylor Swift Respond to Kanye West&#8217;s Diss in Her Grammys Acceptance Speech","url":"http:\/\/time.com\/4225261\/2016-grammys-taylor-swift-kanye-west\/"}],"dynamic_header":true,"dynamic_header_name":"time_motto_header_activate","postID":4205390,"single_article":{"url":"http:\/\/time.com\/2016-presidential-candidates-in-slow-motion\/","shortlink":"http:\/\/ti.me\/1JWAVAs","title":"Slow on the Trail: Christopher Morris Films","friendly_title":"Slow on the Trail: Christopher Morris Films","post_type":"page","available":true,"sub_learn_more_url":"https:\/\/subscription.time.com\/storefront\/subscribe-to-time\/link\/1032487.html","short_title":"Slow on the Trail: Christopher Morris Films","time":{"pretty":"Feb. 8, 2016","published":"2016-02-08 06:00:10","updated":"2016-02-08 11:00:10","minute":"6:00 am","short":"2\/8"},"authors":[],"has_authors":true,"content":"<div class=\"iowa-headline\">\n<h1 style=\"font-family:franklin-gothic-urw-comp !important;\">THE CANDIDATES<\/h1>\n<p style=\"font-family:franklin-gothic-urw !important;\">Politics as you\u2019ve never seen them before<\/p>\n<figure class=\"image-wrapper alignnone\"><img class=\"aligncenter size-full wp-image-4210556\" src=\"https:\/\/s0.wp.com\/wp-content\/themes\/vip\/plugins\/lazy-load\/images\/1x1.trans.gif\" data-lazy-src=\"https:\/\/timedotcom.files.wordpress.com\/2016\/02\/down-arrow.png\" alt=\"down-arrow\" width=\"7%\" align=\"center\" \/><noscript><img class=\"aligncenter size-full wp-image-4210556\" src=\"https:\/\/timedotcom.files.wordpress.com\/2016\/02\/down-arrow.png\" alt=\"down-arrow\" width=\"7%\" align=\"center\" \/><\/noscript><\/figure>\n<\/div>\n<div class=\"social-links\"><a class=\"time-icons time-icons-fb social-link-fb popup\" target=\"_blank\" href=\"https:\/\/www.facebook.com\/sharer\/sharer.php?u=http%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F%3Fxid%3Dfbshare\" title=\"Click to post this article to Facebook\"><\/a><a class=\"time-icons time-icons-tw social-link-tw\" href=\"https:\/\/twitter.com\/intent\/tweet?url=http%3A%2F%2Fti.me%2F23S9HBB&amp;text=Presidential%20candidates%20at%20nearly%201000%20frames%20per%20second&amp;via=TIMEPolitics\" title=\"Click to Tweet this article\"><\/a><a class=\"time-icons time-icons-pinterest social-link-pinterest popup\" target=\"_blank\" href=\"https:\/\/www.pinterest.com\/pin\/create\/button\/?url=http%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F%3Fxid%3Dpinterestshare&amp;media=https:\/\/timedotcom.files.wordpress.com\/2016\/02\/rubio4.jpg?quality=75&amp;strip=color&amp;w=550&amp;description=Slow on the Trail: Christopher Morris Films&strip=color\" title=\"Click to pin this article on Pinterest\"><\/a><a class=\"time-icons time-icons-linkedin social-link-linkedin popup\" target=\"_blank\" href=\"http:\/\/www.linkedin.com\/shareArticle?mini=true&amp;url=http%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F%3Fxid%3Dlinkedinshare&amp;title=Slow+on+the+Trail%3A+Christopher+Morris+Films\" title=\"Click to post this article to LinkedIn\"><\/a><\/div>\n<div class=\"iowa-byline\" style=\"text-align:center;margin:0 auto;\"><span style=\"font-family:Georgia, serif;color:#000000;font-size:20px;\"><strong>Films by Christopher Morris for TIME<\/strong><\/span><span style=\"font-family:Georgia, serif;color:#000000;font-size:20px;\">Text by Meghan O&#8217;Rourke<\/span><\/div>\n<figure class=\"image-wrapper\"><img style=\"padding:24px;\" src=\"https:\/\/s0.wp.com\/wp-content\/themes\/vip\/plugins\/lazy-load\/images\/1x1.trans.gif\" data-lazy-src=\"https:\/\/timedotcom.files.wordpress.com\/2016\/02\/campaign2016final.png\" alt=\"campaign2016final\" width=\"200px\" align=\"center\" \/><noscript><img style=\"padding:24px;\" src=\"https:\/\/timedotcom.files.wordpress.com\/2016\/02\/campaign2016final.png\" alt=\"campaign2016final\" width=\"200px\" align=\"center\" \/><\/noscript><\/figure>\n<p>Images have always been important in American politics, dating back to at least 1860, when Mathew Brady made a daguerreotype of presidential candidate Abraham Lincoln, clamping Lincoln\u2019s neck to keep him motionless for the long minutes needed to make the exposure. (Brady spoke later of how difficult it had been to make Lincoln look \u201cnatural\u201d; Lincoln, for his part, believed the widely published photograph contributed to his victory.) In the last century, our understanding of politics was increasingly shaped by such key images, whether in magazines or televised debates. FDR\u2019s authority had not a little to do with his contrivance never to be photographed in his wheelchair, Camelot couldn\u2019t have existed without photographs, and Barack Obama\u2019s \u201cHope\u201d poster was central to his message. Today the sea of images is so vast that it\u2019s hard to be grabbed by anything. One begins to wonder what Americans might have felt when they saw Lincoln\u2019s portrait in Harper\u2019s Bazaar, or Abraham Zapruder\u2019s stills of John F. Kennedy\u2019s assassination in LIFE.<\/p>\n<div class=\"masonry-video-wrapper\">\n<div class=\"small-video-container\">\n<div class=\"video-unit\">\n<video id=\"brightcove-player-9\" data-video-id=\"4741551626001\" data-account=\"293884104\" data-player=\"4kC1hTZKg\" data-embed=\"default\" preload=\"auto\"  class=\"video-js mini-player\"><\/video><\/p>\n<div class=\"iowa-caption\"><strong>Hillary Clinton<\/strong> |<br \/>\n<em>Newton, Iowa Jan. 28, 2016<\/em><\/div>\n<\/div>\n<div class=\"video-unit\">\n<video id=\"brightcove-player-10\" data-video-id=\"4743513798001\" data-account=\"293884104\" data-player=\"4kC1hTZKg\" data-embed=\"default\" preload=\"auto\"  class=\"video-js mini-player\"><\/video><\/p>\n<div class=\"iowa-caption\"><strong>Donald Trump<\/strong> |<br \/>\n<em>Davenport, Iowa Jan. 30,2016<\/em><\/div>\n<\/div>\n<div class=\"video-unit\">\n<video id=\"brightcove-player-11\" data-video-id=\"4741575922001\" data-account=\"293884104\" data-player=\"4kC1hTZKg\" data-embed=\"default\" preload=\"auto\"  class=\"video-js mini-player\"><\/video><\/p>\n<div class=\"iowa-caption\"><strong>Sen. Bernie Sanders<\/strong> |<br \/>\n<em>Davenport, Iowa Jan. 29, 2016<\/em><\/div>\n<\/div>\n<div class=\"video-unit\">\n<video id=\"brightcove-player-12\" data-video-id=\"4741551627001\" data-account=\"293884104\" data-player=\"4kC1hTZKg\" data-embed=\"default\" preload=\"auto\"  class=\"video-js mini-player\"><\/video><\/p>\n<div class=\"iowa-caption\"><strong>Sen. Ted Cruz<\/strong> |<br \/>\n<em>St. Clive, Iowa Jan. 27, 2016<\/em><\/div>\n<\/div>\n<div class=\"video-unit\">\n<video id=\"brightcove-player-13\" data-video-id=\"4741575924001\" data-account=\"293884104\" data-player=\"4kC1hTZKg\" data-embed=\"default\" preload=\"auto\"  class=\"video-js mini-player\"><\/video><\/p>\n<div class=\"iowa-caption\"><strong>Jeb Bush<\/strong> |<br \/>\n<em>Davenport, Iowa Jan. 31, 2016<\/em><\/div>\n<\/div>\n<div class=\"video-unit\">\n<video id=\"brightcove-player-14\" data-video-id=\"4741565439001\" data-account=\"293884104\" data-player=\"4kC1hTZKg\" data-embed=\"default\" preload=\"auto\"  class=\"video-js mini-player\"><\/video><\/p>\n<div class=\"iowa-caption\"><strong>Sen. Marco Rubio<\/strong> |<br \/>\n<em>Davenport, Iowa Jan. 31, 2016<\/em><\/div>\n<\/div>\n<\/div>\n<\/div>\n<p>&nbsp;<\/p>\n<p><span class=\"pullquote\">The films make the stale gestures and rhetorical tropes of campaigning feel startling, poetic and disturbing.<\/span>In the films above, we have the unusual experience of seeing politics freshly. With their eerie, slowed-down time and wealth of visual information, they make the stale gestures and rhetorical tropes of campaigning feel startling, poetic, disturbing. Shot by Christopher Morris, a TIME photographer who developed a distinctive approach to capturing the staged hothouse of U.S. politics in his coverage of the George W. Bush White House\u2014heads floating in a frame, images of feet, unusual shadows\u2014the films seem to expose all that is at once venal and spiritual about American politics, precisely by not trying to look natural.<\/p>\n<p>Here, Morris, assisted by Phantom camera technician Edward Richardson, extends that style using the <a href=\"http:\/\/time.com\/4206960\/behind-the-scene\u2026ristopher-morris\/\" target=\"_blank\">Phantom Miro<\/a>, a camera never before used in political photography, filming at a speed of 720 frames per second (it records far more visual information than other cameras). Because film typically runs at 24 frames per second, when Morris\u2019 footage is run back to us at normal speed, it appears spookily slowed down, with moving objects and passing surfaces in a kind of suspended animation. For a moment, our brains take in more than they normally do. This is the way the world must look during a near-death experience, Morris has mused. The world we thought to be familiar becomes strange and unfamiliar: reminiscent, almost, of a David Lynch film. Contributing to this is the sound, which is slowed down to the exact same rate as the visuals. The result resembles wind on an alien planet, or a preverbal Gregorian chant.<\/p>\n<p><video id=\"brightcove-player-15\" data-video-id=\"4741565440001\" data-account=\"293884104\" data-player=\"4kC1hTZKg\" data-embed=\"default\" preload=\"auto\"  class=\"video-js full-bleed-loop\"><\/video><\/p>\n<p>Athletes in slow motion look graceful\u2014think of the stunningly perfect arc of a gymnast\u2019s<span class=\"marker\"><\/span> dismount\u2014but politics under the Phantom\u2019s gaze look, well, unnerving. The films reveal a complex interplay of cynical political staging and authentic civic hope, where tropes of American innocence and political culpability exist side by side. A sandy-haired tween boy at a Donald Trump speech bounces slowly up and down in excitement; a fresh-faced, auburn-haired girl, ecstatic to see Hillary Clinton, bares her white teeth. The candidates, too, seem newly exposed: Ted Cruz and Clinton are strangely equalized, their stylized gestures, like their ubiquitous finger pointing, appearing aggressive and almost violent, and certainly calculated. The camera exposes the grammar of physical communication onstage: all the candidates share a desire to persuade us, by any means necessary.<\/p>\n<p><span class=\"pullquote\">The hopes, expectations and everyday practicalities of politics are written on the faces in the crowds<\/span>In a strange way, watching these films drives home the import of politics\u2014something that is easy to forget amid all the flag waving and the horse-race coverage. Time is altered; the camera insists that the eye slow down and really see the man selling Trump sweatshirts, or the grizzled middle-aged Cruz supporter, unsmiling in the crowd. We take in each person as a member of the body politic whose life will be shaped by the election results. The hopes, expectations and everyday practicalities of politics are written on the faces in the crowds, in the light falling across a barn, even in the props and frivolities of the rallies\u2014the buttons, the crowd-control fences, the bunting. Here, all becomes newly charged. The strangeness jolts us to attention. Funny that it took a camera to make us see with our own eyes again.<\/p>\n<div class=\"social-links\"><a class=\"time-icons time-icons-fb social-link-fb popup\" target=\"_blank\" href=\"https:\/\/www.facebook.com\/sharer\/sharer.php?u=http%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F%3Fxid%3Dfbshare\" title=\"Click to post this article to Facebook\"><\/a><a class=\"time-icons time-icons-tw social-link-tw\" href=\"https:\/\/twitter.com\/intent\/tweet?url=http%3A%2F%2Fti.me%2F23S9HBB&amp;text=Presidential%20candidates%20at%20nearly%201000%20frames%20per%20second&amp;via=TIMEPolitics\" title=\"Click to Tweet this article\"><\/a><a class=\"time-icons time-icons-pinterest social-link-pinterest popup\" target=\"_blank\" href=\"https:\/\/www.pinterest.com\/pin\/create\/button\/?url=http%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F%3Fxid%3Dpinterestshare&amp;media=https:\/\/timedotcom.files.wordpress.com\/2016\/02\/rubio4.jpg?quality=75&amp;strip=color&amp;w=550&amp;description=Slow on the Trail: Christopher Morris Films&strip=color\" title=\"Click to pin this article on Pinterest\"><\/a><a class=\"time-icons time-icons-linkedin social-link-linkedin popup\" target=\"_blank\" href=\"http:\/\/www.linkedin.com\/shareArticle?mini=true&amp;url=http%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F%3Fxid%3Dlinkedinshare&amp;title=Slow+on+the+Trail%3A+Christopher+Morris+Films\" title=\"Click to post this article to LinkedIn\"><\/a><\/div>\n<p><a href=\"http:\/\/www.christophermorrisphotography.com\" target=\"_blank\">Christopher Morris<\/a> is an award winning TIME contract photographer since 1990 and is a founding member of the <strong><a href=\"http:\/\/viiphoto.com\/\" target=\"_blank\">VII photo agency<\/a><\/strong>. He is the author of <em>My America<\/em> and his latest book <a href=\"http:\/\/time.com\/3794182\/americans-christopher-morris-captures-a-nation-divided\/\" target=\"_blank\"><em>Americans<\/em><\/a>.<\/p>\n<p><a href=\"http:\/\/www.meghanorourke.net\" target=\"_blank\">Meghan O&#8217;Rourke<\/a> is an award-winning essayist and poet.<\/p>\n<p>Watch photographer Christopher Morris and Phantom technician Edward Richardson on the making of this series <a href=\"http:\/\/time.com\/4206960\/behind-the-scene\u2026ristopher-morris\/\" target=\"_blank\">here<\/a>.<\/p>\n<figure class=\"image-wrapper\"><img style=\"padding:24px;\" src=\"https:\/\/s0.wp.com\/wp-content\/themes\/vip\/plugins\/lazy-load\/images\/1x1.trans.gif\" data-lazy-src=\"https:\/\/timedotcom.files.wordpress.com\/2016\/02\/campaign2016final.png\" alt=\"campaign2016final\" width=\"200px\" align=\"center\" \/><noscript><img style=\"padding:24px;\" src=\"https:\/\/timedotcom.files.wordpress.com\/2016\/02\/campaign2016final.png\" alt=\"campaign2016final\" width=\"200px\" align=\"center\" \/><\/noscript><\/figure>\n<p><div id=\"iowa-caucus-video-controls\" class=\"time-interactive\"><img src=\"https:\/\/s0.wp.com\/wp-content\/themes\/vip\/plugins\/lazy-load\/images\/1x1.trans.gif\" data-lazy-src=\"http:\/\/timecom.s3-website-us-east-1.amazonaws.com\/interactives\/iowa-caucus-video-controls\/screenshot.png\" class=\"screenshot\" style=\"width:100%;\"><noscript><img src=\"http:\/\/timecom.s3-website-us-east-1.amazonaws.com\/interactives\/iowa-caucus-video-controls\/screenshot.png\" class=\"screenshot\" style=\"width:100%;\"><\/noscript><\/div><script defer type=\"text\/javascript\" src=\"http:\/\/timecom.s3-website-us-east-1.amazonaws.com\/interactives\/iowa-caucus-video-controls\/script-min.js\"><\/script><\/p>\n","read_more":true,"section":{"name":"Politics","slug":"politics","url":"http:\/\/time.com\/politics\/","description":"Political insight from the Beltway and beyond. Covering the White House, elections, primaries, Congress, domestic policy, foreign policy, the military and more","politics":true},"tags":"2016 Election|Democratic candidates|democratic presidential candidates|Election 2016|presidential candidates|presidential candidates 2016|presidential election candidates|Republican candidates|Republican presidential candidates|Slow Motion","id":4205390,"encoded_url":"http%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F","encoded_shortlink":"http%3A%2F%2Fti.me%2F1JWAVAs","encoded_title":"Slow+on+the+Trail%3A+Christopher+Morris+Films","twitter_text":"Presidential%20candidates%20at%20nearly%201000%20frames%20per%20second","twitter_via":"TIMEPolitics","social_encoded_url":{"facebook":"http%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F%3Fxid%3Dfbshare","twitter":"http%3A%2F%2Fti.me%2F23S9HBB","linkedin":"http%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F%3Fxid%3Dlinkedinshare","google":"http%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F%3Fxid%3Dgplusshare","whatsapp":"Presidential%20candidates%20at%20nearly%201000%20frames%20per%20second%0Ahttp%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F%3Fxid%3Dwhatsappshare","pinterest":"http%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F%3Fxid%3Dpinterestshare"},"ads":{"neg":"banking","post_title":"Slow on the Trail: Christopher Morris Films"},"email_title":"Slow%20on%20the%20Trail%3A%20Christopher%20Morris%20Films%20%7C%20TIME","email_body":"Slow%20on%20the%20Trail%3A%20Christopher%20Morris%20Films%0A%0Ahttp%3A%2F%2Ftime.com%2F2016-presidential-candidates-in-slow-motion%2F%3Fxid%3Demailshare","outbrain":{"url":"http:\/\/time.com\/2016-presidential-candidates-in-slow-motion\/","desktop_widget_id":"AR_6","mobile_widget_id":"MB_1","2x2":"AR_9","widget_id":"AR_6"},"right_rail_disabled":true,"classes":"metered","titles_outbrain":{"url":"http:\/\/time.com\/2016-presidential-candidates-in-slow-motion\/","desktop_widget_id":"AR_8","mobile_widget_id":"MB_2","widget_id":"AR_8"},"seo":{"title":"Presidential Candidates 2016: See Them in Slow Motion","description":"THE CANDIDATES Politics as you\u2019ve never seen them before Films by Christopher Morris for TIMEText by Meghan O'Rourke Images have always been important in American&hellip;","google_news":"donald trump, hillary clinton, jeb bush, marco rubio, ted cruz, bernie sanders","keywords":"2016 election, democratic candidates, democratic presidential candidates, election 2016, presidential candidates, presidential candidates 2016, presidential election candidates, republican candidates, republican presidential candidates, slow motion","og_title":"Presidential candidates at nearly 1000 frames per second","og_desc":"Politics as you\u2019ve never seen them before","canonical_link":""}},"initial_omniture":{"prop8":4205390,"prop7":"special story","prop16":"politics","prop70":"Politics","pageName":"politics|special story|slow on the trail: christopher morris films","prop14":"http:\/\/time.com\/2016-presidential-candidates-in-slow-motion\/","prop26":"2016-02-08","prop28":"","prop30":"Slow on the Trail: Christopher Morris Films","prop67":"2016 Election|Democratic candidates|democratic presidential candidates|Election 2016|presidential candidates|presidential candidates 2016|presidential election candidates|Republican candidates|Republican presidential candidates|Slow Motion","channel":"time","prop64":"v2"},"popularVideos":{"time":[4754339630001,4757438489001,4748470997001,4757288313001,4757438484001,4754502736001,4757343306001,4754480632001,4750776483001,4747329298001,4754628683001,4751498346001,4748699692001,4757343298001,4750547433001,4749319364001,4746566847001,4754561723001,4750722755001,4749180935001],"money":[4747067304001,4749180946001,4752552439001,4750820363001]}}</script><script type='text/javascript' src='//players.brightcove.net/293884104/4kC1hTZKg_default/index.min.js?ver=4.4.1-alpha-36109'></script>
+<script type='text/javascript' src='//tags.tiqcdn.com/utag/timeinc/time.com/prod/utag.js?ver=4.4.1-alpha-36109'></script>
+<script type='text/javascript' src='https://s1.wp.com/wp-content/themes/vip/time2014/js/dist/time-tracking.js?m=1441812711g'></script>
+<script type='text/javascript' src='http://admin.brightcove.com/js/BrightcoveExperiences.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var TIME_DFP = {"zone":"politics","params":{"ptype":"special-article","ctype":"article","aid":4205390,"tags":"2016 Election,Democratic candidates,democratic presidential candidates,Election 2016,presidential candidates,presidential candidates 2016,presidential election candidates,Republican candidates,Republican presidential candidates,Slow Motion","neg":"banking","ch":"politics"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJyVkFEOwjAMQy/ECEUtiA/EWaqRlVRpGy0ZsNuz3YD+Wn62ZfjIMLZqWA3shQUV3iRgVPB8ch6ywpPUQBqvEzEP3MbIam2OCY9ZD/BvAC+JqvYgixGTrT3ILuzGiVIXhkU4GnbNkzgbbV90FaXvZn+Uu/MhXPwtXF3+AcN5iqY='></script>
+<script type='text/javascript' src='//js.revsci.net/gateway/gw.js?csid=H07710'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcomVipAnalytics = {"is_404":"0","is_home":"0","is_single":"0","is_front_page":"0","is_archive":"0","percentToTrack":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyV0dtOwzAMBuAXIvVadYgbxLN4ids5OAdyGAtPD63gBtAgd1Gi77cdw2tUOvhCvkA5k6MMF45Q2NF0GGewGQznsl8os8TB5jvoMRj/ZYRPCVMDF0yVj8dCKFwdFKPV5/l7jKsqSl3ZZ5jUFmb3TIUepRXW+UbdLyj41pQENBu2L5VSG3LwmAbHvntWoaUkZOmGpnl0rM+EhlK3XlFka7zX5ZIIf3zr3+y5ncK1n0XSjBJxpW678JVurfN35XDf4ZN7HOfjcZwP08O9fQf/wRAA'></script>
+<script type='text/javascript' src='http://zor.livefyre.com/wjs/v1.0/javascripts/CommentCount.js'></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script>Modernizr.load({ load: '//widgets.outbrain.com/outbrain.js' });Modernizr.load({ load: '//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0&appId=53177223193' });window.fbAsyncInit = function() { FB.Event.subscribe("xfbml.render", function() { Time.trigger('facebook:xfbml:rendered'); }); };</script><noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=6035728&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1"></noscript><script src="//stats.wp.com/w.js?51" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'1359921','blog_tz':'-5','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'1359921','v':'wpcom','tz':'-5','user_id':'0','post':'4205390','subd':'timedotcom'}]);
+function st_vt() {var x=document.createElement("img");x.src="http://pixel.wp.com/g.gif?blog=1359921&v=wpcomvt&tz=-5&user_id=0&post=4205390&subd=timedotcom&rand="+Math.random();}
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtXRThKbHcwXTdETWI1alhvb1oseHImN101ZFpEakVpYjlQYVFLYzBaVHRtPz0wXS9bUW8yai5mMmVEMV1fJTZPeis/UERVSU12S3BYcXxUL1RHNyVZeFolfi1bdkZdeXpTckhxWV1vNlRxRDIlRjU/a2hVLnNnMnZwSVN+UThRUU84ZENMSEY9UWMvLkN2RXx5dFF4MEksaGc1akVoXWVVUmk0SCZ4P1lyb2JEQ3hKS3UtRy9xc2VnTnlYYWl5Rjl4dmVNODE='}]);
+_stq.push([ 'clickTrackerInit', '1359921', '4205390' ]);
+	</script>
+<noscript><img src="http://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>	<!-- Google Code for TIME Remarketing Tag -->
+	<!--
+	Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+	-->
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 1053751824;
+		var google_custom_params = window.google_tag_params;
+		var google_remarketing_only = true;
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+		<div style="display:inline;">
+			<img height="1" width="1" style="border-style:none;" alt=""
+			     src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1053751824/?value=0&amp;guid=ON&amp;script=0"/>
+		</div>
+	</noscript>
+<script>typeof TiiAdTrackRevSci == 'function' && TiiAdTrackRevSci();</script></body>
+</html>

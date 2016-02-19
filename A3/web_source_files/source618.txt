@@ -1,0 +1,379 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1"><script type="text/javascript" src="https://www.google.com/jsapi?key=ABQIAAAAJeeRSmsYBrskZdszpP09jBReKfJAEwbRcUbqXE_hJrOTs8kbhRRxPl0K5SvzVduUclNqVZscOg8suQ"></script><title>
+	Speedway - Employment Application
+</title>
+  <script src="Scripts/jquery-1.3.2.min.js" type="text/javascript"></script>
+  <script src="Scripts/jquery.blockUI.js" type="text/javascript"></script>
+  <script src="Scripts/SharedScript.js" type="text/javascript"></script>
+  <script src="Scripts/jquery.autotab.js" type="text/javascript"></script>
+  <script type="text/javascript" language="javascript">
+      google.load('maps', '3', {other_params: "sensor=false" }); 
+  </script>
+
+  <script type="text/javascript" language="javascript">
+
+    var EmployeeApplication =
+        {
+            Map: {}
+        };
+
+        $(document).ready(function() {
+
+            if (document.getElementById('MapContainer') != null) {
+               // alert("1");
+                EmployeeApplication.Map = new google.maps.Map(document.getElementById('MapContainer'));
+                EmployeeApplication.Map.setCenter(new google.maps.LatLng(39.8875, -83.9337), 8);
+               
+               PopulateMap();
+
+            }
+            
+            /*
+            $("#ddlPositionDesired > option").each(function() {
+                if (this.text.toLowerCase().indexOf("hess") >= 0)
+                {
+                    var greenstyle = {color : "green", "font-weight": "bold", "font-style": "italic" };
+                    $(this).css(greenstyle);
+                }
+
+            });
+            */
+
+           $("#ddlPositionDesired").change(function () {
+               $("*").css("cursor", "wait");
+           });
+
+           $("#ddlStoreLocation").change(function () {
+               $("*").css("cursor", "wait");
+           });
+
+           $("#ddlDivisionCenters").change(function () {
+               $("*").css("cursor", "wait");
+           });
+
+           $("#ddlHessDivisionCenters").change(function () {
+               $("*").css("cursor", "wait");
+           });
+           
+        });
+
+
+   function PopulateMap() {
+       //alert("2");
+        if (document.getElementById('hiddenZipCode') != null) {
+        GeoCodeUserZipCode(document.getElementById('hiddenZipCode').value, GeocodeCallback);     
+                           
+        }
+    }
+
+    //Send zip code to google map API
+    function GeoCodeUserZipCode(zipCode, callback) {
+       // alert("alert3 - My zip code is " + zipCode);
+        if (typeof (callback) == 'function') {
+            var geocoder = new google.maps.Geocoder();
+            geocoder.geocode({ address: zipCode }, callback);           
+        }
+    }
+
+    //Get back location lat/lng
+    function GeocodeCallback(response) {
+       // alert("4");    
+        //alert("Response from Google:" + response);
+
+        if (typeof (response) != 'undefined') {
+                    
+            if (document.getElementById('MapContainer') != null) {
+
+                var latlng = response[0].geometry.location;
+                var lat = latlng.lat();
+                var lng = latlng.lng();
+                var options = {
+                    zoom: 8,
+                    center: latlng,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+
+                EmployeeApplication.Map = new google.maps.Map(document.getElementById('MapContainer'), options);
+
+                //When a position is selected - PopulateStoreAndMapByPosition() to get store location list
+                //Call Populate Map one more time to send the lat/long to google 
+
+                //Populate the lat/lng in the textboxes and use them to pass to sql to get store list
+                document.getElementById('hiddenLatitude').value = lat;
+                document.getElementById('hiddenLongitude').value = lng;
+                               
+                if (typeof (stores) != 'undefined') {
+                    //alert("5 Store latitude: " + stores.Latitude );
+                    var marker = new google.maps.Marker({ position: new google.maps.LatLng(stores.Latitude, stores.Longitude), map: EmployeeApplication.Map });
+                    
+                }
+            }
+        }
+  
+    }
+
+    //Obsolete
+//    function CreateMarker(o) {
+//        alert("6 - Create Marker");
+//        if (typeof (o) != 'undefined') {
+//            alert("Marker:" + o);
+//            return new google.maps.Marker(o);
+//        }
+//    }
+
+
+    //-------------------------------------------------------------------------
+    //FUNCTION: ShowTimePassed()
+    //DESCRIPTION: Limit maxLenght of the long textbox to 250 characters.
+    //Called onkeyUp event.  onKeyPress is not working when copny and paste.
+    //-------------------------------------------------------------------------
+
+    //Set time delay to check the session timeout.
+    //the method calls the ShowTimePassed() every 20 seconds.
+    window.setInterval('ShowTimePassed()', 1000);
+
+    var secondsPassed = 0;
+
+    function ShowTimePassed() {
+        minutesBeforeLoggedOut = parseInt(minutesBeforeLoggedOut);
+        secondsPassed += 1;
+
+        if (secondsPassed == minutesToWarning * 60) {
+
+            //alert("Warning before timeout " + minutesToWarning);
+
+            var answer;
+            var currentTime = new Date();
+            var expiredTime = new Date();
+            var minutes = expiredTime.getMinutes();
+            minutes += minutesBeforeLoggedOut;
+            expiredTime.setMinutes(minutes);
+
+            if (minutesBeforeLoggedOut >= 5) {
+                //alert("Minutes before timeout: " + minutesBeforeLoggedOut);
+                answer = confirm("Your session will expire in 5 minutes.  Do you wish to continue?");
+
+            }
+            else {
+                //alert("Minutes before timeout = else ") + minutesBeforeLoggedOut;
+                answer = confirm("Your session will expire in " + minutesBeforeLoggedOut + " minutes.  Do you wish to continue?");
+            }
+
+            // Confirm - Yes
+            if (answer) {
+                var img = new Image(1, 1);
+                img.src = 'KeepAlive.aspx?date=' + escape(new Date());
+                secondsPassed = 0;
+                currentTime = new Date();
+
+                //alert("Expired Time: " + expiredTime);
+                // Session expired
+                if (currentTime > expiredTime) {
+                    alert("Your session has timed out.");
+                    //Disable CloseWindow popup message
+                    requireConfirm = false;
+                    window.location = mapUrl;
+                }
+            }
+            // Confirm = cancel -> close the browser
+            else {
+
+                // Need to foo the browser that the window is open before it's close to diable the the IE "...trying to close the window" message.
+                //window.opener = self; // works in IE - not FireFox
+                //window.close();
+                
+                //Disable CloseWindow popup message
+                requireConfirm = false;
+                //window.close();
+                window.location = mapUrl;
+
+            }
+        }
+    }
+    
+</script>
+
+
+<link href="App_Themes/Theme1/Stylesheet.css" type="text/css" rel="stylesheet" /></head>
+
+<body>
+    <!-- 
+
+Start of DoubleClick Floodlight Tag: Please do not remove 
+
+Activity name of this tag: Speedway Application Welcome Page 
+
+URL of the webpage where the tag is expected to be placed: http://www.speedway.com/Speedway.HumanResources.EmployeeApplication.Web/ApplicationMain.aspx 
+
+This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag. 
+
+Creation Date: 07/31/2012 
+
+--> 
+
+<script type="text/javascript">
+
+    var axel = Math.random() + "";
+
+    var a = axel * 10000000000000;
+
+    document.write('<iframe src="http://fls.doubleclick.net/activityi;src=3764549;type=speed902;cat=speew569;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>'); 
+
+</script> 
+
+<noscript> 
+
+<iframe src="http://fls.doubleclick.net/activityi;src=3764549;type=speed902;cat=speew569;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe> 
+
+</noscript> 
+
+
+
+<!-- End of DoubleClick Floodlight Tag: Please do not remove --> 
+
+
+<form name="form1" method="post" action="ApplicationMain.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTMwNTg1MTAyMA9kFgICAw9kFgICDw9kFgpmD2QWAmYPZBYCAgEPZBYEAgEPD2QWAh4HT25DbGljawUXcmVxdWlyZUNvbmZpcm0gPSBmYWxzZTtkAgMPD2QWAh8ABRdyZXF1aXJlQ29uZmlybSA9IGZhbHNlO2QCAQ9kFgJmD2QWAgIBDw8WAh4HVmlzaWJsZWhkFgICAQ8QDxYCHgtfIURhdGFCb3VuZGcWAh8ABRdyZXF1aXJlQ29uZmlybSA9IGZhbHNlOxAVChFTZWxlY3QgYSBwb3NpdGlvbh9DdXN0b21lciBTZXJ2aWNlIFJlcHJlc2VudGF0aXZlF0Zvb2QgU2VydmljZSBTcGVjaWFsaXN0FFNoaWZ0IExlYWRlciBUcmFpbmVlEkNvLU1hbmFnZXIgVHJhaW5lZR5EaXN0cmljdCBNYW5hZ2VyIFRyYWluZWUgKExQUCkWTWFpbnRlbmFuY2UgVGVjaG5pY2lhbhBDb3Jwb3JhdGUgT2ZmaWNlEkludGVybiAtIENvcnBvcmF0ZR9JbnRlcm4gLSBGaWVsZC9TdG9yZSBPcGVyYXRpb25zFQoRU2VsZWN0IGEgcG9zaXRpb24fQ3VzdG9tZXIgU2VydmljZSBSZXByZXNlbnRhdGl2ZRdGb29kIFNlcnZpY2UgU3BlY2lhbGlzdBRTaGlmdCBMZWFkZXIgVHJhaW5lZRJDby1NYW5hZ2VyIFRyYWluZWUeRGlzdHJpY3QgTWFuYWdlciBUcmFpbmVlIChMUFApFk1haW50ZW5hbmNlIFRlY2huaWNpYW4QQ29ycG9yYXRlIE9mZmljZRJJbnRlcm4gLSBDb3Jwb3JhdGUfSW50ZXJuIC0gRmllbGQvU3RvcmUgT3BlcmF0aW9ucxQrAwpnZ2dnZ2dnZ2dnFgFmZAICD2QWAmYPZBYGAgEPDxYCHwFoZBYCAgEPEA9kFgIfAAUXcmVxdWlyZUNvbmZpcm0gPSBmYWxzZTtkFgBkAgMPDxYCHwFoZBYCAgMPEA9kFgIeB29uQ2xpY2sFF3JlcXVpcmVDb25maXJtID0gZmFsc2U7ZBYAZAIFDw8WAh8BaGQWAgIDDxAPZBYCHwMFF3JlcXVpcmVDb25maXJtID0gZmFsc2U7ZBYAZAIDD2QWAmYPZBYCAgEPDxYCHwFoZGQCBA9kFgJmD2QWAgIBDw8WAh4EVGV4dAUCNTBkZGRKGE2a26Je/nSwyotsCqsuazH6UQ==" />
+
+        
+		    <script type='text/javascript'>            
+			    var minutesToWarning = 25; 
+			    var minutesBeforeLoggedOut = 5;            
+			    var mapUrl  = 'ApplicationMain.aspx';        
+		    </script>        
+<script src="/Speedway.HumanResources.EmployeeApplication.Web/ScriptResource.axd?d=j-Ja5HJFSvtlPg2ih-TWhoymbbi4SlUimdcnEGtzvRPn8wRVmmMvHIGuNHFTsufS4YR923bxyKWoH3Mp6LF7wFNf6j-CVXAdexsF_Dc48C38cm31d8XsDLRd1OQxilqq7rw6e3lyMcx13QhJmyOm3Q-sT57I9qG0Zp9RKW-qQjSqmSSq0&amp;t=2e2045e2" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBwLIwuP0BgL8v/mQBwLEioisCAKKtKSzCAKQuPjhAgKY/+zxDALg3MgsJF8JmMu+FmXam8/N6FYIVIpoE4k=" />
+
+
+
+    <div class="pageheader">
+        <table id="tblHeader" class="pagecenter">
+            <tr>
+                <td valign="top">
+                    <img src="Images/SSALogos.gif" alt="Speedway LLC" />
+                    &nbsp;&nbsp;&nbsp;
+                    <img src="Images/hess_ex_logo107x45.gif" alt="Hess express" />
+                </td>
+                <td class="speedwayheader">Speedway LLC EMPLOYMENT APPLICATION</td>
+            </tr>        
+        </table>
+     </div>
+    <div id="divMainDiv" class="divmain">
+    <div class="requiredfieldtext">* Indicates required fields</div>
+    <hr />
+    <div id="divWelcome" class="sectionheader">Welcome</div>
+    <hr />
+    <div id="divMapSection"> 
+        <div>
+            <p>
+                On October 1, 2014, all Hess retail locations became a member of the Speedway family.  While these sites will stay as Hess branded locations for the near future, we are excited to join the businesses together to create the number one convenience store chain in the country.
+            </p> 
+            <p>       
+                We are pleased you are interested in becoming a part of the Speedway family!  In order for you to prepare, please note the application process may take up to 30 minutes to complete and will require you to have all information on prior employment, education, and references readily available.  You may be asked for driver’s license information if you are applying for a position in store management or as a management trainee.
+            </p>
+        </div> 
+        <div id="divValidation">
+                        
+            
+            
+            
+            
+            
+        </div>
+        <br />
+        <div id="divServiceAreaQuestion" style="height:450px">
+            <table id="tblServiceAreaQuestion" style="width:100%">
+	<tr>
+		<td height="45px">
+                    <div id="pnlZipCode">
+			
+                       To get started, please enter your 5-digit zip code below: <span class="requiredfieldtext">*</span><br />
+                        <input name="txtZipCode" type="text" maxlength="5" id="txtZipCode" class="textboxsmall" OnClick="requireConfirm = false;" />&nbsp;&nbsp;  
+                        <input type="submit" name="cmdGo" value="Go" onclick="requireConfirm = false;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;cmdGo&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="cmdGo" class="buttonstylesmall" />
+                    
+		</div>
+                </td>
+	</tr>
+	<tr>
+		<td height="45px">
+                    
+                </td>
+	</tr>
+	<tr>
+		<td height="45px">
+                    
+                     
+                                      
+                </td>
+	</tr>
+	<tr>
+		<td>
+                                                             
+                    <span id="lblStoreOnMapText"><b><font face="Arial,Helvetica,sans-serif;" size="3"></font></b></span><br />
+                    <span id="lblStoreOnMap"><b><font face="Arial,Helvetica,sans-serif;" size="3"></font></b></span>
+                </td>
+	</tr>
+	<tr>
+		<td>
+                    <div id="divHiddenMapData" class="HiddenField" >Radius:
+                        <span id="lblRadius"><b><font face="Arial,Helvetica,sans-serif;" size="3">50</font></b></span>                          
+                        <input name="hiddenZipCode" type="hidden" id="hiddenZipCode" /> 
+                        <input name="hiddenLatitude" type="hidden" id="hiddenLatitude" />
+                        <input name="hiddenLongitude" type="hidden" id="hiddenLongitude" />
+                        Store ID:<span id="storeid"><b><font face="Arial,Helvetica,sans-serif;" size="3"></font></b></span>                     
+                        Store State:<span id="lblStoreState"><b><font face="Arial,Helvetica,sans-serif;" size="3"></font></b></span>      
+                        Recruiting Center:<span id="lblRecruitingCenter"><b><font face="Arial,Helvetica,sans-serif;" size="3"></font></b></span>
+                        Minimum Age For State:<span id="lblAgeEligibleByState"><b><font face="Arial,Helvetica,sans-serif;" size="3"></font></b></span>
+                        Hess Store ID:<span id="hessStoreid"><b><font face="Arial,Helvetica,sans-serif;" size="3"></font></b></span>                     
+                    </div>  
+                    
+                </td>
+	</tr>
+</table>
+        
+        </div>        
+    </div>
+    <br />   
+    <div class="divnavigation" >
+         
+       <input type="submit" name="cmdNext" value="Next >" onclick="requireConfirm = false;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;cmdNext&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="cmdNext" title="Go to Page 2 of 11" class="buttonstyle" />       
+            <div class="divnavigationnote">
+                The Previous/Next buttons are required for navigation within the Application – please do not use your Internet browser’s Back button.
+            </div>
+    </div>
+    <br />
+    <div id="divTrademark">
+            <table id="tblTrademark" width="100%">
+                <tr>
+                    <td class="divtrademark">
+                        Speedway and other marks are registered trademarks owned by 
+                        Speedway LLC</td>
+                    <td style="width:10%"></td>
+                    <td class="textsmallbold">An Equal Opportunity Employer</td>
+                </tr>            
+            </table>            
+        </div>
+</div>       
+
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+
+
+
+</body>
+
+</html>

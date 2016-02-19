@@ -1,0 +1,252 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <link href="favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <link type="text/css" rel="stylesheet" href="css/camera.css" />
+     <meta id="faceImage" property="og:image" content="nir/20160208113133.jpg"></meta>
+    <meta id="metadesc" name="description" content="Portugués Cristiano Ronaldo recibe su tercer Pichichi"></meta>
+	<meta id="metakeyw" name="keywords" content=", image gallery, image grid, template, masonry"></meta>
+	<meta id="metaaut" name="author" content="Centro Puebla"></meta>
+    <title id="tit">Portugués Cristiano Ronaldo recibe su tercer Pichichi</title>
+     <script src="js/jquery.min.js" ></script>
+     <script src="js/jquery.easing.1.3.js" ></script>
+     <script src="js/camera.min.js" ></script>
+     <script src="divisas.js"></script>
+    <script>
+
+        var voted;
+function goPublicidad(id) {
+            jQuery.ajax({
+                type: "GET",
+                url: "webinteraction.aspx?T=H&p=" + id,
+                success: function (html) {
+                  
+                }
+            });
+        }
+        function vote(id) {
+            if (voted)
+                return;
+            jQuery.ajax({
+                type: "GET",
+                url: "webinteraction.aspx?T=V&v=" + id,
+                success: function (html) {
+                    if (html == "-ok")
+                        return;
+                    jQuery("#encuestaInterna").html(html);
+                    voted = true;
+                }
+            });
+        }
+
+        jQuery(function () {
+           
+            var d = new Date();
+          //  jQuery("#fecha").html(d.toDateString() + " | Dólar a la Venta: $15.22 | Dólar a la Compra: 14.62");//.html(d.getDate() + "/" + (d.getMonth() + 1) + "/" + d.getFullYear());
+            jQuery("#submgob").hide(0);
+            jQuery("#submgob").css("left", jQuery("#aPuebla").offset().left + "px");
+            jQuery("#aNacional").mouseenter(function () { jQuery("#submgob").hide(100); });
+            jQuery("#aFinanzas").mouseenter(function () { jQuery("#submgob").hide(100); });
+            jQuery("#aCultura").mouseenter(function () { jQuery("#submgob").hide(100); });
+            jQuery("#aEducacion").mouseenter(function () { jQuery("#submgob").hide(100); });
+            jQuery("#aActualidad").mouseenter(function () { jQuery("#submgob").hide(100); });
+            jQuery("#aDeportes").mouseenter(function () { jQuery("#submgob").hide(100); });
+            jQuery("#aSeguridad").mouseenter(function () { jQuery("#submgob").hide(100); });
+            jQuery("#aOpinion").mouseenter(function () { jQuery("#submgob").hide(100); });
+            jQuery("#aPuebla").mouseenter(function () { jQuery("#submgob").show(100); });
+            GoDivisas();
+        });
+    </script>
+      <script>
+          (function (i, s, o, g, r, a, m) {
+              i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                  (i[r].q = i[r].q || []).push(arguments)
+              }, i[r].l = 1 * new Date(); a = s.createElement(o),
+              m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+          })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+          ga('create', 'UA-55373645-1', 'auto');
+          ga('send', 'pageview');
+</script>
+    <script>
+        var radioOn = false;
+        function toogleRadio() {
+            window.open("radio.html", "_blank", "width=255, height=145, rezisable=no,titlebar=no,");
+        }
+    </script>
+</head>
+<body>
+    <form method="post" action="nota.aspx?id=08022016-31675" id="form2">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJLTgyNTA2NzQzD2QWCgIBDxYCHgdjb250ZW50BRZuaXIvMjAxNjAyMDgxMTMxMzMuanBnZAIDDxYCHwAFNlBvcnR1Z3XDqXMgQ3Jpc3RpYW5vIFJvbmFsZG8gcmVjaWJlIHN1IHRlcmNlciBQaWNoaWNoaWQCBw8WAh8ABQ1DZW50cm8gUHVlYmxhZAIJDxYCHglpbm5lcmh0bWwFNlBvcnR1Z3XDqXMgQ3Jpc3RpYW5vIFJvbmFsZG8gcmVjaWJlIHN1IHRlcmNlciBQaWNoaWNoaWQCCw9kFhoCAQ8WAh4EVGV4dAWnBDxzY3JpcHQgdHlwZT0iYXBwbGljYXRpb24vbGQranNvbiI+eyJAY29udGV4dCI6ICJodHRwOi8vc2NoZW1hLm9yZyIsIkB0eXBlIjogIk5ld3NBcnRpY2xlIiwiaGVhZGxpbmUiOiAiUG9ydHVndcOpcyBDcmlzdGlhbm8gUm9uYWxkbyByZWNpYmUgc3UgdGVyY2VyIFBpY2hpY2hpIiwiYWx0ZXJuYXRpdmVIZWFkbGluZSI6ICJQb3J0dWd1w6lzIENyaXN0aWFubyBSb25hbGRvIHJlY2liZSBzdSB0ZXJjZXIgUGljaGljaGkiLCJpbWFnZSI6IFsiaHR0cDovL2NlbnRyb25saW5lLm14L25pci8yMDE2MDIwODExMzEzMy5qcGciXSwiZGF0ZVB1Ymxpc2hlZCI6ICIyMDE2LTAyLTA4VDExOjMzOjE0LjAwMDAwMDAtMDY6MDAiLCJkZXNjcmlwdGlvbiI6ICJQb3J0dWd1w6lzIENyaXN0aWFubyBSb25hbGRvIHJlY2liZSBzdSB0ZXJjZXIgUGljaGljaGkiLCJhcnRpY2xlQm9keSI6ICJFbCBhc3RybyBsdXNpdGFubyBkZWRpY8OzIGVsIHRyb2ZlbyBhIHRvZG9zIHN1cyBjb21wYcOxZXJvcywgYXPDrSBjb21vIGFsIGN1ZXJwbyB0w6ljbmljbyB5IGRpcmVjdGl2YSJ9PC9zY3JpcHQ+ZAILDxYEHgNzcmMFEWltZy9iYW5uZXJ0b3AuanBnHgdvbmNsaWNrBSNnb1B1YmxpY2lkYWQoNzQpOyB3aW5kb3cub3BlbignIycpO2QCDQ8WAh8BBRJMdW5lcyAwOCBmZWIuIDIwMTZkAiEPFgIeBXN0eWxlBUhiYWNrZ3JvdW5kLWNvbG9yOiMyYzJjMmM7YmFja2dyb3VuZC1pbWFnZTp1cmwoaW1nL2ljb25vcy9kZXBvcnRlc2IuanBnKTtkAiUPFgIfAQWkAjxkaXYgY2xhc3M9ImZiLXNoYXJlLWJ1dHRvbiIgZGF0YS1ocmVmPSJodHRwOi8vd3d3LmNlbnRyb25saW5lLm14L25vdGEuYXNweD9pZD0wODAyMjAxNi0zMTY3NSIgZGF0YS1sYXlvdXQ9ImJ1dHRvbiI+PC9kaXY+Jm5ic3A7IDxhIHN0eWxlPSJtYXJnaW4tdG9wOjVweDsiIGRhdGEtdXJsPSJodHRwOi8vd3d3LmNlbnRyb25saW5lLm14L25vdGEuYXNweD9pZD0wODAyMjAxNi0zMTY3NSIgaHJlZj0iaHR0cHM6Ly90d2l0dGVyLmNvbS9zaGFyZSIgY2xhc3M9InR3aXR0ZXItc2hhcmUtYnV0dG9uIj5Ud2VldDwvYT5kAicPFgIfAQW9JTxwIHN0eWxlPSJ0ZXh0LWFsaWduOiBsZWZ0OyBtYXJnaW46IDBweDsgbGluZS1oZWlnaHQ6IG5vcm1hbDsgY29sb3I6IHJnYigzNSwgMzUsIDM1KTsiPjxiPjxmb250IHNpemU9IjYiIGZhY2U9Imdlb3JnaWEiPlBvcnR1Z3XDqXMgQ3Jpc3RpYW5vIFJvbmFsZG8gcmVjaWJlIHN1IHRlcmNlciBQaWNoaWNoaTwvZm9udD48L2I+PC9wPgo8cCBzdHlsZT0ibWFyZ2luOiAwcHg7IHRleHQtYWxpZ246IGp1c3RpZnk7IGZvbnQtc2l6ZTogMTZweDsgbGluZS1oZWlnaHQ6IG5vcm1hbDsgZm9udC1mYW1pbHk6IEhlbHZldGljYTsgY29sb3I6IHJnYig5NiwgOTYsIDk2KTsiPjxpPjxicj48L2k+PC9wPjxwIHN0eWxlPSJtYXJnaW46IDBweDsgdGV4dC1hbGlnbjoganVzdGlmeTsgZm9udC1zaXplOiAxNnB4OyBsaW5lLWhlaWdodDogbm9ybWFsOyBmb250LWZhbWlseTogSGVsdmV0aWNhOyBjb2xvcjogcmdiKDk2LCA5NiwgOTYpOyI+PGk+KkVsIGFzdHJvIGx1c2l0YW5vIGRlZGljw7MgZWwgdHJvZmVvIGEgdG9kb3Mgc3VzIGNvbXBhw7Flcm9zLCBhc8OtIGNvbW8gYWwgY3VlcnBvIHTDqWNuaWNvIHkgZGlyZWN0aXZhPC9pPjwvcD4KPHAgc3R5bGU9Im1hcmdpbjogMHB4OyB0ZXh0LWFsaWduOiBqdXN0aWZ5OyBmb250LXNpemU6IDE2cHg7IGxpbmUtaGVpZ2h0OiBub3JtYWw7IGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2E7IGNvbG9yOiByZ2IoOTYsIDk2LCA5Nik7Ij48aT48YnI+PC9pPjwvcD48cCBzdHlsZT0ibWFyZ2luOiAwcHg7IHRleHQtYWxpZ246IGp1c3RpZnk7IGZvbnQtc2l6ZTogMTZweDsgbGluZS1oZWlnaHQ6IG5vcm1hbDsgZm9udC1mYW1pbHk6IEhlbHZldGljYTsgY29sb3I6IHJnYig5NiwgOTYsIDk2KTsiPjxpbWcgc3JjPSJodHRwOi8vd3d3LmNlbnRyb25saW5lLm14Ly9uaXIvOTA3YzI4N2UtZjU2Mi00Y2Y5LThhZTQtZTUwZTQ0Yjk5OTEyLmpwZyIgd2lkdGg9IjcyMyI+PGk+PGJyPjwvaT48L3A+PHAgc3R5bGU9Im1hcmdpbjogMHB4OyB0ZXh0LWFsaWduOiBqdXN0aWZ5OyBmb250LXNpemU6IDE2cHg7IGxpbmUtaGVpZ2h0OiBub3JtYWw7IGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2E7IGNvbG9yOiByZ2IoOTYsIDk2LCA5Nik7Ij48aT5Ob3RpbWV4PC9pPjwvcD4KPHAgc3R5bGU9Im1hcmdpbjogMHB4OyB0ZXh0LWFsaWduOiBqdXN0aWZ5OyBmb250LXNpemU6IDE2cHg7IGxpbmUtaGVpZ2h0OiBub3JtYWw7IGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2E7IGNvbG9yOiByZ2IoOTYsIDk2LCA5Nik7Ij48aT5Gb3RvOiBOb3RpbWV4PC9pPjwvcD4KPHAgc3R5bGU9Im1hcmdpbjogMHB4OyB0ZXh0LWFsaWduOiBqdXN0aWZ5OyBmb250LXNpemU6IDE2cHg7IGxpbmUtaGVpZ2h0OiBub3JtYWw7IGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2E7IGNvbG9yOiByZ2IoMzUsIDM1LCAzNSk7Ij48Yj48YnI+PC9iPjwvcD48cCBzdHlsZT0ibWFyZ2luOiAwcHg7IHRleHQtYWxpZ246IGp1c3RpZnk7IGZvbnQtc2l6ZTogMTZweDsgbGluZS1oZWlnaHQ6IG5vcm1hbDsgZm9udC1mYW1pbHk6IEhlbHZldGljYTsgY29sb3I6IHJnYigzNSwgMzUsIDM1KTsiPjxiPk1hZHJpZC4tIEVsIHBvcnR1Z3XDqXMgQ3Jpc3RpYW5vIFJvbmFsZG8gcmVjaWJpw7MgZWwgdGVyY2VyIFBpY2hpY2hpIGRlIHN1IGNhcnJlcmEsIGdyYWNpYXMgYSBzdXMgMzggZ29sZXMgYW5vdGFkb3MgZW4gbGEgY2FtcGHDsWEgMjAxNC0yMDE1IGRlIGxhIExpZ2EgZGUgRXNwYcOxYSBjb24gZWwgUmVhbCBNYWRyaWQsIGR1cmFudGUgdW5hIGNlcmVtb25pYSBsbGV2YWRhIGEgY2FibyBlbiBlbCB0ZWF0cm8gR295YSBkZSBsYSBjYXBpdGFsIGVzcGHDsW9sYS48L2I+PC9wPjxwIHN0eWxlPSJtYXJnaW46IDBweDsgdGV4dC1hbGlnbjoganVzdGlmeTsgZm9udC1zaXplOiAxNnB4OyBsaW5lLWhlaWdodDogbm9ybWFsOyBmb250LWZhbWlseTogSGVsdmV0aWNhOyBjb2xvcjogcmdiKDM1LCAzNSwgMzUpOyI+PGI+PGJyPjwvYj48L3A+CjxwIHN0eWxlPSJtYXJnaW46IDBweDsgdGV4dC1hbGlnbjoganVzdGlmeTsgZm9udC1zaXplOiAxNnB4OyBsaW5lLWhlaWdodDogbm9ybWFsOyBmb250LWZhbWlseTogSGVsdmV0aWNhOyBjb2xvcjogcmdiKDM1LCAzNSwgMzUpOyI+RWwgYXN0cm8gbHVzaXRhbm8gZGVkaWPDsyBlbCB0cm9mZW8sIHBhdHJvY2luYWRvIHBvciBlbCBkaWFyaW8gZGVwb3J0aXZvIE1hcmNhLCBhIHRvZG9zIHN1cyBjb21wYcOxZXJvcywgYXPDrSBjb21vIGFsIGN1ZXJwbyB0w6ljbmljbywgZGlyZWN0aXZhIHkgYSB0b2RvcyBsb3MgcXVlIHRyYWJhamFuIGVuIGVsIGN1YWRybyDigJxtZXJlbmd1ZeKAnS48L3A+PHAgc3R5bGU9Im1hcmdpbjogMHB4OyB0ZXh0LWFsaWduOiBqdXN0aWZ5OyBmb250LXNpemU6IDE2cHg7IGxpbmUtaGVpZ2h0OiBub3JtYWw7IGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2E7IGNvbG9yOiByZ2IoMzUsIDM1LCAzNSk7Ij48YnI+PC9wPgo8cCBzdHlsZT0ibWFyZ2luOiAwcHg7IHRleHQtYWxpZ246IGp1c3RpZnk7IGZvbnQtc2l6ZTogMTZweDsgbGluZS1oZWlnaHQ6IG5vcm1hbDsgZm9udC1mYW1pbHk6IEhlbHZldGljYTsgY29sb3I6IHJnYigzNSwgMzUsIDM1KTsiPiJMZSBkZWRpY28gZXN0ZSBwcmVtaW8gYWwgZXF1aXBvLCBhbCBlbnRyZW5hZG9yLCBhbCBzdGFmZiwgYSBsYSBnZW50ZSBxdWUgdHJhYmFqYSBjb25taWdvIHRvZG9zIGxvcyBkw61hcywgYSB0b2RvcyBtaXMgY29tcGHDsWVyb3PigJ0sIGV4cHJlc8OzIOKAnENSN+KAnSBhbCBpZ3VhbGFyIGFsIGFyZ2VudGlubyBMaW9uZWwgTWVzc2kgY29uIHRyZXMgZ2FsYXJkb25lcy48L3A+PHAgc3R5bGU9Im1hcmdpbjogMHB4OyB0ZXh0LWFsaWduOiBqdXN0aWZ5OyBmb250LXNpemU6IDE2cHg7IGxpbmUtaGVpZ2h0OiBub3JtYWw7IGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2E7IGNvbG9yOiByZ2IoMzUsIDM1LCAzNSk7Ij48YnI+PC9wPgo8cCBzdHlsZT0ibWFyZ2luOiAwcHg7IHRleHQtYWxpZ246IGp1c3RpZnk7IGZvbnQtc2l6ZTogMTZweDsgbGluZS1oZWlnaHQ6IG5vcm1hbDsgZm9udC1mYW1pbHk6IEhlbHZldGljYTsgY29sb3I6IHJnYigzNSwgMzUsIDM1KTsiPlJvbmFsZG8gdGFtYmnDqW4gYWxhYsOzIGVsIG5pdmVsIGRlIGxhIExpZ2EgZGUgRXNwYcOxYSBhbCBkZWNpciBxdWUgZXMgbGEgbWVqb3IgZGVsIG11bmRvLCBhbCB0aWVtcG8gcXVlIGFncmFkZWNpw7MgbGEgb3BvcnR1bmlkYWQgZGUgZGVqYXIgc3UgbGVnYWRvIGVuIGRpY2hhIGNvbXBldGljacOzbi48L3A+PHAgc3R5bGU9Im1hcmdpbjogMHB4OyB0ZXh0LWFsaWduOiBqdXN0aWZ5OyBmb250LXNpemU6IDE2cHg7IGxpbmUtaGVpZ2h0OiBub3JtYWw7IGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2E7IGNvbG9yOiByZ2IoMzUsIDM1LCAzNSk7Ij48YnI+PC9wPgo8cCBzdHlsZT0ibWFyZ2luOiAwcHg7IHRleHQtYWxpZ246IGp1c3RpZnk7IGZvbnQtc2l6ZTogMTZweDsgbGluZS1oZWlnaHQ6IG5vcm1hbDsgZm9udC1mYW1pbHk6IEhlbHZldGljYTsgY29sb3I6IHJnYigzNSwgMzUsIDM1KTsiPuKAnEVzIHVuIHByaXZpbGVnaW8gZGVqYXIgbWkgbWFyY2EgZW4gZWxsYS4gUXVpZXJvIHF1ZWRhcm1lIGFxdcOtIGRvcyBhw7FvcyBtw6FzLiBZIGVsIGZ1dHVybyB5YSBzZSB2ZXLDoS4gTG9zIGRvcyBhw7FvcyBkZSBsb3MgcXVlIGhhYmxvIHNvbiBsb3MgcXVlIGZpZ3VyYW4gZW4gbWkgY29udHJhdG/igJ0sIHNlw7FhbMOzIGVsIHBvcnR1Z3XDqXMgZW4gcmVsYWNpw7NuIGEgc3UgZnV0dXJvIGFsIGN1bG1pbmFyIHN1IGNvbnRyYXRvIGNvbiBsYSBlbnRpZGFkIG1hZHJpZGlzdGEgZW4gMjAxOC48L3A+PHAgc3R5bGU9Im1hcmdpbjogMHB4OyB0ZXh0LWFsaWduOiBqdXN0aWZ5OyBmb250LXNpemU6IDE2cHg7IGxpbmUtaGVpZ2h0OiBub3JtYWw7IGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2E7IGNvbG9yOiByZ2IoMzUsIDM1LCAzNSk7Ij48YnI+PC9wPgo8cCBzdHlsZT0ibWFyZ2luOiAwcHg7IHRleHQtYWxpZ246IGp1c3RpZnk7IGZvbnQtc2l6ZTogMTZweDsgbGluZS1oZWlnaHQ6IG5vcm1hbDsgZm9udC1mYW1pbHk6IEhlbHZldGljYTsgY29sb3I6IHJnYigzNSwgMzUsIDM1KTsiPkVuZmF0aXrDsyBxdWUg4oCcQWhvcmEgbG8gcXVlIGhheSBxdWUgaW50ZW50YXIgZXMgZ2FuYXIgdHJvZmVvcyB5IGxhIExpZ2EgZGUgQ2FtcGVvbmVzIG90cmEgdmV64oCdLCBjb21lbnTDsy48L3A+PHAgc3R5bGU9Im1hcmdpbjogMHB4OyB0ZXh0LWFsaWduOiBqdXN0aWZ5OyBmb250LXNpemU6IDE2cHg7IGxpbmUtaGVpZ2h0OiBub3JtYWw7IGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2E7IGNvbG9yOiByZ2IoMzUsIDM1LCAzNSk7Ij48YnI+PC9wPgo8cCBzdHlsZT0ibWFyZ2luOiAwcHg7IHRleHQtYWxpZ246IGp1c3RpZnk7IGZvbnQtc2l6ZTogMTZweDsgbGluZS1oZWlnaHQ6IG5vcm1hbDsgZm9udC1mYW1pbHk6IEhlbHZldGljYTsgY29sb3I6IHJnYigzNSwgMzUsIDM1KTsiPkxhIGVzdHJlbGxhIGRlbCBjdWFkcm8gZGlyaWdpZG8gcG9yIGVsIGZyYW5jw6lzIFppbmVkaW5lIFppZGFuZSBsbGFtw7MgYSBsYSBhZmljacOzbiBkZWwgY2x1YiBhIHNpZ2EgYXBveWFuZG8gYWwgZXF1aXBvLCBhbCB0aWVtcG8gcXVlIHNlIGNvbXByb21ldGnDsyBxdWUgw6lsIHkgc3VzIGNvbXBhw7Flcm9zIOKAnGRhcsOhbiBsYSBjYXJhIGRlbnRybyBkZWwgY2FtcG8gZSBpbnRlbnRhcmVtb3MgZ2FuYXIgbGEgQ2hhbXBpb25zIChMZWFndWUpLjwvcD48ZGl2Pjxmb250IHNpemU9IjEiPjxicj48L2ZvbnQ+PC9kaXY+PGRpdj48Zm9udCBzaXplPSIxIj4wOC8wMi8yMDE2LjwvZm9udD48L2Rpdj48aHIvPmQCKQ8WAh8BBcIDPGRpdiBjbGFzcz0iZmItc2hhcmUtYnV0dG9uIiBkYXRhLWhyZWY9Imh0dHA6Ly93d3cuY2VudHJvbmxpbmUubXgvbm90YS5hc3B4P2lkPTA4MDIyMDE2LTMxNjc1IiBkYXRhLWxheW91dD0iYnV0dG9uIj48L2Rpdj4mbmJzcDsgPGEgc3R5bGU9Im1hcmdpbi10b3A6NXB4OyIgZGF0YS11cmw9Imh0dHA6Ly93d3cuY2VudHJvbmxpbmUubXgvbm90YS5hc3B4P2lkPTA4MDIyMDE2LTMxNjc1IiBocmVmPSJodHRwczovL3R3aXR0ZXIuY29tL3NoYXJlIiBjbGFzcz0idHdpdHRlci1zaGFyZS1idXR0b24iPlR3ZWV0PC9hPjxkaXYgZGF0YS13aWR0aD0iMTAwJSIgY2xhc3M9ImZiLWNvbW1lbnRzIiBkYXRhLWhyZWY9Imh0dHA6Ly93d3cuY2VudHJvbmxpbmUubXgvbm90YS5hc3B4P2lkPTA4MDIyMDE2LTMxNjc1IiBkYXRhLW51bXBvc3RzPSI1IiBkYXRhLWNvbG9yc2NoZW1lPSJsaWdodCI+PC9kaXY+ZAIrDxYCHwEFxxA8bGkgb25jbGljaz0id2luZG93LmxvY2F0aW9uLmhyZWYgPSAnbm90YS5hc3B4P2lkPTE1MDIyMDE2XFwzMTk2Mic7IiBzdHlsZT0idmVydGljYWwtYWxpZ246dG9wOyBkaXNwbGF5OmlubGluZS1ibG9jazsiPjx0YWJsZT48dHI+PHRkIHN0eWxlPSJ2ZXJ0aWNhbC1hbGlnbjp0b3A7IHdpZHRoOjE1MHB4OyI+PGRpdiBzdHlsZT0iIGhlaWdodDoxNTBweDsgd2lkdGg6MTUwcHg7IG92ZXJmbG93OmhpZGRlbjsgICAgYmFja2dyb3VuZDogd2hpdGVzbW9rZSB1cmwoJ25pci8yMDE2MDIxNTE5MzY0My5qcGcnKSAgbm8tcmVwZWF0IGNlbnRlcjsgICBiYWNrZ3JvdW5kLXNpemU6IGF1dG8gMTUwcHg7IG5vLXJlcGVhdCBjZW50ZXI7Ij48L2Rpdj48L3RkPjwvdHI+PHRyPjx0ZCBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXI7Ij48aDUgc3R5bGU9Im1hcmdpbjowcHg7IHdpZHRoOjE1MHB4OyI+UHVlYmxhIGVuZnJlbnRhcsOhIGEgRG9yYWRvcyBjb21vIHNpIGZ1ZXJhIHVuYSBmaW5hbDsgUGFibG8gTWFyaW5pPC9oNT48L3RkPjwvdHI+PC90YWJsZT48L2xpPjxsaSBvbmNsaWNrPSJ3aW5kb3cubG9jYXRpb24uaHJlZiA9ICdub3RhLmFzcHg/aWQ9MTUwMjIwMTZcXDMxOTYzJzsiIHN0eWxlPSJ2ZXJ0aWNhbC1hbGlnbjp0b3A7IGRpc3BsYXk6aW5saW5lLWJsb2NrOyI+PHRhYmxlPjx0cj48dGQgc3R5bGU9InZlcnRpY2FsLWFsaWduOnRvcDsgd2lkdGg6MTUwcHg7Ij48ZGl2IHN0eWxlPSIgaGVpZ2h0OjE1MHB4OyB3aWR0aDoxNTBweDsgb3ZlcmZsb3c6aGlkZGVuOyAgICBiYWNrZ3JvdW5kOiB3aGl0ZXNtb2tlIHVybCgnbmlyLzIwMTYwMjE1MTk0MDIyLmpwZycpICBuby1yZXBlYXQgY2VudGVyOyAgIGJhY2tncm91bmQtc2l6ZTogYXV0byAxNTBweDsgbm8tcmVwZWF0IGNlbnRlcjsiPjwvZGl2PjwvdGQ+PC90cj48dHI+PHRkIHN0eWxlPSJ0ZXh0LWFsaWduOmNlbnRlcjsiPjxoNSBzdHlsZT0ibWFyZ2luOjBweDsgd2lkdGg6MTUwcHg7Ij5QcmVzZW50YW4gbG9zIHBvcm1lbm9yZXMgZGUgbGEgWElJIENvcGEgR29uemFnYSBkZSBUS0QgPC9oNT48L3RkPjwvdHI+PC90YWJsZT48L2xpPjxsaSBvbmNsaWNrPSJ3aW5kb3cubG9jYXRpb24uaHJlZiA9ICdub3RhLmFzcHg/aWQ9MTUwMjIwMTZcXDMxOTY0JzsiIHN0eWxlPSJ2ZXJ0aWNhbC1hbGlnbjp0b3A7IGRpc3BsYXk6aW5saW5lLWJsb2NrOyI+PHRhYmxlPjx0cj48dGQgc3R5bGU9InZlcnRpY2FsLWFsaWduOnRvcDsgd2lkdGg6MTUwcHg7Ij48ZGl2IHN0eWxlPSIgaGVpZ2h0OjE1MHB4OyB3aWR0aDoxNTBweDsgb3ZlcmZsb3c6aGlkZGVuOyAgICBiYWNrZ3JvdW5kOiB3aGl0ZXNtb2tlIHVybCgnbmlyLzIwMTYwMjE1MTk0NDU4LmpwZycpICBuby1yZXBlYXQgY2VudGVyOyAgIGJhY2tncm91bmQtc2l6ZTogYXV0byAxNTBweDsgbm8tcmVwZWF0IGNlbnRlcjsiPjwvZGl2PjwvdGQ+PC90cj48dHI+PHRkIHN0eWxlPSJ0ZXh0LWFsaWduOmNlbnRlcjsiPjxoNSBzdHlsZT0ibWFyZ2luOjBweDsgd2lkdGg6MTUwcHg7Ij5BenRlY2FzIGF2YW56YW4gYWwgcmVnaW9uYWwgZGUgQ09ORERFPC9oNT48L3RkPjwvdHI+PC90YWJsZT48L2xpPjxsaSBvbmNsaWNrPSJ3aW5kb3cubG9jYXRpb24uaHJlZiA9ICdub3RhLmFzcHg/aWQ9MTYwMjIwMTZcXDMxOTk3JzsiIHN0eWxlPSJ2ZXJ0aWNhbC1hbGlnbjp0b3A7IGRpc3BsYXk6aW5saW5lLWJsb2NrOyI+PHRhYmxlPjx0cj48dGQgc3R5bGU9InZlcnRpY2FsLWFsaWduOnRvcDsgd2lkdGg6MTUwcHg7Ij48ZGl2IHN0eWxlPSIgaGVpZ2h0OjE1MHB4OyB3aWR0aDoxNTBweDsgb3ZlcmZsb3c6aGlkZGVuOyAgICBiYWNrZ3JvdW5kOiB3aGl0ZXNtb2tlIHVybCgnbmlyLzIwMTYwMjE2MTgxMzI3LmpwZycpICBuby1yZXBlYXQgY2VudGVyOyAgIGJhY2tncm91bmQtc2l6ZTogYXV0byAxNTBweDsgbm8tcmVwZWF0IGNlbnRlcjsiPjwvZGl2PjwvdGQ+PC90cj48dHI+PHRkIHN0eWxlPSJ0ZXh0LWFsaWduOmNlbnRlcjsiPjxoNSBzdHlsZT0ibWFyZ2luOjBweDsgd2lkdGg6MTUwcHg7Ij5Ucm9mZW8gZGUgQ2hhbXBpb25zIExlYWd1ZSBkZSBFdXJvcGEgZXMgZXhoaWJpZG8gZW4gQ2l1ZGFkIGRlIE3DqXhpY288L2g1PjwvdGQ+PC90cj48L3RhYmxlPjwvbGk+ZAItDxYEHwMFFWltZy9QdWJsaWNpZGFkLzg4LmpwZx8EBSNnb1B1YmxpY2lkYWQoNzUpOyB3aW5kb3cub3BlbignIycpO2QCLw8WAh8BBdMTPGxpIG9uY2xpY2s9IndpbmRvdy5sb2NhdGlvbi5ocmVmID0gJ25vdGEuYXNweD9pZD0xNjAyMjAxNlxcMzIwMDInOyI+PHRhYmxlIHN0eWxlPSJ3aWR0aDoxMDAlOyI+PHRyPjx0ZCBzdHlsZT0id2lkdGg6MTAwcHgiPjxpbWcgd2lkdGg9IjEwMCIgaGVpZ2h0PSI2MCIgdGl0bGU9IlZpdmUgc2lzdGVtYSBlZHVjYXRpdm8gbWV4aWNhbm8gdHJhbnNmb3JtYWNpw7NuIHBvc2l0aXZhOiBOdcOxbyBNYXllciAiIGFsdD0iVml2ZSBzaXN0ZW1hIGVkdWNhdGl2byBtZXhpY2FubyB0cmFuc2Zvcm1hY2nDs24gcG9zaXRpdmE6IE51w7FvIE1heWVyICIgc3JjPSJoYW5kbGVycy9pbWFnZWhhbmRsZXIuYXNweD9UPXRodW1iJk49MjAxNjAyMTYxOTIzMDkuanBnIiBjbGFzcz0iYWxsQm9yZGVycyIgc3R5bGU9ImJvcmRlci1jb2xvcjojZTAwMDFkIiAvPjwvdGQ+PHRkPjxoNSBzdHlsZT0ibWFyZ2luOjBweDsiPlZpdmUgc2lzdGVtYSBlZHVjYXRpdm8gbWV4aWNhbm8gdHJhbnNmb3JtYWNpw7NuIHBvc2l0aXZhOiBOdcOxbyBNYXllciA8L2g1PjxwIHN0eWxlPSJtYXJnaW46MnB4OyBmb250LXNpemU6eC1zbWFsbCI+MTYvMDIvMjAxNiAxOToyMzowOTwvcD48L3RkPjwvdHI+PC90YWJsZT4gPGhyIHN0eWxlPSJtYXJnaW46NXB4OyB3aWR0aDo5NSU7Ii8+PC9saT48bGkgb25jbGljaz0id2luZG93LmxvY2F0aW9uLmhyZWYgPSAnbm90YS5hc3B4P2lkPTE2MDIyMDE2XFwzMjAwMSc7Ij48dGFibGUgc3R5bGU9IndpZHRoOjEwMCU7Ij48dHI+PHRkIHN0eWxlPSJ3aWR0aDoxMDBweCI+PGltZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjYwIiB0aXRsZT0iUmVmdWVyemFuIHNlZ3VyaWRhZCBlbiBwZW5hbGVzIGRlIFB1ZWJsYSwgZGljZSBBbG1laWRhIiBhbHQ9IlJlZnVlcnphbiBzZWd1cmlkYWQgZW4gcGVuYWxlcyBkZSBQdWVibGEsIGRpY2UgQWxtZWlkYSIgc3JjPSJoYW5kbGVycy9pbWFnZWhhbmRsZXIuYXNweD9UPXRodW1iJk49Y2I5YWU3NWYtODRiOS00ZTk0LWE0MzYtYzkzODc4MDBjZmY2LmpwZyIgY2xhc3M9ImFsbEJvcmRlcnMiIHN0eWxlPSJib3JkZXItY29sb3I6I2UwMDAxZCIgLz48L3RkPjx0ZD48aDUgc3R5bGU9Im1hcmdpbjowcHg7Ij5SZWZ1ZXJ6YW4gc2VndXJpZGFkIGVuIHBlbmFsZXMgZGUgUHVlYmxhLCBkaWNlIEFsbWVpZGE8L2g1PjxwIHN0eWxlPSJtYXJnaW46MnB4OyBmb250LXNpemU6eC1zbWFsbCI+MTYvMDIvMjAxNiAxOToxNjoxOTwvcD48L3RkPjwvdHI+PC90YWJsZT4gPGhyIHN0eWxlPSJtYXJnaW46NXB4OyB3aWR0aDo5NSU7Ii8+PC9saT48bGkgb25jbGljaz0id2luZG93LmxvY2F0aW9uLmhyZWYgPSAnbm90YS5hc3B4P2lkPTE2MDIyMDE2XFwzMjAwMCc7Ij48dGFibGUgc3R5bGU9IndpZHRoOjEwMCU7Ij48dHI+PHRkIHN0eWxlPSJ3aWR0aDoxMDBweCI+PGltZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjYwIiB0aXRsZT0iQ2F0ZWRyw6F0aWNvIGRlIGxhIFVwYWVwIGRlc3RhY2EgbWVuc2FqZSBkZWwgUGFwYSBlbiBDaGlhcGFzIiBhbHQ9IkNhdGVkcsOhdGljbyBkZSBsYSBVcGFlcCBkZXN0YWNhIG1lbnNhamUgZGVsIFBhcGEgZW4gQ2hpYXBhcyIgc3JjPSJoYW5kbGVycy9pbWFnZWhhbmRsZXIuYXNweD9UPXRodW1iJk49MjAxNjAyMTYxODQ3NTkuanBnIiBjbGFzcz0iYWxsQm9yZGVycyIgc3R5bGU9ImJvcmRlci1jb2xvcjojZTAwMDFkIiAvPjwvdGQ+PHRkPjxoNSBzdHlsZT0ibWFyZ2luOjBweDsiPkNhdGVkcsOhdGljbyBkZSBsYSBVcGFlcCBkZXN0YWNhIG1lbnNhamUgZGVsIFBhcGEgZW4gQ2hpYXBhczwvaDU+PHAgc3R5bGU9Im1hcmdpbjoycHg7IGZvbnQtc2l6ZTp4LXNtYWxsIj4xNi8wMi8yMDE2IDE4OjQ3OjU5PC9wPjwvdGQ+PC90cj48L3RhYmxlPiA8aHIgc3R5bGU9Im1hcmdpbjo1cHg7IHdpZHRoOjk1JTsiLz48L2xpPjxsaSBvbmNsaWNrPSJ3aW5kb3cubG9jYXRpb24uaHJlZiA9ICdub3RhLmFzcHg/aWQ9MTYwMjIwMTZcXDMxOTk5JzsiPjx0YWJsZSBzdHlsZT0id2lkdGg6MTAwJTsiPjx0cj48dGQgc3R5bGU9IndpZHRoOjEwMHB4Ij48aW1nIHdpZHRoPSIxMDAiIGhlaWdodD0iNjAiIHRpdGxlPSJQaWRlbiBpbnZlc3RpZ2Fkb3JlcyByZXN0aXR1aXIgYSBwZXJpdG8gZGVsIElOQUggIiBhbHQ9IlBpZGVuIGludmVzdGlnYWRvcmVzIHJlc3RpdHVpciBhIHBlcml0byBkZWwgSU5BSCAiIHNyYz0iaGFuZGxlcnMvaW1hZ2VoYW5kbGVyLmFzcHg/VD10aHVtYiZOPWQ1YWMyN2JiLWMyYzktNDRiYy1iMmUwLTEyZDQ1MmQwNGM2MC5qcGciIGNsYXNzPSJhbGxCb3JkZXJzIiBzdHlsZT0iYm9yZGVyLWNvbG9yOiNlMDAwMWQiIC8+PC90ZD48dGQ+PGg1IHN0eWxlPSJtYXJnaW46MHB4OyI+UGlkZW4gaW52ZXN0aWdhZG9yZXMgcmVzdGl0dWlyIGEgcGVyaXRvIGRlbCBJTkFIIDwvaDU+PHAgc3R5bGU9Im1hcmdpbjoycHg7IGZvbnQtc2l6ZTp4LXNtYWxsIj4xNi8wMi8yMDE2IDE4OjM4OjIzPC9wPjwvdGQ+PC90cj48L3RhYmxlPiA8aHIgc3R5bGU9Im1hcmdpbjo1cHg7IHdpZHRoOjk1JTsiLz48L2xpPmQCMQ8WAh8BBfEFPHAgc3R5bGU9InRleHQtYWxpZ246Y2VudGVyOyBmb250LXNpemU6MTRweDsiPsK/Q8OzbW8gY2FsaWZpY2FzIGVsIHRyYWJham8gZGUgdHUgcHJlc2lkZW50ZSAoYSkgbXVuaWNpcGFsPzwvcD48YnIgLz48dGFibGUgc3R5bGU9Im1hcmdpbjowIGF1dG87IHdpZHRoOjk1JTsgZm9udC1zaXplOnNtYWxsOyI+PHRyIHN0eWxlPSJjdXJzb3I6cG9pbnRlcjsiIG9uY2xpY2s9InZvdGUoMSk7Ij48dGQ+QnVlbm88L3RkPjx0ZD48aW1nIHNyYz0iaW1nL2VuY3Vlc3RhLmpwZyIgd2lkdGg9IjAiIGhlaWdodD0iMTAiIC8+PC90ZD48dGQ+MCAlPC90ZD48L3RyPjx0ciBzdHlsZT0iY3Vyc29yOnBvaW50ZXI7IiBvbmNsaWNrPSJ2b3RlKDIpOyI+PHRkPlJlZ3VsYXI8L3RkPjx0ZD48aW1nIHNyYz0iaW1nL2VuY3Vlc3RhLmpwZyIgd2lkdGg9Ijc1IiBoZWlnaHQ9IjEwIiAvPjwvdGQ+PHRkPjUwICU8L3RkPjwvdHI+PHRyIHN0eWxlPSJjdXJzb3I6cG9pbnRlcjsiIG9uY2xpY2s9InZvdGUoMyk7Ij48dGQ+TWFsbzwvdGQ+PHRkPjxpbWcgc3JjPSJpbWcvZW5jdWVzdGEuanBnIiB3aWR0aD0iMzciIGhlaWdodD0iMTAiIC8+PC90ZD48dGQ+MjUgJTwvdGQ+PC90cj48dHIgc3R5bGU9ImN1cnNvcjpwb2ludGVyOyIgb25jbGljaz0idm90ZSg0KTsiPjx0ZD5Qw6lzaW1vPC90ZD48dGQ+PGltZyBzcmM9ImltZy9lbmN1ZXN0YS5qcGciIHdpZHRoPSIzNyIgaGVpZ2h0PSIxMCIgLz48L3RkPjx0ZD4yNSAlPC90ZD48L3RyPjwvdGFibGU+PC9kaXY+ZAIzDxYEHwMFFWltZy9QdWJsaWNpZGFkLzg5LmpwZx8EBSNnb1B1YmxpY2lkYWQoNzYpOyB3aW5kb3cub3BlbignIycpO2QCNQ8WBB8DBRZpbWcvUHVibGljaWRhZC84MTAuanBnHwQFI2dvUHVibGljaWRhZCg3Nyk7IHdpbmRvdy5vcGVuKCcjJyk7ZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUMSW1hZ2VCdXR0b24xGgNnOn9sTINl3j2dRcJxi50qaX5qE4nNRcGNfEpbdv4=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="55D07065" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAMZn1ancVI+nRqxZuWLmhLfESCFkFW/RuhzY1oLb/NUVOmQAq8eUWZ5ZSknq1PiLioRgoJgirixFZfjWEr4fQqrk2shTW4+kVn9pW66gxJrYA==" />
+          <script type="application/ld+json">{"@context": "http://schema.org","@type": "NewsArticle","headline": "Portugués Cristiano Ronaldo recibe su tercer Pichichi","alternativeHeadline": "Portugués Cristiano Ronaldo recibe su tercer Pichichi","image": ["http://centronline.mx/nir/20160208113133.jpg"],"datePublished": "2016-02-08T11:33:14.0000000-06:00","description": "Portugués Cristiano Ronaldo recibe su tercer Pichichi","articleBody": "El astro lusitano dedicó el trofeo a todos sus compañeros, así como al cuerpo técnico y directiva"}</script>
+         <ul id="submgob" style="list-style:none; margin:0px; padding:0; position:absolute; left:315px; top:290px; z-index:999999999999">
+             <li id="aPolitica" style="background-color:#e0001d;" onclick="window.location.href=&#39;seccion.aspx?RIS=2&#39;"><table style="vertical-align:middle;"><tr><td><img src="img/iconos/politica.jpg" id="iPolitica" width="28" /></td><td class="menuTtext">Política</td></tr></table></li>
+             <li id="aGobierno" style="background-color:#e0001d;" onclick="window.location.href=&#39;seccion.aspx?RIS=3&#39;"><table style="vertical-align:middle;"><tr><td><img src="img/iconos/gobierno.jpg" id="iGobierno" width="28" /></td><td class="menuTtext">Gobierno</td></tr></table></li>
+              <li id="aCapital" style="background-color:#e0001d;" onclick="window.location.href=&#39;seccion.aspx?RIS=13&#39;"><table style="vertical-align:middle;"><tr><td><img src="img/iconos/municipios.jpg" id="iCapital" width="28" /></td><td class="menuTtext">Capital</td></tr></table></li>
+              <li id="aMunicipios" style="background-color:#e0001d;" onclick="window.location.href=&#39;seccion.aspx?RIS=14&#39;"><table style="vertical-align:middle;"><tr><td><img src="img/iconos/capital.jpg" id="iMunicipios" width="28" /></td><td class="menuTtext">Municipios</td></tr></table></li>
+        </ul>
+    <div id="top">
+    
+    </div>
+      <div style="height:100px; "><img src="img/bannertop.jpg" id="pub7" onclick="goPublicidad(74); window.open(&#39;#&#39;);" /></div>
+    <div id="slider">
+        <span id="fecha" style=" font-size:small; color:white;">Lunes 08 feb. 2016</span>
+          <span id="divisas" style="font-size:small; color:white;"></span>
+         <div  id="buscador" style="height:20px; float:right;">
+            <input name="TextBox1" type="text" id="TextBox1" style="position:relative; top:-3px; background-color:transparent; width:150px; font-size:x-small; color:white; border:1px solid #ffffff;" />
+            <input type="image" name="ImageButton1" id="ImageButton1" src="img/iconos/buscar_icono.png" />
+        </div>
+    </div>
+    <div id="banner" onclick="window.location.href='default.aspx';">
+        <a href="https://www.facebook.com/pages/Centro-Online/946406918722067"  target="_blank"><img src="images/fbb.png"  /></a>
+        <a href="https://twitter.com/Centrolinemx"  target="_blank"><img src="images/twb.png"  style="margin-right:25px;"/></a>
+    </div>
+    <div id="menu">
+         <ul class="navul">
+             <li><a href="Default.aspx" style="background-image:url(img/iconos/home.jpg);" class="menuIcon"><span class="menuText">Inicio</span></a></li>
+             <li><a href="seccion.aspx?RIS=13" id="aPuebla" style="background-image:url(img/iconos/capital.jpg);" class="menuIcon"><span class="menuText">Puebla</span></a></li>
+            <li><a href="seccion.aspx?RIS=11" id="aNacional" style="background-image:url(img/iconos/nacional.jpg); " class="menuIcon"><span class="menuText">Nacional</span></a></li>
+            <li><a href="seccion.aspx?RIS=12" id="aInternacional" style="background-image:url(img/iconos/internacional.jpg); " class="menuIcon"><span class="menuText">Internacional</span></a></li>
+            <li><a href="seccion.aspx?RIS=4" id="aFinanzas" style="background-image:url(img/iconos/finanzas.jpg);" class="menuIcon"><span class="menuText">Economía</span></a></li>
+            <li><a href="seccion.aspx?RIS=5" id="aCultura" style="background-image:url(img/iconos/cultura.jpg);" class="menuIcon"><span class="menuText">Cultura</span></a></li>
+            <li><a href="seccion.aspx?RIS=6" id="aEducacion" style="background-image:url(img/iconos/educacion.jpg);" class="menuIcon"><span class="menuText">Educación</span></a></li>
+            <li><a href="seccion.aspx?RIS=7" id="aActualidad" style="background-image:url(img/iconos/actualidad.jpg);" class="menuIcon"><span class="menuText">LifeStyle</span></a></li>
+            <li><a href="seccion.aspx?RIS=8" id="aDeportes" style="background-color:#2c2c2c;background-image:url(img/iconos/deportesb.jpg);" class="menuIcon"><span class="menuText">Deportes</span></a></li>
+            <li><a href="seccion.aspx?RIS=9" id="aSeguridad" style="background-image:url(img/iconos/seguridad.jpg);" class="menuIcon"><span class="menuText">Seguridad</span></a></li>
+            <li><a href="opiniones.aspx" style="background-image:url(img/iconos/opinion.jpg);" class="menuIcon"><span class="menuText">Opinión</span></a></li>
+             <li><a id="radioLink" href="javascript:toogleRadio();" style="background-image:url(img/iconos/radiooff.jpg);" class="menuIcon"><span class="menuText">Radio</span></a></li>
+
+        </ul>
+    </div>
+        <hr />
+        <table style="width:100%; border-spacing:5px 10px">
+            <tr>
+                <td style="width:667px; vertical-align:top;">
+                     <div id="social" style="text-align:right;"><div class="fb-share-button" data-href="http://www.centronline.mx/nota.aspx?id=08022016-31675" data-layout="button"></div>&nbsp; <a style="margin-top:5px;" data-url="http://www.centronline.mx/nota.aspx?id=08022016-31675" href="https://twitter.com/share" class="twitter-share-button">Tweet</a></div>
+                     <div id="nota"><p style="text-align: left; margin: 0px; line-height: normal; color: rgb(35, 35, 35);"><b><font size="6" face="georgia">Portugués Cristiano Ronaldo recibe su tercer Pichichi</font></b></p>
+<p style="margin: 0px; text-align: justify; font-size: 16px; line-height: normal; font-family: Helvetica; color: rgb(96, 96, 96);"><i><br></i></p><p style="margin: 0px; text-align: justify; font-size: 16px; line-height: normal; font-family: Helvetica; color: rgb(96, 96, 96);"><i>*El astro lusitano dedicó el trofeo a todos sus compañeros, así como al cuerpo técnico y directiva</i></p>
+<p style="margin: 0px; text-align: justify; font-size: 16px; line-height: normal; font-family: Helvetica; color: rgb(96, 96, 96);"><i><br></i></p><p style="margin: 0px; text-align: justify; font-size: 16px; line-height: normal; font-family: Helvetica; color: rgb(96, 96, 96);"><img src="http://www.centronline.mx//nir/907c287e-f562-4cf9-8ae4-e50e44b99912.jpg" width="723"><i><br></i></p><p style="margin: 0px; text-align: justify; font-size: 16px; line-height: normal; font-family: Helvetica; color: rgb(96, 96, 96);"><i>Notimex</i></p>
+<p style="margin: 0px; text-align: justify; font-size: 16px; line-height: normal; font-family: Helvetica; color: rgb(96, 96, 96);"><i>Foto: Notimex</i></p>
+<p style="margin: 0px; text-align: justify; font-size: 16px; line-height: normal; font-family: Helvetica; color: rgb(35, 35, 35);"><b><br></b></p><p style="margin: 0px; text-align: justify; font-size: 16px; line-height: normal; font-family: Helvetica; color: rgb(35, 35, 35);"><b>Madrid.- El portugués Cristiano Ronaldo recibió el tercer Pichichi de su carrera, gracias a sus 38 goles anotados en la campaña 2014-2015 de la Liga de España con el Real Madrid, durante una ceremonia llevada a cabo en el teatro Goya de la capital española.</b></p><p style="margin: 0px; text-align: justify; font-size: 16px; line-height: normal; font-family: Helvetica; color: rgb(35, 35, 35);"><b><br></b></p>
+<p style="margin: 0px; text-align: justify; font-size: 16px; line-height: normal; font-family: Helvetica; color: rgb(35, 35, 35);">El astro lusitano dedicó el trofeo, patrocinado por el diario deportivo Marca, a todos sus compañeros, así como al cuerpo técnico, directiva y a todos los que trabajan en el cuadro “merengue”.</p><p style="margin: 0px; text-align: justify; font-size: 16px; line-height: normal; font-family: Helvetica; color: rgb(35, 35, 35);"><br></p>
+<p style="margin: 0px; text-align: justify; font-size: 16px; line-height: normal; font-family: Helvetica; color: rgb(35, 35, 35);">"Le dedico este premio al equipo, al entrenador, al staff, a la gente que trabaja conmigo todos los días, a todos mis compañeros”, expresó “CR7” al igualar al argentino Lionel Messi con tres galardones.</p><p style="margin: 0px; text-align: justify; font-size: 16px; line-height: normal; font-family: Helvetica; color: rgb(35, 35, 35);"><br></p>
+<p style="margin: 0px; text-align: justify; font-size: 16px; line-height: normal; font-family: Helvetica; color: rgb(35, 35, 35);">Ronaldo también alabó el nivel de la Liga de España al decir que es la mejor del mundo, al tiempo que agradeció la oportunidad de dejar su legado en dicha competición.</p><p style="margin: 0px; text-align: justify; font-size: 16px; line-height: normal; font-family: Helvetica; color: rgb(35, 35, 35);"><br></p>
+<p style="margin: 0px; text-align: justify; font-size: 16px; line-height: normal; font-family: Helvetica; color: rgb(35, 35, 35);">“Es un privilegio dejar mi marca en ella. Quiero quedarme aquí dos años más. Y el futuro ya se verá. Los dos años de los que hablo son los que figuran en mi contrato”, señaló el portugués en relación a su futuro al culminar su contrato con la entidad madridista en 2018.</p><p style="margin: 0px; text-align: justify; font-size: 16px; line-height: normal; font-family: Helvetica; color: rgb(35, 35, 35);"><br></p>
+<p style="margin: 0px; text-align: justify; font-size: 16px; line-height: normal; font-family: Helvetica; color: rgb(35, 35, 35);">Enfatizó que “Ahora lo que hay que intentar es ganar trofeos y la Liga de Campeones otra vez”, comentó.</p><p style="margin: 0px; text-align: justify; font-size: 16px; line-height: normal; font-family: Helvetica; color: rgb(35, 35, 35);"><br></p>
+<p style="margin: 0px; text-align: justify; font-size: 16px; line-height: normal; font-family: Helvetica; color: rgb(35, 35, 35);">La estrella del cuadro dirigido por el francés Zinedine Zidane llamó a la afición del club a siga apoyando al equipo, al tiempo que se comprometió que él y sus compañeros “darán la cara dentro del campo e intentaremos ganar la Champions (League).</p><div><font size="1"><br></font></div><div><font size="1">08/02/2016.</font></div><hr/></div>
+                    <div id="socialcoments"><div class="fb-share-button" data-href="http://www.centronline.mx/nota.aspx?id=08022016-31675" data-layout="button"></div>&nbsp; <a style="margin-top:5px;" data-url="http://www.centronline.mx/nota.aspx?id=08022016-31675" href="https://twitter.com/share" class="twitter-share-button">Tweet</a><div data-width="100%" class="fb-comments" data-href="http://www.centronline.mx/nota.aspx?id=08022016-31675" data-numposts="5" data-colorscheme="light"></div></div>
+                    <hr />
+                    <div id="relacionada" style="text-align:center;">
+                        <ul id="ulRelacionadas" style="list-style:none; display:inline; padding:0px; margin:0px;"><li onclick="window.location.href = 'nota.aspx?id=15022016\\31962';" style="vertical-align:top; display:inline-block;"><table><tr><td style="vertical-align:top; width:150px;"><div style=" height:150px; width:150px; overflow:hidden;    background: whitesmoke url('nir/20160215193643.jpg')  no-repeat center;   background-size: auto 150px; no-repeat center;"></div></td></tr><tr><td style="text-align:center;"><h5 style="margin:0px; width:150px;">Puebla enfrentará a Dorados como si fuera una final; Pablo Marini</h5></td></tr></table></li><li onclick="window.location.href = 'nota.aspx?id=15022016\\31963';" style="vertical-align:top; display:inline-block;"><table><tr><td style="vertical-align:top; width:150px;"><div style=" height:150px; width:150px; overflow:hidden;    background: whitesmoke url('nir/20160215194022.jpg')  no-repeat center;   background-size: auto 150px; no-repeat center;"></div></td></tr><tr><td style="text-align:center;"><h5 style="margin:0px; width:150px;">Presentan los pormenores de la XII Copa Gonzaga de TKD </h5></td></tr></table></li><li onclick="window.location.href = 'nota.aspx?id=15022016\\31964';" style="vertical-align:top; display:inline-block;"><table><tr><td style="vertical-align:top; width:150px;"><div style=" height:150px; width:150px; overflow:hidden;    background: whitesmoke url('nir/20160215194458.jpg')  no-repeat center;   background-size: auto 150px; no-repeat center;"></div></td></tr><tr><td style="text-align:center;"><h5 style="margin:0px; width:150px;">Aztecas avanzan al regional de CONDDE</h5></td></tr></table></li><li onclick="window.location.href = 'nota.aspx?id=16022016\\31997';" style="vertical-align:top; display:inline-block;"><table><tr><td style="vertical-align:top; width:150px;"><div style=" height:150px; width:150px; overflow:hidden;    background: whitesmoke url('nir/20160216181327.jpg')  no-repeat center;   background-size: auto 150px; no-repeat center;"></div></td></tr><tr><td style="text-align:center;"><h5 style="margin:0px; width:150px;">Trofeo de Champions League de Europa es exhibido en Ciudad de México</h5></td></tr></table></li></ul>
+                    </div>
+                </td>
+                <td style="vertical-align:top;">
+                    <div style="height:270px; background-color:white; text-align:center;">
+                        <img src="img/Publicidad/88.jpg" id="pub8" height="270" onclick="goPublicidad(75); window.open(&#39;#&#39;);" />
+                    </div>
+                     <div style="width:100%; height:350px; margin-top:5px; background-color:white;" class="allBorders">
+                 <div style="background-color:#e0001d; color:white; font-weight:bold; text-align:center;">Al momento</div>
+                 <div style=" overflow:auto">
+                     <ul id="timelap" style="width:100%; height:340px; list-style:none; margin:0px; padding:0px;"><li onclick="window.location.href = 'nota.aspx?id=16022016\\32002';"><table style="width:100%;"><tr><td style="width:100px"><img width="100" height="60" title="Vive sistema educativo mexicano transformación positiva: Nuño Mayer " alt="Vive sistema educativo mexicano transformación positiva: Nuño Mayer " src="handlers/imagehandler.aspx?T=thumb&N=20160216192309.jpg" class="allBorders" style="border-color:#e0001d" /></td><td><h5 style="margin:0px;">Vive sistema educativo mexicano transformación positiva: Nuño Mayer </h5><p style="margin:2px; font-size:x-small">16/02/2016 19:23:09</p></td></tr></table> <hr style="margin:5px; width:95%;"/></li><li onclick="window.location.href = 'nota.aspx?id=16022016\\32001';"><table style="width:100%;"><tr><td style="width:100px"><img width="100" height="60" title="Refuerzan seguridad en penales de Puebla, dice Almeida" alt="Refuerzan seguridad en penales de Puebla, dice Almeida" src="handlers/imagehandler.aspx?T=thumb&N=cb9ae75f-84b9-4e94-a436-c9387800cff6.jpg" class="allBorders" style="border-color:#e0001d" /></td><td><h5 style="margin:0px;">Refuerzan seguridad en penales de Puebla, dice Almeida</h5><p style="margin:2px; font-size:x-small">16/02/2016 19:16:19</p></td></tr></table> <hr style="margin:5px; width:95%;"/></li><li onclick="window.location.href = 'nota.aspx?id=16022016\\32000';"><table style="width:100%;"><tr><td style="width:100px"><img width="100" height="60" title="Catedrático de la Upaep destaca mensaje del Papa en Chiapas" alt="Catedrático de la Upaep destaca mensaje del Papa en Chiapas" src="handlers/imagehandler.aspx?T=thumb&N=20160216184759.jpg" class="allBorders" style="border-color:#e0001d" /></td><td><h5 style="margin:0px;">Catedrático de la Upaep destaca mensaje del Papa en Chiapas</h5><p style="margin:2px; font-size:x-small">16/02/2016 18:47:59</p></td></tr></table> <hr style="margin:5px; width:95%;"/></li><li onclick="window.location.href = 'nota.aspx?id=16022016\\31999';"><table style="width:100%;"><tr><td style="width:100px"><img width="100" height="60" title="Piden investigadores restituir a perito del INAH " alt="Piden investigadores restituir a perito del INAH " src="handlers/imagehandler.aspx?T=thumb&N=d5ac27bb-c2c9-44bc-b2e0-12d452d04c60.jpg" class="allBorders" style="border-color:#e0001d" /></td><td><h5 style="margin:0px;">Piden investigadores restituir a perito del INAH </h5><p style="margin:2px; font-size:x-small">16/02/2016 18:38:23</p></td></tr></table> <hr style="margin:5px; width:95%;"/></li></ul>
+                 </div>
+             </div>
+                     <div id="encuesta" style="width:100%;  height:214px; margin-top:5px;background-color:#2c2c2c;  ">
+                    <div><table style="background-color:#e0001d; color:white; width:100%;"><tr><td style="width:28px;"><img width="28" src="img/iconos/encuesta.jpg" /></td><td>Encuesta</td></tr></table></div>
+                    <div id="encuestaInterna" style="background-color:#2c2c2c; font-size:medium; color:white;"><p style="text-align:center; font-size:14px;">¿Cómo calificas el trabajo de tu presidente (a) municipal?</p><br /><table style="margin:0 auto; width:95%; font-size:small;"><tr style="cursor:pointer;" onclick="vote(1);"><td>Bueno</td><td><img src="img/encuesta.jpg" width="0" height="10" /></td><td>0 %</td></tr><tr style="cursor:pointer;" onclick="vote(2);"><td>Regular</td><td><img src="img/encuesta.jpg" width="75" height="10" /></td><td>50 %</td></tr><tr style="cursor:pointer;" onclick="vote(3);"><td>Malo</td><td><img src="img/encuesta.jpg" width="37" height="10" /></td><td>25 %</td></tr><tr style="cursor:pointer;" onclick="vote(4);"><td>Pésimo</td><td><img src="img/encuesta.jpg" width="37" height="10" /></td><td>25 %</td></tr></table></div></div>
+                    </div>
+                      <div style="height:300px;  background-color:white; margin-top:5px; text-align:center;"> 
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Noticias -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5609361724311380"
+     data-ad-slot="6258944155"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                           <img src="img/Publicidad/89.jpg" id="pub9" style="visibility:hidden" onclick="goPublicidad(76); window.open(&#39;#&#39;);" /></div>
+                      <div style="height:340px; background-color:white;  margin-top:5px; text-align:center;">  <img src="img/Publicidad/810.jpg" id="pub10" onclick="goPublicidad(77); window.open(&#39;#&#39;);" /></div>
+                </td>
+            </tr>
+        </table>
+   
+        
+           <div id="foot">
+        <div style="width:75%; color:white; float:left;">
+            <div style=" margin-left:15px; margin-top:15px; background-color:#e0001d;">MAPA DE SITIO</div>
+            <table style="margin-left:10px; border-collapse:separate; text-align:center; font-size:small;">
+                <tr>
+                    <td style="cursor:pointer" onclick="window.location.href='seccion.aspx?RIS=4'"><img src="img/iconos/finanzasb.jpg" /></td>
+                    <td style="cursor:pointer" onclick="window.location.href='seccion.aspx?RIS=2'"><img src="img/iconos/politicab.jpg" /></td>
+                    <td  style="cursor:pointer" onclick="window.location.href='seccion.aspx?RIS=9'"><img src="img/iconos/seguridadb.jpg" /></td>
+                    <td  style="cursor:pointer" onclick="window.location.href='seccion.aspx?RIS=8'"><img src="img/iconos/deportesb.jpg" /></td>
+                    <td  style="cursor:pointer" onclick="window.location.href='seccion.aspx?RIS=6'"><img src="img/iconos/educacionb.jpg" /></td>
+                    <td  style="cursor:pointer" onclick="window.location.href='opiniones.aspx'"><img src="img/iconos/opinionb.jpg" /></td>
+                    <td  style="cursor:pointer" onclick="window.location.href='seccion.aspx?RIS=11'"><img src="img/iconos/nacionalb.jpg" /></td>
+                    <td  style="cursor:pointer" onclick="window.location.href='seccion.aspx?RIS=12'"><img src="img/iconos/internacionalb.jpg" /></td>
+                     <td  style="cursor:pointer" onclick="window.location.href='seccion.aspx?RIS=13'"><img src="img/iconos/capitalb.jpg" /></td>
+                     <td  style="cursor:pointer" onclick="window.location.href='seccion.aspx?RIS=14'"><img src="img/iconos/municipiosb.jpg" /></td>
+                    <td  style="cursor:pointer" onclick="window.location.href='seccion.aspx?RIS=7'"><img src="img/iconos/actualidadb.jpg" /></td>
+                    <td  style="cursor:pointer" onclick="window.location.href='seccion.aspx?RIS=5'"><img src="img/iconos/culturab.jpg" /></td>
+                    <td  style="cursor:pointer" onclick="window.location.href='seccion.aspx?RIS=3'"><img src="img/iconos/gobiernob.jpg" /></td>
+                </tr>
+                <tr>
+                    <td>Finanzas</td>
+                    <td>Política</td>
+                    <td>Seguridad</td>
+                    <td>Deportes</td>
+                    <td>Educación</td>
+                    <td>Opinión</td>
+                    <td>Nacional</td>
+                    <td>Internacional</td>
+                    <td>Capital</td>
+                    <td>Municipios</td>
+                    <td>Actualidad</td>
+                    <td>Cultura</td>
+                    <td>Gobierno</td>
+
+                </tr>
+            </table>
+            <div style="margin-top:25px; background-color:#1f1f1f;">
+                <table><tr><td><img src="img/centroRed.jpg" onclick="window.location.href='default.aspx';"/></td><td><table><tr>
+                    <td style=" width:70px; text-align:center; border-right:solid 1px white"><a style="text-decoration:none; color:white;" href="Default.aspx">Inicio</a></td>
+                    <td style="width:70px; text-align:center; border-right:solid 1px white"><a style="text-decoration:none; color:white;" href="Directorio.aspx">Directorio</a></td>
+                    <td style="width:70px; text-align:center; border-right:solid 1px white"><a style="text-decoration:none; color:white;" href="mailto:contacto@centronline.mx">Contacto</a></td>
+                    <td style="width:70px; text-align:center; border-right:solid 1px white">Buscar</td>
+                    <td style="width:150px; text-align:center;"><a style="text-decoration:none; color:white;" href="Aviso.aspx">Aviso de Privacidad</a></td>
+                    </tr></table></td></tr></table>
+            </div>
+            <div id="radioContainer"></div>
+        </div>
+        <div style="width:20%; color:white; margin-left:15px; margin-top:15px;  float:left;">
+               <ul style="width:100%; list-style:none; padding:0px; margin:0px;">
+                <li style="display:block; height:20px; padding:0px; margin-bottom:5px; vertical-align:middle; background-color:#e0001d; text-align:center;">CENTRO MULTIMEDIA</li>
+                <li onclick="window.open('mediacenter.aspx');" style="display:block; height:37px; padding:0px; margin-bottom:5px; vertical-align:middle; background-color:#e0001d; text-align:center;"> <table><tr><td><img src="img/iconos/tv.jpg" /></td><td>Centro TV</td></tr></table></li>
+                <li onclick="window.open('mediacenter.aspx');" style="display:block; height:37px; padding:0px; margin-bottom:20px; vertical-align:middle; background-color:#e0001d; text-align:center;"> <table><tr><td><img src="img/iconos/radio.jpg" /></td><td>Centro Radio</td></tr></table></li>
+                <li style="display:block; height:37px; padding:0px; margin-bottom:5px; vertical-align:middle; background-color:#e0001d; text-align:center;"> <table><tr><td><img src="img/iconos/siguenos.jpg" /></td><td>Síguenos</td></tr></table></li>
+                <li onclick="window.open('https://www.facebook.com/pages/Centro-Online/946406918722067','_blank');" style="display:block; height:37px; padding:0px; margin-bottom:5px; vertical-align:middle; background-color:#e0001d; text-align:center;"> <table><tr><td><img src="img/iconos/face.png" /></td><td>Facebook</td></tr></table></li>
+                <li onclick="window.open('https://twitter.com/Centrolinemx','_blank');" style="display:block; height:37px; padding:0px; margin-bottom:5px; vertical-align:middle; background-color:#e0001d; text-align:center;"> <table><tr><td><img src="img/iconos/twitter.jpg" /></td><td>Twitter</td></tr></table></li>
+            </ul>
+        </div>
+    </div>
+        <div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&appId=166863006664924&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+        <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+    </form>
+</body>
+</html>

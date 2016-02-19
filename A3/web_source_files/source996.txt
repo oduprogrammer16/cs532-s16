@@ -1,0 +1,2482 @@
+<!doctype html>
+<!--[if IE 9]> <html class="no-js ie9 fixed-layout" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js " lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+<link rel="dns-prefetch" href="//res.cloudinary.com">
+<link rel="dns-prefetch" href="//d2mdw063ttlqtq.cloudfront.net">
+<link rel="dns-prefetch" href="//jwpsrv.com">
+<link rel="dns-prefetch" href="//0.s3.envato.com">
+<link rel="dns-prefetch" href="//thumb-tf.s3.envato.com" />
+<link rel="dns-prefetch" href="//user-profile.s3.envato.com">
+<link rel="dns-prefetch" href="//image-tf.s3.envato.com" />
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"fcf8d519de","applicationID":"13909","transactionName":"NTU0DRQNDwshOmIZBRM3dRAIBgYf","queueTime":0,"applicationTime":335,"agent":"","atts":"DXgvW1wZQRQtPChSS1QOMhwLByUINi0+BFNaeCkKCkBZASUkPhVdVCg/CBMHEBMbOD8fBRk5NRVEWEEPMDw9Sl5ZeHZbDxJBXWZ5f0hfTmh0TUhQV1NmZG8FAhMoBRgBBw0TZnJvEwQENnVOSFFWSXRqYVIDEywzCg8NDUV+an8WSU5vPElEHx4="}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQcGQldQAQMJ"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function s(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),s=a.length,c=0;s>c;c++)a[c].apply(i,r);return i}function c(t,e){d[t]=f(t).concat(e)}function f(t){return d[t]||[]}function u(){return r(s)}var d={};return{on:c,emit:s,create:u,listeners:f,context:e,_events:d}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:25,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,a){try{f?f-=1:r("err",[a||new UncaughtException(t,e,n)])}catch(c){try{r("ierr",[c,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof s?s.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=t("loader"),s=window.onerror,c=!1,f=0;a.features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(u){"stack"in u&&(t(1),t(2),"addEventListener"in window&&t(3),a.xhrWrappable&&t(4),c=!0)}i.on("fn-start",function(){c&&(f+=1)}),i.on("fn-err",function(t,e,r){c&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){c&&!this.thrown&&f>0&&(f-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:26,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.clearResourceTimings?window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1):window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){for(var e=t;e&&!e.hasOwnProperty("addEventListener");)e=Object.getPrototypeOf(e);e&&r(e)}function r(t){a.inPlace(t,["addEventListener","removeEventListener"],"-",o)}function o(t){return t[1]}var i=t("ee").create(),a=t(1)(i),s=t("gos");e.exports=i,r(window),"getPrototypeOf"in Object?(n(document),n(XMLHttpRequest.prototype)):XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&r(XMLHttpRequest.prototype),i.on("addEventListener-start",function(t){if(t[1]){var e=t[1];if("function"==typeof e){var n=s(e,"nr@wrapped",function(){return a(e,"fn-",null,e.name||"anonymous")});this.wrapped=t[1]=n}else"function"==typeof e.handleEvent&&a.inPlace(e,["handleEvent"],"fn-")}}),i.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:27,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:27,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:27,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=i(t[0],"fn-",this,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:27,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,l,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-",o)}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,l=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[e],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:27,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var o=0;u>o;o++)t.removeEventListener(f[o],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=this.lastSize||n(t);if(i&&(r.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,c.emit("xhr-done",[t],t),a("xhr",[e,r,this.startTime])}}}function n(t){var e=t.responseType,n="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return r(n)}function r(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function o(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var i=t("loader");if(i.xhrWrappable){var a=t("handle"),s=t(2),c=t("ee"),f=["load","error","abort","timeout"],u=f.length,d=t(1),l=t(3),p=window.XMLHttpRequest;i.features.xhr=!0,t(5),t(4),c.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=e,n.ended=!1,n.xhrGuids={},n.lastSize=0,l&&(l>34||10>l)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),c.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),c.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),c.on("send-xhr-start",function(t,e){var n=this.metrics,o=t[0],i=this;if(n&&o){var a=r(o);a&&(n.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{c.emit("internal-error",[n])}catch(r){}}};for(var s=0;u>s;s++)e.addEventListener(f[s],this.listener,!1)}),c.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),c.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),c.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),c.on("addEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-added",[t[1],t[2]],e)}),c.on("removeEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-removed",[t[1],t[2]],e)}),c.on("fn-start",function(t,e,n){e instanceof p&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),c.on("fn-end",function(t,e){this.xhrCbStart&&c.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:16,4:12,5:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:25,2:26,handle:"D5DuLP"}],16:[function(t,e){var n=0,r=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);r&&(n=+r[1]),e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!h++){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){t[e]||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},l=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),p=e.exports={offset:i(),origin:u,features:{},xhrWrappable:l};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var h=0},{1:25,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],25:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],26:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],27:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,c;try{i=this,n=o(arguments),s="function"==typeof r?r(n,i):r||{}}catch(u){d([u,"",[n,i,a],s])}f(e+"start",[n,i,a],s);try{return c=t.apply(i,n)}catch(l){throw f(e+"err",[n,i,l],s),l}finally{f(e+"end",[n,i,c],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,u(t,nrWrapper),nrWrapper)}function c(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!s){s=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}s=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=c,e.flag=i,e}},{1:26,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script>
+
+<title>Sytic - One Page Multi-Purpose Responsive WP Theme - WordPress</title>
+
+<meta content=" Sytic focus on WP Responsive Multipurpose Theme that can use all kind of Business sites. Sytic is the Aristocratic theme for corporate business. It&amp;#8217;s a design that helps you to connect moder..." name="description" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/icons/themeforest.net/apple-touch-icon-144x144-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/icons/themeforest.net/apple-touch-icon-114x114-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/icons/themeforest.net/apple-touch-icon-72x72-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" href="/icons/themeforest.net/apple-touch-icon-precomposed.png" />
+
+  <link href="//dmypbau5frl9g.cloudfront.net/assets/market/core/index-cc8a6a52f4544070364e531f79b2abbc.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="//dmypbau5frl9g.cloudfront.net/assets/market/pages/default/index-ea5025551c8489e6bef9c64d082e7c45.css" media="all" rel="stylesheet" type="text/css" />
+
+
+<link rel="canonical" href="http://themeforest.net/item/sytic-one-page-multipurpose-responsive-wp-theme/7472141" />
+
+      <meta content="product" name="twitter:card" />
+  <meta content="@envatomarket" name="twitter:site" />
+  <meta content="@codepixer" name="twitter:creator" />
+  <meta content="$44 USD" name="twitter:data1" />
+  <meta content="Price" name="twitter:label1" />
+  <meta content="ThemeForest" name="twitter:data2" />
+  <meta content="Marketplace" name="twitter:label2" />
+  <meta content="themeforest.net" name="twitter:domain" />
+  <meta content="Sytic - One Page Multi-Purpose Responsive WP Theme" property="og:title" />
+  <meta content="website" property="og:type" />
+  <meta content="http://themeforest.net/item/sytic-one-page-multipurpose-responsive-wp-theme/7472141" property="og:url" />
+  <meta content="http://0.s3.envato.com/files/88377681/Preview/01-preview.__large_preview.png" property="og:image" />
+  <meta content="
+
+Sytic focus on WP Responsive Multipurpose Theme that can use all kind of Business sites.
+
+Sytic is the Aristocratic theme for corporate business. It’s a design that helps you to connect modern wo..." property="og:description" />
+  <meta content="ThemeForest" property="og:site_name" />
+
+
+<link href="/feeds/new-themeforest-items.atom" rel="alternate" type="application/atom+xml" title="ThemeForest new items feed" /><link href="/feeds/new-site-templates-items.atom" rel="alternate" type="application/atom+xml" title="ThemeForest new Site Templates items feed" /><link href="/feeds/new-wordpress-items.atom" rel="alternate" type="application/atom+xml" title="ThemeForest new WordPress items feed" /><link href="/feeds/new-cms-themes-items.atom" rel="alternate" type="application/atom+xml" title="ThemeForest new CMS Themes items feed" /><link href="/feeds/new-ecommerce-items.atom" rel="alternate" type="application/atom+xml" title="ThemeForest new eCommerce items feed" /><link href="/feeds/new-blogging-items.atom" rel="alternate" type="application/atom+xml" title="ThemeForest new Blogging items feed" /><link href="/feeds/new-marketing-items.atom" rel="alternate" type="application/atom+xml" title="ThemeForest new Marketing items feed" /><link href="/feeds/new-forums-items.atom" rel="alternate" type="application/atom+xml" title="ThemeForest new Forums items feed" /><link href="/feeds/new-psd-templates-items.atom" rel="alternate" type="application/atom+xml" title="ThemeForest new PSD Templates items feed" /><link href="/feeds/new-muse-templates-items.atom" rel="alternate" type="application/atom+xml" title="ThemeForest new Muse Templates items feed" /><link href="/feeds/new-sketch-templates-items.atom" rel="alternate" type="application/atom+xml" title="ThemeForest new Sketch Templates items feed" /><link href="/feeds/new-typeengine-themes-items.atom" rel="alternate" type="application/atom+xml" title="ThemeForest new TypeEngine Themes items feed" /><link href="/feeds/new-static-site-generators-items.atom" rel="alternate" type="application/atom+xml" title="ThemeForest new Static Site Generators items feed" /><link href="/feeds/new-courses-items.atom" rel="alternate" type="application/atom+xml" title="ThemeForest new Courses items feed" />
+
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="SbDSxkJucpV+VeB2wAFjt0Wfcp37aGYIYzn9Zzx6nyw=" name="csrf-token" />
+
+
+    <script src="//dmypbau5frl9g.cloudfront.net/assets/market/core/head-105f4d5d582092cfb63de884c617d42f.js" type="text/javascript"></script>
+  </head>
+  <body id="" class="" data-view="app" data-responsive="true" data-user-signed-in="false" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <!--[if lte IE 8]>
+  <div style="color:#fff;background:#f00;padding:20px;text-align:center;">
+    ThemeForest no longer actively supports this version of Internet Explorer. We suggest that you <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" style="color:#fff;text-decoration:underline;">upgrade to a newer version</a> or <a href="http://browsehappy.com/" style="color:#fff;text-decoration:underline;">try a different browser</a>.
+  </div>
+<![endif]-->
+
+
+    <div class="page">
+          <div class="page__off-canvas--left overthrow">
+            
+<div class="off-canvas-left js-off-canvas-left">
+  <div class="off-canvas-left__top">
+    <a href="http://market.envato.com/">Envato Market</a>
+  </div>
+
+    <div class="off-canvas-left__current-site -color-themeforest">
+      <span class="off-canvas-left__site-logo--themeforest">
+        ThemeForest
+      </span>
+
+      <a href="#" class="off-canvas-left__current-site-toggle" data-dropdown-target="#off-canvas-sites" data-view="dropdown">
+</a>    </div>
+
+  <div class="off-canvas-left__sites is-hidden" id="off-canvas-sites">
+      <a href="http://codecanyon.net/?osr=tn" class="off-canvas-left__site">
+        <span class="off-canvas-left__site-logo--codecanyon">
+          CodeCanyon
+        </span>
+        <i class="e-icon -icon-right-open"></i>
+</a>      <a href="http://videohive.net/?osr=tn" class="off-canvas-left__site">
+        <span class="off-canvas-left__site-logo--videohive">
+          VideoHive
+        </span>
+        <i class="e-icon -icon-right-open"></i>
+</a>      <a href="http://audiojungle.net/?osr=tn" class="off-canvas-left__site">
+        <span class="off-canvas-left__site-logo--audiojungle">
+          AudioJungle
+        </span>
+        <i class="e-icon -icon-right-open"></i>
+</a>      <a href="http://graphicriver.net/?osr=tn" class="off-canvas-left__site">
+        <span class="off-canvas-left__site-logo--graphicriver">
+          GraphicRiver
+        </span>
+        <i class="e-icon -icon-right-open"></i>
+</a>      <a href="http://photodune.net/?osr=tn" class="off-canvas-left__site">
+        <span class="off-canvas-left__site-logo--photodune">
+          PhotoDune
+        </span>
+        <i class="e-icon -icon-right-open"></i>
+</a>      <a href="http://3docean.net/?osr=tn" class="off-canvas-left__site">
+        <span class="off-canvas-left__site-logo--3docean">
+          3DOcean
+        </span>
+        <i class="e-icon -icon-right-open"></i>
+</a>      <a href="http://activeden.net/?osr=tn" class="off-canvas-left__site">
+        <span class="off-canvas-left__site-logo--activeden">
+          ActiveDen
+        </span>
+        <i class="e-icon -icon-right-open"></i>
+</a>  </div>
+
+    
+<div class="off-canvas-left__search">
+  <form accept-charset="UTF-8" action="/search" id="search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <div class="search-field -border-none">
+      <div class="search-field__input">
+        <input class="search-field__input-field" id="term" name="term" placeholder="Search" type="search" />
+      </div>
+      <button class="search-field__button" type="submit">
+        <i class="e-icon -icon-search"><span class="e-icon__alt">Search</span></i>
+      </button>
+    </div>
+</form></div>
+
+    
+<ul>
+    <li>
+      <a href="/page/top_sellers" class="off-canvas-category-link--empty">Popular Files</a>
+    </li>
+    <li>
+      <a href="/feature" class="off-canvas-category-link--empty">Featured Files</a>
+    </li>
+    <li>
+      <a href="/search?date=this-month&amp;length_max=&amp;length_min=&amp;price_max=&amp;price_min=&amp;rating_min=&amp;sales=&amp;sort=sales&amp;term=&amp;utf8=%E2%9C%93&amp;view=list" class="off-canvas-category-link--empty">Top New Files</a>
+    </li>
+    <li>
+      <a href="/follow_feed" class="off-canvas-category-link--empty">Follow Feed</a>
+    </li>
+    <li>
+      <a href="/authors/top" class="off-canvas-category-link--empty">Top Authors</a>
+    </li>
+    <li>
+      <a href="/page/top_new_sellers" class="off-canvas-category-link--empty">Top New Authors</a>
+    </li>
+    <li>
+        <a href="/category/wordpress" class="off-canvas-category-link" data-dropdown-target="#off-canvas-wordpress" data-view="dropdown">
+    WordPress
+</a>  <ul class="is-hidden" id="off-canvas-wordpress">
+      <li>
+        <a href="/popular_item/by_category?category=wordpress" class="off-canvas-category-link--sub">Popular Items</a>
+      </li>
+
+      <li>
+        <a href="/category/wordpress/blog-magazine" class="off-canvas-category-link--sub">Blog / Magazine</a>
+      </li>
+      <li>
+        <a href="/category/wordpress/buddypress" class="off-canvas-category-link--sub">BuddyPress</a>
+      </li>
+      <li>
+        <a href="/category/wordpress/corporate" class="off-canvas-category-link--sub">Corporate</a>
+      </li>
+      <li>
+        <a href="/category/wordpress/creative" class="off-canvas-category-link--sub">Creative</a>
+      </li>
+      <li>
+        <a href="/category/wordpress/corporate/directory-listings" class="off-canvas-category-link--sub">Directory &amp; Listings</a>
+      </li>
+      <li>
+        <a href="/category/wordpress/ecommerce" class="off-canvas-category-link--sub">eCommerce</a>
+      </li>
+      <li>
+        <a href="/category/wordpress/education" class="off-canvas-category-link--sub">Education</a>
+      </li>
+      <li>
+        <a href="/category/wordpress/entertainment" class="off-canvas-category-link--sub">Entertainment</a>
+      </li>
+      <li>
+        <a href="/category/wordpress/mobile" class="off-canvas-category-link--sub">Mobile</a>
+      </li>
+      <li>
+        <a href="/category/wordpress/nonprofit" class="off-canvas-category-link--sub">Nonprofit</a>
+      </li>
+      <li>
+        <a href="/category/wordpress/real-estate" class="off-canvas-category-link--sub">Real Estate</a>
+      </li>
+      <li>
+        <a href="/category/wordpress/retail" class="off-canvas-category-link--sub">Retail</a>
+      </li>
+      <li>
+        <a href="/category/wordpress/technology" class="off-canvas-category-link--sub">Technology</a>
+      </li>
+      <li>
+        <a href="/category/wordpress/wedding" class="off-canvas-category-link--sub">Wedding</a>
+      </li>
+      <li>
+        <a href="/category/wordpress/miscellaneous" class="off-canvas-category-link--sub">Miscellaneous</a>
+      </li>
+
+      <li>
+        <a href="http://codecanyon.net/category/wordpress" class="off-canvas-category-link--sub">WordPress Plugins <span class='is-visually-hidden'>on CodeCanyon</span></a>
+      </li>
+  </ul>
+
+    </li>
+    <li>
+        <a href="/category/site-templates" class="off-canvas-category-link" data-dropdown-target="#off-canvas-html" data-view="dropdown">
+    HTML
+</a>  <ul class="is-hidden" id="off-canvas-html">
+      <li>
+        <a href="/popular_item/by_category?category=site-templates" class="off-canvas-category-link--sub">Popular Items</a>
+      </li>
+
+      <li>
+        <a href="/category/site-templates/admin-templates" class="off-canvas-category-link--sub">Admin Templates</a>
+      </li>
+      <li>
+        <a href="/category/site-templates/corporate" class="off-canvas-category-link--sub">Corporate</a>
+      </li>
+      <li>
+        <a href="/category/site-templates/creative" class="off-canvas-category-link--sub">Creative</a>
+      </li>
+      <li>
+        <a href="/category/site-templates/entertainment" class="off-canvas-category-link--sub">Entertainment</a>
+      </li>
+      <li>
+        <a href="/category/site-templates/mobile" class="off-canvas-category-link--sub">Mobile</a>
+      </li>
+      <li>
+        <a href="/category/site-templates/nonprofit" class="off-canvas-category-link--sub">Nonprofit</a>
+      </li>
+      <li>
+        <a href="/category/site-templates/personal" class="off-canvas-category-link--sub">Personal</a>
+      </li>
+      <li>
+        <a href="/category/site-templates/retail" class="off-canvas-category-link--sub">Retail</a>
+      </li>
+      <li>
+        <a href="/category/site-templates/specialty-pages" class="off-canvas-category-link--sub">Specialty Pages</a>
+      </li>
+      <li>
+        <a href="/category/site-templates/technology" class="off-canvas-category-link--sub">Technology</a>
+      </li>
+      <li>
+        <a href="/category/site-templates/wedding" class="off-canvas-category-link--sub">Wedding</a>
+      </li>
+      <li>
+        <a href="/category/site-templates/miscellaneous" class="off-canvas-category-link--sub">Miscellaneous</a>
+      </li>
+
+  </ul>
+
+    </li>
+    <li>
+        <a href="/category/marketing" class="off-canvas-category-link" data-dropdown-target="#off-canvas-marketing" data-view="dropdown">
+    Marketing
+</a>  <ul class="is-hidden" id="off-canvas-marketing">
+      <li>
+        <a href="/popular_item/by_category?category=marketing" class="off-canvas-category-link--sub">Popular Items</a>
+      </li>
+
+      <li>
+        <a href="/category/marketing/email-templates" class="off-canvas-category-link--sub">Email Templates</a>
+      </li>
+      <li>
+        <a href="/category/marketing/instapage" class="off-canvas-category-link--sub">Instapage</a>
+      </li>
+      <li>
+        <a href="/category/marketing/landing-pages" class="off-canvas-category-link--sub">Landing Pages</a>
+      </li>
+      <li>
+        <a href="/category/marketing/pagewiz" class="off-canvas-category-link--sub">Pagewiz</a>
+      </li>
+      <li>
+        <a href="/category/marketing/unbounce-landing-pages" class="off-canvas-category-link--sub">Unbounce Landing Pages</a>
+      </li>
+
+      <li>
+        <a href="http://codecanyon.net/category/html5/ad-templates?platform=Google+Web+Designer" class="off-canvas-category-link--sub">Google Web Designer Ads <span class='is-visually-hidden'>on CodeCanyon</span></a>
+      </li>
+  </ul>
+
+    </li>
+    <li>
+        <a href="/category/cms-themes" class="off-canvas-category-link" data-dropdown-target="#off-canvas-cms" data-view="dropdown">
+    CMS
+</a>  <ul class="is-hidden" id="off-canvas-cms">
+      <li>
+        <a href="/popular_item/by_category?category=cms-themes" class="off-canvas-category-link--sub">Popular Items</a>
+      </li>
+
+      <li>
+        <a href="/category/cms-themes/concrete5" class="off-canvas-category-link--sub">Concrete5</a>
+      </li>
+      <li>
+        <a href="/category/cms-themes/drupal" class="off-canvas-category-link--sub">Drupal</a>
+      </li>
+      <li>
+        <a href="/category/cms-themes/joomla" class="off-canvas-category-link--sub">Joomla</a>
+      </li>
+      <li>
+        <a href="/category/cms-themes/modx-themes" class="off-canvas-category-link--sub">MODX Themes</a>
+      </li>
+      <li>
+        <a href="/category/cms-themes/moodle" class="off-canvas-category-link--sub">Moodle</a>
+      </li>
+      <li>
+        <a href="/category/cms-themes/mura" class="off-canvas-category-link--sub">Mura</a>
+      </li>
+      <li>
+        <a href="/category/cms-themes/miscellaneous" class="off-canvas-category-link--sub">Miscellaneous</a>
+      </li>
+
+  </ul>
+
+    </li>
+    <li>
+        <a href="/category/ecommerce" class="off-canvas-category-link" data-dropdown-target="#off-canvas-ecommerce" data-view="dropdown">
+    eCommerce
+</a>  <ul class="is-hidden" id="off-canvas-ecommerce">
+      <li>
+        <a href="/popular_item/by_category?category=ecommerce" class="off-canvas-category-link--sub">Popular Items</a>
+      </li>
+
+      <li>
+        <a href="/category/wordpress/ecommerce/cart66" class="off-canvas-category-link--sub">Cart66</a>
+      </li>
+      <li>
+        <a href="/category/ecommerce/cs-cart" class="off-canvas-category-link--sub">CS-Cart</a>
+      </li>
+      <li>
+        <a href="/attributes/compatible-with/Drupal Commerce?order_by=date" class="off-canvas-category-link--sub">Drupal Commerce</a>
+      </li>
+      <li>
+        <a href="/search?compatible_with=Easy+Digital+Downloads" class="off-canvas-category-link--sub">Easy Digital Downloads</a>
+      </li>
+      <li>
+        <a href="/attributes/themeforest-files-included/ecwid%20css%20files" class="off-canvas-category-link--sub">Ecwid</a>
+      </li>
+      <li>
+        <a href="/category/wordpress/ecommerce/jigoshop" class="off-canvas-category-link--sub">Jigoshop</a>
+      </li>
+      <li>
+        <a href="/category/ecommerce/magento" class="off-canvas-category-link--sub">Magento</a>
+      </li>
+      <li>
+        <a href="/category/ecommerce/opencart" class="off-canvas-category-link--sub">OpenCart</a>
+      </li>
+      <li>
+        <a href="/category/ecommerce/oscommerce" class="off-canvas-category-link--sub">osCommerce</a>
+      </li>
+      <li>
+        <a href="/category/ecommerce/prestashop" class="off-canvas-category-link--sub">PrestaShop</a>
+      </li>
+      <li>
+        <a href="/category/ecommerce/shopify" class="off-canvas-category-link--sub">Shopify</a>
+      </li>
+      <li>
+        <a href="/attributes/compatible-with/Ubercart?order_by=date" class="off-canvas-category-link--sub">Ubercart</a>
+      </li>
+      <li>
+        <a href="/search?utf8=%E2%9C%93&amp;amp;term=virtuemart" class="off-canvas-category-link--sub">VirtueMart</a>
+      </li>
+      <li>
+        <a href="/category/wordpress/ecommerce/woocommerce" class="off-canvas-category-link--sub">WooCommerce</a>
+      </li>
+      <li>
+        <a href="/category/wordpress/ecommerce/wp-e-commerce" class="off-canvas-category-link--sub">WP e-Commerce</a>
+      </li>
+      <li>
+        <a href="/category/ecommerce/zen-cart" class="off-canvas-category-link--sub">Zen Cart</a>
+      </li>
+      <li>
+        <a href="/category/ecommerce/miscellaneous" class="off-canvas-category-link--sub">Miscellaneous</a>
+      </li>
+
+  </ul>
+
+    </li>
+    <li>
+        <a href="/category/muse-templates" class="off-canvas-category-link" data-dropdown-target="#off-canvas-muse" data-view="dropdown">
+    Muse
+</a>  <ul class="is-hidden" id="off-canvas-muse">
+      <li>
+        <a href="/popular_item/by_category?category=muse-templates" class="off-canvas-category-link--sub">Popular Items</a>
+      </li>
+
+      <li>
+        <a href="/category/muse-templates/corporate" class="off-canvas-category-link--sub">Corporate</a>
+      </li>
+      <li>
+        <a href="/category/muse-templates/creative" class="off-canvas-category-link--sub">Creative</a>
+      </li>
+      <li>
+        <a href="/category/muse-templates/ecommerce" class="off-canvas-category-link--sub">eCommerce</a>
+      </li>
+      <li>
+        <a href="/category/muse-templates/landing" class="off-canvas-category-link--sub">Landing</a>
+      </li>
+      <li>
+        <a href="/category/muse-templates/personal" class="off-canvas-category-link--sub">Personal</a>
+      </li>
+      <li>
+        <a href="/category/muse-templates/miscellaneous" class="off-canvas-category-link--sub">Miscellaneous</a>
+      </li>
+
+  </ul>
+
+    </li>
+    <li>
+        <a href="/category/sketch-templates" class="off-canvas-category-link" data-dropdown-target="#off-canvas-ui-design" data-view="dropdown">
+    UI Design
+</a>  <ul class="is-hidden" id="off-canvas-ui-design">
+
+      <li>
+        <a href="/category/psd-templates" class="off-canvas-category-link--sub">PSD Templates</a>
+      </li>
+      <li>
+        <a href="/category/sketch-templates" class="off-canvas-category-link--sub">Sketch Templates</a>
+      </li>
+
+  </ul>
+
+    </li>
+    <li>
+        <a href="http://codecanyon.net/category/wordpress" class="off-canvas-category-link--empty">
+    Plugins
+</a>
+    </li>
+
+    <li>
+      <a href="/category" class="off-canvas-category-link" data-dropdown-target="#off-canvas-more" data-view="dropdown">More</a>
+
+      <ul class="is-hidden" id="off-canvas-more">
+          <li>
+            <a href="/category/blogging" class="off-canvas-category-link--sub">Blogging</a>
+          </li>
+          <li>
+            <a href="/attributes/compatible-with/facebook" class="off-canvas-category-link--sub">Facebook Templates</a>
+          </li>
+          <li>
+            <a href="/category/forums" class="off-canvas-category-link--sub">Forums</a>
+          </li>
+          <li>
+            <a href="/category/blogging/ghost-themes" class="off-canvas-category-link--sub">Ghost Themes</a>
+          </li>
+          <li>
+            <a href="/category/static-site-generators/jekyll" class="off-canvas-category-link--sub">Jekyll</a>
+          </li>
+          <li>
+            <a href="/category/blogging/tumblr" class="off-canvas-category-link--sub">Tumblr</a>
+          </li>
+          <li>
+            <a href="/category/typeengine-themes" class="off-canvas-category-link--sub">TypeEngine Themes</a>
+          </li>
+      </ul>
+    </li>
+
+    <li class="off-canvas-category-spacer"></li>
+    <li>
+        <a href="/category/courses" class="off-canvas-category-link" data-dropdown-target="#off-canvas-courses" data-view="dropdown">
+    Courses
+      &nbsp;<span class="e-text-label -size-s -color-grey-light">New</span>
+</a>  <ul class="is-hidden" id="off-canvas-courses">
+      <li>
+        <a href="/popular_item/by_category?category=courses" class="off-canvas-category-link--sub">Popular Items</a>
+      </li>
+
+      <li>
+        <a href="/category/courses/web-design" class="off-canvas-category-link--sub">Web Design</a>
+      </li>
+
+  </ul>
+
+    </li>
+</ul>
+
+</div>
+
+          </div>
+
+        <div class="page__off-canvas--right overthrow">
+          <div class="off-canvas-right">
+    <a href="/cart" class="off-canvas-right__link--cart" rel="nofollow">
+  Guest Cart
+  <div class="shopping-cart-summary is-empty" data-view="cartCount">
+    <span class="js-cart-summary-count shopping-cart-summary__count">0</span>
+    <i class="e-icon -icon-cart"></i>
+  </div>
+</a>
+<a href="/sign_up" class="off-canvas-right__link">
+  Create an Envato Account
+  <i class="e-icon -icon-envato"></i>
+</a>
+<a href="/sign_in" class="off-canvas-right__link" rel="nofollow">
+  Sign In
+  <i class="e-icon -icon-login"></i>
+</a>
+</div>
+
+        </div>
+
+      <div class="page__canvas">
+        <div class="canvas">
+          <div class="canvas__header">
+            
+
+            <header class="site-header">
+                <div class="site-header__mini is-hidden-desktop">
+                  <div class="header-mini">
+  <div class="header-mini__button--account">
+    <a href="#account" class="btn btn--square" data-off-canvas="right" data-view="offCanvasNavToggle">
+      <i class="e-icon -icon-person"></i>
+      <span class="is-hidden">Account</span>
+</a>  </div>
+
+  <div class="header-mini__button--categories">
+    <a href="#categories" class="btn btn--square" data-off-canvas="left" data-view="offCanvasNavToggle">
+      <i class="e-icon -icon-hamburger"></i>
+      <span class="is-hidden">Sites, Search &amp; Categories</span>
+</a>  </div>
+
+  <div class="header-mini__logo">
+    <a href="http://themeforest.net/?osr=tn" class="header-mini__logo--themeforest">ThemeForest</a>
+  </div>
+</div>
+
+                </div>
+
+              <div class="site-header__logo-and-account is-hidden-tablet-and-below">
+                <div class="header-logo-account">
+  <div class="grid-container">
+    <div class="header-logo-account__container">
+      <a class="header-logo-account__logo" href="http://market.envato.com/">
+        <span>Envato Market</span>
+      </a>
+      <nav class="header-logo-account__right">
+          <ul class="header-logo-account__sundry">
+              <li class="header-logo-account__sundry-item">
+                  <a href="https://studio.envato.com/?utm_source=marketplaces&amp;utm_medium=themeforest&amp;utm_campaign=internal%20navigation&amp;utm_content=headernav" class="header-logo-account__sundry-main-link--brand-color -rounded-corners" target="_blank">Envato Studio</a>
+              </li>
+              <li class="header-logo-account__sundry-item">
+                  <a href="/become-an-author" class="header-logo-account__sundry-main-link -rounded-corners" target="_self">Start selling</a>
+              </li>
+              <li class="header-logo-account__sundry-item">
+                  <a href="https://forums.envato.com" class="header-logo-account__sundry-main-link -rounded-corners" target="_self">Forums</a>
+              </li>
+              <li class="header-logo-account__sundry-item">
+                  <a href="http://community.envato.com" class="header-logo-account__sundry-main-link" data-dropdown-target=".js-sundry-3-dropdown" data-view="touchOnlyDropdown">Community</a>
+
+                  <div class="header-logo-account__sundry-dropdown js-sundry-3-dropdown">
+                    <ul class="hub-header-dropdown">
+                        <li>
+                          <a href="http://community.envato.com" class="header-logo-account__sundry-sub-link">Home</a>
+                        </li>
+                        <li>
+                          <a href="https://forums.envato.com/tos" class="header-logo-account__sundry-sub-link">Rules</a>
+                        </li>
+                        <li>
+                          <a href="/page/file_updates" class="header-logo-account__sundry-sub-link">Social Media / RSS Feeds</a>
+                        </li>
+                        <li>
+                          <a href="/community/market" class="header-logo-account__sundry-sub-link">Envato Market</a>
+                        </li>
+                        <li>
+                          <a href="/community/badges" class="header-logo-account__sundry-sub-link">Community Badges</a>
+                        </li>
+                        <li>
+                          <a href="/community/research" class="header-logo-account__sundry-sub-link">Community Research</a>
+                        </li>
+                        <li>
+                          <a href="http://community.envato.com/#/events" class="header-logo-account__sundry-sub-link">Community Meetups</a>
+                        </li>
+                        <li>
+                          <a href="http://marketblog.envato.com/" class="header-logo-account__sundry-sub-link">Envato Market Blog</a>
+                        </li>
+                        <li>
+                          <a href="/collections" class="header-logo-account__sundry-sub-link">Public Collections</a>
+                        </li>
+                        <li>
+                          <a href="/feature" class="header-logo-account__sundry-sub-link">Featured Files</a>
+                        </li>
+                        <li>
+                          <a href="/page/top_sellers" class="header-logo-account__sundry-sub-link">Popular Files</a>
+                        </li>
+                        <li>
+                          <a href="/authors/top" class="header-logo-account__sundry-sub-link">Top Authors</a>
+                        </li>
+                        <li>
+                          <a href="/page/top_new_sellers" class="header-logo-account__sundry-sub-link">Top New Authors</a>
+                        </li>
+                    </ul>
+                  </div>
+              </li>
+              <li class="header-logo-account__sundry-item">
+                  <a href="/affiliate_program" class="header-logo-account__sundry-main-link -rounded-corners" target="_self">Affiliates</a>
+              </li>
+              <li class="header-logo-account__sundry-item">
+                  <a href="https://help.market.envato.com" class="header-logo-account__sundry-main-link" data-dropdown-target=".js-sundry-5-dropdown" data-view="touchOnlyDropdown">Help</a>
+
+                  <div class="header-logo-account__sundry-dropdown js-sundry-5-dropdown">
+                    <ul class="hub-header-dropdown">
+                        <li>
+                          <a href="/help/getting_started" class="header-logo-account__sundry-sub-link">Getting Started</a>
+                        </li>
+                        <li>
+                          <a href="/buy" class="header-logo-account__sundry-sub-link">Why Buy With Us?</a>
+                        </li>
+                        <li>
+                          <a href="https://help.market.envato.com" class="header-logo-account__sundry-sub-link">Help Center</a>
+                        </li>
+                        <li>
+                          <a href="/licenses" class="header-logo-account__sundry-sub-link">Licenses</a>
+                        </li>
+                        <li>
+                          <a href="/legal/market" class="header-logo-account__sundry-sub-link">Legal Agreements</a>
+                        </li>
+                        <li>
+                          <a href="/page/item_support_policy" class="header-logo-account__sundry-sub-link">Item Support Policy</a>
+                        </li>
+                        <li>
+                          <a href="/help/api" class="header-logo-account__sundry-sub-link">API</a>
+                        </li>
+                        <li>
+                          <a href="/get_hosting" class="header-logo-account__sundry-sub-link">Get Hosting</a>
+                        </li>
+                        <li>
+                          <a href="/category" class="header-logo-account__sundry-sub-link">Sitemap</a>
+                        </li>
+                    </ul>
+                  </div>
+              </li>
+          </ul>
+
+        <div class="header-logo-account__user-nav">
+            <div class="header-logo-account__user-nav-item">
+  <strong>
+    <a href="/sign_up" class="header-logo-account__user-nav-main-link--alpha" data-view="modalAjax"><span>Create an Envato Account</span></a>
+  </strong>
+</div>
+
+  <div class="header-logo-account__user-nav-item">
+    <a href="/cart" class="header-logo-account__user-nav-main-link--cart" rel="nofollow">
+      <div class="shopping-cart-summary is-empty" data-view="cartCount">
+        <i class="e-icon -icon-cart"></i>
+        <span class="js-cart-summary-count shopping-cart-summary__count">0</span>
+      </div>
+</a>  </div>
+
+
+<div class="header-logo-account__user-nav-item">
+  <a href="/sign_in" class="header-logo-account__user-nav-main-link--omega" data-view="modalAjax" rel="nofollow">Sign In</a>
+</div>
+
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+              </div>
+
+              <div class="site-header__sites is-hidden-tablet-and-below">
+                <div class="header-sites">
+  <div class="grid-container">
+    <nav class="header-sites__container">
+          <a href="http://themeforest.net/?osr=tn" class="header-sites__site--themeforest is-active" title="Website Templates">ThemeForest</a>
+          <a href="http://codecanyon.net/?osr=tn" class="header-sites__site--codecanyon" title="Code, Plugins and Mobile">CodeCanyon</a>
+          <a href="http://videohive.net/?osr=tn" class="header-sites__site--videohive" title="Motion Graphics">VideoHive</a>
+          <a href="http://audiojungle.net/?osr=tn" class="header-sites__site--audiojungle" title="Stock Music and Audio">AudioJungle</a>
+          <a href="http://graphicriver.net/?osr=tn" class="header-sites__site--graphicriver" title="Graphics, Vectors and Print">GraphicRiver</a>
+          <a href="http://photodune.net/?osr=tn" class="header-sites__site--photodune" title="Stock Photography">PhotoDune</a>
+          <a href="http://3docean.net/?osr=tn" class="header-sites__site--3docean" title="3D Models and Materials">3DOcean</a>
+          <a href="http://activeden.net/?osr=tn" class="header-sites__site--activeden" title="Flash and Unity 3D">ActiveDen</a>
+    </nav>
+  </div>
+</div>
+
+              </div>
+
+                <div class="site-header__categories is-hidden-tablet-and-below">
+                  
+<div class="header-categories">
+  <div class="grid-container">
+    
+<ul class="header-categories__links">
+  <li class="header-categories__links-item">
+    <a href="/category/all" class="header-categories__main-link" data-dropdown-target=".js-categories-all-files-dropdown" data-view="touchOnlyDropdown">All Items</a>
+
+    <div class="header-categories__links-dropdown js-categories-all-files-dropdown">
+      <ul class="hub-header-dropdown">
+          <li>
+            <a href="/page/top_sellers">Popular Files</a>
+          </li>
+          <li>
+            <a href="/feature">Featured Files</a>
+          </li>
+          <li>
+            <a href="/search?date=this-month&amp;length_max=&amp;length_min=&amp;price_max=&amp;price_min=&amp;rating_min=&amp;sales=&amp;sort=sales&amp;term=&amp;utf8=%E2%9C%93&amp;view=list">Top New Files</a>
+          </li>
+          <li>
+            <a href="/follow_feed">Follow Feed</a>
+          </li>
+          <li>
+            <a href="/authors/top">Top Authors</a>
+          </li>
+          <li>
+            <a href="/page/top_new_sellers">Top New Authors</a>
+          </li>
+          <li>
+            <a href="/category">View All Categories</a>
+          </li>
+      </ul>
+    </div>
+  </li>
+
+    <li class="header-categories__links-item">
+      
+  <a href="/category/wordpress" class="header-categories__main-link" data-dropdown-target=".js-categories-0-dropdown" data-view="touchOnlyDropdown">
+    WordPress
+</a>  <div class="header-categories__links-dropdown js-categories-0-dropdown">
+    <ul class="hub-header-dropdown">
+        <li>
+          <a href="/popular_item/by_category?category=wordpress" class="hub-header-dropdown__top">Popular Items</a>
+        </li>
+
+        <li class="hub-header-dropdown__all-items">
+          <a href="/category/wordpress">All Items</a>
+        </li>
+
+        <li>
+          <a href="/category/wordpress/blog-magazine">Blog / Magazine</a>
+        </li>
+        <li>
+          <a href="/category/wordpress/buddypress">BuddyPress</a>
+        </li>
+        <li>
+          <a href="/category/wordpress/corporate">Corporate</a>
+        </li>
+        <li>
+          <a href="/category/wordpress/creative">Creative</a>
+        </li>
+        <li>
+          <a href="/category/wordpress/corporate/directory-listings">Directory &amp; Listings</a>
+        </li>
+        <li>
+          <a href="/category/wordpress/ecommerce">eCommerce</a>
+        </li>
+        <li>
+          <a href="/category/wordpress/education">Education</a>
+        </li>
+        <li>
+          <a href="/category/wordpress/entertainment">Entertainment</a>
+        </li>
+        <li>
+          <a href="/category/wordpress/mobile">Mobile</a>
+        </li>
+        <li>
+          <a href="/category/wordpress/nonprofit">Nonprofit</a>
+        </li>
+        <li>
+          <a href="/category/wordpress/real-estate">Real Estate</a>
+        </li>
+        <li>
+          <a href="/category/wordpress/retail">Retail</a>
+        </li>
+        <li>
+          <a href="/category/wordpress/technology">Technology</a>
+        </li>
+        <li>
+          <a href="/category/wordpress/wedding">Wedding</a>
+        </li>
+        <li>
+          <a href="/category/wordpress/miscellaneous">Miscellaneous</a>
+        </li>
+
+        <li>
+          <a href="http://codecanyon.net/category/wordpress" class="hub-header-dropdown__bottom">WordPress Plugins <span class='is-visually-hidden'>on CodeCanyon</span></a>
+        </li>
+    </ul>
+  </div>
+
+    </li>
+    <li class="header-categories__links-item">
+      
+  <a href="/category/site-templates" class="header-categories__main-link" data-dropdown-target=".js-categories-1-dropdown" data-view="touchOnlyDropdown">
+    HTML
+</a>  <div class="header-categories__links-dropdown js-categories-1-dropdown">
+    <ul class="hub-header-dropdown">
+        <li>
+          <a href="/popular_item/by_category?category=site-templates" class="hub-header-dropdown__top">Popular Items</a>
+        </li>
+
+        <li class="hub-header-dropdown__all-items">
+          <a href="/category/site-templates">All Items</a>
+        </li>
+
+        <li>
+          <a href="/category/site-templates/admin-templates">Admin Templates</a>
+        </li>
+        <li>
+          <a href="/category/site-templates/corporate">Corporate</a>
+        </li>
+        <li>
+          <a href="/category/site-templates/creative">Creative</a>
+        </li>
+        <li>
+          <a href="/category/site-templates/entertainment">Entertainment</a>
+        </li>
+        <li>
+          <a href="/category/site-templates/mobile">Mobile</a>
+        </li>
+        <li>
+          <a href="/category/site-templates/nonprofit">Nonprofit</a>
+        </li>
+        <li>
+          <a href="/category/site-templates/personal">Personal</a>
+        </li>
+        <li>
+          <a href="/category/site-templates/retail">Retail</a>
+        </li>
+        <li>
+          <a href="/category/site-templates/specialty-pages">Specialty Pages</a>
+        </li>
+        <li>
+          <a href="/category/site-templates/technology">Technology</a>
+        </li>
+        <li>
+          <a href="/category/site-templates/wedding">Wedding</a>
+        </li>
+        <li>
+          <a href="/category/site-templates/miscellaneous">Miscellaneous</a>
+        </li>
+
+    </ul>
+  </div>
+
+    </li>
+    <li class="header-categories__links-item">
+      
+  <a href="/category/marketing" class="header-categories__main-link" data-dropdown-target=".js-categories-2-dropdown" data-view="touchOnlyDropdown">
+    Marketing
+</a>  <div class="header-categories__links-dropdown js-categories-2-dropdown">
+    <ul class="hub-header-dropdown">
+        <li>
+          <a href="/popular_item/by_category?category=marketing" class="hub-header-dropdown__top">Popular Items</a>
+        </li>
+
+        <li class="hub-header-dropdown__all-items">
+          <a href="/category/marketing">All Items</a>
+        </li>
+
+        <li>
+          <a href="/category/marketing/email-templates">Email Templates</a>
+        </li>
+        <li>
+          <a href="/category/marketing/instapage">Instapage</a>
+        </li>
+        <li>
+          <a href="/category/marketing/landing-pages">Landing Pages</a>
+        </li>
+        <li>
+          <a href="/category/marketing/pagewiz">Pagewiz</a>
+        </li>
+        <li>
+          <a href="/category/marketing/unbounce-landing-pages">Unbounce Landing Pages</a>
+        </li>
+
+        <li>
+          <a href="http://codecanyon.net/category/html5/ad-templates?platform=Google+Web+Designer" class="hub-header-dropdown__bottom">Google Web Designer Ads <span class='is-visually-hidden'>on CodeCanyon</span></a>
+        </li>
+    </ul>
+  </div>
+
+    </li>
+    <li class="header-categories__links-item">
+      
+  <a href="/category/cms-themes" class="header-categories__main-link" data-dropdown-target=".js-categories-3-dropdown" data-view="touchOnlyDropdown">
+    CMS
+</a>  <div class="header-categories__links-dropdown js-categories-3-dropdown">
+    <ul class="hub-header-dropdown">
+        <li>
+          <a href="/popular_item/by_category?category=cms-themes" class="hub-header-dropdown__top">Popular Items</a>
+        </li>
+
+        <li class="hub-header-dropdown__all-items">
+          <a href="/category/cms-themes">All Items</a>
+        </li>
+
+        <li>
+          <a href="/category/cms-themes/concrete5">Concrete5</a>
+        </li>
+        <li>
+          <a href="/category/cms-themes/drupal">Drupal</a>
+        </li>
+        <li>
+          <a href="/category/cms-themes/joomla">Joomla</a>
+        </li>
+        <li>
+          <a href="/category/cms-themes/modx-themes">MODX Themes</a>
+        </li>
+        <li>
+          <a href="/category/cms-themes/moodle">Moodle</a>
+        </li>
+        <li>
+          <a href="/category/cms-themes/mura">Mura</a>
+        </li>
+        <li>
+          <a href="/category/cms-themes/miscellaneous">Miscellaneous</a>
+        </li>
+
+    </ul>
+  </div>
+
+    </li>
+    <li class="header-categories__links-item">
+      
+  <a href="/category/ecommerce" class="header-categories__main-link" data-dropdown-target=".js-categories-4-dropdown" data-view="touchOnlyDropdown">
+    eCommerce
+</a>  <div class="header-categories__links-dropdown js-categories-4-dropdown">
+    <ul class="hub-header-dropdown">
+        <li>
+          <a href="/popular_item/by_category?category=ecommerce" class="hub-header-dropdown__top">Popular Items</a>
+        </li>
+
+        <li class="hub-header-dropdown__all-items">
+          <a href="/category/ecommerce">All Items</a>
+        </li>
+
+        <li>
+          <a href="/category/wordpress/ecommerce/cart66">Cart66</a>
+        </li>
+        <li>
+          <a href="/category/ecommerce/cs-cart">CS-Cart</a>
+        </li>
+        <li>
+          <a href="/attributes/compatible-with/Drupal Commerce?order_by=date">Drupal Commerce</a>
+        </li>
+        <li>
+          <a href="/search?compatible_with=Easy+Digital+Downloads">Easy Digital Downloads</a>
+        </li>
+        <li>
+          <a href="/attributes/themeforest-files-included/ecwid%20css%20files">Ecwid</a>
+        </li>
+        <li>
+          <a href="/category/wordpress/ecommerce/jigoshop">Jigoshop</a>
+        </li>
+        <li>
+          <a href="/category/ecommerce/magento">Magento</a>
+        </li>
+        <li>
+          <a href="/category/ecommerce/opencart">OpenCart</a>
+        </li>
+        <li>
+          <a href="/category/ecommerce/oscommerce">osCommerce</a>
+        </li>
+        <li>
+          <a href="/category/ecommerce/prestashop">PrestaShop</a>
+        </li>
+        <li>
+          <a href="/category/ecommerce/shopify">Shopify</a>
+        </li>
+        <li>
+          <a href="/attributes/compatible-with/Ubercart?order_by=date">Ubercart</a>
+        </li>
+        <li>
+          <a href="/search?utf8=%E2%9C%93&amp;amp;term=virtuemart">VirtueMart</a>
+        </li>
+        <li>
+          <a href="/category/wordpress/ecommerce/woocommerce">WooCommerce</a>
+        </li>
+        <li>
+          <a href="/category/wordpress/ecommerce/wp-e-commerce">WP e-Commerce</a>
+        </li>
+        <li>
+          <a href="/category/ecommerce/zen-cart">Zen Cart</a>
+        </li>
+        <li>
+          <a href="/category/ecommerce/miscellaneous">Miscellaneous</a>
+        </li>
+
+    </ul>
+  </div>
+
+    </li>
+    <li class="header-categories__links-item">
+      
+  <a href="/category/muse-templates" class="header-categories__main-link" data-dropdown-target=".js-categories-5-dropdown" data-view="touchOnlyDropdown">
+    Muse
+</a>  <div class="header-categories__links-dropdown js-categories-5-dropdown">
+    <ul class="hub-header-dropdown">
+        <li>
+          <a href="/popular_item/by_category?category=muse-templates" class="hub-header-dropdown__top">Popular Items</a>
+        </li>
+
+        <li class="hub-header-dropdown__all-items">
+          <a href="/category/muse-templates">All Items</a>
+        </li>
+
+        <li>
+          <a href="/category/muse-templates/corporate">Corporate</a>
+        </li>
+        <li>
+          <a href="/category/muse-templates/creative">Creative</a>
+        </li>
+        <li>
+          <a href="/category/muse-templates/ecommerce">eCommerce</a>
+        </li>
+        <li>
+          <a href="/category/muse-templates/landing">Landing</a>
+        </li>
+        <li>
+          <a href="/category/muse-templates/personal">Personal</a>
+        </li>
+        <li>
+          <a href="/category/muse-templates/miscellaneous">Miscellaneous</a>
+        </li>
+
+    </ul>
+  </div>
+
+    </li>
+    <li class="header-categories__links-item">
+      
+  <a href="/category/sketch-templates" class="header-categories__main-link" data-dropdown-target=".js-categories-6-dropdown" data-view="touchOnlyDropdown">
+    UI Design
+</a>  <div class="header-categories__links-dropdown js-categories-6-dropdown">
+    <ul class="hub-header-dropdown">
+
+        <li class="hub-header-dropdown__all-items">
+          <a href="/category/sketch-templates">All Items</a>
+        </li>
+
+        <li>
+          <a href="/category/psd-templates">PSD Templates</a>
+        </li>
+        <li>
+          <a href="/category/sketch-templates">Sketch Templates</a>
+        </li>
+
+    </ul>
+  </div>
+
+    </li>
+    <li class="header-categories__links-item">
+      
+  <a href="http://codecanyon.net/category/wordpress" class="header-categories__main-link--empty">
+    Plugins
+</a>
+    </li>
+
+    <li class="header-categories__links-item">
+      <a href="/category" class="header-categories__main-link" data-dropdown-target=".js-categories-more-links-dropdown" data-view="touchOnlyDropdown">More</a>
+
+      <div class="header-categories__links-dropdown js-categories-more-links-dropdown">
+        <ul class="hub-header-dropdown">
+            <li><a href="/category/blogging">Blogging</a></li>
+            <li><a href="/attributes/compatible-with/facebook">Facebook Templates</a></li>
+            <li><a href="/category/forums">Forums</a></li>
+            <li><a href="/category/blogging/ghost-themes">Ghost Themes</a></li>
+            <li><a href="/category/static-site-generators/jekyll">Jekyll</a></li>
+            <li><a href="/category/blogging/tumblr">Tumblr</a></li>
+            <li><a href="/category/typeengine-themes">TypeEngine Themes</a></li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="header-categories__links-separator"></li>
+    <li class="header-categories__links-item">
+      
+  <a href="/category/courses" class="header-categories__main-link header-categories__main-link--new_label" data-dropdown-target=".js-categories-course-dropdown" data-view="touchOnlyDropdown">
+    Courses
+      &nbsp;<span class="e-text-label -size-s -color-grey-light">New</span>
+</a>  <div class="header-categories__links-dropdown js-categories-course-dropdown">
+    <ul class="hub-header-dropdown">
+        <li>
+          <a href="/popular_item/by_category?category=courses" class="hub-header-dropdown__top">Popular Items</a>
+        </li>
+
+        <li class="hub-header-dropdown__all-items">
+          <a href="/category/courses">All Items</a>
+        </li>
+
+        <li>
+          <a href="/category/courses/web-design">Web Design</a>
+        </li>
+
+    </ul>
+  </div>
+
+    </li>
+</ul>
+
+
+      
+<div class="header-categories__search">
+  <form accept-charset="UTF-8" action="/search" data-view="searchField" id="search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <div class="search-field -border-light">
+      <div class="search-field__input">
+        <input class="js-term search-field__input-field" id="term" name="term" placeholder="Search" type="search" />
+      </div>
+      <button class="search-field__button" type="submit">
+        <i class="e-icon -icon-search"><span class="e-icon__alt">Search</span></i>
+      </button>
+    </div>
+</form></div>
+
+  </div>
+</div>
+
+                </div>
+            </header>
+          </div>
+
+          <div class="js-canvas__body canvas__body">
+              <div class="grid-container">
+</div>
+
+
+                  <div class="context-header ">
+  <div class="grid-container">
+
+    <nav class="breadcrumbs ">
+  <a href="/">Home</a>
+
+
+    <a href='/category/all'>Files</a>
+    
+<a href="http://themeforest.net/category/wordpress">WordPress</a>
+
+<a href="http://themeforest.net/category/wordpress/creative" itemprop="genre">Creative</a>
+
+</nav>
+
+
+      <div class="item-header" data-view="itemHeader">
+        <div class="item-header__title">
+          <h1 class="t-heading -color-inherit -size-l h-remove-margin is-hidden-phone" itemprop="name">
+            Sytic - One Page Multi-Purpose Responsive WP Theme
+          </h1>
+
+          <h1 class="t-heading -color-inherit -size-xs h-remove-margin is-hidden-tablet-and-above">
+            Sytic - One Page Multi-Purpose Responsive WP Theme
+          </h1>
+
+        </div>
+          <div class="item-header__price">
+            <a href="/cart/configure_before_adding/7472141" class="js-item-header__cart-button e-btn--3d -color-primary -size-m" data-view="modalAjax" rel="nofollow" title="Add to Cart">
+              <span class="item-header__cart-button-icon">
+                <i class="e-icon -icon-cart -margin-right"></i>
+              </span>
+              <span class="t-heading -size-m -color-light -margin-none">
+                <b class="t-currency"><span class="js-item-header__price">$44</span></b>
+              </span>
+</a>          </div>
+      </div>
+
+    
+  <!-- Desktop Item Navigation -->
+  <div class="is-hidden-tablet-and-below page-tabs">
+      <ul>
+          <li class="selected"><a href="/item/sytic-one-page-multipurpose-responsive-wp-theme/7472141" class="t-link -decoration-none">Item Details</a></li>
+          <li><a href="/item/sytic-one-page-multipurpose-responsive-wp-theme/7472141/comments" class="t-link -decoration-none">Comments</a></li>
+          <li><a href="/item/sytic-one-page-multipurpose-responsive-wp-theme/7472141/support" class="t-link -decoration-none">Support</a></li>
+      </ul>
+
+  </div>
+
+
+  <!-- Table or below Item Navigation -->
+    <div class="page-tabs--dropdown" data-view="replaceItemNavsWithRemote" data-target=".js-remote">
+      <div class="page-tabs--dropdown__slt-custom-wlabel">
+        <div class="slt-custom-wlabel--page-tabs--dropdown">
+          <label>
+            <span class="js-label">
+              Item Details
+            </span>
+            <span class="slt-custom-wlabel__arrow">
+              <i class="e-icon -icon-arrow-fill-down"></i>
+            </span>
+          </label>
+
+          <select class="js-remote">
+              <option data-url="/item/sytic-one-page-multipurpose-responsive-wp-theme/7472141" selected="selected">Item Details</option>
+              <option data-url="/item/sytic-one-page-multipurpose-responsive-wp-theme/7472141/comments">Comments</option>
+              <option data-url="/item/sytic-one-page-multipurpose-responsive-wp-theme/7472141/support">Support</option>
+
+
+          </select>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+            
+
+            <div class="content-main" id="content">
+              
+              <div class="grid-container">
+                
+
+
+
+<link itemprop="thumbnailUrl" href="https://0.s3.envato.com/files/88377680/icon.png" />
+
+
+
+
+
+<div class="content-s">
+  <div class="box--no-padding">
+      <div class="item-preview -preview-live">
+        
+           
+
+    <a href="/item/sytic-one-page-multipurpose-responsive-wp-theme/full_screen_preview/7472141" target="_blank"><img alt="Sytic - One Page Multi-Purpose Responsive WP Theme - Creative WordPress" itemprop="image" src="https://image-tf.s3.envato.com/files/88377681/Preview/01-preview.__large_preview.png" /></a>
+
+<div class="item-preview__actions">
+          <div id="fullscreen" class="item-preview__preview-buttons">
+            <a  href="/item/sytic-one-page-multipurpose-responsive-wp-theme/full_screen_preview/7472141" role="button" class="btn-icon live-preview" target="_blank" rel="nofollow">Live Preview</a>
+        </div>
+    <div class="item-preview__preview-buttons--social" data-view="socialButtons">
+    <div class="btn-group">
+      <div class="btn btn--label btn--group-item">Share</div>
+      <a class="btn btn--group-item" data-social-network-link href="https://www.facebook.com/sharer/sharer.php?display=popup&amp;u=http%3A%2F%2Fthemeforest.net%2Fitem%2Fsytic-one-page-multipurpose-responsive-wp-theme%2F7472141%3Futm_source%3Dsharefb"><i class="e-icon -icon-facebook -size-medium -line-height-small"><span class="e-icon__alt">Facebook</span></i></a>
+      <a class="btn btn--group-item" data-social-network-link href="https://plus.google.com/share?url=http%3A%2F%2Fthemeforest.net%2Fitem%2Fsytic-one-page-multipurpose-responsive-wp-theme%2F7472141%3Futm_source%3Dsharegp"><i class="e-icon -icon-google-plus -size-medium -line-height-small"><span class="e-icon__alt">Google Plus</span></i></a>
+      <a class="btn btn--group-item" data-social-network-link href="https://twitter.com/intent/tweet?text=Check+out+%27Sytic+-+One+Page+Multi-Purpose+Responsive+WP+Theme%27+on+%23EnvatoMarket+by+%40pixelcoderz+%23themeforest&amp;url=http%3A%2F%2Fthemeforest.net%2Fitem%2Fsytic-one-page-multipurpose-responsive-wp-theme%2F7472141%3Futm_source%3Dsharetw"><i class="e-icon -icon-twitter -size-medium -line-height-small"><span class="e-icon__alt">Twitter</span></i></a>
+        <a class="btn btn--group-item" data-social-network-link href="http://pinterest.com/pin/create/button?description=Sytic+-+One+Page+Multi-Purpose+Responsive+WP+Theme&amp;media=http%3A%2F%2F0.s3.envato.com%2Ffiles%2F88377681%2FPreview%2F01-preview.__large_preview.png&amp;url=http%3A%2F%2Fthemeforest.net%2Fitem%2Fsytic-one-page-multipurpose-responsive-wp-theme%2F7472141%3Futm_source%3Dsharepi"><i class="e-icon -icon-pinterest -size-medium -line-height-small"><span class="e-icon__alt">Pinterest</span></i></a>
+    </div>
+  </div>
+
+</div>
+
+
+    </div>
+  </div>
+
+  <ul class="item-bookmarking" data-view="bookmarkStatesLoader">
+  <li class="item-bookmarking__control--favorite">
+      <span>
+    <a href="/sign_in?action_name=favorite&amp;resource_id=7472141" data-view="modalAjax" rel="nofollow" title="Add to Favorites"><span>Add to Favorites</span></a>
+  </span>
+
+  </li>
+  <li class="item-bookmarking__control--collection">
+      <span>
+    <a href="/sign_in?action_name=collect&amp;resource_id=7472141" data-view="modalAjax" rel="nofollow" title="Add to Collection"><span>Add to Collection</span></a>
+  </span>
+
+  </li>
+</ul>
+
+      <div data-view="toggleItemDescription">
+        <div class="js-item-description item-description" itemprop="description">
+          <div class="user-html"><h3 id="item-description__"><a href="http://support.pixelcoder.net/" rel="nofollow"><img src="http://pixelcoder.net/tfimages/support.png" /></a><a href="https://www.facebook.com/pixelcoder" rel="nofollow"><img src="http://pixelcoder.net/tfimages/facebook.png" /></a><a href="https://twitter.com/pixelcoderz" rel="nofollow"><img src="http://pixelcoder.net/tfimages/twitter.png" /></a><a href="http://themeforest.net/user/pixel_coder/follow"><img src="http://pixelcoder.net/tfimages/themeforest.png" /></a></h3>
+
+<p><strong>Sytic</strong> focus on WP Responsive Multipurpose Theme that can use all kind of Business sites.</p>
+
+<p><strong>Sytic</strong> is the Aristocratic theme for corporate business. It&#8217;s a design that helps you to connect modern world customers. This theme achieves you to your target customers and bestow them an amazing user experience.</p>
+
+<p>The design can attach the people for improving your brand. Simplicity and Colorful web makes you a classy business to Intimate relation to your customers.</p>
+
+<p>You&#8217;re also dig up Responsive slider and responsive design that can be world class enormous experience for your current visitors and future customers.</p>
+
+<h4 id="item-description__sytic-now-bootstrap-3-version-available-with-elements-shortcode">Sytic Now Bootstrap 3 Version Available with Elements Shortcode</h4>
+
+<p><strong>If you like my theme please do not forget to rate it! </strong> <img src="http://www.agartstudio.com/demo/star.png" /><img src="http://www.agartstudio.com/demo/star.png" /><img src="http://www.agartstudio.com/demo/star.png" /><img src="http://www.agartstudio.com/demo/star.png" /><img src="http://www.agartstudio.com/demo/star.png" /> <a href="http://fc07.deviantart.net/fs71/i/2012/038/8/5/how_to_rate_a_file_template_by_cooledition-d4oxno5.jpg" rel="nofollow"> (How to?)</a></p>
+
+<h3 id="item-description__html-version-click-here">HTML VERSION <strong><a href="http://themeforest.net/item/sytic-onepage-responsive-multipurpose-template/5453817">CLICK HERE</a></strong></h3>
+
+	<p><a href="http://themeforest.net/item/sytic-wp-responsive-multipurpose-theme-/7472141"><img src="http://pixelcoder.net/tfimages/Sytic_p_1.png" /></a></p>
+
+
+	<p><a href="http://themeforest.net/item/sytic-wp-responsive-multipurpose-theme-/7472141"><img src="http://pixelcoder.net/tfimages/Sytic_p_2.png" /></a></p>
+
+
+	<p><a href="http://themeforest.net/item/sytic-wp-responsive-multipurpose-theme-/7472141"><img src="http://pixelcoder.net/tfimages/Sytic_p_3.png" /></a></p>
+
+
+<h4 id="item-description__please-check-forum-video-tutorial-how-to-import-sample-data">Please check <a href="http://pixelcoder.net/forum/" rel="nofollow">FORUM</a> video tutorial how to import Sample data</h4>
+
+<h3 id="item-description__features">Features</h3>
+
+<ul>
+<li><strong>WordPress 3.9 Ready</strong></li>
+<li>Child Theme Tested</li>
+<li><strong>Mailchimp Ready</strong></li>
+<li>WPML Supported</li>
+<li><strong>multisite Working</strong></li>
+<li><strong>RTL Ready</strong></li>
+
+<li>Unlimited Color/background options</li>
+<li><strong>1 Click Primary Color changeable</strong></li>
+<li><strong>1 Click Secondary Color changeable</strong></li>
+<li>One Page Responsive WP Theme</li>
+<li>Blog with Pagination</li>
+<li>New Font Awesome Icons</li>
+<li>Sidebars Ready</li>
+<li>Multiple Sliders Included</li>
+    <ul>
+            <li>Use this slider anywhere on the page(s)</li>
+    </ul>
+<li>640+ Google Font Options Through Options Panel</li>
+<li>Full Screen Slider</li>
+<li>Great Theme Options Panel with Lots of Options</li>
+<li>Parallax and Page Sections</li>
+<li>4 Custom Post Types</li>
+    <ul>
+            <li>Page Sections</li>
+            <li>Parallax Sections</li>
+            <li>Recent Works</li>
+            <li>Portfolio</li>
+    </ul>
+<li>Posts Support Slider as Featured</li>
+<li>Sample Data Included</li>
+<li>Filterable Portfolio (supports prettyPhoto) 4 column toggle</li>
+<li>Shortcodes</li>
+        <ul>
+        <li>Contact Form</li>
+            <li>Team</li>
+            <li>Portfolio</li>
+            <li>Blog</li>
+            <li>Slider</li>
+            <li>Pricing Table</li>
+            <li>Grid Columns</li>
+            <li>Social Links</li>
+            <li>Contact Info</li>
+            <li>AND MANY MORE!</li>
+    </ul>
+<li>Threaded Comments</li>
+<li>Sticky Nav on Full Screen Slider &#38; Full Screen Parallax</li>
+    <ul>
+        <li><strong>More Coming</strong></li>
+    </ul>
+</ul>
+
+<h3 id="item-description__updates">Updates</h3>
+<p>V2.1 &#8211; 05 April 2015</p>
+<pre>
+- Parallax update for all iDevices
+- Fixed Some bugs
+- Update some theme option
+</pre>
+<p>V2 &#8211; 10 November 2014</p>
+<pre>
+- Bootstrap 3 Updated
+- Added new Shortcode
+- Elements Added
+- Twitter Updated
+- Contact form Updated
+- Fixed many errors
+- Map updated
+</pre>
+
+<pre>
+v1.0.1
+RTL Ready
+</pre>
+<pre>
+Release version 1.0
+</pre>
+<h3 id="item-description__credits">Credits</h3>
+<pre>
+
+</pre>
+
+<h3 id="item-description__carna-multi-purpose-parallax-html-template">CARNA | Multi-Purpose Parallax HTML Template  </h3>
+
+	<p><a href="http://themeforest.net/item/carna-multipurpose-parallax-html-template/7520715"><img src="http://0.s3.envato.com/files/88940538/Preview/00_preview.__large_preview.jpg" /></a></p>
+
+
+<h3 id="item-description__lightflow-wordpress-responsive-one-page-parallax-theme">Lightflow &#8211; WordPress Responsive One Page Parallax Theme </h3>
+
+	<p><a href="http://themeforest.net/item/-lightflow-responsive-one-page-parallax-template/5604404"><img src="http://pixelcoder.net/tfimages/lightflow.png" /></a></p>
+
+
+<h3 id="item-description__sytic-one-page-responsive-multipurpose-template">Sytic &#8211; One-Page Responsive Multipurpose Template </h3>
+
+	<p><a href="http://themeforest.net/item/sytic-onepage-responsive-multipurpose-template/5453817"><img src="http://pixelcoder.net/tfimages/sytic.jpg" /></a></p>
+
+
+<h3 id="item-description__cube-one-page-parallax-html-template">Cube+ | One-Page Parallax HTML Template</h3>
+
+	<p><a href="http://themeforest.net/item/cube-onepage-parallax-html-template/6010672"><img src="http://pixelcoder.net/tfimages/cubeplus.jpg" /></a></p>
+
+
+<h3 id="item-description__the-new-flat-shop-html-template">The New Flat Shop &#8211; HTML Template</h3>
+
+	<p><a href="http://themeforest.net/item/the-new-flat-shop-html-template/6763157"><img src="http://pixelcoder.net/tfimages/flatshoppreview.png" /></a></p>
+
+
+<h3 id="item-description__robiz-responsive-multi-purpose-wordpress-theme">ROBIZ &#8211; Responsive Multi-Purpose Wordpress Theme</h3>
+
+	<p><a href="http://themeforest.net/item/robiz-responsive-multipurpose-wordpress-theme/6685997"><img src="http://pixelcoder.net/tfimages/robizpreview.png" /></a></p></div>
+        </div>
+        <div class="js-item-description-toggle item-description-toggle">
+          <a href="#" class="item-description-toggle__link is-hidden">
+            <span>Show More <i class="e-icon -icon-chevron-down"></i></span>
+            <span class="item-description-toggle__less">Show Less <i class="e-icon -icon-chevron-down -rotate-180"></i></span>
+</a>        </div>
+      </div>
+
+        <div class="h-spacing-above--small h-spacing-below--small">
+      <div data-view="productList">
+        <ul class="item-thumbnail-carousel--item-page overthrow">
+              <li class="item-thumbnail-container">
+                
+<div class="item-thumbnail__image">
+    <a href="/item/sparrow-the-multipurpose-html5-template/13389079" class="js-google-analytics__list-event-trigger"><img alt="Sparrow | The Multi-Purpose HTML5 Template - ThemeForest Item for Sale" border="0" class="landscape-image-magnifier preload no_preview" data-google-analytics-payload="{&quot;id&quot;:13389079,&quot;name&quot;:&quot;Sparrow | The Multi-Purpose HTML5 Template&quot;,&quot;brand&quot;:&quot;CodePixar&quot;,&quot;category&quot;:&quot;themeforest.net/category/marketing/landing-pages/creative&quot;,&quot;position&quot;:1,&quot;list&quot;:&quot;Item page: More items by this author&quot;}" data-item-author="CodePixar" data-item-category="Marketing / Landing Pages / Creative" data-item-cost="15" data-item-id="13389079" data-item-name="Sparrow | The Multi-Purpose HTML5 Template" data-preview-height="" data-preview-url="https://preview-tf.s3.envato.com/files/155002709/Preview/1_preview.__large_preview.png" data-preview-width="" height="80" src="https://thumb-tf.s3.envato.com/files/155002700/thumbnail.png" title="Sparrow | The Multi-Purpose HTML5 Template" width="80" /></a>
+
+  
+</div>
+
+              </li>
+              <li class="item-thumbnail-container">
+                
+<div class="item-thumbnail__image">
+    <a href="/item/the-flat-shop-wordpress-woocommerce-theme/11500887" class="js-google-analytics__list-event-trigger"><img alt="The Flat Shop - WordPress WooCommerce Theme - ThemeForest Item for Sale" border="0" class="landscape-image-magnifier preload no_preview" data-google-analytics-payload="{&quot;id&quot;:11500887,&quot;name&quot;:&quot;The Flat Shop - WordPress WooCommerce Theme&quot;,&quot;brand&quot;:&quot;CodePixar&quot;,&quot;category&quot;:&quot;themeforest.net/category/wordpress/ecommerce/woocommerce&quot;,&quot;position&quot;:2,&quot;list&quot;:&quot;Item page: More items by this author&quot;}" data-item-author="CodePixar" data-item-category="WordPress / eCommerce / WooCommerce" data-item-cost="59" data-item-id="11500887" data-item-name="The Flat Shop - WordPress WooCommerce Theme" data-preview-height="" data-preview-url="https://preview-tf.s3.envato.com/files/134616762/Preview/Preview.__large_preview.png" data-preview-width="" height="80" src="https://thumb-tf.s3.envato.com/files/141753254/Thumbnail.png" title="The Flat Shop - WordPress WooCommerce Theme" width="80" /></a>
+
+  
+</div>
+
+              </li>
+              <li class="item-thumbnail-container">
+                
+<div class="item-thumbnail__image">
+    <a href="/item/carna-one-page-multipurpose-muse-template/10609929" class="js-google-analytics__list-event-trigger"><img alt="CARNA | One Page Multi-Purpose Muse Template - ThemeForest Item for Sale" border="0" class="landscape-image-magnifier preload no_preview" data-google-analytics-payload="{&quot;id&quot;:10609929,&quot;name&quot;:&quot;CARNA | One Page Multi-Purpose Muse Template&quot;,&quot;brand&quot;:&quot;CodePixar&quot;,&quot;category&quot;:&quot;themeforest.net/category/muse-templates/creative&quot;,&quot;position&quot;:3,&quot;list&quot;:&quot;Item page: More items by this author&quot;}" data-item-author="CodePixar" data-item-category="Muse Templates / Creative" data-item-cost="19" data-item-id="10609929" data-item-name="CARNA | One Page Multi-Purpose Muse Template" data-preview-height="" data-preview-url="https://preview-tf.s3.envato.com/files/124660571/preview/00_preview.__large_preview.jpg" data-preview-width="" height="80" src="https://thumb-tf.s3.envato.com/files/124660566/avatar.jpg" title="CARNA | One Page Multi-Purpose Muse Template" width="80" /></a>
+
+  
+</div>
+
+              </li>
+              <li class="item-thumbnail-container">
+                
+<div class="item-thumbnail__image">
+    <a href="/item/eydia-responsive-multipurpose-html5-template/10556821" class="js-google-analytics__list-event-trigger"><img alt="Eydia | Responsive Multi-Purpose HTML5 Template - ThemeForest Item for Sale" border="0" class="landscape-image-magnifier preload no_preview" data-google-analytics-payload="{&quot;id&quot;:10556821,&quot;name&quot;:&quot;Eydia | Responsive Multi-Purpose HTML5 Template&quot;,&quot;brand&quot;:&quot;CodePixar&quot;,&quot;category&quot;:&quot;themeforest.net/category/marketing/landing-pages/corporate/marketing&quot;,&quot;position&quot;:4,&quot;list&quot;:&quot;Item page: More items by this author&quot;}" data-item-author="CodePixar" data-item-category="Marketing / Landing Pages / Corporate / Marketing" data-item-cost="12" data-item-id="10556821" data-item-name="Eydia | Responsive Multi-Purpose HTML5 Template" data-preview-height="" data-preview-url="https://preview-tf.s3.envato.com/files/124017393/Preview/01_Preview.__large_preview.png" data-preview-width="" height="80" src="https://thumb-tf.s3.envato.com/files/124017391/thumbnail.png" title="Eydia | Responsive Multi-Purpose HTML5 Template" width="80" /></a>
+
+  
+</div>
+
+              </li>
+              <li class="item-thumbnail-container">
+                
+<div class="item-thumbnail__image">
+    <a href="/item/degree-creative-and-responsive-template/6596484" class="js-google-analytics__list-event-trigger"><img alt="Degree Creative and Responsive Template - ThemeForest Item for Sale" border="0" class="landscape-image-magnifier preload no_preview" data-google-analytics-payload="{&quot;id&quot;:6596484,&quot;name&quot;:&quot;Degree Creative and Responsive Template&quot;,&quot;brand&quot;:&quot;CodePixar&quot;,&quot;category&quot;:&quot;themeforest.net/category/site-templates/creative&quot;,&quot;position&quot;:5,&quot;list&quot;:&quot;Item page: More items by this author&quot;}" data-item-author="CodePixar" data-item-category="Site Templates / Creative" data-item-cost="17" data-item-id="6596484" data-item-name="Degree Creative and Responsive Template" data-preview-height="" data-preview-url="https://preview-tf.s3.envato.com/files/120402402/Preview/Preview.__large_preview.png" data-preview-width="" height="80" src="https://thumb-tf.s3.envato.com/files/78160783/Thumb.png" title="Degree Creative and Responsive Template" width="80" /></a>
+
+  
+</div>
+
+              </li>
+              <li class="item-thumbnail-container">
+                
+<div class="item-thumbnail__image">
+    <a href="/item/carna-one-page-multipurpose-parallax-html-template/7520715" class="js-google-analytics__list-event-trigger"><img alt="CARNA | One Page Multi-Purpose Parallax HTML Template - ThemeForest Item for Sale" border="0" class="landscape-image-magnifier preload no_preview" data-google-analytics-payload="{&quot;id&quot;:7520715,&quot;name&quot;:&quot;CARNA | One Page Multi-Purpose Parallax HTML Template&quot;,&quot;brand&quot;:&quot;CodePixar&quot;,&quot;category&quot;:&quot;themeforest.net/category/site-templates/creative&quot;,&quot;position&quot;:6,&quot;list&quot;:&quot;Item page: More items by this author&quot;}" data-item-author="CodePixar" data-item-category="Site Templates / Creative" data-item-cost="15" data-item-id="7520715" data-item-name="CARNA | One Page Multi-Purpose Parallax HTML Template" data-preview-height="" data-preview-url="https://preview-tf.s3.envato.com/files/88940538/Preview/00_preview.__large_preview.jpg" data-preview-width="" height="80" src="https://thumb-tf.s3.envato.com/files/88940535/avatar.jpg" title="CARNA | One Page Multi-Purpose Parallax HTML Template" width="80" /></a>
+
+  
+</div>
+
+              </li>
+              <li class="item-thumbnail-container">
+                
+<div class="item-thumbnail__image">
+    <a href="/item/robiz-responsive-multipurpose-wordpress-theme/6685997" class="js-google-analytics__list-event-trigger"><img alt="ROBIZ - Responsive Multi-Purpose Wordpress Theme - ThemeForest Item for Sale" border="0" class="landscape-image-magnifier preload no_preview" data-google-analytics-payload="{&quot;id&quot;:6685997,&quot;name&quot;:&quot;ROBIZ - Responsive Multi-Purpose Wordpress Theme&quot;,&quot;brand&quot;:&quot;CodePixar&quot;,&quot;category&quot;:&quot;themeforest.net/category/wordpress/corporate/business&quot;,&quot;position&quot;:7,&quot;list&quot;:&quot;Item page: More items by this author&quot;}" data-item-author="CodePixar" data-item-category="WordPress / Corporate / Business" data-item-cost="44" data-item-id="6685997" data-item-name="ROBIZ - Responsive Multi-Purpose Wordpress Theme" data-preview-height="" data-preview-url="https://preview-tf.s3.envato.com/files/80970557/Preview/Preview.__large_preview.png" data-preview-width="" height="80" src="https://thumb-tf.s3.envato.com/files/81100072/icon.png" title="ROBIZ - Responsive Multi-Purpose Wordpress Theme" width="80" /></a>
+
+  
+</div>
+
+              </li>
+        </ul>
+      </div>
+      <div>
+        <small class="t-body -size-s">
+          <a href="/user/CodePixar/portfolio" class="t-link-decoration-reversed">More items by CodePixar</a>
+        </small>
+      </div>
+    </div>
+
+
+</div>
+
+<div class="sidebar-l sidebar-right">
+    
+    
+    
+    <div class="js-pricebox__regular pricebox-container" itemscope="true" itemtype="http://schema.org/Product">
+  <meta content="Sytic - One Page Multi-Purpose Responsive WP Theme" itemprop="name" />
+        <div class="purchase-panel">
+      <div id="purchase-form" class="purchase-form">
+    <form accept-charset="UTF-8" action="/cart/add/7472141" data-google-analytics-page="itemPage" data-google-analytics-payload="{&quot;id&quot;:7472141,&quot;name&quot;:&quot;Sytic - One Page Multi-Purpose Responsive WP Theme&quot;,&quot;brand&quot;:&quot;CodePixar&quot;,&quot;category&quot;:&quot;themeforest.net/category/wordpress/creative&quot;,&quot;quantity&quot;:&quot;1&quot;}" data-view="purchaseForm" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="SbDSxkJucpV+VeB2wAFjt0Wfcp37aGYIYzn9Zzx6nyw=" /></div>
+        <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+          <meta content="44.00" itemprop="price" />
+          <meta content="USD" itemprop="priceCurrency" />
+          <meta content="instock" itemprop="availability" />
+
+          <div data-view="itemVariantSelector">
+            <div class="purchase-form__selection">
+  <span class="purchase-form__license-type">
+      <span data-view="flyout" class="flyout">
+        <span class="js-license-selector__chosen-license purchase-form__license-dropdown">Regular License</span>
+        <div class="js-flyout__body flyout__body -padding-side-removed">
+          <span class="js-flyout__triangle flyout__triangle"></span>
+          <div class="license-selector" data-view="licenseSelector">
+              <div class="js-license-selector__item license-selector__item" data-license="regular" data-name="Regular License">
+
+                <div class="license-selector__license-type">
+                  <span class="t-heading -size-xxs">Regular License</span>
+                  <span class="js-license-selector__selected-label e-text-label -color-green -size-s ">Selected</span>
+                </div>
+                <div class="license-selector__price">
+                  <span class="t-heading -size-m h-remove-margin">
+                    <b class="t-currency"><span class="">$44</span></b>
+                  </span>
+                </div>
+                <div class="license-selector__description">
+                  <p class="t-body -size-m h-remove-margin">Use, by you or one client, in a single end product which end users <strong>are not</strong> charged for. The total price includes the item price and a buyer fee.</p>
+                </div>
+</div>              <div class="js-license-selector__item license-selector__item" data-license="extended" data-name="Extended License">
+
+                <div class="license-selector__license-type">
+                  <span class="t-heading -size-xxs">Extended License</span>
+                  <span class="js-license-selector__selected-label e-text-label -color-green -size-s is-hidden">Selected</span>
+                </div>
+                <div class="license-selector__price">
+                  <span class="t-heading -size-m h-remove-margin">
+                    <b class="t-currency"><span class="">$2200</span></b>
+                  </span>
+                </div>
+                <div class="license-selector__description">
+                  <p class="t-body -size-m h-remove-margin">Use, by you or one client, in a single end product which end users <strong>can be</strong> charged for. The total price includes the item price and a buyer fee.</p>
+                </div>
+</div>          </div>
+          <div class="flyout__link">
+            <p class="t-body -size-m h-remove-margin">
+              <a href="http://themeforest.net/licenses/standard" class="t-link -decoration-reversed" target="_blank">View license details</a>
+            </p>
+          </div>
+        </div>
+      </span>
+
+
+      <select class="f-select js-purchase-license-selector is-hidden--js" name="license">
+          <option data-license="regular" selected="selected" value="regular">Regular License</option>
+          <option data-license="extended" disabled="disabled" value="extended">Extended License</option>
+      </select>
+  </span>
+
+  <div class="js-purchase-heading purchase-form__price t-heading -size-xxl">
+    <b class="t-currency"><span class="js-purchase-price">$44</span></b>
+  </div>
+</div>
+
+
+              <div class="purchase-form__license js-purchase-license is-active" data-license="regular">
+                  <input class="js-purchase-hidden-license" data-license="regular" data-price-prepaid-upgrade="$57.20" data-price-prepaid="$44" data-size="source" data-support-extension-price="$22" data-support-extension-saving="$8.80" data-support-upgrade-price="$13.20" data-support-upgrade-saving="$17" id="purchasable_regular" name="purchasable_regular" type="hidden" value="source" />
+
+              </div>
+              <div class="purchase-form__license js-purchase-license " data-license="extended">
+                  <input class="js-purchase-hidden-license" data-license="extended" data-price-prepaid-upgrade="$2266" data-price-prepaid="$2200" data-size="source" data-support-extension-price="$110" data-support-extension-saving="$44" data-support-upgrade-price="$66" data-support-upgrade-saving="$88" id="purchasable_extended" name="purchasable_extended" type="hidden" value="source" />
+
+              </div>
+
+            <div class="purchase-form__support">
+                <ul class="t-icon-list -font-size-s -icon-size-s -offset-flush">
+                  <li class="t-icon-list__item -icon-ok">
+                    <span class="is-visually-hidden">Included:</span>
+                    Quality checked by Envato
+                  </li>
+                  <li class="t-icon-list__item -icon-ok">
+                    <span class="is-visually-hidden">Included:</span>
+                    Future updates
+                  </li>
+                  <li class="t-icon-list__item -icon-ok">
+                    <span class="is-visually-hidden">Included:</span>
+                    6 months support from <span class="purchase-form__author-name">CodePixar</span>
+                    <br>
+                    <a href="/item_support/what_is_item_support/7472141" class="t-link -decoration-reversed" data-view="modalAjax">What does support include?</a>
+                  </li>
+                </ul>
+
+                  <div class="purchase-form__upgrade">
+                    <div class="purchase-form__upgrade-checkbox">
+                      <input class="js-support__default" id="support_default" name="support" type="hidden" value="bundle_6month" />
+                      <input class="js-support__option" id="support" name="support" type="checkbox" value="bundle_12month" />
+                    </div>
+                    <div class="purchase-form__upgrade-info">
+                      <label class="purchase-form__label" for="support">
+                        Extend support to 12 months
+                        <span class="purchase-form__price t-heading -size-xs h-pull-right">
+                          <b class="t-currency">
+                            <span class="js-support__price">$13.20</span>
+                          </b>
+                        </span>
+                      </label>
+                        <p class="t-body -size-m">
+                          <a href="/item_support/pricing_modal/7472141" class="js-support__pricing-link t-link -decoration-reversed" data-view="modalAjax">
+                            <span class="e-icon -icon-tag -flip-horizontal"></span>
+                            Get it now and save up to <span class="js-support__saving">$17</span>
+</a>                        </p>
+                    </div>
+                  </div>
+            </div>
+          </div>
+
+
+          
+
+
+
+          <div class="purchase-form__button">
+  <button class="js-purchase__add-to-cart btn btn--size-l-slim btn--dimensions-full-width btn--color-green-3d">
+    <i class="e-icon -icon-cart -margin-right"></i> <strong>Add to Cart</strong>
+</button></div>
+
+          <div class="purchase-form__button">
+  <button class="js-purchase__buy-now btn btn--color-base-3d btn--size-l-slim btn--dimensions-full-width" name="buy_now_button" value="Buy Now">
+    <strong>Buy Now</strong>
+</button></div>
+
+        </div>
+</form>  </div>
+
+  </div>
+
+</div>
+    
+    
+    
+    <div class="box -radius-all">
+  <div class="user-info">
+    <div class="user-info__profile">
+      <div class="user-info__avatar">
+        <div class="avatar-wrapper tooltip-advanced">
+  <a href="/user/CodePixar" class="avatar" title="CodePixar">
+  <img alt="CodePixar" class="" height="80" src="https://user-profile.s3.envato.com/files/77620082/logo.png" width="80" />
+</a>
+
+  
+</div>
+
+      </div>
+      <div class="user-info__details">
+        <h2 class="user-info__username">
+            <a href="/user/codepixar" rel="author">CodePixar</a>
+        </h2>
+          <div class="user-info__badges">
+            <ul class="badges">
+    <li>
+      <span class="community-badges__badge-wrapper--s ">
+        <img alt="Affiliate Level 1" class="community-badges__badge--s" src="//dmypbau5frl9g.cloudfront.net/assets/badges/affiliate_level_1-s-a1973ed070c356c6a8bfecf20ec1d15f.svg" title="Affiliate Level 1: Has referred 1+ members" />
+
+      </span>
+    </li>
+    <li>
+      <span class="community-badges__badge-wrapper--s ">
+        <img alt="Author Level 5" class="community-badges__badge--s" src="//dmypbau5frl9g.cloudfront.net/assets/badges/author_level_5-s-4ea59547dc76ab70e3ca616c324044aa.svg" title="Author Level 5: Has sold $10,000+ on Envato Market" />
+
+      </span>
+    </li>
+    <li>
+      <span class="community-badges__badge-wrapper--s ">
+        <img alt="Collector Level 2" class="community-badges__badge--s" src="//dmypbau5frl9g.cloudfront.net/assets/badges/collector_level_2-s-a719aeef892c19b8cb67548bff96c1d8.svg" title="Collector Level 2: Has collected 10+ items on Envato Market" />
+
+      </span>
+    </li>
+    <li>
+      <span class="community-badges__badge-wrapper--s ">
+        <img alt="Trendsetter" class="community-badges__badge--s" src="//dmypbau5frl9g.cloudfront.net/assets/badges/had_trending_item-s-e81eada8ece6723629f35766dc4d00eb.svg" title="Trendsetter: Had an item that was trending" />
+
+      </span>
+    </li>
+    <li>
+      <span class="community-badges__badge-wrapper--s ">
+        <img alt="Exclusive Author" class="community-badges__badge--s" src="//dmypbau5frl9g.cloudfront.net/assets/badges/exclusive-s-f50a5d178abefeb1e43daa716f677dd3.svg" title="Exclusive Author: Sells items exclusively on Envato Market" />
+
+      </span>
+    </li>
+    <li>
+      <span class="community-badges__badge-wrapper--s ">
+        <img alt="3 Years of Membership" class="community-badges__badge--s" src="//dmypbau5frl9g.cloudfront.net/assets/badges/veteran_level_3-s-fe7c9804eddbef1aa10ca9d9c6e92949.svg" title="3 Years of Membership: Has been part of the Envato Community for over 3 years" />
+
+      </span>
+    </li>
+</ul>
+
+          </div>
+      </div>
+    </div>
+
+      <div class="user-info__portfolio">
+        <a href="/user/CodePixar/portfolio" class="e-btn--3d -color-light -width-full">View Portfolio</a>
+      </div>
+  </div>
+</div>
+
+    <div class="sidebar-stats">
+
+  <div class="sidebar-stats__item">
+    <div class="box -radius-all -spacing-small">
+      <strong class="sidebar-stats__number">
+        <span class="sidebar-stats__icon"><i class="e-icon -icon-cart"></i></span>
+        75
+      </strong>
+      <span class="sidebar-stats__label">
+        Sales
+      </span>
+      <meta itemprop="interactionCount" content="UserDownloads:75" />
+    </div>
+  </div>
+
+  <div class="sidebar-stats__item">
+    <div class="box -radius-all -spacing-small">
+      <a href="/item/sytic-one-page-multipurpose-responsive-wp-theme/7472141/comments" class="t-link -decoration-none" itemprop="discussionUrl">
+        <strong class="sidebar-stats__number">
+          <span class="sidebar-stats__icon"><i class="e-icon -icon-speech-bubble"></i></span>
+          32
+        </strong>
+        <span class="sidebar-stats__label">
+          Comments
+        </span>
+</a>    </div>
+  </div>
+</div>
+
+    <div class="box -radius-all">
+    <div class="rating-detailed" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+    <meta itemprop="ratingValue" content="3.43" />
+    <meta itemprop="ratingCount" content="7" />
+
+    <div class="rating-detailed__header">
+      <strong class="rating-detailed__title">Buyer Rating:</strong>
+      <div class="rating-detailed__stars">
+          <b class="star--on"></b>
+          <b class="star--on"></b>
+          <b class="star--on"></b>
+          <b class="star--half"></b>
+          <b class="star--off"></b>
+        <span class="is-visually-hidden">3.43 stars</span>
+      </div>
+      <span class="rating-detailed__average">
+        3.43 average based on 7 ratings.
+
+          (<a href="#" class="rating-detailed__exposer js-rating-exposer">more information</a>)
+      </span>
+    </div>
+
+      <ul data-view="ratingBreakdown" class="rating-breakdown js-rating-breakdown  hidden">
+          <li>
+            <span class="rating-breakdown__key">5 Star</span>
+            <div class="rating-breakdown__meter">
+              <div class="rating-breakdown__meter-bar">
+                <div class="rating-breakdown__meter-progress" style="width: 57%">
+                  57%
+                </div>
+              </div>
+            </div>
+            <span class="rating-breakdown__count">4</span>
+          </li>
+          <li>
+            <span class="rating-breakdown__key">4 Star</span>
+            <div class="rating-breakdown__meter">
+              <div class="rating-breakdown__meter-bar">
+                <div class="rating-breakdown__meter-progress" style="width: 0%">
+                  0%
+                </div>
+              </div>
+            </div>
+            <span class="rating-breakdown__count">0</span>
+          </li>
+          <li>
+            <span class="rating-breakdown__key">3 Star</span>
+            <div class="rating-breakdown__meter">
+              <div class="rating-breakdown__meter-bar">
+                <div class="rating-breakdown__meter-progress" style="width: 0%">
+                  0%
+                </div>
+              </div>
+            </div>
+            <span class="rating-breakdown__count">0</span>
+          </li>
+          <li>
+            <span class="rating-breakdown__key">2 Star</span>
+            <div class="rating-breakdown__meter">
+              <div class="rating-breakdown__meter-bar">
+                <div class="rating-breakdown__meter-progress" style="width: 14%">
+                  14%
+                </div>
+              </div>
+            </div>
+            <span class="rating-breakdown__count">1</span>
+          </li>
+          <li>
+            <span class="rating-breakdown__key">1 Star</span>
+            <div class="rating-breakdown__meter">
+              <div class="rating-breakdown__meter-bar">
+                <div class="rating-breakdown__meter-progress" style="width: 28%">
+                  28%
+                </div>
+              </div>
+            </div>
+            <span class="rating-breakdown__count">2</span>
+          </li>
+      </ul>
+  </div>
+
+</div>
+
+    
+    <div class="box -radius-all">
+  <div class="meta-attributes">
+    <table class="meta-attributes__table" cellspacing="0" cellpadding="0" border="0">
+      <tbody>
+        <tr>
+          <td class="meta-attributes__attr-name">Created</td>
+          <td class="meta-attributes__attr-detail">
+            <time itemprop="dateCreated" datetime="2014-05-01T22:29:43+10:00">
+              1 May 14
+            </time>
+          </td>
+        </tr>
+        <tr>
+          <td class="meta-attributes__attr-name">Last Update</td>
+          <td class="meta-attributes__attr-detail">
+            <time itemprop="dateModified" datetime="2015-04-05T02:15:17+10:00">
+              5 April 15
+            </time>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="meta-attributes__attr-name">High Resolution</td>
+          <td class="meta-attributes__attr-detail">
+            <a href="/attributes/high-resolution/Yes">Yes</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="meta-attributes__attr-name">Widget Ready</td>
+          <td class="meta-attributes__attr-detail">
+            <a href="/attributes/widget-ready/Yes">Yes</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="meta-attributes__attr-name">Compatible Browsers</td>
+          <td class="meta-attributes__attr-detail">
+            <a href="/attributes/compatible-browsers/IE9">IE9</a>, <a href="/attributes/compatible-browsers/IE10">IE10</a>, <a href="/attributes/compatible-browsers/IE11">IE11</a>, <a href="/attributes/compatible-browsers/Firefox">Firefox</a>, <a href="/attributes/compatible-browsers/Safari">Safari</a>, <a href="/attributes/compatible-browsers/Opera">Opera</a>, <a href="/attributes/compatible-browsers/Chrome">Chrome</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="meta-attributes__attr-name">Compatible With</td>
+          <td class="meta-attributes__attr-detail">
+            <a href="/attributes/compatible-with/Bootstrap%203.x">Bootstrap 3.x</a>, <a href="/attributes/compatible-with/Bootstrap%202.3.x">Bootstrap 2.3.x</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="meta-attributes__attr-name">Software Version</td>
+          <td class="meta-attributes__attr-detail">
+            <a href="/attributes/compatible-software/WordPress%204.1">WordPress 4.1</a>, <a href="/attributes/compatible-software/WordPress%204.0">WordPress 4.0</a>, <a href="/attributes/compatible-software/WordPress%203.9">WordPress 3.9</a>, <a href="/attributes/compatible-software/WordPress%203.8">WordPress 3.8</a>, <a href="/attributes/compatible-software/WordPress%203.7">WordPress 3.7</a>, <a href="/attributes/compatible-software/WordPress%203.6">WordPress 3.6</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="meta-attributes__attr-name">ThemeForest Files Included</td>
+          <td class="meta-attributes__attr-detail">
+            <a href="/attributes/themeforest-files-included/PHP%20Files">PHP Files</a>, <a href="/attributes/themeforest-files-included/CSS%20Files">CSS Files</a>, <a href="/attributes/themeforest-files-included/JS%20Files">JS Files</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="meta-attributes__attr-name">Columns</td>
+          <td class="meta-attributes__attr-detail">
+            <a href="/attributes/columns/3">3</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="meta-attributes__attr-name">Documentation</td>
+          <td class="meta-attributes__attr-detail">
+            <a href="/attributes/documentation/Well%20Documented">Well Documented</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="meta-attributes__attr-name">Layout</td>
+          <td class="meta-attributes__attr-detail">
+            <a href="/attributes/layout/Responsive">Responsive</a>
+          </td>
+        </tr>
+
+          <tr>
+            <td class="meta-attributes__attr-name">Tags</td>
+            <td><span class="meta-attributes__attr-tags">
+              <a href="/tags/app" title="app">app</a>, <a href="/tags/business" title="business">business</a>, <a href="/tags/clean" title="clean">clean</a>, <a href="/tags/elegant" title="elegant">elegant</a>, <a href="/tags/landing%20page" title="landing page">landing page</a>, <a href="/tags/marketing" title="marketing">marketing</a>, <a href="/tags/minimalist%20template" title="minimalist template">minimalist template</a>, <a href="/tags/modern" title="modern">modern</a>, <a href="/tags/one%20page" title="one page">one page</a>, <a href="/tags/product" title="product">product</a>, <a href="/tags/responsive" title="responsive">responsive</a>, <a href="/tags/small%20business" title="small business">small business</a>, <a href="/tags/squeeze%20page" title="squeeze page">squeeze page</a>, <a href="/tags/start%20ups" title="start ups">start ups</a>, <a href="/tags/wordpress%20template" title="wordpress template">wordpress template</a>
+            </span></td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+    <div class="t-body -size-s h-text-align-center h-spacing-above--small">
+  &copy; All Rights Reserved CodePixar
+  <br/>
+  <a href="https://help.market.envato.com">Contact the Envato Market Help Team</a>
+</div>
+
+</div>
+
+
+
+<script type="text/javascript">
+  // HACK: Google Chrome always scroll the previous page's position on hitting Back button
+  // This causes issue with responsive version in which unexpanded item description obscure
+  // the scroll position and Chrome will jump to the outer border of bottom
+  window.addEventListener('unload', function(e) { window.scrollTo(0, 0); });
+</script>
+
+              </div>
+            </div>
+
+            
+
+            <footer class="site-footer">
+  <div class="site-footer__primary">
+    <div class="footer-primary">
+  <div class="grid-container">
+
+    <div class="footer-top">
+
+  <div class="footer-top__left">
+    <a class="footer-top__market-logo" href="https://market.envato.com">Envato Market</a>
+  </div>
+
+  <div class="footer-top__right is-hidden-tablet-and-below">
+      <div class="market-stats">
+    <div class="market-stats__stat">
+      <p class="t-body -color-light h-remove-margin">
+        6,461,671
+        <span>community members</span>
+      </p>
+    </div>
+    <div class="market-stats__stat">
+      <p class="t-body -color-light h-remove-margin">
+        9,558,605
+        <span>items for sale</span>
+      </p>
+    </div>
+  </div>
+
+  </div>
+
+</div>
+
+
+    <div class="footer-primary__columns">
+      <div class="footer-primary__group--first">
+        <div class="footer-box">
+          <div class="footer-box__header js-footer-expand-toggle" data-target="#footer-social">
+            <h4>Follow us</h4>
+          </div>
+          <div id="footer-social" class="footer-box__content">
+            <ul class="social-links" itemscope itemtype="http://schema.org/Organization">
+  <link itemprop="sameAs" href="https://instagram.com/envato">
+  <link itemprop="sameAs" href="https://www.linkedin.com/company/envato">
+  <li><a href="https://www.facebook.com/envatomarket" class="social-link--facebook" itemprop="sameAs" rel="nofollow">Be a fan on Facebook</a></li>
+  <li><a href="https://twitter.com/envatomarket" class="social-link--twitter" itemprop="sameAs" rel="nofollow">Follow us on Twitter</a></li>
+  <li><a href="https://plus.google.com/112592709425670873637" class="social-link--google-plus" itemprop="sameAs" rel="publisher">Circle us on Google+</a></li>
+    <li><a href="/page/file_updates/#rss" class="social-link--rss" rel="nofollow">RSS Feed</a></li>
+</ul>
+
+          </div>
+        </div>
+
+        <div class="footer-box">
+          <div class="footer-box__header js-footer-expand-toggle" data-target="#footer-meet">
+            <h4>Meet Envato</h4>
+          </div>
+          <div id="footer-meet" class="footer-box__content">
+            <div class="footer-box__list">
+  <ul class="t-list -style-none">
+    <li class="t-body h-remove-margin"><a href="http://envato.com">About Envato</a></li>
+    <li class="t-body h-remove-margin"><a href="http://www.envato.com/sites">Explore our Ecosystem</a></li>
+    <li class="t-body h-remove-margin"><a href="http://envato.com/careers">Careers</a></li>
+  </ul>
+</div>
+
+          </div>
+        </div>
+
+        <div class="footer-box">
+          <div class="footer-box__header js-footer-expand-toggle" data-target="#footer-help">
+            <h4>Need Help?</h4>
+          </div>
+          <div id="footer-help" class="footer-box__content">
+            <div class="footer-box__list">
+  <ul class="t-list -style-none">
+    <li class="t-body h-remove-margin"><a href="https://help.market.envato.com" class="footer-box__link">Help Center</a></li>
+    <li class="t-body h-remove-margin"><a href="/legal/market" rel="nofollow">Envato Market Terms</a></li>
+    <li class="t-body h-remove-margin"><a href="/legal/author" rel="nofollow">Author Terms</a></li>
+    <li class="t-body h-remove-margin"><a href="/licenses" rel="nofollow">Envato Market Licenses</a></li>
+    <li class="t-body h-remove-margin"><a href="http://www.envato.com/contact" rel="nofollow">Contact Envato</a></li>
+  </ul>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-primary__group--second">
+        <div class="footer-box">
+          <div class="footer-box__header js-footer-expand-toggle" data-target="#footer-community">
+            <h4>
+              <span class="is-hidden-tablet-and-below">Join our</span> Community
+            </h4>
+          </div>
+          <div id="footer-community" class="footer-box__content">
+            <div class="footer-box__list">
+  <ul class="t-list -style-none">
+    <li class="t-body h-remove-margin"><a href="http://community.envato.com" rel="nofollow">Home</a></li>
+    <li class="t-body h-remove-margin"><a href="https://forums.envato.com" rel="nofollow">Forums</a></li>
+    <li class="t-body h-remove-margin"><a href="http://marketblog.envato.com/">Envato Market Blog</a></li>
+    <li class="t-body h-remove-margin"><a href="http://community.envato.com/#/events">Community Meetups</a></li>
+    <li class="t-body h-remove-margin"><a href="/affiliate_program" rel="nofollow">Become an Affiliate</a></li>
+  </ul>
+</div>
+
+          </div>
+        </div>
+
+        <div class="footer-box">
+          <div class="footer-box__header js-footer-expand-toggle" data-target="#footer-subscribe">
+            <h4>
+              <span class="is-hidden-tablet-and-below">Email</span> Newsletters
+            </h4>
+          </div>
+          <div id="footer-subscribe" class="footer-box__content">
+            <p class="t-body h-remove-margin is-hidden-desktop">Sign up for new Envato content</p>
+<p class="t-body is-hidden-tablet-and-below">
+  Sign up for new Envato content, updates, surveys & offers.
+</p>
+<form action="https://Envato.us1.list-manage.com/subscribe/post?u=01a7104df9f31fd41e34ccbed&amp;amp;id=6f890803c2&amp;group[21][4]=true&amp;group[301][512]=true&amp;group[301][8192]=true&amp;group[301][16384]=true" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate footer-subscribe" target="_blank">
+  <input type="text" placeholder="Email Address" name="EMAIL" class="footer-subscribe__input" id="mce-EMAIL" />
+  <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="footer-subscribe__submit btn--primary-full">Subscribe</button>
+</form>
+
+            <a href="http://www.envato.com/privacy" class="footer-box__external-link is-hidden-tablet-and-below">Privacy Policy</a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-primary__group--third">
+        <div class="footer-box">
+          <div class="footer-box__content is-hidden-tablet-and-below">
+            <div class="media h-spacing-below">
+  <div class="media__item">
+    <a href="https://video.envato.com/?utm_source=marketplaces&amp;utm_medium=themeforest&amp;utm_campaign=internal%20navigation&amp;utm_content=footernav" target="_blank">
+      <img alt="Envato Video" height="112" src="//dmypbau5frl9g.cloudfront.net/assets/header-footer/envato-video-c09562a86a4de3559361438bd1c8d342.jpg" width="140" />
+</a>  </div>
+
+  <div class="media__body">
+    <p class="t-body">Create and share a video straight from your iPhone. Select from a range of templates, add your content, and you're done. It's easy and it's free.</p>
+    <p class="t-body h-remove-margin">
+      <a href="https://video.envato.com/?utm_source=marketplaces&amp;utm_medium=themeforest&amp;utm_campaign=internal%20navigation&amp;utm_content=footernav" class="t-link -color-light" target="_blank">Check out the Envato Video app</a>
+    </p>
+  </div>
+</div>
+
+          </div>
+          <div class="footer-box__content is-hidden-tablet-and-below">
+              <div class="media">
+  <div class="media__item">
+    <a href="http://webdesign.tutsplus.com/courses/a-beginners-guide-to-using-wordpress?utm_source=EnvatoMarket&amp;utm_medium=TF_Footer&amp;utm_campaign=Envato_TF_Footer_FreeWPCourse" target="_blank">
+      <img alt="Tuts+" height="112" src="//dmypbau5frl9g.cloudfront.net/assets/header-footer/tuts-wordpress-b47a9a8bb599898725ccc331a445cf15.jpg" width="140" />
+</a>  </div>
+
+  <div class="media__body">
+    <p class="t-body">Here's a free video course on how to install WordPress, add new content, use themes and plugins, customize your site, and more. Perfect for anyone new to WP.</p>
+    <p class="t-body h-remove-margin">
+      <a href="http://webdesign.tutsplus.com/courses/a-beginners-guide-to-using-wordpress?utm_source=EnvatoMarket&amp;utm_medium=TF_Footer&amp;utm_campaign=Envato_TF_Footer_FreeWPCourse" class="t-link -color-light" target="_blank">Free Course: Beginner&#x27;s Guide to WordPress</a>
+    </p>
+  </div>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+    
+
+  <p class="t-body h-remove-margin"><small>&copy; 2016 Envato Pty Ltd. Trademarks and brands are the property of their respective owners.</small></p>
+</div>
+
+
+  </div>
+</div>
+
+  </div>
+</footer>
+
+          </div>
+
+          <div class="is-hidden-phone">
+            <div id="tooltip-magnifier" class="magnifier">
+  <strong></strong>
+  <div class="info">
+    <div class="author-category">
+      by <span class="author"></span>
+      <span class="category"></span>
+    </div>
+    <div class="price">
+      <span class="cost"></span>
+    </div>
+  </div>
+</div>
+
+            <div id="landscape-image-magnifier" class="magnifier">
+    <div class="size-limiter">
+    </div>
+  <strong></strong>
+  <div class="info">
+    <div class="author-category">
+      by <span class="author"></span>
+      <span class="category"></span>
+    </div>
+    <div class="price">
+      <span class="cost"></span>
+    </div>
+  </div>
+</div>
+
+            <div id="portrait-image-magnifier" class="magnifier">
+    <div class="size-limiter">
+    </div>
+  <strong></strong>
+  <div class="info">
+    <div class="author-category">
+      by <span class="author"></span>
+      <span class="category"></span>
+    </div>
+    <div class="price">
+      <span class="cost"></span>
+    </div>
+  </div>
+</div>
+
+            <div id="square-image-magnifier" class="magnifier">
+    <div class="size-limiter">
+    </div>
+  <strong></strong>
+  <div class="info">
+    <div class="author-category">
+      by <span class="author"></span>
+      <span class="category"></span>
+    </div>
+    <div class="price">
+      <span class="cost"></span>
+    </div>
+  </div>
+</div>
+
+            <div id="smart-image-magnifier" class="magnifier">
+    <div class="size-limiter">
+    </div>
+  <strong></strong>
+  <div class="info">
+    <div class="author-category">
+      by <span class="author"></span>
+      <span class="category"></span>
+    </div>
+    <div class="price">
+      <span class="cost"></span>
+    </div>
+  </div>
+</div>
+
+            <div id="video-magnifier" class="magnifier">
+    <div class="size-limiter">
+    </div>
+  <strong></strong>
+  <div class="info">
+    <div class="author-category">
+      by <span class="author"></span>
+      <span class="category"></span>
+    </div>
+    <div class="price">
+      <span class="cost"></span>
+    </div>
+  </div>
+</div>
+
+          </div>
+        </div>
+
+
+        <div class="page__overlay" data-view="offCanvasNavToggle" data-off-canvas="close"></div>
+      </div>
+    </div>
+
+    
+
+    <script src="//dmypbau5frl9g.cloudfront.net/assets/market/core/index-8d61cef537d31356ef2a34bc2416e761.js" type="text/javascript"></script>
+    <script src="//dmypbau5frl9g.cloudfront.net/assets/market/pages/default/index-04833a42226d9d9de21082be210f06c5.js" type="text/javascript"></script>
+
+
+
+
+    <script>$(function(){viewloader.execute(Views);});</script>
+
+      <script>
+  // Google Analytics Tracking Code
+  (function () {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })
+
+      (window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    var ACCOUNTS = ["m"];
+    window._envGaTrackerNames = ACCOUNTS;
+
+    ga("create", "UA-11834194-7", {"name":"m","allowLinker":true});
+
+    for (var i = 0; i < ACCOUNTS.length; i++) {
+      t = ACCOUNTS[i];
+
+      ga(t+'.require', 'linker');
+      ga(t+'.linker:autoLink', ["activeden.net","audiojungle.net","themeforest.net","videohive.net","graphicriver.net","3docean.net","codecanyon.net","photodune.net","market.envato.com","market.styleguide.envato.com"]);
+
+      ga(t+'.require', 'ec');
+
+      ga(t+'.require', 'displayfeatures');
+
+      ga(t+'.require', 'linkid', 'linkid.js');
+
+
+
+      if ('') {
+        ga(t+'.send', {
+          hitType: 'pageview',
+          page: ''
+        });
+      } else if ('') {
+        // append the analytics_suffix to the page path so the flash alert/error type can be tracked
+        var analyticsSuffix = $.trim('').replace(/([A-Z])/g, '$1').replace(/[-_\s]+/g, '-').toLowerCase();
+        var uri = URI(window.location.pathname + window.location.search);
+        uri.path(uri.path() + '/' + analyticsSuffix);
+        var tracking_path = uri.path() + uri.search();
+        ga(t+'.send', {
+          hitType: 'pageview',
+          page: tracking_path,
+        });
+      } else {
+        ga(t+'.send', 'pageview');
+      }
+    }
+  }());
+
+  
+</script>
+
+
+  
+<script>
+// GA: universal analytics link wrapper
+(function(){
+    window._envTrkrs = [["m", "UA-11834194-7"]];
+
+    var debug = false;
+    var MAX_RETRIES = 10;
+
+    /*
+       The script needs to wait until the Analytics script
+       has been downloaded from Google before initializing
+    */
+    var waitForAnalytics = function(){
+        this.count = this.count || 0;
+
+        if (window.ga && ga.getByName) {
+            e.init();
+        } else {
+            if (count < MAX_RETRIES) { setTimeout(waitForAnalytics, 250); }
+            count++;
+        }
+    };
+
+    var e = {
+        _envArray: [],
+        _envTrkrs: (window._envTrkrsCust && window._envTrkrsCust.length) ? window._envTrkrs.concat(window._envTrkrsCust) : window._envTrkrs,
+        init: function() {
+            for (var i=0; i < _envTrkrs.length; i++) {
+              if(!ga.getByName(_envTrkrs[i][0])) {
+                ga("create", _envTrkrs[i][1], "auto", {name: _envTrkrs[i][0], allowLinker: true});
+              }
+            }
+
+            document.addEventListener('DOMContentLoaded', function(){
+                e.wrapperInit();
+            });
+
+            if (debug) {console.log('Initiated');}
+        },
+        wrapperInit: function() {
+            if (typeof window._envIsRunning != 'undefined' || window._envIsRunning == true) {
+                return
+            }
+            window._envIsRunning = true;
+
+            if (document.addEventListener) {
+                document.addEventListener('click', function(event){
+                    var target = event.target;
+                    if (target && target.tagName === 'A') {
+                        e._envLinksTracker(event);
+                    }
+                });
+            }
+        },
+        isInArray: function(e, t) {
+            for (var n = 0; n < t.length; n++) {
+                var r = new RegExp(t[n], 'i');
+                if (r.test(e)) {
+                    return n
+                }
+            }
+            return -1
+        },
+        _envTrackevent: function(e, t, n, r) {
+            for (var i = 0; i < this._envTrkrs.length; i++) {
+                var s = this._envTrkrs[i][0].length == 0 ? '' : this._envTrkrs[i][0] + '.';
+                r.length == 0 ? ga(s + 'send', 'event', e, t, n) : ga(s + 'send', 'event', e, t, n, r)
+            }
+        },
+        _envTrackpageview: function(e, t) {
+            t = t.charAt(0) == '/' ? t : '/' + t;
+            for (var n = 0; n < this._envTrkrs.length; n++) {
+                var r = this._envTrkrs[n][0].length == 0 ? '' : this._envTrkrs[n][0] + '.';
+                ga(r + 'send', 'pageview', e + t);
+            }
+        },
+        _envLinksTracker: function(t) {
+            var r = false;
+            var i = {
+                outbound: {
+                    run: true,
+                    useEvent: true
+                },
+                download: {
+                    run: true,
+                    useEvent: true,
+                    reg: ''
+                },
+                self: {
+                    run: false,
+                    useEvent: true
+                },
+                mail: {
+                    run: true,
+                    useEvent: true
+                },
+                ext: /\.(doc.?|xls.?|ppt.?|exe|zip|rar|gz|tar|tgz|dmg|csv|pdf|xpi|txt|mp3)$/i
+            };
+            var s = t.srcElement ? t.srcElement : this;
+            if (t.srcElement) {
+                r = true
+            }
+            while (s.tagName != 'A') {
+                s = s.parentNode
+            }
+            if (s.href == undefined || s.href == null) {
+                return true
+            }
+            var o = s.href;
+            if (o.length == 0) return;
+            var u = s.hostname.toLowerCase();
+            var a = s.pathname;
+            if (a.length == 0) {
+                a = '/'
+            } else if (a.substr(0, 1) != '/') {
+                a = '/' + a
+            }
+            var f = s.protocol;
+            var l = s.search;
+            var c = location.hostname;
+            c = c.replace(/^www\./i, '').toLowerCase();
+            u = u.replace(/^www\./i, '').toLowerCase();
+            if (o.match(/^#/)) {
+                if (i.self.run) {
+                    i.self.useEvent ? e._envTrackevent('self', 'click - ' + c, o, '') : e._envTrackpageview('/virtual/self', '/' + o);
+                    return true
+                }
+            } else if (f.match(/^mailto:/i)) {
+                if (i.mail.run) {
+                    o = o.replace(/^mailto:/i, '');
+                    i.mail.useEvent ? e._envTrackevent('mailto', 'click - ' + c, o, '') : e._envTrackpageview('/virtual/mailto', o);
+                    return true
+                }
+            } else if ((new RegExp(i.ext)).test(a)) {
+                if (i.download.run) {
+                    o = o.replace(/^https?:\/\//i, '');
+                    i.download.useEvent ? e._envTrackevent('download', 'click - ' + c, o, '') : e._envTrackpageview('/virtual/download', o);
+                    return true
+                }
+            } else if (u == undefined || u.length == 0 || f.match(/^javascript:/i)) {
+                return
+            } else if ((new RegExp(c + '$', 'i')).test(u) || (new RegExp(u + '$', 'i')).test(c)) {
+                if (i.download.run && i.download.reg.length != 0) {
+                    if ((new RegExp(i.download.reg, 'i')).test(a + l)) {
+                        o = o.replace(/^https?:\/\//i, '');
+                        i.download.useEvent ? e._envTrackevent('download', 'click - ' + c, o, '') : e._envTrackpageview('/virtual/download', o);
+                        return true
+                    }
+                }
+            } else if (u != c) {
+                if (e.isInArray(u, e._envArray) == -1) {
+                    if (i.outbound.run) {
+                        i.outbound.useEvent ? e._envTrackevent('outbound', 'click - ' + c, u + a + l, '') : e._envTrackpageview('/virtual/outbound', u + a);
+                        return true
+                    }
+                } else if (e.isInArray(u, e._envArray) != -1) {
+                    var h = s.target;
+                    if (h != null && h == '_blank') {
+                        if ((new RegExp(/_utma=/)).test(l)) {
+                            return true
+                        }
+                        var p = e._envTrkrs[0][0].length == 0 ? '' : _envTrkrs[0][0] + '.';
+                        return true
+                    } else {
+                        return false
+                    }
+                }
+            }
+        }
+    };
+
+    waitForAnalytics();
+})()
+</script>
+
+
+  <script type="text/javascript">
+  var $mcGoal = {'settings':{'uuid':'01a7104df9f31fd41e34ccbed','dc':'us1'}};
+  (function() {
+    var sp = document.createElement('script'); sp.type = 'text/javascript'; sp.async = true; sp.defer = true;
+    sp.src = ('https:' == document.location.protocol ? 'https://s3.amazonaws.com/downloads.mailchimp.com' : 'http://downloads.mailchimp.com') + '/js/goal.min.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sp, s);
+  })();
+</script>
+
+
+  <script type="text/javascript">
+  // Google AdWords Remarketing
+  /* <![CDATA[ */
+  var google_conversion_id = 943617023;
+  var google_conversion_label = "u-J6CI3SqQMQp-WC_AM";
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+  /* ]]> */
+</script>
+<script src="//www.googleadservices.com/pagead/conversion.js"></script>
+<noscript>
+  <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/943617023/?value=0&amp;amp;label=u-J6CI3SqQMQp-WC_AM&amp;amp;guid=ON&amp;amp;script=0"/>
+  </div>
+</noscript>
+
+
+  </body>
+</html>

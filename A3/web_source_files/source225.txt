@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>UR11FM &#8212; Smooth Jazz</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <link rel="stylesheet" href="/assets/css/styles.1450193444.css">
+        <link rel="stylesheet" href="/assets/css/jquery-ui.min.css">
+        <link rel="stylesheet" href="/assets/css/jquery-ui.theme.min.css">
+        <style>
+    body { background: #030303; }
+    .mediaplayer-controls a.activebtn { color : #aa0000; }
+    .ui-widget-header { background: #fa1e24; }
+    #jPanelMenu-menu a { color: inherit; }
+    .isDesktop #jPanelMenu-menu a, .isTablet #jPanelMenu-menu a { color: inherit; }
+    </style>
+
+    <!--[if gte IE 8]>
+        <link rel="stylesheet" type="text/css" href="/assets/css/ie8.css">
+    <![endif]-->
+    <!--[if gte IE 9]>
+        <link rel="stylesheet" type="text/css" href="/assets/css/ie9.css">
+    <![endif]-->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+        <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-59664406-1', 'auto', {'allowLinker': true});
+    ga('require', 'linker');
+    ga('linker:autoLink', ['urbanradio.leanplayer.com'] );
+    ga('send', 'pageview');
+    </script>
+    </head>
+
+<body class="isDesktop">
+<div class="container mediaplayer">
+
+            <div id="web-streaming"></div>
+
+        <div class="row clearfix top-row">
+                    <div class="col-sm-3 mediaplayer-logo">
+                <a href="http://www.urbanradio.com/" target="_blank"><img src="http://assets.leanplayer.com/urbanradio/UR11FM/logo.png" class="logo"></a><!--Logo-->
+            </div>
+
+            <div class="col-xs-12 col-xs-ls-8 col-sm-9 mediaplayer-leaderboard">
+                                    <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-2100257049708136" data-ad-slot="2173599379"></ins>
+                    <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                            </div>
+                </div>
+
+                <div class="row clearfix">
+            <div class="col-sm-8">
+                <div class="mediaplayer-mainbody" style="background-image: url('http://assets.leanplayer.com/urbanradio/images/urbanradio_background.jpg');">
+                    <div class="mediaplayer-album">
+                        <img src="http://assets.leanplayer.com/urbanradio/UR11FM/no-album-large.jpg" data-default="http://assets.leanplayer.com/urbanradio/UR11FM/no-album-large.jpg" id="album-art" style="border-color: #fa1e24"><!--Snp-Artist-->
+                    </div>
+                    <div class="mediaplayer-snp" style="border-left-color: #fa1e24"><!--Snp-Info-->
+                        <p id="track-info-title"><span>&nbsp;</span></p>
+                        <p id="track-info-artist"><span>&nbsp;</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="mediaplayer-bigbox">
+                    <div class="mediaplayer-bigbox-inner" style="background-image: url('');">
+                        <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-2100257049708136" data-ad-slot="3650332577"></ins>
+                        <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                    </div>
+
+                                        <div class="mediaplayer-controls tablet-higher mediaplayer-controls-tablet" style="background-color: #fa1e24">
+                        <ul>
+                            <li class="control-play-stop">
+                                <a href="#" title="Play" class="btn-play disabled"><i class="icon-play-circled"></i></a>
+                                <a href="#" title="Stop" class="btn-stop hidden"><i class="icon-stop"></i></a>
+                            </li>
+                                                        <li class="control-volume">
+                                <a href="#" title="Volume"><i class="icon-volume-up"></i></a>
+                                <div id="volume-bar"></div>
+                            </li>
+                                                        <li class="control-menu">
+                                <a href="#" class="menu-trigger" title="View Menu"><i class="icon-list-bullet" class="btn-songhistory"></i></a>
+                            </li>
+                            <li class="control-help">
+                                <a href="http://help.leanstream.net/UR11FM" target="_blank" class="help-link">?</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mediaplayer-footer-logo">
+    <a href="http://www.urbanradio.com/" target="_blank"><img src="http://assets.leanplayer.com/urbanradio/logos/urbanradio_logo_footer.png" alt="logo"></a>
+    </div>
+                </div>
+            </div>
+        </div>
+        
+                <div class="row clearfix text-right hidden" id="flash-blocked-text">
+            <div class="col-sm-12">
+                Your browser is blocking Flash. Click "<span class="question-mark">?</span>" to fix it.
+            </div>
+        </div>
+            </div>
+
+    <div id="menu">
+        <div id="iscroll-wrapper">
+            <ul>
+                                <li>
+                    <a href="#" class="menu-trigger close-menu">Close Menu</a>
+                </li>
+                                                <li>
+                    <a href="mailto:request@urbanradio.com" target="_blank"><span class="menu-item-icon"><img src="http://assets.leanplayer.com/urbanradio/icons/icon_web.png" alt=""></span> UR Request</a>
+                </li>
+                                <li>
+                    <a href="http://www.facebook.com/urbanradioonline" target="_blank"><span class="menu-item-icon"><img src="http://assets.leanplayer.com/urbanradio/icons/icon_facebook.png" alt=""></span> UR Facebook</a>
+                </li>
+                                <li>
+                    <a href="https://twitter.com/urbanradio" target="_blank"><span class="menu-item-icon"><img src="http://assets.leanplayer.com/urbanradio/icons/icon_twitter.png" alt=""></span> UR Twitter</a>
+                </li>
+                                <li>
+                    <a href="mailto:info@urbanradio.com" target="_blank"><span class="menu-item-icon"><img src="http://assets.leanplayer.com/urbanradio/icons/icon_mail.png" alt=""></span> UR Contact Us</a>
+                </li>
+                                <li>
+                    <a href="http://www.instagram.com/urbanradio" target="_blank"><span class="menu-item-icon"><img src="http://assets.leanplayer.com/urbanradio/icons/icon_instagram.png" alt=""></span> UR Instagram</a>
+                </li>
+                                <li>
+                    <a href="http://www.newmusicinsite.com" target="_blank"><span class="menu-item-icon"><img src="http://assets.leanplayer.com/urbanradio/icons/icon_star.png" alt=""></span> UR NewMusicInsite.com (Indie Artists)</a>
+                </li>
+                                                                        <li>
+                        <a href="http://urbanradio.leanplayer.com/UR01FM"><span class="menu-item-icon"><img src="http://assets.leanplayer.com/urbanradio/icons/icon_play.png" alt=""></span> Hip Hop Hits</a>
+                    </li>
+                                                                            <li>
+                        <a href="http://urbanradio.leanplayer.com/UR02FM"><span class="menu-item-icon"><img src="http://assets.leanplayer.com/urbanradio/icons/icon_play.png" alt=""></span> New R&amp;B</a>
+                    </li>
+                                                                            <li>
+                        <a href="http://urbanradio.leanplayer.com/UR03FM"><span class="menu-item-icon"><img src="http://assets.leanplayer.com/urbanradio/icons/icon_play.png" alt=""></span> Slow Jams</a>
+                    </li>
+                                                                            <li>
+                        <a href="http://urbanradio.leanplayer.com/UR04FM"><span class="menu-item-icon"><img src="http://assets.leanplayer.com/urbanradio/icons/icon_play.png" alt=""></span> New Music Insite</a>
+                    </li>
+                                                                            <li>
+                        <a href="http://urbanradio.leanplayer.com/UR05FM"><span class="menu-item-icon"><img src="http://assets.leanplayer.com/urbanradio/icons/icon_play.png" alt=""></span> Classic R&amp;B Hits</a>
+                    </li>
+                                                                            <li>
+                        <a href="http://urbanradio.leanplayer.com/UR06FM"><span class="menu-item-icon"><img src="http://assets.leanplayer.com/urbanradio/icons/icon_play.png" alt=""></span> Gospel Hits</a>
+                    </li>
+                                                                            <li>
+                        <a href="http://urbanradio.leanplayer.com/UR07FM"><span class="menu-item-icon"><img src="http://assets.leanplayer.com/urbanradio/icons/icon_play.png" alt=""></span> Hip Hop &amp; R&amp;B</a>
+                    </li>
+                                                                            <li>
+                        <a href="http://urbanradio.leanplayer.com/UR08FM"><span class="menu-item-icon"><img src="http://assets.leanplayer.com/urbanradio/icons/icon_play.png" alt=""></span> Old School Rap</a>
+                    </li>
+                                                                            <li>
+                        <a href="http://urbanradio.leanplayer.com/UR09FM"><span class="menu-item-icon"><img src="http://assets.leanplayer.com/urbanradio/icons/icon_play.png" alt=""></span> R&amp;B Hits</a>
+                    </li>
+                                                                            <li>
+                        <a href="http://urbanradio.leanplayer.com/UR10FM"><span class="menu-item-icon"><img src="http://assets.leanplayer.com/urbanradio/icons/icon_play.png" alt=""></span> Dance</a>
+                    </li>
+                                                                                                                <li>
+                        <a href="http://urbanradio.leanplayer.com/UR12FM"><span class="menu-item-icon"><img src="http://assets.leanplayer.com/urbanradio/icons/icon_play.png" alt=""></span> Old School R&amp;B</a>
+                    </li>
+                                                                            <li>
+                        <a href="http://urbanradio.leanplayer.com/UR13FM"><span class="menu-item-icon"><img src="http://assets.leanplayer.com/urbanradio/icons/icon_play.png" alt=""></span> Comedy</a>
+                    </li>
+                                                                            <li>
+                        <a href="http://urbanradio.leanplayer.com/UR14FM"><span class="menu-item-icon"><img src="http://assets.leanplayer.com/urbanradio/icons/icon_play.png" alt=""></span> Christmas</a>
+                    </li>
+                                                </ul>
+        </div>
+    </div>
+
+<div id="preroll">
+    <div id="modal_overlay"></div>
+    <div id="modal_overlay_container">
+        <div id="modal_overlay_player">
+            <div class="ad_video_outer">
+                <div class="ad_video" id="ad_video"></div>
+            </div>
+            <div id="time_remaining" class="hidden">Your program will resume in <span id="countdown">&nbsp;&nbsp;</span> seconds</div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+var app = {
+    baseurl : "",
+    action : "index",
+    isAdBlockActive : true
+};
+var browser = {
+    isMobile : false,
+    isTablet : false,
+    isiOS : false,
+    isAndroidOS : false,
+    isBlackberryOS : false,
+    IE : 0};
+var Player = function() {
+    this.WebMobileiOS       = 'http://live.leanstream.co/UR11FM?args=web_mobile_ios';
+    this.WebMobileAndroid   = 'http://urbanradio-hls.leanstream.co/urbanradio/UR11FM.stream/playlist.m3u8?args=web_mobile_android';
+    this.WebDesktop         = 'http://live.leanstream.co/UR11FM?args=web_desktop';
+    this.WebDesktopFallback = 'http://live.leanstream.co/UR11FM-MP3?args=web_desktop_fallback';
+    this.stationdata        = {"Station":"UR11FM","Name":"Smooth Jazz","Region":"Atlanta","Tagline":"NA","URL":"http:\/\/www.urbanradio.com\/","GoogleAnalytics":"UA-59664406-1","Streams":{"WebDesktop":"http:\/\/live.leanstream.co\/UR11FM?args=web_desktop","WebDesktopFallback":"http:\/\/live.leanstream.co\/UR11FM-MP3?args=web_desktop_fallback","WebMobileiOS":"http:\/\/live.leanstream.co\/UR11FM?args=web_mobile_ios","WebMobileAndroid":"http:\/\/urbanradio-hls.leanstream.co\/urbanradio\/UR11FM.stream\/playlist.m3u8?args=web_mobile_android","AppiOS":"http:\/\/live.leanstream.co\/UR11FM?args=app_ios","AppAndroid":"http:\/\/live.leanstream.co\/UR11FM-MP3?args=app_android"},"Format":"NA","Colors":{"Skin":"#fa1e24","ActiveButton":"#aa0000","SidebarBg":"#bf2e1a","SidebarDark":"#830000"},"Images":{"Logo":"http:\/\/assets.leanplayer.com\/urbanradio\/UR11FM\/logo.png","LogoHiRes":"http:\/\/assets.leanplayer.com\/urbanradio\/UR11FM\/logo.png","LogoMobile":"http:\/\/assets.leanplayer.com\/urbanradio\/UR11FM\/logo.png","MainBodyBg":"http:\/\/assets.leanplayer.com\/urbanradio\/images\/urbanradio_background.jpg","BigBoxBg":"","SidebarBg":"","NoAlbumItunes":"http:\/\/assets.leanplayer.com\/urbanradio\/UR11FM\/no-album-large.jpg","NoAlbumLarge":"http:\/\/assets.leanplayer.com\/urbanradio\/UR11FM\/no-album-large.jpg","SidebarPlay":"http:\/\/assets.leanplayer.com\/urbanradio\/icons\/icon_play.png"},"Footer":{"Image":"http:\/\/assets.leanplayer.com\/urbanradio\/UR11FM\/urbanradio_logo_footer.png","URL":"http:\/\/www.urbanradio.com\/"},"PlaylistTimeDiffToPST":2,"PlaylistCount":10,"Playlist":"http:\/\/assets.leanplayer.com\/urbanradio\/feeds\/UR11FM_NowPlaying.xml","NowPlaying":"http:\/\/assets.leanplayer.com\/urbanradio\/feeds\/UR11FM_NowPlaying_Current.xml","NewsTicker":"#","ShortUrl":"#","Help":"http:\/\/help.leanstream.net\/UR11FM","Ads":{"ClientId":"ca-pub-2100257049708136","Leaderboard":{"Slot":"2173599379"},"BigBox":{"Slot":"3650332577"},"Responsive":{"Slot":"5127065774"},"AppiOS":"#","AppAndroid":"#"},"WebButton1":{"Type":"Button","Label":"station specified title","Source":"station specified location"},"WebButton2":{"Type":"Button","Label":"station specified title","Source":"station specified location"},"WebButton3":{"Type":"Button","Label":"station specified title","Source":"station specified location"},"SideMenu":[{"Label":"UR Request","Type":"Email","URL":"mailto:request@urbanradio.com","Icon":"http:\/\/assets.leanplayer.com\/urbanradio\/icons\/icon_web.png"},{"Label":"UR Facebook","Type":"Web","URL":"http:\/\/www.facebook.com\/urbanradioonline","Icon":"http:\/\/assets.leanplayer.com\/urbanradio\/icons\/icon_facebook.png"},{"Label":"UR Twitter","Type":"Web","URL":"https:\/\/twitter.com\/urbanradio","Icon":"http:\/\/assets.leanplayer.com\/urbanradio\/icons\/icon_twitter.png"},{"Label":"UR Contact Us","Type":"Email","URL":"mailto:info@urbanradio.com","Icon":"http:\/\/assets.leanplayer.com\/urbanradio\/icons\/icon_mail.png"},{"Label":"UR Instagram","Type":"Web","URL":"http:\/\/www.instagram.com\/urbanradio","Icon":"http:\/\/assets.leanplayer.com\/urbanradio\/icons\/icon_instagram.png"},{"Label":"UR NewMusicInsite.com (Indie Artists)","Type":"Web","URL":"http:\/\/www.newmusicinsite.com","Icon":"http:\/\/assets.leanplayer.com\/urbanradio\/icons\/icon_star.png"}],"SideMenu-Stations":{"Label":"Change Station","StationList":["MOUNT-OTHER-1","MOUNT-OTHER-2"]}};
+    this.nowplaying_refresh = 30;
+    this.uid                = null;
+};
+</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/js/jquery-1.10.2.min.js'>\x3C/script>");</script>
+
+<script src="/assets/js/ads.js"></script>
+<script src="/assets/js/jwplayer/jwplayer.js"></script>
+<script src="/assets/js/jquery-ui.min.js"></script>
+<script src="/assets/js/flashplayer/swfobject.js"></script>
+<script src="/assets/js/jPanelMenu.min.js"></script>
+<script src="/assets/js/iscroll.js"></script>
+<script src="/assets/js/scripts.1454077251.js"></script>
+<script>jwplayer.key = "6tZmxKaIuRK2eDtUiSModURJur5YIqJN4043oHvLE58=";</script>
+</body>
+</html>

@@ -1,0 +1,2699 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="Windows-1252">
+  <meta http-equiv="Content-Language" content="en" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--meta http-equiv="X-UA-Compatible" content="IE=edge" /-->
+  <title>BINGBING Play </title>
+  
+    <meta name="keywords" content="BINGBING, Blog, Celeb, Cocktail, Delight, Fashion, Fortune, Luxury, Play, Exciting BINGBING World, Everything You Want To Know, app, game, video, google, apple, app, amazon, youtube, twitter, facebook, googleplus, yahoo, bing, baidu, free, ipad, iphone, android, app, magazine, winter 2012, diet, exercise, calorie, app store, apple, pdf"/>
+ <meta name="description" content="BINGBING, Blog, Celeb, Cocktail, Delight, Fashion, Fortune, Luxury, Play, Read, Exciting BINGBING World"/>
+ <meta http-equiv="Content-Language" content="en" /> 
+ <link rel="shortcut icon" href="/images/favicon.ico"/>
+ <link rel="icon" type="image/vnd.microsoft.icon" href="/images/favicon.ico"/>
+ <link rel="icon" type="image/png" href="/images/favicon.png?version=1"/>
+
+ <!-- facebook image -->
+  <meta property="og:url" content='http://www.thebingbing.com/play/1601966'>
+ <meta property="og:image" content='http://download.gamezone.com/uploads/user/avatar/238286/photo.jpg'>
+ <meta property="og:title" content='Latest For Wii'>
+
+
+ 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="/jquery.min.js?version=1"></script>
+<!-- image crop support -->
+<link rel="stylesheet" href="/jquery.Jcrop.css?version=1" type="text/css" />
+<script src="/jquery.Jcrop.js?version=1"></script>
+
+<!-- filehandling -->
+<script src="/filehandler.js?version=5"></script>
+<link href="/main.css?version=1" rel="stylesheet"/>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<link href="/bootstrap.css?version=1" rel="stylesheet" />
+<script src="/bootstrap.min.js?version=1"></script>
+
+
+<!-- additional fonts -->
+<link rel="stylesheet" href="/themify-icons.css?version=1">
+
+<!-- Custom styles for this template -->
+
+<link href="/sticky-footer.css?version=1" rel="stylesheet"/>
+<link href="/styles.css?version=4" rel="stylesheet"/>
+<link href="/slidemenu.css?version=2" rel="stylesheet"/>
+
+<!-- helper scripts -->
+<script src="/classie.js?version=1"></script>
+<script src="/megapix-images.js?version=1"></script>
+
+<!-- my scripts -->
+<script src="/scripts.js?version=33"></script>
+
+
+<!-- small scrollbars -->	
+<script src="/enscroll-0.6.1.min.js?version=1"></script>
+
+<script src="/jquery.slimscroll.js?version=1"></script>
+
+<!-- visibility -->
+<script src="/visibility.fallback.js?version=1"></script>
+<script src="/visibility.core.js?version=1"></script>
+<script src="/visibility.timers.js?version=1"></script>
+
+<!-- notifications -->
+<link href="/bootstrap-notify.css?version=1" rel="stylesheet">
+
+<!-- Custom notifications Styles -->
+<script src="/bootstrap-notify.js?version=2"></script>
+
+
+<script >
+$(function() {
+			$('.collapse.show-footer').on('show.bs.collapse', 
+				function () 
+				{
+					$("html, body").animate({ scrollTop: $(document).height() }, "slow");
+				});
+			});
+</script>
+<style type="text/css">
+
+	/* Apply these styles only when #preview-pane has
+	   been placed within the Jcrop widget */
+	.jcrop-holder #preview-pane {
+	  display: block;
+	  position: absolute;
+	  z-index: 2000;
+	  top: 10px;
+	  right: -180px;
+	  padding: 6px;
+	  border: 1px rgba(0,0,0,.4) solid;
+	  background-color: white;
+
+	  -webkit-border-radius: 6px;
+	  -moz-border-radius: 6px;
+	  border-radius: 6px;
+
+	  -webkit-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+	  -moz-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+	  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+	}
+
+	/* The Javascript code will set the aspect ratio of the crop
+	   area based on the size of the thumbnail preview,
+	   specified here */
+	#preview-pane .preview-container {
+	  width: 64px;
+	  height: 64px;
+	  overflow: hidden;
+	}
+
+	</style>
+	
+
+
+  
+  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-546dd3650a014459">
+</script>
+  
+	<!-- run script that will populate the buzz -->
+	<script type="text/javascript">
+		
+		$(document).ready(function() {
+			BlogSetup("play","bingbingplay",'','1601966');
+
+		});
+		
+	</script>
+	
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-38335489-9', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+
+
+
+<body class="cbp-spmenu-push">
+
+
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s2" data-spy="affix" data-offset-top="150">
+
+    <a class="h3link"  href="/" >Home</a>
+	<a class="h3link"  href="/blog" >Blog</a>
+	<a class="h3link"  href="/celeb" >Celeb</a>
+	<a class="h3link"  href="/delight" >Delight</a>
+	<a class="h3link"  href="/fashion" >Fashion</a>
+	<a class="h3link"  href="/fortune" >Fortune</a>
+	<a class="h3link"  href="/luxury" >Luxury</a>
+	<a class="h3link"  href="/read" >Read</a>
+    
+</nav>
+
+
+    <nav class="navbar  headerBlog ">
+        <div class="col-lg-3 col-md-2 col-sm-2 col-xs-2">
+            <button type="button" class="menu_button " onclick="showMenu(); return false;" id="showBtn">
+                <!--span class="ti-menu show_button"></span-->
+                <span class="glyphicon glyphicon-icon-bar show_button"></span>
+                <span class="glyphicon glyphicon-icon-bar show_button"></span>
+                <span class="glyphicon glyphicon-icon-bar show_button"></span>
+            </button>
+            
+            <button type="button" class="menu_close_button hidden" onclick="showMenu(); return false;" id="closeBtn">
+                X
+            </button>
+        </div>
+
+		<div class="col-lg-6 col-xs-8 headerWhite">
+			<div class="row fixWhiteSpace">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 vcenter">
+					<img src="http://www.thebingbing.com/images/bingbingplay.png?version=1" class="img-responsive logoPadding  bb_pad_bottom center-block" alt="BINGBING Play">
+				</div> 
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 vcenter">
+					<img src="http://www.thebingbing.com/images/about_play.png?version=1" class="img-responsive logoPadding  bb_pad_bottom center-block" alt="Everything on Music, Movies & Games">
+				</div> 
+			</div>  		
+		</div>   
+		
+        
+        <div class="col-lg-3 col-md-2 col-sm-2 col-xs-2">
+
+        </div>
+    
+	</nav>
+    
+	
+
+<div class="container-fluid" id="indexContainer">
+
+	 <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 col-lg-push-2 col-md-push-3 col-sm-push-3 ">
+			<div class="row" name="ArticlesGroup">
+
+	<div name="ArticlesListGroup">
+		<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 ArticlesListGroup" name="ArticlesListGroup">
+
+		</div>
+		<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 ArticlesListGroup2" name="ArticlesListGroup2">
+
+		</div>
+		<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 ArticlesListGroup3" name="ArticlesListGroup3">
+
+		</div>
+	</div>	
+</div>
+<div class="row">
+
+    <div class="loadMore" id="loadMoreAccArticles" >
+    </div>
+    <!--h2 class="hidden loadMoreText" id="loadMoreAccArticlesText"> Loading More </h2-->
+    <span class="glyphicon glyphicon-refresh glyphicon-spin loadspinner" id="AccArticlesSpinner"></span>
+    
+</div>
+
+
+	</div>
+
+	<div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 col-sm-push-3 col-lg-push-2 ">
+		<div class="row">
+				<div class="well panel_trans">
+	<form role="form" action="" method="post" id="loginform">
+		<div class="form-groupbb">
+			<input type="text" placeholder="Username" class="form-control" name="username" id="username">
+		</div>
+		<div class="form-group">
+			<input type="password" placeholder="Password" class="form-control" name="password" id="password">
+		</div>
+	<button type="submit" class="btn btn-bbgold buttonBB center-block" onClick="Login(this.form);return false;">Login</button>
+	</form>
+	<button type="submit" class="btn btn-bbwhite buttonBB" onClick="GotoForgotPassword();return false;">Forgot Password ?</button>
+	</form>
+</div>
+<div class="well panel_trans signup_front center-block roundbb">
+	<form role="form" action="" method="post" id="signupform">
+		<div class="form-groupbb">
+			<input type="text" placeholder="Username" class="form-control noroundbb" name="username" id="username">
+		</div>
+		<div class="form-groupbb">
+			<input type="password" placeholder="Password" class="form-control noroundbb" name="password" id="password">
+		</div>
+		<div class="form-group">
+				<input type="email" placeholder="Email" class="form-control noroundbb" name="email" id="email">
+		</div>
+		<!--
+		<div class="checkbox">
+			<label><input type="checkbox"> Remember me</label>
+		</div>
+		-->
+	<button type="submit" class="btn btn-bbgold buttonBB center-block" onClick="presignup(this.form); return false;">Sign Up</button>
+	</form>
+</div>
+	
+
+			<div class="hidden-xs">
+				
+<div class="well panel_trans">
+	<div class="col">
+		<H4 class="text-center bbTextColor"> Get Your Weekend App </H4>
+
+
+		<img src="http://www.thebingbing.com/images/app_icon.png?version=1" class="img-responsive center-block bb_pad_bottom" alt="Weekend App">
+		
+		<a href="https://itunes.apple.com/us/app/bingbing-weekend-hd/id949879371?ls=1&mt=8" target="_blank">
+			<img src="http://www.thebingbing.com/images/appstore.png?version=1" class="img-responsive center-block bb_pad_bottom" alt="App Store">
+		</a>	
+		
+
+		<img src="http://www.thebingbing.com/images/googleplay.png?version=1" class="img-responsive center-block" alt="Google Play">
+	</div>
+</div>
+				
+<div class="well panel_trans">
+	<div class="col">
+		<H4 class="text-center bbTextColor"> Play BINGBING Games </H4>
+
+		<div class="c-wrapper">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+			  </ol>
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+				<div class="item active ">
+					<a href="http://www.thebingbing.com/games" target="_blank">
+						<img src="/images/games/veggie_match.jpg?version=1" alt="Veggie Match">
+					</a>	
+				</div>
+				<div class="item">
+					<a href="http://www.thebingbing.com/games" target="_blank">
+						<img src="/images/games/calorie_attacker.jpg?version=1" alt="Calorie Attacker">
+					</a>	
+				</div>
+				<div class="item">
+					<a href="http://www.thebingbing.com/games" target="_blank">	
+						<img src="/images/games/food_jack.jpg?version=1" alt="Food Jack">
+					</a> 
+				</div>
+				<div class="item">
+					<a href="http://www.thebingbing.com/games" target="_blank">
+						<img src="/images/games/diet_match.jpg?version=1" alt="Diet Match">
+					</a>	
+				</div>
+				<div class="item">
+					<a href="http://www.thebingbing.com/games" target="_blank">
+						<img src="/images/games/calorie_killer.jpg?version=1" alt="Calorie Killer">
+					</a>	
+				</div>
+
+			  </div>
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			  </a>
+			</div>
+		</div>
+	</div>	
+</div>
+				<div class="well panel_trans">
+<a href="http://www.accuweather.com/en/gb/london/ec4a-2/weather-forecast/328328" class="aw-widget-legal">
+<!--
+By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at http://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at http://www.accuweather.com/en/privacy.
+-->
+</a><div id="awcc1410130215274" class="aw-widget-current"  data-locationkey="" data-unit="c" data-language="en-us" data-useip="true" data-uid="awcc1410130215274"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
+</div>				<div class="well panel_trans social_panel">
+	<div class="row">
+		
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.twitter.com" target="_blank">
+			<img src="/images/twitter_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.facebook.com/" target="_blank">
+				<img src="/images/fb_icon.png?version=1" class="img-responsive bb_pad_bottom" > </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.pinterest.com/" target="_blank">
+			
+			<img src="/images/pinterest_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.instagram.com/" target="_blank">	
+				<img src="/images/instagram_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+	</div>	
+	<div class="row">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.tumblr.com/" target="_blank">
+				<img src="/images/tumblr_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://plus.google.com/" target="_blank">
+			
+				<img src="/images/googleplus_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://mail.google.com/" target="_blank">
+			
+				<img src="/images/gmail_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.youtube.com/" target="_blank">
+			
+				<img src="/images/youtube_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+	</div>		
+	<div class="row">	
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.linkedin.com/" target="_blank">
+			
+				<img src="/images/linkedin_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.amazon.com/" target="_blank">
+			
+				<img src="/images/amazon_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.weibo.com/" target="_blank">
+			
+				<img src="/images/weibo_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.wechat.com/" target="_blank">
+			
+				<img src="/images/wechat_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+	</div>	
+	<div class="row">	
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.baidu.com/" target="_blank">
+			
+				<img src="/images/baidu_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.imqq.com/" target="_blank">
+			
+				<img src="/images/imqq_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.taobao.com/" target="_blank">
+			
+				<img src="/images/taobao_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.hao123.cn/" target="_blank">
+			
+				<img src="/images/hao123_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+	</div>		
+</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 col-sm-pull-9 col-lg-pull-10 col-md-pull-9 ">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-10">
+			
+<div class="well panel_trans">
+	<div class="col">
+		<H4 class="text-center bbTextColor"> BINGBING Connection </H4>
+
+
+	<div id="carousel-bb" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <!--ol class="carousel-indicators">
+		<li data-target="#carousel-bb" data-slide-to="0" class="active"></li>
+		<li data-target="#carousel-bb" data-slide-to="1"></li>
+		<li data-target="#carousel-bb" data-slide-to="2"></li>
+		<li data-target="#carousel-bb" data-slide-to="3"></li>
+		<li data-target="#carousel-bb" data-slide-to="4"></li>
+	  </ol-->
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+	  
+
+		<div class="item active">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/kaydee_scattered.jpg" alt="Kaydee 'Scattered Thoughts'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Kaydee 'Scattered Thoughts'</h4>
+            </div>
+		</div>	  
+		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/blacksheepx.jpg" alt="BLACKSHEEPxGME 'Twilight'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">BLACKSHEEPxGME 'Twilight'</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/finger_lickin.jpg" alt="Rachel Marie - Finger Lickin' Good">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Rachel Marie - Finger Lickin' Good</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/ors2015.jpg" alt="V33 BARS - ORS2015">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">V33 BARS - ORS2015</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/driive_killer.jpg" alt="Driive - 'Kill3r'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Driive - 'Kill3r'</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/afteronenight.jpg" alt="Gerard 'After One Night'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Gerard 'After One Night'</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/ytm.jpg" alt="Young Troubled Minds 'One Big Session'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Young Troubled Minds 'One Big Session'</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/babybaby.jpg" alt="Tee Wavy 'Baby Baby'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Tee Wavy 'Baby Baby'</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/arcani.jpg" alt="Arcani '6 AM'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Arcani '6 AM'</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/streetmuzik.jpg" alt="Lil Bit - That Shit Im On">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Lil Bit - That Shit Im On</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/mv1.jpg" alt="Marcus Valance - 'Life in A Paper Cup'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Marcus Valance - 'Life in A Paper Cup'</h4>
+            </div>
+		</div>	  
+		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/jay2six.jpg" alt="Jay2Six 'Slow Motion...'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Jay2Six 'Slow Motion...'</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/landinosantana.jpg" alt="Landino Santana 'Pop It'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Landino Santana 'Pop It'</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/goonlyfe.png" alt="BLAK PLAGUE - OFF DA CHAIN">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">BLAK PLAGUE - OFF DA CHAIN</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/sisterpg.jpg" alt="Sister P Guitar 'Imagine'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Sister P Guitar 'Imagine'</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/driive_killer.jpg" alt="DRIIVE 'Full Cup'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">DRIIVE 'Full Cup'</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/divein.jpg" alt="Keeyen Martin 'DiveN2Luv'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Keeyen Martin 'DiveN2Luv'</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/junijittaz.jpg" alt="JUNI JITTAZ "REPN"">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">JUNI JITTAZ "REPN"</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/prez.jpg" alt="PReZ - WAVEY">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">PReZ - WAVEY</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/mel_aston_the_impossible.jpg" alt="Mel Aston Jr - The Impossible">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Mel Aston Jr - The Impossible</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/rainbow_god.jpg" alt="Fonzy Williams - Reignbow Gods Of Compton">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Fonzy Williams - Reignbow Gods Of Compton</h4>
+            </div>
+		</div>		
+		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/coellate_alloftheabove.jpg" alt="Coelated 'All Of The Above'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Coelated 'All Of The Above'</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/jamesfrancis1.jpg" alt="James Francis - Hey Valley">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">James Francis - Hey Valley</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/galaxy.jpg" alt="Galaxy - Beef Rap">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Galaxy - Beef Rap</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/rhomanife.jpg" alt="Rhomanife - Pray Now">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Rhomanife - Pray Now</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/royry.jpg" alt="RoyRy 'Emerald City'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">RoyRy 'Emerald City'</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/aliens_and_ufos.png" alt="Gerard 'Aliens and UFOs'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Gerard 'Aliens and UFOs'</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/roomfullofhoes.jpg" alt=" see.francis 'Room Full Of Hoes'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">see.francis 'Room Full Of Hoes'</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/all_i_need.jpg" alt="Mista Vina 'All I Need'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Mista Vina 'All I Need'</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/shiners.jpg" alt="SHINERS - Karma">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">SHINERS - Karma</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/mula_we_made_it.jpg" alt="Mula Migz - We Made It">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Mula Migz - We Made It</h4>
+            </div>
+		</div>
+		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/SuperHeroes.jpg" alt="Jep Roadie 'SuperHeroes'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Jep Roadie 'SuperHeroes'</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/epic.jpg" alt="AleX Ko 'Epic'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">AleX Ko 'Epic'</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/theywant.jpg" alt="Solidtary 'They Want'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Solidtary 'They Want'</h4>
+            </div>
+		</div>
+		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/flexxkapone.jpg" alt="FLEXX KAPONE 'Straight 2 The Point'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">FLEXX KAPONE 'Straight 2 The Point'</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/ceosonson.jpg" alt="Ceo Son-Son 'SelfMade'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Ceo Son-Son 'SelfMade'</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/Brillivntboy.jpg" alt="Brillivntboy 'A Diamond In The Rough'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Brillivntboy 'A Diamond In The Rough'</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/lilscooter.jpg" alt="Lil Scooter 'Born In The 90's'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Lil Scooter 'Born In The 90's'</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/shs.jpg" alt="Supa High Society 'Fugazy - Something 4 Nothing'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Supa High Society 'Fugazy - Something 4 Nothing'</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/youth.jpg" alt="Youth 'Rise And Shine'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Youth 'Rise And Shine'</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/Kidbracerartistphoto.jpg" alt="Kid Bracer 'Sweet Living Remix'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Kid Bracer 'Sweet Living Remix'</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/onyagrind.jpg" alt="QuinnShawn Damar 'On Ya Grind'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">QuinnShawn Damar 'On Ya Grind'</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/v33bars_forthis.png" alt="V33 BARS - For This">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">V33 BARS - For This</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/Falco_2f_cd2.jpg" alt="Falco DiGeneral - More Money">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Falco DiGeneral - More Money</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/choose.png" alt="Ty Kenney 'Choosing'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Ty Kenney 'Choosing'</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/travgucc_getitgirl.jpg" alt="TRAVGUCC 'GET IT GIRL'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">TRAVGUCC 'GET IT GIRL'</h4>
+            </div>
+		</div>		
+		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/darkclubbeat.png" alt="Moshae Beats 'DARK CLUB BEAT'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Moshae Beats 'DARK CLUB BEAT'</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/FRESH_OFF.png" alt=" TRAVGUCV 'FRESH OFF THE BOAT'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">TRAVGUCV 'FRESH OFF THE BOAT'</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/williamfleury.png" alt="">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption"></h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/ac_slator.png" alt="AC SLATOR Mix Tape">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">AC SLATOR Mix Tape</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/rondo_smiff_12_2014.png" alt="">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption"></h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/hazmatraps.png" alt="Julius Jay 'Too Long' ft Hazmat">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Julius Jay 'Too Long' ft Hazmat</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/treece.png" alt="Treece 'Get Down On It'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Treece 'Get Down On It'</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/validation.png" alt="Alonzo Walker 'Validation'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Alonzo Walker 'Validation'</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/haze.png" alt="Haze 'On Top'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Haze 'On Top'</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/playrunnerz.png" alt="Playrunnaz A.V. 'Winner's Circle'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Playrunnaz A.V. 'Winner's Circle'</h4>
+            </div>
+		</div>				<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/hlr2.png" alt="hlr_savage_boyz 'Frankie Benjamin Hlr WalkThru Remix'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">hlr_savage_boyz 'Frankie Benjamin Hlr WalkThru Remix'</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/mikepatt.png" alt="Michael Tavon 'Tululah'">
+			</a>	
+			<div class="carousel-caption">
+			<h4 class="bbConnectionCaption">Michael Tavon 'Tululah'</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/teewavy.png" alt="Tee Wavy 'Color Whick'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Tee Wavy 'Color Whick'</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/marco_russo.png" alt="Marco Russo 'Ma Chute'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Marco Russo 'Ma Chute'</h4>
+            </div>
+		</div>		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/emute.png" alt="Emute 'Praise Your Senses'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Emute 'Praise Your Senses'</h4>
+            </div>
+		</div>	  
+	  
+		<div class="item ">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/alluvial.jpg" alt="BizzyB Fa.Real “The Alluvial 2”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">BizzyB Fa.Real “The Alluvial 2”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/blackangel.jpg" alt="BlackAngel “Parallel Universe”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">BlackAngel “Parallel Universe”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/champloo.jpg" alt="Champloo “CeCe”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Champloo “CeCe”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/colinclyne.jpg" alt="Colin Clyne “I’d Rather Do”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Colin Clyne “I’d Rather Do”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/alvanmorris.jpg" alt="Alvan Morris “One Of A Kind”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Alvan Morris “One Of A Kind”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/cwan.jpg" alt="C’WAN “ADA”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">C’WAN “ADA”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/dariusg.jpg" alt="DariusG “Wild and Free”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">DariusG “Wild and Free”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/eljefe.jpg" alt="F.A. (El Jefe) ">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">F.A. (El Jefe) </h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/verskotzi.jpg" alt="Verskotzi “Sleepless One”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Verskotzi “Sleepless One”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/g2.jpg" alt="G2 “Touchdown”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">G2 “Touchdown”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/itosh.jpg" alt="iTOSH “Beat Them All”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">iTOSH “Beat Them All”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/bigz.jpg" alt="BIG Z “Money Got Me Geek’d”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">BIG Z “Money Got Me Geek’d”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/alexko.png" alt="Alex Ko “Get Down”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Alex Ko “Get Down”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/mokeacchino.jpg" alt="Mokeacchino “Habits”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Mokeacchino “Habits”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/mulamigz.jpg" alt="MULA MIGZ ">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">MULA MIGZ </h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/prrincey.jpg" alt="Prrincey “Man Of The Moment”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Prrincey “Man Of The Moment”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/joeluca.jpg" alt="Joe Luca “Lemon Scratch”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Joe Luca “Lemon Scratch”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/garek.jpg" alt="Garek “Save The Queen”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Garek “Save The Queen”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/antdolla.jpg" alt="Ant Dolla “Real”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Ant Dolla “Real”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/charlieseasons.jpg" alt="Charlie Seasons “QUAALUDES”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Charlie Seasons “QUAALUDES”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/benwash.jpg" alt="Ben Wash “Snob Rock”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Ben Wash “Snob Rock”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/solidtary.jpg" alt="Solidtary “Digits”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Solidtary “Digits”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/hlr.jpg" alt="HLR Savage Boyz “No F**ks”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">HLR Savage Boyz “No F**ks”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/landino.jpg" alt="Landino Santana In Fly you Trust">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Landino Santana In Fly you Trust</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/3dee.jpg" alt="MXSFLXWETICZ “3Dee”(Produced by J Dilla)">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">MXSFLXWETICZ “3Dee”(Produced by J Dilla)</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/ethio.jpg" alt="Ethio Boy “If You Were Mine”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Ethio Boy “If You Were Mine”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/world5.jpg" alt="WORLD5 “I Promise You”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">WORLD5 “I Promise You”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/kaydee.jpg" alt="Kaydee “The Transition”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Kaydee “The Transition”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/tevin2.jpg" alt="Tevin2Twisted “1stGear”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Tevin2Twisted “1stGear”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/nikokhale.jpg" alt="Niko Khale “HERO”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Niko Khale “HERO”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/taaru.jpg" alt="Fla The Ripper “TAARU”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Fla The Ripper “TAARU”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/jcdagenius.jpg" alt="JCdaGenius “Puff Puff Pass”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">JCdaGenius “Puff Puff Pass”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/marlymar.jpg" alt="Marly Mar “Presidential”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Marly Mar “Presidential”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/dennism.jpg" alt="Dennis McKinney ">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Dennis McKinney </h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/natomas.jpg" alt="Natomas Slimm “So Ratchet”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Natomas Slimm “So Ratchet”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/tsgme.jpg" alt="TSGME “The Truth” ">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">TSGME “The Truth” </h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/pusher.jpg" alt="“Pusher Love” ">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">“Pusher Love” </h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/xabier.jpg" alt="Xabier Grey “MY LOLO”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Xabier Grey “MY LOLO”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/maybachm.jpg" alt="Maybach Marcus “Eatin”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Maybach Marcus “Eatin”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/kaymoney.jpg" alt="Kay Money “X DAMN”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Kay Money “X DAMN”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/cherae.jpg" alt="Cherae Leri “Mirage”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Cherae Leri “Mirage”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/swainatra.jpg" alt="Swainatra “Calvin Swain”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Swainatra “Calvin Swain”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/pierreb.jpg" alt="Pi’erre Bourne “King Of The Hill”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Pi’erre Bourne “King Of The Hill”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/falco.png" alt="Falco DiGeneral “Naah Stop”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Falco DiGeneral “Naah Stop”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/musicalee.jpg" alt="Musica-Lee">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Musica-Lee</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/melaston.jpg" alt="Mel Aston Jr. “The Big Picture”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Mel Aston Jr. “The Big Picture”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/jorob.jpg" alt="JoRob “No Strings Attached”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">JoRob “No Strings Attached”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/dmurk.jpg" alt="DMurk “Baby Boy”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">DMurk “Baby Boy”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/deeb.jpg" alt="Dee Bronte">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Dee Bronte</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/gizmo.jpg" alt="Gizmo “Mulah”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Gizmo “Mulah”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/afficial.jpg" alt="Afficial “BANG”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Afficial “BANG”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/benkasso.jpg" alt="Benkasso “Levitate”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Benkasso “Levitate”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/jvdee.jpg" alt="J V-dee Samsyl “Happy Sound”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">J V-dee Samsyl “Happy Sound”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/falcondown.png" alt="Falcon Downa“Rogue Frequencies”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Falcon Downa“Rogue Frequencies”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/tykenney.png" alt="Ty Kenney “REAL”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Ty Kenney “REAL”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/youngzel.jpg" alt="Young Zel “Rep Yo City”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Young Zel “Rep Yo City”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/noahw.jpg" alt="Noah Wilson “NoahPOPTV”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Noah Wilson “NoahPOPTV”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/sincereg.jpg" alt="Sincere Grant “Red Carpet Ready”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Sincere Grant “Red Carpet Ready”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/crockbeats.jpg" alt="C Rock Beats & Similie “Right Here”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">C Rock Beats & Similie “Right Here”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/lilmani.jpg" alt="Lil Mani">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Lil Manis</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/juandagod.jpg" alt="Juan Da God">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Juan Da God</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/icicle.jpg" alt="Icicle “Resurgence”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Icicle “Resurgence”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/alliedforces.jpg" alt="Allied Forces 3D Army Parking">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Allied Forces 3D Army Parking</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/josigreen.png" alt="“The Taste EP” Josi Green">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">“The Taste EP” Josi Green</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/lele.png" alt="LeLe “Money Whore”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">LeLe “Money Whore”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/stevieharts.jpg" alt="Stevie Harts “Celebrity”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Stevie Harts “Celebrity”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/mirandagil.jpg" alt="Miranda Gil “My Turn”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Miranda Gil “My Turn”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/newnobility.jpg" alt="New Nobility “Paradise”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">New Nobility “Paradise”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/biggant.jpg" alt="Bigg Ant">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Bigg Ant</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/potentjo.png" alt="Potent Jo “Rise n’ Grind">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Potent Jo “Rise n’ Grind</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/tommyhand.jpg" alt="Tommy Hand “Back Door Boogie”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Tommy Hand “Back Door Boogie”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/strizzy.jpg" alt="Strizzy Vendetta">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Strizzy Vendetta</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/colvane.jpg" alt="Colvane">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Colvane</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/jumpinlike.jpg" alt="“JUMPIN LIKE JORDAN" Migos">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">“JUMPIN LIKE JORDAN" Migos</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/kiddkazz.jpg" alt="Kidd Kazz “Lyrical Coke”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Kidd Kazz “Lyrical Coke”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/yvng.jpg" alt="Yvng_$unrise">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Yvng_$unrise</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/ogenius.jpg" alt="OG.ENIU$">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">OG.ENIU$</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/moshae.jpg" alt=""THE LOX" SURVIVOR ">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">"THE LOX" SURVIVOR </h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/seanh.jpg" alt="Sean Hampton “Bias”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Sean Hampton “Bias”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/bluffin.jpg" alt="Veli Smallz “Bluffin”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Veli Smallz “Bluffin”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/lavvd.jpg" alt="LAVVD Prod. T’Neal & ColdHendrix ">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">LAVVD Prod. T’Neal & ColdHendrix </h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/sicill.jpg" alt="SIC ILL “Labyrinth Zone Act 1”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">SIC ILL “Labyrinth Zone Act 1”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/coelated.png" alt="Coelated “#WYHD?”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Coelated “#WYHD?”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/rightnow.png" alt="Ty yeyey “Right Now”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Ty yeyey “Right Now”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/kossmuzik.jpg" alt="KO$$ “For Dem Bandz”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">KO$$ “For Dem Bandz”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/willinspire.png" alt="Will Inspire “Youngins On The Block”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Will Inspire “Youngins On The Block”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/rytious.jpg" alt="Rytious “Till Death ft Kage”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Rytious “Till Death ft Kage”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/candyd.jpg" alt="Candy Darling “Money”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Candy Darling “Money”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/akeela.jpg" alt="Akeela 'Ratchet Chick'">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Akeela 'Ratchet Chick'</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/tmark.jpg" alt="Tmark">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Tmark</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/jaerubell.jpg" alt="Jae Ru Bell “Warm Winds”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Jae Ru Bell “Warm Winds”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/cedes.jpg" alt="Cedes Baby">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Cedes Baby</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/highermusic.jpg" alt="Higher Music “The Higher Tape”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Higher Music “The Higher Tape”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/royzy.jpg" alt="RoyzyRothschild “Pain In My Soul”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">RoyzyRothschild “Pain In My Soul”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/annikhan.jpg" alt="A Dog (Annikhan) “I Keep Staring”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">A Dog (Annikhan) “I Keep Staring”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/librations.jpg" alt="DedFre$h “Librations”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">DedFre$h “Librations”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/marathon.jpg" alt="Marathon (Indie Rock band)">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Marathon (Indie Rock band)</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/michaelt.jpg" alt="Michael Tavon “Swag Johnson”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Michael Tavon “Swag Johnson”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/daiya.jpg" alt="Daiya Tené “Proper Introduction”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Daiya Tené “Proper Introduction”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/projecto.jpg" alt="Project October “Trap God”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Project October “Trap God”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/rafa.jpg" alt="Rafa Schuler “Besame Mucho”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Rafa Schuler “Besame Mucho”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/latif.jpg" alt="Prince Latif “Do Me Dirt”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Prince Latif “Do Me Dirt”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/kennyt.jpg" alt="Kenny Turpel">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Kenny Turpel</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/robinb.jpg" alt="NOWHERELAND (Robin Bain)">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">NOWHERELAND (Robin Bain)</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/kjay.jpg" alt="K-JAY “Diamond”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">K-JAY “Diamond”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/drub.jpg" alt="Dru Breezy “Days Of Our Lives”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Dru Breezy “Days Of Our Lives”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/vanwagner.png" alt="Van Wagner “All The Same”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Van Wagner “All The Same”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/forever.png" alt="Forever Digital Empire">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Forever Digital Empire</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/slapnevada.jpg" alt="Slap Nevada “Died In Your Arms”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Slap Nevada “Died In Your Arms”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/thedemons.jpg" alt="The Demon$ “SHEESH”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">The Demon$ “SHEESH”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/djbobblehead.png" alt="DJ Bobblehead “I Need  A Dollar”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">DJ Bobblehead “I Need  A Dollar”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/biig.jpg" alt="BiiG “The Book Of Daniel”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">BiiG “The Book Of Daniel”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/ktburke.jpg" alt="KT Burke “She Got Me”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">KT Burke “She Got Me”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/cleverbanger.jpg" alt="Clever Banger “Take Control”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Clever Banger “Take Control”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/oracles.jpg" alt="Oracle Studios">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Oracle Studios</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/skamraps.jpg" alt="Skam Raps “My City”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Skam Raps “My City”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/catastrophic.jpg" alt="CATASTROPHIC - Like">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">CATASTROPHIC - Like</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/bjsam.jpg" alt="BJ SAM “Star will Always Shine”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">BJ SAM “Star will Always Shine”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/donalisa.jpg" alt="DONA LISA “Turn The Club Out”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">DONA LISA “Turn The Club Out”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/mims.jpg" alt="Mim’s “Gunshot”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Mim’s “Gunshot”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/rondosmiff.jpg" alt="Rondo Smiff - SO WHAT">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Rondo Smiff - SO WHAT</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/illiteracy.jpg" alt="iLL-iteracy - Spit Slang">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">iLL-iteracy - Spit Slang</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/glorydakidd.jpg" alt="Glory Da Kidd “Louie”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Glory Da Kidd “Louie”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/wizleyt.jpg" alt="Wizley Taylor - You're The One">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Wizley Taylor - You're The One</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/styers.jpg" alt="Styers - Beauty and the Beak">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Styers - Beauty and the Beak</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/agv.jpg" alt="Artist Gone Viral">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Artist Gone Viral</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/jprod.jpg" alt="JproD - We Here Now">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">JproD - We Here Now</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/slym.jpg" alt="Slym - The Introduction">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Slym - The Introduction</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/maingirl.jpg" alt="Main Girl - Lose It">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Main Girl - Lose It</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/rebecav.jpg" alt="Rebeca Vallejo">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Rebeca Vallejo</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/higuys.png" alt="hi Guys “Nothing But Love”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">hi Guys “Nothing But Love”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/kdsideways.jpg" alt="KD $ideways">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">KD $ideways</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/icerunnerz.jpg" alt="Ice Runnerz - You Ain't">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Ice Runnerz - You Ain't</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/lyriqmusic.jpg" alt="“Release Me 2 the Streetz”">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">“Release Me 2 the Streetz”</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/philread.jpg" alt="Phil Read Originals - New in Town">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Phil Read Originals - New in Town</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/gonewallace.jpg" alt="Gone Wallace - Cult Classic">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Gone Wallace - Cult Classic</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/swainatra_cantfocus.jpg" alt="Swainatra - Can't Focus">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Swainatra - Can't Focus</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/tuk.jpg" alt="Tu-k - Show Me">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Tu-k - Show Me</h4>
+            </div>
+		</div>		<div class="item">
+<a href="http://www.thebingbing.com/play/connection/" target="_blank">
+				<img class="bbconnectionImage" src="/bb_con_images/oscarlee.jpg" alt="Oscar Lee - The Beadles">
+			</a>	
+			<div class="carousel-caption">
+                <h4 class="bbConnectionCaption">Oscar Lee - The Beadles</h4>
+            </div>
+		</div>
+		
+		
+
+	  </div>
+
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#carousel-bb" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-bb" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	  </a>
+	</div>
+	</div>
+</div>
+			<div class="well panel_trans">
+	
+	<h4 class="bbTextColor"> BINGBING Buzz </h4>
+
+		<!--div class="list-group scrollbox3" name="TopBuzzListGroup"-->
+		<div class="list-group scrollbox3" name="FrontPageBuzzListGroup">
+		
+		</div>
+		<div class="loadMore" id="loadMoreFrontPageBuzz" > 
+		</div>
+		<!--h2 class="hidden loadMoreText" id="loadMoreFrontPageBuzzText"> Loading More </h2-->
+        <span class="glyphicon glyphicon-refresh hidden" id="FrontPageSpinner"></span>
+</div>
+
+
+
+ 
+			
+			<div class="visible-xs-block">
+				
+<div class="well panel_trans">
+	<div class="col">
+		<H4 class="text-center bbTextColor"> Get Your Weekend App </H4>
+
+
+		<img src="http://www.thebingbing.com/images/app_icon.png?version=1" class="img-responsive center-block bb_pad_bottom" alt="Weekend App">
+		
+		<a href="https://itunes.apple.com/us/app/bingbing-weekend-hd/id949879371?ls=1&mt=8" target="_blank">
+			<img src="http://www.thebingbing.com/images/appstore.png?version=1" class="img-responsive center-block bb_pad_bottom" alt="App Store">
+		</a>	
+		
+
+		<img src="http://www.thebingbing.com/images/googleplay.png?version=1" class="img-responsive center-block" alt="Google Play">
+	</div>
+</div>
+				
+<div class="well panel_trans">
+	<div class="col">
+		<H4 class="text-center bbTextColor"> Play BINGBING Games </H4>
+
+		<div class="c-wrapper">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+			  </ol>
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+				<div class="item active ">
+					<a href="http://www.thebingbing.com/games" target="_blank">
+						<img src="/images/games/veggie_match.jpg?version=1" alt="Veggie Match">
+					</a>	
+				</div>
+				<div class="item">
+					<a href="http://www.thebingbing.com/games" target="_blank">
+						<img src="/images/games/calorie_attacker.jpg?version=1" alt="Calorie Attacker">
+					</a>	
+				</div>
+				<div class="item">
+					<a href="http://www.thebingbing.com/games" target="_blank">	
+						<img src="/images/games/food_jack.jpg?version=1" alt="Food Jack">
+					</a> 
+				</div>
+				<div class="item">
+					<a href="http://www.thebingbing.com/games" target="_blank">
+						<img src="/images/games/diet_match.jpg?version=1" alt="Diet Match">
+					</a>	
+				</div>
+				<div class="item">
+					<a href="http://www.thebingbing.com/games" target="_blank">
+						<img src="/images/games/calorie_killer.jpg?version=1" alt="Calorie Killer">
+					</a>	
+				</div>
+
+			  </div>
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			  </a>
+			</div>
+		</div>
+	</div>	
+</div>
+				<div class="well panel_trans">
+<a href="http://www.accuweather.com/en/gb/london/ec4a-2/weather-forecast/328328" class="aw-widget-legal">
+<!--
+By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at http://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at http://www.accuweather.com/en/privacy.
+-->
+</a><div id="awcc1410130215274" class="aw-widget-current"  data-locationkey="" data-unit="c" data-language="en-us" data-useip="true" data-uid="awcc1410130215274"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
+</div>				<div class="well panel_trans social_panel">
+	<div class="row">
+		
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.twitter.com" target="_blank">
+			<img src="/images/twitter_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.facebook.com/" target="_blank">
+				<img src="/images/fb_icon.png?version=1" class="img-responsive bb_pad_bottom" > </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.pinterest.com/" target="_blank">
+			
+			<img src="/images/pinterest_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.instagram.com/" target="_blank">	
+				<img src="/images/instagram_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+	</div>	
+	<div class="row">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.tumblr.com/" target="_blank">
+				<img src="/images/tumblr_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://plus.google.com/" target="_blank">
+			
+				<img src="/images/googleplus_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://mail.google.com/" target="_blank">
+			
+				<img src="/images/gmail_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.youtube.com/" target="_blank">
+			
+				<img src="/images/youtube_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+	</div>		
+	<div class="row">	
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.linkedin.com/" target="_blank">
+			
+				<img src="/images/linkedin_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.amazon.com/" target="_blank">
+			
+				<img src="/images/amazon_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.weibo.com/" target="_blank">
+			
+				<img src="/images/weibo_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.wechat.com/" target="_blank">
+			
+				<img src="/images/wechat_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+	</div>	
+	<div class="row">	
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.baidu.com/" target="_blank">
+			
+				<img src="/images/baidu_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.imqq.com/" target="_blank">
+			
+				<img src="/images/imqq_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.taobao.com/" target="_blank">
+			
+				<img src="/images/taobao_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+			<a href="http://www.hao123.cn/" target="_blank">
+			
+				<img src="/images/hao123_icon.png?version=1" class="img-responsive bb_pad_bottom"> </img>
+			</a>
+		</div>
+	</div>		
+</div>
+			</div>
+		</div>
+		<div class="col-xs-3">
+		</div>
+	 </div>
+
+ </div>
+ 
+ <!-- Modal for sign up error etc -->
+<div class="container modal fade " id="myModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="col-lg-3 col-md-3 col-sm-3">
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-6">
+	  <div class="modal-dialog">
+		<div class="modal-content panel_trans_popup">
+		  <div class="modal-header ">
+			<button type="button" class="popupCloseBtn" data-dismiss="modal"><span aria-hidden="true">X</span><span class="sr-only">Close</span></button>
+			<h3 class="modal-title text-center bbTextColorWhite modalTitleAttr" id="myModalLabel">
+			Sign Up Error
+			</h3>
+		  </div>
+		  <div class="modal-body">
+			<h4 id="myModalMessage" class="text-center bbTextColorWhite modalMsgAttr" >
+			
+			</h4>
+		  </div>
+		  <!--div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  </div-->
+		</div>
+	  </div>
+	</div> 
+	
+	<div class="col-lg-3 col-md-3 col-sm-3">
+	</div>
+</div>
+
+<div class="container modal fade" id="Modal1" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="col-lg-3 col-md-3 col-sm-3">
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-6">
+	  <div class="modal-dialog">
+		<div class="modal-content panel_trans_popup">
+		  <div class="modal-header">
+			<!--button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">X</span><span class="sr-only">Close</span></button-->
+			<h3 class="modal-title text-center bbTextColorWhite modalTitleAttr" id="ModalLabel1">
+			Sign Up In progress
+			</h3>
+            <div class="text-center">
+                <span class="glyphicon glyphicon-refresh hidden" id="popupSpinner"></span>
+            </div>
+		  </div>
+		  <div class="modal-body">
+			<h4 id="ModalMessage1" class="text-center bbTextColorWhite modalMsgAttr">
+			</h4>
+		  </div>
+		</div>
+	  </div>
+	 </div> 
+	
+	<div class="col-lg-3 col-md-3 col-sm-3">
+	</div> 
+</div>
+
+<div class="container modal fade" id="ModalSignup" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="ModalSignup" aria-hidden="true">
+	<div class="col-lg-3 col-md-3 col-sm-3">
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-6">
+	  <div class="modal-dialog dialogOffset">
+		<div class="modal-content panel_trans_popup">
+		  <div class="modal-header">
+			<!--button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">X</span><span class="sr-only">Close</span></button-->
+			<h3 class="modal-title text-center bbTextColorWhite modalTitleAttr" id="ModalSignupLabel">
+			Please Sign Up
+			</h3>
+		  </div>
+		  <div class="modal-body">
+			<h4 id="ModalSignupMessage" class="text-center bbTextColorWhite modalMsgAttr">
+			</h4>
+			<div class="well panel_trans signup_front center-block roundbb">
+	<form role="form" action="" method="post" id="signupform">
+		<div class="form-groupbb">
+			<input type="text" placeholder="Username" class="form-control noroundbb" name="username" id="username">
+		</div>
+		<div class="form-groupbb">
+			<input type="password" placeholder="Password" class="form-control noroundbb" name="password" id="password">
+		</div>
+		<div class="form-group">
+				<input type="email" placeholder="Email" class="form-control noroundbb" name="email" id="email">
+		</div>
+		<!--
+		<div class="checkbox">
+			<label><input type="checkbox"> Remember me</label>
+		</div>
+		-->
+	<button type="submit" class="btn btn-bbgold buttonBB center-block" onClick="presignup(this.form); return false;">Sign Up</button>
+	</form>
+</div>
+			
+			<h4 class="text-center bbTextColorWhite">
+			Or Login with your existing account.
+			</h4>
+			<div class="well panel_trans">
+	<form role="form" action="" method="post" id="loginform">
+		<div class="form-groupbb">
+			<input type="text" placeholder="Username" class="form-control" name="username" id="username">
+		</div>
+		<div class="form-group">
+			<input type="password" placeholder="Password" class="form-control" name="password" id="password">
+		</div>
+	<button type="submit" class="btn btn-bbgold buttonBB center-block" onClick="Login(this.form);return false;">Login</button>
+	</form>
+	<button type="submit" class="btn btn-bbwhite buttonBB" onClick="GotoForgotPassword();return false;">Forgot Password ?</button>
+	</form>
+</div>
+		  </div>
+		</div>
+	  </div>
+	 </div> 
+	
+	<div class="col-lg-3 col-md-3 col-sm-3">
+	</div> 
+</div>
+
+<div class="container modal fade" id="ModalAccLogin" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="ModalAccLogin" aria-hidden="true">
+	<div class="col-lg-3 col-md-3 col-sm-3">
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-6">
+	  <div class="modal-dialog">
+		<div class="modal-content panel_trans_popup">
+		  <div class="modal-header">
+			<button type="button" class="popupCloseBtn" data-dismiss="modal"><span aria-hidden="true">X</span><span class="sr-only">Close</span></button>
+			<h3 class="modal-title text-center bbTextColorWhite modalTitleAttr" id="ModalAccLoginLabel">
+			Please Sign Up
+			</h3>
+		  </div>
+		  <div class="modal-body">
+			<h4 id="ModalAccLoginMessage" class="text-center bbTextColorWhite modalMsgAttr">
+			</h4>
+			<div class="well panel_trans">
+	<form role="form" action="" method="post" id="loginform">
+		<div class="form-groupbb">
+			<input type="text" placeholder="Username" class="form-control" name="username" id="username">
+		</div>
+		<div class="form-group">
+			<input type="password" placeholder="Password" class="form-control" name="password" id="password">
+		</div>
+	<button type="submit" class="btn btn-bbgold buttonBB center-block" onClick="Login(this.form);return false;">Login</button>
+	</form>
+	<button type="submit" class="btn btn-bbwhite buttonBB" onClick="GotoForgotPassword();return false;">Forgot Password ?</button>
+	</form>
+</div>
+		  </div>
+		</div>
+	  </div>
+	 </div> 
+	<div class="col-lg-3 col-md-3 col-sm-3">
+	</div> 
+</div>
+
+<div class="container modal fade" id="ModalAccSignup" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="ModalAccSignup" aria-hidden="true">
+	<div class="col-lg-3 col-md-3 col-sm-3">
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-6">
+	  <div class="modal-dialog">
+		<div class="modal-content panel_trans_popup">
+		  <div class="modal-header">
+			<button type="button" class="popupCloseBtn" data-dismiss="modal"><span aria-hidden="true">X</span><span class="sr-only">Close</span></button>
+			<h3 class="modal-title text-center bbTextColorWhite modalTitleAttr" id="ModalAccSignupLabel">
+			Please Sign Up
+			</h3>
+		  </div>
+		  <div class="modal-body">
+			<h4 id="ModalAccSignupMessage" class="text-center bbTextColorWhite modalMsgAttr">
+			</h4>
+			<div class="well panel_trans signup_front center-block roundbb">
+	<form role="form" action="" method="post" id="signupform">
+		<div class="form-groupbb">
+			<input type="text" placeholder="Username" class="form-control noroundbb" name="username" id="username">
+		</div>
+		<div class="form-groupbb">
+			<input type="password" placeholder="Password" class="form-control noroundbb" name="password" id="password">
+		</div>
+		<div class="form-group">
+				<input type="email" placeholder="Email" class="form-control noroundbb" name="email" id="email">
+		</div>
+		<!--
+		<div class="checkbox">
+			<label><input type="checkbox"> Remember me</label>
+		</div>
+		-->
+	<button type="submit" class="btn btn-bbgold buttonBB center-block" onClick="presignup(this.form); return false;">Sign Up</button>
+	</form>
+</div>
+		  </div>
+		</div>
+	  </div>
+	 </div> 
+	<div class="col-lg-3 col-md-3 col-sm-3">
+	</div> 
+</div>
+
+<div class="container modal fade" id="MessagePopup" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="MessagePopup" aria-hidden="true">
+
+	<div class="modal-dialog dialogOffset">
+	  
+		<div class="modal-content panel_trans_white_modal">
+			<button type="button" class="popupCloseBtnBlack" data-dismiss="modal"><span aria-hidden="true">X</span><span class="sr-only">Close</span></button>
+			<div class="well panel_trans_white_modal">
+
+	<h4 class="bbTextColor" id="accBuzzTitle"> Message </h4>
+
+		<div class="list-group modalscroll" name="AccBuzzPopupListGroup">
+		<div class="reverse"> </div>
+		<!--No messages have been sent yet!-->
+		</div>
+
+</div>
+
+ 
+
+		</div> 
+	 </div> 
+
+</div>
+
+<div class="container modal fade" id="MoodPopup" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="MoodPopup" aria-hidden="true">
+	<div class="modal-dialog dialogOffset">
+	  
+		<div class="modal-content panel_trans_white_modal">
+			<button type="button" class="popupCloseBtnBlack" data-dismiss="modal"><span aria-hidden="true">X</span><span class="sr-only">Close</span></button>
+			
+<div class="well panel_trans_white_modal well_no_mb">
+	<h3 class="text-center moodQuestion"> What mood are you in ? Choose one !</h3>
+	<div class="hidden-xs">
+		<h5 class="text-center"> Share with BINGBING users</h5>
+	</div>
+
+		<form role="form" action="" method="post" id="moodSelectForm">
+			<div class="row">
+				<div class="col-lg-1 col-md-2 col-sm-2 col-xs-12">
+					<a href="address" class="sendPictureLink" target = "" id="sendPictureLink">
+						<img src="/images/user_picture.png?version=1" class="img-responsive form_solid center-block sendPicture" alt="user picture" name="picture" id="sendPicture">
+					</a>
+					<p class="textCenter pictureUsernameText userNameFull" id="userNameFull">  </p>
+					<div class="visible-xs-block">
+						<h5 class="text-center"> Share with BINGBING users</h5>
+					</div>
+				</div>	
+				<div class="col-lg-11 col-md-10 col-sm-10 col-xs-12">
+				<div class="row">
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+						<button class="moodBtn center-block" onClick="ChooseMood('Annoyed');return false;">
+							<img src="/images/smilies/1.png?version=1" class="img-responsive form_solid center-block smiley" alt="Annoyed" name="Annoyed" id="Annoyed" >
+							<p class="textCenter pictureUsernameText">Annoyed</p>
+						</button>
+					</div>	
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+						<button class="moodBtn center-block" onClick="ChooseMood('Baby');return false;">
+							<img src="/images/smilies/2.png?version=1" class="img-responsive form_solid center-block smiley" alt="Baby" name="Baby" id="Baby" >
+							<p class="textCenter pictureUsernameText">Baby  </p>
+						</button>
+					</div>	
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+						<button class="moodBtn center-block" onClick="ChooseMood('Loved');return false;">
+							<img src="/images/smilies/3.png?version=1" class="img-responsive form_solid center-block smiley" alt="Loved" name="Loved" id="Loved" >
+							<p class="textCenter pictureUsernameText">Loved </p>
+						</button>
+					</div>	
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+						<button class="moodBtn center-block" onClick="ChooseMood('Blushing');return false;">
+							<img src="/images/smilies/4.png?version=1" class="img-responsive form_solid center-block smiley" alt="Blushing" name="Blushing" id="Blushing" >
+							<p class="textCenter pictureUsernameText">Blushing  </p>
+						</button>
+					</div>	
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+						<button class="moodBtn center-block" onClick="ChooseMood('Silly');return false;">
+							<img src="/images/smilies/5.png?version=1" class="img-responsive form_solid center-block smiley" alt="Silly" name="Silly" id="Silly" >
+							<p class="textCenter pictureUsernameText">Silly  </p>
+						</button>
+					</div>	
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+						<button class="moodBtn center-block" onClick="ChooseMood('Pleased');return false;">
+							<img src="/images/smilies/6.png?version=1" class="img-responsive form_solid center-block smiley" alt="Pleased" name="Pleased" id="Pleased" >
+							<p class="textCenter pictureUsernameText">Pleased  </p>
+						</button>
+					</div>	
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+						<button class="moodBtn center-block" onClick="ChooseMood('Irritated');return false;">
+							<img src="/images/smilies/7.png?version=1" class="img-responsive form_solid center-block smiley" alt="Irritated" name="Irritated" id="Irritated" >
+							<p class="textCenter pictureUsernameText">Irritated  </p>
+						</button>
+					</div>	
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+						<button class="moodBtn center-block" onClick="ChooseMood('Crying');return false;">
+							<img src="/images/smilies/8.png?version=1" class="img-responsive form_solid center-block smiley" alt="Crying" name="Crying" id="Crying" >
+							<p class="textCenter pictureUsernameText">Crying  </p>
+						</button>
+					</div>	
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+						<button class="moodBtn center-block" onClick="ChooseMood('Angry');return false;">
+							<img src="/images/smilies/9.png?version=1" class="img-responsive form_solid center-block smiley" alt="Angry" name="Angry" id="Angry" >
+							<p class="textCenter pictureUsernameText">Angry  </p>
+						</button>
+					</div>	
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+						<button class="moodBtn center-block" onClick="ChooseMood('Cheery');return false;">
+							<img src="/images/smilies/10.png?version=1" class="img-responsive form_solid center-block smiley" alt="Cheery" name="Cheery" id="Cheery" >
+							<p class="textCenter pictureUsernameText">Cheery  </p>
+						</button>
+					</div>	
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+						<button class="moodBtn center-block" onClick="ChooseMood('Sad');return false;">
+							<img src="/images/smilies/11.png?version=1" class="img-responsive form_solid center-block smiley" alt="Sad" name="Sad" id="Sad" >
+							<p class="textCenter pictureUsernameText">Sad  </p>
+						</button>
+					</div>	
+					
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+						<button class="moodBtn center-block" onClick="ChooseMood('Excited');return false;">
+							<img src="/images/smilies/12.png?version=1" class="img-responsive form_solid center-block smiley" alt="Excited" name="Excited" id="Excited" >
+							<p class="textCenter pictureUsernameText">Excited  </p>
+						</button>
+					</div>	
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+						<button class="moodBtn center-block" onClick="ChooseMood('Shocked');return false;">
+							<img src="/images/smilies/13.png?version=1" class="img-responsive form_solid center-block smiley" alt="Shocked" name="Shocked" id="Shocked" >
+							<p class="textCenter pictureUsernameText">Shocked  </p>
+						</button>
+					</div>	
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+						<button class="moodBtn center-block" onClick="ChooseMood('Joy');return false;">
+							<img src="/images/smilies/14.png?version=1" class="img-responsive form_solid center-block smiley" alt="Joy" name="Joy" id="Joy" >
+							<p class="textCenter pictureUsernameText">Joy  </p>
+						</button>
+					</div>	
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+						<button class="moodBtn center-block" onClick="ChooseMood('Fuming');return false;">
+							<img src="/images/smilies/15.png?version=1" class="img-responsive form_solid center-block smiley" alt="Fuming" name="Fuming" id="Fuming" >
+							<p class="textCenter pictureUsernameText">Fuming  </p>
+						</button>
+					</div>	
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+						<button class="moodBtn center-block" onClick="ChooseMood('Surprised');return false;">
+							<img src="/images/smilies/16.png?version=1" class="img-responsive form_solid center-block smiley" alt="Surprised" name="Surprised" id="Surprised" >
+							<p class="textCenter pictureUsernameText">Surprised  </p>
+						</button>
+					</div>	
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+						<button class="moodBtn center-block" onClick="ChooseMood('Pretty');return false;">
+							<img src="/images/smilies/17.png?version=1" class="img-responsive form_solid center-block smiley" alt="Pretty" name="Pretty" id="Pretty" >
+							<p class="textCenter pictureUsernameText">Pretty  </p>
+						</button>
+					</div>	
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+						<button class="moodBtn center-block" onClick="ChooseMood('Happy');return false;">
+							<img src="/images/smilies/18.png?version=1" class="img-responsive form_solid center-block smiley" alt="Happy" name="Happy" id="Happy">
+							<p class="textCenter pictureUsernameText">Happy  </p>
+						</button>
+					</div>	
+				
+				</div>
+											
+				</div>
+			</div>	
+		</form>
+
+</div>
+
+
+		</div> 
+	 </div> 
+</div>
+
+<div class="container modal fade" id="InviteFriendPopup" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="InviteFriendPopup" aria-hidden="true">
+	<div class="modal-dialog dialogOffset">
+	  
+		<div class="modal-content panel_trans_white_modal">
+			<button type="button" class="popupCloseBtnBlack" data-dismiss="modal"><span aria-hidden="true">X</span><span class="sr-only">Close</span></button>
+			
+<div class="well panel_trans_white_modal well_no_mb">
+	<h4 class="text-center"> Invite Your Friends For More Fun </h4>
+
+		<form role="form" action="" method="post" id="inviteFriendForm">
+			<div class="row">
+				<div class="col-lg-1 col-md-2 col-sm-2 col-xs-4">
+					<a href="address" class="sendPictureLink" target = "" id="sendPictureLink">
+						<img src="/images/user_picture.png?version=1" class="img-responsive form_solid center-block sendPicture" alt="user picture" name="picture" id="sendPicture">
+					</a>
+					<p class="textCenter pictureUsernameText userNameFull" id="userNameFull">  </p>
+				</div>	
+				<div class="col-lg-11 col-md-10 col-sm-10 col-xs-8">
+					<textarea placeholder="Join me on The BINGBING to Showcase your Content, Catch the Trend, Connect to Friends ! www.thebingbing.com/" class="form-control sendMessage" rows="5" id="sendMessage" name="sendMessage" onInput="OnInviteFriendMessage(this.form);return false;">Join me on The BINGBING to Showcase your Content, Catch the Trend, Connect to Friends ! www.thebingbing.com/</textarea>
+											
+				</div>
+			</div>
+			<div class="row inviteFriendButtons">
+				<div class="col-lg-1 col-md-2 col-sm-2 col-xs-4">
+				</div>	
+				
+				<div class="col-lg-11 col-md-10 col-sm-10 col-xs-8">
+					<!-- Go to www.addthis.com/dashboard to customize your tools -->
+					<div id="addThisInviteFriend" class="addthis_sharing_toolbox" data-url="http://www.thebingbing.com"   data-title=""></div>
+					
+				</div>	
+				
+			</div>		
+		</form>
+
+</div>
+
+
+		</div> 
+	 </div> 
+</div>
+
+<div class="container modal fade" id="GamesPopup" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="GamesPopup" aria-hidden="true">
+	<div class="modal-dialog dialogOffset modal_game">
+	  
+		<div class="modal-content panel_trans_white_modal">
+			<button type="button" class="popupCloseBtnBlack" data-dismiss="modal"><span aria-hidden="true">X</span><span class="sr-only">Close</span></button>
+			
+<div class="well panel_trans_white_modal well_no_mb">
+	<h3 class="text-center moodQuestion"> Play a BINGBING Game ?</h3>
+
+	<div class="row">
+
+		<a href="/foodjack" target="_blank">
+			<!--div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"-->
+				<div class="well panel_games">
+					<h2 class="text-center bbTextBlackColor title h2game"> Food Jack </h2>
+					<p class="text-center bbTextBlackColor" >Show off your card Skill
+					</p>
+					<p class="text-center bbTextBlackColor marginbottom" > Beat the BINGBING Dealer. </p>
+					
+				
+					<img src="http://www.thebingbing.com/images/games/food_jack.jpg?version=1" class="img-thumbnail center-block bb_pad_bottom gamesImage marginbottom" alt="Food Jack">
+
+					<div class="center-block">
+							<div class="well  textCenter bbTextBox">
+								<h3 class="bbTextGoldRed bbTextBtn"> PLAY </h3>
+							</div>
+					</div>
+				</div>	
+			<!--/div-->
+		</a>	
+
+	</div>
+
+</div>
+
+
+		</div> 
+	 </div> 
+</div>
+
+
+<div class="container modal fade" id="NewFriendsPopup" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="NewFriendsPopup" aria-hidden="true">
+	<div class="modal-dialog dialogOffset modal_newfriend">
+	  
+		<div class="modal-content panel_trans_white_modal">
+			<button type="button" class="popupCloseBtnBlack" data-dismiss="modal"><span aria-hidden="true">X</span><span class="sr-only">Close</span></button>
+			
+<div class="well panel_trans_white_modal well_no_mb">
+	<h3 class="text-center moodQuestion choiceTitle"> Meet New Friends !</h3>
+	
+	<h4 class="text-center moodQuestion"> </h4>
+
+	<div class="row">
+		<div class="newfriends" name="NewFriendsGroup"></div>
+	</div>
+	<h4 class="text-center sendabuzz"> Send them a Buzz !</h4>
+	<div class="well  nowellborder">
+	<form role="form" action="" method="post" id="sendMessageForm">
+		<div class="row">
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+				<a href="address" class="sendPictureLink" target = "" id="sendPictureLink">
+					<img src="/images/user_picture.png?version=1" class="img-responsive form_solid center-block sendPicture" alt="user picture" name="picture" id="sendPicture">
+				</a>
+				<p class="textCenter  pictureUsernameText userNameFull" id="userNameFull">  </p>
+			</div>	
+			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
+				<div class="row">
+					<textarea placeholder="What do you want to share ?" class="form-control  sendMessage" rows="5" id="sendMessage" name="sendMessage" onInput="OnChangeMessage(this.form);return false;"></textarea>
+					
+					<textarea class="hidden" id="recipients" name="recipients" ></textarea>
+				</div>	
+				<div class="list-group friendscroll center-block MentionListGroup" name="MentionListGroup" id="MentionListGroup">
+				</div>
+				<div id="preview-pane" class="row hidden" >
+					<img src="" class="photoPreview" alt="Preview" id="smallpreview_new"/>
+					<button class="btn trashcanBtn" onClick="RemovePhoto(this.form);return false;">
+					<span class="glyphicon glyphicon-trash bbTextColor"> </span
+					</button>
+				</div>
+				<div class="row">
+					<div class="col-lg-10 col-md-10 col-sm-10 col-xs-8 sendMsgCols">
+						<div id="upload-file-container" class="sendMsgBtns hidden">
+							<input type="file" name="image_file_new" id="image_file_new" onchange="AddPhoto(this.form)"/>
+						</div>
+						<!--button type="submit" class="btn btn-bbgold sendMsgBtns"  id="submit" name="submit" onClick="SendMessage(this.form);return false;" >
+						<span class="glyphicon glyphicon-camera"></span>
+						Add Photo
+						</button-->
+						<button type="submit" class="btn btn-bbgold sendMsgBtns" disabled="disabled" id="submit" name="submit" onClick="SendMessage(this.form);return false;" >Send
+						<span class="glyphicon glyphicon-refresh hidden" id="messageSpinner"></span>
+						</button>
+						</button>
+						<button type="submit" class="btn btn-bbred hidden" disabled="disabled" id="sharePrivately" name="sharePrivately" onClick="PreparePrivateMessage(this.form);return false;" >Share Privately</button>
+				
+						<span id="charCountTextInfo" name="charCountTextInfo" class="hidden  charCountTextInfo"> Maximum 200 characters per message </span>
+					</div>	
+			
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+						<p class="text-right  charCount" id="charCount" > 200</p>
+					</div>	
+				</div>	
+			</div>
+		</div>	
+	</form>
+</div>
+
+</div>
+
+
+		</div> 
+	 </div> 
+</div>
+
+
+<!--
+<div class="container modal fade" id="ModalFriendList" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="col-lg-3 col-md-3 col-sm-2">
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-8">
+
+			<div class="modal-content panel_trans">
+				<div class="panel-heading">
+					<h3 class="bbTextColor text-center"> Choose Friends </h3>
+				</div>
+				<button type="submit" class="btn btn-bbgold btnSharePrivate center-block" disabled="disabled" id="submit" name="send" onClick="SendMessagePrivately();return false;" >Share Privately</button>
+				<div class="panel-body">
+					<div class="list-group center-block" name="ModalAllFriendsListGroup">
+						<div class="bb_list_item">
+							<div class="row">
+								<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+									<p class="textCenter bbTextColor pBB">
+										ALL FRIENDS
+									</p>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+									<input id="allFriendChkBox" class="bbCheckBox" type="checkbox" disabled="disabled" onclick="OnSelectAllFriend(this);" >
+									</input>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="list-group modalscroll center-block" name="ModalFriendsListGroup">
+					</div>
+				</div>
+				
+			</div>
+
+	 </div> 
+	
+	<div class="col-lg-3 col-md-3 col-sm-2">
+	</div> 
+</div>
+-->
+
+
+
+	
+	<nav class="navbar navbar-fixed-bottom header navbar-inverse fp_row_footer">
+
+				<ul class="nav navbar-nav navbar-left">
+
+				 <li class="bbTextColor">Copyright &#169; BINGBING<sup>&#174;</sup> 2016</li>
+				</ul>
+
+				  <ul class="nav navbar-nav navbar-right hidden-xs">
+                  <li><a href="/about">About</a></li>
+				  <li><a href="/terms">Terms of Use</a></li>
+				   <li><a href="/privacy">Privacy</a></li>
+					<li><a href="mailto:info@thebingbing.com"> Contact Us</a></li>
+				   </ul>
+
+		</nav>
+
+
+
+
+</body>
+</html>

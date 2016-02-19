@@ -1,0 +1,1177 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  
+  
+  
+
+            
+  
+
+  <!-- Basic page needs ================================================== -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  
+  <link rel="shortcut icon" href="//cdn.shopify.com/s/files/1/0895/7264/t/4/assets/favicon.png?5087862947650198664" type="image/png" />
+  
+
+  <!-- Title and description ================================================== -->
+  <title>
+  Voilà Co
+  </title>
+
+  
+
+  <!-- Product meta ================================================== -->
+  
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Voilà Co">
+  
+  <meta property="og:image" content="http://cdn.shopify.com/s/files/1/0895/7264/t/4/assets/logo.png?5087862947650198664">
+  <meta property="og:image:secure_url" content="https://cdn.shopify.com/s/files/1/0895/7264/t/4/assets/logo.png?5087862947650198664">
+  
+
+
+  <meta property="og:url" content="http://voilaco.myshopify.com/">
+  <meta property="og:site_name" content="Voilà Co">
+
+  
+
+<meta name="twitter:card" content="summary">
+
+
+  <meta name="twitter:site" content="@VoilaCo">
+
+
+
+
+  <!-- Helpers ================================================== -->
+  <link rel="canonical" href="http://voilaco.myshopify.com/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+    <!-- Ajaxify Cart Plugin ================================================== -->
+    <link href="//cdn.shopify.com/s/files/1/0895/7264/t/4/assets/ajaxify.scss.css?5087862947650198664" rel="stylesheet" type="text/css"  media="all"  />
+  
+
+  <!-- CSS ================================================== -->
+  <link href="//cdn.shopify.com/s/files/1/0895/7264/t/4/assets/timber.scss.css?5087862947650198664" rel="stylesheet" type="text/css"  media="all"  />
+  
+  
+  
+  <link href="//fonts.googleapis.com/css?family=Raleway:500,800" rel="stylesheet" type="text/css"  media="all"  />
+
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" type="text/css"  media="all"  />
+  
+
+
+
+  <!-- Header hook for plugins ================================================== -->
+  <script>
+//<![CDATA[
+      var Shopify = Shopify || {};
+      Shopify.shop = "voilaco.myshopify.com";
+      Shopify.theme = {"name":"Pop","id":51174851,"theme_store_id":719,"role":"main"};
+
+//]]>
+</script>
+
+
+<script>
+//<![CDATA[
+    (function() {
+      function asyncLoad() {
+        var urls = ["\/\/www.webyze.com\/HelloAnnouncements\/announcementbar-UPV3J4T3T8GWCGWCS.js?shop=voilaco.myshopify.com","https:\/\/recently.appifiny.co.uk\/store\/5691a764dd608b944b56c068e63bbf8673c9da9b.js?v=1455303865\u0026shop=voilaco.myshopify.com"];
+        for (var i = 0; i < urls.length; i++) {
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = urls[i];
+          var x = document.getElementsByTagName('script')[0];
+          x.parentNode.insertBefore(s, x);
+        }
+      }
+      window.attachEvent ? window.attachEvent('onload', asyncLoad) : window.addEventListener('load', asyncLoad, false);
+    })();
+
+//]]>
+</script>
+<script id="__st">
+//<![CDATA[
+var __st={"a":8957264,"offset":-18000,"reqid":"f5a8a66a-265e-45cc-8977-41e0c04de86d","pageurl":"shopvoila.co\/","u":"a3ca3a7f5440","p":"home"};
+//]]>
+</script>
+<script>
+//<![CDATA[
+      (function() {
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+        s.src = '//cdn.shopify.com/s/javascripts/shopify_stats.js?v=6';
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+      })();
+
+//]]>
+</script>
+
+      <script type="text/javascript" class="analytics">
+        
+      window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+      window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
+      window.ShopifyAnalytics.meta.currency = 'USD';
+    
+        (window.gaDevIds=window.gaDevIds||[]).push('BwiEti');
+        
+        (function () {
+          var customDocumentWrite = function(content) {
+            var jquery = null;
+
+            if (window.jQuery) {
+              jquery = window.jQuery;
+            } else if (window.Checkout && window.Checkout.$) {
+              jquery = window.Checkout.$;
+            }
+
+            if (jquery) {
+              jquery('body').append(content);
+            }
+          };
+
+          var analytics = document.createElement('script');
+          var loaded = false;
+          var onload = function() {
+            if (loaded) return;
+            loaded = true;
+            window.ShopifyAnalytics.lib = window.analytics.noConflict();
+            window.ShopifyAnalytics.lib.initialize(
+              {"Google Analytics":{"trackingId":"UA-64999011-1","domain":"auto","siteSpeedSampleRate":"10","enhancedEcommerce":true,"doubleClick":true,"includeSearch":true},"Performance":{"navigationTimingApiMeasurementsEnabled":true,"navigationTimingApiMeasurementsSampleRate":0.01},"Trekkie":{"appName":"storefront","environment":"production","defaultAttributes":{"shopId":8957264}}}
+            );
+
+            window.ShopifyAnalytics.lib.ready(function() {
+              
+      ga('require', 'linker');
+      function addListener(element, type, callback) {
+        if (element.addEventListener) {
+          element.addEventListener(type, callback);
+        }
+        else if (element.attachEvent) {
+          element.attachEvent('on' + type, callback);
+        }
+      }
+      function decorate(event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement;
+        if (target && (target.getAttribute('action') || target.getAttribute('href'))) {
+          ga(function (tracker) {
+            var linkerParam = tracker.get('linkerParam');
+            document.cookie = '_shopify_ga=' + linkerParam + '; ' + 'path=/';
+          });
+        }
+      }
+      addListener(window, 'load', function(){
+        for (var i=0; i < document.forms.length; i++) {
+          var action = document.forms[i].getAttribute('action');
+          if(action && action.indexOf('/cart') >= 0) {
+            addListener(document.forms[i], 'submit', decorate);
+          }
+        }
+        for (var i=0; i < document.links.length; i++) {
+          var href = document.links[i].getAttribute('href');
+          if(href && href.indexOf('/checkout') >= 0) {
+            addListener(document.links[i], 'click', decorate);
+          }
+        }
+      });
+    
+
+              var originalDocumentWrite = document.write;
+              document.write = customDocumentWrite;
+              try {  } catch(e) {};
+              document.write = originalDocumentWrite;
+
+              
+        window.ShopifyAnalytics.lib.page(
+          null,
+          {}
+        );
+      
+              
+            });
+          }
+          analytics.onload = onload;
+          analytics.onreadystatechange = function() {
+            if (!/complete|loaded/.test(analytics.readyState)) return;
+            onload();
+          }
+          analytics.async = true;
+          analytics.src = "https://cdn.shopify.com/s/javascripts/trekkie.storefront.min.js";
+          document.getElementsByTagName('head')[0].appendChild(analytics);
+          
+      var eventsListenerScript = document.createElement('script');
+      eventsListenerScript.async = true;
+      eventsListenerScript.src = "//cdn.shopify.com/s/assets/shop_events_listener-42562f2f1fbae08782550a8da750cb16faca43c65b93366a62e3848a8245fa14.js";
+      document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
+    
+        })();
+      </script>
+    <script type="text/javascript" src="//cdn.shopify.com/s/assets/themes_support/ga_urchin_forms-0826cdefee6590321eb5c0c435eeebf7a8425a5493a9e95059c40e07e069ad52.js"></script>
+
+
+  
+
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js" type="text/javascript"></script>
+<script src="//cdn.shopify.com/s/files/1/0895/7264/t/4/assets/respond.min.js?5087862947650198664" type="text/javascript"></script>
+<link href="//cdn.shopify.com/s/files/1/0895/7264/t/4/assets/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="//voilaco.myshopify.com/search?q=7216946b26d20eb7136b65fccaefed8a" id="respond-redirect" rel="respond-redirect" />
+<script src="//voilaco.myshopify.com/search?q=7216946b26d20eb7136b65fccaefed8a" type="text/javascript"></script>
+<![endif]-->
+
+
+
+  
+  
+
+  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+  <script src="//cdn.shopify.com/s/files/1/0895/7264/t/4/assets/modernizr.min.js?5087862947650198664" type="text/javascript"></script>
+
+</head>
+
+
+<body id="voila-co" class="template-index" >
+
+  <div class="nav-mobile">
+    <nav class="nav-bar" role="navigation">
+      <div class="wrapper">
+        
+
+
+
+<ul class="site-nav" id="accessibleNav">
+  
+    
+
+    
+    
+      
+        <li class="site-nav--active">
+          <a href="/" class="site-nav__link site-nav__linknodrop">Home</a>
+        </li>
+      
+    
+  
+    
+
+    
+    
+      
+        <li >
+          <a href="/collections/all" class="site-nav__link site-nav__linknodrop">Products </a>
+        </li>
+      
+    
+  
+    
+
+    
+    
+      
+        <li >
+          <a href="/pages/faqs" class="site-nav__link site-nav__linknodrop">F.A.Q.s</a>
+        </li>
+      
+    
+  
+    
+
+    
+    
+      
+        <li >
+          <a href="/pages/track-my-order" class="site-nav__link site-nav__linknodrop">Track My Order</a>
+        </li>
+      
+    
+  
+  
+</ul>
+
+      </div>
+    </nav>
+  </div>
+
+  <div class="page-wrapper">
+
+    <header class="site-header" role="banner">
+      <div class="nav-bar grid--full large--hide">
+
+        <div class="grid-item one-quarter">
+          <button type="button" class="text-link nav-toggle" id="navToggle">
+            <div class="table-contain">
+              <div class="table-contain__inner">
+                <span class="icon-fallback-text">
+                  <span class="icon icon-list" aria-hidden="true"></span>
+                  <span class="fallback-text">Menu</span>
+                </span>
+              </div>
+            </div>
+          </button>
+        </div>
+
+        <div class="grid-item two-quarters">
+
+          <div class="table-contain">
+            <div class="table-contain__inner">
+
+            
+              <h1 class="header-logo" itemscope itemtype="http://schema.org/Organization">
+            
+
+            
+              <a href="/" itemprop="url">
+                <img src="//cdn.shopify.com/s/files/1/0895/7264/t/4/assets/logo.png?5087862947650198664" alt="Voilà Co" itemprop="logo">
+              </a>
+            
+
+            
+              </h1>
+            
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="grid-item one-quarter">
+          <a href="/cart" class="cart-toggle">
+          <div class="table-contain">
+            <div class="table-contain__inner">
+              <span class="icon-fallback-text">
+                <span class="icon icon-cart" aria-hidden="true"></span>
+                <span class="fallback-text">Cart</span>
+              </span>
+            </div>
+          </div>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="wrapper">
+
+        
+        <div class="grid--full">
+          <div class="grid-item medium-down--hide">
+          
+            <h1 class="header-logo" itemscope itemtype="http://schema.org/Organization">
+          
+
+          
+            <a href="/" itemprop="url">
+              <img src="//cdn.shopify.com/s/files/1/0895/7264/t/4/assets/logo.png?5087862947650198664" alt="Voilà Co" itemprop="logo">
+            </a>
+          
+
+          
+            </h1>
+          
+          </div>
+        </div>
+
+        
+
+        <div class="medium-down--hide">
+          <ul class="site-nav">
+            <li>
+              <a href="/cart" class="cart-toggle site-nav__link">
+                <span class="icon icon-cart" aria-hidden="true"></span>
+                Cart
+                <span id="cartCount" class="hidden-count">(0)</span>
+              </a>
+            </li>
+            
+          </ul>
+
+          <hr class="hr--small">
+        </div>
+
+        
+
+        <nav class="medium-down--hide" role="navigation">
+          
+
+
+
+<ul class="site-nav" id="accessibleNav">
+  
+    
+
+    
+    
+      
+        <li class="site-nav--active">
+          <a href="/" class="site-nav__link site-nav__linknodrop">Home</a>
+        </li>
+      
+    
+  
+    
+
+    
+    
+      
+        <li >
+          <a href="/collections/all" class="site-nav__link site-nav__linknodrop">Products </a>
+        </li>
+      
+    
+  
+    
+
+    
+    
+      
+        <li >
+          <a href="/pages/faqs" class="site-nav__link site-nav__linknodrop">F.A.Q.s</a>
+        </li>
+      
+    
+  
+    
+
+    
+    
+      
+        <li >
+          <a href="/pages/track-my-order" class="site-nav__link site-nav__linknodrop">Track My Order</a>
+        </li>
+      
+    
+  
+  
+</ul>
+
+        </nav>
+
+      </div>
+    </header>
+
+    <main class="main-content" role="main">
+      <div class="wrapper">
+
+        
+
+
+  <div class="flexslider" data-auto="true" data-rate="7000">
+  <ul class="slides">
+
+    
+      
+      
+      
+      
+      
+    
+      
+      
+      
+      
+      
+        <li>
+          <a href="http://shopvoila.co/collections/all" class="slide-link">
+            <img src="//cdn.shopify.com/s/files/1/0895/7264/t/4/assets/slide_2.jpg?5087862947650198664" alt="slide_2_alt.jpg" />
+          </a>
+        </li>
+      
+    
+      
+      
+      
+      
+      
+        <li>
+          <a href="" class="slide-link">
+            <img src="//cdn.shopify.com/s/files/1/0895/7264/t/4/assets/slide_3.jpg?5087862947650198664" alt="slide_3_alt.jpg" />
+          </a>
+        </li>
+      
+    
+      
+      
+      
+      
+      
+    
+      
+      
+      
+      
+      
+    
+      
+      
+      
+      
+      
+    
+  </ul>
+</div>
+
+<script src="//cdn.shopify.com/s/files/1/0895/7264/t/4/assets/jquery.flexslider.js?5087862947650198664" type="text/javascript"></script>
+
+
+
+  <hr class="hr--clear">
+  
+
+
+
+<div class="section-header text-center">
+  <h2 class="section-header--title">Featured Products</h2>
+  
+</div>
+
+
+
+<div class="grid-uniform product-grid">
+  
+    <!-- snippets/product-grid-item.liquid -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grid-item medium-down--one-half large--one-quarter on-sale">
+  <div class="product-wrapper">
+    <a href="/products/love-you-locket-ring" class="product">
+      <img src="//cdn.shopify.com/s/files/1/0895/7264/products/Love_you_large.jpg?v=1441586443" alt="&quot;Love You&quot; Locket Ring" class="product__img">
+      <div class="product__cover"></div>
+      
+
+      <div class="product__details text-center">
+        <div class="table-contain">
+          <div class="table-contain__inner">
+            <p class="h4 product__title">"Love You" Locket Ring</p>
+            <p class="product__price">
+              
+              $ 13.59
+              
+                
+                <del>$ 16.99</del>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    
+    
+      <div class="on-sale-tag text-center">
+        <span class="tag">Sale</span>
+      </div>
+    
+    </a>
+  </div>
+</div>
+
+  
+    <!-- snippets/product-grid-item.liquid -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grid-item medium-down--one-half large--one-quarter on-sale">
+  <div class="product-wrapper">
+    <a href="/products/925-silver-rounded-cushion-ring" class="product">
+      <img src="//cdn.shopify.com/s/files/1/0895/7264/products/moissanite-halo-two-carat-ring-mjsz61763-200_large.jpg?v=1452894892" alt=".925 Sterling Silver Cushion Cut Ring" class="product__img">
+      <div class="product__cover"></div>
+      
+
+      <div class="product__details text-center">
+        <div class="table-contain">
+          <div class="table-contain__inner">
+            <p class="h4 product__title">.925 Sterling Silver Cushion Cut Ring</p>
+            <p class="product__price">
+              
+              $ 20.54
+              
+                
+                <del>$ 49.95</del>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    
+    
+      <div class="on-sale-tag text-center">
+        <span class="tag">Sale</span>
+      </div>
+    
+    </a>
+  </div>
+</div>
+
+  
+    <!-- snippets/product-grid-item.liquid -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grid-item medium-down--one-half large--one-quarter on-sale">
+  <div class="product-wrapper">
+    <a href="/products/princess-cut-ring" class="product">
+      <img src="//cdn.shopify.com/s/files/1/0895/7264/products/pcr_large.png?v=1451873083" alt="Cushion Cut Princess Ring" class="product__img">
+      <div class="product__cover"></div>
+      
+
+      <div class="product__details text-center">
+        <div class="table-contain">
+          <div class="table-contain__inner">
+            <p class="h4 product__title">Cushion Cut Princess Ring</p>
+            <p class="product__price">
+              
+              $ 19.95
+              
+                
+                <del>$ 28.95</del>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    
+    
+      <div class="on-sale-tag text-center">
+        <span class="tag">Sale</span>
+      </div>
+    
+    </a>
+  </div>
+</div>
+
+  
+    <!-- snippets/product-grid-item.liquid -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grid-item medium-down--one-half large--one-quarter on-sale last">
+  <div class="product-wrapper">
+    <a href="/products/elegant-crown-ring" class="product">
+      <img src="//cdn.shopify.com/s/files/1/0895/7264/products/Crown_ring_large.jpg?v=1442952554" alt="Elegant Queen Ring" class="product__img">
+      <div class="product__cover"></div>
+      
+
+      <div class="product__details text-center">
+        <div class="table-contain">
+          <div class="table-contain__inner">
+            <p class="h4 product__title">Elegant Queen Ring</p>
+            <p class="product__price">
+              
+              $ 13.95
+              
+                
+                <del>$ 18.99</del>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    
+    
+      <div class="on-sale-tag text-center">
+        <span class="tag">Sale</span>
+      </div>
+    
+    </a>
+  </div>
+</div>
+
+  
+
+  
+    
+      <!-- snippets/product-grid-item.liquid -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grid-item medium-down--one-half large--one-quarter on-sale">
+  <div class="product-wrapper">
+    <a href="/products/white-elephant-piece" class="product">
+      <img src="//cdn.shopify.com/s/files/1/0895/7264/products/Voila3_large.jpg?v=1444962135" alt="Elephant Piece" class="product__img">
+      <div class="product__cover"></div>
+      
+
+      <div class="product__details text-center">
+        <div class="table-contain">
+          <div class="table-contain__inner">
+            <p class="h4 product__title">Elephant Piece</p>
+            <p class="product__price">
+              
+              $ 17.99
+              
+                
+                <del>$ 39.99</del>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    
+    
+      <div class="on-sale-tag text-center">
+        <span class="tag">Sale</span>
+      </div>
+    
+    </a>
+  </div>
+</div>
+
+    
+      <!-- snippets/product-grid-item.liquid -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grid-item medium-down--one-half large--one-quarter on-sale last">
+  <div class="product-wrapper">
+    <a href="/products/elephant-ring" class="product">
+      <img src="//cdn.shopify.com/s/files/1/0895/7264/products/Baby-Elephant-Rings-Retro-Anel-Aneis-Burnished-Animal-Ring-Vintage-Jewelry-Adjustable-Free-Size-Ring-Black_large.jpg?v=1444535873" alt="Elephant Ring" class="product__img">
+      <div class="product__cover"></div>
+      
+
+      <div class="product__details text-center">
+        <div class="table-contain">
+          <div class="table-contain__inner">
+            <p class="h4 product__title">Elephant Ring</p>
+            <p class="product__price">
+              
+              $ 14.25
+              
+                
+                <del>$ 23.95</del>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    
+    
+      <div class="on-sale-tag text-center">
+        <span class="tag">Sale</span>
+      </div>
+    
+    </a>
+  </div>
+</div>
+
+    
+  
+</div>
+
+
+
+
+
+
+
+      </div>
+
+      <footer class="site-footer small--text-center medium--text-center" role="contentinfo">
+
+        <div class="wrapper">
+
+          <hr class="hr--clear large--hide">
+
+          
+          
+                    
+                    
+          
+          
+          
+          
+            <div class=" text-center">
+
+            
+
+            
+            
+              
+
+                <hr class="hr--clear large--hide">
+
+                <h5>Get Connected</h5>
+
+                
+
+                
+
+                  
+                  <ul class="inline-list social-icons">
+                    
+                      <li>
+                        <a class="icon-fallback-text" href="https://twitter.com/voilaco" title="Voilà Co on Twitter">
+                          <span class="icon icon-twitter" aria-hidden="true"></span>
+                          <span class="fallback-text">Twitter</span>
+                        </a>
+                      </li>
+                    
+                    
+                      <li>
+                        <a class="icon-fallback-text" href="https://facebook.com/voilaco" title="Voilà Co on Facebook">
+                          <span class="icon icon-facebook" aria-hidden="true"></span>
+                          <span class="fallback-text">Facebook</span>
+                        </a>
+                      </li>
+                    
+                    
+                    
+                    
+                      <li>
+                        <a class="icon-fallback-text" href="https://instagram.com/voila.co" title="Voilà Co on Instagram">
+                          <span class="icon icon-instagram" aria-hidden="true"></span>
+                          <span class="fallback-text">Instagram</span>
+                        </a>
+                      </li>
+                    
+                    
+                    
+                    
+                    
+                  </ul>
+
+                
+
+              
+            
+            
+
+            </div>
+          
+          
+
+          <hr class="hr--clear">
+
+          
+            <div class="grid">
+              <div class="grid-item medium--two-thirds push--medium--one-sixth large--one-half push--large--one-quarter nav-search">
+                
+
+<label class="form-label--hidden">
+  <span class="visuallyhidden">Search our store</span>
+</label>
+<form action="/search" method="get" class="input-group search-bar" role="search">
+  
+  <input type="search" name="q" value="" placeholder="Search our store" class="input-group-field" aria-label="Search our store">
+  <span class="input-group-btn">
+    <button type="submit" class="btn icon-fallback-text">
+      <span class="icon icon-search" aria-hidden="true"></span>
+      <span class="fallback-text">Search</span>
+    </button>
+  </span>
+</form>
+
+              </div>
+            </div>
+          
+
+          <div class="text-center">
+            
+          </div>
+
+          
+          
+          <ul class="inline-list payment-icons text-center">
+            
+              <li>
+                <span class="icon-fallback-text">
+                  <span class="icon icon-american_express" aria-hidden="true"></span>
+                  <span class="fallback-text">american express</span>
+                </span>
+              </li>
+            
+              <li>
+                <span class="icon-fallback-text">
+                  <span class="icon icon-diners_club" aria-hidden="true"></span>
+                  <span class="fallback-text">diners club</span>
+                </span>
+              </li>
+            
+              <li>
+                <span class="icon-fallback-text">
+                  <span class="icon icon-discover" aria-hidden="true"></span>
+                  <span class="fallback-text">discover</span>
+                </span>
+              </li>
+            
+              <li>
+                <span class="icon-fallback-text">
+                  <span class="icon icon-jcb" aria-hidden="true"></span>
+                  <span class="fallback-text">jcb</span>
+                </span>
+              </li>
+            
+              <li>
+                <span class="icon-fallback-text">
+                  <span class="icon icon-master" aria-hidden="true"></span>
+                  <span class="fallback-text">master</span>
+                </span>
+              </li>
+            
+              <li>
+                <span class="icon-fallback-text">
+                  <span class="icon icon-paypal" aria-hidden="true"></span>
+                  <span class="fallback-text">paypal</span>
+                </span>
+              </li>
+            
+              <li>
+                <span class="icon-fallback-text">
+                  <span class="icon icon-visa" aria-hidden="true"></span>
+                  <span class="fallback-text">visa</span>
+                </span>
+              </li>
+            
+          </ul>
+          
+
+          <div class="text-center">
+            <small>
+              Copyright &copy; 2016 Voilà Co | <a target="_blank" rel="nofollow" href="https://www.shopify.com">Powered by Shopify</a><br>
+            </small>
+          </div>
+
+        </div>
+
+      </footer>
+
+
+    </main>
+
+    
+    <script src="//cdn.shopify.com/s/files/1/0895/7264/t/4/assets/shop.js?5087862947650198664" type="text/javascript"></script>
+
+    
+    
+      <script src="//cdn.shopify.com/s/files/1/0895/7264/t/4/assets/handlebars.min.js?5087862947650198664" type="text/javascript"></script>
+      
+  <script id="cartTemplate" type="text/template">
+
+  <h1 class="text-center">Your Cart</h1>
+
+  
+    <form action="/cart" method="post" novalidate>
+      <div class="ajaxifyCart--products">
+        {{#items}}
+        <div class="cart__row" data-id="{{id}}">
+          <div class="grid">
+            <div class="grid-item medium--two-fifths large--one-fifth text-center">
+              <a href="{{url}}" class="ajaxCart--product-image"><img src="{{img}}" alt=""></a>
+
+              <p class="cart__remove"><a href="/cart/change?id={{id}}&amp;quantity=0" class="ajaxifyCart--remove" data-id="{{id}}"><span class="icon icon-cross2" aria-hidden="true"></span> Remove</a></p>
+            </div>
+            <div class="grid-item medium--three-fifths large--four-fifths">
+              <p class="cart__product"><a href="{{ url }}">
+                {{name}}
+              </a>
+              <br><small>{{ variation }}</small></p>
+
+              <div class="grid">
+
+                <div class="grid-item one-half">
+                  <span class="cart__mini-labels">QTY</span>
+                  <div class="ajaxifyCart--qty">
+                    <input type="text" name="updates[]" class="ajaxifyCart--num" value="{{itemQty}}" min="0" data-id="{{id}}" aria-label="quantity" pattern="[0-9]*">
+                    <span class="ajaxifyCart--qty-adjuster ajaxifyCart--add" data-id="{{id}}" data-qty="{{itemAdd}}"><span class="add">+</span></span>
+                    <span class="ajaxifyCart--qty-adjuster ajaxifyCart--minus" data-id="{{id}}" data-qty="{{itemMinus}}"><span class="minus">-</span></span>
+                  </div>
+                </div>
+
+                <div class="grid-item one-half text-right">
+                  <span class="cart__mini-labels">Total</span>
+                  <p>{{ price }}</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        {{/items}}
+      </div>
+
+      <div class="cart__row text-center large--text-right">
+        
+        <h6>Subtotal
+        
+        <span class="cart__subtotal">{{ totalPrice }}</span></h6>
+      </div>
+
+      <div class="cart__row">
+        <div class="grid">
+
+          
+          
+          
+
+          <div class="grid-item text-center large--text-right ">
+
+            <input type="submit" class="{{btnClass}}" name="checkout" value="Checkout">
+
+          </div>
+
+        </div>
+      </div>
+    </form>
+  
+  </script>
+  <script id="drawerTemplate" type="text/template">
+  
+    <div id="ajaxifyDrawer" class="ajaxify-drawer">
+      <div id="ajaxifyCart" class="ajaxifyCart--content {{wrapperClass}}"></div>
+    </div>
+  
+  </script>
+  <script id="modalTemplate" type="text/template">
+  
+    <div id="ajaxifyModal" class="ajaxify-modal">
+      <div id="ajaxifyCart" class="ajaxifyCart--content"></div>
+    </div>
+  
+  </script>
+  <script id="ajaxifyQty" type="text/template">
+  
+    <div class="ajaxifyCart--qty">
+      <input type="text" class="ajaxifyCart--num" value="{{itemQty}}" min="0" data-id="{{id}}" aria-label="quantity" pattern="[0-9]*">
+      <span class="ajaxifyCart--qty-adjuster ajaxifyCart--add" data-id="{{id}}" data-qty="{{itemAdd}}"><span class="add">+</span></span>
+      <span class="ajaxifyCart--qty-adjuster ajaxifyCart--minus" data-id="{{id}}" data-qty="{{itemMinus}}"><span class="minus">-</span></span>
+    </div>
+  
+  </script>
+  <script id="jsQty" type="text/template">
+  
+    <div class="js-qty">
+      <input type="text" class="js--num" value="{{itemQty}}" min="1" data-id="{{id}}" aria-label="quantity" pattern="[0-9]*" name="{{inputName}}" id="{{inputId}}">
+      <span class="js--qty-adjuster js--add" data-id="{{id}}" data-qty="{{itemAdd}}"><span class="add">+</span></span>
+      <span class="js--qty-adjuster js--minus" data-id="{{id}}" data-qty="{{itemMinus}}"><span class="minus">-</span></span>
+    </div>
+  
+  </script>
+
+      <script src="//cdn.shopify.com/s/files/1/0895/7264/t/4/assets/ajaxify.js?5087862947650198664" type="text/javascript"></script>
+      <script>
+      jQuery(function($) {
+        ajaxifyShopify.init({
+          method: 'drawer',
+          wrapperClass: 'wrapper',
+          formSelector: '#addToCartForm',
+          addToCartSelector: '#addToCart',
+          cartCountSelector: '#cartCount',
+          cartCostSelector: '#cartCost',
+          toggleCartButton: '.cart-toggle',
+          btnClass: 'btn',
+          moneyFormat: "$ {{amount}}"
+        });
+      });
+      </script>
+    
+
+    
+
+  </div>
+
+</body>
+</html>

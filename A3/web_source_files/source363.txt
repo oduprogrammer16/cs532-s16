@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7 not-logged-in "> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8 not-logged-in "> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9 not-logged-in "> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js not-logged-in "> <!--<![endif]-->
+    <head>
+        
+    <script type="text/javascript">window._timings = {"domLoading": Date.now()}</script>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>
+Instagram
+</title>
+
+        <script type="text/javascript">
+  WebFontConfig = {
+    custom: {
+      families: ['proxima-nova:n3,n4,n6,n7'],
+    }
+  };
+</script>
+<script src="//instagramstatic-a.akamaihd.net/h1/scripts/webfont.js/c0456c81549b.js" type="text/javascript" async></script>
+
+<style type="text/css">
+  /* @license
+   * MyFonts Webfont Build ID 2164953, 2012-03-23T23:06:30-0400
+   *
+   * The fonts listed in this notice are subject to the End User License
+   * Agreement(s) entered into by the website owner. All other parties are
+   * explicitly restricted from using the Licensed Webfonts(s).
+   *
+   * You may obtain a valid license at the URLs below.
+   *
+   *
+   * Webfont: Proxima Nova Light by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/light/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Regular by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Semibold by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/semibold/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Bold Italic by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold-it/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Bold by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Italic by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular-it/
+   * Licensed pageviews: unlimited
+   *
+   *
+   * License: http://www.myfonts.com/viewlicense?type=web&buildid=2164953
+   * Webfonts copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+   *
+   * (c) 2012 Bitstream Inc
+   */
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.eot/115b1f7f9c04.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.eot/115b1f7f9c04.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.woff/618250d25a4d.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.ttf/646346e03084.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.svg/e55a9d6051e8.svg#ProximaNovaBold') format("svg");
+    font-weight: bold;
+    font-style: normal; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.eot/1cbb869da891.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.eot/1cbb869da891.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.woff/b1cf049474c9.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.ttf/3adb020ceae3.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.svg/29948a2d3c58.svg#ProximaNovaBoldItalic') format("svg");
+    font-weight: bold;
+    font-style: italic; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.eot/12af77715cee.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.eot/12af77715cee.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.woff/a9a9773b8e29.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.ttf/99e19808976a.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.svg/c33d2fd56309.svg#ProximaNovaRegular') format("svg");
+    font-weight: normal;
+    font-style: normal; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.eot/1bbbd1312b0d.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.eot/1bbbd1312b0d.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.woff/9e306befca91.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.ttf/4a8663684135.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.svg/876278d4b189.svg#ProximaNovaRegularItalic') format("svg");
+    font-weight: normal;
+    font-style: italic; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.eot/5016edf79e1d.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.eot/5016edf79e1d.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.woff/615c1b06d8fa.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.ttf/2973bd483f7a.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.svg/868597833e49.svg#ProximaNovaSemibold') format("svg");
+    font-weight: 600;
+    font-style: normal; }
+</style>
+
+  <style type="text/css">
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.eot/63c84728610f.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.eot/63c84728610f.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.woff/66bbe029f180.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.ttf/eb408516399b.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.svg/858f6a9b7ef3.svg#ProximaNovaLight') format("svg");
+    font-weight: 300;
+    font-style: normal; }
+</style>
+
+
+        
+    
+        <meta name="robots" content="noimageindex">
+        
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+        
+    <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+
+        <script type="text/javascript">
+        (function() {
+            var docElement = document.documentElement;
+            var classRE = new RegExp('(^|\\s)no-js(\\s|$)');
+            var className = docElement.className;
+            docElement.className = className.replace(classRE, '$1js$2');
+        })();
+        </script>
+
+        
+    
+    
+    
+        <link rel="Shortcut Icon" type="image/x-icon" href="//instagramstatic-a.akamaihd.net/h1/images/ico/favicon.ico/7cdab0872b15.ico"><link rel="mask-icon" href="//instagramstatic-a.akamaihd.net/h1/images/ico/favicon.svg/dfde15ef1533.svg" color="#125688">
+    
+    
+        <link rel="apple-touch-icon-precomposed" href="//instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-precomposed.png/29d68fc587d7.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="//instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-72x72-precomposed.png/3f5e04d85488.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="//instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-114x114-precomposed.png/29d68fc587d7.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="//instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-144x144-precomposed.png/52fcc0fc09e4.png">
+    
+    
+    
+
+    
+    
+    <link rel="canonical" href="https://www.instagram.com/p/BBiIx3BOWjl/" />
+    <meta content="“#jai #juzjai #jaikumarnair #love #dance #choreographer #performer #artist #celebrity #friends #mumbai #india #bollywood”" name="description" />
+    <meta property="og:site_name" content="Instagram" />
+    <meta property="og:title" content="Jai Kumar Nair Official® on Instagram: “#jai #juzjai #jaikumarnair #love #dance #choreographer #performer #artist #celebrity #friends #mumbai #india #bollywood”" />
+    <meta property="og:image" content="https://scontent.cdninstagram.com/t51.2885-15/s750x750/sh0.08/e35/12446178_1742059846026373_853469505_n.jpg?ig_cache_key=MTE4MDU0NDY2MzAyNzI4MDEwMQ%3D%3D.2" />
+    <meta property="og:description" content="“#jai #juzjai #jaikumarnair #love #dance #choreographer #performer #artist #celebrity #friends #mumbai #india #bollywood”" />
+    <meta property="fb:app_id" content="124024574287414" />
+    <meta property="og:url" content="https://www.instagram.com/p/BBiIx3BOWjl/" />
+    <meta property="instapp:owner_user_id" content="263478673" />
+    <meta property="al:ios:app_name" content="Instagram" />
+    <meta property="al:ios:app_store_id" content="389801252" />
+    <meta property="al:ios:url" content="instagram://media?id=1180544663027280101" />
+    <meta property="al:android:app_name" content="Instagram" />
+    <meta property="al:android:package" content="com.instagram.android" />
+    <meta property="al:android:url" content="https://www.instagram.com/p/BBiIx3BOWjl/" />
+    
+    <meta name="medium" content="image" />
+    <meta property="og:type" content="instapp:photo" />
+    <meta content="performer" property="instapp:hashtags" /><meta content="love" property="instapp:hashtags" /><meta content="choreographer" property="instapp:hashtags" /><meta content="artist" property="instapp:hashtags" /><meta content="dance" property="instapp:hashtags" /><meta content="bollywood" property="instapp:hashtags" /><meta content="celebrity" property="instapp:hashtags" /><meta content="mumbai" property="instapp:hashtags" /><meta content="india" property="instapp:hashtags" /><meta content="jaikumarnair" property="instapp:hashtags" /><meta content="jai" property="instapp:hashtags" /><meta content="friends" property="instapp:hashtags" /><meta content="juzjai" property="instapp:hashtags" />
+
+    <link rel="alternate" href="android-app://com.instagram.android/https/instagram.com/p/BBiIx3BOWjl/" />
+    
+    <link href="https://www.instagram.com/p/BBiIx3BOWjl/" rel="alternate" hreflang="x-default" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=el" rel="alternate" hreflang="el" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=gu" rel="alternate" hreflang="gu" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=en" rel="alternate" hreflang="en" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=af" rel="alternate" hreflang="af" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=vi" rel="alternate" hreflang="vi" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=it" rel="alternate" hreflang="it" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=kn" rel="alternate" hreflang="kn" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=pt-br" rel="alternate" hreflang="pt-br" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=cs" rel="alternate" hreflang="cs" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=id" rel="alternate" hreflang="id" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=es" rel="alternate" hreflang="es" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=ru" rel="alternate" hreflang="ru" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=nl" rel="alternate" hreflang="nl" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=pt" rel="alternate" hreflang="pt" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=zh-tw" rel="alternate" hreflang="zh-tw" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=nb" rel="alternate" hreflang="nb" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=tr" rel="alternate" hreflang="tr" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=ne" rel="alternate" hreflang="ne" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=zh-cn" rel="alternate" hreflang="zh-cn" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=tl" rel="alternate" hreflang="tl" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=pa" rel="alternate" hreflang="pa" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=th" rel="alternate" hreflang="th" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=te" rel="alternate" hreflang="te" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=pl" rel="alternate" hreflang="pl" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=ta" rel="alternate" hreflang="ta" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=fr" rel="alternate" hreflang="fr" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=hr" rel="alternate" hreflang="hr" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=bn" rel="alternate" hreflang="bn" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=de" rel="alternate" hreflang="de" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=da" rel="alternate" hreflang="da" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=hi" rel="alternate" hreflang="hi" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=fi" rel="alternate" hreflang="fi" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=hu" rel="alternate" hreflang="hu" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=ja" rel="alternate" hreflang="ja" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=ml" rel="alternate" hreflang="ml" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=ko" rel="alternate" hreflang="ko" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=sv" rel="alternate" hreflang="sv" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=ur" rel="alternate" hreflang="ur" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=sk" rel="alternate" hreflang="sk" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=si" rel="alternate" hreflang="si" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=ms" rel="alternate" hreflang="ms" />
+<link href="https://www.instagram.com/p/BBiIx3BOWjl/?hl=mr" rel="alternate" hreflang="mr" />
+    
+
+    </head>
+    <body class="">
+        
+    
+    <span id="react-root"></span>
+
+    
+
+        
+    <script src=//instagramstatic-a.akamaihd.net/h1/scripts/polyfills/es5-shim.min.js/6514c5e08593.js></script>
+<script src=//instagramstatic-a.akamaihd.net/h1/scripts/polyfills/es5-sham.min.js/fc3c22cf2d67.js></script>
+<script type="text/javascript">window._sharedData = {"country_code":"US","language_code":"en","gatekeepers":{"rhp":true},"qs":"{\"shift\":10,\"header\":\"0BScVxCOcN8AtxflvyJ2ZsldM7fba0lY\",\"edges\":100,\"blob\":\"AQBNYuOduiIt0XniuL7Q6-EvkEeaTDQ4gPwlfxpQJhzJ7IJucU7StMsnRCHpRG1yv2DzC2jnWk6S06c_8jIARTyukWUZ_Ab50Dzqstua6Jbsf9AX-IVpQeGvdM8Z0xCYXyuDU7cblL6PyzRBmBwo0duBA1yDlaXFZJImrMEASaruVh4Yzp4cG2Wx-sYiCtkmoktULzQAhoXx5nbU5pHQIxkJp9A493rRYFmpnbAzWQqI1g\",\"iterations\":7,\"size\":42}","static_root":"\/\/instagramstatic-a.akamaihd.net\/bluebar\/b2908ed","platform":"web","hostname":"www.instagram.com","entry_data":{"PostPage":[{"media":{"code":"BBiIx3BOWjl","date":1454951912.0,"dimensions":{"width":750,"height":750},"usertags":{"nodes":[]},"comments":{"count":14,"page_info":{"has_previous_page":false,"start_cursor":"1180550087512254579","end_cursor":"1186034853653081007","has_next_page":false},"nodes":[{"text":"I wanna cm \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d","created_at":1454952558,"id":"1180550087512254579","user":{"username":"shangetha2108","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12331711_1117920951582909_2034123461_a.jpg","id":"1913204095"}},{"text":"Where is it","created_at":1454952977,"id":"1180553598790625451","user":{"username":"ankit.moraskar","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12558632_181485692219631_654503000_a.jpg","id":"2111385593"}},{"text":"@nsangha","created_at":1454953123,"id":"1180554823586114057","user":{"username":"puja1091","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/10844022_1538283696418866_128741412_a.jpg","id":"16417489"}},{"text":"@Talnts","created_at":1454953816,"id":"1180560634374875145","user":{"username":"talntsrecruit","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/10843844_689027481196565_155395775_a.jpg","id":"998763064"}},{"text":"when is it?","created_at":1454954044,"id":"1180562549116594653","user":{"username":"twinkle.kapoor","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/10623689_1684848108438011_764518143_a.jpg","id":"1820119378"}},{"text":"When is it @jaikumarnair","created_at":1454958675,"id":"1180601397708155109","user":{"username":"madridia_iq","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11333443_1696576643910118_379451665_a.jpg","id":"2044669469"}},{"text":"When it is","created_at":1454959905,"id":"1180611711669463813","user":{"username":"divya_hotchandani_","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/12599228_1064776320241473_790844733_a.jpg","id":"2369680102"}},{"text":"I wannnaa cm","created_at":1454959912,"id":"1180611771648011066","user":{"username":"divya_hotchandani_","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/12599228_1064776320241473_790844733_a.jpg","id":"2369680102"}},{"text":"Hope this will be in april","created_at":1454959949,"id":"1180612081774848074","user":{"username":"divya_hotchandani_","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/12599228_1064776320241473_790844733_a.jpg","id":"2369680102"}},{"text":"All the best \ud83d\ude4c\ud83d\ude4c","created_at":1455023037,"id":"1181141302251186272","user":{"username":"tootaibrahiem","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/12547280_1522263988075012_1356575809_a.jpg","id":"1656488426"}},{"text":"All the best jai \ud83d\udcaa\ud83d\ude4c\ud83d\ude4c","created_at":1455240929,"id":"1182969114796845858","user":{"username":"iamislam91","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12338878_1678858642370988_1303899112_a.jpg","id":"2282019280"}},{"text":"allllllllll the best Jai :*","created_at":1455301726,"id":"1183479114128517153","user":{"username":"danah_suju","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11142850_1419301811712115_1777556453_a.jpg","id":"532568174"}},{"text":"Tum jaha ho o dance camp ko to best honai paraga, all the best jai","created_at":1455606348,"id":"1186034472676060063","user":{"username":"gautamishreya","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12716933_742969322472013_1540200290_a.jpg","id":"2937736904"}},{"text":"Kaha horahaha ia camp","created_at":1455606393,"id":"1186034853653081007","user":{"username":"gautamishreya","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12716933_742969322472013_1540200290_a.jpg","id":"2937736904"}}]},"id":"1180544663027280101","caption":"#jai #juzjai #jaikumarnair #love #dance #choreographer #performer #artist #celebrity #friends #mumbai #india #bollywood","likes":{"count":540,"viewer_has_liked":false,"nodes":[{"user":{"username":"gautamishreya","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12716933_742969322472013_1540200290_a.jpg","id":"2937736904"}},{"user":{"username":"tot.princess","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12729500_728745163929196_964959438_a.jpg","id":"2921730050"}},{"user":{"username":"fatimaloveba","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12568783_1267156549965138_130856067_a.jpg","id":"2878233635"}},{"user":{"username":"bhovishka97","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12407197_1646029635658439_47139316_a.jpg","id":"2909034748"}},{"user":{"username":"shimaa.skcs1","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12568932_184240805276985_773504844_a.jpg","id":"2935569714"}},{"user":{"username":"madridiyako_ko","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12677183_177070755998880_1803901639_a.jpg","id":"2940131764"}},{"user":{"username":"dimplejarwal","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12568995_1699669163636855_229509941_a.jpg","id":"2860355415"}},{"user":{"username":"krish_d_chauhan","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12545372_961870357235341_463423406_a.jpg","id":"2900642937"}},{"user":{"username":"smit_patel_1999","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12547737_1689517961317934_186487684_a.jpg","id":"2908376538"}},{"user":{"username":"marwa.remili.23","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12552336_944715468917581_992926561_a.jpg","id":"2868978492"}}]},"owner":{"username":"jaikumarnair","is_unpublished":false,"requested_by_viewer":false,"followed_by_viewer":false,"blocked_by_viewer":false,"profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/1170055_172258946471157_1080713533_a.jpg","full_name":"Jai Kumar Nair Official\u00ae","has_blocked_viewer":false,"id":"263478673","is_private":false},"is_video":false,"is_ad":false,"display_src":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/s750x750\/sh0.08\/e35\/12446178_1742059846026373_853469505_n.jpg?ig_cache_key=MTE4MDU0NDY2MzAyNzI4MDEwMQ%3D%3D.2","location":{"has_public_page":true,"id":"35352543","name":"The Sky Lounge, Sheesha Gold,"}}}]},"qe":{"nav":{"p":{},"g":""},"su":{"p":{},"g":""},"discovery":{"p":{},"g":""}},"display_properties_server_guess":{"viewport_width":360,"pixel_ratio":1.5},"config":{"viewer":null,"csrf_token":"ccb1195c969bb293259ee5e19ceb9a30"},"environment_switcher_visible_server_guess":true};</script>
+<script src="//instagramstatic-a.akamaihd.net/h1/bundles/en_US_Commons.js/3c52a0a63b2c.js" type="text/javascript"></script>
+<script src="//instagramstatic-a.akamaihd.net/h1/bundles/en_US_PostPage.js/8fcc50bee964.js" type="text/javascript"></script>
+        
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1425767024389221');
+fbq('track', 'PageView');
+
+
+</script>
+<noscript>
+
+
+</noscript>
+
+    
+    <script type="text/javascript">window._timings.domInteractive = Date.now()</script>
+
+    </body>
+</html>

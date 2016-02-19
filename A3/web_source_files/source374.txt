@@ -1,0 +1,1229 @@
+<!DOCTYPE html> 
+<html lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="generator" content="WordPress 4.4.2" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+     
+	<title>BienFest</title>
+     
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="http://bienfest.com/wp-content/uploads/2016/01/bienfest.ico">
+	<!-- RSS FEED -->
+	<link rel="alternate" type="application/rss+xml" title="RSS2.0" href="http://bienfest.com/feed/" />
+
+	<!-- PING BACK -->
+	<link rel="pingback" href="http://bienfest.com/xmlrpc.php" />
+    	
+	<!-- WP headers -->
+	<link rel="alternate" type="application/rss+xml" title="BienFest &raquo; Feed" href="http://bienfest.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="BienFest &raquo; Comments Feed" href="http://bienfest.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/bienfest.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap_css-css'  href='http://bienfest.com/wp-content/themes/essenza/css/bootstrap/bootstrap.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='font_awesome-css'  href='http://bienfest.com/wp-content/themes/essenza/css/font_awesome/font-awesome.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='essenza_icons-css'  href='http://bienfest.com/wp-content/themes/essenza/css/essenza_icons/pq-icon-font.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='main_css-css'  href='http://bienfest.com/wp-content/themes/essenza/css/main.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='essenza_google_fonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C300italic%2Cregular%2Citalic%2C600%2C700%2C800%7CPT+Sans%3Aregular%2Citalic%2C700%2C700italic%7CMontserrat%3Aregular%2C700&#038;subset=latin&#038;ver=4.4.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://bienfest.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://bienfest.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var directory = {"path":"http:\/\/bienfest.com\/wp-content\/themes\/essenza\/swf"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://bienfest.com/wp-content/themes/essenza/js/other/soundmanager2.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://bienfest.com/wp-content/themes/essenza/js/jquery/jquery.easing.1.3.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://bienfest.com/wp-content/themes/essenza/js/jquery/jquery.mobile.vmouse.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://bienfest.com/wp-content/themes/essenza/js/jquery/jquery.mousewheel.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://bienfest.com/wp-content/themes/essenza/js/other/modernizr.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://bienfest.com/wp-content/themes/essenza/js/utils/utils.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://bienfest.com/wp-content/themes/essenza/js/utils/knob.js?ver=4.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var directory = {"path":"http:\/\/bienfest.com\/wp-content\/themes\/essenza\/js","cover_menu":"false","esza_portfolio_title_font_size_max":"37","esza_portfolio_title_font_size_min":"25","esza_submenu_alignment":"left","esza_submenu_start_opacity":"100","esza_submenu_start_vertical_offset":"5","esza_submenu_animation_duration":"0.3","esza_submenu_indication":"true","esza_submenu_indication_icon":"fa-angle-down","esza_menu_min_margin":"30","esza_disable_ajax":"true","esza_url":"http:\/\/bienfest.com"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://bienfest.com/wp-content/themes/essenza/js/Essenza-built.js?ver=4.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var vars = {"php_self":"\/index.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://bienfest.com/wp-content/themes/essenza/js/other/writePixelRatioCookie.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://bienfest.com/wp-content/themes/essenza/js/apis/video.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://bienfest.com/wp-content/themes/essenza/js/apis/twitter.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://bienfest.com/wp-content/themes/essenza/js/other/respond.min.js?ver=4.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var vars = {"app_id":"388175614613292","channel":"http:\/\/bienfest.com\/wp-content\/themes\/essenza\/channel.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://bienfest.com/wp-content/themes/essenza/js/apis/facebook.js?ver=4.4.2'></script>
+<link rel='https://api.w.org/' href='http://bienfest.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://bienfest.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://bienfest.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<link rel="canonical" href="http://bienfest.com/" />
+<link rel='shortlink' href='http://bienfest.com/' />
+	<style type="text/css">
+		body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#header .menu li a {
+  border-radius: 20px;
+  padding: 6px 14px;
+  transition: all 0.3s ease;
+}
+#header .menu li a:hover {
+  color: #fff;
+}
+#header .menu li:first-child a:hover {
+  background-color: #6a63a8;
+}
+#header .menu li:nth-child(2) a:hover {
+  background-color: #f26d80;
+}
+#header .menu li:nth-child(3) a:hover {
+  background-color: #f7912d;
+}
+#header .menu li:nth-child(4) a:hover {
+  background-color: #2fb34c;
+}
+#header .menu li:nth-child(4) a {
+  border: 2px #2fb34c solid;
+}
+span.countdown_amount {
+  text-shadow: none !important;
+  box-shadow: 1px 1px 1px rgba(4,4,4,0.15) !important;
+}
+span.countdown_section {
+  padding-right: 0px !important;
+  margin-right: 10px !important;
+}
+span.countdown_txt {
+  color: #869ba8 !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+}
+.homepage-header {
+  background: #cad4da url("/wp-content/uploads/2016/01/header-bg.jpg") no-repeat center bottom;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.bottom-left {
+  color: #869ba8;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+@media (max-width: 767px) {
+  .bottom-left {
+    text-align: center;
+  }
+}
+.bottom-right {
+  padding-bottom: 25px;
+}
+@media (max-width: 767px) {
+  .bottom-right {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+  }
+  .bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+  }
+}
+@media (min-width: 1300px) {
+  .bottom-left {
+    left: 0;
+  }
+  .bottom-right {
+    right: 0;
+  }
+}
+.shares {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.shares * {
+  box-sizing: content-box;
+}
+.social_video {
+  background: url("/wp-content/uploads/2016/01/video-bg.jpg") no-repeat top center;
+  background-attachment: fixed;
+  min-height: 300px;
+}
+.social_video iframe {
+  position: relative;
+  z-index: 30;
+}
+.social_video .close_button {
+  z-index: 30;
+}
+.video-home-logos,
+.video-home-text {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  text-align: center;
+}
+.video-home-logos {
+  top: 50px;
+}
+@media (max-width: 991px) {
+  .video-home-logos {
+    top: 15px;
+  }
+  .video-home-logos img {
+    max-height: 90px;
+  }
+}
+.video-home-text {
+  bottom: 50px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+@media (max-width: 991px) {
+  .video-home-text {
+    bottom: 15px;
+    font-size: 12px;
+  }
+  .video-home-text br {
+    display: none;
+  }
+}
+.video-home-text b {
+  display: block;
+  color: #f7912d;
+}
+.bienstar-icons-header {
+  color: #bccad4;
+  font-size: 48px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  margin-top: 20px !important;
+  line-height: 1.2;
+}
+@media (max-width: 767px) {
+  .bienstar-icons-header {
+    font-size: 36px;
+  }
+}
+.bienstar-icons {
+  display: inline;
+  margin: 0 auto;
+}
+.bienstar-icons:hover li p span {
+  color: #2fb34c;
+}
+.bienstar-icons li {
+  display: inline-block;
+  margin: 8px 6px !important;
+  border: none;
+  padding: 0;
+  text-align: center;
+  vertical-align: top;
+}
+.bienstar-icons li div {
+  padding: 8px;
+  border-radius: 50%;
+  border: 1px #cbd4da solid;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+@media (max-width: 767px) {
+  .bienstar-icons li div img {
+    width: 60px;
+    height: 60px;
+  }
+}
+.bienstar-icons li p {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #8799a3;
+  margin: 0;
+  padding: 0;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+@media (max-width: 767px) {
+  .bienstar-icons li p {
+    font-size: 12px;
+    max-width: 76px;
+  }
+}
+.bienstar-icons li a {
+  text-transform: uppercase;
+  color: #8799a3;
+}
+.wave-left,
+.wave-right {
+  min-height: 436px;
+  background-color: #2a76b7;
+}
+.wave-left {
+  background-image: url("/wp-content/uploads/2016/01/waves.jpg");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+@media (max-width: 991px) {
+  .wave-left {
+    min-height: 200px;
+    background-size: cover;
+  }
+}
+.wave-left:before {
+  content: '';
+  display: block;
+  width: 119px;
+  height: 143px;
+  position: absolute;
+  top: 25px;
+  right: -31px;
+  background: url("/wp-content/uploads/2016/01/waves-bird-e1453747125328.png");
+  z-index: 9;
+}
+@media (max-width: 991px) {
+  .wave-left:before {
+    right: 50%;
+    margin-right: -60px;
+  }
+}
+.wave-left:after {
+  content: '';
+  display: block;
+  width: 59px;
+  height: 25px;
+  position: absolute;
+  bottom: 0;
+  right: -30px;
+  background: url("/wp-content/uploads/2016/01/waves-triangle.png");
+  z-index: 20;
+}
+@media (max-width: 991px) {
+  .wave-left:after {
+    display: none;
+  }
+}
+.wave-right {
+  background-image: url("/wp-content/uploads/2016/01/waves-blur.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 40px 15px;
+}
+@media (max-width: 991px) {
+  .wave-right {
+    min-height: 0;
+  }
+}
+@media (min-width: 992px) {
+  .wave-right {
+    padding: 50px 60px 10px 100px !important;
+  }
+}
+.wave-right h3 {
+  font-size: 36px;
+  font-weight: 400;
+  color: #b8daf3;
+  padding-top: 15px;
+  line-height: 1.2;
+  padding-bottom: 10px;
+}
+@media (max-width: 767px) {
+  .wave-right h3 {
+    font-size: 26px;
+  }
+}
+.wave-right p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.fruits {
+  background-color: #f1f4f6;
+  padding: 60px 0 40px;
+}
+@media (max-width: 991px) {
+  .fruits {
+    padding-bottom: 0;
+    padding-top: 40px;
+  }
+}
+.fruits-left {
+  padding-bottom: 15px;
+}
+.fruits-left h3 {
+  font-size: 36px;
+  font-weight: 300;
+  color: #b35ba1;
+  padding-bottom: 15px;
+}
+@media (max-width: 767px) {
+  .fruits-left h3 {
+    font-size: 26px;
+  }
+}
+.fruits-left ul li {
+  font-size: 16px;
+  border: none;
+  font-weight: 400;
+  color: #8799a3;
+  line-height: 1.1;
+}
+.fruits-right {
+  position: static;
+  text-align: center;
+  padding: 0 0 0 10px !important;
+}
+@media (min-width: 992px) {
+  .fruits-right img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 52%;
+  }
+}
+.cta-blur {
+  background: url("/wp-content/uploads/2016/01/bg-blur.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 110px;
+  text-align: center;
+  padding: 30px 15px;
+}
+.cta-blur h3 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+@media (max-width: 991px) {
+  .cta-blur h3 {
+    font-size: 26px;
+  }
+}
+.yellow-bird {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+@media (min-width: 992px) {
+  .yellow-bird {
+    padding-right: 200px;
+    background: url("/wp-content/uploads/2016/01/bird-yellow.png") no-repeat 95% center;
+  }
+}
+.yellow-bird h4 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #f5922b;
+  line-height: 1.15;
+  margin-bottom: 15px;
+}
+@media (max-width: 767px) {
+  .yellow-bird h4 {
+    font-size: 26px;
+  }
+}
+.yellow-bird p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #8799a3;
+}
+.header-violet {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 300;
+  color: #6a63a8;
+  line-height: 1.15;
+}
+@media (max-width: 767px) {
+  .header-violet {
+    font-size: 26px;
+  }
+}
+#footer .bienahora {
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  display: block;
+  width: 132px;
+  margin-left: -66px;
+  height: 32px;
+  background: url("/wp-content/uploads/2016/01/bienahora.png") center center no-repeat;
+  text-indent: -9999px;
+}
+@media (max-height: 600px) {
+  #footer {
+    display: block;
+  }
+}
+@media (max-width: 771px) {
+  #footer {
+    height: auto;
+  }
+  #footer .social_icons,
+  #footer .bienahora {
+    display: none;
+  }
+}
+.btn-bienstar {
+  display: inline-block;
+  padding: 7px 14px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: border-color 0.25s ease-out, color 0.25s ease-out, background-color 0.25s ease-out, opacity 0.25s ease;
+}
+.btn-gray {
+  border-color: #8a9ca6;
+  color: #869ba8;
+}
+.btn-gray:hover {
+  background-color: #8a9ca6;
+  color: #fff;
+}
+.btn-green {
+  border-color: #36b350;
+  color: #36b350;
+}
+.btn-green:hover {
+  background-color: #36b350;
+  color: #fff;
+}
+.btn-orange {
+  border-color: #f7912d;
+  color: #fff;
+  background-color: #f7912d;
+}
+.btn-orange:hover {
+  color: #fff;
+  opacity: 0.7;
+}
+.btn-right {
+  float: right;
+}
+.shadow-divider {
+  background: url("/wp-content/uploads/2016/01/divider.png") no-repeat bottom center;
+  height: 60px;
+  width: 100%;
+}
+.color-divider {
+  background: #f5f7f8 url("/wp-content/uploads/2016/01/divider-color.png") no-repeat center center;
+  height: 85px;
+  width: 100%;
+}
+.tabs .tabs-titles {
+  border-bottom-color: #c6e2f7;
+}
+.tabs .tabs-titles a {
+  font-size: 14px;
+  color: #4290c7;
+}
+.tabs .tabs-titles a:hover,
+.tabs .tabs-titles a.active {
+  background-color: #4290c7;
+}
+.easyBackground {
+  margin-bottom: 0;
+}
+#footer {
+  position: relative;
+  background-color: #fff;
+}
+.bienfest-carousel-container {
+  background-color: #f5f7f8;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#bienfest-carousel .carousel-inner {
+  min-height: 280px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+#bienfest-carousel h5 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  line-height: 1.1;
+}
+#bienfest-carousel li {
+  border: none;
+  font-size: 16px;
+  color: #90a0aa;
+  font-weight: 400;
+  line-height: 1;
+}
+#bienfest-carousel .carousel-indicators li {
+  background: #c4c6c6;
+  width: 19px;
+  height: 19px;
+  margin: 1px;
+  border: 4px #c4c6c6 solid;
+}
+#bienfest-carousel .carousel-indicators li.active {
+  margin: 1px;
+  background: #fff;
+}
+.carousel {
+  position: relative;
+}
+.carousel li:before {
+  display: none;
+}
+.carousel-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.carousel-inner > .item {
+  display: none;
+  position: relative;
+  -webkit-transition: 0.6s ease left;
+  transition: 0.6s ease left;
+}
+.carousel-inner > .active {
+  left: 0;
+}
+.carousel-inner > .active.left {
+  left: -100%;
+}
+.carousel-inner > .active.right {
+  left: 100%;
+}
+.carousel-inner > .next {
+  left: 100%;
+}
+.carousel-inner > .prev {
+  left: -100%;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  line-height: 1;
+}
+.carousel-inner > .active,
+.carousel-inner > .next,
+.carousel-inner > .prev {
+  display: block;
+}
+.carousel-inner > .next,
+.carousel-inner > .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.carousel-inner > .next.left,
+.carousel-inner > .prev.right {
+  left: 0;
+}
+.carousel-control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 15%;
+  opacity: 0.5;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+}
+.carousel-control.left {
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0,0,0,0.5) 0), color-stop(rgba(0,0,0,0) 100%));
+  background-image: linear-gradient(to right, rgba(0,0,0,0.5) 0, rgba(0,0,0,0) 100%);
+  background-repeat: repeat-x;
+}
+.carousel-control.right {
+  left: auto;
+  right: 0;
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0,0,0,0) 0), color-stop(rgba(0,0,0,0.5) 100%));
+  background-image: linear-gradient(to right, rgba(0,0,0,0) 0, rgba(0,0,0,0.5) 100%);
+  background-repeat: repeat-x;
+}
+.carousel-control .icon-prev:before {
+  content: '\2039';
+}
+.carousel-control .icon-next:before {
+  content: '\203a';
+}
+.carousel-control:hover,
+.carousel-control:focus {
+  outline: none;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.9;
+}
+.carousel-control .icon-prev,
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+.carousel-control .icon-prev,
+.carousel-control .glyphicon-chevron-left {
+  left: 50%;
+}
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-right {
+  right: 50%;
+}
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  font-family: serif;
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  margin-left: -30%;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #000 9;
+  background-color: rgba(0,0,0,0);
+}
+.carousel-indicators .active {
+  margin: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+}
+.carousel-caption {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  bottom: 20px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+}
+.carousel-caption .btn {
+  text-shadow: none;
+}
+@media screen and (min-width: 768px) {
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    margin-left: -15px;
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .carousel-caption {
+    left: 20%;
+    right: 20%;
+    padding-bottom: 30px;
+  }
+  .carousel-indicators {
+    bottom: 20px;
+  }
+}	</style>
+	    <script>
+      //Global variables
+      template_directory = "http://bienfest.com/wp-content/themes/essenza";
+      adminAjax = "http://bienfest.com/wp-admin/admin-ajax.php";
+      WP_DEBUG = false;
+   </script>            
+   
+<!-- BEGIN GADWP v4.9.2 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-55830864-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!-- END GADWP Universal Tracking -->
+
+<script src='/google_analytics_auto.js'></script></head>
+
+
+
+
+
+
+<body class="home page page-id-1629 page-template-default"> <!-- oncontextmenu="return false"> -->
+
+	
+
+
+	<!-- Facebook SDK -->
+	<div id="fb-root"></div>
+
+
+
+    <!-- Header -->
+	<div id="header" class="submenus_individual">
+        <!-- LOGO -->
+    	<a href="http://bienfest.com" id="logo" class="dynamic_loading" style="background:url(http://bienfest.com/wp-content/uploads/2016/01/bienfest-logo-header.png) no-repeat center center; background-size: 150px 49px; width:150px;"></a>
+    	    
+        <!-- Search and toogle menu button on mobile media sizes (Right handside menu) -->
+        <div class="right menuMobile" style="display:none;">
+        	            <a href="#" class="headerButton toogleMenuMobile" onClick="return false;"><i class="esza-menu"></i></a>
+        </div>
+
+		<!-- MENU -->
+				<div class="menu_wraper right" style="opacity: 0;">
+		<ul id="menu" class="menu"><li id="menu-item-1533" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1533"><a href="http://bienfest.com/programa-bienfest-2016/">Programa BienFest 2016</a></li>
+<li id="menu-item-1534" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1534"><a href="http://bienfest.com/biendebate/">#BienDebate</a></li>
+<li id="menu-item-1536" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1536"><a href="http://bienfest.com/acerca-del-los-organizadores/">Acerca del los organizadores</a></li>
+<li id="menu-item-1585" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1585"><a href="http://bienfest.boletia.com/">Comprar Boletos</a></li>
+</ul>		</div>
+	</div>
+    <!-- Header End -->
+    
+
+    <!-- Mobile Menu -->
+    <div class="menu_wraper mobile" style="display:none;">
+    	<div class="menu_mobile_background"></div>
+    	<hr/>
+		<ul id="menu_mobile" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1533"><a href="http://bienfest.com/programa-bienfest-2016/">Programa BienFest 2016</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1534"><a href="http://bienfest.com/biendebate/">#BienDebate</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1536"><a href="http://bienfest.com/acerca-del-los-organizadores/">Acerca del los organizadores</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1585"><a href="http://bienfest.boletia.com/">Comprar Boletos</a></li>
+</ul>    </div>
+    <!-- Mobile Menu End -->
+    
+
+         
+     
+    <!-- Search Popup -->
+    <div class="info" id="search_info" style="display:none; ">
+        <div class="click_area"></div>
+        <div class="container">
+            <div style="position:relative;">
+            <form method="get" id="searchform" action="http://bienfest.com/" style="position:relative; margin:0;">
+	<label for="search" style="margin-top: 5px; margin-bottom: 9px;">What are you searching for?</label>
+    <div style="position: relative; padding-right: 80px;">
+    	<div style="position: relative;">
+        	<input class="big" type="text" id="search" name="s" value="" style="width: 100%; "/>
+        </div>
+		<a href="#" class="big_submit_button" onclick="return false;"></a>
+    </div>
+</form>
+<script>
+	jQuery(document).ready(function($){
+		$("#searchform").find(".big_submit_button").click(function(){
+
+			$("#searchform").submit();
+			return false;
+		});
+	});
+</script>            </div>
+            <a href="#" class="close_btn" onClick="return false;"></a>
+        </div>
+    </div>
+	
+	<script>
+		jQuery(document).ready(function ($){
+			var Essenza = require("./Essenza.js");
+
+			var Info = Essenza.Info;
+			var EasyBackground = Essenza.EasyBackground;
+
+			//Info panels
+			if($("#initial_info").length > 0)
+				new Info($("#initial_info"), true); 
+			var searchInfo = new Info($("#search_info"), false);
+			
+			$(".searchButton").click(function(){
+				searchInfo.toogle();
+
+				if(searchInfo.shown){
+					//Focus input
+					$("#search").focus();
+				}
+
+				return false;
+			});
+
+
+			//Easy background instanciation
+			easyBackground = new EasyBackground({
+				background_color: "#111111",
+				pattern: "none",
+				autoplay: true,
+				autoplayTime: 10000,
+				
+				images:[],
+				images_sizing: "fill",
+				
+				animationIn: { attribute:["alpha"],
+				value:    [0],
+				easing:   ["easeOutExpo"],
+				time:     [1],
+				delay:    0 },
+				animationOut: { attribute:["alpha"],
+				value:    [0],
+				easing:    ["easeOutExpo"],
+				time:    [1],
+				delay:    0 }
+			});
+			if(!false){
+				            if(easyBackground)
+            easyBackground.changeColor("#CBD4DA");
+            	easyBackground.changeImages([]);        
+				}
+		});
+	</script>
+
+
+
+
+<!-- START PAGE WRAPER -->
+<div id="page-wraper">
+
+  	<style>
+	    #page_1629{
+			width: auto;    
+			max-width: none;
+			   
+			margin-top: 20px;    
+			margin-bottom: 0px;     
+	    }
+	    	        @media screen and (min-width:1300px) {
+	          #page_1629{
+	            width: 1200px;
+	          }
+	        }
+	      	        html.no-rgba #page_1629 {
+	            background: transparent; 
+	            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff, endColorstr=#ffffffff);
+	            -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff, endColorstr=#ffffffff)"; 
+	        }
+	        html.rgba #page_1629 {
+	            background: rgba(255, 255, 255, 1);   
+	        }
+	      	  </style>
+	
+	<div id="page_1629" class="container simple_page_wraper  center" >
+      <div class="content_wraper dynamic_layout ">
+               
+                 <div id="page_replace_content_wraper" style="margin-bottom:30px;">
+            
+            <div class="row top_snap left_snap right_snap bottom_snap"><div class="col-md-12 col-md-offset-0" style="padding: 0px 0px 0px 0px; text-align: left;"> 
+<div class="homepage-header">
+<div class="col-sm-4 col-md-3" style="position: static;">
+<div class="bottom-left">
+    27 &#8211; 28 de Febrero de 2016, <br />Foro Masaryk<br />
+<br />
+<div class="ujic-hold ujic_center"> <div class="ujiCountdown ujic-classic" id="ujiCountdown"></div></div>
+    </div>
+</p></div>
+<div class="col-sm-4 col-md-6 text-center" style="padding-left: 15px; padding-right: 15px;">
+<img src="/wp-content/uploads/2016/01/bienfest-header.png" alt="Vive la fiesta del BienEstar en Mexico">
+    </div>
+<div class="col-sm-4 col-md-3" style="position: static;">
+<div class="bottom-right"><script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher: "4b2b2c05-e341-4b7b-9098-d68a91aec0e4", doNotHash: true, doNotCopy: true, hashAddressBar: false});</script>
+<div class="shares">
+<span class='st_facebook_hcount' displayText='Facebook'></span><span class='st_twitter_hcount' displayText='Tweet'></span>
+</div>
+<p><a href="https://bienfest.boletia.com/" target="_blank" class="btn-bienstar btn-orange">Comprar Boletos Ahora</a>
+    </div>
+</p></div>
+<div style="clear: both;"></div>
+</div>
+</div></div><div class="row left_snap right_snap "><div class="col-md-12 col-md-offset-0" style="padding: 0px 0px 0px 0px; text-align: left;"> <div class="social_video" data-height="48" data-src="http://www.youtube.com/embed/zvyw0yuBf-E?wmode=transparent&autohide=1&cc_load_policy=0&color=white&theme=light&controls=1&iv_load_policy=3&modestbranding=0&rel=0&autoplay=1"><a class="tooglePlayVideo" onclick="return false;" href="JavaScript:;" style=""><i class="esza-play"></i></a><img src="http://bienfest.com/wp-content/uploads/2016/01/video-bg-1000x480_c.png" style="width: 100%;"></div>
+<div class="video-home-logos">
+<img src="/wp-content/uploads/2016/01/video-logos.png" alt="BienFest">
+</div>
+<div class="video-home-text">
+<b>SÁBADO 27 Y DOMINGO 28 DE FEBRERO DE 2016</b>FORO MASARYK y O2 YOGA<br />
+ANATOLE FRANCE NO. 120<br />
+POLANCO, REFORMA
+</div>
+</div></div><div class="row left_snap right_snap "><div class="col-md-12 col-md-offset-0" style=" text-align: center;"> 
+<h3 class="bienstar-icons-header">#BIENFEST ES #BIENESTAR:</h3>
+<ul class="bienstar-icons">
+<li>
+<a href="/biendebate">
+<div><img src="/wp-content/uploads/2016/01/1-debates.png"></div>
+<p>De<span>b</span>ates</a></li>
+<li>
+<a href="/programa-bienfest-2016">
+<div><img src="/wp-content/uploads/2016/01/2-platicas.png"></div>
+<p>Plat<span>i</span>cas</a></li>
+<li>
+<a href="/programa-bienfest-2016">
+<div><img src="/wp-content/uploads/2016/01/3-talleres.png"></div>
+<p>Tall<span>e</span>res</a></li>
+<li>
+<a href="/programa-bienfest-2016">
+<div><img src="/wp-content/uploads/2016/01/4-consultas.png"></div>
+<p>Co<span>n</span>sultas</a></li>
+<li>
+<a href="#fruits">
+<div><img src="/wp-content/uploads/2016/01/5-alimentos.png"></div>
+<p>Alim<span>e</span>ntos</a></li>
+<li>
+<a href="/programa-bienfest-2016">
+<div><img src="/wp-content/uploads/2016/01/6-musica.png"></div>
+<p>Mu<span>s</span>ica</a></li>
+<li>
+<a href="#fruits">
+<div><img src="/wp-content/uploads/2016/01/7-productos.png"></div>
+<p>Produc<span>t</span>os</a></li>
+<li>
+<a href="#fruits">
+<div><img src="/wp-content/uploads/2016/01/8-degustaciones.png"></div>
+<p>Degust<span>a</span>ciones</a></li>
+<li>
+<a href="#fruits">
+<div><img src="/wp-content/uploads/2016/01/9-sorpresas.png"></div>
+<p>Sorp<span>r</span>esas</a></li>
+</ul>
+</div></div><div class="row left_snap right_snap "><div class="col-md-12 col-md-offset-0" style=" text-align: left;"> 
+<div class="col-md-5 wave-left">
+</div>
+<div class="col-md-7 wave-right">
+<h3>Únete a la comunidad del bienestar en México.</h3>
+<p>
+Grupo BienAhora y reconocidos Health Coaches de la Asociación de Health Coaches de México (AHCM), anuncian el regreso del BienFest, El Festival más importante del  Bienestar, que se llevará a cabo el 27 y 28 de febrero en el Foro Masaryk, Anatole France No. 120, Polanco, Reforma
+</p>
+<p>
+Habrá más de 50 expositores mostrando diferentes tipos de productos y servicios;  conferencias; debates; talleres; clases de yoga; conciertos; comida; y más.
+</p>
+</div>
+<p><a name="fruits"></a></div></div><div class="row left_snap right_snap "><div class="col-md-12 col-md-offset-0" style=" text-align: center;"> <div class="image_shortcode" style="max-width: 100%;height:auto;"><img src="http://bienfest.com/wp-content/uploads/2016/01/patrocinado-1-821x83_c.png" alt="Image" /></div></div></div><div class="row left_snap right_snap bottom_snap"><div class="col-md-12 col-md-offset-0" style=" text-align: left;"> 
+<div class="fruits">
+<div class="col-md-6 fruits-left">
+<h3>En BienFest encontrarán:</h3>
+<ul>
+<li>Los Mejores Productos en México, Saludables, Orgánicos, Conscientes, Veganos y/o Sustentables</span></li>
+<li>Comida Saludable y Jugos Orgánicos</span></li>
+<li>Los Mejores Expertos y Health Coaches en Salud Integral y Nutrición</span></li>
+<li>Conferencias actuales acerca de la Salud Integral</span></li>
+<li>Dialogos y Debates por parte de expertos acerca de los tópicos de más interés actualmente</span></li>
+<li>Talleres para toda la Familia</span></li>
+<li>Clases de Yoga impartida por expertos</span></li>
+<li>“Genius Bar” Zona de Health Coaches y Expertos: para consultar gratis a varios especialistas durante el evento</span><br />Regalos y sorpresas por parte de las marcas participantes.</span></li>
+</ul>
+</div>
+<div class="col-md-6 fruits-right">
+<img src="http://bienfest.com/wp-content/uploads/2016/01/fruits-1.jpg">
+</div>
+<div style="clear: both"></div>
+</div>
+</div></div><div class="row left_snap right_snap "><div class="col-md-12 col-md-offset-0" style=" text-align: left;"> 
+<div class="cta-blur">
+<h3>¡TODOS REUNIDOS EN UN SOLO LUGAR!… ¡BienFest!</h3>
+</div>
+</div></div><div class="row left_snap right_snap bottom_snap"><div class="col-md-12 col-md-offset-0" style=" text-align: left;"> 
+<div class="yellow-bird">
+<h4>Al comprar tu boleto también participarás en la Rifa de Productos para el Bienestar.</h4>
+<p>
+En México, así como en otros países, está llegando con mucha fuerza el movimiento del BienEstar<br />
+¡Transformando poco a poco la salud de nuestro país!
+</p>
+</div>
+<div class="divider" style="margin-top:0px;margin-bottom:30px;">
+				<div class="line" style="display: block;  width: 100%; border-bottom:2px solid #f1f4f6"></div>
+			</div></div></div><div class="row left_snap right_snap bottom_snap"><div class="col-md-6 col-md-offset-0" style="padding: 0px 40px 20px 40px; text-align: left;"> 
+<p><b style="font-size: 16px; color: #8799a3; display: inline-block; margin-bottom: 10px;"><span style="color: #ff6600;">Preventa primeros 500 boletos:</span> 147 MXN por día y 247 MXN por los dos días. (Gratis para menores de edad) </b> <a class="btn-bienstar btn-green" href="https://bienfest.boletia.com/" target="_blank">Comprar</a></p>
+</div><div class="col-md-6 col-md-offset-0" style="padding: 0px 40px 0px 40px; text-align: left;"> <b style="font-size: 16px; color: #8799a3; display: inline-block; margin-bottom: 10px;;">El costo normal por día es de 297 MXN y 497 MXN por los dos días. (Gratis para menores de edad) </b><br />
+<a href="https://bienfest.boletia.com/" target="_blank" class="btn-bienstar btn-green">Comprar</a></div></div><div class="row left_snap right_snap bottom_snap"><div class="col-md-12 col-md-offset-0" style=" text-align: left;"> 
+<div class="shadow-divider"></div>
+</div></div><div class="row left_snap right_snap bottom_snap"><div class="col-md-12 col-md-offset-0" style="padding: 30px 40px 30px 40px; text-align: left;"> 
+<h3 class="header-violet">Temas Principales BienDebate</h3>
+</div></div><div class="row left_snap right_snap bottom_snap"><div class="col-md-12 col-md-offset-0" style=" text-align: left;"> 
+<div class="color-divider"></div>
+</div></div><div class="row left_snap right_snap bottom_snap"><div class="col-md-12 col-md-offset-0" style=" text-align: left;"> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<div class="bienfest-carousel-container">
+<div class="carousel slide" id="bienfest-carousel" data-ride="carousel">
+<div class="carousel-inner">
+<div class="active item">
+<h5 style="color: #b55aa0;">#BienDebates ¿Cuál es la mejor proteína para ti?</h5>
+<ul>
+<li>¿La proteína de Origen Animal es una buena fuente de alimentación?</li>
+<li>¿Comer o no Carne?</li>
+<li>Proteína animal: ¿Necesaria durante el embarazo y la lactancia?</li>
+<li>Proteína animal: ¿Necesaria para los atletas?</li>
+<li>El Veganismo como evitar una descompensación</li>
+</ul></div>
+<div class="item">
+<h5 style="color: #b55aa0;">¿Qué productos comprar, qué productos evitar?</h5>
+<ul>
+<li>¿La Comida orgánica es más saludable o tan solo un mito? </li>
+<li>¿Organismos Genéticamente Modificados, un riesgo o un beneficio?</li>
+<li>Aditivos Sintéticos y Colorantes: ¿Que debemos de evitar? </li>
+<li>Etiquetas y Promesas de Ingredientes Naturales ¿Podemos creer, podemos confiar?</li>
+<li>¿La alimentación actual es sustentable para la Salud a largo plazo? </li>
+<li>¿Que tan importante es contar las calorías?</li>
+<li>Los alimentos, envasados, procesados, y con aditivos sintéticos ¿Son nocivos para la salud?</li>
+</ul></div>
+<div class="item">
+<h5 style="color: #b55aa0;">#BienDebate ¿Cuál es la mejor Dieta para mi?</h5>
+<ul>
+<li>¿Cuál es la dieta ideal para el Mexicano? </li>
+<li>¿Es conveniente reducir alguno de los macronutrientes en nuestra dieta?</li>
+<li>La dieta y la Bio-Individualidad</li>
+<li>Dime cuales son tus objetivos y te diré cuál es tu dieta</li>
+<li>El plato del bien comer: ¿Es bueno?</li>
+<li>Nuevos movimientos y tendencias ¿Cuál es la dieta ideal?</li>
+</ul></div>
+<div class="item">
+<h5 style="color: #b55aa0;">#BienDebate ¿Cuál es la alimentación del futuro?</h5>
+<ul>
+<li>¿Qué tecnología y estudios existen para guiar nuestra alimentación?</li>
+<li>¿Qué influye la composición de la sangre?</li>
+<li>¿Cuál es el rol y la importancia de la flora intestinal?</li>
+<li>¿Qué puede aportar la nutri-genómica para el diseño de nuestras dietas?</li>
+<li>¿Podemos influir a nuestros genes con una buena alimentación?</li>
+<li>¿Somos lo que comemos o lo que dictan nuestros genes?</li>
+</ul></div>
+</p></div>
+<ol class="carousel-indicators">
+<li data-target="#bienfest-carousel" data-slide-to="0" class="active"></li>
+<li data-target="#bienfest-carousel" data-slide-to="1"></li>
+<li data-target="#bienfest-carousel" data-slide-to="2"></li>
+<li data-target="#bienfest-carousel" data-slide-to="3"></li>
+</ol>
+</div>
+</div>
+</div></div><div class="row bottom_snap"><div class="col-md-12 col-md-offset-0" style="padding: 30px 40px 0px 40px; text-align: left;"> 
+<div style="text-align: center;">
+<a href="https://bienfest.boletia.com/" target="_blank" class="btn-bienstar btn-orange">Comprar Boletos Ahora</a>
+</div>
+</div></div>
+
+            
+                         
+
+                        
+            <script>
+                jQuery(document).ready(function($){
+                    var Essenza = require("./Essenza.js");
+                    var Cover = Essenza.Cover;
+                    Cover.contentLoadingOut();
+                });
+            </script>
+         </div>
+   
+
+         
+
+           
+     </div>
+  </div>
+</div>
+   
+
+  
+  <a class="to_top_btn" href="#" onclick="return false;"><i class="fa-angle-up"></i></a>
+
+	<div id="content-cover" class="loading">
+    	<div class="big-loading">
+        	<img src="http://bienfest.com/wp-content/themes/essenza/img/loaders/loader.png"  />
+        </div>
+    </div>
+
+	<div id="mobile_footer"></div>
+
+     <div id="footer">
+     	<hr/>
+     	<!-- Social_Icons -->
+     	<div class="social_icons">
+        	<a href="https://www.facebook.com/bienfest" class="two-image-button socialButton facebook"><div class="inner-image"></div></a><a href="https://twitter.com/bienfest" class="two-image-button socialButton twitter"><div class="inner-image"></div></a><a href="https://www.youtube.com/channel/UCR04SQ66FUmyHzuxLJwXQBw" class="two-image-button socialButton youtube"><div class="inner-image"></div></a>          </div>
+          
+               
+     	            <p id="footer_optional_text"><span style="line-height: 1.5; padding-top: 20px; display: inline-block;">
+ © 2016 Bienfest - All Rights Reserved<br>
+<a href="http://lunchsaludable.com/terminos-y-condiciones/" target="_blank">Términos y Condiciones</a> | <a href="http://lunchsaludable.com/aviso-de-privacidad/">Aviso de Privacidad</a>
+</span>
+<a href="http://bienahora.com" class="bienahora" target="_blank">Grupa BienAhora</a></p>
+                 
+     	
+     </div>
+     <div class="easyBackground"></div>
+
+	<link rel='stylesheet' id='uji-countdown-uji-countdown-css'  href='http://bienfest.com/wp-content/plugins/uji-countdown/css/uji-countdown.css?ver=2.0.6' type='text/css' media='all' />
+<script type='text/javascript' src='http://bienfest.com/wp-includes/js/comment-reply.min.js?ver=4.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var vars = {"mw_scroll":"true","mw_ease":"2","mw_amount":"120","dynamic_loaded":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://bienfest.com/wp-content/themes/essenza/js/essenza/RollGrinds.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://bienfest.com/wp-content/themes/essenza/js/essenza/RollGrindsOnce.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://bienfest.com/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://bienfest.com/wp-content/plugins/uji-countdown/js/jquery.countdown.js?ver=2.0.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ujiCount = {"ajaxUrl":"http:\/\/bienfest.com\/wp-admin\/admin-ajax.php","uji_plugin":"http:\/\/bienfest.com\/wp-content\/plugins","uji_style":"classic","expire":"2016\/02\/27 09:00","exp_days":"37","Years":"A\u00f1os","Year":"A\u00f1o","Months":"Meses","Month":"Mes","Weeks":"Weeks","Week":"Week","Days":"D\u00edas","Day":"D\u00eda","Hours":"Horas","Hour":"Hora","Minutes":"Minutos","Minute":"Minuto","Seconds":"Segundos","Second":"Segundos","ujic_txt_size":"18","ujic_thick":null,"ujic_col_dw":"#ffffff","ujic_col_up":"#f2f2f2","ujic_col_txt":"#869ba8","ujic_col_sw":"#cecece","ujic_col_lab":"#000000","ujic_lab_sz":"13","ujic_txt":"true","ujic_ani":null,"ujic_url":"","ujic_goof":"none","uji_center":" ujic-classic","ujic_d":"true","ujic_h":"true","ujic_m":"true","ujic_s":null,"ujic_y":null,"ujic_o":null,"ujic_w":null,"uji_time":"Feb 17, 2016 01:25:34+0000","uji_hide":"true","ujic_rtl":"","uji_utime":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://bienfest.com/wp-content/plugins/uji-countdown/js/uji-countdown.js?ver=2.0.6'></script>
+
+
+
+
+</body>
+</html>

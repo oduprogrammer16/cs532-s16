@@ -1,0 +1,1243 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ask me anything | ask.fm/king_sejong_if</title>
+  <script>
+//<![CDATA[
+function getStack(c){var b,d;try{throw Error("getStack");}catch(e){if(b=(e.stack||e.backtrace||e.stacktrace).toString(),(b.match(/\n/g)||[]).length>c)return b}d=arguments.callee||getStack;for(b=[];d&&5>b.length;){b.push(d.toString());try{d=d.caller}catch(a){break}}b.splice(0,c);return b.join("@@@")}
+function logError(c,b,d,e,a){try{var g,h,k="";a=a||c;c=(a.message||a.description||c).toString();stack=(a.stack||a.backtrace||a.stacktrace||getStack(2)).toString();g=a.target||"";b=(b||a.fileName||a.sourceURL||g.src).toString();e=e||window.event&&window.event.errorCharacter;d=(d||a.lineNumber||a.line).toString()+(e?":"+e:"");try{localStorage.setItem("test","test"),localStorage.removeItem("test"),h=new FormData,h.append("test","test")}catch(m){k="1"}var f,l={m:c,s:stack,f:b||"",l:d||"",u:document.location,
+w:k};c="";for(f in l)c+=f+"="+encodeURIComponent(l[f])+"&";(new Image).src="/home/jserror?"+c}catch(n){}}window.onerror=logError;
+
+//]]>
+</script>
+  <script>
+//<![CDATA[
+document.domain = "ask.fm";
+//]]>
+</script>
+
+  <meta name="description" content="현대로 놀러온 세종이오. 왕도 더쿠니 몬다이 나이.
+부탁하면 맞팔인게다. 그아니면 다 꺼지시게.
+약을 한사발하니 즐겁구나.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="image_src" href="https://ask.fm/images/155x155.png">
+
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+  <link rel="stylesheet" media="all" href="//static.ask.fm/assets/application_ltr-365b0f9293a2eed1c227586566d29cd4717750cfe07cce562b1375e3e670a3d8.css" data-turbolinks-track="true" />
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  
+  
+  <script src="//static.ask.fm/assets/turbolinks-f80d0410a41903255bb4d4dbbadd923b183883029112c284889bcc92dba73d0a.js" data-turbolinks-track="true"></script>
+  <script src="//static.ask.fm/assets/application-777d68cc41a5df0c5b93ca892e7ac2e5da271e9a9912e7041a30eea4dd5f80bb.js" data-turbolinks-track="true"></script>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="HMSXLHCBWSSSy+8tZHcQMta5IDBiv0s+3dXo6jHI3avnspzIVMg/ZrGNKKWDhJssQL6rkZKZ8ZHz1n4UlIzEdg==" />
+</head>
+
+
+
+  <body class="contentBody twoColumnBody" lang="en-US" dir="ltr" data-id="profile/answers"><script>
+  window.Config && window.Config.init({"poller:interval":30000,"poller:cache_limit":10,"mass_ask:selection_limit":50,"flash:delay":3000,"ads:native:render_once":true,"media:autoplay_gif":true,"env":"production","page:category":"Guest Profile","page:type":"Answers","page:user_id":null});
+</script>
+
+<div id="loaderMother"></div>
+    <div id="topMenu">
+      
+        <div class="topBar">
+  <div class="rsp-container rsp-eql-desktop util-relative">
+    <a class="askfm-logo icon-askfm-logo topBar-left" href="/"></a>
+
+
+        <div class="topBar-right">
+          <a class="btn-action plain" data-action="PopupOpen" data-url="/signup" href="#">Sign up</a>
+          <a class="btn-action plain" data-action="PopupOpen" data-url="/login" href="#">Log in</a>
+        </div>
+
+  </div>
+
+  <div class="rsp-container rsp-lte-tablet util-relative">
+
+      <a class="askfm-logo icon-askfm-logo" href="/"></a>
+      <div class="topBar-left">
+        <a class="btn-action plain" data-action="PopupOpen" data-url="/signup" href="#">Sign up</a>
+      </div>
+      <div class="topBar-right">
+        <a class="btn-action plain" data-action="PopupOpen" data-url="/login" href="#">Log in</a>
+      </div>
+
+  </div>
+</div>
+
+  
+
+      
+<div style="display:none" class="flashMessage notice">
+  <div class="util-relative rsp-container">
+    <a href="#" data-action="FlashHide"></a>
+    <p></p>
+</div></div>
+      <div id="cookieNotice">
+  <p class="rsp-container">
+    By continuing, you consent to our use of <a target="_blank" href="http://about.ask.fm/cookie-policy/?lang=en">Cookies</a>, ok?
+    <a data-action="CookieNoticeAccept" href="#">OK</a>
+  </p>
+</div>
+
+    </div>
+
+    <div id="contentArea" class="">
+      <div class="rsp-container">
+          <div class="rsp-row top-content">
+              <div id="profileBackground" style="background-image:url(//static.ask.fm/assets/profile-bg-17362dd44563ffa85074574b1d9f339403574a7830c6d5120a95f9e5e5160c3d.jpg)">
+  <div id="profileBackgroundOverlay">
+    <div id="profileHeader-wrapper">
+
+        <a style="background-image:url(//static.ask.fm/assets/noAvatar-4b34422d579c3e7e542fb989b31cfaeb70cf8e44890ea0cb06a7c7dc9ffcb643.png)" data-action="ImageOpen" data-url="//static.ask.fm/assets/noAvatar-4b34422d579c3e7e542fb989b31cfaeb70cf8e44890ea0cb06a7c7dc9ffcb643.png" class="" id="profilePicture" href="/king_sejong_if/avatar"></a>
+      
+  <a id="profileName" href="/king_sejong_if">  <span class="blockLink head bold">그 멋진 세종</span>
+  <span class="blockLink foot bold">
+    <span dir="ltr">@king_sejong_if</span>
+</span></a>
+
+
+
+        <div class="profileLabel">
+          <a class="profileButton icon-add-friend" data-action="PopupOpen" data-url="/login/prompt" href="#">Follow</a>
+        </div>
+        <a class="profile-header-icon left icon-flag" data-tooltip="Report" data-gtm="report-user-popup" data-action="PopupOpen" data-url="/king_sejong_if/flag/report" href="#"></a>
+        
+
+
+    </div>
+  </div>
+</div>
+
+      <div id="profileBio" class="rsp-lte-tablet">
+    
+<div class="aboutMore more">
+    <p>현대로 놀러온 세종이오. 왕도 더쿠니 몬다이 나이.<br />부탁하면 맞팔인게다. 그아니면 다 꺼지시게.<br />약을 한사발하니 즐겁구나.</p>
+
+    <p>집현전일까보오.</p>
+
+
+  <a class="moreButton" data-action="ParentToggle" data-text="Less" data-class="expanded" href="#">More</a>
+</div>
+
+    
+  </div>
+
+<div id="profileButtons" class="rsp-lte-tablet">
+    <a class="btn-primary-wide" data-action="PopupOpen" data-url="/login/prompt" href="#">Ask</a>
+</div>
+
+<div class="rsp-eql-mobile">
+  <nav class="subTabBar profileTabBar">
+        <a title="Answers" class="icon icon-answer active" href="/king_sejong_if"><div class="profileTabAnswerCount">840</div></a>
+        <a title="Likes" class="icon icon-like" href="/king_sejong_if/best"><div class="profileTabLikeCount">84</div></a>
+        <a title="Gifts" class="icon icon-gift" href="/king_sejong_if/gifts"><div class="profileTabGiftCount">0</div></a>
+  </nav>
+</div>
+
+<div class="rsp-gte-tablet">
+  <nav class="subTabBar-wide profileTabBar">
+      <a class="active" href="/king_sejong_if"><div class="profileTabAnswerCount">840</div>Answers</a>
+      <a class="" href="/king_sejong_if/best"><div class="profileTabLikeCount">84</div>Likes</a>
+      <a class="" href="/king_sejong_if/gifts"><div class="profileTabGiftCount">0</div>Gifts</a>
+  </nav>
+</div>
+
+
+
+          </div>
+
+        <div class="rsp-row main-content util-clearfix">
+          <div class="rsp-gte-mobile main-column">
+            
+
+
+
+
+
+<div style="display:none">
+
+  <ul id="answerOptions-more" class="afm-popover right">
+    <li>
+      <a class="icon-flag" data-option="report-answer-url" data-gtm="report-topic-popup" data-action="PopupOpen" data-url="#" href="#">Report post</a>
+    </li>
+    <li>
+      <a class="icon-block" data-option="block-user-url" data-gtm="report-topic-popup" data-action="PopupOpen" data-url="#" href="#">Block user</a>
+    </li>
+  </ul>
+
+</div>
+
+
+<div id="item-poller"><a id="newItemsReady" style="display:none" data-action="ItemsPoll" data-url="/king_sejong_if/answers/poll?score=1447589990" href="#"></a>
+
+</div>
+<div class="item-pager "><div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      즈어어어언하 배가고프옵니다...배가...퇴근길인데..배가고프옵니다 엉엉엉엉
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">고기를 사가서 구워먹거라, 그것만큼 행복이 없다.</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="November 15, 2015 12:19:49 GMT" href="/king_sejong_if/answers/133063977962">3 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" href="/king_sejong_if/answers/133063977962">1</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/133063977962/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      ♥저한테도 사랑한다고 해주세요♥
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">허허 백성들은 다 사랑하느니라.</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="October 25, 2015 07:01:46 GMT" href="/king_sejong_if/answers/132574732522">4 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/king_sejong_if/answers/132574732522">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/132574732522/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      대왕님이랑 세조랑 이어주고 싶어요(흐뭇)
+운동파랑 문학파
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">아들이랑 이어져봤자...</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="October 25, 2015 06:40:59 GMT" href="/king_sejong_if/answers/132574642922">4 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/king_sejong_if/answers/132574642922">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/132574642922/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="gemini-block gemini-enabled rsp-lte-tablet" data-section="391171ff-b3c3-467e-87e2-23f17a1d3061">
+  <div class="gemini-container emphasis">
+    <div class="loader"></div>
+  </div>
+
+  <a data-action="PromoClick" data-url="/promotions/mobile-app/visit?origin=inline" class="gemini-container default" style="display:none" href="#">
+    <div class="promotion ios regular"></div>
+</a>
+  <script type="text/plain">
+    <a id="{id}" target="_blank" class="gemini-container emphasis" data-gtm="{&quot;name&quot;:&quot;gemini-ad-click&quot;,&quot;meta&quot;:[0]}" href="{click_url}">
+      <div class="button">{gemini}</div>
+      <p class="sponsor">{sponsor}</p>
+      <div class="picture" style="background-image:url({image})"></div>
+      <p class="title">{title}</p>
+      <p>{description}</p>
+</a>  </script>
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      대왕님 뚱뚜ㅇ 읍읍
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">성스러운 방어막 거울의 힘</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="October 24, 2015 04:46:36 GMT" href="/king_sejong_if/answers/129507430378">4 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/king_sejong_if/answers/129507430378">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/129507430378/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      저언하 요즘것들이 방점을 찍지않아 글을 읽기가 어렵사옵니다
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">거짓말 치지 마라</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="October 24, 2015 04:46:04 GMT" href="/king_sejong_if/answers/130247189738">4 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/king_sejong_if/answers/130247189738">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/130247189738/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      세종오빠 잘생겼어요(찡긋)
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">(찡긋)</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="October 24, 2015 04:45:52 GMT" href="/king_sejong_if/answers/130179327978">4 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/king_sejong_if/answers/130179327978">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/130179327978/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      살아있습니까
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">평범한 시체인 듯 하다.</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="October 24, 2015 04:45:15 GMT" href="/king_sejong_if/answers/132389971178">4 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/king_sejong_if/answers/132389971178">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/132389971178/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      이럲거보멶기부으니어뗑오?
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">매우 평화롭구나</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="October 24, 2015 04:44:43 GMT" href="/king_sejong_if/answers/131980785130">4 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/king_sejong_if/answers/131980785130">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/131980785130/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      세종대왕님 봇돌리게 된 계기가 뭔가요?
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">재미를 주기 위해서였지. 흠, 글쎄... 그때의 나는 지금과 많이 다르다네. 그때에는 사람을 웃기는 것이 주 목적이었지, 바로 허준과 말일세 허허허.</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="October 24, 2015 04:44:29 GMT" href="/king_sejong_if/answers/132240995050">4 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" href="/king_sejong_if/answers/132240995050">1</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/132240995050/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="gemini-block gemini-enabled rsp-lte-tablet" data-section="391171ff-b3c3-467e-87e2-23f17a1d3061">
+  <div class="gemini-container emphasis">
+    <div class="loader"></div>
+  </div>
+
+  <a data-action="PromoClick" data-url="/promotions/mobile-app/visit?origin=inline" class="gemini-container default" style="display:none" href="#">
+    <div class="promotion ios alternative"></div>
+</a>
+  <script type="text/plain">
+    <a id="{id}" target="_blank" class="gemini-container emphasis" data-gtm="{&quot;name&quot;:&quot;gemini-ad-click&quot;,&quot;meta&quot;:[1]}" href="{click_url}">
+      <div class="button">{gemini}</div>
+      <p class="sponsor">{sponsor}</p>
+      <div class="picture" style="background-image:url({image})"></div>
+      <p class="title">{title}</p>
+      <p>{description}</p>
+</a>  </script>
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      욕 해주세요 전하
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">에이 쉬벌</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="August 05, 2015 15:41:09 GMT" href="/king_sejong_if/answers/130333788650">7 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" href="/king_sejong_if/answers/130333788650">3</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/130333788650/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      저언하 요즘것들은 방점을 찍지않아 읽기에 큰 어려움이 있사옵니다 키패드에 방점을 살려주시옵소서 즈언하
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">누리꾼들에게 맞고싶구나.</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="August 05, 2015 15:41:01 GMT" href="/king_sejong_if/answers/130339505898">7 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" href="/king_sejong_if/answers/130339505898">2</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/130339505898/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      세종대왕님 저는 최선을 다했는데 어른들은 더 큰걸 바라요
+왜 그런거죠
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">그게 문제라는 것이야, 사람들은 결과를 보지 과정을 보지 않아.</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="August 05, 2015 15:40:44 GMT" href="/king_sejong_if/answers/130399364842">7 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" href="/king_sejong_if/answers/130399364842">2</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/130399364842/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      헤헿, 전하께 질문 드리려 소녀 귀찮은 로그인까지 했사옵니다.
+전하, 띄어쓰기 팁을 가르쳐 주시면 성은이 망극하겠사옵니다.
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">띄어쓰기를 구분하는 것은 어렵지, 띄어쓰기에서 가장 중요한 것은 어간 사이를 띄우지 않는 것이야. 조사만 붙여준다면, 오케이일세.</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="August 05, 2015 15:40:08 GMT" href="/king_sejong_if/answers/130403504106">7 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/king_sejong_if/answers/130403504106">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/130403504106/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      뭐하는분이세요?
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">타임라인에서 한글의 중요성을 깨우치게 하는 사람일세.</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="August 05, 2015 15:38:40 GMT" href="/king_sejong_if/answers/130433666026">7 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/king_sejong_if/answers/130433666026">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/130433666026/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      즈어언하 치킨들고 동상까지가면 악수해주실꺼에요..?
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">치킨 부터 먹고 보자꾸나.</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="July 27, 2015 15:54:57 GMT" href="/king_sejong_if/answers/129155549162">7 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" href="/king_sejong_if/answers/129155549162">2</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/129155549162/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      세종 님, 띄어 쓰기 지적해도 됩니까?
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">띄어쓰기를 지적한다? 어간사이를 띄우는 게 아닌 이상 띄어쓰기는 원칙이랄게 분명치 않아.</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="July 27, 2015 15:54:36 GMT" href="/king_sejong_if/answers/129537165802">7 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/king_sejong_if/answers/129537165802">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/129537165802/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      세종상 이빠이궁금한게있습니다!
+국어와 쇼부치려면 어떻게해야하죠?
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">일단 나와 쇼부를 보자꾸나.</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="July 27, 2015 15:53:42 GMT" href="/king_sejong_if/answers/129772293610">7 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/king_sejong_if/answers/129772293610">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/129772293610/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      여섯명 부인중 누굴제일 사랑하셨나요
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">그걸 공개적으로 말하라고 하다니.....</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="July 27, 2015 15:53:13 GMT" href="/king_sejong_if/answers/129948530154">7 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/king_sejong_if/answers/129948530154">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/129948530154/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      대왕님 말투 설레요
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">시끄럽다</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="July 27, 2015 15:52:47 GMT" href="/king_sejong_if/answers/130072979434">7 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" href="/king_sejong_if/answers/130072979434">2</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/130072979434/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      당신은  세종이니 알겠지요. 죽는다는것은 바림과 같다는것을...동의 하시나요..?
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">미련이라는 것이 삶을 살게하고, 열정이 활력소가 된다네. 늙어서 아무것도 하지 못하게되면 의욕이 사라지고 미련도 열정도 식기 마련이지. 죽기전에 하고 싶은 것이 있다면 꼭 하시게. 죽는 것은 한 순간, 어느때라도 죽을 수 있으니.</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="July 27, 2015 15:52:37 GMT" href="/king_sejong_if/answers/130141823466">7 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/king_sejong_if/answers/130141823466">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/130141823466/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      대왕님 저는 대왕님이랑 생일이 같아요. 그래서 대왕님을 생각하면 왠지 친근감이 느껴져요.
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">호오 그렇군..</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="July 04, 2015 17:08:49 GMT" href="/king_sejong_if/answers/129167928810">8 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/king_sejong_if/answers/129167928810">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/129167928810/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      새종데왕님 한글을 발으게 쓰지 안으면 외않되나요?
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">왜 안되냐면 나한테 맞기 때문이란다.</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="July 04, 2015 17:08:38 GMT" href="/king_sejong_if/answers/129170127850">8 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/king_sejong_if/answers/129170127850">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/129170127850/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      &#39;세종&#39;은 한국식 이름입니까?
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">그건 아닐세, 묘호일세.</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="June 02, 2015 16:20:27 GMT" href="/king_sejong_if/answers/128096617194">9 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/king_sejong_if/answers/128096617194">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/128096617194/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      어떻게하면 세종님처럼 뇌섹남이 될 수 있나요?
+요즘 평정심도 자꾸 잃고 화나고 우울해요ㅠㅠ
+세종님처럼 근엄하고 뇌랑 혀가 섹시해지고싶어요ㅠㅠ
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">단백질 섭취를 단단히하라.</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="June 02, 2015 16:19:09 GMT" href="/king_sejong_if/answers/128107371498">9 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/king_sejong_if/answers/128107371498">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/128107371498/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+<div class="item streamItem streamItem-answer">
+
+
+
+    
+    <h1 class="streamItemContent streamItemContent-question">
+      학교에서 배운거랑 지금 사회모습이랑 많이 다른거 같아요
+      
+</h1>
+
+  
+  <p class="streamItemContent streamItemContent-answer">현실과 책은 다르단다.</p>
+
+  
+
+  <div class="streamItemContent streamItemContent-footer">
+
+    <a class="streamItemsAge" data-hint="May 29, 2015 03:19:38 GMT" href="/king_sejong_if/answers/126651053546">9 months ago</a>
+
+
+</div>
+  <div class="streamItemOptions afm-popover-container">
+    <div class="likeButton">
+    <a class="icon-like" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+
+  
+    <a class="counter" style="display:none" href="/king_sejong_if/answers/126651053546">0</a>
+
+</div>
+
+    <a class="streamItemOptions-more icon-more" data-target="#answerOptions-more" data-report-answer-url="/king_sejong_if/answers/126651053546/flag/report" data-action="PopoverOpen" href="#"></a>
+    <a class="rsp-lte-tablet streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="rsp-eql-desktop streamItemOptions-reask icon-reask" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+    <a class="streamItemOptions-share icon-share" data-action="PopupOpen" data-url="/login/prompt" href="#"></a>
+  </div>
+
+</div>
+
+
+  <a class="viewMore" data-action="ItemsMore" data-url="/king_sejong_if/answers/more?page=1&amp;score=1447589989" href="#">Loading…</a>
+</div>
+
+<div class="emptyResults" style="display:none">
+    <p><span dir="ltr">@king_sejong_if</span> has no answers yet</p>
+    <h3>Ask 그 멋진 세종 a question now</h3>
+</div>
+
+          </div>
+
+            <div class="rsp-eql-desktop side-column">
+              <div class="sticky-anchor">
+                
+                  <div id="askBox" class="side-section">
+    <h3>Ask <span dir="ltr">@king_sejong_if</span>:</h3>
+    <form id="askForm" autocomplete="off" class="new_question" data-action="FormXHRSubmit" data-gtm="ask-question" action="/king_sejong_if/ask" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="fyU3rbgkHDAR0UWVzLOvj8yI+lY3f7gMc/Jv+nVELOGEUzxJnG16cjKXgh0rQCSRWo9x98dZAqNd8fkE0AA1PA==" />
+
+  <div class="question">
+    <textarea placeholder="What, when, why…ask" autofocus="autofocus" data-counter=".optionsBar-counter" data-limit="300" data-autocomplete="/account/friends/autocomplete" name="question[question_text]" id="question_question_text">
+</textarea>
+  </div>
+
+  <div class="optionsBar">
+      <button name="button" type="button" class="btn-primary rsp-eql-desktop" data-action="SaveQuestionAndPopupOpen" data-url="/login/prompt">Ask</button>
+
+    <div class="optionsBar-option optionsBar-counter"></div>
+
+    <input name="question[anonymous]" disabled="disabled" type="hidden" value="0" /><input disabled="disabled" class="checkbox" id="single_question_anonymous" type="checkbox" value="true" name="question[anonymous]" />
+    <label for="single_question_anonymous" class="optionsBar-askMode">
+      <span>Ask anonymously<span>
+    </label>
+  </div>
+
+  
+
+</form>
+  </div>
+
+    <div id="sidebarBio" class="side-section">
+        <h3>About 그 멋진 세종:</h3>
+
+<div class="aboutMore more">
+    <p>현대로 놀러온 세종이오. 왕도 더쿠니 몬다이 나이.<br />부탁하면 맞팔인게다. 그아니면 다 꺼지시게.<br />약을 한사발하니 즐겁구나.</p>
+
+    <p>집현전일까보오.</p>
+
+
+  <a class="moreButton" data-action="ParentToggle" data-text="Less" data-class="expanded" href="#">More</a>
+</div>
+
+      
+    </div>
+
+                
+                
+              </div>
+              <div data-stick-to=".sticky-anchor">
+                  <div data-url="/ads/304?login=king_sejong_if" class="askfm-ad-slot askfm-ad-slot-300x250"><a target="_blank" class="askfm-default-ad" style="display:none" href="http://support.ask.fm"><img src="//static.ask.fm/assets/house_banner_support_center-8b3116dbc871d25918db2d719082e4cc8e46ef3e81ed3dca34fbcccb8648e8e6.png" /></a></div>
+                <footer>
+  <nav class="site-links">
+    <a target="_blank" href="http://about.ask.fm?lang=en">About ASKfm</a>
+    <a target="_blank" href="http://safety.ask.fm?lang=en">Safety center</a>
+    <a target="_blank" href="http://about.ask.fm/blog/?lang=en">Blog</a>
+    <a target="_blank" href="http://support.ask.fm?lang=en">Help</a>
+    <a target="_blank" href="http://about.ask.fm/terms/?lang=en">Terms of use</a>
+    <a target="_blank" href="http://about.ask.fm/privacy-policy/?lang=en">Privacy policy</a>
+    <a target="_blank" href="http://about.ask.fm/cookie-policy/?lang=en">Cookies policy</a>
+    <a data-action="PopupOpen" data-url="/home/languages" href="#">Choose language</a>
+  </nav>
+  <div class="copyright">&copy; Ask.fm 2016</div>
+  <nav class="social-links">
+  <a class="icon-facebook-solo" target="_blank" href="https://www.facebook.com/askfmpage"></a>
+  <a class="icon-twitter-solo" target="_blank" href="https://twitter.com/askfm"></a>
+  <a class="icon-askfm-solo" target="_blank" href="http://ask.fm/askfm"></a>
+  <a class="icon-instagram-solo" target="_blank" href="https://instagram.com/askfm"></a>
+</nav>
+
+</footer>
+
+              </div>
+            </div>
+        </div>
+      </div>
+</div><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W5DVX4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript><img src="//pixel.quantserve.com/pixel/p-r1DAFnUnQgqGA.gif?labels=_fp.event.Default" style="display:none;" border="0" height="1" width="1" alt="Quantcast"/></noscript>
+<noscript><img border="0" style="display:none" src="https://ask.fm/home/jserror?m=noscript&amp;u=https%3A%2F%2Fask.fm%2Fking_sejong_if" /></noscript></body>
+
+
+
+</html>
+
+

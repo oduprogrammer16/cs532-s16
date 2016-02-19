@@ -1,0 +1,554 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr"><head profile="http://purl.org/net/uriprofile/">	<meta http-equiv="Content-Language" content="ja" />	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />	<meta http-equiv="Content-Style-Type" content="text/css" />	<meta http-equiv="Content-Script-Type" content="text/javascript" />	<meta http-equiv="imagetoolbar" content="no" />	<meta name="verify-v1" content="lxw8yJ/pxN24Wn6aH2ROB0ViuOxALEXs6ZQg5sl5yfo=" />	<meta name="Description" content="子どもが風邪の時、どうする？ 【原因と病院に行くべきタイミング】 - Benesse 教育情報サイト" />	<meta name="Keywords" content="バイオインパクト Bio Impact,NEWS,情報,生活,子どもが風邪の時、どうする？ 【原因と病院に行くべきタイミング】 - Benesse 教育情報サイト,,医学,BIO,病気,健康,バイオ,Biotechnology,科学,ベンチャー,バイオテクノロジー,医療,研究" />	<title>子どもが風邪の時、どうする？ 【原因と病院に行くべきタイミング】 - Benesse 教育情報サイト - バイオインパクト Bio Impact｜バイオテクノロジー・ライフサイエンスの情報サイト</title>	<script type="text/javascript" src="/common/js/common.js"></script>		<link rel="index contents" href="/" title="ホーム" />			<link rel="stylesheet" type="text/css" charset="UTF-8" href="/common/css/screen.css" media="screen" />	<link rel="stylesheet" type="text/css" href="/common/css/print.css" media="print" />		<link rel="stylesheet" href="/common/css/news.css" type="text/css" media="all" />				<link rel="shortcut icon" href="/favicon.ico" />	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript">google.load("jquery", "1.4");</script>
+	<script type="text/javascript">jQuery.noConflict();</script>
+	
+<script type="text/javascript" src="/js/prototype.pjs" charset="UTF-8"></script>
+<script type="text/javascript" src="/js/common.pjs" charset="UTF-8"></script>
+</head><body id="p-detail" class="mainWide"><div id="container"><div id="header">
+
+<a href="/" title="Bio Impact バイオインパクト ［バイオテクノロジー・ライフサイエンスの情報サイト］" target="_top" id="logo"><img src="/img/common/logo.gif" alt="バイオインパクト Bio Impact" /></a>
+<div id="searchHeader">
+	<form action="http://bioimpact.jp/search" id="cse-search-box">
+	  <div>
+	    <input type="hidden" name="cx" value="partner-pub-5995606513987775:m6aaalf0uvs" />
+	    <input type="hidden" name="cof" value="FORID:10" />
+	    <input type="hidden" name="ie" value="UTF-8" />
+	    <input type="text" name="q" size="31" />
+	    <input type="submit" name="sa" value="&#x691c;&#x7d22;" />
+	  </div>
+	</form>
+	<script type="text/javascript" src="http://www.google.co.jp/cse/brand?form=cse-search-box&amp;lang=ja"></script> 
+</div>
+
+	<ul id="globalNavigation">
+		<li id="gnHome"><a href="/" title="バイオインパクトホーム" target="_parent">ホーム</a></li>
+		<li id="gnNews"><a href="/news/" title="ライフサイエンス関連ニュース" target="_parent">ニュース</a></li>
+		<li id="gnNew"><a href="/products/" title="注目商品" target="_parent">注目商品</a></li>
+		<li id="gnCampaign"><a href="/campaign/" title="キャンペーン" target="_parent">キャンペーン</a></li>
+		<li id="gnSeminar"><a href="/seminar/" title="セミナー" target="_parent">セミナー</a></li>
+		<li id="gnBlog"><a href="/blog/" title="研究者ブログ" target="_parent">ブログ</a></li>
+		<li id="gnBBS"><a href="http://antibody.bioimpact.jp/" title="抗体検索・比較" target="_parent">抗体検索・比較</a></li>
+		<li id="gnBSerch"><a href="http://catalog.bioimpact.jp/" title="試薬機器検索" target="_parent">試薬機器検索</a></li>
+		<li id="gnMailmaga"><a href="http://blog.bioimpact.jp/" title="メールマガジンログ「バイオインパクトブログ」" target="_parent">メールマガジン</a></li>
+	</ul>
+	<div id="categoryNavigation">
+		<ul id="dd">
+			<li class="mainmenu">
+			<a href="/nucleotide/" class="menu" id="mmenu1" onMouseOver="mopen(1);" onMouseOut="mclosetime();">DNA/RNA関連</a>
+				<div class="submenu" id="menu1" onMouseOver="mcancelclosetime()" onMouseOut="mclosetime();">
+				<a href="/nucleotide/nucleotide_extraction_pulification.html">核酸抽出・精製</a>
+				<a href="/nucleotide/pcr_realtime_pcr.html">PCR・定量PCR</a>
+				<a href="/nucleotide/sequencing.html">ゲノムシーケンシング</a>
+				<a href="/nucleotide/rnainterference.html">RNAi</a>
+				<a href="/nucleotide/microarray.html">マイクロアレイ</a>
+				</div>
+			</li>
+			<li class="mainmenu">
+			<a href="/protein/" class="menu" id="mmenu2" onMouseOver="mopen(2);" onMouseOut="mclosetime();">タンパク質関連</a>
+				<div class="submenu" id="menu2" onMouseOver="mcancelclosetime()" onMouseOut="mclosetime();">
+				<a href="/protein/chromatography.html">クロマトグラフィー</a>
+				<a href="/protein/mass_spectrometry.html">質量分析</a>
+				<a href="/protein/western_blot.html">ウェスタンブロット</a>
+				<a href="/protein/2d_electrophoresis.html">二次元電気泳動</a>
+				</div>
+			</li>
+			<li class="mainmenu">
+			<a href="/cell/" class="menu" id="mmenu3" onMouseOver="mopen(3);" onMouseOut="mclosetime();">細胞培養関連</a>
+				<div class="submenu" id="menu3" onMouseOver="mcancelclosetime()" onMouseOut="mclosetime();">
+				<a href="/cell/cell_culture.html">細胞培養</a>
+				<a href="/cell/transfection.html">トランスフェクション</a>
+				<a href="/cell/flow_cytometry.html">フローサイトメトリー</a>
+				</div>
+			</li>
+			<li class="mainmenu">
+			<a href="/antibody_elisa/" class="menu" id="mmenu3" onMouseOver="mopen(4);" onMouseOut="mclosetime();">抗体・ELISA</a>
+			<li class="mainmenu">
+			<a href="/imaging/" class="menu" id="mmenu3" onMouseOver="mopen(5);" onMouseOut="mclosetime();">顕微鏡・イメージング</a>
+				<div class="submenu" id="menu5" onMouseOver="mcancelclosetime()" onMouseOut="mclosetime();">
+				<a href="/imaging/microscope.html">各種顕微鏡</a>
+				<a href="/imaging/detection_system.html">各種検出装置</a>
+				</div>
+			</li>
+			<li class="mainmenu">
+			<a href="/labequipment_software_services/" class="menu" id="mmenu3" onMouseOver="mopen(6);" onMouseOut="mclosetime();">汎用品・ソフトウェア・受託</a>
+				<div class="submenu" id="menu6" onMouseOver="mcancelclosetime()" onMouseOut="mclosetime();">
+				<a href="/labequipment_software_services/lab_equipment.html">汎用品</a>
+				<a href="/labequipment_software_services/software.html">ソフトウェア</a>
+				<a href="/labequipment_software_services/services.html">受託サービス</a>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+	<div id="headerBnr">
+		<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://bioimpact.jp/openx/delivery/ajs.php':'http://bioimpact.jp/openx/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=3");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+		<noscript>
+		<a href='http://bioimpact.jp/openx/delivery/ck.php?n=ad9dca49&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://bioimpact.jp/openx/delivery/avw.php?zoneid=3&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=ad9dca49' border='0' alt='' /></a>
+		</noscript>
+	</div>
+</div>
+<hr class="separate" />
+<div id="wrapper" class="clearfix">
+
+		<ol class="bl">
+			<li id="home"><a href="/">ホーム</a></li>
+			<li><a href="/news/">ニュース</a></li>
+			<li><em>子どもが風邪の時、どうする？ 【原因と病院に行くべきタイミング】 - Benesse 教育情報サイト</em></li>
+		</ol> 
+	<div id="contents">
+		<div id="main">
+			<p class="bluH">ニュース</p>
+            
+        	<div class="adsense" style="margin:0 50px;">
+			<script type="text/javascript"><!--
+google_ad_client = "ca-pub-5995606513987775";
+/* 468×60 */
+google_ad_slot = "0945122487";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+            </div>	            
+            
+			<h1>子どもが風邪の時、どうする？ 【原因と病院に行くべきタイミング】 - Benesse 教育情報サイト</h1>
+			<ul class="inline line">
+				<li class="iconDate">2016年02月09日 00時36分</li>
+				<li class="iconLink"><a href="http://news.google.co.jp/news?hl=ja&amp;ned=jp&amp;q=%E5%85%8D%E7%96%AB" class="blank" rel="nofollow">googleニュース　免疫</a><img src="http://b.hatena.ne.jp/entry/image/http://news.google.co.jp/news?hl=ja&amp;ned=jp&amp;q=%E5%85%8D%E7%96%AB"	/></li>
+			</ul>
+			<p>Benesse 教育情報サイト子どもが風邪の時、どうする？ 【原因と病院に行くべきタイミング】Benesse 教育情報サイト風邪の時に熱が出る理由は二つあります。一つ目は、体に侵入したウイルスや細菌をこれ以上増やさないようにするため、二つ目は、免疫細胞の働きを活発にするためです。この免疫細胞こそが、侵入してきたウイルスや細菌をやっつけてくれる「自分で治す力」の正体なのです。 </p>
+			<p class="right"><a href="http://benesse.jp/kosodate/201602/20160209-1.html" target="_blank" class="iconLi" rel="nofollow" >続きはこちら</a></p>
+
+<!--/* OpenX Javascript Tag v2.4.4 */-->
+
+<!--/*
+  * The backup image section of this tag has been generated for use on a
+  * non-SSL page. If this tag is to be placed on an SSL page, change the
+  *   'http://bioimpact.jp/openx/delivery/...'
+  * to
+  *   'https://bioimpact.jp/openx/delivery/...'
+  *
+  * This noscript section of this tag only shows image banners. There
+  * is no width or height in these banners, so if you want these tags to
+  * allocate space for the ad before it shows, you will need to add this
+  * information to the <img> tag.
+  *
+  * If you do not want to deal with the intricities of the noscript
+  * section, delete the tag (from <noscript>... to </noscript>). On
+  * average, the noscript tag is called from less than 1% of internet
+  * users.
+  */-->
+<div align="center">【 PR 】</div>
+<div class="openx480350" style="margin:0 40px;">
+<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://bioimpact.jp/openx/delivery/ajs.php':'http://bioimpact.jp/openx/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=27");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://bioimpact.jp/openx/delivery/ck.php?n=a53b7e90&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://bioimpact.jp/openx/delivery/avw.php?zoneid=27&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a53b7e90' border='0' alt='' /></a></noscript>
+
+</div>
+
+		</div>
+		
+					<div id="leftN">
+				<div id="newsList" class="section">
+					<h2 class="tittle"><strong>ニュース元一覧</strong></h2>
+					<div class="f2">ニュース元毎に記事を表示できます</div>
+					
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://dailynews.yahoo.co.jp/fc/science/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/44">Yahoo!ニュース・トピックス - サイエンス</a></h4>
+						<p>Yahoo! JAPANのニュース・トピックス　サイエンスで取り上げている最新の見出しを提供し...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.jst.go.jp/kisoken/index.html" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/95">戦略的創造研究推進事業 プレス発表</a></h4>
+						<p>社会的・経済的ニーズを踏まえ、国が定めた方針に基づき、科学技術振興機構（JST）において研究領...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.jst.go.jp/kisoken/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/98">戦略的創造研究推進事業 イベント/募集</a></h4>
+						<p>社会的・経済的ニーズを踏まえ、国が定めた方針に基づき、科学技術振興機構（JST）において研究領...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.nedo.go.jp/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/99">新エネルギー・産業技術総合開発機構（NEDO）プレス</a></h4>
+						<p>新エネルギーおよび省エネルギー技術の開発と、実証試験、導入普及業務を積極的に展開し、新エネルギ...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.nedo.go.jp/search/?type=koubo" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/100">新エネルギー・産業技術総合開発機構（NEDO）公募情報</a></h4>
+						<p>新エネルギーおよび省エネルギー技術の開発と、実証試験、導入普及業務を積極的に展開し、新エネルギ...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.riken.go.jp/pr/press/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/110">理化学研究所 プレスリリース</a></h4>
+						<p>独立行政法人理化学研究所は、日本で唯一の自然科学の総合研究所として、物理学、工学、化学、生物学...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.riken.go.jp/pr/topics/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/111">理化学研究所 プレスリリース</a></h4>
+						<p>独立行政法人理化学研究所は、日本で唯一の自然科学の総合研究所として、物理学、工学、化学、生物学...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.asahi.com/science/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/83">asahi.com：サイエンス・ニュース</a></h4>
+						<p>朝日新聞の速報Webサイト、アサヒ・コムのサイエンス,科学,宇宙,ロボット,ＮＡＳＡ,テクノロ...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.genome-sci.jp/public-gshien/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/101">新学術領域研究「ゲノム支援」</a></h4>
+						<p>「ゲノム支援」は文部科学省科学研究費新学術領域研究（研究領域提案型）『生命科学系３分野支援活動...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://biosciencedbc.jp/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/102">バイオサイエンスデータベースセンター</a></h4>
+						<p>NBDCは、日本の生命科学研究を推進するために、データベースをつなげて使い易くします。
+その...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.lifescience.mext.go.jp/index.html" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/103">文部科学省ライフサイエンスの広場：お知らせ</a></h4>
+						<p>文部科学省では、理化学研究所、科学技術
+振興機構、大学等の機関における基礎的・先導的な研究の...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.e-rad.go.jp/index.html" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/104">e-Rad 府省共通研究開発管理システム</a></h4>
+						<p>府省共通研究開発管理システムとは、競争的資金制度を中心として研究開発管理に係る一連のプロセス（...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.jsps.go.jp/information/index.html" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/106">JSPS日本学術振興会ニュース</a></h4>
+						<p>本会は、我が国の学術振興の中核を担う機関として、科学研究費助成事業などの学術研究への助成や、特...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.jsps.go.jp/information/index4.html" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/107">学振TOPICS</a></h4>
+						<p>本会は、我が国の学術振興の中核を担う機関として、科学研究費助成事業などの学術研究への助成や、特...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.naro.affrc.go.jp/brain/shien/news.html" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/108">生物系特定産業技術研究支援センター お知らせ</a></h4>
+						<p>民間、大学、独立行政法人等の研究勢力を集結し、産学官連携の拠点として、基礎から応用・実用化まで...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://sankei.jp.msn.com/science/science.htm" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/82">MSN産経ニュース - 科学</a></h4>
+						<p>最先端の科学技術の関連情報のほか、様々な宇宙や生命の不思議を紹介します。</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://first-pg.jp/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/97">最先端研究開発支援プログラム（FIRSTプログラム）</a></h4>
+						<p>総合科学技術会議（CSTP）により、日本全国から応募のあった研究者の中からトップの３０人（中心...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.mext.go.jp/b_menu/news/index.html" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/112">文部科学省 新着情報</a></h4>
+						<p>文部科学省の新着情報です</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.mhlw.go.jp/stf/new-info/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/113">厚生労働省 新着情報</a></h4>
+						<p>厚生労働省の新着情報です</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.maff.go.jp/j/press/index.html" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/114">農林水産省 報道発表</a></h4>
+						<p>農林水産省の報道発表です</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.meti.go.jp/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/115">経済産業省 新着情報</a></h4>
+						<p>経済産業省の新着情報です</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.nikkeibp.co.jp/medical/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/84">医療 | nikkei BPnet</a></h4>
+						<p>医学論文や診察に役立つ情報をお届けする日経メディカル オンラインから、最新ニュース・コラム等を...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.aec.go.jp/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/109">内閣府原子力委員会</a></h4>
+						<p>が国の原子力の研究、開発及び利用は、これを平和の目的に限り、安全の確保を旨とし、民主的な運営の...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www3.nhk.or.jp/news/k10014522081000.html" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/85">NHKニュース|科学文化</a></h4>
+						<p>NHKニュース|科学文化</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://b.hatena.ne.jp/hotentry/knowledge" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/89">はてなブックマーク　科学・学問</a></h4>
+						<p>オンラインでブックマークを保存・管理・共有できる、オンラインブックマークサービス</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.medister.info/wordpress/newsblog/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/93">Medistar</a></h4>
+						<p>医療従事者のための専門情報源メディスター</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/https://www.hokatsu-nou.nips.ac.jp/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/96">包括型脳科学研究推進支援ネットワーク</a></h4>
+						<p>新学術領域研究「包括脳ネットワーク」は、基盤研究、新学術領域研究などのさまざまな科学研究費補助...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://scienceportal.jp/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/43">サイエンスポータル</a></h4>
+						<p>一般の人々が科学技術に対する興味と理解を深めるのに役に立つ情報、研究者・技術者・学生が研究、開...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://medical.nikkeibp.co.jp/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/75">日経メディカル オンライン</a></h4>
+						<p>日経メディカルが、日常診療に役立つ情報を厳選して提供する臨床医のためのサイト。</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.biotoday.com/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/46">BioToday</a></h4>
+						<p>医学、バイオテクノロジー、バイオベンチャー、製薬企業等の生命科学に関するニュースのデータベース...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.chem-station.com/chemistenews/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/90">ケムステニュース</a></h4>
+						<p>日々の化学関連のニュースをコメントしながら紹介します。身近な分子の構造、ナノテク、学会情報、海...</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.chem-station.com/blog/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/91">化学者のつぶやき</a></h4>
+						<p>化学者たちが日ごろどのようなことを考えているかをつづる。新着論文紹介、実験方法、日々の研究なども紹介</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://labs.ceek.jp/hbnews/list.cgi?k=8" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/92">はてブニュース-サイエンス</a></h4>
+						<p>はてなブックマーク -サイエンス- をニュース風にしたページです。</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.cabrain.net/news/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/77">医療・介護情報CBニュース</a></h4>
+						<p>キャリアブレイン記者がおくる最新の限定医療情報･ニュースサイト</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.gclew.com/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/76">GCLEW.com：医療ニュースヘッドライン</a></h4>
+						<p>GCLEW.comで掲載の国内外の医療関連ニュース最新ピックアップをお届けしています。</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://wiredvision.jp/archives/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/78">WIRED VISION</a></h4>
+						<p>”アカルイ”未来を考えるニュースサイト</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.technobahn.com/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/79">Technobahn　science &amp;technology</a></h4>
+						<p>way to the future</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://news.ceek.jp/search.cgi?kind=science" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/47">ceek.jpニュース：サイエンス</a></h4>
+						<p>最新サイエンスニュースを手軽に。完全ロボット型のニュース検索エンジンです。
+</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://biotech.nikkeibp.co.jp/bionewsn/index.jsp" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/74">日経バイオテクオンライン</a></h4>
+						<p>バイオテクノロジーの研究や産業化に携わる皆さんの情報サイト</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.bio-portal.jp/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/45">バイオテクノロジーポータルサイト</a></h4>
+						<p>バイオテクノロジーニュースや用語が盛りだくさんのバイオテクノロジーポータルサイト。</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://www.tsukuba-sci.com/index.php" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/80">Tsukauba Science News</a></h4>
+						<p>筑波研究学園都市の大学、公的機関、企業がプレス発表したニュースを習慣でお知らせします。
+</p>
+						</div>
+											<div>
+						<a href="#"><img src="http://img.simpleapi.net/small/http://yuruly.com/" alt="" width=40 height=40 border="0"></a>
+						<h4><a href="/news/81">ゆるりぃ　</a></h4>
+						<p>理系大学受験生・進学希望者の為の、理系進学が楽しみになるサイト！受験生が気になる、あんなこと、...</p>
+						</div>
+															<dl class="inner">
+					
+						<dt><a href="/news/google">googleニュース</a></dt>
+													<dd><a href="/news/49">研究</a></dd>
+													<dd><a href="/news/48">バイオテクノロジー</a></dd>
+													<dd><a href="/news/50">科学　技術</a></dd>
+													<dd><a href="/news/51">環境問題</a></dd>
+													<dd><a href="/news/52">地球温暖化</a></dd>
+													<dd><a href="/news/53">クローン技術</a></dd>
+													<dd><a href="/news/54">ゲノム</a></dd>
+													<dd><a href="/news/55">バイオエタノール</a></dd>
+													<dd><a href="/news/56">医療</a></dd>
+													<dd><a href="/news/57">脳研究</a></dd>
+													<dd><a href="/news/58">がん研究</a></dd>
+													<dd><a href="/news/59">再生医療</a></dd>
+													<dd><a href="/news/60">生活習慣病</a></dd>
+													<dd><a href="/news/61">新薬</a></dd>
+													<dd><a href="/news/62">治験</a></dd>
+													<dd><a href="/news/63">感染症</a></dd>
+													<dd><a href="/news/64">幹細胞研究</a></dd>
+													<dd><a href="/news/65">iPS細胞</a></dd>
+													<dd><a href="/news/66">アレルギー</a></dd>
+													<dd><a href="/news/71">DNA</a></dd>
+													<dd><a href="/news/72">遺伝</a></dd>
+													<dd><a href="/news/94">免疫</a></dd>
+						
+					</dl>
+										
+	</div>
+		<div id="pr" class="section">
+					<dl class="inner">
+						<dt><a href="http://research-er.jp/" class="blank">日本の研究.com</a></dt>
+						<dd>日本で研究されている研究課題や研究者についての情報検索サイト。研究課題の詳細情報や共同研究者の相関関係などがわかります。</dd>
+					</dl>
+					<dl class="inner">
+						<dt><a href="http://www.atgcchecker.com/" class="blank">Pubmedアラート<br />ATGC論文チェッカー</a></dt>
+						<dd>Pubmedでの論文検索をスムーズにするWEBツール(無料)</dd>
+					</dl>
+					<dl class="inner">
+						<dt><a href="http://blog.bioimpact.jp/" class="blank">研究試薬機器の最新ニュースを収集<br />バイオインパクトブログ</a></dt>
+						<dd>研究用試薬機器情報をメルマガなどから収集、配信しています。</dd>
+					</dl>
+					<dl class="inner">
+						<dt><a href="http://catalog.bioimpact.jp/" class="blank">バイオインパクト<br />カタログ検索</a></dt>
+						<dd>研究用機器/試薬/消耗品/受託サービス/各社サイトを対象とした、忙しい研究者のための研究用品カタログ検索サイトです。</dd>
+					</dl>
+		</div> 
+			</div> 
+		
+		</div>
+
+<div id="rightN">
+	<div class="ads">
+<!--/* OpenX Javascript Tag v2.4.4 */-->
+
+<!--/*
+  * The backup image section of this tag has been generated for use on a
+  * non-SSL page. If this tag is to be placed on an SSL page, change the
+  *   'http://bioimpact.jp/openx/delivery/...'
+  * to
+  *   'https://bioimpact.jp/openx/delivery/...'
+  *
+  * This noscript section of this tag only shows image banners. There
+  * is no width or height in these banners, so if you want these tags to
+  * allocate space for the ad before it shows, you will need to add this
+  * information to the <img> tag.
+  *
+  * If you do not want to deal with the intricities of the noscript
+  * section, delete the tag (from <noscript>... to </noscript>). On
+  * average, the noscript tag is called from less than 1% of internet
+  * users.
+  */-->
+
+<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://bioimpact.jp/openx/delivery/ajs.php':'http://bioimpact.jp/openx/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=5");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://bioimpact.jp/openx/delivery/ck.php?n=abf41d37&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://bioimpact.jp/openx/delivery/avw.php?zoneid=5&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=abf41d37' border='0' alt='' /></a></noscript>
+
+	</div>
+		<div class="section adsence">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-5995606513987775";
+/* 160×600 */
+google_ad_slot = "8642524121";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+	</div>
+	<div class="section adsence">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-5995606513987775";
+/* 160×600 */
+google_ad_slot = "8642524121";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+	</div>
+
+
+</div> 
+	</div>
+
+	<!-- // EO #contents -->
+
+</div>
+
+<hr class="separate" />
+
+<div id="footer">
+
+	<div class="inner">
+		<p> Copyright(C) 2006-2014 BIOIMPACT Co., Ltd. All Rights Reserved</a> </p>
+		<ul id="fn">
+			<li><a href="/">ホーム</a></li>
+			<li><a href="/info/">運営会社</a></li>
+			<li><a href="/info/guide.html">広告掲載のお問い合せ</a></li>
+			<li><a href="/info/blog.html">掲載ブログ運営者様へ</a></li>
+			<li><a href="/info/link.html">リンク</a></li>
+			<li><a href="/info/privacy.html">プライバシーポリシー</a></li>
+			<li><a href="http://www.atgcchecker.com/" target="_blank">Pubmed検索</a></li>
+ 			<li><a href="http://blog.bioimpact.jp/" target="_blank">バイオ業界メルマガ</a></li>
+ 			<li><a href="http://www.beagri.com/" target="_blank">植物工場</a></li>
+		</ul>
+	</div>
+
+</div>
+
+<!-- // EO #footer -->
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+
+<script type="text/javascript">
+
+_uacct = "UA-939182-2";
+urchinTracker();
+
+</script>
+
+</body>
+</html> 

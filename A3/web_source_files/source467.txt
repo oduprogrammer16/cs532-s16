@@ -1,0 +1,318 @@
+﻿   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en">  
+<head>
+<title>mp3 Supply - Free Music Download</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                
+<meta name="google-site-verification" content="HxuiuQtfvSAt9-omDzUS8xboaddU0an0TafMxn59ePA" />       
+<meta name=viewport content="width=device-width, initial-scale=1">
+<meta name="msvalidate.01" content="256EF1B874D6823B4A443FF9500382EB" />
+
+<meta name="description" content="Free music downloads. mp3 Supply is an mp3 search engine allowing its users to listen to music online also enabling free mp3 downloads for all your favorite songs." /> 
+<meta name="keywords" content="download, no cost, free music, free download, free mp3, free songs, mp3, cut, zippy, lagu, music, mp3skull, song, indir, mobile, iphone, ipod, ringtone, gratis" /> 
+<link rel="icon" href="images/favicon.ico" type="image/x-icon" /><meta name="google-site-verification" content="w_chpRo10NyYFLCFRUDjpf2_J3v_GNEWxg-uY-X6gyo" />
+<meta property="fb:app_id" content="299633666807478" />
+<link rel="stylesheet" type="text/css" href="http://mp3clan.com/style/normalize.css" />
+<link rel="stylesheet" type="text/css" href="http://mp3clan.com/min/?g=css" />
+<link rel="stylesheet" type="text/css" href="http://mp3clan.com/style/loading.css" />
+<link rel="stylesheet" type="text/css" href="http://mp3clan.com/style/ad.css" />
+<link rel="stylesheet" type="text/css" href="http://mp3clan.com/alert/resources/css/jquery.toastmessage.css" />
+<script type="text/javascript" src="http://mp3clan.com/min/?g=js"></script>
+<script type="text/javascript" src="http://mp3clan.com/js/searchClanen.js"></script>
+<script type="text/javascript" src="http://mp3clan.com/js/blockadblock.js"></script>
+<script src="http://mp3clan.com/js/pace.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://mp3clan.com/js/jquery.parallax.min.js"></script>
+<script src="http://mp3clan.com/ring/Scripts/swfobject_modified.js" type="text/javascript"></script>
+<script src="http://mp3clan.com/alert/javascript/jquery.toastmessage.js" type="text/javascript"></script>
+<script>
+soundManager.setup({flashVersion: 9, preferFlash: true, useHighPerformance: false, wmode: 'transparent', url: '../js/sm2/swf/'});
+var PP_CONFIG = {autoStart: false, playNext: true, useThrottling: false, usePeakData: true, useWaveformData: false, useEQData: false, useFavIcon: true}
+</script>
+<script type="text/javascript">
+$(document).ready(function () {
+	var searchOrange = $('#search-orange').searchClan({ onSearch: function (searchText) {
+		setTimeout(function () {	
+			$('.rClear').empty();
+			searchOrange.searchClan({ searchComplete: true });
+			var st=searchText.replace(/ /gi, "_");
+			$('.results1').load("/mp3_source.php", {"ser": $('#search-orange').val(), "page": "0"});
+			window.history.pushState('Object', 'Title', '/mp3/' + st + '.html');
+			stitle1 = searchText.toLowerCase().replace(/\b[a-z]/g, function(letter) {
+				return letter.toUpperCase();
+			});
+			document.title = stitle1+" MP3 Download";
+		}, 300);
+	}
+	});
+});
+$(document).ready(function() {
+	var my_div = $("#search-orange");
+	var div_top = my_div.offset().top;
+
+	$(document).scroll(function() {
+		if (div_top <= $(document).scrollTop()) {
+		$( ".searchB" ).slideDown( "fast", function() {
+			$('.searchB').css({display: 'block'});
+		});      
+		}
+		else{
+			$( ".searchB" ).slideUp( "fast", function() {
+			$('.searchB').css({display: 'none'});
+			});
+		}
+	});
+});
+function searchB(){
+	$('.rClear').empty();
+	$('.banner-roll').css({'display':'none'});
+	$('#searchBtnB').html('<div id="followingBallsB"><div id="followingBallsG_1" class="followingBallsG"></div><div id="followingBallsG_2" class="followingBallsG"></div><div id="followingBallsG_3" class="followingBallsG"></div><div id="followingBallsG_4" class="followingBallsG"></div>');
+	var termz = $('#searchB').val();
+	var strin= termz.replace(/ /gi, "_");
+	$('.results1').load("/mp3_source.php", {"ser": $('#searchB').val(), "page": "0"});
+	window.history.pushState('Object', 'Title', '/mp3/' + strin + '.html');
+	stitle2 = termz.toLowerCase().replace(/\b[a-z]/g, function(letter) {
+		return letter.toUpperCase();
+	});
+document.title = stitle2+" MP3 Download";
+}
+
+function page0(serc){
+$('.results-msg').html("<a style='color:#ffffff'>Loading...</a>");
+var formData = {ser:serc,page:"2"}; //Array 
+$.ajax({
+    url : "../mp3_s2.php",
+    type: "POST",
+    data : formData,
+    success: function(data, textStatus, jqXHR)
+    {
+      $('.results2').html(data);
+    },
+    error: function (jqXHR, textStatus, errorThrown)
+    {
+
+    }
+});
+	
+}
+function spag(serc,page){
+	$('.results2').append($("<div>").load("../mp3_s2.php", {"ser": serc, "page": page}));
+	$('.results-msg').html("<a style='color:#ffffff'>Loading...</a>");
+}
+	
+// Clan bar fading shadow
+$(function(){
+	$(window).on('scroll', function(){
+		var opacity = $(document).scrollTop();
+		opacity = (opacity > 100 ? 100 : opacity) / 200;
+		$('.clan-bar').css('box-shadow', '0px 2px 2px 0px rgba(50,50,50, ' + opacity + ')');
+	});
+}); //
+</script>
+<script>
+// Hide Header on on scroll down
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('.clan-bar-hide').outerHeight();
+
+$(window).scroll(function(event){
+    didScroll = true;
+});
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 250);
+
+function hasScrolled() {
+    var st = $(this).scrollTop();
+    
+    // Make sure they scroll more than delta
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+    
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (st > lastScrollTop && st > navbarHeight){
+        // Scroll Down
+        $('.clan-bar-hide').removeClass('nav-down').addClass('nav-up');
+    } else {
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+            $('.clan-bar-hide').removeClass('nav-up').addClass('nav-down');
+        }
+    }
+    
+    lastScrollTop = st;
+}
+
+</script>
+<script type='text/javascript' src='http://clktag.com/adServe/banners?tid=MPCPOP&tagid=2' async></script><script type='text/javascript' src='http://pl110575.puhtml.com/b8/eb/c7/b8ebc79a01dedf701df9db14daaca7a7.js'></script><script src="http://adserver.adreactor.com/js/libcode1_noajax.js" type="text/javascript"></script>
+</head>
+<body>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WW8DQW');</script>
+<header class="nav-down">
+<div class="clan-bar"> <!--clan-bar-hide-->
+	<div id="clan-bar">
+		<a href="/">
+			<img src="../style/images/logo-bar.png">
+		</a>
+		<div id="adetect" style="display:none"></div>
+	</div>
+</div>
+</header>
+<div class="main">
+ 
+<div id="search-orange"></div>
+<script>
+$( document ).ready(function() {
+	$("#search-orange").autocomplete({
+	source: function(request, response){
+
+	var apiKey = 'AI39si7ZLU83bKtKd4MrdzqcjTVI3DK9FvwJR6a4kB_SW_Dbuskit-mEYqskkSsFLxN5DiG1OBzdHzYfW0zXWjxirQKyxJfdkg';
+
+	var query = request.term;
+	$.ajax({
+		url: "http://suggestqueries.google.com/complete/search?hl=en&ds=yt&client=youtube&hjson=t&cp=1&q="+query+"&key="+apiKey+"&format=5&alt=json&callback=?",  
+		dataType: 'jsonp',
+		success: function(data, textStatus, request) { 
+			response( $.map( data[1], function(item) {
+				return {
+					label: item[0],
+					value: item[0]
+				}
+			}));
+        $('#search-orange').autocomplete('widget').css({'z-index': "100","background-color":"#f7f7f7","width":"337px","border":"solid 1px #e8e8e8;","max-height":"102px","overflow":"hidden","opacity":"0.9","border-color":"inherit"});
+		$('.ui-menu-item').css({"list-style":"none","font-weight": "bold","font-size": "17px","margin": "5px 5px 5px 5px","overflow": "hidden","text-overflow": "ellipsis","white-space": "nowrap","cursor": "pointer"});
+		$('.ui-corner-all').css({"padding-left":"4px","padding-right":"7px"});
+		$('.ui-helper-hidden-accessible').css({"display":"none"});
+		}
+			
+	});
+	},
+	select: function( event, ui ) {
+		findS(ui.item.label);
+	}
+
+	});
+});
+
+function findS(uggest) {
+	$('.ui-autocomplete').css("display","none");
+};	
+
+</script>
+
+	<div class="social-share">
+		<div class="facebook">
+			<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fmp3Clan&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=124360337586076" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
+		</div>
+		<div class="google">
+			<div class="g-plusone" data-size="medium" data-width="150" data-href="http://mp3clan.com"></div>
+		</div>
+		<div class="twitter">
+			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://mp3clan.com" data-text="Check this!"></a>
+			<!-- <script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>-->
+		</div>
+	</div>
+	<div class="clan-tabs" id="tabs"></div> 
+<script type="text/javascript">
+var settings = { start:0, change:false };
+$("#tabs ul").idTabs(settings,true);
+$('.clan-tabs').load('../browser.php'); 
+</script>
+	<div id="content">
+	<div class="banner-roll">
+	<div id="roll-space" style="width:300px">
+	<div class="searchB" onkeypress="if (event.keyCode == 13) { searchB() }">
+		<input autocomplete="off" type="text" id="searchB" placeholder=" Type a song or an artist">
+		<div id="searchBtnB" onclick="searchB();" class="btn btn-primary"> FIND </div>
+	</div>
+		<div id="banner-album"></div>
+		<div id="banner-pub">
+			<script type="text/javascript">
+				atOptions = {
+					'key' : 'd6f546ae8f6258d1b0afa584afaabd71',
+					'format' : 'iframe',
+					'height' : 250,
+					'width' : 300,
+					'params' : {}
+				};
+				document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + ':/'+'/www.bnhtml.com/invoke.js"></scr' + 'ipt>');
+				</script>		</div>
+	</div>
+	</div>
+	<ul class="results results1">
+		<article data-require="music/artistpage" itemscope="" itemtype="http://schema.org/MusicGroup">
+			<header class="mp3ttl">
+				<img itemprop="image" style="display:none;" src="http://mp3clan.com/logo.jpg"/>
+				<span itemprop="description" style="display:none;">mp3 Supply - Free Music Download</span>
+			</header>
+		
+						</article>
+		</ul>
+		<ul class="results results2 rClear">
+		</ul>
+	</div>
+</div>
+<div class="footer">
+	<div class="copyright">
+		This search engine is in no way intended for illegal downloads.<br />
+		&copy; 2015 mp3clan.com <br />
+		<a href="http://mp3clan.com/disclaimer.php">Disclaimer</a> | 
+		<a href="http://mp3clan.com/contact">Contact Us</a>  | 
+		<a href="http://mp3clan.mobi//">Mobile Version</a>
+	</div>
+	<div class="social-icons">
+		<a href="http://facebook.com/mp3Clan" target="_blank"><div class="facebook-icon"></div></a>
+		<a href="http://plus.google.com/106772137675933814835" target="_blank"><div class="google-icon"></div></a>
+		<a href="http://twitter.com/mp3Clan" target="_blank"><div class="twitter-icon"></div></a>
+	</div>
+	<center><div itemscope itemtype="http://data-vocabulary.org/Recipe" class="footer-review">
+<span itemprop="name" style="display:none;">mp3 Supply - Free Music Download</span>
+<img itemprop="photo" rel="bookmark" style="display:none;" src="http://mp3clan.com/logo.jpg"/>
+<span itemprop="review" itemscope itemtype="http://data-vocabulary.org/Review-aggregate">
+<span itemprop="itemreviewed"> MP3 Download</span>,
+<span itemprop="rating">
+Rating:<span itemprop="average">99</span>/<span itemprop="best">100</span>
+</span>
+&amp;
+<span itemprop="count">2111</span> views.
+</span>
+</div></center>
+
+</div>
+<!--<script src="http://5.79.83.207:8000/socket.io/socket.io.js"></script>
+<script>
+var socket = io.connect("5.79.83.207:8000");
+function socks(msg) {
+	socket.emit("send", msg);
+}
+jQuery.fx.interval = 85;
+socket.on("chat", function(name, msg){
+	$("#msgs").prepend("<li id=\"drop\" onclick=\"search_preview('"+msg+"');\">" + msg + "</li>");
+	$("#msgs li").slideDown();
+	drop();
+	
+	jQuery(function () {
+		jQuery("#msgs").each(function () {
+			jQuery(this).children(":gt(13)").fadeOut(200, function() { $(this).remove(); });
+		});
+	});
+});
+
+function drop() {
+    $('#drop').css({opacity: 0, display: 'block'}).animate({top: '0', opacity: 1}, 300/* , 'easeOutBounce' */);
+}
+
+</script>-->
+
+</body>
+</html>

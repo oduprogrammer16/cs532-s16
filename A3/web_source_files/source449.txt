@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="INDEX, FOLLOW">
+<meta name="Author" content="(C) SEGA">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Expires" content="0">	
+<meta name="description" content="SEGA（セガ）のアーケードゲーム、Wonderland Wars（ワンダーランド ウォーズ）1周年記念特設ページ。描き下ろし壁紙、JAEPO 2016出展情報、記念イベントなど盛りだくさん！今だけの限定プレゼントも！">
+<meta name="keywords" content="1周年,JAEPO,MOBA,オンラインゲーム,アーケード">
+
+<!-- facebook関連 -->
+<meta property="og:title" content="Wonderland Wars（ワンダーランド ウォーズ）1st Anniversary（1周年記念特設ページ） | セガ">
+<meta property="og:url" content=" http://wonder.sega.jp/special/1st_anniversary/">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:image" content=" http://wonder.sega.jp/special/1st_anniversary/img/sns_image.jpg">
+<meta property="og:site_name" content="Wonderland Wars（ワンダーランド ウォーズ）1st Anniversary（1周年記念特設ページ） | セガ">
+<meta property="og:description" content="SEGA（セガ）のアーケードゲーム、Wonderland Wars（ワンダーランド ウォーズ）1周年記念特設ページ。描き下ろし壁紙、JAEPO 2016出展情報、記念イベントなど盛りだくさん！今だけの限定プレゼントも！">
+<meta property="og:type" content="website">
+<link rel="Shortcut Icon" type="image/ico" href="../../favicon.png" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<script src="js/change_meta.js"></script>
+<title>1st Anniversary（1周年記念特設ページ） | Wonderland Wars（ワンダーランド ウォーズ）公式サイト－セガ－</title>
+<script src="js/change_style.js"></script>
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+<script src="js/respond.src.js"></script>
+<!-- jquery -->
+<script type="text/javascript" src="js/change_jquery.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-938799-45', 'auto');
+  ga('send', 'pageview');
+
+  FB.Event.subscribe('edge.create', function(targetUrl) {ga(['send', 'social', 'facebook', 'like', targetUrl]);});
+  FB.Event.subscribe('edge.remove', function(targetUrl) {ga(['send', 'social', 'facebook', 'unlike', targetUrl]);});
+  FB.Event.subscribe('message.send', function(targetUrl) {ga(['send', 'social', 'facebook', 'send', targetUrl]);});
+  window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);return window.twttr||(t={_e:[],ready:function(f){t._e.push(f)}})}(document,"script","twitter-wjs"));
+  twttr.ready(function (twttr) {twttr.events.bind('click', function (e) {ga('send', 'social', 'twitter', 'click', window.location.href); });
+  twttr.events.bind('tweet', function (e) {ga('send', 'social', 'twitter', 'tweet', window.location.href);});});
+</script>
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="container">
+		<header>
+			<a href="http://wonder.sega.jp/" target="_blank" class="wlw_official"></a>
+			<div id="sns_pc">
+				<a href="http://twitter.com/share?count=horizontal&original_referer=http://wonder.sega.jp/special/1st_anniversary/&text=Wonderland%20Wars%ef%bc%88%e3%83%af%e3%83%b3%e3%83%80%e3%83%bc%e3%83%a9%e3%83%b3%e3%83%89%20%e3%82%a6%e3%82%a9%e3%83%bc%e3%82%ba%ef%bc%891st%20Anniversary%ef%bc%81JAEPO%202016%e6%83%85%e5%a0%b1%e3%80%81%e8%a8%98%e5%bf%b5%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e3%82%92%e3%83%81%e3%82%a7%e3%83%83%e3%82%af%ef%bc%81&url=http://wonder.sega.jp/special/1st_anniversary/&via=wonderland_wars" onclick="window.open(this.href, 'tweetwindow', 'width=550, height=450,personalbar=0,toolbar=0,scrollbars=1,resizable=1'); return false; void(0);" class="TW"></a>
+				<!-- facebook button -->
+				<a href="http://www.facebook.com/share.php?u=http://wonder.sega.jp/special/1st_anniversary/" onclick="window.open(this.href, 'FBwindow', 'width=640, height=400, menubar=no, toolbar=no, scrollbars=yes'); return false;" class="FB"></a>
+				<!-- LINE -->
+				<a href="http://line.me/R/msg/text/?http%3a%2f%2fwonder%2esega%2ejp%2fspecial%2f1st_anniversary%2f" target="_blank" class="LINE"></a>
+			</div>
+		</header>
+		<section id="index_area">
+			<a href="#wallpaper" class="index01"><span class="overlay">1周年記念壁紙配信！描き下ろしをご用意！</span></a>
+			<a href="#schedule" class="index02"><span class="overlay">JAEPOに出展！楽しみがいっぱい！</span></a>
+			<a href="#nico" class="index03"><span class="overlay">1周年記念ニコ生放送！みんなで祝っちゃおう！</span></a>
+			<a class="index04"></a>
+			<a class="index05"></a>
+		</section>
+		<section id="wallpaper">
+			<h2 class="text_hide-position">イベント1：1周年記念壁紙配信！</h2>
+			<div class="wallBTN_left">
+				<p class="text_hide-position">PC版はこちらからダウンロード</p>
+				<a href="img/wallpaper/kabegami_1920_1080.jpg" target="_blank" class="wall_pc1920-1080"><span class="overlay">1920px × 1080px</span></a>
+				<a href="img/wallpaper/kabegami_1920_1200.jpg" target="_blank" class="wall_pc1920-1200"><span class="overlay">1920px × 1200px</span></a>
+			</div>
+			<div class="wallBTN_right">
+				<p class="text_hide-position">スマホ版はこちらからダウンロード</p>
+				<a href="img/mobile/wallpaper/kabegami_1080_1920.jpg" target="_blank" class="wall_sp1080-1920"><span class="overlay">1080px × 1920px</span></a>
+				<a href="img/mobile/wallpaper/kabegami_1440_1280.jpg" target="_blank" class="wall_sp1440-1280"><span class="overlay">1440px × 1280px</span></a>
+			</div>
+		</section>
+		<section id="schedule">
+			<h2 class="text_hide">イベント2：JAEPOに出展!</h2>
+			<div class="sec01_title text_hide">
+				全国大会の優勝チームと対戦できる
+				当日参加型のトーナメントが開催決定!
+			</div>
+			<div class="sec01a">
+				<div class="text01 text_hide">
+					トーナメントスケジュール
+				</div>
+				<div class="text02 text_hide">
+					2月20日（土）
+				</div>
+				<div class="text03 text_hide">
+					10:00 〜 10:45：トーナメント出場受付・抽選
+				</div>
+				<div class="text04 text_hide">
+					①11:15 ～ 12:15：第1回目トーナメント
+					②12:45 ～ 13:45：第2回目トーナメント
+					③14:15 ～ 15:15：第3回目トーナメント
+					④15:45 ～ 16:45：第4回目トーナメント
+				</div>
+			</div>
+			<div class="sec01b">
+				<div class="text01 text_hide">
+					トーナメント出場条件
+				</div>
+				<div class="text02 text_hide">
+					当日のご来場者の中から2月の舞闘会ランキングの上位から順に受付いたします。（定員48名）
+					受付時間：2月20日（土）10：00～11：00
+					受付場所：JAEPO（幕張メッセ）セガブース　ワンダ―ランドウォーズコーナー
+				</div>
+				<div class="text03 text_hide">
+					注意事項：
+					・出場トーナメント時間および、チーム分けはくじ引きとなります。       
+					・トーナメントではご自身のAimeカードは使用できません。
+					・当日はJAEPO出展に伴い、稼働バージョンと異なります。
+					　使用キャスト、アシストカード等に一部制限を設けております。
+				</div>
+				<div class="text04 text_hide">
+					キャスト（予定）：
+					サンドリヨン/吉備津彦/美猴/ピーター・ザ・キッド
+					ミクサ/シレネッタ/リトル・アリス/アイアン・フック
+				</div>
+				<a href="../../player/masquerade/masquerade01.html" target="_blank" class="btn_masquerade01"><span class="overlay">2月舞闘会詳細はこちら</span></a>
+				<a href="https://wonderland-wars.net/bbranking.html" target="_blank" class="btn_masquerade02"><span class="overlay">2月度舞闘会ランキングはこちら</span></a>
+			</div>
+			<div class="sec01c text_hide">
+				トーナメント参加特典
+				トーナメントに参加して頂いた方には、
+				ぷちきゃすデザイン特製デコチョコ×1セット＆WRの雫×1
+				をもれなくプレゼント！
+				※「WRの雫」の受け取りにはご自身のAimeが必要となります。
+				※「WRの雫」は後日配布となります。
+			</div>
+			<div class="sec02_title text_hide">
+				物販決定！ NEWアイテムもご用意！
+			</div>
+			<div class="sec02">
+				<div class="item01 text_hide">缶バッジ　全36種類</div>
+				<div class="item02 text_hide">アクリルチャーム　全10種類</div>
+				<div class="item03 text_hide">ミニ色紙コレクション　全10種類</div>
+				<div class="item04 text_hide">マフラータオル　1種類</div>
+				<div class="item05 text_hide">Tシャツ　全2種類</div>
+				<div class="item06 text_hide">ダブルキャストポスター　全3種類</div>
+			</div>
+			<div class="note text_hide">
+				※商品は会場内、物販ブースでの販売となります
+				※お一人あたりの購入数が制限されている商品もございます
+				※数に限りがございますので、売切の際はご容赦下さい
+			</div>
+			<div class="sec03_title text_hide">
+				来場者にデコチョコプレゼント！
+			</div>
+			<div class="sec03 text_hide">
+				デコチョコはWonderlandWarsブースでの配布となります。
+				※４個１セットになっており内容はランダムとなります。
+				SRの雫×1
+				※「SRの雫」の受け取りにはご自身のAimeが必要となります。
+				※「SRの雫」は後日配布となります。
+			</div>
+			<div class="sec04">
+				<a href="http://am-show.sega.jp/jaepo16/" target="_blank" class="btn_jaepo-sega"><span class="overlay">JAEPOセガ特設サイトはこちらから！</span></a>
+			</div>
+		</section>
+		<section id="nico">
+			<h2 class="text_hide">イベント3：記念ニコ生放送決定！</h2>
+			<div class="subtitle text_hide">JAEPO会場から生放送！</div>
+			<div class="nico_text">
+		</div>
+			<iframe width="312" height="176" src="http://live.nicovideo.jp/embed/lv252358588" scrolling="no" frameborder="0" class="nico_iframe"><a href="http://live.nicovideo.jp/watch/lv252358588">発売直前！P4Dニコ生特番(仮)</a></iframe>
+		</section>
+		<section id="sns_mobile">
+			<a href="http://twitter.com/share?count=horizontal&original_referer=http://wonder.sega.jp/special/1st_anniversary/&text=Wonderland%20Wars%ef%bc%88%e3%83%af%e3%83%b3%e3%83%80%e3%83%bc%e3%83%a9%e3%83%b3%e3%83%89%20%e3%82%a6%e3%82%a9%e3%83%bc%e3%82%ba%ef%bc%891st%20Anniversary%ef%bc%81JAEPO%202016%e6%83%85%e5%a0%b1%e3%80%81%e8%a8%98%e5%bf%b5%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e3%82%92%e3%83%81%e3%82%a7%e3%83%83%e3%82%af%ef%bc%81&url=http://wonder.sega.jp/special/1st_anniversary/&via=wonderland_wars" onclick="window.open(this.href, 'tweetwindow', 'width=550, height=450,personalbar=0,toolbar=0,scrollbars=1,resizable=1'); return false; void(0);" class="TW"></a>
+				<!-- facebook button -->
+				<a href="http://www.facebook.com/share.php?u=http://wonder.sega.jp/special/1st_anniversary/" onclick="window.open(this.href, 'FBwindow', 'width=640, height=400, menubar=no, toolbar=no, scrollbars=yes'); return false;" class="FB"></a>
+				<!-- LINE -->
+				<a href="http://line.me/R/msg/text/?http%3a%2f%2fwonder%2esega%2ejp%2fspecial%2f1st_anniversary%2f" target="_blank" class="LINE"></a>
+		</section>
+		<footer>
+			&copy;SEGA
+		</footer>
+	</div>
+	<a id="pageTop" href="#wrapper"><span class="overlay">TOP</span></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,1072 @@
+
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>López Dóriga y Alatorre, encuentro en el Vaticano  :: La Razón :: 16 de febrero de 2016</title>
+<meta name="description" content="Los periodistas olvidaron la rivalidad entre televisoras; son los 2 periodistas estelares de los noticieros nocturnos" />
+<meta property="og:image" content="http://www.razon.com.mx/IMG/arton295896.jpg"/>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="styleTabs.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="js/stepcarousel.js">
+
+/***********************************************
+* Step Carousel Viewer script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* This notice must stay intact for legal use
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+stepcarousel.setup({
+	galleryid: 'galleryc', //id of carousel DIV
+	beltclass: 'belt', //class of inner "belt" DIV containing all the panel DIVs
+	panelclass: 'panel', //class of panel DIVs each holding content
+	panelbehavior: {speed:500, wraparound:true, persist:false},
+	defaultbuttons: {enable: false, moveby: 1, leftnav: ['arrowl.gif', -10, 100], rightnav: ['arrowr.gif', -10, 100]},
+	statusvars: ['reportA', 'reportB', 'reportC'],
+	contenttype: ['inline'] //content setting ['inline'] or ['external', 'path_to_external_file']
+})
+
+</script>
+
+    <script type="text/javascript" src="js/jquery.tools.min.js"></script> 
+	<script type="text/javascript" src="js/jquery-easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="js/jquery-easing-compatibility.1.2.pack.js"></script>
+	<script type="text/javascript" src="js/coda-slider.1.1.1.pack.js"></script>
+	
+	<script type="text/javascript">
+	
+		var theInt = null;
+		var $crosslink, $navthumb;
+		var curclicked = 0;
+		
+		theInterval = function(cur){
+			clearInterval(theInt);
+			
+			if( typeof cur != 'undefined' )
+				curclicked = cur;
+			
+			$crosslink.removeClass("active-thumb");
+			$navthumb.eq(curclicked).parent().addClass("active-thumb");
+				$(".stripNav ul li a").eq(curclicked).trigger('click');
+			
+			theInt = setInterval(function(){
+				$crosslink.removeClass("active-thumb");
+				$navthumb.eq(curclicked).parent().addClass("active-thumb");
+				$(".stripNav ul li a").eq(curclicked).trigger('click');
+				curclicked++;
+				if( 6 == curclicked )
+					curclicked = 0;
+				
+			}, 5000);
+		};
+		
+		$(function(){
+			
+			$("#main-photo-slider").codaSlider();
+			
+			$navthumb = $(".nav-thumb");
+			$crosslink = $(".cross-link");
+			
+			$navthumb
+			.click(function() {
+				var $this = $(this);
+				theInterval($this.parent().attr('href').slice(1) - 1);
+				return false;
+			});
+			
+			theInterval();
+		});
+	</script>
+    
+<script type="text/javascript" src="js/ddsmoothmenu.js">
+
+/***********************************************
+* Smooth Navigational Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+ddsmoothmenu.init({
+	mainmenuid: "smoothmenu1", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {	
+
+	//Show Banner
+	$(".main_image .desc").show(); //Show Banner
+	$(".main_image .block").animate({ opacity: 0.85 }, 1 ); //Set Opacity
+
+	//Click and Hover events for thumbnail list
+	$(".image_thumb ul li:first").addClass('active'); 
+	$(".image_thumb ul li").click(function(){ 
+		//Set Variables
+		var imgAlt = $(this).find('img').attr("alt"); //Get Alt Tag of Image
+		var imgTitle = $(this).find('a').attr("href"); //Get Main Image URL
+		var imgDesc = $(this).find('.block').html(); 	//Get HTML of block
+		var imgDescHeight = $(".main_image").find('.block').height();	//Calculate height of block	
+		
+		if ($(this).is(".active")) {  //If it's already active, then...
+			return false; // Don't click through
+		} else {
+			//Animate the Teaser				
+			$(".main_image .block").animate({ opacity: 0, marginBottom: -imgDescHeight }, 250 , function() {
+				$(".main_image .block").html(imgDesc).animate({ opacity: 0.85,	marginBottom: "0" }, 250 );
+				$(".main_image img").attr({ src: imgTitle , alt: imgAlt});
+			});
+		}
+		
+		$(".image_thumb ul li").removeClass('active'); //Remove class of 'active' on all lists
+		$(this).addClass('active');  //add class of 'active' on this list only
+		return false;
+		
+	}) .hover(function(){
+		$(this).addClass('hover');
+		}, function() {
+		$(this).removeClass('hover');
+	});
+			
+	//Toggle Teaser
+	$("a.collapse").click(function(){
+		$(".main_image .block").slideToggle();
+		$("a.collapse").toggleClass("show");
+	});
+	
+});//Close Function
+</script>
+
+<script type="text/javascript" src="flowplayer-3.2.6.min.js"></script>
+
+</head>
+
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script><script type="text/javascript">
+<!--
+	function getPortada()
+	{
+		window.location = "spip.php?page=version_impresa&fecha=2016-02-16";
+	}
+	
+	var eplDoc = document; var eplLL = false;
+var eS1 = 'us.img.e-planning.net';var eplArgs = { iIF:1,sV:schemeLocal() + "://ads.us.e-planning.net/" ,vV:"4",sI:"17708",sec:"Nota",ss:"",eIs:["728x90_1","728x90_2","300x250_1", "Rectangle_1"] };
+function eplCheckStart() {
+	if (document.epl) {
+		var e = document.epl;
+		if (e.eplReady()) {
+			return true;
+		} else {
+			e.eplInit(eplArgs);
+			if (eplArgs.custom) {
+				for (var s in eplArgs.custom) {
+					document.epl.setCustomAdShow(s, eplArgs.custom[s]);
+				}
+			}
+			return e.eplReady();		
+		}
+	} else {
+		if (eplLL) return false;
+		if (!document.body) return false; var eS2; var dc = document.cookie;
+		var cookieName = ('https' === schemeLocal() ? 'EPLSERVER_S' : 'EPLSERVER') + '=';
+		var ci = dc.indexOf(cookieName);
+		if (ci != -1) {
+			ci += cookieName.length; var ce = dc.indexOf(';', ci);
+			if (ce == -1) ce = dc.length;
+			eS2 = dc.substring(ci, ce);
+		}
+		var eIF = document.createElement('IFRAME');
+		eIF.src = 'about:blank'; eIF.id = 'epl4iframe'; eIF.name = 'epl4iframe';
+		eIF.width=0; eIF.height=0; eIF.style.width='0px'; eIF.style.height='0px';
+		eIF.style.display='none'; document.body.appendChild(eIF);
+		
+		var eIFD = eIF.contentDocument ? eIF.contentDocument : eIF.document;
+		eIFD.open();eIFD.write('<html><head><title>e-planning</title></head><bo'+'dy></bo'+'dy></html>');eIFD.close();
+		var s = eIFD.createElement('SCRIPT');
+		s.src = schemeLocal() + '://' + (eS2?eS2:eS1) +'/layers/epl-41.js';
+		eIFD.body.appendChild(s);
+		if (!eS2) {
+			var ss = eIFD.createElement('SCRIPT');
+			ss.src = schemeLocal() + '://ads.us.e-planning.net/egc/4/17655';
+			eIFD.body.appendChild(ss);
+		}
+		eplLL = true;
+		return false;
+	}
+}
+eplCheckStart();
+function eplSetAdM(eID,custF) {
+	if (eplCheckStart()) {
+		if (custF) { document.epl.setCustomAdShow(eID,eplArgs.custom[eID]); }
+		document.epl.showSpace(eID);
+	} else {
+		var efu = 'eplSetAdM("'+eID+'", '+ (custF?'true':'false') +');';
+		setTimeout(efu, 250);	
+	}
+}
+function eplAD4M(eID,custF) {
+	document.write('<div id="eplAdDiv'+eID+'"></div>');
+	if (custF) {
+	    if (!eplArgs.custom) { eplArgs.custom = {}; }
+	    eplArgs.custom[eID] = custF;
+	}
+	eplSetAdM(eID, custF?true:false);
+}
+function schemeLocal() {
+	if (document.location.protocol) {
+		protocol = document.location.protocol;
+	} else {
+		protocol = window.top.location.protocol;
+	}
+	if (protocol) {
+		if (protocol.indexOf('https') !== -1) {
+			return 'https';
+		} else {
+			return 'http';
+		}
+	}
+}
+//-->
+</script>
+
+<script type='text/javascript' src='http://www.razon.com.mx/ads/www/delivery/spcjs.php?id=1'></script>
+
+<!-- Estilos pata Skycrapers -->
+
+<style type="text/css">
+#publicidad-izq { width:160px; height:600px; position:fixed; z-index:1; left: 5px; top:5px; }
+#publicidad-der { width:160px; height:600px; position:fixed; z-index:1; right: 5px; top:5px;}
+
+/* Large desktop */
+@media (max-width: 1320px) { 
+#publicidad-izq { display:none;}
+#publicidad-der { display:none; }
+</style>
+
+<div id="publicidad-izq"><script type="text/javascript">eplAD4M("160x600_izq");</script></div>
+<div id="publicidad-der"><script type="text/javascript">eplAD4M("160x600_der");</script></div>
+
+  <!--inicia banners-->
+    <table width="987px" border="0" cellspacing="0" cellpadding="5" align="center" bgcolor="#FFFFFF">
+     <tr>
+      <td width="220px"><script type='text/javascript'><!--// <![CDATA[
+    OA_show(2);
+// ]]> --></script></td>
+      <td width="728px"><script type="text/javascript">eplAD4M("728x90_1");</script></td>
+     </tr>
+    </table>
+  <!--termina banners-->
+  <!--inicia header-->
+    <table width="987px" border="0" cellspacing="0" cellpadding="5" align="center" bgcolor="#FFFFFF" style="padding-top:4px;">
+     <tr>
+      <td width="848px">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-right:3px;">
+       <tr style=" background-color:#f5f5f5">
+        <td>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-left:10px; padding-right:10px; border-top:solid 1px #e4e4e4; border-left:solid 1px #e4e4e4; border-right:solid 1px #e4e4e4;">
+         <tr height="29px">
+          <td width="250px" class="txt_marron_12"></td>
+          <td><div align="right" ><a href="spip.php?page=registro" class="txt_marron_11"><strong>¡Reg&iacute;strate!</strong></a>  |  <a href="spip.php?page=directorio" class="menu2">Directorio</a>  |  <a href="spip.php?page=texto&amp;id_article=45388" class="menu2">Suscripci&oacute;n</a>  |  <a href="spip.php?page=version_impresa&fecha=2016-02-16" class="menu2">Edici&oacute;n Impresa</a>  |  <a href="spip.php?page=turazon_his" class="menu2">Tu Raz&oacute;n</a></div></td>
+         </tr>
+        </table>
+        </td>
+       </tr>
+       <tr>
+        <td>
+        <table width="100%" height="79px" border="0" cellspacing="0" cellpadding="0" style="background-image:url(imagenes/back_logo.jpg); background-repeat:no-repeat; padding-left:10px; padding-right:10px;">
+         <tr>
+          <td width="450px"><a href="/"><img src="imagenes/logotipo.png" alt="Diario La Razón" width="267" height="64" border="0"></a></td>
+          <td width="450px"><div align="right"><script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+  google.load('search', '1');
+  google.setOnLoadCallback(function() {
+    google.search.CustomSearchControl.attachAutoCompletion(
+      '005172424952084389176:whjpblub5l0',
+      document.getElementById('q'),
+      'cse-search-box');
+  });
+</script>
+<form action="http://www.razon.com.mx/resultados.php" id="cse-search-box" class="buscador">
+  <div>
+    <input type="hidden" name="cx" value="005172424952084389176:whjpblub5l0" />
+    <input type="hidden" name="cof" value="FORID:10" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" id="q" autocomplete="off" size="25" value="&nbsp;" />
+    <input type="submit" name="sa" value="" class="btn_buscar" />
+  </div>
+</form>
+<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=en"></script><a href="spip.php?page=busqueda_avanzada" class="txt_cafe_11">B&uacute;squeda avanzada &raquo;</a></div></td>
+         </tr>
+        </table>
+        </td>
+       </tr>
+       <tr height="23px" style="background-color:#b43114; background-image:url(imagenes/back_menu_ppal.png); background-repeat:repeat-x">
+        <td>
+        <ul id="navi">
+        
+         
+         <li><a href="/"  onMouseOver="this.style.cssText='background-color: '"  onMouseOut="this.style.cssText='background-color: '"   class="menu_top">Inicio</a></li>
+         
+         <li><a  href="spip.php?rubrique2" onMouseOver="this.style.cssText='background-color: #731b05'"  onMouseOut="this.style.cssText='background-color: #b43114'" class="menu_top">México</a></li>
+         
+         <li><a  href="spip.php?rubrique4" onMouseOver="this.style.cssText='background-color: #b47b5c'"  onMouseOut="this.style.cssText='background-color: #b43114'" class="menu_top">Ciudad</a></li>
+         
+         <li><a  href="spip.php?rubrique6" onMouseOver="this.style.cssText='background-color: #c65809'"  onMouseOut="this.style.cssText='background-color: #b43114'" class="menu_top">Negocios</a></li>
+         
+         <li><a  href="spip.php?rubrique3" onMouseOver="this.style.cssText='background-color: #071931'"  onMouseOut="this.style.cssText='background-color: #b43114'" class="menu_top">Mundo</a></li>
+         
+         <li><a  href="spip.php?rubrique5" onMouseOver="this.style.cssText='background-color: #63891a'"  onMouseOut="this.style.cssText='background-color: #b43114'" class="menu_top">Deportes</a></li>
+         
+         <li><a  href="spip.php?rubrique7" onMouseOver="this.style.cssText='background-color: #aba27d'"  onMouseOut="this.style.cssText='background-color: #b43114'" class="menu_top">Cultura</a></li>
+         
+         <li><a  href="spip.php?rubrique8" onMouseOver="this.style.cssText='background-color: #b10163'"  onMouseOut="this.style.cssText='background-color: #b43114'" class="menu_top">Entretenimiento</a></li>
+         
+<!--MAOP: tickt 37606         <li><a href="spip.php?page=sociales"  onMouseOver="this.style.cssText='background-color: #92468a'"  onMouseOut="this.style.cssText='background-color: #b43114'" class="menu_top">Sociales</a></li> -->
+         <!--  <li><a href="spip.php?page=utilitaria"  onMouseOver="this.style.cssText='background-color: '"  onMouseOut="this.style.cssText='background-color: '" class="menu_top">Utilitaria</a></li>-->
+		 <li><a href="http://autocosmos.razon.com.mx/" target="_blank" class="menu_top">Autos</a>
+        </ul>
+
+        </td>
+       </tr>
+      </table>
+      </td>
+      <td width="122px" align="right">
+      
+      <img src="IMG/arton296860.jpg" width="115px" height="142px" align="right" style="cursor:pointer" onclick="getPortada()" > 
+      
+      </td>
+     </tr>
+     <tr>
+      <td colspan="2" height="30px" style="background-color:#f5f5f5; border-bottom:solid 1px #e4e4e4; border-left:solid 1px #e4e4e4; border-right:solid 1px #e4e4e4;">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+       <tr>
+        <td width="225" class="txt_marron_12" style="padding-left:10px;"><strong>Martes 16 de Febrero  |  07:23 pm</strong></td>
+        <td width="707">
+        <div id="smoothmenu1" class="ddsmoothmenu">
+        <ul>
+         <!--<li><a href="#">Archivo</a></li>-->
+         <li><a href="spip.php?page=texto&amp;id_article=45406">Versi&oacute;n para iPhone</a></li>
+         <li><a href="spip.php?page=tv">Raz&oacute;n TV</a></li>
+         <!--<li><a href="spip.php?page=infografias">Gr&aacute;ficos</a></li>-->
+         <li><a href="spip.php?page=galerias">Fotogaler&iacute;as</a></li>
+         <li><a href="spip.php?page=videos">Videos</a></li>
+         <li><a href="spip.php?page=listado_especial">Especiales</a></li>
+         <li><a href="spip.php?page=columnistas">Opini&oacute;n</a></li>
+        </ul>
+        </div>
+        </td>
+        <td width="135">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+         <tr>
+          <td width="30px"><a href="http://www.facebook.com/larazondemexico" target="_blank"><img src="imagenes/icono_fb.jpg" alt="Facebook" width="15" height="15" hspace="6px" border="0" /></a></td>
+          <td width="30px"><a href="https://twitter.com/LaRazon_mx" target="_blank"><img src="imagenes/icono_twitter.jpg" alt="Twitter" width="15" height="15" hspace="6px" border="0"/></a></td>
+          <td width="30px"><a href="spip.php?page=rss"><img src="imagenes/icono_rss.jpg" alt="RSS" width="15" height="15" hspace="6px" border="0"/></a></td>
+          <td width="30px"><a href="https://www.youtube.com/channel/UCoA4Y65xq4zGvhIVjLcKi5w" target="_blank"><img src="imagenes/icono_youtube.jpg" alt="Youtube" width="16" height="16" hspace="6px" border="0"/></a></td>
+         </tr>
+        </table>
+        </td>
+       </tr>
+       </table><!--inicia contenedor-->
+<table width="987px" border="0" cellspacing="0" cellpadding="5" align="center" bgcolor="#FFFFFF">
+  <tr>
+    
+  	
+  		  	
+  
+  	    		<td style="padding-left:10px; padding-top:10px;" class="navegacion"><div id="hierarchie"><a href="http://www.razon.com.mx/">Portada del sitio</a> &gt; <a href="spip.php?page=utilitaria&id_rubrique=11">Medios</a> &gt; <strong class="on">López Dóriga y Alatorre, encuentro en el Vaticano</strong></div></td>
+    	      </tr>
+  <tr>
+    <td class="separa_horizontal">&nbsp;</td>
+  </tr>
+  <tr>
+    <td><div style="text-align:center;"><script type="text/javascript">eplAD4M("970x90_1");</script></div></td>
+  </tr>
+  <tr>
+    <td class="separa_horizontal">&nbsp;</td>
+  </tr>
+  <!--inicia informacion-->
+  <tr>
+    <td>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+     <tr>
+      <!--inicia columna izquierda-->
+      <td style="padding-right:20px;" valign="top">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+       <tr>
+        <td valign="top" width="634px">
+         <!--inicia informacion nota-->
+         <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+           <td>
+           <span class="titulos_marron_35">
+              		López Dóriga y Alatorre, encuentro en el Vaticano 
+           </span>
+           <br /><span class="gris_17"><p>Los periodistas olvidaron la rivalidad entre televisoras; son los 2 periodistas estelares de los noticieros nocturnos</p></span></td>
+          </tr>
+          <tr>
+           <td class="separa_horizontal">&nbsp;</td>
+          </tr>
+          <tr>
+           <td valign="top" class="textonota">
+          	<p>A través de su cuenta en Twitter, el periodista Joaquín López-Dóriga, compartió con sus seguidores una fotografía acompañado de su colega, Javier Alatorre, con el que coincidió en el Vaticano.</p>
+
+<p>El encuentro se vuelve relevante ya que son los dos periodistas estelares de las dos televisoras más importantes de México, Televisa y Televisión Azteca, las cuales son rivales en la búsqueda de audiencias.</p>
+
+<p>Sin embargo, logró prevalecer la camaradería de reporteros, por lo que el “Teacher”, no dudó en tomarse una selfie con su contraparte de Televisión Azteca.</p>
+
+<blockquote class="twitter-tweet" data-lang="es">
+<p lang="es" dir="ltr">Miren a quien me encontré en El Vaticano <a href="https://twitter.com/Javier_Alatorre">@Javier_Alatorre</a> <a href="https://t.co/2UmE9IR9oe">pic.twitter.com/2UmE9IR9oe</a></p>
+
+<p>&mdash; Joaquín López-Dóriga (@lopezdoriga) <a href="https://twitter.com/lopezdoriga/status/696666857021972480">febrero 8, 2016</a></p>
+</blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+           </td>
+          </tr>
+          <tr>
+          <td>&nbsp;</td>
+          </tr>
+          <tr>
+          <td><!--inicia noticias destacadas--> 
+                    
+          
+                <script type="text/javascript"><!--
+google_ad_client = "ca-pub-5872686101924914";
+/* razon gris 336 */
+google_ad_slot = "7304609512";
+google_ad_width = 336;
+google_ad_height = 280;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><br />
+<br />
+<br />
+  <table width="647px" border="0" cellspacing="0" cellpadding="0" style=" background-image:url(imagenes/back_detacadas.gif); background-repeat:repeat-x; border:solid 1px #e6e6e6">
+  <tr>
+    <td style="padding-left:7px;"><span class="txt_marron_18"><strong>Noticias Destacadas</strong></span></td>
+    <td style="padding-right:7px;"><div align="right" style="margin-top:3px; margin-right:3px;">
+<a href="javascript:stepcarousel.stepBy('galleryc', -8)"><img src="imagenes/btn_left.png" alt="Anterior" width="21" height="21" border="0" /></a> <a href="javascript:stepcarousel.stepBy('galleryc', 8)" style="margin-left: 3px;"><img src="imagenes/btn_right.png" alt="Siguiente" width="21" height="21" border="0" /></a>
+</div></td>
+  </tr>
+</table>
+        
+        <div id="galleryc" class="stepcarousel">
+<div class="belt">
+
+		
+			
+				<div class="panel" style="width: 142px; height:235px;"><p><span class="txt_marron_12">México &raquo;</span></p>
+		<a href="spip.php?article296970"><img src="IMG/arton296970.jpg" alt="EPN reconoce trabajo de mexicanos para elevar calidad en productos" width="127" height="85" class="foto" /></a>
+		<a href="spip.php?article296970" class="txt_gris_14">EPN reconoce trabajo de mexicanos para elevar calidad en productos </a>
+		</div>
+		<div class="panel" style="width: 3px; height:245px; background-image:url(imagenes/separador.gif); background-repeat:repeat-y">&nbsp;</div>
+		
+		
+	
+			
+				<div class="panel" style="width: 142px; height:235px;"><p><span class="txt_marron2_12">Ciudad &raquo;</span></p>
+		<a href="spip.php?article296961"><img src="IMG/arton296961.jpg" alt="Marchas complican circulación en la zona centro y sur de la CDMX " width="127" height="85" class="foto" /></a>
+		<a href="spip.php?article296961" class="txt_gris_14">Marchas complican circulación en la zona centro y sur de la CDMX  </a>
+		</div>
+		<div class="panel" style="width: 3px; height:245px; background-image:url(imagenes/separador.gif); background-repeat:repeat-y">&nbsp;</div>
+		
+		
+	
+			
+				<div class="panel" style="width: 142px; height:235px;"><p><span class="txt_marron2_12">Ciudad &raquo;</span></p>
+		<a href="spip.php?article296944"><img src="IMG/arton296944.jpg" alt="Vuelca tráiler con autopartes en Insurgentes Sur" width="127" height="85" class="foto" /></a>
+		<a href="spip.php?article296944" class="txt_gris_14">Vuelca tráiler con autopartes en Insurgentes Sur </a>
+		</div>
+		<div class="panel" style="width: 3px; height:245px; background-image:url(imagenes/separador.gif); background-repeat:repeat-y">&nbsp;</div>
+		
+		
+	
+			
+				<div class="panel" style="width: 142px; height:235px;"><p><span class="txt_naranja_12">Negocios &raquo;</span></p>
+		<a href="spip.php?article296940"><img src="IMG/arton296940.jpg" alt="Dólar abre en 19.18 pesos en el AICM " width="127" height="85" class="foto" /></a>
+		<a href="spip.php?article296940" class="txt_gris_14">Dólar abre en 19.18 pesos en el AICM  </a>
+		</div>
+		<div class="panel" style="width: 3px; height:245px; background-image:url(imagenes/separador.gif); background-repeat:repeat-y">&nbsp;</div>
+		
+		
+	
+			
+				<div class="panel" style="width: 142px; height:235px;"><p><span class="txt_marron2_12">Ciudad &raquo;</span></p>
+		<a href="spip.php?article296931"><img src="IMG/arton296931.jpg" alt="Mala calidad del aire en la zona conurbada del Valle de México" width="127" height="85" class="foto" /></a>
+		<a href="spip.php?article296931" class="txt_gris_14">Mala calidad del aire en la zona conurbada del Valle de México </a>
+		</div>
+		<div class="panel" style="width: 3px; height:245px; background-image:url(imagenes/separador.gif); background-repeat:repeat-y">&nbsp;</div>
+		
+		
+	
+		
+			
+				<div class="panel" style="width: 142px; height:235px;"><p><span class="txt_marron_12">Salud &raquo;</span></p>
+		<a href="spip.php?article296864"><img src="IMG/arton296864.jpg" alt="Atiende Seguro Popular más de 5 mil casos de cáncer infantil " width="127" height="85" class="foto" /></a>
+		<a href="spip.php?article296864" class="txt_gris_14">Atiende Seguro Popular más de 5 mil casos de cáncer infantil  </a>
+		</div>
+		<div class="panel" style="width: 3px; height:245px; background-image:url(imagenes/separador.gif); background-repeat:repeat-y">&nbsp;</div>
+		
+	
+		
+		
+	
+			
+				<div class="panel" style="width: 142px; height:235px;"><p><span class="txt_marron_12">México &raquo;</span></p>
+		<a href="spip.php?article296853"><img src="IMG/arton296853.jpg" alt="Descarta SEP solicitudes de Morena para universidades " width="127" height="85" class="foto" /></a>
+		<a href="spip.php?article296853" class="txt_gris_14">Descarta SEP solicitudes de Morena para universidades  </a>
+		</div>
+		<div class="panel" style="width: 3px; height:245px; background-image:url(imagenes/separador.gif); background-repeat:repeat-y">&nbsp;</div>
+		
+		
+	
+			
+				<div class="panel" style="width: 142px; height:235px;"><p><span class="txt_marron_12">México &raquo;</span></p>
+		<a href="spip.php?article296852"><img src="IMG/arton296852.jpg" alt="Reportan incendio en nodriza de autos en México- Puebla " width="127" height="85" class="foto" /></a>
+		<a href="spip.php?article296852" class="txt_gris_14">Reportan incendio en nodriza de autos en México- Puebla  </a>
+		</div>
+		<div class="panel" style="width: 3px; height:245px; background-image:url(imagenes/separador.gif); background-repeat:repeat-y">&nbsp;</div>
+		
+		
+	
+			
+				<div class="panel" style="width: 142px; height:235px;"><p><span class="txt_naranja_12">Negocios &raquo;</span></p>
+		<a href="spip.php?article296840"><img src="IMG/arton296840.jpg" alt="Profepa sanciona con más de 168 mdp a Volkswagen México " width="127" height="85" class="foto" /></a>
+		<a href="spip.php?article296840" class="txt_gris_14">Profepa sanciona con más de 168 mdp a Volkswagen México  </a>
+		</div>
+		<div class="panel" style="width: 3px; height:245px; background-image:url(imagenes/separador.gif); background-repeat:repeat-y">&nbsp;</div>
+		
+		
+	
+			
+				<div class="panel" style="width: 142px; height:235px;"><p><span class="txt_marron2_12">Ciudad &raquo;</span></p>
+		<a href="spip.php?article296815"><img src="IMG/arton296815.jpg" alt="Prevalece la mala calidad del aire en el Valle de México  " width="127" height="85" class="foto" /></a>
+		<a href="spip.php?article296815" class="txt_gris_14">Prevalece la mala calidad del aire en el Valle de México   </a>
+		</div>
+		<div class="panel" style="width: 3px; height:245px; background-image:url(imagenes/separador.gif); background-repeat:repeat-y">&nbsp;</div>
+		
+		
+	
+		
+		
+	
+
+
+
+
+</div>
+</div><br />
+       <!--Termina noticias destacadas--></td>
+          </tr>
+
+
+         </table>
+         <!--inicia informacion nota-->
+        </td>
+       </tr>
+       <!--<tr>
+        <td colspan="3">&nbsp;</td>
+       </tr>-->
+      </table>
+      </td>
+      <!--termina columna izquierda-->
+      <!--inicia columna derecha-->
+      <td width="300px" valign="top">
+       <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <!--inicia datos nota-->
+        <tr valign="top">
+         <td valign="top">
+         <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+           <td width="10px"><img src="imagenes/icono_calendario.jpg" alt="fecha" width="10px" height="10" hspace="5px" /></td>
+           <td><span class="txt_negro_11">8 de febrero de 2016 11:49</span></td>
+          </tr>
+          <tr>
+           <td width="10px"><img src="imagenes/icono_modificacion.jpg" alt="ultima modificacion" width="10px" height="10" hspace="5px" /></td>
+           <td><span class="txt_azul_11">Ultima modificación: 11:54</span></td>
+          </tr>
+          <tr>
+           <td width="10px"><img src="imagenes/icono_autor.jpg" alt="autor" width="10px" height="10" hspace="5px" /></td>
+           <td><span class="txt_negro_11">Por: La Razón Online</span></td>
+          </tr>
+         </table>
+         </td>
+</tr>        <!--termina datos nota-->
+        <tr>
+         <td height="15px" class="separa_horizontal">&nbsp;</td>
+        </tr>
+        <tr>
+         <td >
+         <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="40%"><script language="JavaScript1.2">
+	/*
+	Open Centered Popup Window Script-
+	� DHTMLShock (www.dhtmlshock.com)
+	To add more shock to your site, visit www.DHTMLShock.com
+	*/
+	function centrarVentana(theURL,winName,features, myWidth, myHeight, isCenter) { //v3.0
+		if(window.screen)if(isCenter)if(isCenter=="true"){
+		var myLeft = (screen.width-myWidth)/2;
+		var myTop = (screen.height-myHeight)/2;
+		features+=(features!='')?',':'';
+		features+=',left='+myLeft+',top='+myTop;
+	}
+	window.open(theURL,winName,features+((features!='')?',':'')+'width='+myWidth+',height='+myHeight);
+	}
+</script><a href="javascript:;" onClick="centrarVentana('http://razon.com.mx/spip.php?page=imprimir_articulo&amp;id_article=295896','Imprimir_documento','scrollbars=yes,resizable=yes','700','470','true')" title="Versi&oacute;n para imprimir de este documento" border="0"><img src="plugins/imprimir_documento/impresora.gif" border="0" /> Versi&oacute;n imprimir</a></td>
+    <td><!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+    <a class="addthis_button_email">&nbsp;Enviar a un amigo</a><br />
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4cbdde2d4a273958"></script>
+<!-- AddThis Button END --></td>
+  </tr>
+</table>
+         </td>
+        </tr>
+        <tr>
+         <td height="15px" class="separa_horizontal">&nbsp;</td>
+        </tr>
+        <!--termina tweets y comentarios-->
+        <html>
+<head>
+<meta property="og:image" content="IMG/arton295896.jpg"/>
+</head>
+
+
+<tr>
+         <td valign="top">
+         <table width="100%" border="0" cellspacing="0" cellpadding="3">
+          <tr>
+           <td width="52" valign="top"><div>
+		   <a href="https://twitter.com/share" class="twitter-share-button" data-via="LaRazon_mx" data-lang="es" data-dnt="true">Twittear</a></div>
+<script>(function(d,s,id){
+var js,fjs=d.getElementsByTagName(s)[0];
+if(!d.getElementById(id))
+{js=d.createElement(s);js.id=id;
+js.src="//platform.twitter.com/widgets.js";
+fjs.parentNode.insertBefore(js,fjs);
+}}(document,"script","twitter-wjs"));</script>
+           </td>
+           <td width="71px">
+            
+           </td>
+           <td>
+            <table width="100%" border="0" cellspacing="0" cellpadding="3">
+             <tr>
+              <td>
+              
+
+<div class="fb-like" data-width="70" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>              
+              </td>
+             </tr>
+             <tr>
+            	               <td><a href="http://www.razon.com.mx/resultados.php?cx=005172424952084389176%3Awhjpblub5l0&cof=FORID%3A10&ie=UTF-8&q=%C2%A0López+Dóriga+y+Alatorre,+encuentro+en+el+Vaticano+&sa=&siteurl=www.razon.com.mx%2F2010%2Fspip.php"><img src="imagenes/btn_tema.jpg" alt="Todo sobre este tema" width="140" height="16" border="0" /></a></td>
+             </tr>
+             
+            </table>
+           </td>
+          </tr>
+         </table>
+         </td>
+        </tr>
+
+</html>        <!--termina tweets y comentarios-->
+        <tr>
+         <td height="25px" class="separa_horizontal">&nbsp;</td>
+        </tr>
+        <tr>
+         <td><script type="text/javascript">eplAD4M("300x250_1");</script></td>
+        </tr>
+        <tr>
+         <td height="15px" class="separa_horizontal">&nbsp;</td>
+        </tr>
+        <tr>
+         <td><script type="text/javascript">eplAD4M("300x250_2");</script></td>
+        </tr>
+        <tr>
+         <td height="15px" class="separa_horizontal">&nbsp;</td>
+        </tr>
+        <tr>
+         <td><script type="text/javascript">eplAD4M("300x250_3");</script></td>
+        </tr>
+        <tr>
+         <td height="15px" class="separa_horizontal">&nbsp;</td>
+        </tr>
+        <!--inicia audio-->
+                <!--termina audio-->
+        <!--inicia galeria-->
+        <tr>
+  <td>
+   <table width="100%" border="0" cellspacing="0" cellpadding="3">
+     <!--<tr>
+      <td width="24px"><img src="imagenes/icono_fotogaleria.gif" alt="Fotogaleria" width="25" height="20" /></td>
+      <td class="txt_marron_18"><strong>Fotogaler&iacute;a</strong></td>
+     </tr>-->
+     <tr>
+       <td colspan="2"><img src="IMG/arton295896.jpg" alt="López Dóriga y Alatorre, encuentro en el Vaticano " width="280" height="189" class="foto" /><br /><span class="txt_negro_11"><p>Foto: @lopezdoriga</p></span> 
+         
+       </td>
+      </tr>
+    </table>
+   </td>
+</tr>
+<tr>
+         <td height="25px" class="separa_horizontal">&nbsp;</td>
+</tr>        <!--termina galeria-->
+                <tr>
+         <td><script type='text/javascript'><!--// <![CDATA[
+    OA_show(3);
+// ]]> --></script>
+
+<script type='text/javascript'><!--// <![CDATA[
+    /* [id4] www.razon.com.mx - 300 x 100 - 1 */
+    OA_show(4);
+// ]]> --></script>
+
+
+<script type='text/javascript'><!--// <![CDATA[
+    /* [id5] www.razon.com.mx - 300 x 100 - 2 */
+    OA_show(5);
+// ]]> --></script>
+
+<script type='text/javascript'><!--// <![CDATA[
+    /* [id6] www.razon.com.mx - 300 x 100 - 3 */
+    OA_show(6);
+// ]]> --></script>
+
+<script type='text/javascript'><!--// <![CDATA[
+    /* [id7] www.razon.com.mx - Cuadrado 2 */
+    OA_show(7);
+// ]]> --></script>
+
+
+</td>
+        </tr>
+        <tr>
+         <td height="25px" class="separa_horizontal">&nbsp;</td>
+        </tr>
+
+        <!--inicia galeria-->
+        <!--<tr>
+         <td>
+         <table width="100%" border="0" cellspacing="0" cellpadding="3" bgcolor="#1b232c" style="background-image:url(imagenes/back_gal_seccion.gif); background-repeat:repeat-x;">
+           <tr>
+            <td width="24px" valign="top"><img src="imagenes/icono_gal_seccion.gif" alt="Galeria" width="19" height="12" vspace="5px" /></td>
+            <td class="txt_bco_12"><strong>Motín en penal de Topo Chico </strong></td>
+           </tr>
+           <tr>
+             <td colspan="2"><a href="spip.php?page=galeria&id_article=296346"><img src="IMG/arton296346.jpg" alt="Motín en penal de Topo Chico " width="294" height="178" /></a><br />
+               <table width="100%" border="0" cellspacing="0" cellpadding="0" align="right">
+                <tr>
+                 <td width="93%" style="text-align:right;"><a href="spip.php?page=galeria&id_article=296346" class="txt_bco_12">Ver galer&iacute;a completa</a></td>
+                 <td width="7%" style="text-align:right;"><img src="imagenes/icono_lupa_seccion.gif" alt="Galeria" width="13" height="18" hspace="3" /></td>
+                </tr>
+               </table>
+             </td>
+            </tr>
+          </table>
+         </td>
+</tr>-->
+        <!--termina galeria-->
+        <!--<tr>
+         <td height="25px" class="separa_horizontal">&nbsp;</td>
+        </tr>-->
+        <!--inicia notas relacionadas-->
+                <!--termina notas relacionadas-->
+        
+     
+        <tr>
+         <td height="25px">&nbsp;</td>
+        </tr>
+      
+
+       </table>
+       <table width="100%" border="0" cellspacing="1" cellpadding="2">
+         <tr>
+           <td>
+                     
+                     <script type="text/javascript"><!--
+google_ad_client = "ca-pub-5872686101924914";
+/* razon1 */
+google_ad_slot = "9753362739";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>  
+<br />
+
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-6528472659169255";
+/* rz */
+google_ad_slot = "7014201151";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>   
+</td>
+         </tr>
+       </table></td>
+      <!--termina columna derecha-->
+     </tr>
+    </table>
+    </td>
+  </tr>
+  </table>
+  </td>
+  </tr>
+  <!--termina informacion-->
+
+</table>
+<script type="text/javascript">
+<!--
+document.getElementById("region_sesion").style.display="none";
+document.getElementById("region_registro").style.display="none";
+
+function showsesion()
+{
+	document.getElementById("region_sesion").style.display="block";
+	document.getElementById("region_registro").style.display="none";
+}
+
+function showregistro()
+{
+	document.getElementById("region_sesion").style.display="none";
+	document.getElementById("region_registro").style.display="block";
+}
+//-->
+</script>
+<!--termina contenedor-->
+<script type="text/javascript">
+var _sf_async_config={uid:37522,domain:"razon.com.mx",sections:"Medios",authors:"La Razón Online"};
+(function(){
+  function loadChartbeat() {
+    window._sf_endpt=(new Date()).getTime();
+    var e = document.createElement('script');
+    e.setAttribute('language', 'javascript');
+    e.setAttribute('type', 'text/javascript');
+    e.setAttribute('src',
+       (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+       "js/chartbeat.js");
+    document.body.appendChild(e);
+  }
+  var oldonload = window.onload;
+  window.onload = (typeof window.onload != 'function') ?
+     loadChartbeat : function() { oldonload(); loadChartbeat(); };
+})();
+
+</script><div>
+<!--inicia footer-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="clear:both">
+  <tr bgcolor="#f1ecd8" style="background-image:url(imagenes/back_footer.jpg); background-repeat:repeat-x">
+    <td height="100">
+    <table width="955px" border="0" cellspacing="0" cellpadding="0" align="center">
+     <tr>
+      <td colspan="5">&nbsp;</td>
+     </tr>
+     <tr>
+      <td width="35%" valign="top">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+       <tr>
+        <td colspan="3"><span class="txt_beige_24">Secciones</span></td>
+       </tr>
+       <tr>
+        <td colspan="3">&nbsp;</td>
+       </tr>
+       <tr>
+        <td width="28%" class="txt_oro12" valign="top">
+        <ul>
+        <li><a href="/"><strong>Inicio</strong></a></li>
+        <li><a href="spip.php?rubrique6"><strong>Negocios</strong></a></li>
+        <li><a href="spip.php?rubrique7"><strong>Cultura</strong></a></li>
+        </ul>
+        </td>
+        <td width="40%" class="txt_oro12" valign="top">
+        <ul>
+        <li><a href="spip.php?rubrique2"><strong>M&eacute;xico</strong></a></li>
+        <li><a href="spip.php?rubrique3"><strong>Mundo</strong></a></li>
+        <li><a href="spip.php?rubrique8"><strong>Entretenimiento</strong></a></li>
+        </ul>
+        </td>
+        <td width="26%" class="txt_oro12" valign="top">
+        <ul>
+        <li><a href="spip.php?rubrique4"><strong>Ciudad</strong></a></li>
+        <li><a href="spip.php?rubrique5"><strong>Deportes</strong></a></li>
+        <li><a href="http://autocosmos.razon.com.mx/" target="_blank"><strong>Autos</strong></a></li>
+        <!--<li><a href="spip.php?page=utilitaria"><strong>Utilitaria</strong></a></li>-->
+        </ul>
+        </td>
+       </tr>
+       <tr>
+       <td colspan="3"><a href="#" onclick="window.open('https://www.sitelock.com/verify.php?site=www.razon.com.mx','SiteLock','width=600,height=600,left=160,top=170');" ><img alt="website security" title="SiteLock"  src="//shield.sitelock.com/shield/www.razon.com.mx"/></a></td>
+       </tr>
+      </table>
+      </td>
+      <td width="43px" class="separa_footer">&nbsp;</td>
+      <td width="25%" valign="top">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+       <tr>
+        <td colspan="3"><span class="txt_beige_24">Acerca de La Raz&oacute;n</span></td>
+       </tr>
+       <tr>
+        <td colspan="3">&nbsp;</td>
+       </tr>
+       <tr>
+        <td width="42%" class="txt_oro12" valign="top">
+        <ul style="list-style:circle">
+        <li><a href="spip.php?page=registro">Reg&iacute;strate</a></li>
+        <li><a href="spip.php?page=texto&amp;id_article=45388">Suscripción</a></li>
+        </ul>
+        </td>
+        <td width="58%" class="txt_oro12" valign="top">
+        <ul style="list-style:circle">
+        <li><a href="spip.php?page=directorio">Directorio</a></li>
+        <li><a href="spip.php?page=version_impresa&fecha=2016-02-16">Edici&oacute;n Impresa</a></li>
+        </ul>
+        </td>
+       </tr>
+      </table>
+      </td>
+      <td width="43px" class="separa_footer">&nbsp;</td>
+      <td width="30%">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+       <tr>
+        <td colspan="3"><span class="txt_beige_24">Complementario</span></td>
+       </tr>
+       <tr>
+        <td colspan="3">&nbsp;</td>
+       </tr>
+       <tr>
+        <td width="40%" class="txt_oro12" valign="top">
+        <ul style="list-style:circle">
+        <li><a href="spip.php?page=columnistas">Opinión</a></li>
+        <li><a href="spip.php?page=videos">V&iacute;deos</a></li>
+        <li><a href="spip.php?page=texto&amp;id_article=45406">Versi&oacute;n para Iphone</a></li>
+        </ul>
+        </td>
+        <td width="40%" class="txt_oro12"valign="top">
+        <ul style="list-style:circle">
+        <li><a href="spip.php?page=listado_especial">Especiales</a></li>
+        <li><a href="spip.php?page=galerias">Fotogaler&iacute;as</a></li>
+        </ul>
+        </td>
+        <td width="10%" class="txt_oro12">&nbsp;</td>
+       </tr>
+       <tr>
+        <td colspan="3">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:10px;">
+         <tr class="txt_oro12">
+          <td><img src="imagenes/icono_fb.gif" alt="Facebook" width="15" height="15" /></td>
+          <td><a href="http://www.facebook.com/larazondemexico" target="_blank">Facebook</a></td>
+          <td><img src="imagenes/icono_tt.gif" alt="Twitter" width="15" height="15" /></td>
+          <td><a href="https://twitter.com/LaRazon_mx" target="_blank">Twitter</a></td>
+          <td><img src="imagenes/icono_rss.gif" alt="RSS" width="15" height="15" /></td>
+          <td><a href="spip.php?page=rss">RSS</a></td>
+          <td><img src="imagenes/icono_youtube.jpg" alt="Youtube" width="15" height="15" /></td>
+          <td><a href="https://www.youtube.com/channel/UCoA4Y65xq4zGvhIVjLcKi5w" target="_blank">Youtube</a></td>
+         </tr>
+        </table>
+        </td>
+       </tr>
+      </table>
+      </td>
+      </tr>
+      <tr>
+      <td colspan="5">&nbsp;</td>
+     </tr>
+     </table>
+    </td>
+  </tr>
+  <tr bgcolor="#e6e1cb">
+    <td style="padding-top:7px; padding-bottom:7px;">
+    <table width="955px" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr >
+    <td width="59%" class="txt_marron_12">La Raz&oacute;n © Todos los derechos reservados 2014<br />
+Powered by <a href="http://www.webcom.com.mx/" class="txt_marron_12" target="_blank">Web Comunicaciones</a></td>
+    <td width="41%" class="txt_oro12"><div align="right"><a href="/spip.php?page=texto&id_article=46845">Mapa del sitio</a><br />
+<a href="spip.php?page=aviso" class="txt_marron_12">Aviso de Privacidad</a></div></td>
+  </tr>
+</table>
+    </td>
+  </tr>
+</table>
+<!--termina footer-->
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-305606-61', 'auto');
+  ga('send', 'pageview');
+ 
+</script>
+
+<script>
+/**
+* Función de Google Analytics que realiza un seguimiento de un clic en un enlace externo.
+* Esta función toma una cadena de URL válida como argumento y la utiliza
+* como la etiqueta del evento.
+*/
+var trackOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+     function () {
+     document.location = url;
+     }
+   });
+}
+</script>
+
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0023/0917.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+<!--//           window.location.reload(1);-->
+<script type="text/javascript">
+        setTimeout(function(){
+           window.location.assign(window.location.href);
+        }, 300000);
+</script>
+
+
+
+</body>
+</html>
+
+

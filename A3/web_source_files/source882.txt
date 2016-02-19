@@ -1,0 +1,1678 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UAMPUlJTGwEBUFdXBwU="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:20,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(3),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(4),t(5),"addEventListener"in window&&t(1),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(2),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:5,2:8,3:3,4:7,5:6,6:21,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t,e){function n(){return s}if(t[1]){var r=t[1];if("function"==typeof r){var s=a(r,"nr@wrapped",function(){return i(r,"fn-",n,r.name||"anonymous")});this.wrapped=t[1]=s,o.emit("initEventContext",[t,e],this.wrapped)}else"function"==typeof r.handleEvent&&i.inPlace(r,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:22,ee:"QJf3ax",gos:"7eSDFh"}],6:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:22,ee:"QJf3ax"}],7:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){function r(){return a}this.ctx={};var a={"nr@context":this.ctx};o.emit("initTimerContext",[t,n],a),t[0]=i(t[0],"fn-",r,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:22,ee:"QJf3ax"}],8:[function(t,e){function n(){f.inPlace(this,p,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:5,2:22,ee:"QJf3ax"}],9:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1),u=window.XMLHttpRequest;t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof u&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:10,3:8,4:5,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],10:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],11:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:20,2:21,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:20,2:11,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],20:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],21:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],22:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:21,ee:"QJf3ax"}]},{},["G9z0Bl",4,9]);</script>
+<!--  <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">  -->
+
+<meta name="HandheldFriendly" content="true" />
+<!-- REMOVES ADDRESS BAR IN SAFARI! --><meta name="apple-mobile-web-app-capable" content="yes" />
+
+<link rel="shortcut icon" href="/favicon.png" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+
+
+
+<title>Thomas Davis Shares Picture of Arm, Comments on Super Bowl 50 Loss @bleacherreport.com</title>
+<meta name="keywords" content="NFL, NFC South, Carolina Panthers, Breaking News, Thomas Davis, NFL, NFC South, Carolina Panthers, Breaking News, Thomas Davis" />
+<meta name="description" content="via WordLink - After he suffered a broken forearmin the NFC Championship Game,team trainersdidn't think Carolina Panthers linebacker Thomas Davis would be able to play in Super Bowl 50, according to NFL.com's Ian Rapoport. But the defensive playmaker defied the odds and suited up for his team Sunday.Although the Panthers came up short, losing 24-10 to the Denver Broncos, Davis recorded seven tackles while playing with a cast on his right arm. After the game, Davis shared this message onInstagramalong with an image of his surgically repaired forearm:Despite suffering the injury two weeks ago, he promised to play in the Super Bowl.&quot;I got two weeks to heal up, and I'm going to use every minute of that,&quot; Davis said following the NFC Championship Game, perMax Hensonof Panthers.com. &quot;Come on, you know me, right? I ain't missing the Super Bowl, you better believe that.&quot;Not only did Davis play in the Super Bowl, but he was also a major factor for the Panthers. On a 3rd-and-short early in the first quarter, he closed in on Denver running back C.J. Anderson and made a big-time tackle to force a punt.Jeff McLane of thePhiladelphia Inquirercommented on Davis' resiliency and toughness during the play:Entouragestar Jerry Ferrara shared his thoughts on Davis after the game:Although the outcome wasn't in Carolina's favor, Davis showed he's as tough as any other player in the league. By playing and making an impact for his team only two weeks after breaking his arm, he proved what kind of leader he is.Carolina's defense fought hard in the Super Bowl, and it's safe to say that Davis' toughness played a large role." />
+<!-- <meta http-equiv="X-Frame-Options" content="deny"> -->
+
+<!--https://developers.facebook.com/docs/opengraph/using-objects/#creating-->
+<!--https://developers.facebook.com/docs/opengraph/creating-object-types/#properties-->
+
+<meta property="og:url" content="http://wordlink.com/l/3zK86" />
+<meta property="og:title" content="Thomas Davis Shares Picture of Arm, Comments on Super Bowl 50 Loss @bleacherreport.com" />
+<meta property="og:description" content="via WordLink - After he suffered a broken forearmin the NFC Championship Game,team trainersdidn't think Carolina Panthers linebacker Thomas Davis would be able to play in Super Bowl 50, according to NFL.com's Ian Rapoport. But the defensive playmaker defied the odds and suited up for his team Sunday.Although the Panthers came up short, losing 24-10 to the Denver Broncos, Davis recorded seven tackles while playing with a cast on his right arm. After the game, Davis shared this message onInstagramalong with an image of his surgically repaired forearm:Despite suffering the injury two weeks ago, he promised to play in the Super Bowl.&quot;I got two weeks to heal up, and I'm going to use every minute of that,&quot; Davis said following the NFC Championship Game, perMax Hensonof Panthers.com. &quot;Come on, you know me, right? I ain't missing the Super Bowl, you better believe that.&quot;Not only did Davis play in the Super Bowl, but he was also a major factor for the Panthers. On a 3rd-and-short early in the first quarter, he closed in on Denver running back C.J. Anderson and made a big-time tackle to force a punt.Jeff McLane of thePhiladelphia Inquirercommented on Davis' resiliency and toughness during the play:Entouragestar Jerry Ferrara shared his thoughts on Davis after the game:Although the outcome wasn't in Carolina's favor, Davis showed he's as tough as any other player in the league. By playing and making an impact for his team only two weeks after breaking his arm, he proved what kind of leader he is.Carolina's defense fought hard in the Super Bowl, and it's safe to say that Davis' toughness played a large role." />
+<meta property="og:image" content="http://img.bleacherreport.net/img/images/photos/003/572/555/hi-res-ca65346db26e557b47fb672da88db1ce_crop_exact.jpg?w=1500&h=1500&q=85">
+<meta property="og:image" content="http://wordlink.com/img/og-image.png">
+
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2016-02-08T06:26:49Z">
+<meta property="article:author" content="thewordlink">
+<meta property="article:section" content="Press Text"><meta property="article:tag" content="NFL"><meta property="article:tag" content="NFC South"><meta property="article:tag" content="Carolina Panthers"><meta property="article:tag" content="Breaking News"><meta property="article:tag" content="Thomas Davis"><meta property="article:tag" content="NFL"><meta property="article:tag" content="NFC South"><meta property="article:tag" content="Carolina Panthers"><meta property="article:tag" content="Breaking News"><meta property="article:tag" content="Thomas Davis">
+<!-- https://dev.twitter.com/docs/cards/validation/validator    MUST LOOK AT !!!!!!! must ask approval for: summary_large_image  -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@WordLink ">
+<meta name="twitter:title" content="Thomas Davis Shares Picture of Arm, Comments on Super Bowl 50 Loss @bleacherreport.com" />
+<meta name="twitter:description" content="via WordLink - After he suffered a broken forearmin the NFC Championship Game,team trainersdidn't think Carolina Panthers linebacker Thomas Davis would be able to play in Super Bowl 50, according to NFL.com's Ian Rapoport. But the defensive playmaker defied the odds and suited up for his team Sunday.Although the Panthers came up short, losing 24-10 to the Denver Broncos, Davis recorded seven tackles while playing with a cast on his right arm. After the game, Davis shared this message onInstagramalong with an image of his surgically repaired forearm:Despite suffering the injury two weeks ago, he promised to play in the Super Bowl.&quot;I got two weeks to heal up, and I'm going to use every minute of that,&quot; Davis said following the NFC Championship Game, perMax Hensonof Panthers.com. &quot;Come on, you know me, right? I ain't missing the Super Bowl, you better believe that.&quot;Not only did Davis play in the Super Bowl, but he was also a major factor for the Panthers. On a 3rd-and-short early in the first quarter, he closed in on Denver running back C.J. Anderson and made a big-time tackle to force a punt.Jeff McLane of thePhiladelphia Inquirercommented on Davis' resiliency and toughness during the play:Entouragestar Jerry Ferrara shared his thoughts on Davis after the game:Although the outcome wasn't in Carolina's favor, Davis showed he's as tough as any other player in the league. By playing and making an impact for his team only two weeks after breaking his arm, he proved what kind of leader he is.Carolina's defense fought hard in the Super Bowl, and it's safe to say that Davis' toughness played a large role." />
+<meta name="twitter:creator" content="@bleacherreport">
+<meta name="twitter:image:src" content="http://img.bleacherreport.net/img/images/photos/003/572/555/hi-res-ca65346db26e557b47fb672da88db1ce_crop_exact.jpg?w=1500&h=1500&q=85" />   
+<meta name="twitter:domain" content="via WordLink @bleacherreport.com">
+
+<!-- <meta name="twitter:app:country" content="US" /> -->
+
+<meta name="twitter:app:name:iphone" content="WordLink.com app">
+<meta name="twitter:app:id:iphone" content="759009884">
+
+<meta name="twitter:app:name:ipad" content="WordLink.com app">
+<meta name="twitter:app:id:ipad" content="759009884">
+
+<meta name="twitter:app:name:googleplay" content="WordLink">
+<meta name="twitter:app:id:googleplay" content="com.tac.wordlink">
+<!-- turn on when deeplinking fixed -->
+<!-- <meta name="twitter:app:url:iphone" content="vine://v/93582sxlkjf"> -->
+<!-- <meta name="twitter:app:url:ipad" content="vine://v/93582sxlkjf"> -->
+<!-- <meta name="twitter:app:url:googleplay" content="http://vine.co/v/93582sxlkjf"> -->
+
+
+
+
+<!-- https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/PromotingAppswithAppBanners/PromotingAppswithAppBanners.html -->
+<!-- APP ARGUMENT FOR iphone hooks / htaccess -->
+<!-- <meta name="apple-itunes-app" content="app-id=759009884"> #TODO add back?? prompts app download-->
+
+<!-- insight -->
+<meta property="fb:app_id" content="354907807964058" />
+
+
+<!-- google+ page -->
+<link href="https://plus.google.com/116462738341497574813" rel=publisher />
+
+<!--  sitemaps and rss feeds -->
+<link rel="alternate" type="application/rss+xml" title="WordLink" href="http://wordlink.com/sitemap.xml" />
+<link rel="alternate" type="application/rss+xml" title="Press" href="http://wordlink.com/press.xml" />
+<link rel="alternate" type="application/rss+xml" title="Video" href="http://wordlink.com/video.xml" />
+
+<!-- google analytics -->
+<script type="text/javascript">
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+  ga('create', 'UA-39867405-1', 'wordlink.com');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/mystyle.css?t=1455672770">
+<link rel="stylesheet" href="/css/iframe.css">  
+<script type="text/javascript" src="/js/jquery.min.js"></script> 
+<script type="text/javascript" src="/js/jquery-ui.min.js"></script>
+<meta id="Viewport" name="viewport" content="width=device-width, target-densityDpi=device-dpi, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no ">
+<script type="text/javascript">
+var mobile=false;
+if (navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i)) {
+	mobile=true;
+	var css = document.createElement('link');
+	css.type = "text/css";
+	css.rel = "stylesheet";
+	css.href = "/css/mobile.css";
+	var h = document.getElementsByTagName('head')[0];
+	h.appendChild(css);
+}
+ 
+if( /iPhone|iPod/i.test(navigator.userAgent) ) {
+	$('#Viewport').attr('content', 'width=device-width, initial-scale=0.5, minimum-scale=0.5, maximum-scale=0.5, user-scalable=yes  ' );
+}
+
+if( /iPad/i.test(navigator.userAgent) ) {
+	$('#Viewport').attr('content', 'width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=yes  ' );
+}else{
+	
+	//doesnt work with this include
+//	if((new String(window.location.pathname)).split("/")[1]=='l'){ //=> LINK MUST HAVE THIS META FOR SCROLL TO WORK
+//		
+//		$('#Viewport').attr('content', 'width=640, target-densityDpi=device-dpi, user-scalable=no  ' );
+//	}else 
+	if( /Android/i.test(navigator.userAgent) ) {// #### THIS SLOWS DOWN TOUCH REACTIONS!!!!!!!!! BIG TIME
+//		alert(window.devicePixelRatio+"..."+screen.width+"_"+navigator.userAgent);
+		if (window.devicePixelRatio == 3) {
+//			  alert("This is a high-density screen");
+				$('#Viewport').attr('content', 'width=device-width, initial-scale=0.55, minimum-scale=0.55, maximum-scale=0.55, user-scalable=no ' );          
+			} else if (window.devicePixelRatio == 2) {
+//			  alert("This is a low-density screen");
+				 $('#Viewport').attr('content', 'width=device-width, target-densityDpi=device-dpi, initial-scale=0.5, minimum-scale=0.5, maximum-scale=0.5, user-scalable=no ' );              
+			}
+	}else
+	 if( /BB10/i.test(navigator.userAgent) ) {
+		$('#Viewport').attr('content', 'width=640, user-scalable=no' );
+	}else{
+		$('#Viewport').attr('content', 'width=640, target-densityDpi=device-dpi, user-scalable=no  ' );
+	}
+	//this was in the initalk meta width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0
+}
+</script>
+
+
+
+</head>
+
+<body class="boxfull" style="margin: 0px; padding: 0px; background-color:white;overflow:hidden;" onload="">	
+	<!-- 	necessary to keep track of trigger --> 
+	<div class="sidemenu-toggle"> </div>
+	<div id="progressBar" class="default-progress"><div></div></div>
+
+
+
+
+<script type="text/javascript">
+	var currentlinkid="3zK86";
+	$(function(){//on document ready
+	
+		$('#logo').addClass('active')
+			.on("click",function(){
+				ga('send', 'event', 'home', 'widget', {'page': '/l/3zK86'});
+				window.location.href="/";
+			});
+		 $('#bottom-bar').show('blind');
+		setCounts(
+		 	{
+    "u": {
+        "x": 1
+    },
+    "s": 19768
+}	 	,"#bottom-bar");
+		
+		function resizeIframe ()
+		  {
+			var topbarHeight = $("#article-top-bar").height();
+			var bottombarHeight = $("#bottom-bar").height();
+			var viewerHeight = $(window).height() - bottombarHeight - topbarHeight;
+	//////NADAV THIS IS WHAT MATTERS DO NOT REMOVE - must be at least -1!!!
+			$('.modal-body').css({ //test maxheight is the key to functional modal //MUST BE 1 PX shorter
+				maxHeight : viewerHeight-1
+			});
+			//must be 1px different overlap!
+			$(' #viewframe').css({ //this makes it scroll to bottom of abc examples!!!
+				maxHeight : viewerHeight
+			});
+			if(!mobile) $('#viewdiv').css({overflow:'hidden'}); //removes double scroll bar, but necessary for proper mobile!
+	//////NADAV THIS IS WHAT MATTERS DO NOT REMOVE - must be at least -1!!!
+		  }
+		
+		resizeIframe();
+		$(window).resize(function() {
+			resizeIframe ();
+		});	 	
+
+
+		//for scroll issues!
+	if (/iPhone|iPod|iPad/.test(navigator.userAgent) && "bleacherreport.com"=='hightimes.com') {
+			window.location.href="//bleacherreport.com/articles/2614868-thomas-davis-shares-picture-of-arm-comments-on-super-bowl-50-loss";
+			
+		}	
+	});
+</script>
+<div id="article-top-bar" class="shadow gen-table colfull">
+	<a id="close-url" class="close-url-btn close-arrow" href="http://wordlink.com" onClick="ga('send', 'event', 'home', 'topbar', {'page': '/l/3zK86'});"><img src="/img/wlogo4.png" ></a>
+	
+	<script>
+	//careful with logic here
+		if(window.opener && !window.opener.closed){ //parent open so make back button
+			if(window.opener.location.href.indexOf("wordlink.com") !=-1){
+				$('#article-top-bar .close-arrow').removeAttr('id').attr('href',"javascript:window.close()");	
+			}else{
+
+			}
+			//WINDOW.CLOSE(); better inline
+		}else{
+			//$('#article-top-bar .close-arrow').removeAttr('href');
+		}
+	</script>
+<!-- 	onClick="window.open('', '_self', ''); location.href = 'http://wordlink.com';" -->
+	<div id="article-title-image" class="post-title-toggle gen-table-cell shadow"><div class="post-title-image-table gen-table"><div class="post-title-image-cell gen-table-cell"><a target="_blank" href="http://wordlink.com/weekly/bleacherreport.com"> <img src="http://icons.wordlink.com/bleacherreport.com.png" onerror="this.src='/img/rss.png'"/></a></div></div></div>
+	<div id="article-title" class="gen-table-cell"><div class="post-title-table gen-table colfull"><div class="post-title-cell gen-table-cell"><div class="ellipsis"> Thomas Davis Shares Picture of Arm, Comments on Super Bowl 50 Loss <div id="AU2" class="article-url ellipsis">bleacherreport.com/articles/2614868-thomas-davis-shares-picture-of-arm-comments-on-super-bowl-50-loss</div> </div></div></div></div>
+
+<style>
+	#article-top-bar div.sharex a img {
+/* 	 	display:none; */
+	 	width: 40px;
+		padding: 5px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+</style>
+	
+	<div class="sharex shadow facebook-blue button gen-table-cell">
+		<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://wordlink.com/l/3zK86" onClick="ga('send', 'event', 'share', 'facebook', {'page': '/l/3zK86'});"><img src="/img/login/facebook-trans.png"></a>
+	</div>
+	<div class="sharex shadow twitter-blue button gen-table-cell">
+		<a target="_blank" href="https://twitter.com/share?via=wordlink&status=wordlink.com/l/3zK86" onClick="ga('send', 'event', 'share', 'twitter', {'page': '/l/3zK86'});"><img src="/img/login/twitter-trans.png"></a>
+	</div>
+	<div class="sharex shadow linkedin-blue button gen-table-cell">
+		<a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://wordlink.com/l/3zK86" onClick="ga('send', 'event', 'share', 'linkedin', {'page': '/l/3zK86'});"><img src="/img/login/linkedin-trans.png"></a>
+	</div>
+	<div class="sharex shadow red button gen-table-cell">
+		<a target="_blank" href="https://plus.google.com/share?url=http://wordlink.com/l/3zK86" onClick="ga('send', 'event', 'share', 'google+', {'page': '/l/3zK86'});"><img src="/img/login/googleplus-trans.png"></a>
+	</div>
+<!-- 	<div id="action_s" class="blue button gen-table-cell comments-btn"> -->
+<!-- 		<a id="oneofflinkshow" class=" share-trigger" type="action_s"><img src="/img/share-btn.png"></a> -->
+<!-- 		<div class="counter-container boxfull"> -->
+<!-- 			<div id="action_s_count" class="action_counter colfull"></div> -->
+<!-- 		</div> -->
+<!-- 	</div> -->
+<!-- <div class="blue button gen-table-cell comments-btn"><a   id="comments-trigger" class="boxfull comments-trigger gen-table"><img class="gen-table-cell" src="/img/comments-btn.png"></a><div class="counter-container boxfull"><div id="action_c_count" class="action_counter colfull"></div></div></div> -->
+	
+	
+</div>
+	
+<div class="modal-body" style="padding:0;max-height:600px;height:100%; ">
+ 		<div id="viewdiv" style="overflow:auto;-webkit-overflow-scrolling:touch;height:100%;">
+		<!-- //huffingtonpost.com/linda-tirado/why-poor-peoples-bad-decisions-make-perfect-sense_b_4326233.html -->
+ 		<iframe id="viewframe"  scrolling="yes" onload="" src="//bleacherreport.com/articles/2614868-thomas-davis-shares-picture-of-arm-comments-on-super-bowl-50-loss" style=" z-index:1;border:0px;width: 100%;height:100%;background:white;"></iframe>
+		</div>
+</div>
+    	
+	<div class="meta-data"></div> 	
+<style>
+
+
+#modal-oneoffshare {overflow:hidden;background:none;z-index: 99999 !important;position:absolute;
+	
+	height:240px;
+	bottom:60px;
+	width:240px;
+	right: 90px;}
+
+.modal-oneoffshare-inner {
+	width:100%;
+	height:100%;
+}
+
+#oneoffshare-trigger{overflow:hidden;background:none;z-index: 99999999999 !important;position:absolute;
+	text-align:center;
+	padding-top:20px;
+	height:40px;
+	top:450px;
+	width:400px;
+	left: 0px;
+	color:#fff;
+	font-size:0.8em;
+	cursor:pointer;}
+
+#oneoffshare {
+	float:left;
+	font-size:1em;
+}
+
+#oneoffshare input {
+	
+	
+}
+
+#oneoffshare {
+	position: relative;
+	overflow-y: none;
+    overflow-x: none;
+	position:absolute;
+	top:0;
+	bottom:0; 
+	width:100%;
+	color:#fff;
+	text-align:center;
+	background-color:#3399cc;
+}
+
+.oneoffshare-img {width:24px;}
+
+#oneoffshare-top-bar {border:0;color:#707070;height:40px;text-align:center;font-size:1em;}
+
+#oneoffshare ul {}
+
+#oneoffshare ul li {
+	height:50%;
+	width:50%;
+	float:left;
+	padding:6px; 
+	cursor:pointer; 
+	opacity:0.9;
+	text-align:center;
+}
+
+#oneoffshare ul li img {width: 48px;height: auto;}
+
+#oneoffshare ul li input {width:400px;}
+
+ #oneoffshare ul li.active, #oneoffshare ul li:nth-child(2n).active {background-color: #3399cc;color:#fff;}
+
+#oneoffshare ul li:hover, #oneoffshare ul li:nth-child(2n):hover {color:#fff;opacity:1;}
+
+/* #oneoffshare ul li:nth-child(2n) {background-color: #ffffff;} */
+
+#modal-oneoffshare {background:none;}
+</style>
+<div id="oneoffshare-trigger" class="oneoffshare-trigger" style="display:none;">Or just share one time without logging in &nbsp;&nbsp;&#9654; </div>
+<div id="modal-oneoffshare" class="modal-container boxfull modal-transitions shadow" tabindex="-1">
+	<div class="modal-oneoffshare-inner shadow">
+<!-- 		<div id="oneoffshare-top-bar" class="filter-top-bar gen-table colfull"> -->
+			<!-- <input id="oneoffshare-top-bar" class="gen-table-cell boxfull" placeholder="3zK86"/> -->
+<!-- 			<div class="gen-table-cell"></div> -->
+			<div id="close-oneoffshare" class="close gen-table-cell">&times;</div>
+<!-- 		</div> -->
+		<div id="oneoffshare">
+			<ul class="boxfull">
+				<li class="gen-table colfull facebook-blue"><div class="oneoffshare-img gen-table-cell"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://wordlink.com/l/3zK86" class="boxfull"><img id="facebooklogin" src="/img/login/facebook-trans.png" title="facebook" /></a></div></li>
+				<li class="gen-table colfull twitter-blue"><div class="oneoffshare-img gen-table-cell"><a target="_blank" href="https://twitter.com/home?status=http://wordlink.com/l/3zK86" class="boxfull"><img id="twitterlogin" src="/img/login/twitter-trans.png" title="twitter" /></a></div></li>
+				<li class="gen-table colfull linkedin-blue"><div class="oneoffshare-img gen-table-cell"><a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://wordlink.com/l/3zK86" class="boxfull"><img id="linkedinlogin" src="/img/login/linkedin-trans.png" title="linkedin" /></a></div></li>
+				<li class="gen-table colfull red"><div class="oneoffshare-img gen-table-cell"><a target="_blank" href="https://plus.google.com/share?url=http://wordlink.com/l/3zK86" class="boxfull"><img id="googleavi" src="/img/login/googleplus-trans.png" title="googleplus" /></a></div></li>
+			</ul>
+		</div>
+	</div>
+</div><style>
+#rpg{
+/* 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+	font-size:25px;
+	padding: 15px;
+	min-height:60px;
+	position: absolute;
+	bottom: 5px;
+	right: 95px;
+	height: auto;
+	width: 400px;
+/*	opacity: 0.8;
+	filter: alpha(opacity=80); 
+	*/
+	background: url('/img/top-bar-bg.png') repeat;
+	-webkit-border-top-radius: 4px;
+	-moz-border-top-radius: 4px;
+	border-top-radius: 4px;
+	-webkit-border-left-radius: 4px;
+	-moz-border-left-radius: 4px;
+	border-left-radius: 4px;
+	-webkit-border-bottom-radius: 4px;
+	-moz-border-bottom-radius: 4px;
+	border-bottom-radius: 4px;
+  }
+  
+  #rpg-close{
+  position: absolute;
+z-index: 1;
+right: 0;
+top: 0;
+height:60px !important;
+width:60px !important;
+background-image: url(/img/slider_arrow_down.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+/* 	background-color:#3399cc; */
+	background-size:40px 40px;
+	-ms-behavior: url(/css/backgroundsize.min.htc);
+/* 	opacity:0.5; */
+/* 	box-shadow: 0px 0px 8px 0px #111; */
+/* -moz-box-shadow: 0px 0px 8px 0px #111; */
+/* -webkit-box-shadow: 0px 0px 8px 0px #111; */
+  }
+
+  #rpg-close:hover{opacity:1;}
+  #rpgstop {
+  /*background: url(/img/stop.png) no-repeat center center;*/
+  display:none;
+  }
+  
+/*   DIALOGUE BOX */
+
+.arrow{
+	position: absolute;
+	bottom:0;
+	margin-top: -10px;
+	border-right-color: rgba(0, 0, 0, 0.9);
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+}
+
+.arrow-left {
+	-moz-background-clip: border;     
+	-webkit-background-clip: border;  
+	background-clip: border-box;      
+	border-right:10px solid rgba(0, 0, 0, 0.9); 
+	left: -8px;
+}
+
+.arrow-right {
+	-moz-background-clip: border;     
+	-webkit-background-clip: border;  
+	background-clip: border-box; 
+	border-left: 10px solid rgba(0, 0, 0, 0.9);
+	right: -10px;
+	bottom: 0;  
+}
+
+.arrow-down {
+	-moz-background-clip: border;     
+	-webkit-background-clip: border;  
+	background-clip: border-box; 
+	border-top: 10px solid rgba(0, 0, 0, 0.9);
+right: 0;
+bottom: -10px;
+/* border-bottom: 10px solid transparent; */
+/* border-top: 10px solid transparent; */
+border-left: 10px solid transparent;    
+}
+/*   DIALOGUE BOX */
+
+.stack {
+	position: fixed;
+	_position: absolute;
+	-webkit-transform: translateZ(0);
+	color: #FFF;
+	left: 90%;
+	top: 90%;
+	z-index: 999999999999;
+	width:70px;
+	height:70px;
+	background:url('/img/stack-bg-new-shadow.png') left top no-repeat;
+	cursor:pointer;
+	font-size:80%;
+	background-size: contain;
+	-ms-behavior: url(/css/backgroundsize.min.htc);
+/* 	display:none; */
+}
+
+.stack .stack-btn {text-align:center;display:none;}
+
+.stack .stack-btn.active {display:block;}
+
+.stack .stack-btn.logo img {
+	border: 0;
+	height: 92%;
+	width: auto;
+	padding-top: 0%;
+	margin-left: -2px;
+	margin-top: 1px;
+}
+
+.stack .stack-btn.scrollToTop img {
+	border: 0;
+	height: 70%;
+	width: auto;
+	margin-top: 9px;
+	margin-left: 0px;
+}
+
+.stack .stack-btn.with-count{
+	height:70%;
+	width:100%;
+}
+
+.stack .stack-btn img { 
+	border: 0;
+	height: 80%;
+	width:auto;
+	margin-top: 6px;
+	margin-left:-3px;
+}
+
+.stack #pen-article.stack-btn img { 
+height: 68%;
+margin-top: 10px;
+margin-left: 0px;
+}
+
+
+
+.stack .stack-btn-count {
+	text-align:center;
+	height:30%; 
+	width:100%;
+	top: -15px;
+	position: relative;
+	font-size:0.6em;
+}
+</style>
+
+<div id="stack" class="stack stack-trigger">
+	<div type="" id="logo" class="stack-btn boxfull logo filter-trigger"><img src="/img/wlogo4.png" ></div>
+	<div type="" id="scrollToTop" class="stack-btn boxfull scrollToTop"><img src="/img/slider_arrow_up.png" ></div>
+	<div type="" id="pen-article" class="share-trigger stack-btn boxfull pen"><img src="/img/pen-icon.png" ></div>
+	<div type="" id="pen-comments" class="share-trigger stack-btn boxfull pen"><img src="/img/pen-icon.png" ></div>
+	<div type="" id="pen-reply" class="share-trigger stack-btn boxfull"><img src="/img/reply-icon.png" ></div>
+	
+	<!--     go buttons -->
+	<div type="" id="go-filter" class="action-trigger stack-btn boxfull"><img src="/img/go-white.png" ></div>
+	<div type="action_s" id="go-share" class="action-trigger stack-btn boxfull"><img src="/img/go-white.png" ></div>
+	<div type="action_p" id="go-post" class="action-trigger stack-btn boxfull"><img src="/img/go-white.png" ></div>
+	<div type="action_c" id="go-comment" class="action-trigger stack-btn boxfull"><img src="/img/go-white.png" ></div>
+	<div type="action_r" id="go-reply" class="action-trigger stack-btn boxfull"><img src="/img/go-white.png" ></div>
+	
+    <div id="action_widget_count" class="action_counter stack-btn-count colfull hide"></div>
+	
+	<!--     talker -->
+	<div id="rpg" class="shadow" style="display:none;">
+		<div class="arrow arrow-down" style="display:none;"></div> 
+		<div class="arrow arrow-right"></div> 
+		  
+		<div id="talking" style="">
+			<!-- <iframe class="shadow" style="margin:17.5px; margin-left:10px;margin-right:10px; background:#fff url(/img/video-bg2.png) no-repeat center center" width="560" height="315" src="//www.youtube.com/embed/1dEedDCquBY?hd=1&amp;rel=0&amp;autohide=1&amp;showinfo=0&amp;wmode=transparent" frameborder="0" allowfullscreen=""></iframe>-->
+		</div>
+		<div id="rpgstop" class="boxfull">Sorry, not right now.</div>
+		
+	</div>
+</div> 
+<style>
+#modal-post {
+	position: fixed;
+	z-index: 99999999;
+	overflow: hidden;
+	top: 0;
+	bottom:0;
+	left:-100%;
+	right:0;
+	display: none;
+	background:white; 
+	width:400px;
+	font-size:80%;
+}
+
+#modal-post-inner-wrapper {position: absolute;overflow: hidden;}
+
+#modal-post-inner {overflow:hidden;-webkit-overflow-scrolling:touch;}
+
+#post-top-bar {
+	background-color:#f2f2f2;
+	z-index:9999999;
+	height:60px;
+}
+
+#post-top-bar .button {
+	width:60px;
+	height:100%;
+	cursor:pointer;
+	text-align:center;
+}
+#post-top-bar .button.right img { height:50%;}
+
+.modal-title {
+	color: #3399cc;
+	font-size:2rem;
+	text-align:center;
+	background-color:#f2f2f2;
+	line-height: 99%;
+}
+
+#share-container {
+	height:40%;
+	padding:6px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+/* .share-bar {float:left;} */
+
+/* .share-bar ul {float:left;} */
+
+.share-bar ul li { 
+	width:50%;
+	float:left;
+	text-align:left;
+	border:6px solid #fff;
+	list-style-image: none;
+	list-style-type: none;
+	background-color:#808080;
+	height:33.3333%;
+	max-height:80px;
+	cursor:pointer;
+	position:relative;
+	color:#fff;
+	-moz-transition: background-color 0.2s ease-in;
+    -webkit-transition: background-color 0.2s ease-in;
+    -o-transition: background-color 0.2s ease-in;
+    transition: background-color 0.2s ease-in;
+}
+
+.share-bar ul li.fb:hover, .share-bar ul li.fb.active { background-color:#4869ad;color:#fff;}
+.share-bar ul li.tw:hover, .share-bar ul li.tw.active { background-color:#00abf0;color:#fff;}
+.share-bar ul li.gg:hover, .share-bar ul li.gg.active { background-color:#E51400;color:#fff;}
+.share-bar ul li.li:hover, .share-bar ul li.li.active { background-color:#007bb6;color:#fff;}
+
+.share-bar ul li:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+.share-bar ul li #share-upload { 
+	color:#3399cc;
+	width:60%;
+	display: inline-block;
+  	vertical-align: middle;
+}
+	
+.share-bar ul li #share-upload form {float:left;}
+	
+.share-bar ul li #share-upload #progress {float:left;width:10%;}
+	
+.share-bar ul li #share-upload #message {float:left;width:30%;}
+
+.share-bar ul li span { 
+	margin-left:20px;
+	display: inline-block;
+  	vertical-align: middle;
+  	overflow:hidden;
+  	max-width:50%;
+  	text-overflow:ellipsis;
+  	white-space:nowrap;
+}
+	
+.share-bar ul li input { 
+	min-width:60px;
+	color:#3399cc;
+	display: inline-block;
+	font-size:100%;
+}
+
+.share-bar ul li img {
+	height:100%;
+	max-height:68px;
+	padding:16px;
+	width:auto;
+	float:left;
+}
+
+#form-container {
+/* 	float:left; */
+	height:60%;
+	border:6px solid #fff;
+}
+	
+/* #commenting-form {float:left;} */
+
+textarea {resize: none;}
+
+#message-emails {
+	height:14%;
+	position:relative;
+	background-color:#f2f2f2;
+	border:6px solid #fff;
+}
+
+/* #message-emails input {float:left; } */
+#message-emails img {height: 100%;padding: 6px;width: auto;float: left;}
+#message-emails .attach { float:right;height:100%;cursor:pointer; text-align:center;padding:6px;position:absolute;right:0;}
+
+#message-subject {
+	height:25%;
+	background-color:#f2f2f2;
+	border:6px solid #fff;
+}
+
+#message-post {
+	height:50%;
+	border:6px solid #fff;
+	background-color: #f2f2f2;
+	
+}
+.emailinput {max-width:30%;}
+</style>
+
+<div id="modal-post" class="hide post shadow boxfull modal-transitions" tabindex="-1">
+	<div id="modal-post-inner-wrapper" class="boxfull">
+		<div id="modal-post-inner" class="boxfull">
+
+			<div id="post-top-bar" class="colfull gen-table">
+				<div id="close-post" class="button left gen-table-cell close-arrow"></div>
+				<div class="modal-title gen-table-cell close-post"></div> 
+<!-- 				<div class="attach blue button right gen-table-cell"><img id="file-upload" src="/img/attachment.png" title="upload attachments" /></div> -->
+			</div>
+
+			<div id="form-container" class="colfull">
+				<form id="commenting-form" class="boxfull">
+				
+					<div id="message-subject" class="colfull">
+						<textarea value="" placeholder="Subject" class="input-responsive boxfull" type="text" name="subject"></textarea>
+					</div>
+					<div id="message-post" class="colfull">
+						<textarea value="" placeholder="Message" class="input-responsive boxfull" name="post"></textarea>
+					</div>
+					<div id="message-emails" class="colfull">
+						<input value="" placeholder="Email to (ex: 'email@email.com;email2@email.com;'" class="input-responsive boxfull" type="text" name="emails" />
+					</div>
+				</form>
+			</div>
+			
+			<div id="share-container" class="colfull">
+				<div id="share-bar" class="share-bar boxfull">
+					<ul class="boxfull">
+						<li class="fb login-link" n="fb"><img class="" id="facebooklogin" src="/img/login/facebook-trans.png" title="facebook" /> <span>Facebook</span></li>
+			            <li class="tw login-link" n="tw"><img class="" id="twitterlogin"  src="/img/login/twitter-trans.png" title="twitter" />
+			                                <a id="completetwit" onclick="completetwit();" style="display:none;"></a> <span>Twitter</span></li>
+			            <li class="li login-link" n="li"><img class="" id="linkedinlogin"  src="/img/login/linkedin-trans.png" title="linkedin" /><span>LinkedIn</span></li>
+			            <li class="gg login-link" n="gg"><img class="" id="googleavi" src="/img/login/googleplus-trans.png" /><span>Google Plus</span></li> 
+			        </ul>
+			    </div>
+			 </div>
+		</div>
+	</div>
+</div><style>
+#modal-comments {
+	position: fixed;
+	z-index: 99999;
+	overflow: hidden;
+	right:0px;
+	top: 100%;
+	left: 0px;
+	bottom:0px;
+	display: none;
+	background:#fff;
+}
+
+#modal-comments.open {top: 0;display: block;}
+
+#modal-comments-inner-wrapper {position: absolute;overflow: hidden;}
+
+#modal-comments-inner {overflow:hidden;-webkit-overflow-scrolling:touch;}
+
+#comments-top-bar {
+	background-color:#f2f2f2;
+	height:10%;
+	min-height:40px;
+	max-height:60px;
+	z-index:9999;
+	position:relative;
+}
+
+
+
+#post-title, #article-title {
+	width:auto;
+	background:#fff;
+	padding-left:0px;
+	font-size:1rem;
+	color:#707070;
+	cursor:pointer;
+	overflow:hidden;
+}
+
+.post-title-table {table-layout:fixed;}
+
+.post-title-cell {
+	overflow:hidden;
+	padding-left:12px;
+	padding-right:12px;
+}
+
+.post-title-table .ellipsis {
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow: ellipsis;
+}
+
+#post-title-image, #article-title-image {
+	overflow:hidden;
+}
+
+.post-title-image-table {overflow:hidden;}
+
+.post-title-image-cell {overflow:hidden;}
+
+#post-title-image img, #article-title-image img {height:60px;width:auto;}
+
+#close-comments-one, #close-comments-two {background-image:url(/img/slider_arrow_down.png);}
+
+#modal-comments h1 {
+	color:#000;
+	text-align:left;
+	padding-left:12px;
+	padding-top:6px;
+	padding-bottom:6px;
+	z-index:999;
+	position:relative;
+}
+
+#comments-recent h2, #comments-popular h2 {
+	width:100%;
+	font-size:1rem;
+	color:#fff;
+	text-align:center;
+	background-color: #828a97;
+	padding-top:12px;
+	padding-bottom:12px;
+	margin-bottom:24px;
+}
+
+#comments-stream {
+	position:relative;
+	height:60%;
+/* 	max-height:800px;
+	min-height:500px; */
+}
+
+#comments-recent {
+	float: left;
+	z-index: 99;
+	background-color: #f5f5f5;
+	height: 100%;
+	width: 49%;
+	overflow: auto;
+	top: 0;
+}
+
+#comments-popular {
+	margin: 0;
+	background: #d8d8d8;
+	height: 100%;
+	width: auto;
+	overflow: auto;
+	right: 0;
+	left: 50%;
+	margin-left: 24px;
+	top: 0;
+}
+
+#comments-history {
+	height:30%;
+/*	max-height:250px;
+	min-height:150px;
+*/
+	padding-bottom:60px;
+	z-index:999;
+	position:relative;
+	overflow:hidden;
+	cursor:pointer;
+}
+
+#comments-popular.snap, #comments-recent.snap {
+	width:100% !important;
+	left:0;
+	padding:0;
+	background-image:none;
+}
+#comments-recent.snap {padding-right:24px;}
+
+#comments-popular.empty, #comments-recent.empty {
+	background-image:none;
+	width:0;
+	display:none;
+	padding:0;
+}
+
+#dragbar {
+	background-image: url(/img/dragable.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #3399cc;
+	height: 100%;
+	width: 24px;
+	cursor: col-resize;
+	float: left;
+	z-index: 999;
+}
+
+#inreplybanner {
+	height:40px;
+	left:0;
+	top:0;
+	background-color: #828a97;
+	color: #fff;
+	z-index:9999;
+	padding-top:6px;
+	padding-left:24px;
+}
+
+#comments-current {
+	z-index:999;
+	max-height:480px;
+	position:relative;
+	overflow-x:hidden !important;
+}
+
+#comment-bar-container {
+	height:60px;
+	z-index: 99999;
+	background-color:#3399cc;
+	position:absolute;
+	bottom:0;
+}
+
+.comment-bar {
+	float:left;
+	color:#fff;
+	font-size:0.8rem;
+}
+
+.comment-bar ul {float:left;}
+
+.comment-bar ul li {
+	height: 100%;
+	width: 25%;
+	list-style-type: none;
+	float: left;
+	text-align:center;
+	position:relative;
+}
+
+.comment-bar ul li a {
+	text-align:center;
+	position:absolute;
+	left:0;
+	z-index:2;
+}
+
+.comment-bar ul li a img {
+	width: auto;
+	height:80%;
+	margin:0 auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.comment-bar ul li .counter-container {
+	position:absolute;
+	bottom: 0;
+	text-align:center;
+	z-index:1;
+}
+
+.comment-bar ul li .action_counter {position:absolute;bottom:2px;}
+
+#comments-current .comment-box-container {
+	padding:12px;
+	width:100%; 
+	margin:0 auto;
+	color:#ffffff;
+	text-align:left;
+	font-size:1rem;
+	position:relative;
+	z-index:1;
+	background-color:#828a97;
+	margin-bottom:1px;
+}
+
+#comments-current .comment-box-container:last-child {
+	padding:12px;
+	background-color:#ffffff;
+	margin-bottom:1px;
+	width:100%; 
+	color:#707070;
+}
+
+#comments-current .comment-box-parent {
+	padding:12px;
+	width:100%;
+	display:block;
+}
+
+#comments-current .comment-title {color:#FFF;}
+
+#comments-current .comment-box-container:last-child .comment-title {color:#3399cc !important;}
+
+#comments-popular .comment-box-container, #comments-recent .comment-box-container {
+	width:96%;
+	margin:0 auto;
+	color:#707070;
+	text-align:left;
+	font-size:1rem;
+	position:relative;
+	z-index:1;
+	margin-bottom:24px; 
+}
+
+#comments-recent .comment-box-container-empty {
+	padding:12px;
+	width:100%;
+	margin:0 auto;
+	color:#707070;
+	text-align:left;
+	font-size:1rem;
+	position:relative;
+	z-index:1;
+	margin-bottom:1px;
+}
+
+#comments-popular .comment-box-container:after, #comments-recent .comment-box-container:after {
+    content: "";
+    width: 96%;
+    height: 1px;
+    bottom: 0;
+    margin-left: -48%;
+    display: block;
+    position: absolute;
+    left: 50%;
+    z-index: -1;
+/*     -webkit-box-shadow: 0px 0px 8px 2px #000000; */
+/*     -moz-box-shadow: 0px 0px 8px 2px #000000; */
+/*     box-shadow: 0px 0px 8px 2px #000000; */
+}
+
+#comments-popular .comment-box-parent, #comments-recent .comment-box-parent {
+	cursor:pointer;
+	background-color:#FFF;
+	padding:12px;
+	width:100%;
+	display:block;
+/* 	-webkit-box-shadow: 0px 20px 30px #f5f5f5; */
+/*     -moz-box-shadow: 0px 20px 30px #f5f5f5; */
+/*     box-shadow: 0px 20px 30px #f5f5f5; */
+/* 	-webkit-box-shadow: 0px 0px 8px 2px #000000; */
+/*     -moz-box-shadow: 0px 0px 8px 2px #000000; */
+/*     box-shadow: 0px 0px 8px 2px #000000; */
+}
+
+#comments-popular .comment-box-parent:hover, #comments-recent .comment-box-parent:hover {-webkit-box-shadow:none;-moz-box-shadow: none;box-shadow: none;}
+
+.comment-header {display:inline-block;padding-bottom:12px;}
+
+.comment-avatar {
+	float:left;
+	height:48px;
+	overflow:hidden;
+	background-color: rgba(0,0,0,.2);
+	background-clip: padding-box;
+}
+.comment-avatar img {height:48px;}
+
+.comment-username {
+	float:left;
+	padding-left:12px;
+	font-size:1rem;
+	padding-top:12px;
+	color:#3399cc;
+}
+
+.comment-body {display:inline-block;}
+
+.comment-subject {
+	float:left;
+	font-size:1rem;
+	border-bottom:3px;
+}
+
+.comment-message {
+	text-align:justify;
+	float:left;
+	font-size:0.9rem;
+}
+
+.comment-time {
+	text-align:right;
+	font-size:0.8rem;
+	font-style:italic;
+}
+
+.comment-shares {
+	text-align:right;
+	font-size:0.8rem;
+	font-style:italic;
+}
+
+.comment-box-parent .comment-body {font-size:0.8rem;}
+</style>
+
+<div id="modal-comments" class="colfull modal-transitions" tabindex="-1">
+	<div id="modal-comments-inner-wrapper" class="boxfull">
+		<div id="modal-comments-inner" class="boxfull">
+		
+			<div id="comments-top-bar" class="shadow gen-table colfull">
+				<div id="close-comments-one" class="close-arrow"></div>
+				<div id="post-title-image" class="post-title-toggle gen-table-cell"><div class="post-title-image-table gen-table"><div class="post-title-image-cell gen-table-cell"><img src="/img/170518775.png" /></div><div class="post-title-image-cell gen-table-cell"><img src="/img/170518775.png" /></div></div></div>
+				<div id="post-title" class="gen-table-cell"><div class="post-title-table gen-table colfull"></div></div>
+			</div>
+			
+			<div id="comments-stream" class="colfull">
+				<div id="comments-recent" class="">
+				<h2 class="text">Recent Comments</h2>
+ 				</div>
+				<div id="dragbar"></div> 
+				<div id="comments-popular">
+				<h2 class="text">Popular Comments</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+</div> 
+<style>
+#bottom-bar {
+	position: fixed;
+	z-index: 99999;
+	left: 0px;
+	bottom: 0;
+	right:0px;
+	background-color:#3399cc;
+	height:0%;
+	-moz-transition: height .5s;
+    -ms-transition: height .5s;
+    -o-transition: height .5s;
+    -webkit-transition: height .5s;
+    transition: height .5s
+}
+
+#bottom-bar.open {height:6%;min-height:60px;}
+#bottom-bar.closed {height:0%;}
+
+.like-bar {
+	float:left;
+	color:#fff;
+	font-size:0.8rem;
+}
+
+.like-bar ul {float:left;}
+
+.like-bar ul li {
+	height: 100%;
+	width: 25%;
+	list-style-type: none;
+	float: left;
+	text-align:center;
+	position:relative;
+	cursor:pointer;
+}
+
+.like-bar li:hover > ul {
+    display: block; 
+}
+
+.like-bar ul li ul {
+    display: none; 
+    margin: 0;
+    padding: 0;
+    width: 320px;
+    height:90px;
+    position: absolute;
+    top: -90px;
+    right: 80px;
+    font-size:1.2em;
+    background-image: url(/img/tooltip-blue-arrow.png);  
+    background-position: 140px 65px;
+    background-repeat:no-repeat;
+    padding-bottom:24px;
+}
+
+.like-bar ul li ul li {
+	width:100%;
+    float: none;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    padding:24px;
+    background-color: #3399cc;
+    color:#f1f2f2;'
+    
+}
+.like-bar ul li ul li:hover {color:#fff;}
+
+
+.like-bar ul li a {
+	text-align:center;
+	position:absolute;
+	left:0;
+	z-index:2;
+}
+
+.like-bar ul li a img {
+	width: auto;
+	height:80%;
+	margin:0 auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+.like-bar ul li .counter-container {
+	position:absolute;
+	bottom: 0;
+	text-align:center;
+	z-index:1;
+}
+
+.like-bar ul li .action_counter {position:absolute;bottom:0;}
+</style>
+<div id="bottom-bar" class="open shadow colfull" style="display:none;height:0;min-height:0;">
+	<div class="like-bar boxfull">
+		<ul class="boxfull">
+			<li id="action_l"><a  class="boxfull action_trigger" type="action_l"><img src="/img/like-btn.png"></a><div class="counter-container boxfull"><div id="action_l_count" class="action_counter colfull"></div></div></li>
+			<li id="action_d"><a  class="boxfull action_trigger" type="action_d"><img src="/img/dislike-btn.png"></a><div class="counter-container boxfull"><div id="action_d_count" class="action_counter colfull"></div></div></li>
+			<li id="action_f"><a  class="boxfull action_trigger" type="action_f"><img src="/img/favorite-btn.png"></a><div class="counter-container boxfull"><div id="action_f_count" class="action_counter colfull"></div></div></li>    
+			<li><a  id="comments-trigger" class="boxfull comments-trigger"><img class="gen-table-cell" src="/img/comments-btn.png" style="margin-top: -1px;"></a><div class="counter-container boxfull"><div id="action_c_count" class="action_counter colfull"></div></div></li>
+<!-- 			<li id="action_s"><a id="oneofflinkshow" class="boxfull share-trigger" type="action_s"><img src="/img/share-btn.png"></a><div class="counter-container boxfull"><div id="action_s_count" class="action_counter colfull"></div></div> -->
+<!-- 				<ul > -->
+<!-- 					<li class="oneoffshare-trigger">you can also share without logging in</li> -->
+<!-- 				</ul> -->
+			
+			</li>
+<!-- 			<li id="comment" ><a  id="comments-trigger" class="boxfull comments-trigger"><img src="/img/comments-btn.png"></a><div class="counter-container boxfull"><div id="action_c_count" class="action_counter colfull"></div></div></li> -->
+		</ul>
+	</div>
+</div> <style>
+#sidemenu-top-bar #sidemenu-username {color:#3399cc;}
+
+#modal-login { overflow:hidden; top:0; padding:0;padding-top:60px;z-index: 999999999;}
+
+#login-iframe {overflow:hidden;}
+#login-iframe-cover{background-color:#000;position:absolute;top:0;left:0;}
+
+.loading {background: url('/img/preload-circle.GIF') center center no-repeat}
+
+.gear-dark{-ms-behavior: url(/css/backgroundsize.min.htc); background: url(/img/gear-icon.png) no-repeat top left;z-index:1; background-position: center center; background-size:25px 25px;cursor:pointer; width: 40px; height: 40px; padding:6px; padding-right:24px; }
+
+.sidemenu-container {
+overflow: hidden;
+position: fixed !important;
+padding-top: 60px;
+top: 0;
+bottom: 0;
+/* background-color: #fff; */
+ background: url('/img/top-bar-bg.png') repeat; 
+/*background-color: rgba(250,250,250,0.95);*/
+z-index: 9999;
+padding: 24px;
+padding-right: 0;
+padding-left: 16px;
+padding-top: 84px;
+padding-bottom: 20px;
+
+/*margin-top: 50px;*/
+
+left: -100%;
+width: 400px;
+font-size: 1em;
+display: none;
+
+/* background: #fff url(/img/sidebar-header.jpg) left top no-repeat; */
+/* background: #fff; */
+
+}
+
+.sidemenu-inner {
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	
+	}
+
+
+#close-sidemenu {
+	top:0;
+	left:0;
+	position: absolute;
+	z-index:99;
+	background-color: transparent !important;
+}
+.sidemenu-modal-title {
+/* background-color: #f2f2f2; */
+/* background: #1F1F1F; */
+height: 60px;
+color: #fff;
+font-size: 2rem;
+padding-left: 80px;
+padding-right: 80px;
+/* text-align: center; */
+top: 0;
+left: 0;
+position: absolute;
+background: rgba(51, 153, 204, 1);
+width: 400px;
+/* border-bottom: 1px solid #3399cc; */
+}
+
+.sidemenu-header {
+/* 	background-color:#f2f2f2; */
+	margin-top: 16px;
+	height: 50px;
+	color:#3399cc;
+	cursor:pointer;
+	position: relative;
+	padding-bottom: 10px;
+}
+
+#modal-sidemenu .sidemenu-header span, #modal-sidemenu .sidemenu-subheader span {
+/* 	background-color:#f2f2f2; */
+ 	padding-left:12px; 
+}
+
+.sidemenu-header-img {
+	width:96px;
+	height:100%;
+	text-align:center;
+}
+
+.sidemenu-header-img img {width:48px;}
+
+#modal-settings .sidemenu-subheader {
+	color:#fff;
+	}
+
+.sidemenu-subheader {
+/* 	background-color:#f2f2f2; */
+	table-layout:fixed;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	height: 50px;
+	color:white;
+	cursor:pointer;
+	position: relative;
+	z-index: 99;
+	vertical-align:top;
+}
+
+.sidemenu-subheader:hover {background: rgba(51, 153, 204, 0.8); color:#fff;}
+
+.sidemenu-subheader span{
+	
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow: ellipsis;
+}
+
+.sidemenu-subheader a:hover {color:white;}
+
+.sidemenu-subheader span:after {}
+
+.sidemenu-subheader-img {
+	width:60px;
+	height:100%;
+	text-align:center;
+	
+	position:relative;
+}
+
+.sidemenu-subheader-img img {height:25px;vertical-align:middle;}
+
+/* #modal-settings .sidemenu-subheader-img { */
+/* 	width:60px; */
+/* 	height:100%; */
+/* 	text-align:center; */
+	
+/* 	position:relative; */
+/* } */
+
+/* #modal-settings .sidemenu-subheader-img img {height:25px;} */
+
+.settings-subheader:hover {color:#fff !important;}
+
+#modal-sidemenu .sidemenu-subheader-img{width:50px; height:50px;padding:0;/* box-shadow: 0px 0px 8px 0px #111; */}
+/* #modal-sidemenu .sidemenu-subheader-img img.pf_avi{height:100%;} */
+
+.sidemenu-row-box {
+	max-height:144px;overflow:auto;
+background: rgba(27, 161, 226, 0.5);}
+
+.sidemenu-row {
+	table-layout:fixed;
+/* 	background-color:#f2f2f2; */
+/* 	color: #3399cc; */
+	color: #3399cc;
+	border-bottom: 0px solid #c7c8c9;
+	height: 50px;
+	position:relative;
+}
+
+.sidemenu-row img {height:50px;float:left;}
+
+.sidemenu-row span {
+	padding-left:24px;
+	padding-right:12px;
+	height:100%;
+	width:80%;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	color:white;
+}
+
+
+.sidemenu-row span:hover, .sidemenu-row span:active{
+	background: rgba(27, 161, 226, 0.5);
+	}
+#sm_nf .sidemenu-row span {padding-left:0;	}
+
+.sidemenu-row:hover span:after {display:none;}
+
+.sidemenu-row:hover {color: #3399cc;}
+
+#modal-sidemenu .notification-square {height:24px;color:#979797;}
+
+.preferences-row-header {
+	font-size:1.2em;
+	color:white;
+	margin-top:16px;
+	padding-top: 24px;
+	padding-left: 12px;
+	padding-bottom:6px;
+	border-bottom:1px solid #3399cc;
+}
+
+#modal-preferences .sidemenu-subheader {margin-top: 0px;margin-bottom:0px;padding-left:12px;}
+
+#fb-settings .sidemenu-subheader:hover {background-color:#4869ad; color:white;}
+#tw-settings .sidemenu-subheader:hover {background-color:#00abf0; color:white;}
+#li-settings .sidemenu-subheader:hover {background-color:#007bb6; color:white;}
+#gg-settings .sidemenu-subheader:hover {background-color:#E51400; color:white;}
+
+/* #fb-settings .sidemenu-subheader {background-color:#4869ad; color:white;} */
+/* #tw-settings .sidemenu-subheader {background-color:#00abf0; color:white;} */
+/* #li-settings .sidemenu-subheader {background-color:#007bb6; color:white;} */
+/* #gg-settings .sidemenu-subheader {background-color:#E51400; color:white;} */
+
+.toggle-row {display:table !important;padding:12px 0px 12px 0px;background-color:transparent;color:#fff;}
+
+.toggle-row.hidden {display:none !important;}
+
+.autoshare-toggle {}
+
+.public-toggle {}
+
+.public-toggle span, .autoshare-toggle span {color:white;width:96px;padding-left:0px;padding-left: 96px;}
+
+
+
+</style>
+
+<div id="modal-sidemenu" class="sidemenu-container shadow-right modal-transitions">
+<div id="close-sidemenu" class="close-sidemenu close-arrow"></div>
+<div class="sidemenu-modal-title gen-table colfull shadow close-sidemenu"><span class="gen-table-cell">Preferences</span></div>
+<div class="sidemenu-inner boxfull">
+	
+		<div class="sidemenu-header preferences-toggle gen-table colfull"><div class="sidemenu-subheader-img gen-table-cell"><img class="pf_avi" src="/img/sidemenu-user-icon-white.png" /></div><span class="pf_name gen-table-cell">Username</span><div class="gear-dark preferences-toggle gen-table-cell"></div></div>
+		<div class="blue-seperator colfull"></div>
+		<div class="sidemenu-subheader gen-table colfull"><a href="http://wordlink.com" class="gen-table-cell"><div class="sidemenu-subheader-img gen-table-cell"><img id="sidemenu-home" src="/img/sidemenu-home-icon-white.png" title="sidemenu-home" /></div><span class="gen-table-cell">Home</span></a> </div>
+		<div class="blue-seperator colfull"></div>
+		<div class="sidemenu-subheader gen-table colfull filter-trigger"><div class="sidemenu-subheader-img gen-table-cell"><img id="sidemenu-search" src="/img/sidemenu-magnifying-glass-icon-white.png" title="sidemenu-search" /></div><span class="gen-table-cell">Advanced Search</span></div>
+			
+	<!-- 	<div class="sidemenu-subheader"><a href="http://wordlink.com/newsletter.php"><div class="sidemenu-subheader-img gen-table-cell greyed blue"><img id="sidemenu-category" src="/img/sidemenu-category-icon-white.png" title="sidemenu-category" /></div><span>by Category</span></a></div> -->
+		<div class="blue-seperator colfull"></div>
+		<div class="sidemenu-subheader gen-table colfull"><a class="fv_link" href="http://wordlink.com/u/"><div class="sidemenu-subheader-img gen-table-cell"><img id="sidemenu-favorite" src="/img/sidemenu-favorite-icon-white.png" title="sidemenu-favorite" style="height:36px;" /></div><span class="gen-table-cell">Favorites</span></a></div>
+		<div id="sm_fv" class="sidemenu-row-box colfull"></div>
+	<!-- 	<div class="sidemenu-subheader"><div class="sidemenu-subheader-img gen-table-cell greyed blue"><div class="notification-square">44</div></div><span>Notifications</span></div> -->
+	<!-- 	<div id="sm_nf" class="sidemenu-row-box"></div> -->
+		<div class="blue-seperator colfull"></div>
+		<div class="sidemenu-subheader gen-table colfull"><div class="sidemenu-subheader-img gen-table-cell"><img id="sidemenu-bookmark" src="/img/sidemenu-bookmark-icon-white.png" title="sidemenu-bookmark" /></div><span class="gen-table-cell">Bookmarks</span></div>
+		<div id="sm_bk" class="sidemenu-row-box colfull"></div>
+		
+		<div class="blue-seperator colfull"></div>
+		<div class="sidemenu-subheader gen-table colfull"><div class="sidemenu-subheader-img gen-table-cell"><img id="sidemenu-history" src="/img/sidemenu-search-history-icon-white.png" title="sidemenu-history" /></div><span class="gen-table-cell">History</span></div>
+		<div id="sm_hs" class="sidemenu-row-box colfull"></div>
+	</div>
+</div>
+
+<div id="modal-preferences" class="sidemenu-container shadow-right modal-transitions">
+<div id="close-sidemenu" class="close-sidemenu close-arrow"></div>
+		<div class="sidemenu-modal-title gen-table colfull shadow close-sidemenu"><span class="gen-table-cell">Menu</span></div>
+		<div class="sidemenu-inner boxfull">
+			<div class="preferences-row-header gen-table colfull preferences-toggle"><span class="gen-table-cell">Profile</span></div>
+			<div class="sidemenu-subheader gen-table colfull account-profile-trigger settings-toggle"><span class="gen-table-cell">My Profile</span></div>
+			<div class="sidemenu-subheader gen-table colfull" id="clear-history-trigger"><span class="gen-table-cell">Clear Search History</span></div>
+			<div class="sidemenu-subheader gen-table colfull login-trigger" id="login-trigger"><span class="gen-table-cell">Login</span></div>
+			
+			<div class="preferences-row-header gen-table colfull"><span class="gen-table-cell">WordLinks</span></div>
+			<div class="sidemenu-subheader gen-table colfull corporate-toggle about"><span class="gen-table-cell boxfull"><a class="gen-table boxfull" href="http://corp.wordlink.com" target="_blank"><span class="gen-table-cell">About Us</span></a></span></div>
+	<!-- 		<div class="sidemenu-subheader corporate-toggle investors"><span><a href="http://corp.wordlink.com/investors" target="_blank">Investors</a></span></div> -->
+			<div class="sidemenu-subheader gen-table colfull corporate-toggle contactus"><span class="gen-table-cell boxfull"><a class="gen-table boxfull" href="mailto:info@wordlink.com" target="_top"><span class="gen-table-cell">Contact Us</span></a></span></div>
+			
+	<!-- 		<div class="preferences-row-header gen-table"><span>Support</span></div> -->
+	<!-- 		<div class="sidemenu-subheader gen-table corporate-toggle walkthrough"><span class="gen-table-cell"><a href="#walkthrough" >Walkthrough</a></span></div> -->
+	<!-- 		<div class="sidemenu-subheader gen-table corporate-toggle report"><span class="gen-table-cell"><a href="#report" >Report a Problem</a></span></div> -->
+	<!-- 		<div class="sidemenu-subheader gen-table corporate-toggle privacy"><span class="gen-table-cell"><a href="http://corp.wordlink.com/privacy" target="_blank">Privacy Policy</a></span></div> -->
+	<!-- 		<div class="sidemenu-subheader gen-table corporate-toggle terms"><span class="gen-table-cell"><a href="http://corp.wordlink.com/terms" target="_blank">Terms of Services</a></span></div> -->
+		</div>
+</div>
+	
+<div id="modal-login" class="sidemenu-container shadow-right modal-transitions">
+<div id="close-sidemenu" class="close-sidemenu close-arrow login close"></div>
+<div class="sidemenu-modal-title gen-table colfull shadow close-sidemenu"><span class="gen-table-cell">Login</span></div>
+	<div class="sidemenu-inner boxfull">
+		<div id="login-iframe-cover" class="boxfull loading"></div>
+			<iframe class="iframe boxfull" allowtransparency="true" id="login-iframe" frameborder="0" src=""></iframe>
+	</div>
+</div>
+
+	
+	
+
+<div id="modal-settings" class="sidemenu-container shadow-right modal-transitions">
+<div id="close-sidemenu" class="close-sidemenu close-arrow"></div>
+<div class="sidemenu-modal-title gen-table colfull shadow close-sidemenu"><span class="gen-table-cell">Profile</span></div>
+<div class="sidemenu-inner boxfull">				
+<div class="sidemenu-header gen-table colfull"><div class="sidemenu-header-img gen-table-cell"><img class="pf_avi" src="/img/sidemenu-user-icon-white.png" /></div><span class="pf_name gen-table-cell">Username</span></div>
+	<div class="blue-seperator colfull"></div>
+	<div id="account-settings">
+		<div id="fb-settings" style="margin-top:36px;">
+			<div class="sidemenu-subheader gen-table colfull login-link facebook-blue" n="fb"> <div class="sidemenu-subheader-img gen-table-cell greyed" style="width:96px;"><img id="facebook" src="/img/login/facebook-trans.png" title="facebook" /></div><span id="pf_fb_name" class="gen-table-cell">Link my account  &nbsp;&nbsp;&#9654;</span></div>
+				<div class="public-toggle toggle-row colfull hidden"><span class="gen-table-cell">Public</span>
+					<div class="onoffswitch">
+					    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="pf_fb_public" checked>
+					    <label class="onoffswitch-label" for="pf_fb_public">
+					        <div class="onoffswitch-inner"></div>
+					        <div class="onoffswitch-switch"></div>
+					    </label>
+					</div>
+				</div>
+				<div class="autoshare-toggle toggle-row colfull hidden"><span class="gen-table-cell">Autoshare</span>
+					<div class="onoffswitch">
+					    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="pf_fb_autoshare" checked>
+					    <label class="onoffswitch-label" for="pf_fb_autoshare">
+					        <div class="onoffswitch-inner"></div>
+					        <div class="onoffswitch-switch"></div>
+					    </label>
+					</div>
+				</div>
+		</div>
+				
+
+		
+		<div id="tw-settings" style="margin-top:36px;">
+			<div class="sidemenu-subheader gen-table colfull login-link twitter-blue" n="tw"><div class="sidemenu-subheader-img gen-table-cell greyed" style="width:96px;"><img id="twitter" src="/img/login/twitter-trans.png" title="twitter" /></div><span id="pf_tw_name" class="gen-table-cell">Link my account  &nbsp;&nbsp;&#9654;</span></div>
+				<div class="public-toggle toggle-row colfull hidden"><span class="gen-table-cell">Public</span>
+					<div class="onoffswitch">
+					    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="pf_tw_public" checked>
+					    <label class="onoffswitch-label" for="pf_tw_public">
+					        <div class="onoffswitch-inner"></div>
+					        <div class="onoffswitch-switch"></div>
+					    </label>
+					</div>
+				</div>
+				<div class="autoshare-toggle toggle-row colfull hidden"><span class="gen-table-cell">Autoshare</span>
+					<div class="onoffswitch">
+					    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="pf_tw_autoshare" checked>
+					    <label class="onoffswitch-label" for="pf_tw_autoshare">
+					        <div class="onoffswitch-inner"></div>
+					        <div class="onoffswitch-switch"></div>
+					    </label>
+					</div>
+				</div>
+		</div>
+		
+		
+		<div id="li-settings" style="margin-top:36px;">
+			<div class="sidemenu-subheader gen-table colfull login-link linkedin-blue" n="li"><div class="sidemenu-subheader-img gen-table-cell greyed" style="width:96px;"><img id="linkedin" src="/img/login/linkedin-trans.png" title="linkedin" /></div><span id="pf_li_name" class="gen-table-cell">Link my account  &nbsp;&nbsp;&#9654;</span></div>
+			<div class="public-toggle toggle-row colfull hidden"><span class="gen-table-cell">Public</span>
+				<div class="onoffswitch">
+					    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="pf_li_public" checked>
+					    <label class="onoffswitch-label" for="pf_li_public">
+					        <div class="onoffswitch-inner"></div>
+					        <div class="onoffswitch-switch"></div>
+					    </label>
+					</div>
+			</div>
+			<div class="autoshare-toggle toggle-row colfull hidden"><span class="gen-table-cell">Autoshare</span>
+				<div class="onoffswitch">
+					    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="pf_li_autoshare" checked>
+					    <label class="onoffswitch-label" for="pf_li_autoshare">
+					        <div class="onoffswitch-inner"></div>
+					        <div class="onoffswitch-switch"></div>
+					    </label>
+					</div>
+			</div>
+		</div>
+		
+		
+		<div id="gg-settings" style="margin-top:36px;">
+		<div class="sidemenu-subheader gen-table colfull login-link red" n="gg"><div class="sidemenu-subheader-img gen-table-cell greyed" style="width:96px;"><img id="googleplus" src="/img/login/googleplus-trans.png" title="google" /></div><span id="pf_gg_name" class="gen-table-cell">Link my account  &nbsp;&nbsp;&#9654;</span></div>
+			<div class="public-toggle toggle-row colfull hidden"><span class="gen-table-cell">Public</span>
+				<div class="onoffswitch">
+					    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="pf_gg_public" checked>
+					    <label class="onoffswitch-label" for="pf_gg_public">
+					        <div class="onoffswitch-inner"></div>
+					        <div class="onoffswitch-switch"></div>
+					    </label>
+					</div>
+			</div>
+			<div class="autoshare-toggle toggle-row colfull hidden"><span class="gen-table-cell">Autoshare</span>
+				<div class="onoffswitch">
+					    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="pf_gg_autoshare" checked>
+					    <label class="onoffswitch-label" for="pf_gg_autoshare">
+					        <div class="onoffswitch-inner"></div>
+					        <div class="onoffswitch-switch"></div>
+					    </label>
+					</div>
+			</div>
+		</div>
+		
+		
+		<div id="email-settings" style="margin-top:36px;">
+			
+			<div class="sidemenu-subheader gen-table colfull blue">
+				<div class="sidemenu-subheader-img gen-table-cell greyed" style="width:96px;"><img src="/img/email-logo.png" /></div><span id="pf_email" class="gen-table-cell">Newsletter</span></div>
+				<div class="public-toggle toggle-row colfull"><span class="gen-table-cell">Newsletter</span>
+					<div class="onoffswitch">
+						    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="pf_nw_public" checked>
+						    <label class="onoffswitch-label" for="pf_nw_public">
+						        <div class="onoffswitch-inner"></div>
+						        <div class="onoffswitch-switch"></div>
+						    </label>
+						</div>
+			</div>
+		</div>
+		
+		
+		<div id="favorite-settings" style="margin-top:36px;">
+			<div class="sidemenu-subheader gen-table colfull blue">
+				<div class="sidemenu-subheader-img gen-table-cell greyed" style="width:96px;"><img src="/img/sidemenu-favorite.png" /></div><span id="pf_favorite_name" class="gen-table-cell">Favorites</span></div>
+				<div class="public-toggle toggle-row colfull"><span class="gen-table-cell">Public</span>
+					<div class="onoffswitch">
+						    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="pf_fv_public" checked>
+						    <label class="onoffswitch-label" for="pf_fv_public">
+						        <div class="onoffswitch-inner"></div>
+						        <div class="onoffswitch-switch"></div>
+						    </label>
+						</div>
+			</div>
+		</div>
+		
+		
+			
+			
+	</div>
+	</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="/js/urlMin.js?t=1455672770"></script><!-- <script type="text/javascript" src="/js/urlMin.js"></script> -->
+
+
+
+
+
+
+<script>
+var user_object={};
+
+</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"a71026a096","applicationID":"2146504","transactionName":"ZVEHNxcHWBYDAkYKVlwbMBEMSUMXDk9CC0k=","queueTime":0,"applicationTime":32,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-768.min.js"}</script></body>
+</html>

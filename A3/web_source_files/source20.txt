@@ -1,0 +1,331 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Twitcom - Crie e participe de comunidades e grupos no Twitter </title>
+        <meta name="description" content="No Twitcom você pode criar e participar de comunidades, encontrar mais seguidores no Twitter.">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="inc/style.css" />
+        <link rel="stylesheet" type="text/css" href="inc/style3.css" />
+        <link rel="stylesheet" type="text/css" href="inc/style7.css" />
+        <link rel="stylesheet" type="text/css" href="inc/style5.css" />
+        <link rel="stylesheet" type="text/css" href="inc/style2.css" />
+
+
+        <link href='http://fonts.googleapis.com/css?family=Podkova' rel='stylesheet' type='text/css' />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="inc/function.js"></script>
+        <script src="inc/var_groupUser.js"></script>
+
+    </head>
+    <body>
+<script type="text/javascript" id="r7barrautil" src="http://barra.r7.com/barra.js">{responsivo:false, banner:false, submenu:false}</script>
+
+<div id="confirmation_message_space" style="display:none;"></div>
+<div id="confirmation_message" style="display:none;"><div><a href="#" onclick="return show_email_confirmation_dialog_resend();">Reenviar email</a>Voc&ecirc; precisa confirmar sua inscri&ccedil;&atilde;o. V&aacute; at&eacute; seu email e confirme clicando no link de valida&ccedil;&atilde;o.</div></div>
+
+
+        <div id="boxMESSAGE"></div>
+        <div class="mainBlock">
+    <div class="message_dialog" id="confirmation_dialog" style="display:none;"><div class="message_dialog_area">
+        <div class="message_dialog_loading" id="confirmation_dialog_loading" style="display:none;"></div>
+        <div class="message_dialog_close_button" id="confirmation_dialog_close" onclick="close_email_confirmation_dialog(true);" style="display:none;">X</div>
+        <div id="email_confirmation_input">
+            <p class="big_label" id="email_confirmation_send">
+                Para concluir sua inscrição,<br />
+                digite seu email para confirmação.
+            </p>
+            <p class="big_label" id="email_confirmation_resend" style="display:none;">
+                Reenviar email de confirmação para:
+            </p>
+            <input type="text" name="confirmation_email" id="confirmation_email" />
+            
+            <input type="button" value="Enviar" onclick="save_email_confirmation_dialog();" />
+        </div>
+        
+        <div id="email_confirmation_okmessage" style="display:none;">
+            <p class="big_label" style="text-align: center;">
+                Um email foi enviado, confirme clicando<br />
+                no link de validação.
+            </p>
+            
+            <input type="button" value="OK" onclick="close_email_confirmation_dialog();" />
+            <p style="text-align: center;">
+                Lembre-se de verificar também sua caixa de SPAM.
+            </p>
+        </div>
+    </div></div>
+    
+    <div class="message_dialog" id="notification_dialog" style="display:none;"><div class="message_dialog_area">
+        <div class="message_dialog_loading" id="notification_dialog_loading" style="display:none;"></div>
+        <div class="message_dialog_close_button" onclick="close_notification_dialog();">X</div>
+        <p>
+            Desejo receber notificação de atualização quando:
+        </p>
+        <label><input type="checkbox" name="alert_tweets" id="alert_tweets" value="1" /> Houver tweets nos nests que sigo</label>
+        <label><input type="checkbox" name="alert_nest_join" id="alert_nest_join" value="1" /> Alguém entrar nos nests que sigo</label>
+        <label><input type="checkbox" name="alert_nest_leave" id="alert_nest_leave" value="1" /> Alguém sair dos nests que sigo</label>
+        <label><input type="checkbox" name="alert_mentions" id="alert_mentions" value="1" /> Houver alguma menção a mim</label>
+        <label><input type="checkbox" name="newsletter" id="newsletter" value="1" /> Houver novidades no Twitcom</label>
+        <label><input type="checkbox" name="dailyreport" id="dailyreport" value="1" /> Receber resumo diário</label>
+        <p>
+            Qual email deseja receber as notificações de atualização?
+        </p>
+        <input type="text" name="confirmation_email_notification" id="confirmation_email_notification" value="" />
+        
+        <input type="button" value="Cancelar" onclick="close_notification_dialog();" />
+        <input type="button" value="Salvar" onclick="save_notification_dialog();" />
+    </div></div>
+    
+    <div class="message_dialog" id="followers_dialog" style="display:none;"><div class="message_dialog_area">
+        <div class="message_dialog_loading" id="followers_dialog_loading" style="display:none;"></div>
+        <div class="message_dialog_close_button" onclick="close_followers_dialog();">X</div>
+        <button onclick="send_invitations();"><span>Convidar meus amigos para entrar na comunidade</span></button>
+        <div id="followers_container"></div>
+        <p>
+            <label><a href="#" onclick="checkbox_check_all('follower_cb', true); return false;">Marcar todos</a> &nbsp; <a href="#" onclick="checkbox_check_all('follower_cb', false); return false;">Desmarcar todos</a></label>
+        </p>
+    </div></div>
+    
+    <div id="nestJoinTweet_dialog" style="display:none;"><div id="nestJoinTweet_area">
+        <input type="hidden" id="nestToJoin_nest" value="" />
+        <input type="hidden" id="nestToJoin_idNest" value="" />
+        <input type="hidden" id="nestToJoin_isIndex" value="" />
+        <div id="nestJoinTweet_close" onclick="closeJoinNestWindow();">x</div>
+        <div id="nestJoinTweet_title">Tweet a comunidade para entrar</div>
+        <div id="nestJoinTweet_content">
+            <div id="nestJoinInfo">
+                <img id="nestJoinImage" src="" alt="" title="" />
+                <span id="nestJoinName"></span>
+                <span id="nestJoinDescription"></span>
+                <div style="clear: both;"></div>
+            </div>
+            <div id="nestJoinTweetArea"><textarea id="nestJoinTweetShadow" onfocus="$(this).next().focus();"></textarea><textarea id="nestJoinTweet"></textarea></div>
+            <div id="nestJoinButton"><input type="button" value="Tweet" onclick="tweetToJoinNest();" /></div>
+            <div id="nestJoinCounter"></div>
+            <div id="nestJoinMessage">O link da comunidade será incluído em seu tweet <span style="display:none;"></span></div>
+        </div>
+    </div></div>
+
+    
+            <div class="banner-top-space"><div class="banner-top"><!-- Inserir dentro da tag HEAD-->
+
+<script>
+(function (url) {
+var
+isSSL = document.location.protocol === 'https:',
+r7adUrl = (isSSL ? 'https:' : 'http:') + '//adv.r7.com/script?href=',
+pageUrl = (typeof url === 'undefined' ? document.location.href : url);
+document.write('<scr' + 'ipt src="' + r7adUrl + pageUrl + '"><\/scr' + 'ipt>');
+}());
+</script>
+
+
+<!--Inserir aonde ira veicular o banner-->
+
+<script>
+r7ad.printGAds([728, 90], 'Superbanner');
+</script>
+</div></div>
+
+        
+    <div class="head">              
+        <a href="http://www.twitcom.com.br/index.php"><img src="http://www.twitcom.com.br/image/logo_top.png" class="logo" /></a>
+        <div id="frmHeaderSearch"><div><form method="get" action="/search.php">
+          <input type="text" value="comunidades, assuntos..." name="q" onfocus="if (this.value == 'comunidades, assuntos...') { this.value = '';}" onblur="if (this.value == '') { this.value = 'comunidades, assuntos...';}" />
+        </form></div></div>
+        <div id="msgLogin"></div>
+        <div id="boxLogin" class="boxLogin"></div>
+        <div class="logo"></div>
+        <div class="logoText">
+        </div>
+    </div>
+
+<script type="text/javascript">
+
+
+function LoadBarraLogin() {
+    $.ajax({
+        url: "http://www.twitcom.com.br/barra_login.php",
+        type: "POST",
+        success: function(data) {
+            $("#boxLogin").html(data);
+        }
+    });
+}
+
+var usr_confirmation = "0";
+$(document).ready(function(){
+    LoadBarraLogin();
+});
+
+</script>
+<div class="banner_full">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- grande - cabealho -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:970px;height:90px"
+     data-ad-client="ca-pub-9829309200828474"
+     data-ad-slot="2384138088"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+
+
+
+<div class="navBar">
+
+	<div class="categories">
+		<a href="http://www.twitcom.com.br/category/business" class="button02">Neg&oacute;cios</a>
+		<a href="http://www.twitcom.com.br/category/lifestyle" class="button03">Lifestyle</a>
+		<a href="http://www.twitcom.com.br/category/entertainment" class="button04">Entretenimento</a>
+		<a href="http://www.twitcom.com.br/category/technology" class="button05">Tecnologia</a>
+		<a href="http://www.twitcom.com.br/category/internet" class="button06">Internet</a>
+		<a href="http://www.twitcom.com.br/category/location" class="button07">Cidades</a>
+		<a href="http://www.twitcom.com.br/category/relationships" class="button08">Relacionamento</a>
+		<a href="http://www.twitcom.com.br/category/sports" class="button09">Esportes</a>
+		<a href="http://www.twitcom.com.br/category/professions-jobs" class="button10">Profiss&otilde;es</a>
+		<a href="http://www.twitcom.com.br/category/Others" class="button11">Outros</a>
+	</div>
+
+  <div class="clear"></div>
+</div>
+
+
+<script>
+$(document).ready(function() {
+
+	var resizeBannersTimerId;
+	
+	var resizeBanners = function() {
+		var bodyWidth = $("body").width();
+		var bannerWidth = 0;
+	
+		if (bodyWidth > 988) {
+			bannerWidth = Math.round((bodyWidth - 989) / 2) - 2;
+			if (bannerWidth < 0) {
+				bannerWidth = 0;
+			}
+		}
+	
+		$(".auto-resize-banner").width(bannerWidth);
+	};
+
+	var resizeBannersTrigger = function() {
+		clearTimeout(resizeBannersTimerId);
+		setTimeout(resizeBanners, 100);
+	}
+
+	$(window).resize(resizeBannersTrigger);
+	resizeBanners();
+	
+});
+
+</script>
+
+
+	<div id="rightPageBanner" style="position:fixed; top:196px; max-width:300px; right:0; overflow:hidden; z-index:1000;"  class="auto-resize-banner">
+		</div>
+
+
+<div style="position:relative;"><div style="position:absolute; left:990px; overflow:hidden; z-index:1000;" class="auto-resize-banner">
+</div></div>
+
+
+<div class="content">
+    <div class="infoBoxTimeline">
+	    
+	    	    
+	    <div class="recentVisitors">
+	    <div style="margin:0 0 15px 25px; font-size: 1.2em;">@criislookiez</div>
+		<h1>Pessoas que visitaram seu perfil recentemente</h1>
+		<div style="margin-left:25px;">
+
+		<a href="http://www.twitcom.com.br/groupUser.php?user=thaisaapaes" class="names"><img src="" alt="thaisaapaes" />@thaisaapaes</a><a href="http://www.twitcom.com.br/groupUser.php?user=floriiroque" class="names"><img src="" alt="floriiroque" />@floriiroque</a><a href="groupUser.php?user=criislookiez&morevisitors=1" class="names seemore">ver mais...</a>		<div class="clear"></div>
+		</div>
+	    </div>
+
+    </div>
+
+    <div class="clear"></div>
+    <div style="clear:both; text-align:center;">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- Cabeçalho Twitcom -->
+		<ins class="adsbygoogle"
+		     style="display:inline-block;width:728px;height:90px"
+		     data-ad-client="ca-pub-9829309200828474"
+		     data-ad-slot="0277190373"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+    </div>
+    <div class="clear">&nbsp;</div>
+
+  
+</div>
+        </div>
+
+
+<div id="footer">
+    <div class="bottom">
+
+        <span class="textCopy">&copy; Twitcom 2015</span>
+
+        <span><a href="http://www.twitcom.com.br/quemsomos.php" class="link">Sobre</a></span>
+                <a href="http://twitter.com/twitcomBr" class="link">Siga</a> <a href="http://www.twitcom.com.br/termosdeuso.php" class="link">Termos de uso</a>
+        
+        <div id="frmSearch"><form action="/search.php" method="get">
+          <input type="text" name="q" id="qStr" placeholder="Encontre uma comunidade ou assunto" />
+        </form></div>
+
+        <div id="tl_ad">
+            <div class="tli_ad"></div>
+        </div>
+
+    </div>
+
+    <a href="http://twitter.com/"><img src="/image/powered_twitter.png" id="img_powered" /></a>
+</div>
+
+<script id="r7-footer-portal" src="http://barra.r7.com/footer/footer-portal/footer-portal.js" charset="UTF-8">{showPane:false, bgC:'#cfeafa', isPartner:true, partnerLabel:'Tecnologia e Ciência'}</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10099095-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+<!-- Begin comScore Tag -->
+<script>
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "14194541" });
+(function() {
+var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+el.parentNode.insertBefore(s, el);
+})();
+</script>
+<noscript>
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=14194541&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<script async="true" type="text/javascript" src="http://carnage1301.spider.ad?id=11125"></script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9829309200828474",
+    enable_page_level_ads: true
+  });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,835 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+	
+
+	<head>
+	
+		
+		
+		<script type="text/javascript" src="scripts/bowser.min.js"></script>
+		<script type="text/javascript" src="scripts/swfobject.js"></script>
+
+		<script>
+			var playSessionID = "40387551-E8FD-A85D-F241012E4BDBAAA2";
+			var mobilePlayer = false;
+			var privateLabel = false;
+			var centralSvrPrefixURL = "http://radio.securenetsystems.net/";
+
+			var launchFrom = "";
+			var enableCirrusOmni = true;
+
+			var stationSlogan = "The best of the 80s,90sand now";
+			var cdnRfPrefixURL = "http://cdnrf.securenetsystems.net/file_radio/";
+			var playerBgImg = cdnRfPrefixURL + "v5/skins/bubbles.png";
+
+			var geoCTCode = "US";
+			var geoDMACode = "544";
+			var geoLocLat = "36.9311981201";
+			var geoLocLon = "-76.2397003174";
+			var clientIPAddr = "128.82.4.244";
+
+			var playerAdvertisingMode = "ADN";
+			var bannerRotationFqcy = 30;
+			var definedBannerTypes = "M,D,N,E";
+			var sLocaFillOnAdnFail = false;
+			var sTerrFillOnLocalFail = true;
+			var sBedFillOnAllFail = false;
+			var sBedFillFileName = "COMMERCIAL-BREAK-BACKGROUNDER.m4a";
+			var sTspStnId = "";
+			var sGenre = "";
+			var logVPAID = false;
+			var vastAbortTimer;
+
+			var royaltyMarkProgram = 30;
+			var royaltyMarkAd = 90;
+
+			var adBlockerPresent = false;
+
+			
+			var prerollApp = new Array();
+
+			
+					
+					prerollApp.push("player-check-ab");
+					
+				
+					prerollApp.push("demographics");
+				
+			
+
+			var checkIEModernUI = false;
+
+			var playerAppOnDemand = false;
+			var playerAppHome = false;
+			var playerAppContact = true;
+			var playerAppFacebook = true;
+			var playerAppTwitter = true;
+			var playerAppYouTube = false;
+			var playerAppsYouTubeUserName = "";
+			var playerAppUstream = false;
+			var playerAppsUstreamCid = "";
+			var playerAppOtherStations = false;
+			var playerAppShareThis = true;
+			var playerAppNews = true;
+			var playerAppNewsSrc = "http://rss.cnn.com/rss/cnn_topstories.rss";
+			var playerAppSports = true;
+			var playerAppSportsSrc = "http://sports.espn.go.com/espn/rss/news";
+			var playerAppStocks = true;
+			var playerAppStocksSrc = "http://online.wsj.com/xml/rss/3_7031.xml";
+			var playerAppEntertainment = true;
+			var playerAppEntertainmentSrc = "http://syndication.eonline.com/syndication/feeds/rssfeeds/topstories.xml";
+			var playerAppWeather = true;
+			var playerAppFlight = true;
+			var playerAppYelp = false;
+			var playerAppDeals = false;
+			var playerAppPolls = false;
+			var playerAppSongRequest = true;
+			var playerAppChat = true;
+			var chatChannel = "0463951712";
+			var playerAppGames = false;
+			var playerAppWobot = false;
+			var playerAppWobotSrc = "http://www.wobot.tv/rss/";
+			var playerAppPlaylist = true;
+			var playerAppLyrics = true;
+			var playerAppSendToMobile = true;
+			var playerAppHelp = true;
+
+			var playerAutoStartApp = "";
+			var listenSessionTimeout = 0;
+			var playerAppTimeout = false;
+
+			var dspAlbumArt = true;
+			var dftAlbumArt = "http://cdnrf.securenetsystems.net/file_radio/stations_large/WJRV/v5/album-art-default.png";
+			var dspBuyMediaButton = true;
+			var dspMediaRate = true;
+
+			var dspMenuIcon = true;
+			var playerMenuAutoOpen = false;
+
+			var stationCallSign = "WJRV";
+
+			var polling = new Object();
+			polling.enabled = true;
+			polling.active = false;
+			polling.adInsert = true;
+
+			
+			
+				var streamProvider = "http";
+
+				
+				
+				
+				var streamSRC = "http://ice10.securenetsystems.net/WJRV?&playSessionID=40387551-E8FD-A85D-F241012E4BDBAAA2";
+				var encoderType = "ACP";
+				var playlistType = "";
+				if(encoderType === "ACP"){
+					if((bowser.firefox) || (bowser.msie)){
+						if(swfobject.hasFlashPlayerVersion("1")){
+							streamSRC += "&type=.flv";
+							playlistType = "flv";
+						}else{
+							if(!mobilePlayer){
+								prerollApp.push("flashRequired");
+							}
+						}
+					}else{
+						playlistType = "aac";
+					}
+				}else if(encoderType === "MP3"){
+					playlistType = "mp3"
+				}
+
+				// if(encoderType === "ACP"){
+				// 	if(streamSRC.indexOf(";stream.nsv") > -1){
+				// 		streamSRC += "&type=.flv";
+				// 		playlistType = "aac";
+				// 	}else{
+				// 		streamSRC += "&type=.flv";
+				// 		playlistType = "flv";
+				// 	}
+				// }else if(encoderType === "MP3"){
+				// 	if(streamSRC.indexOf(";stream.nsv") > -1){
+				// 		streamSRC += "&type=.flv";
+				// 		playlistType = "flv";
+				// 	}else{
+				// 		streamSRC += "&type=.flv";
+				// 		playlistType = "flv";
+				// 	}
+				// }
+				
+
+				var liveStreamEnable = true;
+				var streamRoot = "http://ice10.securenetsystems.net/media";
+
+				var blackout = new Object();
+				blackout.active = 0;
+				blackout.type = "";
+				blackout.app = "";
+				blackout.nextCheck = 86681000;
+				blackout.resumeTime = "Wednesday, 2/17/2016 8:27 PM ET";
+
+				var rejoinPriority = "PGM";
+				var enforceRejoinPriority = true;
+
+				var persistAlbumArt = false;
+
+				
+				var xmlODUrl = "";
+				var onDemandQueue = new Object();
+
+				var onDemandFileCount = 0;
+				var onDemandAutoStart = false;
+				var onDemandFill = new Object();
+				onDemandFill.enabled = false;
+				onDemandFill.active = false;
+				
+					
+					var d = new Date();
+					var localServerTSoffset = d.getTime()+d.getTimezoneOffset()*60000 - Date.parse("17 Feb 2016 01:22:55");
+				
+
+				
+					var nielsenEnabled = true;
+				
+
+			var enableStream = true;
+
+			
+
+		</script>
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+		<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE, NO-STORE, must-revalidate, max-age=0" />
+		<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+		<META HTTP-EQUIV="EXPIRES" CONTENT="0" />
+		<meta name="distribution" content="Global" />
+		<meta property="og:title" content="WJRV" /> 
+		<meta property="og:description" content="Listen to our station on your computer or mobile device!" />  
+		<meta property="og:image" content="http://cdnrf.securenetsystems.net/file_radio/stations_large/WJRV/v5/logo.png" /> 	
+		<link REL="SHORTCUT ICON" HREF="images/ssiicon.ico">
+	
+		<title>The best of the 80s,90sand now</title>
+
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" href="css/style_stdres.css" type="text/css" />
+		<![endif]-->
+		<!--[if (!IE)|(gte IE 9)]> -->	
+			<link rel="stylesheet" href="css/style_hires.css" type="text/css" />
+		<!-- <![endif]-->	
+	
+		<style>
+			.bodyDiv {
+				background:url(http://cdnrf.securenetsystems.net/file_radio/v5/skins/bubbles.png) no-repeat top left #1B1B1B;
+				top:50%;
+				left:50%;
+				height:630px;
+				
+					width:940px;
+					margin:-315px 0 0 -470px;
+				
+				position:absolute;
+				display:none;
+			}	
+			div {
+				color: #C8D6FB;
+			}
+			a:link, a:visited, a:hover, a:active, .menuHeader, .player-apps-title, #transport-counter, #transport-volume-label {
+				color: #4F7FF7;
+			}
+		</style>
+		
+		
+		
+
+	<script type="text/javascript" src="scripts/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery.json-2.2.min.js"></script>
+	<script type="text/javascript" src="scripts/ifvisible.min.js"></script>
+	<script type="text/javascript" src="scripts/jwplayer.js"></script>
+	
+	<script type="text/javascript">jwplayer.key="J6GkWY0PhN8wDoe50swwLMTN17DrPtt4qudjgA==";</script>
+
+	
+	<script type="text/javascript" src="scripts/adv.js"></script>
+	
+
+	
+	
+		<script type="text/javascript" src="scripts/jquery.qrcode.min.js"></script>
+	
+			<script type="text/javascript" src="scripts/v5.min.js?cb=20160216202255"></script>
+		
+		
+		
+	</head>
+
+	<body onClick="cirrusOmni();">
+		
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-67327905-5', 'auto');
+		  ga('send', 'pageview');
+		  if(playerAdvertisingMode === 'ADN'){
+			  ga('send', 'event', 'Player Event', 'Player Launch', '00000010', 1);
+		  }
+		  if(launchFrom.length > 0){
+			  ga('send', 'event', 'Player Event', 'Player Launch', 'Launch From ' + launchFrom, 1);
+		  }
+		</script>
+		
+
+		
+		<script type="text/javascript">
+		_atrk_opts = { atrk_acct:"U4nwg1awAe00qR", domain:"securenetsystems.net",dynamic: true};
+		(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+		</script>
+		<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=U4nwg1awAe00qR" style="display:none" height="1" width="1" alt="" /></noscript>
+				
+		
+		
+			<div id="bodyDiv" class="bodyDiv">
+
+				<div id="ajax-loader" class="ajax-loader-container ajax-loader"></div>
+				<img id="stationLogo" src="http://cdnrf.securenetsystems.net/file_radio/stations_large/WJRV/v5/logo.png" /> 
+<div id="top-menu-wrapper" class="top-menu-wrapper dH tS">
+	
+</div>
+
+
+
+<div id="menu" class="menu">
+	
+	<div class="menu-close" title="Close menu" onClick="dspMenu();"></div>
+	
+	
+	<div class="menu-row">
+		
+			<div class="fL menuIcons">
+				<div class="menuText menuHeader f15em">Station info</div>
+				<img src="images/contact.png" width="60" title="Contact information" onClick="startApp('contact');" /> <img src="images/facebook.png" width="60" title="Facebook feed" onClick="startApp('facebook');" /> <img src="images/twitter.png" width="60" title="Read our twitter feed" onClick="startApp('twitter');" /> 
+			</div>
+		
+			<div class="fL menuIcons">
+				<div class="menuText menuHeader f15em">Streams</div>
+				<img src="images/media-send-to-mobile.png" width="60" title="Send player to mobile phone" onClick="startApp('send-to-mobile');" /> <img src="images/playlist.png" width="60" title="View last 20 songs played" onClick="startApp('playlist');" /> 
+			</div>
+		
+			<div class="fL menuIcons">
+				<div class="menuText menuHeader f15em">Help</div>
+				<img src="images/help.png" width="60" title="Problems streaming? Click here for common answers." onClick="startApp('help');" />
+			</div>
+		
+	</div>
+	<div class="menu-apps-row dT">
+		<div class="top-menu-button-c1">
+			<div class="top-menu-button-c2">
+				
+					<div class="fL menu-apps mr20">
+						<div class="menuText menuHeader f15em">Player apps</div>
+						<img src="images/news.png" width="60" title="News" onClick="startApp('news');" /> <img src="images/stocks.png" width="60" title="Finance" onClick="startApp('stocks');" /> <img src="images/sports.png" width="60" title="Sports" onClick="startApp('sports');" /> <img src="images/entertainment.png" width="60" title="Entertainment" onClick="startApp('entertainment');" /> <img src="images/weather.png" width="60" title="Weather" onClick="startApp('weather');" /> <img src="images/traffic.png" width="60" title="Traffic map" onClick="startApp('traffic');" /> <img src="images/flight.png" width="60" title="Flight tracker" onClick="startApp('flight');" /> <img src="images/request.png" width="60" title="Song request" onClick="startApp('request');" /> <img src="images/chat.png" width="60" title="Chat with other listeners" onClick="startApp('chat');" /> 
+					</div>
+				
+					<div class="fL menuIcons" style="padding-right:0px;">
+						<div class="menuText menuHeader f15em">Share</div>
+						<!-- AddThis Button BEGIN -->
+						<div class="shareThis addthis_toolbox addthis_default_style addthis_32x32_style">
+						<a class="addthis_button_preferred_1"></a>
+						<a class="addthis_button_preferred_2"></a>
+						<a class="addthis_button_preferred_3"></a>
+						<a class="addthis_button_preferred_4"></a>
+						<a class="addthis_button_compact"></a>
+						<a class="addthis_counter addthis_bubble_style"></a>
+						</div>
+						<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-502552987eaa3f3d"></script>
+						<!-- AddThis Button END -->				
+					</div>				
+				
+			</div>	
+		</div>
+	</div>
+</div>
+
+				
+
+				
+				<div id="updateBrowser">
+					<p>Your browser is out of date. Please upgrade your browser to proceed to the live stream.</p>
+					<p>This player utilizes features that are unavailable in your version of browser. Don't worry - there is an easy solution. Simply upgrade your browser to the latest version and then return to this player to proceed to the live stream. You'll be enjoying your favorite station before you know it!</p>
+				</div>
+				
+
+				
+				
+
+	
+
+		
+		<div id="player-apps-flashRequired" class="player-apps-preroll dH">
+			<div>
+				<div class="player-apps-content papbct dT">
+					<div class="top-menu-button-c1">
+						<p>Adobe Flash Required</p>
+						<br>
+						<p>Adobe Flash is required to listen to this station, but you don't appear to have it installed.</p>
+						<br>
+						<p><a href="https://get.adobe.com/flashplayer/">Click here to install Adobe Flash</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		
+		
+			<div id="player-apps-player-check-ab" class="player-apps-preroll dH">
+				<div>
+					<div class="player-apps-content papbct dT">
+						<div class="top-menu-button-c1">
+							
+							
+							
+
+							<div id="adblockWrapper"></div>
+							<script>
+								function getQueryVariable(variable){
+							       var query = window.location.search.substring(1);
+							       var vars = query.split("&");
+							       for (var i=0;i<vars.length;i++) {
+							               var pair = vars[i].split("=");
+							               if(pair[0] == variable){return pair[1];}
+							       }
+							       return(false);
+								}
+
+								function avane5SR91yB1vkYgvpPVhgNfSwiEmgMoF4ARvPNOtOTSeelgnKJwvfo7Pplt1jl9rY7XQqFQDhpyYgl8dvtK5fhCJsWiZJnLzLpJsG6fNxIEo9xGmwu0gSgNhILpTkPoOZankGjpR1uFcHLPxcpTDa8xtg2bkemfeYfZoz0E1wBInyJOlo8q(){
+									if(window.iExist === undefined){
+										console.log("ad blocker detected");
+										ga('send', 'event', 'Player Event', 'Ad Blocker', 'Ad Blocker Detected', 1);
+
+										adBlockerPresent = true;
+										$("#adblockWrapper").html("<a href=\"abp:subscribe?location=http://streamdb5web.securenetsystems.net/v5/adBlockWhitelist.cfm\"><img id=\"blockImage\" src=\"images/blockdetected.png\" width=\"750\" height=\"92\"></a>");
+										var retryVar = getQueryVariable("retry");
+										if(!retryVar){
+											setTimeout(function(){
+												window.location.replace("http://streamdb5web.securenetsystems.net/v5/index.cfm?stationCallSign=WJRV&retry=true");
+											}, 5000);
+										}else{
+											$("#blockImage").attr("src", "images/blockgivenup.png");
+										}
+									}else{
+										adBlockerPresent = false;
+										console.log("ad blocker NOT detected");
+										$("#adblockWrapper").hide();
+									}
+								}
+
+								if(playerAdvertisingMode=="ADN" || playerAdvertisingMode=="SEQ"){
+									setTimeout(function(){
+										avane5SR91yB1vkYgvpPVhgNfSwiEmgMoF4ARvPNOtOTSeelgnKJwvfo7Pplt1jl9rY7XQqFQDhpyYgl8dvtK5fhCJsWiZJnLzLpJsG6fNxIEo9xGmwu0gSgNhILpTkPoOZankGjpR1uFcHLPxcpTDa8xtg2bkemfeYfZoz0E1wBInyJOlo8q();
+									}, 500);
+								}	
+							</script>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-demographics" class="player-apps-preroll dH">
+				<div>
+					<div class="menuHeader f15em">Welcome to our Internet stream!</div>
+					<div class="player-apps-content">
+						<p>Please consider joining our mailing list. You can still listen if you choose not to - just click the "No, thanks" button below.</p>
+						<div class="mr20 fL">
+							<input type="text" id="demographicsFormName" value="Your name" size="40" maxlength="64" onClick="fieldDesc(this,'in','Your name',2);" onBlur="fieldDesc(this,'out','Your name',2);">
+							<br /><br />
+							<input type="text" id="demographicsFormEmail" value="Your email address" size="40" maxlength="64" onClick="fieldDesc(this,'in','Your email address',10);" onBlur="fieldDesc(this,'out','Your email address',10);">
+							<br /><br />
+							<input type="text" id="demographicsFormAge" value="Age" size="3" maxlength="3" onClick="fieldDesc(this,'in','Age',2);" onBlur="fieldDesc(this,'out','Age',2);" class="mr20">
+							<input type="radio" name="demographicsFormGender" value="Male"> Male
+							<input type="radio" name="demographicsFormGender" value="Female"> Female
+							<input type="radio" name="demographicsFormGender" value="" checked> Prefer not to say
+							<br /><br />
+							<div class="mr20 fL"><input type="button" value="Submit" onClick="demographicsForm(true);"></div>
+							<div class="fL"><input type="button" value="No, thanks" onClick="demographicsForm(false);"></div>
+						</div>
+						<div class="mr20 fL">
+							<input type="text" id="demographicsFormZipCode" value="Zip or postal code" size="40" maxlength="64" onClick="fieldDesc(this,'in','Zip or postal code',3);" onBlur="fieldDesc(this,'out','Zip or postal code',4);">
+							<br /><br />
+							<input type="text" id="demographicsFormHeardAbout" value="How did you hear about our stream?" size="40" maxlength="64" onClick="fieldDesc(this,'in','How did you hear about our stream?',2);" onBlur="fieldDesc(this,'out','How did you hear about our stream?',2);">
+						</div>
+					</div>
+					<div id="demographicsFormErr" class="red"></div>
+				</div>
+			</div>
+		
+		
+		
+	
+
+	
+	<div id="player-apps" class="player-apps">
+
+		
+		<div id="player-apps-close-button" class="player-apps-close-button player-apps-close-button-app" title="Close player app" onClick="closeApp();"></div>
+		
+
+		
+		
+			<div id="player-apps-contact" class="dH">
+				<div>
+					<img src="images/contact.png" width="40" height="40" />
+					<div class="player-apps-title">Contact</div>
+					<div class="player-apps-content">
+						<div id="player-apps-contact-icons">
+							<div class="player-apps-contact-phone">865-246-7978</div> <div class="player-apps-contact-web" onClick="openURL('http://www.river106.com');">http://www.river106.com</div> <div class="player-apps-contact-email" onClick="dspContactForm(true);">Click here to send us a message</div> <div class="player-apps-contact-address" onClick="openURL('https://maps.google.com/maps?q=408%20N%20Cedar%20Bluff%20Rd%20%20Ste%2E%20252%20%20Knoxville%2C%20TN%2037923');">408 N Cedar Bluff Rd<br />Ste. 252<br />Knoxville, TN 37923</div>
+						</div>
+						<div id="player-apps-contact-form">
+							<input type="text" id="contactFormName" value="Your name" size="40" maxlength="64" onClick="fieldDesc(this,'in','Your name',2);" onBlur="fieldDesc(this,'out','Your name',2);">
+							<br /><br />
+							<input type="text" id="contactFormEmail" value="Your email address" size="40" maxlength="64" onClick="fieldDesc(this,'in','Your email address',10);" onBlur="fieldDesc(this,'out','Your email address',10);">
+							<br /><br />
+							<textarea id="contactFormMessage" onClick="fieldDesc(this,'in','Your message',5);" onBlur="fieldDesc(this,'out','Your message',5);">Your message</textarea>
+							<br /><br />
+							<div class="player-apps-contact-back fL" onClick="dspContactForm(false);"></div>
+							<div class="fL"><input type="button" value="Send message" onClick="contactForm();"></div>
+							<div id="contactFormErr" class="fL ml10 red formErrMsg"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-facebook" class="dH">
+				<div>
+					<img src="images/facebook.png" width="40" height="40" />
+					<div class="player-apps-title">Facebook</div>
+					<div class="player-apps-content" id="player-apps-content-facebook">
+						<div id="fb-root"></div>
+						<script>(function(d, s, id) {
+						  var js, fjs = d.getElementsByTagName(s)[0];
+						  if (d.getElementById(id)) return;
+						  js = d.createElement(s); js.id = id;
+						  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=108260835883518";
+						  fjs.parentNode.insertBefore(js, fjs);
+							}(document, 'script', 'facebook-jssdk'));</script>
+						<div class="fb-like-box" data-href="https://www.facebook.com/pages/River-106/" data-width="573" data-height="252" data-colorscheme="dark" data-show-faces="false" data-stream="true" data-header="false"></div>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-twitter" class="dH">
+				<div>
+					<img src="images/twitter.png" width="40" height="40" />
+					<div class="player-apps-title">Twitter feed</div>
+					<div class="player-apps-content" id="player-apps-content-twitter">
+						<a class="twitter-timeline" width="520" height="250" href="https://twitter.com/twitterapi" data-widget-id="365511658203910144" data-screen-name="river106" data-theme="dark"></a>
+						<script>
+							!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
+								if(!d.getElementById(id)){
+									js=d.createElement(s);
+									js.id=id;
+									js.src="//platform.twitter.com/widgets.js";
+									fjs.parentNode.insertBefore(js,fjs);
+								}
+							}
+							(document,"script","twitter-wjs");
+						</script>						
+					</div>			
+				</div>
+			</div>
+		
+			<div id="player-apps-help" class="dH">
+				<div>
+					<img src="images/help.png" width="40" height="40" />
+					<div class="player-apps-title">Help</div>
+					<div class="player-apps-content">
+						<p><b>If you accessed the player from a desktop computer (PC or Mac)</b></p>
+						<ul>
+							<li>For the best experience, we recommend upgrading to the latest version of your Internet browser</li>
+							<li>If the stream is not audible, or doesn't start, please verify that you have the latest version of Adobe Flash plug-in installed.</li>
+							<li>The player is known to work on Windows, Mac OS and Linux, using Chrome, Firefox, Safari or Internet Explorer</li>
+						</ul>
+						<br />
+						<p><b>If you accessed the player from a mobile device</b></p>
+						<ul>
+							<li>If this station has a mobile app, we recommend installing and using it for the best experience</li>
+							<li>Since Adobe Flash is not supported on most mobile devices, you may not be able to listen to the audio stream; however, you can use most of the interactive features of the player</li>
+						</ul>
+						<br />
+						<p><b>Privacy Policy</b></p>
+						<p>
+							We may allow third-party companies to serve ads and/or collect certain anonymous information when you visit this website. These companies may use non-personally identifiable information (e.g., click stream information, browser type, time and date, subject of advertisements clicked or scrolled over) during your visits to this and other websites in order to provide advertisements about goods and services likely to be of greater interest to you. These companies typically use a cookie or third party web beacon to collect this information. To learn more about this behavioral advertising practice or to opt-out of this type of advertising, you can visit <a href="http://networkadvertising.org/choices" target="_blank">http://networkadvertising.org/choices</a>.
+							<br><br>
+							Our properties may feature Nielsen proprietary measurement software, which will allow you to contribute to market research, such as Nielsen Audio. To learn more about the information that Nielsen software may collect and your choices with regard to it, please see the Nielsen Digital Measurement Privacy Policy at <a href="http://www.nielsen.com/digitalprivacy" target="_blank">http://www.nielsen.com/digitalprivacy</a>.
+						</p>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-news" class="dH">
+				<div>
+					<img src="images/news.png" width="40" height="40" />
+					<div class="player-apps-title">News</div>
+					<div id="player-apps-content-news" class="player-apps-content"></div>
+				</div>
+			</div>
+		
+			<div id="player-apps-stocks" class="dH">
+				<div>
+					<img src="images/stocks.png" width="40" height="40" />
+					<div class="player-apps-title">Stocks</div>
+					<div class="player-apps-content">
+						<div id="player-apps-content-stocks" class="fL"></div>
+						<div class="fL">
+							<iframe name="wsjIndexWidget" id="wsjIndexWidget" src="http://online.wsj.com/marketsdata/widgets/mdcwidget_default_wide.html?title=Markets from WSJ.com&symbols=NCM,SPX,DJI,HKS,STOXX50&hl1=true&hl2=false&hl3=false&qsb=true&style=blue" width="175px" height="250px" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe>
+						</div>
+					</div>				
+				</div>
+			</div>
+		
+			<div id="player-apps-sports" class="dH">
+				<div>
+					<img src="images/sports.png" width="40" height="40" />
+					<div class="player-apps-title">Sports</div>
+					<div id="player-apps-content-sports" class="player-apps-content"></div>
+				</div>
+			</div>
+		
+			<div id="player-apps-entertainment" class="dH">
+				<div>
+					<img src="images/entertainment.png" width="40" height="40" />
+					<div class="player-apps-title">Entertainment</div>
+					<div id="player-apps-content-entertainment" class="player-apps-content"></div>
+				</div>
+			</div>
+		
+			<div id="player-apps-weather" class="dH">
+				<div>
+					<img src="images/weather.png" width="40" height="40" />
+					<div class="player-apps-title">Weather</div>
+					<div class="player-apps-content" style="background-color:#C8D6FB">
+						<iframe id="forecast_embed" type="text/html" frameborder="0" height="245" width="100%" src="http://forecast.io/embed/#lat=36.9311981201&lon=-76.2397003174&name=Norfolk,%20VA"></iframe>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-traffic" class="dH">
+				<div>
+					<img src="images/traffic.png" width="40" height="40" />
+					<div class="player-apps-title">Traffic map</div>
+					<div class="player-apps-content" id="player-apps-content-traffic"></div>
+				</div>
+			</div>
+		
+			<div id="player-apps-flight" class="dH">
+				<div>
+					<img src="images/flight.png" width="40" height="40" />
+					<div class="player-apps-title">Flight tracker</div>
+					<div class="player-apps-content">
+						<iframe src="http://www.flightstats.com/go/FlightStatus/getFlightStatusWidget.do?guid=34b64945a69b9cac:-3d959db5:13912449d99:-6659" frameborder="0" scrolling="no" width="280" height="240"></iframe>					
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-request" class="dH">
+				<div>
+					<img src="images/request.png" width="40" height="40" />
+					<div class="player-apps-title">Song request</div>
+					<div class="player-apps-content">
+						<p>Is there a particular song you'd like to have us play? Fill out & stay tuned!<br />
+						Your email address will not be used for any other purpose.</p>
+						<input type="text" id="songRequestName" value="Your name" size="40" maxlength="64" onClick="fieldDesc(this,'in','Your name',2);" onBlur="fieldDesc(this,'out','Your name',2);">
+						<br /><br />
+						<input type="text" id="songRequestEmail" value="Your email address" size="40" maxlength="64" onClick="fieldDesc(this,'in','Your email address',10);" onBlur="fieldDesc(this,'out','Your email address',10);">
+						<br /><br />
+						<input type="text" id="songRequestTitle" value="Song request" size="40" maxlength="64" onClick="fieldDesc(this,'in','Song request',5);" onBlur="fieldDesc(this,'out','Song request',5);">
+						<br /><br />
+						<div class="fL"><input type="button" value="Send request" onClick="songRequest();"></div>
+						<div id="songRequestErr" class="fL ml10 red formErrMsg"></div>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-chat" class="dH">
+				<div>
+					<img src="images/chat.png" width="40" height="40" />
+					<div class="player-apps-title">Chat with other listeners</div>
+					<div id="player-apps-chat-wrapper">Loading chat, please wait....</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-playlist" class="dH">
+				<div>
+					<img src="images/media-playlist.png" width="40" height="40" />
+					<div class="player-apps-title">Playlist history (last 20 songs)</div>
+					<div>
+						<iframe id="player-apps-frame-playlist" class="player-apps-frame" frameborder="no" scrolling="no" src="sd/index.cfm?stationCallSign=WJRV" allowtransparency="true"></iframe>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-media-buy-song" class="dH">
+				<div>
+					<img src="images/media-buy-song.png" width="40" height="40" />
+					<div class="player-apps-title">Buy media</div>
+					<div class="player-apps-content">
+						<p>You can buy & download this track & more from either Apple iTunes or Amazon.com mp3 store. Simply click the icon for the store you wish to access.</p>
+						<div id="mediaBuyTitle" class="menuHeader"></div>
+						<div id="mediaBuyArtist"></div>
+						<div id="mediaBuyAlbum"></div>
+						<br />
+						<div class="fL cP mr20" onClick="goToMediaStore('iTunes');"><img src="images/media-buy-song-itunes.png" width="75" height="75" title="Click here to buy from Apple iTunes" /></div>
+						<div class="fL cP" onClick="goToMediaStore('amazon');"><img src="images/media-buy-song-amazon.png" width="75" height="75" title="Click here to buy from Amazon.com" /></div>
+						<form id="mediaBuyForm" action="http://radio.securenetsystems.net/get_tune_buy_link.cfm" method="post" style="margin:0px;" target="_blank">
+							<input type="hidden" name="stationCallSign" value="WJRV">
+							<input type="hidden" name="title" id="mFtitle" value="">
+							<input type="hidden" name="artist" id="mFartist" value="">
+							<input type="hidden" name="album" id="mFalbum" value="">
+						</form>				
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-lyrics" class="dH">
+				<div>
+					<img src="images/media-lyrics.png" width="40" height="40" />
+					<div class="player-apps-title">Song lyrics</div>
+					<div class="player-apps-content" id="player-apps-content-lyrics"></div>
+				</div>
+			</div>
+		
+			<div id="player-apps-send-to-mobile" class="dH">
+				<div>
+					<img src="images/media-send-to-mobile.png" width="40" height="40" />
+					<div class="player-apps-title">Send to mobile</div>
+					<div class="player-apps-content">
+						<br /><br />
+						<div class="playerAppSendToMobileQR-wrapper fL mr20">
+							<div id="playerAppSendToMobileQR"></div>
+						</div>
+						<div>
+							<div class="f15em">Scan the QR code to send the player to your compatible mobile device.</div>
+							<div><br />If your mobile device doesn't have a QR scanning app, download a free one from your device's app store.</div>							
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		
+
+	</div>
+	
+	
+<div id="playerDiv" class="player-div">
+
+	
+
+		<div id="transport-icons">
+			<img id="transport-play" src="images/transport-play.png" class="player-div-img dH cP" width="80" height="80" onClick="transportAction('play',true);" title="Start playing media" />
+			<img id="transport-pause" src="images/transport-pause.png" class="player-div-img dH cP" width="80" height="80" onClick="transportAction('pause',true);" title="Pause media" />
+			<img id="transport-buffering" src="images/transport-buffering.gif" class="player-div-img dH cP" width="54" height="55" title="Preparing media, please wait...." />
+		</div>
+
+		<img id="now-playing-album-art" src="images/dot_blank.gif" class="player-div-img cP " width="250" height="250" title="Click for song-related options" />
+
+		<div id="transport-counter-wrapper">
+			<div id="transport-counter" class="now-playing f15em tS">00:00</div>
+			<div id="transport-progress"><div id="transport-progress-bar"></div></div>
+		</div>
+
+		<div id="transport-volume-label" class="now-playing f15em tS">VOL</div>
+		<div id="transport-volume" title="Click to change volume"><div id="transport-volume-bar"></div></div>
+
+		<div id="now-playing" class="now-playing tS">
+			<div id="now-playing-title" class="menuHeader f15em"></div>
+			<div id="now-playing-artist"></div>
+			<div id="now-playing-album"></div>
+		</div>
+		
+		
+			<div id="media-rate-wrapper" class="media-rate-wrapper tS dH">
+				<div id="media-rate-up" class="media-rate-up cP fL mr20" onClick="mediaRate('up');" title="Like this track"></div>
+				<div id="media-rate-down" class="media-rate-down cP fL mr20" onClick="mediaRate('down');" title="Dislike this track"></div>
+				<div id="media-rate-message" class="fL"></div>
+			</div>
+		
+
+		<div id="media-icons" class="media-icons dH">
+			<img src="images/media-playlist.png" height="30" width="30" border="0" title="View last songs played" onClick="startApp('playlist');" />
+			<img src="images/media-lyrics.png" height="30" width="30" border="0" title="View song lyrics" onClick="startApp('lyrics');getSongLyrics();" /> <img src="images/media-buy-song.png" height="30" width="30" border="0" title="Buy this song" onClick="buyMedia();" /> 
+				<img src="images/media-facebook.png" height="30" width="30" border="0" title="Share this song on Facebook" onClick="socialShare('facebook');" />
+				<img id="media-icons-twitter" src="images/media-twitter.png" height="30" width="30" border="0" title="Tweet this song" onClick="socialShare('twitter');" /></a>
+			
+		</div>
+	
+	
+</div>
+
+					<div id="powered-about" onClick="dspPoweredSSI();">CIRRUS&#174; &nbsp;BY SSI. WE BUILD IMMERSIVE MEDIA PLAYERS FOR TERRESTRIAL AND INTERNET RADIO STATIONS WORLDWIDE.</div>
+					<div id="powered-link" onClick="openURL('http://www.securenetsystems.net');">CLICK HERE TO GET STARTED WITH</div>
+					<div id="powered-ssi" onClick="dspPoweredSSI();"></div>
+				
+					<div id="menu-button-expand" class="menu-button" onClick="dspMenu();" title="Show menu"></div>
+					<div id="menu-button-contract" class="menu-button" onClick="dspMenu();" title="Hide menu"></div>
+				
+				
+
+				
+				<div id="bannerM"></div>
+				<div id="bannerD"></div>
+					
+					<div id="bannerN" class="bannerNotActive"></div>
+					<div id="bannerE" class="bannerNotActive"></div>
+					
+				
+
+				
+				<div id="mediaplayer" class="mediaplayer mediaplayer-audio"></div>
+				<div id="vpaidplayerdiv" class="mediaplayer vpaidplayer vpaidplayer-hide"></div>
+				<div id="mediaplayer-video-shader" class="mediaplayer-video mediaplayer-video-shader"></div>
+				
+				
+				
+				<div class="flash-proxy">
+					<object
+						id="swfhttprequest" class="xDomainFlash"
+						classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+						codebase="http://fpdownload.adobe.com/pub/shockwave/cabs/flash/swflash.cab##version=9,0,0,0">
+						<param name="movie" value="assets/swfhttprequest.swf?onload=swfhttprequestready" />
+						<param name="allowScriptAccess" value="always" />
+						<embed
+							class="xDomainFlash"
+							src="assets/swfhttprequest.swf?onload=swfhttprequestready"
+							allowScriptAccess="always"
+							type="application/x-shockwave-flash"
+							pluginspage="http://www.adobe.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"> 
+						</embed>
+					</object>
+				</div>					
+				
+				
+				
+				<div id="impressionDiv" class="impression-div"></div>
+				
+				
+				
+
+			</div>
+		
+		
+		
+		<div id="debugDiv">
+			
+		</div>
+		
+		
+	</body>
+
+</html>

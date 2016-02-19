@@ -1,0 +1,374 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Мясо больших виноградных улиток Francaise de Gastronomie</title>
+    <meta name="keywords" content="Удивите своих домашних и гостей изюминкой французской кухни - виноградными улитками. Французы рекомендуют употреблять их в пищу со специями, имеющими яркий вкус, такими как чеснок и травы. Смешайте сливочное масло с чесноком и травами, добавьте эту смесь к мусу улиток и приготовьте их в духовке. Также улитки идеально подойдут для жульенов. Вы можете купить мясо больших виноградных улиток по лучшей цене в Oliva&Co. " />
+    <meta name="description" content="Удивите своих домашних и гостей изюминкой французской кухни - виноградными улитками. Французы рекомендуют употреблять их в пищу со специями, имеющими яркий вкус, такими как чеснок и травы. Смешайте сливочное масло с чесноком и травами, добавьте эту смесь к мусу улиток и приготовьте их в духовке. Также улитки идеально подойдут для жульенов. Вы можете купить мясо больших виноградных улиток по лучшей цене в Oliva&Co. " />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+    <link rel="shortcut icon" href="/fav.png" />
+
+    <link href="/css/layout.css" rel="stylesheet" type="text/css" media="screen,projection,print" />
+
+    <link href="/css/text.css" rel="stylesheet" type="text/css" media="screen,projection,print" />
+
+    <link href="/css/modules/hits.css" rel="stylesheet" type="text/css" media="screen,projection,print" />
+    <link href="/css/modules/listing.css" rel="stylesheet" type="text/css" media="screen,projection,print" />
+    <link href="/css/modules/photogallery.css" rel="stylesheet" type="text/css" media="screen,projection,print" />
+    <link href="/css/modules/files.css" rel="stylesheet" type="text/css" media="screen,projection,print" />
+    <link href="/css/modules/news.css" rel="stylesheet" type="text/css" media="screen,projection,print" />
+    <link href="/css/modules/faq.css" rel="stylesheet" type="text/css" media="screen,projection,print" />
+    <link href="/css/modules/gallery.css" rel="stylesheet" type="text/css" media="screen,projection,print" />
+    <link href="/css/datepicker/datepicker_vista.css" rel="stylesheet" type="text/css" media="screen,projection,print" />
+
+    <link href="/css/styles.css?317297" rel="stylesheet" type="text/css" class="mtExternalStyle" media="screen,projection,print" />
+    <link href="/css/user.css?930912" rel="stylesheet" type="text/css" class="mtUserStyle" media="screen,projection,print" />
+
+    <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/css/ie/ie.css" media="screen,projection,print" /><![endif]-->
+    <!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="/css/ie/ie6.css" media="screen,projection,print" /><script type="text/javascript" src="/css/ie/dd-belatedpng-0.0.8a-min.js"></script><![endif]-->
+    <!--[if IE 7]><link rel="stylesheet" type="text/css" href="/css/ie/ie7.css" media="screen,projection,print" /><![endif]-->
+    <!--[if IE 8]><link rel="stylesheet" type="text/css" href="/css/ie/ie8.css" media="screen,projection,print" /><![endif]-->
+
+    <script type="text/javascript" src="/script/swfobject.js"></script>
+    <script type="text/javascript" src="/js/mootools-core-1.3.2-full-compat-yc.js"></script>
+    <script type="text/javascript" src="/js/mootools-more.js"></script>
+
+    <!-- LightBox Base -->
+    <script type="text/javascript" src="/js/XtLightbox/XtLightbox.js"></script>
+    <!-- LightBox Adaptors -->
+    <script type="text/javascript" src="/js/XtLightbox/Adaptor.js"></script>
+    <script type="text/javascript" src="/js/XtLightbox/Adaptor/Image.js"></script>
+    <!-- LightBox Renderers -->
+    <script type="text/javascript" src="/js/XtLightbox/Renderer.js"></script>
+    <script type="text/javascript" src="/js/XtLightbox/Renderer/Lightbox.js"></script>
+    <!-- LightBox Renderer styles -->
+    <link rel="stylesheet" type="text/css" href="/js/XtLightbox/Renderer/Lightbox/style.css" />
+
+
+    <script type="text/javascript" src="/js/slideshow/Loop.js"></script>
+    <script type="text/javascript" src="/js/slideshow/SlideShow.js"></script>
+
+    <script type="text/javascript" src="/js/FloatingTips.js"></script>
+
+    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript">
+    var MotionToday = {
+        rel: '',
+        sitefolder: '/',
+        discount  : [],
+        goodsCount: 0,
+        ecoTag    : 'Посмотреть все БИО продукты',
+        centerTag : 'Посмотреть все продукты входящие в состав Средиземноморской диеты',
+        hubertTag : 'Описание для тэга От Хьюберта',
+        kidsTag   : 'Посмотреть все продукты для детей',
+        level1Tag : 'Описание для тэга Сложность 1',
+        level2Tag : 'Описание для тэга Сложность 2',
+        level3Tag : 'Описание для тэга Сложность 3',
+        level4Tag : 'Описание для тэга Сложность 4'
+    };
+    MotionToday.countDiscount = function(price, quantity){
+        var value = 0;
+        quantity = parseInt(quantity) + this.goodsCount;
+        $each(this.discount, function(dValue, dKey){
+            if (parseInt(dKey) <= quantity) value = dValue;
+        }, this);
+        return parseInt(price*(100-parseInt(value))/100);
+    };
+    </script>
+        <!-- Yandex.Metrika -->
+        <div style="display:none;"><script type="text/javascript">
+        (function(w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter19364191 = new Ya.Metrika(19364191);
+                    yaCounter19364191.clickmap(true);
+                } catch(e) {}
+            });
+        })(window, 'yandex_metrika_callbacks');
+        </script></div>
+        <script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript" defer="defer"></script>
+        <noscript><div style="position:absolute"><img src="//mc.yandex.ru/watch/19364191" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika -->
+            
+    
+</head>
+
+<body class="type-4 url-shop-fishandsnails-snails400- lang-ru">
+<!--[if lte IE 6]><table class="clearTable"><tr><td><span style="display:block; height:1px; overflow:hidden; width:1000px; margin-top:-1px;"></span><![endif]-->
+
+<div id="mainWrapper">
+	<div id="header">
+	<div class="contentWrapp">
+
+	<!--<div class="b-quicklinks">
+            <a class="b-quicklinks-link b-quicklinks-link-mail" title="Электронная почта" href="mailto:info@oliva-and-co.com"></a>
+            <a class="b-quicklinks-link b-quicklinks-link-sitemap" title="Карта сайта" href="/sitemap/"></a>
+        </div>-->
+
+
+        <div class="shareButtons">
+            <a href="/olivaandco/payment/"><img src="/upload/photo/payment2.png" alt="Мы принимаем" /></a><a href="/contacts/"><img src="/img/olive_tel.png" alt="Контакты" /></a><a href="https://twitter.com/OlivaAndCo"><img src="/upload/photo/twitter1.png" alt="Твиттер" /></a><a href="https://www.facebook.com/groups/243038882551158/"><img src="/upload/photo/facebook2.png" alt="Facebook" /></a><a href="http://vk.com/club69364807"><img src="/upload/photo/vk.png" alt="Vkontakte" /></a><a href="https://plus.google.com/u/0/"><img src="/upload/photo/google.png" alt="Google+" /></a>            <div class="headerInfo">
+				<a href="">Доставка</a> и самовывоз по всей России от 300 рублей!             </div>
+        </div>
+        <a href="/basket/" id="basketInfo">Корзина пуста</a>
+
+        <div class="b-langs">
+                </div>
+
+	</div>
+	</div>
+
+	<div id="subheader"><div id="headteaser">
+        <div class="logo"><a href="/">Oliva&Co</a></div>
+        <div id="topSlides" class="topSlides"><div class="slide" style="z-index:1;background-image:url(/upload/slides/01.jpg)"></div><div class="slide" style="background-image:url(/upload/slides/02.jpg)"></div><div class="slide" style="background-image:url(/upload/slides/03.jpg)"></div></div><div id="topTexts" class="topTexts"><div class="oneText" style="z-index:1;"><span>О</span>ливковое масло снижает риск развития сердечно-сосудистых заболеваний</div><div class="oneText" style=""><span>О</span>ливковое масло богато жирными кислотами, необходимыми для развития новорожденных</div><div class="oneText" style=""><span>О</span>ливковое масло богато антиоксидантами, что способствует долголетию</div><div class="oneText" style=""><span>О</span>ливковое масло предотвращает возникновение желчных камней</div><div class="oneText" style=""><span>П</span>ослеродовое развитие детей, чьи матери употребляли оливковое масло во время беременности, намного лучше</div><div class="oneText" style=""><span>О</span>ливковое масло снижает содержание “плохого” холестерина в крови</div><div class="oneText" style=""><span>У</span>потребление оливкового масла повышает иммунитет</div><div class="oneText" style=""><span>Ч</span>ем сильнее горчинка оливкового масла, тем больше антиоксидантов оно содержит</div><div class="oneText" style=""><span>О</span>ливковое масло стимулирует поджелудочную железу на выполнение всех пищеварительных функций</div><div class="oneText" style=""><span>Ч</span>ем больше оливкового масла употребляется в пищу, тем лучше минерализация костей</div><div class="oneText" style=""><span>О</span>бильное употребление оливкового масла помогает предотвратить потерю памяти у пожилых людей</div><div class="oneText" style=""><span>О</span>ливковое масло содержит витамины (А, D, K, Е, полифенолы), которые защищают кожу от старения и болезней</div><div class="oneText" style=""><span>Г</span>реция, Италия и Франция – регионы Европы, издавна славящиеся качественным оливковым маслом</div><div class="oneText" style=""><span>О</span>ливковое масло стимулирует усвоение питательных веществ (кальция, железа, магния и т.д.)</div><div class="oneText" style=""><span>О</span>ливковое масло предотвращает рецидив коронарного приступа</div><div class="oneText" style=""><span>Н</span>аибольшее количество антиоксидантов содержится в оливковом масле класса Extra Virgin</div><div class="oneText" style=""><span>У</span>потребление оливкового масла рекомендуют при нарушениях работы поджелудочной железы</div><div class="oneText" style=""><span>Б</span>еременным женщинам для роста плода необходим витамин Е, который содержится в оливковом масле</div><div class="oneText" style=""><span>О</span>ливковое масло можно замораживать - оно не потеряет своих полезных свойств</div><div class="oneText" style=""><span>О</span>ливковое масло способствует росту, минерализации костей и общему развитию ребенка в период младенчества</div><div class="oneText" style=""><span>О</span>ливковое масло увеличивает количество выводимого печенью холестерина</div><div class="oneText" style=""><span>О</span>ливковое масло помогает усвоению жиров</div><div class="oneText" style=""><span>Р</span>егулярное употребление оливкового масла помогает стабилизировать кровяное давление</div><div class="oneText" style=""><span>Б</span>утылка оливкового масла должна быть затемненной, чтобы сохранить все полезные свойства масла</div><div class="oneText" style=""><span>П</span>ища, приготовленная на оливковом масле, отличается более низким содержанием жира</div><div class="oneText" style=""><span>О</span>ливковое масло - хороший помощник в лечении кожных заболеваний, таких как акне, псориаз и себорейная экзема</div><div class="oneText" style=""><span>О</span>ливковое масло предотвращает возрастное снижение когнитивных способностей (потерю памяти, слабоумие и пр.)</div><div class="oneText" style=""><span>О</span>ливковое масло рекомендуется недоношенным детям и новорожденным с заболеваниями почек или поджелудочной железы</div><div class="oneText" style=""><span>О</span>ливковое масло крайне полезно при лечении и профилактике заболеваний желчных протоков</div><div class="oneText" style=""><span>О</span>ливковое масло способствует пищеварению и усвоению питательных веществ в кишечнике</div><div class="oneText" style=""><span>В</span>ероятность развития артрита в 2,5 раза меньше у тех, кто регулярно употребляет оливковое масло</div><div class="oneText" style=""><span>С</span>реди жителей Средиземноморья, которые больше других употребляют оливковое масло, ожирение менее распространено</div><div class="oneText" style=""><span>Р</span>егулярное употребление оливкового масла способствует лечению и профилактике диабета</div><div class="oneText" style=""><span>О</span>ливковое масло обладает защитным действием против развития злокачественных опухолей</div><div class="oneText" style=""><span>Н</span>а Крите, где употребляют много оливкового масла, средняя продолжительность жизни мужчин - 85-90 лет</div><div class="oneText" style=""><span>О</span>ливковое масло эффективно при профилактике болезни Альцгеймера</div><div class="oneText" style=""><span>О</span>ткрытую бутылку с оливковым маслом можно хранить не более 3-х месяцев</div></div>	</div></div>
+
+	<div id="menu">
+	<div class="contentWrapp">
+		<table class="clearTable" id="mainMenu">
+		    <tr><td class="first" id="tmenu_0" title="561">
+        <div class="wrapp">
+            <a href="/aboutfood/cuisine/mediterranean.cuisine/">
+                <span class="child">О деликатесах</span>
+                <span class="helper">&nbsp;</span></a><span class="sep">&nbsp;</span>
+        </div>
+    </td><td class="active" id="tmenu_1" title="10">
+        <div class="wrapp">
+            <a href="/">
+                <span class="child">Интернет-магазин</span>
+                <span class="helper">&nbsp;</span></a><span class="sep">&nbsp;</span>
+        </div>
+    </td><td class="" id="tmenu_2" title="551">
+        <div class="wrapp">
+            <a href="/olivaandco/aboutshop/">
+                <span class="child">Об Oliva&Co</span>
+                <span class="helper">&nbsp;</span></a><span class="sep">&nbsp;</span>
+        </div>
+    </td><td class="" id="tmenu_3" title="281">
+        <div class="wrapp">
+            <a href="/recipes/">
+                <span class="child">Рецепты</span>
+                <span class="helper">&nbsp;</span></a><span class="sep">&nbsp;</span>
+        </div>
+    </td><td class="" id="tmenu_4" title="858">
+        <div class="wrapp">
+            <a href="/olivaandco/payment/">
+                <span class="child">Оплата </span>
+                <span class="helper">&nbsp;</span></a><span class="sep">&nbsp;</span>
+        </div>
+    </td><td class="" id="tmenu_5" title="857">
+        <div class="wrapp">
+            <a href="/olivaandco/delivery/">
+                <span class="child">Доставка и самовывоз</span>
+                <span class="helper">&nbsp;</span></a><span class="sep">&nbsp;</span>
+        </div>
+    </td><td class="last" id="tmenu_6" title="1468">
+        <div class="wrapp">
+            <a href="/contacts/">
+                <span class="child">Контакты</span>
+                <span class="helper">&nbsp;</span></a><span class="sep">&nbsp;</span>
+        </div>
+    </td></tr>
+		</table>
+	</div>
+	</div>
+
+	<div class="contentOuter">
+	<div class="contentWrapp" id="content">
+<div id="sidebar">
+<ul id="siteNav"><li><a href="/shop/gifts/"><span class="bullet"></span><span class="text">Идеи подарков</span></a></li><li><a href="/shop/new/"><span class="bullet"></span><span class="text">Новинки</span></a></li><li><a href="/shop/sale/"><span class="bullet"></span><span class="text">SALE</span></a></li><li><a href="/shop/argentina/"><span class="bullet"></span><span class="text">Аргентинская линейка</span></a></li><li><a href="/shop/pate/"><span class="bullet"></span><span class="text">Фуа-гра и паштеты</span></a></li><li><a href="/shop/meat/"><span class="bullet"></span><span class="text">Прошутто, брезаола, хамон... </span></a></li><li><a href="/shop/trufflesandmushrooms/"><span class="bullet"></span><span class="text">Трюфели и грибы</span></a></li><li><a href="/shop/cheese/"><span class="bullet"></span><span class="text">Сыры из Средиземноморья</span></a></li><li><a href="/shop/oliveoil/"><span class="bullet"></span><span class="text">Оливковое масло Extra Virgin</span></a></li><li><a href="/shop/specialoil/"><span class="bullet"></span><span class="text">Особые масла</span></a></li><li><a href="/shop/olives/"><span class="bullet"></span><span class="text">Оливки и оливковая паста</span></a></li><li><a href="/shop/vegetablesandmushrooms/"><span class="bullet"></span><span class="text">Овощи</span></a></li><li><a href="/shop/fishandsnails/" class="active"><span class="bullet"></span><span class="text">Рыба и улитки</span></a><ul><li><a href="/shop/fishandsnails/anchovies/"><span class="bullet"></span><span class="text">Анчоусы</span></a><ul></ul></li><li><a href="/shop/fishandsnails/sardines/"><span class="bullet"></span><span class="text">Сардины</span></a><ul></ul></li><li><a href="/shop/fishandsnails/tuna/"><span class="bullet"></span><span class="text">Тунец</span></a><ul></ul></li></ul></li><li><a href="/shop/flour/"><span class="bullet"></span><span class="text">Мука из Cредиземноморья</span></a></li><li><a href="/shop/cereals/"><span class="bullet"></span><span class="text">Рис, крупы, очищенные семена</span></a></li><li><a href="/shop/seasalt/"><span class="bullet"></span><span class="text">Соль Cредиземного моря</span></a></li><li><a href="/shop/pasta/"><span class="bullet"></span><span class="text">Паста и лазанья</span></a></li><li><a href="/shop/breads/"><span class="bullet"></span><span class="text">Хлебные палочки Хлебцы Смеси для выпечки</span></a></li><li><a href="/shop/vinegars/"><span class="bullet"></span><span class="text">Уксусы</span></a></li><li><a href="/shop/sauce/"><span class="bullet"></span><span class="text">Соусы (песто, горчица,...)</span></a></li><li><a href="/shop/breakfast/"><span class="bullet"></span><span class="text">БИО хлопья и мюсли. Вкусное начало дня</span></a></li><li><a href="/shop/jams/"><span class="bullet"></span><span class="text">Конфитюры и джемы</span></a></li><li><a href="/shop/desserts/"><span class="bullet"></span><span class="text">Десерты</span></a></li><li><a href="/shop/cookies/"><span class="bullet"></span><span class="text">Печенье</span></a></li><li><a href="/shop/dried.fruits/"><span class="bullet"></span><span class="text">Сухофрукты и орехи</span></a></li><li><a href="/shop/juice/"><span class="bullet"></span><span class="text">Соки, напитки, сиропы</span></a></li><li><a href="/shop/easter.cake/"><span class="bullet"></span><span class="text">Традиционные итальянские куличи</span></a></li><li><a href="/shop/tea/"><span class="bullet"></span><span class="text">Чай (черный, зеленый, травяной)</span></a></li><li><a href="/shop/coffee/"><span class="bullet"></span><span class="text">Итальянский кофе, какао, напитки из злаков</span></a></li><li><a href="/shop/vegetarian/"><span class="bullet"></span><span class="text">Рекомендуем в пост</span></a></li><li><a href="/shop/fast/"><span class="bullet"></span><span class="text">Раз - и готово!</span></a></li></ul></div>
+
+<div id="main">
+	<!-- breadcrumbs -->
+<div class="b-breadcrumbs"><a href="/shop/">Интернет-магазин</a><span class="b-breadcrumbs-separator">»</span>
+                <a href="/shop/fishandsnails/">Рыба и улитки</a><span class="b-breadcrumbs-separator">»</span>
+                Мясо больших виноградных улиток Francaise de Gastronomie</div>	<h1 class="b-title">Мясо больших виноградных улиток Francaise de Gastronomie</h1>
+    <div class="b-goodinfo">
+                <div class="b-boodtext textBox" style="width: 700px">
+		<div class="b-goodphoto" style="width: 280px;">
+						<div class="b-goods-misc">
+						<i class="b-goods-flag" style=' background: url("/img/flag_icons/fr.png") no-repeat 0 2px; '></i>
+			<span class="b-goods-country">Франция</span>
+						</div>
+									<a href="/upload/photo/mgbfrancaisedegastronomieismhsgimmsl400z3.jpg" class="b-goodphoto-link lightbox">
+			   <img src="/upload/photo/tnail/mgbfrancaisedegastronomieismhsgimmsl400z3_good.jpg"  />
+
+			</a>
+			            			<div class="box locGood">
+				<form class="goodPrice listBuyNow" onsubmit="return false" method="post">
+					<div class="b-prices">
+												<div class="new-price">
+							<span>Цена: </span><span class="new-price-data"> 723 руб.</span>
+						</div>
+											</div>
+					<p class="quantity">400 гр</p>										<br clear="all">
+										<p class="count">Кол-во:</p>
+					<input type="text" value="1" name="good591" class="goodCounter cnt591" />
+					<a href="javascript:void(0)" class="greenButton"><span>Добавить в корзину</span></a>
+					<input type="submit" class="hideme" />
+									</form>
+            </div>
+			<div class="b-goods-tags">
+															</div>
+        </div>
+
+
+			<div id="good_short"><p>Артикул 3002</p>
+<p>Удивите своих домашних и гостей изюминкой французской кухни - виноградными улитками. Французы рекомендуют употреблять их в пищу со специями, имеющими яркий вкус, такими как чеснок и травы. Смешайте сливочное масло с чесноком и травами, добавьте эту смесь к мусу улиток и приготовьте их в духовке. Также улитки идеально подойдут для жульенов. Вы можете купить мясо больших виноградных улиток по лучшей цене в Oliva&amp;Co.</p>
+<p>&nbsp;</p></div>
+			<div id="good_text" style="display: none;"><p>Артикул 3002</p>
+<p>Удивите своих домашних и гостей изюминкой французской кухни - виноградными улитками. Французы рекомендуют употреблять их в пищу со специями, имеющими яркий вкус, такими как чеснок и травы. Смешайте сливочное масло с чесноком и травами, добавьте эту смесь к мусу улиток и приготовьте их в духовке. Также улитки идеально подойдут для жульенов. Вы можете купить мясо больших виноградных улиток по лучшей цене в Oliva&amp;Co.</p>
+<p><strong>Состав</strong>: Улитки виноградные, вода, соль, натуральный ароматизатор.</p>
+<p><strong>Производитель</strong>: Francaise de Gastronomie, Франция</p>
+<p><strong>Упаковка</strong>: жестяная банка, 400 гр</p>
+<p><strong>Декларация о соответствии</strong>:</p>
+<p><a class="lightbox" title="deklaraciya - ulitki francaise de gastronomie" href="/upload/image/Certificates/SW/Ulitki/Deklaraciya - ulitki Francaise de Gastronomie.jpg" rel="lightbox"><img src="/upload/image/Certificates/SW/Ulitki/.thumbs/a793ad3faa5189e1c8635adaa31f1cbc_0_500_0.jpg" alt="deklaraciya - ulitki francaise de gastronomie" width="100" height="144" /></a></p></div>
+			<div><a href="javascript:;" id="good_text_switch">подробнее</a></div>
+
+			<br>
+
+<div class="i-socialbar">
+	<table class="w-socialbar-table">
+		<tr>
+						<td style="padding:0!important">
+				<div style="width: 120px">
+					<a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+				</div>
+			</td>
+			<td style="padding:0!important">
+				<div style="width:160px; /*overflow: hidden;*/">
+					<div class="fb-like" data-href="http://oliva-and-co.com/shop/fishandsnails/snails400/" data-send="false" data-layout="button_count" data-width="95" data-show-faces="false"></div>
+				</div>
+			</td>
+		</tr>
+	</table>
+
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) {return;}
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+</div>      
+      
+ <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'olivaco'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <br />
+
+					<div><h2>Продукт используется в рецептах:</h2>
+		<div id="recipes_short">
+						<a href="/recipes/appetisers/french.snails/" target="_blank">Улитки в чесночном соусе по-французски</a>
+						</div>
+		<div><br><a href="javascript:;" id="good_recipes_switch">Смотреть все рецепты</a></div>
+		<div id="recipes_full" style="display:none;">
+			<h3>Закуски</h3>					<a href="/recipes/appetisers/french.snails/" target="_blank">Улитки в чесночном соусе по-французски</a>
+							</div>
+				</div>
+		</div>
+        <div class="b-clear"></div>
+    </div>
+
+    
+</div>            
+
+<div class="clear">&nbsp;</div>	    </div>
+	</div>
+</div>
+
+<div id="footer">
+<div class="contentWrapp">
+	<div class="b-social">
+		<div class="b-socialbar">
+		<table>
+			<tr>
+				<td style="padding:0!important">
+					<div style="width: 79px; overflow: hidden;">
+						<div class="fb-like" data-href="http://oliva-and-co.com/shop/fishandsnails/snails400/" data-send="false" data-layout="button_count" data-width="95" data-show-faces="false"></div>
+					</div>
+				</td>
+				<td style="padding:0!important">
+					<div id="vk_like"></div>
+					<script type="text/javascript">
+					VK.Widgets.Like("vk_like", {type: "mini"});
+					</script>
+				</td>
+				<td style="padding:0!important">
+					<a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+				</td>
+				<td style="padding:0!important">
+					<g:plusone></g:plusone>
+
+					<!-- Place this render call where appropriate -->
+					<script type="text/javascript">
+					  (function() {
+						var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+						po.src = 'https://apis.google.com/js/plusone.js';
+						var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+					  })();
+					</script>
+				</td>
+			</tr>
+		</table>
+
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) {return;}
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		</div>
+	</div>
+    <table class="clearTable">
+    <tr>
+        <td class="copyright">
+            <p>© Oliva&Co<br>2010 — 2013</p>
+        </td>
+        <td class="footer-text">
+			<p>Заказывайте через корзину 365 дней в году в течении 24 часов.<br/>Звоните <b>(495) 212-17-30</b> с понедельника по пятницу с 10:00 до 18:00, в субботу с 11:00 до 15:00 по московскому времени.</p>
+        </td>
+		<td>
+			<div class="b-search">
+				<p class="b-search-title">Поиск по сайту</p>
+				<form method="POST" action="/search/" id="searchForm">
+					<input type="text" class="b-search-query" onclick="if(this.value='Поиск …'){ this.value = ''; }" value="Поиск …" name="squery" />
+					<input type="submit" class="b-search-submit" value="Найти" />
+				</form>
+			</div>
+		</td>
+        <td class="siteCreations">
+            <a href="http://www.mttd.ru/" target="_blank" title="Создание сайтов">Создание сайтов</a>
+        </td>
+    </tr>
+    </table>
+</div>
+</div>
+
+<!--[if lte IE 6]></td></tr></table><![endif]-->
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-41064537-1', 'oliva-and-co.com');
+	ga('send', 'pageview');
+
+</script>
+</body>
+</html>
+<!-- This page is generated by sitemotion in 0,030228 sec. -->

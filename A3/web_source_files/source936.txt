@@ -1,0 +1,863 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="it-IT">
+	<head>
+    <meta charset="utf-8">
+    <title>Calendario | Lions Bergamo ASD</title>
+	<meta name="description" content=".">
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+	
+    <link rel="icon" href="/favicon.ico" />
+    <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="/asset/css/style.css?v=2" media="screen">
+    <!--[if lte IE 7]><link rel="stylesheet" href="/asset/css/style.ie7.css" media="screen" /><![endif]-->
+    <link rel="stylesheet" href="/asset/css/style.responsive.css" media="all">
+    <link rel="stylesheet" href="/asset/css/style.lions.css" media="screen">
+ 	<link rel='stylesheet' id='camera-css'  href='/asset/css/style.camera.css' type='text/css' media='all'> 
+    
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+    <meta property="og:image" content="http://www.lionsbergamo.eu/asset/img/page.png"/>
+ 
+    <script type='text/javascript' src="/asset/js/jquery.js"></script>
+    <script type='text/javascript' src="/asset/js/script.js"></script>
+    <script type='text/javascript' src='/asset/js/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='/asset/js/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='/asset/js/camera.min.js'></script> 
+    <script type='text/javascript' src='/asset/js/jquery.fitvids.js'></script> 
+    <script type='text/javascript' src='/asset/js/jquery.carouFredSel-6.2.1-packed.js'></script> 
+	<script type='text/javascript' src="/asset/js/script.responsive.js"></script>
+    
+	<style type="text/css">
+		.art-content .art-postcontent-0 .layout-item-0 { padding-right: 10px;padding-left: 10px;  }
+		.ie7 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+		.ie6 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+    </style>
+    
+	<script type="text/javascript">
+	
+		function runCarousel() {
+			$(".banners").carouFredSel({
+				width: '100%',        
+				direction: "up",
+				items: 1,
+				scroll: {
+					duration: 1500,
+					pauseOnHover: true,
+					onBefore: function (data) {
+						data.items.visible.children().css('opacity', 0).delay(200).fadeTo(400, 1);
+						data.items.old.children().fadeTo(400, 0);
+					}
+				},
+				auto: {
+					delay: 0,
+					duration: 1500,
+					timeoutDuration: 2500
+				}
+			});
+		};
+	
+		$(window).load(function () {
+			runCarousel();
+			/*
+			$('.banners').animate({
+				opacity: 1,
+				height: 'auto'
+			})
+			*/
+			
+						
+			//equalHeight($(".articoli-footer article"));
+		});
+		
+	
+		jQuery(function(){
+						
+			$(".video-container").fitVids();
+		});
+
+		function equalHeight(group) {
+			var tallest = 0;
+			group.each(function() {
+				var thisHeight = $(this).height();
+				if(thisHeight > tallest) {
+					tallest = thisHeight;
+				}
+			});
+			group.height(tallest);
+		}
+	</script>
+    
+	<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-9873765-29', 'lionsbergamo.eu');
+      ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+	<div id="art-main">
+		<header class="art-header">
+            <ul class="menu-scudetto">
+                <li><img src="/asset/img/scudetto.png" alt="Lions bergamo scudetto" title="Lions bergamo scudetto"/></li>
+            </ul>
+                
+    		<div class="art-shapes">
+            	<ul class="menu-social1">
+                	<li><a href="https://www.facebook.com/pages/LIONS-AMERICAN-FOOTBALL-BERGAMO/277528012258409" target="_blank"><img src="/asset/img/social/square-facebook-48.png" alt="Lions bergamo facebook" title="Lions bergamo facebook"/></a></li>
+                    <li><a href="https://twitter.com/lionsbergamo" target="_blank"><img src="/asset/img/social/square-twitter-48.png" alt="Lions bergamo twitter" title="Lions bergamo twitter"/></a></li>
+                	<li><a href="https://www.youtube.com/channel/UCl5juML8m85r0MFYp5xo1Mg" target="_blank"><img src="/asset/img/social/youtube-48.png" alt="Lions bergamo youtube" title="Lions bergamo youtube"/></a></li>
+                	<li><a href="https://instagram.com/lionsbg/" target="_blank"><img src="/asset/img/social/instagram-48.png" alt="Lions bergamo instagram" title="Lions bergamo instagram"/></a></li>
+                	<li><a href="https://plus.google.com/108570817844174034226/posts" target="_blank"><img src="/asset/img/social/square-google-plus-48.png" alt="Lions bergamo google plus" title="Lions bergamo google plus"/></a></li>
+                </ul>
+            </div>
+		</header>
+		<nav class="art-nav">
+         		<ul class="menu-social2">
+                	<li><a href="https://www.facebook.com/pages/LIONS-AMERICAN-FOOTBALL-BERGAMO/277528012258409" target="_blank"><img src="/asset/img/social/square-facebook-48.png" alt="Lions bergamo facebook" title="Lions bergamo facebook"/></a></li>
+                    <li><a href="https://twitter.com/lionsbergamo" target="_blank"><img src="/asset/img/social/square-twitter-48.png" alt="Lions bergamo twitter" title="Lions bergamo twitter"/></a></li>
+                	<li><a href="https://www.youtube.com/channel/UCl5juML8m85r0MFYp5xo1Mg" target="_blank"><img src="/asset/img/social/youtube-48.png" alt="Lions bergamo youtube" title="Lions bergamo youtube"/></a></li>
+                	<li><a href="https://instagram.com/lionsbg/" target="_blank"><img src="/asset/img/social/instagram-48.png" alt="Lions bergamo instagram" title="Lions bergamo instagram"/></a></li>
+                	<li><a href="https://plus.google.com/108570817844174034226/posts" target="_blank"><img src="/asset/img/social/square-google-plus-48.png" alt="Lions bergamo google plus" title="Lions bergamo google plus"/></a></li>
+                </ul>
+                	<ul class="art-hmenu" style="margin-top:1px;">
+    	<li>
+			<a href="/it/1/home.html" >Home</a>
+		</li>
+					<li>
+				<a href="/it/24/team.html" >TEAM</a>
+              <ul>					<li>
+						<a href="/it/28/palmares.html" >PALMARES</a>
+						
+						
+					</li>
+										<li>
+						<a href="/it/35/senior.html" >SENIOR</a>
+						
+						
+					</li>
+										<li>
+						<a href="/it/36/junior-u19.html" >JUNIOR U19</a>
+						
+						
+					</li>
+										<li>
+						<a href="/it/37/coach.html" >COACH</a>
+						
+						
+					</li>
+										<li>
+						<a href="/it/38/staff.html" >STAFF</a>
+						
+						
+					</li>
+										<li>
+						<a href="/it/39/flag.html" >FLAG</a>
+						
+						
+					</li>
+					</ul>	  
+                
+			</li>
+						<li>
+				<a href="/it/25/news.html" >NEWS</a>
+              	  
+                
+			</li>
+						<li>
+				<a href="/it/42/eventi.html" >EVENTI</a>
+              	  
+                
+			</li>
+						<li>
+				<a href="/it/26/media.html" >MEDIA</a>
+              	  
+                
+			</li>
+						<li>
+				<a href="/it/27/merchandising-lions-bergamo.html" >MERCHANDISING LIONS BERGAMO</a>
+              	  
+                
+			</li>
+						<li>
+				<a href="/it/40/le-cose-cambiano.html" >LE COSE CAMBIANO</a>
+              	  
+                
+			</li>
+						<li>
+				<a href="/it/30/contatti.html" >CONTATTI</a>
+              	  
+                
+			</li>
+				
+	</ul>
+                    
+               
+                
+            <!--    
+    		<ul class="art-hmenu">
+           		<li><a href="/it/1/home.html" class="active">Home</a></li>
+                <li><a href="/it/24/team.html">Team</a></li>
+                <li><a href="/it/25/news.html">News</a></li>
+                <li><a href="/it/26/media.html">Media</a></li>
+                <li><a href="/it/27/merchandising-lions-bergamo.html">Merchandising</a></li>
+                <li><a href="/it/28/palmares.html">Palmares</a></li>
+                <li><a href="/it/29/.html">Soci</a></li>
+            	<li><a href="/it/30/contatti.html">Contatti</a></li>
+            </ul>
+            -->
+		</nav>
+		<div class="art-sheet clearfix">
+        	<div class="art-layout-wrapper">
+            	<div class="art-content-layout">
+                	<div class="art-content-layout-row">
+                    	<div class="art-layout-cell art-content">
+
+	            <aside class="float-left primo">
+            				<article class="art-post art-article">
+				<h2 class="art-postheader"><span class="art-postheadericon">Calendario</h2></span></h2>
+				<div class="art-postcontent art-postcontent-0">
+				<div class="art-content-layout">
+				<div class="art-content-layout-row">
+				<div class="art-layout-cell layout-item-0" style="width: 100%" >
+								</div>
+				</div>
+				</div>
+				</div>
+				</article>
+				<article class="art-post art-article">
+    <div class="art-postcontent art-postcontent-0">
+        <div class="art-content-layout">
+            <div class="art-content-layout-row">
+                <div class="art-layout-cell layout-item-0" style="width: 100%" >
+                	<br />
+                	<!--Categoria: 
+                    <select>
+                    	<option>Senior</option>
+                        <option>Under 19</option>
+                    </select>
+                    &nbsp;&nbsp;
+                    <!--Anno: 
+                    <select>
+                    	<option>2015</option>
+                    </select>
+                    &nbsp;&nbsp;
+                    <button>Visualizza</button>
+                	<br /><br />-->
+                	                            <h2 class="art-postheader"><strong>Week 1</strong></h2>
+                            <br/>
+                            <table style="background-color:#F0F0F0; width:100%;">
+                            	<tr>
+                                    <td width="25%">
+                                    	<h3>Data e ora</h3>
+                                    </td>
+                                    <td width="41%">
+                                    	<h3>Luogo</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Away</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Home</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Score</h3>
+                                    </td>
+                                </tr>
+                                                            <tr>
+                                    <td>
+                                    	2016-03-06 14:00:00                                    </td>
+                                    <td>
+                                    	Centro Sportivo di Azzano San Paolo via Stezzano 33 (Bergamo)                                    </td>
+                                    <td>
+                                    	PANTHERS PARMA                                    </td>
+                                    <td>
+                                    	LIONS BERGAMO                                    </td>
+                                    <td>
+                                    	0 - 0                                    </td>
+                                </tr>
+														</table>
+								<br />
+								                            <h2 class="art-postheader"><strong>Week 2</strong></h2>
+                            <br/>
+                            <table style="background-color:#F0F0F0; width:100%;">
+                            	<tr>
+                                    <td width="25%">
+                                    	<h3>Data e ora</h3>
+                                    </td>
+                                    <td width="41%">
+                                    	<h3>Luogo</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Away</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Home</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Score</h3>
+                                    </td>
+                                </tr>
+                                                            <tr>
+                                    <td>
+                                    	2016-03-12 20:00:00                                    </td>
+                                    <td>
+                                    	Centro Sportivo di Azzano San Paolo via Stezzano 33 (Bergamo)                                    </td>
+                                    <td>
+                                    	GIAGUARI TORINO                                    </td>
+                                    <td>
+                                    	LIONS BERGAMO                                    </td>
+                                    <td>
+                                    	0 - 0                                    </td>
+                                </tr>
+														</table>
+								<br />
+								                            <h2 class="art-postheader"><strong>Week 3</strong></h2>
+                            <br/>
+                            <table style="background-color:#F0F0F0; width:100%;">
+                            	<tr>
+                                    <td width="25%">
+                                    	<h3>Data e ora</h3>
+                                    </td>
+                                    <td width="41%">
+                                    	<h3>Luogo</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Away</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Home</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Score</h3>
+                                    </td>
+                                </tr>
+                                                            <tr>
+                                    <td>
+                                    	2016-03-19 19:00:00                                    </td>
+                                    <td>
+                                    	Centro Sportivo di Azzano San Paolo via Stezzano 33 (Bergamo)                                    </td>
+                                    <td>
+                                    	SEAMEN MILANO                                    </td>
+                                    <td>
+                                    	LIONS BERGAMO                                    </td>
+                                    <td>
+                                    	0 - 0                                    </td>
+                                </tr>
+														</table>
+								<br />
+								                            <h2 class="art-postheader"><strong>Week 4</strong></h2>
+                            <br/>
+                            <table style="background-color:#F0F0F0; width:100%;">
+                            	<tr>
+                                    <td width="25%">
+                                    	<h3>Data e ora</h3>
+                                    </td>
+                                    <td width="41%">
+                                    	<h3>Luogo</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Away</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Home</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Score</h3>
+                                    </td>
+                                </tr>
+                                                            <tr>
+                                    <td>
+                                    	2016-04-09 18:00:00                                    </td>
+                                    <td>
+                                    	Arena Civica - Viale Giorgio Byron 2 - Milano (MI)                                    </td>
+                                    <td>
+                                    	LIONS BERGAMO                                    </td>
+                                    <td>
+                                    	SEAMEN MILANO                                    </td>
+                                    <td>
+                                    	0 - 0                                    </td>
+                                </tr>
+														</table>
+								<br />
+								                            <h2 class="art-postheader"><strong>Week 5</strong></h2>
+                            <br/>
+                            <table style="background-color:#F0F0F0; width:100%;">
+                            	<tr>
+                                    <td width="25%">
+                                    	<h3>Data e ora</h3>
+                                    </td>
+                                    <td width="41%">
+                                    	<h3>Luogo</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Away</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Home</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Score</h3>
+                                    </td>
+                                </tr>
+                                                            <tr>
+                                    <td>
+                                    	2016-04-16 19:00:00                                    </td>
+                                    <td>
+                                    	Centro Sportivo di Azzano San Paolo via Stezzano 33 (Bergamo)                                    </td>
+                                    <td>
+                                    	GIANTS BOLZANO                                    </td>
+                                    <td>
+                                    	LIONS BERGAMO                                    </td>
+                                    <td>
+                                    	0 - 0                                    </td>
+                                </tr>
+														</table>
+								<br />
+								                            <h2 class="art-postheader"><strong>Week 6</strong></h2>
+                            <br/>
+                            <table style="background-color:#F0F0F0; width:100%;">
+                            	<tr>
+                                    <td width="25%">
+                                    	<h3>Data e ora</h3>
+                                    </td>
+                                    <td width="41%">
+                                    	<h3>Luogo</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Away</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Home</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Score</h3>
+                                    </td>
+                                </tr>
+                                                            <tr>
+                                    <td>
+                                    	2016-04-23 00:00:00                                    </td>
+                                    <td>
+                                    	IN ATTESA DI COMUNCIAZIONE                                    </td>
+                                    <td>
+                                    	LIONS BERGAMO                                    </td>
+                                    <td>
+                                    	PANTHERS PARMA                                    </td>
+                                    <td>
+                                    	0 - 0                                    </td>
+                                </tr>
+														</table>
+								<br />
+								                            <h2 class="art-postheader"><strong>Week 7</strong></h2>
+                            <br/>
+                            <table style="background-color:#F0F0F0; width:100%;">
+                            	<tr>
+                                    <td width="25%">
+                                    	<h3>Data e ora</h3>
+                                    </td>
+                                    <td width="41%">
+                                    	<h3>Luogo</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Away</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Home</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Score</h3>
+                                    </td>
+                                </tr>
+                                                            <tr>
+                                    <td>
+                                    	2016-04-30 21:00:00                                    </td>
+                                    <td>
+                                    	Stadio Primo Nebiolo - Via Hugues 71 - Torino (TO)                                    </td>
+                                    <td>
+                                    	LIONS BERGAMO                                    </td>
+                                    <td>
+                                    	GIAGUARI TORINO                                    </td>
+                                    <td>
+                                    	0 - 0                                    </td>
+                                </tr>
+														</table>
+								<br />
+								                            <h2 class="art-postheader"><strong>Week 8</strong></h2>
+                            <br/>
+                            <table style="background-color:#F0F0F0; width:100%;">
+                            	<tr>
+                                    <td width="25%">
+                                    	<h3>Data e ora</h3>
+                                    </td>
+                                    <td width="41%">
+                                    	<h3>Luogo</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Away</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Home</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Score</h3>
+                                    </td>
+                                </tr>
+                                                            <tr>
+                                    <td>
+                                    	2016-05-08 15:00:00                                    </td>
+                                    <td>
+                                    	Stadio Europa - Via Resia 1 - Bolzano (BZ)                                    </td>
+                                    <td>
+                                    	LIONS BERGAMO                                    </td>
+                                    <td>
+                                    	GIANTS BOLZANO                                    </td>
+                                    <td>
+                                    	0 - 0                                    </td>
+                                </tr>
+														</table>
+								<br />
+								                            <h2 class="art-postheader"><strong>Week 10</strong></h2>
+                            <br/>
+                            <table style="background-color:#F0F0F0; width:100%;">
+                            	<tr>
+                                    <td width="25%">
+                                    	<h3>Data e ora</h3>
+                                    </td>
+                                    <td width="41%">
+                                    	<h3>Luogo</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Away</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Home</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Score</h3>
+                                    </td>
+                                </tr>
+                                                            <tr>
+                                    <td>
+                                    	2016-05-21 00:00:00                                    </td>
+                                    <td>
+                                    	IN ATTESA DI COMUNICAZIONE                                    </td>
+                                    <td>
+                                    	LIONS BERGAMO                                    </td>
+                                    <td>
+                                    	RHINOS MILANO                                    </td>
+                                    <td>
+                                    	0 - 0                                    </td>
+                                </tr>
+														</table>
+								<br />
+								                            <h2 class="art-postheader"><strong>Week 12</strong></h2>
+                            <br/>
+                            <table style="background-color:#F0F0F0; width:100%;">
+                            	<tr>
+                                    <td width="25%">
+                                    	<h3>Data e ora</h3>
+                                    </td>
+                                    <td width="41%">
+                                    	<h3>Luogo</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Away</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Home</h3>
+                                    </td>
+                                    <td width="13%">
+                                    	<h3>Score</h3>
+                                    </td>
+                                </tr>
+                                                            <tr>
+                                    <td>
+                                    	2016-06-05 15:00:00                                    </td>
+                                    <td>
+                                    	Centro Sportivo di Azzano San Paolo via Stezzano 33 (Bergamo)                                    </td>
+                                    <td>
+                                    	RHINOS MILANO                                    </td>
+                                    <td>
+                                    	LIONS BERGAMO                                    </td>
+                                    <td>
+                                    	0 - 0                                    </td>
+                                </tr>
+						                    </table>
+					<br />
+                </div>
+             </div>
+         </div>
+    </div>
+</article>
+            </aside>
+                        <aside class="float-left secondo">
+            	<article class="art-post art-article">
+        <h2 class="art-postheader"><span class="art-postheadericon">GAME DAY</span></h2>
+        <div class="art-postcontent art-postcontent-0">
+            <div class="art-content-layout">
+                <div class="art-content-layout-row">
+                    <div class="art-layout-cell layout-item-0" style="width: 100%" >
+                        <ul class="latest-news next-game">
+                            <li>
+                             
+                                <table style="width: 100%">
+                                    <tr>
+                                        <td>
+                                            <div>06.03.2016 - 14:00</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h3 style="text-align:center;">PANTHERS PARMA - LIONS BERGAMO</h3>
+                                            <p style="text-align:center;">Centro Sportivo di Azzano San Paolo via Stezzano 33 (Bergamo)</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <br />
+                                <table style="width: 100%">
+                                	<tr style="font-weight:bold">
+                                        <td>Squadre</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>Score</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PANTHERS PARMA</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>LIONS BERGAMO</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                </table>
+							                            </li>
+                        </ul>
+                        
+                        <!--<a href="http://silvermusicradio.it" target="_blank">
+                        <img style="float:left; padding:5px; height:50px; width:50px;" src="/asset/img/smradio_logo_small.jpg" />
+                        <br /><h3>Ascolta la diretta</h3></a>
+                        <br />-->
+
+                        <a href="/it/41/calendario.html">
+						<img style="float:left; padding:5px; height:50px;" src="/asset/img/calendario.png" />
+                        <br /><h3>Calendario partite</h3></a>
+                        
+                         <br />
+
+                        <a href="http://www.seilatv.tv/lions.html" target="_blank"><img style="padding-left:33px; padding-top:10px;" src="/asset/img/go_lions_go.jpg" /></a>
+                        
+                         <br />
+
+                        <a href="https://www.facebook.com/officialeventslionsbergamo?fref=ts" target="_blank"><img style="padding-top:10px; width:119px;" src="/asset/img/lions_events.png" /></a>
+
+                        <a href="https://www.facebook.com/pages/Lions-Comics/1512784858975890?ref=hl" target="_blank"><img style="padding-left:16px; padding-top:10px; width:119px;" src="/asset/img/lions_comics.jpg" /></a>
+<br />
+                        
+                  <!--  </div>
+                 </div>
+             </div>
+        </div>
+    </article>
+    <article class="art-post art-article fst">
+        <div class="art-postcontent art-postcontent-0">
+            <div class="art-content-layout">
+                <div class="art-content-layout-row">
+                    <div class="art-layout-cell layout-item-0" style="width: 100%;">
+-->
+					
+
+	<article style="margin: 10px 0px;">
+		<a href="/it/25/186/news/i-leoni-del-football-dicono-no-alla-violenza-sulle-donne.html">           
+            <img alt="I LEONI DEL FOOTBALL DICONO NO ALLA VIOLENZA SULLE DONNE" style="width: 100%; max-width: 420px;" src="/img_user/420_0_web.jpg">
+       
+                    <h3>I LEONI DEL FOOTBALL DICONO NO ALLA VIOLENZA SULLE DONNE</a></h3>
+    </article>
+	<article style="margin: 10px 0px;">
+		<a href="/it/25/187/news/anche-quest-039-anno-arrivano-pom-pom-e-costumi-luccicanti.html">           
+            <img alt="ANCHE QUEST&#039;ANNO ARRIVANO POM POM E COSTUMI LUCCICANTI " style="width: 100%; max-width: 420px;" src="/img_user/420_0_web1346403820.jpg">
+       
+                    <h3>ANCHE QUEST&#039;ANNO ARRIVANO POM POM E COSTUMI LUCCICANTI </a></h3>
+    </article>
+	<article style="margin: 10px 0px;">
+		<a href="/it/25/183/news/il-mito-americano-diventa-sempre-piu-rsquo-forte.html">           
+            <img alt="IL MITO AMERICANO DIVENTA SEMPRE PIU&rsquo; FORTE" style="width: 100%; max-width: 420px;" src="/img_user/420_0_logo-america_graffiti.jpg">
+       
+                    <h3>IL MITO AMERICANO DIVENTA SEMPRE PIU&rsquo; FORTE</a></h3>
+    </article>
+	<article style="margin: 10px 0px;">
+		<a href="/it/25/185/news/new-travel-viaggi-partner-stagione-2016-dei-lions-bergamo.html">           
+            <img alt="NEW TRAVEL VIAGGI PARTNER STAGIONE 2016 DEI LIONS BERGAMO" style="width: 100%; max-width: 420px;" src="/img_user/420_0_newtravel.jpg">
+       
+                    <h3>NEW TRAVEL VIAGGI PARTNER STAGIONE 2016 DEI LIONS BERGAMO</a></h3>
+    </article>
+	<article style="margin: 10px 0px;">
+		<a href="/it/25/182/news/da-campioni-d-039-italia-alle-selezioni-per-la-nazionale.html">           
+            <img alt="DA CAMPIONI D&#039;ITALIA ALLE SELEZIONI PER LA NAZIONALE " style="width: 100%; max-width: 420px;" src="/img_user/420_0_ct_2016_1.jpg">
+       
+                    <h3>DA CAMPIONI D&#039;ITALIA ALLE SELEZIONI PER LA NAZIONALE </a></h3>
+    </article>
+	<article style="margin: 10px 0px;">
+		<a href="/it/25/181/news/nuova-categoria-master-quot-old-lions-quot.html">           
+            <img alt="NUOVA CATEGORIA MASTER &quot;OLD LIONS&quot;" style="width: 100%; max-width: 420px;" src="/img_user/420_0_old_lions_logo_.jpg">
+       
+                    <h3>NUOVA CATEGORIA MASTER &quot;OLD LIONS&quot;</a></h3>
+    </article>
+	<article style="margin: 10px 0px;">
+		<a href="/it/25/178/news/presentazione-ufficiale-calendario-quot-lions-for-lilt-2016-quot.html">           
+            <img alt="PRESENTAZIONE UFFICIALE CALENDARIO &quot; LIONS FOR LILT 2016 &quot;" style="width: 100%; max-width: 420px;" src="/img_user/420_0_calendario_ufficiale_(formato_a3)_lionsforlilt2016.jpg">
+       
+                    <h3>PRESENTAZIONE UFFICIALE CALENDARIO &quot; LIONS FOR LILT 2016 &quot;</a></h3>
+    </article>
+	<article style="margin: 10px 0px;">
+		<a href="/it/25/179/news/tre-leoncine-in-nazionale.html">           
+            <img alt="TRE LEONCINE IN NAZIONALE" style="width: 100%; max-width: 420px;" src="/img_user/420_0_fotografia3_-_le_tre_leoncine_con_la_responsabile_ingrith_gamba_.jpg">
+       
+                    <h3>TRE LEONCINE IN NAZIONALE</a></h3>
+    </article>
+	<article style="margin: 10px 0px;">
+		<a href="/it/25/177/news/marines-lions-0-34-u19-youth-bowl-2015.html">           
+            <img alt="MARINES-LIONS: 0-34 (U19): YOUTH BOWL 2015" style="width: 100%; max-width: 420px;" src="/img_user/420_0_1111.jpg">
+       
+                    <h3>MARINES-LIONS: 0-34 (U19): YOUTH BOWL 2015</a></h3>
+    </article>
+	<article style="margin: 10px 0px;">
+		<a href="/it/25/154/news/lions-bergamo-insieme-a-lilt-per-la-lotta-contro-i-tumori.html">           
+            <img alt="LIONS BERGAMO INSIEME A LILT PER LA LOTTA CONTRO I TUMORI" style="width: 100%; max-width: 420px;" src="/img_user/420_0_lilt-logo.jpg">
+       
+                    <h3>LIONS BERGAMO INSIEME A LILT PER LA LOTTA CONTRO I TUMORI</a></h3>
+    </article>
+	<article style="margin: 10px 0px;">
+		<a href="/it/25/28/news/5x1000.html">           
+            <img alt="5X1000" style="width: 100%; max-width: 420px;" src="/img_user/420_0_5x1000_lions2-01.jpg">
+       
+                    <h3>5X1000</a></h3>
+    </article>
+	<article style="margin: 10px 0px;">
+		<a href="/it/25/21/news/lions-crowdfunding.html">           
+            <img alt="LIONS CROWDFUNDING" style="width: 100%; max-width: 420px;" src="/img_user/420_0_LionsCrowdFunding2014243015989.jpg">
+       
+                    <h3>LIONS CROWDFUNDING</a></h3>
+    </article>
+<div>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<INPUT TYPE="hidden" name="business" value="lionsbergamo1983@gmail.com">
+<INPUT TYPE="hidden" name="return" value="http://www.lionsbergamo.eu/it/33/donazione.html">
+<INPUT TYPE="hidden" name="cancel_return" value="http:///www.lionsbergamo.eu">
+<input type="hidden" name="hosted_button_id" value="EGBGFBWWFSMWA">
+<INPUT TYPE="hidden" name="item_name" value="Donazione Lions Bergamo ASD">
+<input type="image" style="width: 100%;" src="/asset/img/x-click-butcc-donate.gif" border="0" name="submit" alt="PayPal - Il metodo rapido, affidabile e innovativo per pagare e farsi pagare.">
+<img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div>
+<section class="banner-dx">
+    <div class="banners">
+    
+    <div>        <div class="banner primo"><a href="http://www.libemax.com" target="_blank"><img src="/img_user/80_0_libemax.jpg" alt="Libemax" border="0" /></a></div>
+
+                <div class="banner secondo"><a href="http://www.mecotest.com" target="_blank"><img src="/img_user/80_0_mecotest.jpg" alt="Mecotest" border="0" /></a></div>
+
+                <div class="banner terzo"><a href="http://www.usbpersonalizzate.com" target="_blank"><img src="/img_user/80_0_usb_personalizzate.jpg" alt="USB personalizzate" border="0" /></a></div>
+
+        <div style="clear:left;"></div></div>
+    
+    
+	<div>        <div class="banner primo"><a href="http://www.hvm-li.com" target="_blank"><img src="/img_user/80_0_banner-lions14.jpg" alt="HVM" border="0" /></a></div>
+
+                <div class="banner secondo"><a href="http://www.hvm-li.com" target="_blank"><img src="/img_user/80_0_banner-lions14753486238.jpg" alt="HVM" border="0" /></a></div>
+
+                <div class="banner terzo"><a href="http://www.hvm-li.com" target="_blank"><img src="/img_user/80_0_banner-lions14973489669.jpg" alt="HVM" border="0" /></a></div>
+
+        <div style="clear:left;"></div></div><div>        <div class="banner primo"><a href="http://www.silvermusicradio.it" target="_blank"><img src="/img_user/80_0_banner-lions11.jpg" alt="SILVERMUSIC RADIO" border="0" /></a></div>
+
+                <div class="banner secondo"><a href="http://www.lionsbergamo.eu" target="_blank"><img src="/img_user/80_0_banner-lions5.jpg" alt="Cinque Stelle Srl" border="0" /></a></div>
+
+                <div class="banner terzo"><a href="http://www.lionsbergamo.eu" target="_blank"><img src="/img_user/80_0_banner-lions6.jpg" alt="CINQUE STELLE SRL" border="0" /></a></div>
+
+        <div style="clear:left;"></div></div><div>        <div class="banner primo"><a href="http://www.jpstars.it" target="_blank"><img src="/img_user/80_0_banner-lions7.jpg" alt="JPSTORE" border="0" /></a></div>
+
+                <div class="banner secondo"><a href="http://www.erreduetichette.it/" target="_blank"><img src="/img_user/80_0_banner-lions2.jpg" alt="Erredue" border="0" /></a></div>
+
+                <div class="banner terzo"><a href="http://www.perlettibus.it/perlettibus/" target="_blank"><img src="/img_user/80_0_banner-lions3.jpg" alt="PERLETTI AUTOSERVIZI" border="0" /></a></div>
+
+        <div style="clear:left;"></div></div><div>        <div class="banner primo"><a href="http://WWW.VEMACHEMIcal.com" target="_blank"><img src="/img_user/80_0_banner-lions9.jpg" alt="VE.MA. CHEMICAL PRODUCTS S.R.L." border="0" /></a></div>
+
+                <div class="banner secondo"><a href="http://www.legatumoribg.it/ita/home.htm" target="_blank"><img src="/img_user/80_0_banner-lions131898338664.jpg" alt="LILT BERGAMO" border="0" /></a></div>
+
+                <div class="banner terzo"><a href="http://www.bwhotelcappellodoro-bg.it/" target="_blank"><img src="/img_user/80_0_banner-lions10.jpg" alt="HOTEL CAPPELLO D&#039;ORO" border="0" /></a></div>
+
+        <div style="clear:left;"></div></div><div>        <div class="banner primo"><a href="http://www.ristorantecasanostra.it" target="_blank"><img src="/img_user/80_0_banner-lions8.jpg" alt="RISTORANTE CASANOSTRA" border="0" /></a></div>
+
+                <div class="banner secondo"><a href="http://www.publimultiservice.com/" target="_blank"><img src="/img_user/80_0_banner-lions.jpg" alt="PUBLIMULTISERVICE DESIGN&amp;PROMOTION" border="0" /></a></div>
+
+                <div class="banner terzo"><a href="http://www.hvm-li.com" target="_blank"><img src="/img_user/80_0_banner-lions1427360853.jpg" alt="HVM" border="0" /></a></div>
+
+        <div style="clear:left;"></div></div><div>        <div class="banner primo"><a href="http://https://www.facebook.com/AmericaGraffitiDinerRestaurantCavernago/info/?tab=overview" target="_blank"><img src="/img_user/80_0_banner-lions15.jpg" alt="AMERICAN GRAFFITI DINER CAVERNAGO" border="0" /></a></div>
+
+                <div class="banner secondo"><a href="http://newtravel2.e-stand.it/" target="_blank"><img src="/img_user/80_0_banner_lions_16.jpg" alt="NEW TRAVEL - AGENZIA VIAGGI AZZANO SAN PAOLO" border="0" /></a></div>
+
+        <div style="clear:left;"></div></div>
+    </div>
+</section>
+
+
+                     </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    
+    
+            </aside>
+            <div style="clear:left;"></div>
+            
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="art-footer">
+            <div class="art-footer-inner">
+            	<img src="/asset/img/logo-fidaf.png" alt="fidaf" title="fidaf" width="100px"/>
+                <img src="/asset/img/1coni-mini3.png" alt="coni" title="coni" style="margin:0px 0px 10px 10px;"/>
+                <p class="lions">LIONS - AMERICAN FOOTBALL BERGAMO</p>
+                <p style="line-height:20%">&nbsp;</p>
+                <p class="copy">© Lions Bergamo ASD - Via De Leidi, 5 - 24121 Bergamo (BG) - P.IVA e Cod.Fisc.03928650161 - lionsbergamo@fidaf.org</p>
+                <p style="line-height:50%">&nbsp;</p>
+                <p class="credits"><a href="http://www.libemax.com/cookie/privacy.php?dominio=www.lionsbergamo.eu" target="_blank">Privacy</a> - <a href="/it/34/impressum.html">Impressum</a></p>
+                <p style="line-height:15%">&nbsp;</p>
+                
+                                
+                <p class="credits" style="line-height: 12px; font-size: 12px;"><a title="Realizzazione siti web bergamo" href="http://www.libemax.com/it/15/sito-web.html#contenuto" target="_blank">Realizzazione siti web</a> - <a title="App rilevazione presenze" href="http://www.apprilevazionepresenze.com/timesheet-e-controllo-accessi.html" target="_blank">App rilevazione presenze</a> - <a title="Creazione app Android e iPhone a Bergamo" href="http://www.creareapp.it/" target="_blank">Creare app Bergamo</a></p>
+            </div>
+        </footer>
+    </div>
+    
+     <script src="http://www.libemax.com/cookie/cookie.js"></script>
+        <link media="all" rel="stylesheet" href="http://www.libemax.com/cookie/cookie.css">
+        <script>
+          document.addEventListener('DOMContentLoaded', function(event) {
+            var messaggio = "I cookie ci aiutano ad erogare servizi di qualità. Utilizzando i nostri servizi, l'utente accetta le nostre modalità d'uso dei cookie.";
+            var labelOK = "OK";
+            var labelInfo = "Ulteriori informazioni";
+            var urlPrivacy = "http://www.libemax.com/cookie/privacy.php?dominio=www.lionsbergamo.eu";
+            cookieChoices.showCookieConsentBar(messaggio, labelOK, labelInfo, urlPrivacy);
+          });
+        </script>
+    
+</body>
+</html>
+

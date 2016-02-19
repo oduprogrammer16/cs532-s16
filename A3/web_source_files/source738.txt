@@ -1,0 +1,982 @@
+<!doctype html>
+<html xml:lang="en-gb" lang="en-gb" >
+<head>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63804921-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/13722972/Z_Alliance_DroidGamers_LeaderboardBelowArticle', [728, 90], 'div-gpt-ad-1413905308891-0').addService(googletag.pubads());
+googletag.defineSlot('/13722972/Z_Alliance_DroidGamers_MobileBanner', [320, 50], 'div-gpt-ad-1413905308891-1').addService(googletag.pubads());
+googletag.defineSlot('/13722972/Z_Alliance_DroidGamers_SecondMPU', [300, 250], 'div-gpt-ad-1413905308891-2').addService(googletag.pubads());
+googletag.defineSlot('/13722972/Z_Alliance_DroidGamers_TopLeaderboard', [728, 90], 'div-gpt-ad-1413905308891-3').addService(googletag.pubads());
+googletag.defineSlot('/13722972/Z_Alliance_DroidGamers_TopMPU', [300, 250], 'div-gpt-ad-1413905308891-4').addService(googletag.pubads());
+googletag.defineSlot('/13722972/Z_AllianceLogo_DroidGamers_1x1', [1, 1], 'div-gpt-ad-1413905308891-5').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="http://www.droidgamers.com/index.php/game-news/android-game-news/10555-fdg-entertainment-s-upcoming-gritty-sniper-game-lone-wolf-will-be-landing-on-android-soon" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="FDG Entertainment, Lone Wolf, android, droid, new, news, new android games, android games, upcoming, upcoming android games, free, free android games, game, games, gaming, gaming news, game news, mobile, mobile games, adventure, adventure games, fps, fps games, sniper, tablet games, tablet gaming, development, preview, video, trailer, game trailer" />
+  <meta name="author" content="AndrewH" />
+  <meta name="description" content="Last week FDG Entertainment released their gritty neo-noir sniper game called Lone Wolf onto iOS. This game is also slated for release onto Android and that is going to be happening in the very near future. This isn't your typical sniper game and there will actually be a 17+ rating that comes with it. So it won't be for young kids to play." />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>[Update: Tegra Support] FDG Entertainment's upcoming gritty sniper game Lonewolf will be landing on Android soon</title>
+  <link rel="stylesheet" href="http://www.droidgamers.com/plugins/content/plg_intelephant_authorbio/plg_intelephant_authorbio.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.droidgamers.com//plugins/content/bt_socialshare/assets/bt_socialshare.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.droidgamers.com/plugins/content/rokcomments/css/rokcomments.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.droidgamers.com/components/com_tortags/assets/css/only_buttons.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/rokbox/assets/styles/rokbox.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_corvus/css-compiled/menu.css" type="text/css" />
+  <link rel="stylesheet" href="/libraries/gantry/css/grid-responsive.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_corvus/css-compiled/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_corvus/css-compiled/master-58122e5b36216d27379481ebf3510120.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_corvus/css-compiled/mediaqueries.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_corvus/css-compiled/rtl.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_corvus/css/rt_corvus-custom.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_corvus/roksprocket/layouts/lists/themes/default/lists.css" type="text/css" />
+  <style type="text/css">
+#rt-logo {background: url(/images/stories/site/DroidGamers2.png) 50% 0 no-repeat !important;}
+#rt-logo {width: 175px;height: 122px;}
+
+  </style>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/plugins/system/rokbox/assets/js/rokbox.js" type="text/javascript"></script>
+  <script src="/libraries/gantry/js/gantry-totop.js" type="text/javascript"></script>
+  <script src="/libraries/gantry/js/browser-engines.js" type="text/javascript"></script>
+  <script src="/templates/rt_corvus/js/rokmediaqueries.js" type="text/javascript"></script>
+  <script src="/modules/mod_roknavmenu/themes/default/js/rokmediaqueries.js" type="text/javascript"></script>
+  <script src="/modules/mod_roknavmenu/themes/default/js/sidemenu.js" type="text/javascript"></script>
+  <script src="/components/com_roksprocket/assets/js/mootools-mobile.js" type="text/javascript"></script>
+  <script src="/components/com_roksprocket/assets/js/rokmediaqueries.js" type="text/javascript"></script>
+  <script src="/components/com_roksprocket/assets/js/roksprocket.js" type="text/javascript"></script>
+  <script src="/components/com_roksprocket/assets/js/roksprocket.request.js" type="text/javascript"></script>
+  <script src="/components/com_roksprocket/layouts/lists/assets/js/lists.js" type="text/javascript"></script>
+  <script src="/components/com_roksprocket/layouts/lists/themes/default/lists.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});if (typeof RokBoxSettings == 'undefined') RokBoxSettings = {pc: '100'};		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+		__gaTracker('create', 'UA-8543393-5', 'auto');
+		__gaTracker('send', 'pageview');
+	if (typeof RokSprocket == 'undefined') RokSprocket = {};
+Object.merge(RokSprocket, {
+	SiteURL: 'http://www.droidgamers.com/',
+	CurrentURL: 'http://www.droidgamers.com/',
+	AjaxURL: 'http://www.droidgamers.com/index.php?option=com_roksprocket&amp;task=ajax&amp;format=raw&amp;ItemId=196'
+});
+window.addEvent('domready', function(){
+		RokSprocket.instances.lists = new RokSprocket.Lists();
+});
+window.addEvent('domready', function(){
+	RokSprocket.instances.lists.attach(204, '{"accordion":"1","autoplay":"0","delay":"5"}');
+});
+window.addEvent('domready', function() {
+			$$('.lightTip').each(function(el) {
+				var title = el.get('title');
+				if (title) {
+					var parts = title.split('::', 2);
+					el.store('tip:title', parts[0]);
+					el.store('tip:text', parts[1]);
+				}
+			});
+			var JTooltips = new Tips($$('.lightTip'), { maxTitleChars: 50, fixed: false});
+		});
+  </script>
+  <link href="http://feeds.feedburner.com/droidgamers" rel="alternate" type="application/rss+xml" title="DGCurrents" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="[Update: Tegra Support] FDG Entertainment's upcoming gritty sniper game Lonewolf will be landing on Android soon" />
+  <meta property="og:url" content="http://www.droidgamers.com/index.php/game-news/android-game-news/10555-fdg-entertainment-s-upcoming-gritty-sniper-game-lone-wolf-will-be-landing-on-android-soon" />
+  <meta property="og:description" content="Last week FDG Entertainment released their gritty neo-noir sniper game called Lone Wolf onto iOS. This game is also slated for release onto Android and that is going to be happening in the very near future. This isn't your typical sniper game and there will actually be a 17+ rating that comes with i" />
+  <meta property="og:image" content="http://www.droidgamers.com/images/stories/news/lonewolfsp/Lone-Wolf-Android-Game.jpg" />
+  <link href="https://plus.google.com/+DroidGamers" rel="publisher" /><script type="text/javascript">window.___gcfg = {lang: "en-US"};(function() {var po = document.createElement("script");po.type = "text/javascript";po.async = true;po.src = "https://apis.google.com/js/plusone.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(po, s);})();</script>
+</head>
+<body  class="logo-type-customlogo top-type-preset8 header-overlay-light main-bg-overlay-light main-template-with-shadow main-body-light footer-overlay-dark bottom-type-preset8 font-family-corvus font-size-is-default menu-type-dropdownmenu layout-mode-responsive col12 option-com-content menu-android-game-news ">
+	<div id="rt-page-surround">
+		<div id="rt-page-surround-bottom">
+			<div class="rt-with-footer">
+								<div id="rt-drawer">
+					<div class="rt-container">
+												<div class="clear"></div>
+					</div>
+				</div>
+												<div id="rt-top">
+					<div class="rt-container">
+						<div class="rt-grid-4 rt-alpha">
+     			           <div class="rt-block nopaddingall nomarginall">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customnopaddingall nomarginall"  >
+	<p><a href="http://www.droidgamers.com/" target="_self"><img src="/images/stories/site/DroidGamers2.png" border="0" alt="" /></a></p></div>
+	                	</div>
+                	</div>
+           </div>
+	
+</div>
+<div class="rt-grid-8 rt-omega">
+     			           <div class="rt-block nopaddingall hidden-phone">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customnopaddingall hidden-phone"  >
+	<p style="text-align: center; padding-top: 15px;"><script type="text/javascript">
+ var googletag = googletag || {};
+ googletag.cmd = googletag.cmd || [];
+ (function() {
+   var gads = document.createElement("script");
+   gads.async = true;
+   gads.type = "text/javascript";
+   var useSSL = "https:" == document.location.protocol;
+   gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+   var node =document.getElementsByTagName("script")[0];
+   node.parentNode.insertBefore(gads, node);
+  })();
+</script><div id="div-gpt-ad-1359529803807-1" style="max-width: 728px;max-height: 90px;">
+  <script type='text/javascript'>
+    googletag.cmd.push(function() {
+      googletag.defineSlot('/5267893/DG_728x90_Top', [728,90],'div-gpt-ad-1359529803807-1')
+        .addService(googletag.pubads());
+      googletag.enableServices();
+      googletag.display('div-gpt-ad-1359529803807-1');
+  });
+  </script>
+</div></p></div>
+	                	</div>
+                	</div>
+           </div>
+	
+</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+						
+								<div id="rt-header">
+					<div class="rt-container">
+						<div class="rt-grid-12 rt-alpha rt-omega">
+    	<div class="rt-block menu-block">
+		<div class="gf-menu-device-container responsive-type-panel"></div>
+<ul class="gf-menu l1 " >
+                    <li class="item101" >
+
+            <a class="item" href="/"  >
+
+                                Home                            </a>
+
+
+                    </li>
+                            <li class="item188 parent active" >
+
+            <a class="item" href="/index.php/game-news"  >
+
+                                Game News                                <span class="border-fixer"></span>
+                            </a>
+
+
+            
+                                    <div class="dropdown columns-1 " style="width:180px;">
+                                                <div class="column col1"  style="width:180px;">
+                            <ul class="l2">
+                                                                                                                    <li class="item257" >
+
+            <a class="item" href="/index.php/game-news/prnewswire"  >
+
+                                PRNewswire                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item196 active last" >
+
+            <a class="item" href="/index.php/game-news/android-game-news"  >
+
+                                Android Game News                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item205" >
+
+            <a class="item" href="/index.php/game-news/hardware-a-devices"  >
+
+                                Hardware &amp; Devices                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item212 parent" >
+
+            <a class="item" href="/index.php/game-news/events"  >
+
+                                Events &amp; Shows                                <span class="border-fixer"></span>
+                            </a>
+
+
+            
+                                    <div class="dropdown flyout columns-1 " style="width:180px;">
+                                                <div class="column col1"  style="width:180px;">
+                            <ul class="l3">
+                                                                                                                    <li class="item218" >
+
+            <a class="item" href="/index.php/game-news/events/google-io-2010"  >
+
+                                Google I/O 2010                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item219" >
+
+            <a class="item" href="/index.php/game-news/events/ces-2011"  >
+
+                                CES 2011                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item220" >
+
+            <a class="item" href="/index.php/game-news/events/gdc2011"  >
+
+                                GDC2011                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item222" >
+
+            <a class="item" href="/index.php/game-news/events/google-o-2011"  >
+
+                                Google I/O 2011                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item223" >
+
+            <a class="item" href="/index.php/game-news/events/e3-2011"  >
+
+                                E3 2011                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item224" >
+
+            <a class="item" href="/index.php/game-news/events/gamescom-2011"  >
+
+                                GamesCom 2011                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item225" >
+
+            <a class="item" href="/index.php/game-news/events/ces-2012"  >
+
+                                CES 2012                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item226" >
+
+            <a class="item" href="/index.php/game-news/events/gdc-2012"  >
+
+                                GDC 2012                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item228" >
+
+            <a class="item" href="/index.php/game-news/events/ces-2013"  >
+
+                                CES 2013                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item242" >
+
+            <a class="item" href="/index.php/game-news/events/google-i-o-2013"  >
+
+                                Google I/O 2013                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item243" >
+
+            <a class="item" href="/index.php/game-news/events/e3-2013"  >
+
+                                E3 2013                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item246" >
+
+            <a class="item" href="/index.php/game-news/events/gamescom-2013"  >
+
+                                Gamescom 2013                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item264" >
+
+            <a class="item" href="/index.php/game-news/events/mwc-2014"  >
+
+                                MWC 2014                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item200" >
+
+            <a class="item" href="/index.php/game-news/events/gdc2010"  >
+
+                                GDC2010                            </a>
+
+
+                    </li>
+                                                                                                        </ul>
+                        </div>
+                                            </div>
+
+                                    </li>
+                                                                                                                                                                <li class="item198" >
+
+            <a class="item" href="/index.php/game-news/site-news-rants"  >
+
+                                Site News + Rants                            </a>
+
+
+                    </li>
+                                                                                                        </ul>
+                        </div>
+                                            </div>
+
+                                    </li>
+                            <li class="item270" >
+
+            <a class="item" href="/index.php/interviews"  >
+
+                                Interviews                            </a>
+
+
+                    </li>
+                            <li class="item189" >
+
+            <a class="item" href="/index.php/game-reviews"  >
+
+                                Game Reviews                            </a>
+
+
+                    </li>
+                            <li class="item207 parent" >
+
+            <a class="item" href="/index.php/tablet-gaming"  >
+
+                                Tablet Gaming                                <span class="border-fixer"></span>
+                            </a>
+
+
+            
+                                    <div class="dropdown columns-1 " style="width:180px;">
+                                                <div class="column col1"  style="width:180px;">
+                            <ul class="l2">
+                                                                                                                    <li class="item208" >
+
+            <a class="item" href="/index.php/tablet-gaming/tablet-gaming-news"  >
+
+                                Tablet Gaming News                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item210" >
+
+            <a class="item" href="/index.php/tablet-gaming/hardware-and-devices"  >
+
+                                Hardware and Devices                            </a>
+
+
+                    </li>
+                                                                                                        </ul>
+                        </div>
+                                            </div>
+
+                                    </li>
+                            <li class="item211" >
+
+            <a class="item" href="/index.php/apps"  >
+
+                                Apps                            </a>
+
+
+                    </li>
+                            <li class="item241" >
+
+            <a class="item" href="http://www.droidgamers.com/forums"  >
+
+                                Forums                            </a>
+
+
+                    </li>
+                            <li class="item255" >
+
+            <a class="item" href="http://deals.droidgamers.com"  >
+
+                                Deals                            </a>
+
+
+                    </li>
+                            <li class="item191 parent" >
+
+            <a class="item" href="/index.php/tutorials-and-guides"  >
+
+                                Guides                                <span class="border-fixer"></span>
+                            </a>
+
+
+            
+                                    <div class="dropdown columns-1 " style="width:180px;">
+                                                <div class="column col1"  style="width:180px;">
+                            <ul class="l2">
+                                                                                                                    <li class="item215" >
+
+            <a class="item" href="/index.php/tutorials-and-guides/tutorials"  >
+
+                                Tutorials                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item216" >
+
+            <a class="item" href="/index.php/tutorials-and-guides/game-guides"  >
+
+                                Game Guides                            </a>
+
+
+                    </li>
+                                                                                                                                                                <li class="item217" >
+
+            <a class="item" href="/index.php/tutorials-and-guides/resources"  >
+
+                                Resources                            </a>
+
+
+                    </li>
+                                                                                                        </ul>
+                        </div>
+                                            </div>
+
+                                    </li>
+            </ul>		<div class="clear"></div>
+	</div>
+	
+</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+								<div id="rt-transition">
+					<div id="rt-body-surround">
+									
+																																				<div id="rt-mainbody-surround">
+							<div class="rt-container">
+								          
+<div id="rt-main" class="mb8-sa4">
+                <div class="rt-container">
+                    <div class="rt-grid-8 ">
+                                                						<div class="rt-block">
+	                        <div id="rt-mainbody">
+								<div class="component-content">
+	                            	<div class="item-page">
+
+	<h2>
+			<a href="/index.php/game-news/android-game-news/10555-fdg-entertainment-s-upcoming-gritty-sniper-game-lone-wolf-will-be-landing-on-android-soon">
+		[Update: Tegra Support] FDG Entertainment's upcoming gritty sniper game Lonewolf will be landing on Android soon</a>
+		</h2>
+
+	<ul class="actions">
+						<li class="print-icon">
+			<a href="/index.php/game-news/android-game-news/10555-fdg-entertainment-s-upcoming-gritty-sniper-game-lone-wolf-will-be-landing-on-android-soon?tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Print" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/media/system/images/printButton.png" alt="Print"  /></a>			</li>
+		
+					<li class="email-icon">
+			<a href="/index.php/component/mailto/?tmpl=component&amp;template=rt_corvus&amp;link=6863ee06ca5993b0e607d374e49c481c88975480" title="Email" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><img src="/media/system/images/emailButton.png" alt="Email"  /></a>			</li>
+		
+		
+	
+	</ul>
+
+
+
+
+	<dl class="article-info">
+	<dt class="article-info-term">Details</dt>
+	<dd class="published">
+	Published on Tuesday, 16 February 2016 12:23	</dd>
+	<dd class="createdby">
+				Written by AndrewH		</dd>
+	</dl>
+
+
+
+<div class="img-fulltext-left">
+<img
+		src="/images/stories/news/lonewolfsp/Lone-Wolf-Android-Game.jpg" alt=""/>
+</div>
+<div class="bt-social-share bt-social-share-above"><div class="bt-social-share-button bt-facebook-share-button"><img class="fb-share" src="http://www.droidgamers.com//plugins/content/bt_socialshare/assets/share.png" onClick="window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent('http://www.droidgamers.com/index.php/game-news/android-game-news/10555-fdg-entertainment-s-upcoming-gritty-sniper-game-lone-wolf-will-be-landing-on-android-soon')+'&t='+encodeURIComponent('[Update: Tegra Support] FDG Entertainment's upcoming gritty sniper game Lonewolf will be landing on Android soon'),'sharer','toolbar=0,status=0,left='+((screen.width/2)-300)+',top='+((screen.height/2)-200)+',width=600,height=360');" href="javascript: void(0)" /></div><div class="bt-social-share-button bt-facebook-like-button"><fb:like send="true" colorscheme="light" font="arial" href="http://www.droidgamers.com/index.php/game-news/android-game-news/10555-fdg-entertainment-s-upcoming-gritty-sniper-game-lone-wolf-will-be-landing-on-android-soon" layout="button_count" width="70" show_faces="true" action="like"></fb:like></div><div class="bt-social-share-button bt-twitter-button" style="width:80px"><a href="http://twitter.com/share" class="twitter-share-button" 
+						  data-via="BowThemes" 
+						  data-url="http://www.droidgamers.com/index.php/game-news/android-game-news/10555-fdg-entertainment-s-upcoming-gritty-sniper-game-lone-wolf-will-be-landing-on-android-soon" 
+						  data-size="medium"
+						  data-lang="en"
+						  data-count="horizontal" >Twitter</a></div><div class="bt-social-share-button bt-linkedin-button"><script type="IN/share" data-url="http://www.droidgamers.com/index.php/game-news/android-game-news/10555-fdg-entertainment-s-upcoming-gritty-sniper-game-lone-wolf-will-be-landing-on-android-soon"
+						 data-showzero="false"
+						 data-counter="right"></script></div><div class="bt-social-share-button bt-googleplus-button"><div class="g-plus" data-action="share"  data-href="http://www.droidgamers.com/index.php/game-news/android-game-news/10555-fdg-entertainment-s-upcoming-gritty-sniper-game-lone-wolf-will-be-landing-on-android-soon" data-annotation="bubble" data-height="20" ></div></div><div class="bt-social-share-button bt-stumble-button"><su:badge layout="1"  location="http://www.droidgamers.com/index.php/game-news/android-game-news/10555-fdg-entertainment-s-upcoming-gritty-sniper-game-lone-wolf-will-be-landing-on-android-soon"></su:badge></div><div class="bt-social-share-button bt-dig-button"><a class="DiggThisButton DiggCompact"href="http://digg.com/submit?url=http%3A%2F%2Fwww.droidgamers.com%2Findex.php%2Fgame-news%2Fandroid-game-news%2F10555-fdg-entertainment-s-upcoming-gritty-sniper-game-lone-wolf-will-be-landing-on-android-soon&amp;title=%5BUpdate%3A%20Tegra%20Support%5D%20FDG%20Entertainment%27s%20upcoming%20gritty%20sniper%20game%20Lonewolf%20will%20be%20landing%20on%20Android%20soon"></a></div></div><p>Last week FDG Entertainment released their gritty neo-noir sniper game called Lone Wolf onto iOS. This game is also slated for release onto Android and that is going to be happening in the very near future. This isn't your typical sniper game and there will actually be a 17+ rating that comes with it. So it won't be for young kids to play.</p>
+ 
+<p><strong>Update: February 16th, 12:23pm PST:</strong> <em>Just a quick update for those of you wanting to play Lonewolf but haven't been able to because you own a Tegra-based device, you'll be happy to know that the game has been updated and now supports Tegra devices.</em>
+<p><strong>Update: Sunday, February 7th - 3:17 AM, PST:</strong> FDG Entertainment just informed us that their latest game, Lone Wolf is now available to download in the Google Play Store. We have heard great things about this game, as it was released first on iOS, not too long. If you are interested in checking out this gritty story with excellent art direction, the game can be downloaded for free. The game does include in-app purchases, but they are minimal. The link to download the game can be found at the end of this article.</p>
+<p>Lone Wolf is a dark sniper game that features not only combat in the traditional sense, but also in a moral sense as well. This is a story-driven sniper game where it isn't just about killing, but dealing with the killing and the folks behind the criminal organization known as "The Assembly", which you just managed to get into with your first kill. You'll be working for The Assembly, being handed various weapons that you'll use to carry out the missions they give to you.</p>
+<div class="rt-image">
+<p style="text-align: center;"><img src="/images/stories/news/lonewolfsp/Lone-Wolf-Android-Game-1.jpg" border="0" /><img src="/images/stories/news/lonewolfsp/Lone-Wolf-Android-Game-2.jpg" border="0" /></p>
+</div>
+<p><strong>Lone Wolf Features:</strong></p>
+<p>- 5+ Hours Story Mode<br />- 30 Missions<br />- Hand Drawn Cutscenes<br />- More than 20 Weapons<br />- Realistic Weapon Sound and Recoil<br />- A Dozen Mini-games<br />- Several shooting Ranges<br />- Trophy Room with more than 40 trophies</p>
+<p>This is a pretty deep game in a multitude of ways, from the story itself to the amount of content this game comes with. It won't be a game you sit and just blaze through in 30 minutes. If Lone Wolf for Android follows the pricing of its iOS brethren, it will be free to download with optional IAPs available, which is mainly to get the premium version for $1.99.</p>
+<p>You can check out additional screenshots and the game's trailer below. We will post an update once Lone Wolf arrives onto Google Play, which should be pretty quick.</p>
+<div class="pb-app-box" data-theme="discover" data-lang="en"><a href="http://playboard.me/android/apps/air.com.FDGEntertainment.Lonewolf.gp">Lone Wolf (Playboard)</a> | <a href="https://play.google.com/store/apps/details?id=air.com.FDGEntertainment.Lonewolf.gp" rel="nofollow" target="_blank">Lone Wolf (Play Store)</a></div>
+<script type="text/javascript" src="//playboard.me/widgets/pb-app-box/1/pb_load_app_box.js"></script><p> </p>
+<div class="rt-image">
+<p style="text-align: center;"><img src="/images/stories/news/lonewolfsp/Lone-Wolf-Android-Game-3.jpg" border="0" /><img src="/images/stories/news/lonewolfsp/Lone-Wolf-Android-Game-4.jpg" border="0" /></p>
+</div>
+<div class="video-player"><p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/ngvEklfNxZk" frameborder="0" allowfullscreen></iframe></p></div><p> </p><p style="text-align: center;"><a href="https://goo.gl/KC7PF2"><img src="/images/banners/joycity/top.jpg"></a></p><p style="text-align: center;"><div id="author_bio"><div class="author_bio_image"><img src="http://www.droidgamers.com/images/andrewbio.jpg" alt="AndrewH" /></div><div class="author_bio_description"><span class="bold">AndrewH</span> - Andrew is the Founder and Editor-in-Chief of DroidGamers. Having been a hardcore PC and console gamer all his life, this passion is now applied to Android gaming and writing about it. When not playing or writing about Android games, he spends his time with is wife and son.</div><div class="author_bio_socialmedia"><a style="background-color: white; text-decoration:none;" href="http://www.droidgamers.com" target="_blank"><img src="http://www.droidgamers.com/plugins/content/plg_intelephant_authorbio/images/32x32-website.png" border="0" alt="http://www.droidgamers.com" title="Website" /></a>&nbsp;<a style="background-color: white; text-decoration:none;" href="http://www.facebook.com/TheDroidGamers" target="_blank"><img src="http://www.droidgamers.com/plugins/content/plg_intelephant_authorbio/images/32x32-facebook.png" border="0" alt="Facebook" title="Facebook" /></a>&nbsp;<a style="background-color: white; text-decoration:none;" href="https://twitter.com/DroidGamers" target="_blank"><img src="http://www.droidgamers.com/plugins/content/plg_intelephant_authorbio/images/32x32-twitter.png" border="0" alt="Twitter" title="Twitter" /></a>&nbsp;<a style="background-color: white; text-decoration:none;" href="https://www.linkedin.com/pub/andrew-huff/72/670/203" target="_blank"><img src="http://www.droidgamers.com/plugins/content/plg_intelephant_authorbio/images/32x32-linkedin.png" border="0" alt="LinkedIn" title="LinkedIn" /></a>&nbsp;<a style="background-color: white; text-decoration:none;" href="https://plus.google.com/b/104621857377141907040/+DroidGamers/posts" target="_blank"><img src="http://www.droidgamers.com/plugins/content/plg_intelephant_authorbio/images/32x32-gplus.png" border="0" alt="Google+" title="Google+" /></a>&nbsp;<a style="background-color: white; text-decoration:none;" href="https://www.youtube.com/user/TheDroidGamers" target="_blank"><img src="http://www.droidgamers.com/plugins/content/plg_intelephant_authorbio/images/32x32-youtube.png" border="0" alt="YouTube" title="YouTube" /></a>&nbsp;</div></div></p><div id="fb-root"></div>
+				<script>(function(d, s, id) {
+				  var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) {return;}
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+				  fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));</script><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script><script type="text/javascript" src="http://platform.linkedin.com/in.js"></script><script type="text/javascript" src="https://apis.google.com/js/plusone.js">{lang: 'en-GB'}</script><script type="text/javascript">(function() { var li = document.createElement('script'); li.type = 'text/javascript'; li.async = true; 
+    li.src = window.location.protocol + '//platform.stumbleupon.com/1/widgets.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(li, s); })();</script><script type="text/javascript">(function() {var s = document.createElement('SCRIPT'), s1 = document.getElementsByTagName('SCRIPT')[0];s.type = 'text/javascript';s.async = true;s.src = 'http://widgets.digg.com/buttons.js';s1.parentNode.insertBefore(s, s1);})();</script>
+
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+
+                    var disqus_shortname = "droidgamers"; 
+                    var disqus_developer = 0;
+                    var disqus_identifier = "fdg-entertainment-s-upcoming-gritty-sniper-game-lone-wolf-will-be-landing-on-android-soon";
+                    var disqus_url = "http://www.droidgamers.com/index.php/game-news/android-game-news/10555-fdg-entertainment-s-upcoming-gritty-sniper-game-lone-wolf-will-be-landing-on-android-soon";
+
+                    (function() {
+                        var dsq = document.createElement("script"); dsq.type = "text/javascript"; dsq.async = true;
+                        dsq.src = "http://" + disqus_shortname + ".disqus.com/embed.js";
+                        (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a><div class="tt-tags"><div class="tt_button"><div class="tt_end"><div style="float:left"><a class="tt_link" href="/index.php/component/tortags/tag/Adventure_Games?Itemid=196" title="Adventure Games"><span class="tt_img">&nbsp;</span>Adventure Games</a></div></div></div><div class="tt_button"><div class="tt_end"><div style="float:left"><a class="tt_link" href="/index.php/component/tortags/tag/Development?Itemid=196" title="Development"><span class="tt_img">&nbsp;</span>Development</a></div></div></div><div class="tt_button"><div class="tt_end"><div style="float:left"><a class="tt_link" href="/index.php/component/tortags/tag/FPS_Games?Itemid=196" title="FPS Games"><span class="tt_img">&nbsp;</span>FPS Games</a></div></div></div><div class="tt_button"><div class="tt_end"><div style="float:left"><a class="tt_link" href="/index.php/component/tortags/tag/Game_News?Itemid=196" title="Game News"><span class="tt_img">&nbsp;</span>Game News</a></div></div></div><div class="tt_button"><div class="tt_end"><div style="float:left"><a class="tt_link" href="/index.php/component/tortags/tag/Gaming_News?Itemid=196" title="Gaming News"><span class="tt_img">&nbsp;</span>Gaming News</a></div></div></div><div class="tt_button"><div class="tt_end"><div style="float:left"><a class="tt_link" href="/index.php/component/tortags/tag/Preview?Itemid=196" title="Preview"><span class="tt_img">&nbsp;</span>Preview</a></div></div></div><div class="tt_button"><div class="tt_end"><div style="float:left"><a class="tt_link" href="/index.php/component/tortags/tag/Tablet_Games?Itemid=196" title="Tablet Games"><span class="tt_img">&nbsp;</span>Tablet Games</a></div></div></div><div class="tt_button"><div class="tt_end"><div style="float:left"><a class="tt_link" href="/index.php/component/tortags/tag/Tablet_Gaming?Itemid=196" title="Tablet Gaming"><span class="tt_img">&nbsp;</span>Tablet Gaming</a></div></div></div><div class="tt_button"><div class="tt_end"><div style="float:left"><a class="tt_link" href="/index.php/component/tortags/tag/Trailer?Itemid=196" title="Trailer"><span class="tt_img">&nbsp;</span>Trailer</a></div></div></div><div class="tt_button"><div class="tt_end"><div style="float:left"><a class="tt_link" href="/index.php/component/tortags/tag/Video?Itemid=196" title="Video"><span class="tt_img">&nbsp;</span>Video</a></div></div></div></div>
+	
+</div>
+
+								</div>
+	                        </div>
+						</div>
+                                                                        <div id="rt-content-bottom">
+                            <div class="rt-grid-8 rt-alpha rt-omega">
+     			           <div class="rt-block hidden-desktop hidden-large">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="customhidden-desktop hidden-large"  >
+	<p><a href="https://goo.gl/KC7PF2"><img src="/images/banners/joycity/mob.jpg"></a></p></div>
+	                	</div>
+                	</div>
+           </div>
+	
+</div>
+                        </div>
+                                            </div>
+                                <div class="rt-grid-4 ">
+                <div id="rt-sidebar-b">
+                     			           <div class="rt-block box2 hidden-phone nopaddingtop nomarginall">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		<div class="bannergroupbox2 hidden-phone nopaddingtop nomarginall">
+
+	<div class="banneritem">
+										<br><center><script type="text/javascript">
+ var googletag = googletag || {};
+ googletag.cmd = googletag.cmd || [];
+ (function() {
+   var gads = document.createElement("script");
+   gads.async = true;
+   gads.type = "text/javascript";
+   var useSSL = "https:" == document.location.protocol;
+   gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+   var node =document.getElementsByTagName("script")[0];
+   node.parentNode.insertBefore(gads, node);
+  })();
+</script><div id="div-gpt-ad-1359529803807-0">
+  <script type='text/javascript'>
+    googletag.cmd.push(function() {
+      googletag.defineSlot('/5267893/DG_300x250_TopRight', [300,250],'div-gpt-ad-1359529803807-0')
+        .addService(googletag.pubads());
+      googletag.enableServices();
+      googletag.display('div-gpt-ad-1359529803807-0');
+  });
+  </script></div><br>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- large block sidebar -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8513013700123886"
+     data-ad-slot="4925422399"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>				<div class="clr"></div>
+	</div>
+
+</div>
+	                	</div>
+                	</div>
+           </div>
+	 			           <div class="rt-block fp-footer-social-buttons">
+           	<div class="module-surround">
+	           				<div class="module-title">
+					<h2 class="title">Follow us</h2>			</div>
+	                		                	<div class="module-content">
+	                		
+
+<div class="customfp-footer-social-buttons"  >
+	<div class="rt-social-buttons">
+  <a href="http://www.facebook.com/TheDroidGamers" class="social-button rt-social-button-1">
+    <span class="icon-facebook"></span>
+    <span class="social-button-text">Facebook</span>
+  </a>
+  
+  <a href="https://twitter.com/DroidGamers" class="social-button rt-social-button-2">
+    <span class="icon-twitter"></span>
+    <span class="social-button-text">Twitter</span>
+  </a>
+  
+  <a href="https://plus.google.com/+DroidGamers/posts" class="social-button rt-social-button-3">
+    <span class="icon-google-plus"></span>
+    <span class="social-button-text">gPlus</span>
+  </a>
+  
+  <a href="http://feeds.feedburner.com/droidgamers" class="social-button rt-social-button-4">
+    <span class="icon-rss"></span>
+    <span class="social-button-text">rss</span>
+  </a>
+ 
+  <div class="clear"></div>
+</div></div>
+	                	</div>
+                	</div>
+           </div>
+	 			           <div class="rt-block ">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		<div class='g-plus' data-height='' data-width='275' data-theme='dark' data-href='https://plus.google.com/+DroidGamers' data-size='badge'></div>
+	                	</div>
+                	</div>
+           </div>
+	 			           <div class="rt-block fp-roksprockettabs title4 nopaddingbottom box2 nomarginall">
+           	<div class="module-surround">
+	           				<div class="module-title">
+					<h2 class="title">Trending News</h2>			</div>
+	                		                	<div class="module-content">
+	                		 <div class="sprocket-lists" data-lists="204">
+	<ul class="sprocket-lists-container" data-lists-items>
+			<li class="active" data-lists-item>
+				<h4 class="sprocket-lists-title padding" data-lists-toggler>
+							[UPDATE: Game Released] TinyCo announces a new sim adventure game called Marvel Avengers Academy						<span class="indicator"><span>+</span></span>		</h4>
+				<span class="sprocket-lists-item" data-lists-content>
+			<span class="sprocket-padding">
+								<a href="/index.php/game-news/android-game-news/10172-tinyco-announces-a-new-sim-adventure-game-called-marvel-avengers-academy">
+					<span class="sprocket-lists-image">
+						<img src="/images/stories/news/avengersacademy/Marvel-Avengers-Academy-Android-Game.jpg" alt="" />
+					</span>	
+				</a>
+								<span class="sprocket-lists-desc">
+					TinyCo and Marvel have teamed up for a new mobile game based around the Avengers called Marvel Avengers Academy. In<span class="roksprocket-ellipsis">…</span>				</span>
+								<span class="readon-wrapper">
+					<a href="/index.php/game-news/android-game-news/10172-tinyco-announces-a-new-sim-adventure-game-called-marvel-avengers-academy" class="readon"><span>Read More</span></a>
+				</span>
+							</span>
+		</span>
+	</li>
+
+	<li data-lists-item>
+				<h4 class="sprocket-lists-title padding" data-lists-toggler>
+							[UPDATE: Game Released] tinyBuild Games announces an official release date for Punch Club on Android						<span class="indicator"><span>+</span></span>		</h4>
+				<span class="sprocket-lists-item" data-lists-content>
+			<span class="sprocket-padding">
+								<a href="/index.php/game-news/android-game-news/10551-tinybuild-games-announces-an-official-release-date-for-punch-club-on-android">
+					<span class="sprocket-lists-image">
+						<img src="/images/stories/news/punchclub/Punch-Club-Android-Game.jpg" alt="" />
+					</span>	
+				</a>
+								<span class="sprocket-lists-desc">
+					Back in the Summer of last year we reported on tinyBuild and their upcoming game Punch Club that would be<span class="roksprocket-ellipsis">…</span>				</span>
+								<span class="readon-wrapper">
+					<a href="/index.php/game-news/android-game-news/10551-tinybuild-games-announces-an-official-release-date-for-punch-club-on-android" class="readon"><span>Read More</span></a>
+				</span>
+							</span>
+		</span>
+	</li>
+
+	<li data-lists-item>
+				<h4 class="sprocket-lists-title padding" data-lists-toggler>
+							[UPDATE: Game Released] Mount your steed. Arcane Knight is coming to Android in the near future.						<span class="indicator"><span>+</span></span>		</h4>
+				<span class="sprocket-lists-item" data-lists-content>
+			<span class="sprocket-padding">
+								<a href="/index.php/game-news/android-game-news/10503-mount-your-steed-arcane-knight-is-coming-to-android">
+					<span class="sprocket-lists-image">
+						<img src="/images/stories/news/ArcaneKnight/Arcane-Knight-Game.jpg" alt="" />
+					</span>	
+				</a>
+								<span class="sprocket-lists-desc">
+					Corvus Games will soon release a fascinating action-based endless runner game entitled Arcane Knight. Yes, another endless runner. Though the<span class="roksprocket-ellipsis">…</span>				</span>
+								<span class="readon-wrapper">
+					<a href="/index.php/game-news/android-game-news/10503-mount-your-steed-arcane-knight-is-coming-to-android" class="readon"><span>Read More</span></a>
+				</span>
+							</span>
+		</span>
+	</li>
+
+	<li data-lists-item>
+				<h4 class="sprocket-lists-title padding" data-lists-toggler>
+							[UPDATE: Game Released] Square Enix will be bringing Final Fantasy IX to mobile devices soon						<span class="indicator"><span>+</span></span>		</h4>
+				<span class="sprocket-lists-item" data-lists-content>
+			<span class="sprocket-padding">
+								<a href="/index.php/game-news/android-game-news/10480-square-enix-will-be-bringing-final-fantasy-ix-to-mobile-devices-soon">
+					<span class="sprocket-lists-image">
+						<img src="/images/stories/news/FinalFantasyIX/Final-Fantasy-IX-Android-Game.jpg" alt="" />
+					</span>	
+				</a>
+								<span class="sprocket-lists-desc">
+					Over the holidays Square Enix sneakily released a new video on their Japanese YouTube channel for Final Fantasy IX. Normally<span class="roksprocket-ellipsis">…</span>				</span>
+								<span class="readon-wrapper">
+					<a href="/index.php/game-news/android-game-news/10480-square-enix-will-be-bringing-final-fantasy-ix-to-mobile-devices-soon" class="readon"><span>Read More</span></a>
+				</span>
+							</span>
+		</span>
+	</li>
+
+	<li data-lists-item>
+				<h4 class="sprocket-lists-title padding" data-lists-toggler>
+							[Update: Tegra Support] FDG Entertainment's upcoming gritty sniper game Lonewolf will be landing on Android soon						<span class="indicator"><span>+</span></span>		</h4>
+				<span class="sprocket-lists-item" data-lists-content>
+			<span class="sprocket-padding">
+								<a href="/index.php/game-news/android-game-news/10555-fdg-entertainment-s-upcoming-gritty-sniper-game-lone-wolf-will-be-landing-on-android-soon">
+					<span class="sprocket-lists-image">
+						<img src="/images/stories/news/lonewolfsp/Lone-Wolf-Android-Game.jpg" alt="" />
+					</span>	
+				</a>
+								<span class="sprocket-lists-desc">
+					Last week FDG Entertainment released their gritty neo-noir sniper game called Lone Wolf onto iOS. This game is also slated<span class="roksprocket-ellipsis">…</span>				</span>
+								<span class="readon-wrapper">
+					<a href="/index.php/game-news/android-game-news/10555-fdg-entertainment-s-upcoming-gritty-sniper-game-lone-wolf-will-be-landing-on-android-soon" class="readon"><span>Read More</span></a>
+				</span>
+							</span>
+		</span>
+	</li>
+
+	</ul>
+	<div class="sprocket-lists-nav">
+		<div class="sprocket-lists-pagination">
+			<ul>
+									    	<li class="active" data-lists-page="1"><span>1</span></li>
+									    	<li data-lists-page="2"><span>2</span></li>
+						</ul>
+		</div>
+		<div class="spinner"></div>
+				<div class="sprocket-lists-arrows">
+			<span class="arrow next" data-lists-next><span>&rsaquo;</span></span>
+			<span class="arrow prev" data-lists-previous><span>&lsaquo;</span></span>
+		</div>
+			</div>
+</div>
+	                	</div>
+                	</div>
+           </div>
+	 			           <div class="rt-block box2 nomarginall title4">
+           	<div class="module-surround">
+	           				<div class="module-title">
+					<h2 class="title">From the Forums</h2>			</div>
+	                		                	<div class="module-content">
+	                		<div class="light-rss-container" style="direction: ltr; text-align: left">
+		<ul
+		class="light-rss-listbox2 nomarginall title4"
+		style="margin-left: 0px; padding-left: 0px;">
+		
+        <li class="light-rss-itembox2 nomarginall title4">
+        <a href="http://www.droidgamers.com/forums/topic/9857-sir-nutbuster-by-jorge-alvarez/" title="Sir NutBuster by Jorge Alvarez::" class="lightTip" target="_blank" >Sir NutBuster by Jorge Alvarez</a><div class="light-rss-item-desc"></div></li>
+        <li class="light-rss-itembox2 nomarginall title4">
+        <a href="http://www.droidgamers.com/forums/topic/9856-freegame-space-digital-battle/" title="[Free][Game] Space Digital Battle::" class="lightTip" target="_blank" >[Free][Game] Space Digital Battle</a><div class="light-rss-item-desc"></div></li>
+        <li class="light-rss-itembox2 nomarginall title4">
+        <a href="http://www.droidgamers.com/forums/topic/9855-game-triplix-a-simple-puzzle-game/" title="[GAME] Triplix - A Simple Puzzle Game::" class="lightTip" target="_blank" >[GAME] Triplix - A Simple Puzzle Game</a><div class="light-rss-item-desc"></div></li>
+        <li class="light-rss-itembox2 nomarginall title4">
+        <a href="http://www.droidgamers.com/forums/topic/9854-free-the-urinator/" title="[free] The Urinator::" class="lightTip" target="_blank" >[free] The Urinator</a><div class="light-rss-item-desc"></div></li>
+        <li class="light-rss-itembox2 nomarginall title4">
+        <a href="http://www.droidgamers.com/forums/topic/9852-aoki/" title="Aoki::" class="lightTip" target="_blank" >Aoki</a><div class="light-rss-item-desc"></div></li>
+        <li class="light-rss-itembox2 nomarginall title4">
+        <a href="http://www.droidgamers.com/forums/topic/9851-gamefree-tin-shot-2/" title="[GAME][FREE] Tin Shot 2::" class="lightTip" target="_blank" >[GAME][FREE] Tin Shot 2</a><div class="light-rss-item-desc"></div></li>
+        <li class="light-rss-itembox2 nomarginall title4">
+        <a href="http://www.droidgamers.com/forums/topic/9850-gamefree-shards-of-magic-cans/" title="[GAME][FREE] Shards of Magic Cans::" class="lightTip" target="_blank" >[GAME][FREE] Shards of Magic Cans</a><div class="light-rss-item-desc"></div></li>
+        <li class="light-rss-itembox2 nomarginall title4">
+        <a href="http://www.droidgamers.com/forums/topic/9849-freegame-hannu-the-hunter/" title="[FREE][GAME] Hannu the Hunter::" class="lightTip" target="_blank" >[FREE][GAME] Hannu the Hunter</a><div class="light-rss-item-desc"></div></li>
+        <li class="light-rss-itembox2 nomarginall title4">
+        <a href="http://www.droidgamers.com/forums/topic/9848-free-shoujo-city-anime-dating-sim/" title="[FREE] Shoujo City - anime dating sim::" class="lightTip" target="_blank" >[FREE] Shoujo City - anime dating sim</a><div class="light-rss-item-desc"></div></li>
+        <li class="light-rss-itembox2 nomarginall title4">
+        <a href="http://www.droidgamers.com/forums/topic/9847-free-spell-gate-tower-defense/" title="[FREE] Spell Gate: Tower Defense::" class="lightTip" target="_blank" >[FREE] Spell Gate: Tower Defense</a><div class="light-rss-item-desc"></div></li>	</ul>
+</div>
+	                	</div>
+                	</div>
+           </div>
+	 			           <div class="rt-block box2 nomarginall title4">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="custombox2 nomarginall title4"  >
+	<center>
+<center><a href="https://play.google.com/store/apps/details?id=com.MatthewBurton.PipSpin"><img src="/images/banners/DroidGamersAdBanner.png"></a></center>
+</center></div>
+	                	</div>
+                	</div>
+           </div>
+	 			           <div class="rt-block box2 nomarginall title4">
+           	<div class="module-surround">
+	           				<div class="module-title">
+					<h2 class="title">Recent Comments</h2>			</div>
+	                		                	<div class="module-content">
+	                		
+
+<div class="custombox2 nomarginall title4"  >
+	<div id="recentcomments" class="dsq-widget">
+<script src="http://droidgamers.disqus.com/recent_comments_widget.js?num_items=5&amp;hide_avatars=0&amp;avatar_size=32&amp;excerpt_length=50" type="text/javascript"></script>
+</div></div>
+	                	</div>
+                	</div>
+           </div>
+	 			           <div class="rt-block box2 nomarginall title4">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="custombox2 nomarginall title4"  >
+	<p style="text-align: center;"><a href="http://www.dhgate.com/wholesale/android+phone.html"><img width="125" height="125" alt="best cheap android phone from DHgate" title="Get a good phone for games" src="http://www.dhresource.com/200x200/f2/albu/g3/M01/F9/39/rBVaHVYI96mAR7wgAAKGzaMacU8214.jpg"></a></p></div>
+	                	</div>
+                	</div>
+           </div>
+	
+                </div>
+            </div>
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+							</div>
+													</div>	
+																	</div>
+				</div>
+								<div id="rt-footer-surround">
+					<div class="rt-container">
+												<div id="rt-bottom">
+							<div class="rt-grid-12 rt-alpha rt-omega">
+     			           <div class="rt-block ">
+           	<div class="module-surround">
+	           		                	<div class="module-content">
+	                		
+
+<div class="custom"  >
+	<!-- PRNewswire Headline Widget Code Starts Here -->
+
+<style type="text/css">
+
+#prn_overrides a.headlinelink_prn{color:#FFFFFF;font-size:18px;line-height:1.44em;font-family:edmondsansmedium;}
+
+#prn_overrides a.headlinelink_prn:hover{color:#FFFFFF;}
+
+#prn_overrides a.bottomlinks_prn{color: #ffffff !important;background-color: #9BC241;background-image: none;text-shadow: -1px 1px 0 rgba(0,0,0,0.3);-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.35) inset;-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.35) inset;box-shadow: 0 1px 1px rgba(255, 255, 255, 0.35) inset;padding: 5px 12px;}
+
+#prn_overrides .bottom_prn{margin:5px;}
+
+</style>
+
+<div id="prn_overrides" style="width: 100%; overflow: auto; padding: 0px; overflow-x: hidden; margin: 0cm 0cm 0cm 0cm;" align="left"></div>
+
+<script type="text/javascript" src="http://widget.prnewswire.com/widget/widget.js?&rude=1&dir0,1&categories=ANDROID-APPS&industries=GAM&l=en&container=prn_overrides&preset=2&expandheight=1&vicon=1&showlogos=0&numvideos=1&numresults=7&numwords=10&widgettitle=&hlineorbrief=hline&bkgcolor=0A0A0A&rowcolor1=0A0A0A&rowcolor2=0A0A0A&bold=0&link=9BC241&visitedcolor=FFFFFF&textcolor=FFFFFF&datecolor=FFFFFF&fontface=edmondsansmedium&fontsize=10&getwidget=0&widgettitle=pr newswire&titlestyle=color%3A%20%23FFFFFF;font-family:edmondsansbold;font-size:23.8px;line-height: 1.43em;font-weight:normal;text-transform: uppercase;padding-bottom: 15px;border-bottom: 1px; solid; %239BC241%3B&p=http://www.droidgamers.com/index.php/game-news/prnewswire&"></script>
+
+<!-- PRNewswire Headlines Widget Code Ends Here --></div>
+	                	</div>
+                	</div>
+           </div>
+	
+</div>
+							<div class="clear"></div>
+						</div>
+									
+											</div>
+				</div>
+												<div id="rt-copyright">
+					<div class="rt-container">
+						<div class="rt-grid-12 rt-alpha rt-omega">
+    	<div class="clear"></div>
+	<div class="rt-block">
+		DroidGamers LLC 2010-2014	</div>
+	
+	<div class="clear"></div>
+	<div class="rt-totop">
+		<a href="#" id="gantry-totop" rel="nofollow"></a>
+	</div>
+	
+</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+						
+																						
+			</div>	
+						</div>		
+	</div>
+
+<!-- DG_Skin -->
+<div id="div-gpt-ad-1359529803807-3">
+  <script type='text/javascript'>
+    googletag.cmd.push(function() {
+      googletag.defineSlot('/5267893/DG_Skin', [1,1],'div-gpt-ad-1359529803807-3')
+        .addService(googletag.pubads());
+      googletag.enableServices();
+      googletag.display('div-gpt-ad-1359529803807-3');
+  });
+  </script>
+</div>
+
+</body>
+</html>

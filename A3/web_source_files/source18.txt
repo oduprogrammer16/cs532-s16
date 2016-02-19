@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7 not-logged-in "> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8 not-logged-in "> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9 not-logged-in "> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js not-logged-in "> <!--<![endif]-->
+    <head>
+        
+    <script type="text/javascript">window._timings = {"domLoading": Date.now()}</script>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>
+Instagram
+</title>
+
+        <script type="text/javascript">
+  WebFontConfig = {
+    custom: {
+      families: ['proxima-nova:n3,n4,n6,n7'],
+    }
+  };
+</script>
+<script src="//instagramstatic-a.akamaihd.net/h1/scripts/webfont.js/c0456c81549b.js" type="text/javascript" async></script>
+
+<style type="text/css">
+  /* @license
+   * MyFonts Webfont Build ID 2164953, 2012-03-23T23:06:30-0400
+   *
+   * The fonts listed in this notice are subject to the End User License
+   * Agreement(s) entered into by the website owner. All other parties are
+   * explicitly restricted from using the Licensed Webfonts(s).
+   *
+   * You may obtain a valid license at the URLs below.
+   *
+   *
+   * Webfont: Proxima Nova Light by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/light/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Regular by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Semibold by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/semibold/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Bold Italic by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold-it/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Bold by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Italic by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular-it/
+   * Licensed pageviews: unlimited
+   *
+   *
+   * License: http://www.myfonts.com/viewlicense?type=web&buildid=2164953
+   * Webfonts copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+   *
+   * (c) 2012 Bitstream Inc
+   */
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.eot/115b1f7f9c04.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.eot/115b1f7f9c04.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.woff/618250d25a4d.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.ttf/646346e03084.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.svg/e55a9d6051e8.svg#ProximaNovaBold') format("svg");
+    font-weight: bold;
+    font-style: normal; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.eot/1cbb869da891.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.eot/1cbb869da891.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.woff/b1cf049474c9.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.ttf/3adb020ceae3.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.svg/29948a2d3c58.svg#ProximaNovaBoldItalic') format("svg");
+    font-weight: bold;
+    font-style: italic; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.eot/12af77715cee.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.eot/12af77715cee.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.woff/a9a9773b8e29.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.ttf/99e19808976a.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.svg/c33d2fd56309.svg#ProximaNovaRegular') format("svg");
+    font-weight: normal;
+    font-style: normal; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.eot/1bbbd1312b0d.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.eot/1bbbd1312b0d.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.woff/9e306befca91.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.ttf/4a8663684135.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.svg/876278d4b189.svg#ProximaNovaRegularItalic') format("svg");
+    font-weight: normal;
+    font-style: italic; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.eot/5016edf79e1d.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.eot/5016edf79e1d.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.woff/615c1b06d8fa.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.ttf/2973bd483f7a.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.svg/868597833e49.svg#ProximaNovaSemibold') format("svg");
+    font-weight: 600;
+    font-style: normal; }
+</style>
+
+  <style type="text/css">
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.eot/63c84728610f.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.eot/63c84728610f.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.woff/66bbe029f180.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.ttf/eb408516399b.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.svg/858f6a9b7ef3.svg#ProximaNovaLight') format("svg");
+    font-weight: 300;
+    font-style: normal; }
+</style>
+
+
+        
+    
+        <meta name="robots" content="noimageindex">
+        
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+        
+    <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+
+        <script type="text/javascript">
+        (function() {
+            var docElement = document.documentElement;
+            var classRE = new RegExp('(^|\\s)no-js(\\s|$)');
+            var className = docElement.className;
+            docElement.className = className.replace(classRE, '$1js$2');
+        })();
+        </script>
+
+        
+    
+    
+    
+        <link rel="Shortcut Icon" type="image/x-icon" href="//instagramstatic-a.akamaihd.net/h1/images/ico/favicon.ico/7cdab0872b15.ico"><link rel="mask-icon" href="//instagramstatic-a.akamaihd.net/h1/images/ico/favicon.svg/dfde15ef1533.svg" color="#125688">
+    
+    
+        <link rel="apple-touch-icon-precomposed" href="//instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-precomposed.png/29d68fc587d7.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="//instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-72x72-precomposed.png/3f5e04d85488.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="//instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-114x114-precomposed.png/29d68fc587d7.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="//instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-144x144-precomposed.png/52fcc0fc09e4.png">
+    
+    
+    
+
+    
+    
+    <link rel="canonical" href="https://www.instagram.com/p/BBiM8ISr3l7/" />
+    <meta content="“Ê, Salvador! #TridentRocks &#10;Descansando porque hoje tem mais Camarote Salvador&#10;📷 @aredead”" name="description" />
+    <meta property="og:site_name" content="Instagram" />
+    <meta property="og:title" content="Gabriela Fadel on Instagram: “Ê, Salvador! #TridentRocks 
+Descansando porque hoje tem mais Camarote Salvador
+📷 @aredead”" />
+    <meta property="og:image" content="https://scontent.cdninstagram.com/t51.2885-15/e35/12558516_554972251319382_367922663_n.jpg?ig_cache_key=MTE4MDU2Mjk2MDk1NDY1MzA1MQ%3D%3D.2" />
+    <meta property="og:description" content="“Ê, Salvador! #TridentRocks 
+Descansando porque hoje tem mais Camarote Salvador
+📷 @aredead”" />
+    <meta property="fb:app_id" content="124024574287414" />
+    <meta property="og:url" content="https://www.instagram.com/p/BBiM8ISr3l7/" />
+    <meta property="instapp:owner_user_id" content="28323037" />
+    <meta property="al:ios:app_name" content="Instagram" />
+    <meta property="al:ios:app_store_id" content="389801252" />
+    <meta property="al:ios:url" content="instagram://media?id=1180562960954653051" />
+    <meta property="al:android:app_name" content="Instagram" />
+    <meta property="al:android:package" content="com.instagram.android" />
+    <meta property="al:android:url" content="https://www.instagram.com/p/BBiM8ISr3l7/" />
+    
+    <meta name="medium" content="image" />
+    <meta property="og:type" content="instapp:photo" />
+    <meta content="tridentrocks" property="instapp:hashtags" />
+
+    <link rel="alternate" href="android-app://com.instagram.android/https/instagram.com/p/BBiM8ISr3l7/" />
+    
+    <link href="https://www.instagram.com/p/BBiM8ISr3l7/" rel="alternate" hreflang="x-default" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=el" rel="alternate" hreflang="el" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=gu" rel="alternate" hreflang="gu" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=en" rel="alternate" hreflang="en" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=af" rel="alternate" hreflang="af" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=vi" rel="alternate" hreflang="vi" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=it" rel="alternate" hreflang="it" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=kn" rel="alternate" hreflang="kn" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=pt-br" rel="alternate" hreflang="pt-br" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=cs" rel="alternate" hreflang="cs" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=id" rel="alternate" hreflang="id" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=es" rel="alternate" hreflang="es" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=ru" rel="alternate" hreflang="ru" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=nl" rel="alternate" hreflang="nl" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=pt" rel="alternate" hreflang="pt" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=zh-tw" rel="alternate" hreflang="zh-tw" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=nb" rel="alternate" hreflang="nb" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=tr" rel="alternate" hreflang="tr" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=ne" rel="alternate" hreflang="ne" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=zh-cn" rel="alternate" hreflang="zh-cn" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=tl" rel="alternate" hreflang="tl" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=pa" rel="alternate" hreflang="pa" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=th" rel="alternate" hreflang="th" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=te" rel="alternate" hreflang="te" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=pl" rel="alternate" hreflang="pl" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=ta" rel="alternate" hreflang="ta" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=fr" rel="alternate" hreflang="fr" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=hr" rel="alternate" hreflang="hr" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=bn" rel="alternate" hreflang="bn" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=de" rel="alternate" hreflang="de" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=da" rel="alternate" hreflang="da" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=hi" rel="alternate" hreflang="hi" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=fi" rel="alternate" hreflang="fi" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=hu" rel="alternate" hreflang="hu" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=ja" rel="alternate" hreflang="ja" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=ml" rel="alternate" hreflang="ml" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=ko" rel="alternate" hreflang="ko" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=sv" rel="alternate" hreflang="sv" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=ur" rel="alternate" hreflang="ur" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=sk" rel="alternate" hreflang="sk" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=si" rel="alternate" hreflang="si" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=ms" rel="alternate" hreflang="ms" />
+<link href="https://www.instagram.com/p/BBiM8ISr3l7/?hl=mr" rel="alternate" hreflang="mr" />
+    
+
+    </head>
+    <body class="">
+        
+    
+    <span id="react-root"></span>
+
+    
+
+        
+    <script src=//instagramstatic-a.akamaihd.net/h1/scripts/polyfills/es5-shim.min.js/6514c5e08593.js></script>
+<script src=//instagramstatic-a.akamaihd.net/h1/scripts/polyfills/es5-sham.min.js/fc3c22cf2d67.js></script>
+<script type="text/javascript">window._sharedData = {"country_code":"US","language_code":"en","gatekeepers":{"rhp":true},"qs":"{\"shift\":10,\"header\":\"RmqUChtjBvvDjFmkjc6393h1jdX9hsRx\",\"edges\":100,\"blob\":\"AQCLyi5fLABKfzCdq6q6h38tk54fqp6nsI387xkvswe_vkgzorp241_-hb69MqUNqZGXZnfRPrYHRTvxPPbTdqs33_6DfozRUF_xOK25rMdstgSvATx8k2IeVq3V3ban_QCKiRNubEFkhpt9h12L09EITV_mq60sRznTXxYaynIovcW0i9W8XpTbQlUUIDIz5T2ovYybIsckqynL9Lfs0OwqIFuQWJjeyXnuwhqMkNfBvg\",\"iterations\":7,\"size\":42}","static_root":"\/\/instagramstatic-a.akamaihd.net\/bluebar\/b2908ed","platform":"web","hostname":"www.instagram.com","entry_data":{"PostPage":[{"media":{"code":"BBiM8ISr3l7","date":1454954093.0,"dimensions":{"width":1080,"height":1080},"usertags":{"nodes":[{"y":0.0728888735,"x":0.0653594807,"user":{"username":"trident_brasil"}},{"y":0.3706666667,"x":0.0657777507,"user":{"username":"aredead"}}]},"comments":{"count":58,"page_info":{"has_previous_page":true,"start_cursor":"1180565809063229854","end_cursor":"1181147340202801449","has_next_page":false},"nodes":[{"text":"T\u00e1 Linda sua linda","created_at":1454954433.0,"id":"1180565809063229854","user":{"username":"leninha_bortone","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12534090_1694242474180788_1568636886_a.jpg","id":"1190855876"}},{"text":"\ud83d\udc4d\ud83d\udc97","created_at":1454954440.0,"id":"1180565872321722787","user":{"username":"leninha_bortone","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12534090_1694242474180788_1568636886_a.jpg","id":"1190855876"}},{"text":"Pftaaaaa \u2764\ufe0f","created_at":1454954455.0,"id":"1180565999845341616","user":{"username":"leticiaqzx","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12628050_1651937071733217_1924747767_a.jpg","id":"352832072"}},{"text":"Linda, mas \u00e9 descansando","created_at":1454954474.0,"id":"1180566152769665462","user":{"username":"julia_fontana_17","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12317861_497637020397221_1358227256_a.jpg","id":"2065218389"}},{"text":"Lindaaaaa!!! Xonei\ud83d\ude0d\ud83d\ude48\u2764","created_at":1454954499.0,"id":"1180566362518419912","user":{"username":"larissachien","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12547500_480128935507725_1076827070_a.jpg","id":"1742539521"}},{"text":"Cara, c ta com uma cole\u00e7ao de biknis\/maios I n c r i v e i s ! \u2764","created_at":1454954774.0,"id":"1180568670073485956","user":{"username":"anabwho","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11375851_723186531147929_660870348_a.jpg","id":"1217545311"}},{"text":"Amo seu cabelo guria! \ud83d\udc95","created_at":1454954811.0,"id":"1180568981785770645","user":{"username":"heytherejanis","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12393702_1559363151053742_1429235420_a.jpg","id":"188977197"}},{"text":"Promete que nunca vai descolorir o cabelo ???","created_at":1454954868.0,"id":"1180569460750121666","user":{"username":"glorinhag8","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/10945282_726465950830065_1624994339_a.jpg","id":"2015926361"}},{"text":"Olhem meu \u00faltimo v\u00eddeo do canal! L\u00e1 falo de tudo! J\u00e1 falei da K\u00e9fera tamb\u00e9m! Link na bio","created_at":1454954930.0,"id":"1180569982580259561","user":{"username":"victor_hugooliveira","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12501976_1029674920427481_1495206212_a.jpg","id":"196197953"}},{"text":"Linda","created_at":1454955047.0,"id":"1180570962076072754","user":{"username":"rafaelalazarone","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12547432_849322705213192_1343887251_a.jpg","id":"2289468299"}},{"text":"Gata, por\u00e9m \u00e9 *\"Descansando\"*","created_at":1454955088.0,"id":"1180571309926480713","user":{"username":"beasantosc","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12725183_532672106896668_712092597_a.jpg","id":"345713097"}},{"text":"@glorinhag8 @leticiaqzx @victor_hugooliveira @heytherejanis @julia_fontana_17 @anabwho @larissachien @leninha_bortone @beasantosc @rafaelalazarone olhem meu canal","created_at":1454955176.0,"id":"1180572047402564482","user":{"username":"igor_cesar_","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12479574_727193524084162_1175851405_a.jpg","id":"1770101844"}},{"text":"Descansando* meu amor \ud83d\ude0d\ud83d\udc93\ud83d\udc93","created_at":1454955337.0,"id":"1180573394520734677","user":{"username":"amand_fulanetto","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12750180_991458824281946_33137346_a.jpg","id":"824121993"}},{"text":"Rainha dos unicornios!!! \ud83d\udc96","created_at":1454955402.0,"id":"1180573945467729928","user":{"username":"_rafaellalexandra_","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12724812_165543100488536_1228467381_a.jpg","id":"2021856762"}},{"text":"Ta maravilhosa \ud83d\udc51 *descansando","created_at":1454955437.0,"id":"1180574231989024810","user":{"username":"viishbela","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12501975_451056871752879_22310584_a.jpg","id":"645803739"}},{"text":"Linda \ud83d\udc97","created_at":1454955487.0,"id":"1180574653441079377","user":{"username":"thiiimoore","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/918120_1502801530025343_824749306_a.jpg","id":"470898940"}},{"text":"\ud83d\udc4f\ud83d\udc4f","created_at":1454955647.0,"id":"1180575996029401278","user":{"username":"marianadssantos","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12383564_554939441341843_1471185600_a.jpg","id":"890551280"}},{"text":"Fiu fiu \ud83d\udc4f\ud83d\udc4f\ud83d\udc4f\ud83d\udc4f","created_at":1454955706.0,"id":"1180576495688448233","user":{"username":"thaiismelllo","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12547612_514897005337688_1138212206_a.jpg","id":"30725748"}},{"text":"Maravilhosa","created_at":1454956191.0,"id":"1180580561294424607","user":{"username":"tumblrlindas","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/10549679_1037628166278548_1466925816_a.jpg","id":"2028535594"}},{"text":"Linda","created_at":1454956450.0,"id":"1180582731410537161","user":{"username":"lina_martinezt","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12479470_531792733665535_1354609544_a.jpg","id":"810500299"}},{"text":"Lindonaaaaa","created_at":1454956666.0,"id":"1180584542133517157","user":{"username":"oopsluba","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12677668_1696598187221644_951617144_a.jpg","id":"1777049934"}},{"text":"Viish Gabbie \ud83d\ude02","created_at":1454957143.0,"id":"1180588543063324826","user":{"username":"sophia.ofr","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12717001_1501804030129137_532617260_a.jpg","id":"1604560528"}},{"text":"lindos esses seus biquinis!!","created_at":1454957331.0,"id":"1180590123980388646","user":{"username":"dedah_mend","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12558749_834732026652393_1351063491_a.jpg","id":"613441982"}},{"text":"Tchamo sua gata gostosonas \ud83d\udc99\ud83d\udc99\ud83d\udc99","created_at":1454957548.0,"id":"1180591943234583007","user":{"username":"mahh_lele","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/12729652_829257833864195_2038838153_a.jpg","id":"1939716060"}},{"text":"Perfeita\u2764\ud83d\udcadE o Lubisco?","created_at":1454957861.0,"id":"1180594565790268099","user":{"username":"analaura_flora","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12501929_1715367722083291_819005451_a.jpg","id":"1922583156"}},{"text":"Arrasou","created_at":1454959747.0,"id":"1180610386897893463","user":{"username":"heyvanym","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/10724035_1475205252767312_1557866286_a.jpg","id":"527363297"}},{"text":"Gata","created_at":1454961168.0,"id":"1180622311924922441","user":{"username":"jadelaverne","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12353192_100974303614163_98570681_a.jpg","id":"55712255"}},{"text":"Lindaaa \ud83d\udc95","created_at":1454966174.0,"id":"1180664303501408290","user":{"username":"tatybalk","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12556025_999231216811047_379845831_a.jpg","id":"2915909358"}},{"text":"Linda \ud83c\udf80\ud83d\udc9c","created_at":1454966971.0,"id":"1180670987309382260","user":{"username":"lunabandeira_oficial","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12599251_575305815979464_900136841_a.jpg","id":"430959088"}},{"text":"MARAVILHOSA","created_at":1454968010.0,"id":"1180679708626352392","user":{"username":"antoniogabriiel_","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11356454_705935839510286_769852429_a.jpg","id":"19032507"}},{"text":"ARRASA","created_at":1454968014.0,"id":"1180679734865918220","user":{"username":"antoniogabriiel_","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11356454_705935839510286_769852429_a.jpg","id":"19032507"}},{"text":"Algu\u00e9m quer entrar em um grupo sobre youtubers no whats? Manda o n\u00famero no direct \ud83c\udf08\ud83d\udc9e","created_at":1454970257.0,"id":"1180698555664267940","user":{"username":"mariaaeds","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12751075_1260856233940946_2023475083_a.jpg","id":"457125134"}},{"text":"Vamooo kasaaa","created_at":1454971918.0,"id":"1180712491541297778","user":{"username":"viyamamoto_","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/10985975_1633820700225166_1718736837_a.jpg","id":"539254726"}},{"text":"Modelooo\ud83d\ude0d\ud83d\ude0d\ud83d\ude0d\ud83d\udc95","created_at":1454971975.0,"id":"1180712967829682839","user":{"username":"isaarw","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12558326_576672759154239_154728757_a.jpg","id":"425102362"}},{"text":"Humilhaaaaa\ud83d\ude02\ud83d\ude0d\ud83d\ude0d\ud83d\ude0d\ud83d\ude0d gata d+","created_at":1454983900.0,"id":"1180813003582306469","user":{"username":"maricota_leme","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11909947_541102172711918_334002263_a.jpg","id":"806439418"}},{"text":"\ud83d\ude0d","created_at":1454984733.0,"id":"1180819984305060571","user":{"username":"divasandthecity","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11925849_1766274400266315_1615323907_a.jpg","id":"10628556"}},{"text":"Gabbie divando \ud83d\udc51","created_at":1454986195.0,"id":"1180832253919328853","user":{"username":"brendalet_rodrigues","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12558564_219145385099037_1247914315_a.jpg","id":"2312483077"}},{"text":"Linda","created_at":1455009404.0,"id":"1181026940240231180","user":{"username":"line_rihanna2","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12547234_1748303562066603_832499723_a.jpg","id":"2027271353"}},{"text":"DIVA!!!1","created_at":1455023752.0,"id":"1181147301682313509","user":{"username":"lala_fps","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12728573_516586491877298_678035276_a.jpg","id":"2281079752"}},{"text":"Sortuda!","created_at":1455023756.0,"id":"1181147340202801449","user":{"username":"lala_fps","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12728573_516586491877298_678035276_a.jpg","id":"2281079752"}}]},"id":"1180562960954653051","caption":"\u00ca, Salvador! #TridentRocks \nDescansando porque hoje tem mais Camarote Salvador\n\ud83d\udcf7 @aredead","likes":{"count":12257,"viewer_has_liked":false,"nodes":[{"user":{"username":"luizakitazawa","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12749781_1063829013638023_915319574_a.jpg","id":"2930601573"}},{"user":{"username":"vitoriapoi","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12716554_895932383838564_261667710_a.jpg","id":"2928424435"}},{"user":{"username":"fernanda_correa_langer","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12677628_1882104002015853_1355368953_a.jpg","id":"2944247473"}},{"user":{"username":"maah_lopes13","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12717020_437528349776459_974486907_a.jpg","id":"2929418706"}},{"user":{"username":"tata._com","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12627885_1556932844624068_1668257596_a.jpg","id":"2928111891"}},{"user":{"username":"correalimaaline","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12728706_1156655327699310_1562452187_a.jpg","id":"2927920568"}},{"user":{"username":"blackkunicorns","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12531009_481511338699382_529073276_a.jpg","id":"2931021785"}},{"user":{"username":"_ajotajota","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12627819_1691020207781008_1228323983_a.jpg","id":"2928563451"}},{"user":{"username":"elaineiarade","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12728464_1560459764265022_210804394_a.jpg","id":"2944912285"}},{"user":{"username":"luablanco4ever","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12716766_669366149872185_238337872_a.jpg","id":"2931091518"}}]},"owner":{"username":"gabbiefadel","is_unpublished":false,"requested_by_viewer":false,"followed_by_viewer":false,"blocked_by_viewer":false,"profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12716597_959963104057702_881412297_a.jpg","full_name":"Gabriela Fadel","has_blocked_viewer":false,"id":"28323037","is_private":false},"is_video":false,"is_ad":false,"display_src":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/e35\/12558516_554972251319382_367922663_n.jpg?ig_cache_key=MTE4MDU2Mjk2MDk1NDY1MzA1MQ%3D%3D.2","location":{"has_public_page":true,"id":"261891","name":"Catussaba Resort Hotel"}}}]},"qe":{"nav":{"p":{},"g":""},"su":{"p":{"enabled":"false"},"g":"control"},"discovery":{"p":{},"g":""}},"display_properties_server_guess":{"viewport_width":360,"pixel_ratio":1.5},"config":{"viewer":null,"csrf_token":"0b25677a0a48f5d532532c763a7c44a7"},"environment_switcher_visible_server_guess":true};</script>
+<script src="//instagramstatic-a.akamaihd.net/h1/bundles/en_US_Commons.js/3c52a0a63b2c.js" type="text/javascript"></script>
+<script src="//instagramstatic-a.akamaihd.net/h1/bundles/en_US_PostPage.js/8fcc50bee964.js" type="text/javascript"></script>
+        
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1425767024389221');
+fbq('track', 'PageView');
+
+
+</script>
+<noscript>
+
+
+</noscript>
+
+    
+    <script type="text/javascript">window._timings.domInteractive = Date.now()</script>
+
+    </body>
+</html>

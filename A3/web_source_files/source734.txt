@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7 not-logged-in "> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8 not-logged-in "> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9 not-logged-in "> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js not-logged-in "> <!--<![endif]-->
+    <head>
+        
+    <script type="text/javascript">window._timings = {"domLoading": Date.now()}</script>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>
+Instagram
+</title>
+
+        <script type="text/javascript">
+  WebFontConfig = {
+    custom: {
+      families: ['proxima-nova:n3,n4,n6,n7'],
+    }
+  };
+</script>
+<script src="//instagramstatic-a.akamaihd.net/h1/scripts/webfont.js/c0456c81549b.js" type="text/javascript" async></script>
+
+<style type="text/css">
+  /* @license
+   * MyFonts Webfont Build ID 2164953, 2012-03-23T23:06:30-0400
+   *
+   * The fonts listed in this notice are subject to the End User License
+   * Agreement(s) entered into by the website owner. All other parties are
+   * explicitly restricted from using the Licensed Webfonts(s).
+   *
+   * You may obtain a valid license at the URLs below.
+   *
+   *
+   * Webfont: Proxima Nova Light by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/light/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Regular by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Semibold by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/semibold/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Bold Italic by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold-it/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Bold by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Italic by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular-it/
+   * Licensed pageviews: unlimited
+   *
+   *
+   * License: http://www.myfonts.com/viewlicense?type=web&buildid=2164953
+   * Webfonts copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+   *
+   * (c) 2012 Bitstream Inc
+   */
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.eot/115b1f7f9c04.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.eot/115b1f7f9c04.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.woff/618250d25a4d.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.ttf/646346e03084.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.svg/e55a9d6051e8.svg#ProximaNovaBold') format("svg");
+    font-weight: bold;
+    font-style: normal; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.eot/1cbb869da891.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.eot/1cbb869da891.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.woff/b1cf049474c9.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.ttf/3adb020ceae3.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.svg/29948a2d3c58.svg#ProximaNovaBoldItalic') format("svg");
+    font-weight: bold;
+    font-style: italic; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.eot/12af77715cee.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.eot/12af77715cee.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.woff/a9a9773b8e29.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.ttf/99e19808976a.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.svg/c33d2fd56309.svg#ProximaNovaRegular') format("svg");
+    font-weight: normal;
+    font-style: normal; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.eot/1bbbd1312b0d.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.eot/1bbbd1312b0d.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.woff/9e306befca91.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.ttf/4a8663684135.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.svg/876278d4b189.svg#ProximaNovaRegularItalic') format("svg");
+    font-weight: normal;
+    font-style: italic; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.eot/5016edf79e1d.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.eot/5016edf79e1d.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.woff/615c1b06d8fa.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.ttf/2973bd483f7a.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.svg/868597833e49.svg#ProximaNovaSemibold') format("svg");
+    font-weight: 600;
+    font-style: normal; }
+</style>
+
+  <style type="text/css">
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.eot/63c84728610f.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.eot/63c84728610f.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.woff/66bbe029f180.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.ttf/eb408516399b.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.svg/858f6a9b7ef3.svg#ProximaNovaLight') format("svg");
+    font-weight: 300;
+    font-style: normal; }
+</style>
+
+
+        
+    
+        <meta name="robots" content="noimageindex">
+        
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+        
+    <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+
+        <script type="text/javascript">
+        (function() {
+            var docElement = document.documentElement;
+            var classRE = new RegExp('(^|\\s)no-js(\\s|$)');
+            var className = docElement.className;
+            docElement.className = className.replace(classRE, '$1js$2');
+        })();
+        </script>
+
+        
+    
+    
+    
+        <link rel="Shortcut Icon" type="image/x-icon" href="//instagramstatic-a.akamaihd.net/h1/images/ico/favicon.ico/7cdab0872b15.ico"><link rel="mask-icon" href="//instagramstatic-a.akamaihd.net/h1/images/ico/favicon.svg/dfde15ef1533.svg" color="#125688">
+    
+    
+        <link rel="apple-touch-icon-precomposed" href="//instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-precomposed.png/29d68fc587d7.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="//instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-72x72-precomposed.png/3f5e04d85488.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="//instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-114x114-precomposed.png/29d68fc587d7.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="//instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-144x144-precomposed.png/52fcc0fc09e4.png">
+    
+    
+    
+
+    
+    
+    <link rel="canonical" href="https://www.instagram.com/p/BBiM2jAxqT_/" />
+    <meta content="“Friday night 👌🏻 #town”" name="description" />
+    <meta property="og:site_name" content="Instagram" />
+    <meta property="og:title" content="Kyle on Instagram: “Friday night 👌🏻 #town”" />
+    <meta property="og:image" content="https://scontent.cdninstagram.com/t51.2885-15/e35/12558323_1279189652096617_1685410678_n.jpg?ig_cache_key=MTE4MDU2MjU3NzMyODM1MDQ2Mw%3D%3D.2" />
+    <meta property="og:description" content="“Friday night 👌🏻 #town”" />
+    <meta property="fb:app_id" content="124024574287414" />
+    <meta property="og:url" content="https://www.instagram.com/p/BBiM2jAxqT_/" />
+    <meta property="instapp:owner_user_id" content="193664520" />
+    <meta property="al:ios:app_name" content="Instagram" />
+    <meta property="al:ios:app_store_id" content="389801252" />
+    <meta property="al:ios:url" content="instagram://media?id=1180562577328350463" />
+    <meta property="al:android:app_name" content="Instagram" />
+    <meta property="al:android:package" content="com.instagram.android" />
+    <meta property="al:android:url" content="https://www.instagram.com/p/BBiM2jAxqT_/" />
+    
+    <meta name="medium" content="image" />
+    <meta property="og:type" content="instapp:photo" />
+    <meta content="town" property="instapp:hashtags" />
+
+    <link rel="alternate" href="android-app://com.instagram.android/https/instagram.com/p/BBiM2jAxqT_/" />
+    
+    <link href="https://www.instagram.com/p/BBiM2jAxqT_/" rel="alternate" hreflang="x-default" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=el" rel="alternate" hreflang="el" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=gu" rel="alternate" hreflang="gu" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=en" rel="alternate" hreflang="en" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=af" rel="alternate" hreflang="af" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=vi" rel="alternate" hreflang="vi" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=it" rel="alternate" hreflang="it" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=kn" rel="alternate" hreflang="kn" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=pt-br" rel="alternate" hreflang="pt-br" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=cs" rel="alternate" hreflang="cs" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=id" rel="alternate" hreflang="id" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=es" rel="alternate" hreflang="es" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=ru" rel="alternate" hreflang="ru" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=nl" rel="alternate" hreflang="nl" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=pt" rel="alternate" hreflang="pt" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=zh-tw" rel="alternate" hreflang="zh-tw" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=nb" rel="alternate" hreflang="nb" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=tr" rel="alternate" hreflang="tr" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=ne" rel="alternate" hreflang="ne" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=zh-cn" rel="alternate" hreflang="zh-cn" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=tl" rel="alternate" hreflang="tl" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=pa" rel="alternate" hreflang="pa" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=th" rel="alternate" hreflang="th" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=te" rel="alternate" hreflang="te" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=pl" rel="alternate" hreflang="pl" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=ta" rel="alternate" hreflang="ta" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=fr" rel="alternate" hreflang="fr" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=hr" rel="alternate" hreflang="hr" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=bn" rel="alternate" hreflang="bn" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=de" rel="alternate" hreflang="de" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=da" rel="alternate" hreflang="da" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=hi" rel="alternate" hreflang="hi" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=fi" rel="alternate" hreflang="fi" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=hu" rel="alternate" hreflang="hu" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=ja" rel="alternate" hreflang="ja" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=ml" rel="alternate" hreflang="ml" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=ko" rel="alternate" hreflang="ko" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=sv" rel="alternate" hreflang="sv" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=ur" rel="alternate" hreflang="ur" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=sk" rel="alternate" hreflang="sk" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=si" rel="alternate" hreflang="si" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=ms" rel="alternate" hreflang="ms" />
+<link href="https://www.instagram.com/p/BBiM2jAxqT_/?hl=mr" rel="alternate" hreflang="mr" />
+    
+
+    </head>
+    <body class="">
+        
+    
+    <span id="react-root"></span>
+
+    
+
+        
+    <script src=//instagramstatic-a.akamaihd.net/h1/scripts/polyfills/es5-shim.min.js/6514c5e08593.js></script>
+<script src=//instagramstatic-a.akamaihd.net/h1/scripts/polyfills/es5-sham.min.js/fc3c22cf2d67.js></script>
+<script type="text/javascript">window._sharedData = {"country_code":"US","language_code":"en","gatekeepers":{"rhp":true},"qs":"{\"shift\":10,\"header\":\"kGNdJPAGizLHwEYM6i9GIyqvkz9uJVzz\",\"edges\":100,\"blob\":\"AQBhj-qWa9gDgrQTTf8nVfwya5ygMmmKtUduQiWiDalKelhj46bo39I9vWNTC8mkErPcHhllWQlK7YEgGowbJyxb7c6dsMI76aFen7RVDXdBQdEDIKC9Xq84IwGu6FND-2KDNHxQp9GECpJn7xoquQIvDmKKNFfJqTraLN-jtgmYgtyM4EHtqaYvdff4HmectOnfIUaiwdjobpi_X4unkLTkGwexymD7joaeV-d5macbjw\",\"iterations\":7,\"size\":42}","static_root":"\/\/instagramstatic-a.akamaihd.net\/bluebar\/b2908ed","platform":"web","hostname":"www.instagram.com","entry_data":{"PostPage":[{"media":{"code":"BBiM2jAxqT_","date":1454954047.0,"dimensions":{"width":750,"height":750},"usertags":{"nodes":[{"y":0.66,"x":0.276,"user":{"username":"johnpollitt"}},{"y":0.3186666667,"x":0.5853333333,"user":{"username":"jamiejalil"}},{"y":0.556,"x":0.476,"user":{"username":"joshuaacrane"}}]},"comments":{"count":0,"page_info":{"has_previous_page":false,"start_cursor":null,"end_cursor":null,"has_next_page":false},"nodes":[]},"id":"1180562577328350463","caption":"Friday night \ud83d\udc4c\ud83c\udffb #town","likes":{"count":17,"viewer_has_liked":false,"nodes":[{"user":{"username":"joshuaacrane","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11375770_1144504935566758_1021915958_a.jpg","id":"1431933457"}},{"user":{"username":"sophie_humphreys7","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12107489_1060557837328946_1644165075_a.jpg","id":"514981935"}},{"user":{"username":"jamiejalil","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11176242_812691285447274_331722612_a.jpg","id":"1106541105"}},{"user":{"username":"sam_barr0w","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12357722_421247431403808_1786821813_a.jpg","id":"1121676244"}},{"user":{"username":"stesmith11","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11324466_511473219019066_669521655_a.jpg","id":"1549238134"}},{"user":{"username":"ameliaarthur29","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12237137_983724308333238_1369315415_a.jpg","id":"1252089688"}},{"user":{"username":"sammybarness","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12628019_949629501750776_161303005_a.jpg","id":"1522167060"}},{"user":{"username":"bethanlaurenxx","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/916515_107923529587822_1464886079_a.jpg","id":"496864156"}},{"user":{"username":"abbieboultonx","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12568244_955203714565273_1261478510_a.jpg","id":"529713885"}},{"user":{"username":"_caitlin_sheridan_","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12523611_230689777267808_1884468376_a.jpg","id":"857094047"}}]},"owner":{"username":"kyleeeboyd","is_unpublished":false,"requested_by_viewer":false,"followed_by_viewer":false,"blocked_by_viewer":false,"profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/10903346_736578133095376_1724345866_a.jpg","full_name":"Kyle","has_blocked_viewer":false,"id":"193664520","is_private":false},"is_video":false,"is_ad":false,"display_src":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/e35\/12558323_1279189652096617_1685410678_n.jpg?ig_cache_key=MTE4MDU2MjU3NzMyODM1MDQ2Mw%3D%3D.2","location":null}}]},"qe":{"nav":{"p":{},"g":""},"su":{"p":{"enabled":"false"},"g":"control"},"discovery":{"p":{},"g":""}},"display_properties_server_guess":{"viewport_width":360,"pixel_ratio":1.5},"config":{"viewer":null,"csrf_token":"a051bc1329ca54e0a7801464fe5beea2"},"environment_switcher_visible_server_guess":true};</script>
+<script src="//instagramstatic-a.akamaihd.net/h1/bundles/en_US_Commons.js/3c52a0a63b2c.js" type="text/javascript"></script>
+<script src="//instagramstatic-a.akamaihd.net/h1/bundles/en_US_PostPage.js/8fcc50bee964.js" type="text/javascript"></script>
+        
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1425767024389221');
+fbq('track', 'PageView');
+
+
+</script>
+<noscript>
+
+
+</noscript>
+
+    
+    <script type="text/javascript">window._timings.domInteractive = Date.now()</script>
+
+    </body>
+</html>

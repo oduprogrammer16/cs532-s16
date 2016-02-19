@@ -1,0 +1,2663 @@
+<!doctype html>
+<!--[if IE 8]><html class="lt-ie10 lt-ie9" lang="en"><![endif]-->
+<!--[if IE 9]><html class="lt-ie10" lang="en"><![endif]-->
+<!--[if gt IE 9]><!--><html><!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="Cloud, Services, Cloud, Integrations">
+    <meta name="description" content="Join the Informatica Cloud product team to see the new Informatica Cloud platform in action and find out what&#039;s new in the Winter Release of Informatica Cloud and explore all the key capabilities. The Winter release of the Informatica Cloud is packed with...">
+    <meta name="robots" content="index, follow">
+    <meta name="brighttalk-page-name" content="webcast">
+    <meta name="viewport" content="initial-scale=1,minimum-scale=1,maximum-scale=1">
+    <title>Informatica Cloud Winter 2016</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+<!--[if lt IE 9]>
+<script src="/resources/vendor/html5shiv/js/html5shiv.js?v=105248"></script>
+<![endif]-->
+
+                        <link type='text/css' rel='stylesheet' href="/compiled/css/responsive-base.css?v=105248">
+    
+    <link type='text/css' rel='stylesheet' href="/compiled/css/player-bundle/layout.css?v=105248">
+
+    <!--[if lte IE 9]>
+<link rel="shortcut icon" href="/resources/images/favicons/favicon.ico">
+<![endif]-->
+
+<link rel="icon" href="/resources/images/favicons/favicon.ico">
+<link rel="icon" type="image/png" href="/resources/images/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/resources/images/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/resources/images/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/resources/images/favicons/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/resources/images/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/resources/images/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/resources/images/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/resources/images/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/resources/images/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/resources/images/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/resources/images/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/resources/images/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/resources/images/favicons/apple-touch-icon-180x180.png">
+
+<link rel="manifest" href="/resources/images/favicons/manifest.json">
+<meta name="theme-color" content="#ffffff">
+<meta name="msapplication-config" content="/resources/images/favicons/browserconfig.xml"/>
+
+        
+    <link rel="canonical" href="https://www.brighttalk.com/webcast/10477/191247/informatica-cloud-winter-2016">
+            <link rel="image_src" type="image/png" href="https://www.brighttalk.com/communication/191247/preview_1455126936.png">
+    
+                                <script class="optimizely-tag" src="//cdn.optimizely.com/js/1717330256.js"></script>
+            
+        
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@BrightTALK">
+    <meta property="twitter:title" content="Informatica Cloud Winter 2016">
+    <meta property="twitter:description" content="Join the Informatica Cloud product team to see the new Informatica Cloud platform in action and find out what&#039;s new in the Winter Release of Informatica Cloud and explore all the key capabilities. 
+Th...">
+            <meta property="twitter:image:src" content="https://www.brighttalk.com/communication/191247/preview_1455126936.png">
+        <meta property="og:image" content="https://www.brighttalk.com/communication/191247/preview_1455126936.png">
+    </head>
+
+<body data-ng-app="BTApp" data-ng-controller="Main" data-ng-init="init()" data-ng-class="{'user-logged-in': session.initialized && session.user}">
+
+<!-- Google Tag Manager -->
+<noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WL9H26"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+                '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WL9H26');</script>
+<!-- End Google Tag Manager -->
+
+    <div data-snap-drawer="left" class="burger-menu-snap-drawer">
+        <form id="burgerMenuSearchForm" class="burger-menu-search-form" action="/search" method="get">
+    <div class="input-group input-group-search">
+        <input type="text" name="q" class="search-form-term input-group-input" id="burgerMenuSearchField" placeholder="Find free videos and webinars">
+        <button type="submit" class="burger-menu-search-form-submit input-group-icon">
+            <i class="icon-search"></i>
+        </button>
+    </div>
+</form>
+
+<ul class="burger-menu">
+    <li><a href="/webcasts" class="burger-menu-link all-brighttalk-webcasts-link">All BrightTALK</a></li>
+    <li><a href="/business-management" class="burger-menu-link business-management-parent-community-link">Business Management</a></li>
+    <li><a href="/finance" class="burger-menu-link finance-parent-community-link">Finance</a></li>
+    <li><a href="/human-resources" class="burger-menu-link human-resources-parent-community-link">Human Resources</a></li>
+    <li><a href="/information-technology" class="burger-menu-link it-parent-community-link">Information Technology</a></li>
+    <li><a href="/legal" class="burger-menu-link legal-parent-community-link">Legal</a></li>
+    <li><a href="/marketing" class="burger-menu-link marketing-parent-community-link">Marketing</a></li>
+    <li><a href="/research-development" class="burger-menu-link research-development-parent-community-link">Research &amp; Development</a></li>
+    <li><a href="/sales" class="burger-menu-link sales-parent-community-link">Sales</a></li>
+</ul>
+    </div>
+
+    <div data-snap-drawer="right" class="mobile-profile-menu-snap-drawer">
+        <div class="mobile-profile-menu" data-snap-close-on-user-image-upload>
+    <span class="profile-menu-user-name">Hi  [[ session.user.profile.firstName ]]</span>
+<ul class="profile-menu-options">
+    <li class="profile-menu-option profile-menu-manage-option" data-ng-show="session.initialized && session.user.isManager">
+        <a class="profile-menu-option-link profile-menu-manager-option-link" href="/admin/channel?utm_campaign=profile-dropdown-menu&amp;utm_content=Manage&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+            <span class="profile-menu-option-link-text">Manage</span>
+        </a>
+    </li>
+    <li class="profile-menu-option profile-menu-channels-i-own-option" data-ng-show="session.initialized && session.user.isChannelOwner">
+        <a class="profile-menu-option-link profile-menu-channels-i-own-option-link" href="/mybrighttalk/own-channels?utm_campaign=profile-dropdown-menu&amp;utm_content=channels+I+own&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+            <span class="profile-menu-option-link-text">Channels I own</span>
+        </a>
+    </li>
+    <li class="profile-menu-option">
+        <a class="profile-menu-option-link profile-menu-knowledge-feed-link" href="/mybrighttalk/knowledge-feed?utm_campaign=profile-dropdown-menu&amp;utm_content=My+feed&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+            <span class="profile-menu-option-link-text">My feed</span>
+        </a>
+    </li>
+    <li class="profile-menu-option">
+        <a class="profile-menu-option-link profile-menu-my-viewing-history-link" href="/mybrighttalk/viewing-history?utm_campaign=profile-dropdown-menu&amp;utm_content=My+viewing+history&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+            <span class="profile-menu-option-link-text">My viewing history</span>
+        </a>
+    </li>
+    <li class="profile-menu-option">
+        <a class="profile-menu-option-link profile-menu-my-channels-link" href="/mybrighttalk/channels?utm_campaign=profile-dropdown-menu&amp;utm_content=My+channels&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+            <span class="profile-menu-option-link-text">My channels</span>
+        </a>
+    </li>
+    <li class="profile-menu-option">
+        <form novalidate method="post" enctype="multipart/form-data" class="profile-card-image-form">
+            <div class="profile-menu-option-link profile-menu-add-profile-photo">
+                <input type="file" name="mobile_profile_menu_profile_photo" class="profile-menu-add-profile-photo-button"
+                    data-ng-class="{'profile-card-add-photo-button': !session.user.profile.photo, 'profile-card-change-photo-button': session.user.profile.photo}"
+                    data-ng-file-select="onFileSelect($files)"
+                    data-profile-photo-upload
+                    data-ga-action="profile dropdown photo uploaded"
+                    data-api-key="493291559361555"
+                    data-upload-preset="core_profile_photo_upload"
+                    data-cloud-name="brighttalkprod"
+                    data-sign-url="/mybrighttalk/profile/photo/sign"
+                    data-save-url="/mybrighttalk/profile/photo"
+                    accept="image/*"
+                    data-ga-click-tracker data-ga-click-tracker-action="profile dropdown upload photo" data-ga-click-tracker-category="Social"
+                    data-snap-close>
+                <span class="profile-menu-option-link-text" data-ng-if="!session.user.profile.photo">Add profile photo</span>
+                <span class="profile-menu-option-link-text" data-ng-if="session.user.profile.photo">Change profile photo</span>
+            </div>
+        </form>
+    </li>
+    <li class="profile-menu-option">
+        <a class="profile-menu-option-link profile-menu-edit-profile-link" href="/mybrighttalk/profile/edit?utm_campaign=profile-dropdown-menu&amp;utm_content=Edit+profile&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+            <span class="profile-menu-option-link-text">Edit profile</span>
+        </a>
+    </li>
+    <li class="profile-menu-option">
+        <a class="profile-menu-option-link profile-menu-logout-link" href="/logout">
+            <span class="profile-menu-option-link-text">Log out</span>
+        </a>
+    </li>
+</ul>
+</div>
+    </div>
+
+    <div id="jsPageScrollTop" data-snap-content data-scroll-to-top-when="user-is-authorised-for-webcast">
+        <div class="page-wrapper">
+            <div class="container site-header clearfix">
+                                                            <a href="#" class="burger-button visible-xs-inline-block" data-snap-toggle="left"><i class="icon-reorder"></i></a>
+                    
+                        
+    
+
+<div class="profile-area" data-ng-cloak data-ng-show="session.initialized && session.user">
+
+    <button class="jsProfileMenuToggleButton profile-menu-toggle-button desktop-profile-menu-toggle-button" data-ng-hide="events.exists('photoUploading')">
+        <img class="profile-area-user-image" alt="" data-ng-if="session.user.profile.photo" data-ng-src="[[ session.user.profile.photo ]]" data-ng-attr-title="[[ session.user.profile.displayName ]]">
+        <img class="profile-area-user-image" alt="" data-ng-if="!session.user.profile.photo" src="/resources/vendor/style-guide/images/profile-area-user-image.png?v=105248" data-ng-attr-title="[[ session.user.profile.displayName ]]">
+    </button>
+
+    <div data-ng-if="events.exists('photoUploading')" class="profile-area-user-image-upload-icon-wrapper">
+        <div class="profile-area-user-image-upload-icon photo-upload-icon"><b class="icon-spinner icon-spin"></b></div>
+    </div>
+
+    <button class="profile-menu-toggle-button mobile-profile-menu-toggle-button" data-snap-toggle="right" data-ng-hide="events.exists('photoUploading')">
+        <img class="profile-area-user-image" alt="" data-ng-if="session.user.profile.photo" data-ng-src="[[ session.user.profile.photo ]]" data-ng-attr-title="[[ session.user.profile.displayName ]]">
+        <img class="profile-area-user-image" alt="" data-ng-if="!session.user.profile.photo" src="/resources/vendor/style-guide/images/profile-area-user-image.png?v=105248" data-ng-attr-title="[[ session.user.profile.displayName ]]">
+    </button>
+
+    <nav class="profile-menu desktop-profile-menu hidden-xs">
+        <span class="profile-menu-user-name">Hi  [[ session.user.profile.firstName ]]</span>
+<ul class="profile-menu-options">
+    <li class="profile-menu-option profile-menu-manage-option" data-ng-show="session.initialized && session.user.isManager">
+        <a class="profile-menu-option-link profile-menu-manager-option-link" href="/admin/channel?utm_campaign=profile-dropdown-menu&amp;utm_content=Manage&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+            <span class="profile-menu-option-link-text">Manage</span>
+        </a>
+    </li>
+    <li class="profile-menu-option profile-menu-channels-i-own-option" data-ng-show="session.initialized && session.user.isChannelOwner">
+        <a class="profile-menu-option-link profile-menu-channels-i-own-option-link" href="/mybrighttalk/own-channels?utm_campaign=profile-dropdown-menu&amp;utm_content=channels+I+own&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+            <span class="profile-menu-option-link-text">Channels I own</span>
+        </a>
+    </li>
+    <li class="profile-menu-option">
+        <a class="profile-menu-option-link profile-menu-knowledge-feed-link" href="/mybrighttalk/knowledge-feed?utm_campaign=profile-dropdown-menu&amp;utm_content=My+feed&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+            <span class="profile-menu-option-link-text">My feed</span>
+        </a>
+    </li>
+    <li class="profile-menu-option">
+        <a class="profile-menu-option-link profile-menu-my-viewing-history-link" href="/mybrighttalk/viewing-history?utm_campaign=profile-dropdown-menu&amp;utm_content=My+viewing+history&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+            <span class="profile-menu-option-link-text">My viewing history</span>
+        </a>
+    </li>
+    <li class="profile-menu-option">
+        <a class="profile-menu-option-link profile-menu-my-channels-link" href="/mybrighttalk/channels?utm_campaign=profile-dropdown-menu&amp;utm_content=My+channels&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+            <span class="profile-menu-option-link-text">My channels</span>
+        </a>
+    </li>
+    <li class="profile-menu-option">
+        <form novalidate method="post" enctype="multipart/form-data" class="profile-card-image-form">
+            <div class="profile-menu-option-link profile-menu-add-profile-photo">
+                <input type="file" name="desktop_profile_menu_profile_photo" class="profile-menu-add-profile-photo-button"
+                    data-ng-class="{'profile-card-add-photo-button': !session.user.profile.photo, 'profile-card-change-photo-button': session.user.profile.photo}"
+                    data-ng-file-select="onFileSelect($files)"
+                    data-profile-photo-upload
+                    data-ga-action="profile dropdown photo uploaded"
+                    data-api-key="493291559361555"
+                    data-upload-preset="core_profile_photo_upload"
+                    data-cloud-name="brighttalkprod"
+                    data-sign-url="/mybrighttalk/profile/photo/sign"
+                    data-save-url="/mybrighttalk/profile/photo"
+                    accept="image/*"
+                    data-ga-click-tracker data-ga-click-tracker-action="profile dropdown upload photo" data-ga-click-tracker-category="Social"
+                    data-snap-close>
+                <span class="profile-menu-option-link-text" data-ng-if="!session.user.profile.photo">Add profile photo</span>
+                <span class="profile-menu-option-link-text" data-ng-if="session.user.profile.photo">Change profile photo</span>
+            </div>
+        </form>
+    </li>
+    <li class="profile-menu-option">
+        <a class="profile-menu-option-link profile-menu-edit-profile-link" href="/mybrighttalk/profile/edit?utm_campaign=profile-dropdown-menu&amp;utm_content=Edit+profile&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+            <span class="profile-menu-option-link-text">Edit profile</span>
+        </a>
+    </li>
+    <li class="profile-menu-option">
+        <a class="profile-menu-option-link profile-menu-logout-link" href="/logout">
+            <span class="profile-menu-option-link-text">Log out</span>
+        </a>
+    </li>
+</ul>
+    </nav>
+</div>
+
+<nav id="userAuthenticationActions" class="auth-nav" data-ng-cloak data-ng-show="session.initialized && !session.user">
+    <a href="/login?redirect=/webcast/10477/191247%3Fautoclick%3Dtrue" class="login-link">Log in</a>
+    </nav>
+
+                                                
+<div class="logo-wrapper" itemscope itemtype="https://schema.org/Organization">
+
+            <a href="/" class="logoLink" title="BrightTALK">
+    
+    <img src="/resources/images/logo_b.png?v=105248" width="43" height="41" class="logo" alt="BrightTALK" title="BrightTALK" itemprop="logo">
+
+            </a>
+    
+    <meta itemprop="name" content="BrightTALK">
+    <meta itemprop="url" content="http://www.brighttalk.com">
+    <meta itemprop="sameAs" class="twitter-profile-meta" content="https://twitter.com/brighttalk">
+    <meta itemprop="sameAs" class="linkedin-profile-meta" content="https://www.linkedin.com/company/204345">
+    <meta itemprop="sameAs" class="facebook-profile-meta" content="https://www.facebook.com/BrightTALK">
+    <meta itemprop="sameAs" class="google-plus-profile-meta" content="https://plus.google.com/+BrightTALK">
+</div>
+                    
+
+    <div class="full-logo-wrapper visible-xs">
+        <a href="/" title="BrightTALK">
+            <img src="/resources/images/logo-full-300x56.png?v=105248" width="150" height="28" class="full-logo" alt="BrightTALK" title="BrightTALK">
+        </a>
+    </div>
+
+                                            <form id="searchForm" class="search-form" action="/search" method="get">
+    <div class="input-group input-group-search">
+        <input type="text" name="q" class="search-form-term input-group-input" id="searchField" placeholder="Find free videos and webinars on BrightTALK">
+        <button type="submit" class="search-form-submit input-group-icon">
+            <i class="icon-search"></i>
+        </button>
+    </div>
+</form>
+                    
+                            </div>
+
+                            
+<div class="breadcrumb-stripe hidden-xs">
+    <div class="container">
+        <div class="dropdown-wrapper breadcrumb-community-menu">
+            <button class="breadcrumb-button dropdown-button" data-ga-click-tracker data-ga-click-tracker-action="Parent community menu opened" data-ga-click-tracker-category="Community menu">Browse communities <i class="icon-caret-down"></i></button>
+            <ul class="dropdown-menu dropdown-menu-hidden">
+                <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-item-link all-brighttalk-webcasts-link" data-ga-click-tracker data-ga-click-tracker-action="Parent community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="All BrightTALK" href="/webcasts?utm_campaign=parent-community-menu&amp;utm_content=All+BrightTALK&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                        <span class="dropdown-menu-item-text">All BrightTALK</span>
+                    </a>
+                </li>
+                <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-item-link business-management-parent-community-link" data-ga-click-tracker data-ga-click-tracker-action="Parent community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="Business Management" href="/business-management?utm_campaign=parent-community-menu&amp;utm_content=Business+Management&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                        <span class="dropdown-menu-item-text">Business Management</span>
+                    </a>
+                </li>
+                <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-item-link finance-parent-community-link" data-ga-click-tracker data-ga-click-tracker-action="Parent community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="Finance" href="/finance?utm_campaign=parent-community-menu&amp;utm_content=Finance&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                        <span class="dropdown-menu-item-text">Finance</span>
+                    </a>
+                </li>
+                <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-item-link human-resources-parent-community-link" data-ga-click-tracker data-ga-click-tracker-action="Parent community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="Human Resources" href="/human-resources?utm_campaign=parent-community-menu&amp;utm_content=Human+Resources&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                        <span class="dropdown-menu-item-text">Human Resources</span>
+                    </a>
+                </li>
+                <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-item-link it-parent-community-link" data-ga-click-tracker data-ga-click-tracker-action="Parent community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="Information Technology" href="/information-technology?utm_campaign=parent-community-menu&amp;utm_content=Information+Technology&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                        <span class="dropdown-menu-item-text">Information Technology</span>
+                    </a>
+                </li>
+                <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-item-link legal-parent-community-link" data-ga-click-tracker data-ga-click-tracker-action="Parent community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="Legal" href="/legal?utm_campaign=parent-community-menu&amp;utm_content=Legal&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                        <span class="dropdown-menu-item-text">Legal</span>
+                    </a>
+                </li>
+                <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-item-link marketing-parent-community-link" data-ga-click-tracker data-ga-click-tracker-action="Parent community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="Marketing" href="/marketing?utm_campaign=parent-community-menu&amp;utm_content=Marketing&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                        <span class="dropdown-menu-item-text">Marketing</span>
+                    </a>
+                </li>
+                <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-item-link research-development-parent-community-link" data-ga-click-tracker data-ga-click-tracker-action="Parent community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="Research &amp; Development" href="/research-development?utm_campaign=parent-community-menu&amp;utm_content=Research+%26+Development&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                        <span class="dropdown-menu-item-text">Research &amp; Development</span>
+                    </a>
+                </li>
+                <li class="dropdown-menu-item">
+                    <a class="dropdown-menu-item-link sales-parent-community-link" data-ga-click-tracker data-ga-click-tracker-action="Parent community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="Sales" href="/sales?utm_campaign=parent-community-menu&amp;utm_content=Sales&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                        <span class="dropdown-menu-item-text">Sales</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+                    <div class="dropdown-wrapper breadcrumb-child-community-menu">
+                <button class="breadcrumb-button dropdown-button" data-ga-click-tracker data-ga-click-tracker-action="Child community menu opened" data-ga-click-tracker-category="Community menu">Information Technology <i class="icon-caret-down"></i></button>
+                <ul class="dropdown-menu dropdown-menu-hidden">
+                                            <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link" data-ga-click-tracker data-ga-click-tracker-action="Child community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="IT&#x20;Governance,&#x20;Risk&#x20;and&#x20;Compliance"  href="/community/application-development?utm_campaign=child-community-menu&amp;utm_content=Application+Development&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                                <span class="dropdown-menu-item-text">Application Development</span>
+                            </a>
+                        </li>
+                                            <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link" data-ga-click-tracker data-ga-click-tracker-action="Child community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="IT&#x20;Governance,&#x20;Risk&#x20;and&#x20;Compliance"  href="/community/application-management?utm_campaign=child-community-menu&amp;utm_content=Application+Management&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                                <span class="dropdown-menu-item-text">Application Management</span>
+                            </a>
+                        </li>
+                                            <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link" data-ga-click-tracker data-ga-click-tracker-action="Child community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="IT&#x20;Governance,&#x20;Risk&#x20;and&#x20;Compliance"  href="/community/big-data-management?utm_campaign=child-community-menu&amp;utm_content=Big+Data+and+Data+Management&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                                <span class="dropdown-menu-item-text">Big Data and Data Management</span>
+                            </a>
+                        </li>
+                                            <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link" data-ga-click-tracker data-ga-click-tracker-action="Child community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="IT&#x20;Governance,&#x20;Risk&#x20;and&#x20;Compliance"  href="/community/bc-dr?utm_campaign=child-community-menu&amp;utm_content=Business+Continuity+%2F+Disaster+Recovery&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                                <span class="dropdown-menu-item-text">Business Continuity / Disaster Recovery</span>
+                            </a>
+                        </li>
+                                            <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link" data-ga-click-tracker data-ga-click-tracker-action="Child community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="IT&#x20;Governance,&#x20;Risk&#x20;and&#x20;Compliance"  href="/community/business-intelligence?utm_campaign=child-community-menu&amp;utm_content=Business+Intelligence+and+Analytics&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                                <span class="dropdown-menu-item-text">Business Intelligence and Analytics</span>
+                            </a>
+                        </li>
+                                            <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link" data-ga-click-tracker data-ga-click-tracker-action="Child community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="IT&#x20;Governance,&#x20;Risk&#x20;and&#x20;Compliance"  href="/community/cloud-computing?utm_campaign=child-community-menu&amp;utm_content=Cloud+Computing&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                                <span class="dropdown-menu-item-text">Cloud Computing</span>
+                            </a>
+                        </li>
+                                            <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link" data-ga-click-tracker data-ga-click-tracker-action="Child community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="IT&#x20;Governance,&#x20;Risk&#x20;and&#x20;Compliance"  href="/community/unified-communications?utm_campaign=child-community-menu&amp;utm_content=Collaboration+and+UC&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                                <span class="dropdown-menu-item-text">Collaboration and UC</span>
+                            </a>
+                        </li>
+                                            <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link" data-ga-click-tracker data-ga-click-tracker-action="Child community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="IT&#x20;Governance,&#x20;Risk&#x20;and&#x20;Compliance"  href="/community/data-center?utm_campaign=child-community-menu&amp;utm_content=Data+Center+Management&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                                <span class="dropdown-menu-item-text">Data Center Management</span>
+                            </a>
+                        </li>
+                                            <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link" data-ga-click-tracker data-ga-click-tracker-action="Child community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="IT&#x20;Governance,&#x20;Risk&#x20;and&#x20;Compliance"  href="/community/end-user-computing?utm_campaign=child-community-menu&amp;utm_content=End+User+Computing&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                                <span class="dropdown-menu-item-text">End User Computing</span>
+                            </a>
+                        </li>
+                                            <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link" data-ga-click-tracker data-ga-click-tracker-action="Child community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="IT&#x20;Governance,&#x20;Risk&#x20;and&#x20;Compliance"  href="/community/enterprise-applications?utm_campaign=child-community-menu&amp;utm_content=Enterprise+Applications&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                                <span class="dropdown-menu-item-text">Enterprise Applications</span>
+                            </a>
+                        </li>
+                                            <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link" data-ga-click-tracker data-ga-click-tracker-action="Child community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="IT&#x20;Governance,&#x20;Risk&#x20;and&#x20;Compliance"  href="/community/help-desk-support?utm_campaign=child-community-menu&amp;utm_content=Help+Desk+and+Support&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                                <span class="dropdown-menu-item-text">Help Desk and Support</span>
+                            </a>
+                        </li>
+                                            <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link-active dropdown-menu-item-link" data-ga-click-tracker data-ga-click-tracker-action="Child community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="IT&#x20;Governance,&#x20;Risk&#x20;and&#x20;Compliance"  href="/community/governance-risk-compliance?utm_campaign=child-community-menu&amp;utm_content=IT+Governance%2C+Risk+and+Compliance&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                                <span class="dropdown-menu-item-text">IT Governance, Risk and Compliance</span>
+                            </a>
+                        </li>
+                                            <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link" data-ga-click-tracker data-ga-click-tracker-action="Child community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="IT&#x20;Governance,&#x20;Risk&#x20;and&#x20;Compliance"  href="/community/it-project-management?utm_campaign=child-community-menu&amp;utm_content=IT+Project+Management&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                                <span class="dropdown-menu-item-text">IT Project Management</span>
+                            </a>
+                        </li>
+                                            <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link" data-ga-click-tracker data-ga-click-tracker-action="Child community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="IT&#x20;Governance,&#x20;Risk&#x20;and&#x20;Compliance"  href="/community/it-security?utm_campaign=child-community-menu&amp;utm_content=IT+Security&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                                <span class="dropdown-menu-item-text">IT Security</span>
+                            </a>
+                        </li>
+                                            <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link" data-ga-click-tracker data-ga-click-tracker-action="Child community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="IT&#x20;Governance,&#x20;Risk&#x20;and&#x20;Compliance"  href="/community/it-service-management?utm_campaign=child-community-menu&amp;utm_content=IT+Service+Management&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                                <span class="dropdown-menu-item-text">IT Service Management</span>
+                            </a>
+                        </li>
+                                            <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link" data-ga-click-tracker data-ga-click-tracker-action="Child community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="IT&#x20;Governance,&#x20;Risk&#x20;and&#x20;Compliance"  href="/community/mobile-computing?utm_campaign=child-community-menu&amp;utm_content=Mobile+Computing&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                                <span class="dropdown-menu-item-text">Mobile Computing</span>
+                            </a>
+                        </li>
+                                            <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link" data-ga-click-tracker data-ga-click-tracker-action="Child community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="IT&#x20;Governance,&#x20;Risk&#x20;and&#x20;Compliance"  href="/community/network-infrastructure?utm_campaign=child-community-menu&amp;utm_content=Network+Infrastructure&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                                <span class="dropdown-menu-item-text">Network Infrastructure</span>
+                            </a>
+                        </li>
+                                            <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link" data-ga-click-tracker data-ga-click-tracker-action="Child community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="IT&#x20;Governance,&#x20;Risk&#x20;and&#x20;Compliance"  href="/community/storage?utm_campaign=child-community-menu&amp;utm_content=Storage&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                                <span class="dropdown-menu-item-text">Storage</span>
+                            </a>
+                        </li>
+                                            <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link" data-ga-click-tracker data-ga-click-tracker-action="Child community menu clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="IT&#x20;Governance,&#x20;Risk&#x20;and&#x20;Compliance"  href="/community/virtualization?utm_campaign=child-community-menu&amp;utm_content=Virtualization&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=">
+                                <span class="dropdown-menu-item-text">Virtualization</span>
+                            </a>
+                        </li>
+                                    </ul>
+            </div>
+
+            <div class="breadcrumb-link-wrapper">
+                <a class="breadcrumb-link" href="/community/governance-risk-compliance?utm_campaign=child-community-breadcrumb&amp;utm_content=IT+Governance%2C+Risk+and+Compliance&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" data-ga-click-tracker data-ga-click-tracker-action="Child community breadcrumb clicked" data-ga-click-tracker-category="Community menu" data-ga-click-tracker-label="IT&#x20;Governance,&#x20;Risk&#x20;and&#x20;Compliance" >IT Governance, Risk and Compliance</a>
+            </div>
+            </div>
+</div>
+            
+            <div class="container">
+                                    <div class="site-content">
+                            <!--<div class="alert alert-warning"[if IE 7]>
+    ><b class="alert-icon icon-info-sign"></b> It appears you’re using IE7, which is no longer supported. Please upgrade your browser.</div>
+    <![endif]-->
+
+    <div class="player" id="playerData" data-webcast data-comm-id="191247" data-channel-id="10477"
+         data-webcast-status="recorded"
+         data-master-channel-id="10477"
+         data-community-feed-url="/feeds/comm-feed?utmMedium=web&amp;utmSource=brighttalk-portal&amp;utmCampaign=community-feed&amp;trackLinkClick=1" data-channel-feed-uri="/channelfeed/10477">
+
+        <div class="row">
+
+            <!-- player column -->
+            <div class="col-xs-12 col-md-7">    <div class="player-wrapper">
+
+        <div id="jsPlayerArea"></div>
+
+                        <div class="social-links-wrapper hidden-xs hidden-sm">
+        <span class="text">Share this content</span>
+        <ul class="social-links" id="socialLinks" data-email-allowed="true" data-social-network-urls='{
+            "linkedin": "http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.brighttalk.com%2Fwebcast%2F10477%2F191247%3Futm_campaign%3DLinkedIn%26utm_content%3D%26utm_source%3Dbrighttalk-sharing%26utm_medium%3Dweb%26utm_term%3D",
+            "twitter": "http://twitter.com/share?url=http%3A%2F%2Fwww.brighttalk.com%2Fwebcast%2F10477%2F191247%3Futm_campaign%3DTwitter%26utm_content%3D%26utm_source%3Dbrighttalk-sharing%26utm_medium%3Dweb%26utm_term%3D&amp;text=Informatica%20Cloud%20Winter%202016%20-%20&amp;via=BrightTALK",
+            "facebook": "http://www.facebook.com/share.php?u=http%3A%2F%2Fwww.brighttalk.com%2Fwebcast%2F10477%2F191247%3Futm_campaign%3DFacebook%26utm_content%3D%26utm_source%3Dbrighttalk-sharing%26utm_medium%3Dweb%26utm_term%3D",
+            "googleplus": "https://plus.google.com/share?url=http%3A%2F%2Fwww.brighttalk.com%2Fwebcast%2F10477%2F191247%3Futm_campaign%3DGoogle%26utm_content%3D%26utm_source%3Dbrighttalk-sharing%26utm_medium%3Dweb%26utm_term%3D"
+        }'>
+                    <li class="social-link-wrapper">
+                <a title="Share on LinkedIn" href="#" class="social-link linkedin-share-link jsSocialNetworkLink" data-social-network="linkedin" data-ga-click-tracker data-ga-click-tracker-action="Sharing" data-ga-click-tracker-category="Player&#x20;page" data-ga-click-tracker-label="LinkedIn">Share on LinkedIn</a>
+            </li>
+            <li class="social-link-wrapper">
+                <a title="Share on Twitter" href="#" class="social-link twitter-share-link jsSocialNetworkLink" data-social-network="twitter" data-ga-click-tracker data-ga-click-tracker-action="Sharing" data-ga-click-tracker-category="Player&#x20;page" data-ga-click-tracker-label="Twitter">Share on Twitter</a>
+            </li>
+            <li class="social-link-wrapper">
+                <a title="Share on Facebook" href="#" class="social-link facebook-share-link jsSocialNetworkLink" data-social-network="facebook" data-ga-click-tracker data-ga-click-tracker-action="Sharing" data-ga-click-tracker-category="Player&#x20;page" data-ga-click-tracker-label="Facebook">Share on Facebook</a>
+            </li>
+            <li class="social-link-wrapper">
+                <a title="Share on Google+" href="#" class="social-link google-share-link jsSocialNetworkLink" data-social-network="googleplus" data-ga-click-tracker data-ga-click-tracker-action="Sharing" data-ga-click-tracker-category="Player&#x20;page" data-ga-click-tracker-label="Google">Share on Google+</a>
+            </li>
+                            <li class="social-link-wrapper">
+                <a title="Share by email" href="#" class="social-link email-link" id="emailLink" data-ga-click-tracker data-ga-click-tracker-action="Sharing" data-ga-click-tracker-category="Player&#x20;page" data-ga-click-tracker-label="Email">Share by email</a>
+            </li>
+                            <li class="social-link-wrapper">
+                <a title="Embed" id="embedLink" class="social-link embed-link" href="#" data-ga-click-tracker data-ga-click-tracker-action="Sharing" data-ga-click-tracker-category="Player&#x20;page" data-ga-click-tracker-label="Embed">Embed</a>
+            </li>
+                </ul>
+    </div>
+        
+        <h1 class="webcast-title">Informatica Cloud Winter 2016</h1>
+
+        <div id="webcastDescriptionWrapper" data-ng-cloak class="webcast-description-wrapper">
+            <div data-ng-if="!webcast.description.expanded">
+                <span class="webcast-description">Join the Informatica Cloud product team to see the new Informatica Cloud platform in action and find out what&#039;s new in the Winter Release of Informatica Cloud and explore all the key capabilities. <br />
+The Winter release of the Informatica Cloud is packed with many rich functionalities, with</span>
+                                    <button class="webcast-description-toggle-button" data-ng-click="toggleDescription()">...more</button>
+                            </div>
+            <div data-ng-if="webcast.description.expanded">
+                <span class="webcast-description">Join the Informatica Cloud product team to see the new Informatica Cloud platform in action and find out what&#039;s new in the Winter Release of Informatica Cloud and explore all the key capabilities. <br />
+The Winter release of the Informatica Cloud is packed with many rich functionalities, with a continued focus on self-service and ease of use.  Updates include:<br />
+•Enhanced Cloud Mapping Designer <br />
+•Greater Data Masking transformation capabilities <br />
+•Platform enhancements for REST API, Cloud Test Data Management, secure agent and Real-time processes <br />
+•New connector capabilities for Salesforce Marketing Cloud, Microsoft Azure Data Lake, Microsoft DocumentDB, SAP Concur V2, JD Edwards, Zendesk and more!<br />
+•Enhanced connectors for Tableau, NetSuite, Amazon, Oracle, Microsoft, Marketo, Workday, Zuora and others<br />
+•And so much more!</span>
+                <button class="webcast-description-toggle-button" data-ng-click="toggleDescription()">...less</button>
+            </div>
+        </div>
+
+                            
+        <div class="jsWebcastStartDateDurationInfo webcast-start-date-duration-info recorded">
+                    
+            <div class="recordedDate">
+            <span class="recorded-label">Recorded</span>
+            <span class="BTDate webcast-date" data-timestamp="1455121800" data-format="M j Y">Feb 10 2016</span>
+            <span class="webcast-duration">57 mins</span>
+        </div>
+    
+    <a href="/mybrighttalk/channel/10477/webcast/191247/manage" id="manageWebcastLink" class="btn secondary manage-webcast-link hidden-xs hidden-sm"><b class="icon-pencil"></b> Manage webcast</a>
+</div>
+
+        <div class="player-prereg-wrapper">
+
+                        
+            <div class="prereg-information" data-ng-show="webcast.status == 'upcoming' && webcast.userIsAuthorised" data-ng-cloak>
+                <span class="prereg-confirmation">Your place is confirmed, <br class="visible-xs"> we'll send you email reminders</span>
+
+                <div class="dropdown-wrapper full-width-xs add-to-calendar-widget">
+                    <button class="btn primary large dropdown-button" data-ga-click-tracker="" data-ga-click-tracker-action="Add to calendar dropdown" data-ga-click-tracker-category="Player page">Add to calendar <i class="icon-caret-down"></i></button>
+                    <ul class="dropdown-menu dropdown-menu-hidden">
+                        <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link add-to-calendar-widget-outlook-link" href="https://www.brighttalk.com/service/channel/channel/10477/communication/191247/calendar/ics" data-ga-click-tracker="" data-ga-click-tracker-action="Outlook calendar" data-ga-click-tracker-category="Player page"><i class="dropdown-menu-item-icon icon-windows"></i><span class="dropdown-menu-item-text">Outlook</span></a>
+                        </li>
+                        <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link add-to-calendar-widget-ical-link" href="https://www.brighttalk.com/service/channel/channel/10477/communication/191247/calendar/ics" data-ga-click-tracker="" data-ga-click-tracker-action="iCalendar" data-ga-click-tracker-category="Player page"><i class="dropdown-menu-item-icon icon-apple"></i><span class="dropdown-menu-item-text">iCal</span></a>
+                        </li>
+                        <li class="dropdown-menu-item">
+                            <a class="dropdown-menu-item-link add-to-calendar-widget-google-calendar-link" href="https://www.google.com/calendar/render?action=TEMPLATE&amp;pli=1&amp;sf=true&amp;output=xml&amp;text=Informatica+Cloud+Winter+2016&amp;details=Click+here+to+attend%3A+http%3A%2F%2Fwww.brighttalk.com%2Fwebcast%2F10477%2F191247%3Futm_campaign%3Dgoogle-calendar%26utm_content%3D%26utm_source%3Dbrighttalk-portal%26utm_medium%3Dcalendar%26utm_term%3D%0A%0AJoin+the+Informatica+Cloud+product+team+to+see+the+new+Informatica+Cloud+platform+in+action+and+find+out+what%27s+new+in+the+Winter+Release+of+Informatica+Cloud+and+explore+all+the+key+capabilities.+%0AThe+Winter+release+of+the+Informatica+Cloud+is+packed+with+many+rich+functionalities%2C+with+a+continued+focus+on+self-service+and+ease+of+use.++Updates+include%3A%0A%E2%80%A2Enhanced+Cloud+Mapping+Designer+%0A%E2%80%A2Greater+Data+Masking+transformation+capabilities+%0A%E2%80%A2Platform+enhancements+for+REST+API%2C+Cloud+Test+Data+Management%2C+secure+agent+and+Real-time+processes+%0A%E2%80%A2New+connector+capabilities+for+Salesforce+Marketing+Cloud%2C+Microsoft+Azure+Data+Lake%2C+Microsoft+DocumentDB%2C+SAP+Concur+V2%2C+JD+Edwards%2C+Zendesk+and+more%21%0A%E2%80%A2Enhanced+connectors+for+Tableau%2C+NetSuite%2C+Amazon%2C+Oracle%2C+Microsoft%2C+Marketo%2C+Workday%2C+Zuora+and+others%0A%E2%80%A2And+so+much+more%21&amp;location=BrightTALK&amp;dates=20160210T163000Z%2F20160210T172600Z" data-ga-click-tracker="" data-ga-click-tracker-action="Google calendar" data-ga-click-tracker-category="Player page" target="_blank"><i class="dropdown-menu-item-icon icon-google-plus-sign"></i><span class="dropdown-menu-item-text">Google</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            
+            
+            
+            <div class="webcast-register-button-wrapper">
+                <a href="#register" target="_self" class="webcast-register-button btn primary x-large visible-xs-block visible-sm-inline-block" data-ng-if="!events.exists('embeddedAuthenticationLoading') && !webcast.userIsAuthorised" data-ng-cloak>Watch for free</a>
+            </div>
+
+            <div class="webcast-presenter-information-wrapper">
+                <span>Presented by</span><br>
+                <span class="webcast-presenter-information">Krupa Natarajan ( Product Mgmnt), Pratik Parekh (Product Mgmnt) &amp; Anwesa Chatterjee (Product Mktg)</span>
+            </div>
+
+                            <div id="slideWrapper" class="slide-wrapper" data-ng-show="!events.exists('embeddedAuthenticationLoading') && !webcast.userIsAuthorised" data-ng-cloak>
+                    <span class="slide-title">Presentation preview:</span>
+                    <img id="webcastSlide" class="slide" src="https://www.brighttalk.com/communication/191247/preview_1455126936.png"
+                         alt="Informatica Cloud Winter 2016">
+                </div>
+                    </div>
+    </div>
+
+    <div class="attendees profile-cards-wrapper" data-ng-controller="ProfileCards"
+         data-ng-show="initialized && session.initialized" data-ng-cloak>
+
+        
+            <b data-ng-if="initialized && session.initialized" data-ga-load-tracker
+               data-ga-load-tracker-category="Social" data-ga-load-tracker-label=""
+               data-ga-load-tracker-action="Social experience displayed"></b>
+
+            <div class="attendees-header row">
+                <h2 class="col-xs-10 col-sm-6 attendees-title">Network with like-minded attendees</h2>
+
+                <button data-ga-click-tracker data-ga-click-tracker-action="Show more attendees"
+                        data-ga-click-tracker-category="Social" class="col-xs-2 col-sm-6 show-more-attendees-button"
+                        data-ng-click="showMoreAttendees()" data-ng-hide="showMoreAttendeesLoading || optedOut">
+                    <span class="show-more-attendees-text hidden-xs">More attendees</span>
+                    <b class="show-more-attendees-icon icon-refresh"></b>
+                </button>
+                <div class="col-xs-2 col-sm-6 show-more-attendees-loading-icon-wrapper"
+                     data-ng-show="showMoreAttendeesLoading">
+                    <b class="icon-spinner icon-spin show-more-attendees-loading-icon"></b>
+                </div>
+            </div>
+
+                                    
+            <div id="optedInView" data-ng-init="init({
+                getCardsUrl: '/webcast/10477/191247/attendees',
+                optOutUrl: '/webcast/10477/191247/opt-out',
+                optInUrl: '/webcast/10477/191247/opt-in'
+            })" data-ng-hide="optedOut">
+
+                <ul class="profile-cards row">
+                    <li class="col-xs-12 col-sm-6 profile-card-wrapper animate" data-profile-card
+                        data-remove-photo-url="/mybrighttalk/profile/photo">
+                        <div class="profile-card" data-hash="[[ session.user.hash ]]">
+                            <div class="profile-card-image-wrapper" data-ng-if="!events.exists('photoUploading')"
+                                 data-ng-class="{'profile-card-add-photo': !session.user.profile.photo, 'profile-card-change-photo': session.user.profile.photo}">
+
+                                <img class="profile-card-image" data-ng-src="[[ session.user.profile.photo ]]"
+                                     data-ng-if="session.user.profile.photo"
+                                     alt="[[ session.user.profile.displayName ]]"
+                                     src="data:image/gif;base64,R0lGODlhAQABAIAAAP7//wAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==">
+
+                                <div data-ng-if="session.user.profile.photo">
+                                    <div data-profile-photo-options>
+    <button data-ng-click="showPhotoOptions()" data-ng-class="{'profile-card-image-options-button-hidden': showProfilePhotoOptions}" class="profile-card-image-options-button"><b class="icon-camera"></b></button>
+    <div data-ng-class="{'profile-card-image-options-hidden': !showProfilePhotoOptions}" class="profile-card-image-options profile-card-image-options-hidden">
+        <button data-ga-click-tracker data-ga-click-tracker-action="Remove photo" data-ga-click-tracker-category="Social" data-ng-click="removePhotoClick()" class="profile-card-image-options-remove-button profile-card-image-options-option-button btn danger full-width">Remove</button>
+        <button data-ng-click="hidePhotoOptions()" class="profile-card-image-options-cancel-button profile-card-image-options-option-button btn tertiary full-width">Cancel</button>
+    </div>
+</div>                                </div>
+
+                                <div data-ng-if="!session.user.profile.photo">
+                                    <form novalidate method="post" enctype="multipart/form-data" class="profile-card-image-form">
+
+    <div class="profile-card-add-photo-button-wrapper">
+        <input type="file" name="profile_photo_upload" data-ng-file-select="onFileSelect($files)" data-profile-photo-upload data-ga-action="Photo uploaded" data-api-key="493291559361555"
+               data-upload-preset="core_profile_photo_upload" data-cloud-name="brighttalkprod" data-sign-url="/mybrighttalk/profile/photo/sign"
+               data-save-url="/mybrighttalk/profile/photo"
+               data-ng-class="{'profile-card-add-photo-button': !session.user.profile.photo, 'profile-card-change-photo-button': session.user.profile.photo}"
+               class="profile-card-upload-photo-button"
+               data-ga-click-tracker data-ga-click-tracker-action="Upload photo" data-ga-click-tracker-category="Social"
+               accept="image/*">
+        <b class="icon-camera"></b>Add a photo
+    </div>
+</form>
+                                </div>
+                            </div>
+
+                            <div data-ng-if="events.exists('photoUploading')" class="profile-card-photo-upload-icon-wrapper">
+                                <div class="profile-card-photo-upload-icon photo-upload-icon"><b class="icon-spinner icon-spin"></b></div>
+                            </div>
+
+                            <ul class="profile-card-details">
+                                <li class="profile-card-detail profile-card-name" title="[[ session.user.profile.displayName ]]">[[ session.user.profile.displayName ]]</li>
+                                <li class="profile-card-detail profile-card-job-title" title="[[ session.user.profile.jobTitle ]]">[[ session.user.profile.jobTitle ]]</li>
+                                <li class="profile-card-detail profile-card-company-name" title="[[ session.user.profile.companyName ]]">[[ session.user.profile.companyName ]]</li>
+                                <li class="profile-card-detail profile-card-country" title="[[ userProfileTemplateHelper.getLocation(session.user.profile) ]]" data-ng-if="session.initialized && session.user">[[ userProfileTemplateHelper.getLocation(session.user.profile) ]]</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="col-xs-12 col-sm-6 profile-card-wrapper animate" data-ng-repeat="card in cards"
+                        data-ng-init="whereFrom = card.stateRegion ? card.stateRegion + ', ' + card.country : card.country; ">
+                        <div class="profile-card" data-hash="[[ card.hash ]]">
+                            <div class="profile-card-image-wrapper">
+                                <img class="profile-card-image" data-ng-src="[[ card.photo ]]"
+                                     data-ng-if="card.photo" alt="[[ card.displayName ]]"
+                                     src="data:image/gif;base64,R0lGODlhAQABAIAAAP7//wAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==">
+                            </div>
+
+                            <ul class="profile-card-details">
+                                <li class="profile-card-detail profile-card-name" title="[[ card.displayName ]]">[[ card.displayName ]]</li>
+                                <li class="profile-card-detail profile-card-job-title" title="[[ card.jobTitle ]]">[[ card.jobTitle ]]</li>
+                                <li class="profile-card-detail profile-card-company-name" title="[[ card.companyName ]]">[[ card.companyName ]]</li>
+                                <li class="profile-card-detail profile-card-country" title="[[ userProfileTemplateHelper.getLocation(card) ]]">[[ userProfileTemplateHelper.getLocation(card) ]]</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="opt-out-controls">
+                    <button data-ga-click-tracker data-ga-click-tracker-action="Opt out"
+                            data-ga-click-tracker-category="Social" class="opt-out-button" data-ng-click="optOut()"
+                            data-ng-hide="optOutLoading">Hide me from other attendees
+                    </button>
+                    <b class="icon-spinner icon-spin opt-out-loading-icon" data-ng-show="optOutLoading"></b>
+                </div>
+
+            </div>
+
+            <div class="opted-out-view" data-ng-show="optedOut">
+                <button data-ga-click-tracker data-ga-click-tracker-action="Opt in"
+                        data-ga-click-tracker-category="Social" class="opt-in-button btn primary large"
+                        data-ng-click="optIn()" data-ng-hide="optInLoading">Show me
+                </button>
+                <b class="icon-spinner icon-spin opt-in-loading-icon" data-ng-show="optInLoading"></b>
+            </div>
+
+            </div>
+
+            <div class="adsWrapper player-bottom-banner-wrapper">
+            
+        </div>
+    
+                        <div class="communityListingWrapper" id="communityData"
+                 data-community-uri="http://community.core.brighttalk.com/internal/category/28"
+                 data-community-alias="governance-risk-compliance">
+                <div class="moreFromCommunityWrapper">Recommended for you:</div>
+                
+            <div class="communication-listings" data-ga-load-tracker data-ga-load-tracker-category="Player page" data-ga-load-tracker-action="Community feed display">
+
+                        <div class="tabs-wrapper">
+                <ul id="communicationFeedTabs" class="block-tabs">
+
+                    <li class="tab block-tab block-tab-active" id="liveRecordedTab"
+                        data-target-tab="#liveRecordedFeed"
+                        data-total-count="4212"
+                        data-status="live,recorded"
+                        data-loaded="true"
+                        data-has-more-communications="true">
+                        <a href="#" class="block-tab-link">Live and recorded<span class="hidden-xs"> (<span class="recordedCount">4212</span>)</span></a>
+                    </li>
+
+                    <li class="tab block-tab" id="upcomingTab"
+                        data-target-tab="#upcomingFeed"
+                        data-total-count="101"
+                        data-status="upcoming">
+                        <a href="#" class="block-tab-link">Upcoming<span class="hidden-xs"> (<span class="upcomingCount">101</span>)</span></a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="communicationFeedWrapper" id="liveRecordedFeed" data-target-tab="#liveRecordedTab">
+                            <div class="filters-wrapper">
+                    <ul class="filters">
+                        <li class="filter"><span class="sortingOption active" data-sort-attribute="time">Date</span></li>
+                        <li class="filter"><span class="sortingOption" data-sort-attribute="rating">Rating</span></li>
+                        <li class="filter"><span class="sortingOption" data-sort-attribute="views">Views</span></li>
+                    </ul>
+                </div>
+                <ul class="communicationFeedList">
+                        
+                                                
+                            
+                                                                                                                            
+        <li class="communicationWrapper communicationCommunication188561">
+            <div class="communication recorded" itemscope itemtype="https://schema.org/Event">
+                <a href="/community/governance-risk-compliance/webcast/10979/188561?utm_campaign=community-live-recorded&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" class="detailsWrapper" itemprop="url" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Community live &amp; recorded feed">
+                    <img class="slide webcast-thumbnail" alt="Measuring Your Plan with a Tabletop Exercise" src="/communication/188561/thumbnail_1455667934.png">
+                    <span class="webcast-title">Measuring Your Plan with a Tabletop Exercise</span>
+                                                                                    <span class="webcast-presenters">Tony Kirtley, Senior Incident Response Consultant at Dell SecureWorks</span>
+
+                    <meta itemprop="performer" content="Tony Kirtley, Senior Incident Response Consultant at Dell SecureWorks">
+                    <meta itemprop="name" content="Measuring Your Plan with a Tabletop Exercise">
+                                            <meta itemprop="image" content="/communication/188561/thumbnail_1455667934.png">
+                                        <meta itemprop="description" content="Ensuring your CIRP is a plan for disaster – not a disaster waiting to happen. 
+
+Most organizations establish Cybersecurity Incident Response Plans (CIRP) with great intentions of leveraging them during security breaches. The reality is, many times once a CIRP is established it gets filed away to collect dust on a shelf until a breach occurs, leaving it out of date and out of mind. If a breach occurred tomorrow, would your organization know the proper steps and procedures to eradicate the threat... who the key stake holders are and the communications flow... when and how to reach out to a third-party for support?
+
+All of these are included as a part of your CIRP, but using a dusty CIRP as a guide for the first time during a breach is not a plan – it’s a disaster waiting to happen. Testing your plan prior to an incident is the key to minimize the duration, impact and cost of a breach to your organization.
+
+During this interactive webinar, Tony Kirtley, Senior Incident Response Consultant at Dell SecureWorks, will share the importance of testing your CIRP plan through regular tabletop exercises to help identify your organization&#039;s strengths and weaknesses, and further the development of your proactive security capabilities. 
+
+In addition you will learn:
+
+- What makes an effective tabletop exercise?
+- Real stories of how organizations benefited from tabletop exercises.
+- The benefit of bringing in an objective third party to facilitate your table top exercise.">
+
+                    <item class="hidden" itemprop="location" itemscope itemtype="http://schema.org/Place">
+                        <span itemprop="name">BrightTALK</span>
+                        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                          <meta itemprop="url" content="&#x2F;community&#x2F;governance-risk-compliance&#x2F;webcast&#x2F;10979&#x2F;188561&#x3F;utm_campaign&#x3D;community-live-recorded&amp;utm_content&#x3D;&amp;utm_source&#x3D;brighttalk-portal&amp;utm_medium&#x3D;web&amp;utm_term&#x3D;">
+                        </span>
+                    </item>
+
+                        
+    
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1455649200" data-format="M j Y">Feb 16 2016</span>
+    </span>
+
+    <meta itemprop="startDate" content="2016-02-16T19:00:00+00:00">
+
+            <meta itemprop="duration" content="T3340S">
+        <span class="duration" title="Duration" data-seconds="3340">56 mins</span>
+                </a>
+
+                <div class="moreDetailsWrapper">
+                                        <div class="description">Ensuring your CIRP is a plan for disaster – not a disaster waiting to happen. <br />
+<br />
+Most organizations establish Cybersecurity Incident Response Plans (CIRP) with great intentions of leveraging them during security breaches. The reality is, many times once a CIRP is established it gets filed away to collect dust on a shelf until a breach occurs, leaving it out of date and out of mind. If a breach occurred tomorrow, would your organization know the proper steps and procedures to eradicate the threat... who the key stake holders are and the communications flow... when and how to reach out to a third-party for support?<br />
+<br />
+All of these are included as a part of your CIRP, but using a dusty CIRP as a guide for the first time during a breach is not a plan – it’s a disaster waiting to happen. Testing your plan prior to an incident is the key to minimize the duration, impact and cost of a breach to your organization.<br />
+<br />
+During this interactive webinar, Tony Kirtley, Senior Incident Response Consultant at Dell SecureWorks, will share the importance of testing your CIRP plan through regular tabletop exercises to help identify your organization&#039;s strengths and weaknesses, and further the development of your proactive security capabilities. <br />
+<br />
+In addition you will learn:<br />
+<br />
+- What makes an effective tabletop exercise?<br />
+- Real stories of how organizations benefited from tabletop exercises.<br />
+- The benefit of bringing in an objective third party to facilitate your table top exercise.</div>
+                    <div class="readMoreWrapper">
+                        <a href="/community/governance-risk-compliance/webcast/10979/188561?utm_campaign=community-live-recorded&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" class="readMoreLink">Read more &gt;</a>
+                    </div>
+                    <div class="options">
+                                                
+    
+<a href="/webcast/10979/188561?utm_medium=web&amp;utm_source=brighttalk-portal&amp;utm_campaign=community-live-recorded"
+   class="bt-webcast-button large btn primary"
+   data-start-time="1455649200"
+   data-channel-id="10979"
+   data-communication-id="188561"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Community live &amp; recorded feed"
+   >Watch now</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+    
+                                                
+                            
+                                        
+        <li class="communicationWrapper communicationCommunication189433">
+            <div class="communication recorded" itemscope itemtype="https://schema.org/Event">
+                <a href="/community/governance-risk-compliance/webcast/10477/189433?utm_campaign=community-live-recorded&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" class="detailsWrapper" itemprop="url" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Community live &amp; recorded feed">
+                    <img class="slide webcast-thumbnail" alt="Data Visibility, Risk and Financial Impact: Secure@Source V2" src="/communication/189433/tn1_2.png">
+                    <span class="webcast-title">Data Visibility, Risk and Financial Impact: Secure@Source V2</span>
+                                                                                    <span class="webcast-presenters">Josh Alpern, Informatica, Gary Patterson, Informatica Robert Shields, Informatica</span>
+
+                    <meta itemprop="performer" content="Josh Alpern, Informatica, Gary Patterson, Informatica Robert Shields, Informatica">
+                    <meta itemprop="name" content="Data Visibility, Risk and Financial Impact: Secure@Source V2">
+                                            <meta itemprop="image" content="/communication/189433/tn1_2.png">
+                                        <meta itemprop="description" content="Secure@Source V2 marks Informatica’s continued innovation of Data Security Intelligence.  Data security intelligence reveals the risks and vulnerabilities of today’s complex data and threat environments.  V2 features user activity tied to sensitive data, sensitive-data analytics for Big Data, Cloud and customer driven integrations to provide an unparalleled analysis of sensitive data risks.   Organizations can understand their data risks on-demand and prioritize security investments as customers, partners and regulators demand and expect.  Removing the guess work and inefficiency of manual processes and forced-fit tools, Secure@Source gives organizations the power they need to control and manage their sensitive and confidential information.">
+
+                    <item class="hidden" itemprop="location" itemscope itemtype="http://schema.org/Place">
+                        <span itemprop="name">BrightTALK</span>
+                        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                          <meta itemprop="url" content="&#x2F;community&#x2F;governance-risk-compliance&#x2F;webcast&#x2F;10477&#x2F;189433&#x3F;utm_campaign&#x3D;community-live-recorded&amp;utm_content&#x3D;&amp;utm_source&#x3D;brighttalk-portal&amp;utm_medium&#x3D;web&amp;utm_term&#x3D;">
+                        </span>
+                    </item>
+
+                        
+    
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1455649200" data-format="M j Y">Feb 16 2016</span>
+    </span>
+
+    <meta itemprop="startDate" content="2016-02-16T19:00:00+00:00">
+
+            <meta itemprop="duration" content="T3677S">
+        <span class="duration" title="Duration" data-seconds="3677">62 mins</span>
+                </a>
+
+                <div class="moreDetailsWrapper">
+                                        <div class="description">Secure@Source V2 marks Informatica’s continued innovation of Data Security Intelligence.  Data security intelligence reveals the risks and vulnerabilities of today’s complex data and threat environments.  V2 features user activity tied to sensitive data, sensitive-data analytics for Big Data, Cloud and customer driven integrations to provide an unparalleled analysis of sensitive data risks.   Organizations can understand their data risks on-demand and prioritize security investments as customers, partners and regulators demand and expect.  Removing the guess work and inefficiency of manual processes and forced-fit tools, Secure@Source gives organizations the power they need to control and manage their sensitive and confidential information.</div>
+                    <div class="readMoreWrapper">
+                        <a href="/community/governance-risk-compliance/webcast/10477/189433?utm_campaign=community-live-recorded&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" class="readMoreLink">Read more &gt;</a>
+                    </div>
+                    <div class="options">
+                                                
+    
+<a href="/webcast/10477/189433?utm_medium=web&amp;utm_source=brighttalk-portal&amp;utm_campaign=community-live-recorded"
+   class="bt-webcast-button large btn primary"
+   data-start-time="1455649200"
+   data-channel-id="10477"
+   data-communication-id="189433"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Community live &amp; recorded feed"
+   >Watch now</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+    
+                                                
+                            
+                                        
+        <li class="communicationWrapper communicationCommunication189781">
+            <div class="communication recorded" itemscope itemtype="https://schema.org/Event">
+                <a href="/community/governance-risk-compliance/webcast/11129/189781?utm_campaign=community-live-recorded&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" class="detailsWrapper" itemprop="url" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Community live &amp; recorded feed">
+                    <img class="slide webcast-thumbnail" alt="Safeguarding Cloud + Mobile Healthcare Data" src="/communication/189781/tn1_4.png">
+                    <span class="webcast-title">Safeguarding Cloud + Mobile Healthcare Data</span>
+                                                                                    <span class="webcast-presenters">Rich Campagna, VP Products, Bitglass</span>
+
+                    <meta itemprop="performer" content="Rich Campagna, VP Products, Bitglass">
+                    <meta itemprop="name" content="Safeguarding Cloud + Mobile Healthcare Data">
+                                            <meta itemprop="image" content="/communication/189781/tn1_4.png">
+                                        <meta itemprop="description" content="One in three Americans&#039; healthcare records were leaked as a result of hacking and IT-related breaches in 2015, a massive year-over-year increase. Why are hackers now targeting healthcare data? How did they go about conducting the large-scale Anthem and Premera attacks that affected millions?
+
+Learn the answer to those questions and detail how healthcare organizations can use a Cloud Access Security Broker to protect data in the cloud, enable secure BYOD and remain HIPAA compliant.">
+
+                    <item class="hidden" itemprop="location" itemscope itemtype="http://schema.org/Place">
+                        <span itemprop="name">BrightTALK</span>
+                        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                          <meta itemprop="url" content="&#x2F;community&#x2F;governance-risk-compliance&#x2F;webcast&#x2F;11129&#x2F;189781&#x3F;utm_campaign&#x3D;community-live-recorded&amp;utm_content&#x3D;&amp;utm_source&#x3D;brighttalk-portal&amp;utm_medium&#x3D;web&amp;utm_term&#x3D;">
+                        </span>
+                    </item>
+
+                        
+    
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1455645600" data-format="M j Y">Feb 16 2016</span>
+    </span>
+
+    <meta itemprop="startDate" content="2016-02-16T18:00:00+00:00">
+
+            <meta itemprop="duration" content="T2662S">
+        <span class="duration" title="Duration" data-seconds="2662">45 mins</span>
+                </a>
+
+                <div class="moreDetailsWrapper">
+                                        <div class="description">One in three Americans&#039; healthcare records were leaked as a result of hacking and IT-related breaches in 2015, a massive year-over-year increase. Why are hackers now targeting healthcare data? How did they go about conducting the large-scale Anthem and Premera attacks that affected millions?<br />
+<br />
+Learn the answer to those questions and detail how healthcare organizations can use a Cloud Access Security Broker to protect data in the cloud, enable secure BYOD and remain HIPAA compliant.</div>
+                    <div class="readMoreWrapper">
+                        <a href="/community/governance-risk-compliance/webcast/11129/189781?utm_campaign=community-live-recorded&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" class="readMoreLink">Read more &gt;</a>
+                    </div>
+                    <div class="options">
+                                                
+    
+<a href="/webcast/11129/189781?utm_medium=web&amp;utm_source=brighttalk-portal&amp;utm_campaign=community-live-recorded"
+   class="bt-webcast-button large btn primary"
+   data-start-time="1455645600"
+   data-channel-id="11129"
+   data-communication-id="189781"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Community live &amp; recorded feed"
+   >Watch now</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+    
+                                                
+                            
+                                        
+        <li class="communicationWrapper communicationCommunication191631">
+            <div class="communication recorded" itemscope itemtype="https://schema.org/Event">
+                <a href="/community/governance-risk-compliance/webcast/188/191631?utm_campaign=community-live-recorded&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" class="detailsWrapper" itemprop="url" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Community live &amp; recorded feed">
+                    <img class="slide webcast-thumbnail" alt="Windows 10: A First Look at the Latest Devices" src="/communication/191631/thumbnail_1455639022665.png">
+                    <span class="webcast-title">Windows 10: A First Look at the Latest Devices</span>
+                                                                                    <span class="webcast-presenters">Marlowe Dayley, Senior Channel Marketing Manager, Microsoft</span>
+
+                    <meta itemprop="performer" content="Marlowe Dayley, Senior Channel Marketing Manager, Microsoft">
+                    <meta itemprop="name" content="Windows 10: A First Look at the Latest Devices">
+                                            <meta itemprop="image" content="/communication/191631/thumbnail_1455639022665.png">
+                                        <meta itemprop="description" content="Windows 10 opens up innovative device experiences and enables your business to take advantage of new hardware enabled security features.
+
+Every business has potential. Given the right tools, it&#039;s the people within that can take big ideas from brainstorms to results.
+
+Buying a Windows 10 device means you&#039;ll have the tools for transforming ideas, and your business, into something greater. When you accelerate a PC refresh* from Windows 7 to Windows 10 you are getting extra hardware enabled security features giving you the most secure Windows platform yet.
+
+Plus, newer devices and form factors light up new user experiences like Cortana, Inking, Touch and Continuum**.
+
+With enhanced security, productivity, performance and mobility you really can’t do better than accelerating to Windows 10 today.
+
+Watch this webcast to:
+•Discover new features that are enabled in the latest devices with Windows 10 
+•Understand why the 6th generation Intel processor helps deliver better security and manageability 
+•Learn more about the latest Intel Skylake devices announced in January 2016 
+•Get additional resources to evaluate what device is right for you">
+
+                    <item class="hidden" itemprop="location" itemscope itemtype="http://schema.org/Place">
+                        <span itemprop="name">BrightTALK</span>
+                        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                          <meta itemprop="url" content="&#x2F;community&#x2F;governance-risk-compliance&#x2F;webcast&#x2F;188&#x2F;191631&#x3F;utm_campaign&#x3D;community-live-recorded&amp;utm_content&#x3D;&amp;utm_source&#x3D;brighttalk-portal&amp;utm_medium&#x3D;web&amp;utm_term&#x3D;">
+                        </span>
+                    </item>
+
+                        
+    
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1455645600" data-format="M j Y">Feb 16 2016</span>
+    </span>
+
+    <meta itemprop="startDate" content="2016-02-16T18:00:00+00:00">
+
+            <meta itemprop="duration" content="T1155S">
+        <span class="duration" title="Duration" data-seconds="1155">20 mins</span>
+                </a>
+
+                <div class="moreDetailsWrapper">
+                                        <div class="description">Windows 10 opens up innovative device experiences and enables your business to take advantage of new hardware enabled security features.<br />
+<br />
+Every business has potential. Given the right tools, it&#039;s the people within that can take big ideas from brainstorms to results.<br />
+<br />
+Buying a Windows 10 device means you&#039;ll have the tools for transforming ideas, and your business, into something greater. When you accelerate a PC refresh* from Windows 7 to Windows 10 you are getting extra hardware enabled security features giving you the most secure Windows platform yet.<br />
+<br />
+Plus, newer devices and form factors light up new user experiences like Cortana, Inking, Touch and Continuum**.<br />
+<br />
+With enhanced security, productivity, performance and mobility you really can’t do better than accelerating to Windows 10 today.<br />
+<br />
+Watch this webcast to:<br />
+•Discover new features that are enabled in the latest devices with Windows 10 <br />
+•Understand why the 6th generation Intel processor helps deliver better security and manageability <br />
+•Learn more about the latest Intel Skylake devices announced in January 2016 <br />
+•Get additional resources to evaluate what device is right for you</div>
+                    <div class="readMoreWrapper">
+                        <a href="/community/governance-risk-compliance/webcast/188/191631?utm_campaign=community-live-recorded&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" class="readMoreLink">Read more &gt;</a>
+                    </div>
+                    <div class="options">
+                                                
+    
+<a href="/webcast/188/191631?utm_medium=web&amp;utm_source=brighttalk-portal&amp;utm_campaign=community-live-recorded"
+   class="bt-webcast-button large btn primary"
+   data-start-time="1455645600"
+   data-channel-id="188"
+   data-communication-id="191631"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Community live &amp; recorded feed"
+   >Watch now</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+    
+                                                
+                            
+                                        
+        <li class="communicationWrapper communicationCommunication191631">
+            <div class="communication recorded" itemscope itemtype="https://schema.org/Event">
+                <a href="/community/governance-risk-compliance/webcast/13157/191631?utm_campaign=community-live-recorded&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" class="detailsWrapper" itemprop="url" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Community live &amp; recorded feed">
+                    <img class="slide webcast-thumbnail" alt="Windows 10: A First Look at the Latest Devices" src="/communication/191631/thumbnail_1455639022665.png">
+                    <span class="webcast-title">Windows 10: A First Look at the Latest Devices</span>
+                                                                                    <span class="webcast-presenters">Marlowe Dayley, Senior Channel Marketing Manager, Microsoft</span>
+
+                    <meta itemprop="performer" content="Marlowe Dayley, Senior Channel Marketing Manager, Microsoft">
+                    <meta itemprop="name" content="Windows 10: A First Look at the Latest Devices">
+                                            <meta itemprop="image" content="/communication/191631/thumbnail_1455639022665.png">
+                                        <meta itemprop="description" content="Windows 10 opens up innovative device experiences and enables your business to take advantage of new hardware enabled security features.
+
+Every business has potential. Given the right tools, it&#039;s the people within that can take big ideas from brainstorms to results.
+
+Buying a Windows 10 device means you&#039;ll have the tools for transforming ideas, and your business, into something greater. When you accelerate a PC refresh* from Windows 7 to Windows 10 you are getting extra hardware enabled security features giving you the most secure Windows platform yet.
+
+Plus, newer devices and form factors light up new user experiences like Cortana, Inking, Touch and Continuum**.
+
+With enhanced security, productivity, performance and mobility you really can’t do better than accelerating to Windows 10 today.
+
+Watch this webcast to:
+•Discover new features that are enabled in the latest devices with Windows 10 
+•Understand why the 6th generation Intel processor helps deliver better security and manageability 
+•Learn more about the latest Intel Skylake devices announced in January 2016 
+•Get additional resources to evaluate what device is right for you">
+
+                    <item class="hidden" itemprop="location" itemscope itemtype="http://schema.org/Place">
+                        <span itemprop="name">BrightTALK</span>
+                        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                          <meta itemprop="url" content="&#x2F;community&#x2F;governance-risk-compliance&#x2F;webcast&#x2F;13157&#x2F;191631&#x3F;utm_campaign&#x3D;community-live-recorded&amp;utm_content&#x3D;&amp;utm_source&#x3D;brighttalk-portal&amp;utm_medium&#x3D;web&amp;utm_term&#x3D;">
+                        </span>
+                    </item>
+
+                        
+    
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1455645600" data-format="M j Y">Feb 16 2016</span>
+    </span>
+
+    <meta itemprop="startDate" content="2016-02-16T18:00:00+00:00">
+
+            <meta itemprop="duration" content="T1155S">
+        <span class="duration" title="Duration" data-seconds="1155">20 mins</span>
+                </a>
+
+                <div class="moreDetailsWrapper">
+                                        <div class="description">Windows 10 opens up innovative device experiences and enables your business to take advantage of new hardware enabled security features.<br />
+<br />
+Every business has potential. Given the right tools, it&#039;s the people within that can take big ideas from brainstorms to results.<br />
+<br />
+Buying a Windows 10 device means you&#039;ll have the tools for transforming ideas, and your business, into something greater. When you accelerate a PC refresh* from Windows 7 to Windows 10 you are getting extra hardware enabled security features giving you the most secure Windows platform yet.<br />
+<br />
+Plus, newer devices and form factors light up new user experiences like Cortana, Inking, Touch and Continuum**.<br />
+<br />
+With enhanced security, productivity, performance and mobility you really can’t do better than accelerating to Windows 10 today.<br />
+<br />
+Watch this webcast to:<br />
+•Discover new features that are enabled in the latest devices with Windows 10 <br />
+•Understand why the 6th generation Intel processor helps deliver better security and manageability <br />
+•Learn more about the latest Intel Skylake devices announced in January 2016 <br />
+•Get additional resources to evaluate what device is right for you</div>
+                    <div class="readMoreWrapper">
+                        <a href="/community/governance-risk-compliance/webcast/13157/191631?utm_campaign=community-live-recorded&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" class="readMoreLink">Read more &gt;</a>
+                    </div>
+                    <div class="options">
+                                                
+    
+<a href="/webcast/13157/191631?utm_medium=web&amp;utm_source=brighttalk-portal&amp;utm_campaign=community-live-recorded"
+   class="bt-webcast-button large btn primary"
+   data-start-time="1455645600"
+   data-channel-id="13157"
+   data-communication-id="191631"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Community live &amp; recorded feed"
+   >Watch now</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+    
+                                                
+                            
+                                        
+        <li class="communicationWrapper communicationCommunication181947">
+            <div class="communication recorded" itemscope itemtype="https://schema.org/Event">
+                <a href="/community/governance-risk-compliance/webcast/288/181947?utm_campaign=community-live-recorded&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" class="detailsWrapper" itemprop="url" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Community live &amp; recorded feed">
+                    <img class="slide webcast-thumbnail" alt="T Minus and Holding:  Deciding When to Launch Your Defenses" src="/communication/181947/thumbnail_1455645760.png">
+                    <span class="webcast-title">T Minus and Holding:  Deciding When to Launch Your Defenses</span>
+                                                                                    <span class="webcast-presenters">Jeffrey Ritter, External Lecturer, University of Oxford</span>
+
+                    <meta itemprop="performer" content="Jeffrey Ritter, External Lecturer, University of Oxford">
+                    <meta itemprop="name" content="T Minus and Holding:  Deciding When to Launch Your Defenses">
+                                            <meta itemprop="image" content="/communication/181947/thumbnail_1455645760.png">
+                                        <meta itemprop="description" content="Security demands countless decisions to determine whether or not log data or other surveillance data are positive indicators of adverse activity or merely false positives.  Knowing when, and how, to make and document those decisions can be critical to how legal and compliance sanctions may be imposed.  Designing your security controls to do so effectively can make all of the difference.  Learn how rules-based design can transform your design frameworks and keep lawyers and regulators away.">
+
+                    <item class="hidden" itemprop="location" itemscope itemtype="http://schema.org/Place">
+                        <span itemprop="name">BrightTALK</span>
+                        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                          <meta itemprop="url" content="&#x2F;community&#x2F;governance-risk-compliance&#x2F;webcast&#x2F;288&#x2F;181947&#x3F;utm_campaign&#x3D;community-live-recorded&amp;utm_content&#x3D;&amp;utm_source&#x3D;brighttalk-portal&amp;utm_medium&#x3D;web&amp;utm_term&#x3D;">
+                        </span>
+                    </item>
+
+                        
+    
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1455638400" data-format="M j Y">Feb 16 2016</span>
+    </span>
+
+    <meta itemprop="startDate" content="2016-02-16T16:00:00+00:00">
+
+            <meta itemprop="duration" content="T2419S">
+        <span class="duration" title="Duration" data-seconds="2419">41 mins</span>
+                </a>
+
+                <div class="moreDetailsWrapper">
+                                        <div class="description">Security demands countless decisions to determine whether or not log data or other surveillance data are positive indicators of adverse activity or merely false positives.  Knowing when, and how, to make and document those decisions can be critical to how legal and compliance sanctions may be imposed.  Designing your security controls to do so effectively can make all of the difference.  Learn how rules-based design can transform your design frameworks and keep lawyers and regulators away.</div>
+                    <div class="readMoreWrapper">
+                        <a href="/community/governance-risk-compliance/webcast/288/181947?utm_campaign=community-live-recorded&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" class="readMoreLink">Read more &gt;</a>
+                    </div>
+                    <div class="options">
+                                                
+    
+<a href="/webcast/288/181947?utm_medium=web&amp;utm_source=brighttalk-portal&amp;utm_campaign=community-live-recorded"
+   class="bt-webcast-button large btn primary"
+   data-start-time="1455638400"
+   data-channel-id="288"
+   data-communication-id="181947"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Community live &amp; recorded feed"
+   >Watch now</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+    
+                                                
+                            
+                                        
+        <li class="communicationWrapper communicationCommunication190687">
+            <div class="communication recorded" itemscope itemtype="https://schema.org/Event">
+                <a href="/community/governance-risk-compliance/webcast/288/190687?utm_campaign=community-live-recorded&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" class="detailsWrapper" itemprop="url" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Community live &amp; recorded feed">
+                    <img class="slide webcast-thumbnail" alt="Building the Trusted Smart Grid: Threats, Challenges, and Compliance" src="/communication/190687/tn1_3.png">
+                    <span class="webcast-title">Building the Trusted Smart Grid: Threats, Challenges, and Compliance</span>
+                                                                                    <span class="webcast-presenters">Stephen Helm, Product Manager - Gemalto</span>
+
+                    <meta itemprop="performer" content="Stephen Helm, Product Manager - Gemalto">
+                    <meta itemprop="name" content="Building the Trusted Smart Grid: Threats, Challenges, and Compliance">
+                                            <meta itemprop="image" content="/communication/190687/tn1_3.png">
+                                        <meta itemprop="description" content="Growing concern over climate change, increasing utility prices and the availability of sustainable energy like solar are driving increased demand for conservation, pricing transparency and cost savings. Smart energy solutions provide real time visibility into consumption and billing data helping consumers to conserve resources, while energy and utility companies are better able to balance production to meet actual demand reducing brown outs and other potential issues. At a time when energy utilities play an increasingly important part of our everyday lives, smart grid technologies introduce new security challenges that must be addressed. 
+In this webinar we will discuss:
+•The threat landscape 
+•Addressing security challenges in critical infrastructure with cryptography and strong authentication
+•Compliance with NERC CIP Version 5
+•The road ahead">
+
+                    <item class="hidden" itemprop="location" itemscope itemtype="http://schema.org/Place">
+                        <span itemprop="name">BrightTALK</span>
+                        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                          <meta itemprop="url" content="&#x2F;community&#x2F;governance-risk-compliance&#x2F;webcast&#x2F;288&#x2F;190687&#x3F;utm_campaign&#x3D;community-live-recorded&amp;utm_content&#x3D;&amp;utm_source&#x3D;brighttalk-portal&amp;utm_medium&#x3D;web&amp;utm_term&#x3D;">
+                        </span>
+                    </item>
+
+                        
+    
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1455638400" data-format="M j Y">Feb 16 2016</span>
+    </span>
+
+    <meta itemprop="startDate" content="2016-02-16T16:00:00+00:00">
+
+            <meta itemprop="duration" content="T3268S">
+        <span class="duration" title="Duration" data-seconds="3268">55 mins</span>
+                </a>
+
+                <div class="moreDetailsWrapper">
+                                        <div class="description">Growing concern over climate change, increasing utility prices and the availability of sustainable energy like solar are driving increased demand for conservation, pricing transparency and cost savings. Smart energy solutions provide real time visibility into consumption and billing data helping consumers to conserve resources, while energy and utility companies are better able to balance production to meet actual demand reducing brown outs and other potential issues. At a time when energy utilities play an increasingly important part of our everyday lives, smart grid technologies introduce new security challenges that must be addressed. <br />
+In this webinar we will discuss:<br />
+•The threat landscape <br />
+•Addressing security challenges in critical infrastructure with cryptography and strong authentication<br />
+•Compliance with NERC CIP Version 5<br />
+•The road ahead</div>
+                    <div class="readMoreWrapper">
+                        <a href="/community/governance-risk-compliance/webcast/288/190687?utm_campaign=community-live-recorded&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" class="readMoreLink">Read more &gt;</a>
+                    </div>
+                    <div class="options">
+                                                
+    
+<a href="/webcast/288/190687?utm_medium=web&amp;utm_source=brighttalk-portal&amp;utm_campaign=community-live-recorded"
+   class="bt-webcast-button large btn primary"
+   data-start-time="1455638400"
+   data-channel-id="288"
+   data-communication-id="190687"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Community live &amp; recorded feed"
+   >Watch now</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+    
+                                                
+                            
+                                        
+        <li class="communicationWrapper communicationCommunication190687">
+            <div class="communication recorded" itemscope itemtype="https://schema.org/Event">
+                <a href="/community/governance-risk-compliance/webcast/2037/190687?utm_campaign=community-live-recorded&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" class="detailsWrapper" itemprop="url" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Community live &amp; recorded feed">
+                    <img class="slide webcast-thumbnail" alt="Building the Trusted Smart Grid: Threats, Challenges, and Compliance" src="/communication/190687/tn1_3.png">
+                    <span class="webcast-title">Building the Trusted Smart Grid: Threats, Challenges, and Compliance</span>
+                                                                                    <span class="webcast-presenters">Stephen Helm, Product Manager - Gemalto</span>
+
+                    <meta itemprop="performer" content="Stephen Helm, Product Manager - Gemalto">
+                    <meta itemprop="name" content="Building the Trusted Smart Grid: Threats, Challenges, and Compliance">
+                                            <meta itemprop="image" content="/communication/190687/tn1_3.png">
+                                        <meta itemprop="description" content="Growing concern over climate change, increasing utility prices and the availability of sustainable energy like solar are driving increased demand for conservation, pricing transparency and cost savings. Smart energy solutions provide real time visibility into consumption and billing data helping consumers to conserve resources, while energy and utility companies are better able to balance production to meet actual demand reducing brown outs and other potential issues. At a time when energy utilities play an increasingly important part of our everyday lives, smart grid technologies introduce new security challenges that must be addressed. 
+In this webinar we will discuss:
+•The threat landscape 
+•Addressing security challenges in critical infrastructure with cryptography and strong authentication
+•Compliance with NERC CIP Version 5
+•The road ahead">
+
+                    <item class="hidden" itemprop="location" itemscope itemtype="http://schema.org/Place">
+                        <span itemprop="name">BrightTALK</span>
+                        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                          <meta itemprop="url" content="&#x2F;community&#x2F;governance-risk-compliance&#x2F;webcast&#x2F;2037&#x2F;190687&#x3F;utm_campaign&#x3D;community-live-recorded&amp;utm_content&#x3D;&amp;utm_source&#x3D;brighttalk-portal&amp;utm_medium&#x3D;web&amp;utm_term&#x3D;">
+                        </span>
+                    </item>
+
+                        
+    
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1455638400" data-format="M j Y">Feb 16 2016</span>
+    </span>
+
+    <meta itemprop="startDate" content="2016-02-16T16:00:00+00:00">
+
+            <meta itemprop="duration" content="T3268S">
+        <span class="duration" title="Duration" data-seconds="3268">55 mins</span>
+                </a>
+
+                <div class="moreDetailsWrapper">
+                                        <div class="description">Growing concern over climate change, increasing utility prices and the availability of sustainable energy like solar are driving increased demand for conservation, pricing transparency and cost savings. Smart energy solutions provide real time visibility into consumption and billing data helping consumers to conserve resources, while energy and utility companies are better able to balance production to meet actual demand reducing brown outs and other potential issues. At a time when energy utilities play an increasingly important part of our everyday lives, smart grid technologies introduce new security challenges that must be addressed. <br />
+In this webinar we will discuss:<br />
+•The threat landscape <br />
+•Addressing security challenges in critical infrastructure with cryptography and strong authentication<br />
+•Compliance with NERC CIP Version 5<br />
+•The road ahead</div>
+                    <div class="readMoreWrapper">
+                        <a href="/community/governance-risk-compliance/webcast/2037/190687?utm_campaign=community-live-recorded&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" class="readMoreLink">Read more &gt;</a>
+                    </div>
+                    <div class="options">
+                                                
+    
+<a href="/webcast/2037/190687?utm_medium=web&amp;utm_source=brighttalk-portal&amp;utm_campaign=community-live-recorded"
+   class="bt-webcast-button large btn primary"
+   data-start-time="1455638400"
+   data-channel-id="2037"
+   data-communication-id="190687"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Community live &amp; recorded feed"
+   >Watch now</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+    
+                                                
+                            
+                                        
+        <li class="communicationWrapper communicationCommunication190687">
+            <div class="communication recorded" itemscope itemtype="https://schema.org/Event">
+                <a href="/community/governance-risk-compliance/webcast/6319/190687?utm_campaign=community-live-recorded&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" class="detailsWrapper" itemprop="url" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Community live &amp; recorded feed">
+                    <img class="slide webcast-thumbnail" alt="Building the Trusted Smart Grid: Threats, Challenges, and Compliance" src="/communication/190687/tn1_3.png">
+                    <span class="webcast-title">Building the Trusted Smart Grid: Threats, Challenges, and Compliance</span>
+                                                                                    <span class="webcast-presenters">Stephen Helm, Product Manager - Gemalto</span>
+
+                    <meta itemprop="performer" content="Stephen Helm, Product Manager - Gemalto">
+                    <meta itemprop="name" content="Building the Trusted Smart Grid: Threats, Challenges, and Compliance">
+                                            <meta itemprop="image" content="/communication/190687/tn1_3.png">
+                                        <meta itemprop="description" content="Growing concern over climate change, increasing utility prices and the availability of sustainable energy like solar are driving increased demand for conservation, pricing transparency and cost savings. Smart energy solutions provide real time visibility into consumption and billing data helping consumers to conserve resources, while energy and utility companies are better able to balance production to meet actual demand reducing brown outs and other potential issues. At a time when energy utilities play an increasingly important part of our everyday lives, smart grid technologies introduce new security challenges that must be addressed. 
+In this webinar we will discuss:
+•The threat landscape 
+•Addressing security challenges in critical infrastructure with cryptography and strong authentication
+•Compliance with NERC CIP Version 5
+•The road ahead">
+
+                    <item class="hidden" itemprop="location" itemscope itemtype="http://schema.org/Place">
+                        <span itemprop="name">BrightTALK</span>
+                        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                          <meta itemprop="url" content="&#x2F;community&#x2F;governance-risk-compliance&#x2F;webcast&#x2F;6319&#x2F;190687&#x3F;utm_campaign&#x3D;community-live-recorded&amp;utm_content&#x3D;&amp;utm_source&#x3D;brighttalk-portal&amp;utm_medium&#x3D;web&amp;utm_term&#x3D;">
+                        </span>
+                    </item>
+
+                        
+    
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1455638400" data-format="M j Y">Feb 16 2016</span>
+    </span>
+
+    <meta itemprop="startDate" content="2016-02-16T16:00:00+00:00">
+
+            <meta itemprop="duration" content="T3268S">
+        <span class="duration" title="Duration" data-seconds="3268">55 mins</span>
+                </a>
+
+                <div class="moreDetailsWrapper">
+                                        <div class="description">Growing concern over climate change, increasing utility prices and the availability of sustainable energy like solar are driving increased demand for conservation, pricing transparency and cost savings. Smart energy solutions provide real time visibility into consumption and billing data helping consumers to conserve resources, while energy and utility companies are better able to balance production to meet actual demand reducing brown outs and other potential issues. At a time when energy utilities play an increasingly important part of our everyday lives, smart grid technologies introduce new security challenges that must be addressed. <br />
+In this webinar we will discuss:<br />
+•The threat landscape <br />
+•Addressing security challenges in critical infrastructure with cryptography and strong authentication<br />
+•Compliance with NERC CIP Version 5<br />
+•The road ahead</div>
+                    <div class="readMoreWrapper">
+                        <a href="/community/governance-risk-compliance/webcast/6319/190687?utm_campaign=community-live-recorded&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" class="readMoreLink">Read more &gt;</a>
+                    </div>
+                    <div class="options">
+                                                
+    
+<a href="/webcast/6319/190687?utm_medium=web&amp;utm_source=brighttalk-portal&amp;utm_campaign=community-live-recorded"
+   class="bt-webcast-button large btn primary"
+   data-start-time="1455638400"
+   data-channel-id="6319"
+   data-communication-id="190687"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Community live &amp; recorded feed"
+   >Watch now</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+    
+                                                
+                            
+                                        
+        <li class="communicationWrapper communicationCommunication190013">
+            <div class="communication recorded" itemscope itemtype="https://schema.org/Event">
+                <a href="/community/governance-risk-compliance/webcast/13519/190013?utm_campaign=community-live-recorded&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" class="detailsWrapper" itemprop="url" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Community live &amp; recorded feed">
+                    <img class="slide webcast-thumbnail" alt="Using Targeted Intelligence to Direct Your Technology Policy" src="/communication/190013/thumbnail_1455639074.png">
+                    <span class="webcast-title">Using Targeted Intelligence to Direct Your Technology Policy</span>
+                                                                                    <span class="webcast-presenters">Jules Pagna Disso, Head of Research and Development, Nettitude</span>
+
+                    <meta itemprop="performer" content="Jules Pagna Disso, Head of Research and Development, Nettitude">
+                    <meta itemprop="name" content="Using Targeted Intelligence to Direct Your Technology Policy">
+                                            <meta itemprop="image" content="/communication/190013/thumbnail_1455639074.png">
+                                        <meta itemprop="description" content="The success of cyber threat intelligence is measured by its effectiveness in reducing the impact of malicious actors. It is therefore important to understand the economy of malware in order to break the chains of success of such economy. Such success needs to be materialised by a change in attitude, policies and configurations.
+ 
+Whilst applicable to most organisations, most examples used during this seminar will feature the financial sector and aim to:
+ 
+
+·         Analyse the core components of the economy of malware
+
+·         Analyse how to gather intelligence to reduce the impact of malicious actors
+
+·         Show how to use the intelligence gathered to improve the security posture of the organisation">
+
+                    <item class="hidden" itemprop="location" itemscope itemtype="http://schema.org/Place">
+                        <span itemprop="name">BrightTALK</span>
+                        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                          <meta itemprop="url" content="&#x2F;community&#x2F;governance-risk-compliance&#x2F;webcast&#x2F;13519&#x2F;190013&#x3F;utm_campaign&#x3D;community-live-recorded&amp;utm_content&#x3D;&amp;utm_source&#x3D;brighttalk-portal&amp;utm_medium&#x3D;web&amp;utm_term&#x3D;">
+                        </span>
+                    </item>
+
+                        
+    
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1455631200" data-format="M j Y">Feb 16 2016</span>
+    </span>
+
+    <meta itemprop="startDate" content="2016-02-16T14:00:00+00:00">
+
+            <meta itemprop="duration" content="T2887S">
+        <span class="duration" title="Duration" data-seconds="2887">49 mins</span>
+                </a>
+
+                <div class="moreDetailsWrapper">
+                                        <div class="description">The success of cyber threat intelligence is measured by its effectiveness in reducing the impact of malicious actors. It is therefore important to understand the economy of malware in order to break the chains of success of such economy. Such success needs to be materialised by a change in attitude, policies and configurations.<br />
+ <br />
+Whilst applicable to most organisations, most examples used during this seminar will feature the financial sector and aim to:<br />
+ <br />
+<br />
+·         Analyse the core components of the economy of malware<br />
+<br />
+·         Analyse how to gather intelligence to reduce the impact of malicious actors<br />
+<br />
+·         Show how to use the intelligence gathered to improve the security posture of the organisation</div>
+                    <div class="readMoreWrapper">
+                        <a href="/community/governance-risk-compliance/webcast/13519/190013?utm_campaign=community-live-recorded&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" class="readMoreLink">Read more &gt;</a>
+                    </div>
+                    <div class="options">
+                                                
+    
+<a href="/webcast/13519/190013?utm_medium=web&amp;utm_source=brighttalk-portal&amp;utm_campaign=community-live-recorded"
+   class="bt-webcast-button large btn primary"
+   data-start-time="1455631200"
+   data-channel-id="13519"
+   data-communication-id="190013"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Community live &amp; recorded feed"
+   >Watch now</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+                    </ul>
+                        </div>
+            <div class="communicationFeedWrapper" id="upcomingFeed" data-target-tab="#upcomingTab">
+                <ul class="communicationFeedList">
+                    <li class="placeholder" style="display: none;"></li>
+                </ul>
+            </div>
+            <div class="feedControls">
+                <button class="btn secondary full-width" id="communicationFeedLoadMore" data-ga-click-tracker data-ga-click-tracker-action="Click to load more content" data-ga-click-tracker-category="Player page">Load more</button>
+            </div>
+        </div>
+    
+            </div>
+            
+    <div data-vidora-view-tracker
+         data-vidora-view-tracker-group-id="549836c486e4ddba"
+         data-vidora-view-tracker-channel-id="10477"
+         data-vidora-view-tracker-webcast-id="191247"
+         data-vidora-view-tracker-script-id="brighttalk.691fa296ee07b76e"></div>
+
+</div>
+
+            <!-- right feed/banner column -->
+            <div class="col-xs-12 col-md-5">
+                <div id="register" class="embedded-authentication" data-ng-if="!webcast.userIsAuthorised">
+                    <p class="embedded-authentication-login-message hidden-md hidden-lg" data-ng-cloak data-ng-if="session.initialized && !session.user">
+                        Already have a BrightTALK account?
+                        <a href="/login?redirect=/webcast/10477/191247%3Fautoclick%3Dtrue" class="embedded-authentication-login-link">Log in</a>
+                    </p>
+
+                    <div class="embedded-authentication-loading-icon"><b class="icon-spinner icon-spin" data-ng-show="events.exists('embeddedAuthenticationLoading')" data-ng-cloak></b></div>
+                    <iframe class="embedded-authentication-iframe" data-embedded-authentication-iframe data-ng-show="!events.exists('embeddedAuthenticationLoading')" src="about:blank" data-ng-cloak data-player-url="/service/player/en-US/theme/brighttalk/channel/10477/webcast/191247/play"></iframe>
+                </div>
+
+                <div class="hidden-xs hidden-sm" data-ng-show="webcast.userIsAuthorised" data-ng-cloak>
+                                            <div class="adsWrapper">
+                            <div class="adzerk-advert topBanner">
+    <div class="medium-rectangle">
+    <div class="jsAdvertContainer" id="adzerk_advert_topBanner"
+                    data-channel-id="10477"
+                    data-webcast-id="191247"
+                    data-user-specific-communities="1"
+                    data-adsize="Medium Rectangle"
+                    data-community=""
+                    data-account="4574"
+                    data-siteid="20659"
+                    data-refresh="600"
+                    data-zoneid="57042"
+                    data-height="250"
+                    data-width="300"
+                    data-sizeid="5"
+                    data-elementid="adzerk_advert_topBanner"
+                    data-ismock=""
+            ></div>
+</div>
+</div>
+                        </div>
+                    
+                                                        <div class="channel-details">
+            
+                <ul id="channelTabs" class="block-tabs channel-tabs">
+
+                    <li class="tab block-tab block-tab-active" id="channelFeedTab">
+                        <span class="block-tab-link">Channel</span>
+                    </li>
+
+                    <li class="tab block-tab" id="channelProfileTab">
+                        <span class="block-tab-link">Channel profile</span>
+                    </li>
+
+                </ul>
+
+                <div class="channel-title-wrapper">
+                    <h2 class="channel-title"><a class="channel-link" data-ga-click-tracker data-ga-click-tracker-action="Channel link" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="" href="/channel/10477/informatica">Informatica</a></h2>
+                </div>
+
+                <div class="pagination-options jsPaginationOptions">
+                    <button type="button" class="pagination-option pagination-option-prev jsPaginationOptionPrev">Up</button>
+                    <button type="button" class="pagination-option pagination-option-next jsPaginationOptionNext">Down</button>
+                </div>
+
+                <div class="channelFeed" id="channelFeed" data-no-webinars-message="There are currently no more webinars or videos in this channel.">
+                                            <ul data-prev="0" data-next="2">
+                                                            
+<li class="communicationWrapper" id="feedCommunication191225">
+    <div class="communication upcoming">
+        <div>
+            <a class="detailsWrapper" href="/webcast/10477/191225?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed">
+                                    <img class="slide thumbnail" src="https://www.brighttalk.com/communication/191225/tn1_3.png" alt="" />
+                                <span class="title">Automated Translation Management for Product Information Management -Product 360</span>
+
+                    
+
+    <span class="startDate upcomingDate" title="Start date">
+        <span class="BTDate date" data-timestamp="1458637200" data-format="M j Y">Mar 22 2016</span>
+        <span class="BTDate time" data-timestamp="1458637200" data-format="g:i a">9:00 am</span>
+        <span class="jsTimezoneClock timezone-clock usersTimezone">UTC</span>
+    </span>
+
+
+        <span class="duration" title="Duration" data-seconds="2700">45 mins</span>
+            </a>
+
+            <div class="moreDetailsWrapper">
+                <div class="presenters">Sören Berger, Senior Business Consultant, parsionate GmbH, Jost Gödecke, Principal Technical Consultant, parsionate GmbH</div>
+                <div class="description">In a globalized world it is no longer sufficient to produce product data only in the native language. Therefore, a professional translation is a must to approach customers.<br />
+<br />
+Translation done by external agencies is a cost driver. Reducing these costs is not only a technical challenge but also may result in procedural changes in the teams as well as in changes to the established workflows.<br />
+Watch this webinar to learn about the challenges of automated translation management: How can the cooperation of several internal and external involved persons be organized in an effective way and how can these processes be implemented into a Software?<br />
+<br />
+In the second part of this webinar you will get a first impression on how to solve the challenges coming up with the integration: A demonstration of a real implementation project, connecting one of the leading TMS-solutions with Informatica MDM - Product 360, provides you insights into the technical realization of automated translation management.<br />
+<br />
+Informatica is proud to bring you this webinar in collaboration with our partner: parsionate GmbH. Joining us from parsionate and talking to you about Automated Translation Management with Product 360 are:<br />
+<br />
+- Sören Berger, Senior Business Consultant, parsionate GmbH   <br />
+- Jost Gödecke, Principal Technical Consultant, parsionate GmbH<br />
+<br />
+Moderating this session:<br />
+- Nicholas Goupil, Product Marketing Manager Product 360, Informatica</div>
+                <div class="options">
+                    
+
+<a href="/webcast/10477/191225?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term="
+   class="bt-webcast-button large btn primary"
+   data-start-time="1458637200"
+   data-channel-id="10477"
+   data-communication-id="191225"
+   data-status="upcoming"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed"
+   >Save your seat</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                            
+<li class="communicationWrapper" id="feedCommunication188049">
+    <div class="communication upcoming">
+        <div>
+            <a class="detailsWrapper" href="/webcast/10477/188049?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed">
+                                    <img class="slide thumbnail" src="https://www.brighttalk.com/communication/188049/tn1_1.png" alt="" />
+                                <span class="title">New Era of Hybrid Data Management</span>
+
+                    
+
+    <span class="startDate upcomingDate" title="Start date">
+        <span class="BTDate date" data-timestamp="1458237600" data-format="M j Y">Mar 17 2016</span>
+        <span class="BTDate time" data-timestamp="1458237600" data-format="g:i a">6:00 pm</span>
+        <span class="jsTimezoneClock timezone-clock usersTimezone">UTC</span>
+    </span>
+
+
+        <span class="duration" title="Duration" data-seconds="3600">60 mins</span>
+            </a>
+
+            <div class="moreDetailsWrapper">
+                <div class="presenters">Carl Lehmann, 451 Research and Ajay Gandhi, Informatica</div>
+                <div class="description">Learn how your company can achieve greater agility and lower operating costs by implementing a data infrastructure-as-a-service across PaaS, SaaS and legacy environments with  integration platform-as-a-service (iPaaS) cloud integration services that extend your traditional on-premises data infrastructure. Hybrid Data Management enables cloud-first and hybrid data use cases including hybrid application integration with iPaaS, data center consolidation, and lift &amp; shift.</div>
+                <div class="options">
+                    
+
+<a href="/webcast/10477/188049?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term="
+   class="bt-webcast-button large btn primary"
+   data-start-time="1458237600"
+   data-channel-id="10477"
+   data-communication-id="188049"
+   data-status="upcoming"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed"
+   >Save your seat</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                            
+<li class="communicationWrapper" id="feedCommunication189645">
+    <div class="communication upcoming">
+        <div>
+            <a class="detailsWrapper" href="/webcast/10477/189645?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed">
+                                    <img class="slide thumbnail" src="https://www.brighttalk.com/communication/189645/tn1_1.png" alt="" />
+                                <span class="title">Where Does Data Security Intelligence Fit in Data Management and Security?</span>
+
+                    
+
+    <span class="startDate upcomingDate" title="Start date">
+        <span class="BTDate date" data-timestamp="1458147600" data-format="M j Y">Mar 16 2016</span>
+        <span class="BTDate time" data-timestamp="1458147600" data-format="g:i a">5:00 pm</span>
+        <span class="jsTimezoneClock timezone-clock usersTimezone">UTC</span>
+    </span>
+
+
+        <span class="duration" title="Duration" data-seconds="3600">60 mins</span>
+            </a>
+
+            <div class="moreDetailsWrapper">
+                <div class="presenters">Erik Jarlstrom, Informatica, David Loshin, TDWI</div>
+                <div class="description">Data Security Intelligence is new, but data security and management are not. Most organizations have already deployed some type of data security solution(s) and data management solutions and so it is logical to ask how DSI relates to these. How does DSI complement these diverse but related environments? This webinar will answer these critical questions.</div>
+                <div class="options">
+                    
+
+<a href="/webcast/10477/189645?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term="
+   class="bt-webcast-button large btn primary"
+   data-start-time="1458147600"
+   data-channel-id="10477"
+   data-communication-id="189645"
+   data-status="upcoming"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed"
+   >Save your seat</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                            
+<li class="communicationWrapper" id="feedCommunication190699">
+    <div class="communication upcoming">
+        <div>
+            <a class="detailsWrapper" href="/webcast/10477/190699?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed">
+                                    <img class="slide thumbnail" src="/resources/images/diamond-100x75.jpg?v=105248" alt="" />
+                                <span class="title">Informatica Data Quality V10 Update</span>
+
+                    
+
+    <span class="startDate upcomingDate" title="Start date">
+        <span class="BTDate date" data-timestamp="1458144000" data-format="M j Y">Mar 16 2016</span>
+        <span class="BTDate time" data-timestamp="1458144000" data-format="g:i a">4:00 pm</span>
+        <span class="jsTimezoneClock timezone-clock usersTimezone">UTC</span>
+    </span>
+
+
+        <span class="duration" title="Duration" data-seconds="3600">60 mins</span>
+            </a>
+
+            <div class="moreDetailsWrapper">
+                <div class="presenters">Donal, Chris</div>
+                <div class="description">Informatica Data Quality V10 Update</div>
+                <div class="options">
+                    
+
+<a href="/webcast/10477/190699?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term="
+   class="bt-webcast-button large btn primary"
+   data-start-time="1458144000"
+   data-channel-id="10477"
+   data-communication-id="190699"
+   data-status="upcoming"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed"
+   >Save your seat</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                            
+<li class="communicationWrapper" id="feedCommunication191305">
+    <div class="communication upcoming">
+        <div>
+            <a class="detailsWrapper" href="/webcast/10477/191305?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed">
+                                    <img class="slide thumbnail" src="https://www.brighttalk.com/communication/191305/thumbnail1455130147167.png" alt="" />
+                                <span class="title">Data Warehouse Modernization with Informatica v10: Best Practices &amp; Demos</span>
+
+                    
+
+    <span class="startDate upcomingDate" title="Start date">
+        <span class="BTDate date" data-timestamp="1456423200" data-format="M j Y">Feb 25 2016</span>
+        <span class="BTDate time" data-timestamp="1456423200" data-format="g:i a">6:00 pm</span>
+        <span class="jsTimezoneClock timezone-clock usersTimezone">UTC</span>
+    </span>
+
+
+        <span class="duration" title="Duration" data-seconds="3600">60 mins</span>
+            </a>
+
+            <div class="moreDetailsWrapper">
+                <div class="presenters">Rajeskar Kumara, Product Manager, Informatica Roy Indranil, Product Manager, Informatica Tom Kato, Sr. Manager, Enterprise Da</div>
+                <div class="description">We will be announcing a new PowerCenter option that will provide a dramatic productivity improvement for developers who are looking to easily reuse patterns and automate their PowerCenter mappings.<br />
+<br />
+Next, Tom Kato from Republic Services will share his experiences and best practices around a transformative data modernization initiative that he is running at his organization.</div>
+                <div class="options">
+                    
+
+<a href="/webcast/10477/191305?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term="
+   class="bt-webcast-button large btn primary"
+   data-start-time="1456423200"
+   data-channel-id="10477"
+   data-communication-id="191305"
+   data-status="upcoming"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed"
+   >Save your seat</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                            
+<li class="communicationWrapper" id="feedCommunication189321">
+    <div class="communication upcoming">
+        <div>
+            <a class="detailsWrapper" href="/webcast/10477/189321?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed">
+                                    <img class="slide thumbnail" src="https://www.brighttalk.com/communication/189321/tn1_1.png" alt="" />
+                                <span class="title">Turning Big Data Into Trusted Insights With a Big Data Fabric</span>
+
+                    
+
+    <span class="startDate upcomingDate" title="Start date">
+        <span class="BTDate date" data-timestamp="1456250400" data-format="M j Y">Feb 23 2016</span>
+        <span class="BTDate time" data-timestamp="1456250400" data-format="g:i a">6:00 pm</span>
+        <span class="jsTimezoneClock timezone-clock usersTimezone">UTC</span>
+    </span>
+
+
+        <span class="duration" title="Duration" data-seconds="3600">60 mins</span>
+            </a>
+
+            <div class="moreDetailsWrapper">
+                <div class="presenters">Noel Yuhanna, Principal Analyst, Forrester Research</div>
+                <div class="description">With growing adoption of technologies like Hadoop, new sources of data are being ingested into the organization with hopes of developing more compelling reports, predictions, and actions. But data analysts are held back from creating useful insights because they are forced to manually find and reconcile siloed and inconsistent data across the organization.  Analytics end up filled with inaccuracies stemming from data that is incomplete, inconsistent, and insecure. Organizations are turning to big data fabric reference architectures to automatically and intelligently bring together disparate big data sources, processing them in a big data platform technology, such as Hadoop, and finally deliver a unified, trusted, and comprehensive view of the business. <br />
+<br />
+Join Noel Yuhanna, Principal Analyst of Forrester Research, on this webinar to learn about new opportunities for your organization, including:<br />
+<br />
+•How to deliver trusted insights more quickly for your business<br />
+•How to make data management a more repeatable process<br />
+•How to incorporate self-service and collaboration into data management</div>
+                <div class="options">
+                    
+
+<a href="/webcast/10477/189321?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term="
+   class="bt-webcast-button large btn primary"
+   data-start-time="1456250400"
+   data-channel-id="10477"
+   data-communication-id="189321"
+   data-status="upcoming"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed"
+   >Save your seat</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                            
+<li class="communicationWrapper" id="feedCommunication189175">
+    <div class="communication upcoming">
+        <div>
+            <a class="detailsWrapper" href="/webcast/10477/189175?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed">
+                                    <img class="slide thumbnail" src="https://www.brighttalk.com/communication/189175/thumbnail1455652628493.png" alt="" />
+                                <span class="title">Tracking and Securing Sensitive Data across the Enterprise</span>
+
+                    
+
+    <span class="startDate upcomingDate" title="Start date">
+        <span class="BTDate date" data-timestamp="1456236000" data-format="M j Y">Feb 23 2016</span>
+        <span class="BTDate time" data-timestamp="1456236000" data-format="g:i a">2:00 pm</span>
+        <span class="jsTimezoneClock timezone-clock usersTimezone">UTC</span>
+    </span>
+
+
+        <span class="duration" title="Duration" data-seconds="3600">60 mins</span>
+            </a>
+
+            <div class="moreDetailsWrapper">
+                <div class="presenters">Paul Garstang, Steve Holyer, Rob Boden</div>
+                <div class="description">Perhaps one of the greatest challenges we currently face in terms of securing our customer and corporate sensitive data, is actually developing the capability to track its movement through our organization, and understanding who and how the data is being used. This is becoming a major focus for Audit teams right now, as how can we demonstrate that we have effective security controls in place, if we don’t have any mechanism for tracing where the sensitive data is residing, or how it is moving through our IT Landscape.<br />
+<br />
+In this discussion and demonstration we will take a look at how Informatica’s Secure@Source is breaking new ground, as the first effective Data Security Intelligence tool in this space. Providing clients know with real time consolidated dashboards, which capture and display the proliferation, security and usage profile of all the sensitive data held, across hundreds of corporate data stores.<br />
+<br />
+The webinar will be hosted by Paul Garstang, Steve Holyer and Robert Boden, from Informatica’s Data Security Technology Group.</div>
+                <div class="options">
+                    
+
+<a href="/webcast/10477/189175?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term="
+   class="bt-webcast-button large btn primary"
+   data-start-time="1456236000"
+   data-channel-id="10477"
+   data-communication-id="189175"
+   data-status="upcoming"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed"
+   >Save your seat</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                            
+<li class="communicationWrapper" id="feedCommunication191087">
+    <div class="communication upcoming">
+        <div>
+            <a class="detailsWrapper" href="/webcast/10477/191087?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed">
+                                    <img class="slide thumbnail" src="https://www.brighttalk.com/communication/191087/tn1_1.png" alt="" />
+                                <span class="title">Amp Your Customer Service Statistics to Improve Salesforce Service Cloud</span>
+
+                    
+
+    <span class="startDate upcomingDate" title="Start date">
+        <span class="BTDate date" data-timestamp="1455822000" data-format="M j Y">Feb 18 2016</span>
+        <span class="BTDate time" data-timestamp="1455822000" data-format="g:i a">7:00 pm</span>
+        <span class="jsTimezoneClock timezone-clock usersTimezone">UTC</span>
+    </span>
+
+
+        <span class="duration" title="Duration" data-seconds="3600">60 mins</span>
+            </a>
+
+            <div class="moreDetailsWrapper">
+                <div class="presenters">Justin Donlon, BI Architect, Carbonite; Mike McDermott, SVP, Primitive Logic; Clive Bearman, Product Marketing, Informatica</div>
+                <div class="description">Your customers deserve great service, but nothing destroys goodwill more than long wait times, unanswered questions and being treated like a number. So how can you deploy CRM to fix these issues and keep delighting your best customers?   <br />
+<br />
+Salesforce is undoubtedly one of your most crucial CRM investments and one of today&#039;s most powerful cloud ecosystems — but poor deployment choices and massive app proliferation can introduce integration complexity that can dramatically impact the Salesforce data and ultimately drive down customer satisfaction scores. Join Clive Bearman, Director of Product Marketing at Informatica, Justin Donlon, Business Intelligence Solution Architect at Carbonite, and Mike McDermott, SVP of Business Development at Primitive Logic, as they discuss how to best tame the data integration complexity and amp your customer service.  <br />
+<br />
+Clive will discuss connectivity and integration scenarios across the Salesforce portfolio, not just Sales Cloud. Justin will explain how Carbonite attained an independent 9.5 out of 10 satisfaction score. Mike will conclude with practical implementation advice to enable you to deepen your relationships with your customers  <br />
+<br />
+At the end of the webinar, you’ll understand where and when to use the most appropriate techniques, and how to score quick wins for better customer service.</div>
+                <div class="options">
+                    
+
+<a href="/webcast/10477/191087?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term="
+   class="bt-webcast-button large btn primary"
+   data-start-time="1455822000"
+   data-channel-id="10477"
+   data-communication-id="191087"
+   data-status="upcoming"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed"
+   >Save your seat</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                            
+<li class="communicationWrapper closestToNow" id="feedCommunication189433">
+    <div class="communication recorded">
+        <div>
+            <a class="detailsWrapper" href="/webcast/10477/189433?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed">
+                                    <img class="slide thumbnail" src="https://www.brighttalk.com/communication/189433/tn1_2.png" alt="" />
+                                <span class="title">Data Visibility, Risk and Financial Impact: Secure@Source V2</span>
+
+                    
+
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1455649200" data-format="M j Y">Feb 16 2016</span>
+    </span>
+
+
+        <span class="duration" title="Duration" data-seconds="3677">62 mins</span>
+            </a>
+
+            <div class="moreDetailsWrapper">
+                <div class="presenters">Josh Alpern, Informatica, Gary Patterson, Informatica Robert Shields, Informatica</div>
+                <div class="description">Secure@Source V2 marks Informatica’s continued innovation of Data Security Intelligence.  Data security intelligence reveals the risks and vulnerabilities of today’s complex data and threat environments.  V2 features user activity tied to sensitive data, sensitive-data analytics for Big Data, Cloud and customer driven integrations to provide an unparalleled analysis of sensitive data risks.   Organizations can understand their data risks on-demand and prioritize security investments as customers, partners and regulators demand and expect.  Removing the guess work and inefficiency of manual processes and forced-fit tools, Secure@Source gives organizations the power they need to control and manage their sensitive and confidential information.</div>
+                <div class="options">
+                    
+    
+<a href="/webcast/10477/189433?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term="
+   class="bt-webcast-button large btn primary"
+   data-start-time="1455649200"
+   data-channel-id="10477"
+   data-communication-id="189433"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed"
+   >Watch now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                            
+<li class="communicationWrapper" id="feedCommunication188781">
+    <div class="communication recorded">
+        <div>
+            <a class="detailsWrapper" href="/webcast/10477/188781?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed">
+                                    <img class="slide thumbnail" src="https://www.brighttalk.com/communication/188781/tn1_4.png" alt="" />
+                                <span class="title">Adding Real Time to Deliver More Business Value from Your Data Warehouse</span>
+
+                    
+
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1455645600" data-format="M j Y">Feb 16 2016</span>
+    </span>
+
+
+        <span class="duration" title="Duration" data-seconds="2751">46 mins</span>
+            </a>
+
+            <div class="moreDetailsWrapper">
+                <div class="presenters">Alan Lundberg, Elizabeth Duke, Scott Hagan, Brandon Wyckoff</div>
+                <div class="description">Historical reporting and analysis is not enough these days.  Enabling “real time or right time” delivery of quality data, at the speed of your business ultimately enables better business responsiveness, agility and most importantly, better business results. PLUS, you may not know this, but you most likely already have most of what you need with the IT people, skills, processes and tools in place today. <br />
+<br />
+Attend this webinar to find out from experts and a customer about how to leverage your existing data warehouse to deliver more value to your organization with real time data.<br />
+<br />
+We will show what it takes to upgrade Data Warehouses with the Real Time capabilities. By attending, you can hear about industry best practices, what to do, and what to avoid when enabling your organization with real time analytics.</div>
+                <div class="options">
+                    
+    
+<a href="/webcast/10477/188781?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term="
+   class="bt-webcast-button large btn primary"
+   data-start-time="1455645600"
+   data-channel-id="10477"
+   data-communication-id="188781"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed"
+   >Watch now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                            
+<li class="communicationWrapper" id="feedCommunication190767">
+    <div class="communication recorded">
+        <div>
+            <a class="detailsWrapper" href="/webcast/10477/190767?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed">
+                                    <img class="slide thumbnail" src="https://www.brighttalk.com/communication/190767/tn1_1.png" alt="" />
+                                <span class="title">Customer Lessons from Data Warehouse Optimization on Hadoop</span>
+
+                    
+
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1455213600" data-format="M j Y">Feb 11 2016</span>
+    </span>
+
+
+        <span class="duration" title="Duration" data-seconds="2798">47 mins</span>
+            </a>
+
+            <div class="moreDetailsWrapper">
+                <div class="presenters">Murthy Mathiprakasam, Amit Kara</div>
+                <div class="description">Are you interested in offloading ETL and infrequently used data from data warehouses to Hadoop?  With growing volume and variety of data and growing appetite of business for trusted information, manual and custom approaches to adopting Hadoop are creating delays and frustrations.  Successful customers have identified ways of leveraging the Big Data Fabric approach to Hadoop, which maximizes developer productivity and future-proofs your environment against change for faster, more flexible, and more repeatable data management on Hadoop.  Join Amit Kara, Big Data Field Expert at Informatica, to learn about key lessons and best practices he has gathered from his time onsite at actual customers sites helping them become successful with data warehouse optimization on Hadoop.</div>
+                <div class="options">
+                    
+    
+<a href="/webcast/10477/190767?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term="
+   class="bt-webcast-button large btn primary"
+   data-start-time="1455213600"
+   data-channel-id="10477"
+   data-communication-id="190767"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed"
+   >Watch now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                            
+<li class="communicationWrapper" id="feedCommunication191247">
+    <div class="communication recorded">
+        <div>
+            <a class="detailsWrapper" href="/webcast/10477/191247?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed">
+                                    <img class="slide thumbnail" src="https://www.brighttalk.com/communication/191247/thumbnail_1455126939.png" alt="" />
+                                <span class="title">Informatica Cloud Winter 2016</span>
+
+                    
+
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1455121800" data-format="M j Y">Feb 10 2016</span>
+    </span>
+
+
+        <span class="duration" title="Duration" data-seconds="3381">57 mins</span>
+            </a>
+
+            <div class="moreDetailsWrapper">
+                <div class="presenters">Krupa Natarajan ( Product Mgmnt), Pratik Parekh (Product Mgmnt) &amp; Anwesa Chatterjee (Product Mktg)</div>
+                <div class="description">Join the Informatica Cloud product team to see the new Informatica Cloud platform in action and find out what&#039;s new in the Winter Release of Informatica Cloud and explore all the key capabilities. <br />
+The Winter release of the Informatica Cloud is packed with many rich functionalities, with a continued focus on self-service and ease of use.  Updates include:<br />
+•Enhanced Cloud Mapping Designer <br />
+•Greater Data Masking transformation capabilities <br />
+•Platform enhancements for REST API, Cloud Test Data Management, secure agent and Real-time processes <br />
+•New connector capabilities for Salesforce Marketing Cloud, Microsoft Azure Data Lake, Microsoft DocumentDB, SAP Concur V2, JD Edwards, Zendesk and more!<br />
+•Enhanced connectors for Tableau, NetSuite, Amazon, Oracle, Microsoft, Marketo, Workday, Zuora and others<br />
+•And so much more!</div>
+                <div class="options">
+                    
+    
+<a href="/webcast/10477/191247?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term="
+   class="bt-webcast-button large btn primary"
+   data-start-time="1455121800"
+   data-channel-id="10477"
+   data-communication-id="191247"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed"
+   >Watch now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                            
+<li class="communicationWrapper" id="feedCommunication171357">
+    <div class="communication recorded">
+        <div>
+            <a class="detailsWrapper" href="/webcast/10477/171357?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed">
+                                    <img class="slide thumbnail" src="https://www.brighttalk.com/communication/171357/tn1_2.png" alt="" />
+                                <span class="title">PayPal Approach to Agile Data Integration:Metadata for Data Trust &amp; Productivity</span>
+
+                    
+
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1454522400" data-format="M j Y">Feb 3 2016</span>
+    </span>
+
+
+        <span class="duration" title="Duration" data-seconds="3665">62 mins</span>
+            </a>
+
+            <div class="moreDetailsWrapper">
+                <div class="presenters">Nagaragu Chayapati, PayPal, Khuan Tan, Informatica</div>
+                <div class="description">Paypal processes nearly 11.5 million payments a day, helping customers send money safely and flexibly. With 162 million active digital wallets, PayPal has created an open, secure and global payments ecosystem, supporting 203 markets and 100 currencies. To support an infrastructure of this scale, PayPal has built a massive and highly scalable enterprise data integration platform. <br />
+<br />
+In this webinar the PayPal Architect will share details on their journey to build business trust in the data and help end-users understand how data in reports and dashboards is originated. He will also cover how PayPal ensures that business users and technical users all have a common vocabulary for business terms. This helps all stakeholders keep in sync while building reports and sharing analysis. Finally the PayPal Architect will discuss the development team’s imperative to conduct full impact analysis for any proposed change within the data integration environment.  He will share how they use data lineage to maintain full insight into impact of change in order to estimate the effort required, minimize risks to the environment and improve productivity.  <br />
+<br />
+The PayPal expert will share his extensive expertise built through this journey at PayPal.  The Architect will discuss lessons learned and best practices in using metadata management and business glossary to support better decision making, build business trust of the data and improve overall productivity.</div>
+                <div class="options">
+                    
+    
+<a href="/webcast/10477/171357?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term="
+   class="bt-webcast-button large btn primary"
+   data-start-time="1454522400"
+   data-channel-id="10477"
+   data-communication-id="171357"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed"
+   >Watch now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                            
+<li class="communicationWrapper" id="feedCommunication178323">
+    <div class="communication recorded">
+        <div>
+            <a class="detailsWrapper" href="/webcast/10477/178323?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed">
+                                    <img class="slide thumbnail" src="https://www.brighttalk.com/communication/178323/thumbnail_1454523502.png" alt="" />
+                                <span class="title">5 Ways to Make Waves with Informatica and Salesforce Analytics Cloud</span>
+
+                    
+
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1454517000" data-format="M j Y">Feb 3 2016</span>
+    </span>
+
+
+        <span class="duration" title="Duration" data-seconds="3409">57 mins</span>
+            </a>
+
+            <div class="moreDetailsWrapper">
+                <div class="presenters">Anwesa Chatterjee, Product Marketing Manager and Ron Lunasin, Sr. Director, Cloud Platform Adoption, Informatica Cloud</div>
+                <div class="description">Every business has data, but only a few are treating it as a strategic asset for actionable insights.  Many struggle with locating and aggregating data, while others wrestle with visualizing and interpreting the data.  Join Clive Bearman and Ron Lunasin for an interactive and demo-focused session on how to leverage the latest technologies in the cloud analytics market to make every-line of business data-driven.  You’ll see how companies from different industries are using the Informatica Cloud to make waves across their companies by connecting, aggregating and relating data from different sources.  You’ll also discover how to achieve amazing insights with the Salesforce Analytics Cloud. Finally you’ll learn the 5 top tips that ensure that your data will always be clean, connected and contextual with Wave Analytics and Informatica.</div>
+                <div class="options">
+                    
+    
+<a href="/webcast/10477/178323?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term="
+   class="bt-webcast-button large btn primary"
+   data-start-time="1454517000"
+   data-channel-id="10477"
+   data-communication-id="178323"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed"
+   >Watch now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                            
+<li class="communicationWrapper" id="feedCommunication183877">
+    <div class="communication recorded">
+        <div>
+            <a class="detailsWrapper" href="/webcast/10477/183877?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed">
+                                    <img class="slide thumbnail" src="https://www.brighttalk.com/communication/183877/thumbnail_1454008208.png" alt="" />
+                                <span class="title">Informatica Big Data Management Deep Dive and Demo</span>
+
+                    
+
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1454000400" data-format="M j Y">Jan 28 2016</span>
+    </span>
+
+
+        <span class="duration" title="Duration" data-seconds="3681">62 mins</span>
+            </a>
+
+            <div class="moreDetailsWrapper">
+                <div class="presenters">Amit Kara, Big Data Technical Marketing, Informatica</div>
+                <div class="description">Hadoop is not just for play anymore.  Companies that are turning petabytes into profit have realized that Big Data Management is the foundation for successful Big Data projects. <br />
+<br />
+Informatica Big Data Management delivers the industry’s first and most comprehensive solution to natively ingest, integrate, clean, govern, and secure big data workloads in Hadoop.<br />
+<br />
+In this webinar you’ll learn through in depth product demos about new features that help you increase productivity, scale and optimize performance, and manage metadata such as:<br />
+<br />
+     • Dynamic Mappings – enables mass ingestion &amp; agile data integration with mapping templates, parameters and rules <br />
+     • Smarter Execution Optimization – higher performance with pushdown to  DB, auto-partitioning and runtime job execution optimization<br />
+     • Blaze – high performance execution engine on YARN for complex batch processing <br />
+     • Live Data Map – Universal metadata catalog for users to easily search and discover data properties, patterns, domain, lineage and relationships<br />
+<br />
+Register today for this deep dive and demo.</div>
+                <div class="options">
+                    
+    
+<a href="/webcast/10477/183877?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term="
+   class="bt-webcast-button large btn primary"
+   data-start-time="1454000400"
+   data-channel-id="10477"
+   data-communication-id="183877"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed"
+   >Watch now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                            
+<li class="communicationWrapper" id="feedCommunication184931">
+    <div class="communication recorded">
+        <div>
+            <a class="detailsWrapper" href="/webcast/10477/184931?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed">
+                                    <img class="slide thumbnail" src="https://www.brighttalk.com/communication/184931/thumbnail_1453920732.png" alt="" />
+                                <span class="title">Secure and Automated Data Integration Testing</span>
+
+                    
+
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1453914000" data-format="M j Y">Jan 27 2016</span>
+    </span>
+
+
+        <span class="duration" title="Duration" data-seconds="3635">61 mins</span>
+            </a>
+
+            <div class="moreDetailsWrapper">
+                <div class="presenters">Josh Alpern, Informatica, Saeed Kahn, Informatica, Robert Shields, Informatica</div>
+                <div class="description">Informatica PowerCenter is designed to deliver end-to-end data integration agility. A big part of agility is about delivering data integration testing, rapidly, reliably and securely.<br />
+<br />
+Testing is a crucial, often overlooked, element of your development lifecycle. Today, data integration testing is often time-consuming, manual, script driven, painful and error-prone. Validating your data as part of Unit and Regression Testing may be manual, unreliable and lacking reusability and auditablity. Provisioning the right test data sets in dev/test environment may delay the process and result in inaccurate test outcomes. Sensitive data may not be protected during testing. <br />
+<br />
+In this webinar we will discuss capabilities that will automate your data integration testing so you can quickly, reliably and securely move your applications into production:<br />
+•PowerCenter Data Validation testing to validate your logic in unit and regression testing<br />
+•Automated management, provisioning and generation of the optimal test data sets in non-production environments <br />
+•Consistent masking to ensure sensitive data is protected in dev/test environments, while ensuring high quality, realistic test data is maintained<br />
+<br />
+Join us to learn how you can improve your data integration testing to accelerate your development lifecycle, deliver better quality data in production and protect sensitive data during testing.</div>
+                <div class="options">
+                    
+    
+<a href="/webcast/10477/184931?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term="
+   class="bt-webcast-button large btn primary"
+   data-start-time="1453914000"
+   data-channel-id="10477"
+   data-communication-id="184931"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed"
+   >Watch now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                            
+<li class="communicationWrapper" id="feedCommunication187243">
+    <div class="communication recorded">
+        <div>
+            <a class="detailsWrapper" href="/webcast/10477/187243?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed">
+                                    <img class="slide thumbnail" src="https://www.brighttalk.com/communication/187243/thumbnail_1453934359.png" alt="" />
+                                <span class="title">A 360° Customer View for Telecoms: Driving Value from Data</span>
+
+                    
+
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1453910400" data-format="M j Y">Jan 27 2016</span>
+    </span>
+
+
+        <span class="duration" title="Duration" data-seconds="3559">60 mins</span>
+            </a>
+
+            <div class="moreDetailsWrapper">
+                <div class="presenters">Mark Hiseman, Informatica; Stephan Zoder, Informatica; Vishal Saxena, Tech Mahindra</div>
+                <div class="description">One of the most critical assets for a telecommunications service provider is their data. As ever-increasing customer, product and network data volumes pour through the organizational networks worldwide, it becomes more difficult to maintain, control and derive value out of them.<br />
+<br />
+Some challenges include:<br />
+• Inaccurate customer records and reporting<br />
+• Duplicate product information and mismatched assets<br />
+• Rising customer dissatisfaction due to call center inefficiencies<br />
+<br />
+These challenges not only cause system inefficiencies, but also have an impact on the revenue and bottom-line for the provider. Join our speakers to understand how these challenges can be overcome and how the data can be created, maintained and analyzed to enhance its value through master data management (MDM).<br />
+<br />
+Tech Mahindra has built an accelerator using Informatica’s market-leading multi-domain MDM solution and we will demonstrate the system to show how telecoms can ensure that the consistency, accuracy, stewardship and accountability of data is kept intact across the organization.</div>
+                <div class="options">
+                    
+    
+<a href="/webcast/10477/187243?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term="
+   class="bt-webcast-button large btn primary"
+   data-start-time="1453910400"
+   data-channel-id="10477"
+   data-communication-id="187243"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed"
+   >Watch now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                            
+<li class="communicationWrapper" id="feedCommunication187767">
+    <div class="communication recorded">
+        <div>
+            <a class="detailsWrapper" href="/webcast/10477/187767?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed">
+                                    <img class="slide thumbnail" src="https://www.brighttalk.com/communication/187767/tn1_2.png" alt="" />
+                                <span class="title">7 Qualities of a Winning Data Governance Elevator Speech</span>
+
+                    
+
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1453831200" data-format="M j Y">Jan 26 2016</span>
+    </span>
+
+
+        <span class="duration" title="Duration" data-seconds="3624">61 mins</span>
+            </a>
+
+            <div class="moreDetailsWrapper">
+                <div class="presenters">Gwen Thomas, Founder, Data Governance Institute and Rob Karel, VP Product Strategy, Informatica</div>
+                <div class="description">Successful data governance and management programs require ongoing goodwill from stakeholders spread across the organization. This translates to a lot of communications – formal and informal, long and short, planned and unplanned. Wasted time? Hardly! Done right, they can result in stakeholders who become vocal advocates for the budget, resources, and tools you require to deliver the value they need.<br />
+<br />
+The secret is stitching together your discussions with carefully crafted micro-conversations – often called “elevator speeches” – that enforce your key messages while intriguing your listeners. A winning elevator speech pulls them into your story and prompts them to ask for more information. It shows that you understand them, and it provides a service, since it may help them connect the dots between the message they’ve just heard and similar information they’ve heard in colleague introductions, conference room presentations, hallway conversations, status reports, and even pitches for tools, projects, and executive attention. <br />
+<br />
+There’s a formula for crafting a winning elevator speech. And it’s more than the conventional advice to be short and natural-sounding. Learn the 7 qualities of powerful elevator speeches for data governance programs, and how to apply them to pitches for support, money, attention, participation, and tools.</div>
+                <div class="options">
+                    
+    
+<a href="/webcast/10477/187767?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term="
+   class="bt-webcast-button large btn primary"
+   data-start-time="1453831200"
+   data-channel-id="10477"
+   data-communication-id="187767"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed"
+   >Watch now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                            
+<li class="communicationWrapper" id="feedCommunication189803">
+    <div class="communication recorded">
+        <div>
+            <a class="detailsWrapper" href="/webcast/10477/189803?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed">
+                                    <img class="slide thumbnail" src="https://www.brighttalk.com/communication/189803/thumbnail_1453415785.png" alt="" />
+                                <span class="title">Transforming the Digital Citizen Relationship</span>
+
+                    
+
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1453239600" data-format="M j Y">Jan 19 2016</span>
+    </span>
+
+
+        <span class="duration" title="Duration" data-seconds="3566">60 mins</span>
+            </a>
+
+            <div class="moreDetailsWrapper">
+                <div class="presenters">Dewand Neely, State of Indiana, Dr. Amen Ramashariki, State of NYC</div>
+                <div class="description">State business and IT leaders recognize that “Golden Records,” referring to people, places and things can significantly improve customer / citizen service, by getting the right agency programs to the right people. Find out how states are leveraging master data management to improve people’s experiences while engaging with government, effectively reduce waste, fraud and abuse and, ultimately, increase the quality of life for citizens.<br />
+In this webinar we discuss:<br />
+• How to improve data to ensure citizens are getting the services they are entitled to<br />
+• Methods for discovering discrepancies more quickly to deter waste, fraud and abuse<br />
+• How to better predict what information and services citizens may need</div>
+                <div class="options">
+                    
+    
+<a href="/webcast/10477/189803?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term="
+   class="bt-webcast-button large btn primary"
+   data-start-time="1453239600"
+   data-channel-id="10477"
+   data-communication-id="189803"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed"
+   >Watch now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                            
+<li class="communicationWrapper" id="feedCommunication186805">
+    <div class="communication recorded">
+        <div>
+            <a class="detailsWrapper" href="/webcast/10477/186805?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term=" data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed">
+                                    <img class="slide thumbnail" src="https://www.brighttalk.com/communication/186805/thumbnail_1451500987.png" alt="" />
+                                <span class="title">The $1 Million Big Data Ready Challenge</span>
+
+                    
+
+    <span class="recordedLabel">Recorded: </span>
+    <span class="startDate recordedDate" title="Recorded">
+        <span class="date BTDate" data-timestamp="1451500800" data-format="M j Y">Dec 30 2015</span>
+    </span>
+
+
+        <span class="duration" title="Duration" data-seconds="56">1 min</span>
+            </a>
+
+            <div class="moreDetailsWrapper">
+                <div class="presenters">John Haddad, Senior Director, Informatica</div>
+                <div class="description">Learn about the $1 Million Big Data Ready Challenge and why you should enter.</div>
+                <div class="options">
+                    
+    
+<a href="/webcast/10477/186805?utm_campaign=channel-feed&amp;utm_content=&amp;utm_source=brighttalk-portal&amp;utm_medium=web&amp;utm_term="
+   class="bt-webcast-button large btn primary"
+   data-start-time="1451500800"
+   data-channel-id="10477"
+   data-communication-id="186805"
+   data-status="recorded"
+   data-extra-class="btn primary large"
+          data-ga-click-tracker data-ga-click-tracker-action="Content" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Channel feed"
+   >Watch now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                    </ul>
+                                    </div>
+                    </div>
+
+                    <div id="channelProfile" class="channel-profile">
+                <div class="channelTagline">Putting Information Potential to Work</div>
+                <div class="channelDescription" id="channelDescription">Informatica Webcasts target IT and business professionals who are focused on data integration and enterprise data management. These webcasts provide the latest  best practices, strategies, and tips and tricks to help organizations put information potential to work to gain a competitive advantage in today’s global information economy.  Informatica Corporation is the world’s number one independent provider of data integration and data management software. Thousands of enterprises worldwide depend on Informatica data integration, data quality, and big data solutions to access, integrate, and trust their information assets residing on premise and in the Cloud.</div>
+                <span class="expandable unselectable" id="expandChannelDescription" data-collapsed-text="More" data-expanded-text="Less">More</span>
+                <div class="channelProfileMenuWrapper">
+                    <ul class="channelProfileMenu">
+                        <li class="menuItemWrapper">
+                            <span class="menuItem">Upcoming webinars (8)</span>
+                        </li>
+                        <li class="menuItemWrapper">
+                            <span class="menuItem">Recorded webinars (244)</span>
+                        </li>
+                        <li class="menuItemWrapper">
+                            <span class="menuItem">Subscribers (33,906)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        
+                    <div class="tabsFooter">
+                <div class="rssFeedWrapper">
+                    <a class="rssFeedLink" href="/channel/10477/feed/rss">Channel RSS feed</a>
+                </div>
+                <div class="pagination-options jsPaginationOptions">
+                    <button type="button" class="pagination-option pagination-option-prev jsPaginationOptionPrev">Up</button>
+                    <button type="button" class="pagination-option pagination-option-next jsPaginationOptionNext">Down</button>
+                </div>
+            </div>
+        
+                        
+                                            <div class="bottomBanner adsWrapper">
+                            <div class="adzerk-advert bottomBanner-2">
+    <div class="medium-rectangle">
+    <div class="jsAdvertContainer" id="adzerk_advert_bottomBanner_2"
+                    data-channel-id="10477"
+                    data-webcast-id="191247"
+                    data-user-specific-communities="1"
+                    data-adsize="Medium Rectangle"
+                    data-community=""
+                    data-account="4574"
+                    data-siteid="20659"
+                    data-refresh="600"
+                    data-zoneid="57043"
+                    data-height="250"
+                    data-width="300"
+                    data-sizeid="5"
+                    data-elementid="adzerk_advert_bottomBanner_2"
+                    data-ismock=""
+            ></div>
+</div>
+</div>
+                            <div class="adzerk-advert bottomBanner-3">
+    <div class="medium-rectangle">
+    <div class="jsAdvertContainer" id="adzerk_advert_bottomBanner_3"
+                    data-channel-id="10477"
+                    data-webcast-id="191247"
+                    data-user-specific-communities="1"
+                    data-adsize="Medium Rectangle"
+                    data-community=""
+                    data-account="4574"
+                    data-siteid="20659"
+                    data-refresh="600"
+                    data-zoneid="57044"
+                    data-height="250"
+                    data-width="300"
+                    data-sizeid="5"
+                    data-elementid="adzerk_advert_bottomBanner_3"
+                    data-ismock=""
+            ></div>
+</div>
+</div>
+                            <div class="adzerk-advert bottomBanner-4">
+    <div class="medium-rectangle">
+    <div class="jsAdvertContainer" id="adzerk_advert_bottomBanner_4"
+                    data-channel-id="10477"
+                    data-webcast-id="191247"
+                    data-user-specific-communities="1"
+                    data-adsize="Medium Rectangle"
+                    data-community=""
+                    data-account="4574"
+                    data-siteid="20659"
+                    data-refresh="600"
+                    data-zoneid="57045"
+                    data-height="250"
+                    data-width="300"
+                    data-sizeid="5"
+                    data-elementid="adzerk_advert_bottomBanner_4"
+                    data-ismock=""
+            ></div>
+</div>
+</div>
+                        </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+                    </div>
+                            </div>
+        </div>
+
+            
+<div class="site-footer">
+    <p class="site-footer-headline"><a class="site-footer-headline-link" id="site-footer-link-learn-more" href="/marketing-solutions/marketing-platform">Learn more</a> about BrightTALK's products and services.</p>
+    <ul class="site-footer-link-list">
+        <li class="site-footer-link-list-item"><a class="site-footer-link" id="site-footer-link-about-us" href="/pages/about-brighttalk/company">About us</a></li>
+        <li class="site-footer-link-list-item"><a class="site-footer-link" id="site-footer-link-blog" href="http://blog.brighttalk.com">Blog</a></li>
+        <li class="site-footer-link-list-item"><a class="site-footer-link" id="site-footer-link-user-agreement" href="/pages/user-agreement">User agreement</a></li>
+        <li class="site-footer-link-list-item"><a class="site-footer-link" id="site-footer-link-privacy-policy" href="/pages/privacy-policy">Privacy policy</a></li>
+        <li class="site-footer-link-list-item"><a class="site-footer-link" id="site-footer-link-support" href="https://support.brighttalk.com/home">Support</a></li>
+        <li class="site-footer-link-list-item"><a class="site-footer-link" id="site-footer-link-presenter-access" href="/presenting">Presenter access</a></li>
+    </ul>
+    <p class="site-footer-copyright">&copy; 2016 BrightTALK</p>
+</div>
+
+
+                <div id="bt-authenticator">
+    <object class="BrightTALKEmbed" width="640" height="480" type="application/javascript">
+        <param name="player" value="authenticator:html">
+        <param name="shareFunction" value="embedShare">
+        <param name="domain" value="https://www.brighttalk.com">
+                    <param name="dataDomain" value="https://www.brighttalk.com">
+            <param name="secureDomain" value="https://www.brighttalk.com">
+                <param name="fromdc" value="" class="fromdcParam">
+        <param name="autoplay" value="true">
+        <param name="jsAnalyticsMethod" value="handlePlayerEvent">
+                    </object>
+</div>
+    
+                    <div id="embedDialog" class="embedDialog">
+    <div class="top"></div>
+    <div class="body">
+        <h3 class="title">Embed in website or blog</h3>
+        <div class="embedCodeWrapper">
+            <label for="embedCode" class="embedLabel">Copy and paste this embed code to your website or blog:</label>
+            <input class="embedCode" id="embedCode" value="&lt;script type=&quot;text/javascript&quot; src=&quot;https://www.brighttalk.com/clients/js/embed/embed.js&quot;&gt;&lt;/script&gt;&lt;object class=&quot;BrightTALKEmbed&quot; width=&quot;705&quot; height=&quot;660&quot;&gt;&lt;param name=&quot;player&quot; value=&quot;channel_player&quot;/&gt;&lt;param name=&quot;domain&quot; value=&quot;http://www.brighttalk.com&quot;/&gt;&lt;param name=&quot;channelid&quot; value=&quot;10477&quot;/&gt;&lt;param name=&quot;communicationid&quot; value=&quot;191247&quot;/&gt;&lt;param name=&quot;autoStart&quot; value=&quot;false&quot;/&gt;&lt;param name=&quot;theme&quot; value=&quot;&quot;/&gt;&lt;/object&gt;"  data-embed-code="&lt;script type=&quot;text/javascript&quot; src=&quot;https://www.brighttalk.com/clients/js/embed/embed.js&quot;&gt;&lt;/script&gt;&lt;object class=&quot;BrightTALKEmbed&quot; width=&quot;705&quot; height=&quot;660&quot;&gt;&lt;param name=&quot;player&quot; value=&quot;channel_player&quot;/&gt;&lt;param name=&quot;domain&quot; value=&quot;http://www.brighttalk.com&quot;/&gt;&lt;param name=&quot;channelid&quot; value=&quot;10477&quot;/&gt;&lt;param name=&quot;communicationid&quot; value=&quot;191247&quot;/&gt;&lt;param name=&quot;autoStart&quot; value=&quot;false&quot;/&gt;&lt;param name=&quot;theme&quot; value=&quot;&quot;/&gt;&lt;/object&gt;" />
+        </div>
+        <div id="embedCodeOptions" class="embedCodeOptions">
+            <button id="embedCodeCloseButton" class="BTButton button2">
+                <span class="text">Close</span>
+            </button>
+        </div>
+    </div>
+    <div class="bottom"></div>
+</div>
+
+                <div id="emailDialog" class="emailDialog" data-email-send-url="https://www.brighttalk.com/service/channel/xml/friendemail" data-communication-id="191247" data-channel-id="10477">
+    <div class="top"></div>
+    <div class="body">
+
+        <div class="controls">
+            <div class="left">
+                <label class="emailFieldLabel" for="emailInput">Your colleagues' emails:</label>
+                <textarea id="emailInput" class="emailInput"></textarea>
+
+                <div class="buttonWrapper">
+                    <button id="addEmailButton" class="addEmailButton BTButton button2">
+                        <span>Add</span>
+                    </button>
+                </div>
+
+                <div class="badEmailErrorWrapper"></div>
+
+                <div class="successfulEmails">Successfully added emails: <span id="addedEmailsCount">0</span></div>
+
+                <div class="addedEmailListWrapper">
+                    <ul id="addedEmailList" class="addedEmailList">
+                        <li class="placeholder"></li>
+                    </ul>
+                </div>
+                <div class="removeAllEmailsWrapper">
+                    <span id="removeAllEmails" class="removeAllEmails">Remove all</span>
+                </div>
+            </div>
+
+            <div class="right">
+                <label class="emailFieldLabel" for="emailMessage">Your message:</label>
+                <textarea id="emailMessage" class="emailInput" data-default-text="Hi,
+
+I thought this webinar was interesting and I wanted to share it with you.">Hi,
+
+I thought this webinar was interesting and I wanted to share it with you.</textarea>
+
+                <div class="emailDetails">
+                    <ul>
+                        <li>Title: Informatica Cloud Winter 2016</li>
+                        <li>Live at: <span class="BTDate emailLiveDate" data-timestamp="1455121800" data-format="M j Y g:i a">Feb 10 2016 4:30 pm</span></li>
+                        <li>Presented by: Krupa Natarajan ( Product Mgmnt), Pratik Parekh (Product Mgmnt) &amp; Anwesa Chatterjee (Product Mktg)</li>
+                        <li class="emailUsernameWrapper">From: <span class="emailUsername"></span></li>
+                    </ul>
+                </div>
+
+                <div class="emailSendError"></div>
+
+                <div class="buttonWrapper">
+                    <button id="sendEmailButton" class="BTButton button2" disabled="disabled" data-ga-click-tracker data-ga-click-tracker-action="Sharing" data-ga-click-tracker-category="Player page" data-ga-click-tracker-label="Email send">
+                        <span class="text">Send</span>
+                    </button>
+                    <button id="cancelEmailButton" class="cancelEmailButton BTButton button2">
+                        <span class="text">Cancel</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="emailSuccessMessage">
+            <div class="messageWrapper">
+                <span class="message">Your email has been sent.</span>
+            </div>
+            <div class="options">
+                <button class="inviteMore BTButton button5">
+                    <span>Invite more colleagues</span>
+                </button> or <span class="closeEmailDialog">close</span>
+            </div>
+        </div>
+
+        <div class="notLoggedInWrapper">
+            <div class="messageWrapper">
+                <span class="message">You must be logged in to email this</span>
+            </div>
+            <div class="options">
+                <a href="/" id="emailSharingLoginButton" class="BTButton button2 carat">
+                    <span>OK</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <div class="bottom"></div>
+</div>        </div>
+
+
+        <!--[if lt IE 9]>
+    <script src="/resources/vendor/style-guide/scripts/respond.js?v=105248"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        FileAPI = {
+            jsUrl: '/resources/vendor/FileAPI/js/FileAPI.min.js?v=105248',
+            flashUrl: '/resources/vendor/FileAPI/swf/FileAPI.flash.swf?v=105248'
+        }
+    </script>
+
+    <script type="text/javascript" src="/bundles/brighttalkportal/js/Config/global_config.js?v=105248"></script>
+    <script type="text/javascript" src="/compiled/js/responsive-base.js?v=105248"></script>
+    <script type="text/javascript" src="https://engine.adzerk.net/ados.js"></script>
+
+
+    <script type="text/javascript" src="/clients/js/embed/embed.js"></script>
+<script type="text/javascript" src="/clients/js/plugins/webcast-button.js"></script>
+<script type="text/javascript" src="/clients/js/plugins/countdown.js"></script>
+    <script type="text/javascript" src="/compiled/js/player-bundle/layout.js?v=105248"></script>
+
+    <script type="text/javascript">
+        Bt.data.communicationId = 191247;
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="/resources/vendor/event-listener-polyfill/event-listener-polyfill.min.js?v=105248"></script>
+    <![endif]-->
+</body>
+</html>

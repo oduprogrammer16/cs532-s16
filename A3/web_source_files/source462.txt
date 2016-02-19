@@ -1,0 +1,910 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="imagesUrl" content="http://images.talkingphonebook.com" />
+		<meta name="themeKey" content="localedge_2012" />
+		<meta name="mapThemeKey" content="responsive"/>
+		<meta name="launchPadBaseUrl" content="customer.localedge.com/customerlaunchpad"/>
+		<meta name="staticContentBaseUrl" content="static.localedge.com"/>
+
+		
+		
+			
+				
+			
+		
+			
+		
+			
+		
+			
+		
+		
+
+		<title>
+			
+				
+				
+					Gialy's
+					-
+					210 Pine St
+					Jamestown
+					NY
+					14701
+				
+				
+			
+			
+				- Local Search - LocalEdge.com
+			
+		</title>
+
+		
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function c(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),c=a.length,u=0;c>u;u++)a[u].apply(i,r);return i}function u(t,e){p[t]=f(t).concat(e)}function f(t){return p[t]||[]}function s(){return r(c)}var p={};return{on:u,emit:c,create:s,listeners:f,context:e,_events:p}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!v++){var t=l.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(p,function(e,n){t[e]||(t[e]=n)});var n="https"===s.split(":")[0]||t.sslForHttp;l.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=l.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),c=t(1),u=window,f=u.document;t(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),l=e.exports={offset:i(),origin:s,features:{},xhrWrappable:d};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var v=0},{1:12,2:3,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],12:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],13:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}]},{},["G9z0Bl"]);</script><script type="text/javascript">
+            if(top.location.protocol == "https:") {
+                    top.location = "http:" + top.location.href.substr(6);
+            }
+        </script>
+		
+		
+     <!-- RESPONSIVE -->
+     <!-- tenantDomain.collectPageViewStats: true-->
+     <!-- tenantDomain.locale: en-US-->
+     <!-- collectStats: true -->
+     <!-- ProAd Id: 212582 -->
+     <!-- Brn: 15487096 -->
+     <!-- YPPA Code: 50737 -->
+     <!-- Business Id: 33126520 -->
+     <!-- Server Name: localedge.com -->
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script type="text/javascript" src="/t/resources/responsive.js?v=20150913-195133"></script>
+    <link rel="stylesheet" type="text/css" href="/t/resources/responsive.css?v=20150913-195133"/>
+
+             <script src="/t/js/responsive/stats.js"></script>
+      <!-- Piwik -->
+      <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(['setCustomVariable',1,'Source', 'LS','visit']);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+        var u='http://analytics.localedge.com/';
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', 66429]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        })();
+      </script>
+      <noscript><p><img src="http://analytics.localedge.com/piwik.php?idsite=66429" style="border:0;" alt="" /></p></noscript>
+      <!-- End Piwik Code -->
+        
+    
+    
+     
+     <meta name="decorator" content="responsive" />
+     <meta name="keywords" content=""/>
+             <meta name="description" content=" Gialy's"/>
+          <meta name="geolocation-estimated" content="false"/>
+     <meta name="urlPrefix" content=""/>
+     <meta name="proAdId" content="212582"/>
+     <meta name="displayTabDefault" content="blog" />
+     <meta property="og:title" content=" Gialy's - 210 Pine St Jamestown NY 14701" />          
+     <meta property="og:description" content=" Gialy's - 210 Pine St Jamestown NY 14701" />          
+    
+    <!-- Mofuse Mobile Redirect -->
+             
+     
+    
+  
+
+		
+	</head>
+
+	<body>
+	
+		
+			
+			
+				
+
+
+
+
+
+
+
+
+	
+	
+<!-- http://www.localedge.com/search-theme/localedge/header.html -->
+	
+	
+
+
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="http://www.localedge.com/search-theme/localedge/css/magnific.css" />
+        <link rel="stylesheet" href="http://www.localedge.com/search-theme/localedge/css/custom.css"  />
+        <link rel="stylesheet" href="http://www.localedge.com/search-theme/localedge/css/style.css"  />
+        
+        <!-- Fonts -->
+        
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+        
+        <!-- JS -->
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+       
+        
+  
+        
+<nav role="navigation">
+    <div class="navbar navbar-fixed-top">
+        <div class="container">
+           <!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            </button>
+               <a class="navbar-brand" href="http://www.localedge.com"><img class="logo" src="http://www.localedge.com/search-theme/localedge/images/logo.svg" /></a>
+
+          
+        </div>
+        
+
+
+
+     <div class="navbar-collapse navbar-responsive-collapse nav navbar-nav navbar-right collapse" style="height: 1px;">
+			   <ul id="menu-main" class="nav navbar-nav"><li id="menu-item-191" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-191"><a href="http://www.localedge.com/">Home</a></li>
+<li id="menu-item-5" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5"><a target="_blank" href="http://internetmarketing.localedge.com/">Advertise</a></li>
+<li id="menu-item-189" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189"><a target="_blank" href="http://careers.localedge.com/">Careers</a></li>
+<li id="menu-item-190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190"><a href="http://www.localedge.com/coupons/">Coupons</a></li>
+<li id="menu-item-192" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-192"><a href="http://www.localedge.com/about-us/">About Us</a></li>
+<li id="menu-item-188" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-188"><a href="http://www.localedge.com/contact-us/">Contact Us</a></li>
+<li id="menu-item-6" class="login menu-item menu-item-type-custom menu-item-object-custom menu-item-6"><a target="_blank" href="https://sso.localedge.com/cas/login?service=http%3A%2F%2Fcustomer.localedge.com%2Fcustomerlaunchpad%2Fdefault.htm">Log In</a></li>
+</ul>
+            
+
+                            
+
+          </div>
+
+        </div>
+       
+     </div>           
+</nav>
+
+
+			
+		
+		
+		<div id="le-page">
+			 <!-- spy for bootstrap affix-->
+    
+              <div id="schemaMicroformat" style="display: none;">
+       <div itemscope itemtype="http://schema.org/localbusiness">
+      <span itemprop="name"></span>
+        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="streetAddress">210 Pine St</span>
+        <span itemprop="addressLocality">Jamestown</span>
+        <span itemprop="addressRegion">NY</span>
+        <span itemprop="postalCode">14701</span>
+        <span itemprop="telephone phone-num">(716) 484-4330</span>
+        <span itemprop="email"></span>
+        <span itemprop="url">www.gialys210pine.com</span>
+      </div>
+    </div>
+     </div> 
+        
+     <div class="container container-main">
+              <div class="row">
+        
+                <div class="col-lg-12">
+                                           <br>  
+                
+                         
+                         <div id="le-call-to-action"  class="hidden-xs">
+                        <!--desktop view with text and social media icons-->
+                           <span id="le-call-to-action-text-desktop">Call Us Today <img src="/t/images/phone.png"> (716) 484-4330  </span>
+                         <span id="le-call-to-action-sm-icon-container" class="hidden-xs">
+                                                                                                                    
+                                                      
+                                                            <a href="https://foursquare.com/v/gialys/5669d0f8498eba26be3a74fb" target="_blank" class="le-call-to-action-sm-icons-desktop"><img alt="FourSquare" title="FourSquare" src="/t/images/foursquare.png" style="padding-right:5px;"/></a>
+                                                      
+                                                                                                                     
+                                                      
+                                                            <a href="https://plus.google.com/113430610741307368790/about" target="_blank" class="le-call-to-action-sm-icons-desktop"><img alt="Google Plus" title="Google Plus" src="/t/images/googlePlus.png" style="padding-right:5px;"/></a>
+                                                      
+                                                                                                                  
+                                                      
+                                                            <a href="https://twitter.com/GialysNY" target="_blank" class="le-call-to-action-sm-icons-desktop"><img alt="Twitter" title="Twitter" src="/t/images/twitter.png" style="padding-right:5px;"/></a>
+                                                      
+                                                                                                                        
+                                                    
+                                                            <a href="https://www.youtube.com/channel/UCwg4MT3WMs1ZWG9hg5MMGMQ" target="_blank" class="le-call-to-action-sm-icons-desktop"><img alt="YouTube" title="YouTube" src="/t/images/youtube.png" style="padding-right:5px;"/></a>
+                                                      
+                            <!--end for loop-->
+                         
+                         </span>
+                  </div>
+                       
+                          
+                         <!--mobile view    button link to call, anchored to top   no social media icons-->
+                        
+                                          <span id="le-call-to-action-mobile" style="width:90%; z-index:1000; margin-left:auto; margin-right:auto;">
+                           <a href="tel:(716) 484-4330" id="le-call-to-action-mobile-text" class="btn btn-primary btn-block-xs visible-xs" role="button">
+                             Call Us Today (716) 484-4330
+                           </a>
+                         </span>
+                                           
+                       <br>
+                                    </div>   <!--end col--> 
+                 
+        
+            </div><!--end row-->
+        
+        
+       
+            <div class="row">
+                <div class="col-sm-8 proAdListing le-centered-xs" data-latitude="42.09626"
+                   data-longitude="-79.239639" data-address="210 Pine St" data-city="Jamestown"
+                    data-state="NY" data-zip="14701">
+               
+                                       
+                
+                 <!-- Title -->
+                                            <h1>Gialy's</h1>
+                                            
+                      
+                      
+                      
+                  <p><strong>210 Pine St Jamestown, NY 14701</strong></p>
+                  <span class="hidden-xs">(716) 484-4330</span>
+                                       
+                      
+                                                           <span class="visible-xs"><br></span>
+                    <a id="proad-email" href="mailto:"></a>
+                                          <span class="hidden-xs">|</span><span class="visible-xs"><br></span>  
+                                        <a id="proad-website" href="http://www.gialys210pine.com">www.gialys210pine.com</a>
+                                     <br/>
+                      
+                  <!-- Star Rating -->
+                              <div class="rating">
+                                                     <!-- 33126520 -->
+                                  <!-- 33126520 -->
+                                  <div class="content" data-businessid="33126520">
+                   <div class="le-business-rating" data-score="${overallAverageRating}">
+                   </div>
+                   [0]
+                   <div>
+                     <a href="http://www.localedge.com/ratingsandreviews/addreview.tpb?businessId=33126520" onclick="pageTracker._link(this.href);return false;">Write Review</a>
+                   </div>
+                 </div>
+                                </div>
+                                     
+                      
+              </div>
+              <br/>
+              
+                 <div class="col-xs-12 visible-xs" style="padding-bottom:20px; z-index:500;">
+                                <div class="le-smm-icons-mobile-container" style="width:180px; max-width: 265px; margin-left:auto; margin-right:auto;">
+                  
+                                                                                                           
+                                                      
+                                                            <a href="https://foursquare.com/v/gialys/5669d0f8498eba26be3a74fb" target="_blank" class="le-smm-icons-mobile"><img alt="FourSquare" title="FourSquare" src="/t/images/foursquare.png"/></a>
+                                                      
+                                                                                                                     
+                                                      
+                                                            <a href="https://plus.google.com/113430610741307368790/about" target="_blank" class="le-smm-icons-mobile"><img alt="Google Plus" title="Google Plus" src="/t/images/googlePlus.png"/></a>
+                                                      
+                                                                                                                  
+                                                      
+                                                            <a href="https://twitter.com/GialysNY" target="_blank" class="le-smm-icons-mobile"><img alt="Twitter" title="Twitter" src="/t/images/twitter.png"/></a>
+                                                      
+                                                                                                                                                
+                                                            <a href="https://www.youtube.com/channel/UCwg4MT3WMs1ZWG9hg5MMGMQ" target="_blank" class="le-smm-icons-mobile"><img alt="YouTube" title="YouTube" src="/t/images/youtube.png"/></a>
+                                                      
+                            <!--end for loop-->
+                  
+                </div>
+            </div>
+              
+              
+                                <div class="col-sm-4">
+                                              <div class="col-sm-12 le-listing-logo">
+                          <img class="le-listing-logo" src="http://images.talkingphonebook.com/images/timesunion/media_library/337/469/media4.jpg" alt="Gialy's - Jamestown - NY" />
+                        </div>
+                                      </div>
+                            </div><!--end row-->
+
+            
+            
+            
+            <div class="row">
+            
+               <div class="col-sm-8 le-border-top le-tabs">
+                                         <div class="col-sm-12">
+                                                     <div class="le-special-offer">
+                               <p style="text-align: center;"><span style=
+"font-size: large;"><strong>Join Us for Lunch or
+Dinner.</strong></span></p>
+                            </div>
+                                              </div>
+                  
+                    
+                    <div class="col-sm-12">
+                          <!-- tab section for desktop view-->   
+                      <ul id="le-tabs-section" class="nav nav-tabs hidden-xs">
+                        <li class="active"><a href="#le-overview-section" data-toggle="tab" class="le-tab">Overview</a></li>
+                                                     <li><a href="#le-directions-section" data-toggle="tab" class="le-tab">Directions</a></li>
+                                                                            <li><a href="#le-reviews-section" data-toggle="tab" class="le-tab">Reviews</a></li>
+                                                                            <li><a href="#blog-holder" data-toggle="tab" class="le-tab">Blog</a></li>
+                                                                      </ul>
+                      
+                      <!-- tab section for mobile view-->  
+                      <ul id="le-tabs-section" class="nav nav-tabs nav-stacked visible-xs">
+                        <li class="active"><a href="#le-overview-section" class="le-tab" data-toggle="tab" style="border-radius:6px;">Overview</a></li>
+                                                       <li><a href="#le-directions-section" class="le-tab" data-toggle="tab" style="border-radius:6px;">Directions</a></li>
+                                                                            <li><a href="#le-reviews-section" data-toggle="tab" style="border-radius:6px;">Reviews</a></li>
+                                                                            <li><a href="#blog-holder" data-toggle="tab" style="border-radius:6px;">Blog</a></li>
+                                                                      </ul>
+                      
+                      <div class="tab-content" id="le-tab-content">
+                      
+                         <div id="le-overview-section" class="tab-pane active">
+                                                     <div id="le-overview-section-collapsable" class="le-mobile-overview" >
+                             
+                                                          
+                             <p>
+                               <p><span style="font-size: small;"><img style=
+"float: right; margin: 5px 10px;" title="1" src=
+"http://images.localedge.com/images/timesunion/media_library/337/469/media0.jpg"
+ alt="1"> Gialy's is a new Italian and steakhouse restaurant
+located in Jamestown, NY that opened in 2015. Owner Anthony
+Cusimano arrived at the name Gialy's for his new restaurant by
+combining the names of his two daughters, Giana and Alyssa.
+Gialy&rsquo;s, formerly Town Club, was renovated and refurbished
+from the kitchen and bar area to the flooring. Gialy's features new
+lounge area in the front of the restaurant complete with large
+picture windows overlooking the view of downtown
+Jamestown.</span></p>
+<p><span style="font-size: medium;"><strong>Our Menu
+Highlights</strong></span></p>
+<ul>
+<li><span style="font-size: small;">Appetizers, Soups &amp;
+Salads</span></li>
+<li><span style="font-size: small;">Meat- Filet Mignon, Strip
+Steak, Ribeye, Porterhouse, T-Bone, Pork Chop</span></li>
+<li><span style="font-size: small;">Veal- Veal Marsala, Veal
+Piccata, Veal Sorrentino, Veal Gialy</span></li>
+<li><span style="font-size: small;">Chicken- Chicken Marsala,
+Chicken Piccata, Chicken Palermo, Chicken Valdostana</span></li>
+<li><span style="font-size: small;">Fish- Ahi Tuna, Faroe Island
+Salmon, Seared Sea Scallops, Italian Stuffed Haddock, Seafood
+Stew</span></li>
+<li><span style="font-size: small;">Pastas<strong>-</strong>
+Ravioli, Linguine, Fettuccine Alfredo, Pasta Primavera, Gnocchi,
+Lasagna, Pappardelle Bolognese, Shrimp Fra Diavolo, Spaghetti &amp;
+Meatballs</span></li>
+</ul>
+<p><span style="font-size: small;">Visit our <a href=
+"http://www.gialys210pine.com" target="_blank">website</a>&nbsp;to
+view our full menu.</span></p>
+<p><span style="font-size: medium;"><strong>Customer
+Reviews</strong></span></p>
+<p><span style="font-size: small;">Although we&rsquo;re rather new
+in town, customers are already raving about how much they love
+Gialy&rsquo;s. Read what a few of them have to say about their
+dining experience.</span></p>
+<p><span style="font-size: small;">&ldquo;A wonderful
+evening...Anthony was so warm and welcoming.....the pasta primavera
+was outstanding.....full of summer vegetables in a garlic-butter
+sauce that was delicious, but not overpowering.....can&rsquo;t wait
+to go back and try some of their other dishes!&rdquo; &ndash;Lisa
+P., Facebook Review</span></p>
+<p><span style="font-size: small;">&ldquo;Excellent food, large
+portions. The chicken parm special could have fed all 4 of us, the
+service was outstanding, and a lovely atmosphere. I will definitely
+go back when in town again&rdquo; &ndash;Jennifer M., Facebook
+Review</span></p>
+<p style="text-align: center;"><span style="font-size: small;"><img
+style="margin: 5px 10px;" title="2" src=
+"http://images.localedge.com/images/timesunion/media_library/337/469/media1.jpg"
+ alt="2"> <img style="margin: 5px 10px;" title="3" src=
+"http://images.localedge.com/images/timesunion/media_library/337/469/media2.jpg"
+ alt="3"><br>
+</span></p>
+<p><span style="font-size: medium;"><strong>Stop By
+Today!</strong></span></p>
+<p><span style="font-size: small;">We invite you to join us for
+lunch or dinner and experience our incredible menu and beautiful
+venue for yourself. We are open for lunch and dinner Monday through
+Friday, and dinner only on Saturdays. Plus, we have pickup catering
+available. We look forward to serving you!</span></p>
+                             </p>
+                           
+                                                                <!-- Products & Services -->
+                                 <hr />
+                                 <!--<div class="section products-and-services">-->
+                                 <h5>Products &amp; Services</h5>
+                                 <p><ul>
+<li><span style="font-size: small;">Lunch / Dinner</span></li>
+<li><span style="font-size: small;">Italian Steakhouse</span></li>
+<li><span style="font-size: small;">Pickup Catering</span></li>
+</ul></p>
+                                 <!--</div>-->
+                                                            
+                           </div>
+                                                                                  <div id="le-overview-read-more">
+                             <button class="btn btn-link visible-xs" id="le-overview-more">Read More</button>
+                              <br/>
+                              <br/>
+                            </div>
+                            <div id="le-overview-read-less">
+                             <button class="btn btn-link visible-xs" id="le-overview-less">Less</button>
+                              <br/>
+                              <br/>
+                            </div>
+                                                      
+                                                   </div><!--end leOverviewSection-->
+                        
+                        
+                         <div id="le-directions-section" class="tab-pane">
+                           <br>
+                        
+                          <div id="section-directions" class="moreInfo">
+                            <h2 style="font-size:30px; font-family: times serif;">Get Directions</h2>
+                            
+                            <div class="status"></div>
+                              <div class="form">
+                                <form action="#" method="get">
+                                    <div class="item a">
+                                      <div class="point"></div>
+                                      <input type="text" name="start" class="suggestion form-control" placeholder="Your Address"/>
+                                    </div>
+                                     <div class="destination-cta">
+                                       Click to select your destination
+                                     </div>
+                                  <img id="le-directions-destination-icon" src="/t/images/mapsBIcon.png"/>
+                                       <div class="destination">
+                                    </div>
+                                    <div class="item submit">
+                                      <input type="submit" value="Submit" class="btn btn-default" style="margin-left:20px;"/>
+                                    </div>
+                                </form>
+                              </div>
+                              <div class="map"></div>
+                              <div class="steps"></div>
+                            </div>
+                          
+                          
+                        </div><!--end leDirectionsSection-->
+                        
+                        <div id="le-reviews-section" class="tab-pane">
+                                         <div id="section-reviews" class="moreInfo">
+                                  <h2>Be the first to
+                   <a href="http://www.localedge.com/ratingsandreviews/addreview.tpb?businessId=33126520" onclick="pageTracker._link(this.href);return false;">review this business</a>!</h2>
+
+                 <p>Review today and interact with local businesses in your area.
+                   Tell us your experiences and share them with others. It's easy!</p>
+                 <div>
+                     <a href="http://www.localedge.com/ratingsandreviews/addreview.tpb?businessId=33126520" onclick="pageTracker._link(this.href);return false;">Write a Review</a>
+                 </div>
+
+                                </div>
+                                       </div><!-- end reviews section -->
+                        
+                        
+                                                                  <div id="blog-holder" class="tab-pane">
+                                             <div id="section-blog-holder" class="moreInfo">
+                                  
+                                    <br />
+                  <h2>Scrumptious Dining:</h2>
+                  <p style="font-size: x-small">Mon Feb 08 11:58:00 EST 2016</p>
+                  <p>With a menu that boasts everything from filet mignon and rib eye steaks to veal marsala and more, you can't go wrong! Join us this evening.</p>
+
+
+                        <br /><br /><br /><br />
+                  <div>
+                  <div class="blogpaging" style="text-align: center">
+                    <ul class="pager">
+                                               <li><a href="/b33126520/blog/i916934/pickup-catering--2/Gialy's"
+                          title="Pickup catering:" class="nav left">Newer</a></li>
+                                            <li><a href="/b33126520/blog/1/Gialy's" class="nav">Back to All Blog Entries</a></li>
+                                              <li><a href="/b33126520/blog/i902624/culinary-delights-/Gialy's"
+                          title="Culinary delights:" class="nav right">Older</a></li>
+                                            
+                    </ul>
+                  </div>
+                  </div>
+                                </div>
+                
+                        </div><!--end leBlogSection-->
+                                              
+                                             
+                      
+                      </div><!--end tab-content-->
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                     
+                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="le-register-dialog-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content" id="le-register-dialog-modal-content">
+                            <div class="modal-header" id="le-register-dialog-modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                              <h4 class="modal-title" id="le-register-dialog-modal-title">Sign Up for an Account</h4>
+                            </div>
+                            <div class="modal-body" id="registerDialog">
+                               
+                              <p style="font-size:16px;">Claiming  your  business listing couldn't be easier! Just fill in the  information  below to begin making the most of your listing and we will  contact you  shortly to complete the process.</p>
+                              
+                              <form action="#" method="post" role="form">
+                                <div class="form-group le-claim-listing-form-element">
+                                  <label for="businessName">Business Name</label><br>
+                                  <input id="businessName" name="businessName" type="text" class="form-control le-claim-listing-form-input"/>
+                                </div>
+                                <div class="form-group le-claim-listing-form-element">
+                                  <label for="name">Name</label><br>
+                                  <input id="name" name="name" type="text" class="form-control le-claim-listing-form-input"/>
+                                </div>
+                                
+                                <div class="form-group le-claim-listing-form-element">
+                                  <label for="phoneNumber">Phone Number</label><br>
+                                  <input id="phoneNumber" name="phoneNumber" type="text" class="form-control le-claim-listing-form-input"/>
+                                </div>
+                                <div class="form-group le-claim-listing-form-element">
+                                  <label for="email">E-mail Address</label><br>
+                                  <input id="email" name="email" type="text" class="form-control le-claim-listing-form-input"/>
+                                </div>
+                                
+                                 <div id="le-register-dialog-result-success" class="alert alert-success" style="display:none;"></div>
+                                 <div id="le-register-dialog-result-failure" class="alert alert-danger" style="display:none;"></div>
+                                
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                                  <input type="submit" name="submit" value="Submit" class="btn btn-primary" />
+                                </div>
+                                </form>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                    </div>
+                    
+                </div><!--end image and tabs col-->
+                
+                <div class="col-sm-4 le-border-top le-border-left">
+                                         <div class="col-sm-12">
+                        
+                      
+                                           
+                                        
+                      
+                      
+                                         
+         <div class="col-sm-12">
+                               <div class="video-js-responsive-container vjs-sd">
+                        <video id="video_1" class="video-js vjs-dark-blue-skin" preload="auto" controls width="480" height="360" poster="http://video2.bettervideo.com/video/WHI/JPG480x360/10.12954462.jpg">
+                          <source src="http://video2.bettervideo.com/video/WHI/MP4480x360/10.12954462.mp4" type="video/mp4" />
+                        </video>
+                        
+                        <script src="//player.bettervideo.com/player/video.js"></script>
+                        <script src="//player.bettervideo.com/plugins/bvPlugins.js"></script>
+                        
+                        <script>
+                          videojs('video_1', {
+                          "techOrder": ["html5", "flash", "image", "virtualTour"],
+                          "plugins":{
+                          "bvThemeLoader": {},
+                          "dimTheLights": {},
+                          "showPosterAtEnd": {},
+                          "socialOverlay": {
+                          "onScreen": true
+                          },      
+                          "logo": {
+                          "src": "http://player.bettervideo.com/logos/WHI/localedge.png",
+                          "alt": "Hearst Media Services",
+                          "width": 86
+                          },
+                          "automute": {
+                          "restart": true
+                          },
+                          "playlist": {
+                          "vertical": false,
+                          "autoAdvance": false,
+                          "items": [
+            
+                                                                              {   
+                          "thumbnail": "http://video2.bettervideo.com/video/WHI/JPG120x90/10.12954462.jpg",
+                          "poster": "http://video2.bettervideo.com/video/WHI/JPG480x360/10.12954462.jpg",
+                          "src": "http://video2.bettervideo.com/video/WHI/MP4480x360/10.12954462.mp4",
+                          "type": "video/mp4",
+                                                    "title": "",
+                                                    "captions": "",
+                          "subtitles": ""
+                          }
+                           ,
+                                                                              {   
+                          "thumbnail": "http://video2.bettervideo.com/video/WHI/JPG120x90/10.12954466.jpg",
+                          "poster": "http://video2.bettervideo.com/video/WHI/JPG480x360/10.12954466.jpg",
+                          "src": "http://video2.bettervideo.com/video/WHI/MP4480x360/10.12954466.mp4",
+                          "type": "video/mp4",
+                                                    "title": "",
+                                                    "captions": "",
+                          "subtitles": ""
+                          }
+                                                                                                        ]
+                          }
+                          }
+                          });  
+                        </script>
+                      </div>
+                            
+                      
+                            </div>              
+                              
+                    
+                    
+                    <div class="col-sm-12">
+                                               <div id="proAdMapContainer" style="padding-top:1em; padding-bottom:10px;"/>
+                              <div id="proAdMap" style="height: 350px"/>
+                              </div>
+                         </div>
+                                             
+                                                <a href="#le-directions-section" id="le-click-for-directions" data-toggle="tab"><h4>Click Here For Directions</h4></a>
+                                                 </div>
+                    
+                    
+                        <div class="col-sm-12">
+            </div>
+                    
+                                        <div class="col-sm-12">
+                                            
+                            </div>
+                                                  
+                                        <div class="col-sm-12">
+                                                 <!-- Area's Served -->
+                           <h4>Areas Served</h4>
+                           <ul id="le-areas-served" class="le-hide le-areas-served">
+                                                              <li>Akeley</li>
+                                                              <li>Ashville</li>
+                                                              <li>BEAR LAKE</li>
+                                                              <li>Bear Lake</li>
+                                                              <li>Bemus Point</li>
+                                                              <li>Blockville</li>
+                                                              <li>Brokenstraw</li>
+                                                              <li>Busti</li>
+                                                              <li>CHARLOTTE</li>
+                                                              <li>CONEWANGO</li>
+                                                              <li>CONWANGO VALLEY</li>
+                                                              <li>Carroll</li>
+                                                              <li>Celoron</li>
+                                                              <li>Chandlers Valley</li>
+                                                              <li>Chautauqua</li>
+                                                              <li>Cherry Creek</li>
+                                                              <li>Clarendon</li>
+                                                              <li>Clarks Corners</li>
+                                                              <li>Clymer</li>
+                                                              <li>Conewango</li>
+                                                              <li>Conewango Valley</li>
+                                                              <li>ELLERY</li>
+                                                              <li>East Randolph</li>
+                                                              <li>East Warren</li>
+                                                              <li>Ellicott</li>
+                                                              <li>Ellington</li>
+                                                              <li>Falconer</li>
+                                                              <li>Fentonville</li>
+                                                              <li>Freehold</li>
+                                                              <li>Frewsburg</li>
+                                                              <li>GREENHURST</li>
+                                                              <li>Garland</li>
+                                                              <li>Germany</li>
+                                                              <li>Gerry</li>
+                                                              <li>Glade</li>
+                                                              <li>Greenhurst</li>
+                                                              <li>Irvine</li>
+                                                              <li>Jamestown</li>
+                                                              <li>Kennedy</li>
+                                                              <li>Kiantone</li>
+                                                              <li>LOTTSVILLE</li>
+                                                              <li>Lakewood</li>
+                                                              <li>Lander</li>
+                                                              <li>Magnolia</li>
+                                                              <li>Maple Springs</li>
+                                                              <li>Mayville</li>
+                                                              <li>Niobe</li>
+                                                              <li>North Clymer</li>
+                                                              <li>North Harmony</li>
+                                                              <li>North Warren</li>
+                                                              <li>Oriental Park</li>
+                                                              <li>Panama</li>
+                                                              <li>Pittsfield</li>
+                                                              <li>Pleasant</li>
+                                                              <li>Point Chautauqua</li>
+                                                              <li>Randolph</li>
+                                                              <li>Rogertown</li>
+                                                              <li>Russell</li>
+                                                              <li>Sinclairville</li>
+                                                              <li>Starbrick</li>
+                                                              <li>Steamburg</li>
+                                                              <li>Stockton</li>
+                                                              <li>Stoneham</li>
+                                                              <li>Stow</li>
+                                                              <li>Sugar Grove</li>
+                                                              <li>W Ellicott</li>
+                                                              <li>Warren</li>
+                                                              <li>Watts Flats</li>
+                                                              <li>Youngsville</li>
+                                                          </ul>
+                            <div style="clear: both;"></div>
+                            <div>
+                      </br>
+                              <button class="btn btn-default btn-mini" id="le-areas-served-more">More</button>
+
+                              <button class="btn btn-default btn-mini" id="le-areas-served-less">Less</button>
+                            </div>
+                                             </div>
+                                        
+                                                                    <div class="col-sm-12">
+                              <h4>Established: 2015</h4>
+                          </div>
+                                                              
+                                                                                   
+                                                                                  
+                                                                             </div>
+            </div><!--end row-->
+        </div>
+           <!-- begin localedge google analytics -->
+           <script type="text/javascript">
+             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+           </script>
+           <script type="text/javascript">
+             try {
+             var pageTracker = _gat._getTracker("UA-15120918-1");
+             pageTracker._setDomainName("none");
+             pageTracker._setAllowLinker(true);
+             pageTracker._trackPageview();
+             } catch(err) {}
+           </script>
+           <!-- end localedge google analytics -->
+  
+		</div>
+
+		
+			
+				
+				
+					
+
+
+
+
+
+
+
+
+	
+	
+<!-- http://www.localedge.com/search-theme/localedge/footer.html -->
+	
+	
+
+
+ <div id="footer">
+        <div class="nav-bar">
+            <div class="row">
+                        <div class="footer-col col-md-3 right">
+                            
+                            <ul class="list-inline">
+                                <li>
+                                    <a href="http://www.facebook.com/LocalEdge" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://plus.google.com/112534323311147636870/" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                </li>
+                                <li>
+                                    <a href="http://twitter.com/LocalEdge" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="http://www.linkedin.com/company/232761" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                                </li>
+                                <li>
+                                    <a href="http://www.youtube.com/user/LocalEdgeMedia" class="btn-social btn-outline"><i class="fa fa-fw fa-youtube"></i></a>
+                                </li>
+                            </ul>
+                        
+                    </div>
+            </div>
+        </div>
+    <div class="container">
+        <div class="bottom-disclaimer">
+            <a href="http://www.google.com/intl/en/ads/premiersmbpartner/advertisers-findpartner.html#tab=partner-localedge-com"><img src="http://www.localedge.com/search-theme/localedge/images/google-adwords.jpg" /></a>
+            <p>&copy; 2013 LocalEdge, A Hearst Media Services Company, All rights reserved. | Call 1-800-388-8255 <br />
+<br />
+* LocalEdge product offerings are subject to change at any time. Please contact your LocalEdge sales representative for the latest information or info@localedge.com.<br />
+**All LocalEdge products have specific terms & conditions which govern the use and purchaser's rights with regard to each specific product or service. <br />
+Please contact LocalEdge for more information.</p>
+            
+        </div>
+    </div>
+
+    <div class="clearfix">
+
+    <div class="container">
+
+        <hr>
+
+        <div id="footer-wrapper">
+
+          <nav role="navigation">
+                    <ul id="menu-footer" class="footer-menu"><li id="menu-item-184" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-184"><a href="https://extranet.localedge.com/portal">Employee Log in</a></li>
+    <li id="menu-item-186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-186"><a href="http://www.localedge.com/privacy/">Privacy</a></li>
+    <li id="menu-item-185" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-185"><a href="http://www.localedge.com/terms-of-use/">Terms of Use</a></li>
+    <li id="menu-item-187" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-187"><a target="_blank" href="http://internetmarketing.localedge.com/">Internet Marketing Services</a></li>
+    </ul>            </nav>
+
+        </div><!-- end #footer-wrapper -->
+      </div> <!-- end container --> 
+    </div><!-- end #footer -->
+
+</div>
+
+
+
+				
+				
+				
+					
+					<div class="text-center le-space">
+						<a href="http://www.databyacxiom.com/#"><img src="http://static.localedge.com/common/images/acxiomlogo.jpg" /></a>			
+					</div>
+				
+			
+			
+		
+	
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"applicationID":"281276","applicationTime":241,"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"af06238595","transactionName":"MQEEZUdTC0ZUUkYPVwhLNUFHWwtSdl5cEkoJCApURx01R1pwViJRFRQKUExxCltBQ10KVAMWSVVcQRVZVEg=","agent":"","errorBeacon":"bam.nr-data.net"}</script></body>
+</html>
+
+<!--nagiosFlag-->

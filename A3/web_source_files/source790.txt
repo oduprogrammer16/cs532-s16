@@ -1,0 +1,1475 @@
+<!DOCTYPE html><!--[if IE 8]>
+<html class="ie ie8" lang="en-US"><![endif]--><!--[if gt IE 9]>
+<html class="no-js" lang="en-US"><![endif]-->
+<head>
+  <script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function c(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),c=a.length,u=0;c>u;u++)a[u].apply(i,r);return i}function u(t,e){p[t]=f(t).concat(e)}function f(t){return p[t]||[]}function s(){return r(c)}var p={};return{on:u,emit:c,create:s,listeners:f,context:e,_events:p}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!v++){var t=l.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(p,function(e,n){t[e]||(t[e]=n)});var n="https"===s.split(":")[0]||t.sslForHttp;l.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=l.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),c=t(1),u=window,f=u.document;t(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),l=e.exports={offset:i(),origin:s,features:{},xhrWrappable:d};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var v=0},{1:12,2:3,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],12:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],13:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}]},{},["G9z0Bl"]);</script>    <meta charset="UTF-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+         
+             <title>8 Insider Tips on Creating an Online Buisness Mareting Plan</title>
+        <meta name="description" content="Creating an Online Business Marketing Plan">
+        <meta name="keywords" content="Creating an Online Business Marketing Plan">
+        <meta name="author" content="Ken Pickard">
+        
+
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="http://www.thenetworkdad.com/wp-content/themes/Theme_4/css/ie8.css">        <![endif]-->
+    <style>
+
+        body a:link, body a:visited, .site-info{
+            color : #3399FF !important;
+        }
+        body a.contRead {
+            background-color: #000000 !important;
+        }
+        body a:hover{
+            color : #8239FF !important;
+        }
+        /* Menu */
+         
+        #page .navbar > .mobileNavButton {
+            display: table;
+            background-color: transparent;
+            border: 0;
+            position: absolute;
+            left: 5px;
+            top: 4px;
+            z-index: 2000;
+            color: #FFF;
+            text-align: center;
+        }
+        #page .navbar > .mobileNavButton span{
+            margin: 4px auto;
+        }
+        .iconBar {
+            background-color: #FFF;
+            display: block;
+            width: 22px;
+            height: 2px;
+            margin-top: 4px;
+            border-radius: 1px;
+        }
+        .iconBar:last-child{
+            margin-bottom: 4px;
+        }
+        .button-show-sidebar{
+            display: none !important;
+        }
+
+        @media screen and (max-width: 1200px){
+          #content > #side-content{
+            display: none;
+          }
+        }
+
+        @media screen and (max-width: 979px)
+        {
+            /* hide the sidebar, which shows the search on mobile */
+            #side-content .menu {
+                display: none;
+            }
+        }
+    </style>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="http://www.thenetworkdad.com/wp-content/themes/Theme_4/css/bootstrap.min.css" media="screen, projection" rel="stylesheet"
+        type="text/css">
+    <link rel='stylesheet' id='en-theme-4-style-css'
+          href='http://www.thenetworkdad.com/wp-content/themes/Theme_4/style.css?ver=3.8.4' type='text/css' media='all'/>
+    <link rel='stylesheet' id='en_theme_4template_style-css'
+          href='http://www.thenetworkdad.com/wp-content/themes/Theme_4/css/template.css?ver=4.0.0' type='text/css' media='all'/>
+    <link rel="shortcut icon" href="/kenpickard/images/28951/social-profile.jpg">
+    <meta property="og:title" content="8 Insider Tips on Creating an Online Business Marketing Plan" />
+<meta property="og:description" content="Starting an online business part time doesn’t have to be a huge obstacle it appears to be. Whether you are facing the dreaded website set up or the overwhelm of too much information…your dreams of making some extra money are so worth it!" />
+<meta property="og:url" content="http://www.thenetworkdad.com/creating-an-online-business-marketing-plan/" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="http://www.thenetworkdad.com/kenpickard/images/41663/Online_Marketing_Plan.png" />
+<meta property="og:site_name" content="Ken Pickard" />
+    <!--http://www.thenetworkdad.com/wp-content/themes/Theme_4-->
+
+    <link rel="alternate" type="application/rss+xml" title="Ken Pickard &raquo; 8 Insider Tips on Creating an Online Business Marketing Plan Comments Feed" href="http://www.thenetworkdad.com/creating-an-online-business-marketing-plan/feed/" />
+<link rel='stylesheet' id='bwp-rc-css'  href='http://buildingabrandonline.com/kenpickard/wp-content/plugins/bwp-recent-comments/css/bwp-recent-comments.css?ver=1.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='coupg_admin_style-css'  href='http://www.thenetworkdad.com/wp-content/plugins/content-upgrades-pro/res/coupg_acss.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='en-global-themes-css'  href='http://buildingabrandonline.com/kenpickard/wp-content/mu-plugins/imb-en/overseers/en/css/global-themes.css' type='text/css' media='all' />
+<link rel='stylesheet' id='siteorigin-panels-front-css'  href='http://www.thenetworkdad.com/wp-content/plugins/siteorigin-panels/css/front.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='social_card-css'  href='http://buildingabrandonline.com/kenpickard/wp-content/mu-plugins/imb-en/helpers/social-card/css/style.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='popup-maker-site-css'  href='http://buildingabrandonline.com/kenpickard/wp-content/plugins/lightbox/assets/styles/popup-maker-site.min.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wdsi-css'  href='http://buildingabrandonline.com/kenpickard/wp-content/plugins/slide-in/css/wdsi.css?ver=1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='recent-posts-widget-css'  href='http://buildingabrandonline.com/kenpickard/wp-content/mu-plugins/imb-en/helpers/recent-posts-widget/css/recent-posts.css?ver=4.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.thenetworkdad.com/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://www.thenetworkdad.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://buildingabrandonline.com/kenpickard/wp-content/mu-plugins/imb-en/helpers/ajax-comments/js/ajaxifycomments.js?ver=4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wdsi_data = {"reshow":{"timeout":0,"name":"wdsi-on_hided41d8cd98f00b204e9800998ecf8427e","path":"","all":false}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://buildingabrandonline.com/kenpickard/wp-content/plugins/slide-in/js/wdsi.js?ver=1.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.thenetworkdad.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.thenetworkdad.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='6 Steps to Creating a Content Syndication Strategy | Blog and Syndication Checklist' href='http://www.thenetworkdad.com/6-steps-to-creating-a-content-syndication-strategy-blog-and-syndication-checklist/' />
+<link rel='next' title='7 Figure Blogging Secrets Part 1' href='http://www.thenetworkdad.com/7-figure-blogging-secrets-part-1/' />
+<link rel='canonical' href='http://www.thenetworkdad.com/creating-an-online-business-marketing-plan/' />
+<link rel='shortlink' href='http://www.thenetworkdad.com/?p=82' />
+<script src='http://kalatublog.com/?dm=7a2f3c0be75ee8f15edd3c57485dbd35&amp;action=load&amp;blogid=325&amp;siteid=1&amp;t=153708658&amp;back=http%3A%2F%2Fwww.thenetworkdad.com%2Fcreating-an-online-business-marketing-plan%2F' type='text/javascript'></script>    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"/><link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css"/><link href="http://fonts.googleapis.com/css?family=empty" rel="stylesheet" type="text/css"/>    <script type='text/javascript'
+            src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/js/comment-reply.min.js?ver=3.8.4'></script>
+    <script type='text/javascript'
+            src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/inc/bootstrap/js/bootstrap-affix.js?ver=3.8.4'></script>
+    <script type='text/javascript'
+            src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/inc/bootstrap/js/bootstrap-alert.js?ver=3.8.4'></script>
+    <script type='text/javascript'
+            src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/inc/bootstrap/js/bootstrap-button.js?ver=3.8.4'></script>
+    <script type='text/javascript'
+            src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/inc/bootstrap/js/bootstrap-carousel.js?ver=3.8.4'></script>
+    <script type='text/javascript'
+            src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/inc/bootstrap/js/bootstrap-collapse.js?ver=3.8.4'></script>
+    <script type='text/javascript'
+            src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/inc/bootstrap/js/bootstrap-dropdown.js?ver=3.8.4'></script>
+    <script type='text/javascript'
+            src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/inc/bootstrap/js/bootstrap-modal.js?ver=3.8.4'></script>
+    <script type='text/javascript'
+            src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/inc/bootstrap/js/bootstrap-tooltip.js?ver=3.8.4'></script>
+    <script type='text/javascript'
+            src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/inc/bootstrap/js/bootstrap-popover.js?ver=3.8.4'></script>
+    <script type='text/javascript'
+            src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/inc/bootstrap/js/bootstrap-scrollspy.js?ver=3.8.4'></script>
+    <script type='text/javascript'
+            src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/inc/bootstrap/js/bootstrap-tab.js?ver=3.8.4'></script>
+    <script type='text/javascript'
+            src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/inc/bootstrap/js/bootstrap-transition.js?ver=3.8.4'></script>
+    <script type='text/javascript'
+            src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/inc/bootstrap/js/bootstrap-typeahead.js?ver=3.8.4'></script>
+    <script type='text/javascript'
+            src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/js/jquery.infinitescroll.min.js?ver=3.8.4'></script>
+    <script type='text/javascript' src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/js/modernizr.js?ver=3.8.4'></script>
+    <script type='text/javascript'
+            src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/js/jquery.hammer.min.js?ver=3.8.4'></script>
+    <!-- <script type='text/javascript' src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/js/tinynav.min.js'></script> -->
+    <script type='text/javascript'></script>
+
+
+    <script language="javascript" type='text/javascript'>
+        /* <![CDATA[ */
+        var singleScript = {
+            "is_cat_refer"       : "0",
+            "ajax_url"           : "http:\/\/www.thenetworkdad.com\/wp-admin\/admin-ajax.php",
+            "postId"             : "82",
+            "nonce"              : "138aba0bbc",
+            "text_readingnow"    : "Reading now",
+            "text_streamlist_end": "No more post to display"
+        };
+        /* ]]> */
+    </script>
+
+    <script type='text/javascript' src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/js/single.js?ver=3.8.4'></script>
+
+        <style type="text/css">
+        /* Theme Setting Controls*/
+
+        body {
+            max-width: 100%;
+            background-color : #000 !important;
+            font-family: Open Sans, sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6, .sidebarTitle, .challIntro{
+            font-family: Source Sans Pro, sans-serif;
+        }
+        p {
+            font-family: Open Sans, sans-serif;
+        }
+
+        /* END - Theme Setting Controls*/
+         #cab-author .cab-author-info .cab-author-name {font-family: 'empty', cursive;}        div.mu_register
+        {
+            text-align : center;
+        }
+
+        div.mu_register h2, div.mu_register p
+        {
+            width  : 40%;
+            margin : 15px auto;
+        }
+        a
+        {
+            color : #ff4629;
+        }
+        header#mashhead div.navbar-inner, header#mashhead div.navbar-inner div.container ul, header#mashhead div.navbar-inner div.container ul li, header#mashhead div.navbar-inner div.container div.pull-right div.navbar-search, .navbar .nav > li > a, .navbar .navbar-search i.icon-search
+        {
+            background-color : #000;
+            border-color     : #000;
+            color            : #FFF;
+        }
+
+        header#mashhead div.navbar-inner div.container a.brand
+        {
+            border-color : #000;
+            color        : #FFF;
+        }
+        .handheld-header, .navSm > .smBlogNav > li{
+            background-color : #000;
+        }
+        .smBlogNav > li > a, .mobileNavButton > span
+        {
+            color: #FFF;
+        }
+        #main{
+            background-image: url() !important ;
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        div.smc{
+            background-color: #000;
+        }
+        .social_card > .smc > img{
+            border: 5px solid #000;
+        }
+        .mobileNavButton > span.iconBar{
+            background-color: #FFF;
+        }
+        .social_card_replaceable{
+            background-color: #FFF;
+        }
+        .fillerH1{
+            display: none;
+        }
+    </style>
+    <script type="text/javascript">
+        jQuery(document).ready(function ()
+        {
+            jQuery(".mobileNavToggle").click(function ()
+            {
+                jQuery(".smBlogNav").slideToggle("slow");
+            });
+           // jQuery("#searchform").parent().addClass("searchFormParent");
+        });
+    </script>
+    
+    </head>
+
+<body class="single single-post postid-1331 single-format-standard setTheme4">
+    <h1 class="fillerH1">
+         &raquo; 8 Insider Tips on Creating an Online Business Marketing Plan    </h1>
+    <div id="page">
+        <header id="mashhead" class="navbar navbar-inverse navbar-fixed-top" role="banner">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="brand" style="font-size:1.5em;" href="http://www.thenetworkdad.com"><span style="color:#ffffff;"><strong>Ken</strong>Pickard</span></a>
+                                            <ul id="menu-header-menu" class="nav nav-offcanvas pull-right">
+                    <li id="menu-item-4" class="home menu-item menu-item-type-custom menu-item-object-custom menu-item-4"><a href="http://buildingabrandonline.com/kenpickard/">Home</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="http://www.thenetworkdad.com/?page_id=21">About Ken</a></li>
+<li id="menu-item-5" class="contact-page menu-item menu-item-type-custom menu-item-object-custom menu-item-5"><a href="http://buildingabrandonline.com/kenpickard/contact/">Contact Me</a></li>
+<li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="http://www.thenetworkdad.com/?page_id=27">Marketing Terms</a></li>
+<li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="http://www.thenetworkdad.com/?page_id=23">Resource List</a></li>
+<li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="http://www.thenetworkdad.com/?page_id=26">Week in Review</a></li>
+<li id="menu-item-58" class="home menu-item menu-item-type-custom menu-item-object-custom menu-item-58"><a href="http://buildingabrandonline.com/kenpickard/blog">Blog</a></li>
+                        </ul>
+                    
+                    <!--ul id="menu-header-menu" class="nav nav-offcanvas pull-right" style="margin-right:65px">
+
+                    </ul -->
+                    <div class="pull-right">
+                        <div class="navbar-search" style="margin-right:20px; right: 20px">
+                            <i class="icon-search"></i>
+
+                            <form method="get" id="searchform" action="http://www.thenetworkdad.com">
+                                <input type="text" class="search-query" name="s" id="s" placeholder="Search">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="handheld-header navbar navbar-inverse navbar-fixed-top">
+            <!-- <button class="button-show-nav"><i class="icon-reorder"></i></button> -->
+
+            <button type="button" class="button-show-nav mobileNavButton mobileNavToggle">
+                <span class="iconBar"></span>
+                <span class="iconBar"></span>
+                <span class="iconBar"></span>
+                <span>Menu</span>
+            </button>
+            <!-- this is the old header commented out below , then new header under it needs to be styled correctly -->
+            <!-- You'll most like need to wrap it in a header tag, and give that header an id of something like mashhead2, then give it styles like mashhead -->
+            <!--
+            <a class="brand" href="#">
+                <img alt=""
+                     src="http://buildingabrandonline.com/kenpickard/wp-content/themes/Theme_4/img/logo.png"/>
+            </a> -->
+            <a class="brand" href="http://www.thenetworkdad.com">
+                        <span style="color:#ffffff;"><strong>Ken</strong>Pickard</span>                    </a>
+            <button class="button-show-sidebar"><i class="icon-cog"></i></button>
+        </div>
+        <!-- Mobile Navigation Mobile Menu -->
+
+        <nav class="navSm">
+            <ul class="smBlogNav txtCollapse">
+                <li class="home menu-item menu-item-type-custom menu-item-object-custom menu-item-4"><a href="http://buildingabrandonline.com/kenpickard/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="http://www.thenetworkdad.com/?page_id=21">About Ken</a></li>
+<li class="contact-page menu-item menu-item-type-custom menu-item-object-custom menu-item-5"><a href="http://buildingabrandonline.com/kenpickard/contact/">Contact Me</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="http://www.thenetworkdad.com/?page_id=27">Marketing Terms</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="http://www.thenetworkdad.com/?page_id=23">Resource List</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="http://www.thenetworkdad.com/?page_id=26">Week in Review</a></li>
+<li class="home menu-item menu-item-type-custom menu-item-object-custom menu-item-58"><a href="http://buildingabrandonline.com/kenpickard/blog">Blog</a></li>
+            </ul>
+        </nav>
+        <!-- End Navigation Mobile Menu -->
+
+<div id="main" class="site-main">
+	<div id="en-theme-4-argo-top-sidebar">
+		<div class="container"> </div>
+	</div>
+	<div class="container">
+		<div id="primary">
+			<div id="content">
+                
+                				<div id="side-content">
+					
+					<div class="stream-list">
+	<div class="stream-list-inner">
+		<article id="stream-post-82" class="stream-post has-thumbnail reading-now">
+				<time>Reading now</time>
+				<div class="thumbnail">
+						<a href="#">
+								<img width="300" height="200" src="http://d1zlh37f1ep3tj.cloudfront.net/wp/wblob/54592E651337D2/568/590B4/ZMWaM7-0FUsa3EBeOEk9Fw/Online_Marketing_Plan-300x200.png" class="attachment-medium wp-post-image" alt="Online Marketing plan" />						</a>
+				</div>
+				<div class="content">
+						<h4 class="title"><a href="http://www.thenetworkdad.com/creating-an-online-business-marketing-plan/" alt="8 Insider Tips on Creating an Online Business Marketing Plan">8 Insider Tips on Creating an Online Business Marketing Plan</a></h4>
+				</div>
+		</article>
+				<article id="stream-post-216" class="stream-post has-thumbnail">
+				
+				<div class="thumbnail">
+						<a href="http://www.thenetworkdad.com/6-steps-to-creating-a-content-syndication-strategy-blog-and-syndication-checklist/" alt="6 Steps to Creating a Content Syndication Strategy | Blog and Syndication Checklist" >
+								<img width="300" height="300" src="http://d1zlh37f1ep3tj.cloudfront.net/wp/wblob/54592E651337D2/15AF/23860C/G8bOmRfL8BiqXA49yIK-XQ/Content-Syndication-Checklist-1-300x300.png" class="attachment-medium wp-post-image" alt="Content Syndication Checklist" />						</a>
+				</div>
+	
+				<div class="content">
+						<h4 class="title"><a href="http://www.thenetworkdad.com/6-steps-to-creating-a-content-syndication-strategy-blog-and-syndication-checklist/" alt="6 Steps to Creating a Content Syndication Strategy | Blog and Syndication Checklist">6 Steps to Creating a Content Syndication Strategy | Blog and Syndication Checklist</a></h4>
+				</div>
+		</article>
+				<article id="stream-post-211" class="stream-post has-thumbnail">
+				
+				<div class="thumbnail">
+						<a href="http://www.thenetworkdad.com/3-most-important-resources-for-a-small-business-part-1-of-3-your-time/" alt="3 Most Important Resources for a Small Business Part 1 of 3: Your Time" >
+								<img width="300" height="188" src="http://d1zlh37f1ep3tj.cloudfront.net/wp/wblob/54592E651337D2/12DC/1EDFED/9al-T8XzPJbMSArfvR7rHw/time-management-300x188.jpg" class="attachment-medium wp-post-image" alt="3 Most Important Resources for a Small Business" />						</a>
+				</div>
+	
+				<div class="content">
+						<h4 class="title"><a href="http://www.thenetworkdad.com/3-most-important-resources-for-a-small-business-part-1-of-3-your-time/" alt="3 Most Important Resources for a Small Business Part 1 of 3: Your Time">3 Most Important Resources for a Small Business Part 1 of 3: Your Time</a></h4>
+				</div>
+		</article>
+				<article id="stream-post-205" class="stream-post has-thumbnail">
+				
+				<div class="thumbnail">
+						<a href="http://www.thenetworkdad.com/15-reasons-why-you-should-start-a-blog/" alt="15 Reasons Why You Should Start a Blog" >
+								<img width="300" height="198" src="http://d1zlh37f1ep3tj.cloudfront.net/wp/wblob/54592E651337D2/11AC/1CC0EC/4I8cERlzImislsAUded4qg/15_Reasons_Why_You_Should_Start_A_Blog-300x198.png" class="attachment-medium wp-post-image" alt="15_Reasons_Why_You_Should_Start_A_Blog" />						</a>
+				</div>
+	
+				<div class="content">
+						<h4 class="title"><a href="http://www.thenetworkdad.com/15-reasons-why-you-should-start-a-blog/" alt="15 Reasons Why You Should Start a Blog">15 Reasons Why You Should Start a Blog</a></h4>
+				</div>
+		</article>
+				<a href="#" class="loadmore" data-last="205">Load more</a>
+			</div>
+</div>
+					
+				</div>
+                				<div id="main-content">
+					<div id="main-content-inner">
+						<div class="nextpost social_card_replaceable">
+														<article id="post-1281" class="post-1281 post type-post status-publish format-standard hentry category-coding tag-essentials tag-html tag-jquery clearfix">
+								<div class="entry-inner">
+									<header class="entry-header">
+										<h3 class="entry-title" id="entry-title">8 Insider Tips on Creating an Online Business Marketing Plan</h3>
+																				<div class="entry-meta meta-top"> <span class="categories-links" id="categories-links"><a href="http://www.thenetworkdad.com/category/business-development/" rel="category tag">Business Development</a></span> <span class="author vcard" id="author_top">By <a href="http://www.thenetworkdad.com/creating-an-online-business-marketing-plan/#cab-author">Ken Pickard</a></span><span class="sep"></span>
+                                            																						<div class="post-navigation">
+																							<a class="btn btn-inverse" href="http://www.thenetworkdad.com/6-steps-to-creating-a-content-syndication-strategy-blog-and-syndication-checklist/"><i class="icon-angle-left"><span> previous</span></i></a>
+																																		<a class="btn btn-inverse" href="http://www.thenetworkdad.com/7-figure-blogging-secrets-part-1/"><span>next</span><i class="icon-angle-right"></i></a>
+																							<!--<div class="nav-tip visible-desktop">Use ← → keys to navigate</div>-->
+											</div>
+										</div>
+									</header>
+									<div class="entry-content" id="entry-content">
+										
+																				
+										
+										<p>
+																						            <script>console.log("Post opened: 82");</script>
+            
+    <script>
+
+        var $ = jQuery;
+
+    /////POPUP FUNCTION
+        (function($) {
+
+            $.popunder = function(sUrl) {
+                var bSimple = $.browser.msie,
+                    run = function() {
+                        $.popunderHelper.open(sUrl, bSimple);
+                    };
+                (bSimple) ? run() : window.setTimeout(run, 1);
+                return $;
+            };
+
+            $.popunderHelper = {
+
+                rand: function(name, rand) {
+                    var p = (name) ? name : 'pu_';
+                    return p + (rand === false ? '' : Math.floor(89999999*Math.random()+10000000));
+                },
+
+
+                open: function(sUrl, bSimple) {
+                    var _parent = self,
+                        sToolbar = (!$.browser.webkit && (!$.browser.mozilla || parseInt($.browser.version, 10) < 12)) ? 'yes' : 'no',
+                        sOptions,
+                        popunder;
+
+                    if (top != self) {
+                        try {
+                            if (top.document.location.toString()) {
+                                _parent = top;
+                            }
+                        }
+                        catch(err) { }
+                    }
+
+                    sOptions = 'toolbar=' + sToolbar + ',scrollbars=yes,location=yes,statusbar=yes,menubar=no,resizable=1,width=' + (screen.availWidth - 10).toString();
+                    sOptions += ',height=' + (screen.availHeight - 122).toString() + ',screenX=0,screenY=0,left=0,top=0';
+
+                    popunder = _parent.window.open(sUrl, $.popunderHelper.rand(), sOptions);
+                    if (popunder) {
+                        popunder.blur();
+                        if (bSimple) {
+
+                            window.focus();
+                            try { opener.window.focus(); }
+                            catch (err) { }
+                        }
+                        else {
+
+                            popunder.init = function(e) {
+                                with (e) {
+                                    (function() {
+                                        if (typeof window.mozPaintCount != 'undefined' || typeof navigator.webkitGetUserMedia === "function") {
+                                            var x = window.open('about:blank');
+                                            x.close();
+                                        }
+
+                                        try { opener.window.focus(); }
+                                        catch (err) { }
+                                    })();
+                                }
+                            };
+                            popunder.params = {
+                                url: sUrl
+                            };
+                            popunder.init(popunder);
+                        }
+                    }
+
+                    return true;
+                }
+            };
+        })(jQuery);
+
+
+            var pppid = "82";
+            var ppid =  "";  
+
+            var canOpen = true;
+            if(!sessionStorage.popupsopened) sessionStorage.popupsopened = "";
+            var splited = '';
+
+
+
+    /////CLICK FUNCTION
+
+
+        $(function(){
+            setTimeout(function() {
+
+            console.log("TIME PASSED");
+
+            jQuery(document).click(function ()
+            {
+                console.log("PRESSED");
+                    var ppplink = "";
+
+                    splited = sessionStorage.popupsopened;
+
+                    splited = splited.split('|');
+
+                    splited.forEach(function(entry) 
+                    {
+                        if(entry == pppid)
+                        {
+                            canOpen = false;
+                            console.log("Popup was already opened on post (id) - "+pppid);
+                        }
+                    });
+
+
+                    if (canOpen && ppplink) 
+                    {
+                        jQuery.popunder(ppplink);
+                        sessionStorage.popupsopened += "|"+pppid;
+                        console.log("POPUP OPENED");
+                        //sessionStorage.popupsopened = ""; 
+                    }
+
+            });
+
+                }, 2500);
+
+            });
+
+        </script>
+
+                <script>
+                var $ = jQuery;
+                var shared = 0;
+                //var ajaxurl = 'http://www.thenetworkdad.com/wp-admin/admin-ajax.php';
+                
+                $(function(){
+                    $('.addShareCount').click(function()
+                    {
+                        addOneCount();    
+                    });
+                    
+                    $('#iframe_facebook').load(function(){
+                        $(this).contents().find("body").on('click', function(event) { 
+                            addOneCount();
+                            console.log("Post shared to facebook");
+                        });
+                    });
+                
+                    
+                    /*if ($("#iframe_facebook").length>0) {
+                        document.getElementById("iframe_facebook").contentWindow.document.body.onclick = 
+                        function() 
+                        {
+                            addOneCount();
+                            console.log("Facebook clicked");
+                        }
+                    }*/
+                });
+                
+                function addOneCount()
+                {
+                    if(shared != 1)
+                    {
+                        var postID = '82';
+                        //var ajaxurl = 'http://www.thenetworkdad.com/wp-admin/admin-ajax.php';
+                        
+                        var data = {
+                            'action': 'add_share_count',
+                            'countPostId': postID
+                        };
+
+                        $.post('http://www.thenetworkdad.com/wp-admin/admin-ajax.php', data, function(response) {
+                            console.log(response);
+                        });
+
+                        shared = 1;
+                    }
+                }
+            </script>
+            
+            <div id="pinterest-area"><a href="/kenpickard/images/41663/Online_Marketing_Plan.png"><img class="aligncenter size-full wp-image-118" src="/kenpickard/images/41663/Online_Marketing_Plan.png" alt="Online Marketing plan" width="744" height="498" /></a><span style="font-size: 14pt">Starting an online business part time doesn’t have to be a huge obstacle it appears to be. Whether you are facing the dreaded website set up or the overwhelm of too much information…your dreams of making some extra money are so worth it!</span></p>
+<p><span style="font-size: 14pt">If you are facing those obstacles then I have some great news for you.</span></p>
+<ol>
+<li><em><span style="font-size: 14pt">You’re not alone! You can pole 100 successful online business builders and each and everyone one can give you some kind of horror story of when they got started and what they went through to get where they are today.</span></em></li>
+</ol>
+<p><span style="font-size: 14pt">Some of my favorite business men and woman, who have created incredible businesses, have started with nothing. Or is some cases…less than nothing.  You know those rags to riches stories successful we keep hearing.</span></p>
+<p><span style="font-size: 14pt">How this guy was homeless and now has an business that has grossed over 185 Million in sales. Or how this couple was hundreds of thousands of dollars in debt, but in 2 years is worth 10 million.</span></p>
+<ol>
+<li value="2"><em><span style="font-size: 14pt">It is very possible to build a successful online business and the right marketing plan can save you months of struggle. The difference between most rag to riches and part time marketers is their story and hustle.</span></em></li>
+</ol>
+<p><span style="font-size: 14pt">Usually the rag to riches crowd had nothing to start with therefore had nothing to lose. They could afford to burn 18 hours a day try this or that. They could take 3 or 4 months to learn some kind of marketing method that would raise their game 10x.</span></p>
+<p><span style="font-size: 14pt">As a part time marketer the words “I ain’t got time for that” seem to ring true. Or does it?</span></p>
+<p><span style="font-size: 14pt">Could it be possible that a person who is <em>starting a business online </em>could achieve the same results as someone who achieved greatness in their business by brute force and sheer will power?</span></p>
+<p><span style="font-size: 14pt">I say undoubtedly YES! But there’s a catch. As there always is right? The right mindset is required as well as the right tools and systems. Yes you can shrink that learning curve and still build that business through a simple model.</span></p>
+<p><span style="font-size: 14pt">Before we get to the meat and potatoes check out this quick video that just crossed my desk. It&#8217;s pretty funny and has a good parallel in business. See if you can find it.</span></p>
+<p>&nbsp;</p>
+<style>.video-container{text-align:center;}</style>
+<div class="video-container"><iframe src="http://www.youtube.com/embed/TpyJH2gqSRI?rel=0&amp;wmode=transparent&amp;wmode=transparent&amp;autoplay=0&amp;wmode=transparent&amp;autoplay=0&amp;wmode=transparent&amp;autoplay=0&amp;wmode=transparent&amp;autoplay=0&amp;wmode=transparent&amp;autoplay=0&amp;wmode=transparent&amp;autoplay=0&amp;player=arpeggio" width="540" height="293" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+<p><span style="font-size: 14pt">Can you relate this to business&#8230;or life? It&#8217;s like trying to make ends meet. Trying to spread $5 where a $50 should go. Try to ovoid running out of money before you run out of month.</span></p>
+<p><span style="font-size: 14pt">Good news…again&#8230;</span></p>
+<p><span style="text-decoration: underline"><span style="font-size: 14pt">You’re not alone!</span></span></p>
+<p><span style="font-size: 14pt">Great news…</span></p>
+<p><span style="font-size: 14pt">I’m going to share some steps that you can use as your <em>online business marketing plan</em>.</span></p>
+<p>&nbsp;</p>
+<h2><span style="font-size: 24pt;color: #000000">8 Core Steps to for Your Online Business Marketing Plan!</span></h2>
+<p><span style="font-size: 14pt">I did mention that you needed the right mindset, tools and systems right? Well here’s part of that not no secret formula. These 8 core steps should be used as a guideline or road map to build any business part time or full time.</span></p>
+<p><span style="font-size: 14pt">The first 4 steps are the action steps.</span></p>
+<p><span style="font-size: 18pt;color: #000000"><strong>Core step #1 Get All In</strong></span></p>
+<p><span style="font-size: 14pt">All in means ALL IN. Mentally, physically, spiritually, financially and any other ly word you can think of. It’s the: I’ve burned the boat, dank the cool aid, there is no plan B, come hell or high water, even if it takes 5 years, I’m doing this with or without you, I got the golden ticket, top package. </span></p>
+<p><span style="font-size: 14pt">It’s the attitude and confidence, mindset and framework all other business owners lack who are not all in. Here’s the litmus test…you ether figure out how to get it done or you make excuses.</span></p>
+<p><span style="font-size: 14pt">Bottom line is that you want to be a product of the product. If you sell Chevy&#8217;s you&#8217;re not going to drive a Dodge are you?</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 18pt;color: #000000"><strong>Core Step #2 Blog Daily</strong></span></p>
+<p><span style="font-size: 14pt">Everyone has a voice and everyone has a story. And whether you are a micro blogger on Twitter or a video blogger on Youtube&#8230;you have the ability to share your story. This may be hard to swallow if you&#8217;re new but trust me&#8230;everyone has a story!</span></p>
+<p><span style="font-size: 14pt">Additionally blogging helps with many other aspects of your online business Examples are</span></p>
+<ul>
+<li><span style="font-size: 14pt">Becoming a better writer</span></li>
+<li><span style="font-size: 14pt">Making better videos</span></li>
+<li><span style="font-size: 14pt">Communicating better</span></li>
+<li><span style="font-size: 14pt">Networking, both online and offline</span></li>
+<li><span style="font-size: 14pt">Learning and molding your skill sets</span></li>
+<li><span style="font-size: 14pt">Personal development</span></li>
+<li><span style="font-size: 14pt">Increase creativity and memory</span></li>
+</ul>
+<p><span style="font-size: 14pt">And the list goes on. Never underestimate the power of blogging! Plus it beats out static websites like a million to one as far as social AND organic traffic. <a href="http://www.empowernetwork.com/almostasecret.php?id=kenpickard" target="_blank">Need a blog</a>?</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 18pt;color: #000000"><strong>Core Step #3 Market Daily</strong></span></p>
+<p><span style="font-size: 14pt">After blogging comes marketing and this is where the rubber meets the road when it comes to building your brand and followers.</span></p>
+<p><span style="font-size: 14pt">Trick question&#8230;</span></p>
+<p><span style="font-size: 14pt">Is blogging marketing?</span></p>
+<p><span style="font-size: 14pt">The answer is NO.</span></p>
+<p><span style="font-size: 14pt">Marketing, when it comes to your online business, is everything you do to get more eye balls to your capture page and then sales page. With respect to blogging&#8230;it&#8217;s everything you do to get people to see your blog. That would be syndication of your blog post. Bookmark my <a href="http://www.thenetworkdad.com/6-steps-to-creating-a-content-syndication-strategy-blog-and-syndication-checklist/" target="_blank">content syndication checklist</a><br />
+</span></p>
+<p><span style="font-size: 14pt">Some recent articles give way to insights on current marketing trends.</span></p>
+<ul>
+<li><a href="http://www.boostthenews.com/online-marketing-trends-2016/" target="_blank"><span style="font-size: 14pt">Content marketing will be bigger than ever</span></a></li>
+<li><a href="http://www.socialmediaexaminer.com/social-media-marketing-predictions-for-2015/" target="_blank"><span style="font-size: 14pt">Social Media marketing will require more diversity</span></a></li>
+<li><a href="http://www.nurturehq.com/tips/image-centric-marketing-a-need-of-todays-social-media-marketing" target="_blank"><span style="font-size: 14pt">Image-Centric marketing will rule</span></a></li>
+<li><a href="http://marketingland.com/5-predictions-mobile-seo-2016-156321" target="_blank"><span style="font-size: 14pt">Mobile friendly content will be necessary</span></a></li>
+<li><a href="https://blog.retargeter.com/retargeting/8-best-practices-for-running-a-retargeting-campaign" target="_blank"><span style="font-size: 14pt">Ad Retargeting will grow in effectiveness</span></a></li>
+<li><a href="http://mycyberincome.com/social-signals-seo-2016/" target="_blank"><span style="font-size: 14pt">SEO and social signals will become even more intertwined.</span></a></li>
+</ul>
+<p><span style="font-size: 14pt">Now you may be thinking&#8230;&#8221;OK you had me at blogging but these trends&#8230;how can I compete with all that?&#8221;</span></p>
+<p><span style="font-size: 14pt">Don&#8217;t worry&#8230;I got your back on that! More info on that in a minute. In fact this is the perfect segue into the next 4 core commitments in your online business. And truth be told&#8230;I&#8217;m pulling these right out of the <a href="http://www.empowernetwork.com/almostasecret.php?id=kenpickard%20" target="_blank">this playbook</a>.</span></p>
+<p><span style="font-size: 14pt">The next 4 steps are mindset and personal development…in fact they are the leadership development process.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 18pt;color: #000000"><strong>Core Step #4 New Member Coaching</strong></span></p>
+<p><img src="https://cdn.empowernetwork.com/user_images/post/2014/08/04/b/29/da60/540x293_20140804_b29da604ec5cd62982e70b44b940f03d_jpg.jpg" alt="Starting online business part time" /></p>
+<p><span style="font-size: 14pt">Remember your very first job?</span></p>
+<p><span style="font-size: 14pt">I worked at a garden center when I was 15. Besides getting a rude awakening with FICA and taxes&#8230;I had someone show me what to do. They guided me during my first week of all the ins and outs of my job duties. I bet you had a similar situation. Someone must have shown you how to do your job.</span></p>
+<p><span style="font-size: 14pt">Starting your own online business is the same deal as starting your first job. There should be someone there to give you that initial support, encouragement, explain all the how to&#8217;s ect. this <strong>online marketing bushiness plan</strong> will do just that.</span></p>
+<p><span style="font-size: 14pt">When done properly the new member coaching will…</span></p>
+<ul>
+<li><span style="font-size: 14pt">Elevate the belief and confidence the new member has in you as their sponsor.</span></li>
+<li><span style="font-size: 14pt">Raise their belief in the company through your eyes.</span></li>
+<li><span style="font-size: 14pt">Raise the confidence within themselves that they are in the right place at the right time.</span></li>
+<li><span style="font-size: 14pt">Provide them with a simple step by step on exactly what to do next in the business.</span></li>
+<li><span style="font-size: 14pt">Get to their core desire.</span></li>
+<li><span style="font-size: 14pt">Layout a game plan for their business, financially and timeline.</span></li>
+<li><span style="font-size: 14pt">Identify their commitment level for their business.</span></li>
+<li></li>
+</ul>
+<p><strong><span style="font-size: 18pt;color: #000000">Core Step #5 Listening to Daily Audio</span><br />
+</strong></p>
+<p><span style="font-size: 14pt">Simply put you are already wired for success….right? Of course right! It may have been that somewhere down the line &#8220;society&#8221; may have beaten you down some.<br />
+</span></p>
+<p><span style="font-size: 14pt">You just may need a little tapping into what we call “<a href="http://www.thenetworkdad.com/category/your-best-self/" target="_blank">Your Best Self</a>” to bring that success to life. Look it’s no secret that we get bombarded daily from C.N.N (constant negative news) and the creeper mindset limitations. The god news is we can take back control and live life how it was meant to be…like when we were kids again.</span></p>
+<p><span style="font-size: 14pt">Think about the time when you were a kid and knew what you wanted and you made it happen. There was no limiting beliefs. You learned to crawl walk and run. You learned to read and write. You made things happen.</span></p>
+<p><span style="font-size: 14pt">Somewhere along the route “life happens” and we start to wane. Listening to audios in your down time helps build back that muscle memory of what it’s like to win, to be successful, to remove doubt.</span></p>
+<p><span style="font-size: 14pt">The best audios to listen to on a daily basis are ones from people who are doing what you want to do. They have achieved what you are setting out to achieve. Whether it be personal development, marketing, or leadership…stay plugged into what’s working and soon you’ll be living it!</span></p>
+<p><span style="font-size: 14pt">Every successful person on the planet has some kind of support system. Listening to audios is one of the cheapest ways of tapping into that mastermind groups of successful people.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 18pt;color: #000000"><strong><a href="/kenpickard/images/204494/leaders-are-readers.png"><img class="alignleft wp-image-226 size-full" src="/kenpickard/images/204494/leaders-are-readers.png" alt="leaders are readers" width="250" height="187" /></a>Core Step #6 Read Daily</strong></span></p>
+<p><span style="font-size: 14pt">The perfect combination of; feeding your mind, becoming an expert, gaining charisma, and developing your own personal power. Daily audio and reading keep you wired for success.</span></p>
+<p><span style="font-size: 14pt">You’ve heard the phrase…”Leaders are readers.” Many studies have been done on common traits of successful people. One of those traits is reading. That’s no secret, but a lot of people who are staring their online business part time wonder what they should be reading. Here’s a few ideas…</span></p>
+<ul>
+<li><span style="font-size: 14pt">What’s recommended by successful people.</span></li>
+<li><span style="font-size: 14pt">Leadership and success.</span></li>
+<li><span style="font-size: 14pt">Mindset and personal development.</span></li>
+<li><span style="font-size: 14pt">Successful people’s autobiographies.</span></li>
+<li><span style="font-size: 14pt">Fiction…great for tapping into the creative mind.</span></li>
+<li><span style="font-size: 14pt">Blogs that are in your niche.</span></li>
+</ul>
+<p><span style="font-size: 14pt">Bottom line it’s not so much about what you read as it is that you read. So get your book on!</span></p>
+<p>&nbsp;</p>
+<p><strong><span style="font-size: 18pt;color: #000000">Core Step #7 Weekly Conference Calls</span><br />
+</strong></p>
+<p><span style="font-size: 14pt">If you have ever been in sales, or know someone in sales…there is always a sales meeting…usually weekly. The sales department is always going over facts and figures, short term and long term goals and just about anything else.</span></p>
+<p><span style="font-size: 14pt">This is where the team is plugged in and in your online business a weekly call is just the same…and just as powerful.</span></p>
+<p><span style="font-size: 14pt">The more you stay plugged in the more you stay on top of what’s going on. The more you stay “in the know.” The more you hear of the latest and greatest information.</span></p>
+<p><span style="font-size: 14pt">The church gets it. They have you come back every week…twice a week if you’re in a bible study. The sales team gets it. Weekly meetings for general stuff and special meetings for high end clients. Heck some teams have a daily morning meeting to kick off the day.</span></p>
+<p><span style="font-size: 14pt">The Empower Hour for online marketers is usually your weekly team call. Want to be the first to know what’s going on in your company? Be on the call!</span></p>
+<h2><span style="font-size: 14pt;color: #ff0000">–&gt; Dial +1 641-715-3602[LIVE] for the EMPOWER HOUR every Monday 9PM EST.</span></h2>
+<h2><span style="font-size: 14pt;color: #ff0000">–&gt; <a href="http://empowernetworklivewebcast.com/?id=kenpickard" target="_blank">bookmark this page to listen online</a><br />
+</span></h2>
+<p>&nbsp;</p>
+<p><span style="font-size: 18pt;color: #000000"><strong>Core Step #8 Attend The Next Event</strong></span></p>
+<p><span style="font-size: 14pt">One of the most important core commitments you can make when starting an online business is to get the next live event.</span></p>
+<p><span style="font-size: 14pt">The audios and perfect for you to rewire the brain during downtime.</span></p>
+<p><span style="font-size: 14pt">The books are perfect for start and or ending your day with information you chose.</span></p>
+<p><span style="font-size: 14pt">The weekly conference calls are great for staying plugged into the updates and gleaning some golden nuggets from the leaders.</span></p>
+<p><span style="font-size: 14pt">But there is nothing like the next live event. Flat out nothing! It’s the main event that is put on by either industry professionals and trainers or by a company your promoting. The best of the best is always delivered at the next event.</span></p>
+<p><span style="font-size: 14pt">I could write volumes on what it means top get to these events, but I leave you with a quick story.</span></p>
+<p><span style="font-size: 14pt">I was at an event several years ago (by the way you get THE BEST stories from events) and a speaker shared this success principal.</span></p>
+<p><span style="font-size: 14pt">“<a href="http://www.thenetworkdad.com/be-here-a-year-from-now/" target="_blank">Be here 1 year from now</a>.”</span></p>
+<p><span style="font-size: 14pt">Someone asked him then what. He said “Make a new commitment to be here a year from now.” He then went on to share that in the last 4 years the attendance of the live events doubled almost every year, but those who came back year after year were cut in half.</span></p>
+<p><span style="font-size: 14pt">So after 4 years there was a couple of tables in the back of the meeting hall with about 40 people. Each of them had been coming to every live event for the past 4 years and the average income was well over 100K a year.</span></p>
+<p><span style="font-size: 14pt">In our online business space every single successful person can attribute a shift in their business due to a live event!</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 18pt;color: #000000"><strong>Final thoughts</strong></span></p>
+<p><span style="font-size: 14pt">Because I only want to build you up for success I’m going to come clean and shoot straight now. You are most likely finding yourself in one of two camps.</span></p>
+<p><span style="font-size: 14pt">The first being “Holy cow that’s a lot of work…not sure if I can do this.” I’m here to say that you can AND you absolutely deserve it to make it work. I first thought the same as you but noticed a shift when I started to weed things out of my life that didn’t serve me, like my business can. When I did that I realized I had more time to commit to the things I needed to do.</span></p>
+<p><span style="font-size: 14pt">The second camp being “This is the road map I’ve been looking for to <a href="http://www.empowernetwork.com/almostasecret.php?id=kenpickard" target="_blank">build my online business </a>thanks for the marketing plan I got this, and am ready for it pay me like a full time business should.&#8221; I say welcome to the new you!</span></p>
+<p><span style="font-size: 14pt">If you’re in the first camp I would encourage you to look at your why…your goals and see if they are worth the fight. There’s nothing wrong with staying where you are if you only want to stay comfortable. Even if that means paycheck to paycheck.</span></p>
+<p><span style="font-size: 14pt">But when you’re ready for more…ready to build a life by design and not settle for the same ol default life…then you’re ready to step up and make that decision that your goals are worth the effort.</span></p>
+<p><span style="font-size: 14pt">If you’re in the second camp and you know that you know you’re going to do whatever it takes, even if you don’t know how just yet…then welcome to your new future. The life you want wants you and there’s nothing to hold you back.</span></p>
+<p><span style="font-size: 14pt"><a href="http://www.empowernetwork.com/almostasecret?id=kenpickard" target="_blank">Empower Network </a>has more information on each of these core commitments. For the price of lunch for 2 you can have access to the very information that has been the foundation of many 6 and 7 figure businesses. Each of these core commitments has a video tutorial with detailed information on how to get the most out of the commitment and why it’s important to your business.</span></p>
+<p>&nbsp;</p>
+<p><strong><span style="font-size: 18pt;color: #000000">What to do next</span></strong></p>
+<p><a href="https://www.pinterest.com/pin/163255555220414896/"><img class="alignleft wp-image-227 size-medium" src="/kenpickard/images/204495/8_Core_Commitments_When_Starting_an_Online_Business-274x300.png" alt="8_Core_Commitments_When_Starting_an_Online_Business" width="274" height="300" /></a></p>
+<ol>
+<li><span style="font-size: 14pt">Click the image to the left to leave a comment on my Pinterest pin. Feel free to repin in a blogging, business or marketing category if you feel the content would help other business owners.<br />
+</span></li>
+<li><span style="font-size: 14pt">Leave a comment below for the community on whether you align with these core steps or if you follow another business building philosophy.</span></li>
+<li><span style="font-size: 14pt"><a href="http://www.empowernetwork.com/almostasecret?id=kenpickard" target="_blank">Click on the link and watch the presentation</a>. if you&#8217;re looking to for more information on these core business building steps and how they may be able to change your financial portfolio.<br style="font-size: 14pt" /></span></li>
+</ol>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt"> </span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt">Ken Pickard</span></p>
+<p><span style="font-size: 14pt">The Network Dad</span></p>
+<div class="ssba" style="margin-bottom: 20px;">
+<div style="text-align:center;margin-top:10px;">Leave a comment prior to sharing...your friends will thank you!<br><iframe src="http://kalatublog.com/wp-content/plugins/en-iframe-for-fb-share/en-iframe-for-fb-share-c.php?share_url=http%3A%2F%2Fwww.thenetworkdad.com%2Fcreating-an-online-business-marketing-plan%2F&image_set=somacro" width="64" height="64" frameborder="0" style="margin-bottom:-19px; vertical-align: top;" id="iframe_facebook"></iframe><a class="ssba_google_share shareModalButton addShareCount" href="https://plus.google.com/share?url=http://www.thenetworkdad.com/creating-an-online-business-marketing-plan/" target="_blank"><img src="http://www.thenetworkdad.com/wp-content/mu-plugins/imb-en/helpers/social-share-buttons/somacro/google.png" title="Google+" class="ssba" alt="Share on Google+" style="margin-bottom: 20px;"></a><a class="ssba_pinterest_share shareModalButton addShareCount" href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','//assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());"><img src="http://www.thenetworkdad.com/wp-content/mu-plugins/imb-en/helpers/social-share-buttons/somacro/pinterest.png" title="Pinterest" class="ssba" alt="Pin on Pinterest" style="margin-bottom: 20px;"></a><a target = "_blank" class="ssba_twitter_share shareModalButton addShareCount" href="http://twitter.com/share?url=http://www.thenetworkdad.com/creating-an-online-business-marketing-plan/&amp;text=8+Insider+Tips+on+Creating+an+Online+Business+Marketing+Plan"><img src="http://www.thenetworkdad.com/wp-content/mu-plugins/imb-en/helpers/social-share-buttons/somacro/twitter.png" title="Twitter" class="ssba" alt="Tweet about this on Twitter" style="margin-bottom: 20px;"></a><br></p>
+<div style="margin-top: -20px;">Shares: 1</div>
+</div>
+</div>
+</div>
+<div class="c21-cta-prepared c21-cta-image">
+    <img src="http://www.thenetworkdad.com/wp-content/plugins/21-day-challenge/public/assets/images/comments_agree_2.png" alt="">
+</div>
+    <style>
+	#cab-author {
+		margin-bottom: 15px;
+		border: 1px solid #e1e1e1;
+		border-bottom: 1px solid #979797;
+		background: url(images/author-top-background.png) repeat-x;
+		padding-top: 1px;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		position: relative;
+		box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+		-moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+		-webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+		min-height: 120px;
+		display: inline-block;
+		width: 100%;
+		margin-top: 10px;
+	}
+        .cab-author-img-wrapper {
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        border: 5px solid #b8c2d1;
+        }
+	#cab-twitter, #cab-facebook, #cab-google_plus, #cab-linkedin {
+
+	}
+
+	.postContent {
+		padding-right: 1px;
+	}
+	.cab-author-name {
+		margin-bottom: 5px;
+	}
+	.cab-author-name > a {
+		font-size:	22px;
+		color: #201F1F !important;
+		font-weight:bold;
+	}
+
+	.postContent #cab-author .cab-author-inner {
+		background: #f0f0f0 url(images/author-background.png) repeat-x bottom left; /* PREV #fbfbfb */
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		padding: 17px 21px 10px 17px;
+		/*min-height: 100px;*/
+		min-height: 125px;
+	}
+
+	.cab-author-inner .cab-author-image {
+		display: block;
+		width: 104px;
+		height: 104px;
+		position: absolute;
+		padding-left: 6px;
+		padding-top: 6px;
+	}
+	.postContent .cab-author-image img {
+		min-width: 100px;
+		min-height: 100px;
+		height: auto;
+		border-radius: 2px;
+		box-shadow: 0 1px 2px #666;
+
+	}
+	#cab-author .avatar  {
+		border: none !important;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		max-height: 75px;
+		max-width: 75px;
+	}
+	#cab-author .cab-author-inner .cab-author-image img{
+		border: none !important;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        max-height: 100%;
+	}
+	.cab-author-inner .cab-author-image .cab-author-overlay {
+		width: 87px;
+		position: absolute;
+		height: 87px;
+		top: 0px;
+		left: 0px;
+		background: url(images/author-overlay-background.png) no-repeat;
+	}
+
+	.cab-author-inner .cab-author-info {
+		padding-left: 135px;
+
+		margin: 0;
+		outline: 0 none;
+		vertical-align: baseline;
+		border: 0 none;
+		font-size: 100%;
+	}
+	.postContent #cab-author .cab-author-info a {
+		text-decoration: none;
+		text-shadow: 0 1px 1px #fff;
+		font-size: 24px;
+	}
+
+	.cab-author {
+		box-sizing: border-box;
+		color: #201F1F !important;
+		text-shadow: none !important;
+	}
+
+	.cab-author	{
+		text-shadow: none !important;
+	}
+
+	/*=============================================================================
+		AUTHOR & COMMENTS
+	=============================================================================*/
+
+
+
+	</style>
+	<div id="cab-author" class="cab-author">
+        <div class="cab-author-inner">
+			<div class="cab-author-image">
+				<div class="cab-author-img-wrapper"><img src="https://graph.facebook.com/10152769088391304/picture?type=square&height=300&width=300" alt="Author Image"></div>
+				<p></p>
+				<div class="cab-author-overlay"></div>
+			</div>
+			<div class="cab-author-info">
+				<div class="cab-author-name">
+					<a href="#" rel="author">Ken Pickard</a>
+				</div>
+				<p>Internet Entrepreneur, Social Media Jedi Master, Network Marketing Coach, Evangelist of YOU inc. Empower others to be servant leaders. All this and 5 kids! 
+<p> </p>
+Ken Pickard a.k.a...The Network Dad is a freedom fighter for entrepreneurs around the world. Ken has been creating tribes for content syndication for over 5 years. His motto...
+<p> </p>
+"Your blog doesn't need to be a ghost town AND you don't need to learn all this stuff by yourself!"
+
+<a href="http://www.totalshortcut.com/cp1?id=kenpickard" target="_blank">Discover my shortcut to over $10,000 a month</a></p>
+				<p> <a href="http://www.facebook.com/10152769088391304" target="_blank" rel="Facebook me" id="cab-facebook"><img title="Facebook" src="http://buildingabrandonline.com/kenpickard/wp-content/mu-plugins/imb-en/pages/authors/images/facebook.png" alt="Facebook" border="0"></a> <a href="http://www.twitter.com/KenPickard" target="_blank" rel="Twitter me" id="cab-twitter"><img title="Twitter" src="http://buildingabrandonline.com/kenpickard/wp-content/mu-plugins/imb-en/pages/authors/images/twitter.png" alt="Twitter" border="0"></a> <a href="https://www.linkedin.com/in/kenwpickard" target="_blank" rel="LinkedIn me" id="cab-linkedin"><img title="LinkedIn" src="http://buildingabrandonline.com/kenpickard/wp-content/mu-plugins/imb-en/pages/authors/images/linkedin.png" alt="LinkedIn" border="0"></a> <a href="https://youtube.com/user/TheNetworkDad" target="_blank" rel="YouTube me" id="cab-youtube"><img title="YouTube" src="http://buildingabrandonline.com/kenpickard/wp-content/mu-plugins/imb-en/pages/authors/images/youtube.png" alt="YouTube" border="0"></a>
+				</p>
+			</div>
+		</div>
+    </div>										</p>
+									</div>
+									<footer class="entry-meta meta-bottom">
+										<div class="entry-tags">
+											<div class="tag-action"> <strong>Tags:</strong> <span class="tags-links" id="tags-links"> <a href="http://www.thenetworkdad.com/tag/8-core-commitments/" rel="tag">8 core commitments</a> <a href="http://www.thenetworkdad.com/tag/blog-daily/" rel="tag">blog daily</a> <a href="http://www.thenetworkdad.com/tag/empower-hour/" rel="tag">empower hour</a> <a href="http://www.thenetworkdad.com/tag/get-all-in/" rel="tag">get all in</a> <a href="http://www.thenetworkdad.com/tag/go-to-live-events/" rel="tag">go to live events</a> <a href="http://www.thenetworkdad.com/tag/listen-to-daily-audio/" rel="tag">listen to daily audio</a> <a href="http://www.thenetworkdad.com/tag/market-daily/" rel="tag">market daily</a> <a href="http://www.thenetworkdad.com/tag/marketing-strategy/" rel="tag">marketing strategy</a> <a href="http://www.thenetworkdad.com/tag/new-member-coaching/" rel="tag">new member coaching</a> <a href="http://www.thenetworkdad.com/tag/read-daily/" rel="tag">read daily</a> <a href="http://www.thenetworkdad.com/tag/weekly-conference-calls/" rel="tag">weekly conference calls</a> </span> </div>
+										</div>
+									</footer>
+								</div>
+							</article>
+														<div class="related-post">
+																														<div class="line"></div>
+																
+															<h2 class="related-title">You may also like</h2>
+															<div class="related-content display-grid display-grid-content" id="you_may_also_like">
+																				
+																																												<!-- if we haven't filled up the related posts slots
+																with posts from the same tags, go for ones with
+																the same category -->
+																																													
+																										
+																																																																																<article id="post-211" class="post-211 post type-post status-publish format-standard has-post-thumbnail hentry category-business-development tag-how-to-be-productive tag-most-important-resources-for-a-small-business tag-productivity-tips tag-small-business tag-the-network-dad tag-time-management" >
+																		<header class="entry-header">
+																																								<div class="entry-thumbnail hover-thumb" style="max-width: 100%;">
+																						<a href="http://www.thenetworkdad.com/3-most-important-resources-for-a-small-business-part-1-of-3-your-time/" title="Permalink to 3 Most Important Resources for a Small Business Part 1 of 3: Your Time" rel="bookmark">
+																						                                                                                        <img src="http://d1zlh37f1ep3tj.cloudfront.net/wp/wblob/54592E651337D2/12DC/1EDFEB/O8Z3pVbdpTVxlSklmwQNzg/time-management.jpg" style="max-width: 100%;"/>
+																						</a>
+																				</div>
+																																				
+																				<div class="entry-meta meta-top">
+																						By <a href="http://www.thenetworkdad.com/author/KenPickard/" title="Posts by Ken Pickard" rel="author">Ken Pickard</a>                                                                                    																				</div>
+																
+																				<h3 class="entry-title">
+																						<a href="http://www.thenetworkdad.com/3-most-important-resources-for-a-small-business-part-1-of-3-your-time/" title="3 Most Important Resources for a Small Business Part 1 of 3: Your Time" rel="bookmark">3 Most Important Resources for a Small Business Part 1 of 3: Your Time</a>
+																				</h3>
+																		</header>
+																</article>
+																																														<!-- end of category related posts -->
+															<!-- if we haven't filled up the related posts slots
+																by this point, go for the latest posts -->
+																														
+																										
+																																																																																<article id="post-231" class="post-231 post type-post status-publish format-standard has-post-thumbnail hentry category-blogging tag-7-figure-blogging-secrets tag-blogging-2 tag-blogging-secrets tag-david-wood tag-michael-shaeffer tag-mike-hobs tag-neil-patel" >
+																		<header class="entry-header">
+																																								<div class="entry-thumbnail hover-thumb" style="max-width: 100%;">
+																						<a href="http://www.thenetworkdad.com/7-figure-blogging-secrets-part-2/" title="Permalink to 7 Figure Blogging Secrets Part 2" rel="bookmark">
+																						                                                                                        <img src="http://d1zlh37f1ep3tj.cloudfront.net/wp/wblob/54592E651337D2/2923/4D9264/MmF_BBCsyUVdlUTqsSAXpw/7_Figure_Blogging_Secrets_Part_2.png" style="max-width: 100%;"/>
+																						</a>
+																				</div>
+																																				
+																				<div class="entry-meta meta-top">
+																						By <a href="http://www.thenetworkdad.com/author/KenPickard/" title="Posts by Ken Pickard" rel="author">Ken Pickard</a>                                                                                    																				</div>
+																
+																				<h3 class="entry-title">
+																						<a href="http://www.thenetworkdad.com/7-figure-blogging-secrets-part-2/" title="7 Figure Blogging Secrets Part 2" rel="bookmark">7 Figure Blogging Secrets Part 2</a>
+																				</h3>
+																		</header>
+																</article>
+																																																																<article id="post-228" class="post-228 post type-post status-publish format-standard has-post-thumbnail hentry category-blogging tag-aaron-rashkin tag-blogging-2 tag-blogging-secrets tag-chris-record tag-david-wood tag-how-to-start-blogging tag-justin-verengia tag-kalatu tag-lawrence-tam tag-tracey-walker" >
+																		<header class="entry-header">
+																																								<div class="entry-thumbnail hover-thumb" style="max-width: 100%;">
+																						<a href="http://www.thenetworkdad.com/7-figure-blogging-secrets-part-1/" title="Permalink to 7 Figure Blogging Secrets Part 1" rel="bookmark">
+																						                                                                                        <img src="http://d1zlh37f1ep3tj.cloudfront.net/wp/wblob/54592E651337D2/28DD/4CC767/4wTjhKpcwfq1fLhTJT4GCA/7-Figure-Blogging-Secrets.jpg" style="max-width: 100%;"/>
+																						</a>
+																				</div>
+																																				
+																				<div class="entry-meta meta-top">
+																						By <a href="http://www.thenetworkdad.com/author/KenPickard/" title="Posts by Ken Pickard" rel="author">Ken Pickard</a>                                                                                    																				</div>
+																
+																				<h3 class="entry-title">
+																						<a href="http://www.thenetworkdad.com/7-figure-blogging-secrets-part-1/" title="7 Figure Blogging Secrets Part 1" rel="bookmark">7 Figure Blogging Secrets Part 1</a>
+																				</h3>
+																		</header>
+																</article>
+																																														</div>
+													</div>
+							<div id="comments" class="comments-area">
+							                                
+											<h2 class="comments-title">
+			22 comments		</h2>
+		<ol class="comment-list">
+			        <li class="comment even thread-even depth-1 parent" id="comment-790">
+                <div id="div-comment-790" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='http://www.gravatar.com/avatar/f3942cf16154c09a868bd9a8f90d3bbc?d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&s=60' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn"><a href='http://onlinenewbieuniversity.com' rel='external nofollow' class='url'>Erica Udeanu</a></strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 8, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>EPIC! EPIC!! EPIC Post!!! There&#8217;s one line that caught my eye that I LOVE the most and that has to do with how to be a success in this industry &#8230; &#8220;Be here next year!&#8221;</p>
+<p>Coz here&#8217;s the thing &#8230; the only way you can fail here &#8230; is to quit!</p>
+<p>That&#8217;s the only way!</p>
+<p>There are so many success stories all around us to prove that to be true!</p>
+<p>Look at David Wood &#8230; he stuck around for SEVEN YEARS!!!!!</p>
+<p>Like &#8230; OMG!!!!!</p>
+<p>&#8220;Be here next year!&#8221;</p>
+<p>I LOVE that!!!</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=790#respond' onclick='return addComment.moveForm("div-comment-790", "790", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        <ul class="children">
+        <li class="comment byuser comment-author-KenPickard bypostauthor odd alt depth-2" id="comment-810">
+                <div id="div-comment-810" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='https://graph.facebook.com/10152769088391304/picture?type=square&height=300&width=300' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn">Ken Pickard</strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 9, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>Ercia,</p>
+<p>Thanks for the comment! Yes it&#8217;s my favorite line as well. Great story on that post I linked to. It&#8217;s crazy to think how much of an impact these stories can have on people&#8230;if they just had the mindset to stick around and see what&#8217;s possible.</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=810#respond' onclick='return addComment.moveForm("div-comment-810", "810", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+        <li class="comment even thread-odd thread-alt depth-1 parent" id="comment-791">
+                <div id="div-comment-791" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='http://www.gravatar.com/avatar/93ace200d0794f11e041289ccd014086?d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&s=60' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn"><a href='http://www.workwithHelenLingard' rel='external nofollow' class='url'>helenlingard</a></strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 8, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>what a great post Ken&#8230; something to send your team to&#8230; save lots of time and energy&#8230; creating an online business marketing plan &#8211; great share :)</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=791#respond' onclick='return addComment.moveForm("div-comment-791", "791", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        <ul class="children">
+        <li class="comment byuser comment-author-KenPickard bypostauthor odd alt depth-2" id="comment-808">
+                <div id="div-comment-808" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='https://graph.facebook.com/10152769088391304/picture?type=square&height=300&width=300' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn">Ken Pickard</strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 9, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>Helen,</p>
+<p>Thanks for the comment. Yes I&#8217;ll be sending this a reference to my team and in my blog follow up series. It&#8217;s exactly why I wrote it this way. To be a reference of what a pillar blog post can look like.</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=808#respond' onclick='return addComment.moveForm("div-comment-808", "808", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+        <li class="comment even thread-even depth-1 parent" id="comment-792">
+                <div id="div-comment-792" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='http://www.gravatar.com/avatar/96cae2327ca39e45281399d4ad8a6968?d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&s=60' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn"><a href='http://www.passionbloggers.com/' rel='external nofollow' class='url'>Art Ross</a></strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 8, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>This is very helpful for all online businessmen Ken! Keep posting!</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=792#respond' onclick='return addComment.moveForm("div-comment-792", "792", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        <ul class="children">
+        <li class="comment byuser comment-author-KenPickard bypostauthor odd alt depth-2" id="comment-807">
+                <div id="div-comment-807" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='https://graph.facebook.com/10152769088391304/picture?type=square&height=300&width=300' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn">Ken Pickard</strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 9, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>Art,</p>
+<p>Thanks boss&#8230;glad you liked it.</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=807#respond' onclick='return addComment.moveForm("div-comment-807", "807", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+        <li class="comment even thread-odd thread-alt depth-1 parent" id="comment-793">
+                <div id="div-comment-793" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='http://www.gravatar.com/avatar/8fae3f7d8567239510ec72fe36717602?d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&s=60' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn"><a href='http://www.secretjarofsuccess.com' rel='external nofollow' class='url'>Sandy Mangis</a></strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 8, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>This is great.  I laughed so hard on the video.  I love the 8 core committments and you are so right that when we weed out what doesn&#8217;t serve us and get to the things that do, it all falls into place.</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=793#respond' onclick='return addComment.moveForm("div-comment-793", "793", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        <ul class="children">
+        <li class="comment byuser comment-author-KenPickard bypostauthor odd alt depth-2" id="comment-806">
+                <div id="div-comment-806" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='https://graph.facebook.com/10152769088391304/picture?type=square&height=300&width=300' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn">Ken Pickard</strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 9, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>Sandy,</p>
+<p>That video is great huh? I&#8217;ve even tracked down some of her other videos. She&#8217;s a funny comedian. and yes&#8230;weed out what doesn&#8217;t serve you. Keeps the priorities straight as well.</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=806#respond' onclick='return addComment.moveForm("div-comment-806", "806", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+        <li class="comment even thread-even depth-1 parent" id="comment-794">
+                <div id="div-comment-794" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='http://www.gravatar.com/avatar/26d3eb9376ce73702342dd0c70ee8f18?d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&s=60' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn">Kim Williams</strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 8, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>WOW! &amp; WOW! &#8211; what an awesome post!  First time reading your stuff and if I wasn&#8217;t already in I&#8217;d be joining your team!!  Great info&#8230;..that we all know, but put in such a fun way and compelling to read!  Thanks Ken!</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=794#respond' onclick='return addComment.moveForm("div-comment-794", "794", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        <ul class="children">
+        <li class="comment byuser comment-author-KenPickard bypostauthor odd alt depth-2" id="comment-805">
+                <div id="div-comment-805" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='https://graph.facebook.com/10152769088391304/picture?type=square&height=300&width=300' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn">Ken Pickard</strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 9, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>Kim,</p>
+<p>So glad you liked the post&#8230;and welcome to my blog!</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=805#respond' onclick='return addComment.moveForm("div-comment-805", "805", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+        <li class="comment even thread-odd thread-alt depth-1 parent" id="comment-795">
+                <div id="div-comment-795" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='http://www.gravatar.com/avatar/df6b0ef939939d8f0ec6fab789df6c50?d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&s=60' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn"><a href='http://www.maryviralmarketing.com' rel='external nofollow' class='url'>Mary J Harvey</a></strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 8, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>I enjoyed reading your blog post. The eight core commitments are key to any business I think.  This post has so much value and links that I will definitely be reading. Thank you!</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=795#respond' onclick='return addComment.moveForm("div-comment-795", "795", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        <ul class="children">
+        <li class="comment byuser comment-author-KenPickard bypostauthor odd alt depth-2" id="comment-804">
+                <div id="div-comment-804" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='https://graph.facebook.com/10152769088391304/picture?type=square&height=300&width=300' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn">Ken Pickard</strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 9, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>Mary,</p>
+<p>Glad you liked the post. Yes please take a look at the links referenced. I&#8217;ve found some great pieces out there and other blogs I&#8217;ll be visiting more.</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=804#respond' onclick='return addComment.moveForm("div-comment-804", "804", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+        <li class="comment even thread-even depth-1 parent" id="comment-796">
+                <div id="div-comment-796" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='http://www.gravatar.com/avatar/a753b18e9d05481a82d5a2c43a08f83b?d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&s=60' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn"><a href='http://www.mindsetmama.com' rel='external nofollow' class='url'>Nancy Loehr</a></strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 8, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>wowza.  what a great post Ken!  I love how you have outlined the 8 core commitments.  I would like to share this post with your permission.  I could not have said all of this any better.  If I wasn&#8217;t all in I would get all in now!</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=796#respond' onclick='return addComment.moveForm("div-comment-796", "796", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        <ul class="children">
+        <li class="comment byuser comment-author-KenPickard bypostauthor odd alt depth-2" id="comment-803">
+                <div id="div-comment-803" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='https://graph.facebook.com/10152769088391304/picture?type=square&height=300&width=300' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn">Ken Pickard</strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 9, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>Nancy,</p>
+<p>Feel free to share away! You can also write up a post of your own and link back to this one and reference as inspiration.</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=803#respond' onclick='return addComment.moveForm("div-comment-803", "803", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+        <li class="comment even thread-odd thread-alt depth-1 parent" id="comment-797">
+                <div id="div-comment-797" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='http://www.gravatar.com/avatar/4911d5e7a5158136e5f4900d27150ee3?d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&s=60' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn"><a href='http://www.lauralmills.com' rel='external nofollow' class='url'>Laura</a></strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 9, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>These are not only amazing tips for success&#8230;this blog post is like the &#8220;How To Blog&#8221; blog post!</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=797#respond' onclick='return addComment.moveForm("div-comment-797", "797", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        <ul class="children">
+        <li class="comment byuser comment-author-KenPickard bypostauthor odd alt depth-2" id="comment-802">
+                <div id="div-comment-802" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='https://graph.facebook.com/10152769088391304/picture?type=square&height=300&width=300' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn">Ken Pickard</strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 9, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>Laura,</p>
+<p>I appreciate that! Feel free to model this type of post. I can;t take credit for it. I&#8217;ve learned some cool blogging tips from some amazing bloggers.</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=802#respond' onclick='return addComment.moveForm("div-comment-802", "802", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+        <li class="comment even thread-even depth-1 parent" id="comment-798">
+                <div id="div-comment-798" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='http://www.gravatar.com/avatar/0a878fb02716a830744325b6050bf83d?d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&s=60' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn">myra</strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 9, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>I left a comment yesterday, not sure where it went&#8230; This is a great post. These commitments have kept me consistent and on track to my success dreams. The video cracked me up, so many of us can relate to the scene going on and to the message ;)</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=798#respond' onclick='return addComment.moveForm("div-comment-798", "798", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        <ul class="children">
+        <li class="comment byuser comment-author-KenPickard bypostauthor odd alt depth-2" id="comment-801">
+                <div id="div-comment-801" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='https://graph.facebook.com/10152769088391304/picture?type=square&height=300&width=300' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn">Ken Pickard</strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 9, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>Myra,</p>
+<p>Thanks for stopping by. I thought that video would resonate with a few people other that just myself. It&#8217;s easy to follow the steps when they are outlined and we keep it simple.</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=801#respond' onclick='return addComment.moveForm("div-comment-801", "801", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+        <li class="comment even thread-odd thread-alt depth-1 parent" id="comment-799">
+                <div id="div-comment-799" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='http://www.gravatar.com/avatar/ec029cd184a254c6c05bbf2b25d426c7?d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&s=60' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn">Linda</strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 9, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>OH EM GEE Ken this is a FANTASTIC POST!! You lay out the steps to succeed and WHY you should do them. A lot of people in this industry are like little kids in that they don&#8217;t just do it, they want to know why. Which I guess is a good thing because it solidifies the importance of following those steps consistently. Kudos!!</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=799#respond' onclick='return addComment.moveForm("div-comment-799", "799", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        <ul class="children">
+        <li class="comment byuser comment-author-KenPickard bypostauthor odd alt depth-2" id="comment-800">
+                <div id="div-comment-800" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='https://graph.facebook.com/10152769088391304/picture?type=square&height=300&width=300' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn">Ken Pickard</strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 9, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>Linda,</p>
+<p>Glad you liked the post&#8230;and right you are. Your comment about people being little kids cracks me up. But it&#8217;s true. It&#8217;s easy to do and it&#8217;s easy not to do.</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=800#respond' onclick='return addComment.moveForm("div-comment-800", "800", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+        <li class="comment even thread-even depth-1" id="comment-811">
+                <div id="div-comment-811" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='http://www.gravatar.com/avatar/a85045e114faf5a4829ff982ca56ec9a?d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&s=60' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn">Kenna Faber</strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 9, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>Wow, Ken, I&#8217;m sorry I&#8217;ve missed your earlier posts after reading this one. Absolutely on the mark and as someone else said in the comments, you can send this out to your team members on how to get started.<br />
+Loved the video- good point.</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=811#respond' onclick='return addComment.moveForm("div-comment-811", "811", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        </li><!-- #comment-## -->
+        <li class="comment odd alt thread-odd thread-alt depth-1" id="comment-812">
+                <div id="div-comment-812" class="comment-body">
+            <div class="comment-author vcard">
+            <img src='http://www.gravatar.com/avatar/e5b9b43c11c7e33aa69cc21dcfcbb7c5?d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&s=60' class='avatar avatar-60 avatar-default' style='width: 60px; height: auto;' alt='avatar' />            <strong class="fn"><a href='http://www.kerryplang.com' rel='external nofollow' class='url'>Kerry Lang</a></strong>            <span class="sep"> /</span>
+            <time class="comment-meta commentmetadata">February 9, 2016</time>
+                    </div>
+        <div class="comment-content">
+            <p>Absolutely brilliant and what a great training tool to share with your team!</p>
+        </div>
+        <div class="reply">
+            <a class='comment-reply-link' href='/creating-an-online-business-marketing-plan/?replytocom=812#respond' onclick='return addComment.moveForm("div-comment-812", "812", "respond", "82")'><i class="icon-reply"></i> Reply</a>        </div>
+                        </div>
+        </li><!-- #comment-## -->
+		</ol>
+		<div class="comment-pagination">
+		 	 
+		 </div>
+												<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">Add comments <small><a rel="nofollow" id="cancel-comment-reply-link" href="/creating-an-online-business-marketing-plan/#respond" style="display:none;">Cancel reply</a></small></h3>
+									<form action="http://www.thenetworkdad.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+																										<p class="comment-form-author"><input id="author" name="author" placeholder="Name *" type="text" value="" size="30" aria-required='true' /><i class="icon-user"></i></p>
+<p class="comment-form-email"><input id="email" name="email" placeholder="Email *" type="text" value="" size="30" aria-required='true' /><i class="icon-envelope"></i></p>
+<p class="comment-form-url"><input id="url" name="url" placeholder="Website" type="text" value="" size="30" /><i class="icon-link"></i></p>
+<p><input type="text" name="en_captcha_check" id="en_captcha_check" placeholder="7 + 8 = ?" /> <label>Captcha: 7 + 8 = ?</label></p>												<p class="comment-form-comment"><textarea id="comment" name="comment" placeholder="Comments" rows="2" aria-required="true"></textarea></p>
+                                    <i id="tagsTooltip" class="fa fa-question-circle txtRight" data-toggle="tooltip" data-placement="left"></i>
+                                    <span class="txtHide">
+                                        <p id="allowedTagsDiv" class="form-allowed-tags">You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes:  <code class=" txtRed">&lt;a href="" title=""&gt; &lt;abbr title=""&gt; &lt;acronym title=""&gt; &lt;b&gt; &lt;blockquote cite=""&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;strike&gt; &lt;strong&gt; </code></p>
+                                    </span>
+                                    												<p class="form-submit">
+							<input name="submit" type="submit" id="submit" value="Send" />
+							<input type='hidden' name='comment_post_ID' value='82' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+						</p>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="a5f3f9193a" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="198"/></p>					</form>
+							</div><!-- #respond -->
+																	</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="secondary">
+			<div class="secondary-inner">
+				
+				
+
+
+<aside id="text-2" class="widget widget_text">
+	<div class="proveitNow">  </div>
+</aside>
+<aside class="widget widget_text"><form role="search" method="get" id="searchform" class="searchform" action="http://www.thenetworkdad.com/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form></aside><aside class="widget widget_text"><h3 class="widget-title">Categories</h3>		<ul>
+	<li class="cat-item cat-item-4"><a href="http://www.thenetworkdad.com/category/21-day-blogging-challenge/" >21 Day Blogging Challenge</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://www.thenetworkdad.com/category/blogging/" >Blogging</a>
+</li>
+	<li class="cat-item cat-item-53"><a href="http://www.thenetworkdad.com/category/business-development/" >Business Development</a>
+</li>
+	<li class="cat-item cat-item-97"><a href="http://www.thenetworkdad.com/category/blogging/how-to-launch-a-blog-series/" >How to Launch a Blog Series</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.thenetworkdad.com/category/social-media/" >Social Media</a>
+</li>
+	<li class="cat-item cat-item-55"><a href="http://www.thenetworkdad.com/category/strictly-personal/" >Strictly Personal</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://www.thenetworkdad.com/category/your-best-self/" >Your Best Self</a>
+</li>
+		</ul>
+</aside><aside class="widget widget_text"><h3 class="widget-title">Recent Comments</h3>
+		<ul class="bwp-rc-ulist">
+<li class="recent-comment"><span class="recent-comment-avatar"><img src='https://graph.facebook.com/1055310183/picture?type=square&height=300&width=300' class='avatar avatar-50 avatar-default' style='width: 50px; height: auto;' alt='avatar' /></span><span class="recent-comment-single"><span class="recent-comment-author">Laura</span><a href="http://www.thenetworkdad.com/7-figure-blogging-secrets-part-2/#comment-830" title="Comment on 7 Figure Blogging Secrets Part 2"><span class="recent-comment-text"> { I love the Tweet quote in Part 2 of your Figure Blogging Secrets...."It’s more than a blog though. It’s a transformational journey that’s ready for... } &ndash; </span><strong>Feb 16, 3:04 AM</strong></a></span></li>
+<li class="recent-comment"><span class="recent-comment-avatar"><img src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536' class='avatar avatar-50 avatar-default' style='width: 50px; height: auto;' alt='avatar' /></span><span class="recent-comment-single"><span class="recent-comment-author">Sharon van Unen</span><a href="http://www.thenetworkdad.com/7-figure-blogging-secrets-part-1/#comment-821" title="Comment on 7 Figure Blogging Secrets Part 1"><span class="recent-comment-text"> { Love your article. Very interesting to read about the people who have made it. It's nice to read the story and all the tips. Blogging... } &ndash; </span><strong>Feb 14, 2:01 AM</strong></a></span></li>
+<li class="recent-comment"><span class="recent-comment-avatar"><img src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536' class='avatar avatar-50 avatar-default' style='width: 50px; height: auto;' alt='avatar' /></span><span class="recent-comment-single"><span class="recent-comment-author">myra</span><a href="http://www.thenetworkdad.com/7-figure-blogging-secrets-part-2/#comment-820" title="Comment on 7 Figure Blogging Secrets Part 2"><span class="recent-comment-text"> { Spot on with your 3 tips, Ken. Consistency used to be my biggest problem, Mike Hobbs has inspired me to do better, he's awesome. Dave... } &ndash; </span><strong>Feb 13, 4:38 PM</strong></a></span></li>
+<li class="recent-comment"><span class="recent-comment-avatar"><img src='https://graph.facebook.com/1050653311615846/picture?type=square&height=300&width=300' class='avatar avatar-50 avatar-default' style='width: 50px; height: auto;' alt='avatar' /></span><span class="recent-comment-single"><span class="recent-comment-author">helenlingard</span><a href="http://www.thenetworkdad.com/7-figure-blogging-secrets-part-2/#comment-819" title="Comment on 7 Figure Blogging Secrets Part 2"><span class="recent-comment-text"> { wow another value packed blog Ken, I must keep these for future reference 7 figure blogging secrets part 2 } &ndash; </span><strong>Feb 13, 3:12 AM</strong></a></span></li>
+<li class="recent-comment"><span class="recent-comment-avatar"><img src='https://graph.facebook.com/1050653311615846/picture?type=square&height=300&width=300' class='avatar avatar-50 avatar-default' style='width: 50px; height: auto;' alt='avatar' /></span><span class="recent-comment-single"><span class="recent-comment-author">helenlingard</span><a href="http://www.thenetworkdad.com/7-figure-blogging-secrets-part-1/#comment-817" title="Comment on 7 Figure Blogging Secrets Part 1"><span class="recent-comment-text"> { wow Ken.. 7 figures bloggins secrets part 1, Value Packed, thanks Ken } &ndash; </span><strong>Feb 12, 4:06 AM</strong></a></span></li>
+		</ul>
+</aside><aside class="widget widget_text"><a href="http://home.kalatublog.com/premium.php?id=kenpickard" target="_blank" class="widget_simpleimagewidget-image-link" title=""><img alt="" class="attachment-full aligncenter" style="max-width: 100%;" src="http://d1zlh37f1ep3tj.cloudfront.net/wp/wblob/54592E651337D2/2939/4DC1E2/t2NmFkiWHtpAPcXfd6ey6A/Kalatu-Premium.jpg" /></a></aside>		
+</div>            </div>
+<!-- Temporary Fix, adjustment pending J.D. -->
+<style>
+    #colophon{
+        background-color: #FFF;
+    }
+    .site-footer-inner{
+        border: none;
+    }
+</style>
+<footer id="colophon" class="site-footer" role="contentinfo" style="text-align:center;">
+    <div class="site-footer-inner">
+        <ul id="menu-footer-menu" class="nav"><li id="menu-item-40" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40"><a href="http://thenetworkdad.com/">Ken Pickard is The Network Dad</a></li>
+<li id="menu-item-7" class="earnings-disclaimer menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a href="http://www.empowernetwork.com/income?id=kenpickard">Earnings Disclaimer</a></li>
+<li id="menu-item-8" class="terms-of-service menu-item menu-item-type-custom menu-item-object-custom menu-item-8"><a href="http://www.empowernetwork.com/TOC?id=kenpickard">Terms of Service</a></li>
+<li id="menu-item-9" class="privacy-policy menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a href="http://www.empowernetwork.com/privacy?id=kenpickard">Privacy Policy</a></li>
+<li id="menu-item-10" class="rss-feed menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="http://buildingabrandonline.com/kenpickard/feed/rss/">RSS Feed</a></li>
+<li id="menu-item-39" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39"><a href="https://plus.google.com/u/0/+KenPickard/posts">Ken Pickard on Google +</a></li>
+</ul>
+        <div class="viewfull">
+                            <input type="button" value="View Full Site" class="viewasfull currentmobile"/>
+            
+        </div>
+        <div class="site-info"><a href="http://www.thenetworkdad.com/wp-admin/" class="footer-admin-link">Admin</a>  Copyright &copy; 2016 by
+            Ken Pickard            .
+            <br>
+        </div>
+    </div>
+</footer>    </div>    <!-- #main --></div><!-- #page -->
+
+
+</div>        <!-- .container -->
+<script type='text/javascript'
+        src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/js/jquery.autosize.js?ver=20130508'></script>
+
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var dwScript = {
+        "enableInfinitescroll": "1",
+        "infiniteScroll"      : {
+            "loading": {
+                "finishedMsg": "No more post to display",
+                "img"        : "http:\/\/www.thenetworkdad.com\/wp-content\/themes\/Theme_4\/img\/loading.gif",
+                "msgText"    : ""
+            }
+        }
+    };
+    /* ]]> */
+</script>
+<script type='text/javascript' src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/js/custom.js'></script>
+<script type='text/javascript' src='http://www.thenetworkdad.com/wp-content/themes/Theme_4/js/functions.js'></script>
+
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-41648077-5', 'auto');
+            ga('create', 'UA-41648077-7', 'auto', {'name': 'bloggingforbusiness'}); 
+            ga('create', 'UA-41648077-8', 'auto', {'name': 'blogginnetworkonline'}); 
+            ga('create', 'UA-41648077-9', 'auto', {'name': 'bloggingrealestateonline'}); 
+            ga('send', 'pageview');
+            ga('bloggingforbusiness.send', 'pageview');
+            ga('blogginnetworkonline.send', 'pageview');
+            ga('bloggingrealestateonline.send', 'pageview');
+	    		ga('create', 'UA-12297129-1', 'auto', {'name': 'newTracker', 'cookieName': '_ga_user'});
+		ga('newTracker.send', 'pageview');
+	    	    
+        </script>
+        <script>
+        (function ($) {
+            $(function () {
+                $('img').addClass('nopin');
+                $('#pinterest-area img, .wp-post-image, .img-responsive').removeClass('nopin');
+                $('img.nopin').attr('nopin', 'nopin');
+            });
+        })(jQuery)
+    </script>
+    <script type='text/javascript' src='http://buildingabrandonline.com/kenpickard/wp-content/plugins/akismet/_inc/form.js?ver=3.0.4'></script>
+<link rel='stylesheet' id='chall21-css'  href='http://www.thenetworkdad.com/wp-content/plugins/21-day-challenge/public/assets/front.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='chall21_css-css'  href='http://www.thenetworkdad.com/wp-content/plugins/21-day-challenge/public/assets/cta.css?ver=4.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://buildingabrandonline.com/kenpickard/wp-content/plugins/optin-lite/js/opt-in-custom-scripts.js?ver=4.0'></script>
+<script type='text/javascript' src='//assets.pinterest.com/js/pinit.js' data-pin-hover='true' data-pin-height='32' data-pin-shape='rectangle' data-pin-color='red' data-pin-lang='en' async'></script>
+<script type='text/javascript' src='http://buildingabrandonline.com/kenpickard/wp-content/mu-plugins/imb-en/overseers/en/js/global.js?ver=4.0'></script>
+<script type='text/javascript' src='http://buildingabrandonline.com/kenpickard/wp-content/mu-plugins/imb-en/overseers/en/js/include.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var MyAjax = {"ajaxurl":"http:\/\/www.thenetworkdad.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://buildingabrandonline.com/kenpickard/wp-content/mu-plugins/imb-en/helpers/social-card/js/social_card.js'></script>
+<script type='text/javascript' src='http://www.thenetworkdad.com/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.10.4'></script>
+<script type='text/javascript' src='http://www.thenetworkdad.com/wp-includes/js/jquery/ui/jquery.ui.position.min.js?ver=1.10.4'></script>
+<script type='text/javascript' src='http://buildingabrandonline.com/kenpickard/wp-content/plugins/lightbox/assets/scripts//gsap/TweenMax.min.js?ver=1.14.2'></script>
+<script type='text/javascript' src='http://buildingabrandonline.com/kenpickard/wp-content/plugins/lightbox/assets/scripts//gsap/TweenLite.min.js?ver=1.14.2'></script>
+<script type='text/javascript' src='http://buildingabrandonline.com/kenpickard/wp-content/plugins/lightbox/assets/scripts//gsap/jquery.gsap.min.js?ver=0.1.9'></script>
+<script type='text/javascript' src='http://buildingabrandonline.com/kenpickard/wp-content/plugins/lightbox/assets/scripts/jquery.cookie.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajaxurl = "http:\/\/www.thenetworkdad.com\/wp-admin\/admin-ajax.php";
+var popmake_default_theme = ["1"];
+var popmake_themes = [];
+popmake_themes = {"1":{"overlay":{"background_color":"#dddddd","background_opacity":"87"},"container":{"padding":"18","background_color":"#ffffff","background_opacity":"98","border_style":"none","border_color":"#000000","border_width":"1","border_radius":"0","boxshadow_inset":"no","boxshadow_horizontal":"1","boxshadow_vertical":"1","boxshadow_blur":"#3","boxshadow_spread":"-31","boxshadow_color":"#020202","boxshadow_opacity":"23"},"title":{"font_align":"left","font_color":"#000000","line_height":"36","font_size":"32","font_family":"Arial","font_weight":"normal","textshadow_horizontal":"0","textshadow_vertical":"0","textshadow_blur":"0","textshadow_color":"#000000","textshadow_opacity":"23"},"content":{"font_color":"","font_family":"inherit","font_weight":"normal","font_style":"normal"},"close":{"text":"","padding":"0","location":"topright","position_top":"-9","position_left":"","position_bottom":"","position_right":"","line_height":"16","font_color":"#ffffff","font_size":"16","font_family":"Sans-Serif","font_weight":"normal","font_style":"normal","background_color":"transparent","background_opacity":"100","border_radius":"","border_color":"","border_width":"","boxshadow_inset":"no","boxshadow_horizontal":"0","boxshadow_vertical":"0","boxshadow_blur":"0","boxshadow_spread":"0","boxshadow_color":"#000000","boxshadow_opacity":"23","textshadow_horizontal":"0","textshadow_vertical":"0","textshadow_blur":"0","textshadow_color":"#000000","textshadow_opacity":"23","right":"0"}}};;
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://buildingabrandonline.com/kenpickard/wp-content/plugins/lightbox/assets/scripts/popup-maker-site.min.js?defer&#038;ver=1.0' defer='defer'></script>
+<script type='text/javascript' src='http://www.thenetworkdad.com/wp-content/plugins/21-day-challenge/public/assets/functions.js?ver=4.0'></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0013750a9b","applicationID":"14938156","transactionName":"YlcEMhNYWxVUV0NeWFsdJwUVUFoIGkdeWVBZVw==","queueTime":0,"applicationTime":881,"atts":"ThAHRFtCSBs=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+</body></html>
+
+<!-- Dynamic page generated in 1.356 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2016-02-16 16:50:54 -->
+
+<!-- Compression = gzip -->
+<!-- super cache -->

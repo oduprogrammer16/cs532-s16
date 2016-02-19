@@ -1,0 +1,13 @@
+    [1]Logo
+
+   | [2]{{appName}} Logo {{ "Powered by %{app_name}" |
+   i18nr:'app_name':appName }}
+
+References
+
+   Visible links
+   1. https://gleam.io/
+   2. https://gleam.io/?via={{campaign.referral_link_id}}
+
+   Hidden links:
+   4. javascript:void(0)

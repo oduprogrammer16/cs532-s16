@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="ja" lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>NHKオンライン</title>
+<meta name="copyright" content="NHK" />
+<meta content="width=device-width, initial-scale=1.6, maximum-scale=1, user-scalable=no" name="viewport" />
+<link rel="stylesheet" type="text/css" media="screen, projector" href="/error/css/errors.css" />
+<script type="text/javascript" src="/common/js/nol_common.js" charset="utf-8"></script>
+</head>
+<body id="errors">
+<div id="body">
+<div id="container">
+<div id="header">
+<p class="logo"><a href="http://www.nhk.or.jp/"><img src="/error/img/logo_main.gif" alt="NHKオンライン" width="205" height="27" /></a></p>
+</div>
+<div id="mainContent">
+<h1>エラー</h1>
+<div id="messageArea">
+<p>ページを表示できませんでした。<br />The page you requested could not be accessed.</p>
+<ul>
+<li>→ <a href="http://www.nhk.or.jp/">NHKオンライン（PC・スマートフォン向け）トップへ</a></li>
+<li>→ <a href="http://k.nhk.jp/">携帯・読み上げ版トップへ</a></li>
+<li>→ <a href="http://www.nhk.or.jp/nhkworld/">NHK WORLD Top page for PC (English)</a></li>
+</ul>
+</div>
+</div>
+<hr />
+</div>
+</div>
+<div id="footer">
+<p><a href="http://www.nhk.or.jp/"><img src="/error/img/logo_footer_nhk.gif" alt="NHK日本放送協会" width="70" height="36" /></a></p>
+<p class="copy">Copyright NHK(Japan Broadcasting Corporation) All rights reserved.<br />
+許可なく転載することを禁じます。</p>
+</div>
+</body>
+</html>

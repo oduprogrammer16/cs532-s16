@@ -1,0 +1,1611 @@
+<!DOCTYPE html>
+<html class='v2' dir='rtl'>
+<head>
+<meta content='width=1100' name='viewport'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { (function(){function c(a){this.t={};this.tick=function(a,c,b){var d=void 0!=b?b:(new Date).getTime();this.t[a]=[d,c];if(void 0==b)try{window.console.timeStamp("CSI/"+a)}catch(e){}};this.tick("start",null,a)}var a;window.performance&&(a=window.performance.timing);var h=a?new c(a.responseStart):new c;window.jstiming={Timer:c,load:h};if(a){var b=a.navigationStart,e=a.responseStart;0<b&&e>=b&&(window.jstiming.srt=e-b)}if(a){var d=window.jstiming.load;0<b&&e>=b&&(d.tick("_wtsrt",void 0,b),d.tick("wtsrt_",
+"_wtsrt",e),d.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),d&&0<b&&(d.tick("_tbnd",void 0,window.chrome.csi().startE),d.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,d&&0<b&&(d.tick("_tbnd",void 0,window.external.startE),d.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)}catch(k){}})();window.tickAboveFold=function(c){var a=0;if(c.offsetParent){do a+=c.offsetTop;while(c=c.offsetParent)}c=a;750>=c&&window.jstiming.load.tick("aft")};var f=!1;function g(){f||(f=!0,window.jstiming.load.tick("firstScrollTime"))}window.addEventListener?window.addEventListener("scroll",g,!1):window.attachEvent("onscroll",g);
+ })();</script>
+<meta content='blogger' name='generator'/>
+<link href='http://aflm-neasd.blogspot.com.eg/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://aflm-neasd.blogspot.com/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="افلام نيك - Atom" href="http://aflm-neasd.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="افلام نيك - RSS" href="http://aflm-neasd.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="افلام نيك - Atom" href="https://www.blogger.com/feeds/7909633124407504765/posts/default" />
+<link rel="me" href="https://www.blogger.com/profile/14510470556428409339" />
+<link rel="openid.server" href="https://www.blogger.com/openid-server.g" />
+<link rel="openid.delegate" href="http://aflm-neasd.blogspot.com/" />
+<!--[if IE]><script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/2562766807-ieretrofit.js"></script>
+<![endif]-->
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>افلام نيك</title>
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/550702504-css_bundle_v2_rtl.css' />
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=7909633124407504765&zx=6a963e6c-961d-4220-b607-4809446d13e9' />
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Simple
+Designer: Josh Peterson
+URL:      www.noaesthetic.com
+----------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="keycolor" description="Main Color" type="color" default="#66bbdd"/>
+<Group description="Page Text" selector="body">
+<Variable name="body.font" description="Font" type="font"
+default="normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="body.text.color" description="Text Color" type="color" default="#222222"/>
+</Group>
+<Group description="Backgrounds" selector=".body-fauxcolumns-outer">
+<Variable name="body.background.color" description="Outer Background" type="color" default="#66bbdd"/>
+<Variable name="content.background.color" description="Main Background" type="color" default="#ffffff"/>
+<Variable name="header.background.color" description="Header Background" type="color" default="transparent"/>
+</Group>
+<Group description="Links" selector=".main-outer">
+<Variable name="link.color" description="Link Color" type="color" default="#2288bb"/>
+<Variable name="link.visited.color" description="Visited Color" type="color" default="#888888"/>
+<Variable name="link.hover.color" description="Hover Color" type="color" default="#33aaff"/>
+</Group>
+<Group description="Blog Title" selector=".header h1">
+<Variable name="header.font" description="Font" type="font"
+default="normal normal 60px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="header.text.color" description="Title Color" type="color" default="#3399bb" />
+</Group>
+<Group description="Blog Description" selector=".header .description">
+<Variable name="description.text.color" description="Description Color" type="color"
+default="#777777" />
+</Group>
+<Group description="Tabs Text" selector=".tabs-inner .widget li a">
+<Variable name="tabs.font" description="Font" type="font"
+default="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="tabs.text.color" description="Text Color" type="color" default="#999999"/>
+<Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="#000000"/>
+</Group>
+<Group description="Tabs Background" selector=".tabs-outer .PageList">
+<Variable name="tabs.background.color" description="Background Color" type="color" default="#f5f5f5"/>
+<Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="#eeeeee"/>
+</Group>
+<Group description="Post Title" selector="h3.post-title, .comments h4">
+<Variable name="post.title.font" description="Font" type="font"
+default="normal normal 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+</Group>
+<Group description="Date Header" selector=".date-header">
+<Variable name="date.header.color" description="Text Color" type="color"
+default="#666666"/>
+<Variable name="date.header.background.color" description="Background Color" type="color"
+default="transparent"/>
+<Variable name="date.header.font" description="Text Font" type="font"
+default="normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="date.header.padding" description="Date Header Padding" type="string" default="inherit"/>
+<Variable name="date.header.letterspacing" description="Date Header Letter Spacing" type="string" default="inherit"/>
+<Variable name="date.header.margin" description="Date Header Margin" type="string" default="inherit"/>
+</Group>
+<Group description="Post Footer" selector=".post-footer">
+<Variable name="post.footer.text.color" description="Text Color" type="color" default="#666666"/>
+<Variable name="post.footer.background.color" description="Background Color" type="color"
+default="#f9f9f9"/>
+<Variable name="post.footer.border.color" description="Shadow Color" type="color" default="#eeeeee"/>
+</Group>
+<Group description="Gadgets" selector="h2">
+<Variable name="widget.title.font" description="Title Font" type="font"
+default="normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color" default="#000000"/>
+<Variable name="widget.alternate.text.color" description="Alternate Color" type="color" default="#999999"/>
+</Group>
+<Group description="Images" selector=".main-inner">
+<Variable name="image.background.color" description="Background Color" type="color" default="#ffffff"/>
+<Variable name="image.border.color" description="Border Color" type="color" default="#eeeeee"/>
+<Variable name="image.text.color" description="Caption Text Color" type="color" default="#666666"/>
+</Group>
+<Group description="Accents" selector=".content-inner">
+<Variable name="body.rule.color" description="Separator Line Color" type="color" default="#eeeeee"/>
+<Variable name="tabs.border.color" description="Tabs Border Color" type="color" default="transparent"/>
+</Group>
+<Variable name="body.background" description="Body Background" type="background"
+color="#ffffff" default="$(color) none repeat scroll top left"/>
+<Variable name="body.background.override" description="Body Background Override" type="string" default=""/>
+<Variable name="body.background.gradient.cap" description="Body Gradient Cap" type="url"
+default="url(//www.blogblog.com/1kt/simple/gradients_light.png)"/>
+<Variable name="body.background.gradient.tile" description="Body Gradient Tile" type="url"
+default="url(//www.blogblog.com/1kt/simple/body_gradient_tile_light.png)"/>
+<Variable name="content.background.color.selector" description="Content Background Color Selector" type="string" default=".content-inner"/>
+<Variable name="content.padding" description="Content Padding" type="length" default="10px" min="0" max="100px"/>
+<Variable name="content.padding.horizontal" description="Content Horizontal Padding" type="length" default="10px" min="0" max="100px"/>
+<Variable name="content.shadow.spread" description="Content Shadow Spread" type="length" default="40px" min="0" max="100px"/>
+<Variable name="content.shadow.spread.webkit" description="Content Shadow Spread (WebKit)" type="length" default="5px" min="0" max="100px"/>
+<Variable name="content.shadow.spread.ie" description="Content Shadow Spread (IE)" type="length" default="10px" min="0" max="100px"/>
+<Variable name="main.border.width" description="Main Border Width" type="length" default="0" min="0" max="10px"/>
+<Variable name="header.background.gradient" description="Header Gradient" type="url" default="none"/>
+<Variable name="header.shadow.offset.left" description="Header Shadow Offset Left" type="length" default="-1px" min="-50px" max="50px"/>
+<Variable name="header.shadow.offset.top" description="Header Shadow Offset Top" type="length" default="-1px" min="-50px" max="50px"/>
+<Variable name="header.shadow.spread" description="Header Shadow Spread" type="length" default="1px" min="0" max="100px"/>
+<Variable name="header.padding" description="Header Padding" type="length" default="30px" min="0" max="100px"/>
+<Variable name="header.border.size" description="Header Border Size" type="length" default="1px" min="0" max="10px"/>
+<Variable name="header.bottom.border.size" description="Header Bottom Border Size" type="length" default="1px" min="0" max="10px"/>
+<Variable name="header.border.horizontalsize" description="Header Horizontal Border Size" type="length" default="0" min="0" max="10px"/>
+<Variable name="description.text.size" description="Description Text Size" type="string" default="140%"/>
+<Variable name="tabs.margin.top" description="Tabs Margin Top" type="length" default="0" min="0" max="100px"/>
+<Variable name="tabs.margin.side" description="Tabs Side Margin" type="length" default="30px" min="0" max="100px"/>
+<Variable name="tabs.background.gradient" description="Tabs Background Gradient" type="url"
+default="url(//www.blogblog.com/1kt/simple/gradients_light.png)"/>
+<Variable name="tabs.border.width" description="Tabs Border Width" type="length" default="1px" min="0" max="10px"/>
+<Variable name="tabs.bevel.border.width" description="Tabs Bevel Border Width" type="length" default="1px" min="0" max="10px"/>
+<Variable name="post.margin.bottom" description="Post Bottom Margin" type="length" default="25px" min="0" max="100px"/>
+<Variable name="image.border.small.size" description="Image Border Small Size" type="length" default="2px" min="0" max="10px"/>
+<Variable name="image.border.large.size" description="Image Border Large Size" type="length" default="5px" min="0" max="10px"/>
+<Variable name="page.width.selector" description="Page Width Selector" type="string" default=".region-inner"/>
+<Variable name="page.width" description="Page Width" type="string" default="auto"/>
+<Variable name="main.section.margin" description="Main Section Margin" type="length" default="15px" min="0" max="100px"/>
+<Variable name="main.padding" description="Main Padding" type="length" default="15px" min="0" max="100px"/>
+<Variable name="main.padding.top" description="Main Padding Top" type="length" default="30px" min="0" max="100px"/>
+<Variable name="main.padding.bottom" description="Main Padding Bottom" type="length" default="30px" min="0" max="100px"/>
+<Variable name="paging.background"
+color="#ffffff"
+description="Background of blog paging area" type="background"
+default="transparent none no-repeat scroll top center"/>
+<Variable name="footer.bevel" description="Bevel border length of footer" type="length" default="0" min="0" max="10px"/>
+<Variable name="mobile.background.overlay" description="Mobile Background Overlay" type="string"
+default="transparent none repeat scroll top left"/>
+<Variable name="mobile.background.size" description="Mobile Background Size" type="string" default="auto"/>
+<Variable name="mobile.button.color" description="Mobile Button Color" type="color" default="#ffffff" />
+<Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
+<Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
+*/
+/* Content
+----------------------------------------------- */
+body {
+font: normal normal 12px 'Trebuchet MS', Trebuchet, Verdana, sans-serif;
+color: #666666;
+background: #ffffff none repeat scroll top left;
+padding: 0 0 0 0;
+}
+html body .region-inner {
+min-width: 0;
+max-width: 100%;
+width: auto;
+}
+h2 {
+font-size: 22px;
+}
+a:link {
+text-decoration:none;
+color: #2288bb;
+}
+a:visited {
+text-decoration:none;
+color: #888888;
+}
+a:hover {
+text-decoration:underline;
+color: #33aaff;
+}
+.body-fauxcolumn-outer .fauxcolumn-inner {
+background: transparent none repeat scroll top left;
+_background-image: none;
+}
+.body-fauxcolumn-outer .cap-top {
+position: absolute;
+z-index: 1;
+height: 400px;
+width: 100%;
+background: #ffffff none repeat scroll top left;
+}
+.body-fauxcolumn-outer .cap-top .cap-left {
+width: 100%;
+background: transparent none repeat-x scroll top left;
+_background-image: none;
+}
+.content-outer {
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-goog-ms-box-shadow: 0 0 0 #333333;
+box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+margin-bottom: 1px;
+}
+.content-inner {
+padding: 10px 40px;
+}
+.content-inner {
+background-color: #ffffff;
+}
+/* Header
+----------------------------------------------- */
+.header-outer {
+background: transparent none repeat-x scroll 0 -400px;
+_background-image: none;
+}
+.Header h1 {
+font: normal normal 40px 'Trebuchet MS',Trebuchet,Verdana,sans-serif;
+color: #000000;
+text-shadow: 0 0 0 rgba(0, 0, 0, .2);
+}
+.Header h1 a {
+color: #000000;
+}
+.Header .description {
+font-size: 18px;
+color: #000000;
+}
+.header-inner .Header .titlewrapper {
+padding: 22px 0;
+}
+.header-inner .Header .descriptionwrapper {
+padding: 0 0;
+}
+/* Tabs
+----------------------------------------------- */
+.tabs-inner .section:first-child {
+border-top: 0 solid #dddddd;
+}
+.tabs-inner .section:first-child ul {
+margin-top: -1px;
+border-top: 1px solid #dddddd;
+border-left: 1px solid #dddddd;
+border-right: 1px solid #dddddd;
+}
+.tabs-inner .widget ul {
+background: transparent none repeat-x scroll 0 -800px;
+_background-image: none;
+border-bottom: 1px solid #dddddd;
+margin-top: 0;
+margin-left: -30px;
+margin-right: -30px;
+}
+.tabs-inner .widget li a {
+display: inline-block;
+padding: .6em 1em;
+font: normal normal 12px 'Trebuchet MS', Trebuchet, Verdana, sans-serif;
+color: #000000;
+border-right: 1px solid #ffffff;
+border-left: 1px solid #dddddd;
+}
+.tabs-inner .widget li:first-child a {
+border-right: none;
+}
+.tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
+color: #000000;
+background-color: #eeeeee;
+text-decoration: none;
+}
+/* Columns
+----------------------------------------------- */
+.main-outer {
+border-top: 0 solid transparent;
+}
+.fauxcolumn-left-outer .fauxcolumn-inner {
+border-right: 1px solid transparent;
+}
+.fauxcolumn-right-outer .fauxcolumn-inner {
+border-left: 1px solid transparent;
+}
+/* Headings
+----------------------------------------------- */
+div.widget > h2,
+div.widget h2.title {
+margin: 0 0 1em 0;
+font: normal bold 11px 'Trebuchet MS',Trebuchet,Verdana,sans-serif;
+color: #000000;
+}
+/* Widgets
+----------------------------------------------- */
+.widget .zippy {
+color: #999999;
+text-shadow: 2px 2px 1px rgba(0, 0, 0, .1);
+}
+.widget .popular-posts ul {
+list-style: none;
+}
+/* Posts
+----------------------------------------------- */
+h2.date-header {
+font: normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+}
+.date-header span {
+background-color: #bbbbbb;
+color: #ffffff;
+padding: 0.4em;
+letter-spacing: 3px;
+margin: inherit;
+}
+.main-inner {
+padding-top: 35px;
+padding-bottom: 65px;
+}
+.main-inner .column-center-inner {
+padding: 0 0;
+}
+.main-inner .column-center-inner .section {
+margin: 0 1em;
+}
+.post {
+margin: 0 0 45px 0;
+}
+h3.post-title, .comments h4 {
+font: normal normal 22px 'Trebuchet MS',Trebuchet,Verdana,sans-serif;
+margin: .75em 0 0;
+}
+.post-body {
+font-size: 110%;
+line-height: 1.4;
+position: relative;
+}
+.post-body img, .post-body .tr-caption-container, .Profile img, .Image img,
+.BlogList .item-thumbnail img {
+padding: 2px;
+background: #ffffff;
+border: 1px solid #eeeeee;
+-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+}
+.post-body img, .post-body .tr-caption-container {
+padding: 5px;
+}
+.post-body .tr-caption-container {
+color: #666666;
+}
+.post-body .tr-caption-container img {
+padding: 0;
+background: transparent;
+border: none;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+}
+.post-header {
+margin: 0 0 1.5em;
+line-height: 1.6;
+font-size: 90%;
+}
+.post-footer {
+margin: 20px -2px 0;
+padding: 5px 10px;
+color: #666666;
+background-color: #eeeeee;
+border-bottom: 1px solid #eeeeee;
+line-height: 1.6;
+font-size: 90%;
+}
+#comments .comment-author {
+padding-top: 1.5em;
+border-top: 1px solid transparent;
+background-position: 0 1.5em;
+}
+#comments .comment-author:first-child {
+padding-top: 0;
+border-top: none;
+}
+.avatar-image-container {
+margin: .2em 0 0;
+}
+#comments .avatar-image-container img {
+border: 1px solid #eeeeee;
+}
+/* Comments
+----------------------------------------------- */
+.comments .comments-content .icon.blog-author {
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+}
+.comments .comments-content .loadmore a {
+border-top: 1px solid #999999;
+border-bottom: 1px solid #999999;
+}
+.comments .comment-thread.inline-thread {
+background-color: #eeeeee;
+}
+.comments .continue {
+border-top: 2px solid #999999;
+}
+/* Accents
+---------------------------------------------- */
+.section-columns td.columns-cell {
+border-right: 1px solid transparent;
+}
+.blog-pager {
+background: transparent url(//www.blogblog.com/1kt/simple/paging_dot.png) repeat-x scroll top center;
+}
+.blog-pager-older-link, .home-link,
+.blog-pager-newer-link {
+background-color: #ffffff;
+padding: 5px;
+}
+.footer-outer {
+border-top: 1px dashed #bbbbbb;
+}
+/* Mobile
+----------------------------------------------- */
+body.mobile  {
+background-size: auto;
+}
+.mobile .body-fauxcolumn-outer {
+background: transparent none repeat scroll top left;
+}
+.mobile .body-fauxcolumn-outer .cap-top {
+background-size: 100% auto;
+}
+.mobile .content-outer {
+-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+}
+.mobile .tabs-inner .widget ul {
+margin-left: 0;
+margin-right: 0;
+}
+.mobile .post {
+margin: 0;
+}
+.mobile .main-inner .column-center-inner .section {
+margin: 0;
+}
+.mobile .date-header span {
+padding: 0.1em 10px;
+margin: 0 -10px;
+}
+.mobile h3.post-title {
+margin: 0;
+}
+.mobile .blog-pager {
+background: transparent none no-repeat scroll top center;
+}
+.mobile .footer-outer {
+border-top: none;
+}
+.mobile .main-inner, .mobile .footer-inner {
+background-color: #ffffff;
+}
+.mobile-index-contents {
+color: #666666;
+}
+.mobile-link-button {
+background-color: #2288bb;
+}
+.mobile-link-button a:link, .mobile-link-button a:visited {
+color: #ffffff;
+}
+.mobile .tabs-inner .section:first-child {
+border-top: none;
+}
+.mobile .tabs-inner .PageList .widget-content {
+background-color: #eeeeee;
+color: #000000;
+border-top: 1px solid #dddddd;
+border-bottom: 1px solid #dddddd;
+}
+.mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
+border-right: 1px solid #dddddd;
+}
+
+--></style>
+<style id='template-skin-1' type='text/css'><!--
+body {
+min-width: 960px;
+}
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 960px;
+max-width: 960px;
+_width: 960px;
+}
+.main-inner .columns {
+padding-left: 0px;
+padding-right: 310px;
+}
+.main-inner .fauxcolumn-center-outer {
+left: 0px;
+right: 310px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("0px") -
+parseInt("310px") + 'px');
+}
+.main-inner .fauxcolumn-left-outer {
+width: 0px;
+}
+.main-inner .fauxcolumn-right-outer {
+width: 310px;
+}
+.main-inner .column-left-outer {
+width: 0px;
+right: 100%;
+margin-left: -0px;
+}
+.main-inner .column-right-outer {
+width: 310px;
+margin-right: -310px;
+}
+#layout {
+min-width: 0;
+}
+#layout .content-outer {
+min-width: 0;
+width: 800px;
+}
+#layout .region-inner {
+min-width: 0;
+width: auto;
+}
+--></style>
+<script type="text/javascript">var a="&m=1",d="(^|&)m=",e="?",f="?m=1";function g(){var b=window.location.href,c=b.split(e);switch(c.length){case 1:return b+f;case 2:return 0<=c[1].search(d)?null:b+a;default:return null}}var h=navigator.userAgent;if(-1!=h.indexOf("Mobile")&&-1!=h.indexOf("WebKit")&&-1==h.indexOf("iPad")||-1!=h.indexOf("Opera Mini")||-1!=h.indexOf("IEMobile")){var k=g();k&&window.location.replace(k)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body class='loading variant-simplysimple'>
+<div class='navbar section' id='navbar' name='Navbar'><div class='widget Navbar' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+        gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+          if (gapi.iframes && gapi.iframes.getContext) {
+            gapi.iframes.getContext().openChild({
+                url: 'https://www.blogger.com/navbar.g?targetBlogID\0757909633124407504765\46blogName\75%D8%A7%D9%81%D9%84%D8%A7%D9%85+%D9%86%D9%8A%D9%83\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75//aflm-neasd.blogspot.com/search\46blogLocale\75ar\46v\0752\46homepageUrl\75http://aflm-neasd.blogspot.com/\46vt\0753785725992864284471',
+                where: document.getElementById("navbar-iframe-container"),
+                id: "navbar-iframe"
+            });
+          }
+        });
+      </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div itemscope='itemscope' itemtype='http://schema.org/Blog' style='display: none;'>
+<meta content='افلام نيك' itemprop='name'/>
+</div>
+<div class='body-fauxcolumns'>
+<div class='fauxcolumn-outer body-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content'>
+<div class='content-fauxcolumns'>
+<div class='fauxcolumn-outer content-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content-outer'>
+<div class='content-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left content-fauxborder-left'>
+<div class='fauxborder-right content-fauxborder-right'></div>
+<div class='content-inner'>
+<header>
+<div class='header-outer'>
+<div class='header-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left header-fauxborder-left'>
+<div class='fauxborder-right header-fauxborder-right'></div>
+<div class='region-inner header-inner'>
+<div class='header section' id='header' name='Header'><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<div class='titlewrapper'>
+<h1 class='title'>
+افلام نيك
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>
+</span></p>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class='header-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</header>
+<div class='tabs-outer'>
+<div class='tabs-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left tabs-fauxborder-left'>
+<div class='fauxborder-right tabs-fauxborder-right'></div>
+<div class='region-inner tabs-inner'>
+<div class='tabs section' id='crosscol' name='Cross-Column'><div class='widget HTML' id='HTML1'>
+<div class='widget-content'>
+<!-- بداية كود الانبثاق by wael gamal -->
+
+ <script language="JavaScript1.1">
+var popunder
+function get_cookie(Name) {
+var search = Name + "="
+var returnvalue = "";
+if (document.cookie.length > 0) {
+offset = document.cookie.indexOf(search)
+if (offset != -1) { // if cookie exists
+offset += search.length
+// set index of beginning of value
+end = document.cookie.indexOf(";", offset);
+// set index of end of cookie value
+if (end == -1)
+end = document.cookie.length;
+returnvalue=unescape(document.cookie.substring(offset, end))
+}
+}
+return returnvalue;
+}
+popfrequency="0 minutes"
+function resetcookie(){
+var expireDate = new Date()
+expireDate.setMinutes(expireDate.getMinutes()-0)
+document.cookie = "popunder=;path=/;expires=" + expireDate.toGMTString()
+}
+function loadornot(){
+if (get_cookie('popunder')==''){
+loadpopunder()
+var expireDate = new Date()
+expireDate.setMinutes(expireDate.getMinutes()+parseInt(popfrequency))
+document.cookie = "popunder="+parseInt(popfrequency)+";path=/;expires=" + expireDate.toGMTString()
+}
+}
+function loadpopunder(){
+document.write('<body onclick="rwmrgfdq_Popup()" >');
+}
+if (get_cookie('popunder')!=parseInt(popfrequency))
+resetcookie()
+loadornot()
+
+</script>  <script type="text/javascript"> <!--
+var opened;
+function rwmrgfdq_Popup()
+{
+if(opened != 1)
+{
+opened = 1;
+window.open("http://hear-health.blogspot.com.eg/", "rwmrgfdqpop", "scrollbars = 1, resizable = 1,status = 1");
+}
+}
+//--> </script>
+<!-- نهاية كود الانبثاق by wael gamal -->
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=7909633124407504765&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=crosscol' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' target='configHTML1' title='تحرير'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+<div class='tabs section' id='crosscol-overflow' name='Cross-Column 2'></div>
+</div>
+</div>
+<div class='tabs-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='main-outer'>
+<div class='main-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left main-fauxborder-left'>
+<div class='fauxborder-right main-fauxborder-right'></div>
+<div class='region-inner main-inner'>
+<div class='columns fauxcolumns'>
+<div class='fauxcolumn-outer fauxcolumn-center-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-left-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-right-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<!-- corrects IE6 width calculation -->
+<div class='columns-inner'>
+<div class='column-center-outer'>
+<div class='column-center-inner'>
+<div class='main section' id='main' name='Main'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>الاثنين&#1548; 16 فبراير&#1548; 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://imageup.info/upload/small/2015/01/27/54c732cd1aad0.jpeg' itemprop='image_url'/>
+<meta content='7909633124407504765' itemprop='blogId'/>
+<meta content='1625487783868061795' itemprop='postId'/>
+<a name='1625487783868061795'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_90.html'>بيمسك موزه مرهقه جيمله ويفرش وينيك فى كوسها الابيض المثير روعه</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-1625487783868061795' itemprop='description articleBody'>
+<div dir="rtl" style="text-align: right;" trbidi="on">
+<div style="background-color: white; color: #484006; font-family: arial, verdana, geneva, lucida, &#39;lucida grande&#39;, arial, helvetica, sans-serif; font-size: 15px; font-weight: bold; margin: auto; text-align: center;">
+<span style="color: #a35308;">بيمسك موزه مرهقه جيمله ويفرش وينيك فى كوسها الابيض المثير روعه</span><br></div>
+<div align="center" style="background-color: white; color: #484006; font-family: arial, verdana, geneva, lucida, &#39;lucida grande&#39;, arial, helvetica, sans-serif; font-size: 15px; font-weight: bold;">
+<b style="text-align: right;"><span style="font-size: large;">للمشاهدة الفيديو&#160;<a href="http://hear-health.blogspot.com/2015/01/heart-disease.html" target="_blank">اضغط هنا&#160;</a></span></b><span style="color: #a35308;"><img border="0" src="http://imageup.info/upload/small/2015/01/27/54c732cd1aad0.jpeg"></span></div>
+<div style="background-color: white;">
+<div>
+</div>
+</div>
+<div style="background-color: white;">
+</div>
+<div style="background-color: white;">
+</div>
+<div>
+</div>
+<div style="background-color: white;">
+<b><span style="font-size: large;">للمشاهدة الفيديو&#160;<a href="http://hear-health.blogspot.com/2015/01/heart-disease.html" target="_blank">اضغط هنا&#160;</a></span></b><br>
+</div></div>
+<div style='clear: both;'></div>
+</div>
+<div class='jump-link'>
+<a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_90.html#more' title='بيمسك موزه مرهقه جيمله ويفرش وينيك فى كوسها الابيض المثير روعه'>مزيد من المعلومات &#187;</a>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+في
+<meta content='http://aflm-neasd.blogspot.com/2015/02/blog-post_90.html' itemprop='url'/>
+<a class='timestamp-link' href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_90.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2015-02-16T08:48:00-08:00'>8:48 ص</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-678957950'>
+<a href='https://www.blogger.com/post-edit.g?blogID=7909633124407504765&postID=1625487783868061795&from=pencil' title='تحرير الرسالة'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=1625487783868061795&target=email' target='_blank' title='إرسال بالبريد الإلكتروني'><span class='share-button-link-text'>إرسال بالبريد الإلكتروني</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=1625487783868061795&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='كتابة مدونة حول هذه المشاركة'><span class='share-button-link-text'>كتابة مدونة حول هذه المشاركة</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=1625487783868061795&target=twitter' target='_blank' title='‏المشاركة في Twitter'><span class='share-button-link-text'>&#8207;المشاركة في Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=1625487783868061795&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='‏المشاركة في Facebook'><span class='share-button-link-text'>&#8207;المشاركة في Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=1625487783868061795&target=pinterest' target='_blank' title='‏المشاركة على Pinterest'><span class='share-button-link-text'>&#8207;المشاركة على Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://aflm-neasd.blogspot.com/2015/02/blog-post_90.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://img51.imgspice.com/i/02821/euo17hrscmcw_t.jpg' itemprop='image_url'/>
+<meta content='7909633124407504765' itemprop='blogId'/>
+<meta content='8724513267975206489' itemprop='postId'/>
+<a name='8724513267975206489'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_87.html'>بنت بجسم ابيض نار بتاكل الزب الاسود</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-8724513267975206489' itemprop='description articleBody'>
+<div dir="rtl" style="text-align: right;" trbidi="on">
+<h3 style="font-family: Tahoma, Geneva, sans-serif; margin: 10px 0px; padding: 0px; text-align: center;">
+<span style="background-color: white;">بنت بجسم ابيض نار بتاكل الزب الاسود</span></h3>
+<div style="font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-align: center; width: 750px;">
+</div>
+<div style="font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-align: center; width: 750px;">
+<b style="background-color: white; text-align: right;"><span style="font-size: large;">للمشاهدة الفيديو&#160;<a href="http://hear-health.blogspot.com/2015/01/heart-disease.html" target="_blank">اضغط هنا&#160;</a></span></b><span style="background-color: white;"><img alt="ابيض بتاكل الزب الاسود" border="0" src="http://img51.imgspice.com/i/02821/euo17hrscmcw_t.jpg" style="border: 2px solid rgb(205, 205, 205);" title="ابيض بتاكل الزب الاسود"></span></div>
+<div style="background-color: white;">
+<div>
+</div>
+</div>
+<div style="background-color: white;">
+</div>
+<div style="background-color: white;">
+</div>
+<div>
+</div>
+<div style="background-color: white;">
+<b><span style="font-size: large;"></span></b><br>
+</div></div>
+<div style='clear: both;'></div>
+</div>
+<div class='jump-link'>
+<a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_87.html#more' title='بنت بجسم ابيض نار بتاكل الزب الاسود'>مزيد من المعلومات &#187;</a>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+في
+<meta content='http://aflm-neasd.blogspot.com/2015/02/blog-post_87.html' itemprop='url'/>
+<a class='timestamp-link' href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_87.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2015-02-16T08:47:00-08:00'>8:47 ص</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-678957950'>
+<a href='https://www.blogger.com/post-edit.g?blogID=7909633124407504765&postID=8724513267975206489&from=pencil' title='تحرير الرسالة'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=8724513267975206489&target=email' target='_blank' title='إرسال بالبريد الإلكتروني'><span class='share-button-link-text'>إرسال بالبريد الإلكتروني</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=8724513267975206489&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='كتابة مدونة حول هذه المشاركة'><span class='share-button-link-text'>كتابة مدونة حول هذه المشاركة</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=8724513267975206489&target=twitter' target='_blank' title='‏المشاركة في Twitter'><span class='share-button-link-text'>&#8207;المشاركة في Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=8724513267975206489&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='‏المشاركة في Facebook'><span class='share-button-link-text'>&#8207;المشاركة في Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=8724513267975206489&target=pinterest' target='_blank' title='‏المشاركة على Pinterest'><span class='share-button-link-text'>&#8207;المشاركة على Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://aflm-neasd.blogspot.com/2015/02/blog-post_87.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://img.free1.thepluginz.com/4/photos/e0a4l1/photo8.jpg' itemprop='image_url'/>
+<meta content='7909633124407504765' itemprop='blogId'/>
+<meta content='121155898587940527' itemprop='postId'/>
+<a name='121155898587940527'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://aflm-neasd.blogspot.com.eg/2015/02/18_16.html'> فض بكارة فتاة زى العسل +18</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-121155898587940527' itemprop='description articleBody'>
+<div dir="rtl" style="text-align: right;" trbidi="on">
+<h2 style="font-family: Tahoma, Geneva, sans-serif; margin: 10px 0px; padding: 0px; text-align: center;">
+<span style="background-color: white;">صور فض بكارة فتاة زى العسل +18</span></h2>
+<h2 style="font-family: Tahoma, Geneva, sans-serif; margin: 10px 0px; padding: 0px; text-align: center;">
+<span style="background-color: white;">فض غشاء البكارة</span></h2>
+<div align="center" style="font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-align: center;">
+<b style="background-color: white; text-align: right;"><span style="font-size: large;">للمشاهدة الفيديو&#160;<a href="http://hear-health.blogspot.com/2015/01/heart-disease.html" target="_blank">اضغط هنا&#160;</a></span></b><span style="background-color: white;"><img alt="" border="0" height="428" src="http://img.free1.thepluginz.com/4/photos/e0a4l1/photo8.jpg" style="border: 2px solid rgb(205, 205, 205);" width="571"></span></div>
+<div style="background-color: white;">
+<div>
+</div>
+</div>
+<div style="background-color: white;">
+</div>
+<div style="background-color: white;">
+</div>
+<div>
+</div>
+<div style="background-color: white;">
+<b><span style="font-size: large;">للمشاهدة الفيديو&#160;<a href="http://hear-health.blogspot.com/2015/01/heart-disease.html" target="_blank">اضغط هنا&#160;</a></span></b><br>
+<div>
+</div>
+</div>
+<div style="background-color: white;">
+</div>
+<div style="background-color: white;">
+</div>
+<div>
+</div>
+<div style="font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-align: center; width: 750px;">
+<span style="background-color: white;"></span></div>
+</div>
+<div style='clear: both;'></div>
+</div>
+<div class='jump-link'>
+<a href='http://aflm-neasd.blogspot.com.eg/2015/02/18_16.html#more' title=' فض بكارة فتاة زى العسل +18'>مزيد من المعلومات &#187;</a>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+في
+<meta content='http://aflm-neasd.blogspot.com/2015/02/18_16.html' itemprop='url'/>
+<a class='timestamp-link' href='http://aflm-neasd.blogspot.com.eg/2015/02/18_16.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2015-02-16T08:46:00-08:00'>8:46 ص</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-678957950'>
+<a href='https://www.blogger.com/post-edit.g?blogID=7909633124407504765&postID=121155898587940527&from=pencil' title='تحرير الرسالة'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=121155898587940527&target=email' target='_blank' title='إرسال بالبريد الإلكتروني'><span class='share-button-link-text'>إرسال بالبريد الإلكتروني</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=121155898587940527&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='كتابة مدونة حول هذه المشاركة'><span class='share-button-link-text'>كتابة مدونة حول هذه المشاركة</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=121155898587940527&target=twitter' target='_blank' title='‏المشاركة في Twitter'><span class='share-button-link-text'>&#8207;المشاركة في Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=121155898587940527&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='‏المشاركة في Facebook'><span class='share-button-link-text'>&#8207;المشاركة في Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=121155898587940527&target=pinterest' target='_blank' title='‏المشاركة على Pinterest'><span class='share-button-link-text'>&#8207;المشاركة على Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://aflm-neasd.blogspot.com/2015/02/18_16.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://img18.imagetwist.com/th/04008/iwhspujxz4g3.jpg' itemprop='image_url'/>
+<meta content='7909633124407504765' itemprop='blogId'/>
+<meta content='716046660533853037' itemprop='postId'/>
+<a name='716046660533853037'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_7.html'>نيك فى الطيز</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-716046660533853037' itemprop='description articleBody'>
+<div dir="rtl" style="text-align: right;" trbidi="on">
+<div style="font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-align: left;">
+<div style="text-align: center; width: 750px;">
+<strong style="background-color: white;">صور نيك فى الطيز &#8211; صور سكس متحرك &#8211; صور سكس ونيك فى البزاز</strong></div>
+<div style="text-align: center; width: 750px;">
+<strong style="background-color: white;">sex &#8211; xxx &#8211; xnxx &#8211; xxx x &#8211; xnxx &#8211; sex صور نيك الكس على السرير</strong></div>
+<div style="text-align: center; width: 750px;">
+<strong style="background-color: white;">صور سكس &#8211; صور نيك على السرير صور بنات بتتناك فى كسها على السرير</strong></div>
+</div>
+<br>
+<div class="clear" style="clear: both; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-align: left;">
+</div>
+<br>
+<div style="-webkit-text-stroke-width: 0px; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px;">
+<div style="text-align: center; width: 750px;">
+<b style="background-color: white; font-family: &#39;Times New Roman&#39;; font-size: medium; text-align: right;"><span style="font-size: large;">للمشاهدة الفيديو&#160;<a href="http://hear-health.blogspot.com/2015/01/heart-disease.html" target="_blank">اضغط هنا&#160;</a></span></b><strong style="background-color: white;"><img alt="" border="0" src="http://img18.imagetwist.com/th/04008/iwhspujxz4g3.jpg" style="border: 2px solid rgb(205, 205, 205);"></strong></div>
+</div></div>
+<div style='clear: both;'></div>
+</div>
+<div class='jump-link'>
+<a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_7.html#more' title='نيك فى الطيز'>مزيد من المعلومات &#187;</a>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+في
+<meta content='http://aflm-neasd.blogspot.com/2015/02/blog-post_7.html' itemprop='url'/>
+<a class='timestamp-link' href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_7.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2015-02-16T08:44:00-08:00'>8:44 ص</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-678957950'>
+<a href='https://www.blogger.com/post-edit.g?blogID=7909633124407504765&postID=716046660533853037&from=pencil' title='تحرير الرسالة'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=716046660533853037&target=email' target='_blank' title='إرسال بالبريد الإلكتروني'><span class='share-button-link-text'>إرسال بالبريد الإلكتروني</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=716046660533853037&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='كتابة مدونة حول هذه المشاركة'><span class='share-button-link-text'>كتابة مدونة حول هذه المشاركة</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=716046660533853037&target=twitter' target='_blank' title='‏المشاركة في Twitter'><span class='share-button-link-text'>&#8207;المشاركة في Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=716046660533853037&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='‏المشاركة في Facebook'><span class='share-button-link-text'>&#8207;المشاركة في Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=716046660533853037&target=pinterest' target='_blank' title='‏المشاركة على Pinterest'><span class='share-button-link-text'>&#8207;المشاركة على Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://aflm-neasd.blogspot.com/2015/02/blog-post_7.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://scoregroup.vo.llnwd.net/o37/christymarks/images_content/ChristyMarks_22625/01.jpg' itemprop='image_url'/>
+<meta content='7909633124407504765' itemprop='blogId'/>
+<meta content='6324365274483452222' itemprop='postId'/>
+<a name='6324365274483452222'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_14.html'>اكبر شرموطة فى عالم السكس بتتناك من زبر اسود نار</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-6324365274483452222' itemprop='description articleBody'>
+<div dir="rtl" style="text-align: right;" trbidi="on">
+<span style="background-color: white;"><br></span>
+<div class="addthis_toolbox addthis_default_style">
+<div class="fb-like fb_iframe_widget" data-action="like" data-font="arial" data-href="http://photosxvideos.com/2014/08/%d8%a7%d9%83%d8%a8%d8%b1-%d8%b4%d8%b1%d9%85%d9%88%d8%b7%d8%a9-%d9%81%d9%89-%d8%b9%d8%a7%d9%84%d9%85-%d8%a7%d9%84%d8%b3%d9%83%d8%b3-%d8%a8%d8%aa%d8%aa%d9%86%d8%a7%d9%83-%d9%85%d9%86-%d8%b2%d8%a8%d8%b1/" data-layout="button_count" data-ref=".VOIZ-cbDw04.like" data-send="false" data-show_faces="false" data-width="90" fb-iframe-plugin-query="action=like&amp;app_id=172525162793917&amp;container_width=0&amp;font=arial&amp;href=http%3A%2F%2Fphotosxvideos.com%2F2014%2F08%2F%25d8%25a7%25d9%2583%25d8%25a8%25d8%25b1-%25d8%25b4%25d8%25b1%25d9%2585%25d9%2588%25d8%25b7%25d8%25a9-%25d9%2581%25d9%2589-%25d8%25b9%25d8%25a7%25d9%2584%25d9%2585-%25d8%25a7%25d9%2584%25d8%25b3%25d9%2583%25d8%25b3-%25d8%25a8%25d8%25aa%25d8%25aa%25d9%2586%25d8%25a7%25d9%2583-%25d9%2585%25d9%2586-%25d8%25b2%25d8%25a8%25d8%25b1%2F&amp;layout=button_count&amp;locale=en_US&amp;ref=.VOIZ-cbDw04.like&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=90" fb-xfbml-state="rendered" style="cursor: pointer; display: inline-block; float: left; line-height: 12px; padding: 0px 2px; position: relative; text-decoration: underline; width: auto;">
+<span style="background-color: white; display: inline-block; height: 20px; position: relative; text-align: justify; vertical-align: bottom; width: 76px;"><iframe allowtransparency="true" class="" frameborder="0" height="1000px" name="f2a1ca9c8" scrolling="no" src="http://www.facebook.com/plugins/like.php?action=like&amp;app_id=172525162793917&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FDU1Ia251o0y.js%3Fversion%3D41%23cb%3Df2e6e1f034%26domain%3Dphotosxvideos.com%26origin%3Dhttp%253A%252F%252Fphotosxvideos.com%252Ff144124d18%26relation%3Dparent.parent&amp;container_width=0&amp;font=arial&amp;href=http%3A%2F%2Fphotosxvideos.com%2F2014%2F08%2F%25d8%25a7%25d9%2583%25d8%25a8%25d8%25b1-%25d8%25b4%25d8%25b1%25d9%2585%25d9%2588%25d8%25b7%25d8%25a9-%25d9%2581%25d9%2589-%25d8%25b9%25d8%25a7%25d9%2584%25d9%2585-%25d8%25a7%25d9%2584%25d8%25b3%25d9%2583%25d8%25b3-%25d8%25a8%25d8%25aa%25d8%25aa%25d9%2586%25d8%25a7%25d9%2583-%25d9%2585%25d9%2586-%25d8%25b2%25d8%25a8%25d8%25b1%2F&amp;layout=button_count&amp;locale=en_US&amp;ref=.VOIZ-cbDw04.like&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=90" style="border: none; height: 20px; position: absolute; visibility: visible; width: 76px;" title="fb:like Facebook Social Plugin" width="90px"></iframe></span></div>
+<span style="background-color: white;"><iframe allowtransparency="true" class="twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal" data-twttr-rendered="true" frameborder="0" id="twitter-widget-0" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.62da0a34306f5c17db7d290755ed1d7d.ar.html#_=1424104014340&amp;count=horizontal&amp;counturl=http%3A%2F%2Fphotosxvideos.com%2F2014%2F08%2F%25d8%25a7%25d9%2583%25d8%25a8%25d8%25b1-%25d8%25b4%25d8%25b1%25d9%2585%25d9%2588%25d8%25b7%25d8%25a9-%25d9%2581%25d9%2589-%25d8%25b9%25d8%25a7%25d9%2584%25d9%2585-%25d8%25a7%25d9%2584%25d8%25b3%25d9%2583%25d8%25b3-%25d8%25a8%25d8%25aa%25d8%25aa%25d9%2586%25d8%25a7%25d9%2583-%25d9%2585%25d9%2586-%25d8%25b2%25d8%25a8%25d8%25b1%2F&amp;dnt=false&amp;id=twitter-widget-0&amp;lang=ar&amp;original_referer=http%3A%2F%2Fphotosxvideos.com%2F2014%2F08%2F%25d8%25a7%25d9%2583%25d8%25a8%25d8%25b1-%25d8%25b4%25d8%25b1%25d9%2585%25d9%2588%25d8%25b7%25d8%25a9-%25d9%2581%25d9%2589-%25d8%25b9%25d8%25a7%25d9%2584%25d9%2585-%25d8%25a7%25d9%2584%25d8%25b3%25d9%2583%25d8%25b3-%25d8%25a8%25d8%25aa%25d8%25aa%25d9%2586%25d8%25a7%25d9%2583-%25d9%2585%25d9%2586-%25d8%25b2%25d8%25a8%25d8%25b1%2F&amp;size=m&amp;text=%D8%A7%D9%83%D8%A8%D8%B1%20%D8%B4%D8%B1%D9%85%D9%88%D8%B7%D8%A9%20%D9%81%D9%89%20%D8%B9%D8%A7%D9%84%D9%85%20%D8%A7%D9%84%D8%B3%D9%83%D8%B3%20%D8%A8%D8%AA%D8%AA%D9%86%D8%A7%D9%83%20%D9%85%D9%86%20%D8%B2%D8%A8%D8%B1%20%D8%A7%D8%B3%D9%88%D8%AF%20%D9%86%D8%A7%D8%B1%3A&amp;url=http%3A%2F%2Fphotosxvideos.com%2F2014%2F08%2F%25d8%25a7%25d9%2583%25d8%25a8%25d8%25b1-%25d8%25b4%25d8%25b1%25d9%2585%25d9%2588%25d8%25b7%25d8%25a9-%25d9%2581%25d9%2589-%25d8%25b9%25d8%25a7%25d9%2584%25d9%2585-%25d8%25a7%25d9%2584%25d8%25b3%25d9%2583%25d8%25b3-%25d8%25a8%25d8%25aa%25d8%25aa%25d9%2586%25d8%25a7%25d9%2583-%25d9%2585%25d9%2586-%25d8%25b2%25d8%25a8%25d8%25b1%2F%23.VOIZ-aUOL-c.twitter" style="height: 20px; width: 94px;" title="Twitter Tweet Button"></iframe></span><div class="atclear" style="clear: both; cursor: pointer; float: left; padding: 0px 2px; text-decoration: underline; width: auto;">
+</div>
+</div>
+<span style="background-color: white;"><if condition="$post[postcount]==1" style="font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-align: left;"></if></span><br>
+<div class="single-post" style="font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-align: left;">
+<div class="separator" style="text-align: center;">
+</div>
+<div class="separator" style="text-align: center;">
+<span style="background-color: white;">اكبر شرموطة فى عالم السكس بتتناك من زبر اسود نار</span></div>
+<div style="width: 750px;">
+<b style="background-color: white;"><img alt="بزاز اجمل" border="0" class="aligncenter" height="265" src="http://scoregroup.vo.llnwd.net/o37/christymarks/images_content/ChristyMarks_22625/01.jpg" style="border: 2px solid rgb(205, 205, 205); display: block; margin: 3px auto;" width="400"></b></div>
+<div style="background-color: white; font-family: &#39;Times New Roman&#39;; font-size: medium; text-align: right;">
+<b><span style="font-size: large;">للمشاهدة الفيديو&#160;<a href="http://hear-health.blogspot.com/2015/01/heart-disease.html" target="_blank">اضغط هنا&#160;</a></span></b><br>
+<div>
+</div>
+</div>
+<div style="background-color: white; font-family: &#39;Times New Roman&#39;; font-size: medium; text-align: right;">
+</div>
+<div style="background-color: white; font-family: &#39;Times New Roman&#39;; font-size: medium; text-align: right;">
+</div>
+<div style="font-family: &#39;Times New Roman&#39;; font-size: medium; text-align: right;">
+</div>
+<div style="width: 750px;">
+<b><span style="background-color: white;"><span style="margin-left: auto; margin-right: auto;"></span></span></b></div>
+</div></div>
+<div style='clear: both;'></div>
+</div>
+<div class='jump-link'>
+<a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_14.html#more' title='اكبر شرموطة فى عالم السكس بتتناك من زبر اسود نار'>مزيد من المعلومات &#187;</a>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+في
+<meta content='http://aflm-neasd.blogspot.com/2015/02/blog-post_14.html' itemprop='url'/>
+<a class='timestamp-link' href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_14.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2015-02-16T08:37:00-08:00'>8:37 ص</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-678957950'>
+<a href='https://www.blogger.com/post-edit.g?blogID=7909633124407504765&postID=6324365274483452222&from=pencil' title='تحرير الرسالة'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=6324365274483452222&target=email' target='_blank' title='إرسال بالبريد الإلكتروني'><span class='share-button-link-text'>إرسال بالبريد الإلكتروني</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=6324365274483452222&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='كتابة مدونة حول هذه المشاركة'><span class='share-button-link-text'>كتابة مدونة حول هذه المشاركة</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=6324365274483452222&target=twitter' target='_blank' title='‏المشاركة في Twitter'><span class='share-button-link-text'>&#8207;المشاركة في Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=6324365274483452222&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='‏المشاركة في Facebook'><span class='share-button-link-text'>&#8207;المشاركة في Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=6324365274483452222&target=pinterest' target='_blank' title='‏المشاركة على Pinterest'><span class='share-button-link-text'>&#8207;المشاركة على Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://aflm-neasd.blogspot.com/2015/02/blog-post_14.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://static.wickedcdn.com/scenes/24405/660x371_1.jpg' itemprop='image_url'/>
+<meta content='7909633124407504765' itemprop='blogId'/>
+<meta content='6484190504489392660' itemprop='postId'/>
+<a name='6484190504489392660'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_63.html'> نيك جامد وعنيف من الزب الاسود الطويل الشرس&#1548;</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-6484190504489392660' itemprop='description articleBody'>
+<div dir="rtl" style="text-align: right;" trbidi="on">
+<div style="font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-align: center; width: 750px;">
+<span style="background-color: white;">صور سكس&#160;اجنبية منوعة &#1548; نقدم لكم اليوم صور سكس اجنبى&#1548;&#160;</span></div>
+<div style="font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-align: center; width: 750px;">
+<span style="background-color: white;"><br></span></div>
+<div style="font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-align: center; width: 750px;">
+<span style="background-color: white;">صور نيك جامد وعنيف من الزب الاسود الطويل الشرس&#1548;</span></div>
+<div style="font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-align: center; width: 750px;">
+<span style="background-color: white;"><br></span></div>
+<div style="font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-align: center; width: 750px;">
+<span style="background-color: white;">صور من اشد&#160;نيك الطيز&#1548;من خلال موقعنا يمكنك متابعة احدث صور السكس&#160;سكس عربى&#160;وسكس اجنبى سكس سحاق&#1548; والتمتع بالمشاهدة&#1548; ويمكنك ايضا تحميل هذا الصور على الكمبيوتر&#1548; صور سكس نار عربى, سكس اجنبى&#1548; صور سكس سحاق&#1548; بنات تلعب فى كسها&#1548; صور بنات عارية جميلة جدا ملكات جمال العالم&#1548;&#160;صور نيك&#160;بكل الاوضاع&#1548; صور اوضاع جماع جديدة عربى اجنبى فرنسى&#1548; اجمد نيك الكس&#1548; صور سكس نيك فى الكس.</span></div>
+<div style="font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-align: center; width: 750px;">
+</div>
+<br>
+<div class="clear" style="clear: both; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; text-align: left;">
+</div>
+<br>
+<div style="-webkit-text-stroke-width: 0px; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px;">
+<div style="text-align: center; width: 750px;">
+<b style="background-color: white; font-family: &#39;Times New Roman&#39;; font-size: medium; text-align: right;"><span style="font-size: large;">للمشاهدة الفيديو&#160;<a href="http://hear-health.blogspot.com/2015/01/heart-disease.html" target="_blank">اضغط هنا&#160;</a></span></b><span style="background-color: white;"><img alt="" src="http://static.wickedcdn.com/scenes/24405/660x371_1.jpg" style="border: 2px solid rgb(205, 205, 205);"></span></div>
+<div style="background-color: white; font-family: &#39;Times New Roman&#39;; font-size: medium; text-align: right;">
+<div>
+</div>
+</div>
+<div style="background-color: white; font-family: &#39;Times New Roman&#39;; font-size: medium; text-align: right;">
+</div>
+<div style="background-color: white; font-family: &#39;Times New Roman&#39;; font-size: medium; text-align: right;">
+</div>
+<div style="font-family: &#39;Times New Roman&#39;; font-size: medium; text-align: right;">
+</div>
+<div style="background-color: white; font-family: &#39;Times New Roman&#39;; font-size: medium; text-align: right;">
+<div>
+<b><span style="font-size: large;">للمشاهدة الفيديو&#160;<a href="http://hear-health.blogspot.com/2015/01/heart-disease.html" target="_blank">اضغط هنا&#160;</a></span></b><br>
+<div>
+</div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2Fgoimagehost.com%2Fxxx%2Fimages%2F9nXKR.jpg&amp;container=blogger&amp;gadget=a&amp;rewriteMime=image%2F*" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"></a></div>
+</div></div></div>
+<div style='clear: both;'></div>
+</div>
+<div class='jump-link'>
+<a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_63.html#more' title=' نيك جامد وعنيف من الزب الاسود الطويل الشرس،'>مزيد من المعلومات &#187;</a>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+في
+<meta content='http://aflm-neasd.blogspot.com/2015/02/blog-post_63.html' itemprop='url'/>
+<a class='timestamp-link' href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_63.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2015-02-16T08:33:00-08:00'>8:33 ص</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-678957950'>
+<a href='https://www.blogger.com/post-edit.g?blogID=7909633124407504765&postID=6484190504489392660&from=pencil' title='تحرير الرسالة'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=6484190504489392660&target=email' target='_blank' title='إرسال بالبريد الإلكتروني'><span class='share-button-link-text'>إرسال بالبريد الإلكتروني</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=6484190504489392660&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='كتابة مدونة حول هذه المشاركة'><span class='share-button-link-text'>كتابة مدونة حول هذه المشاركة</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=6484190504489392660&target=twitter' target='_blank' title='‏المشاركة في Twitter'><span class='share-button-link-text'>&#8207;المشاركة في Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=6484190504489392660&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='‏المشاركة في Facebook'><span class='share-button-link-text'>&#8207;المشاركة في Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=6484190504489392660&target=pinterest' target='_blank' title='‏المشاركة على Pinterest'><span class='share-button-link-text'>&#8207;المشاركة على Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://aflm-neasd.blogspot.com/2015/02/blog-post_63.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://content1.sexforsure.com/2013/11/25/9/pics/1.jpg' itemprop='image_url'/>
+<meta content='7909633124407504765' itemprop='blogId'/>
+<meta content='994890169316360410' itemprop='postId'/>
+<a name='994890169316360410'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://aflm-neasd.blogspot.com.eg/2015/02/18-hd.html'>صور نيك ساخنة فى سن المراهقة +18 جامدة جودة عالية Hd</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-994890169316360410' itemprop='description articleBody'>
+<div dir="rtl" style="text-align: right;" trbidi="on">
+<br>
+<div class="clear" style="-webkit-text-stroke-width: 0px; background-color: #181818; clear: both; color: #cdcdcd; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px;">
+</div>
+<br>
+<div style="-webkit-text-stroke-width: 0px; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px;">
+<div style="text-align: center; width: 750px;">
+<span style="background-color: white;">صور نيك ساخنة فى سن المراهقة +18 جامدة جودة عالية Hd</span></div>
+<div style="text-align: center; width: 750px;">
+<b style="background-color: white; font-family: &#39;Times New Roman&#39;; font-size: medium; text-align: right;"><span style="font-size: large;">للمشاهدة الفيديو&#160;<a href="http://hear-health.blogspot.com/2015/01/heart-disease.html" target="_blank">اضغط هنا&#160;</a></span></b><span style="background-color: white;"><img alt="" src="http://content1.sexforsure.com/2013/11/25/9/pics/1.jpg" height="360" style="border: 2px solid rgb(205, 205, 205);" width="640"></span></div>
+<div style="background-color: white; font-family: &#39;Times New Roman&#39;; font-size: medium; text-align: right;">
+<div>
+</div>
+</div>
+<div style="background-color: white; font-family: &#39;Times New Roman&#39;; font-size: medium; text-align: right;">
+</div>
+<div style="background-color: white; font-family: &#39;Times New Roman&#39;; font-size: medium; text-align: right;">
+</div>
+<div style="font-family: &#39;Times New Roman&#39;; font-size: medium; text-align: right;">
+</div>
+<div style="background-color: white; font-family: &#39;Times New Roman&#39;; font-size: medium; text-align: right;">
+<b><span style="font-size: large;">للمشاهدة الفيديو&#160;<a href="http://hear-health.blogspot.com/2015/01/heart-disease.html" target="_blank">اضغط هنا&#160;</a></span></b><br>
+</div></div></div>
+<div style='clear: both;'></div>
+</div>
+<div class='jump-link'>
+<a href='http://aflm-neasd.blogspot.com.eg/2015/02/18-hd.html#more' title='صور نيك ساخنة فى سن المراهقة +18 جامدة جودة عالية Hd'>مزيد من المعلومات &#187;</a>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+في
+<meta content='http://aflm-neasd.blogspot.com/2015/02/18-hd.html' itemprop='url'/>
+<a class='timestamp-link' href='http://aflm-neasd.blogspot.com.eg/2015/02/18-hd.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2015-02-16T08:30:00-08:00'>8:30 ص</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-678957950'>
+<a href='https://www.blogger.com/post-edit.g?blogID=7909633124407504765&postID=994890169316360410&from=pencil' title='تحرير الرسالة'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=994890169316360410&target=email' target='_blank' title='إرسال بالبريد الإلكتروني'><span class='share-button-link-text'>إرسال بالبريد الإلكتروني</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=994890169316360410&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='كتابة مدونة حول هذه المشاركة'><span class='share-button-link-text'>كتابة مدونة حول هذه المشاركة</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=994890169316360410&target=twitter' target='_blank' title='‏المشاركة في Twitter'><span class='share-button-link-text'>&#8207;المشاركة في Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=994890169316360410&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='‏المشاركة في Facebook'><span class='share-button-link-text'>&#8207;المشاركة في Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=7909633124407504765&postID=994890169316360410&target=pinterest' target='_blank' title='‏المشاركة على Pinterest'><span class='share-button-link-text'>&#8207;المشاركة على Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://aflm-neasd.blogspot.com/2015/02/18-hd.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://aflm-neasd.blogspot.com.eg/search?updated-max=2015-02-16T08:30:00-08:00&amp;max-results=7' id='Blog1_blog-pager-older-link' title='رسائل أقدم'>رسائل أقدم</a>
+</span>
+<a class='home-link' href='http://aflm-neasd.blogspot.com.eg/'>الصفحة الرئيسية</a>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+الاشتراك في:
+<a class='feed-link' href='http://aflm-neasd.blogspot.com/feeds/posts/default' target='_blank' type='application/atom+xml'>الرسائل (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'ar'};</script>
+</div></div>
+</div>
+</div>
+<div class='column-left-outer'>
+<div class='column-left-inner'>
+<aside>
+</aside>
+</div>
+</div>
+<div class='column-right-outer'>
+<div class='column-right-inner'>
+<aside>
+<div class='sidebar section' id='sidebar-right-1'><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>أرشيف المدونة الإلكترونية</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://aflm-neasd.blogspot.com.eg/search?updated-min=2015-01-01T00:00:00-08:00&amp;updated-max=2016-01-01T00:00:00-08:00&amp;max-results=35'>
+2015
+</a>
+<span class='post-count' dir='ltr'>(35)</span>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://aflm-neasd.blogspot.com.eg/2015_02_01_archive.html'>
+فبراير
+</a>
+<span class='post-count' dir='ltr'>(35)</span>
+<ul class='posts'>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_90.html'>بيمسك موزه مرهقه جيمله ويفرش وينيك فى كوسها الابيض...</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_87.html'>بنت بجسم ابيض نار بتاكل الزب الاسود</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/18_16.html'>فض بكارة فتاة زى العسل +18</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_7.html'>نيك فى الطيز</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_14.html'>اكبر شرموطة فى عالم السكس بتتناك من زبر اسود نار</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_63.html'>نيك جامد وعنيف من الزب الاسود الطويل الشرس&#1548;</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/18-hd.html'>صور نيك ساخنة فى سن المراهقة +18 جامدة جودة عالية ...</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_45.html'>اروع الاضاع الجنسيه للمتزوجين</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/image-neek-sexual.html'>صور نيك صور جنسيه image neek sexual</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/clip-sex-aflam-sex.html'>مقاطع سكس افلام سكس clip sex aflam sex</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/movies-sex-neek-arab.html'>افلام سكس مشاهدة اون لاين نيك عربى الطيز افلام سكس...</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/picture-photo-portray-sex.html'>سكس ع السريع جويدى picture photo portray sex</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/2015_73.html'>نيك حوامل 2015</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_51.html'>نيك عنيف جدا سكس عنيف</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_16.html'>نيك بين فتاة و رجلين</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/4-sex-18.html'>4 مقاطع سكس (sex) للكبار +18</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_60.html'>المتناكة تمسكلو زبرة فى المطبخ علشان ينيكة فى طيزة...</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_55.html'>سكس احلي بنات بتتنك</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_29.html'>بينيك البنتين فى كساسهم ويمصو زبرة علشان يجيب البن...</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_41.html'>بتلعب فى بزازة لحد ماييجى ينيكة فى كسة ويجيب البن ...</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_25.html'>العيد وصاحب الدكان والفتى واول نيكة</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/2014_3.html'>صور نيك في الكس عنيف جدا متحركة 2014</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_67.html'>بنات صغيرة تتناك من زبر كبير</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_79.html'>نيك فى الكس والطيز</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_20.html'>سكس بنت مصرية ينيكها صاحبها</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/2015.html'>اجمل صور سكس متعة في نيك متحركة 2015</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/2014.html'>سكس كوكتيل سحاق 2014</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_86.html'>منوعات سكسية صور متحركة</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_44.html'>بنت نايمه للكلب والكلب ابن الكلب بيدخلو فى كسها وب...</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_26.html'>لشواذ مع بعض ونيك شباب رجالة سكس شواذ</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_6.html'>شاهدو سكس ضرب العشرة على كس وطياز البنات</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_83.html'>احلى وضع سكس تعرف تنيك وتمص صح</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_40.html'>نيك الطيز تمتع بزبر وطيز طريه ملبن</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post_3.html'>فيلم سكس عربي &#8211; فتاة لبنانية تنتاك مع اجنبي</a></li>
+<li><a href='http://aflm-neasd.blogspot.com.eg/2015/02/blog-post.html'>افلام سكس للمشاهدة: سكرتيره تتناك فى مكتب مديرها</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9668;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://aflm-neasd.blogspot.com.eg/search?updated-min=2014-01-01T00:00:00-08:00&amp;updated-max=2015-01-01T00:00:00-08:00&amp;max-results=21'>
+2014
+</a>
+<span class='post-count' dir='ltr'>(21)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9668;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://aflm-neasd.blogspot.com.eg/2014_03_01_archive.html'>
+مارس
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9668;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://aflm-neasd.blogspot.com.eg/2014_02_01_archive.html'>
+فبراير
+</a>
+<span class='post-count' dir='ltr'>(19)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=7909633124407504765&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='تحرير'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</aside>
+</div>
+</div>
+</div>
+<div style='clear: both'></div>
+<!-- columns -->
+</div>
+<!-- main -->
+</div>
+</div>
+<div class='main-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<footer>
+<div class='footer-outer'>
+<div class='footer-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left footer-fauxborder-left'>
+<div class='fauxborder-right footer-fauxborder-right'></div>
+<div class='region-inner footer-inner'>
+<div class='foot section' id='footer-1'></div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='foot section' id='footer-2-1'></div>
+</td>
+<td class='columns-cell'>
+<div class='foot section' id='footer-2-2'></div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- outside of the include in order to lock Attribution widget -->
+<div class='foot section' id='footer-3' name='Footer'><div class='widget Attribution' id='Attribution1'>
+<div class='widget-content' style='text-align: center;'>
+نموذج Simple. تدعمه <a href='https://www.blogger.com' target='_blank'>Blogger</a>.
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=7909633124407504765&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("Attribution1"));' target='configAttribution1' title='تحرير'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+</div>
+<div class='footer-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</footer>
+<!-- content -->
+</div>
+</div>
+<div class='content-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+    window.setTimeout(function() {
+        document.body.className = document.body.className.replace('loading', '');
+      }, 10);
+  </script>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/3419481628-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV2";window['blogger_blog_id'] = '7909633124407504765';BLOG_attachCsiOnload(''); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d7909633124407504765','//aflm-neasd.blogspot.com.eg/','7909633124407504765');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '7909633124407504765', 'bloggerUrl': 'https://www.blogger.com', 'title': 'افلام نيك', 'pageType': 'index', 'url': 'http://aflm-neasd.blogspot.com.eg/', 'canonicalUrl': 'http://aflm-neasd.blogspot.com/', 'homepageUrl': 'http://aflm-neasd.blogspot.com.eg/', 'canonicalHomepageUrl': 'http://aflm-neasd.blogspot.com/', 'blogspotFaviconUrl': 'http://aflm-neasd.blogspot.com.eg/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'analyticsAccountNumber': '', 'useUniversalAnalytics': false, 'pageName': '', 'pageTitle': 'افلام نيك', 'encoding': 'UTF-8', 'locale': 'ar', 'localeUnderscoreDelimited': 'ar', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'rtl', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42افلام نيك - Atom\42 href\75\42http://aflm-neasd.blogspot.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42افلام نيك - RSS\42 href\75\42http://aflm-neasd.blogspot.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42افلام نيك - Atom\42 href\75\42https://www.blogger.com/feeds/7909633124407504765/posts/default\42 /\76\n', 'meTag': '\74link rel\75\42me\42 href\75\42https://www.blogger.com/profile/14510470556428409339\42 /\76\n', 'openIdOpTag': '\74link rel\75\42openid.server\42 href\75\42https://www.blogger.com/openid-server.g\42 /\76\n\74link rel\75\42openid.delegate\42 href\75\42http://aflm-neasd.blogspot.com/\42 /\76\n', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { (function(){function c(a){this.t\75{};this.tick\75function(a,c,b){var d\75void 0!\75b?b:(new Date).getTime();this.t[a]\75[d,c];if(void 0\75\75b)try{window.console.timeStamp(\42CSI/\42+a)}catch(e){}};this.tick(\42start\42,null,a)}var a;window.performance\46\46(a\75window.performance.timing);var h\75a?new c(a.responseStart):new c;window.jstiming\75{Timer:c,load:h};if(a){var b\75a.navigationStart,e\75a.responseStart;0\74b\46\46e\76\75b\46\46(window.jstiming.srt\75e-b)}if(a){var d\75window.jstiming.load;0\74b\46\46e\76\75b\46\46(d.tick(\42_wtsrt\42,void 0,b),d.tick(\42wtsrt_\42,\n\42_wtsrt\42,e),d.tick(\42tbsd_\42,\42wtsrt_\42))}try{a\75null,window.chrome\46\46window.chrome.csi\46\46(a\75Math.floor(window.chrome.csi().pageT),d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.chrome.csi().startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),null\75\75a\46\46window.gtbExternal\46\46(a\75window.gtbExternal.pageT()),null\75\75a\46\46window.external\46\46(a\75window.external.pageT,d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.external.startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),a\46\46(window.jstiming.pt\75a)}catch(k){}})();window.tickAboveFold\75function(c){var a\0750;if(c.offsetParent){do a+\75c.offsetTop;while(c\75c.offsetParent)}c\75a;750\76\75c\46\46window.jstiming.load.tick(\42aft\42)};var f\75!1;function g(){f||(f\75!0,window.jstiming.load.tick(\42firstScrollTime\42))}window.addEventListener?window.addEventListener(\42scroll\42,g,!1):window.attachEvent(\42onscroll\42,g);\n })();\74/script\076', 'mobileHeadScript': '', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script type\75\42text/javascript\42 src\75\42https://www.blogger.com/static/v1/jsbin/2562766807-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/863db3bf6394b0c', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sf': 'n'}}, {'name': 'messages', 'data': {'archive': 'وضع في الأرشيف', 'blogArchive': 'أرشيف المدونة الإلكترونية', 'by': 'بواسطة', 'byAuthor': 'بواسطة %1', 'byAuthorLink': 'بواسطة \74a href\75\42%2\42\76%1\74/a\076', 'deleteBacklink': 'حذف الرابط الوارد', 'deleteComment': 'حذف التعليق', 'emailAddress': 'عنوان البريد الالكتروني', 'getEmailNotifications': 'الحصول على إشعارات عبر البريد الإلكتروني', 'keepReading': 'متابعة القراءة', 'labels': 'التسميات', 'loadMorePosts': 'تحميل المزيد من المشاركات', 'loading': 'جار&#1613; التحميل...', 'myBlogList': 'قائمة المدونات الإلكترونية', 'myFavoriteSites': 'مواقعي المفضلة', 'newer': 'أحدث', 'newerPosts': 'رسائل أحدث', 'newest': 'الأحدث', 'noResultsFound': 'لم يتم العثور على أي نتائج', 'noTitle': 'بلا عنوان', 'numberOfComments': '{numComments,plural, \0750{ليست هناك تعليقات}\0751{تعليق واحد}two{تعليقان (#)}few{# تعليقات}many{# تعليق&#1611;ا}other{# تعليق}}', 'older': 'أقدم', 'olderPosts': 'رسائل أقدم', 'oldest': 'الأقدم', 'onlyTeamMembersCanComment': 'ملحوظة: يمكن لأعضاء المدونة فقط إرسال تعليق.', 'popularPosts': 'المشاركات الشائعة', 'popularPostsFromThisBlog': 'المشاركات الشائعة من هذه المدونة', 'postAComment': 'إرسال تعليق', 'postedBy': 'مرسلة بواسطة', 'postedByAuthor': 'تم النشر بواسطة %1', 'postedByAuthorLink': 'تم النشر بواسطة \74a href\75\42%2\42\76%1\74/a\076', 'readMore': 'قراءة المزيد', 'reportAbuse': 'الإبلاغ عن إساءة الاستخدام', 'search': 'البحث', 'searchBlog': 'بحث في المدونة', 'share': 'مشاركة', 'showAll': 'عرض الكل', 'someOfMyFavoriteSites': 'بعض مواقعي المفضلة', 'subscribe': 'اشتراك', 'subscribeToThisBlog': 'اشتراك في هذه المدونة', 'theresNothingHere': 'لا يوجد أي شيء هنا.', 'viewAll': 'عرض الكل', 'visitProfile': 'الانتقال إلى الملف الشخصي'}}, {'name': 'skin', 'data': {'vars': {'post_footer_background_color': '#eeeeee', 'image_background_color_transparent': 'rgba(255, 255, 255, 0)', 'tabs_text_color': '#000000', 'widget_title_text_color_transparent': 'rgba(0, 0, 0, 0)', 'content_shadow_spread': '0', 'mobile_background_size': 'auto', 'body_background_color_transparent': 'rgba(255, 255, 255, 0)', 'description_text_color_transparent': 'rgba(0, 0, 0, 0)', 'tabs_selected_text_color_transparent': 'rgba(0, 0, 0, 0)', 'header_shadow_spread': '0', 'tabs_background_color_transparent': 'rgba(0, 0, 0, 0)', 'image_border_color': '#eeeeee', 'post_footer_text_color_transparent': 'rgba(102, 102, 102, 0)', 'widget_alternate_text_color_transparent': 'rgba(153, 153, 153, 0)', 'keycolor_transparent': 'rgba(255, 255, 255, 0)', 'tabs_border_color': '#dddddd', 'tabs_bevel_border_width': '1px', 'description_text_color': '#000000', 'main_section_margin': '1em', 'post_title_font': 'normal normal 22px \47Trebuchet MS\47,Trebuchet,Verdana,sans-serif', 'page_width': 'auto', 'header_background_gradient': 'none', 'post_margin_bottom': '45px', 'content_background_color': '#ffffff', 'link_visited_color': '#888888', 'header_text_color_transparent': 'rgba(0, 0, 0, 0)', 'tabs_margin_side': '30px', 'image_border_large_size': '5px', 'post_footer_background_color_transparent': 'rgba(238, 238, 238, 0)', 'main_border_width': '0', 'link_color': '#2288bb', 'paging_background_color': 'transparent', 'tabs_text_color_transparent': 'rgba(0, 0, 0, 0)', 'date_header_background_color_transparent': 'rgba(187, 187, 187, 0)', 'content_padding_horizontal': '40px', 'date_header_color_transparent': 'rgba(255, 255, 255, 0)', 'image_border_color_transparent': 'rgba(238, 238, 238, 0)', 'tabs_border_color_transparent': 'rgba(221, 221, 221, 0)', 'header_border_size': '1px', 'date_header_margin': 'inherit', 'footer_bevel': '1px', 'image_border_small_size': '2px', 'body_rule_color_transparent': 'rgba(0, 0, 0, 0)', 'content_shadow_spread_ie': '0', 'mobile_background_overlay': 'transparent none repeat scroll top left', 'image_background_color': '#ffffff', 'header_bottom_border_size': '0', 'page_width_selector': '.region-inner', 'date_header_background_color': '#bbbbbb', 'tabs_border_width': '1px', 'link_hover_color': '#33aaff', 'header_background_color': 'transparent', 'keycolor': '#ffffff', 'main_padding_bottom': '65px', 'post_footer_text_color': '#666666', 'tabs_margin_top': '0', 'link_color_transparent': 'rgba(34, 136, 187, 0)', 'header_background_color_transparent': 'rgba(0, 0, 0, 0)', 'date_header_letterspacing': '3px', 'body_background_override': '', 'description_text_size': '18px', 'post_footer_border_color_transparent': 'rgba(238, 238, 238, 0)', 'date_header_color': '#ffffff', 'header_shadow_offset_top': '0', 'header_border_horizontalsize': '1px', 'widget_title_font': 'normal bold 11px \47Trebuchet MS\47,Trebuchet,Verdana,sans-serif', 'body_background_gradient_tile': 'none', 'paging_background': 'transparent url(//www.blogblog.com/1kt/simple/paging_dot.png) repeat-x scroll top center', 'body_text_color': '#666666', 'content_padding': '10px', 'body_text_color_transparent': 'rgba(102, 102, 102, 0)', 'header_shadow_offset_left': '0', 'tabs_background_color': 'transparent', 'body_background_gradient_cap': 'none', 'main_padding_top': '35px', 'widget_alternate_text_color': '#999999', 'image_text_color': '#666666', 'content_background_color_transparent': 'rgba(255, 255, 255, 0)', 'content_shadow_spread_webkit': '0', 'mobile_button_color': '#ffffff', 'tabs_selected_text_color': '#000000', 'content_background_color_selector': '.content-inner', 'post_footer_border_color': '#eeeeee', 'link_hover_color_transparent': 'rgba(51, 170, 255, 0)', 'date_header_font': 'normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'tabs_background_gradient': 'none', 'header_font': 'normal normal 40px \47Trebuchet MS\47,Trebuchet,Verdana,sans-serif', 'startSide': 'right', 'link_visited_color_transparent': 'rgba(136, 136, 136, 0)', 'tabs_font': 'normal normal 12px \47Trebuchet MS\47, Trebuchet, Verdana, sans-serif', 'widget_title_text_color': '#000000', 'tabs_selected_background_color': '#eeeeee', 'endSide': 'left', 'date_header_padding': '0.4em', 'body_rule_color': 'transparent', 'body_background_color': '#ffffff', 'header_text_color': '#000000', 'main_padding': '0', 'mobile_button_color_transparent': 'rgba(255, 255, 255, 0)', 'body_font': 'normal normal 12px \47Trebuchet MS\47, Trebuchet, Verdana, sans-serif', 'header_padding': '0', 'tabs_selected_background_color_transparent': 'rgba(238, 238, 238, 0)'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'crosscol', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/718756760-lbx__ar.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/1060280877-lightbox_bundle_rtl.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar-right-1', null, document.getElementById('BlogArchive1'), {'languageDirection': 'rtl', 'loadingMessage': 'جار&#1613; التحميل...'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1', 'footer-3', null, document.getElementById('Attribution1'), {'attribution': 'نموذج Simple. تدعمه \74a href\75\47https://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'}, 'displayModeFull'));
+</script>
+</body>
+</html>

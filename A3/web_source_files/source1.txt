@@ -1,0 +1,3469 @@
+
+
+
+
+<!DOCTYPE html>
+<html class="no-js">
+<head prefix=" og: http://ogp.me/ns# article: http://ogp.me/ns/article# ">
+	<meta charset="utf-8">
+	<link rel="icon" type="image/ico" href="http://static.omelete.uol.com.br/static/img/favicon.ico?v35=nocache" />
+	<link rel="shortcut icon" type="image/x-icon" href="http://static.omelete.uol.com.br/static/img/favicon.ico?v35=nocache" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function c(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),c=a.length,u=0;c>u;u++)a[u].apply(i,r);return i}function u(t,e){p[t]=f(t).concat(e)}function f(t){return p[t]||[]}function s(){return r(c)}var p={};return{on:u,emit:c,create:s,listeners:f,context:e,_events:p}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!v++){var t=l.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(p,function(e,n){t[e]||(t[e]=n)});var n="https"===s.split(":")[0]||t.sslForHttp;l.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=l.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),c=t(1),u=window,f=u.document;t(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),l=e.exports={offset:i(),origin:s,features:{},xhrWrappable:d};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var v=0},{1:12,2:3,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],12:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],13:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}]},{},["G9z0Bl"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"48f7507bbb","agent":"","transactionName":"NlYGMEoAD0UEARZYDA8cIhFWAhVfCgxNXBYNRw0RSg1bWxAOFlgVCFYT","applicationID":"9342302","errorBeacon":"bam.nr-data.net","applicationTime":53}</script>
+	<title> 13 coisas que aprendemos com os teasers do Super Bowl | Omelete </title>
+	<meta name="copyright" content="(c) 2000-2015 Omelete" />
+	<meta name="description" content="13 coisas que aprendemos com os teasers do Super Bowl">
+
+	<!-- Webmaster Tools -->
+	<meta name="google-site-verification" content="hCFQMJWhgJvgAHP8WyJTpZfMfHVNMSa9GsTj39662_k" />
+	<!-- YouTube -->
+	<meta name="google-site-verification" content="iTPXZ1POnZq80tracAvjJuIfkwym9JjdRDOk-glyL1I" />
+	<!-- Pinterest -->
+	<meta name="p:domain_verify" content="e666affb1012fb19c957d470e41d349e" />
+	<!-- Google Plus -->
+	<link href="https://plus.google.com/115416604494251056860" rel="publisher" />
+	<!-- Facebook -->
+	<meta property="fb:admins" content="100001788848857,188800678017" />
+
+	<script src='http://static.omelete.uol.com.br/static/js/mobile_detector.js'> </script>
+
+	<link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic|Noto+Sans|Oswald:700,400,300|Bree+Serif' rel='stylesheet' type='text/css'>
+
+	<link href="http://static.omelete.uol.com.br/static/css/omelete-icons-embedded.css?v85=nocache" rel='stylesheet' type='text/css'>
+	<link href="http://static.omelete.uol.com.br/static/css/animation.css?v35=nocache" rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="http://static.omelete.uol.com.br/static/css/foundation/stylesheets/app.css?v35=nocache">
+	<link rel="stylesheet" href="http://static.omelete.uol.com.br/static/css/refatoracao/base.css?v95=still-alive">
+
+	<script src="http://static.omelete.uol.com.br/static/js/vendor/jquery-1.10.1.min.js"> </script>
+	<script src="http://static.omelete.uol.com.br/static/js/vendor/modernizr-2.6.2.min.js"> </script>
+	<script src="http://static.omelete.uol.com.br/static/js/jquery-throttle-debounce/jquery.ba-throttle-debounce.min.js"> </script>
+	<script src="http://static.omelete.uol.com.br/static/js/vendor/jquery.attrchange.min.js"> </script>
+
+	<script src="http://static.omelete.uol.com.br/static/js/main.js"> </script>
+	
+
+
+ <script src="http://static.omelete.uol.com.br/static/js/adblock-detector.js"> </script>
+ <script>
+
+ $(document).ready(function(){
+		 function adBlockNotDetected() {
+				 if (!(typeof ga === "undefined")) {
+						 ga('send', 'event', 'AdBlockDetector', 'AdBlock', 'Disabled/NotPresent');
+				 }
+		 }
+		 function adBlockDetected() {
+				 if (!(typeof ga === "undefined")) {
+						 ga('send', 'event', 'AdBlockDetector', 'AdBlock', 'Enabled');
+				 }
+		 }
+		 if(typeof blockAdBlock === 'undefined') {
+				 /* BlockAdblock not loaded/blocked */
+				 ga('send', 'event', 'AdBlockDetector', 'AdBlock', 'CouldNotVerify');
+		 } else {
+				 blockAdBlock.onDetected(adBlockDetected);
+				 blockAdBlock.onNotDetected(adBlockNotDetected);
+		 }
+ });
+ </script>
+
+
+	
+  <!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "20508152" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=20508152&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+	
+	<script type="text/javascript" src="http://static.omelete.uol.com.br/static/js/CM.js" > </script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"> </script>
+
+		<!-- Facebook Pixel Code -->
+		<script>
+		 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+     n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+     n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+     t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+     document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+     fbq('init', '1022132447830898');
+     fbq('track', "PageView");</script>
+     <noscript><img height="1" width="1" style="display:none"
+     src="https://www.facebook.com/tr?id=1022132447830898&ev=PageView&noscript=1"
+     /></noscript>
+		 <!-- End Facebook Pixel Code -->
+
+	
+	
+
+	<meta property="og:title" content="13 coisas que aprendemos com os teasers do Super Bowl" />
+	<meta property="og:description" content="Ação, heroínas, um pouco de fofura e um possível flop" />
+	<meta property="og:url" content="http://omelete.uol.com.br/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/" />
+	
+		<meta property="og:image" content="http://static.omelete.uol.com.br/media/extras/conteudos/CaprbBqUcAAgUXG.jpg" />
+	
+	<meta property="og:type" content="article" />
+	<meta property="og:locale" content="pt_BR" />
+	<meta property="og:site_name" content="Omelete" />
+	<meta content="2016-02-08T15:52:16-02:00" itemprop="datePublished" name="pubdate"/>
+
+	<script>
+		
+
+
+
+
+    if(Math.random() <= 0.2){
+        $.post("/omeletop/_conta_evento/", {
+            'evento': "ler",
+            'key': "conteudo:conteudo#105350",
+            'assunto': "secao:filmes",
+            
+                'filtros': ["secao:filmes", "tipo:lista"],
+            
+            
+        });
+    }
+
+
+
+		
+
+
+
+
+    if(Math.random() <= 0.2){
+        $.post("/omeletop/_conta_evento/", {
+            'evento': "relacionado",
+            'key': "conteudo:conteudo#105350",
+            'assunto': "secao:filmes",
+            
+                'filtros': ["secao:filmes", "tipo:lista"],
+            
+            
+        });
+    }
+
+
+
+	</script>
+	<style>
+		body {
+			overflow: auto import;
+		}
+	</style>
+	<script>
+	 fbq('track', 'ViewContent');
+	</script>
+
+    <link rel="stylesheet" type="text/css" href="http://static.omelete.uol.com.br/static/js/vendor/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="http://static.omelete.uol.com.br/static/js/vendor/slick/slick-theme.css"/>
+
+    <script src="http://static.omelete.uol.com.br/static/js/vendor/slick/slick.min.js"></script>
+
+
+	
+		<!-- UOL -->
+<script type="text/javascript">
+        window.universal_variable = window.universal_variable || {};
+        window.universal_variable.dfp = {
+            "custom_params" : {
+                "subchan" : "outros",
+                "chan": "paromeletecinema",
+							  
+            }
+        };
+        window.uolads = window.uolads || [];
+        ;(function() {
+            var scr = document.createElement("script");
+            scr.async = true;
+            scr.src =  "//tm.jsuol.com.br/uoltm.js?id=d2dijb";
+            var el = document.getElementsByTagName("script")[0];
+                el.parentNode.insertBefore(scr, el);
+        })();
+</script>
+
+
+	
+
+	
+
+	<!-- TailTarget Tag Manager TT-9804-3/CT-153 -->
+	<script>
+	(function(i) {
+		var ts = document.createElement('script');
+		ts.type = 'text/javascript';
+		ts.async = true;
+		ts.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'tags.t.tailtarget.com/t3m.js?i=' + i;
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ts, s);
+	})('TT-9804-3/CT-153');
+	</script>
+	<!-- End TailTarget Tag Manager -->
+
+  
+	
+</head>
+
+<body class="secao-filmes
+	
+	
+	
+">
+
+	
+	
+  
+	
+	
+	
+	
+
+	<script>
+		function interstitial_closed() {
+			try {
+				modal.destroy();
+			} catch(err){ }
+
+			var $div = $('.omelete-ad.masthead');
+			if($div.length){
+				show_masthead($div);
+			}
+		}
+	</script>
+
+	
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+	
+
+      <div id='omelete-ad-dhtml'
+           class="omelete-ad dhtml center-translate  ">
+        <script>
+         function ap(){
+           if (typeof dhtml_updater === 'function') {
+             var parallax_div = $('.parallax');
+             if (parallax_div.length) {
+               parallax_div.off('scroll', dhtml_updater);
+             }
+             else {
+               $(window).off('scroll', dhtml_updater);
+             }
+           }
+           $('#omelete-ad-dhtml').remove();
+         }
+        </script>
+        
+
+      </div>
+
+      
+
+
+	<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5SRBHB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5SRBHB');</script>
+<!-- End Google Tag Manager -->
+
+	<div class="wrapper" 
+	
+		itemscope itemtype="http://schema.org/Article"
+	
+ style="border-top: 1px solid #fff;"> 
+		<div class="omelete-ad superbanner-uol">
+			<!-- AD-SUPERBANNER -->
+			
+
+
+
+
+
+
+
+    <div id="banner-728x90-area"><script>window.uolads && window.uolads.push({ id: "banner-728x90-area" });</script></div>
+
+    
+
+
+
+
+
+
+			<!-- AD-SUPERBANNER -->
+		</div>
+
+		<header id="menu-fluid" class="header">
+			
+
+<div class="correct-height">
+    <div class="js-menu menu-top row">
+
+        <script>
+            function update_login_corner(){
+                setTimeout(function(){
+                    var req = $.get("/cadastro/_login_corner/?" + new Date().getTime().toString() +" #meu-omelete");
+                    req.done(function(data){
+                        $('#meu-omelete-wrapper').html(data);
+                    });
+									  req.success(function(data, textStatus, jqXHR){
+											$('#meu-omelete').html(data);
+											if (jqXHR.status == 200 && ($(data).find('.super-power').length == 1)){
+												$('body').addClass('super-power');
+											}
+											else if (jqXHR.status == 304)
+											{
+												$('body').removeClass('super-power');
+											}
+											else {
+												$('body').removeClass('super-power');
+											}
+										});
+                }, 0);
+            }
+        </script>
+
+        <div class="logo medium-4 large-4 columns extra-gutter-top">
+            <a href="/">
+                <img src="http://static.omelete.uol.com.br/static/omelete_lexcorp_up.png" alt="Omelete" />
+
+                <span class="schema-only" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                    <span itemprop="name" content="Omelete" />
+                    <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                        <span itemprop="addressCountry" content="Brazil"></span>
+                        <span itemprop="addressLocality" content="São Paulo"></span>
+                    </span>
+                    <span itemprop="founder" itemscope itemtype="http://schema.org/Person">
+                        <span itemprop="name" content="Érico Borgo"></span>
+                        <span itemprop="name" content="Marcelo Forlani"></span>
+                        <span itemprop="name" content="Marcelo Hessel"></span>
+                    </span>
+                </span>
+            </a>
+						<style>
+						 .logo-lexcorp {
+							 position: absolute;
+							 top: 42px;
+							 left: 3px;
+							 }
+						 .menu-middle .logo-lexcorp {
+							 top:26px;
+							 left: -4px;
+						 }
+						</style>
+						<a href='http://omelete.uol.com.br/filmes/noticia/ccxp-2015-grupo-omelete-anuncia-parceria-com-a-americana-lexcorp/'>
+							<img src="http://static.omelete.uol.com.br/static/omelete_lexcorp_down.png"
+									 alt="LexCorp"
+									 class='logo-lexcorp' />
+						</a>
+        </div>
+
+        <div class="search medium-14 large-14 columns extra-gutter-top">
+            <div class="row">
+                <form action="/busca/" method="GET">
+                    <div class="search-box medium-10 large-10 columns">
+                        <input type="text" placeholder="Digite o que você procura" name="q"/>
+                    </div>
+                    <input type='submit' value='Buscar' class="btn light medium-3 large-3 columns"/>
+                    <div class="medium-3 large-3 columns"></div>
+                </form>
+            </div>
+        </div>
+
+        <div id="meu-omelete-wrapper" class="login medium-6 large-6 columns">
+            
+
+<div id='meu-omelete' class="login-area">
+        
+            <a id="login" href="#inline_content">
+                Entrar
+            </a>
+        
+        
+            <a id="cadastro" href="/cadastro/signup/">
+                Cadastro
+            </a>
+            
+
+            <script>
+                $(document).ready(function(){
+                    $('#meu-omelete #login').click(function(ev){
+                        ev.stopPropagation();
+                        $.get("/cadastro/_modal_login/", function(content){
+                            var modal = picoModal({
+                                content: '<div id="modal_placeholder"></div>',
+                                overlayClose: false,
+                                closeHtml: "<div class='secao-home'><div class='btn exception-btn-mobile-login-modal'>X</div></div>",
+                                closeStyles: {
+                                    position: "absolute", top: "5px", right: "25px",
+                                    background: "#eee", padding: "0px 0px", cursor: "pointer",
+                                    borderRadius: "0px", border: "0px solid #ccc"
+                                }
+                            });
+                            modal.afterCreate(function(modal_, ev){
+                                var $content = $(content);
+                                $content.appendTo('#modal_placeholder');
+                            });
+                            modal.show();
+                            $('.pico-content').css({'left': '50%', 'top':'50%', 'transform': 'translate(-50%, -50%)', 'width': '570px' });
+                        });
+                    });
+                });
+            </script>
+            <script type="text/javascript" src="http://static.omelete.uol.com.br/static/js/pico_modal_2_0_1/src/picoModal.js" ></script>
+        
+</div>
+
+        </div>
+        <script>
+            update_login_corner();
+        </script>
+
+        <nav role="navigation" class="navegador medium-18 large-18 columns extra-gutter-top">
+            <ul>
+                <li class="secao-home root-item"><a href="/"><span class='icon-home'></span></a></li>
+                
+<li class="secao-filmes root-item">
+    
+        
+            <a href="/filmes/">
+                Filmes
+            </a>
+        
+    
+
+
+    
+    <div class="dropdown-container">
+        <div class="dropdown">
+            <!-- BEFORE -->
+            <div class="list-subitem">
+                <div>
+                    <div class="destaque">
+                        
+
+<div class="destaque size-170xauto
+     
+       secao-filmes
+     ">
+  <div class="imagem">
+    <a href="http://omelete.uol.com.br/videos/omele-tv/o-futuro-de-deadpool-nos-filmes-dos-x-men-omeletv/">
+      <img alt=""
+           src="http://static.omelete.uol.com.br/media/filer_public_thumbnails/filer_public/86/aa/86aa30f3-fb30-4387-8eaf-64633012cb19/dp2.jpg__170x108_q85_crop_subsampling-2_upscale.jpg"
+           width="170"
+           height="108">
+    </a>
+  </div>
+
+  <div secao-filmes>
+    <a href="http://omelete.uol.com.br/videos/omele-tv/o-futuro-de-deadpool-nos-filmes-dos-x-men-omeletv/">
+      <div class="
+        
+          secao-filmes
+         texto">
+
+	O que vai acontecer com Deadpool agora?
+
+      </div>
+    </a>
+  </div>
+
+</div>
+
+
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        
+                            <li>
+                                <a href="http://omelete.uol.com.br/comic-con/">Comic Con</a>
+                            </li>
+                        
+                            <li>
+                                <a href="http://omelete.uol.com.br/oscar/">Oscar 2015</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/bilheteria-usa">Bilheteria USA</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/filmes/critica/">Críticas</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/filmes/noticia/">Notícias</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/filmes/artigo/">Artigos</a>
+                            </li>
+                        
+                            <li>
+                                <a href="http://omelete.uol.com.br/cinema-estreias-de-filmes-da-semana/">Estreias de Filmes</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/videos/trailers/">Trailers</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/filmes/cinemas/em-cartaz/">Filmes em Cartaz</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/filmes/omeletop/">Omeletop</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/filmes/entrevista/">Entrevistas</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/dvd-e-blu-ray/tudo/">DVDs e Blu-ray</a>
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <!-- AFTER -->
+        </div>
+    </div>
+    
+</li>
+
+
+
+
+                
+<li class="secao-series-tv root-item">
+    
+        
+            <a href="/series-tv/">
+                Séries e TV
+            </a>
+        
+    
+
+
+    
+    <div class="dropdown-container">
+        <div class="dropdown">
+            <!-- BEFORE -->
+            <div class="list-subitem">
+                <div>
+                    <div class="destaque">
+                        
+
+<div class="destaque size-170xauto
+     
+       secao-series-tv
+     ">
+  <div class="imagem">
+    <a href="http://omelete.uol.com.br/series-tv/artigo/better-call-saul-jimmy-mcgill-nasceu-para-ser-saul-goodman/">
+      <img alt=""
+           src="http://static.omelete.uol.com.br/media/filer_public_thumbnails/filer_public/6e/7a/6e7a437d-8328-416b-9ae1-f4f1a0077e66/better-call-saul.jpg__170x108_q85_crop_subsampling-2_upscale.jpg"
+           width="170"
+           height="108">
+    </a>
+  </div>
+
+  <div secao-filmes>
+    <a href="http://omelete.uol.com.br/series-tv/artigo/better-call-saul-jimmy-mcgill-nasceu-para-ser-saul-goodman/">
+      <div class="
+        
+          secao-series-tv
+         texto">
+
+	Em Better Call Saul, o importante é a jornada
+
+      </div>
+    </a>
+  </div>
+
+</div>
+
+
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        
+                            <li>
+                                <a href="/emmy/">Emmy 2015</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/calendario-de-estreias-na-tv">Calendário de Estreias na TV</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/series-tv/noticia/temporada-2015-2016-as-series-de-tv-canceladas-renovadas-e-todas-as-novidades/">Temporada 2015-2016</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/series-tv/critica/">Críticas</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/series-tv/entrevista/">Entrevistas</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/series-tv/artigo/">Artigos</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/series-tv/noticia/">Notícias</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/videos/trailers/">Trailers</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/dvd-e-blu-ray/tudo/">DVDs e Blu-ray</a>
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <!-- AFTER -->
+        </div>
+    </div>
+    
+</li>
+
+
+
+
+                
+<li class="secao-games root-item">
+    
+        
+            <a href="/games/">
+                Games
+            </a>
+        
+    
+
+
+    
+    <div class="dropdown-container">
+        <div class="dropdown">
+            <!-- BEFORE -->
+            <div class="list-subitem">
+                <div>
+                    <div class="destaque">
+                        
+
+<div class="destaque size-170xauto
+     
+       secao-games
+     ">
+  <div class="imagem">
+    <a href="http://omelete.uol.com.br/games/unravel/criticas/?key=105688">
+      <img alt=""
+           src="http://static.omelete.uol.com.br/media/filer_public_thumbnails/filer_public/fd/fe/fdfe42b0-89f8-42cc-83d6-7ed9aa22b760/unravel.jpg__170x108_q85_crop_subject_location-215%2C239_subsampling-2_upscale.jpg"
+           width="170"
+           height="108">
+    </a>
+  </div>
+
+  <div secao-filmes>
+    <a href="http://omelete.uol.com.br/games/unravel/criticas/?key=105688">
+      <div class="
+        
+          secao-games
+         texto">
+
+	Unravel é simples, mas tem muito coração
+
+      </div>
+    </a>
+  </div>
+
+</div>
+
+
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        
+                            <li>
+                                <a href="/games/noticia/">Notícias</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/games/critica/">Críticas</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/e3-2015">E3 2015</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/games/artigo/">Artigos</a>
+                            </li>
+                        
+                            <li>
+                                <a href="http://omelete.uol.com.br/games/lista/">Listas</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/videos/trailers/">Trailers</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/playstation-4">PlayStation 4</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/xbox-one">Xbox One</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/nintendo-wii-u">Wii U</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/busca/?secao=games&amp;geral=&amp;q=PCs">PC</a>
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <!-- AFTER -->
+        </div>
+    </div>
+    
+</li>
+
+
+
+
+                
+<li class="secao-quadrinhos root-item">
+    
+        
+            <a class="show-for-large-up" href="/quadrinhos/">
+                Quadrinhos
+            </a>
+        
+
+        
+            <a class="show-for-medium-down" href="/quadrinhos/">
+                HQS
+            </a>
+        
+    
+
+
+    
+    <div class="dropdown-container">
+        <div class="dropdown">
+            <!-- BEFORE -->
+            <div class="list-subitem">
+                <div>
+                    <div class="destaque">
+                        
+
+<div class="destaque size-170xauto
+     
+       secao-quadrinhos
+     ">
+  <div class="imagem">
+    <a href="http://omelete.uol.com.br/quadrinhos/noticia/conheca-cable-o-mutante-que-estara-em-deadpool-2/">
+      <img alt=""
+           src="http://static.omelete.uol.com.br/media/filer_public_thumbnails/filer_public/a1/32/a13217f2-6657-4d48-83ce-451f4420bac5/cable-deadpool.jpg__170x108_q85_crop_subsampling-2_upscale.jpg"
+           width="170"
+           height="108">
+    </a>
+  </div>
+
+  <div secao-filmes>
+    <a href="http://omelete.uol.com.br/quadrinhos/noticia/conheca-cable-o-mutante-que-estara-em-deadpool-2/">
+      <div class="
+        
+          secao-quadrinhos
+         texto">
+
+	Quem é Cable?
+
+      </div>
+    </a>
+  </div>
+
+</div>
+
+
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        
+                            <li>
+                                <a href="/quadrinhos/noticia/">Notícias</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/quadrinhos/critica/">Críticas</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/quadrinhos/artigo/">Artigos</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/dc-comics/">DC-Comics</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/marvel-comics/">Marvel Comics</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/joao-montanaro-tiras/">Tiras do Omelete por João Montanaro</a>
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <!-- AFTER -->
+        </div>
+    </div>
+    
+</li>
+
+
+
+
+                
+<li class="secao-musica root-item">
+    
+        
+            <a href="/musica/">
+                Música
+            </a>
+        
+    
+
+
+    
+    <div class="dropdown-container">
+        <div class="dropdown">
+            <!-- BEFORE -->
+            <div class="list-subitem">
+                <div>
+                    <div class="destaque">
+                        
+
+<div class="destaque size-170xauto
+     
+       secao-musica
+     ">
+  <div class="imagem">
+    <a href="http://omelete.uol.com.br/musica/noticia/grammy-2016-veja-a-lista-completa-dos-vencedores/">
+      <img alt=""
+           src="http://static.omelete.uol.com.br/media/filer_public_thumbnails/filer_public/55/06/55065d19-7938-4c14-b1b5-d3b4292a3a1d/grammy-2016.jpg__170x108_q85_crop_subsampling-2_upscale.jpg"
+           width="170"
+           height="108">
+    </a>
+  </div>
+
+  <div secao-filmes>
+    <a href="http://omelete.uol.com.br/musica/noticia/grammy-2016-veja-a-lista-completa-dos-vencedores/">
+      <div class="
+        
+          secao-musica
+         texto">
+
+	Os vencedores do Grammy 2016
+
+      </div>
+    </a>
+  </div>
+
+</div>
+
+
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        
+                            <li>
+                                <a href="/musica/noticia/">Notícias</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/musica/critica/">Críticas</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/musica/artigo/">Artigos</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/rock-in-rio">Rock in Rio</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/lollapalooza-brasil/">Lollapalooza Brasil</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/omelete-nights/">Omelete Nights</a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://soundcloud.com/siteomelete">Soundcloud</a>
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <!-- AFTER -->
+        </div>
+    </div>
+    
+</li>
+
+
+
+
+                
+<li class="secao-videos root-item">
+    
+        
+            <a href="/videos/">
+                Vídeos
+            </a>
+        
+    
+
+
+    
+    <div class="dropdown-container">
+        <div class="dropdown">
+            <!-- BEFORE -->
+            <div class="list-subitem">
+                <div>
+                    <div class="destaque">
+                        
+
+<div class="destaque size-170xauto
+     
+       secao-videos
+     ">
+  <div class="imagem">
+    <a href="http://omelete.uol.com.br/videos/omele-tv/o-futuro-de-deadpool-nos-filmes-dos-x-men-omeletv/">
+      <img alt=""
+           src="http://static.omelete.uol.com.br/media/filer_public_thumbnails/filer_public/86/aa/86aa30f3-fb30-4387-8eaf-64633012cb19/dp2.jpg__170x108_q85_crop_subsampling-2_upscale.jpg"
+           width="170"
+           height="108">
+    </a>
+  </div>
+
+  <div secao-filmes>
+    <a href="http://omelete.uol.com.br/videos/omele-tv/o-futuro-de-deadpool-nos-filmes-dos-x-men-omeletv/">
+      <div class="
+        
+          secao-videos
+         texto">
+
+	O que vai acontecer com Deadpool agora?
+
+      </div>
+    </a>
+  </div>
+
+</div>
+
+
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        
+                            <li>
+                                <a href="/videos/omele-tv/">OmeleTV</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/videos/hyperdrive/">Hyperdrive</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/videos/bloco-x/">Bloco X</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/videos/trailers/">Trailers</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/videos/trailers-comentados/">Trailers Comentados</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/videos/entrevistas/">Omelete Entrevista</a>
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <!-- AFTER -->
+        </div>
+    </div>
+    
+</li>
+
+
+
+
+
+                
+<li class="secao-esports root-item">
+    
+        
+            <a href="/esports/">
+                eSports
+            </a>
+        
+    
+
+
+    
+    <div class="dropdown-container">
+        <div class="dropdown">
+            <!-- BEFORE -->
+            <div class="list-subitem">
+                <div>
+                    <div class="destaque">
+                        
+
+<div class="destaque size-170xauto
+     
+       secao-esports
+     ">
+  <div class="imagem">
+    <a href="http://omelete.uol.com.br/esports/noticia/street-fighter-v-rapper-lupe-fiasco-vence-o-lendario-lutador-daigo-assista/">
+      <img alt=""
+           src="http://static.omelete.uol.com.br/media/filer_public_thumbnails/filer_public/fd/45/fd452f0e-7ad5-406c-8401-6f8bfe87ce9a/sfv-lupe-fiasco.jpg__170x108_q85_crop_subsampling-2_upscale.jpg"
+           width="170"
+           height="108">
+    </a>
+  </div>
+
+  <div secao-filmes>
+    <a href="http://omelete.uol.com.br/esports/noticia/street-fighter-v-rapper-lupe-fiasco-vence-o-lendario-lutador-daigo-assista/">
+      <div class="
+        
+          secao-esports
+         texto">
+
+	Rapper vence o lendário Daigo; assista
+
+      </div>
+    </a>
+  </div>
+
+</div>
+
+
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        
+                            <li>
+                                <a href="/esports/noticia/">Notícias</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/esports/artigo/">Artigos</a>
+                            </li>
+                        
+                            <li>
+                                <a href="/esports/entrevista/">Entrevistas</a>
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <!-- AFTER -->
+        </div>
+    </div>
+    
+</li>
+
+
+
+
+								
+<li class="secao-omelete-clube root-item">
+    
+            <a target="blank" href="http://www.omeleteclube.com.br">
+                Omelete Clube
+            </a>
+    
+
+
+    <div class="dropdown-container omelete-nights-menu">
+        <div class="dropdown">
+            <!-- BEFORE -->
+            <div class="list-subitem">
+                <div>
+                    <ul>
+                      <li>
+                        <a href="/omelete-nights-clube/">Omelete Nights</a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- AFTER -->
+        </div>
+    </div>
+</li>
+
+
+                <li class="secao-padrao root-item menu-exception-1-1"><a href="#"><span class='icon-plus'></span></a>
+    <div class="dropdown-container secao-padrao">
+        <div class="dropdown">
+            <!-- BEFORE -->
+            <div class="list-subitem">
+                <div>
+                    <ul>
+                        <li class='secao-colunistas'><a href="/colunistas/tudo/">Colunistas</a></li>
+		        <li class='secao-humor'><a href="/humor/">Humor</a></li>
+                        <li class='secao-promocao'><a href="/promocoes/">Promoções</a></li>
+                        <li class='secao-personalidades'><a href="/personalidades/">Personalidades</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- AFTER -->
+        </div>
+    </div>
+</li>
+
+            </ul>
+        </nav>
+
+
+
+        <div class="omelete-social medium-7 large-6 columns" style="margin-top: -35px;">
+          <div class='omelete-ad halfbanner'>
+            <div class="omelete-ad-titulo">Oferecimento</div>
+                
+
+
+
+
+
+
+
+    <div id="banner-300x58-area"><script>window.uolads && window.uolads.push({ id: "banner-300x58-area" });</script></div>
+
+    
+
+
+
+
+
+
+          </div>
+        </div>
+    </div>
+</div>
+
+<script type='text/javascript'>
+ function update_menu_omelete(event) {
+   var nav = $('.js-menu');
+   var skin = $('.js-skin-teste');
+   var menu_holder = $('.correct-height');
+   if ($(this).scrollTop() > 180) {
+     nav.addClass("menu-middle");
+     nav.removeClass("menu-top");
+     if (menu_holder.find('.js-menu').length != 0) {
+       $('body').append(nav);
+     }
+     skin.addClass("skin-fixed");
+   } else {
+     nav.addClass("menu-top");
+     nav.removeClass("menu-middle");
+     if (menu_holder.find('.js-menu').length == 0) {
+       menu_holder.append(nav);
+     }
+     skin.removeClass("skin-fixed");
+   }
+ };
+ $(document).ready(function() {
+   var parallax_div = $('.parallax');
+   if (parallax_div.length){
+     parallax_div.scroll($.throttle(150, update_menu_omelete));
+   }
+   else {
+     $(window).scroll($.throttle(150, update_menu_omelete));
+   }
+ });
+</script>
+
+		</header>
+
+		
+
+		
+		<script>
+			if(typeof modal === 'object'){
+				modal.afterClose(interstitial_closed);
+				var $div = $('.omelete-ad.masthead');
+				if ($div.length){
+					hide_masthead($div);
+				}
+			}
+		</script>
+
+		<div id="conteudo" role="main">
+			
+	
+	
+	
+
+
+
+    <style>
+        .skin-sidelink{
+            display: none !important;
+        }
+    </style>
+
+<div class="skin-teste js-skin-teste"></div>
+
+
+	<div class="skin skin-container">
+    
+    <a class="skin-sidelink skin-sidelink-loading" href="#" target="_blank"></a>
+    <div class="skin-inner-content  ">
+      <a class="skin-toplink" href="#" target="_blank"></a>
+
+
+	<script>
+
+	function scroll_sidebar_callback(selector, space, countdown_space, margin_exception) {
+	var $sidebar = $(selector);
+	var extra_space =  space;
+	var uol_space = $('.omelete-ad.superbanner-uol').outerHeight(true) + $('.js-barra-uol').outerHeight(true);
+	var content_top = $('.js-content-header').height() + $('.correct-height').height() + uol_space - 48 - margin_exception;
+	/*
+	 * Those 48 pixels are a the size of the floating menu, its hardcoded in CSS to 3rem (48px)
+	 */
+    var content_height = $('.article-main').height();
+    var sidebar_height = extra_space + $sidebar.height();
+
+    var head_height = content_top + extra_space + countdown_space;
+    /* If the content is smaller than the sidebars, do nothing */
+    if(sidebar_height >= content_height){
+        return;
+    }
+
+	if ($(window).scrollTop() - head_height <= 0 ) {
+		$sidebar.removeClass('floating');
+		$sidebar.removeClass('fixed-bottom');
+		$sidebar.css('top', 'initial');
+	}
+	else if (($(window).scrollTop() - head_height >= 0) && !($(window).scrollTop() - content_top >= ($('.article-main').height() - $sidebar.height()))) {
+		if ($sidebar.hasClass('fixed-bottom')) {
+			$sidebar.removeClass('fixed-bottom');
+		}
+
+		if (!$sidebar.hasClass('floating')){
+			$sidebar.addClass('floating');
+			$sidebar.css('top', 'initial');
+		}
+	}
+	else {
+		$(selector).removeClass('floating');
+		if($(window).scrollTop() - content_top >= ($('.article-main').height() - $sidebar.height() - countdown_space)) {
+			$sidebar.css('top', $('.article-main').height() - $sidebar.height() - countdown_space);
+			$sidebar.addClass('fixed-bottom');
+		}
+	}
+}
+
+
+	 function sidebar_callback() {
+		var marginException =  0 ; // Compensa a margem negativa dada ao conteudo por conta do banner
+		scroll_sidebar_callback('.js-scroll-left-sidebar', 0, 0, marginException);
+		var countdownSpace =  0 ; // Compensa o espaço que o banner contagem cria ao empurrar a side-right
+		var extra_space = $('.js-right-sidebar-static').height();
+		scroll_sidebar_callback('.js-scroll-right-sidebar', extra_space, countdownSpace, marginException);
+	 }
+
+	 $(document).ready(function() {
+		 $(window).scroll($.throttle(150, sidebar_callback));
+		 sidebar_callback();
+	 });
+
+	</script>
+
+	<div class='white' >
+		<div class="row container-detalhe container-960 js-content-header content-header padding-top-for-skin">
+			<div class="medium-16 large-18 columns">
+				<div class="row">
+					<div class="medium-24 medium-offset-0 large-20 large-offset-4 columns">
+						<div class="widget social-share">
+	<div class="items">
+		<div class="row">
+			<div class="medium-8 large-8 columns">
+				<div class="item icon-facebook">
+					<a target="_blank" href='http://facebook.com/sharer.php?u=http://omelete.com.br/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/'>Mande para o Facebook</a>
+				</div>
+			</div>
+			<div class="medium-8 large-8 columns left">
+				<a class="item icon-twitter" href="https://twitter.com/intent/tweet?original_referer=http://omelete.uol.com.br/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/&url=http://omelete.uol.com.br/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/&via=omelete"  target="_blank">
+					Mande para o Twitter
+				</a>
+			</div>
+			
+			<div class="medium-8 large-8 columns end">
+				<a class="item icon-disqus" href="#omelete_disqus">
+					<span class="text-disqus"> Discuta aqui no site </span>
+				</a>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+
+						
+
+						<div class="content content-header">
+							<span class="secao secao-filmes"  itemprop="articleSection" content=Filmes >
+								filmes
+							</span>
+
+							<h1 class="title" itemprop="name">
+								13 coisas que aprendemos com os teasers do Super Bowl
+							</h1>
+
+							<span class="schema-only" itemprop="headline" content="13 coisas que aprendemos com os teasers do Super Bowl"></span>
+
+							<div class="subtitle" itemprop="description">
+									Ação, heroínas, um pouco de fofura e um possível flop
+							</div>
+
+							<div class="date">
+								<span itemprop="datePublished" content="2016-02-08 - 15:52">
+									08/02/2016 - 15:52
+								</span>
+								 - 
+
+								<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+									<span itemprop="name" itemproperty="author">
+										Natália Bridi
+									</span>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+
+			<div class="medium-8 large-6 columns conteudo-gutter-top">
+				<div class='omelete-ad arroba'>
+					
+
+
+
+
+
+  
+		<div id="banner-300x250-area"><script>window.uolads && window.uolads.push({ id: "banner-300x250-area" });</script></div>
+	
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+
+		<div class="row container-detalhe container-960 ">
+			<div class="medium-16 large-18 columns">
+				<div class="row">
+
+					<div class="medium-24 large-20 columns right">
+						<div class="content content-body"  itemprop="articleBody" >
+							<div class="article-main"><p>O <a href="/super-bowl/"><strong>Super Bowl </strong></a>&#233; a maior audi&#234;ncia da TV dos EUA. Ou seja, &#233; a chance de apresentar para um grande e diversificado p&#250;blico o mais variado tipo de produtos, incluindo os grandes lan&#231;amentos cinematogr&#225;ficos do ano. O pre&#231;o salgado para anunciar no espa&#231;o - US$ 5 milh&#245;es por 30 segundos - faz com que os est&#250;dios preparem teasers deliberadamente editados para conquistar o espectador, focando na grandiosidade de cada longa. A seguir, listamos um pouco do que aprendemos com as pr&#233;vias divulgadas esse ano:</p><html><head><link rel="stylesheet" href="http://static.omelete.uol.com.br/static/js/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="http://static.omelete.uol.com.br/static/js/photoswipe/default-skin/default-skin.css">
+<script src="http://static.omelete.uol.com.br/static/js/photoswipe/photoswipe.min.js"> </script>
+<script src="http://static.omelete.uol.com.br/static/js/photoswipe/photoswipe-ui-default.min.js"> </script>
+
+
+
+
+
+
+
+
+  
+
+
+
+    <script type="text/javascript">
+      
+          
+               
+
+
+
+          
+      
+    </script>
+
+
+
+
+
+    </head><body><div class="gallery list-content">
+        <div class="gallery-head">
+        <span class="title">
+             13 coisas que aprendemos com os teasers do Super Bowl  
+        </span>
+            <div class="right">
+                <div class="counter">
+                    <span>1 de 13</span>
+                </div>
+
+                
+                    <div class="social-icon">
+                        <div>
+                            <a class="fb-share" target="_blank" href="http://facebook.com/sharer.php?u=http://omelete.com.br/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/">
+                                <span class="icon-share-facebook"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="social-icon">
+                        <a class="twitter-share" href="https://twitter.com/intent/tweet?original_referer=http://omelete.com.br/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/&amp;url=http://omelete.com.br/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/&amp;via=omelete" target="_blank">
+                            <span class="icon-share-twitter"></span>
+                        </a>
+                    </div>
+                
+
+            </div>
+        </div>
+
+        <div class="outer-gallery">
+            <div class="gallery-main">
+                
+                    <div class="gallery-item-big">
+                        <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/gotham-metropolis-menor.jpg" data-url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/1/" data-img_local_url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/1/">
+                                
+
+                        <div class="description">
+													
+													  <span class="title">
+														  Batman Vs Superman   A Origem da Justi&#231;a:
+													  </span>
+													
+													<p>A Turkish Airlines, parceira a&#233;rea oficial do filme, aproveitou o espa&#231;o do Super Bowl para lan&#231;ar um viral no ponto para conquistar os f&#227;s. Apresentados por <strong>Bruce Wayne</strong> e <strong>Lex Luthor</strong>, os v&#237;deos transportam o espectador para Gotham e Metr&#243;polis e d&#227;o esperan&#231;a de que o diretor<strong> Zack Snyder </strong>usar&#225; as cidades n&#227;o s&#243; como o palco do embate entre her&#243;is, mas como personagens, com suas devidas personalidades. Estreia no Brasil: 24 de mar&#231;o. <a href="/filmes/noticia/batman-vs-superman-bruce-wayne-e-lex-luthor-apresentam-ghotam-e-metropolis-nos-videos-do-super-bowl/"><strong>Assista aos comerciais</strong></a>.</p>
+                        </div>
+                    </div>
+                
+                    <div class="gallery-item-big">
+                        <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/deadpool_ys2Wwi5.jpg" data-url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/2/" data-img_local_url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/2/">
+                                
+
+                        <div class="description">
+													
+													  <span class="title">
+														  Deadpool:
+													  </span>
+													
+													<p>O comercial do mercen&#225;rio tagarela n&#227;o quis assustar o p&#250;blico e focou mais na a&#231;&#227;o. O filme, que levou a classifica&#231;&#227;o R (em que menores de idade precisam ir ao cinema acompanhado dos pais), far&#225; a sua estreia em 3400 salas dos EUA. Ser&#225; que <em>Deadpool </em>vai conseguir dominar as bilheterias norte-americanas? Estreia no Brasil: 11 de fevereiro. <strong><a href="/filmes/criticas/deadpool/">Leia a cr&#237;tica</a></strong> e assista ao <a href="/filmes/noticia/deadpool-e-muita-acao-no-comercial-do-super-bowl/"><strong>comercial</strong></a>.</p>
+                        </div>
+                    </div>
+                
+                    <div class="gallery-item-big">
+                        <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/paramount-pictures-10-cloverfield-lane-1.jpg" data-url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/3/" data-img_local_url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/3/">
+                                
+
+                        <div class="description">
+													
+													  <span class="title">
+														  Rua Cloverfield, 10 :
+													  </span>
+													
+													<p>O derivado de <a href="http://omelete.uol.com.br/filmes/cloverfield-monstro/"><em>Cloverfield </em></a>(2008) apresentou um pouco melhor sua trama. Desenvolvido em segredo pela <strong>Bad Robot</strong> de<strong> J.J. Abrams</strong>, o longa mostrar&#225; um homem e uma mulher que acabam nas m&#227;os de um lun&#225;tico que sempre esteve preparado para o apocalipse. Estreia no Brasil: 7 de abril. <a href="/filmes/noticia/rua-cloverfield-10-comercial-do-super-bowl-apresenta-trama-do-derivado/"><strong>Assista ao comercial</strong></a>.</p>
+                        </div>
+                    </div>
+                
+                    <div class="gallery-item-big">
+                        <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/jungle0003.jpg" data-url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/4/" data-img_local_url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/4/">
+                                
+
+                        <div class="description">
+													
+													  <span class="title">
+														  Mogli: O Menino Lobo :
+													  </span>
+													
+													<p>O trailer aproveitou a presen&#231;a da fam&#237;lia americana nas salas de casa para mostrar a sua mistura de realismo e fantasia. Cenas da pr&#233;via exibida na D23, como o urso Baloo (<strong>Bill Murray</strong>) cantando a cl&#225;ssica "Somente o necess&#225;rio" alimentam tanto a nostalgia de quem conhece a vers&#227;o animada quanto o p&#250;blico que vai descobrir a adapta&#231;&#227;o do cl&#225;ssico de<strong> Rudyard Kipling</strong> pela primeira vez. Estreia no Brasil: 14 de abril.<a href="/filmes/noticia/mogli-o-menino-lobo-trailer-do-super-bowl-revela-novos-detalhes-da-versao-live-action/"><strong> Assista ao trailer</strong></a>.</p>
+                        </div>
+                    </div>
+                
+                    <div class="gallery-item-big">
+                        <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/eddie-the-eagle-01.jpg" data-url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/5/" data-img_local_url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/5/">
+                                
+
+                        <div class="description">
+													
+													  <span class="title">
+														  Voando Alto:
+													  </span>
+													
+													<p>A cinebiografia ol&#237;mpica estrelada por <strong>Taron Egerton</strong> e <strong>Hugh Jackman </strong>focou no lado motivacional da hist&#243;ria do&#160;campe&#227;o ol&#237;mpico de esqui Eddie Edwards, prometendo um filme inspirador. Estreia no Brasil: 31 de mar&#231;o. <a href="/filmes/noticia/voando-alto-ganha-comercial-sobre-inspiracao-para-o-super-bowl/"><strong>Veja o comercial</strong></a>.</p>
+                        </div>
+                    </div>
+                
+                    <div class="gallery-item-big">
+                        <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/4fPagT1.gif" data-url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/6/" data-img_local_url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/6/">
+                                
+
+                        <div class="description">
+													
+													  <span class="title">
+														  Jason Bourne:
+													  </span>
+													
+													<p>O novo filme da franquia com <strong>Matt Damon </strong>no elenco e <strong>Paul Greengrass </strong>na dire&#231;&#227;o revelou seu t&#237;tulo e primeiras cenas, prometendo todo o poder de fogo da arma perfeita. "<em>Eu sei quem eu sou. Eu lembro de tudo</em>", declara Bourne na pr&#233;via. Estreia no Brasil: 29 de julho.<a href="/filmes/noticia/jason-bourne-comercial-do-super-bowl-apresenta-o-novo-filme-com-matt-damon/"><strong> Assista ao teaser</strong></a>.</p>
+                        </div>
+                    </div>
+                
+                    <div class="gallery-item-big">
+                        <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/dxs1kzeauydxgjjxh4u6.gif" data-url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/7/" data-img_local_url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/7/">
+                                
+
+                        <div class="description">
+													
+													  <span class="title">
+														  As Tartarugas Ninja 2   Fora das Sombras :
+													  </span>
+													
+													<p>O segundo filme da nova vers&#227;o vai abra&#231;ar os elementos cl&#225;ssicos e bizarros da franquia, revelando Krang, Technodrome, al&#233;m de Bebop e Rocksteady, vistos no primeiro trailer oficial. Estreia no Brasil: 2 de junho. <a href="/filmes/noticia/as-tartarugas-ninja-2-ameaca-se-aproxima-em-novo-teaser-do-super-bowl/"><strong>Assista aos comerciais</strong></a>.</p>
+                        </div>
+                    </div>
+                
+                    <div class="gallery-item-big">
+                        <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/Screenshot_2016-02-07_20.04.41.0.0.png" data-url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/8/" data-img_local_url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/8/">
+                                
+
+                        <div class="description">
+													
+													  <span class="title">
+														  Hulk Vs Homem Formiga:
+													  </span>
+													
+													<p>O embate que n&#227;o vai rolar nos cinemas, j&#225; que o Gigante Esmeralda n&#227;o est&#225; em<em> Guerra Civil</em>, aconteceu em um comercial de refrigerante. Al&#233;m de divertido, o v&#237;deo serve para mostrar como a Marvel pode explorar as escalas dos seus personagens no futuro (em <em>Guerra Infinita</em>, por exemplo). <a href="http://omelete.uol.com.br/humor/noticia/hulk-e-homem-formiga-disputam-refrigerante-em-comercial-do-super-bowl/"><strong>Assista ao comercial</strong></a>.</p>
+                        </div>
+                    </div>
+                
+                    <div class="gallery-item-big">
+                        <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/maxresdefault_2JpydlF.jpg" data-url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/9/" data-img_local_url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/9/">
+                                
+
+                        <div class="description">
+													
+													  <span class="title">
+														  Deuses do Egito:
+													  </span>
+													
+													<p>O longa de <strong>Alex Proyas </strong>vai estrear em amplo circuito nos EUA, mas &#233; dif&#237;cil prever se suas cores carnavalescas e seu elenco caucasiano no Egito v&#227;o agradar ao p&#250;blico. O trufo pode estar no uso do 3D, como um filme de parque de divers&#245;es. Estreia no Brasil: 25 de fevereiro. <a href="/filmes/noticia/deuses-do-egito-comercial-do-super-bowl-foca-no-embate-entre-gerard-butler-e-nikolaj-coster-waldau/"><strong>Assista ao comercial</strong></a></p>
+                        </div>
+                    </div>
+                
+                    <div class="gallery-item-big">
+                        <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/q545WSQ.gif" data-url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/10/" data-img_local_url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/10/">
+                                
+
+                        <div class="description">
+													
+													  <span class="title">
+														  X Men: Apocalipse:
+													  </span>
+													
+													<p>A pr&#233;via focou nos quatro Cavaleiros de Apocalipse e no clima de guerra, revelando quem deve ser a grande estrela do filme: a Psylocke de Olivia Munn. Estreia no Brasil: 19 de maio. <a href="/filmes/noticia/x-men-apocalipse-muita-destruicao-no-teaser-do-super-bowl/"><strong>Assista ao teaser</strong></a>.</p>
+                        </div>
+                    </div>
+                
+                    <div class="gallery-item-big">
+                        <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/independece.jpg" data-url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/11/" data-img_local_url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/11/">
+                                
+
+                        <div class="description">
+													
+													  <span class="title">
+														  Independence Day: O Ressurgimento:
+													  </span>
+													
+													<p>O comercial da continua&#231;&#227;o mostrou o upgrade no poder de fogo alien&#237;gena, que agora destr&#243;i cidades inteiras com a mesma facilidade com que destru&#237;a a Casa Branca. Estreia no Brasil: 23 de junho. <a href="/filmes/noticia/independence-day-o-ressurgimento-ganha-comercial-patriotico-no-super-bowl/"><strong>Assista ao teaser</strong></a>.</p>
+                        </div>
+                    </div>
+                
+                    <div class="gallery-item-big">
+                        <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/pets-18junho2015-06.jpg" data-url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/12/" data-img_local_url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/12/">
+                                
+
+                        <div class="description">
+													
+													  <span class="title">
+														  Pets   A Vida Secreta dos Bichos:
+													  </span>
+													
+													<p>A anima&#231;&#227;o dos criadores <em>Meu Malvado Favorito</em>&#160;e&#160;<em>Minions</em> focou em ganhar o p&#250;blico pela fofura no sua vers&#227;o animal de Toy Story. Estreia no Brasil: 25 de agosto. <a href="/filmes/noticia/pets-a-vida-secreta-dos-bichos-teaser-do-super-bowl-apresenta-o-toy-story-animal/"><strong>Assista ao comercial</strong></a>.</p>
+                        </div>
+                    </div>
+                
+                    <div class="gallery-item-big">
+                        <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/guerracivil.jpg" data-url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/13/" data-img_local_url="/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/13/">
+                                
+
+                        <div class="description">
+													
+													  <span class="title">
+														  Capit&#227;o Am&#233;rica: Guerra Civil :
+													  </span>
+													
+													<p>O teaser - embalado pelo coro "<em>Unidos, venceremos. Divididos, cairemos</em>" - focou nos lados do embate (e at&#233; promoveu uma batalha e emojis durante o jogo, com a vit&#243;ria apertada para Steve Rogers). A maior novidade no v&#237;deo, por&#233;m, al&#233;m da oficializa&#231;&#227;o dos times de her&#243;is, foi o rel&#243;gio/armadura de Tony Stark e o novo capacete do Homem-Formiga. Estreia no Brasil: 28 de abril. <a href="/filmes/noticia/capitao-america-guerra-civil-mostra-os-dois-lados-da-batalha-no-comercial-do-super-bowl/"><strong>Assista ao teaser</strong></a>.</p>
+                        </div>
+                    </div>
+                
+            </div>
+
+            <span class="icon-mobile-fullscreen"></span>
+            <span class="icon-right-open"></span>
+            <span class="icon-left-open"></span>
+            <span class="icon-cancel close-fullscreen"></span>
+						<div class="close-btn tablet">
+              <span class="icon-cancel close-floating">Fechar</span>
+            </div>
+        </div>
+
+        <div class="infos-fullscreen">
+            <div class="counter">
+                <span class="borderless">1 de 13</span>
+            </div>
+            <span class="right-icon-gallery-omelete js-btn-show-all">Ver todas</span>
+            <span class="right-icon-menu js-btn-show-text">Ver Texto</span>
+            <div class="social-share">
+
+                
+                    <div class="social-icon">
+                        <div>
+                            <a class="fb-share" target="_blank" href="http://facebook.com/sharer.php?u=http://omelete.com.br/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/">
+                                <span class="icon-share-facebook borderless"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="social-icon">
+                        <a class="twitter-share" href="https://twitter.com/intent/tweet?original_referer=http://omelete.com.br/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/&amp;url=http://omelete.com.br/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/&amp;via=omelete" target="_blank">
+                            <span class="icon-share-twitter borderless"></span>
+                        </a>
+                    </div>
+                
+
+            </div>
+        </div>
+
+        <div class="gallery-slider">
+            
+                <div class="gallery-item pk-100169">
+                    <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/gotham-metropolis-menor.jpg.65x50_q85_crop_upscale.jpg">
+                </div>
+            
+                <div class="gallery-item pk-100170">
+                    <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/deadpool_ys2Wwi5.jpg.65x50_q85_crop_upscale.jpg">
+                </div>
+            
+                <div class="gallery-item pk-100171">
+                    <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/paramount-pictures-10-cloverfield-lane-1.jpg.65x50_q85_crop_upscale.jpg">
+                </div>
+            
+                <div class="gallery-item pk-100172">
+                    <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/jungle0003.jpg.65x50_q85_crop_upscale.jpg">
+                </div>
+            
+                <div class="gallery-item pk-100173">
+                    <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/eddie-the-eagle-01.jpg.65x50_q85_crop_upscale.jpg">
+                </div>
+            
+                <div class="gallery-item pk-100174">
+                    <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/4fPagT1.gif.65x50_q85_crop_upscale.jpg">
+                </div>
+            
+                <div class="gallery-item pk-100175">
+                    <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/dxs1kzeauydxgjjxh4u6.gif.65x50_q85_crop_upscale.png">
+                </div>
+            
+                <div class="gallery-item pk-100176">
+                    <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/Screenshot_2016-02-07_20.04.41.0.0.png.65x50_q85_crop_upscale.png">
+                </div>
+            
+                <div class="gallery-item pk-100177">
+                    <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/maxresdefault_2JpydlF.jpg.65x50_q85_crop_upscale.jpg">
+                </div>
+            
+                <div class="gallery-item pk-100178">
+                    <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/q545WSQ.gif.65x50_q85_crop_upscale.jpg">
+                </div>
+            
+                <div class="gallery-item pk-100179">
+                    <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/independece.jpg.65x50_q85_crop_upscale.jpg">
+                </div>
+            
+                <div class="gallery-item pk-100180">
+                    <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/pets-18junho2015-06.jpg.65x50_q85_crop_upscale.jpg">
+                </div>
+            
+                <div class="gallery-item pk-100181">
+                    <img data-lazy="http://static.omelete.uol.com.br/media/uploads/conteudo/fotos/guerracivil.jpg.65x50_q85_crop_upscale.jpg">
+                </div>
+            
+
+        </div>
+
+        <div class="right-panel js-right-panel">
+            <div class="close-btn">
+                <span class="icon-cancel close-floating">Fechar</span>
+            </div>
+            <span class="title">Outras Listas:</span>
+
+            <div class="galleries-list">
+                
+                    <div class="lst-item">
+                        <a href="/series-tv/lista/demolidor-9-detalhes-do-trailer-da-segunda-temporada/">
+                            <img src="http://static.omelete.uol.com.br/media/extras/conteudos/dd20415151280jpg-a24b92_1280w.jpg.90x60_q85_crop_upscale.jpg">
+                            <span class="name">Demolidor | 9 detalhes do trailer da segunda temporada</span>
+                        </a>
+                    </div>
+                
+                    <div class="lst-item">
+                        <a href="/quadrinhos/lista/justiceiro-a-trajetoria-do-anti-heroi-nos-quadrinhos/">
+                            <img src="http://static.omelete.uol.com.br/media/extras/conteudos/Justiceiro-presents-punisher.jpg.90x60_q85_crop_upscale.jpg">
+                            <span class="name">Justiceiro: A trajet&#243;ria do anti her&#243;i nos quadrinhos</span>
+                        </a>
+                    </div>
+                
+                    <div class="lst-item">
+                        <a href="/games/lista/as-5-maiores-transformacoes-de-street-fighter-v/">
+                            <img src="http://static.omelete.uol.com.br/media/extras/conteudos/ken.jpg.90x60_q85_crop_upscale.jpg">
+                            <span class="name">As 5 maiores transforma&#231;&#245;es de Street Fighter V</span>
+                        </a>
+                    </div>
+                
+                    <div class="lst-item">
+                        <a href="/filmes/lista/15-filmes-que-quebram-a-quarta-parede/">
+                            <img src="http://static.omelete.uol.com.br/media/extras/conteudos/maxresdefault_Kmx4vnj.jpg.90x60_q85_crop_upscale.jpg">
+                            <span class="name">15 filmes que quebram a quarta parede</span>
+                        </a>
+                    </div>
+                
+            </div>
+            <div class="omelete-ad arroba">
+							<div class="omelete-ad-titulo">Publicidade</div>
+                
+
+
+
+
+
+  
+		<div id="banner-300x250-5-area"><script>window.uolads && window.uolads.push({ id: "banner-300x250-5-area" });</script></div>
+	
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+		    
+  		 function track_on_change(acao){
+				 var currentSlide = $('.gallery-main').slick('slickCurrentSlide');
+				 var $slides = $('.gallery-main .gallery-item-big img');
+				 var img_url = $slides[currentSlide].dataset['img_local_url'];
+
+				 /* Omniture */
+				 if (typeof hitOmniturePhoto === "function") {
+					 hitOmniturePhoto(img_url);
+				 } 
+
+				 if (!(typeof ga === "undefined")) {
+					 //ga('send', 'event', [eventCategory], [eventAction], [eventLabel], [eventValue], [fieldsObject]);
+					 ga('send', 'event', 'Galeria', acao, img_url);
+					 // ga('send', 'pageview', img_url);
+					 ga('send', {
+						 hitType: 'pageview',
+						 page: img_url,
+					 });
+				 }
+			 }
+
+        function activate_gallery_mode_aberto(){
+            $('.omelete-overlay').addClass('active');
+            $('.right-panel.js-right-panel').show();
+            $('.gallery').addClass('floating');
+            var top = ($(window).height() - $('.gallery').height())/2;
+            $('.gallery').css('top', top);
+
+					  
+
+					  $('.slick-current.slick-active').focus()[0].focus();
+        }
+
+        function deactivate_gallery_mode_aberto(){
+            $('.omelete-overlay').removeClass('active');
+            $('.right-panel.js-right-panel').hide();
+            $('.gallery').removeClass('floating');
+            $('.gallery').css('top', 0);
+  					$('.js-menu').css('z-index', 110);
+					  $('.slick-current.slick-active').focus()[0].focus();
+					  $('.gallery-slider').attr('style', '');
+					  $('.gallery-slider').resize();
+        }
+
+        function activate_fullscreen() {
+            var $gallery = $('.gallery');
+            $gallery.addClass('fullscreen');
+            $gallery.css('top', 0);
+            $('.gallery-item-big').height($('.gallery').height() - 70);
+            $('.gallery-main').resize();
+					  $('.gallery').css('top', top);
+
+					  
+					  $('.slick-current.slick-active').focus()[0].focus();
+        }
+
+        function deactivate_fullscreen() {
+            var $gallery = $('.gallery');
+            var $gallery_main = $('.gallery-main');
+
+            $gallery.removeClass('fullscreen');
+            $('.gallery-item-big').height(427);
+            $gallery_main.resize();
+            deactivate_gallery_mode_aberto();
+
+            $('.gallery').removeClass('show-slider');
+            $('.gallery-slider').removeClass('center-translateX');
+            //$('.gallery-slider').width(732);
+					  // $('.gallery-slider').width($('.gallery').width());
+
+					  $('.gallery-slider').attr('style', '');
+					  $('.gallery-slider').resize();
+
+					  
+
+            reload_main_slick();
+            reload_slider_slick();
+					  $('.slick-current.slick-active').focus()[0].focus();
+        }
+
+        function init_main_slick(slide){
+            $('.gallery-main').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                fade: true,
+                focusOnSelect: true,
+                asNavFor: '.gallery-slider',
+                lazyLoad: 'ondemand',
+                initialSlide: slide,
+							  adaptiveHeight: true,
+            });
+        }
+
+        function init_slider_slick(slide) {
+					var conf_dict = {
+            slidesToShow: 7,
+            slidesToScroll: 1,
+            asNavFor: '.gallery-main',
+            centerMode: true,
+            focusOnSelect: true,
+            lazyLoad: 'ondemand',
+            centerPadding: '60px',
+            initialSlide: slide,
+            swipeToSlide: true,
+          };
+
+					var num_fotos = $('.gallery-slider .gallery-item').length;
+					if( num_fotos <= 7) {
+						conf_dict['centerMode'] = false;
+						conf_dict['initialSlide'] = 0;
+						conf_dict['slidesToShow'] = num_fotos;
+					}
+          $('.gallery-slider').slick(conf_dict);
+					
+					if( num_fotos <= 7) {
+						/* 
+						 * Select the correct slide on slick-slider when there is just a few photos
+						 */
+						$('.gallery-slider .gallery-item.slick-current').removeClass('slick-current');
+						$('.gallery-slider .gallery-item[data-slick-index=' + slide + ']').addClass('slick-current');
+					}
+        }
+
+        function reload_slider_slick(){
+            var slide = $('.gallery-main').slick('slickCurrentSlide');
+            $('.gallery-slider').slick('unslick');
+            init_slider_slick(slide);
+        }
+
+        function reload_main_slick(){
+            var slide = $('.gallery-main').slick('slickCurrentSlide');
+            $('.gallery-main').slick('unslick');
+            init_main_slick(slide);
+        }
+
+		 function close_gallery(){
+       if($('.gallery').hasClass('floating')){
+         deactivate_gallery_mode_aberto();
+       }
+			 if($('.gallery').hasClass('fullscreen')){
+				 deactivate_fullscreen();
+			 }							
+		 }
+     
+		 $(document).ready(function() {
+
+					  
+              $('body').prepend('<div class="omelete-overlay">');
+					  
+
+            init_main_slick();
+
+            $('.gallery-main').on('beforeChange', function(slick, currentSlide, nextSlide){
+                if(!$('.gallery').hasClass('floating') && !$('.gallery').hasClass('fullscreen')){
+                    activate_gallery_mode_aberto();
+                }
+            });
+	    var secao = "Galeria-filmes";
+            $('.gallery-main').on('afterChange', function(event, slick, currentSlide){
+							  if ($('.gallery').hasClass('floating') && !$('.gallery').hasClass('fullscreen')) {
+									window.uolads.push({ id: "banner-300x250-5-area" });
+							                ga('send', 'event', secao, 'changePhotoWithBanner','');
+							                track_on_change('changePhotoWithBanner');
+								}
+							  else{
+							                ga('send', 'event', secao, 'changePhotoNoBanner','');
+							                track_on_change('changePhotoNoBanner');
+							 
+							        }
+							  
+							  /* 
+								 * Select the correct slide on slick-slider when there is just a few photos
+								 */
+							  $('.gallery-slider .gallery-item.slick-current').removeClass('slick-current');
+							  $('.gallery-slider .gallery-item[data-slick-index=' + currentSlide + ']').addClass('slick-current');
+
+
+                var $slide = $(slick.$slides.get(currentSlide));
+                var $img = $slide.find('img');
+                var url = $img.data('url');
+                try{
+                    window.history.replaceState(url, url, url);
+                }
+                catch(err){}
+
+                var count_txt = ' de 13';
+                count_txt = (currentSlide + 1) + count_txt;
+                $counter = $('.counter span');
+                $counter.html(count_txt);
+
+                url = encodeURIComponent(url);
+
+                var fb_share_url = 'http://facebook.com/sharer.php?u=http://omelete.com.br';
+                fb_share_url += url;
+
+                var twitter_share_url = 'https://twitter.com/intent/tweet?url=http://omelete.com.br';
+                var twitter_share_url_text = '&text=';
+                var twitter_share_url_end = '&via=omelete';
+
+                twitter_share_url += url + twitter_share_url_text + twitter_share_url_end;
+
+                $('a.fb-share').attr('href', fb_share_url);
+                $('a.twitter-share').attr('href', twitter_share_url);
+
+							  $('.slick-current.slick-active').focus()[0].focus();
+            });
+
+            init_slider_slick();
+
+            $('.icon-left-open').click(function(){
+                $('.gallery-main').slick('slickPrev');
+            });
+
+            $('.icon-right-open').click(function(){
+                $('.gallery-main').slick('slickNext');
+            });
+
+            $('.js-btn-show-text').click(function(){
+							if($('.gallery').hasClass('show-slider')){
+                $('.gallery').removeClass('show-slider');
+                $('.gallery-slider').removeClass('center-translateX');
+                $('.gallery-slider').width(732);
+              }
+              $('.gallery').toggleClass('show-description');
+							$('.slick-current.slick-active').focus()[0].focus();
+            });
+
+            $('.icon-mobile-fullscreen').click(function(){
+
+                activate_fullscreen();
+            });
+
+            $('.close-btn').click(function(){
+                deactivate_gallery_mode_aberto();
+            });
+
+            $('.icon-cancel').click(function(){
+                deactivate_fullscreen();
+            });
+
+            $('.js-btn-show-all').click(function(){
+                if($('.gallery').hasClass('show-slider')){
+                    $('.gallery').removeClass('show-slider');
+                    $('.gallery-slider').removeClass('center-translateX');
+                    $('.gallery-slider').width(732);
+                }
+                else {
+                    $('.gallery').addClass('show-slider');
+                    $('.gallery-slider').addClass('center-translateX');
+                    $('.gallery-slider').width($('.gallery').width());
+									  $('.gallery').removeClass('show-description');
+                }
+              reload_slider_slick();
+							$('.slick-current.slick-active').focus()[0].focus();
+            });
+
+            $(document).keyup(function(e) {
+                if (e.keyCode == 27) { // escape key maps to keycode `27`
+									close_gallery();
+                }
+            });
+
+					  $('.omelete-overlay').click(close_gallery);
+        });
+    </script>
+
+
+    <script>
+        function prepare_ad_galeria(){
+            
+            var $ad_galeria = $('<div></div>');
+            $ad_galeria.html(
+                    "<div class='ad-container'>" +
+                    "<iframe src=" + "'/banner-dhtml/70/filmes/0/'" +
+                    "class='banner-iframe arroba'" +
+                    "frameborder='0'" +
+                    "marginheight='0'" +
+                    "marginwidth='0'" +
+                    "scrolling='no'" +
+                    "allowtransparency='true'" +
+                    ">" +
+                    "<iframe/>" +
+                    "</div>"
+            );
+            return $ad_galeria;
+        }
+    </script>
+
+
+
+
+
+
+
+<div class="huge-extra-gutter-top">
+    
+        <h2 class="content-list-title">MAIS LISTAS</h2>
+        
+            
+                
+
+
+<div class="include search-content-type secao-series-tv">
+	<div class="row">
+		<div class="medium-6 large-5 columns">
+			<a href="/series-tv/lista/demolidor-9-detalhes-do-trailer-da-segunda-temporada/%20">
+				<img class="secao-series-tv" alt="" src="http://static.omelete.uol.com.br/media/extras/conteudos/dd20415151280jpg-a24b92_1280w.jpg.145x100_q85_crop_upscale.jpg" width="145" height="100">
+			</a>
+		</div>
+
+
+		<div class="medium-18 large-19 columns">
+			<div class="details">
+                
+	                <span class="secao-series-tv type">
+	                    S&#233;ries e TV | Lista
+	                </span>
+				
+				<span class="date">
+						 - 15/02 | 16h11
+				</span>
+				<div class="call">
+					<a href="/series-tv/lista/demolidor-9-detalhes-do-trailer-da-segunda-temporada/">
+                        <span class="ellipsis-4-line">
+                            <span class="title">
+                            	Demolidor | 9 detalhes do trailer da segunda temporada
+                            </span>
+                            <br>
+                            <span class="subtitle">
+                            	Justiceiro, Elektra e muita bagun&#231;a em Hell's Kitchen
+                            </span>
+                        </span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+            
+        
+            
+                
+
+
+<div class="include search-content-type secao-quadrinhos">
+	<div class="row">
+		<div class="medium-6 large-5 columns">
+			<a href="/quadrinhos/lista/justiceiro-a-trajetoria-do-anti-heroi-nos-quadrinhos/%20">
+				<img class="secao-quadrinhos" alt="" src="http://static.omelete.uol.com.br/media/extras/conteudos/Justiceiro-presents-punisher.jpg.145x100_q85_crop_upscale.jpg" width="145" height="100">
+			</a>
+		</div>
+
+
+		<div class="medium-18 large-19 columns">
+			<div class="details">
+                
+	                <span class="secao-quadrinhos type">
+	                    Quadrinhos | Lista
+	                </span>
+				
+				<span class="date">
+						 - 15/02 | 15h45
+				</span>
+				<div class="call">
+					<a href="/quadrinhos/lista/justiceiro-a-trajetoria-do-anti-heroi-nos-quadrinhos/">
+                        <span class="ellipsis-4-line">
+                            <span class="title">
+                            	Justiceiro: A trajet&#243;ria do anti-her&#243;i nos quadrinhos
+                            </span>
+                            <br>
+                            <span class="subtitle">
+                            	Da viol&#234;ncia nos anos 1970 &#224; reinven&#231;&#227;o, 40 anos de hist&#243;rias memor&#225;veis
+                            </span>
+                        </span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+            
+        
+            
+                
+
+
+<div class="include search-content-type secao-games">
+	<div class="row">
+		<div class="medium-6 large-5 columns">
+			<a href="/games/lista/as-5-maiores-transformacoes-de-street-fighter-v/%20">
+				<img class="secao-games" alt="" src="http://static.omelete.uol.com.br/media/extras/conteudos/ken.jpg.145x100_q85_crop_upscale.jpg" width="145" height="100">
+			</a>
+		</div>
+
+
+		<div class="medium-18 large-19 columns">
+			<div class="details">
+                
+	                <span class="secao-games type">
+	                    Games | Lista
+	                </span>
+				
+				<span class="date">
+						 - 15/02 | 0h51
+				</span>
+				<div class="call">
+					<a href="/games/lista/as-5-maiores-transformacoes-de-street-fighter-v/">
+                        <span class="ellipsis-4-line">
+                            <span class="title">
+                            	As 5 maiores transforma&#231;&#245;es de Street Fighter V
+                            </span>
+                            <br>
+                            <span class="subtitle">
+                            	Saiba o que mudou nos lutadores antigos que est&#227;o de cara nova
+                            </span>
+                        </span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+            
+        
+            
+                
+
+
+<div class="include search-content-type secao-filmes">
+	<div class="row">
+		<div class="medium-6 large-5 columns">
+			<a href="/filmes/lista/15-filmes-que-quebram-a-quarta-parede/%20">
+				<img class="secao-filmes" alt="" src="http://static.omelete.uol.com.br/media/extras/conteudos/maxresdefault_Kmx4vnj.jpg.145x100_q85_crop_upscale.jpg" width="145" height="100">
+			</a>
+		</div>
+
+
+		<div class="medium-18 large-19 columns">
+			<div class="details">
+                
+	                <span class="secao-filmes type">
+	                    Filmes | Lista
+	                </span>
+				
+				<span class="date">
+						 - 12/02 | 18h21
+				</span>
+				<div class="call">
+					<a href="/filmes/lista/15-filmes-que-quebram-a-quarta-parede/">
+                        <span class="ellipsis-4-line">
+                            <span class="title">
+                            	15 filmes que quebram a quarta parede
+                            </span>
+                            <br>
+                            <span class="subtitle">
+                            	Quando o cinema fala com voc&#234;
+                            </span>
+                        </span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+            
+        
+            
+                
+
+
+<div class="include search-content-type secao-filmes">
+	<div class="row">
+		<div class="medium-6 large-5 columns">
+			<a href="/filmes/lista/deadpool-a-longa-trajetoria-do-filme-ate-os-cinemas/%20">
+				<img class="secao-filmes" alt="" src="http://static.omelete.uol.com.br/media/extras/conteudos/2_OEGizUw_e8zdslO.jpg.145x100_q85_crop_upscale.jpg" width="145" height="100">
+			</a>
+		</div>
+
+
+		<div class="medium-18 large-19 columns">
+			<div class="details">
+                
+	                <span class="secao-filmes type">
+	                    Filmes | Lista
+	                </span>
+				
+				<span class="date">
+						 - 11/02 | 18h47
+				</span>
+				<div class="call">
+					<a href="/filmes/lista/deadpool-a-longa-trajetoria-do-filme-ate-os-cinemas/">
+                        <span class="ellipsis-4-line">
+                            <span class="title">
+                            	Deadpool | A longa trajet&#243;ria do mercen&#225;rio tagarela para chegar aos cinemas
+                            </span>
+                            <br>
+                            <span class="subtitle">
+                            	16 anos de luta pela zoeira
+                            </span>
+                        </span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+            
+        
+            
+                
+
+
+<div class="include search-content-type secao-filmes">
+	<div class="row">
+		<div class="medium-6 large-5 columns">
+			<a href="/filmes/lista/batman-vs-superman-11-segredos-do-novo-trailer/%20">
+				<img class="secao-filmes" alt="" src="http://static.omelete.uol.com.br/media/extras/conteudos/2_BRyzKBe.jpg.145x100_q85_crop_upscale.jpg" width="145" height="100">
+			</a>
+		</div>
+
+
+		<div class="medium-18 large-19 columns">
+			<div class="details">
+                
+	                <span class="secao-filmes type">
+	                    Filmes | Lista
+	                </span>
+				
+				<span class="date">
+						 - 11/02 | 15h43
+				</span>
+				<div class="call">
+					<a href="/filmes/lista/batman-vs-superman-11-segredos-do-novo-trailer/">
+                        <span class="ellipsis-4-line">
+                            <span class="title">
+                            	Batman Vs Superman | 11 segredos do novo trailer
+                            </span>
+                            <br>
+                            <span class="subtitle">
+                            	Longa chega aos cinemas em mar&#231;o
+                            </span>
+                        </span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+            
+        
+            
+                
+
+
+<div class="include search-content-type secao-filmes">
+	<div class="row">
+		<div class="medium-6 large-5 columns">
+			<a href="/filmes/lista/10-apostas-para-o-festival-de-berlim-2016/%20">
+				<img class="secao-filmes" alt="" src="http://static.omelete.uol.com.br/media/extras/conteudos/berlinale-2016.jpg.145x100_q85_crop_upscale.jpg" width="145" height="100">
+			</a>
+		</div>
+
+
+		<div class="medium-18 large-19 columns">
+			<div class="details">
+                
+	                <span class="secao-filmes type">
+	                    Filmes | Lista
+	                </span>
+				
+				<span class="date">
+						 - 11/02 | 11h35
+				</span>
+				<div class="call">
+					<a href="/filmes/lista/10-apostas-para-o-festival-de-berlim-2016/">
+                        <span class="ellipsis-4-line">
+                            <span class="title">
+                            	10 apostas para o Festival de Berlim 2016
+                            </span>
+                            <br>
+                            <span class="subtitle">
+                            	Fic&#231;&#227;o cient&#237;fica e horror v&#227;o passar pela Alemanha
+                            </span>
+                        </span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+            
+        
+            
+                
+
+
+<div class="include search-content-type secao-series-tv">
+	<div class="row">
+		<div class="medium-6 large-5 columns">
+			<a href="/series-tv/lista/the-flash-as-22-diferencas-entre-a-terra-1-e-a-terra-2/%20">
+				<img class="secao-series-tv" alt="" src="http://static.omelete.uol.com.br/media/extras/conteudos/The-Flash-Terra-2-08.png.145x100_q85_crop_upscale.png" width="145" height="100">
+			</a>
+		</div>
+
+
+		<div class="medium-18 large-19 columns">
+			<div class="details">
+                
+	                <span class="secao-series-tv type">
+	                    S&#233;ries e TV | Lista
+	                </span>
+				
+				<span class="date">
+						 - 10/02 | 22h22
+				</span>
+				<div class="call">
+					<a href="/series-tv/lista/the-flash-as-22-diferencas-entre-a-terra-1-e-a-terra-2/">
+                        <span class="ellipsis-4-line">
+                            <span class="title">
+                            	The Flash | As 22 diferen&#231;as entre a Terra-1 e a Terra-2
+                            </span>
+                            <br>
+                            <span class="subtitle">
+                            	Venha ver o que mudou quando Barry cruzou o portal
+                            </span>
+                        </span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+            
+        
+            
+                
+
+
+<div class="include search-content-type secao-series-tv">
+	<div class="row">
+		<div class="medium-6 large-5 columns">
+			<a href="/series-tv/lista/24-maratonas-para-fazer-no-carnaval/%20">
+				<img class="secao-series-tv" alt="" src="http://static.omelete.uol.com.br/media/extras/conteudos/Arquivo-X_0kEjf9l.jpg.145x100_q85_crop_upscale.jpg" width="145" height="100">
+			</a>
+		</div>
+
+
+		<div class="medium-18 large-19 columns">
+			<div class="details">
+                
+	                <span class="secao-series-tv type">
+	                    S&#233;ries e TV | Lista
+	                </span>
+				
+				<span class="date">
+						 - 06/02 | 10h00
+				</span>
+				<div class="call">
+					<a href="/series-tv/lista/24-maratonas-para-fazer-no-carnaval/">
+                        <span class="ellipsis-4-line">
+                            <span class="title">
+                            	24 maratonas para fazer no Carnaval
+                            </span>
+                            <br>
+                            <span class="subtitle">
+                            	Prefere passar as festas no sof&#225;? Ent&#227;o vem com a gente que &#233; sucesso!
+                            </span>
+                        </span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+            
+        
+            
+                
+
+
+<div class="include search-content-type secao-filmes">
+	<div class="row">
+		<div class="medium-6 large-5 columns">
+			<a href="/filmes/lista/17-filmes-de-acao-para-fugir-do-carnaval/%20">
+				<img class="secao-filmes" alt="" src="http://static.omelete.uol.com.br/media/extras/conteudos/heres-how-the-insane-vehicles-were-created-in-mad-max-fury-road.jpg.145x100_q85_crop_upscale.png" width="145" height="100">
+			</a>
+		</div>
+
+
+		<div class="medium-18 large-19 columns">
+			<div class="details">
+                
+	                <span class="secao-filmes type">
+	                    Filmes | Lista
+	                </span>
+				
+				<span class="date">
+						 - 05/02 | 17h07
+				</span>
+				<div class="call">
+					<a href="/filmes/lista/17-filmes-de-acao-para-fugir-do-carnaval/">
+                        <span class="ellipsis-4-line">
+                            <span class="title">
+                            	17 filmes de a&#231;&#227;o para fugir do carnaval
+                            </span>
+                            <br>
+                            <span class="subtitle">
+                            	Op&#231;&#245;es para quem quer a&#231;&#227;o na sala de casa, n&#227;o nas ruas
+                            </span>
+                        </span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+            
+        
+            
+                
+
+
+<div class="include search-content-type secao-filmes">
+	<div class="row">
+		<div class="medium-6 large-5 columns">
+			<a href="/filmes/lista/10-vezes-que-leonardo-dicaprio-poderia-ter-ganhado-o-oscar/%20">
+				<img class="secao-filmes" alt="" src="http://static.omelete.uol.com.br/media/extras/conteudos/billyzaneleonardodicapriotitanic.jpg.CROP.promo-xlarge2.jpg.145x100_q85_crop_upscale.jpg" width="145" height="100">
+			</a>
+		</div>
+
+
+		<div class="medium-18 large-19 columns">
+			<div class="details">
+                
+	                <span class="secao-filmes type">
+	                    Filmes | Lista
+	                </span>
+				
+				<span class="date">
+						 - 04/02 | 18h24
+				</span>
+				<div class="call">
+					<a href="/filmes/lista/10-vezes-que-leonardo-dicaprio-poderia-ter-ganhado-o-oscar/">
+                        <span class="ellipsis-4-line">
+                            <span class="title">
+                            	10 vezes que Leonardo DiCaprio poderia ter ganhado o Oscar
+                            </span>
+                            <br>
+                            <span class="subtitle">
+                            	Ator j&#225; virou meme por conta das esnobadas da Academia
+                            </span>
+                        </span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+            
+        
+            
+                
+
+
+<div class="include search-content-type secao-quadrinhos">
+	<div class="row">
+		<div class="medium-6 large-5 columns">
+			<a href="/quadrinhos/lista/os-18-maiores-absurdos-de-deadpool/%20">
+				<img class="secao-quadrinhos" alt="" src="http://static.omelete.uol.com.br/media/extras/conteudos/dp-mobydick.jpg.145x100_q85_crop_upscale.jpg" width="145" height="100">
+			</a>
+		</div>
+
+
+		<div class="medium-18 large-19 columns">
+			<div class="details">
+                
+	                <span class="secao-quadrinhos type">
+	                    Quadrinhos | Lista
+	                </span>
+				
+				<span class="date">
+						 - 03/02 | 17h44
+				</span>
+				<div class="call">
+					<a href="/quadrinhos/lista/os-18-maiores-absurdos-de-deadpool/">
+                        <span class="ellipsis-4-line">
+                            <span class="title">
+                            	Os 18 maiores absurdos de Deadpool
+                            </span>
+                            <br>
+                            <span class="subtitle">
+                            	Momentos cl&#225;ssicos de nonsense e humor negro nos quadrinhos
+                            </span>
+                        </span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+            
+        
+            
+                
+
+
+<div class="include search-content-type secao-esports">
+	<div class="row">
+		<div class="medium-6 large-5 columns">
+			<a href="/esports/lista/seis-jogos-competitivos-para-ficar-ligado-em-2016/%20">
+				<img class="secao-esports" alt="" src="http://static.omelete.uol.com.br/media/extras/conteudos/street-fighter-5-03.jpg.145x100_q85_crop_upscale.jpg" width="145" height="100">
+			</a>
+		</div>
+
+
+		<div class="medium-18 large-19 columns">
+			<div class="details">
+                
+	                <span class="secao-esports type">
+	                    eSports | Lista
+	                </span>
+				
+				<span class="date">
+						 - 03/02 | 12h57
+				</span>
+				<div class="call">
+					<a href="/esports/lista/seis-jogos-competitivos-para-ficar-ligado-em-2016/">
+                        <span class="ellipsis-4-line">
+                            <span class="title">
+                            	6 jogos competitivos para ficar ligado em 2016
+                            </span>
+                            <br>
+                            <span class="subtitle">
+                            	Selecionamos os lan&#231;amentos do ano para os f&#227;s de eSports
+                            </span>
+                        </span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+            
+        
+            
+                
+
+
+<div class="include search-content-type secao-filmes">
+	<div class="row">
+		<div class="medium-6 large-5 columns">
+			<a href="/filmes/lista/10-coisas-que-voce-nao-sabia-sobre-robert-de-niro/%20">
+				<img class="secao-filmes" alt="" src="http://static.omelete.uol.com.br/media/extras/conteudos/dirty-grandpa_kokhB0T.jpg.145x100_q85_crop_upscale.jpg" width="145" height="100">
+			</a>
+		</div>
+
+
+		<div class="medium-18 large-19 columns">
+			<div class="details">
+                
+	                <span class="secao-filmes type">
+	                    Filmes | Lista
+	                </span>
+				
+				<span class="date">
+						 - 03/02 | 12h40
+				</span>
+				<div class="call">
+					<a href="/filmes/lista/10-coisas-que-voce-nao-sabia-sobre-robert-de-niro/">
+                        <span class="ellipsis-4-line">
+                            <span class="title">
+                            	10 coisas que voc&#234; n&#227;o sabia sobre Robert De Niro
+                            </span>
+                            <br>
+                            <span class="subtitle">
+                            	Ator estrela Tirando o Atraso, que chega aos cinemas nesta quinta
+                            </span>
+                        </span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+            
+        
+            
+                
+
+
+<div class="include search-content-type secao-games">
+	<div class="row">
+		<div class="medium-6 large-5 columns">
+			<a href="/games/lista/8-games-que-surgiram-de-outras-franquias/%20">
+				<img class="secao-games" alt="" src="http://static.omelete.uol.com.br/media/extras/conteudos/games-outras-franquias.jpg.145x100_q85_crop_upscale.jpg" width="145" height="100">
+			</a>
+		</div>
+
+
+		<div class="medium-18 large-19 columns">
+			<div class="details">
+                
+	                <span class="secao-games type">
+	                    Games | Lista
+	                </span>
+				
+				<span class="date">
+						 - 02/02 | 19h24
+				</span>
+				<div class="call">
+					<a href="/games/lista/8-games-que-surgiram-de-outras-franquias/">
+                        <span class="ellipsis-4-line">
+                            <span class="title">
+                            	7 games que surgiram de outras franquias
+                            </span>
+                            <br>
+                            <span class="subtitle">
+                            	Antes de chegarem &#224;s lojas, estes projetos eram bem diferentes
+                            </span>
+                        </span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+            
+        
+
+        
+            
+
+        
+    
+</div>
+
+</body></html></div>
+						</div>
+
+						
+							<span class="schema-only" itemprop="image" content="http://static.omelete.uol.com.br/media/extras/conteudos/CaprbBqUcAAgUXG.jpg"></span>
+						
+						
+						
+
+						<div class="social-share-box">
+						    <div class="widget social-share">
+	<div class="items">
+		<div class="row">
+			<div class="medium-8 large-8 columns">
+				<div class="item icon-facebook">
+					<a target="_blank" href='http://facebook.com/sharer.php?u=http://omelete.com.br/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/'>Mande para o Facebook</a>
+				</div>
+			</div>
+			<div class="medium-8 large-8 columns left">
+				<a class="item icon-twitter" href="https://twitter.com/intent/tweet?original_referer=http://omelete.uol.com.br/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/&url=http://omelete.uol.com.br/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/&via=omelete"  target="_blank">
+					Mande para o Twitter
+				</a>
+			</div>
+			
+			<div class="medium-8 large-8 columns end">
+				<a class="item icon-disqus" href="#omelete_disqus">
+					<span class="text-disqus"> Discuta aqui no site </span>
+				</a>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+						</div>
+					</div>
+
+					<div class="medium-24 large-4 columns right">
+						<div class='js-scroll-left-sidebar right-sidebar'>
+							<div class='js-wiget-ultimas-novidades'>
+	<span class="icon-load animate-spin" style="font-size: 20px;"></span>
+</div>
+
+<script>
+ $('.js-wiget-ultimas-novidades').load("/conteudos/partial/_widget-ultimas/");
+</script>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="medium-8 large-6 columns conteudo-gutter-top">
+				<div class='js-right-sidebar-static'>
+				  
+					
+				  
+					<div class='omelete-ad arroba conteudo-gutter-top'>
+						
+
+
+
+
+
+  
+		<div id="banner-300x250-2-area"><script>window.uolads && window.uolads.push({ id: "banner-300x250-2-area" });</script></div>
+	
+
+
+
+
+
+					</div>
+				</div>
+
+				<div class='js-scroll-right-sidebar'>
+					<div class='omelete-ad widesky'>
+						
+
+
+
+
+
+  
+		<div id="banner-300x600-area"><script>window.uolads && window.uolads.push({ id: "banner-300x600-area" });</script></div>
+	
+
+
+
+
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+		
+		<div class="row container-detalhe container-960 fix-spacing-bottom-row">
+			<div class="medium-16 large-15 large-offset-3 columns">
+					<div class="">
+    <div class="OUTBRAIN"
+	 data-src="http://omelete.uol.com.br/filmes/lista/13-coisas-que-aprendemos-com-os-teasers-do-super-bowl/"
+	 data-widget-id="AR_1"
+	 data-ob-template="Omelete">
+    </div>
+    <script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script>
+</div>
+
+				    
+
+
+
+
+
+
+
+
+<div id="omelete_disqus" class="widget disqus">
+    <span class="icon-disqus title desktop">Discuta aqui no site</span>
+    <span class="icon-disqus title mobile-disqus">Discuta aqui</span>
+    <div class="subtitle" id="omelete_disqus">
+        O Omelete disponibiliza este espaço para comentários e discussões dos temas apresentados no site. Por favor respeite e siga nossas regras para participar.
+        Partilhe sua opinião de forma honesta, responsável e educada. Respeite a opinião dos demais. E, por favor, nos auxilie na moderação ao denunciar conteúdo ofensivo e que deveria ser removido por violar estas normas.
+
+        <p><span class="link"><a class="secao-filmes" href="#">Leia aqui</a></span> o termo de uso e responsabilidade.</p>
+    </div>
+    <div class="comments">
+        
+
+
+<div id="disqus_thread"></div>
+
+ 
+
+	
+
+	<script type="text/javascript">
+	/* <![CDATA[ */
+	
+		var disqus_shortname = 'omeletebr';
+		var disqus_identifier = "conteudo:conteudo#105350";
+	var disqus_title = "13 coisas que aprendemos com os teasers do Super Bowl";
+	
+		/* * * DON'T EDIT BELOW THIS LINE * * */
+		(function() {
+			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		})();
+	/* ]]> */
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+    </div>
+</div>
+
+			</div> 
+			<div class="medium-8 large-6 columns">
+				<div class='omelete-ad arroba'>
+					
+
+
+
+
+
+  
+		<div id="banner-300x250-3-area"><script>window.uolads && window.uolads.push({ id: "banner-300x250-3-area" });</script></div>
+	
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+	    </div>
+    <a class="skin-sidelink skin-sidelink-loading" href="#" target="_blank"></a>
+</div>
+<!--script>$('.skin-container').find('.skin-sidelink').addClass('skin-sidelink-loaded');</script-->
+
+
+
+		</div>
+
+		<footer>
+			
+
+
+<div class='row'>
+    <div class='menu-footer'>
+        <div class='row'>
+            <div class='logo medium-4 large-4 columns extra-gutter-top'>
+							<a href="/">
+                <img src="http://static.omelete.uol.com.br/static/omelete_lexcorp_up.png" alt="Omelete"/>
+								
+                <span class="schema-only" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name" content="Omelete" />
+                  <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="addressCountry" content="Brazil"></span>
+                    <span itemprop="addressLocality" content="São Paulo"></span>
+                  </span>
+                  <span itemprop="founder" itemscope itemtype="http://schema.org/Person">
+                    <span itemprop="name" content="Érico Borgo"></span>
+                    <span itemprop="name" content="Marcelo Forlani"></span>
+                    <span itemprop="name" content="Marcelo Hessel"></span>
+                  </span>
+									</span>
+            </a>
+						<a href='http://omelete.uol.com.br/filmes/noticia/ccxp-2015-grupo-omelete-anuncia-parceria-com-a-americana-lexcorp/'>
+							<img src="http://static.omelete.uol.com.br/static/omelete_lexcorp_down.png" />
+						</a>
+					
+            </div>
+
+            <div class='search-box medium-8 medium-offset-4 large-8 columns large-offset-4 end'>
+                <form action="/busca/" class="search-form" method="GET">
+                    <fieldset>
+                        <input type="text" placeholder="Digite o que você procura" name="q"/>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <div class='row'>
+            <nav role="navigation" class="medium-24 large-24 columns extra-gutter-top end">
+                <ul class='footer-flex-container'>
+                    <li class="secao-filmes footer-flex-item">
+    <span>
+        <a href="/filmes">
+            
+                <div>
+                    Filmes
+                </div>
+            
+        </a>
+    </span>
+    <span class='bottom-line'></span>
+    <ul>
+        
+            <li>
+                <a class='footer-menu-item' href="http://omelete.uol.com.br/comic-con/">Comic Con</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="http://omelete.uol.com.br/oscar/">Oscar 2015</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/bilheteria-usa">Bilheteria USA</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/filmes/critica/">Críticas</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/filmes/noticia/">Notícias</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/filmes/artigo/">Artigos</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="http://omelete.uol.com.br/cinema-estreias-de-filmes-da-semana/">Estreias de Filmes</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/videos/trailers/">Trailers</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/filmes/cinemas/em-cartaz/">Filmes em Cartaz</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/filmes/omeletop/">Omeletop</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/filmes/entrevista/">Entrevistas</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/dvd-e-blu-ray/tudo/">DVDs e Blu-ray</a>
+            </li>
+        
+    </ul>
+</li>
+
+
+                    <li class="secao-series-tv footer-flex-item">
+    <span>
+        <a href="/series-tv">
+            
+                <div>
+                    Séries e TV
+                </div>
+            
+        </a>
+    </span>
+    <span class='bottom-line'></span>
+    <ul>
+        
+            <li>
+                <a class='footer-menu-item' href="/emmy/">Emmy 2015</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/calendario-de-estreias-na-tv">Calendário de Estreias na TV</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/series-tv/noticia/temporada-2015-2016-as-series-de-tv-canceladas-renovadas-e-todas-as-novidades/">Temporada 2015-2016</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/series-tv/critica/">Críticas</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/series-tv/entrevista/">Entrevistas</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/series-tv/artigo/">Artigos</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/series-tv/noticia/">Notícias</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/videos/trailers/">Trailers</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/dvd-e-blu-ray/tudo/">DVDs e Blu-ray</a>
+            </li>
+        
+    </ul>
+</li>
+
+
+                    <li class="secao-games footer-flex-item">
+    <span>
+        <a href="/games">
+            
+                <div>
+                    Games
+                </div>
+            
+        </a>
+    </span>
+    <span class='bottom-line'></span>
+    <ul>
+        
+            <li>
+                <a class='footer-menu-item' href="/games/noticia/">Notícias</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/games/critica/">Críticas</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/e3-2015">E3 2015</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/games/artigo/">Artigos</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="http://omelete.uol.com.br/games/lista/">Listas</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/videos/trailers/">Trailers</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/playstation-4">PlayStation 4</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/xbox-one">Xbox One</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/nintendo-wii-u">Wii U</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/busca/?secao=games&amp;geral=&amp;q=PCs">PC</a>
+            </li>
+        
+    </ul>
+</li>
+
+
+                    <li class="secao-quadrinhos footer-flex-item">
+    <span>
+        <a href="/quadrinhos">
+            
+                <div>
+                    Quadrinhos
+                </div>
+            
+        </a>
+    </span>
+    <span class='bottom-line'></span>
+    <ul>
+        
+            <li>
+                <a class='footer-menu-item' href="/quadrinhos/noticia/">Notícias</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/quadrinhos/critica/">Críticas</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/quadrinhos/artigo/">Artigos</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/dc-comics/">DC-Comics</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/marvel-comics/">Marvel Comics</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/joao-montanaro-tiras/">Tiras do Omelete por João Montanaro</a>
+            </li>
+        
+    </ul>
+</li>
+
+
+                    <li class="secao-musica footer-flex-item">
+    <span>
+        <a href="/musica">
+            
+                <div>
+                    Música
+                </div>
+            
+        </a>
+    </span>
+    <span class='bottom-line'></span>
+    <ul>
+        
+            <li>
+                <a class='footer-menu-item' href="/musica/noticia/">Notícias</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/musica/critica/">Críticas</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/musica/artigo/">Artigos</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/rock-in-rio">Rock in Rio</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/lollapalooza-brasil/">Lollapalooza Brasil</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/omelete-nights/">Omelete Nights</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="https://soundcloud.com/siteomelete">Soundcloud</a>
+            </li>
+        
+    </ul>
+</li>
+
+
+                    <li class="secao-videos footer-flex-item">
+    <span>
+        <a href="/videos">
+            
+                <div>
+                    Vídeos
+                </div>
+            
+        </a>
+    </span>
+    <span class='bottom-line'></span>
+    <ul>
+        
+            <li>
+                <a class='footer-menu-item' href="/videos/omele-tv/">OmeleTV</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/videos/hyperdrive/">Hyperdrive</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/videos/bloco-x/">Bloco X</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/videos/trailers/">Trailers</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/videos/trailers-comentados/">Trailers Comentados</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/videos/entrevistas/">Omelete Entrevista</a>
+            </li>
+        
+    </ul>
+</li>
+
+
+									  <li class="secao-esports footer-flex-item">
+    <span>
+        <a href="/esports">
+            
+                <div>
+                    eSports
+                </div>
+            
+        </a>
+    </span>
+    <span class='bottom-line'></span>
+    <ul>
+        
+            <li>
+                <a class='footer-menu-item' href="/esports/noticia/">Notícias</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/esports/artigo/">Artigos</a>
+            </li>
+        
+            <li>
+                <a class='footer-menu-item' href="/esports/entrevista/">Entrevistas</a>
+            </li>
+        
+    </ul>
+</li>
+
+
+									
+									<li class="secao-padrao footer-flex-item">
+										<span style='height:22px; line-height:22px;'>
+											<a href="#">
+												<div>
+													<span>Mais</span>
+												</div>
+											</a>
+										</span>
+										<span class="bottom-line"></span>
+										<ul>
+											<li>
+												<a class="footer-menu-item secao-colunistas" href="/colunistas/" style='color:#C7A600;'>Colunistas</a>
+											</li>
+											<li>
+												<a class="footer-menu-item secao-personalidades" href="/personalidades/" style='color:#ff0017;'>Personalidades</a>
+											</li>
+											<li>
+												<a class="footer-menu-item secao-humor" href="/humor/" style='color:#d3a900;'>Humor</a>
+											</li>
+											<li>
+												<a class="footer-menu-item secao-promocao" href="/promocoes/" style='color:#6902d3;'>Promoções</a>
+											</li>
+										</ul>
+									</li>
+
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class='row bottom-footer extra-gutter-top'>
+
+        <div class='medium-12 large-12 columns'>
+
+	    <div class="omelete-group-footer">
+	      <a class="icon-omeletegroup"></a>
+	    </div>
+
+	    <div class="logo-footer">
+	     <a href="/" id="logo-omelete">
+	       <span class="icon-omelete"></span>
+	     </a>
+	     <a href="http://ccxp.com.br" target="blank" id="logo-ccxp">
+	       <span class="icon-ccxp"></span>
+	     </a>
+	     <a href="http://lojamundogeek.com.br" target="blank" id="logo-mundo-geek"> 
+	       <span class="icon-loja_mundo_geek"></span>
+	     </a>
+	     <a href="http://socialcomics.com.br" target="blank">
+	       <img src="http://static.omelete.uol.com.br/static/footer/social_comics_logo.png" alt="logo da Social Comics" />
+	     </a>
+	    </div>
+
+	</div>
+
+        <div class='medium-12 large-12 columns flatpages'>
+	  <div class="omelete-clube">
+            <br>
+            <a target="blank" href="http://www.omeleteclube.com.br">
+                <strong style="text-decoration: underline;">
+                    Omelete Clube
+                </strong>
+                - Assine agora o Omelete Box e receba produtos incríveis todos os meses na sua casa.
+            </a>
+	    </div>
+
+            
+
+        </div>
+
+    </div>
+</div>
+
+		</footer>
+
+		<script src="http://static.omelete.uol.com.br/static/js/plugins.js"></script>
+		<script src="http://static.omelete.uol.com.br/static/js/main.js"></script>
+		
+
+		
+		<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-1826697-1', 'auto');
+	ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter28566546 = new Ya.Metrika({id:28566546,
+                    clickmap:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/28566546" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- SiteCatalyst code version: H.27.2. Copyright 1997-2014 Omniture, Inc. More info available at http://www.omniture.com -->
+
+    <script language="JavaScript" type="text/javascript" charset="iso-8859-1" src="http://me.jsuol.com.br/omtr/omelete.js"></script>
+
+<script language="JavaScript" type="text/javascript"><!--
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=uol_sc.t();if(s_code)document.write(s_code)//--></script>
+<!-- End SiteCatalyst code version: H.27.2. -->
+
+
+		
+
+	</div> <!-- wrapper -->
+
+  
+	
+
+</body>
+</html>

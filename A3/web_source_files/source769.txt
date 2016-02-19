@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]> <html lang="en" class="ie8 lte8 lte9 lte10">    <![endif]-->
+<!--[if IE 9 ]> <html lang="en" class="ie9 lte9 lte10">    <![endif]-->
+<!--[if (gt IE 9)]><!--><html lang="en"><!--<![endif]-->
+<!--[if !IE]><!--><html lang="en"><!--<![endif]-->
+  <head>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"d4bedaeb31","applicationID":"4336031","transactionName":"cgtbRxFeClVXR0tBV0IQRhwQWQlO","queueTime":49,"applicationTime":113,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UwYBVlRWGwcDV1dSBAA="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function s(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),s=a.length,c=0;s>c;c++)a[c].apply(i,r);return i}function c(t,e){d[t]=f(t).concat(e)}function f(t){return d[t]||[]}function u(){return r(s)}var d={};return{on:c,emit:s,create:u,listeners:f,context:e,_events:d}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:25,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,a){try{f?f-=1:r("err",[a||new UncaughtException(t,e,n)])}catch(c){try{r("ierr",[c,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof s?s.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=t("loader"),s=window.onerror,c=!1,f=0;a.features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(u){"stack"in u&&(t(1),t(2),"addEventListener"in window&&t(3),a.xhrWrappable&&t(4),c=!0)}i.on("fn-start",function(){c&&(f+=1)}),i.on("fn-err",function(t,e,r){c&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){c&&!this.thrown&&f>0&&(f-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:26,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.clearResourceTimings?window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1):window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){for(var e=t;e&&!e.hasOwnProperty("addEventListener");)e=Object.getPrototypeOf(e);e&&r(e)}function r(t){a.inPlace(t,["addEventListener","removeEventListener"],"-",o)}function o(t){return t[1]}var i=t("ee").create(),a=t(1)(i),s=t("gos");e.exports=i,r(window),"getPrototypeOf"in Object?(n(document),n(XMLHttpRequest.prototype)):XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&r(XMLHttpRequest.prototype),i.on("addEventListener-start",function(t){if(t[1]){var e=t[1];if("function"==typeof e){var n=s(e,"nr@wrapped",function(){return a(e,"fn-",null,e.name||"anonymous")});this.wrapped=t[1]=n}else"function"==typeof e.handleEvent&&a.inPlace(e,["handleEvent"],"fn-")}}),i.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:27,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:27,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:27,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=i(t[0],"fn-",this,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:27,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,l,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-",o)}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,l=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[e],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:27,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var o=0;u>o;o++)t.removeEventListener(f[o],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=this.lastSize||n(t);if(i&&(r.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,c.emit("xhr-done",[t],t),a("xhr",[e,r,this.startTime])}}}function n(t){var e=t.responseType,n="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return r(n)}function r(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function o(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var i=t("loader");if(i.xhrWrappable){var a=t("handle"),s=t(2),c=t("ee"),f=["load","error","abort","timeout"],u=f.length,d=t(1),l=t(3),p=window.XMLHttpRequest;i.features.xhr=!0,t(5),t(4),c.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=e,n.ended=!1,n.xhrGuids={},n.lastSize=0,l&&(l>34||10>l)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),c.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),c.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),c.on("send-xhr-start",function(t,e){var n=this.metrics,o=t[0],i=this;if(n&&o){var a=r(o);a&&(n.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{c.emit("internal-error",[n])}catch(r){}}};for(var s=0;u>s;s++)e.addEventListener(f[s],this.listener,!1)}),c.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),c.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),c.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),c.on("addEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-added",[t[1],t[2]],e)}),c.on("removeEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-removed",[t[1],t[2]],e)}),c.on("fn-start",function(t,e,n){e instanceof p&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),c.on("fn-end",function(t,e){this.xhrCbStart&&c.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:16,4:12,5:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:25,2:26,handle:"D5DuLP"}],16:[function(t,e){var n=0,r=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);r&&(n=+r[1]),e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!h++){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){t[e]||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},l=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),p=e.exports={offset:i(),origin:u,features:{},xhrWrappable:l};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var h=0},{1:25,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],25:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],26:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],27:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,c;try{i=this,n=o(arguments),s="function"==typeof r?r(n,i):r||{}}catch(u){d([u,"",[n,i,a],s])}f(e+"start",[n,i,a],s);try{return c=t.apply(i,n)}catch(l){throw f(e+"err",[n,i,l],s),l}finally{f(e+"end",[n,i,c],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,u(t,nrWrapper),nrWrapper)}function c(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!s){s=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}s=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=c,e.flag=i,e}},{1:26,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script>
+    <title>Katy B And Her Collaborators Unravel Every Track On Honey | The FADER</title>
+
+    <!-- <link rel="stylesheet" href="https://fonts.typotheque.com/WF-026510-008852.css" type="text/css" /> -->
+
+    <link href="/assets/application-e114dc6fda649f757a5a307d371f945e.css" media="all" rel="stylesheet" />
+    <!-- <script src="//cdn.optimizely.com/js/3037682530.js"></script> -->
+    
+    <script src="/assets/application-23308a73b8fc2d6d38728d8fa54ffdb9.js"></script>
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="9b2St8jNB1JRcliRSvoU10RN9pGniqr9I6ltEUbMN6w=" name="csrf-token" />
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="msvalidate.01" content="CFDCCD68D11A9B3C2CE7EE854D821682" />
+
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon-2eb3525ba1c70157506280463de7b351.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-iphone6-c335ccfc27dd1e349bfac90f83e636cd.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/apple-touch-ipad2_mini-816b5788aa98776a6cb8f47e736e1fb5.png"/>
+    <link rel="apple-touch-startup-image" href="/assets/apple-touch-icon-2eb3525ba1c70157506280463de7b351.png"/>
+
+    <script type='text/javascript'>
+  googletag = googletag || {};
+  var googletag = googletag;
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+  var gads = document.createElement('script');
+  gads.async = true;
+  gads.type = 'text/javascript';
+  var useSSL = 'https:' == document.location.protocol;
+  gads.src = (useSSL ? 'https:' : 'http:') + 
+      '//www.googletagservices.com/tag/js/gpt.js';
+  var node = document.getElementsByTagName('script')[0];
+  node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+
+  // Infinite scroll requires SRA
+  googletag.pubads().enableSingleRequest();
+
+  // Disable initial load, we will use refresh() to fetch ads.
+  // Calling this function means that display() calls just
+  // register the slot as ready, but do not fetch ads for it.
+  googletag.pubads().disableInitialLoad();
+
+  googletag.enableServices();
+});
+</script>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+  ga('create', 'UA-272695-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!-- Quantcast Tag, part 1 --> 
+<script type="text/javascript">
+  var _qevents = _qevents || [];
+  (function() {
+  var elem = document.createElement('script');
+   elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge")
+               + ".quantserve.com/quant.js";
+   elem.async = true;
+   elem.type = "text/javascript";
+   var scpt = document.getElementsByTagName('script')[0];
+   scpt.parentNode.insertBefore(elem, scpt);  
+  })();
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1581403942105808');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1581403942105808&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<script src="//load.sumome.com/" data-sumo-site-id="5b333e0665485bc04e07c4bd8cdf35469749a8b11e1fdea694f1113eedd77007" async="async"></script>
+
+
+      
+
+
+      <meta name="description" content="Diplo, Kaytranada, D Double E, Geeneus, and the London singer herself on how her third album became her most ambitious yet. "/>
+    <meta itemprop="url" content="http://www.thefader.com/2016/02/05/katy-b-kaytranada-diplo-hannah-wants-geeneus-honey-interview" />
+    
+    <meta property="og:site_name" content="The FADER"/>
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Katy B And Her Collaborators Unravel Every Track On Honey"/>
+
+    <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="The FADER">
+    </span>
+
+    <meta itemprop="description" property="og:description" content="Diplo, Kaytranada, D Double E, Geeneus, and the U.K. artist herself on how her third album became her most ambitious yet. "/>
+    
+    <meta property="og:url" content="http://www.thefader.com/2016/02/05/katy-b-kaytranada-diplo-hannah-wants-geeneus-honey-interview" />
+
+
+      <meta property="og:image" content="http://res.cloudinary.com/thefader/image/upload/c_limit,w_1024/c_crop,h_353,w_621,x_0,y_29/Screen_Shot_2016-02-05_at_16.06.55_r2jdzl.png"/>
+      <meta property="og:image:width" content="621" />
+      <meta property="og:image:height" content="353" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:site" content="@thefader" />
+    <meta property="twitter:title" content="Katy B And Her Collaborators Unravel Every Track On Honey" />
+    <meta property="twitter:description" content="Diplo, Kaytranada, D Double E, Geeneus, and the U.K. artist herself on how her third album became her most ambitious yet. " />
+
+        <meta property="twitter:image" content="http://res.cloudinary.com/thefader/image/upload/c_limit,w_1024/c_crop,h_353,w_621,x_0,y_29/Screen_Shot_2016-02-05_at_16.06.55_r2jdzl.png"/>
+
+    <meta property="twitter:url" content="http://www.thefader.com/2016/02/05/katy-b-kaytranada-diplo-hannah-wants-geeneus-honey-interview" />
+
+    <script>
+        ga('set', 'dimension1', 'Alex Macpherson');
+      ga('set', 'dimension2', 'Music');
+      ga('set', 'dimension3', 'Feature');
+    </script>
+
+    <meta name='parsely-metadata' content='{&quot;post_id&quot;:69727}' />
+
+    <script type="application/ld+json">
+      {
+      "@context": "http://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Katy B And Her Collaborators Unravel Every Track On Honey",
+      "url": "http://www.thefader.com/2016/02/05/katy-b-kaytranada-diplo-hannah-wants-geeneus-honey-interview",
+      "thumbnailUrl": "http://res.cloudinary.com/thefader/image/upload/s--6f95ElKE--/w_640,c_limit,q_jpegmini/Screen_Shot_2016-02-05_at_16.06.55_r2jdzl.jpg",
+      "dateCreated": "2016-02-05T12:46:54.320-05:00",
+      "articleSection": "Music",
+      "creator": "Alex Macpherson",
+      "keywords": ["Four Tet","Diplo","Katy B","Major Lazer","Geeneus","Floating Points","Kaytranada","J Hus","D Double E","Hannah Wants","MssingNo","Electronic","Pop","grime"]
+      }
+    </script>
+
+
+
+  
+
+  <style>
+    
+  </style>
+
+
+
+    <meta content='561069083994300' property='fb:app_id'>
+
+    <script src="//assets.vidora.com/js/cornerstoneagency.2378e1abebaa4956.js"></script>
+
+      <link href="/assets/max_width_override-cf0b26af748ebdf2822c5a79291b562b.css" media="all" rel="stylesheet" />
+
+  </head>
+  <body class="united_states">
+    <div class="main_wrapper" id='main_wrapper'>
+      <!-- HEADER -->
+<!-- NEED TO CHECK IF WE ARE ON THE HOMEPAGE, if not, no war story -->
+  <nav class="full">
+
+    <!-- only include war story/expanded nav if it is NOT a mobile device -->
+
+
+        <div class="expanded">
+            <div class="leaderboard_ad_top_responsive">
+  <div id='div-leaderboard-ad'>
+  <script type='text/javascript'>
+    displayAdSlot('div-leaderboard-ad', 'fader_v3_home_top_use', [1440, 178]);
+  </script>
+</div>
+
+
+        </div>
+
+      <div class="header_wrap gutter_left">
+        <a href="/home" class="logo_wrap">
+          <div class="logo "></div>
+        </a>
+          <a href="/magazine/101" class="current_issue_link">
+            <div class="current_issue">
+              <div class="issue_info">
+                <span class="mono_heading size_16">ON NEWSSTANDS</span>
+                <div class="wrapper">
+                  <div class="issue_number_wrapper" style="color: #ffffff; border-color: #ffffff">
+                      <div class="issue_number">101</div>
+                  </div>
+                  <div class="issue_title">
+                    <span class="date">Dec 2015 / Jan 2016</span>
+                    <span>NOW Issue</span>
+                  </div>
+                </div>
+              </div>
+              <div class="issue_img">
+                <img src="http://res.cloudinary.com/thefader/image/upload/s--_WAWCs4n--/w_200,c_limit,q_jpegmini/zo2njkwxygpw50kjfjnk.jpg" class="fit_w" alt="" />
+              </div>
+            </div>
+          </a>
+        <form action='/search' method='GET' name='search_form' id='search_form' class="gutter_left" autocomplete="off" data-search='true'>
+  <input type='text' name='query' value='' placeholder="" id=''>
+</form>
+
+        <span class="icon_wrap search_wrap">
+          <div class="icon search_icon"></div>
+        </span>
+      </div>
+    </div>
+
+
+    <div class="main_nav ">
+      <div class="small_logo_wrap">
+        <a href="/home"><div class="small_logo"></div></a>
+      </div>
+      <div class="nav_inner_wrap">
+        <div class="verticals_wrap">
+          <ul class="verticals_links">
+
+              <li class="music "><a id="music_nav_link" href="/music"><span>Music</span></a></li>
+              <li class="style "><a id="style_nav_link" href="/style"><span>Style</span></a></li>
+              <li class="culture "><a id="culture_nav_link" href="/culture"><span>Culture</span></a></li>
+              <li class="culture "><a id="video_nav_link" href="/fader-tv"><span>Video</span></a></li>
+          </ul>
+        </div>
+        <div class="links_wrap ui_control_element" ui-toggle="Menu">
+          <div class="search_wrap">
+            <form action='/search' method='GET' name='search_form_small' id='search_form_small' class="gutter_left" autocomplete="off" data-search='true'>
+  <input type='text' name='query' value='' placeholder="" id=''>
+</form>
+
+            <div class="icon search_icon_sm"></div>
+          </div>
+          <div class="hamburger_wrap ui_control" ui-toggle="Menu" ui-toggle-el=".links_wrap">
+            <div class="hamburger"></div>
+          </div>
+          <ul class="links">
+            <li class="mobile_only accordion"><a class="gutter_left" href="#"><span>Feed</span><span class="mobile_only icon_arrow"></span></a>
+              <ul class="mobile_only mobile_filter">
+                <li><a class="active" href="?">All Posts</a></li>
+                <li><a href="/posts/featured">Featured Posts</a></li>
+                <li><a class="" href="/trending">Trending Posts</a></li>
+              </ul>
+            </li>
+
+            <li class="li_magazine "><a id="magazine_nav_link" class="gutter_left" href="/magazine"><span>Magazine</span></a></li>
+            <li class="li_events "><a id="events_nav_link" class="gutter_left" href="/events"><span>Events</span></a></li>
+            <li class="li_shop"><a class="gutter_left" target="_blank" id="shop_nav_link" href="http://shop.thefader.com/"><span>Shop</span></a></li>
+
+            <li class="li_socials">
+
+              <div class="social_links_wrap">
+                <a target="new" class="twitter" href="https://twitter.com/thefader">Twitter</a>
+                <a target="new" class="facebook" href="https://www.facebook.com/thefader">facebook</a>
+                <a target="new" class="youtube" href="https://www.youtube.com/user/TheFaderTeam?sub_confirmation=1">youtube</a>
+                <a target="new" class="instagram" href="https://www.instagram.com/thefader/">instagram</a>
+                <a target="new" class="tumblr" href="http://thefader.tumblr.com">tumblr</a>
+              </div>
+
+            </li>
+
+            <li class="li_countries">
+
+              <div class="dropdown nav_radio_wrap" style="">
+                  <button class="dropdown-toggle country-dropdown" type="button" id="countryDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="">
+                    US
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="countryDropdown">
+                    <li>
+                      <a href="http://www.thefader.com/home">
+                        US
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://uk.thefader.com/">
+                        UK
+                      </a>
+                    </li>
+
+                  </ul>
+              </div>              
+            </li>
+
+            <li>
+              <a href="http://www.thefader.com/home">
+                US Edition
+              </a>
+            </li>
+            
+            <li>
+              <a href="http://uk.thefader.com/">
+                UK Edition
+              </a>
+            </li>
+
+
+          </ul>
+
+        </div>
+
+      </div>
+
+      <div class='nav_radio_wrap' style="display: none;">
+        <div class='nav_radio_controls'>
+          <ul><li class='prev'><span></span></li><li class='toggle'><span></span></li><li class='next'><span></span></li></ul>
+        </div>
+        <div class="icon_wrap radio_wrap ui_control ui_control_element" ui-toggle="faderRadio">
+          <div class="icon radio_icon"></div>
+          <div class="icon radio_icon_close"></div>
+        </div>
+      </div>
+
+      
+      
+
+      <div class="icon_wrap search_wrap ui_control " ui-toggle="collapsedSearch" ui-toggle-el=".collapsed_search">
+        <div class="icon search_icon_sm "></div>
+      </div>
+      
+    </div>
+    <!-- FOLLOW OVERLAY desktop -->
+    <div class="follow_overlay ui_control_element gutter_left gutter_right" ui-toggle="followOverlay">
+      <div class="icon_close"></div>
+      <h2 class="mono_heading size_28">Follow the Fader</h2>
+      <ul class="follow_links">
+        <li class="social twitter"><a class="twitter" target="_blank" href="https://twitter.com/thefader"></a></li>
+        <li class="social facebook"><a class="facebook" target="_blank" href="https://www.facebook.com/thefader"></a></li>
+        <li class="social youtube"><a class="youtube" target="_blank" href="http://www.youtube.com/user/TheFaderTeam?sub_confirmation=1"></a></li>
+        <li class="social pinterest"><a class="pinterest" target="_blank" href="https://www.pinterest.com/thefader/"></a></li>
+        <li class="social tumblr"><a class="tumblr" target="_blank" href="http://thefader.tumblr.com/"></a></li>
+        <li class="social instagram"><a class="instagram" target="_blank" href="http://instagram.com/thefader"></a></li>
+        <li class="social soundcloud"><a class="soundcloud" target="_blank" href="http://soundcloud.com/fadermedia"></a></li>
+        <li class="social spotify"><a class="spotify" target="_blank" href="http://open.spotify.com/app/thefader"></a></li>
+        <li class="social vsco"><a class="vsco" target="_blank" href="http://thefader.vsco.co/grid/1"></a></li>
+        <li class="social google"><a class="google" target="_blank" href="http://plus.google.com/+TheFADER"></a></li>
+        <li class="social RSS"><a class="rss" target="_blank" href="http://feeds.feedburner.com/TheFaderMagazine/"></a></li>
+      </ul>
+    </div>
+    <div class="collapsed_search ui_control_element gutter_left " ui-toggle="collapsedSearch" >
+      <div class="icon search_icon"></div>
+      <form action='/search' method='GET' name='search_form_small' id='search_form_small' class="gutter_left" autocomplete="off" data-search='true'>
+  <input type='text' name='query' value='' placeholder="" id=''>
+</form>
+
+      <div class='right_text'>
+        <span class='enter_to_search'>Press Enter to Search</span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile_nav_wrapper">
+    <div class="links_wrapper">
+      <ul class="links">
+        <li><a class="gutter_left music " href="/music">Music</a></li>
+        <li><a class="gutter_left style " href="/style">Style</a></li>
+        <li><a class="gutter_left culture " href="/culture">Culture</a></li>
+        <li ><a class="gutter_left" href="/fader-tv"><span>Video</span></a></li>
+        <li  ><a class="gutter_left" href="/magazine"><span>Magazine</span></a></li>
+        <li ><a class="gutter_left" href="/events"><span>Events</span></a></li>
+        <li><a class="gutter_left" target="_blank" href="http://shop.thefader.com/"><span>Shop</span></a></li>
+        <li>
+          <a class="gutter_left" href="http://www.thefader.com/home">
+            US Edition
+          </a>
+        </li>
+        <li>
+          <a class="gutter_left" href="http://uk.thefader.com/">
+            UK Edition
+          </a>
+        </li>
+
+        
+        <!-- <li class="mobile_only ui_control" ui-toggle="faderRadio"><a class="gutter_left" href="#"><span>Fader Radio</span></a></li> -->
+        <!-- <li class="follow_mobile accordion mobile_only"><span class="gutter_left"><span>Follow the Fader</span><span class="mobile_only icon_arrow"></span></span> -->
+        <!--   <\!-- FOLLOW LINKS LIST MOBILE -\-> -->
+        <!--   <ul class="mobile_only mobile_follow"> -->
+        <!--     <li><a target="_blank" href="https://twitter.com/thefader">Twitter</a></li> -->
+        <!--     <li><a target="_blank" href="https://www.facebook.com/thefader">Facebook</a></li> -->
+        <!--     <li><a target="_blank" href="http://www.youtube.com/user/TheFaderTeam">Youtube</a></li> -->
+        <!--     <li><a target="_blank" href="https://www.pinterest.com/thefader/">Pinterest</a></li> -->
+        <!--     <li><a target="_blank" href="http://thefader.tumblr.com/">Tumblr</a></li> -->
+        <!--     <li><a target="_blank" href="http://instagram.com/thefader">Instagram</a></li> -->
+        <!--     <li><a target="_blank" href="http://soundcloud.com/fadermedia">Soundcloud</a></li> -->
+        <!--     <li><a target="_blank" href="http://open.spotify.com/app/thefader">Spotify</a></li> -->
+        <!--     <li><a target="_blank" href="http://thefader.vsco.co/grid/1">VSCO</a></li> -->
+        <!--     <li><a target="_blank" href="http://plus.google.com/+TheFADER">Google+</a></li> -->
+        <!--     <li><a target="_blank" href="http://feeds.feedburner.com/TheFaderMagazine/">RSS</a></li> -->
+        <!-- </ul> -->
+
+        <!-- </li> -->
+
+      </ul>
+    </div>
+  </div>
+
+
+
+
+<div class="main_content">
+  
+
+<!-- ARTICLE TYPES: super_feature, feature, simple -->
+<section class="main article vertical_music " data-page-type="article" itemscope itemtype="http://schema.org/Article" data-article-id="69727" data-post-model-version="2">
+
+
+
+    
+              <!--======= FEATURE and VIDEO =======-->
+
+              <article class="feature gutter_top feature_article_type read_full">
+
+                <div class="header_block">
+
+
+                  <div class="title_block triple_gutter_left triple_gutter_right">
+                    <div class="slug music"><a class="vertical" href="/music">music</a> / <a class="category" href="/features">Feature</a>
+
+</div>
+
+                    <h1 itemprop="name" itemprop="headline">Katy B And Her Collaborators Unravel Every Track On <i>Honey</i></h1>
+
+                      <h2 class="deck" itemprop="description">Diplo, Kaytranada, D Double E, Geeneus, and the U.K. artist herself on how her third album became her most ambitious yet. </h2>
+
+                    
+                    <div class="credits">
+                        <div class="author">
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+      By <span itemprop="name" class="credit_name"><a href="/contributor/alex-macpherson">Alex Macpherson</a></span>
+  </div>
+
+
+                      <div class="social_share_wrapper gutter_btm horizontal top">
+  <div class="social_share_icons">
+    <div class='social-share-button' data-title='Katy B And Her Collaborators Unravel Every Track On Honey' data-img='http://res.cloudinary.com/thefader/image/upload/Screen_Shot_2016-02-05_at_16.06.55_r2jdzl.png'
+data-url='' data-desc='' data-popup='' data-via='thefader'>
+<a class="social-share-button-facebook" data-site="facebook" href="#" onclick="return SocialShareButton.share(this);" rel="nofollow canonical" title="Share to Facebook"></a>
+<a class="social-share-button-twitter" data-site="twitter" href="#" onclick="return SocialShareButton.share(this);" rel="nofollow canonical" title="Share to Twitter"></a>
+<a class="social-share-button-pinterest" data-site="pinterest" href="#" onclick="return SocialShareButton.share(this);" rel="nofollow canonical" title="Share to Pinterest"></a>
+<a class="social-share-button-tumblr" data-site="tumblr" data-source="http://res.cloudinary.com/thefader/image/upload/Screen_Shot_2016-02-05_at_16.06.55_r2jdzl.png" href="#" onclick="return SocialShareButton.share(this);" rel="nofollow canonical" title="Share to Tumblr"></a>
+<a class="social-share-button-google_plus" data-site="google_plus" data-source="http://res.cloudinary.com/thefader/image/upload/Screen_Shot_2016-02-05_at_16.06.55_r2jdzl.png" href="#" onclick="return SocialShareButton.share(this);" rel="nofollow canonical" title="Share to Google+"></a>
+</div>
+  </div>
+</div>
+
+<div style="clear: both;"></div>
+
+                    </div>
+                    
+                  </div>
+                </div>
+
+
+
+  <div class="social_share_wrapper gutter_left gutter_btm lefthook" style="display: none;">
+    <div class="social_share_icons lefthook">
+      <div class='social-share-button' data-title='Katy B And Her Collaborators Unravel Every Track On Honey' data-img='http://res.cloudinary.com/thefader/image/upload/Screen_Shot_2016-02-05_at_16.06.55_r2jdzl.png'
+data-url='' data-desc='' data-popup='' data-via='thefader'>
+<a class="social-share-button-facebook" data-site="facebook" href="#" onclick="return SocialShareButton.share(this);" rel="nofollow canonical" title="Share to Facebook"></a>
+<a class="social-share-button-twitter" data-site="twitter" href="#" onclick="return SocialShareButton.share(this);" rel="nofollow canonical" title="Share to Twitter"></a>
+<a class="social-share-button-pinterest" data-site="pinterest" href="#" onclick="return SocialShareButton.share(this);" rel="nofollow canonical" title="Share to Pinterest"></a>
+<a class="social-share-button-tumblr" data-site="tumblr" data-source="http://res.cloudinary.com/thefader/image/upload/Screen_Shot_2016-02-05_at_16.06.55_r2jdzl.png" href="#" onclick="return SocialShareButton.share(this);" rel="nofollow canonical" title="Share to Tumblr"></a>
+<a class="social-share-button-google_plus" data-site="google_plus" data-source="http://res.cloudinary.com/thefader/image/upload/Screen_Shot_2016-02-05_at_16.06.55_r2jdzl.png" href="#" onclick="return SocialShareButton.share(this);" rel="nofollow canonical" title="Share to Google+"></a>
+</div>
+    </div>
+  </div>
+
+  <div class="triple_gutter_right triple_gutter_left">
+    
+  </div>
+
+
+
+
+
+
+
+
+    <div class="content_blocks" itemprop="articleBody">
+    
+  <div class="content_block breaker triple_gutter_right triple_gutter_left image">
+
+  
+  <div class="media_wrapper">
+      
+
+
+    <img alt="Katy B And Her Collaborators Unravel Every Track On &lt;i&gt;Honey&lt;/i&gt;" src="http://res.cloudinary.com/thefader/image/upload/s--LvOWdpao--/w_1440,c_limit,q_jpegmini/unnamed-4_sumkom.jpg" />
+
+
+<span class="img_caption">
+
+    <span class="caption">
+      Image courtesy of Katy B
+    </span>
+
+  <span class="credit">
+    &nbsp;
+    
+  </span>
+
+</span>
+
+
+
+
+  </div>
+</div>
+
+
+    
+  <div id="content_block-61797" class="content_block paragraph text triple_gutter_right triple_gutter_left center_align">
+  <div class="content_inner_wrapper">
+
+
+      
+      <div class="paragraph_wrapper center_align">
+        <p>With her understated manner and unstudied cool, south London artist <a target="_new" href="http://www.thefader.com/artist/katy-b">Katy B</a> is as down to earth as they come, but the bridges she builds between music's mainstream and underground are casually momentous. Emerging onto the scene five years ago, Katy brought club sounds into the pop chart with a fluid sense of ease, working with her producer  <a href="http://www.thefader.com/artist/geeneus">Geeneus</a>, boss of London pirate-turned-legit radio station Rinse FM, to create combinations of sounds that were unexpected but felt intuitive. In her music, <a target="_new" href="https://www.youtube.com/watch?v=qNhPYj-5rIY">dubstep</a> and <a target="_new" href="https://www.youtube.com/watch?v=cJNXXuAxkfk">U.K. funky</a> beats rubbed up against incandescent melodies to create songs that moved the heart as well as the feet, struck through with a rare intimate detail with moments of startling poetry that characterized her dispatches from dancefloors, night buses, and diaries.</p>
+
+<p>In 2016, Katy's approach has the same keen eye, but her ambitions have grown in scale and scope. Her third album <i>Honey</i>, due this April, is her most formally ambitious yet. The <a target="_new" href="http://imallyuk.com/wp-content/uploads/2016/01/Katy-B-Honey-Album-Cover-550x550.jpg">album artwork</a> reflects this: a roll-call of the globe's most in-demand producers and MCs, pointing to the south London artist's role as curator as well as artist. It moves from swaggering London grime to hard-hitting house; from critically fêted experimental producers like <a href="http://www.thefader.com/artist/four-tet">Four Tet</a> and <a href="http://www.thefader.com/artist/mr-mitch">Mr Mitch</a> to <a href="http://www.thefader.com/artist/major-lazer">Major Lazer</a>’s tropical house, as well as a new take on Katy’s jaunty U.K. number one from last year, a collaboration with London house artist <a target="_new" href="https://soundcloud.com/kda-music">KDA</a> on <a target="_new" href="https://www.youtube.com/watch?v=vh44zE-hlL4">“Turn The Music Louder (Rumble).” </a></p>
+
+<p>Geeneus thinks of <i>Honey</i> as a reaction to the arduous process of making her 2014 album <i>Little Red</i> in a major label context: “We'd worked with big pop producers, and she'd done a lot of sessions over that time where she wasn't really connecting musically with people. We wanted to show that the underground stuff can stand up. Katy really does care about club music—she's not one of these artists that jump on a club song to get a bit of attention as a feature, then jump off and go and do something else.”</p>
+
+<p>Katy's ear for the cream of the underground—and interest in placing it into a pop context—is the foundation of the project, but it's her own voice that makes it a fully coherent work in itself rather than the patchwork it might have been in someone else's hands. The FADER spoke to her, Geeneus, <a href="http://www.thefader.com/artist/kaytranada">Kaytranada</a>, <a href="http://www.thefader.com/artist/diplo">Diplo</a>, <a href="https://www.thefader.com/artist/mssingno">MssingNo</a>, <a href="https://www.thefader.com/artist/d-double-e">D Double E</a>, and more of her collaborators to get under the skin of the 13 new tracks. 
+<br /><br><Hr><br></p>
+      </div>
+      
+    
+  </div>
+</div>
+
+
+    
+  <div id="content_block-61829" class="content_block paragraph text triple_gutter_right triple_gutter_left center_align">
+  <div class="content_inner_wrapper">
+
+      <h5 class="headline" style="margin-bottom: 30px;">
+        1. Katy B x Kaytranada, "Honey"
+      </h5>
+
+      
+      <div class="paragraph_wrapper center_align">
+        <p><b>KAYTRANADA:</b> I met Katy on the Mad Decent Boat Party in the Caribbean in 2014. I checked out who she was afterwards, and she was already huge in the U.K. I don't make beats for artists so it wasn't technically made for her, but it was suited to an R&B singer for sure…At the time I was doing those raw R&B beats that can make people feel nostalgic, and I knew Katy would like that soulfulness.</p>
+
+<p><b>KATY B:</b> I first heard of Kaytranada via <a target="_new" href="https://www.youtube.com/watch?v=y75DAFB-b1U">his remixes</a>. I actually started writing to a lot of his beats just as a songwriting exercise before I met him. He sent some new ones, and the "Honey" beat made me feel sexy, but more in control than vulnerable. </p>
+
+<p>Most of the work with producers on the album happened over email. I realised how much I enjoy writing that way. In the past producers have told me what to do vocally, which is really annoying. I really relish the opportunity for someone to make something exactly how they want it and for me to be, ‘yeah, I'll have that, and make my own vocal, do my own thing.’</p>
+      </div>
+      
+    
+  </div>
+</div>
+
+
+    
+  <div id="content_block-62038" class="content_block paragraph audio triple_gutter_right triple_gutter_left center_align">
+  <div class="content_inner_wrapper">
+
+
+      <div class="media_wrapper">
+        <iframe class="sc_embed" width="100%" height="120" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https://soundcloud.com/rinsefm/katy-b-x-kaytranada-honey&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+
+
+
+
+
+      </div>
+    
+  </div>
+</div>
+
+
+    
+  <div id="content_block-61830" class="content_block paragraph text triple_gutter_right triple_gutter_left center_align">
+  <div class="content_inner_wrapper">
+
+      <h5 class="headline" style="margin-bottom: 30px;">
+        2. Katy B x Craig David x Major Lazer, "Who Am I?"
+      </h5>
+
+      
+      <div class="paragraph_wrapper center_align">
+        <p><b>DIPLO:</b> This was a working demo for Major Lazer, but we never got it sounding right for us—it went through many different sounds and different vibes, I might have 20 versions on my computer from reggae to dancehall to a slowed-down electronic beat. We even did a sort of Pat Benatar style 180 BPM version that I loved!</p>
+
+<p><b>KATY B:</b> [This song] was about my first boyfriend. I used to be in a band with him and when we broke up...I realized everyone I knew in London was in the band. I felt like I'd have to give up my band, my friends, my whole identity, start again from scratch. You don't just lose a person in a break-up. Others might lose their home, even their child and family—I think of people going through divorces when I sing it, too. It was originally a solo song, and I still don't really see it as me singing to Craig—we're the same person singing the same song.</p>
+      </div>
+      
+    
+  </div>
+</div>
+
+
+    
+  <div id="content_block-63060" class="content_block paragraph audio triple_gutter_right triple_gutter_left center_align">
+  <div class="content_inner_wrapper">
+
+
+      <div class="media_wrapper">
+        <iframe class="sc_embed" width="100%" height="120" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https://soundcloud.com/rinsefm/katybxcraigdavidxmajorlazer-whoami&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+
+
+
+
+
+      </div>
+    
+  </div>
+</div>
+
+
+    
+  <div id="content_block-61831" class="content_block paragraph text triple_gutter_right triple_gutter_left center_align">
+  <div class="content_inner_wrapper">
+
+      <h5 class="headline" style="margin-bottom: 30px;">
+        3. Katy B x Wilkinson x Stamina, "So Far Away"
+      </h5>
+
+      
+      <div class="paragraph_wrapper center_align">
+        <p><b>KATY B:</b> When I hear this, I see myself at Outlook festival with my boyfriend, just feeling like we're on our own in the middle of the dancefloor, no worries or problems…I freestyled the bridge, and I can hear that I'm right in it, saying 'fuck off' to all life's problems, 'we're miles away from that, let's just dance to some drum'n'bass for eight hours.'</p>
+
+<p><b>WILKINSON:</b> It's a real honor to be on Katy's project. Myself and Katy have been working on and off for a year or so, and we just caught a vibe on this track! She suggested putting <a target="_new" href="https://twitter.com/staminamc?lang=en-gb">Stamina MC</a> on the record, who has always been one of my favourite MCs since he made <a target="_new" href="https://www.youtube.com/watch?v=PKPWMmyYj3g">"LK"</a> years ago. Katy is a natural writer and a real pro—she's like the voice of dance music in the U.K., and completely comes from our world.</p>
+      </div>
+      
+    
+  </div>
+</div>
+
+
+    
+  <div id="content_block-61832" class="content_block paragraph text triple_gutter_right triple_gutter_left center_align">
+  <div class="content_inner_wrapper">
+
+      <h5 class="headline" style="margin-bottom: 30px;">
+        4. Katy B x Sasha Keable x JD Reid, "Chase Me"
+      </h5>
+
+      
+      <div class="paragraph_wrapper center_align">
+        <p><b>KATY B:</b> This song reminds me of being a teenager at school in Peckham, a boy trying to move to me and me being a bit wary, ‘cause they might be talking to all the girls. [It’s about] learning to have your wits about you as a girl. </p>
+
+<p><b>SASHA KEABLE:</b> In any part of the world men come up and they're like, ‘hey, can I have your number?’ You're like, ‘no, no, fuck off.’ This is a real representation of what it's like to be a young girl, young woman, in south London. Or anywhere.</p>
+
+<p><b>KATY B:</b> Growing up, those are the songs I loved—Destiny's Child, Mýa, Ashanti, Aaliyah…</p>
+
+<p><b>SASHA KEABLE:</b> …Brandy, Lauryn Hill, all those power females. We're very much bowing down to all these women. </p>
+      </div>
+      
+    
+  </div>
+</div>
+
+
+    
+  <div id="content_block-61863" class="content_block diptych triple_gutter_right triple_gutter_left">
+  
+  <div class="media_wrapper half_gutter_right gutter_btm">
+
+    
+    
+
+<blockquote>&quot;You don&#39;t have to be into grime for the erratic stuff—you can be into it for feeling nice, feeling wavy. I had a place in my mind when I wrote my verse—it was looking plush, there was champagne.&quot;—D Double E</blockquote>
+
+
+
+
+
+
+  </div>
+  <div class="media_wrapper half_gutter_left" style="">
+
+    
+    
+
+<div class="diptych_media-embed">
+  <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/nFoTEgLZsc/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Big up @katyb smashing up the mainstream right now #real talent always shines. #on a mission and lights on are my Percy&#39;s #</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A photo posted by Legendary (@omygoshitsddoublee) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2014-04-22T09:59:43+00:00">Apr 22, 2014 at 2:59am PDT</time></p></div></blockquote> <script async defer src="//platform.instagram.com/en_US/embeds.js"></script><script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+    
+  <div id="content_block-61833" class="content_block paragraph text triple_gutter_right triple_gutter_left center_align">
+  <div class="content_inner_wrapper">
+
+      <h5 class="headline" style="margin-bottom: 30px;">
+        5. Katy B x J Hus x D Double E x HeavyTrackerz, "Lose Your Head"
+      </h5>
+
+      
+      <div class="paragraph_wrapper center_align">
+        <p><b>G.TANK (HEAVYTRACKERZ):</b> We have strong feelings about R&G [R&B-meets-grime], we're big fans of it, so when this came about it was like, yeah, sick—incorporating female singers on such heavy, bass-orientated music.</p>
+
+<p><b>KATY B:</b> I absolutely loved R&G! I was a massive <a target="_new" href="https://www.youtube.com/watch?v=UZHN-y7ZOlU">Sadie Ama</a> fan. <a target="_new" href="https://soundcloud.com/davinche/sets/katiepearlgrimealbum">Katie Pearl</a> and <a target="_new" href="https://www.youtube.com/watch?v=DFwA_RejLTE">Shola Ama</a> too. </p>
+
+<p><b>D DOUBLE E:</b> The R&G vibe makes everything more fully rounded. You don't have to be into grime for the erratic stuff—you can be into it for feeling nice, feeling wavy. I had a place in my mind when I wrote my verse—it was looking plush, there was champagne. Like, have you ever been to Dubai? Every club is over the top...it feels like a palace. I do a lot of underground clubs where the floor is wet and people throw beers, so that plushness is different for me.</p>
+      </div>
+      
+    
+  </div>
+</div>
+
+
+    
+  <div id="content_block-61834" class="content_block paragraph text triple_gutter_right triple_gutter_left center_align">
+  <div class="content_inner_wrapper">
+
+      <h5 class="headline" style="margin-bottom: 30px;">
+        6. Katy B x Chris Lorenzo, "I Wanna Be"
+      </h5>
+
+      
+      <div class="paragraph_wrapper center_align">
+        <p><b>CHRIS LORENZO:</b> I produced the track as an instrumental but when I heard the first cut I was overwhelmed with how well it worked—Katy completely took the track to a new height.</p>
+
+<p><b>KATY B:</b> I'm up in Birmingham [Chris Lorenzo’s hometown] all the time these days. Clubs are opening up left, right and centre there—I was discovering stuff, I felt like I was 16 again. It's really healthy compared to London, where everywhere's closing down. </p>
+
+<p>When I heard Chris' beat, I felt quite euphoric…like it'd be in that moment when you're with someone you like and end up kissing them. When you decide not to play it cool but just go for it. </p>
+      </div>
+      
+    
+  </div>
+</div>
+
+
+    
+  <div id="content_block-61835" class="content_block paragraph text triple_gutter_right triple_gutter_left center_align">
+  <div class="content_inner_wrapper">
+
+      <h5 class="headline" style="margin-bottom: 30px;">
+        7. Katy B x Four Tet x Floating Points, "Calm Down"
+      </h5>
+
+      
+      <div class="paragraph_wrapper center_align">
+        <p><b>KATY B:</b> There's a rave called Chapter every year at [Birmingham club] Rainbow and I went last year—and I remember thinking, ‘me and my friends are getting old now—well, not that old—but we're not calming down, we're still loving it, still love hearing music on big soundsystems.’ Those first lines—<i>When we ever gonna calm down, I know I should do but I love the sound</i>—I remember recording them on my phone while I was dancing.</p>
+
+<p>Four Tet messaged me on Twitter and sent me that beat and I tried that idea on it, then Floating Points did all the strings. And after we'd finished [Floating Points] was like, “Come to my house for a cup of tea.” He was lovely and we just talked for hours about music. I feel like I should do this with every producer I work with.</p>
+
+<p>At the beginning the beat had loads of white noise on it—I took it out, chopped it up, and arranged it differently. I didn't know whether [Four Tet] would be okay with that, but he was totally cool. </p>
+      </div>
+      
+    
+  </div>
+</div>
+
+
+    
+  <div id="content_block-61851" class="content_block paragraph video triple_gutter_right triple_gutter_left center_align">
+  <div class="content_inner_wrapper">
+
+
+      <div class="media_wrapper">
+        <div class="video_wrapper">
+  <iframe width="560" height="315" src="//www.youtube.com/embed/8E6fek9SD7w" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+
+
+
+
+      </div>
+    
+  </div>
+</div>
+
+
+    
+  <div class="content_block breaker triple_gutter_right triple_gutter_left pull_quote">
+
+  
+  <div class="media_wrapper">
+    <blockquote>&quot;When a beat is quite forward-thinking and innovative I delve deep…I feel like they won&#39;t be the most exposed songs, so that&#39;s where I hide all my vulnerability. Like, this isn&#39;t going to be on a daytime playlist on Radio 1, so I can put my demons here.&quot;—Katy B</blockquote>
+
+
+
+
+
+
+  </div>
+</div>
+
+
+    
+  <div id="content_block-61836" class="content_block paragraph text triple_gutter_right triple_gutter_left center_align">
+  <div class="content_inner_wrapper">
+
+      <h5 class="headline" style="margin-bottom: 30px;">
+        8. Katy B x Mr Mitch, "Heavy"
+      </h5>
+
+      
+      <div class="paragraph_wrapper center_align">
+        <p><b>KATY B:</b> Mr Mitch and I see each other every day because he works at <a href="http://www.thefader.com/tag/rinse-fm">Rinse</a>, so when we were getting beats I was like, 'let's ask Miles.' He's building an amazing club night with <a target="_new" href="https://soundcloud.com/boxedldn">Boxed</a>. I find his music really different—it feels like a really new sound at a time when lots of people are doing throwback stuff.</p>
+
+<p><b>MR MITCH:</b> The beat that Katy used is actually a different version of a track that I made to go towards her last album. It didn't make the final cut but when I got the track back I made it more me, I stripped a lot of the original work away from it and made it more minimal. When Katy and Geeneus asked me if I had anything for this project, I put it forward again and they were a lot more into it.</p>
+
+<p><b>KATY B:</b>  The beat is very dark, so it made me want to write something quite sinister over it. I picked a love story, as you do. It's the feeling when you feel someone's manipulating you or has some power on you, but you don't...mind. Like someone putting a dark umbrella over your life, sheltering you but dimming your light, so they can keep you there. </p>
+      </div>
+      
+    
+  </div>
+</div>
+
+
+    
+  <div id="content_block-61881" class="content_block paragraph video triple_gutter_right triple_gutter_left center_align">
+  <div class="content_inner_wrapper">
+
+
+      <div class="media_wrapper">
+        <div class="video_wrapper">
+  <iframe width="560" height="315" src="//www.youtube.com/embed/vh44zE-hlL4" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+
+
+
+
+      </div>
+    
+  </div>
+</div>
+
+
+    
+  <div id="content_block-61837" class="content_block paragraph text triple_gutter_right triple_gutter_left center_align">
+  <div class="content_inner_wrapper">
+
+      <h5 class="headline" style="margin-bottom: 30px;">
+        9. Katy B x KDA, "Turn The Music Louder Pt. 2"
+      </h5>
+
+      
+      <div class="paragraph_wrapper center_align">
+        <p><b>KDA:</b> The original <a target="_new" href="https://www.youtube.com/watch?v=cltRijif4mM">"Rumble" instrumental</a> was just a groove that landed in my head fully formed. I was a bit lawless about how I constructed the layers of melody, I deliberately played it single-fingered on the keyboard. I definitely wanted it to have the hip-shaking quality which I associate with Notting Hill Carnival and <a target="_new" href="http://www.brixtonsplash.org/">Brixton Splash</a>.</p>
+
+<p><b>KATY B:</b> I was at my friend's house the night before [recording this song] and we watched <i>Dreamgirls</i>. Watching <a href="http://www.thefader.com/artist/beyonce">Beyoncé</a> and <a href="http://www.thefader.com/artist/jennifer-hudson">Jennifer Hudson</a>, I felt so inspired. The next day I went into the studio and thought, ‘I've got to try to do something really big.’ A lot of the time I'm quite laid-back. So I got this beat and I just went for it. I wanted to do something really sassy and quite soulful. It was lots of fun.</p>
+      </div>
+      
+    
+  </div>
+</div>
+
+
+    
+  <div id="content_block-61838" class="content_block paragraph text triple_gutter_right triple_gutter_left center_align">
+  <div class="content_inner_wrapper">
+
+      <h5 class="headline" style="margin-bottom: 30px;">
+        10. Katy B x Kate Simko x Jamie Jones, "Dark Delirium"
+      </h5>
+
+      
+      <div class="paragraph_wrapper center_align">
+        <p><b>KATY B:</b> I knew of <a target="_new" href="https://soundcloud.com/jamie-jones">Jamie</a> through all those house tunes back in the day that absolutely smashed it, so I was fangirling a bit when he said he'd work with me. </p>
+
+<p><b>JAMIE JONES:</b> We worked in a really different way, we hadn't gone in there with any beats—the original plan was just to go in and record some emotive melodies with the strings, we sort of did things backwards.</p>
+
+<p><b>KATE SIMKO:</b> I tried to orchestrate the music to go against her lyrics. There's a part where she gets a little more positive, but then she sings, <i>You bring me into this dark delirium</i>—so under that I brought in the darker, lower strings. </p>
+
+<p>Our harpist <a target="_new" href="http://valeriakurbatova.com/">Valeria Kurbatova</a> improvised the entire harp part—she came to the studio after Katy had sung and played over what Katy had jammed out, and she just sat there and played for 25 minutes, which I edited later. I think the timbre of the harp itself can almost sound electronic, in a way. It can be the glue between the two worlds.</p>
+      </div>
+      
+    
+  </div>
+</div>
+
+
+    
+  <div id="content_block-61840" class="content_block paragraph text triple_gutter_right triple_gutter_left center_align">
+  <div class="content_inner_wrapper">
+
+      <h5 class="headline" style="margin-bottom: 30px;">
+        11. Katy B x MssingNo x Geeneus, "Water Rising"
+      </h5>
+
+      
+      <div class="paragraph_wrapper center_align">
+        <p><b>MSSINGNO:</b> I knew if I kept my idea simple and spacious it would work with her voice. As soon as we had chosen the beat she had written the first verse in 10 minutes. I love how the song has ended up—it's kind of a lullaby and ballad at the same time.</p>
+
+<p><b>KATY B:</b> In this song I'm really damaged, it was from a real dark place. Maybe when a beat is quite forward-thinking and innovative I delve deep…but also, maybe I feel like they won't be the most exposed songs, so that's where I hide all my vulnerability. Like, this isn't going to be on a daytime playlist on BBC Radio 1, so I can put my demons here.</p>
+      </div>
+      
+    
+  </div>
+</div>
+
+
+    
+  <div id="content_block-61859" class="content_block diptych triple_gutter_right triple_gutter_left">
+  
+  <div class="media_wrapper half_gutter_right gutter_btm">
+
+    
+    
+
+
+
+  <img alt="Katy B And Her Collaborators Unravel Every Track On &lt;i&gt;Honey&lt;/i&gt;" src="http://res.cloudinary.com/thefader/image/upload/s--Qx3qsfND--/w_720,c_limit,q_jpegmini/Katy_-_1_lgyb1d.jpg" />
+
+
+<span class="img_caption">
+
+
+  <span class="credit">
+    &nbsp;
+      Photo courtesy of PR
+    
+  </span>
+
+</span>
+
+
+
+
+  </div>
+  <div class="media_wrapper half_gutter_left" style="">
+
+    
+    
+
+<blockquote>&quot;I&#39;m a big fan of honey in general, I have jars and jars of it in my house. I&#39;m fascinated by how beautiful it is.&quot;—Katy B</blockquote>
+
+
+
+
+
+  </div>
+</div>
+
+
+    
+  <div id="content_block-61841" class="content_block paragraph text triple_gutter_right triple_gutter_left center_align">
+  <div class="content_inner_wrapper">
+
+      <h5 class="headline" style="margin-bottom: 30px;">
+        12. Katy B x Hannah Wants, "Dreamerz"
+      </h5>
+
+      
+      <div class="paragraph_wrapper center_align">
+        <p><b>KATY B:</b> I wanted to write something about being with my core group of friends. We ride or die for each other. Especially with what I do, I know I can go [to them] and feel completely rooted. This song is for them, and for Hannah and her friends, too.</p>
+
+<p><b>HANNAH WANTS:</b> In a crazy industry—and world, in fact—where true friendship and loyalty are rare, you’ve gotta learn what’s real and what’s not. </p>
+      </div>
+      
+    
+  </div>
+</div>
+
+
+    
+  <div id="content_block-61842" class="content_block paragraph text triple_gutter_right triple_gutter_left center_align">
+  <div class="content_inner_wrapper">
+
+      <h5 class="headline" style="margin-bottom: 30px;">
+        13. Katy B x Novelist x Geeneus, "Honey Outro"
+      </h5>
+
+      
+      <div class="paragraph_wrapper center_align">
+        <p><b>KATY B:</b> The last couple of years have been really dark for me. I lost my brother, and for a year before that he had brain damage. He was in a vegetative state. It was even worse than him dying, it was watching someone just survive when they shouldn't be surviving. So at the end this is my thank you to God or the world or whomever for my voice, for having this way to express myself, because I really needed it.</p>
+
+<p><b>GEENEUS:</b> The last album was difficult in itself. Everyone had expectations. We went from a small team to everyone—MDs, publishers, everyone at the label—with an opinion on whether they liked a tune or whether we had a hit yet. It was a headache, and draining. We had all that going on and then Katy's brother had the accident—but we'd started the campaign. We did the whole campaign with her going through that horrible experience and only a couple of people at the label knew. Everyone was like, “Katy's not around enough,” but she was flying to Mexico to be with him, sorting out his stuff and being with her family—it was a really intense time. I've never witnessed anything like it in my life and to watch her go through it, still going strong and fighting, was amazing.</p>
+
+<p>For this, I sat down with her and said, "I'd really like to do a poem or something." I'm always responsible for making the big hits and I didn't want to be on [<i>Honey</i>] for that, I wanted to take a backseat, so I wanted to do something a little more sideways. </p>
+
+<p><b>KATY B:</b> The honey of the title is different at the end. I'm a big fan of honey in general, I have jars and jars of it in my house. I'm fascinated by how beautiful it is, it's a real gift. The whole summer I was writing this album I was using all these amazing experiences. Then I knew I had to knuckle down, so I locked myself away in my hive and didn't go out, and the honey is my music.</p>
+      </div>
+      
+    
+  </div>
+</div>
+
+
+    
+  <div id="content_block-62057" class="content_block paragraph text triple_gutter_right triple_gutter_left center_align">
+  <div class="content_inner_wrapper">
+
+      <h5 class="headline" style="margin-bottom: 30px;">
+        Rinse/Virgin EMI will release <i>Honey</i> on April 29. <a target="_new" href="ttp://po.st/HoneyAlbumiTunes">Pre-order it here.</a>
+      </h5>
+
+      
+      <div class="paragraph_wrapper center_align">
+        <p></p>
+      </div>
+      
+    
+  </div>
+</div>
+
+
+</div>
+
+<!-- Collection Callout (prev <-> next article in collection) -->
+
+<!-- END COLLECTION CALL OUT -->
+
+<div class="meta_info_block triple_gutter_left triple_gutter_right gutter_top">
+  <div class="posted">Posted: <span itemprop="datePublished">February 05, 2016</span>
+
+    <div class="social_share_wrapper gutter_btm horizontal bottom">
+  <div class="social_share_icons">
+    <div class='social-share-button' data-title='Katy B And Her Collaborators Unravel Every Track On Honey' data-img='http://res.cloudinary.com/thefader/image/upload/Screen_Shot_2016-02-05_at_16.06.55_r2jdzl.png'
+data-url='' data-desc='' data-popup='' data-via='thefader'>
+<a class="social-share-button-facebook" data-site="facebook" href="#" onclick="return SocialShareButton.share(this);" rel="nofollow canonical" title="Share to Facebook"></a>
+<a class="social-share-button-twitter" data-site="twitter" href="#" onclick="return SocialShareButton.share(this);" rel="nofollow canonical" title="Share to Twitter"></a>
+<a class="social-share-button-pinterest" data-site="pinterest" href="#" onclick="return SocialShareButton.share(this);" rel="nofollow canonical" title="Share to Pinterest"></a>
+<a class="social-share-button-tumblr" data-site="tumblr" data-source="http://res.cloudinary.com/thefader/image/upload/Screen_Shot_2016-02-05_at_16.06.55_r2jdzl.png" href="#" onclick="return SocialShareButton.share(this);" rel="nofollow canonical" title="Share to Tumblr"></a>
+<a class="social-share-button-google_plus" data-site="google_plus" data-source="http://res.cloudinary.com/thefader/image/upload/Screen_Shot_2016-02-05_at_16.06.55_r2jdzl.png" href="#" onclick="return SocialShareButton.share(this);" rel="nofollow canonical" title="Share to Google+"></a>
+</div>
+  </div>
+</div>
+
+<div style="clear: both;"></div>
+
+  </div>
+  
+    <div class="primary_tags">
+          <a class="primary" href="/artist/four-tet">Four Tet</a>
+          <a class="primary" href="/artist/diplo">Diplo</a>
+          <a class="primary" href="/artist/katy-b">Katy B</a>
+          <a class="primary" href="/artist/major-lazer">Major Lazer</a>
+          <a class="primary" href="/artist/geeneus">Geeneus</a>
+          <a class="primary" href="/artist/floating-points">Floating Points</a>
+          <a class="primary" href="/artist/kaytranada">Kaytranada</a>
+          <a class="primary" href="/artist/j-hus">J Hus</a>
+          <a class="primary" href="/artist/d-double-e">D Double E</a>
+          <a class="primary" href="/artist/hannah-wants">Hannah Wants</a>
+          <a class="primary" href="/artist/mssingno">MssingNo</a>
+    </div>
+      <div class="meta_tags">
+            <a href="/tag/electronic">Electronic, </a>
+            <a href="/tag/pop">Pop, </a>
+            <a href="/tag/grime">grime</a>
+      </div>
+
+</div>
+
+
+
+  <button class="read-full-story-button">Read full story</button>
+  
+  </article>
+
+  <!-- <div id="engage-599019" class="ad-engage textad"><div id="google_ads_iframe_/56091333/engage-mobile_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/56091333/engage-mobile_0" name="google_ads_iframe_/56091333/engage-mobile_0" width="600" height="430" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" src="javascript:&quot;<html><body style='background:transparent'></body></html>&quot;" style="border: 0px; vertical-align: bottom;"></iframe></div><iframe id="google_ads_iframe_/56091333/engage-mobile_0__hidden__" name="google_ads_iframe_/56091333/engage-mobile_0__hidden__" width="0" height="0" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" src="javascript:&quot;<html><body style='background:transparent'></body></html>&quot;" style="border: 0px; vertical-align: bottom; visibility: hidden; display: none;"></iframe></div> -->
+  
+    
+    
+
+    <div class="posts_footer feature gutter_all_margin">
+      <section class="column two_thirds">
+
+
+        <div class="row headings">
+          <h3 class="mono_heading size_21 gutter_left">
+            <a class="header_link" id="mobile_popular_header_link" href="/trending">
+            <span>Trending</span>
+            </a>
+            <!-- <span class="popular_link"><span><a href="/trending">See All Trending</a></span></span>             -->
+          </h3>
+          <h3 class="mono_heading size_21 gutter_left"><span>Recommended</span></h3>
+        </div>
+        <div class="article_cards_wrapper">
+          <div class="row post_article_cards">
+
+            <h3 class="mono_heading size_21 gutter_left">
+                <a class="header_link" id="mobile_popular_header_link" href="/trending">
+                  <span>Trending</span>
+                </a>
+                <!-- <span class="popular_link"><span><a href="/trending">See All Trending</a></span></span> -->
+            </h3>
+
+<div class="card vertical featured_post gutter_left popular_post_article first_popular_post gutter_btm needs-vertical">
+</div>
+
+
+
+            <h3 class="mono_heading size_21 gutter_left"><span>Recommended</span></h3>
+              <div class="card vertical gutter_left recommended_post gutter_btm music">
+  <div class="card_inner_wrapper">
+  <div class="top" style="">
+    
+<span class="card_slug">
+  <a class="vertical" href="/music">music</a> /
+  <a class="category" href="/audio">Audio</a>
+    <a href="/premieres"><div class="fader_premiere">Premiere</div></a>
+</span>
+
+  </div>
+  <div class="bottom card_info_wrapper" style="">
+    <a href="/2016/02/16/et-aliae-dawn-richard-sober" class="permalink">
+      <div class="card_info">
+	<h3 class="card_headline">et aliae Recruits D∆WN For Her Prickly Lullaby "Sober"</h3>
+	<p class="card_summary">From an upcoming debut EP on Cascine. </p>
+      </div>
+
+      <div class="card_media">
+
+	    <img alt="et aliae Recruits D∆WN For Her Prickly Lullaby &quot;Sober&quot;" class="photo fit_w" src="http://res.cloudinary.com/thefader/image/upload/s--FyLcyLUT--/w_640,c_limit,q_jpegmini/et_aliae_-_Press_1_vvcahf.jpg" />
+      </div>
+    </a>
+  </div>
+</div>
+
+</div>
+
+
+
+
+            
+          </div>
+        </div>
+      </section>
+      <aside class="right_rail column">
+        <div class="ad square_ad below_the_fold_ad">
+          <div id='div-below-fold-latest-ad' style='width:300px; height:250px;'>
+  <script type='text/javascript'>
+    displayAdSlot('div-below-fold-latest-ad', 'fader_v3_home_below_the_fold_300x250', [300, 250]);
+  </script>
+</div>
+
+
+
+        </div>
+
+        <h3 class="mono_heading size_21 gutter_left">
+          <span>Latest</span>
+        </h3>
+        <div class="latest_feed">
+        </div>
+      </aside>
+    </div>
+</section>
+
+
+  <!-- fullscreen wrapper -->
+  <div class="fullscreen_wrapper">
+    <div class="fullscreen_header_block">
+      <div class="slug music double_gutter_left gutter_top"><a class="vertical" href="/music">music</a> / <a class="category" href="/Feature">Feature</a></div>
+      <span class="title gutter_left_gutter_right gutter_top">Katy B And Her Collaborators Unravel Every Track On <i>Honey</i></span>
+      <div class="close gutter_right gutter_top"><span class="icon_close"></span></div>
+    </div>
+    <div class="fullscreen_slideshow_wrapper triple_gutter_left triple_gutter_right gutter_top gutter_btm"></div>
+  </div>
+
+
+  <section class="ad banner_ad row footer_ad">
+  <div class="ad_outer_wrapper">
+    <div class="ad_inner_wrapper">
+      <div id='div-footer-ad' class="">
+  <script type='text/javascript'>
+    displayAdSlot('div-footer-ad', 'fader_v3_home_footer_728_90', [728, 90]);
+  </script>
+</div>
+
+    </div>
+  </div>
+</section>
+
+  <footer class="gutter_right gutter_left">
+  <div class="footer_top_row">
+    <a class="logo_wrapper" href="/home"> <div class="footer_logo"></div></a>
+    <div class="footer_links gutter_left">
+      <ul class="footer_page_links">
+        <li><a href="/contact">Contact</a></li>
+        <li><a target="_blank" href="http://advertising.thefader.com/">Advertising</a></li>
+        <li><a href="/terms-of-use">Terms of Use</a></li>
+        <li><a href="/privacy-policy">Privacy Policy</a></li>
+        <li><a target="_blank" href="http://apps.thefader.com/field_reps">Field Reps</a></li>
+        <li><a target="_blank" href="http://www.faderlabel.com">Fader Label</a></li>
+      </ul>
+      <ul class="footer_social_links">
+        <li><a target="_blank" href="https://twitter.com/thefader">Twitter</a></li>
+        <li><a target="_blank" href="https://www.facebook.com/thefader">Facebook</a></li>
+        <li><a target="_blank" href="http://plus.google.com/+TheFADER">Google+</a></li>
+        <li><a target="_blank" href="https://www.youtube.com/user/TheFaderTeam?sub_confirmation=1"">Youtube</a></li>
+        <li><a target="_blank" href="http://thefader.tumblr.com">Tumblr</a></li>
+        <li><a target="_blank" href="https://www.instagram.com/thefader/">Instagram</a></li>
+        <li><a target="_blank" href="https://itunes.apple.com/us/curator/the-fader/id999961432">Apple Music</a></li>
+        <li><a target="_blank" href="http://soundcloud.com/fadermedia">Soundcloud</a></li>
+        <li><a target="_blank" href="https://open.spotify.com/user/thefader">Spotify</a></li>
+        <li><a target="_blank" href="/feed.rss">RSS</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  <div class="footer_content">
+    <div class="current_issue">
+      <div class="wrapper">
+        <a href="/magazine" class="header mono_heading size_21">Magazine</a>
+        <div class="issue_info gutter_left">
+          <div class="issue_number_wrapper">
+            <a href="/magazine/101">
+              <div class="issue_number_sm" style="color: #ffffff; border:2px solid #ffffff">101</div>
+            </a>
+          </div>
+          
+          <a href="/magazine/101" class="issue_text_wrapper">
+            <div class="issue_date">Dec 2015 / Jan 2016</div>
+            <div class="issue_title">NOW Issue</div>
+          </a>
+        </div>
+      </div>
+      <a href="/magazine/101" class="issue_cover">
+        <img alt="" class="fit_w" src="http://res.cloudinary.com/thefader/image/upload/s--IAQ7h2Zo--/w_320,c_limit,q_jpegmini/zo2njkwxygpw50kjfjnk.jpg" />
+      </a>
+      <a class="subscribe_button border_btn white" href="http://shop.thefader.com/collections/subscriptions" target="_blank">Subscribe</a>
+    </div>
+    <div class="updates_form">
+      <form id="updates">
+        <div class="header mono_heading size_21">Updates</div>
+        <div class="options">
+          <input type="checkbox" id="daily" name="daily" value="daily" checked>
+          <label for="daily"><span></span>Daily</label>
+          <input type="checkbox" id="events" name="events" value="events" checked>
+          <label for="events"><span></span>Events</label>
+        </div>
+        <div class="signup">
+          <input type="text" class="email" placeholder="Email address" name="email" />
+          <span class="first_name"><input type="text" class="first_name" placeholder="First Name" name="first" /></span>
+          <span class="last_name"><input type="text" class="last_name" placeholder="Last Name" name="last" /></span>
+          <span class="zipcode"><input type="text" class="zipcode" placeholder="Zipcode" name="zipcode" /></span>
+          <p>
+            To get invites for parties near where you live, make sure to add your zip code.
+          </p>
+          <input type="submit" class="submit border_btn white" value="Sign Up" >
+        </div>
+      </form>
+    </div>
+
+    
+
+  </div>
+  <div class="credits">
+    <div class="fader_copyright">©2016  The Fader, Inc. All rights reserved.</div>
+    <div class="ws_credit">
+      <a href="http://www.wondersauce.com" target="_blank">
+        <div class="ws_logo"></div>
+        <span>Site By Wondersauce</span>
+      </a>
+    </div>
+</footer>
+
+  <div class="overlay"></div>
+</div>
+
+
+<div id='div-desktop-skin-ad'>
+  <script type='text/javascript'>
+    displayAdSlot('div-desktop-skin-ad', 'fader_v3_desktop_skin', [728, 90]);
+  </script>
+</div>
+
+
+<!-- Quantcast Tag, part 2 -->
+<script type="text/javascript">
+  _qevents.push( { qacct:"p-579gYVoxaB70s"} );
+</script>
+<noscript>
+  <div style="display: none;">
+    <img src="http://pixel.quantserve.com/pixel/p-test123.gif" height="1" width="1" alt="Quantcast"/>
+  </div>
+</noscript>
+
+    <!-- START Nielsen Online SiteCensus V6.0 -->
+    <!-- COPYRIGHT 2010 Nielsen Online -->
+    <script type="text/javascript">
+      (function () {
+        var d = new Image(1, 1);
+        d.onerror = d.onload = function () {
+        d.onerror = d.onload = null;
+      };
+      d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-706645h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+      })();
+    </script>
+    <noscript>
+      <div>
+        <img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-706645h&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt="" />
+      </div>
+    </noscript>
+    <!-- END Nielsen Online SiteCensus V6.0 -->
+
+    <!-- Begin comScore Tag -->
+    <script>
+      var _comscore = _comscore || [];
+      _comscore.push({ c1: "2", c2: "16442793" });
+      (function() {
+      var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+      s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+      el.parentNode.insertBefore(s, el);
+      })();
+    </script>
+    <noscript>
+      <img src="http://b.scorecardresearch.com/p?c1=2&c2=16442793&cv=2.0&cj=1" />
+    </noscript>
+    <!-- End comScore Tag -->
+
+<!--     <script type="text/javascript"> -->
+<!-- setTimeout(function(){var a=document.createElement("script"); -->
+<!-- var b=document.getElementsByTagName("script")[0]; -->
+<!-- a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0025/8418.js?"+Math.floor(new Date().getTime()/3600000); -->
+<!-- a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1); -->
+<!-- </script> -->
+
+<!-- START Parse.ly Include: Standard -->
+<div id="parsely-root" style="display: none">
+  <div id="parsely-cfg" data-parsely-site="thefader.com"></div>
+</div>
+<script>
+(function(s, p, d) {
+  var h=d.location.protocol, i=p+"-"+s,
+      e=d.getElementById(i), r=d.getElementById(p+"-root"),
+      u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+      :"static."+p+".com";
+  if (e) return;
+  e = d.createElement(s); e.id = i; e.async = true;
+  e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+})("script", "parsely", document);
+</script>
+<!-- END Parse.ly Include -->
+
+<script type='text/javascript'>var _merchantSettings=_merchantSettings || [];_merchantSettings.push(['AT', '1010l4BX']);(function(){var autolink=document.createElement('script');autolink.type='text/javascript';autolink.async=true; autolink.src= ('https:' == document.location.protocol) ? 'https://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js' : 'http://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(autolink, s);})();</script>
+
+
+    <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js" data-pin-hover="true" async></script>
+
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1669 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+      
+
+      
+
+      
+   
+   
+
+
+
+
+
+   
+
+
+
+
+   
+   
+      
+   
+
+
+
+
+
+
+
+
+
+
+       
+   
+      
+	
+
+  
+  
+    
+  
+  
+
+
+
+<!doctype html>
+<!---
+                                                                                  
+                                                                                         
+      ,------. ,--. ,--.,--.  ,--.,--. ,--.,------.,------.,------. ,------.,------.     
+      |  .--. '|  | |  ||  ,'.|  ||  .'   /|  .---'|  .---'|  .--. '|  .---'|  .--. '    
+      |  '--'.'|  | |  ||  |' '  ||  .   ' |  `--, |  `--, |  '--' ||  `--, |  '--'.'    
+      |  |\  \ '  '-'  '|  | `   ||  |\   \|  `---.|  `---.|  | --' |  `---.|  |\  \     
+      `--' '--' `-----' `--'  `--'`--' '--'`------'`------'`--'     `------'`--' '--'    
+      
+      
+      ,--. ,---.      ,--.  ,--.,--.,------. ,--.,--.  ,--. ,----.                       
+      |  |'   .-'     |  '--'  ||  ||  .--. '|  ||  ,'.|  |'  .-./                       
+      |  |`.  `-.     |  .--.  ||  ||  '--'.'|  ||  |' '  ||  | .---.                    
+      |  |.-'    |    |  |  |  ||  ||  |\  \ |  ||  | `   |'  '--'  |                    
+      `--'`-----'     `--'  `--'`--'`--' '--'`--'`--'  `--' `------'  
+      
+                                                                              ,---.,---. 
+      ,--.,--.  ,--.    ,-----.   ,-----.  ,---. ,--------. ,-----. ,--.  ,--.|   ||   | 
+      |  ||  ,'.|  |    |  |) /_ '  .-.  ''   .-''--.  .--''  .-.  '|  ,'.|  ||  .'|  .' 
+      |  ||  |' '  |    |  .-.  \|  | |  |`.  `-.   |  |   |  | |  ||  |' '  ||  | |  |  
+      |  ||  | `   |    |  '--' /'  '-'  '.-'    |  |  |   '  '-'  '|  | `   |`--' `--'  
+      `--'`--'  `--'    `------'  `-----' `-----'   `--'    `-----' `--'  `--'.--. .--.  
+                                                                              '--' '--'  
+
+      It's dangerous to go alone!
+      
+      Take this!
+      
+      /jobs.
+      
+      or email us directly! jobs[at]runkeeper[dot]com
+                                                                                
+  -->
+<html xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+  <title>Roger Beck Tallahassee, FL, USA - Runkeeper</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  
+  
+  <meta name="description" content="Roger Beck's profile Tallahassee, FL, USA"/>
+  
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgMAV1FACgEGVVhX"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function s(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),s=a.length,c=0;s>c;c++)a[c].apply(i,r);return i}function c(t,e){d[t]=f(t).concat(e)}function f(t){return d[t]||[]}function u(){return r(s)}var d={};return{on:c,emit:s,create:u,listeners:f,context:e,_events:d}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:25,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,a){try{f?f-=1:r("err",[a||new UncaughtException(t,e,n)])}catch(c){try{r("ierr",[c,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof s?s.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=t("loader"),s=window.onerror,c=!1,f=0;a.features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(u){"stack"in u&&(t(1),t(2),"addEventListener"in window&&t(3),a.xhrWrappable&&t(4),c=!0)}i.on("fn-start",function(){c&&(f+=1)}),i.on("fn-err",function(t,e,r){c&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){c&&!this.thrown&&f>0&&(f-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:26,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.clearResourceTimings?window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1):window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){for(var e=t;e&&!e.hasOwnProperty("addEventListener");)e=Object.getPrototypeOf(e);e&&r(e)}function r(t){a.inPlace(t,["addEventListener","removeEventListener"],"-",o)}function o(t){return t[1]}var i=t("ee").create(),a=t(1)(i),s=t("gos");e.exports=i,r(window),"getPrototypeOf"in Object?(n(document),n(XMLHttpRequest.prototype)):XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&r(XMLHttpRequest.prototype),i.on("addEventListener-start",function(t){if(t[1]){var e=t[1];if("function"==typeof e){var n=s(e,"nr@wrapped",function(){return a(e,"fn-",null,e.name||"anonymous")});this.wrapped=t[1]=n}else"function"==typeof e.handleEvent&&a.inPlace(e,["handleEvent"],"fn-")}}),i.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:27,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:27,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:27,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=i(t[0],"fn-",this,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:27,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,l,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-",o)}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,l=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[e],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:27,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var o=0;u>o;o++)t.removeEventListener(f[o],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=this.lastSize||n(t);if(i&&(r.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,c.emit("xhr-done",[t],t),a("xhr",[e,r,this.startTime])}}}function n(t){var e=t.responseType,n="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return r(n)}function r(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function o(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var i=t("loader");if(i.xhrWrappable){var a=t("handle"),s=t(2),c=t("ee"),f=["load","error","abort","timeout"],u=f.length,d=t(1),l=t(3),p=window.XMLHttpRequest;i.features.xhr=!0,t(5),t(4),c.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=e,n.ended=!1,n.xhrGuids={},n.lastSize=0,l&&(l>34||10>l)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),c.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),c.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),c.on("send-xhr-start",function(t,e){var n=this.metrics,o=t[0],i=this;if(n&&o){var a=r(o);a&&(n.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{c.emit("internal-error",[n])}catch(r){}}};for(var s=0;u>s;s++)e.addEventListener(f[s],this.listener,!1)}),c.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),c.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),c.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),c.on("addEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-added",[t[1],t[2]],e)}),c.on("removeEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-removed",[t[1],t[2]],e)}),c.on("fn-start",function(t,e,n){e instanceof p&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),c.on("fn-end",function(t,e){this.xhrCbStart&&c.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:16,4:12,5:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:25,2:26,handle:"D5DuLP"}],16:[function(t,e){var n=0,r=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);r&&(n=+r[1]),e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!h++){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){t[e]||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},l=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),p=e.exports={offset:i(),origin:u,features:{},xhrWrappable:l};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var h=0},{1:25,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],25:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],26:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],27:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,c;try{i=this,n=o(arguments),s="function"==typeof r?r(n,i):r||{}}catch(u){d([u,"",[n,i,a],s])}f(e+"start",[n,i,a],s);try{return c=t.apply(i,n)}catch(l){throw f(e+"err",[n,i,l],s),l}finally{f(e+"end",[n,i,c],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,u(t,nrWrapper),nrWrapper)}function c(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!s){s=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}s=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=c,e.flag=i,e}},{1:26,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script><link rel="canonical" href="https://runkeeper.com/user/1222687400/activity/731525020" />
+  
+    <meta name="HandheldFriendly" content="True">
+    
+    
+    
+      <meta name = "viewport" content="width=device-width">
+    
+    
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+  
+
+  
+
+  
+  
+  
+    
+    
+  
+
+  
+   
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:site" content="@runkeeper">
+   
+   <meta name="twitter:image" content="http://static1.runkeeper.com/images/icon-walking-120.jpg">
+   <meta name="twitter:url" content="https://runkeeper.com/activity?userId=26386100&trip=731525020">
+   <meta name="twitter:title" content="I walked for 1.76 miles in 35:10">   
+   <meta name="twitter:description" content="I burned 224 calories at an average pace of 20:00 per mi.">
+   
+      <meta name="twitter:app:name:iphone" content="Runkeeper"/>
+      <meta name="twitter:app:id:iphone" content="300235330"/>
+      <meta name="twitter:app:name:ipad" content="Runkeeper"/>
+      <meta name="twitter:app:id:ipad" content="300235330"/>
+      <meta name="twitter:app:name:googleplay" content="Runkeeper"/>
+      <meta name="twitter:app:id:googleplay" content="com.fitnesskeeper.runkeeper.pro"/>
+      <meta name="twitter:app:url:iphone" content="runkeeper://?view=activity&tripuuid=927c9b62-e5b9-4eb3-b039-56ad590e505f&deepLinkSource=twitterCard">
+      <meta name="twitter:app:url:ipad" content="runkeeper://?view=activity&tripuuid=927c9b62-e5b9-4eb3-b039-56ad590e505f&deepLinkSource=twitterCard">
+      <meta name="twitter:app:url:googleplay" content="runkeeper://?view=activity&tripuuid=927c9b62-e5b9-4eb3-b039-56ad590e505f&deepLinkSource=twitterCard">
+   
+
+    
+  
+   <meta property="fb:app_id" content="62572192129"/>
+   <meta property="og:site_name" content="Runkeeper"/>
+   <meta property="og:type" content="fitness.course"/>
+   <meta property="og:url" content="https://runkeeper.com/activity?userId=26386100&trip=731525020"/>
+   <meta property="og:title" content="1.76mi. walk in 35:10"/>
+   <meta property="og:description" content="I burned 224 calories at an average pace of 20:00 per mi."/>
+   <meta property="og:image" content="http://static1.runkeeper.com/images/icon-walking-200.png"/>
+   
+   
+   
+   
+   
+   
+
+  
+  
+    
+	
+		<meta property="al:ios:url" content="runkeeper://?view=activity&tripuuid=927c9b62-e5b9-4eb3-b039-56ad590e505f&deepLinkSource=appLinks" />
+		<meta property="al:ios:app_store_id" content="300235330" />
+		<meta property="al:ios:app_name" content="Runkeeper" />
+		<meta property="al:android:url" content="runkeeper://?view=activity&tripuuid=927c9b62-e5b9-4eb3-b039-56ad590e505f&deepLinkSource=appLinks" />
+		<meta property="al:android:app_name" content="Runkeeper" />
+		<meta property="al:android:package" content="com.fitnesskeeper.runkeeper.pro" />
+		
+			
+			
+					<meta property="al:web:should_redirect" content="true" />
+			
+		
+		<meta property="al:web:url" content="https://runkeeper.com/activity/731525020?username=1222687400&deepLinkSource=appLinks" />
+	
+
+  
+    
+   
+                
+                        
+                                
+
+   <meta property="fitness:duration:value" content="2111"/>
+   <meta property="fitness:duration:units" content="s"/>
+   <meta property="fitness:calories" content="224"/>
+   
+   
+      <meta property="fitness:distance:value" content="1.76"/>
+      <meta property="fitness:distance:units" content="mi"/>
+      
+      
+         
+         
+            <meta property="fitness:pace:value" content="0.2272000518700875"/>
+            <meta property="fitness:pace:units" content="s/ft"/>
+         
+      
+   
+   
+   
+      
+      <link rel="opengraph" href="https://runkeeper.com/facebook/pointData/731525020?ogType=course"/>
+   
+
+
+                        
+                        
+                
+        
+         
+   <link rel="shortcut icon" href="https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static/web/images/favicon.ico" type="image/x-icon">
+   <link rel="icon" href="https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static/web/images/favicon.ico" type="image/x-icon"/>
+   
+   
+   
+     
+       <link rel="stylesheet" href="https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static/foundation-4.3.2.runkeeper/css/normalize.css" />
+       <link rel="stylesheet" href="https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static/foundation-4.3.2.runkeeper/css/foundation.css" />
+       <link rel="stylesheet" type="text/css" href="https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static/oceanus/css/responsive_layout.css">
+     
+     
+   
+   
+   
+   
+  <!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static/oceanus/css/ie.css" media="screen" />
+  <![endif]-->
+   
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+  <script src="https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static/oceanus/js/plugins/response.min.js"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+var contextPath = "";
+var staticRoot = "https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static";
+var baseHostUrl = "https://runkeeper.com";
+var baseHostUrlSsl = "https://runkeeper.com";
+var tripPhotoBaseUrl = "https://d38gl3mpd8okug.cloudfront.net";
+</script>
+<script type="text/javascript" language="javascript">
+  var isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i) ? true : false;
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i) ? true : false;
+    }
+  }
+</script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+var metersPerMile = 1609.344;
+var feetPerMeter  = 3.2808399;
+</script>
+
+  
+  <script type="text/javascript" language="javascript">
+    var jq = jQuery;
+    jq(document).ready(function(){
+      if((isMobile.Android() || isMobile.iOS()) && (Response.deviceW() <= 1024)){
+        jq('.mobileHover > .toolItemLink').on('click touchstart mousedown',function(event){
+          event.preventDefault();
+        });
+        jq('.mobileHover').on('click touchstart mousedown', function(event){ 
+          event.stopPropagation();
+          jq(this).siblings('.mobileHover').children('ul.subNav').hide();
+          jq(this).children('ul.subNav').show();
+        });
+        jq(document).on('click touchstart mousedown', function(event){
+          jq('.mobileHover ul.subNav').hide();
+        })
+      };
+    });
+  </script>
+  
+  
+     
+      <script type="text/javascript" src="https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static/foundation-4.3.2.runkeeper/js/vendor/custom.modernizr.js"></script>
+      <script type="text/javascript" src="https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static/foundation-4.3.2.runkeeper/js/foundation.min.js"></script>
+    
+    
+  
+  
+  <script type="text/javascript" src="https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static/oceanus/js/global.js"></script>
+
+  
+  
+  
+  
+    
+    
+      
+        <script type="text/javascript" src="https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static/kronos/js/../../kronos/js/jquery.jcarousel.pack.js"></script>
+      
+    
+      
+        <script type="text/javascript" src="https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static/kronos/js/../../oceanus/js/plugins/jquery.fancybox.js"></script>
+      
+    
+  
+  
+  
+      
+         <script>
+            var isUserLoggedIn = false;
+         </script>
+      
+      
+   
+   
+  
+   
+  <script type="text/javascript">
+      var FB_withLoginStatus = [];
+  </script>
+  
+  
+     
+     
+        
+     
+  
+
+
+
+
+  
+    <style type="text/css">
+     @font-face {
+        font-family: 'runkeeper';
+        src: url('https://d3ezq8lhymjsca.cloudfront.net/runkeeper.woff?https://runkeeper.com/notIE_SSL_3') format('woff'),
+             url('https://d3ezq8lhymjsca.cloudfront.net/runkeeper.ttf?https://runkeeper.com/notIE_SSL_3') format('truetype'),
+             url('https://d3ezq8lhymjsca.cloudfront.net/runkeeper.svg#runkeeper?https://runkeeper.com/notIE_SSL_3') format('svg');
+     }
+    </style>
+  
+  
+
+
+  <script type="text/javascript">
+      
+      var d = new Date();
+      var gmtHours = -d.getTimezoneOffset()/60;
+      var expires = new Date(d.getTime() + 94608000000);
+      setCookie("tz", gmtHours, "/", expires);
+      
+      
+      var trackConvUrl = "/tc";
+
+      jQuery("[convTestName]").click(function(){
+         jQuery.post(trackConvUrl, { "testName" : jQuery(this).attr('convTestName')});
+      });
+  </script>
+  
+  
+  
+   <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-6014756-8']);
+      _gaq.push(['_setDomainName', 'runkeeper.com']);
+
+      
+        
+          _gaq.push(["_set", "title", "user/activity"]);
+          _gaq.push(['_trackPageview','user/activity']);
+        
+        
+      
+      
+      
+	      
+	      
+	      	_gaq.push(['_setCustomVar',3, 'isElite','false',1]);
+	      
+	  
+   
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+   </script>
+
+  
+  
+          <script type="text/javascript">
+            function numberWithCommas(x) {
+              return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            }
+            function getViewedCookie(activityTypeString){
+              return getCookie("viewed_lander_total_"+activityTypeString);
+            }
+            function setViewedCookie(activityTypeString,value){
+              var expDate = new Date();
+              expDate.setDate(expDate.getDate()+1);
+              setCookie("viewed_lander_total_"+activityTypeString, value, "/", expDate); 
+            }
+            function getNewValueToDisplay(activityTypeString,distanceUnits){
+              var randArray = [];
+              // values from 12/2-11/29
+              switch(activityTypeString)
+              {
+                case 'running':
+                  randArray = [1033956265.5,1932051616.6,1281834309.3,337657437529.2,1316492927.7,1014153636.7,1208337499.8,1088895703.8,1612424821.6,1480826669.1,892823094.0,1005908822.6,1093904972.7,1220269981.3,2245756215.2,1699860407.7];
+                break;
+                case 'cycling':
+                  randArray = [348749721.3,813836081.8,373633297.6,241693561.7,264780291.6,333751736.9,309608589.4,70092101450.7,436652009.1,406090355.5,347088277.8,291299268.1,90882429792627.3,316627089.3,460675548.3,542413423.7,489319543.7];
+                break;
+                case 'walking':
+                  randArray = [1088416936.6,829427251.5,463467179.3,484390529.2,407906846.3,572971269.6,594392545.8,2123567418.5,759961875.3,446864610.5,748015257.4,2184972802.0,934281906.7,730812123.3,720892034.6,952350332.5,750206044.7];
+                break;
+                default:
+              }
+              var randArrayLength = randArray.length;
+              var randSelection=randArray[Math.floor(Math.random()*randArrayLength)] / 1000;
+              if((randSelection / 2.2) > 10000000)
+              {
+                // sanity check : if the returned value is > ten million, return a new number
+                return getNewValueToDisplay(activityTypeString,distanceUnits);
+              }
+              switch(distanceUnits)
+              {
+                case 'mi':
+                  randSelection = Math.round(randSelection / 2.2);
+                break;
+                default:
+                  randSelection = Math.round(randSelection);
+                  // km already, do nothing
+              }
+              randSelection = numberWithCommas(randSelection);
+              setViewedCookie(activityTypeString,randSelection);
+              $('#activityTotal').text(randSelection);
+            }
+
+            $(document).on('ready',function(){
+              var cookieValue = getViewedCookie('walking');
+              if(cookieValue == null){
+                getNewValueToDisplay('walking','mi');
+              }
+              else {
+                $('#activityTotal').text(cookieValue);
+              }
+            });
+          </script>
+        
+  
+  
+  
+  <!-- Pingdom Real User Monitoring, so we can measure and verify page load times, may take this out after evaluating -->
+  <script>
+  var _prum = [['id', '5509a656abe53d684800399b'],
+               ['mark', 'firstbyte', (new Date()).getTime()]];
+  (function() {
+      var s = document.getElementsByTagName('script')[0]
+        , p = document.createElement('script');
+      p.async = 'async';
+      p.src = '//rum-static.pingdom.net/prum.min.js';
+      s.parentNode.insertBefore(p, s);
+  })();
+
+
+  </script>
+
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+        
+        
+        <script type='text/javascript'>
+          var testinguser = "none";
+          console.log("userIsGo = " + testinguser);
+          googletag.cmd.push(function() {
+            googletag.defineSlot('/36629147/rk-toplb-728x90-320x50', [[320, 50], [728, 90]], 'div-gpt-ad-1453516216285-6').setTargeting('subscription-type', [testinguser]).addService(googletag.pubads());
+            if(/home/.test(window.location.href)){
+              googletag.defineSlot('/36629147/rk-top-right-180x150', [180, 150], 'div-gpt-ad-1453516216285-5').setTargeting('subscription-type', [testinguser]).addService(googletag.pubads());
+              googletag.defineSlot('/36629147/rk-bottom-right-180x150', [180, 150], 'div-gpt-ad-1453516216285-1').setTargeting('subscription-type', [testinguser]).addService(googletag.pubads());
+            }
+            if(/user/.test(window.location.href)){
+            googletag.defineSlot('/36629147/rk-top-left-180x150', [180, 150], 'div-gpt-ad-1453516216285-4').setTargeting('subscription-type', [testinguser]).addService(googletag.pubads());
+            googletag.defineSlot('/36629147/rk-bottom-left-180x50', [180, 150], 'div-gpt-ad-1453516216285-0').setTargeting('subscription-type', [testinguser]).addService(googletag.pubads());
+            }
+            if(/new/.test(window.location.href)){
+              googletag.defineSlot('/36629147/rk-top-right-180x150', [180, 150], 'div-gpt-ad-1453516216285-5').setTargeting('subscription-type', [testinguser]).addService(googletag.pubads());
+              googletag.defineSlot('/36629147/rk-bottom-right-180x150', [180, 150], 'div-gpt-ad-1453516216285-1').setTargeting('subscription-type', [testinguser]).addService(googletag.pubads());
+              googletag.defineSlot('/36629147/rk-manual-300x250', [300, 250], 'div-gpt-ad-1453516216285-2').setTargeting('subscription-type', [testinguser]).addService(googletag.pubads());
+            }
+            if(/routes/.test(window.location.href)){
+            googletag.defineSlot('/36629147/rk-routes-300x250', [300, 250], 'div-gpt-ad-1453516216285-3').setTargeting('subscription-type', [testinguser]).addService(googletag.pubads());
+            }
+            googletag.pubads().enableSingleRequest();
+            googletag.pubads().collapseEmptyDivs();
+            googletag.enableServices();
+          });
+        </script>
+  
+</head>
+<body class=" activity cardio loggedoutActivity  mobilePage true">
+  <script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- Qualaroo for runkeeper.com -->
+  <script type="text/javascript">var _kiq = _kiq || [];</script>
+
+  
+    	
+    		
+
+    		
+			<div id="pageWrapper">
+				
+					<div class="bodyRow">
+						 
+						<div id="topNavContainer">
+							<div class="row">
+								<nav class="top-bar contain-to-grid sticky" data-options="is_hover:false">
+					    			<ul class="title-area">
+					    				<li class="name">
+					    					<h1>
+					    						<a id="homeLink" href="/"><img src="https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static/web/images/runkeeper-logo-white.png" style="width:26px;height:24px;margin-top:7.5px;margin-bottom:7.5px;" border="0" id="homeImg" /></a>
+					    					</h1>
+					    				</li>
+					    				<li class="divider hide-for-small"></li>
+					    					
+	   									
+	   									
+					    				<li class="toggle-topbar menu-icon">
+						    				<a href="#">
+						    					<span></span>
+						    				</a>
+						    			</li>
+					    			</ul>
+					    			<section class="top-bar-section">
+					    				
+				                  			
+					    				
+					    				<ul class="right">
+					    					
+					    					<li id="getTheApp">
+					    						
+					    						
+					    						 
+					    						<a href="/getapp?appsFlyerCampaign=&appsFlyerMediaSource=Mobile_Nav_Bar">
+					                      			Get The App
+					                      		</a>
+					                      		
+					                    		
+					    					</li>
+					    					
+				                  				
+					    						
+					    						
+					    					<li>
+					    						<a href="/login?redirectUrl=%2Factivity%2F731525020%3Fusername%3D1222687400">Log In</a>
+					    					</li>
+					    					<li class="has-dropdown">
+					    						<a href="#">Search</a>
+					    						<ul class="dropdown">
+					    							<li><a href="/search/routes">Routes</a></li>
+					    							<li><a href="/search/races">Races</a></li>
+					    						</ul>
+					    					</li>
+					    						
+					    					
+					    				</ul>
+					    			</section>
+					    		</nav>	
+							</div>
+						</div>
+					</div>
+				
+				<div class="bodyRow expand">
+                    
+            <div class="row" id="bodyContent">
+              <div class="columns small-12">
+                <div class="row" id="rkLogo">
+                    <img src="https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static/web/images/rk_logo_blue_grey_370x69.png" border="0" alt="Runkeeper Logo" style="margin: 0 auto; display:block;" />
+                </div>
+              </div>
+              <div id="signupWrapper" class="columns large-5 large-offset-1 small-12">
+                   
+                  <div class="row desktop" id="signupWidgetContainer">
+                       <div id="background"></div>
+                       
+
+<div class="signupWidget component">
+  
+  
+  <form method="post" name="newSignupForm" action="https://runkeeper.com/signup" id="signupWidgetForm">
+    <input name="_eventName" type="hidden" value="submit" />
+    
+    <input name="failUrl" type="hidden" value="" />
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+      
+         
+         
+      
+      
+   
+   
+   
+      
+         
+      
+      
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+      
+      
+         
+      
+   
+   
+   <a class="button expand facebook" href="javascript:openOAuthPopup('https://www.facebook.com/v2.0/dialog/oauth?client_id=62572192129&scope=public_profile%2Cemail&redirect_uri=https://runkeeper.com/facebookSignup&state=eyJkYXRhIjp7InIiOiIiLCJ0IjoiMTQ1NTY3MjI2NzA1OSIsInYiOiI2MjQxNWM0Zi1mNDc3LTRkZTUtYjA5Mi04YjkzMDM1OTQxZGYiLCJmIjoiIiwiZmwiOiIifSwibWFjIjoiTUo5cGYrNDVqSzM2RmdYcG5uK2cyOG83cUMrd2I5YlZKc1R4dDlVK3B6dz0ifQ&auth_type=rerequest')" id="facebookButton">
+      <span class="rkicon">0</span>
+      Sign Up With Facebook
+   </a>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+   <link href="//fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+  
+   
+      
+         
+         
+      
+      
+   
+
+   
+      
+         
+      
+      
+   
+
+   
+   
+   
+   
+      
+      
+         <div id="googleBtn_signup" class="button expand facebook google" onclick="callback_signup();">
+            <span class="rkicon"></span>
+            Sign Up With Google
+         </div>
+
+         <script type="text/javascript">
+         function callback_signup() {
+            gapi.auth.signIn({
+               'callback': function(authResult) {
+                  if (authResult['code']) {
+                     window.location = '/googlePlusSignup' + '?code=' + authResult['code'] + '&state=' + authResult['state'];
+                  } else {
+                     if (authResult['error'] != 'immediate_failed') {
+                        window.location = '/googlePlusSignup' + '?&error=' + authResult['error'] + '&state=' + authResult['state'];
+                     }
+                  }
+               },
+               'apppackagename' : 'com.fitnesskeeper.runkeeper.pro',
+               'clientid': '662804283022-33p8g68hudpq62k71ajjv3pfuhqmi8d5.apps.googleusercontent.com',
+               'cookiepolicy': 'single_host_origin',
+               'requestvisibleactions': 'http://schemas.google.com/AddActivity',
+               'scope': 'https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email',
+               'accesstype': 'offline',
+               'state':'eyJkYXRhIjp7InIiOiIiLCJ0IjoiMTQ1NTY3MjI2NzA1OSIsInYiOiI2MjQxNWM0Zi1mNDc3LTRkZTUtYjA5Mi04YjkzMDM1OTQxZGYiLCJmIjoiIiwiZmwiOiIifSwibWFjIjoiTUo5cGYrNDVqSzM2RmdYcG5uK2cyOG83cUMrd2I5YlZKc1R4dDlVK3B6dz0ifQ'
+            });
+         }
+         </script>
+      
+   
+   
+
+
+      <p class="buttonNote">We promise never to share anything without your permission</p>
+      <div class="divider"></div>
+      <input type="text" name="fullName" id="fullNameInput" placeholder="Full Name" />
+      <input type="email" name="email" id="emailInput" placeholder="Email" />
+      <input type="password" name="password" id="passwordInput" placeholder="Password" />
+      <button class="button expand success" type="submit" id="signUpButton"><span>Get Started</span></button>
+      <p class="buttonNote">By clicking the "Get Started", you agree to the Runkeeper <br /><a href="#TOSbox" data-reveal-id="TOSmodal">Terms of Service</a> and <a href="#PPbox" data-reveal-id="ppModal">Privacy Policy</a></p>
+  <div style="display: none;"><input type="hidden" name="_sourcePage" value="6O8cVrb4J_UaUlEKG41UzfLowxMdvJXqKXScohw3anfxs8Fcn9J93g==" /><input type="hidden" name="__fp" value="MfSAfqQp-CI=" /></div></form>
+</div>
+<div id="TOSmodal" class="reveal-modal">
+  <h2>Terms of Service</h2>
+  <p>         
+   <div class="fineprintContainer">
+<p class="micro-text">Last updated December 21, 2015</p>
+<p>All sections of these Terms of Use that, by their nature, should survive termination will survive termination, including, without limitation, the sections entitled User Content, Indemnity, Disclaimer of Warranty and Limitation of Liability, and General.</p>
+<h4>Introduction</h4>
+<p>The Runkeeper.com website and mobile application is an online mechanism for tracking, managing, and sharing all of your fitness activities. It is provided to you by FitnessKeeper, Inc. ("us" or "we" or "our" or "FitnessKeeper"), in connection with our partners, service providers, sponsors, or other affiliates. So that we may safely and responsibly manage this site for all of our users, your use of this site is subject to certain terms and conditions. The terms and conditions set forth below ("Terms of Use"), as well as the privacy policy set forth at <a href="http://runkeeper.com/privacypolicy">www.runkeeper.com/privacypolicy</a>, apply to your use of the services and functionality provided on or through the Runkeeper.com site and mobile application (the "Services").</p>
+<p>By accessing and using the Services, you acknowledge that you have read, understood, and agree to be bound by these Terms of Use and the Privacy Policy. If you do not accept these Terms of Use and the Privacy Policy, you are not authorized to use the Services. We may modify these Terms of Use and the Privacy Policy at any time and such modification will be effective upon posting to the Services.</p>
+<h4>Use of the Services</h4>
+<p>The Services allow for the delivery of software, text, graphics, images, video, audio, data and other material (collectively referred to as the "Content"). The Content may be owned by us or may be provided through an arrangement we have with others, including other users of the Services, or our partners, sponsors, or affiliates. The Content is protected by copyright under both United States and foreign laws. Unauthorized use of the Content may violate copyright, trademark, and other laws. You have no rights in or to the Content, and you may not use the Content except as permitted under these Terms of Use. No other use is permitted without prior written consent from us or the owner of the Content. You must retain all copyright and other proprietary notices contained in the original Content on any copy you make of the Content. You may not sell, transfer, assign, license, sublicense, or modify the Content or reproduce, display, publicly perform, make a derivative version of, distribute, or otherwise use the Content in any way for any public or commercial purpose, except to utilize features of the Services that, by their nature, involve publishing or sharing of Content with the public. If you violate any part of these Terms of Use, your permission to access and/or use the Content and Services automatically terminates and you must immediately destroy any copies you have made of the Content.</p>
+<p>Various company, product, and service names displayed on the Services may be trademarks or service marks owned by others (the "Third-Party Trademarks"). Your use of the Services should be construed as granting, by implication, estoppel, or otherwise, any license or right to use any Third-Party Trademark displayed on this Services. The Third-Party Trademarks may not be used to disparage any applicable third-party, any of their products or services, or in any manner in which, in our reasonable judgment, may damage any goodwill in the Third-Party Trademarks.</p>
+<p>The Services include access to links to, and content and data from, third-party websites ("External Services"). These links, content, and data are provided solely as a convenience to you and not as an endorsement by us of the content on such External Services. The content of such External Services is developed and provided by others. In addition, the Services permit access to content posted, stored, or displayed at the direction of users of the Services, for which we cannot accept any responsibility or liability.</p>
+<p>The Services are for personal use only and may not be used in connection with any commercial endeavors except those that are specifically approved by us. The following activities are expressly prohibited: (i) collecting usernames and/or email addresses of other users by electronic or other means for the purpose of sending unsolicited email or other communications, (ii) any use of the Services, which in our sole judgment, degrades the reliability, speed, or operation of the Services or any underlying hardware or software thereof, (iii) use of web scraping, web harvesting, or web data extraction methods from Runkeeper even if the Runkeeper account owner gives permission; and (iv) any use of the Services which is unlawful or in violation of these Terms of Use.</p>
+<p>By using the Services, you represent and warrant that you are 13 years of age or older. Your account may be terminated without warning, if we believe that you are under 13 years of age.</p>
+<p>Your use of the Services is subject, in our sole discretion, to termination at any time.</p>
+<h4>User Content</h4>
+<p>The Services may now or in the future include functionality to permit the submission of Content at the direction of users of the Services ("User Content") and the hosting, sharing, and/or publishing of such User Content. You understand that whether or not such User Content is published, we do not guarantee any confidentiality with respect to any submissions.</p>
+<p>You shall be solely responsible for User Content you submit and the consequences of our posting or publishing such User Content. In connection with any User Content you submit, you affirm, represent, and/or warrant that: (i) you own or have the necessary licenses, rights, consents, and permissions to use and authorize us to use all patent, trademark, trade secret, copyright or other proprietary rights in and to any and all User Content to enable inclusion and use of the User Content in the manner contemplated by the Services and these Terms of Use; and (ii) you have the express consent, release, and/or permission of each and every identifiable individual person in the User Content to use the name or likeness of each and every such identifiable individual person to enable inclusion and use of the User Content in the manner contemplated by the Services and these Terms of Use. By submitting the User Content to us, you hereby grant us a perpetual, worldwide, non-exclusive, royalty-free, sublicensable and transferable license to use, reproduce, distribute, prepare derivative works of, modify, display, and perform all or any portion of the User Content in connection with our provision of the Services and our (and our successors') business, including without limitation for promoting and redistributing part or all of the Services (and derivative works thereof) in any media formats and through any media channels. You also hereby grant each user of the Services a non-exclusive license to access your User Content through the Services, if you have permitted such access through your account settings, and to use, reproduce, distribute, prepare derivative works of, display and perform such User Content as permitted through the functionality of the Services and under these Terms of Use. We may maintain copies of any User Content for purposes of backup, security, or maintenance, or as required by law.</p>
+<p>In connection with User Content, you further agree that you will not: (i) submit material that is copyrighted, protected by trade secret or otherwise subject to third party proprietary rights, including privacy and publicity rights, unless you are the owner of such rights or have permission from their rightful owner to post the material and to grant us all of the license rights granted herein; (ii) publish falsehoods or misrepresentations that could damage us or any third party; (iii) submit material that is unlawful, obscene, defamatory, libelous, threatening, pornographic, harassing, hateful, racially or ethnically offensive, or encourages conduct that would be considered a criminal offense, give rise to civil liability, violate any law, or is otherwise inappropriate; (iv) post advertisements or solicitations of business; or (v) impersonate another person. We do not endorse any User Content or any opinion, recommendation, or advice expressed therein, and we expressly disclaim any and all liability in connection with any User Content. We do not permit copyright infringing activities and infringement of intellectual property rights in connection with the Services, and we will remove all Content and User Content if properly notified that such Content or User Content infringes on another's intellectual property rights. We may remove any Content and User Content without prior notice. We may also terminate your access to the Services, if you are determined to be a repeat infringer. A repeat infringer is anyone who has been notified of infringing activity more than once and/or has had any User Content removed from the Services more than twice. We also reserve the right to decide whether Content or User Content is appropriate and complies with these Terms of Use for violations other than copyright infringement and violations of intellectual property law, such as, but not limited to, pornography, obscene or defamatory material, or excessive length. We may remove such User Content and/or terminate your access for uploading such material in violation of these Terms of Use at any time, without prior notice and at its sole discretion.</p>
+<p>If you are a copyright owner or an agent thereof and believe that any User Content or other Content infringes upon your copyrights, you may submit a notification pursuant to the Digital Millennium Copyright Act ("DMCA") by providing our Copyright Agent with the following information in writing (see 17 U.S.C 512(c)(3) for further detail):</p>
+<p><span>(i)</span> A physical or electronic signature of a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed;</p>
+<p><span>(ii)</span> Identification of the copyrighted work claimed to have been infringed, or, if multiple copyrighted works at a single online site are covered by a single notification, a representative list of such works at that site;</p>
+<p><span>(iii)</span> Identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled and information reasonably sufficient to permit the service provider to locate the material;</p>
+<p><span>(iv)</span> Information reasonably sufficient to permit us to contact you, such as an address, telephone number, and, if available, an electronic mail address;</p>
+<p><span>(v)</span> A statement that you have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law; and</p>
+<p><span>(vi)</span> A statement that the information in the notification is accurate, and under penalty of perjury, that you are authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.</p>
+<p>Our designated Copyright Agent to receive notifications of claimed infringement and other notices relating to User Content and/or violation of these Terms of Use (e.g., violations of criminal laws) is: Jason Jacobs, c/o FitnessKeeper, Inc. / Email: info@runkeeper.com. For clarity, only DMCA notices and notices relating to complaints in connection with User Content or violations of these Terms of Use should go to the Copyright Agent; any other feedback, comments, requests for technical support, and other communications should be addressed to our standard support contacts as identified on the Services.</p>
+<h4>Indemnity</h4>
+<p>You agree to defend, indemnify, and hold us harmless from and against any claims, actions or demands, including, without limitation, reasonable legal and accounting fees, arising or resulting from your breach of these Terms of Use or your uploading of, access to, or use or misuse of the Content or the Services. We shall provide notice to you of any such claim, suit, or proceeding and shall assist you, at your expense, in defending any such claim, suit or proceeding. We reserve the right to assume the exclusive defense and control of any matter which is subject to indemnification under this section. In such case, you agree to cooperate with any reasonable requests assisting our defense of such matter.</p>
+<h4>Disclaimer of Warranty and Limitation of Liability</h4>
+<p>WE, OUR AFFILIATES, OUR PARTNERS, AND OUR AND THEIR RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, SUPPLIERS, OR LICENSORS, MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE CONTENT (INCLUDING THE USER CONTENT), INCLUDING BUT NOT LIMITED TO ITS ACCURACY, RELIABILITY, COMPLETENESS, TIMELINESS, OR RELIABILITY.</p>
+<p>NEITHER WE NOR OUR AFFILIATES OR PARTNERS SHALL BE SUBJECT TO LIABILITY FOR TRUTH, ACCURACY, OR COMPLETENESS OF ANY INFORMATION CONVEYED TO USERS OF THE SERVICES OR FOR ERRORS, MISTAKES OR OMISSIONS THEREIN OR FOR ANY DELAYS OR INTERRUPTIONS OF THE DATA OR INFORMATION STREAM FROM WHATEVER CAUSE. YOU AGREE THAT YOU USE THE SERVICES AND THE CONTENT AT YOUR OWN RISK.</p>
+<p>WE MAKE NO WARRANTY THAT THE SERVICES WILL BE AVAILABLE ERROR FREE OR THAT THE SERVICES OR THE CONTENT ARE FREE OF COMPUTER VIRUSES OR SIMILAR CONTAMINATION OR DESTRUCTIVE FEATURES. IF YOUR USE OF THE SERVICES OR THE CONTENT RESULTS IN THE NEED FOR SERVICING OR REPLACING EQUIPMENT OR DATA, WE SHALL NOT BE RESPONSIBLE FOR THOSE COSTS.</p>
+<p>THE SERVICES AND CONTENT ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT ANY WARRANTIES OF ANY KIND. WE HEREBY DISCLAIM ALL WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE WARRANTY OF TITLE, MERCHANTABILITY, NON INFRINGEMENT OF THIRD PARTIES' RIGHTS, AND FITNESS FOR PARTICULAR PURPOSE.</p>
+<p>IN NO EVENT SHALL WE BE LIABLE FOR ANY DAMAGES (INCLUDING, WITHOUT LIMITATION, INCIDENTAL AND CONSEQUENTIAL DAMAGES, LOST PROFITS, OR DAMAGES RESULTING FROM LOST DATA OR BUSINESS INTERRUPTION) RESULTING FROM THE USE OR INABILITY TO USE THE SERVICES AND THE CONTENT, WHETHER BASED ON WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE), OR ANY OTHER LEGAL THEORY, IN EXCESS OF ONE HUNDRED DOLLARS, EVEN IF A WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</p>
+<p>Some states do not allow exclusion of implied warranties or limitation of liability for incidental or consequential damages, so the above limitations or exclusions may not apply to you. IN SUCH STATES, OUR LIABILITY SHALL BE LIMITED TO THE GREATEST EXTENT PERMITTED BY LAW.</p>
+<h4>No Medical Advice</h4>
+<p>FitnessKeeper provides the Services for you to track, manage, and share your fitness activities. THE SERVICES DO NOT CONTAIN OR CONSTITUTE, AND SHOULD NOT BE INTERPRETED AS, MEDICAL ADVICE OR OPINION. We are not licensed medical professionals, and we are not in the business of providing medical advice. You should always consult a qualified and licensed medical professional prior to beginning or modifying any diet or exercise program. YOUR USE OF THE WEBSITE OR THE MOBILE APPLICATION DOES NOT CREATE A DOCTOR-PATIENT RELATIONSHIP BETWEEN YOU AND FITNESSKEEPER.</p>
+<h4>General</h4>
+<p>These Terms of Use, and any rights and licenses granted hereunder, may not be transferred or assigned by you, but may be assigned by us without restriction.</p>
+<p>These Terms of Use are governed by the internal substantive laws of the Commonwealth of Massachusetts, without respect to its conflict of law provisions. You expressly agree to submit to the exclusive personal jurisdiction of the state and federal courts sitting in the City of Boston in the Commonwealth of Massachusetts. If any provision of these Terms of Use is found to be invalid by any court having competent jurisdiction, the invalidity of such provision shall not affect the validity of the remaining provisions of the Terms of Use, which shall remain in full force and effect. Failure by us to act on or enforce any provision of the Terms of Use shall not be construed as a waiver of that provision or any other provision in these Terms of Use. No waiver shall be effective against us unless made in writing, and no such waiver shall be construed as a waiver in any other or subsequent instance. Except as expressly agreed by us and you, these Terms of Use constitute the entire agreement between you and us with respect to the subject matter, and supersede all previous or contemporaneous agreements, whether written or oral, between the parties with respect to the subject matter. The section headings are provided merely for convenience and shall not be given any legal import. These Terms of Use will inure to the benefit of our successors, assigns, licensees, and sublicensees.</p>
+<h4>Runkeeper Go Supplementary Terms and Conditions</h4>
+<p>The Services may also include access to certain optional features and services for reporting and managing fitness data (the "Runkeeper Go"). The Runkeeper Go service is a collection of premium services that are available only under these Supplementary Terms and Conditions in addition to the Terms of Use (collectively, the "Agreement") and subject to your payment of the fees referenced below. By signing up for the Runkeeper Go service through your account settings page, you acknowledge and agree to the terms and conditions in this Agreement.</p>
+<h4>Runkeeper Go service Termination</h4>
+<p>You may terminate this Agreement at any time by canceling your subscription through your accounts settings page. There are no refunds for any fees paid. YOU ARE RESPONSIBLE FOR TERMINATING YOUR ACCOUNT AND THIS AGREEMENT AND WE ARE NOT RESPONSIBLE FOR YOUR FAILURE TO PROPERLY TERMINATE YOUR SERVICE AND THIS AGREEMENT NOR FOR ANY CREDIT CARD CHARGES AND FEES YOU INCUR AS A RESULT OF YOUR FAILURE TO PROPERLY TERMINATE YOUR SERVICE AND THIS AGREEMENT.</p>
+<p>We may terminate this Agreement, disable your account, and/or put your account on inactive status, in each case at any time with reasonable cause or violation to these terms of service agreement, and with or without notice. We shall have no liability to you or any third party because of such termination or action.</p>
+<h4>Fees for the Runkeeper Go monthly service</h4>
+<p>If you opt to sign up for the Runkeeper Go service monthly subscription plan, you will be subject to monthly subscription fees in accordance with the Fee Schedule and related information (the "Fee Schedule"). You will be required to submit payment monthly in advance for access to the Runkeeper Go service. Access to the Runkeeper Go service will be disabled until payment is received. Fees will be billed monthly on an ongoing and recurring basis even if you are not actively using the Runkeeper Go service.</p>
+<h4>Fees for the Runkeeper Go annual service</h4>
+<p>If you opt to sign up for the Runkeeper Go service annual subscription plan you will be subject to annual subscription fees in accordance with the Fee Schedule and related information (the "Fee Schedule"). You will be required to submit payment annually in advance for access to the Runkeeper Go service. Access to the Runkeeper Go service will be disabled until payment is received. Fees will be billed annually on an ongoing and recurring basis even if you are not actively using the Runkeeper Go service.</p>
+<h4>Fee Schedule; Discounts.</h4>
+<p>You are responsible for reviewing the Fee Schedule from time to time and remaining aware of the fees charged by us and any applicable discounts. The Fee Schedule, including subscriber or any discounts, is subject to change at any time in our sole discretion. We will use good faith efforts to notify you prior to the effectiveness of any significant change to the Fee Schedule.</p>
+<h4>Payment.</h4>
+<p>Payment for the Runkeeper Go service will be made by a valid credit card or Paypal&reg; accounts accepted by us. Fees are payable in U.S. dollars. You hereby authorize us to charge your credit card for such amounts on a regular monthly or yearly basis beginning at the beginning of your subscription and continuing until such time as your account is terminated. If we are for any reason unable to effect automatic payment via your credit card, we will attempt to notify you via email and your subscription will be disabled until payment is received. Amounts paid for the Runkeeper Go service, including prepayments, are not refundable.</p>
+<h4>Fee Schedule</h4>
+<p>Your Fee Schedule is located in the Subscriptions tab in the account settings under "billing dates". The Fee Schedule displays the estimated next billing date and amount for your FitnessReport service will be displayed.</p>
+<h4>Runkeeper Go Gifting</h4>
+<p>Gifts will be redeemable for seven years from the date at which they were purchased. Gift Cards do not assess any service fees for non-use. To obtain your balance on a Gift Card, please visit support.runkeeper.com. Gift Cards can only be used online at https://runkeeper.com/go. Gift Cards will not be replaced or refunded if lost or stolen. FitnessKeeper, Inc. and its affiliates are not responsible for lost Gift Cards. Gift Cards will not be returnable or exchangeable for cash, except in states where required by law. Coupons and other discounts may not be used to purchase Gift Cards. For additional questions, please contact <a href="mailto:support@runkeeper.com">support@runkeeper.com</a>.</p>
+
+   </div>
+</p>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+<div id="ppModal" class="reveal-modal">
+  <h2>Privacy Policy</h2>
+  <p>         
+   <div class="fineprintContainer">
+<p class="micro-text">Last updated December 21, 2015</p>
+<p>All sections of these Terms of Use that, by their nature, should survive termination will survive termination, including, without limitation, the sections entitled User Content, Indemnity, Disclaimer of Warranty and Limitation of Liability, and General.</p>
+<h4>Introduction</h4>
+<p>The Runkeeper.com website and mobile application is an online mechanism for tracking, managing, and sharing all of your fitness activities. It is provided to you by FitnessKeeper, Inc. ("us" or "we" or "our" or "FitnessKeeper"), in connection with our partners, service providers, sponsors, or other affiliates. So that we may safely and responsibly manage this site for all of our users, your use of this site is subject to certain terms and conditions. The terms and conditions set forth below ("Terms of Use"), as well as the privacy policy set forth at <a href="http://runkeeper.com/privacypolicy">www.runkeeper.com/privacypolicy</a>, apply to your use of the services and functionality provided on or through the Runkeeper.com site and mobile application (the "Services").</p>
+<p>By accessing and using the Services, you acknowledge that you have read, understood, and agree to be bound by these Terms of Use and the Privacy Policy. If you do not accept these Terms of Use and the Privacy Policy, you are not authorized to use the Services. We may modify these Terms of Use and the Privacy Policy at any time and such modification will be effective upon posting to the Services.</p>
+<h4>Use of the Services</h4>
+<p>The Services allow for the delivery of software, text, graphics, images, video, audio, data and other material (collectively referred to as the "Content"). The Content may be owned by us or may be provided through an arrangement we have with others, including other users of the Services, or our partners, sponsors, or affiliates. The Content is protected by copyright under both United States and foreign laws. Unauthorized use of the Content may violate copyright, trademark, and other laws. You have no rights in or to the Content, and you may not use the Content except as permitted under these Terms of Use. No other use is permitted without prior written consent from us or the owner of the Content. You must retain all copyright and other proprietary notices contained in the original Content on any copy you make of the Content. You may not sell, transfer, assign, license, sublicense, or modify the Content or reproduce, display, publicly perform, make a derivative version of, distribute, or otherwise use the Content in any way for any public or commercial purpose, except to utilize features of the Services that, by their nature, involve publishing or sharing of Content with the public. If you violate any part of these Terms of Use, your permission to access and/or use the Content and Services automatically terminates and you must immediately destroy any copies you have made of the Content.</p>
+<p>Various company, product, and service names displayed on the Services may be trademarks or service marks owned by others (the "Third-Party Trademarks"). Your use of the Services should be construed as granting, by implication, estoppel, or otherwise, any license or right to use any Third-Party Trademark displayed on this Services. The Third-Party Trademarks may not be used to disparage any applicable third-party, any of their products or services, or in any manner in which, in our reasonable judgment, may damage any goodwill in the Third-Party Trademarks.</p>
+<p>The Services include access to links to, and content and data from, third-party websites ("External Services"). These links, content, and data are provided solely as a convenience to you and not as an endorsement by us of the content on such External Services. The content of such External Services is developed and provided by others. In addition, the Services permit access to content posted, stored, or displayed at the direction of users of the Services, for which we cannot accept any responsibility or liability.</p>
+<p>The Services are for personal use only and may not be used in connection with any commercial endeavors except those that are specifically approved by us. The following activities are expressly prohibited: (i) collecting usernames and/or email addresses of other users by electronic or other means for the purpose of sending unsolicited email or other communications, (ii) any use of the Services, which in our sole judgment, degrades the reliability, speed, or operation of the Services or any underlying hardware or software thereof, (iii) use of web scraping, web harvesting, or web data extraction methods from Runkeeper even if the Runkeeper account owner gives permission; and (iv) any use of the Services which is unlawful or in violation of these Terms of Use.</p>
+<p>By using the Services, you represent and warrant that you are 13 years of age or older. Your account may be terminated without warning, if we believe that you are under 13 years of age.</p>
+<p>Your use of the Services is subject, in our sole discretion, to termination at any time.</p>
+<h4>User Content</h4>
+<p>The Services may now or in the future include functionality to permit the submission of Content at the direction of users of the Services ("User Content") and the hosting, sharing, and/or publishing of such User Content. You understand that whether or not such User Content is published, we do not guarantee any confidentiality with respect to any submissions.</p>
+<p>You shall be solely responsible for User Content you submit and the consequences of our posting or publishing such User Content. In connection with any User Content you submit, you affirm, represent, and/or warrant that: (i) you own or have the necessary licenses, rights, consents, and permissions to use and authorize us to use all patent, trademark, trade secret, copyright or other proprietary rights in and to any and all User Content to enable inclusion and use of the User Content in the manner contemplated by the Services and these Terms of Use; and (ii) you have the express consent, release, and/or permission of each and every identifiable individual person in the User Content to use the name or likeness of each and every such identifiable individual person to enable inclusion and use of the User Content in the manner contemplated by the Services and these Terms of Use. By submitting the User Content to us, you hereby grant us a perpetual, worldwide, non-exclusive, royalty-free, sublicensable and transferable license to use, reproduce, distribute, prepare derivative works of, modify, display, and perform all or any portion of the User Content in connection with our provision of the Services and our (and our successors') business, including without limitation for promoting and redistributing part or all of the Services (and derivative works thereof) in any media formats and through any media channels. You also hereby grant each user of the Services a non-exclusive license to access your User Content through the Services, if you have permitted such access through your account settings, and to use, reproduce, distribute, prepare derivative works of, display and perform such User Content as permitted through the functionality of the Services and under these Terms of Use. We may maintain copies of any User Content for purposes of backup, security, or maintenance, or as required by law.</p>
+<p>In connection with User Content, you further agree that you will not: (i) submit material that is copyrighted, protected by trade secret or otherwise subject to third party proprietary rights, including privacy and publicity rights, unless you are the owner of such rights or have permission from their rightful owner to post the material and to grant us all of the license rights granted herein; (ii) publish falsehoods or misrepresentations that could damage us or any third party; (iii) submit material that is unlawful, obscene, defamatory, libelous, threatening, pornographic, harassing, hateful, racially or ethnically offensive, or encourages conduct that would be considered a criminal offense, give rise to civil liability, violate any law, or is otherwise inappropriate; (iv) post advertisements or solicitations of business; or (v) impersonate another person. We do not endorse any User Content or any opinion, recommendation, or advice expressed therein, and we expressly disclaim any and all liability in connection with any User Content. We do not permit copyright infringing activities and infringement of intellectual property rights in connection with the Services, and we will remove all Content and User Content if properly notified that such Content or User Content infringes on another's intellectual property rights. We may remove any Content and User Content without prior notice. We may also terminate your access to the Services, if you are determined to be a repeat infringer. A repeat infringer is anyone who has been notified of infringing activity more than once and/or has had any User Content removed from the Services more than twice. We also reserve the right to decide whether Content or User Content is appropriate and complies with these Terms of Use for violations other than copyright infringement and violations of intellectual property law, such as, but not limited to, pornography, obscene or defamatory material, or excessive length. We may remove such User Content and/or terminate your access for uploading such material in violation of these Terms of Use at any time, without prior notice and at its sole discretion.</p>
+<p>If you are a copyright owner or an agent thereof and believe that any User Content or other Content infringes upon your copyrights, you may submit a notification pursuant to the Digital Millennium Copyright Act ("DMCA") by providing our Copyright Agent with the following information in writing (see 17 U.S.C 512(c)(3) for further detail):</p>
+<p><span>(i)</span> A physical or electronic signature of a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed;</p>
+<p><span>(ii)</span> Identification of the copyrighted work claimed to have been infringed, or, if multiple copyrighted works at a single online site are covered by a single notification, a representative list of such works at that site;</p>
+<p><span>(iii)</span> Identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled and information reasonably sufficient to permit the service provider to locate the material;</p>
+<p><span>(iv)</span> Information reasonably sufficient to permit us to contact you, such as an address, telephone number, and, if available, an electronic mail address;</p>
+<p><span>(v)</span> A statement that you have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law; and</p>
+<p><span>(vi)</span> A statement that the information in the notification is accurate, and under penalty of perjury, that you are authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.</p>
+<p>Our designated Copyright Agent to receive notifications of claimed infringement and other notices relating to User Content and/or violation of these Terms of Use (e.g., violations of criminal laws) is: Jason Jacobs, c/o FitnessKeeper, Inc. / Email: info@runkeeper.com. For clarity, only DMCA notices and notices relating to complaints in connection with User Content or violations of these Terms of Use should go to the Copyright Agent; any other feedback, comments, requests for technical support, and other communications should be addressed to our standard support contacts as identified on the Services.</p>
+<h4>Indemnity</h4>
+<p>You agree to defend, indemnify, and hold us harmless from and against any claims, actions or demands, including, without limitation, reasonable legal and accounting fees, arising or resulting from your breach of these Terms of Use or your uploading of, access to, or use or misuse of the Content or the Services. We shall provide notice to you of any such claim, suit, or proceeding and shall assist you, at your expense, in defending any such claim, suit or proceeding. We reserve the right to assume the exclusive defense and control of any matter which is subject to indemnification under this section. In such case, you agree to cooperate with any reasonable requests assisting our defense of such matter.</p>
+<h4>Disclaimer of Warranty and Limitation of Liability</h4>
+<p>WE, OUR AFFILIATES, OUR PARTNERS, AND OUR AND THEIR RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, SUPPLIERS, OR LICENSORS, MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE CONTENT (INCLUDING THE USER CONTENT), INCLUDING BUT NOT LIMITED TO ITS ACCURACY, RELIABILITY, COMPLETENESS, TIMELINESS, OR RELIABILITY.</p>
+<p>NEITHER WE NOR OUR AFFILIATES OR PARTNERS SHALL BE SUBJECT TO LIABILITY FOR TRUTH, ACCURACY, OR COMPLETENESS OF ANY INFORMATION CONVEYED TO USERS OF THE SERVICES OR FOR ERRORS, MISTAKES OR OMISSIONS THEREIN OR FOR ANY DELAYS OR INTERRUPTIONS OF THE DATA OR INFORMATION STREAM FROM WHATEVER CAUSE. YOU AGREE THAT YOU USE THE SERVICES AND THE CONTENT AT YOUR OWN RISK.</p>
+<p>WE MAKE NO WARRANTY THAT THE SERVICES WILL BE AVAILABLE ERROR FREE OR THAT THE SERVICES OR THE CONTENT ARE FREE OF COMPUTER VIRUSES OR SIMILAR CONTAMINATION OR DESTRUCTIVE FEATURES. IF YOUR USE OF THE SERVICES OR THE CONTENT RESULTS IN THE NEED FOR SERVICING OR REPLACING EQUIPMENT OR DATA, WE SHALL NOT BE RESPONSIBLE FOR THOSE COSTS.</p>
+<p>THE SERVICES AND CONTENT ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT ANY WARRANTIES OF ANY KIND. WE HEREBY DISCLAIM ALL WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE WARRANTY OF TITLE, MERCHANTABILITY, NON INFRINGEMENT OF THIRD PARTIES' RIGHTS, AND FITNESS FOR PARTICULAR PURPOSE.</p>
+<p>IN NO EVENT SHALL WE BE LIABLE FOR ANY DAMAGES (INCLUDING, WITHOUT LIMITATION, INCIDENTAL AND CONSEQUENTIAL DAMAGES, LOST PROFITS, OR DAMAGES RESULTING FROM LOST DATA OR BUSINESS INTERRUPTION) RESULTING FROM THE USE OR INABILITY TO USE THE SERVICES AND THE CONTENT, WHETHER BASED ON WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE), OR ANY OTHER LEGAL THEORY, IN EXCESS OF ONE HUNDRED DOLLARS, EVEN IF A WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</p>
+<p>Some states do not allow exclusion of implied warranties or limitation of liability for incidental or consequential damages, so the above limitations or exclusions may not apply to you. IN SUCH STATES, OUR LIABILITY SHALL BE LIMITED TO THE GREATEST EXTENT PERMITTED BY LAW.</p>
+<h4>No Medical Advice</h4>
+<p>FitnessKeeper provides the Services for you to track, manage, and share your fitness activities. THE SERVICES DO NOT CONTAIN OR CONSTITUTE, AND SHOULD NOT BE INTERPRETED AS, MEDICAL ADVICE OR OPINION. We are not licensed medical professionals, and we are not in the business of providing medical advice. You should always consult a qualified and licensed medical professional prior to beginning or modifying any diet or exercise program. YOUR USE OF THE WEBSITE OR THE MOBILE APPLICATION DOES NOT CREATE A DOCTOR-PATIENT RELATIONSHIP BETWEEN YOU AND FITNESSKEEPER.</p>
+<h4>General</h4>
+<p>These Terms of Use, and any rights and licenses granted hereunder, may not be transferred or assigned by you, but may be assigned by us without restriction.</p>
+<p>These Terms of Use are governed by the internal substantive laws of the Commonwealth of Massachusetts, without respect to its conflict of law provisions. You expressly agree to submit to the exclusive personal jurisdiction of the state and federal courts sitting in the City of Boston in the Commonwealth of Massachusetts. If any provision of these Terms of Use is found to be invalid by any court having competent jurisdiction, the invalidity of such provision shall not affect the validity of the remaining provisions of the Terms of Use, which shall remain in full force and effect. Failure by us to act on or enforce any provision of the Terms of Use shall not be construed as a waiver of that provision or any other provision in these Terms of Use. No waiver shall be effective against us unless made in writing, and no such waiver shall be construed as a waiver in any other or subsequent instance. Except as expressly agreed by us and you, these Terms of Use constitute the entire agreement between you and us with respect to the subject matter, and supersede all previous or contemporaneous agreements, whether written or oral, between the parties with respect to the subject matter. The section headings are provided merely for convenience and shall not be given any legal import. These Terms of Use will inure to the benefit of our successors, assigns, licensees, and sublicensees.</p>
+<h4>Runkeeper Go Supplementary Terms and Conditions</h4>
+<p>The Services may also include access to certain optional features and services for reporting and managing fitness data (the "Runkeeper Go"). The Runkeeper Go service is a collection of premium services that are available only under these Supplementary Terms and Conditions in addition to the Terms of Use (collectively, the "Agreement") and subject to your payment of the fees referenced below. By signing up for the Runkeeper Go service through your account settings page, you acknowledge and agree to the terms and conditions in this Agreement.</p>
+<h4>Runkeeper Go service Termination</h4>
+<p>You may terminate this Agreement at any time by canceling your subscription through your accounts settings page. There are no refunds for any fees paid. YOU ARE RESPONSIBLE FOR TERMINATING YOUR ACCOUNT AND THIS AGREEMENT AND WE ARE NOT RESPONSIBLE FOR YOUR FAILURE TO PROPERLY TERMINATE YOUR SERVICE AND THIS AGREEMENT NOR FOR ANY CREDIT CARD CHARGES AND FEES YOU INCUR AS A RESULT OF YOUR FAILURE TO PROPERLY TERMINATE YOUR SERVICE AND THIS AGREEMENT.</p>
+<p>We may terminate this Agreement, disable your account, and/or put your account on inactive status, in each case at any time with reasonable cause or violation to these terms of service agreement, and with or without notice. We shall have no liability to you or any third party because of such termination or action.</p>
+<h4>Fees for the Runkeeper Go monthly service</h4>
+<p>If you opt to sign up for the Runkeeper Go service monthly subscription plan, you will be subject to monthly subscription fees in accordance with the Fee Schedule and related information (the "Fee Schedule"). You will be required to submit payment monthly in advance for access to the Runkeeper Go service. Access to the Runkeeper Go service will be disabled until payment is received. Fees will be billed monthly on an ongoing and recurring basis even if you are not actively using the Runkeeper Go service.</p>
+<h4>Fees for the Runkeeper Go annual service</h4>
+<p>If you opt to sign up for the Runkeeper Go service annual subscription plan you will be subject to annual subscription fees in accordance with the Fee Schedule and related information (the "Fee Schedule"). You will be required to submit payment annually in advance for access to the Runkeeper Go service. Access to the Runkeeper Go service will be disabled until payment is received. Fees will be billed annually on an ongoing and recurring basis even if you are not actively using the Runkeeper Go service.</p>
+<h4>Fee Schedule; Discounts.</h4>
+<p>You are responsible for reviewing the Fee Schedule from time to time and remaining aware of the fees charged by us and any applicable discounts. The Fee Schedule, including subscriber or any discounts, is subject to change at any time in our sole discretion. We will use good faith efforts to notify you prior to the effectiveness of any significant change to the Fee Schedule.</p>
+<h4>Payment.</h4>
+<p>Payment for the Runkeeper Go service will be made by a valid credit card or Paypal&reg; accounts accepted by us. Fees are payable in U.S. dollars. You hereby authorize us to charge your credit card for such amounts on a regular monthly or yearly basis beginning at the beginning of your subscription and continuing until such time as your account is terminated. If we are for any reason unable to effect automatic payment via your credit card, we will attempt to notify you via email and your subscription will be disabled until payment is received. Amounts paid for the Runkeeper Go service, including prepayments, are not refundable.</p>
+<h4>Fee Schedule</h4>
+<p>Your Fee Schedule is located in the Subscriptions tab in the account settings under "billing dates". The Fee Schedule displays the estimated next billing date and amount for your FitnessReport service will be displayed.</p>
+<h4>Runkeeper Go Gifting</h4>
+<p>Gifts will be redeemable for seven years from the date at which they were purchased. Gift Cards do not assess any service fees for non-use. To obtain your balance on a Gift Card, please visit support.runkeeper.com. Gift Cards can only be used online at https://runkeeper.com/go. Gift Cards will not be replaced or refunded if lost or stolen. FitnessKeeper, Inc. and its affiliates are not responsible for lost Gift Cards. Gift Cards will not be returnable or exchangeable for cash, except in states where required by law. Coupons and other discounts may not be used to purchase Gift Cards. For additional questions, please contact <a href="mailto:support@runkeeper.com">support@runkeeper.com</a>.</p>
+
+   </div>
+</p>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+<script type="text/javascript">
+$('#signupWidgetForm').submit(function(e) {
+  if($('#signUpButton').hasClass('disabled')) {
+    return false;
+  }
+  $('#signUpButton').removeClass('success').addClass('disabled');
+
+  var formId = $('#signupWidgetForm').attr('id');
+  $(".hasError").removeClass("hasError"); //clear out old errors
+  //check that fullname isn't empty in signup form
+  if ($.trim($("#" + formId + " #fullNameInput").val()).length == 0) {
+    $("#fullNameInput").addClass("hasError");
+    warning("To sign up you need to enter a name.");
+    return false;
+  }
+  //check that email is not empty
+  if (!emailCheck($.trim($("#" + formId + " #emailInput").val()))) {
+    $("#emailInput").addClass("hasError");
+    warning("To log in you must enter a valid email address.", "", "error");
+    return false;
+  }
+  //check that password is not empty
+  if ($.trim($("#" + formId + " #passwordInput").val()).length < 6) {
+    $("#passwordInput").addClass("hasError");
+    warning("Password must be at least 6 characters long.", "", "error");
+    return false;
+  }
+  return true;
+});
+function warning(message) {
+  $('#signupWidgetForm .alert-box').remove();
+  $('#signupWidgetForm').prepend('<div data-alert class="alert-box alert">' + message + '<a href="#" class="close">&times;</a></div>');
+  $('#signUpButton').removeClass('disabled').addClass('success');
+}
+</script>
+
+
+                  </div>
+              </div>
+              <div id="activityDisplayWrapper" class="columns large-5 small-12">
+                <div class="row" id="textCta">
+                  
+                  
+                  
+                    <p>
+                      On Mon Feb 08 12:17:28 GMT 2016 Roger Beck <span id="activityLink">walked
+                      
+                      
+                      
+                        1.76 <span style="text-transform:lowercase;">Miles</span>.
+                      
+                      
+                      
+                      </span>
+                    </p>
+                    <p>
+                      In the last 24 hours the Runkeeper community walked a total of <span id="activityTotal"></span> <span style="text-transform:lowercase;">Miles</span>.
+                    </p>
+                    <p>
+                      How far will you walk?
+                    </p>
+                  
+                  
+                  <div id="background"></div>
+                </div>
+              </div>
+               <div class="columns large-1 hide-for-small">&nbsp;</div>
+            </div>
+              
+	
+   
+   
+	<script type="text/javascript">
+	    
+		var activityInfoCallbacks = [];
+		function refreshActivityPointData() {
+			$.getJSON("/ajax/pointData",
+		      {activityId: 731525020},
+		      function(activityInfo) {
+		      	 mapController.clear();
+		         $.each(activityInfoCallbacks, function(callbackIndex, callback) {
+		            callback(activityInfo);
+		         });
+		   });
+		}
+	</script>
+
+
+
+	<script>
+		// create event for map load (when window has sized);
+		$(document).on('readyForMap',function(){
+			activityInfoCallbacks.push(function(){
+				$('#activityLink').addClass('pseudoLink').on('click',function(){
+					mapController.model.map.toggleFullscreen();
+				});
+			});
+			refreshActivityPointData();
+		});
+	</script>
+	
+
+	
+	
+	
+		<script type="text/javascript">
+			function setActivityMapSize()
+			{
+				$('#map_area,#map_canvas').css({
+				  'height'      :    $('.bodyRow.expand').outerHeight(true), 
+				  'width'       :    $(window).width(),
+				  'position'    :    'absolute',
+				  'top'         :    $('#topNavContainer').outerHeight(true)+'px',
+				  'left'        :    '0',
+				  'z-index'     :    '0'
+				});
+				$('#map_canvas').css({
+				'top'         :    0
+				});
+			}
+			$(document).on('ready',function(){
+				setActivityMapSize();
+				$(document).trigger('readyForMap');
+				$(window).on('resize',setActivityMapSize);
+			});
+		</script>
+	
+	
+	
+	
+	
+		<script type="text/javascript">
+			var isLive = false;
+			
+			activityInfoCallbacks
+					.push(function(activityInfo) {
+						if (activityInfo == null) {
+							removePhotosSection();
+							return;
+						}
+
+						var init = false;
+						if (!mapController.model.map) {
+							// map doesn't exist yet, create
+							init = true;
+							var options = {
+								mapStyle : 'runkeeper.4nc7syvi'
+							};
+
+							mapController
+									.initialize({
+										'mapDiv' : 'map_canvas',
+										'snapToRoads' : false,
+										'editMode' : false,
+										'points' : activityInfo.points,
+										'distanceUnits' : 'mi',
+										'isLive' : isLive
+									});
+						} else {
+							var bounds = mapController.model.map.getBounds();
+							// otherwise, just pass in new points
+							mapController.mapSetup({
+								'points' : activityInfo.points,
+								'bounds' : bounds
+							});
+						}
+
+						if (activityInfo.routePoints) {
+							mapController.drawRouteLine(JSON
+									.parse(activityInfo.routePoints));
+						}
+
+						if (activityInfo.racePoints) {
+							mapController.drawRaceLine(JSON
+									.parse(activityInfo.racePoints));
+						}
+
+						if (activityInfo.statusUpdates) {
+							mapController.model.statusUpdates = activityInfo.statusUpdates;
+							mapController.overlayStatusUpdates();
+							refreshPhotoViewer(activityInfo.statusUpdates);
+
+							if (activityInfo.statusUpdates.length == 0) {
+								removePhotosSection();
+								return;
+							}
+
+							carouselItemList.forEach(function(status) {
+								var ul = $('#images');
+								var li = ul.append($('<li>'
+										+ carousel_getItemHtml(status)
+										+ '</li>'));
+							});
+						} else {
+							removePhotosSection();
+						}
+					});
+
+			function removePhotosSection() {
+				var div = $('#imagesHolder');
+				div.empty();
+				div.remove();
+			}
+		</script>
+	
+
+	<div id="map_area">
+		<div id="mapping_tool">
+			
+	
+	
+	
+	
+
+	
+	
+		
+	
+	
+
+	
+	
+	
+	
+	
+
+	<link href='//api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css' rel='stylesheet' />
+	<!--[if lte IE 8]>
+		<link href='//api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.ie.css' rel='stylesheet' />
+	<![endif]-->
+	<script src='//api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.js'></script>
+	<script src='https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static/oceanus/js/maps/polyline.js'></script>
+	<script src='https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static/oceanus/js/maps/geocoder.js'></script>
+
+	<script src='https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static/oceanus/js/plugins/Leaflet.fullscreen.js'></script>
+	<link href='https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static/oceanus/css/plugins/leaflet.fullscreen.css' rel='stylesheet' />
+
+	<script src='https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static/oceanus/js/maps/map.js'></script>
+
+	
+		<script type="text/javascript" src="https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static/oceanus/js/maps/photos.js"></script>
+		<script>
+			function initPrettyPhotoTriggers(jqSelectorStr, showTitle, allowresize)
+			{
+				$(jqSelectorStr).fancybox({
+					padding : 10,
+					cyclic : true,
+					autoDimensions : true,
+					closeClick : true,
+					overlayOpacity : 0.6,
+					beforeShow : function()
+					{
+						// delete photo button
+						this.title = '<a href="javascript:void(0)" ' + 
+						'id="deleteStatusUpdateLink" ' +
+						'class="deleteStatusUpdate" ' +
+						'photoKey="' + this.title + '" ' +
+						'alertMessage="Are you sure you want to remove this photo?" ' +
+						'alertTitle="Remove Photo">Remove</a>';
+
+						// don't show it if you don't own the photo
+						
+							this.title = "";
+						
+
+					},
+					afterShow: function()
+					{
+						// set up the alert for the delete
+						$('.deleteStatusUpdate#deleteStatusUpdateLink').click(function(event){
+
+							var photoKey = $('.deleteStatusUpdate#deleteStatusUpdateLink').attr('photoKey');
+							var url = '/delete/statusUpdate/';
+							var alertMessage = $('.deleteStatusUpdate#deleteStatusUpdateLink').attr('alertMessage');
+							var alertTitle = $('.deleteStatusUpdate#deleteStatusUpdateLink').attr('alertTitle');
+							event.preventDefault();
+
+							jAlert(
+								alertMessage,
+								alertTitle,
+								function(result){
+									if (result)
+									{
+										$.ajax(
+											{
+												url: url,
+												dataType: "json",
+												type: "POST",
+												data: {
+													photoKey: photoKey,
+												},
+												success:function(data){
+													window.location = window.location.href.split("?")[0];
+												},
+												error: function(){
+												}
+											}
+										);
+									}                          
+								},
+								'Remove',
+								'Cancel'
+							);
+						});
+					},
+					helpers : 
+					{
+						title :
+						{
+							type : 'float'
+						}
+					}
+				});
+			}
+		</script>
+	
+
+	
+	<script>
+		$(document).on('ready',function(){
+			$("#snapToRoadsControl").on('click touchstart',function() {
+				$(this).toggleClass('selected');
+				mapController.model.snapToRoads =  $(this).hasClass("selected");
+			});
+
+			$("#undoControl").on('click touchstart',mapController.undo);
+			$("#resetControl").on('click touchstart',function(){
+				if(mapController.hasActivityData())
+				{
+					jAlert(
+						'Are you sure? This cannot be undone.',
+						'Clear Map',
+						function(result){
+							if(result)
+							{
+								mapController.reset();
+							}
+						},
+						'Clear',
+						'Cancel'
+					);
+				}
+			});
+
+			var locationSearchBarInput = $('#locationSearchBarInput');
+			locationSearchBarInput.on('focus',function(){
+				$('#editControlsContainer').addClass('textInputActive');
+			});
+			locationSearchBarInput.on('blur',function(){
+				$('#editControlsContainer').removeClass('textInputActive');
+			});
+			locationSearchBarInput.on('keypress',function(event) {
+				var code = (event.keyCode ? event.keyCode : event.which);
+				if (code == 13) {
+					if((typeof(locationSearchBarInput.data('selectedBounds')) === 'undefined' || locationSearchBarInput.data('selectedBounds') === null) && (typeof(locationSearchBarInput.data('selectedLocation')) === 'undefined' || locationSearchBarInput.data('selectedLocation') === null))
+					{
+						mapController.searchForLocation(
+							{'term':locationSearchBarInput.val()},
+							function(resultMap){
+								locationSearchBarInput.data('selectedBounds', resultMap[0].bounds);
+								locationSearchBarInput.data('selectedLocation', resultMap[0].location);
+								goToSearchLocation();
+							}
+						);
+					}
+					else
+					{
+						goToSearchLocation();
+					}
+					event.preventDefault();
+					event.stopPropagation();
+				}
+			});
+			var locationSearchGo = $('#locationSearchButton');
+			locationSearchBarInput.autocomplete({
+				'source': mapController.searchForLocation,
+				'delay': 300,
+				'minLength': 2,
+				'response': function(e,ui)
+				{
+					if(ui.content.length > 0 && typeof(ui.content[0]) != 'undefined')
+					{
+						locationSearchBarInput.data('selectedBounds', ui.content[0].bounds);
+						locationSearchBarInput.data('selectedLocation', ui.content[0].location);
+					}
+				},
+				'select': function(e, ui) 
+				{
+					locationSearchBarInput.data('selectedBounds', ui.item.bounds);
+					locationSearchBarInput.data('selectedLocation', ui.item.location);
+					goToSearchLocation();
+				}
+			});
+			locationSearchGo.click(goToSearchLocation);
+			function goToSearchLocation()
+			{
+				var bounds = locationSearchBarInput.data('selectedBounds');
+				var selectedLocation = locationSearchBarInput.data('selectedLocation');
+				if (bounds) {
+					mapController.model.map.fitBounds(bounds);
+				} 
+				else if (selectedLocation)
+				{
+					mapController.model.map.setView(selectedLocation,15);
+				}
+				else
+				{
+					if (navigator.geolocation)
+					{
+						navigator.geolocation.getCurrentPosition(showPosition);
+						function showPosition(position)
+						{
+							mapController.model.map.setView(new L.latLng(position.coords.latitude,position.coords.longitude),15);
+						}
+					}
+				}
+
+				locationSearchBarInput.data('selectedBounds', null);
+				locationSearchBarInput.data('selectedLocation', null);
+			}
+
+			$('#editControlsContainer').on('click dblclick',function(e){
+				// block any clicks to map
+				e.stopPropagation();
+			});
+
+			$('.mapStyleOption').on('click',function(){
+				if(!$('#mapStyleChooser').hasClass('allOptions'))
+				{
+					$('#mapStyleChooser').addClass('allOptions');
+				}
+				else
+				{
+					if($(this).attr('id') === 'spacer' || $(this).hasClass('selected'))
+					{
+						// return, do nothing
+					}
+					else
+					{
+						$('.mapStyleOption').removeClass('selected');
+						var something = $('.leaflet-control-layers-base input[type="radio"]');
+						$('.leaflet-control-layers-base input[type="radio"]').get($(this).attr('data-mapStyle')).click();
+
+						$(this).addClass('selected');
+					}
+					$('#mapStyleChooser').removeClass('allOptions');
+				}
+			});
+		});
+	</script>
+
+	<div id="map_canvas">
+
+		<div id="map-loading">
+			<div id="gifTable">
+			    <div id="gifCell">
+					<img id="gif" src="https://d2b4ufapzmnxpw.cloudfront.net/build/13375/static/oceanus/images/runner.gif" alt="Runner Loading" />
+				</div>
+			</div>
+	    </div>
+
+		
+		
+			
+				<div id="editControlsContainer" class="mapboxTrue simpleControls">
+					<div id="newControlsContainer">
+						<div class="mapControlButton rightBorder" id="mapStyleChooser">
+							<div id="mapStyleOptions" title="Map Style">
+								<div class="mapStyleOption spacer" id="spacer" title="Cancel">X</div>
+								<div class="mapStyleOption" id="street" title="Street View" data-mapStyle="0"></div>
+								<div class="mapStyleOption selected" id="terrain" title="Terrain View" data-mapStyle="1"></div>
+								<div class="mapStyleOption" id="satellite" title="Satellite View" data-mapStyle="2"></div>
+							</div>
+						</div>
+						<a id="helpMe" href="/osm" title="Help" class="mapControlButton leftBorder">?</a>
+					</div>
+				</div>
+			
+			
+		
+		
+
+		
+	</div>
+
+			
+		</div>
+	</div>
+
+
+   
+   <!-- render live information --> 
+   
+		
+
+         
+	    		</div>
+	    		
+	    		<div class="bodyRow">
+			        <div class="stickyFooter" id="mobileFooter">
+			          
+			          <div class="footerLinksWrapper">
+				          <div class="row centerHorizListWrapper">
+			          		<ul class="centerHorizList" id="footerLinks">
+			          			
+			          			<li>
+			          				<a href="http://blog.runkeeper.com" target="_blank">Blog</a>
+			          			</li>
+			          			<li>
+			          				<a href="https://runkeeper.com/jobs">Careers</a>
+			          			</li>
+			          			<li>
+				          			<a href="/partnerships">Advertise</a>
+				          		</li>
+			          			<li>
+			          				<a href="http://engineering.runkeeper.com/">Developers</a>
+			          			</li>
+			          			<li>
+			          				<a href="http://www.healthgraph.com">Health Graph API</a>
+			          			</li>
+			          			<li>
+			          				<a href="https://play.google.com/store/apps/details?id=com.fitnesskeeper.runkeeper.pro" title="Runkeeper on Android">Runkeeper on Android</a>
+			          			</li>
+			          			<li>
+			          				<a href="https://itunes.apple.com/app/runkeeper-gps-track-running/id300235330" title="Runkeeper on iPhone">Runkeeper on iPhone</a>
+			          			</li>
+			          			<li class="socialLink">
+					          		<a href="http://www.facebook.com/runkeeper" class="notranslate">
+					          			<span class="rkicon">0</span>
+					          		</a>
+					          	</li>
+					          	<li class="socialLink">
+						          	<a href="http://www.twitter.com/runkeeper" class="notranslate">
+						          		<span class="rkicon">1</span>
+						          	</a>
+						        </li>
+			          		</ul>
+				          </div>
+				          <div class="row centerHorizListWrapper">
+				          	<ul class="centerHorizList" id="footerMiniLinks">
+				          		<li>
+				          			<a href="/termsofservice">Terms</a>
+				          		</li>
+				          		<li class="divider">|</li>
+				          		<li>
+				          			<a href="/privacypolicy">Privacy</a>
+				          		</li>
+				          		<li class="divider">|</li>
+				          		<li>
+				          			&copy; FitnessKeeper, 2016
+				          		</li>
+				          	</ul>
+				          </div>
+			          </div>
+			        </div>
+		        </div>
+		        
+		    </div>
+		    
+    	
+
+  
+  
+  <div id="notificationBar">
+    <div id="notificationContent">
+       <div class="action"></div>
+       <div class="icon"></div>
+       <h2 class="mainText"></h2>
+       <p class="large-text subText"></p>
+    </div>
+  </div>
+  
+
+
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+  FB.init({appId: '62572192129', status: true, cookie: true, xfbml: true, oauth: true, version: 'v2.1'});
+  
+  // Listen for an handle auth.statusChange events
+  FB.getLoginStatus(function(response) {
+     
+     // Login callback to update the user's facebook access token or clear it if the user no longer has us authorized...
+     
+     
+     // execute any callbacks that are supposed to run upon confirmed/known facebook user is logged in 
+   if (response.authResponse) {
+        for (var i=0, n= FB_withLoginStatus.length; i < n; i++) {
+           FB_withLoginStatus[i](response.authResponse);
+        }
+     }
+  });
+
+  // Call our own facebook init function after the real fb initialization is done (if defined)...
+  // This lets us have JS code that performs some FB operation on page load, but guarantees it
+  // will NOT happen until we have done this FB initialization.
+  if (window.rkFbAsyncInit) {
+     window.rkFbAsyncInit();
+  }
+};
+
+(function(d, s, id){
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+
+function refreshXfbml()
+{             
+  FB.XFBML.parse();
+}
+
+(function() {
+   var po = document.createElement('script');
+   po.type = 'text/javascript'; po.async = true;
+   po.src = 'https://apis.google.com/js/client:plusone.js';
+   var s = document.getElementsByTagName('script')[0];
+   s.parentNode.insertBefore(po, s);
+})();
+</script>
+         
+  
+   
+   
+   
+   
+   
+	<script type="text/javascript">
+	   (function(doc, script) {
+	       var js, 
+	           fjs = doc.getElementsByTagName(script)[0],
+	           add = function(url, id) {
+	               if (doc.getElementById(id)) {return;}
+	               js = doc.createElement(script);
+	               js.src = url;
+	               id && (js.id = id);
+	               fjs.parentNode.insertBefore(js, fjs);
+	           };
+
+	       // Twitter SDK
+	       add('//platform.twitter.com/widgets.js', 'twitter-wjs');
+	   }(document, 'script'));
+	</script>
+
+  
+      <!-- Check for Zepto support, load jQuery if necessary -->
+      <script>
+        $(document).foundation();
+      </script>
+  
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"ec1b9ef29f","agent":"","beacon":"bam.nr-data.net","applicationTime":113,"applicationID":"226195","transactionName":"blQEZUVZX0RUAkNQClceJURETF5aGiJWSwFQXidSQ1FHXkEIUkokWkUPXll6VFZbT0FQAE4=","queueTime":0}</script></body>
+
+
+
+
+
+   <script type="text/javascript">
+      (function( win ){
+         var doc = win.document;
+   
+         // If there's a hash, or addEventListener is undefined, stop here
+         if( !location.hash && win.addEventListener ){
+   
+            //scroll to 1
+            window.scrollTo( 0, 1 );
+            var scrollTop = 1,
+               getScrollTop = function(){
+                  return win.pageYOffset || doc.compatMode === "CSS1Compat" && doc.documentElement.scrollTop || doc.body.scrollTop || 0;
+               },
+   
+               //reset to 0 on bodyready, if needed
+               bodycheck = setInterval(function(){
+                  if( doc.body ){
+                     clearInterval( bodycheck );
+                     scrollTop = getScrollTop();
+                     win.scrollTo( 0, scrollTop === 1 ? 0 : 1 );
+                  }  
+               }, 15 );
+   
+            win.addEventListener( "load", function(){
+               setTimeout(function(){
+                  //at load, if user hasn't scrolled more than 20 or so...
+                  if( getScrollTop() < 20 ){
+                     //reset to hide addr bar at onload
+                     win.scrollTo( 0, scrollTop === 1 ? 0 : 1 );
+                  }
+               }, 0);
+            } );
+         }
+      })( this );
+   </script>
+
+</html>
+
+
+      
+       

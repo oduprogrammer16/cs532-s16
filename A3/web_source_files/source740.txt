@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+	<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+	<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+	<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+	<!--[if gt IE 8]><!-->
+	<html class="no-js">
+	<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+	<!-- your website title (update this tag with your own content) -->
+	<title>Football Chairman - Top Rated Smartphone/Tablet Soccer Strategy App</title>
+    
+	<!-- meta tags (update these tags with your own content) -->
+	<meta name="description" content="Build a football empire. Create a football club from scratch, starting as a tiny non-league team, and see if you can make it through seven divisions to the very top!">
+	<meta name="keywords" content="football, soccer, chairman, owner, tycoon, boss, manager, director, premier, champions, cup, app, mobile, ios, android, game">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- main css file, this file is being used to import all other css files -->
+    <link rel="stylesheet" href="css/main.css">
+	
+	<!-- modernizr -->
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<meta property="og:image" content="http://www.football-chairman.com/images/twitter-profile.jpg">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="500">
+	<meta property="og:image:height" content="500">
+	<meta property="og:title" content="Football Chairman App">
+</head>
+
+<body class="dark bg-img" data-spy="scroll" data-target=".navscroll">
+
+
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+	
+	
+	<!-- preloader animation start -->
+	<div class="preloader">
+		<div class="wrap go">
+			<div class="loader orbit">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+	</div>
+	<!-- preloader animation end -->
+	
+	
+	<!-- top navigation start -->
+	<div class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navscroll"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="#home" title="Dove - Modern Start Up landing Page"><img src="img/logo-navbar.png" width="170" height="20" alt="Dove"></a> </div>
+			<div class="navbar-collapse collapse navscroll">
+				<div class="navbar-form navbar-right"> <a href="#download" title="Download App Now" class="btn btn-default download-link"><i class="icon_cloud-download_alt"></i> Download</a> </div>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#details">About</a></li>
+					<li><a href="#screens">Screens</a></li>
+					<li><a href="#features">Features</a></li>
+					<!--<li><a href="#download">Download</a></li>!-->
+					<li><a href="#contact">Help/Contact</a></li>
+				</ul>
+			</div>
+			<!--/.navbar-collapse --> 
+		</div>
+	</div>
+	<!-- top navigation end -->
+	
+	
+	<!-- main banner start -->
+	<div class="banner" id="home">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-sm-7">
+					
+					<!-- logo, main heading, CTA buttons  -->
+					<a href="#home" class="logo" title="Obsession"><img src="img/logo-light.png" width="250" height="230" alt="obsession"></a>
+					<h1><small>Award-winning #1-Ranked Soccer Strategy App</small> Build your football empire - can you make it to the very top?</h1><div class="cta-btns">
+						<a href="#download" class="btn btn-primary btn-lg download-link" title="Download App Now"><i class="icon_cloud-download_alt"></i> Download App</a>
+						<a href="#details" class="btn btn-primary btn-lg btn-link learn-more" title="Learn more about app's features">Learn More <i class="fa fa-angle-double-down"></i></a>
+					</div>
+					
+				</div>
+				<div class="col-sm-5 hidden-xs">
+					
+					<!-- iPhone mockup style1 start -->
+					<div class="phone-mockup style1">
+						<div class="wrapper">
+							<!-- phone mockup (back layer) -->
+							<img class="layer-one wow fadeInLeft visible-lg" data-wow-delay="1s" src="img/mockups/iphone-dark.png" width="316" height="581" alt="iPhone app presentation">
+							<!-- phone mockup (back layer) -->
+							<img class="layer-two" src="img/mockups/iphone-white.png" width="316" height="581" alt="iPhone app presentation">							
+						</div>
+					</div>
+					<!-- iPhone mockup style1 end -->
+					
+				</div>
+			</div>
+			
+			<!-- available on -->
+			<small class="available-on">Available on iTunes App Store, Google Play & Amazon App Store.</small>
+			
+		</div>
+	</div>
+	<!-- main banner end -->
+	
+	<!-- app details section start -->
+	<div class="app-details section" id="details">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 wow fadeInRight" data-wow-delay="1s">
+
+					<!-- responsive video wrapper -->
+					<div class="video-wrap">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/l6ZIhjZ_e6k?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+					
+				</div>
+				<div class="col-md-6 wow fadeInLeft" data-wow-delay="1s">
+
+					<br><h2 class="h1">Over 1 Millon Downloads</h2>
+					<p>Football Chairman has become one of the App Store's biggest-selling soccer games, with over one million downloads and a rating of 4.5 out of 5 from tens of thousands of reviews.</p>
+					<p>The concept is simple - build a football club from scratch, starting as a tiny non-league team, and see if you can make it through seven divisions to the very top. Hire and fire managers, develop your stadium, negotiate transfers and contracts... while keeping the fans and the bank manager happy.  Good luck - you'll need it!</p>
+					<p>Voted <b>Google Play "Best of 2015"</b>, <b>iTunes "Best of 2014"</b> & <b>iTunes "Best of 2013"</b></p>
+					<p class="platforms"><i class="fa fa-apple"></i> <i class="fa fa-android"></i></p>				
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- app details section end -->
+	
+	<!-- some of the app screenshots start -->
+	<div class="app-screenshots section" id="screens">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2 class="h1 text-center">Screenshots</h2>
+					<div id="app-screenshots" class="owl-carousel">
+						<div class="screen"><a href="img/app-screenshots/screenshot-summary@2x.jpg" title="Main summary screen" class="lightbox"><img src="img/app-screenshots/screenshot-summary.jpg" alt="Main summary screen"></a></div>
+						<div class="screen"><a href="img/app-screenshots/screenshot-stadium@2x.jpg" title="3D stadium graphics" class="lightbox"><img src="img/app-screenshots/screenshot-stadium.jpg" alt="3D stadium graphics"></a></div>
+						<div class="screen"><a href="img/app-screenshots/screenshot-lineup@2x.jpg" title="Matchday lineup" class="lightbox"><img src="img/app-screenshots/screenshot-lineup.jpg" alt="Matchday lineup"></a></div>
+						<div class="screen"><a href="img/app-screenshots/screenshot-backroom@2x.jpg" title="Backroom staff" class="lightbox"><img src="img/app-screenshots/screenshot-backroom.jpg" alt="Backroom staff"></a></div>
+						<div class="screen"><a href="img/app-screenshots/screenshot-facilities@2x.jpg" title="Stadium facilities" class="lightbox"><img src="img/app-screenshots/screenshot-facilities.jpg" alt="Stadium facilities"></a></div>
+						<div class="screen"><a href="img/app-screenshots/screenshot-chairman@2x.jpg" title="Chairman history" class="lightbox"><img src="img/app-screenshots/screenshot-chairman.jpg" alt="Chairman history"></a></div>
+						<div class="screen"><a href="img/app-screenshots/screenshot-match@2x.jpg" title="Match action" class="lightbox"><img src="img/app-screenshots/screenshot-match.jpg" alt="Match action"></a></div>
+						<div class="screen"><a href="img/app-screenshots/screenshot-player@2x.jpg" title="Player profile" class="lightbox"><img src="img/app-screenshots/screenshot-player.jpg" alt="Player profile"></a></div>
+						<div class="screen"><a href="img/app-screenshots/screenshot-friendly@2x.jpg" title="Pre-season friendlies" class="lightbox"><img src="img/app-screenshots/screenshot-friendly.jpg" alt="Pre-season friendlies"></a></div>
+						<div class="screen"><a href="img/app-screenshots/screenshot-fans@2x.jpg" title="Fans page" class="lightbox"><img src="img/app-screenshots/screenshot-fans.jpg" alt="Fans page"></a></div>
+						<div class="screen"><a href="img/app-screenshots/screenshot-squad@2x.jpg" title="Squad page" class="lightbox"><img src="img/app-screenshots/screenshot-squad.jpg" alt="Squad page"></a></div>
+						<div class="screen"><a href="img/app-screenshots/screenshot-super@2x.jpg" title="Super stadium" class="lightbox"><img src="img/app-screenshots/screenshot-super.jpg" alt="Super stadium"></a></div>
+						<div class="screen"><a href="img/app-screenshots/screenshot-challenges@2x.jpg" title="Challenge scenarios" class="lightbox"><img src="img/app-screenshots/screenshot-challenges.jpg" alt="Challenge scenarios"></a></div>
+						<div class="screen"><a href="img/app-screenshots/screenshot-contract@2x.jpg" title="Contract negotiations" class="lightbox"><img src="img/app-screenshots/screenshot-contract.jpg" alt="Contract negotiations"></a></div>
+						<div class="screen"><a href="img/app-screenshots/screenshot-youth@2x.jpg" title="Youth squad" class="lightbox"><img src="img/app-screenshots/screenshot-youth.jpg" alt="Youth squad"></a></div>
+						<div class="screen"><a href="img/app-screenshots/screenshot-squadstats@2x.jpg" title="Squad stats" class="lightbox"><img src="img/app-screenshots/screenshot-squadstats.jpg" alt="Squad stats"></a></div>					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- some of the app screenshots end -->
+	
+	
+	<!-- features section start -->
+	<div class="features section" id="features">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2 class="h1 text-center">Some of the app features</h2>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-5 col-md-6 col-sm-5 hidden-xs">
+					
+					<!-- iPhone mockup style2 start -->
+					<div class="phone-mockup style2">
+						<div class="wrapper">
+							<!-- phone mockup (back layer) -->
+							<img class="layer-one wow fadeIn" data-wow-delay="0.5s" src="img/mockups/iphone-white-no-shadow.png" width="316" height="581" alt="iPhone app presentation">
+							<!-- phone mockup (back layer) -->
+							<img class="layer-two wow fadeInLeft hidden-sm" data-wow-delay="1s" src="img/mockups/iphone-screen.png" width="316" height="581" alt="iPhone app presentation">							
+						</div>
+					</div>
+					<!-- iPhone mockup style2 end -->
+					
+				</div>
+				
+				<div class="col-lg-7 col-md-6 col-sm-7">
+					<div class="row">
+						<div class="col-lg-12">
+						
+							<!-- feature style1 -->
+							<div class="feature style1 wow fadeInRight" data-wow-delay="1s">
+								<h4>Football Chairman Lite</h4>
+								<p class="features_list">	- The original version of the game<br>
+									- Full, playable game with no adverts or paywall<br>
+									- Fast-paced, additive gameplay<br>
+									- Seven English divisions to conquer<br>
+									- Hire and fire managers<br>
+									- Build your stadium<br>
+									- Take control of transfers and contract negotiations<br>
+									- Develop youth and training facilities<br>
+									- And much more!</p>
+								</p>
+							</div>
+							<!-- feature style1 -->
+							
+						</div>
+						<div class="col-lg-12">
+						
+							<!-- feature style1 -->
+							<div class="feature style1 wow fadeInRight" data-wow-delay="1s">
+								<h4>Football Chairman</h4>
+								<p class="features_list">	- All of the above, plus:<br>
+									- Play-offs, cup competitions, European tournaments<br>
+									- Interact with the supporters<br>
+									- Set the prices of tickets and food/drink<br>
+									- Transfer-list or loan unwanted players<br>
+									- Four 'challenge scenarios' to test your skills<br>
+									- 35 in-game achievements to aim for<br>
+									- Completely redesigned interface
+									- And hundreds of other improvements to the gameplay</p>
+							</div>
+							<!-- feature style1 -->
+							
+						</div>
+						<div class="col-lg-12">
+						
+							<!-- feature style1 -->
+							<div class="feature style1 wow fadeInRight" data-wow-delay="1.2s">
+								<h4>Football Chairman Pro</h4>
+								<p class="features_list">	- All of the above, plus:<br>
+									- Take over other clubs... become the chairman of your favourite team!<br>
+									- Free online data editor, allowing you to create your own leagues<br>
+									- Load different datapacks, takeover teams from round the world<br>
+									- Manage merchandise sales, pitch condition and backroom staff<br>
+									- Sign superstar players and boost your club's worldwide reputation<br>
+									- Play in the Community Cup and European Super Cup<br>
+									- Pick your club's local 'derby' rivals<br>
+									- Full youth squad; watch your young players develop<br>
+									- Players have personalities, playing styles, and happiness and fitness<br>
+									- Managers use different formations and playing styles<br>
+									- Offer win bonuses, promotion bonuses, and fine players for indiscipline<br>
+									- Longer contracts so less renewals to worry about<br>
+									- New challenge scenarios to test your skills<br>
+									- 50 achievements to aim for, including 15 brand new ones<br>
+									- New club records to beat<br>
+									- Improved 3D stadium graphics<br>
+									- Pre-season friendlies<br>
+									- Redesigned interface<br>
+									- Plus thousands of tiny improvements to the gameplay!</p>
+							</div>
+							<!-- feature style1 -->
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- features section end -->	
+	
+	
+	<!-- download section start -->
+	<div class="download section" id="download">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7">
+				
+					<h2 class="h1">Download Football Chairman Today</h2>
+					
+				</div>
+				<div class="col-lg-5">
+	
+					
+				</div>
+			</div>
+			
+			
+			<div class="row">
+				<div class="col-sm-4">
+					
+					<!-- starter download plan start -->
+					<div class="plan free">
+						<div class="plan-header">
+								Football Chairman Lite
+						</div>
+						<div class="detail">
+							<p>The original version of the game - a full playable app with no paywall or time limit.</p>
+						</div>
+						<div class="price">
+							<span class="currency pound">Free</span>
+						</div>
+						<div class="plan-footer">
+							<a class="btn btn-link btn-lg" href="https://itunes.apple.com/gb/app/football-chairman-lite/id652860066?mt=8&uo=4" title="Download Football Chairman Lite for iOS"><i class="fa fa-apple"></i> Download iOS App</a>  <a class="btn btn-link btn-lg" href="https://play.google.com/store/apps/details?id=com.undergroundcreative.footballchairmanlite" title="Download Football Chairman Lite for Android"><i class="fa fa-android"></i> Download Android App</a>  <a class="btn btn-link btn-lg" href="http://www.amazon.co.uk/gp/product/B00IJ7U7IQ/" title="Download Football Chairman Lite for Kindle/BB10"><i class="fa fa-cloud-download"></i> Download Kindle/BB10 App</a><br>
+						</div>
+					</div>
+					<!-- starter download plan end -->
+					
+				</div>
+				<div class="col-sm-4">
+					
+					<!-- starter download plan start -->
+					<div class="plan pro">
+						<div class="plan-header">
+								Football Chairman
+						</div>
+						<div class="detail">
+							<p>The 2014 edition of the game - with cup competitions and European tournaments.</p>
+						</div>
+						<div class="price">
+							<span class="currency pound"><span class="symbol">&pound;</span> 1.49</span>
+						</div>
+						<div class="plan-footer">
+							<a class="btn btn-link btn-lg" href="https://itunes.apple.com/gb/app/football-chairman/id821667013?ls=1&mt=8" title="Download Football Chairman for iOS"><i class="fa fa-apple"></i> Download iOS App</a>  <a class="btn btn-link btn-lg" href="https://play.google.com/store/apps/details?id=com.football_chairman.www" title="Download Football Chairman for Android"><i class="fa fa-android"></i> Download Android App</a>  <a class="btn btn-link btn-lg" href="http://www.amazon.co.uk/Underground-Creative-UK-Ltd-Football/dp/B00J3QP6Q0/" title="Download Football Chairman for Kindle/BB10"><i class="fa fa-cloud-download"></i> Download Kindle/BB10 App</a><br>
+						</div>
+					</div>
+					<!-- starter download plan end -->
+					
+				</div>
+				<div class="col-sm-4">
+					
+					<!-- pro download plan start -->
+					<div class="plan premium">
+						<div class="plan-header">
+								Football Chairman Pro
+						</div>
+						<div class="detail">
+							<p>The latest and most exciting version of the game - take over your favourite clubs!</p>
+						</div>
+						<div class="price">
+							<span class="currency pound"><span class="symbol">&pound;</span> 2.99</small></span>
+						</div>
+						<div class="plan-footer">
+							<a class="btn btn-link btn-lg" href="https://itunes.apple.com/gb/app/football-chairman-pro/id992140496?mt=8" title="Download Football Chairman Pro for iOS"><i class="fa fa-apple"></i> Download iOS App</a>  <a class="btn btn-link btn-lg" href="https://play.google.com/store/apps/details?id=com.undergroundcreative.footballchairmanpro" title="Download Football Chairman Pro for Android"><i class="fa fa-android"></i> Download Android App</a>  <a class="btn btn-link btn-lg" href="http://www.amazon.co.uk/Underground-Creative-UK-Ltd-Football/dp/B010R1B3WK/" title="Download Football Chairman Pro for Kindle"><i class="fa fa-cloud-download"></i> Download Kindle App</a><br>
+						</div>
+					</div>
+					<!-- pro download plan end -->
+					
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<!-- download section end -->
+	
+	<!-- testimonials start -->	
+	<div class="testimonials section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					
+					<!-- client carousel start -->
+					<div class="owl-carousel" id="client-carousel">
+						<div>
+							<img class="client" src="img/clients/client1.jpg" width="80" height="80" alt="Olly Murs">
+							<blockquote>
+								<p>"Any footy fan has got to purchase this game!"</p>
+								<small>Olly Murs<small>Singer/Songwriter</small></small>
+							</blockquote>
+						</div>
+						<div>
+							<img class="client" src="img/clients/client2.jpg" width="80" height="80" alt="Mark Watson">
+							<blockquote>
+								<p>"If you like football, and you're prepared to be enslaved by a game, try Football Chairman"</p>
+								<small>Mark Watson<small>Comedian, TV Presenter, Novelist</small></small>
+							</blockquote>
+						</div>
+						<div>
+							<img class="client" src="img/clients/client4.jpg" width="80" height="80" alt="Scott Murray">
+							<blockquote>
+								<p>"Anybody looking at downloading a footy game, get Football Chairman - without doubt the most addictive game about and very easy to play"</p>
+								<small>Scott Murray<small>Former Pro with 600+ appearances</small></small>
+							</blockquote>
+						</div>
+						<div>
+							<img class="client" src="img/clients/client3.jpg" width="80" height="80" alt="Maplo16">
+							<blockquote>
+								<p>"Forget football management simulators, this is the future! This has to be the most addictive app I have ever had, simple quick and fun!"</p>
+								<small>Maplo16<small>App Store Review</small></small>
+							</blockquote>
+						</div>
+						<div>
+							<img class="client" src="img/clients/client3.jpg" width="80" height="80" alt="Lee Davies">
+							<blockquote>
+								<p>"Brilliant, just absolutely brilliant! An already great game has been made even better! I don't mind the cost for the new version at all, as you can tell just how much work has been put into this with all the new features and additions there are."</p>
+								<small>Lee Davies<small>App Store Review</small></small>
+							</blockquote>
+						</div>
+						<div>
+							<img class="client" src="img/clients/client3.jpg" width="80" height="80" alt="Chris Andrews">
+							<blockquote>
+								<p>"A worthy sequel to a fantastic game. A HUGE amount of additions make this game worth buying. Had hours of fun on Football Chairman."</p>
+								<small>Chris Andrews<small>App Store Review</small></small>
+							</blockquote>
+						</div>
+						<div>
+							<img class="client" src="img/clients/client3.jpg" width="80" height="80" alt="Andy White">
+							<blockquote>
+								<p>"Great game! This game improves each update. I have played both the previous versions and once again this one is thoroughly addictive. Great work."</p>
+								<small>Andy White<small>App Store Review</small></small>
+							</blockquote>
+						</div>
+						<div>
+							<img class="client" src="img/clients/client3.jpg" width="80" height="80" alt="TheFellowGamer">
+							<blockquote>
+								<p>"Such a good game! The best iPhone game I've played. Thanks for making it! #Impressed"</p>
+								<small>TheFellowGamer<small>Twitter Game Review</small></small>
+							</blockquote>
+						</div>
+
+					</div>
+					<!-- client carousel end -->
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- testimonials end -->	
+	
+	
+	<!-- contact and subscription forms start -->
+	<div class="forms" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					
+					<!-- newsletter subscription form start -->
+					<div class="subscribe-form">
+						<h2 class="h1 text-center">Help/Contact Us<small>If you've got a query about the game, please have a look at the FAQs below and see if your question is answered.  If not, please click the mail icon at the bottom to send us a message through our contact form.</small></h2>
+						
+						<br /><h4>Important - phishing scam emails</h4>
+						<div class="help_answer">
+							<p>If anyone receives a suspicious email claiming to be from Football Chairman or Apple and requesting any bank or personal details, they should delete it immediately without clicking any of the links or attachments.</p>
+							<p>This is a common phishing scam email which uses the name of popular apps to fool people into entering their bank details.</p>
+							<p>At Football Chairman we don't handle any payment transactions ourselves.  All purchases are dealt with securely by the app stores: Apple, Google or Amazon.  We never have access to anybody's bank or card information, and will never send an email requesting any personal or financial details.</p>
+						</div>	
+						
+						<br /><h4>Can I load a game from one version of the app into another?</h4>	
+						<div class="help_answer">
+							<p>Yes, you can import saved games from earlier versions of Football Chairman into the newer apps - for instance from FC Lite into Football Chairman or FC Pro, or from Football Chairman into FC Pro.</p>
+							<ol style="margin:20px 0px 20px 30px">
+								<li>From the main summary screen on the first app, click the 'Spanner' icon in the top right corner</li>
+								<li>Enter an email and password and save your game</li>
+								<li>From the main summary screen of the new app, click the 'Spanner' icon in the top right corner</li>
+								<li>Enter the same email and password as before, then choose 'Load Game', and then your should see some 'Import' options further down the screen.</li>
+							</ol>
+							<p>Please note that all imported games will begin at the start of a new season, even if your game was saved mid-season.  This is so that the new game can add any additional data that wasn't included in the earlier version.</p>
+						</div>
+
+						<br /><h4>Can I save the game on one device and then load it to play on a different device?</h4>
+						<div class="help_answer">
+							<p>Yes, you can. Saved games are compatible between different devices, including from Android to iOS and vice-versa.</p>
+						</div>
+				
+						<br /><h4>My saved games have gone missing!</h4>
+						<div class="help_answer">
+							<p>If you saved the game on our servers then the saved game(s) will definitely still be there - the only reason they wouldn't show is if the email or password were spelt incorrectly either when you originally typed them or the second time round.</p>
+							<p>The most common reason for this happening is when people mis-type their original password without realising. If you've tried various combinations and still can't find your saved games, fill in our contact form and we'll check the database for you.</p>
+						</div>
+						
+						<br /><h4>I can't scroll to the bottom of the screen (iOS users)</h4>
+						<div class="help_answer">
+							<p>This issue affects a small number of iOS devices - rebooting your device and then relaunching the app seems to fix the problem.</p>
+						</div>	
+
+						<br /><h4>I'm having trouble with the in-app purchases (iOS users)</h4>
+						<div class="help_answer">
+							<p>The first thing to check is whether in-app purchases are actually allowed on your device.  To do this, go to Settings > General > Restrictions.</p>
+							<p>If there are no restrictions in place, then rebooting your phone often solves the problem.  You may also need to sign out and back in to your iTunes account.</p>
+						</div>	
+								
+						<br /><h4>How do I exit the game? (Android)</h4>
+						<div class="help_answer">
+							<p>Although the game disables your device's 'back' button, most Android devices have a 'Home' button somewhere that allows you to return to your main phone screen. Alternatively your device may also have a 'task manager' button that enables you to switch between apps.</p>
+						</div>
+						
+						<br /><h4>The game freezes or shows a blank screen when I try to run it</h4>
+						<div class="help_answer">
+							<p>Close the app down completely and try relaunching it.  If that doesn't work, try rebooting your device and then relaunching the app.  If it still doesn't work, try uninstalling the app the download it again from the app store.  Please note though - uninstalling should always be the last resort because you will lose any unsaved game data.</p>
+						</div>
+					
+					</div>
+					<!-- newsletter subscription form end -->
+					
+					<!-- contact form start -->
+					<div class="contact-form" id="contact_form">
+						<h2 class="h1 text-center">Get in touch!<small>Please fill in the form below if you have some feedback for us.</small></h2>
+						<form action="javascript:;" method="post" id="contactForm" role="form" >
+							<div class="row">
+								<div class="col-lg-5 col-lg-offset-1">
+									<div class="form-group">
+										<input type="text" class="form-control input-lg" id="name" name="name" placeholder="Your Name">
+									</div>
+								</div>
+								<div class="col-lg-5">
+									<div class="form-group">
+										<input type="email" class="form-control input-lg" id="email2" name="email" placeholder="Email Address">
+									</div>
+								</div>
+								<div class="col-lg-5 col-lg-offset-1">
+									<div class="form-group">
+										<select name="device" id="device">
+											<option value="Device: iOS">Device: iOS</option>
+											<option value="Device: Android">Device: Android</option>
+											<option value="Device: Kindle">Device: Kindle</option>
+										</select> 
+									</div>
+								</div>
+								<div class="col-lg-5">
+									<div class="form-group">
+										<select name="app-version" id="app-version">
+											<option value="App: Football Chairman Pro">App: Football Chairman Pro</option>
+											<option value="App: Football Chairman Lite">App: Football Chairman Lite</option>
+											<option value="App: Football Chairman">App: Football Chairman</option>
+										</select> 
+									</div>
+								</div>
+								<div class="col-lg-10 col-lg-offset-1">
+									<div class="form-group">
+										<select name="subject" id="subject">
+											<option value="Subject: General Enquiry">Subject: General Enquiry</option>
+											<option value="Subject: Help/Advice Needed!">Subject: Help/Advice Needed!</option>
+											<option value="Subject: Bug Report">Subject: Bug Report</option>
+											<option value="Subject: Purchase Problem">Subject: Purchase Problem</option>
+											<option value="Subject: Data Editor Query">Subject: Data Editor Query</option>
+											<option value="Subject: Advertising/Partnership Enquiry">Subject: Advertising/Partnership Enquiry</option>
+										</select> 
+									</div>
+								</div>
+								<div class="col-lg-10 col-lg-offset-1">
+									<div class="form-group">
+										<textarea class="form-control" rows="6" name="message" placeholder="Message..."></textarea>
+									</div>
+								</div>
+								<div class="col-lg-10 col-lg-offset-1">
+									<div class="form-group text-right">
+										<button type="submit" class="btn btn-primary btn-lg" id="send"><i class="icon-paper-plane"></i> Send Message</button>
+									</div>
+								</div>
+							</div>							
+						</form>
+						
+						<!-- container for success and error messages -->
+						<div id="response"></div>
+										
+					</div>
+					<!-- contact form end -->
+					
+					<!-- form switch buttons start -->
+					<div class="form-switch">
+						<button class="subscribe-btn active tool-tip" id="onpen-sub-form" data-original-title="Help/FAQs"><i class="fa fa-question"></i></button>
+						<button class="contact-btn tool-tip" id="onpen-contact-form" data-original-title="Contact form"><i class="fa fa-envelope-o"></i></button>
+					</div>
+					<!-- form switch buttons end -->
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- contact and subscription forms start -->
+	
+	<!-- footer start -->
+	<footer class="footer section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+				
+				<!-- footer links and copyright -->
+				<ul class="ft-links">
+					<li><a href="#contact">Contact Us</a></li>
+					<li><a href="privacy.html" title="Privacy Policy">Privacy Policy</a></li>
+					<!--<li><a href="" title="Terms">Terms of Service</a></li>!-->
+				</ul>
+				<p class="copyright">&copy; 2015 Underground Creative UK Ltd, All Rights Reserved.</p>
+				
+				</div>
+				<div class="col-sm-6">
+				
+				<!-- social share links -->
+				<ul class="social text-right">
+					<li><a href="https://www.facebook.com/FootballChairman" target="_blank" title="facebook" class="tool-tip"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://twitter.com/F_Chairman" target="_blank" title="twitter" class="tool-tip"><i class="fa fa-twitter"></i></a></li>
+				</ul>
+				<!-- social share links -->
+								
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer end -->
+	
+		
+	<!-- javascript/jquery plugins -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/bootstrap.js"></script>
+    <script src="js/matchMedia.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/smoothscroll.min.js"></script>
+    <script src="js/fitvids.js"></script>
+    <script src="js/backgroundvideo.js"></script>
+    <script src="js/nivo-lightbox.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/retina.js"></script>
+    <script src="js/scroll-to-top.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/validate.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/ajaxchimp.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+	<script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	twttr.conversion.trackPid('l4h41');
+	</script>
+	<noscript>
+	<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l4h41&p_id=Twitter" />
+	<img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l4h41&p_id=Twitter" />
+	</noscript>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-42829102-1', 'football-chairman.com');
+	  ga('send', 'pageview');
+
+	</script>
+</body>
+
+</html>

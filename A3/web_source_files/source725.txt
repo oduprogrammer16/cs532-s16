@@ -1,0 +1,1738 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]> <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]> <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]> <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]> <html lang="en" class="no-js"> <![endif]-->
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function c(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),c=a.length,u=0;c>u;u++)a[u].apply(i,r);return i}function u(t,e){p[t]=f(t).concat(e)}function f(t){return p[t]||[]}function s(){return r(c)}var p={};return{on:u,emit:c,create:s,listeners:f,context:e,_events:p}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!v++){var t=l.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(p,function(e,n){t[e]||(t[e]=n)});var n="https"===s.split(":")[0]||t.sslForHttp;l.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=l.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),c=t(1),u=window,f=u.document;t(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),l=e.exports={offset:i(),origin:s,features:{},xhrWrappable:d};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var v=0},{1:12,2:3,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],12:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],13:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}]},{},["G9z0Bl"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"1ce44ae6be","agent":"","transactionName":"MwQBYhNWD0NUBUwMWgpOJUMPVBVZWggXCEAIFQpDE1tbXUAKTAxDDQQU","applicationID":"11240667","errorBeacon":"bam.nr-data.net","applicationTime":202}</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 minimum-scale=1">
+    <meta name="fragment" content="!">
+    
+    <meta name="description" content="">
+
+    <link rel="canonical" href="http://www.pcgamer.com/hitman-beta-details-accompany-new-trailer/" />   
+
+    
+
+    
+    <script src="//cdn.optimizely.com/js/2657090892.js"></script>
+
+    <title>Hitman beta details accompany new trailer - PC Gamer</title>
+
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+    
+    <link href="http://static.spark.futureusmedia.com/css/global.min.fe56a0397baa.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+    // IE-safe console.log
+    if (typeof console === 'undefined') console = {}; if (typeof console.log === 'undefined') console.log = function() {};
+
+    
+    window.regionCookieName = "sparkRegion";
+    window.isUK = document.cookie.indexOf(regionCookieName+'=UK') != -1;   
+    window.isAU = document.cookie.indexOf(regionCookieName+'=AU') != -1;
+    window.isSG = document.cookie.indexOf(regionCookieName+'=SG') != -1;
+    window.FUTUREPLC_COMSCORE_CLIENT_ID = '10055482';    
+    window.TEADS_INPICTURE_PID = "25156";  
+    window.TEADS_INREAD_PID = "22604";  
+    window.TABOOLA_ACCOUNT_ID = "futureplc-pcgamer";
+    try {
+        window.ZERGNET_ACCOUNT_ID = {"default": 23839};
+    } catch (err_zer) {
+        window.ZERGNET_ACCOUNT_ID = null;
+    }
+      
+    window.HAWK_INSTEAD_OF_CPMSTAR = true;
+      
+    
+    var less = { logLevel: 1 };   
+
+    var GLOBAL_ADBLOCK_STATUS = 'not set';
+    var firstScript = document.getElementsByTagName('script')[0];
+    </script>
+
+    
+    
+
+    <script type='text/javascript'>
+        
+        function doAmazon() {
+            amznads.getAdsCallback('3032', function() { amznads.setTargetingForGPTAsync(); });
+        }
+        var amb = document.createElement('script');
+        amb.src = 'http://c.amazon-adsystem.com/aax2/amzn_ads.js';
+        amb.onloadDone = false;
+        amb.onload = function() {
+            amb.onloadDone = true;
+            doAmazon();
+        }
+        amb.onreadystatechange = function() {
+            if("loaded" == amb.readyState && !amb.onloadDone) {
+                amb.onloadDone = true;
+                doAmazon();
+            }
+        }
+        firstScript.parentNode.insertBefore(amb, firstScript);
+    </script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link href="//static.spark.futureusmedia.com" rel="dns-prefetch" />  
+
+        
+    
+
+    <link href="http://static.spark.futureusmedia.com/css/theme_duraflame.min.d8c4032764a7.css" rel="stylesheet" type="text/css" />
+    
+<link rel="shortcut icon" href="http://e5c351ecddc2f880ef72-57d6ff1fc59ab172ec418789d348b0c1.r69.cf1.rackcdn.com/favicon_054FNHp.ico" />
+<link rel="apple-touch-icon" href="http://static.spark.futureusmedia.com/pc-gamer/apple-touch-icon-precomposed.ddbda7ed1c53.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="http://static.spark.futureusmedia.com/pc-gamer/apple-touch-icon-76x76-precomposed.3afebdd9738e.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="http://static.spark.futureusmedia.com/pc-gamer/apple-touch-icon-120x120-precomposed.62b332fd9b51.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="http://static.spark.futureusmedia.com/pc-gamer/apple-touch-icon-152x152-precomposed.89ffa0fb2565.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="http://static.spark.futureusmedia.com/pc-gamer/apple-touch-icon-180x180-precomposed.4367af8e8aa8.png" />
+
+<!-- PCGAMER FONTS -->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Condensed:400,700|Roboto+Slab:400,100' rel='stylesheet' type='text/css'>
+
+<link href="http://static.spark.futureusmedia.com/css/theme_duraflame-pc-gamer.min.05ed20a3df50.css" rel="stylesheet" type="text/css" />
+
+
+<link href="//f8a7dbfeb205e383ce21-d362a64712336be7a078d9b0d9394ae2.r70.cf1.rackcdn.com" rel="dns-prefetch" />
+<link href="//55288f56e33b46135c25-dbfd4bee2f0cce5af36b4d560f6dc34b.r67.cf1.rackcdn.com" rel="dns-prefetch" />
+<link href="//49dc8a8aa559d3133ac2-c2d5305272957ea51923e976d7b76eef.r79.cf1.rackcdn.com" rel="dns-prefetch" />
+<link href="//79faa638a51c01df08c0-e082af5f205ffdc4aadab9614b8659e1.r93.cf1.rackcdn.com" rel="dns-prefetch" />
+<link href="//ad4e3e4a538d4f28b050-fcd36f2780c2b4be61507446e477c30d.r93.cf1.rackcdn.com" rel="dns-prefetch" />
+
+<!-- Yieldbot.com Intent Tag LOADING -->
+<script type="text/javascript">
+var ybotq = ybotq || [];
+(function() {
+  var js = document.createElement('script');
+  js.src = '//cdn.yldbt.com/js/yieldbot.intent.js';
+  var node = document.getElementsByTagName('script')[0];
+  node.parentNode.insertBefore(js, node);
+})();
+</script>
+
+<!-- Yieldbot.com Intent Tag ACTIVATION -->
+<script type="text/javascript">
+ybotq.push(function () {
+   
+
+    // these names match up with something configured in Yieldbot
+    var leaderboard = 'leaderboard';
+    var upperMPU = 'upperMPU';
+    var mobileLeaderboard = 'mobileLeaderboard';
+    var mobileMPU = 'mobileMPU';
+
+    var mobileBreakpoint = 585;
+
+    function ybWidth() {    // snippet from yieldbot! another way is... Modernizr.mq('(max-width: 585px)'
+        var w = window,
+                d = document,
+                e = d.documentElement,
+                x = Math.max(e.scrollWidth,e.offsetWidth,e.clientWidth);
+        return x;
+    }
+
+    if(ybWidth() <= mobileBreakpoint) {
+        // then set up Yieldbot for MOBILE
+        yieldbot.pub('ad0b');
+        yieldbot.defineSlot(mobileLeaderboard);
+        yieldbot.defineSlot(mobileMPU);
+    }
+    else {
+        // otherwise DESKTOP
+        yieldbot.pub('3940');
+        yieldbot.defineSlot(leaderboard);
+        yieldbot.defineSlot(upperMPU, {sizes: [[300, 250], [300, 600]]});
+    }
+
+    yieldbot.enableAsync();
+    yieldbot.go();
+});
+</script>
+
+<script>
+    var YIELDBOT_ENABLED = true;
+</script>
+
+
+
+    
+  <script type="text/javascript" src="http://static.assets.futurecdn.net/js/fep-client/pcg/134896/fep.min.js" async></script>
+  <script> // FEP!
+    window.fep = window.fep||function(a,b,c){(fep.q=fep.q||[]).push([a,b]);c&&window.setTimeout(function(){fep.ready(c)||b()},c)};fep.ready=function(c){fep.ttl=c||fep.ttl;return !(fep.tl=1)};
+  </script>
+
+
+
+
+    <script type="application/javascript" src="http://static.spark.futureusmedia.com/js/spark_global_top.min.2e34984bfeb7.js" charset="utf-8"></script>
+    
+
+    
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+
+    
+        
+
+
+
+
+<meta property="og:site_name" content="PC Gamer " />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Hitman beta details accompany new trailer" />
+<meta property="og:description" content="&#39;The beginning&#39;." />
+<meta property="og:url" content="http://www.pcgamer.com//hitman-beta-details-accompany-new-trailer/" />
+<meta property="og:image" content="http://pc4.rsfb.static.pcgamer.com/images/IPNSyPwXNAgL.1200x630.UjabWTf0.jpg" />
+
+
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Hitman beta details accompany new trailer" />
+<meta property="twitter:description" content="&#39;The beginning&#39;." />
+<meta property="twitter:creator" content="@pcgamer" />
+<meta property="twitter:site" content="@pcgamer" />
+<meta property="twitter:account:id" content="16736535" />   
+<meta property="twitter:image" content="http://pc4.rsfb.static.pcgamer.com/images/IPNSyPwXNAgL.1200x630.UjabWTf0.jpg" />
+
+
+<meta name="geo_locale" content="US">
+<meta name="pub_date" content="2016-02-08T17:37:27+00:00">
+
+
+
+<link href="https://plus.google.com/113923018375494418149" rel="publisher" />
+
+<meta property="article:publisher" content="https://www.facebook.com/pcgamermagazine" />
+<meta property="fb:app_id" content="304202475062" />
+
+    <meta name="google-site-verification" content="rhEtvzpIoXL0k5ptUOdbzytqTVETNhMKARqyzF2J198" />
+
+    
+    <script type="text/javascript">
+      /* Version: 0.7    Magnetic!  */
+      /* <![CDATA[ */
+      try {
+      var _mag = _mag || {};
+      _mag.kw = 'Hitman,News,Stealth';
+      _mag.shortName = 'futureplc-electronics';
+      _mag.default_protocol = ('https:' == document.location.protocol ? 'https:' : 'http:');
+      _mag.startTime = (new Date()).getTime();
+      (function(d,t) {
+      var mag = d.createElement('script'); mag.type = 'text/javascript'; mag.async = true; mag.src = t;
+      var head = d.getElementsByTagName('head')[0] || d.documentElement; head.insertBefore(mag, head.firstChild);
+      })(document,  _mag.default_protocol + '//d3ezl4ajpp2zy8.cloudfront.net/futureplc-electronics_tag.js');
+      } catch (e) {}
+      /* ]]> */
+    </script>
+
+    
+    
+    
+      
+          
+          <script type="application/ld+json">
+          {
+            "@context": "http://schema.org",
+            "@type": "NewsArticle",
+            "headline": "Hitman beta details accompany new trailer",
+            "image": "http://4d663a369f9f03c3c61e-870e77779efd63f7bd6c2ee08d8cfae6.r2.cf1.rackcdn.com/images/IPNSyPwXNAgL.380x260.2MeZr4iD.jpg",
+            "thumbnailUrl": "http://4d663a369f9f03c3c61e-870e77779efd63f7bd6c2ee08d8cfae6.r2.cf1.rackcdn.com/images/IPNSyPwXNAgL.380x260.2MeZr4iD.jpg",
+            "url": "http://www.pcgamer.com/hitman-beta-details-accompany-new-trailer/",
+            "datePublished": "2016-02-08T17:37:27+00:00",
+            "description": "&#39;The beginning&#39;."
+          }
+          </script>
+      
+    
+
+  </head>
+  <body class="article_page ">
+    
+    <script type="text/javascript">
+      if(isUK) {
+          document.body.className = document.body.className + ' uk';
+      } else if(isAU) {
+          document.body.className = document.body.className + ' au';
+      } else if(isSG) {
+          document.body.className = document.body.className + ' sg';
+      } else {
+          document.body.className = document.body.className + ' us';
+      }
+    </script>
+    
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NDGR3K"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NDGR3K');</script>
+    
+
+    
+<div class="body-inner-wrap">
+    <input id="toggle" type="checkbox" />
+    <nav class="slide-nav">
+    	<h5>Sections</h5>
+<!-- navigation should come from tags in CMS -->
+<ul>
+  
+	
+		
+		<li class="custom-event" data-evlabel="topnav" data-targeturl="/news/">
+			<a class="" href="/news/">
+				<span class="fa fa-angle-double-right"></span>News
+			</a>
+		</li>
+	
+		
+		<li class="custom-event" data-evlabel="topnav" data-targeturl="/reviews/">
+			<a class="" href="/reviews/">
+				<span class="fa fa-angle-double-right"></span>Reviews
+			</a>
+		</li>
+	
+		
+		<li class="custom-event" data-evlabel="topnav" data-targeturl="/hardware/">
+			<a class="" href="/hardware/">
+				<span class="fa fa-angle-double-right"></span>Hardware
+			</a>
+		</li>
+	
+		
+		<li class="custom-event" data-evlabel="topnav" data-targeturl="/best-of/">
+			<a class="" href="/best-of/">
+				<span class="fa fa-angle-double-right"></span>Best of
+			</a>
+		</li>
+	
+		
+		<li class="custom-event" data-evlabel="topnav" data-targeturl="/magazine/">
+			<a class="" href="/magazine/">
+				<span class="fa fa-angle-double-right"></span>Magazine
+			</a>
+		</li>
+	
+		
+		<li class="custom-event" data-evlabel="topnav" data-targeturl="/pro/">
+			<a class="" href="/pro/">
+				<span class="fa fa-angle-double-right"></span>Pro
+			</a>
+		</li>
+	
+  
+
+<script>
+    
+    if(isUK) {
+        var weekender = document.createElement('li');
+        var weekenderLink = document.createElement('a');
+        weekenderLink.setAttribute('href', "http://weekender.pcgamer.com/");
+        weekenderLink.appendChild(document.createTextNode('#PCGW16'));
+        weekender.appendChild(weekenderLink);
+        document.write(weekender.outerHTML)
+    }
+</script>
+
+
+</ul>
+
+<ul class="more">
+	<li>
+		<a href="#">
+			<span class="fa fa-angle-double-right"></span>More <i class="fa fa-caret-down"></i>
+		</a>
+    	<ul>	
+        	<li>
+        		<a href="/meet-the-team">Meet the Team</a>
+        	</li>
+        	<li>
+        		<a href="http://www.futureus.com/privacy-policy/">Privacy Policy</a>
+        	</li>
+        	<li>
+        		<a href="http://www.futureplc.com/what-we-do/advertising-solutions/">Advertise with Us</a>
+        	</li>
+        	<li>
+        		<a href="http://www.futureplc.com/terms-and-conditions/">Terms and Conditions</a>
+        	</li>
+        	<li>
+        		<a href="/contact-us/">Contact Us</a>
+        	</li>
+        	<li>
+				<a href="http://www.futureplc.com/cookies-policy/">Cookie Policy</a>
+			</li>
+        </ul>
+    </li>
+</ul>
+<h5>Select Regions</h5>
+<ul class="region_list clearfix">
+    <li id="footer_region_us_top" class="us">
+    	<a id="footer_region_href_us_top" title="US" onClick="javascript: jQuery.cookie('sparkRegion', 'US', {path: '/'})" href="/">
+    		<span>US</span><h6>United States</h6>
+    	</a>
+    </li>
+    <li id="footer_region_uk_top" class="uk">
+    	<a id="footer_region_href_uk_top" title="UK" onClick="javascript: jQuery.cookie('sparkRegion', 'UK', {path: '/'})" href="/uk/" rel="nofollow">
+    		<span>UK</span><h6>United Kingdom</h6>
+    	</a>
+    </li>
+    <li id="footer_region_au_top" class="au">
+    	<a id="footer_region_href_au_top" title="Australia" onClick="javascript: jQuery.cookie('sparkRegion', 'AU', {path: '/'})" href="/au/" rel="nofollow">
+    		<span>AU</span><h6>Australia</h6>
+    	</a>
+	  </li>
+  
+    <li id="footer_region_sg_top" class="sg">
+      <a id="footer_region_href_sg_top" title="Singapore" onClick="javascript: jQuery.cookie('sparkRegion', 'SG', {path: '/'})" href="/sg/" rel="nofollow">
+        <span>SG</span><h6>Singapore</h6>
+      </a>
+    </li>
+  
+</ul>
+
+
+    </nav>
+    <div class="page-wrapper">
+        <div class="page-inner">
+        <div id="adSkinFull">
+
+			<!-- responsive skin -->
+			<span id="adSkinLeft"></span>
+			<span id="adSkinRight"></span>
+
+      
+      <header>
+        
+
+<div class="nav-container clearfix">
+	<div class="nav-container-wrap">
+		<div>
+	        <a class="toggle-btn" for="toggle" onclick><span class="fa fa-bars"></span></a>
+	        <div class="logo-wrap">
+	        	<a href="/" class="site-logo"><img src="http://36646d87786feafc0611-0338bbbce19fc98919c6293def4c5554.r0.cf1.rackcdn.com/pcgamer_logo_2015_YrTwqKX.svg"></a>
+	        	<a href="#" class="network-nav-btn"><i class="fa fa-caret-down"></i></a>
+	        	<ul class="network-nav">
+		        	<li class="gamesradar">
+		        		<a href="http://www.gamesradar.com"></a>
+		        	</li>
+		        	<li class="maxpc">
+		        		<a href="http://www.maximumpc.com"></a>
+		        	</li>
+                    <script type="text/javascript">
+                        /*
+                           This script is basically the same as putting this in the html!
+
+                             <li class="kotaku"><a href="http://www.kotaku.co.uk"></a></li>
+                         */
+                        if(isUK) {
+                            var kotaku = document.createElement('li');
+                            var kotakuLink = document.createElement('a');
+                            kotaku.setAttribute('class', 'kotaku');
+                            kotakuLink.setAttribute('href', "http://www.kotaku.co.uk");
+                            kotaku.appendChild(kotakuLink)
+                            document.write(kotaku.outerHTML)
+                        }
+                    </script>
+		        </ul>
+		    </div>
+
+	        <nav class="nav-links" role="navigation">
+	            <!-- navigation should come from tags in CMS -->
+<ul>
+  
+	
+		
+		<li class="custom-event" data-evlabel="topnav" data-targeturl="/news/">
+			<a class="" href="/news/">
+				<span class="fa fa-angle-double-right"></span>News
+			</a>
+		</li>
+	
+		
+		<li class="custom-event" data-evlabel="topnav" data-targeturl="/reviews/">
+			<a class="" href="/reviews/">
+				<span class="fa fa-angle-double-right"></span>Reviews
+			</a>
+		</li>
+	
+		
+		<li class="custom-event" data-evlabel="topnav" data-targeturl="/hardware/">
+			<a class="" href="/hardware/">
+				<span class="fa fa-angle-double-right"></span>Hardware
+			</a>
+		</li>
+	
+		
+		<li class="custom-event" data-evlabel="topnav" data-targeturl="/best-of/">
+			<a class="" href="/best-of/">
+				<span class="fa fa-angle-double-right"></span>Best of
+			</a>
+		</li>
+	
+		
+		<li class="custom-event" data-evlabel="topnav" data-targeturl="/magazine/">
+			<a class="" href="/magazine/">
+				<span class="fa fa-angle-double-right"></span>Magazine
+			</a>
+		</li>
+	
+		
+		<li class="custom-event" data-evlabel="topnav" data-targeturl="/pro/">
+			<a class="" href="/pro/">
+				<span class="fa fa-angle-double-right"></span>Pro
+			</a>
+		</li>
+	
+  
+
+<script>
+    
+    if(isUK) {
+        var weekender = document.createElement('li');
+        var weekenderLink = document.createElement('a');
+        weekenderLink.setAttribute('href', "http://weekender.pcgamer.com/");
+        weekenderLink.appendChild(document.createTextNode('#PCGW16'));
+        weekender.appendChild(weekenderLink);
+        document.write(weekender.outerHTML)
+    }
+</script>
+
+
+</ul>
+
+	        </nav>
+
+	        <div class="social-search">
+	            <ul class="social-btns">
+	                <li class="steam">
+	                    <i class="fa fa-steam"></i>
+	                </li>
+	                <li class="facebook">
+	                    <i class="fa fa-facebook"></i>
+	                </li>
+	                <li class="twitter">
+	                    <i class="fa fa-twitter"></i>
+	                </li>
+	                <li class="youtube">
+	                    <i class="fa fa-youtube"></i>
+	                </li>
+	            </ul>
+	            <ul class="social-btns-dropdown">
+	            	<li class="steam">
+	                    <a href="http://steamcommunity.com/groups/pcgamer" target="_blank"><i class="fa fa-steam"></i></a>
+	                </li>
+	                <li class="facebook">
+	                    <a href="https://www.facebook.com/pcgamermagazine" target="_blank"><i class="fa fa-facebook"></i></a>
+	                </li>
+	                <li class="twitter">
+	                    <a href="https://twitter.com/pcgamer" target="_blank"><i class="fa fa-twitter"></i></a>
+	                </li>
+	                <li class="youtube">
+	                    <a href="https://www.youtube.com/user/pcgamer" target="_blank"><i class="fa fa-youtube"></i></a>
+	                </li>
+	                <li class="twitch">
+	                    <a href="http://www.twitch.tv/pcgamer" target="_blank"><i class="fa fa-twitch"></i></a>
+	                </li>
+	                <li class="rss">
+	                    <a href="http://www.pcgamer.com/rss" target="_blank"><i class="fa fa-rss"></i></a>
+	                </li>
+	            </ul>
+	            <div class="search">
+	                <div class="search-btn">
+	                    <i class="fa fa-search"></i>
+	                </div>
+	                <div id="header-search" class="clearfix">
+	                    <form method="get" action="/search">
+	                       <input type="text" value="Search" name="q" onfocus="this.value=''"/>
+	                       <div class="actionable">
+	                           <button type="submit" value="Search">Search</button>
+	                       </div>
+	                    </form>
+	                </div><!-- #header-search -->
+	            </div><!-- search -->
+			</div>
+		</div>
+	</div><!-- nav container wrap -->
+</div><!-- nav container -->
+
+			</header>
+			
+
+      <div id="main-ad-overlay-wrap">
+        
+          
+
+
+  
+  <div id="overlay-6274"
+       data-adunit="Games_PC_Gamer"
+       
+       
+       data-targeting='{"oop": "overlay", "pos": "2"}'
+       data-outofpage="true"
+       data-slot_type="overlay"
+       class="ad-unit adunit-overlay ad-slot-type-overlay">
+  </div><!-- END: AD Unit -->
+  
+
+        
+      </div>
+
+			
+			<div id="container" class="clearfix">
+			 	
+    <div id="leaderboard_ad" class="leaderboard_ad">
+        
+
+
+  
+  <div id="article_leaderboard"
+       data-adunit="Games_PC_Gamer"
+       data-dimensions="970x250,970x90,970x66,728x90"
+       data-size-mapping="leaderboard"
+       data-targeting='{"format": "roadblock", "pos": "1"}'
+       
+       data-slot_type="leaderboard"
+       class="ad-unit adunit-article_leaderboard ad-slot-type-leaderboard">
+  </div><!-- END: AD Unit -->
+  
+
+    </div>
+
+
+				<div id="page-content" class="alpha omega clearfix">
+					<!-- this is for the review page -->
+					
+    <div id="center_content" class="grid_8 alpha clearfix">
+      
+
+
+	
+	<div class="center_content_top">
+
+	  
+	    
+
+	    
+		    <h1 class="headline">Hitman beta details accompany new trailer </h1>
+
+			
+			<h3 class="author">Angus Morrison
+              
+                
+                  <span class="localized byline">Feb 08, 2016</span>
+                
+              
+            </h3>
+			
+	    
+
+	    <!-- social shares -->
+	    
+	      
+<div class="shareSocialArticle clearfix">
+    <div class="shareSocialArticle-wrap">
+
+        
+        <div id="pc-gamer-sharethis-count-display-wrap" style="">
+            <div id="pc-gamer-sharethis-count-display"></div>
+            <div class="shares">SHARES</div>
+        </div>
+        
+
+        
+
+        <div class="st_facebook_custom">
+            <i class="fa fa-facebook-square"></i>
+            <h6></h6>
+        </div>
+        <div class="st_twitter_custom" st_via='pcgamer'>
+            <i class="fa fa-twitter"></i>
+            <h6></h6>
+        </div>
+
+        <div class="secondary-share-toggle  share-toggle  newsletter  article">
+            <i class="fa fa-envelope"></i>
+            <h6>
+                
+                <span class="txt"></span>
+                <i class="fa fa-caret-down"></i>
+            </h6>
+        </div>
+
+        <div class="share-toggle">
+            <i class="fa fa-plus-square"></i>
+            <h6></h6>
+        </div>
+        <div class="secondary-shares">
+            <div class="st_googleplus_custom">
+                <i class="fa fa-google-plus"></i>
+            </div>
+            <div class="st_reddit_custom">
+                <i class="fa fa-reddit"></i>
+            </div>
+            <div class="secondary-share-toggle">
+                <i class="fa fa-minus-square"></i>
+            </div>
+        </div>
+
+    </div>
+
+    
+        <div class='topPagination clearfix' style='display: none;'>
+            <a href='#' class="current prev"><i class="fa fa-chevron-circle-left"></i></a>
+            <div>Page <span class='current-page'>1</span> of <span class='total-pages'>10</span></div>
+            <a href='#' class="current next"><i class="fa fa-chevron-circle-right"></i></a>
+        </div>
+    
+
+    
+<div class="newsletter-signup ">
+
+    <h3>PC Gamer newsletter sign up</h3>
+
+    
+
+    <form class="article_newsletter_subscribe"
+         action="/newsletter-signup/" method="POST">
+
+        
+
+        <input type="hidden" name="adestra_id"
+              value="17395" />
+
+        <div class="emailinput">
+            <input class="emailtxt  dont-close-dropdown" name="email" type="email"
+                placeholder="Email" required="true"/>
+            <input class="actionable subscribe-btn dont-close-dropdown"
+                      id="new-subscribe-button" type="submit" value="Submit"/>
+        </div>
+
+        <div class="checkboxes">
+            <div class="checkbox">
+                <input type="checkbox" name="future_marketing_optin" checked/>
+                <label>
+                    I want to receive any communication from Future and
+                    its group companies containing news, special offers and
+                    product information.
+                </label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" name="third_party_optin"/>
+                <label>
+                    Tick here to receive exclusive special offers from carefully
+                    selected third parties.  We will not share your data with the
+                    third party and you will be able to unsubscribe at any time.
+                </label>
+            </div>
+        </div>
+
+    </form>
+</div>
+
+</div>
+
+
+	    
+
+        
+	      
+	        
+	          
+                
+	          
+			
+
+
+<div class="pagecomponent page " id="article-page-1">
+  <div class="body">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3O1DnIyhA3I" frameborder="0" allowfullscreen=""></iframe><p>The&nbsp;<a href="https://www.google.co.uk/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=pcgamer%20hitman" target="_blank">Hitman</a> beta for pre-orderers&nbsp;is still a way off for PC players (February 19), but a new trailer has appeared that starts to answers&nbsp;some questions surrounding Agent 47's new incarnation. The beta, rather than being labelled a 'stress&nbsp;test' or the like, is being billed as 'the beginning'.</p><p>It's set 20 years in the past at a top secret facility, and will detail how Agent 47 joined international murder conglomerate, the ICA. It's effectively a discrete episode within&nbsp;<a href="http://www.pcgamer.com/hitman-reboot-switches-to-fully-episodic-release-schedule/" target="_blank">the series of Hitman chapters</a> to be released.</p><p>Naturally, it'll give Io the chance to test their online content like leaderboards and the implementation&nbsp;of new targets, and it'll also allow us to get a feel for&nbsp;<a href="http://www.pcgamer.com/hitman-preview-can-io-recapture-the-glory-of-blood-money/" target="_blank">47's new groove</a> without spoiling the one&nbsp;headline&nbsp;map Hitman will launch with. I should note that the introductory level will also be present when Hitman releases, so don't worry about missing out, although saves won't carry over.</p><p>Hitman's first chapter may be more substantial than we thought.</p>
+  </div>
+</div>
+
+
+<!-- End of: pagecomponent -->
+
+
+          
+	    
+	  
+
+	  
+
+      
+
+      
+
+
+      
+        <!-- article tags -->
+        <div class="tags clearfix">
+            
+                
+                    <a href="/hitman/">Hitman</a>
+                
+                    <a href="/news/">News</a>
+                
+                    <a href="/stealth/">Stealth</a>
+                
+            
+        </div>
+      
+
+	</div><!-- center content top -->
+	
+
+	
+	<div class="center_content_bottom">
+
+		<!-- external widget  -->
+		
+		<h2 class="section_header special"><span id="around-the-web">Around the web</span></h2>
+
+        
+        <div id="zergnet-placeholder"></div>
+
+
+        <style> #taboola-below-article-thumbnails  .trc_rbox_header { display:none !important; } </style>   
+        <div id="taboola-below-article-thumbnails"></div>
+        <script type="text/javascript">
+          window._taboola = window._taboola || [];
+          _taboola.push({
+            mode: 'thumbnails-a',
+            container: 'taboola-below-article-thumbnails',
+            placement: 'Below Article Thumbnails',
+            target_type: 'mix'
+          });
+        </script>
+		<!-- zergnet/taboola goes here -->
+		
+
+		<!-- external widget  -->
+		
+      
+  <div id="gjstore-widget"></div>
+
+
+		
+
+	  	<!-- comments -->
+		<h2 class="section_header special"><span>Comments</span></h2>
+
+<div id="disqus_thread">
+    <script type="text/javascript">
+        var disqus_shortname = 'pcgamerfte';
+        (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+	</div><!-- center content bottom -->
+	
+
+
+    </div><!-- #center_content --> 
+            
+    
+    <div id="right_content" class="grid_4 omega clearfix">
+    
+        <div class="right_content_top block_spacing">
+        
+            <!-- upper MPU -->
+            <div class="">
+              
+
+
+  
+  <div id="upper_mpu_container"
+       data-adunit="Games_PC_Gamer"
+       data-dimensions="300x600,300x250,300x251,300x601"
+       data-size-mapping="upper_mpu"
+       data-targeting='{"format": "roadblock", "pos": "1"}'
+       
+       data-slot_type="mpu"
+       class="ad-unit adunit-upper_mpu_container ad-slot-type-mpu">
+  </div><!-- END: AD Unit -->
+  
+
+            </div><!-- upper MPU -->
+        
+        </div>
+    
+        <div class="right_content_bottom">
+          
+            <!-- featured content -->
+            <div class="highlights-sidebar">
+	
+	
+	  <h2 class="section_header">highlights</h2>
+	  <ul class="must-read-list"><!-- this ul should only appear for the must read block -->
+	  
+	    
+  
+  
+    
+   
+	<div class="article_box">
+		<div class="article_box_wrap custom-event" data-evlabel="sidebar" data-targeturl="/fallout-4-dlc-and-season-pass-changes-detailed/">
+            
+            
+
+ 
+   
+     
+        
+     
+     
+		<a href="/fallout-4-dlc-and-season-pass-changes-detailed/" data-pk="6292">
+		
+            
+            <div class="lazy background-image" style="background-image:url(http://static.spark.futureusmedia.com/img/lazyload-grey.22c114f76879.gif)" data-original="http://36646d87786feafc0611-0338bbbce19fc98919c6293def4c5554.r0.cf1.rackcdn.com/images/J3PYaFF2ZsHJ.380x260.2MeZr4iD.jpg">
+			</div>
+            
+		
+		</a>
+		<div class="headline-wrap">
+			
+
+			<div class="headline">
+                
+				    <a href="/fallout-4-dlc-and-season-pass-changes-detailed/">
+                
+
+					
+					<h3>
+                        
+                            Fallout 4 DLC and season pass changes detailed
+                        
+                    </h3>
+					
+
+				    
+				      
+					  <div class="teaser">
+						<p>The Wasteland offers up a great bounty.</p>
+						<span><i class="fa fa-arrow-circle-right"></i>Read More</span>
+					  </div>
+					  
+					
+				</a>
+			</div>
+		</div>
+
+		
+		<div class="byline">
+			Angus Morrison
+			<span class="article-date">
+                
+                - 8 hours ago
+                
+           	</span>
+		</div>
+		
+     
+   
+ 
+
+
+  		</div>
+  	</div>
+
+  
+
+	  
+	    
+  
+  
+    
+   
+	<div class="article_box">
+		<div class="article_box_wrap custom-event" data-evlabel="sidebar" data-targeturl="/street-fighter-v-is-a-long-disappointing-way-from-being-finished/">
+            
+            
+
+ 
+   
+     
+        
+     
+     
+		<a href="/street-fighter-v-is-a-long-disappointing-way-from-being-finished/" data-pk="6253">
+		
+            
+            <div class="lazy background-image" style="background-image:url(http://static.spark.futureusmedia.com/img/lazyload-grey.22c114f76879.gif)" data-original="http://e5c351ecddc2f880ef72-57d6ff1fc59ab172ec418789d348b0c1.r69.cf1.rackcdn.com/images/LTmTjd-pjZQE.380x260.2MeZr4iD.jpg">
+			</div>
+            
+		
+		</a>
+		<div class="headline-wrap">
+			
+				<div>
+					<span class="dek">Review in progress</span>
+				</div>
+			
+
+			<div class="headline">
+                
+				    <a href="/street-fighter-v-is-a-long-disappointing-way-from-being-finished/">
+                
+
+					
+					<h3>
+                        
+                            SFV is disappointingly unfinished
+                        
+                    </h3>
+					
+
+				    
+				      
+					  <div class="teaser">
+						<p>SFV lacks even the most basic features.</p>
+						<span><i class="fa fa-arrow-circle-right"></i>Read More</span>
+					  </div>
+					  
+					
+				</a>
+			</div>
+		</div>
+
+		
+		<div class="byline">
+			Nathan Brown
+			<span class="article-date">
+                
+                - <span class='localized'>Feb 15, 2016</span>
+                
+           	</span>
+		</div>
+		
+     
+   
+ 
+
+
+  		</div>
+  	</div>
+
+  
+
+	  
+	    
+  
+  
+    
+   
+    <div class="article_box">
+        <div class="article_box_wrap">
+            <!-- BEGIN #sponsored_post -->
+            
+
+
+  
+  <div id="sponsored-5905"
+       data-adunit="Games_PC_Gamer"
+       data-dimensions="380x290"
+       
+       data-targeting='{"pos": "1"}'
+       
+       data-slot_type="sponsored"
+       class="ad-unit adunit-sponsored ad-slot-type-sponsored">
+  </div><!-- END: AD Unit -->
+  
+
+            <!-- ---------------------------- -->
+        </div>
+    </div>
+    
+	<div class="article_box">
+		<div class="article_box_wrap custom-event" data-evlabel="sidebar" data-targeturl="/david-braben-on-arena-and-the-future-of-elite-dangerous/">
+            
+            
+
+ 
+   
+     
+        
+     
+     
+		<a href="/david-braben-on-arena-and-the-future-of-elite-dangerous/" data-pk="6268">
+		
+            
+            <div class="lazy background-image" style="background-image:url(http://static.spark.futureusmedia.com/img/lazyload-grey.22c114f76879.gif)" data-original="http://e5c351ecddc2f880ef72-57d6ff1fc59ab172ec418789d348b0c1.r69.cf1.rackcdn.com/images/NcK8mWA13HMb.380x260.2MeZr4iD.jpg">
+			</div>
+            
+		
+		</a>
+		<div class="headline-wrap">
+			
+				<div>
+					<span class="dek">SPACE MAN</span>
+				</div>
+			
+
+			<div class="headline">
+                
+				    <a href="/david-braben-on-arena-and-the-future-of-elite-dangerous/">
+                
+
+					
+					<h3>
+                        
+                            Braben on Arena and the future of Elite Dangerous
+                        
+                    </h3>
+					
+
+				    
+				      
+					  <div class="teaser">
+						<p>Looting, crafting, and better missions are coming.</p>
+						<span><i class="fa fa-arrow-circle-right"></i>Read More</span>
+					  </div>
+					  
+					
+				</a>
+			</div>
+		</div>
+
+		
+		<div class="byline">
+			Andy Kelly
+			<span class="article-date">
+                
+                - 9 hours ago
+                
+           	</span>
+		</div>
+		
+     
+   
+ 
+
+
+  		</div>
+  	</div>
+
+  
+
+	  
+	  </ul>
+	  
+	
+	
+</div>
+
+              
+			<!-- lower MPU -->
+			<div class="">
+			  
+
+
+  
+  <div id="lower_mpu_container"
+       data-adunit="Games_PC_Gamer"
+       data-dimensions="300x600,300x250,300x252,300x602"
+       data-size-mapping="lower_mpu"
+       data-targeting='{"pos": "2"}'
+       
+       data-slot_type="mpu"
+       class="ad-unit adunit-lower_mpu_container ad-slot-type-mpu">
+  </div><!-- END: AD Unit -->
+  
+
+			</div><!-- lower MPU -->
+          
+        </div>
+        
+    </div><!-- #right_content -->
+    
+    
+
+				</div>
+			</div><!-- #container -->
+			
+
+			<div id="main-ad-skin-wrap">
+			
+			
+			
+			 
+
+
+  
+  <div id="skin_container"
+       data-adunit="Games_PC_Gamer"
+       
+       
+       data-targeting='{"format": "roadblock", "oop": "skin", "pos": "1"}'
+       data-outofpage="true"
+       data-slot_type="skin"
+       class="ad-unit adunit-skin_container ad-slot-type-skin">
+  </div><!-- END: AD Unit -->
+  
+
+			
+			</div>
+
+			
+	        <div id="footer_container">
+                
+	            <h2 id="footer-more-info-button" class="more-info"><a href="#">More info</a></h2>
+	            <div id="footer_closed">&nbsp;</div>
+	            <div id="footer">
+	            	
+<div id="footer_wrap">
+    <div class="center-section narrow clearfix">
+    
+    	<div class="grid_8 alpha clearfix">
+    		<div id="footer_region" class="">
+	          <h3>Select Region:</h3>
+            <ul class="region_list clearfix">
+    <li id="footer_region_us" class="us">
+    	<a id="footer_region_href_us" title="US" onClick="javascript: jQuery.cookie('sparkRegion', 'US', {path: '/'})" href="/">
+    		<span>US</span><h6>United States</h6>
+    	</a>
+    </li>
+    <li id="footer_region_uk" class="uk">
+    	<a id="footer_region_href_uk" title="UK" onClick="javascript: jQuery.cookie('sparkRegion', 'UK', {path: '/'})" href="/uk/" rel="nofollow">
+    		<span>UK</span><h6>United Kingdom</h6>
+    	</a>
+    </li>
+    <li id="footer_region_au" class="au">
+    	<a id="footer_region_href_au" title="Australia" onClick="javascript: jQuery.cookie('sparkRegion', 'AU', {path: '/'})" href="/au/" rel="nofollow">
+    		<span>AU</span><h6>Australia</h6>
+    	</a>
+	  </li>
+  
+    <li id="footer_region_sg" class="sg">
+      <a id="footer_region_href_sg" title="Singapore" onClick="javascript: jQuery.cookie('sparkRegion', 'SG', {path: '/'})" href="/sg/" rel="nofollow">
+        <span>SG</span><h6>Singapore</h6>
+      </a>
+    </li>
+  
+</ul>
+
+	        </div><!-- footer region -->
+	        
+	        <div class="footer_column grid_3 alpha">
+	            <h3>Top PC Games:</h3>
+	            <ul>
+	            	<li>
+	            		<a href="/dota-2">Dota 2</a>
+	            	</li>
+	            	<li>
+	            		<a href="/league-of-legends">League of Legends</a>
+	            	</li>
+	            	<li>
+	            		<a href="/minecraft ">Minecraft</a>
+	            	</li>
+	            	<li>
+	            		<a href="/team-fortress-2">Team Fortress 2</a>
+	            	</li>
+	            	<li>
+	            		<a href=" /counter-strike-global-offensive">Counter-Strike: Global Offensive</a>
+	            	</li>
+	            	<li>
+	            		<a href="/sid-meiers-civilization-v">Civilisation 5</a>
+	            	</li>
+	            	<li>
+	            		<a href="/grand-theft-auto-v">GTA V</a>
+	            	</li>
+	            	
+	            </ul>
+	        </div><!-- footer column -->
+	        
+	        <div class="footer_column grid_3">
+	            <h3>Top Articles:</h3>
+	            <ul>
+	            	<li>
+	            		<a href="/the-best-pc-games-of-2014/">The Best PC Games of 2014</a>
+	            	</li>
+	            	<li>
+	            		<a href="/the-100-best-pc-games-of-all-time/">The Best PC Games of All Time</a>
+	            	</li>
+	            	<li>
+	            		<a href="/the-25-best-skyrim-mods-2/">The Best Skyrim Mods</a>
+	            	</li>
+	            	<li>
+	            		<a href="/the-best-steam-skins/">The Best Steam Skins</a>
+	            	</li>
+	            	<li>
+	            		<a href="/the-best-free-online-games-on-pc/">Best Free Online PC Games</a>
+	            	</li>
+	            	<li>
+	            		<a href="/the-15-most-brutal-mods-of-all-time/">Most Brutal Mods</a>
+	            	</li>
+	            	<li>
+	            		<a href="/the-15-best-co-op-games-of-all-time">Best Co-Op Games</a>
+	            	</li>
+	            	<li>
+	            		<a href="/the-best-rpgs-of-all-time/">Best RPGs of All Time</a>
+	            	</li>
+	            </ul>
+	        </div><!-- footer column -->
+	        
+			<div class="footer_column grid_3 omega">
+	            <h3>Community:</h3>
+	            <ul class="community">
+	            	<li>
+	            		<a href="/community-sites">Community sites</a>
+	            	</li>
+	            	<li>
+	            		<a href="/servers">Servers</a>
+	            	</li>
+	            	<li>
+	            		<a href="https://steamcommunity.com/groups/pcgamer">Steam Group</a>
+	            	</li>
+	            </ul>
+	            
+	            <h3>Magazine:</h3>
+	            <ul>
+	            	<li>
+	            		Subscriptions
+	            		<a href="https://www.myfavouritemagazines.co.uk/all-mags-all-variants/PC-Gamer-Print.html">(US)</a>
+	            		<a href="http://www.myfavouritemagazines.co.uk/gaming/pc-gamer-magazine-subscription/">(UK)</a>
+	            	</li>
+	            	<li>
+	            		Buy current issue
+	            		<a href="https://www.myfavouritemagazines.co.uk/all-mags-all-variants/PC-Gamer-Print.html">(US)</a>
+	            		<a href="http://www.myfavouritemagazines.co.uk/gaming/pc-gamer-magazine-back-issues/">(UK)</a>
+	            	</li>
+	            </ul>
+	        </div><!-- footer column -->
+    	</div><!-- grid 8 -->
+    	
+    	
+    	<div class="grid_4 omega">
+    		<div class="wrap">
+	            <div class="logo">
+	    			<img src="http://36646d87786feafc0611-0338bbbce19fc98919c6293def4c5554.r0.cf1.rackcdn.com/pcgamer_logo_2015_YrTwqKX.svg">
+	    		</div>
+	    		<p>PC Gamer is the global authority on PC games. For more than 20 years we have delivered unrivaled coverage, in print and online, of every aspect of PC gaming. Our team of experts brings you trusted reviews, component testing, strange new mods, under-the-radar indie projects and breaking news around-the-clock. From all over the world we report on the stuff that you’ll find most interesting, and gives your PC gaming experience the biggest boost.</p>
+	    		
+	    		<ul>
+	    			<li>
+	    				<a href="/meet-the-team">Meet the Team</a>
+	    			</li>
+	    			<li>
+	    				<a href=" http://www.futureplc.com/what-we-do/advertising-solutions/">Advertise With Us</a>
+	    			</li>
+	    			<li>
+	    				<a href="http://www.futureplc.com/terms-and-conditions/">Terms & Conditions</a>
+	    			</li>
+	    			<li>
+	    				<a href="http://www.futureus.com/privacy-policy/">Privacy Policy</a>
+	    			</li>
+	    			<li>
+	    				<a href="/contact-us/">Contact Us</a>
+	    			</li>
+	    			<li>
+	    				<a href="http://www.futureplc.com/cookies-policy/">Cookie Policy</a>
+	    			</li>
+	    		</ul>
+	    	</div>
+    	</div><!-- grid 4 -->
+		<div class="future-info">
+			<p>PC Gamer is part of Future plc, an international media group and digital publisher.
+				<a href="http://www.futureus.com">Visit our Corporate Site</a>.
+			</p>
+			<p>&#169; Future US, Inc. 4000 Shoreline Court, Suite 400, South San Francisco, California, 94080. All Rights Reserved.</p>
+		</div>
+	    <div class="other-logo">
+			<a href="http://www.gamesradar.com"><span></span></a>
+			<p>&#169; 2015. Future US. All rights reserved.</p>
+		</div>
+
+    </div>
+</div><!-- footer wrap -->
+
+
+  
+<script type="text/javascript" src="http://widget.perfectmarket.com/pcgamer/load.js" async></script>
+
+
+	            </div><!-- footer -->
+	       	</div><!-- footer_container -->
+	        
+
+		</div><!-- adSkinFull -->
+		</div><!-- page-inner -->
+	</div><!-- page-wrapper -->
+</div><!-- body inner wrap -->
+
+
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    
+
+    <script type="application/javascript" src="http://static.spark.futureusmedia.com/js/spark_global_bottom.min.175ac97b2204.js" charset="utf-8"></script>
+
+    
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+        	var paginator = new ArticlePaginator(".pagination", ".pagecomponent.page");
+        });
+    </script>
+    
+
+
+
+<script type="text/javascript">   
+    var switchTo5x=true; var __st_loadLate=true;
+    (function() {
+      var stscr = document.createElement('script'); stscr.type = 'text/javascript'; stscr.async = true;
+      stscr.src ="http://w.sharethis.com/button/buttons.js";
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(stscr, s);
+      stscr.onload=stCB;
+      stscr.onreadystatechange=function(){if(stscr.readyState=='loaded'){stCB();}};})();
+
+    function stCB(){
+        stLight.options({publisher: "4dbe3140-5f84-43cf-a70f-e3555db9eefd", doNotHash: true, doNotCopy: true, hashAddressBar: false, onhover: false, servicePopup:true});
+
+
+        
+        
+
+        
+    }
+
+
+    
+    
+    var stUrl = "http://rest.sharethis.com/v1/count/urlinfo?url=" + encodeURIComponent("http://www.pcgamer.com" + location.pathname);
+    $.get(stUrl, function(data) {
+        try {
+            data = $.parseJSON(data);
+            count = data['total']['inbound'] + data['total']['outbound'];
+            if(count > 1000) {
+                count = Math.round(count / 1000) + 'k';
+            }
+            $('#pc-gamer-sharethis-count-display').text(count);
+            $('#pc-gamer-sharethis-count-display-wrap').show();
+        }
+        catch(e) {
+            if(typeof console !== 'undefined') {
+                console.error("Caught exception trying to show share count!  Not doin anything then...");
+                console.dir(e);
+            }
+        }
+    });
+    
+
+</script>
+
+
+
+    
+  <script>window.STATIC_URL = '';</script>
+  <script type="application/javascript" src="http://static.spark.futureusmedia.com/js/spark_ad.min.a39ff2bc9204.js" charset="utf-8"></script>
+  <script type="application/javascript" src="http://static.spark.futureusmedia.com/js/theme_duraflame.min.d63fc4810dda.js" charset="utf-8"></script>
+
+  
+    
+
+<script type="text/javascript">
+  
+
+  
+  var futurePLCgetSkinSize = function () {
+      var advert_breakpoints = {
+          'small' : { 'min' : 0, 'max' : 1279 },
+          'large' : { 'min' : 1280, 'max' : 12000 },
+      },
+      current_window_size = screen.width,
+      skin_size = 'small';
+
+      if (!advert_breakpoints) {
+          return skin_size;
+      }
+
+      for ( var i in advert_breakpoints ) {
+          if (!advert_breakpoints.hasOwnProperty(i)) continue;
+          if (current_window_size >= advert_breakpoints[i].min && current_window_size <= advert_breakpoints[i].max) {
+              return i;
+          }
+      }
+      return skin_size;
+  }
+
+  var display_all_ads = function(selector, extra_ad_slots, extra_ad_targeting) {
+
+      var jq_selector = ".ad-unit";
+      extra_ad_slots = extra_ad_slots || [];
+      extra_ad_targeting = extra_ad_targeting || {};
+    
+      if ((typeof(selector) != 'undefined') && (selector !== '')) {
+          jq_selector = selector;
+      }
+
+      if (typeof SPARK_AD_UTILS !== 'undefined') {
+          SPARK_AD_UTILS.reset_data();
+
+          if (!SPARK_AD_UTILS.can_display_ad_skin()) {
+              
+              jq_selector += ":not('.ad-slot-type-skin')";  // Exclude skin
+          }
+      }
+
+      /* jshint ignore:start */
+      
+      /* jshint ignore:end */
+
+      // Display ADs
+      // # of AD slots = 6 --> True
+      window.dfpSettings = {
+        dfpID: '8644',
+        collapseEmptyDivs: true,
+        enableSingleRequest: true,
+        refreshExisting: true,
+        disableInitialLoad: false,
+        setUrlTargeting: false,
+        extraAdSlots: extra_ad_slots,
+        unsafe_chars_regex: '[#",*()=+<>\\[\\]]',
+        afterEachAdLoaded: update_ad_container_attribs,
+        afterAllAdsLoaded: ads_completed,
+        
+        sizeMapping: {"leaderboard": [{"ad_sizes": [[970, 250], [970, 90], [970, 66], [728, 90]], "browser": [970, 250]}, {"ad_sizes": [[728, 90], [468, 60]], "browser": [728, 90]}, {"ad_sizes": [[320, 50], [300, 50]], "browser": [320, 250]}, {"ad_sizes": [[320, 50], [300, 50]], "browser": [0, 0]}], "lower_mpu": [{"ad_sizes": [[300, 600], [300, 250], [300, 252], [300, 602]], "browser": [970, 250]}, {"ad_sizes": [[300, 600], [300, 250], [300, 252], [300, 602]], "browser": [728, 90]}, {"ad_sizes": [[300, 250], [300, 252], [300, 602]], "browser": [320, 250]}, {"ad_sizes": [[300, 600], [300, 250]], "browser": [0, 0]}], "upper_mpu": [{"ad_sizes": [[300, 600], [300, 250], [300, 251], [300, 601]], "browser": [970, 250]}, {"ad_sizes": [[300, 600], [300, 250], [300, 251], [300, 601]], "browser": [728, 90]}, {"ad_sizes": [[300, 250], [300, 251], [300, 601]], "browser": [320, 250]}, {"ad_sizes": [[300, 600], [300, 250]], "browser": [0, 0]}]},
+        
+        setTargeting: {
+            'screen': futurePLCgetSkinSize()
+        }
+      };
+      
+      $.extend(window.dfpSettings.setTargeting, {
+          'kuid': window.top.AD_KRUX_USER()
+      });
+      
+      
+      $.extend(window.dfpSettings.setTargeting,
+          {"articleID": "134896", "content": "news", "games": "hitman", "genre": "stealth", "kw": ["news"], "platform": "pc"});
+      
+
+      if (extra_ad_targeting) {
+          $.extend(window.dfpSettings.setTargeting, extra_ad_targeting);
+      }
+
+      if (typeof window.SPARK_FEP_UTILS !== 'undefined') {
+          SPARK_AD_UTILS.add_settings_processor(window.SPARK_FEP_UTILS.update_dfp_targeting);
+      }
+
+        
+      var FEPdelay = 350;         // FEP!
+      if(location.search.indexOf('longerFEPdelay') != -1) {
+          FEPdelay = 2000;
+      }
+      else if(location.search.indexOf('fep-delay-is-') != -1) {
+          // http://foobar.com/?fep-delay-is-1231231-ms ==> returns 1231231   (super ghetto :D)
+          var toks = location.search.split('-');
+          FEPdelay = parseInt(toks[toks.length-2], 10);
+      }
+      try {
+          fep(window.dfpSettings.setTargeting, function(targeting) {
+              
+              $(jq_selector).dfp(window.dfpSettings);
+          }, FEPdelay);
+      } catch (fep_err) {
+          console.log("FEP Exception: " + fep_err);
+          $(jq_selector).dfp(window.dfpSettings);
+      }
+      
+};
+</script>
+
+  
+<!-- BEGIN Krux Control Tag  -->
+<!-- Source: /snippet/controltag?confid=I2gCBQgr&site=PC Gamer&edit=1 -->
+<script class="kxct" data-id="I2gCBQgr" data-timing="async" data-version="1.9" type="text/javascript"> 
+  window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+  (function(){
+    var k=document.createElement('script');k.type='text/javascript';k.async=true;
+    var m,src=(m=location.href.match(/\bkxsrc=([^&]+)/))&&decodeURIComponent(m[1]);
+    k.src = /^https?:\/\/([^\/]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" : 
+      (location.protocol==="https:"?"https:":"http:")+"//cdn.krxd.net/controltag?confid=I2gCBQgr"; 
+    var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+  }()); 
+</script>
+
+<script>
+    window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+    (function(){
+      function retrieve(n) {
+        var m, k='kx'+n;
+        if (window.localStorage) {
+          return window.localStorage[k] || "";
+        } else if (navigator.cookieEnabled) {
+          m = document.cookie.match(k+'=([^;]*)');
+          return (m && unescape(m[1])) || "";
+        } else {
+          return '';
+        } 
+      }
+      Krux.user = retrieve('user');
+      Krux.segments = retrieve('segs') && retrieve('segs').split(',') || [];
+    })();
+</script>
+<!-- END Krux Controltag -->
+  
+
+
+
+  <script type='text/javascript'>
+  //  apply an active state to the footer region switcher!
+  $(document).ready(function() {
+    var footer_region_id = 'footer_region_us';
+    var region = $.cookie('sparkRegion');
+    if (region) {
+        region = region.toUpperCase();
+        if (region == 'UK') {
+            footer_region_id = 'footer_region_uk';
+        } else if (region == 'AU') {
+            footer_region_id = 'footer_region_au';
+        } else if (region == 'SG') {
+            footer_region_id = 'footer_region_sg';
+        }
+    }
+    $('#' + footer_region_id).addClass('active');
+    $('#' + footer_region_id + '_top').addClass('active');
+  });
+
+  new NewsletterSignup();  
+
+  // Apply the Twitter embed code if a tweet is embedded in the article.
+  if($(".twitter-tweet").length > 0) {
+    var script   = document.createElement("script");
+        script.type  = "text/javascript";
+        script.src   = "//platform.twitter.com/widgets.js";
+        document.body.appendChild(script);
+  }
+  </script>
+
+
+
+    
+
+    <script>   
+        var _comscore = _comscore || [];
+        _comscore.push({ c1: "2", c2: FUTUREPLC_COMSCORE_CLIENT_ID });
+        (function() {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+        })();
+    </script>
+    <noscript>
+        <img src="http://b.scorecardresearch.com/p?c1=2&c2=10055482&cv=2.0&cj=1" />
+    </noscript>
+
+    
+    <!-- START Nielsen Online SiteCensus V6.0 -->
+    <script type='text/javascript'>
+        function doNielsen() {
+            var pvar = { cid: "futurepub", content: "0", server: "secure-au" };
+            var trac = nol_t(pvar);
+            trac.record().post();
+        }
+        var nis = document.createElement('script');
+        nis.src = 'http://secure-au.imrworldwide.com/v60.js';
+        nis.onloadDone = false;
+        nis.onload = function() {
+            nis.onloadDone = true;
+            doNielsen();
+        }
+        nis.onreadystatechange = function() {
+            if("loaded" == nis.readyState && !nis.onloadDone) {
+                doNielsen();
+            }
+        }
+        firstScript.parentNode.insertBefore(nis, firstScript);
+    </script>
+    <!-- END Nielsen Online SiteCensus V6.0 -->
+    
+
+    
+    <!-- Start of eXelate Tag -->
+    <script type="text/javascript">
+    var xl8_script = document.createElement("script");
+    xl8_script.src = "http://loadeu.exelator.com/load/?p=433&c=901810&g=003&j=d&ctg=EntertainmentVideoGames&subctg0=Hitman&subctg1=News&subctg2=Stealth"
+    xl8_script.type = "text/javascript";
+    xl8_script.async = true;
+    document.body.appendChild(xl8_script);
+    </script>
+    <!-- End of eXelate Tag -->
+
+    
+      <script type="text/javascript">
+        try { gacd = {"dimension6": "Hitman|News|Stealth", "dimension7": "Angus Morrison", "dimension4": "Games_PC_Gamer", "dimension5": "134896", "dimension1": "Article", "dimension8": "2016-02-08", "dimension9": "1", "dimension18": "Hitman", "dimension19": "Stealth"} || {} } catch(e) { gacd = {}; }
+        try {
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            
+
+            
+            ga('create', 'UA-48457802-19', 'auto');
+
+            
+            ga('send', 'pageview', gacd);
+        } catch (e) {
+            log("Error inserting GA! " + e);
+        }
+      </script>
+    
+
+    <script type="text/javascript"> window._taboola = window._taboola || []; _taboola.push({flush: true}); </script>
+
+    <script type='text/javascript'>
+    $(document).ready(function() {
+        var region = $.cookie('sparkRegion');
+        if(region !== undefined && region !== "") {
+            if(region !== "US") {
+                var link = "/" + region.toLowerCase() + "/";
+                $(".site-logo").attr('href', link);
+            }
+        }
+    });
+    </script>
+
+
+  </body>
+</html>

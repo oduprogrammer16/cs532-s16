@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="ie8 ie" lang="fr" dir="ltr"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="fr" dir="ltr"><!--<![endif]-->
+  <head>
+    <title>
+      Compte utilisateur | OM.net    </title>
+    <meta charset="utf-8" />
+<link href="https://www.om.net/es/user/login?destination=node/225562" rel="alternate" hreflang="es" />
+<link href="https://www.om.net/user/login?destination=node/225562" rel="alternate" hreflang="fr" />
+<link href="https://www.om.net/en/user/login?destination=node/225562" rel="alternate" hreflang="en" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.om.net/user/login" />
+<link rel="shortlink" href="https://www.om.net/user/login" />
+<meta property="og:site_name" content="OM.net" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.om.net/user/login" />
+<meta property="og:title" content="Compte utilisateur" />
+    <link rel="shortcut icon" href="/sites/all/themes/om/dist/images/favicons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="/sites/all/themes/om/dist/images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/om/dist/images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/om/dist/images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/om/dist/images/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/sites/all/themes/om/dist/images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/sites/all/themes/om/dist/images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/sites/all/themes/om/dist/images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/sites/all/themes/om/dist/images/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/sites/all/themes/om/dist/images/favicons/apple-touch-icon-180x180.png">
+    <meta name="apple-mobile-web-app-title" content="OM.net">
+    <link rel="icon" type="image/png" href="/sites/all/themes/om/dist/images/favicons/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/sites/all/themes/om/dist/images/favicons/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/sites/all/themes/om/dist/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/sites/all/themes/om/dist/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/sites/all/themes/om/dist/images/favicons/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-TileImage" content="/sites/all/themes/om/dist/images/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/sites/all/themes/om/dist/images/favicons/browserconfig.xml">
+    <meta name="application-name" content="OM.net">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="twitter:widgets:csp" content="on" />
+    <meta property="fb:admins" content="706457065" />
+
+    <link type="text/css" rel="stylesheet" href="https://www.om.net/sites/default/files/css/css_6GR5yLlmuPFj5TKP2e0dgeBG03SILWXPiCATcMUx1WA.css" media="all" />
+    <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+googletag.slots = googletag.slots || {};
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function() {
+  googletag.pubads().enableAsyncRendering();
+  googletag.pubads().enableSingleRequest();
+  googletag.pubads().collapseEmptyDivs();
+});
+
+googletag.enableServices();
+//--><!]]>
+</script>
+    <script defer="defer" src="/sites/all/themes/om/dist/scripts/vendor/modernizr.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-6906457-1', 'auto');
+    </script>
+  </head>
+  <body class="html not-front not-logged-in one-sidebar sidebar-first page-user page-user-login i18n-fr" >
+    <div id="fb-root"></div>
+        <div id="main-wrapper" class="main-wrapper">
+  <header id="main-header" class="main-header" role="banner">
+    <div class="section top-connect">
+      <div class="socials">
+        <a href="https://www.facebook.com/OM" target="_blank" class="fblike">J'aime</a>
+        <a href="https://twitter.com/OM_Officiel" target="_blank" class="twfollow">Suivre @OM_Officiel</a>
+      </div>
+      <div class="account">
+        <a href="/user/login?destination=user/login" class="active">Se connecter</a><a href="/user/register">S&#039;inscrire</a>      </div>
+      <div class="lang-selector"><ul class="language-switcher-locale-url"><li class="en-GB first"><a href="/en/user/login" class="language-link" xml:lang="en" hreflang="en"><img class="language-icon unveil" typeof="foaf:Image" width="16" height="12" alt="English" title="English" data-src="https://www.om.net/sites/all/modules/contrib/languageicons/flags/en-GB.png" /> English</a></li>
+<li class="fr active"><a href="/user/login" class="language-link active" xml:lang="fr" hreflang="fr"><img class="language-icon unveil" typeof="foaf:Image" width="16" height="12" alt="Français" title="Français" data-src="https://www.om.net/sites/all/modules/contrib/languageicons/flags/fr.png" /> Français</a></li>
+<li class="es last"><a href="/es/user/login" class="language-link" xml:lang="es" hreflang="es"><img class="language-icon unveil" typeof="foaf:Image" width="16" height="12" alt="Español" title="Español" data-src="https://www.om.net/sites/all/modules/contrib/languageicons/flags/es.png" /> Español</a></li>
+</ul></div>
+      <div class="search-block"><form action="/user/login?destination=node/225562" method="post" id="search-api-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class="form-item form-type-textfield form-item-search-api-block-form">
+  <label class="element-invisible" for="edit-search-api-block-form--2">Rechercher </label>
+ <input title="Indiquer les termes à rechercher" type="text" id="edit-search-api-block-form--2" name="search_api_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--3" name="op" value="Rechercher" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-XM5wkfoJfY3pYDaszOCbRgEncmFfUdAYg1tRsWawhQc" />
+<input type="hidden" name="form_id" value="search_api_block_form" />
+</div>
+</div></form></div>
+      <!-- MOBILE PART -->
+      <div class="placeholder mobile"></div>
+      <div class="lang-selector mobile"><ul class="language-switcher-locale-url"><li class="en-GB first"><a href="/en/user/login" class="language-link" xml:lang="en" hreflang="en"><img class="language-icon unveil" typeof="foaf:Image" width="16" height="12" alt="English" title="English" data-src="https://www.om.net/sites/all/modules/contrib/languageicons/flags/en-GB.png" /> English</a></li>
+<li class="fr active"><a href="/user/login" class="language-link active" xml:lang="fr" hreflang="fr"><img class="language-icon unveil" typeof="foaf:Image" width="16" height="12" alt="Français" title="Français" data-src="https://www.om.net/sites/all/modules/contrib/languageicons/flags/fr.png" /> Français</a></li>
+<li class="es last"><a href="/es/user/login" class="language-link" xml:lang="es" hreflang="es"><img class="language-icon unveil" typeof="foaf:Image" width="16" height="12" alt="Español" title="Español" data-src="https://www.om.net/sites/all/modules/contrib/languageicons/flags/es.png" /> Español</a></li>
+</ul></div>
+      <div class="account mobile">
+        <div class="wrapper">
+          <a href="/user/login?destination=user/login" class="active">Se connecter</a><a href="/user/register">S&#039;inscrire</a>        </div>
+      </div>
+      <!-- /MOBILE PART -->
+    </div>
+           <!--if block in navigation region, override $main_menu and $secondary_menu-->
+        <div class="region region-navigation" >
+      <section class="section block block-om-megamenu">
+                
+<div class="om-megamenu-burger tablet-visible"></div>
+<nav class="om-megamenu" role="navigation">
+  <ul class="om-megamenu-items">
+    <li class="actus"><a href="/actualites">Actus</a>
+<div class="om-megamenu-overlay loading tablet-hidden actus" style="background-image: url('https://www.om.net/sites/default/files/backgrounds/mega-menu-neutre_02-min.jpg');">
+  <div class="shp-links">
+    <section class="section block">
+  <h2 class="title section-title">Tous les thèmes</h2>
+  <div class="om-block">
+    <div class="item-list"><ul><li class="first"><a href="/actualites/equipe-pro" class="themes">Équipe pro</a></li>
+<li><a href="/actualites/feminine" class="themes">Féminine</a></li>
+<li><a href="/actualites/centre-de-formation" class="themes">Centre de formation</a></li>
+<li><a href="/actualites/preformation" class="themes">Préformation</a></li>
+<li><a href="/actualites/le-club" class="themes">Le club</a></li>
+<li><a href="/actualites/le-stade" class="themes">Le stade</a></li>
+<li><a href="/actualites/les-supporters" class="themes">Les supporters</a></li>
+<li><a href="/actualites/les-minots-de-lom" class="themes">Les Minots de l&#039;OM</a></li>
+<li class="last"><a href="/actualites/om-entreprises" class="themes">OM Entreprises</a></li>
+</ul></div>  </div>
+</section>    <div class="see-all">
+      <a href="/actualites/equipe-pro" class="cta white">Toutes les actus</a>    </div>
+  </div>
+      <div class="analyses">
+      <section class="section block block-views">
+      <h2 class="title section-title">Les analyses de match</h2>
+      <div class="view view-om-menu-c view-id-om_menu_c view-display-id-an_match view-dom-id-0a6dd01acb7d7c6f5d345fe2d5c2c966">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="">  
+          
+  <div class="field-visuel-principal">
+    <a href="/actualites/227176/nice-1-1-om-encore-une-occasion-manquee"><img typeof="foaf:Image" width="106" height="70" data-src="https://www.om.net/sites/default/files/styles/bloc_mega_menu/public/yan_2219.jpg" class="unveil" /></a>  </div>
+    
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/actualites/227176/nice-1-1-om-encore-une-occasion-manquee">Nice 1-1 OM : encore une occasion manquée…</a></span>  </div></li>
+          <li class="">  
+          
+  <div class="field-visuel-principal">
+    <a href="/actualites/226273/trelissac-0-2-om-lordre-des-choses"><img typeof="foaf:Image" width="106" height="70" data-src="https://www.om.net/sites/default/files/styles/bloc_mega_menu/public/yan_1432_4.jpg" class="unveil" /></a>  </div>
+    
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/actualites/226273/trelissac-0-2-om-lordre-des-choses">Trélissac 0-2 OM : l’ordre des choses</a></span>  </div></li>
+          <li class="">  
+          
+  <div class="field-visuel-principal">
+    <a href="/actualites/226117/om-1-3-chine-il-ny-pas-rougir"><img typeof="foaf:Image" width="106" height="70" data-src="https://www.om.net/sites/default/files/styles/bloc_mega_menu/public/om_chine_une.jpg" class="unveil" /></a>  </div>
+    
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/actualites/226117/om-1-3-chine-il-ny-pas-rougir">OM 1-3 Chine : il n’y a pas à rougir</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div></section>    </div>
+          <div class="shop">
+          <section class="section block block-block">
+                 <h2 class="title section-title">Les Applis de l&#39;OM</h2><p><a href="https://www.om.net/les-applications-mobiles-officielles-de-lom?utm_source=om.net&amp;utm_medium=megamenu&amp;utm_campaign=applis"><img alt="" class="media-image unveil" height="84" style="width: 190px; height: 84px; margin:0 auto;    display: list-item;" width="190" typeof="foaf:Image" data-src="https://www.om.net/sites/default/files/visuels-complet-applis-moviles-watch-190-min.png" /></a></p><p>&nbsp;</p><div class="om-block item-list"><ul><li><a href="https://www.om.net/les-applications-mobiles-officielles-de-lom?utm_source=om.net&amp;utm_medium=megamenu&amp;utm_campaign=applis" style="text-align:center;">Découvrir les applis de l&#39;OM</a></li></ul></div>       </section>
+    </div>
+        <div class="partners">
+  <div class="view-content">
+    
+<h3>En partenariat avec</h3>
+
+  <div class="om-media">
+      
+          <a href="http://www.adidas.com" target="_blank">
+  <div class="field-partenaire-visuel">
+    <img typeof="foaf:Image" width="79" height="60" data-src="https://www.om.net/sites/default/files/adidas.png" class="unveil" />  </div>
+</a>    </div>
+  <div class="om-media">
+      
+          <a href="http://www.intersport.fr/" target="_blank">
+  <div class="field-partenaire-visuel">
+    <img typeof="foaf:Image" width="155" height="50" data-src="https://www.om.net/sites/default/files/intersport.png" class="unveil" />  </div>
+</a>    </div>
+
+  </div>
+</div>
+  </div></li>
+<li class="videos"><a href="/videos-gratuites-omtv-online">Vidéos</a>
+<div class="om-megamenu-overlay loading tablet-hidden videos" style="background-image: url('https://www.om.net/sites/default/files/backgrounds/mega-menu_videos_v3-min.jpg');">
+  <div class="shp-links">
+    <section class="section block">
+  <h2 class="title section-title">Les vidéos par univers</h2>
+  <div class="om-block">
+    <div class="item-list"><ul><li class="first"><a href="/videos/equipe-pro" class="themes">Équipe pro</a></li>
+<li><a href="/videos/feminine" class="themes">Féminine</a></li>
+<li><a href="/videos/centre-de-formation" class="themes">Centre de formation</a></li>
+<li><a href="/videos/preformation" class="themes">Préformation</a></li>
+<li><a href="/videos/le-club" class="themes">Le club</a></li>
+<li><a href="/videos/le-stade" class="themes">Le stade</a></li>
+<li><a href="/videos/les-supporters" class="themes">Les supporters</a></li>
+<li><a href="/videos/les-minots-de-lom" class="themes">Les Minots de l&#039;OM</a></li>
+<li class="last"><a href="/videos/om-entreprises" class="themes">OM Entreprises</a></li>
+</ul></div>  </div>
+</section>    <div class="see-all">
+      <a href="/videos/equipe-pro" class="cta white">Toutes les vidéos</a>    </div>
+  </div>
+      <div class="analyses">
+      <section class="section block block-views">
+      <h2 class="title section-title">Les dernières Vidéos</h2>
+      <div class="view view-om-menu-c view-id-om_menu_c view-display-id-but view-dom-id-5ea9c534f77c571548e2a7906da86f73">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="">  
+          
+  <div class="field-vignette-video">
+    <a href="/videos/227620/europa-league-la-liste-b-de-lom"><img typeof="foaf:Image" width="106" height="70" data-src="https://www.om.net/sites/default/files/styles/bloc_mega_menu/public/une-uel_1256x837_02_5.jpg" class="unveil" /></a>  </div>
+    
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/videos/227620/europa-league-la-liste-b-de-lom">Europa League : la liste B de l&#039;OM</a></span>  </div></li>
+          <li class="">  
+          
+  <div class="field-vignette-video">
+    <a href="/videos/227617/europa-league-la-liste-des-joueurs-de-lom"><img typeof="foaf:Image" width="106" height="70" data-src="https://www.om.net/sites/default/files/styles/bloc_mega_menu/public/une-uel_1256x837-avec-logos_13.jpg" class="unveil" /></a>  </div>
+    
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/videos/227617/europa-league-la-liste-des-joueurs-de-lom">Europa League : la liste A des joueurs de l&#039;OM</a></span>  </div></li>
+          <li class="">  
+          
+  <div class="field-vignette-video">
+    <a href="/videos/227608/objectif-match-s4e26-nouvelle-concurrence"><img typeof="foaf:Image" width="106" height="70" data-src="https://www.om.net/sites/default/files/styles/bloc_mega_menu/public/une_obm.jpg" class="unveil" /></a>  </div>
+    
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/videos/227608/objectif-match-s4e26-nouvelle-concurrence">Objectif Match - S4E26 : «Nouvelle concurrence»</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div></section>    </div>
+          <div class="shop">
+          <section class="section block block-block">
+                 <script type='text/javascript'>
+
+	//on masque tout de suite le header et tous les éléments ininteressant si #mobileNoNav		
+	if(document.URL.substr(document.URL.indexOf('#')+1) == 'mobileNoNav' || window.location.hash ==  '#mobileNoNav'){
+
+		function addcss(css){
+		    var head = document.getElementsByTagName('head')[0];
+		    var s = document.createElement('style');
+		    s.setAttribute('type', 'text/css');
+		    if (s.styleSheet) {   // IE
+		        s.styleSheet.cssText = css;
+		    } else {                // the world
+		        s.appendChild(document.createTextNode(css));
+		    }
+		    head.appendChild(s);
+		}
+		
+		addcss(".main-header, .related-subject, .other-content, .main-footer, .cc_banner-wrapper, .om-classement h1, .om-classement .view-filters {display:none !important;}");
+
+
+	};	
+		
+				
+</script>
+<style>
+
+/* bloc push des MM ferré à gauche et non à droite */
+.om-megamenu-overlay .shop{text-align:left;}
+
+/* dans MM Equipes, on masque les sections Medias qui ne servent à rien */
+.om-megamenu-overlay.equipe .column .section:nth-child(2) {display:none;}
+
+/* dans colonne de droite, on masque le bloc ON EN PARLE qui ne nous sert finalement pas */
+.section.on-en-parle {display:none;}
+
+/* On change la couleur des titres de colonne des MM */
+.om-megamenu-overlay .section-title{color:#AAA;}
+.om-megamenu-items>li>a:after{border-bottom-color:#1667b6}
+
+/* On passe les contenus en justify */
+.rte{text-align: justify;}
+.field-summary{text-align: justify;}
+
+/*on crée une classe pour les logos des diffuseurs TV dans les articles*/
+.rte img.logo-diffuseur {height: 23px !important; width: auto !important; display: inline !important; margin-bottom: -5px !important;}
+
+
+/* On force un passage à la ligne après un titre et la typoe */
+.rte h2, .rte h3, .rte h4, .rte h5, .rte h6{clear:both; margin: 0; font-family: 'Dinot Black', Arial,'Helvetica Neue',Helvetica,sans-serif; padding-top: 10px;}
+.rte h2, .rte h3, .rte h4 {text-transform: uppercase;}
+.rte h3, .rte h4 {font-size: 1.7em;}
+.rte h5, .rte h6{font-size: 1.4em;}
+.rte h4, .rte h6{border-bottom: 3px solid #0c9cd5;line-height: 1em;}
+
+
+/*On modifie la manière dont les listes à puce et chiffres sont affichées : police en noir et non grise et padding modifié*/
+.rte ul, .rte ol {padding-left: 1em; margin: 5px 0 20px 0;}
+.rte ul li, .rte ol li {color: #3b3b3b;margin-bottom: 0.7em;}
+.rte ol li {margin-left: 25px;}
+	
+.rte blockquote{margin: 20px 0;}
+.rte blockquote p{font-family: Arial,'Helvetica Neue',Helvetica,sans-serif; font-size: 1.1em; font-style: italic;}
+
+/* on fixe le problème du compteur de like Facebook qui s'affiche mal sur Mac*/
+.easy_social-widget-facebook iframe{min-width:120px !important;}
+
+/* On diminue un peu la taille des titres des articles  */
+.page-title{font-size: 4em; }
+
+/* On change le style du chapô  */
+.page-node .main-content .field-summary{ font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; font-weight: bold;  font-size: 1.5em;  line-height: 1.5em; }
+
+
+/* On fixe la hauteur du bloc bleu dans le header "en ce moment" pour éviter le yoyo au chargement */
+.fresh-links{height:28px;}
+.fresh-links .title{width:107px;}
+
+/*On fixe la hauteur des logos dans le bloc prochain match pour éviter le yoyo au chargement */
+.block-om-block-match .team-logo{min-height:100px;}
+
+/*On fixe la hauteur du bloc contenant l'iframe boutique */
+.block-om-iframe-boutique{height: 648px !important;}
+
+/* On charge en background un visuel par défaut en attendant le chargement du visuel ou au cas où il n'y en ait pas sur d'anciens contenus */
+.inner-wrapper .field-visuel-principal img.unveil, .inner-wrapper .media-preview img.unveil, .rte img.media-image.unveil, .block-om-blocs-hp img.unveil   {
+	background: url("https://www.om.net/sites/default/files/150205_visuel_defaut_1256_837-min.jpg");
+	background-size: 100% 100%;
+	opacity:0.5 !important;
+}
+
+.om-slider .om-media img{
+	background: url("https://www.om.net/sites/default/files/150205_visuel_defaut_1256_837-min.jpg");
+	background-size: 100% 100%;
+}
+
+
+/*On réduit la marge sous le visuel principal*/
+.page-node .top-content .field-visuel-principal, .page-node .top-content .field-vignette-video, .page-node .main-content .field-visuel-principal, .page-node .main-content .field-vignette-video{ padding-bottom: 20px;}
+
+/* On cale les logos des partenaires sur l'univers Minots */
+.om-visuel-univers .om-media {margin-bottom:15px !important;}
+.om-visuel-univers .om-media+* {margin-left:0 !important;}
+  
+
+
+/* On affiche bien le picto du bloc prochain match sur le calendrier*/
+.om-match-actus .links a.presentation:after {
+  width: 17px;
+  height: 17px;
+  background-image: url(/sites/all/themes/om/dist/images/pictos-sa211d5ea45.png);
+  background-position: -8px 0;
+  background-repeat: no-repeat;
+}
+
+
+/*On aligne bien les 2 blocs prochains matchs sur calendrier*/
+.om-match-actus .om-block.om-match-next .min-height {height: 140px;}
+
+
+
+/* On rend visible en bleu les liens insérés dans un live-texte*/
+.live-text-item a:link, .live-text-item  a:active, .live-text-item  a:visited, .live-text-item  a:hover{color: #0b9bd5; font-weight: bold;}
+.live-text-item  a:hover{color: #0b9bd5; text-decoration: underline;}
+
+/*HUB BILLETTERIE*/
+/* On empêche la sidebar du Hub Billetterie de scroller toute seule */
+.digitick-hub-page .main-sidebar .sidebar_inner.sticky, .digitick-hub-page .main-sidebar .sidebar_inner.sticky-bottom{position: inherit !important;}
+
+/* On règle le pb des popins */
+.digitick-hub-page #om-interstitiel {max-width: 800px; width: 80%; height: 80%; max-height: 800px;}
+.digitick-hub-page #om-interstitiel .content {max-height: 800px;height: 100%;}
+.digitick-hub-page #om-interstitiel .content p:first-child {margin-top: 20px;}
+.digitick-hub-page #om-interstitiel .content p {padding: 0 20px;}
+
+
+
+
+/* On édite la bar d'admin pour la rendre plus lisible*/
+
+	.tabs-wrapper ul.tabs{	
+		border-bottom:none;
+		padding:0;
+		margin:15px 0 15px 0;	
+	}
+		
+		
+	.tabs-wrapper ul.primary li a{
+		font-size: 1.4em;
+		border-style: solid;
+		background-color: #b8ecab;
+		padding: 0.5em;
+		font-family: 'Dinot Bold',Arial,'Helvetica Neue',Helvetica,sans-serif;
+	}
+	
+	.tabs-wrapper ul.primary li a:hover{
+		border-bottom-color:#999;
+		border-color:#999;	
+		background-color: #99dbac;	
+	}
+	
+	
+	.tabs-wrapper ul.primary li a.clone{
+		background-color: #ddd;
+		margin-left: 10px;
+	}
+	
+	.tabs-wrapper ul.primary li a.clone:hover{
+		border-bottom-color:#999;
+		border-color:#999;	
+		background-color: #eee;	
+	}	
+	
+	
+	.tabs-wrapper ul li.active, .inner-wrapper ul.action-links{
+		display:none;	
+	}
+
+
+
+
+/* on ajuste le fomulaire de connexion en cas d'erreur  */
+#user-login .error-inline .form-item, .main-wrapper .error-inline .form-item{ width: auto; margin-bottom: 20px;}
+#user-login .error-inline-messages, .main-wrapper .error-inline-messages{ width: auto; margin-top: 0px; text-align: left; margin-bottom: 20px;}
+
+/* on ajuste la page mon compte*/
+.page-mon-profil .main-content form .fieldset-wrapper #edit-account{width: auto;}
+.page-mon-profil #edit-locale{display: none;}
+
+
+
+/*sur la page calendrier, on masque le filtre de gauche qui ne sert à rien*/
+.om-calendar-filters .seasons-nav, .om-calendar-filters .seasons-ctn{display: none;}
+/*sur la page calendrier, on améliore le logo du diffuseur dans le bloc match*/
+.om-match-actus .tv img{max-height: 35px; margin-left: 5px;}
+
+
+/* On cale bien les épingles */
+.hp-pins .om-block{display: inline-table;}
+.hp-pins h3{font-size: 2.5em;}
+
+
+/* on ajoute des styless CSS dans le live-texte et on le fait toutes les 100ms pour le gérer aussi à chaque auto-refresh */
+.carton_jaune + .live-text-event-minute{font-weight: bold;}
+.carton_jaune + .live-text-event-minute + .live-text-event-desc{font-weight: bold;}
+
+.carton_rouge + .live-text-event-minute{font-weight: bold;}
+.carton_rouge + .live-text-event-minute + .live-text-event-desc{font-weight: bold;}
+
+.carton_rouge_jaune + .live-text-event-minute{font-weight: bold;}
+.carton_rouge_jaune + .live-text-event-minute + .live-text-event-desc{font-weight: bold;}
+
+.but + .live-text-event-minute{font-weight: bold;}
+.but + .live-text-event-minute + .live-text-event-desc{font-weight: bold;}
+
+.but_self + .live-text-event-minute{font-weight: bold;}
+.but_self + .live-text-event-minute + .live-text-event-desc{font-weight: bold;}
+
+.but_penalty + .live-text-event-minute{font-weight: bold;}
+.but_penalty + .live-text-event-minute + .live-text-event-desc{font-weight: bold;}
+
+.action_importante + .live-text-event-minute{font-weight: bold;}
+.action_importante + .live-text-event-minute + .live-text-event-desc{font-weight: bold;}
+
+.fin + .live-text-event-minute{font-weight: bold;}
+.fin + .live-text-event-minute + .live-text-event-desc{font-weight: bold;}
+
+.debut + .live-text-event-minute{font-weight: bold;}
+.debut + .live-text-event-minute + .live-text-event-desc{font-weight: bold;}
+
+.pause + .live-text-event-minute{font-weight: bold;}
+.pause + .live-text-event-minute + .live-text-event-desc{font-weight: bold;}
+
+
+
+/* DRAPEAUX */
+.countryicon-sprite.iconset-shiny.countrycode-eo {
+    background-position: -52px -73px;
+}
+
+
+/*Page OMtvOnline */
+.om-tv-container .om-offers .cta-wrapper .forfait .cta>*:first-child{width: 20% !important;}
+.om-tv-container .cta{font-size: 1.8em !important;}
+.om-tv-container .price-inner{padding-right: 20px !important;}
+.om-tv-container .euro{font-size: inherit !important;}
+.om-tv-container .om-offers .cta-wrapper .forfait .cta-0{width: 45% !important;}
+.om-tv-container .om-offers .cta-wrapper .forfait .cta-1{width: 45% !important;}
+.om-tv-container .om-offers .slick-slider .slick-list{display: none !important;}
+.om-tv-container .steps{z-index: 12 !important;}
+
+
+@media screen and (max-width: 540px) {
+	
+	
+	/*On améliore les compos*/
+	.om-match-composition .player .name{ padding: 2px 5px; display: inline-block; overflow: hidden; text-overflow: ellipsis; width: 68px; white-space: nowrap;}
+
+	/* On diminue un peu la taille des titres de Une sur la page d'accueil et on l'empêche de passer sur 2 lignes  */
+	.om-hp-highlight .om-slider .om-block .title{font-size:2em; padding-right:0 !important; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}	
+
+	/* On diminue un peu la taille des titres des articles  */
+	.page-title{font-size: 3em;}
+	
+	/*On diminue la taille des éléments du bloc match sur la HP, qui occupe trop d'espace*/	
+	.block-om-block-match {margin-bottom: 15px; padding-top: 5px;}
+	.block-om-block-match .team-logo{max-width: 70px !important; min-height: 70px !important;}
+	.block-om-block-match .team-name{font-size: 1.8em !important;}
+	.om-match-before .match-countdown{width: 50%; margin-top: 10px;}
+	.om-match-before .match-countdown-numbers{font-size: 1.7em; height: 25px; line-height: 25px;}
+	.om-match-before .match-countdown-legend{font-size: 1.2em; line-height: 22px;}
+	.block-om-block-match .second-row-content{margin-top: 10px;}
+	.block-om-block-match .match-details .debord{font-size: 1.4em;}
+	.block-om-block-match .match-details .debord>*{line-height: 1.5em;     text-overflow: ellipsis;    white-space: nowrap;    overflow: hidden;    max-width: 138px;}
+	.block-om-block-match .cta-wrapper .cta.red{font-size: 1.4em; padding-right: 15px; padding-left: 30px; line-height: 0.6em;}
+	
+	
+	/*On diminue la taille des éléments du bloc match sur la page match*/	
+	.block-om-block-match .match-infos{margin-top: 20px;}
+	.block-om-block-match .match-score>*{height: 53px;}
+	.block-om-block-match .match-goal-number{min-width: 40px;}
+	.block-om-block-match .match-goal-number span{font-size: 4em; line-height: 50px;}
+	.block-om-block-match .match-score-separator{line-height: 51px;}
+	.block-om-block-match .match-card{font-size: 1.3em; height: 25px; line-height: 25px;}
+	.block-om-block-match .match-card+.match-card{margin-top: 3px;}
+	.block-om-block-match .match-details .debord{line-height: 4.2em;}
+	.block-om-block-match .goal-time{font-size: 1.4em; width: 26%}
+	.block-om-block-match .scorer-name{font-size: 1.5em; width: 74%}
+	.block-om-block-match .scorer-name.host{padding-left: 5px;}
+	.block-om-block-match .scorer-name.guest{padding-right: 5px;}
+	
+	
+			
+
+	/* On diminue la taille des textes et la hauteur des blocs des pushs sur les pages matchs  */	
+	.block-om-block-match .match-push{min-height: 65px;}
+	.block-om-block-match .match-push-title{font-size: 2em;}	
+	
+	/* On masque les freetags et tag premium sur Hp sur mobile et sur le bloc Articles liés sur page article  */	
+	.view-display-id-derniere_videos .free_tag, .view-display-id-derniere_videos .premium, .related-subject .free_tag, .related-subject .premium {display:none;}	
+	
+	
+	/*on ajuste les tags*/
+	.om-tags .tag{margin-right: 3px; font-size: 1.3em; padding: 0.1em 0.45em;}
+	
+	/*On réduit la taille des titres des vignettes*/
+	.teaser .om-infos .title{font-size: 2em;}
+	
+	/*On réduit la marge sous le visuel principal*/
+	.page-node .top-content .field-visuel-principal, .page-node .top-content .field-vignette-video, .page-node .main-content .field-visuel-principal, .page-node .main-content .field-vignette-video{ padding-bottom: 10px;}
+	
+	
+	/* On force la taille du visuel principal sur une page de contenu pour éviter le yoyo*/	
+	.node-article .field-visuel-principal img{max-width:519px !important; height: 66.67vw !important;}	
+	
+		/* On force la taille des visuels intégrés au coeur du body d'un article pour éviter le yoyo*/	
+	.node-article .rte img.media-image.unveil{max-width:519px !important; height: 66.67vw !important; width:100% !important;}	
+	
+	
+	/* On force la taille des photos d'un diapo pour éviter le yoyo*/	
+	.view-display-id-la_une.om-slider .om-media{height:66.67vw; padding-top:0 !important;}	
+	.view-display-id-la_une.om-slider .media-preview img{height:66.67vw; max-width:100%; padding-top:0 !important; transition:none;}	
+	.view-display-id-la_une.om-slider .om-block {width: 100%;}
+	
+	/* On masque le compteur de slide sur le carrousel qui prend de la place pour rien sur petit écran*/	
+	.view-display-id-la_une.om-slider .om-slider-counter-wrapper .content{display:none;}
+
+	/* On force la hauteur de le ratio de la mega-une le temps qu'elle se charge*/
+	.bloc_megaune{min-height: 66.67vw;}	
+
+
+	
+}	
+
+
+
+
+@media screen and (min-width: 540px)  and (max-width: 1020px) {
+	
+	/* On diminue un peu la taille des titres de Une sur la page d'accueil  */
+	.om-hp-highlight .om-slider .om-block .title{font-size:2.4em}
+	
+	
+	/* On force la hauteur minimale de slider de la HP pour fluidifier le chargement et éviter le yoyo*/
+
+	//.om-hp-highlight .view-content{max-width:100%;}	
+
+	
+	/* On corrige un bug sur la HP uniquement : la classe main-container qui doit se comporter comme sur <540px pour que le coeur de page de la HP soit bien proporitionnel à l'écran */
+	.front .main-container {display: block !important;}
+
+
+	/* On force la taille des photos d'un diapo pour éviter le yoyo*/	
+	.view-display-id-la_une.om-slider .om-media{height:59.8vw; padding-top:0 !important;}	
+	.view-display-id-la_une.om-slider .media-preview img{height:59.8vw; max-width:100%; padding-top:0 !important; transition:none;}	
+	.view-display-id-la_une.om-slider .om-block {width: 100%;}
+	.view-display-id-la_une.om-slider .view-content{max-width:100%;}
+	.top-content{display: block;}	
+
+	
+	/* On force la taille du visuel principal sur une page de contenu pour éviter le yoyo*/	
+	.node-article .field-visuel-principal img{max-width:919px !important; height: 66.67vw !important;}
+	
+	/* On force la taille des visuels intégrés au coeur du body d'un article pour éviter le yoyo*/	
+	.node-article .rte img.media-image.unveil{max-width:919px !important; height: 66.67vw !important; width:100% !important;}
+	
+
+	/* On force la taille des photos d'un diapo pour éviter le yoyo*/	
+//	.om-diaporama-slider.om-slider .om-media{height:66.67vw; max-width:936px; padding-top:0 !important;}	
+//	.om-diaporama-slider .diaporama .media-preview img{height:66.67vw; max-width:936px; padding-top:0 !important;}	
+//	.om-diaporama-slider.om-slider .om-block{display:block;}
+
+	/* On force la hauteur de le ratio de la mega-une le temps qu'elle se charge*/
+	.bloc_megaune{min-height: 66.67vw;}	
+	
+}
+
+
+
+@media screen and (min-width: 1020px) and (max-width: 1340px){
+     /* dans MM Equipes, on masque les sections Medias qui ne servent à rien */
+    .om-megamenu-overlay.equipe .column {min-width:105px;}
+    .om-megamenu-overlay.equipe .section-title:after {width:100%;}
+
+	/* On diminue un peu la taille des titres de Une sur la page d'accueil  */
+	.om-hp-highlight .om-slider .om-block .title{font-size:2.5em}
+	
+	/* On force que le site descende pour gérer l'habillage intantanément*/
+	.main-wrapper{top: 135px;}	
+	
+	/* On force que le site descende pour gérer l'habillage intantanément et éviter l'effet yoyo // gstion de la largeur du site */
+	.main-wrapper{top: 135px; position:relative; max-width: 980px;}	
+	
+	/* On force la hauteur minimale de slider de la HP pour fluidifier le chargement et éviter le yoyo*/
+	.om-hp-highlight .om-slider .om-media{min-height:399px; min-width:599px; padding-top:0 !important;}	
+	.om-hp-highlight .view-content, .with-om-covering .om-hp-highlight .view-content{max-width:599px;}
+	
+	/* On corrige la largeur du main-content pour éviter que sur la HP, en 1024px, le site charge en 1300px pour être ensuite réduit en 1024px : on évite le yoyo*/
+	.main-content{max-width:643px !important;}	
+	
+	/* On force la taille du visuel principal sur une page de contenu pour éviter le yoyo*/	
+	.node-article .field-visuel-principal img{height:399px !important; width:599px !important;}
+	
+	/* On force la taille des visuels intégrés au coeur du body d'un article pour éviter le yoyo*/	
+	.node-article .rte img.media-image.unveil{height:399px !important; width:599px !important;}	
+	
+	
+	/* On force la taille des photos d'un diapo pour éviter le yoyo*/	
+	.om-diaporama-slider.om-slider .om-media{min-height:624px; min-width:936px; padding-top:0 !important;}	
+	.om-diaporama-slider .diaporama .media-preview img{height:624px !important; width:936px !important;}
+	
+	/* On force la hauteur de le ratio de la mega-une le temps qu'elle se charge*/
+	.bloc_megaune{min-height: 641px;}	
+	
+
+	
+
+}
+
+@media screen and (min-width: 1340px) {
+	
+	/* On diminue un peu la taille des titres de Une sur la page d'accueil  */
+	.om-hp-highlight .om-slider .om-block .title{font-size:4em}		
+	
+	/* On force que le site descende pour gérer l'habillage intantanément et éviter l'effet yoyo*/
+	.main-wrapper{top: 180px; position:relative;}
+	
+	
+	/* On force la hauteur minimale de slider de la HP pour fluidifier le chargement et éviter le yoyo*/
+	.om-hp-highlight .om-slider .om-media{min-height:612px; min-width:919px; padding-top:0 !important;}
+	.om-hp-highlight .om-slider .om-media img{min-height:612px; min-width:919px; }	
+
+	/* On force la taille du visuel principal sur une page de contenu pour éviter le yoyo*/	
+	.node-article .field-visuel-principal img{height:612px !important; width:919px !important;}
+
+	/* On force la taille des visuels intégrés au coeur du body d'un article pour éviter le yoyo*/	
+	.node-article .rte img.media-image.unveil{height:612px !important; width:919px !important;}
+
+	
+	
+	/* On force la taille des photos d'un diapo pour éviter le yoyo*/	
+	.om-diaporama-slider.om-slider .om-media{min-height:837px; min-width:1256px; padding-top:0 !important;}	
+	.om-diaporama-slider .diaporama .media-preview img{height:837px !important; width:1256px !important;}	
+	
+	/* On force la hauteur de le ratio de la mega-une le temps qu'elle se charge*/
+	.bloc_megaune{min-height: 850px;}	
+	
+	/*on augmente un peu la taille de typo du contenu des articles*/
+	/* On change le style du chapô  */
+	.page-node .main-content .field-summary{ font-size: 1.6em;  line-height: 1.6em; }	
+	.node-article .rte {font-size:1.6em;}  
+	.node-article .rte p {line-height: 1.6em !important; margin-bottom: 10px !important;};
+	
+	
+	
+}
+
+
+
+
+
+
+
+</style>
+
+<script type='text/javascript'>
+
+
+
+
+document.addEventListener("DOMContentLoaded", function(event) { 
+	
+	var windowWidth = jQuery( window ).width();
+	
+	
+	if( (windowWidth > 540 && windowWidth < 1340) || (windowWidth > 540 && windowWidth < 750) ){
+	
+		//On tronque les chapeaux trop longs
+		jQuery(".section .teaser:not(.mea) .chapo").each(function(){
+			    var len = jQuery(this).html().length;
+				if(len > 110){
+					 var text = jQuery.trim(jQuery(this).html()).substring(0, 110).split(" ").slice(0, -1).join(" ") + "...";
+
+					 jQuery(this).html(text);
+				}
+	
+		});
+	
+	}		
+
+		
+
+	if(windowWidth < 1019){
+		
+		//On supprime la colonne de droite et les megamenus s'ils ne sont pas nécessaires (sauf le megamenu video qui comporte ces surcharges CSS/JS)
+		jQuery(".om-megamenu-overlay, .main-sidebar.tablet-hidden").not(".videos").remove();
+		
+	}	
+	
+
+	
+	if(windowWidth < 970){
+		
+		//On supprime l'interstitiel s'il n'est pas nécessaire
+		jQuery(".front .mask-om-interstitiel, .front #om-interstitiel").remove();
+		
+		
+		//On corrige le bug du carrousel à l'image 2 sur tablette et mobile
+		jQuery(".view-display-id-la_une .view-content").css("height", jQuery(".view-display-id-la_une .view-content").height() + "px");
+		
+	}	
+	
+	
+
+	if(windowWidth < 540){
+		
+		
+		//On remplace les grandes images de la Une par des moyennes sur la page d'accueil
+		jQuery('img[data-lazy*="sites/default/files/styles/a_la_une/"], ').each(function(){
+		    var _href = jQuery(this).attr('data-lazy');
+		    var _href = _href.replace("a_la_une", "vignettes_listes");
+		    jQuery(this).attr('data-lazy',_href);
+		});			
+
+		//On remplace les grandes images des épingles par des petites sur la page d'accueil
+		jQuery('img[data-src*="sites/default/files/styles/a_la_une/"], ').each(function(){
+		    var _href = jQuery(this).attr('data-src');
+		    var _href = _href.replace("a_la_une", "bloc_sur_le_meme_sujet");
+		    jQuery(this).attr('data-src',_href);
+		});		
+		
+		//On remplace les moyennes images par des petites sur la page article
+		jQuery('img[data-src*="sites/default/files/styles/vignettes_listes/"], ').each(function(){
+		    var _href = jQuery(this).attr('data-src');
+		    var _href = _href.replace("vignettes_listes", "bloc_sur_le_meme_sujet");
+		    jQuery(this).attr('data-src',_href);
+		});		
+		
+		
+		//On remplace les grandes images par des petites sur la page article
+		jQuery('img[data-src*="sites/default/files/styles/visuel_principal_article/"], ').each(function(){
+		    var _href = jQuery(this).attr('data-src');
+		    var _href = _href.replace("visuel_principal_article", "vignettes_listes");
+		    jQuery(this).attr('data-src',_href);
+		});			
+					
+				
+				
+		//On supprime les boutons sociaux qui ne servent à rien sur mobile
+		jQuery(".top-connect .socials, .easy_social_box").remove();		
+		
+		
+		//On tronque certains titres trop long dans les petits blocs
+		jQuery(".views-row-even.om-block h2.title a, .views-row-odd.om-block h2.title a, .related-subject .om-block h2.title a").each(function(){
+			    var len = jQuery(this).html().length;
+				if(len > 35){
+					 var text = jQuery.trim(jQuery(this).html()).substring(0, 35).split(" ").slice(0, -1).join(" ") + "...";
+
+					 jQuery(this).html(text);
+				}
+	
+		});
+		
+		
+			
+	}	
+	
+	
+	
+	
+
+	
+	
+
+	//on masque les stats des joueurs qui n'en ont pas sur la page joueur (mais on gère le ca où il y a un maillot à vendre)
+	if(jQuery("#stats-all > li.played > span")){
+			var matchsJoues = jQuery("#stats-all > li.played > span").html();
+			var matchsJouesAmicaux = jQuery("#stats-514 > li.played > span").html();			
+			if(matchsJoues != null && matchsJoues == "0" && matchsJouesAmicaux != null && matchsJouesAmicaux == "0" && jQuery('#maillot').length == 0 ) {
+				jQuery(".om-stats").hide();
+				if (window.matchMedia('(min-width: 1024px)').matches) {
+     				jQuery(".om-player-data .om-block, .om-staff-data .om-block").css("padding-top", "43%");
+			    }				
+			}
+	}
+	
+	
+	
+	
+
+
+	
+	
+	
+	
+	//on affiche mieux le lien de clone s'il existe sur la page
+	if (jQuery(".action-links li a").length > 0){
+
+		var lien = jQuery(".action-links li a").attr('href');
+		jQuery(".tabs-wrapper ul").append('<li><a class="clone" href="' + lien + '">Cloner</a></li>');
+
+
+	}		
+	
+
+			
+
+	
+
+
+	
+
+});
+
+</script>
+
+<h2 class="title section-title"><span class="tag premium" style="font-size:1em; margin:0;">OMTV Online</span></h2>
+  <div class="om-block">
+    <div class="item-list">
+    <ul>
+<li class="first"><a href="/om-tv-online" class="themes">Présentation OMtv Online</a></li>
+<li style="margin-bottom:15px;"><a href="/om_tvonline/selection" class="themes">S'abonner</a></li>
+
+<li style="margin-bottom:15px;"><a href="/tous-les-programmes-omtv-online" class="themes">Tous les programmes exclusifs</a></li>
+
+
+<li><a href="/actualites/tag/un-jour-lom" class="themes">Un jour à l'OM</a></li>
+<li><a href="/actualites/tag/objectif-match" class="themes">Objectif Match</a></li>
+<li><a href="/actualites/liste/match-en-integralite" class="themes">Match en intégralité</a></li>
+<li><a href="/actualites/tag/18h-cfoot" class="themes">18h CFoot</a></li>
+<li><a href="/actualites/tag/le-talk-des-talks" class="themes">Le Talk des Talks</a></li>
+<li><a href="/actualites/tag/12e-homme" class="themes">12e hOMme</a></li>
+	</ul>
+	</div>
+	
+</div>       </section>
+    </div>
+        <div class="partners">
+  <div class="view-content">
+    
+<h3>En partenariat avec</h3>
+
+  <div class="om-media">
+      
+          <a href="http://www.adidas.com" target="_blank">
+  <div class="field-partenaire-visuel">
+    <img typeof="foaf:Image" width="79" height="60" data-src="https://www.om.net/sites/default/files/adidas.png" class="unveil" />  </div>
+</a>    </div>
+  <div class="om-media">
+      
+          <a href="http://www.intersport.fr/" target="_blank">
+  <div class="field-partenaire-visuel">
+    <img typeof="foaf:Image" width="155" height="50" data-src="https://www.om.net/sites/default/files/intersport.png" class="unveil" />  </div>
+</a>    </div>
+
+  </div>
+</div>
+  </div></li>
+<li class="photos"><a href="/diaporama-photos">Photos</a>
+<div class="om-megamenu-overlay loading tablet-hidden photos" style="background-image: url('https://www.om.net/sites/default/files/backgrounds/mega-menu_photos_v3-min.jpg');">
+  <div class="shp-links">
+    <section class="section block">
+  <h2 class="title section-title">Les photos par univers</h2>
+  <div class="om-block">
+    <div class="item-list"><ul><li class="first"><a href="/diaporama-photos/equipe-pro" class="themes">Équipe pro</a></li>
+<li><a href="/diaporama-photos/feminine" class="themes">Féminine</a></li>
+<li><a href="/diaporama-photos/centre-de-formation" class="themes">Centre de formation</a></li>
+<li><a href="/diaporama-photos/preformation" class="themes">Préformation</a></li>
+<li><a href="/diaporama-photos/le-club" class="themes">Le club</a></li>
+<li><a href="/diaporama-photos/le-stade" class="themes">Le stade</a></li>
+<li><a href="/diaporama-photos/les-supporters" class="themes">Les supporters</a></li>
+<li><a href="/diaporama-photos/les-minots-de-lom" class="themes">Les Minots de l&#039;OM</a></li>
+<li class="last"><a href="/diaporama-photos/om-entreprises" class="themes">OM Entreprises</a></li>
+</ul></div>  </div>
+</section>    <div class="see-all">
+      <a href="/diaporama-photos/equipe-pro" class="cta white">toutes les photos</a>    </div>
+  </div>
+      <div class="analyses">
+      <section class="section block block-views">
+      <h2 class="title section-title">A la Une</h2>
+      <div class="view view-om-menu-c view-id-om_menu_c view-display-id-diapo view-dom-id-8171c73f433e1c179f4477d09125447d">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+          <a href="/diaporama-photos/227578/lentrainement-du-mardi-16-fevrier-2016-en-photos"><img typeof="foaf:Image" alt="" data-src="https://www.om.net/sites/default/files/styles/thumbnail/public/1_43.jpg" class="unveil" /></a>    
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/diaporama-photos/227578/lentrainement-du-mardi-16-fevrier-2016-en-photos">L&#039;entraînement du mardi 16 février 2016 en photos</a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+          <a href="/diaporama-photos/227047/nice-om-la-soiree-en-photos"><img typeof="foaf:Image" alt="" data-src="https://www.om.net/sites/default/files/styles/thumbnail/public/yan_2137.jpg" class="unveil" /></a>    
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/diaporama-photos/227047/nice-om-la-soiree-en-photos">Nice-OM : la soirée en photos </a></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+          <a href="/diaporama-photos/226957/u19-om-1-1-clermont-le-diaporama"><img typeof="foaf:Image" alt="" data-src="https://www.om.net/sites/default/files/styles/thumbnail/public/cmv_1_u19n-clermont.jpg" class="unveil" /></a>    
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/diaporama-photos/226957/u19-om-1-1-clermont-le-diaporama">U19 - OM 1-1 Clermont : le diaporama</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div></section>    </div>
+          <div class="shop">
+          <section class="section block block-block">
+                 <h2 class="title section-title">Les Applis de l&#39;OM</h2><p><a href="/supporters/les-applications-mobiles-om"><img alt="" class="attr__format__media_original attr__typeof__foaf:Image img__fid__147160 img__view_mode__media_original media-image" src="/sites/default/files/mea-apps-190x190.png" style="height:190px; width:190px" /></a></p>       </section>
+    </div>
+        <div class="partners">
+  <div class="view-content">
+    
+<h3>En partenariat avec</h3>
+
+  <div class="om-media">
+      
+          <a href="http://www.adidas.com" target="_blank">
+  <div class="field-partenaire-visuel">
+    <img typeof="foaf:Image" width="79" height="60" data-src="https://www.om.net/sites/default/files/adidas.png" class="unveil" />  </div>
+</a>    </div>
+  <div class="om-media">
+      
+          <a href="http://www.intersport.fr/" target="_blank">
+  <div class="field-partenaire-visuel">
+    <img typeof="foaf:Image" width="155" height="50" data-src="https://www.om.net/sites/default/files/intersport.png" class="unveil" />  </div>
+</a>    </div>
+
+  </div>
+</div>
+  </div></li>
+<li class="equipe"><a href="/equipes">Équipes</a>
+<div class="om-megamenu-overlay loading tablet-hidden equipe" style="background-image: url('https://www.om.net/sites/default/files/backgrounds/mega-menu-neutre_03-min.jpg');">
+  <div class="shp-links">
+    
+      <div class="column">
+      <div class="section">
+        <h3 class="title section-title">Équipe pro</h3>
+        <ul class="item-list">
+                      <li><a href="/classement">Classement Ligue 1</a></li>
+                      <li><a href="/calendrier-resultats">Calendrier / résultats</a></li>
+                      <li><a href="/equipes/effectifs/joueurs/2015-2016/equipe-professionnelle">Effectif pro</a></li>
+                      <li><a href="/equipes/effectifs/staff/2015-2016/equipe-professionnelle">Staff pro</a></li>
+                      <li><a href="/actualites/equipe-pro">Actus pro</a></li>
+                  </ul>
+      </div>
+              <div class="section">
+          <h3 class="title section-title">Média</h3>
+          <ul class="item-list">
+            <li><a href="/actualites/equipe-pro">Actus</a></li>
+            <li><a href="/videos/equipe-pro">Vidéos</a></li>
+            <li><a href="/diaporama-photos/equipe-pro">Les photos
+</a></li>
+          </ul>
+        </div>
+          </div>
+      <div class="column">
+      <div class="section">
+        <h3 class="title section-title">Féminine</h3>
+        <ul class="item-list">
+                      <li><a href="/actualites/185689/d2-feminine-groupe-c-saison-2015-16-le-classement">Classement D2</a></li>
+                      <li><a href="/calendrier-resultats/d2-feminine">Calendrier D2</a></li>
+                      <li><a href="/equipes/effectifs/joueurs/2015-2016/d2-feminine">Effectif D2</a></li>
+                      <li><a href="/equipes/effectifs/staff/2015-2016/d2-feminine">Staff D2</a></li>
+                      <li><a href="/dh-feminine">DH</a></li>
+                      <li><a href="/u19-feminine">U19</a></li>
+                      <li><a href="/u15-feminine">U15</a></li>
+                      <li><a href="/actualites/feminine">Actus féminine</a></li>
+                  </ul>
+      </div>
+              <div class="section">
+          <h3 class="title section-title">Média</h3>
+          <ul class="item-list">
+            <li><a href="/actualites/feminine">Actus</a></li>
+            <li><a href="/videos/feminine">Vidéos</a></li>
+            <li><a href="/diaporama-photos/feminine">Les photos
+</a></li>
+          </ul>
+        </div>
+          </div>
+      <div class="column">
+      <div class="section">
+        <h3 class="title section-title">Centre de formation</h3>
+        <ul class="item-list">
+                      <li><a href="/cfa">CFA</a></li>
+                      <li><a href="/u19">U19</a></li>
+                      <li><a href="/u17">U17</a></li>
+                      <li><a href="/u16">U16</a></li>
+                      <li><a href="/actualites/centre-de-formation">Actus formation</a></li>
+                  </ul>
+      </div>
+              <div class="section">
+          <h3 class="title section-title">Média</h3>
+          <ul class="item-list">
+            <li><a href="/actualites/centre-de-formation">Actus</a></li>
+            <li><a href="/videos/centre-de-formation">Vidéos</a></li>
+            <li><a href="/diaporama-photos/centre-de-formation">Les photos
+</a></li>
+          </ul>
+        </div>
+          </div>
+      <div class="column">
+      <div class="section">
+        <h3 class="title section-title">Préformation</h3>
+        <ul class="item-list">
+                      <li><a href="/u15">U15</a></li>
+                      <li><a href="/u14">U14</a></li>
+                      <li><a href="/u13">U13</a></li>
+                      <li><a href="/u12">U12</a></li>
+                      <li><a href="/u11">U11</a></li>
+                      <li><a href="/u10">U10</a></li>
+                      <li><a href="/actualites/preformation">Actus préformation</a></li>
+                  </ul>
+      </div>
+              <div class="section">
+          <h3 class="title section-title">Média</h3>
+          <ul class="item-list">
+            <li><a href="/actualites/preformation">Actus</a></li>
+            <li><a href="/videos/preformation">Vidéos</a></li>
+            <li><a href="/diaporama-photos/preformation">Les photos
+</a></li>
+          </ul>
+        </div>
+          </div>
+      <div class="see-all">
+      <a href="/equipes" class="cta white">Tout sur les équipes</a>    </div>
+  </div>
+            <div class="partners">
+  <div class="view-content">
+    
+<h3>En partenariat avec</h3>
+
+  <div class="om-media">
+      
+          <a href="http://www.adidas.com" target="_blank">
+  <div class="field-partenaire-visuel">
+    <img typeof="foaf:Image" width="79" height="60" data-src="https://www.om.net/sites/default/files/adidas.png" class="unveil" />  </div>
+</a>    </div>
+  <div class="om-media">
+      
+          <a href="http://www.intersport.fr/" target="_blank">
+  <div class="field-partenaire-visuel">
+    <img typeof="foaf:Image" width="155" height="50" data-src="https://www.om.net/sites/default/files/intersport.png" class="unveil" />  </div>
+</a>    </div>
+
+  </div>
+</div>
+  </div></li>
+<li class="club"><a href="/club">Le club</a>
+<div class="om-megamenu-overlay loading tablet-hidden club" style="background-image: url('https://www.om.net/sites/default/files/backgrounds/mega-menu_leclub_v3-min.jpg');">
+  <div class="shp-links">
+    
+      <div class="column">
+      <div class="section">
+        <h3 class="title section-title">Le club</h3>
+        <ul class="item-list">
+                      <li><a href="/club/l-histoire-de-l-om">HISTOIRE</a></li>
+                      <li><a href="/club/legende-du-club/palmares">PALMARES</a></li>
+                      <li><a href="/club/le-centre-d-entrainement-robert-louis-dreyfus">Le centre Robert Louis-Dreyfus</a></li>
+                      <li><a href="/club/les-boutiques-officielles">Les Boutiques officielles</a></li>
+                  </ul>
+      </div>
+              <div class="section">
+          <h3 class="title section-title">Média</h3>
+          <ul class="item-list">
+            <li><a href="/actualites/le-club">Actus</a></li>
+            <li><a href="/videos/le-club">Vidéos</a></li>
+            <li><a href="/diaporama-photos/le-club">Les photos
+</a></li>
+          </ul>
+        </div>
+          </div>
+      <div class="see-all">
+      <a href="/club" class="cta white">Tout sur le club</a>    </div>
+  </div>
+      <div class="analyses">
+      
+      <div class="column">
+      <div class="section">
+        <h3 class="title section-title">L'univers de l'OM</h3>
+        <ul class="item-list">
+                      <li><a href="/la-legende-du-club">LA LEGENDE DU CLUB</a></li>
+                      <li><a href="/club/om-match">OM MATCH</a></li>
+                      <li><a href="/club/om-tv">OMTV / OMTV online</a></li>
+                      <li><a href="http://www.omentreprises.net/">OM ENTREPRISES</a></li>
+                      <li><a href="/club/om-judo">OM JUDO</a></li>
+                      <li><a href="/club/fonds-de-dotation-om-attitude">FONDS DE DOTATION OM ATTITUDE</a></li>
+                      <li><a href="/club/les-minots-de-om">LES MINOTS DE L&#039;OM</a></li>
+                      <li><a href="/club/espace-presse">ESPACE PRESSE</a></li>
+                  </ul>
+      </div>
+          </div>
+      </div>
+          <div class="shop">
+          <section class="section block block-block">
+                 <h2 class="title section-title">Les Applis de l&#39;OM</h2><p><a href="https://www.om.net/les-applications-mobiles-officielles-de-lom?utm_source=om.net&amp;utm_medium=megamenu&amp;utm_campaign=applis"><img alt="" class="media-image unveil" height="84" style="width: 190px; height: 84px; margin:0 auto;    display: list-item;" width="190" typeof="foaf:Image" data-src="https://www.om.net/sites/default/files/visuels-complet-applis-moviles-watch-190-min.png" /></a></p><p>&nbsp;</p><div class="om-block item-list"><ul><li><a href="https://www.om.net/les-applications-mobiles-officielles-de-lom?utm_source=om.net&amp;utm_medium=megamenu&amp;utm_campaign=applis" style="text-align:center;">Découvrir les applis de l&#39;OM</a></li></ul></div>       </section>
+    </div>
+        <div class="partners">
+  <div class="view-content">
+      </div>
+</div>
+  </div></li>
+<li class="stade_supporter"><a href="/stade-velodrome">Le stade</a>
+<div class="om-megamenu-overlay loading tablet-hidden stade_supporter" style="background-image: url('https://www.om.net/sites/default/files/backgrounds/mega-menu_lestade_v3-min.jpg');">
+  <div class="shp-links">
+    
+      <div class="column">
+      <div class="section">
+        <h3 class="title section-title">Le stade Vélodrome</h3>
+        <ul class="item-list">
+                      <li><a href="/diaporama-photos/96669/histoire-du-stade-velodrome-marseille">Histoire du Vélodrome</a></li>
+                      <li><a href="/supporters/covoiturez-entre-supporters">Covoiturez</a></li>
+                      <li><a href="/actualites/le-stade">Actus</a></li>
+                  </ul>
+      </div>
+              <div class="section">
+          <h3 class="title section-title">Média</h3>
+          <ul class="item-list">
+            <li><a href="/actualites/le-stade">Actus</a></li>
+            <li><a href="/videos/le-stade">Vidéos</a></li>
+            <li><a href="/diaporama-photos/le-stade">Les photos
+</a></li>
+          </ul>
+        </div>
+          </div>
+      <div class="see-all">
+      <a href="/stade-velodrome" class="cta white">Tout sur le stade</a>    </div>
+  </div>
+      <div class="analyses">
+      <section class="section om-megamenu-views">
+      <h2 class="title section-title">Les dernières actus</h2>
+      <div class="view view-om-menu-c view-id-om_menu_c view-display-id-actus view-dom-id-54947120128ec68234d7aca30b0939c5">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first"><div class="om-media article">
+      <div class="media-preview"><a href="/actualites/209266/le-velodrome-plus-beau-stade-deurope"><img typeof="foaf:Image" width="460" height="306" alt="" data-src="https://www.om.net/sites/default/files/styles/vignettes_listes/public/151130_velodrome.jpg" class="unveil" /></a></div>
+  </div>
+<div class="om-infos">
+      <a href="/actualites/209266/le-velodrome-plus-beau-stade-deurope">Le Vélodrome, plus beau stade d’Europe ?</a>  </div></li>
+          <li class="views-row views-row-2 views-row-even"><div class="om-media article">
+      <div class="media-preview"><a href="/actualites/206221/le-velodrome-meilleur-stade-de-france"><img typeof="foaf:Image" width="460" height="306" alt="" data-src="https://www.om.net/sites/default/files/styles/vignettes_listes/public/151119_velodrome.jpg" class="unveil" /></a></div>
+  </div>
+<div class="om-infos">
+      <a href="/actualites/206221/le-velodrome-meilleur-stade-de-france">Le Vélodrome, meilleur stade de France</a>  </div></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last"><div class="om-media video">
+      <div class="media-preview"><a href="/videos/188136/la-pelouse-du-velodrome-fait-peau-neuve"><img typeof="foaf:Image" width="460" height="306" alt="" data-src="https://www.om.net/sites/default/files/styles/vignettes_listes/public/150822_pelouse_0.jpg" class="unveil" /></a></div>
+  </div>
+<div class="om-infos">
+      <a href="/videos/188136/la-pelouse-du-velodrome-fait-peau-neuve">La pelouse du Vélodrome fait peau neuve</a>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div></section>    </div>
+          <div class="shop">
+          <section class="section block block-block">
+                 <h2 class="title section-title">Les Applis de l&#39;OM</h2><p><a href="https://www.om.net/les-applications-mobiles-officielles-de-lom?utm_source=om.net&amp;utm_medium=megamenu&amp;utm_campaign=applis"><img alt="" class="media-image unveil" height="84" style="width: 190px; height: 84px; margin:0 auto;    display: list-item;" width="190" typeof="foaf:Image" data-src="https://www.om.net/sites/default/files/visuels-complet-applis-moviles-watch-190-min.png" /></a></p><p>&nbsp;</p><div class="om-block item-list"><ul><li><a href="https://www.om.net/les-applications-mobiles-officielles-de-lom?utm_source=om.net&amp;utm_medium=megamenu&amp;utm_campaign=applis" style="text-align:center;">Découvrir les applis de l&#39;OM</a></li></ul></div>       </section>
+    </div>
+        <div class="partners">
+  <div class="view-content">
+      </div>
+</div>
+  </div></li>
+<li class="stade_supporter"><a href="/supporters">Les supporters</a>
+<div class="om-megamenu-overlay loading tablet-hidden stade_supporter" style="background-image: url('https://www.om.net/sites/default/files/backgrounds/mega-menu_supporter_v3-min.jpg');">
+  <div class="shp-links">
+    
+      <div class="column">
+      <div class="section">
+        <h3 class="title section-title">Les supporters</h3>
+        <ul class="item-list">
+                      <li><a href="/supporters/les-groupes-de-supporters-de-lom">Les groupes de supporters</a></li>
+                      <li><a href="/les-reseaux-sociaux-officiels-olympique-de-marseille-om">Réseaux sociaux</a></li>
+                      <li><a href="/les-applications-mobiles-officielles-de-lom">Applications mobiles</a></li>
+                      <li><a href="https://forum.om.net/">Forum officiel</a></li>
+                      <li><a href="/supporters/les-avantages-de-la-carte-om">Carte bancaire OM</a></li>
+                      <li><a href="/supporters/covoiturez-entre-supporters">Covoiturage</a></li>
+                      <li><a href="http://www.easportsfc.com/">EA Sports FC</a></li>
+                  </ul>
+      </div>
+              <div class="section">
+          <h3 class="title section-title">Média</h3>
+          <ul class="item-list">
+            <li><a href="/actualites/les-supporters">Actus</a></li>
+            <li><a href="/videos/les-supporters">Vidéos</a></li>
+            <li><a href="/diaporama-photos/les-supporters">Les photos
+</a></li>
+          </ul>
+        </div>
+          </div>
+      <div class="see-all">
+      <a href="/supporters" class="cta white">Tout sur les supporters</a>    </div>
+  </div>
+      <div class="analyses">
+      <section class="section om-megamenu-views">
+      <h2 class="title section-title">Les dernières actus</h2>
+      <div class="view view-om-menu-c view-id-om_menu_c view-display-id-actus view-dom-id-baabc90bf43ee49be98d5386ffd3ffc0">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first"><div class="om-media video">
+      <div class="media-preview"><a href="/videos/227434/12e-homme-apres-nice-1-1-om"><img typeof="foaf:Image" width="460" height="306" alt="" data-src="https://www.om.net/sites/default/files/styles/vignettes_listes/public/12ehomme.jpg" class="unveil" /></a></div>
+  </div>
+<div class="om-infos">
+      <a href="/videos/227434/12e-homme-apres-nice-1-1-om">12e hOMme après Nice 1-1 OM</a>  </div></li>
+          <li class="views-row views-row-2 views-row-even"><div class="om-media video">
+      <div class="media-preview"><a href="/videos/226504/12e-homme-apres-trelissac-0-2-om"><img typeof="foaf:Image" width="460" height="306" alt="" data-src="https://www.om.net/sites/default/files/styles/vignettes_listes/public/yan_1235_2.jpg" class="unveil" /></a></div>
+  </div>
+<div class="om-infos">
+      <a href="/videos/226504/12e-homme-apres-trelissac-0-2-om">12e hOMme après Trélissac 0-2 OM</a>  </div></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last"><div class="om-media video">
+      <div class="media-preview"><a href="/videos/226501/les-supporters-saluent-le-de-fletcher"><img typeof="foaf:Image" width="460" height="306" alt="" data-src="https://www.om.net/sites/default/files/styles/vignettes_listes/public/yan_1167_0.jpg" class="unveil" /></a></div>
+  </div>
+<div class="om-infos">
+      <a href="/videos/226501/les-supporters-saluent-le-de-fletcher">Les supporters saluent le but de Fletcher</a>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div></section>    </div>
+          <div class="shop">
+          <section class="section block block-block">
+                 <h2 class="title section-title">Les Applis de l&#39;OM</h2><p><a href="https://www.om.net/les-applications-mobiles-officielles-de-lom?utm_source=om.net&amp;utm_medium=megamenu&amp;utm_campaign=applis"><img alt="" class="media-image unveil" height="84" style="width: 190px; height: 84px; margin:0 auto;    display: list-item;" width="190" typeof="foaf:Image" data-src="https://www.om.net/sites/default/files/visuels-complet-applis-moviles-watch-190-min.png" /></a></p><p>&nbsp;</p><div class="om-block item-list"><ul><li><a href="https://www.om.net/les-applications-mobiles-officielles-de-lom?utm_source=om.net&amp;utm_medium=megamenu&amp;utm_campaign=applis" style="text-align:center;">Découvrir les applis de l&#39;OM</a></li></ul></div>       </section>
+    </div>
+        <div class="partners">
+  <div class="view-content">
+    
+<h3>En partenariat avec</h3>
+
+  <div class="om-media">
+      
+          <a href="http://www.easportsfootball.fr/" target="_blank">
+  <div class="field-partenaire-visuel">
+    <img typeof="foaf:Image" width="60" height="60" data-src="https://www.om.net/sites/default/files/logo_ea_sports.png" class="unveil" />  </div>
+</a>    </div>
+
+  </div>
+</div>
+  </div></li>
+<li class="external"><a href="http://boutique.om.net/stores/om/default.aspx?portal=RMG553NE&amp;CMP=PSC-RMG553NE&amp;lid=4" target="_blank">boutique</a></li>
+<li class="external"><a href="http://www.digitick.com/index-css5-om-pg1.html" target="_blank">billetterie</a></li>
+<li class="external"><a href="https://www.winamax.fr/landing/landing-om.php?banid=27868" target="_blank">parier</a></li>
+  </ul>
+</nav>      </section>
+</div>
+ <!-- /.region -->
+              <div class="fresh-links tablet-hidden">
+      <span class="title">En ce moment</span>
+      <a href="/calendrier-resultats">Calendrier 15/16</a><a href="https://www.om.net/equipes/effectifs/joueurs/2015-2016/equipe-professionnelle">Joueurs de l'OM</a><a href="https://www.om.net/les-reseaux-sociaux-officiels-de-lom">Réseaux sociaux</a><a href="/les-applications-mobiles-officielles-de-lom">Applications mobiles</a><a href="https://www.om.net/actualites/liste/europa-league">Europa League</a>    </div>
+
+    <div class="inner-wrapper">
+            <a class="cartouche" href="/" title="Accueil">
+                  <img src="https://www.om.net/sites/all/themes/om/logo.png" alt="Site officiel de l'Olympique de Marseille" width="294" height="260" />
+              </a>
+    </div>
+    <nav class="breadcrumb tablet-hidden"><h2 class="element-invisible">Vous êtes ici</h2><a href="/">Accueil</a><span class="separator"> > </span><h1><span class="title">Connexion</span></h1></nav>  </header><!-- /#header -->
+
+  <!--  #main-container -->
+  <main id="main-container" class="main-container" role="main">
+
+    
+    <div class="main-content">
+      <div class="inner-wrapper">
+                          <div class="tabs-wrapper"></div>                        
+<form action="/user/login?destination=node/225562" method="post" id="user-login" accept-charset="UTF-8"><div><input type="hidden" name="form_build_id" value="form-ZiB1QqB5BtbJQONd_YFdWDNTqndJoUACntnHOQGX3xw" />
+<input type="hidden" name="form_id" value="user_login" />
+<fieldset class="form-wrapper" id="edit-account"><legend><span class="fieldset-legend">Se connecter</span></legend><div class="fieldset-wrapper"><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Votre email de connexion <span class="form-label-alternate">(ou votre ancien login)</span> <span class="form-required" title="Ce champ est requis.">*</span></label>
+ <input tabindex="1" type="text" id="edit-name" name="name" value="" size="60" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Votre mot de passe <span class="form-label-alternate">(<a href="/user/password">mot de passe oublié ?</a>)</span> <span class="form-required" title="Ce champ est requis.">*</span></label>
+ <input tabindex="2" type="password" id="edit-pass" name="pass" size="60" maxlength="128" class="form-text required" />
+</div>
+<div class="form-actions form-wrapper" id="edit-submit"><input type="submit" id="edit-submit--2" name="op" value="Se connecter" class="form-submit" /></div><div class="form-actions form-login-create-account"><span>-ou-</span><a href="/user/register" class="cta blue">créer un compte</a></div></div></fieldset>
+</div></form>              </div>
+    </div>
+      </main><!--  /#main-container -->
+  
+  <footer id="main-footer" class="main-footer" role="contentinfo">
+    <div class="inner-wrapper">
+      <div class="region region-footer" >
+  <section class="section do-not-miss block block-views do-not-missed">
+            <h2 class="title section-title">A ne pas manquer</h2>
+            <div class="view view-bloc-a-ne-pas-manquer view-id-bloc_a_ne_pas_manquer view-display-id-liste view-dom-id-0fa6e5a5dfbff8385253b2b62075c341">
+        
+  
+  
+      <div class="view-content">
+        <div class="om-block">
+      
+          <div class="om-medias"><div class="om-media"><a href="http://www.digitick.com/index-css5-om-pg1.html" target="_blank">
+  <img typeof="foaf:Image" width="293" height="257" alt="" data-lazy="https://www.om.net/sites/default/files/styles/a_ne_pas_manquer/public/ensemble_au_vel_2matchs_293x257_bloc_billetterie-min.jpg" /></a>
+</div>
+<div class="om-media"><a href="http://www.digitick.com/olympique-de-marseille-athletic-club-bilbao-sport-stade-velodrome-18-fevrier-2016-css5-om-pg101-ri3614348.html" target="_blank">
+  <img typeof="foaf:Image" width="293" height="257" alt="" data-lazy="https://www.om.net/sites/default/files/styles/a_ne_pas_manquer/public/billetterie-293x257-matchs-bilbao_0.jpg" /></a>
+</div>
+<div class="om-media"><a href="http://www.digitick.com/olympique-de-marseille-as-saint-etienne-sport-stade-velodrome-21-fevrier-2016-css5-om-pg101-ri3222404.html" target="_blank">
+  <img typeof="foaf:Image" width="293" height="257" alt="" data-lazy="https://www.om.net/sites/default/files/styles/a_ne_pas_manquer/public/billetterie-293x257-om-saintetienne.jpg" /></a>
+</div>
+<div class="om-media"><a href="http://www.digitick.com/olympique-de-marseille-toulouse-fc-sport-stade-velodrome-05-mars-2016-css5-om-pg101-ri3222406.html" target="_blank">
+  <img typeof="foaf:Image" width="293" height="257" alt="" data-lazy="https://www.om.net/sites/default/files/styles/a_ne_pas_manquer/public/billetterie-293x257-om-toulouse.jpg" /></a>
+</div>
+<div class="om-media"><a href="http://www.digitick.com/olympique-de-marseille-stade-rennais-fc-sport-stade-velodrome-19-mars-2016-css5-om-pg101-ri3222418.html" target="_blank">
+  <img typeof="foaf:Image" width="293" height="257" alt="" data-lazy="https://www.om.net/sites/default/files/styles/a_ne_pas_manquer/public/billetterie-293x257-om-rennes.jpg" /></a>
+</div>
+<div class="om-media"><a href="http://www.digitick.com/olympique-de-marseille-fcg-de-bordeaux-sport-stade-velodrome-09-avril-2016-css5-om-pg101-ri3284306.html" target="_blank">
+  <img typeof="foaf:Image" width="293" height="257" alt="" data-lazy="https://www.om.net/sites/default/files/styles/a_ne_pas_manquer/public/billetterie-293x257-om-bordeaux.jpg" /></a>
+</div>
+<div class="om-media"><a href="http://www.digitick.com/olympique-de-marseille-fc-nantes-sport-stade-velodrome-23-avril-2016-css5-om-pg101-ri3284324.html" target="_blank">
+  <img typeof="foaf:Image" width="293" height="257" alt="" data-lazy="https://www.om.net/sites/default/files/styles/a_ne_pas_manquer/public/billetterie-293x257-om-nantes_0.jpg" /></a>
+</div>
+</div>    
+          <h2 class="title">Billetterie</h2>    </div>
+  <div class="om-block">
+      
+          <div class="om-medias"><div class="om-media"><a href="http://boutique.om.net/stores/om/fr/product/surv%C3%AAtement-de-pr%C3%A9sentation-olympique-de-marseille/158497?lid=4&amp;portal=JYHLOQHL&amp;CMP=PSC-JYHLOQHL" target="_blank">
+  <img typeof="foaf:Image" width="293" height="257" alt="" data-lazy="https://www.om.net/sites/default/files/styles/a_ne_pas_manquer/public/1301_kitbag_widget-1-min.jpg" /></a>
+</div>
+<div class="om-media"><a href="http://boutique.om.net/stores/om/fr/product/doudoune-plume-fan---noir/162155?lid=4&amp;portal=MBNQEC3N&amp;CMP=PSC-MBNQEC3N" target="_blank">
+  <img typeof="foaf:Image" width="293" height="257" alt="" data-lazy="https://www.om.net/sites/default/files/styles/a_ne_pas_manquer/public/1301_kitbag_widget-2-min_0.jpg" /></a>
+</div>
+<div class="om-media"><a href="http://boutique.om.net/stores/om/fr/product/sweat-capuche-fan---gris-chin%C3%A9/162149?lid=4&amp;portal=J19W12MM&amp;CMP=PSC-J19W12MM" target="_blank">
+  <img typeof="foaf:Image" width="293" height="257" alt="" data-lazy="https://www.om.net/sites/default/files/styles/a_ne_pas_manquer/public/1301_kitbag_widget-3-min_0.jpg" /></a>
+</div>
+<div class="om-media"><a href="http://boutique.om.net/stores/om/fr/products/kitselector/om-away-kit-2015-16/maillot-ext%C3%A9rieur-olympique-de-marseille-2015-16/158462?lid=4&amp;portal=VKOBDNF1&amp;CMP=PSC-VKOBDNF1" target="_blank">
+  <img typeof="foaf:Image" width="293" height="257" alt="" data-lazy="https://www.om.net/sites/default/files/styles/a_ne_pas_manquer/public/1301_kitbag_widget-4-min_0.jpg" /></a>
+</div>
+<div class="om-media"><a href="http://boutique.om.net/stores/om/fr/product/bonnet-%C3%A0-pompon---bleu-bleu-marine/162169?lid=4&amp;portal=GH4C1OC8&amp;CMP=PSC-GH4C1OC8" target="_blank">
+  <img typeof="foaf:Image" width="293" height="257" alt="" data-lazy="https://www.om.net/sites/default/files/styles/a_ne_pas_manquer/public/1301_kitbag_widget-5-min_0.jpg" /></a>
+</div>
+</div>    
+          <h2 class="title">Boutique officielle</h2>    </div>
+  <div class="om-block">
+      
+          <div class="om-medias"><div class="om-media"><a href="https://www.winamax.fr/landing/landing-om.php?banid=27864" target="_blank">
+  <img typeof="foaf:Image" width="293" height="257" alt="" data-lazy="https://www.om.net/sites/default/files/styles/a_ne_pas_manquer/public/banner_om_293x257-compressor.gif" /></a>
+</div>
+</div>    
+          <h2 class="title">Pariez sur WINAMAX</h2>    </div>
+  <div class="om-block">
+      
+          <div class="om-medias"><div class="om-media"><a href="/fr/om-tv-online" target="_blank">
+  <img typeof="foaf:Image" width="293" height="257" alt="" data-lazy="https://www.om.net/sites/default/files/styles/a_ne_pas_manquer/public/150925_omtvonline_293.png" /></a>
+</div>
+</div>    
+          <h2 class="title">Abonnez-vous !</h2>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></section>
+    <section class="section block block-views om-partners">
+          <h2 class="title section-title">
+        <span>        Partenaires        </span>      </h2>
+                <div class="view view-bloc-partenaires view-id-bloc_partenaires view-display-id-block view-dom-id-78c752f19de3e73c7ff9f0401a56f0a0">
+        
+  
+  
+      <div class="view-content">
+      <div class="om-block"><ul>  <li>  
+          <div class="om-media"><a href="http://www.adidas.com" target="_blank"><img typeof="foaf:Image" width="79" height="60" data-src="https://www.om.net/sites/default/files/styles/logo_partenaires__/public/adidas.png" class="unveil" /></a>
+</div>  </li>
+  <li>  
+          <div class="om-media"><a href="http://www.intersport.fr/" target="_blank"><img typeof="foaf:Image" width="155" height="50" data-src="https://www.om.net/sites/default/files/styles/logo_partenaires__/public/intersport.png" class="unveil" /></a>
+</div>  </li>
+</ul>  <h3 class="title">
+    <span>
+  
+    Partenaires principaux  
+</span>
+  </h3>
+</div><div class="om-block"><ul>  <li>  
+          <div class="om-media"><a href="http://www.turkishairlines.com/en-fr/" target="_blank"><img typeof="foaf:Image" width="132" height="40" data-src="https://www.om.net/sites/default/files/styles/logo_partenaires__/public/turkish-airlines-maj.png" class="unveil" /></a>
+</div>  </li>
+  <li>  
+          <div class="om-media"><a href="http://www.winamax.fr?banid=27866" target="_blank"><img typeof="foaf:Image" width="48" height="48" data-src="https://www.om.net/sites/default/files/styles/logo_partenaires__/public/logo_winamax_android_48_0.png" class="unveil" /></a>
+</div>  </li>
+  <li>  
+          <div class="om-media"><a href="http://www.citroen.fr/" target="_blank"><img typeof="foaf:Image" width="54" height="40" data-src="https://www.om.net/sites/default/files/styles/logo_partenaires__/public/citroen.png" class="unveil" /></a>
+</div>  </li>
+  <li>  
+          <div class="om-media"><a href="http://www.lesmutuellesdusoleil.fr/" target="_blank"><img typeof="foaf:Image" width="68" height="40" data-src="https://www.om.net/sites/default/files/styles/logo_partenaires__/public/mutuelles-logo.png" class="unveil" /></a>
+</div>  </li>
+  <li>  
+          <div class="om-media"><a href="http://www.le12emehomme.com/" target="_blank"><img typeof="foaf:Image" width="39" height="39" data-src="https://www.om.net/sites/default/files/styles/logo_partenaires__/public/orange.png" class="unveil" /></a>
+</div>  </li>
+  <li>  
+          <div class="om-media"><a href="https://www.caisse-epargne.fr" target="_blank"><img typeof="foaf:Image" width="184" height="33" data-src="https://www.om.net/sites/default/files/styles/logo_partenaires__/public/cepach-min_0.jpg" class="unveil" /></a>
+</div>  </li>
+</ul>  <h3 class="title">
+    <span>
+  
+    Partenaires officiels  
+</span>
+  </h3>
+</div><div class="om-block"><ul>  <li>  
+          <div class="om-media"><a href="http://www.boulanger.com/" target="_blank"><img typeof="foaf:Image" width="97" height="60" data-src="https://www.om.net/sites/default/files/styles/logo_partenaires__/public/boulanger-logo-min.png" class="unveil" /></a>
+</div>  </li>
+  <li>  
+          <div class="om-media"><a href="http://quick.fr" target="_blank"><img typeof="foaf:Image" width="36" height="60" data-src="https://www.om.net/sites/default/files/styles/logo_partenaires__/public/150223_quick_60.png" class="unveil" /></a>
+</div>  </li>
+  <li>  
+          <div class="om-media"><a href="http://www.coca-cola.fr/" target="_blank"><img typeof="foaf:Image" width="157" height="60" data-src="https://www.om.net/sites/default/files/styles/logo_partenaires__/public/coca-cola-60_0.png" class="unveil" /></a>
+</div>  </li>
+</ul>  <h3 class="title">
+    <span>
+  
+    Fournisseurs officiels  
+</span>
+  </h3>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>      </section>
+</div>
+ <!-- /.region -->
+      <div class="region-bottom">
+        <div class="main-footer-links">
+          <div class="main-footer-links-inner">
+            <div class="main-footer-credits">© 2016 / Olympique de Marseille - Tous droits réservés</div>
+            <ul class="links"><li class="menu-685 first"><a href="/conditions-generales-globales-sur-omnet-et-omtv" title="">Conditions générales</a></li>
+<li class="menu-1065"><a href="/mentions-legales" title="">Mentions légales</a></li>
+<li class="menu-1084"><a href="/webform/169351/nous-contacter" title="">Contact</a></li>
+<li class="menu-1083 last"><a href="/club/espace-presse" title="">Presse</a></li>
+</ul>          </div>
+        </div>
+      </div>
+          </div>
+  </footer><!-- /#footer -->
+</div> <!-- /#container -->
+
+
+<div class="om-covering tablet-hidden">
+  <a class="om-covering-link" href="#" target="_blank">
+    <img class="om-covering-img" src="" alt="">
+  </a>
+</div>
+        <script type="text/javascript" src="https://www.om.net/sites/default/files/js/js_-1DavVR8O37SJxvhtfeyX3n-h2lwcHeV4gcuUcXem5A.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.cookieconsent_options = {"message":"Le site web OM.net utilise des cookies pour proposer la meilleure expérience à ses utilisateurs.","dismiss":"OK, fermer.","learnMore":"(plus d'informations)","link":"https://www.om.net/utilisation-des-cookies-sur-omnet","theme":""};
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.om.net/sites/default/files/js/js_8fSTxrssqM9bNjUgK8TuJQF7wGum5Aq3ybvFNCasNQU.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"om","theme_token":"krymorFou-TkaWJ-w1yw7lMnkED8TmkufJtbJYV6Jg8","js":{"0":1,"https:\/\/www.googletagservices.com\/tag\/js\/gpt.js":1,"1":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/jquery.cookie.js":1,"misc\/form.js":1,"public:\/\/languages\/fr_6llHuMH4etwpUaeG6aooOh1R--d8vxWWSLK0bRFo5CM.js":1,"sites\/all\/modules\/contrib\/authcache\/authcache.js":1,"sites\/all\/modules\/contrib\/authcache\/modules\/authcache_debug\/authcache_debug.js":1,"2":1,"sites\/all\/themes\/om\/dist\/scripts\/all.min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/taxonomy_access\/taxonomy_access.css":1,"sites\/all\/modules\/contrib\/authcache\/modules\/authcache_debug\/authcache_debug.css":1,"sites\/all\/modules\/contrib\/easy_social\/css\/easy_social.css":1,"modules\/locale\/locale.css":1,"sites\/all\/themes\/om\/dist\/styles\/main.css":1}},"authcache":{"q":"user\/login","cp":{"path":"\/","domain":".om.net","secure":true},"cl":0.0034722222222222},"better_exposed_filters":{"views":{"bloc_partenaires":{"displays":{"type_theme":{"filters":[]},"block":{"filters":[]}}},"om_menu_c":{"displays":{"an_match":{"filters":[]},"but":{"filters":[]},"diapo":{"filters":[]},"actus":{"filters":[]}}},"bloc_a_ne_pas_manquer":{"displays":{"liste":{"filters":[]}}},"om_interstitiel":{"displays":{"om_interstitiel":{"filters":[]}}}}},"authcacheDebug":{"url":"\/authcache-debug\/ajax\/req-UdJ0bXjzsvYd4LzyBbzOaveWDdIfUutQH3Za1QGkSWQ","all":false},"urlIsAjaxTrusted":{"\/user\/login?destination=node\/225562":true},"clientsideValidation":{"general":{"months":{"janvier":1,"jan":1,"F\u00e9vrier":2,"f\u00e9v":2,"mars":3,"mar":3,"avril":4,"avr":4,"mai":5,"juin":6,"juillet":7,"juil":7,"ao\u00fbt":8,"ao\u00fb":8,"septembre":9,"sep":9,"octobre":10,"oct":10,"novembre":11,"nov":11,"d\u00e9cembre":12,"d\u00e9c":12}}}});
+//--><!]]>
+</script>
+    <script>
+            var type = "Anonyme";
+      ga('set', 'dimension7', type);
+            //GA push
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>

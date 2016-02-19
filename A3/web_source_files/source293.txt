@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buick Scores Big Traffic After Super Bowl Ad | GM Authority</title>
+<script>
+	// This function returns a normalized screen size to match the TypeGrid theme.
+	function get_ad_size($position) {
+		var $adsense_helper = 'src="https://pagead2.googlesyndication.com/pagead/show_ads.js"';
+		var $ynb_helper = 'src="https://contextual.media.net/nmedianet.js?cid=8CU1J6XKQ"';
+		var $aol_helper = 'src="https://uac.advertising.com/wrapper/aceUAC.js"';
+		var $adtech_helper = '';
+		switch($position) {
+			/*
+			The logo-center and bottom-center work together.  When the page is too small for the header,
+				it drops down under the second nav bar.
+			The actual display code for these ad locations are in this file (header.php)
+			*/
+			case "header-logo-center":
+				// Logo area in header.  Disappears when size is less then 700 via CSS
+				var $width = window.innerWidth || document.documentElement.clientWidth;
+				if ($width >= 1050 ) { return ['google_ad_client = "ca-pub-7194783345442697";  google_ad_slot = "4873542961";  google_ad_width = 728;  google_ad_height = 90;', $adsense_helper]; }
+				else if ($width >= 800 ) { return ['google_ad_client = "ca-pub-7194783345442697";  google_ad_slot = "4811202363";  google_ad_width = 468;  google_ad_height = 60;', $adsense_helper]; }
+				else { return ['','']; }
+				break;
+			case "header-bottom-center":
+				// Area under 2nd Menu.
+				var $width = window.innerWidth || document.documentElement.clientWidth;
+				//if ($width >= 728 ) { return ['google_ad_client = "ca-pub-7194783345442697";  google_ad_slot = "3411313564";  google_ad_width = 728;  google_ad_height = 90;', $adsense_helper]; }
+				// else if ($width >= 468 ) { return ['google_ad_client = "ca-pub-7194783345442697";  google_ad_slot = "4811202363";  google_ad_width = 468;  google_ad_height = 60;', $adsense_helper]; }
+				if ($width < 800 && $width >= 336 ) { return ['google_ad_client = "ca-pub-7194783345442697";  google_ad_slot = "3401280366";  google_ad_width = 336;  google_ad_height = 280;', $adsense_helper]; }
+				else if ($width < 336 ) { return ['google_ad_client = "ca-pub-7194783345442697";  google_ad_slot = "2242304768";  google_ad_width = 300;  google_ad_height = 250;', $adsense_helper]; }
+				else { return ['','']; }
+				break;
+			/*
+			The home-featured and below-image-center displays an ad below the featured articles on the home page,
+				as well as an ad below the featured article on a post.
+			*/
+			case "home-featured":
+			case "intelligence-content":	// Ad code is located in page-templates/intelligence.php
+			case "below-image-center":
+				// Area under featured articles on home page and below article on single
+				var $addiv = document.getElementById("featured-image-wrapper").clientWidth;
+				if ($addiv >= 720 ) { return ['google_ad_client = "ca-pub-7194783345442697";  google_ad_slot = "5181557166";  google_ad_width = 728;  google_ad_height = 90;', $adsense_helper]; }
+				// else if ($addiv >= 460 ) { return ['google_ad_client = "ca-pub-7194783345442697";  google_ad_slot = "4811202363";  google_ad_width = 468;  google_ad_height = 60;', $adsense_helper]; }
+				else if ($addiv >= 328 ) { return ['google_ad_client = "ca-pub-7194783345442697";  google_ad_slot = "3401280366";  google_ad_width = 336;  google_ad_height = 280;', $adsense_helper]; }
+				else if ($addiv < 328 ) { return ['google_ad_client = "ca-pub-7194783345442697";  google_ad_slot = "2242304768";  google_ad_width = 300;  google_ad_height = 250;', $adsense_helper]; }
+				else { return ['','']; }
+				break;
+				
+			case "below-content":	// Ad placed below content in article, after 1st article on home page
+			case "header-replace-center":
+				// Below article in single and after 1st article on home.  Only appears when size is less than 700 via CSS
+				var $width = window.innerWidth || document.documentElement.clientWidth;
+				if ($width >= 728 ) { return ['google_ad_client = "ca-pub-7194783345442697";  google_ad_slot = "3411313564";  google_ad_width = 728;  google_ad_height = 90;', $adsense_helper]; }
+				else if ($width < 728 && $width >= 336 ) { return ['google_ad_client = "ca-pub-7194783345442697";  google_ad_slot = "3401280366";  google_ad_width = 336;  google_ad_height = 280;', $adsense_helper]; }
+				else if ($width < 336 ) { return ['google_ad_client = "ca-pub-7194783345442697";  google_ad_slot = "2242304768";  google_ad_width = 300;  google_ad_height = 250;', $adsense_helper]; }
+				else { return ['','']; }
+				break;
+			case "home-loop":
+			case "comments":
+				// Every 4 articles on home page
+				var $addiv = document.getElementById("ads-content-wrapper").clientWidth;
+				if ( $addiv >= 728 ) { return ['','src="https://adserver.adtechus.com/addyn|3.0|9994.1|3505735|0|225|ADTECH;loc=100;target=_blank;misc=[TIMESTAMP];rdclick="']; }
+				else if ($addiv  < 728 )  { return ['','src="https://adserver.adtechus.com/addyn|3.0|9994.1|3508064|0|170|ADTECH;loc=100;target=_blank;misc=[TIMESTAMP];rdclick="']; }
+				else { return ['','']; }
+				break;				
+			case "footer":
+		        // Footer area, center.
+                var $addiv = window.innerWidth || document.documentElement.clientWidth;
+                if ($addiv >= 728 ) { return ['','src="https://adserver.adtechus.com/addyn|3.0|9994.1|3508062|0|225|ADTECH;loc=100;target=_blank;misc=[TIMESTAMP];rdclick="']; }
+                else if ($addiv < 728 ) { return ['','src="https://adserver.adtechus.com/addyn|3.0|9994.1|3508061|0|170|ADTECH;loc=100;target=_blank;misc=[TIMESTAMP];rdclick="']; }
+				else { return ['','']; }
+                break;
+		}
+	}
+
+	</script>
+<link rel="stylesheet" href="//gmauthority.com/blog/wp-content/themes/typegrid11_child/style.css">
+<link rel="pingback" href="//gmauthority.com/blog/xmlrpc.php">
+<script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic|Fjalla+One' rel='stylesheet' type='text/css'>
+<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="//gmauthority.com/blog/wp-content/themes/typegrid11/js/ie/selectivizr.js"></script>
+	<![endif]-->
+ 
+ 
+<script type="text/javascript">
+if(document.location.protocol=='http:'){
+ var Tynt=Tynt||[];Tynt.push('as2bKu230r4OHsacwqm_6r');
+ (function(){var s=document.createElement('script');s.async="async";s.type="text/javascript";s.src='http://tcr.tynt.com/ti.js';var h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})();
+}
+</script>
+ 
+ 
+ 
+ 
+<link rel="author" href="//plus.google.com/b/106522224833753772925/106522224833753772925"/>
+<meta name="description" itemprop="description" content="The 2016 Buick Cascada Super Bowl ad returned healthy margins of traffic for the brand and the car."/>
+<meta name="keywords" itemprop="keywords" content="buick super bowl,super bowl ad,super bowl commercial,super bowl commercial stats,super bowl ad traffic,buick ad traffic,buick traffic,buick ad,buick commercial,2016 buick cascada,2016 buick,2016 cascada,buick cascada,buick,cascada,buick convertible,buick cascada news,cascada news,buick news,gm news,general motors news,gm,general motors,luxury convertible news,luxury convertible,convertible news,convertible,luxury auto news,luxury autos,auto news,autos,car news,cars,advertising,marketing,buzz,business,news,market research,super bowl,nfl,online,report"/>
+<link rel="canonical" href="//gmauthority.com/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/"/>
+<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-10454573-1']);
+		  _gaq.push(['_setDomainName', 'gmauthority.com']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+ 
+<link rel="alternate" type="application/rss+xml" title="GM Authority &raquo; Feed" href="//gmauthority.com/blog/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="GM Authority &raquo; Comments Feed" href="//gmauthority.com/blog/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="GM Authority &raquo; Buick Sees Major Uptick In Online Traffic Following Cascada Super Bowl Ad Comments Feed" href="//gmauthority.com/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/feed/"/>
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/gmauthority.com\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=29955fea1d2415c1105ab90d47587502"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),c.toDataURL().length>3e3):("simple"===a?d.fillText(String.fromCharCode(55357,56835),0,0):d.fillText(String.fromCharCode(55356,57135),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-0.1em!important;background:none!important;padding:0!important;}</style>
+<link rel='stylesheet' id='bwp-capt-css' href='//gmauthority.com/blog/wp-content/plugins/bwp-recaptcha/assets/css/custom-theme.css?ver=29955fea1d2415c1105ab90d47587502' media='all'/>
+<link rel='stylesheet' id='mailchimpSF_main_css-css' href='//gmauthority.com/blog/?mcsf_action=main_css&#038;ver=29955fea1d2415c1105ab90d47587502' media='all'/>
+<!--[if IE]>
+<link rel='stylesheet' id='mailchimpSF_ie_css-css'  href='//gmauthority.com/blog/wp-content/plugins/mailchimp/css/ie.css?ver=29955fea1d2415c1105ab90d47587502'  media='all' />
+<![endif]-->
+<link rel='stylesheet' id='bbp-default-css' href='//gmauthority.com/blog/wp-content/themes/typegrid11_child/css/bbpress.css?ver=29955fea1d2415c1105ab90d47587502-5815' media='screen'/>
+<link rel='stylesheet' id='wpbfsb-frontend-icons-css' href='//gmauthority.com/blog/wp-content/plugins/fixed-wp-social-share-buttons/assets/css/wpbfsb-frontend-icons.css?ver=29955fea1d2415c1105ab90d47587502' media='all'/>
+<link rel='stylesheet' id='wpbfsb-frontend-css' href='//gmauthority.com/blog/wp-content/plugins/fixed-wp-social-share-buttons/assets/css/wpbfsb-frontend.css?ver=29955fea1d2415c1105ab90d47587502' media='all'/>
+<style id='wpbfsb-frontend-inline-css' type='text/css'>.wpbfsb .wpbfsb-button-named-google{background-color:#d64937;color:#ffffff;}.wpbfsb .wpbfsb-button-named-google:hover{background-color:#c53826;}.wpbfsb .wpbfsb-button-named-twitter{background-color:#327ead;color:#ffffff;}.wpbfsb .wpbfsb-button-named-twitter:hover{background-color:#216d9c;}.wpbfsb .wpbfsb-button-named-facebook{background-color:#3b5997;color:#ffffff;}.wpbfsb .wpbfsb-button-named-facebook:hover{background-color:#2a4886;}.wpbfsb button:nth-child(n+4){display:none;}.wpbfsb button.wpbfsb-more-button{display:inline-block;}.wpbfsb{left:0;top:38%;right:auto;bottom:auto;text-align:left;max-width:55px;width:auto;}.wpbfsb i{font-size:23px;}.wpbfsb button{margin:5px 5px 0 0;height:45px;width:45px;display:block;}.wpbfsb-count{font-size:11px;}.wpbfsb button.wpbfsb-more-button{display:none;}.wpbfsb button.wpbfsb-share-info{font-size:12px;color:#ffffff;}.wpbfsb-share-info-responsive-inner{display:none;}.wpbfsb-share-info-inner{display:inline;}.wpbfsb button.wpbfsb-tooltips span.wpbfsb-tooltip{font-size:12px;color:#ffffff;}.wpbfsb button.wpbfsb-tooltips span.wpbfsb-tooltip:after{top:50%;right:100%;bottom:auto;left:auto;margin:-8px 0 0 0;width:0;height:0;border-right:8px solid #000000;border-top:8px solid transparent;border-bottom:8px solid transparent;border-left:0 none;}.wpbfsb button.wpbfsb-tooltips:hover span.wpbfsb-tooltip{left:55px;top:7.5px;right:auto;bottom:auto;margin:0;}@media all and (min-width: 968px) {}@media all and (max-width: 968px) {wpbfsb button.wpbfsb-more-button{display:none;}.wpbfsb button:nth-child(n+4){display:inline-block}.wpbfsb button:nth-child(n+4){display:none;}.wpbfsb{max-height:60px;width:100%;left:auto;top:auto;right:auto;bottom:0;text-align:center;max-width:100%;}.wpbfsb i{font-size:25px;}.wpbfsb button{margin:0 0 5px 5px;height:50px;width:50px;display:inline-block;}.wpbfsb-count{font-size:13px;}.wpbfsb button.wpbfsb-share-info{font-size:10px;min-height:50px;min-width:50px;color:#ffffff;}.wpbfsb-share-info-responsive-inner{display:inline;}.wpbfsb-share-info-inner{display:none;}.wpbfsb button.wpbfsb-tooltips span.wpbfsb-tooltip{font-size:10px;color:#ffffff;}.wpbfsb button.wpbfsb-tooltips span.wpbfsb-tooltip:after{top:100%;left:50%;right:auto;bottom:auto;margin:0 0 0 -8px;width:0;height:0;border-top:8px solid #000000;border-right:8px solid transparent;border-left:8px solid transparent;border-bottom:0 none;}.wpbfsb button.wpbfsb-tooltips:hover span.wpbfsb-tooltip{bottom:60px;left:50%;top:auto;right:auto;margin:0 0 0 -70px;}}</style>
+<link rel='stylesheet' id='foobox-min-css' href='//gmauthority.com/blog/wp-content/plugins/fooboxV2/css/foobox.min.css?ver=29955fea1d2415c1105ab90d47587502' media='all'/>
+<link rel='stylesheet' id='NextGEN-css' href='//gmauthority.com/blog/wp-content/plugins/nextcellent-gallery-nextgen-legacy/css/nggallery.css?ver=29955fea1d2415c1105ab90d47587502' media='screen'/>
+<link rel='stylesheet' id='NextCellent-Framework-css' href='//gmauthority.com/blog/wp-content/plugins/nextcellent-gallery-nextgen-legacy/css/framework-min.css?ver=29955fea1d2415c1105ab90d47587502' media='screen'/>
+<link rel='stylesheet' id='style-responsive-css' href='//gmauthority.com/blog/wp-content/themes/typegrid11/style-responsive.css?ver=29955fea1d2415c1105ab90d47587502' media='all'/>
+<link rel='stylesheet' id='wpbandit-style-css' href='//gmauthority.com/blog/wp-content/themes/typegrid11/styles/1220.css?ver=29955fea1d2415c1105ab90d47587502' media='all'/>
+<link rel='stylesheet' id='font-awesome-css' href='//gmauthority.com/blog/wp-content/themes/typegrid11/fonts/font-awesome.min.css?ver=29955fea1d2415c1105ab90d47587502' media='all'/>
+<link rel='stylesheet' id='mtmb-menu-bar-styles-css' href='//gmauthority.com/blog/wp-content/plugins/motrolix-top-menu-bar/inc/css/mtmb_menu_bar_styles.css?ver=29955fea1d2415c1105ab90d47587502' media='all'/>
+<link rel='stylesheet' id='mtmb-searchbox-styles-css' href='//gmauthority.com/blog/wp-content/plugins/motrolix-top-menu-bar/inc/css/mtmb_searchbox_styles.css?ver=29955fea1d2415c1105ab90d47587502' media='all'/>
+<link rel='stylesheet' id='mtmb-modal-login-styles-css' href='//gmauthority.com/blog/wp-content/plugins/motrolix-top-menu-bar/inc/css/mtmb_modal_login_styles.css?ver=29955fea1d2415c1105ab90d47587502' media='all'/>
+<link rel='stylesheet' id='mtmb-modal-search-styles-css' href='//gmauthority.com/blog/wp-content/plugins/motrolix-top-menu-bar/inc/css/mtmb_modal_search_styles.css?ver=29955fea1d2415c1105ab90d47587502' media='all'/>
+<link rel='stylesheet' id='jetpack_css-css' href='//gmauthority.com/blog/wp-content/plugins/jetpack/css/jetpack.css?ver=29955fea1d2415c1105ab90d47587502' media='all'/>
+<script type='text/javascript' src='//gmauthority.com/blog/wp-includes/js/jquery/jquery.js?ver=29955fea1d2415c1105ab90d47587502'></script>
+<script type='text/javascript' src='//gmauthority.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=29955fea1d2415c1105ab90d47587502'></script>
+<script type='text/javascript' src='//gmauthority.com/blog/wp-content/plugins/mailchimp/js/scrollTo.js?ver=29955fea1d2415c1105ab90d47587502'></script>
+<script type='text/javascript' src='//gmauthority.com/blog/wp-includes/js/jquery/jquery.form.min.js?ver=29955fea1d2415c1105ab90d47587502'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mailchimpSF = {"ajax_url":"http:\/\/gmauthority.com\/blog\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//gmauthority.com/blog/wp-content/plugins/mailchimp/js/mailchimp.js?ver=29955fea1d2415c1105ab90d47587502'></script>
+<script type='text/javascript' src='//gmauthority.com/blog/wp-content/plugins/nextcellent-gallery-nextgen-legacy/js/owl.carousel.min.js?ver=29955fea1d2415c1105ab90d47587502'></script>
+<script type='text/javascript' src='//gmauthority.com/blog/wp-content/plugins/fooboxV2/js/foobox.min.js?ver=29955fea1d2415c1105ab90d47587502'></script>
+<link rel='https://api.w.org/' href='//gmauthority.com/blog/wp-json/'/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="//gmauthority.com/blog/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="//gmauthority.com/blog/wp-includes/wlwmanifest.xml"/>
+<link rel='prev' title='Executives Remain Quiet On Upcoming V8-Powered Sportscar Heading To Holden' href='//gmauthority.com/blog/2016/02/executives-remain-quiet-on-upcoming-v8-power-sportscar-heading-to-holden/'/>
+<link rel='next' title='General Motors Continues To Cut Rental Fleet Sales To Grow Margins' href='//gmauthority.com/blog/2016/02/general-motors-continues-to-cut-rental-fleet-sales-to-grow-margins/'/>
+<link rel='shortlink' href='//gmauthority.com/blog/?p=117446'/>
+<link rel="alternate" type="application/json+oembed" href="//gmauthority.com/blog/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fgmauthority.com%2Fblog%2F2016%2F02%2Fbuick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="//gmauthority.com/blog/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fgmauthority.com%2Fblog%2F2016%2F02%2Fbuick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad%2F&#038;format=xml"/>
+<link rel="apple-touch-icon" href="//gmauthority.com/blog/wp-content/uploads/2015/01/GMA-2015-Web-Clip-Logo-January-19-2015.jpg"/>
+<script type="text/javascript">/* Run FooBox (v2.3.2.25) */
+(function( FOOBOX, $, undefined ) {
+  FOOBOX.o = {wordpress: { enabled: true }, deeplinking : { enabled: false }, captions: { overrideTitle:true, titleSource:'image_alt', overrideDesc:true, descSource:'anchor', prettify:true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }, error: "Sorry, the image couldn\'t load", slideshow: { enabled:true}, social: { enabled: true, excludes: ['iframe','html'], onlyShowOnHover:true, position: 'fbx-top', links: [ { css: 'fbx-facebook', title: 'Facebook', url: 'http://www.facebook.com/sharer.php?u={url}'  }, { css: 'fbx-google-plus', title: 'Google+', url: 'https://plus.google.com/share?url={url-ne}'  }, { css: 'fbx-twitter', title: 'Twitter', url: 'https://twitter.com/share?url={url}&text={title}&via=afroehlich&hashtags=GMchat'  }, { css: 'fbx-pinterest', title: 'Pinterest', url: 'https://pinterest.com/pin/create/bookmarklet/?media={img!}&url={url}&is_video={is_video}&description={title}'  }, { css: 'fbx-linkedin', title: 'LinkedIn', url: 'http://www.linkedin.com/shareArticle?url={url}&title={title}'  } ] }, preload:true, modalClass: "fbx-spinner-7"};
+  FOOBOX.init = function() {
+    $(".fbx-link").removeClass("fbx-link");
+    $(".ngg-galleryoverview, .ngg-widget").foobox(FOOBOX.o);
+    $(".gallery").foobox(FOOBOX.o);
+    $(".afroehlich").foobox(FOOBOX.o);
+    $(".foobox, [target=\"foobox\"]").foobox(FOOBOX.o);
+    $(".wp-caption").foobox(FOOBOX.o);
+    $("a:has(img[class*=wp-image-])").foobox(FOOBOX.o);
+
+  };
+}( window.FOOBOX = window.FOOBOX || {}, jQuery ));
+
+jQuery(function() {
+  //preload the foobox font
+  jQuery("body").append("<span style=\"font-family:'foobox'; color:transparent; position:absolute; top:-1000em;\">f</span>");
+  FOOBOX.init();
+  jQuery(document).trigger("foobox-after-init");
+
+});
+</script> 
+<link rel="shortcut icon" href="//gmauthority.com/blog/wp-content/uploads/2015/01/GMA-2015-Favicon-January-19-2015.jpg">
+<style type="text/css" media="all">@import url("http://gmauthority.com/blog/wp-content/plugins/wp-table-reloaded/css/plugin.css?ver=1.9.4");@import url("http://gmauthority.com/blog/wp-content/plugins/wp-table-reloaded/css/datatables.css?ver=1.9.4");.negative-row td,.negative-number{background-color:#E69999!important;}.positive-row td,.positive-number{background-color:#CFFFCC!important;}.wp-table-reloaded-id-12 td,.wp-table-reloaded-id-12 th{text-align:center;}.wp-table-reloaded-id-12 tbody .column-1{text-align:left;}</style>
+ 
+<meta property="fb:admins" content="100000686899395"/>
+<meta property="fb:app_id" content="216102895086608"/>
+<meta property="og:url" content="http://gmauthority.com/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/"/>
+<meta property="og:title" content="Buick Sees Major Uptick In Online Traffic Following Cascada Super Bowl Ad"/>
+<meta property="og:site_name" content="GM Authority"/>
+<meta property="og:description" content="The numbers don&#039;t lie."/>
+<meta property="og:type" content="article"/>
+<meta property="og:image" content="http://gmauthority.com/blog/wp-content/uploads/2015/11/GMA-2015-Logo-250px.jpeg"/>
+<meta property="og:image" content="http://gmauthority.com/blog/wp-content/uploads/2016/02/2016-Buick-Cascada-Super-Bowl-Ad-1024x576.jpg"/>
+<meta property="og:locale" content="en_us"/>
+ 
+<style type="text/css"></style></head>
+<body class="single single-post postid-117446 single-format-standard">
+<div class="body-wrapper">
+<header id="header">
+<nav class="nav-container group mtmb-fixed" id="nav-header">
+<div class="container">
+<li class='menu-item mtmb-searchbox-icon'><i class='icon-search sb-icon-size'></i></li><li class='menu-item mtmb-right'><div class='mtmb-searchwrap'><form action='/' method='get'><input type='text' placeholder='Search...' name='s' class='mtmb-searchbox' required><i class='icon-remove sb-icon-size mtmb-close-icon'></i></form></div></li><ul class='nav mtmb-nav'><li class='menu-item mtmb-menu-item login-link  mtmb-show'><a id='show_login' href='#'>Sign In</a></li><li class='menu-item mtmb-menu-item register-link  mtmb-show'><a href='http://gmauthority.com/blog/register/'>Sign Up</a></li></ul> <div class="nav-toggle" id="nav-header-toggle"><i class="icon-reorder"></i></div>
+<div class="nav-wrap">
+<ul id="menu-header" class="nav container group"><li id="menu-item-41108" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41108"><a href="http://gmauthority.com">News</a></li><li id="menu-item-41237" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41237"><a href="http://gmauthority.com/blog/forum/">Forum</a></li><li id="menu-item-41238" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41238"><a href="http://gmauthority.com/blog/gallery/">Photos</a></li><li id="menu-item-41239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41239"><a href="http://gmauthority.com/blog/tip-us/">Tip Us</a></li><li id="menu-item-117952" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-117952"><a href="http://gmauthority.com/blog/about/">About</a></li><li id="menu-item-41586" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41586"><a href="http://gmauthority.com/blog/subscribe/">Subscribe</a></li><li id="menu-item-43761" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43761"><a href="http://gmauthority.com/blog/support/">Support</a></li><li id="menu-item-117953" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117953"><a href="http://fordauthority.com">Ford Authority</a></li><li id="menu-item-117954" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117954"><a href="http://fcauthority.com">FCA Authority</a></li></ul> </div>
+</div>
+</nav> 
+<div class="container">
+<div id="header-logo-wrapper"> 
+<div id="header-logo-container-left">
+<p id="logo"><a href="http://gmauthority.com/blog/" rel="home"><img src="//gmauthority.com/blog/wp-content/uploads/2015/01/GMA-2015-Logo-1-13-20151.jpeg" alt="GM Authority"></a></p>
+</div>
+<div id="header-logo-container-center">
+<script>var ad_data = get_ad_size('header-logo-center');
+								document.write('<script type="text/javascript"> ' + ad_data[0] + '<' + '\/script>'); </script>
+<script> document.write('<script type="text/javascript" ' + ad_data[1] + '><' + '\/script>'); </script>
+</div>
+<div id="header-logo-container-right">
+<ul id="header-social" class="social-module"><li><a class="social-tooltip" href="http://facebook.com/gmauthority" title="Facebook" target="_blank"><i class="icon-facebook-sign"></i></a></li><li><a class="social-tooltip" href="http://twitter.com/gmauthority" title="Twitter" target="_blank"><i class="icon-twitter"></i></a></li><li><a class="social-tooltip" href="http://plus.google.com/b/106522224833753772925/106522224833753772925" title="G+" target="_blank"><i class="icon-google-plus-sign"></i></a></li></ul>
+</div>
+</div> 
+<nav class="nav-container group" id="nav-subheader">
+<div class="nav-toggle" id="nav-subheader-toggle"><i class="icon-reorder"></i></div>
+<div class="nav-wrap">
+<ul id="menu-subheader" class="nav container group"><li id="menu-item-41240" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41240"><a href="http://gmauthority.com/blog/category/chevrolet/">Chevrolet</a></li><li id="menu-item-41241" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41241"><a href="http://gmauthority.com/blog/category/buick/">Buick</a>
+<ul class="sub-menu">
+<li id="menu-item-78629" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78629"><a href="http://gmauthority.com/blog/category/buick/encore/">Encore</a></li> <li id="menu-item-78630" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78630"><a href="http://gmauthority.com/blog/category/buick/envision/">Envision</a></li> <li id="menu-item-78631" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78631"><a href="http://gmauthority.com/blog/category/buick/enspire/">Enspire (Upcoming)</a></li> <li id="menu-item-78632" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78632"><a href="http://gmauthority.com/blog/category/buick/enclave/">Enclave</a></li> <li id="menu-item-78633" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78633"><a href="http://gmauthority.com/blog/category/buick/excelle/">Excelle</a></li> <li id="menu-item-78634" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78634"><a href="http://gmauthority.com/blog/category/buick/excelle/excelle-gt/">Excelle GT</a></li> <li id="menu-item-78635" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78635"><a href="http://gmauthority.com/blog/category/buick/excelle/excelle-xt/">Excelle XT</a></li> <li id="menu-item-78636" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-78636"><a href="http://gmauthority.com/blog/category/buick/verano/">Verano</a>
+<ul class="sub-menu">
+<li id="menu-item-78637" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78637"><a href="http://gmauthority.com/blog/category/buick/verano/verano-turbo/">Verano Turbo</a></li> </ul>
+</li> <li id="menu-item-78638" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-78638"><a href="http://gmauthority.com/blog/category/buick/regal/">Regal</a>
+<ul class="sub-menu">
+<li id="menu-item-78639" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78639"><a href="http://gmauthority.com/blog/category/buick/regal/regal-eassist/">Regal eAssist</a></li> <li id="menu-item-78644" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78644"><a href="http://gmauthority.com/blog/category/buick/regal/regal-turbo/">Regal Turbo</a></li> <li id="menu-item-78642" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78642"><a href="http://gmauthority.com/blog/category/buick/regal/regal-gs/">Regal GS</a></li> <li id="menu-item-78641" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78641"><a href="http://gmauthority.com/blog/category/buick/regal/regal-grand-national/">Regal Grand National</a></li> <li id="menu-item-78640" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78640"><a href="http://gmauthority.com/blog/category/buick/regal/regal-gnx/">Regal GNX</a></li> </ul>
+</li> <li id="menu-item-78646" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-78646"><a href="http://gmauthority.com/blog/category/buick/lacrosse/">LaCrosse</a>
+<ul class="sub-menu">
+<li id="menu-item-78647" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78647"><a href="http://gmauthority.com/blog/category/buick/lacrosse/lacrosse-eassist/">LaCrosse eAssist</a></li> </ul>
+</li> <li id="menu-item-78649" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78649"><a href="http://gmauthority.com/blog/category/buick/park-avenue/">Park Avenue</a></li> <li id="menu-item-78648" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78648"><a href="http://gmauthority.com/blog/category/buick/gl8/">GL8</a></li> <li id="menu-item-78650" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-78650"><a href="http://gmauthority.com/blog/category/buick/buick-cascada/">Cascada (Upcoming)</a></li> <li id="menu-item-78651" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78651"><a href="http://gmauthority.com/blog/category/buick/buick-concepts/velite/">Velite (Upcoming)</a></li></ul>
+</li><li id="menu-item-41242" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41242"><a href="http://gmauthority.com/blog/category/gmc/">GMC</a>
+<ul class="sub-menu">
+<li id="menu-item-78654" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78654"><a href="http://gmauthority.com/blog/category/gmc/acadia/">Acadia</a></li> <li id="menu-item-78655" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78655"><a href="http://gmauthority.com/blog/category/gmc/acadia/acadia-denali/">Acadia Denali</a></li> <li id="menu-item-78652" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78652"><a href="http://gmauthority.com/blog/category/gmc/terrain/">Terrain</a></li> <li id="menu-item-78653" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78653"><a href="http://gmauthority.com/blog/category/gmc/terrain/terrain-denali/">Terrain Denali</a></li> <li id="menu-item-78656" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78656"><a href="http://gmauthority.com/blog/category/gmc/yukon/">Yukon</a></li> <li id="menu-item-78658" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78658"><a href="http://gmauthority.com/blog/category/gmc/yukon/yukon-xl/">Yukon XL</a></li> <li id="menu-item-78657" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78657"><a href="http://gmauthority.com/blog/category/gmc/yukon/yukon-denali/">Yukon Denali</a></li> <li id="menu-item-78664" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78664"><a href="http://gmauthority.com/blog/category/gmc/canyon/">Canyon</a></li> <li id="menu-item-78665" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78665"><a href="http://gmauthority.com/blog/category/gmc/canyon/canyon-denali/">Canyon Denali</a></li> <li id="menu-item-78659" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78659"><a href="http://gmauthority.com/blog/category/gmc/sierra/">Sierra</a></li> <li id="menu-item-78660" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78660"><a href="http://gmauthority.com/blog/category/gmc/sierra/sierra-denali/">Sierra Denali</a></li> <li id="menu-item-78662" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78662"><a href="http://gmauthority.com/blog/category/gmc/sierra/sierra-hd/">Sierra HD</a></li> <li id="menu-item-78661" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78661"><a href="http://gmauthority.com/blog/category/gmc/sierra/sierra-hd/sierra-denali-hd/">Sierra Denali HD</a></li> <li id="menu-item-78663" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78663"><a href="http://gmauthority.com/blog/category/gmc/denali/">Denali Sub Brand</a></li></ul>
+</li><li id="menu-item-41243" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41243"><a href="http://gmauthority.com/blog/category/cadillac/">Cadillac</a></li><li id="menu-item-41244" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41244"><a href="http://gmauthority.com/blog/category/opel/">Opel</a></li><li id="menu-item-41245" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41245"><a href="http://gmauthority.com/blog/category/holden/">Holden</a></li><li id="menu-item-41246" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41246"><a href="http://gmauthority.com/blog/category/onstar/">OnStar</a></li><li id="menu-item-41308" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41308"><a href="http://gmauthority.com/blog/category/article-type/gma-special/review/">Reviews</a></li><li id="menu-item-110134" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-110134"><a href="http://gmauthority.com/blog/category/future-product/rumor/">Rumors</a></li><li id="menu-item-41248" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41248"><a href="http://gmauthority.com/blog/category/gma-special/opinion-desk/">Opinions</a></li><li id="menu-item-109479" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-109479"><a href="http://gmauthority.com/blog/category/business/dealers/">Dealer News</a></li><li id="menu-item-41250" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41250"><a href="http://gmauthority.com/blog/category/fun-stuff/motorsports-racing/">Racing</a></li><li id="menu-item-41317" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41317"><a href="http://gmauthority.com/blog/category/video/">Video</a></li><li id="menu-item-93828" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-93828"><a href="http://gmauthority.com/blog/category/article-type/gma-special/rpo-central/">2016 Vehicles</a></li></ul> </div>
+</nav> 
+<div id="header-bottom-wrapper"> 
+ 
+<div id="header-bottom-container-center">
+<script>var ad_data = get_ad_size('header-bottom-center');
+							document.write('<script type="text/javascript"> ' + ad_data[0] + '<' + '\/script>'); </script>
+<script> document.write('<script type="text/javascript" ' + ad_data[1] + '><' + '\/script>'); </script>
+</div>
+ 
+</div> 
+</div> 
+</header> 
+<div id="page">
+<div class="container">
+<div class="container-inner">
+<div class="main group sidebar-right">
+<div class="content-part">
+<div class="pad group">
+<article id="entry-117446" class="entry group post-117446 post type-post status-publish format-standard has-post-thumbnail hentry category-buick category-advertising category-marketing category-buzz category-business category-news category-market-research category-super-bowl category-nfl category-online category-buick-cascada category-report-gma-special">
+<header class="entry-header">
+<h1 class="entry-title">Buick Sees Major Uptick In Online Traffic Following Cascada Super Bowl Ad</h1>
+<a class="entry-comments" href="http://gmauthority.com/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/#comments"><i class="icon-comments-alt"></i>5</a> <ul class="entry-meta group">
+<li class="entry-author">by <a href="http://gmauthority.com/blog/author/sszymkowski/" title="Posts by Sean Szymkowski" rel="author">Sean Szymkowski</a></li> <li class="date"> &mdash; Feb 8, 2016 </li> </ul>
+<div class="clear"></div>
+</header>
+<div class="entry-format">
+<div class="image-container">
+<div id="image-social-single">
+<img width="720" height="340" src="//gmauthority.com/blog/wp-content/uploads/2016/02/2016-Buick-Cascada-Super-Bowl-Ad-720x340.jpg" class="attachment-size-thumbnail-large size-size-thumbnail-large wp-post-image" alt="2016 Buick Cascada Super Bowl Ad" srcset="//gmauthority.com/blog/wp-content/uploads/2016/02/2016-Buick-Cascada-Super-Bowl-Ad-297x140.jpg 297w, //gmauthority.com/blog/wp-content/uploads/2016/02/2016-Buick-Cascada-Super-Bowl-Ad-520x245.jpg 520w, //gmauthority.com/blog/wp-content/uploads/2016/02/2016-Buick-Cascada-Super-Bowl-Ad-720x340.jpg 720w" sizes="(max-width: 720px) 100vw, 720px"/>
+</div>
+</div>
+</div>
+<div id="featured-image-wrapper"> 
+<div id="featured-image-container">
+<script>var ad_data = get_ad_size('below-image-center');
+					document.write('<script type="text/javascript"> ' + ad_data[0] + '<' + '\/script>'); </script>
+<script> document.write('<script type="text/javascript" ' + ad_data[1] + '><' + '\/script>'); </script>
+</div>
+</div> 
+</br>
+<div class="entry-part text no-share">
+<p>Although mass marketing has been dialed down in the modern era, there are still major benefits to ponying up cash to be seen and heard during an event like the Super Bowl. It may be the one time when you have one of the largest majorities of American audiences tuned in, especially when the commercials have created as much of a following as the game itself.</p>
+<p>In regards to Buick, its ad seems to have paid off when studying the numbers. <em>Edmunds</em> has released quarter-by-quarter statistics of online traffic during the big game, following the introduction of each automaker&#8217;s advertisement. Buick was a big winner here.</p>
+<p>Buick chose to air its ad during the first quarter of the game, which resulted in <a href="http://gmauthority.com/blog/gm/buick/cascada/2016-cascada/">2016 Buick Cascada</a> traffic to jump a whopping 3,714-percent. The Buick brand as a whole saw a traffic increase of 211-percent. The traffic remained in the second quarter with a 2,716-percent increase in Cascada traffic and 198-percent increase for the brand as a whole.</p>
+<p>Through the rest of the game, Buick continued to return high margins of traffic. During the colorful halftime show, Cascada traffic clocked in at 1,076-percent, and brand traffic remained good at 78-percent.</p>
+<p>As Carolina&#8217;s momentum wained, Buick&#8217;s didn&#8217;t. Buick Cascada traffic increased another 1,352-percent &#8211; the Buick brand had a 37% increase.</p>
+<p>And while Peyton Manning sealed the Bronco&#8217;s deal, Buick continued to enjoy plenty of benefits during the final quarter, with the numbers showing a 773-percent increase for the Cascada convertible and 35-percent increase for the Buick brand altogether.</p>
+<p>In total, Buick made a wise investment in its ad. The 2016 Buick Cascada became the second highest-traffic model advertised during the Super Bowl, checking in at a healthy 532-percent increase. Only the Acura NSX trumped the <a href="http://gmauthority.com/blog/2016/01/2016-buick-cascada-first-drive/">Buick drop-top</a> with a 661-percent increase.</p>
+<p>The brand increase was less kind to Buick, where it placed fourth, but still, the approachable luxury marque made off with an overall 25-percent increase in traffic, with Mini taking the top spot at a 100-percent increase in traffic. To put the brand traffic into perspective, Toyota, Honda, Dodge, Jeep and Mercedes Benz did not see a cumulative lift in traffic.</p>
+<p>One could say <a href="http://gmauthority.com/blog/2016/02/cwatch-buicks-super-bowl-50-ad-starring-odell-beckham-jr-emily-ratajkowski-the-cascada-convertible/">Buick totally Odell-ed its ad</a>.</p>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+<div id="featured-image-wrapper"> 
+<div id="featured-image-container">
+<script>var ad_data = get_ad_size('header-replace-center');
+							document.write('<script type="text/javascript"> ' + ad_data[0] + '<' + '\/script>'); </script>
+<script> document.write('<script type="text/javascript" ' + ad_data[1] + '><' + '\/script>'); </script>
+</div>
+</div> 
+<li id="text-95" class="widget widget_text"> <div class="textwidget"><div class="alert success">Besides bringing you the latest GM News, GM Authority also has a great forum where you can post topics, ask and answer questions as well as discuss all things GM. Visit the <a title="GM Authority Forum" href="http://gmauthority.com/blog/forum/">GM Authority forum</a> today!<a class="alert-close" href="#"><i class="icon-remove-sign"></i></a></div></div>
+</li> </br>
+<div class="clear"></div>
+<div class="entry-author-block group">
+<div class="entry-author-avatar"><img alt='' src='//0.gravatar.com/avatar/9a72dffadbbc4aee99455b39d0a3c16f?s=160&#038;r=g' srcset='http://0.gravatar.com/avatar/9a72dffadbbc4aee99455b39d0a3c16f?s=320&amp;r=g 2x' class='avatar avatar-160 photo' height='160' width='160'/></div>
+<p class="entry-author-name">&mdash; Sean Szymkowski</p>
+<p class="entry-author-description">Sean is a staff writer for GM Authority and Motrolix. When's he's not busy taking in local automotive culture, he's probably detailing his car. Find him on Instagram: @helloimseann</p>
+</div>
+</article>
+<ul class="entry-browse group">
+<li class="previous"><a href="http://gmauthority.com/blog/2016/02/executives-remain-quiet-on-upcoming-v8-power-sportscar-heading-to-holden/" rel="prev"><i class="icon-chevron-left"></i><strong>Previous story</strong> <span>Executives Remain Quiet On Upcoming V8-Powered Sportscar Heading To Holden</span></a></li>
+<li class="next"><a href="http://gmauthority.com/blog/2016/02/general-motors-continues-to-cut-rental-fleet-sales-to-grow-margins/" rel="next"><i class="icon-chevron-right"></i><strong>Next story</strong> <span>General Motors Continues To Cut Rental Fleet Sales To Grow Margins</span></a></li>
+</ul>
+<h4 class="heading related">
+<i class="icon-hand-right"></i>You may also like...
+</h4>
+<ul class="entry-related group">
+<li class="related">
+<article class="post-117514 post type-post status-publish format-video has-post-thumbnail hentry category-buick category-advertising category-marketing category-business category-news category-super-bowl category-nfl category-buick-cascada post_format-post-format-video">
+<a href="http://gmauthority.com/blog/2016/02/a-quick-look-at-the-making-of-the-buick-cascada-super-bowl-ad-video/">
+<span class="entry-thumbnail">
+<img width="520" height="245" src="//gmauthority.com/blog/wp-content/uploads/2016/02/Buick-Cascada-SuperBowl-Commercial-e1454966090307-520x245.jpg" class="attachment-size-thumbnail-medium size-size-thumbnail-medium wp-post-image" alt="Buick Cascada SuperBowl Commercial" srcset="//gmauthority.com/blog/wp-content/uploads/2016/02/Buick-Cascada-SuperBowl-Commercial-e1454966090307-297x140.jpg 297w, //gmauthority.com/blog/wp-content/uploads/2016/02/Buick-Cascada-SuperBowl-Commercial-e1454966090307-520x245.jpg 520w, //gmauthority.com/blog/wp-content/uploads/2016/02/Buick-Cascada-SuperBowl-Commercial-e1454966090307-720x340.jpg 720w" sizes="(max-width: 520px) 100vw, 520px"/> <span class="thumb-icon"><i class="icon-play"></i></span> </span>
+<span class="rel-entry-title">A Quick Look At The Making Of The Buick Cascada Super Bowl Ad: Video</span>
+</a>
+</article>
+</li> 
+<li class="related">
+<article class="post-117426 post type-post status-publish format-video has-post-thumbnail hentry category-buick category-advertising category-marketing category-breaking category-gma-special category-business category-news category-ad-break category-super-bowl category-nfl category-buick-cascada category-article-type post_format-post-format-video">
+<a href="http://gmauthority.com/blog/2016/02/cwatch-buicks-super-bowl-50-ad-starring-odell-beckham-jr-emily-ratajkowski-the-cascada-convertible/">
+<span class="entry-thumbnail">
+<img width="520" height="245" src="//gmauthority.com/blog/wp-content/uploads/2016/02/Buick-Cascada-Super-Bowl-50-Spot-Commercial-Ad-520x245.jpg" class="attachment-size-thumbnail-medium size-size-thumbnail-medium wp-post-image" alt="Buick Cascada Super Bowl 50 Spot Commercial Ad" srcset="//gmauthority.com/blog/wp-content/uploads/2016/02/Buick-Cascada-Super-Bowl-50-Spot-Commercial-Ad-297x140.jpg 297w, //gmauthority.com/blog/wp-content/uploads/2016/02/Buick-Cascada-Super-Bowl-50-Spot-Commercial-Ad-520x245.jpg 520w" sizes="(max-width: 520px) 100vw, 520px"/> <span class="thumb-icon"><i class="icon-play"></i></span> </span>
+<span class="rel-entry-title">Watch Buick’s Super Bowl 50 Ad Starring Odell Beckham Jr., Emily Ratajkowski &#038; The Cascada Convertible</span>
+</a>
+</article>
+</li> 
+<li class="related">
+<article class="post-117188 post type-post status-publish format-standard has-post-thumbnail hentry category-buick category-advertising category-marketing category-business category-news category-super-bowl category-nfl category-buick-cascada">
+<a href="http://gmauthority.com/blog/2016/02/buick-provides-a-brief-snippet-of-its-upcoming-super-bowl-commercial-video/">
+<span class="entry-thumbnail">
+<img width="520" height="245" src="//gmauthority.com/blog/wp-content/uploads/2016/01/Buick-Super-Bowl-50-Advertisement-520x245.jpeg" class="attachment-size-thumbnail-medium size-size-thumbnail-medium wp-post-image" alt="Buick Super Bowl 50 Advertisement" srcset="//gmauthority.com/blog/wp-content/uploads/2016/01/Buick-Super-Bowl-50-Advertisement-297x140.jpeg 297w, //gmauthority.com/blog/wp-content/uploads/2016/01/Buick-Super-Bowl-50-Advertisement-520x245.jpeg 520w, //gmauthority.com/blog/wp-content/uploads/2016/01/Buick-Super-Bowl-50-Advertisement-720x340.jpeg 720w" sizes="(max-width: 520px) 100vw, 520px"/> </span>
+<span class="rel-entry-title">Buick Provides A Brief Snippet Of Its Upcoming Super Bowl Commercial: Video</span>
+</a>
+</article>
+</li> 
+</ul> 
+<br>
+<div id="ads-content-wrapper"> 
+<div id="ad-content-container">
+<script>var ad_data = get_ad_size('comments');
+						document.write('<script type="text/javascript"> ' + ad_data[0] + '<' + '\/script>'); </script>
+<script> document.write('<script type="text/javascript" ' + ad_data[1] + '><' + '\/script>'); </script>
+</div>
+</div> 
+<div id="comments">
+<h4 class="heading"><i class="icon-comments-alt"></i>5 Comments</h4>
+<ol class="commentlist group">
+<li class="comment even thread-even depth-1 parent" id="comment-676149">
+<div id="div-comment-676149" class="comment-body">
+<div class="comment-author vcard">
+<img alt='' src='//0.gravatar.com/avatar/021459f06438d0af127d81b943f357ae?s=120&#038;r=g' srcset='http://0.gravatar.com/avatar/021459f06438d0af127d81b943f357ae?s=240&amp;r=g 2x' class='avatar avatar-120 photo' height='120' width='120'/> <cite class="fn">AARP-scada</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata"><a href="http://gmauthority.com/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/#comment-676149">
+February 8, 2016 at 11:24 am</a> </div>
+<p>Those are great numbers for a commercial that was the 30th most popular,</p>
+<p>and was most-appreciated by the 50-64, and 65+ age groups!</p>
+<p>(Data courtesy of USA Today&#8217;s Super Bowl ad tracker).</p>
+<div class="pd-rating" id="pd_rating_holder_1138624_comm_676149"></div><div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://gmauthority.com/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/?replytocom=676149#respond' onclick='return addComment.moveForm( "div-comment-676149", "676149", "respond", "117446" )' aria-label='Reply to AARP-scada'>Reply</a></div>
+</div>
+<ul class="children">
+<li class="comment odd alt depth-2 parent" id="comment-676157">
+<div id="div-comment-676157" class="comment-body">
+<div class="comment-author vcard">
+<img alt='' src='//0.gravatar.com/avatar/f591344c2bfc181e6a5143fec8599a5c?s=120&#038;r=g' srcset='http://0.gravatar.com/avatar/f591344c2bfc181e6a5143fec8599a5c?s=240&amp;r=g 2x' class='avatar avatar-120 photo' height='120' width='120'/> <cite class="fn">Dr. Fatso</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata"><a href="http://gmauthority.com/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/#comment-676157">
+February 8, 2016 at 12:31 pm</a> </div>
+<p>Yes, AARPscada.<br/>
+This commercial made ppl click on the site just to see how lame Buick&#8217;s line up still is.</p>
+<p>Buick is a disappointment</p>
+<div class="pd-rating" id="pd_rating_holder_1138624_comm_676157"></div><div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://gmauthority.com/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/?replytocom=676157#respond' onclick='return addComment.moveForm( "div-comment-676157", "676157", "respond", "117446" )' aria-label='Reply to Dr. Fatso'>Reply</a></div>
+</div>
+<ul class="children">
+<li class="comment byuser comment-author-jamdown even depth-3" id="comment-676179">
+<div id="div-comment-676179" class="comment-body">
+<div class="comment-author vcard">
+<img alt='' src='//1.gravatar.com/avatar/4b9a6f6162fd20afb62ef5f1cfdffbee?s=120&#038;r=g' srcset='http://1.gravatar.com/avatar/4b9a6f6162fd20afb62ef5f1cfdffbee?s=240&amp;r=g 2x' class='avatar avatar-120 photo' height='120' width='120'/> <cite class="fn">jamdown</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata"><a href="http://gmauthority.com/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/#comment-676179">
+February 8, 2016 at 3:03 pm</a> </div>
+<p>The Cascada is not going to win any races and the styling is a little bland for my liking but for it&#8217;s intended segment it is quite competitive and creates a good value proposition.<br/>
+I think the car will do better than expected and it will generate interest for the other Buick models as well.</p>
+<div class="pd-rating" id="pd_rating_holder_1138624_comm_676179"></div><div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://gmauthority.com/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/?replytocom=676179#respond' onclick='return addComment.moveForm( "div-comment-676179", "676179", "respond", "117446" )' aria-label='Reply to jamdown'>Reply</a></div>
+</div>
+</li> 
+</ul> 
+</li> 
+</ul> 
+</li> 
+<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-676170">
+<div id="div-comment-676170" class="comment-body">
+<div class="comment-author vcard">
+<img alt='' src='//2.gravatar.com/avatar/e871fbde42c143a880e31b8bcaae4a0b?s=120&#038;r=g' srcset='http://2.gravatar.com/avatar/e871fbde42c143a880e31b8bcaae4a0b?s=240&amp;r=g 2x' class='avatar avatar-120 photo' height='120' width='120'/> <cite class="fn">XM66</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata"><a href="http://gmauthority.com/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/#comment-676170">
+February 8, 2016 at 2:14 pm</a> </div>
+<p>Now, just think of the internet traffic if Buick runs an Avista commercial for Super Bowl 51!</p>
+<div class="pd-rating" id="pd_rating_holder_1138624_comm_676170"></div><div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://gmauthority.com/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/?replytocom=676170#respond' onclick='return addComment.moveForm( "div-comment-676170", "676170", "respond", "117446" )' aria-label='Reply to XM66'>Reply</a></div>
+</div>
+<ul class="children">
+<li class="comment byuser comment-author-jamdown even depth-2" id="comment-676178">
+<div id="div-comment-676178" class="comment-body">
+<div class="comment-author vcard">
+<img alt='' src='//1.gravatar.com/avatar/4b9a6f6162fd20afb62ef5f1cfdffbee?s=120&#038;r=g' srcset='http://1.gravatar.com/avatar/4b9a6f6162fd20afb62ef5f1cfdffbee?s=240&amp;r=g 2x' class='avatar avatar-120 photo' height='120' width='120'/> <cite class="fn">jamdown</cite> <span class="says">says:</span> </div>
+<div class="comment-meta commentmetadata"><a href="http://gmauthority.com/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/#comment-676178">
+February 8, 2016 at 2:59 pm</a> </div>
+<p>Keep dreaming.<br/>
+I like the Avista but even if the Avista concept car was given a greenlight tomorrow they would not have one on the ground ready for production 12 months from now.<br/>
+Also unlikely since they have publicly said it is not for production.</p>
+<div class="pd-rating" id="pd_rating_holder_1138624_comm_676178"></div><div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://gmauthority.com/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/?replytocom=676178#respond' onclick='return addComment.moveForm( "div-comment-676178", "676178", "respond", "117446" )' aria-label='Reply to jamdown'>Reply</a></div>
+</div>
+</li> 
+</ul> 
+</li> 
+</ol>
+<div id="response">
+<div id="respond" class="comment-respond">
+<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/#respond" style="display:none;">Cancel reply</a></small></h3> <form action="//gmauthority.com/blog/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' required='required'/></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-describedby="email-notes" aria-required='true' required='required'/></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="text" value="" size="30"/></p>
+<input type="hidden" name="bwp-recaptcha-widget-id" value="bwpRecaptchaWidget1"/><div id="bwp-recaptcha-3fcdb73d36d54f2cc22d0f68e6b6e182" class="bwp-recaptcha g-recaptcha"></div> <input type="hidden" name="error_redirect_to" value="http://gmauthority.com/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/comment-page-1/#respond"/>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment"/> <input type='hidden' name='comment_post_ID' value='117446' id='comment_post_ID'/>
+<input type='hidden' name='comment_parent' id='comment_parent' value='0'/>
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="b210de21c7"/></p>  <p><input style='width:30px' type='checkbox' name='subscribe-reloaded' id='subscribe-reloaded' value='yes' checked='checked'/> Notify me of followup comments via e-mail. You can also <a href='http://gmauthority.com/blog/comment-subscriptions/?srp=117446&amp;srk=6c10e2c2c37a2b91a31a5918b1790fb8&amp;sra=s'>subscribe</a> without commenting.</p> <p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="118"/></p> </form>
+</div> 
+</div>
+</div> 
+<br>
+<div id="ads-content-wrapper"> 
+<div id="ad-content-container">
+<script>var ad_data = get_ad_size('comments');
+						document.write('<script type="text/javascript"> ' + ad_data[0] + '<' + '\/script>'); </script>
+<script> document.write('<script type="text/javascript" ' + ad_data[1] + '><' + '\/script>'); </script>
+</div>
+</div> 
+</div> 
+</div> 
+<div class="sidebar">
+<a class="sidebar-toggle" title="Expand Sidebar"><i class="icon-reorder"></i></a>
+<ul class="sidebar-content">
+<li id="mailchimpsf_widget-5" class="widget widget_mailchimpsf_widget"><h3 class="widget-title group"><span>GM Authority Newsletter</span></h3>
+<style>.widget_mailchimpsf_widget .widget-title{line-height:1.4em;margin-bottom:0.75em;}#mc_subheader{line-height:1.25em;margin-bottom:18px;}.mc_merge_var{margin-bottom:1.0em;}.mc_var_label,.mc_interest_label{display:block;margin-bottom:0.5em;}.mc_input{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%;}.mc_input.mc_phone{width:auto;}select.mc_select{margin-top:0.5em;width:100%;}.mc_address_label{margin-top:1.0em;margin-bottom:0.5em;display:block;}.mc_address_label~select{width:100%;}.mc_list li{list-style:none;background:none!important;}.mc_interests_header{margin-top:1.0em;margin-bottom:0.5em;}.mc_interest label,.mc_interest input{margin-bottom:0.4em;}#mc_signup_submit{margin-top:1.5em;width:80%;}#mc_unsub_link a{font-size:0.75em;}#mc_unsub_link{margin-top:1.0em;}.mc_header_address,.mc_email_format{display:block;font-weight:bold;margin-top:1.0em;margin-bottom:0.5em;}.mc_email_options{margin-top:0.5em;}.mc_email_type{padding-left:4px;}</style>
+<div id="mc_signup">
+<form method="post" action="#mc_signup" id="mc_signup_form">
+<input type="hidden" id="mc_submit_type" name="mc_submit_type" value="html"/>
+<input type="hidden" name="mcsf_action" value="mc_submit_signup_form"/>
+<input type="hidden" id="_mc_submit_signup_form_nonce" name="_mc_submit_signup_form_nonce" value="0aac8eb5ef"/>
+<div id="mc_subheader">
+Get the latest GM News delivered to your inbox daily. </div> 
+<div class="mc_form_inside">
+<div class="updated" id="mc_message">
+</div> 
+<div class="mc_merge_var">
+<label for="mc_mv_EMAIL" class="mc_var_label mc_header mc_header_email">Email Address<span class="mc_required">*</span></label>
+<input type="text" size="18" placeholder="" name="mc_mv_EMAIL" id="mc_mv_EMAIL" class="mc_input"/>
+</div> 
+<div class="mc_merge_var">
+<label for="mc_mv_FNAME" class="mc_var_label mc_header mc_header_text">First Name</label>
+<input type="text" size="18" placeholder="" name="mc_mv_FNAME" id="mc_mv_FNAME" class="mc_input"/>
+</div> 
+<div class="mc_merge_var">
+<label for="mc_mv_LNAME" class="mc_var_label mc_header mc_header_text">Last Name</label>
+<input type="text" size="18" placeholder="" name="mc_mv_LNAME" id="mc_mv_LNAME" class="mc_input"/>
+</div>  <div id="mc-indicates-required">
+* = required field </div> 
+<div class="mc_signup_submit">
+<input type="submit" name="mc_signup_submit" id="mc_signup_submit" value="Subscribe" class="button"/>
+</div> 
+</div> 
+</form> 
+</div> 
+</li><li id="execphp-3" class="widget widget_execphp"><h3 class="widget-title group"><span>Sponsors</span></h3> <div class="execphpwidget"><div id="ads-sidebar-wrapper"> 
+<div id="ad-sidebar-container-160">
+<script language="javascript1.1" src="//adserver.adtechus.com/addyn|3.0|9994.1|3505736|0|154|ADTECH;loc=100;target=_blank;misc=[TIMESTAMP];rdclick="></script>
+</div>
+<div id="ad-sidebar-container-160">
+<script language="javascript1.1" src="//adserver.adtechus.com/addyn|3.0|9994.1|3508066|0|154|ADTECH;loc=100;target=_blank;misc=[TIMESTAMP];rdclick="></script>
+</div>
+</div>
+</div>
+</li><li id="wpb-tabs-2" class="widget widget_wpb_tabs"><h3 class="widget-title group"><span>Fresh Off The Press</span></h3><ul class="wpb-tabs group tabs-3"><li class="wpb-tab-recent"><a href="#tab-recent-2" title="Recent Posts"><i class="icon-time"></i><span>Recent Posts</span></a></li><li class="wpb-tab-popular"><a href="#tab-popular-2" title="Most Popular"><i class="icon-star"></i><span>Most Popular</span></a></li><li class="wpb-tab-comments"><a href="#tab-comments-2" title="Comments"><i class="icon-comments-alt"></i><span>Comments</span></a></li></ul><ul id="tab-recent-2" class="list-recent wpb-tab"><li class="format- wpb-thumb-enabled group"><a title="The 2017 GMC Acadia And Its All Terrain Package: Feature Spotlight" href="http://gmauthority.com/blog/2016/02/the-2017-gmc-acadia-and-its-all-terrain-package-feature-spotlight/"><span class="wpb-thumb"><img width="96" height="64" src="//gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-All-Terrain-NAIAS-2016-Live-Reveal-001-96x64.jpg" class="attachment-size-thumbnail-tiny size-size-thumbnail-tiny wp-post-image" alt="2017 GMC Acadia All Terrain - NAIAS 2016 Live Reveal 001" srcset="//gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-All-Terrain-NAIAS-2016-Live-Reveal-001-300x200.jpg 300w, //gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-All-Terrain-NAIAS-2016-Live-Reveal-001-768x512.jpg 768w, //gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-All-Terrain-NAIAS-2016-Live-Reveal-001-1024x683.jpg 1024w, //gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-All-Terrain-NAIAS-2016-Live-Reveal-001-720x480.jpg 720w, //gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-All-Terrain-NAIAS-2016-Live-Reveal-001-96x64.jpg 96w, //gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-All-Terrain-NAIAS-2016-Live-Reveal-001-192x128.jpg 192w, //gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-All-Terrain-NAIAS-2016-Live-Reveal-001.jpg 1200w" sizes="(max-width: 96px) 100vw, 96px"/></span><span class="wpb-text"><i class="title">The 2017 GMC Acadia And Its All Terrain Package: Feature Spotlight</i><i class="meta">February 16, 2016</i></span></a></li><li class="format- wpb-thumb-enabled group"><a title="Cadillac Marks O&#8217;Connell&#8217;s Four Championships With Velocity Red ATS-V.R For 2016" href="http://gmauthority.com/blog/2016/02/cadillac-marks-oconnells-four-championships-with-velocity-red-ats-v-r-2016/"><span class="wpb-thumb"><img width="96" height="64" src="//gmauthority.com/blog/wp-content/uploads/2016/02/Johnny-OConnell-Red-ATSVR-2016-96x64.jpg" class="attachment-size-thumbnail-tiny size-size-thumbnail-tiny wp-post-image" alt="Johnny OConnell Red ATSVR 2016" srcset="//gmauthority.com/blog/wp-content/uploads/2016/02/Johnny-OConnell-Red-ATSVR-2016-96x64.jpg 96w, //gmauthority.com/blog/wp-content/uploads/2016/02/Johnny-OConnell-Red-ATSVR-2016-192x128.jpg 192w" sizes="(max-width: 96px) 100vw, 96px"/></span><span class="wpb-text"><i class="title">Cadillac Marks O&#8217;Connell&#8217;s Four Championships With Velocity Red ATS-V.R For 2016</i><i class="meta">February 16, 2016</i></span></a></li><li class="format- wpb-thumb-enabled group"><a title="Blackdog To Field Two Camaro Z/28.Rs In 2016 Pirelli World Challenge GTS Class" href="http://gmauthority.com/blog/2016/02/blackdog-to-field-two-camaro-z28-rs-in-2016-pirelli-world-challenge-gts-class/"><span class="wpb-thumb"><img width="96" height="64" src="//gmauthority.com/blog/wp-content/uploads/2016/02/Blackdog-Speed-Shop-96x64.jpg" class="attachment-size-thumbnail-tiny size-size-thumbnail-tiny wp-post-image" alt="Blackdog Speed Shop" srcset="//gmauthority.com/blog/wp-content/uploads/2016/02/Blackdog-Speed-Shop-96x64.jpg 96w, //gmauthority.com/blog/wp-content/uploads/2016/02/Blackdog-Speed-Shop-192x128.jpg 192w" sizes="(max-width: 96px) 100vw, 96px"/></span><span class="wpb-text"><i class="title">Blackdog To Field Two Camaro Z/28.Rs In 2016 Pirelli World Challenge GTS Class</i><i class="meta">February 16, 2016</i></span></a></li><li class="format- wpb-thumb-enabled group"><a title="2017 GMC Acadia To Start At $29,995" href="http://gmauthority.com/blog/2016/02/2017-gmc-acadia-to-start-at-29995/"><span class="wpb-thumb"><img width="96" height="64" src="//gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-Denali-002-96x64.jpg" class="attachment-size-thumbnail-tiny size-size-thumbnail-tiny wp-post-image" alt="2017 GMC Acadia Denali 002" srcset="//gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-Denali-002-96x64.jpg 96w, //gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-Denali-002-192x128.jpg 192w" sizes="(max-width: 96px) 100vw, 96px"/></span><span class="wpb-text"><i class="title">2017 GMC Acadia To Start At $29,995</i><i class="meta">February 16, 2016</i></span></a></li><li class="format- wpb-thumb-enabled group"><a title="Chevrolet Will Continue To Utilize &#8216;Real People, Not Actors&#8217; Ad Strategy" href="http://gmauthority.com/blog/2016/02/chevrolet-will-continue-to-utilize-real-people-not-actors-ad-strategy/"><span class="wpb-thumb"><img width="96" height="64" src="//gmauthority.com/blog/wp-content/uploads/2016/01/2016-Chevrolet-Malibu-Real-People-Ad-e1452291551993-96x64.jpg" class="attachment-size-thumbnail-tiny size-size-thumbnail-tiny wp-post-image" alt="2016 Chevrolet Malibu Real People Ad" srcset="//gmauthority.com/blog/wp-content/uploads/2016/01/2016-Chevrolet-Malibu-Real-People-Ad-e1452291551993-96x64.jpg 96w, //gmauthority.com/blog/wp-content/uploads/2016/01/2016-Chevrolet-Malibu-Real-People-Ad-e1452291551993-192x128.jpg 192w" sizes="(max-width: 96px) 100vw, 96px"/></span><span class="wpb-text"><i class="title">Chevrolet Will Continue To Utilize &#8216;Real People, Not Actors&#8217; Ad Strategy</i><i class="meta">February 16, 2016</i></span></a></li><li class="format- wpb-thumb-enabled group"><a title="2017 Chevrolet Camaro 1LE Pricing Won&#8217;t &#8216;Mirror&#8217; Fifth-Generation" href="http://gmauthority.com/blog/2016/02/2017-chevrolet-camaro-1le-pricing-wont-mirror-fifth-generation/"><span class="wpb-thumb"><img width="96" height="64" src="//gmauthority.com/blog/wp-content/uploads/2016/02/2017-Chevrolet-Camaro-SS-1LE-2016-Chicago-Auto-Show-005-96x64.jpg" class="attachment-size-thumbnail-tiny size-size-thumbnail-tiny wp-post-image" alt="2017 Chevrolet Camaro SS 1LE - 2016 Chicago Auto Show 005" srcset="//gmauthority.com/blog/wp-content/uploads/2016/02/2017-Chevrolet-Camaro-SS-1LE-2016-Chicago-Auto-Show-005-300x200.jpg 300w, //gmauthority.com/blog/wp-content/uploads/2016/02/2017-Chevrolet-Camaro-SS-1LE-2016-Chicago-Auto-Show-005-768x513.jpg 768w, //gmauthority.com/blog/wp-content/uploads/2016/02/2017-Chevrolet-Camaro-SS-1LE-2016-Chicago-Auto-Show-005-1024x684.jpg 1024w, //gmauthority.com/blog/wp-content/uploads/2016/02/2017-Chevrolet-Camaro-SS-1LE-2016-Chicago-Auto-Show-005-720x481.jpg 720w, //gmauthority.com/blog/wp-content/uploads/2016/02/2017-Chevrolet-Camaro-SS-1LE-2016-Chicago-Auto-Show-005-96x64.jpg 96w, //gmauthority.com/blog/wp-content/uploads/2016/02/2017-Chevrolet-Camaro-SS-1LE-2016-Chicago-Auto-Show-005-192x128.jpg 192w" sizes="(max-width: 96px) 100vw, 96px"/></span><span class="wpb-text"><i class="title">2017 Chevrolet Camaro 1LE Pricing Won&#8217;t &#8216;Mirror&#8217; Fifth-Generation</i><i class="meta">February 16, 2016</i></span></a></li></ul><ul id="tab-popular-2" class="list-popular wpb-tab"><li class="format- wpb-thumb-enabled group"><a title="2016 Buick Envision: First Impressions" href="http://gmauthority.com/blog/2016/01/2016-buick-envision-first-impressions/"><span class="wpb-thumb"><img width="96" height="64" src="//gmauthority.com/blog/wp-content/uploads/2016/01/2017-Buick-Envision-NAIAS-2016-Live-Reveal-009-96x64.jpg" class="attachment-size-thumbnail-tiny size-size-thumbnail-tiny wp-post-image" alt="2017 Buick Envision - NAIAS 2016 Live Reveal 009" srcset="//gmauthority.com/blog/wp-content/uploads/2016/01/2017-Buick-Envision-NAIAS-2016-Live-Reveal-009-300x200.jpg 300w, //gmauthority.com/blog/wp-content/uploads/2016/01/2017-Buick-Envision-NAIAS-2016-Live-Reveal-009-768x512.jpg 768w, //gmauthority.com/blog/wp-content/uploads/2016/01/2017-Buick-Envision-NAIAS-2016-Live-Reveal-009-1024x683.jpg 1024w, //gmauthority.com/blog/wp-content/uploads/2016/01/2017-Buick-Envision-NAIAS-2016-Live-Reveal-009-720x480.jpg 720w, //gmauthority.com/blog/wp-content/uploads/2016/01/2017-Buick-Envision-NAIAS-2016-Live-Reveal-009-96x64.jpg 96w, //gmauthority.com/blog/wp-content/uploads/2016/01/2017-Buick-Envision-NAIAS-2016-Live-Reveal-009-192x128.jpg 192w, //gmauthority.com/blog/wp-content/uploads/2016/01/2017-Buick-Envision-NAIAS-2016-Live-Reveal-009.jpg 1200w" sizes="(max-width: 96px) 100vw, 96px"/></span><span class="wpb-text"><i class="title">2016 Buick Envision: First Impressions</i><i class="meta">January 22, 2016</i></span></a></li><li class="format- wpb-thumb-enabled group"><a title="We&#8217;re Driving Around Florida In The 2016 Buick Cascada: What Do You Want To Know?" href="http://gmauthority.com/blog/2016/01/were-driving-around-florida-in-the-2016-buick-cascada-what-do-you-want-to-know/"><span class="wpb-thumb"><img width="96" height="64" src="//gmauthority.com/blog/wp-content/uploads/2015/01/2016-Buick-Cascada-Convertible-02-96x64.jpg" class="attachment-size-thumbnail-tiny size-size-thumbnail-tiny wp-post-image" alt="2016 Buick Cascada Convertible" srcset="//gmauthority.com/blog/wp-content/uploads/2015/01/2016-Buick-Cascada-Convertible-02-300x200.jpg 300w, //gmauthority.com/blog/wp-content/uploads/2015/01/2016-Buick-Cascada-Convertible-02-1024x682.jpg 1024w, //gmauthority.com/blog/wp-content/uploads/2015/01/2016-Buick-Cascada-Convertible-02-720x480.jpg 720w, //gmauthority.com/blog/wp-content/uploads/2015/01/2016-Buick-Cascada-Convertible-02-96x64.jpg 96w, //gmauthority.com/blog/wp-content/uploads/2015/01/2016-Buick-Cascada-Convertible-02-192x128.jpg 192w, //gmauthority.com/blog/wp-content/uploads/2015/01/2016-Buick-Cascada-Convertible-02.jpg 1500w" sizes="(max-width: 96px) 100vw, 96px"/></span><span class="wpb-text"><i class="title">We&#8217;re Driving Around Florida In The 2016 Buick Cascada: What Do You Want To Know?</i><i class="meta">January 21, 2016</i></span></a></li><li class="format- wpb-thumb-enabled group"><a title="Community Question: Is Buick Or Cadillac Better Suited To Take On The Lincoln Continental?" href="http://gmauthority.com/blog/2016/01/community-question-is-buick-or-cadillac-better-suited-to-take-on-the-lincoln-continental/"><span class="wpb-thumb"><img width="96" height="64" src="//gmauthority.com/blog/wp-content/uploads/2016/01/2017-Lincoln-Continental-96x64.jpg" class="attachment-size-thumbnail-tiny size-size-thumbnail-tiny wp-post-image" alt="2017 Lincoln Continental" srcset="//gmauthority.com/blog/wp-content/uploads/2016/01/2017-Lincoln-Continental-96x64.jpg 96w, //gmauthority.com/blog/wp-content/uploads/2016/01/2017-Lincoln-Continental-192x128.jpg 192w" sizes="(max-width: 96px) 100vw, 96px"/></span><span class="wpb-text"><i class="title">Community Question: Is Buick Or Cadillac Better Suited To Take On The Lincoln Continental?</i><i class="meta">January 20, 2016</i></span></a></li><li class="format- wpb-thumb-enabled group"><a title="Cadillac Spills Details On Upcoming Twin-Turbo V8 Engine" href="http://gmauthority.com/blog/2016/01/cadillac-spills-details-on-its-upcoming-twin-turbo-v8-engine/"><span class="wpb-thumb"><img width="96" height="64" src="//gmauthority.com/blog/wp-content/uploads/2016/01/2016-Cadillac-CT6-Exterior-001-96x64.jpg" class="attachment-size-thumbnail-tiny size-size-thumbnail-tiny wp-post-image" alt="2016 Cadillac CT6 Exterior 001" srcset="//gmauthority.com/blog/wp-content/uploads/2016/01/2016-Cadillac-CT6-Exterior-001-300x200.jpg 300w, //gmauthority.com/blog/wp-content/uploads/2016/01/2016-Cadillac-CT6-Exterior-001-768x512.jpg 768w, //gmauthority.com/blog/wp-content/uploads/2016/01/2016-Cadillac-CT6-Exterior-001-1024x682.jpg 1024w, //gmauthority.com/blog/wp-content/uploads/2016/01/2016-Cadillac-CT6-Exterior-001-720x480.jpg 720w, //gmauthority.com/blog/wp-content/uploads/2016/01/2016-Cadillac-CT6-Exterior-001-96x64.jpg 96w, //gmauthority.com/blog/wp-content/uploads/2016/01/2016-Cadillac-CT6-Exterior-001-192x128.jpg 192w, //gmauthority.com/blog/wp-content/uploads/2016/01/2016-Cadillac-CT6-Exterior-001.jpg 1280w" sizes="(max-width: 96px) 100vw, 96px"/></span><span class="wpb-text"><i class="title">Cadillac Spills Details On Upcoming Twin-Turbo V8 Engine</i><i class="meta">January 22, 2016</i></span></a></li><li class="format- wpb-thumb-enabled group"><a title="Avista Concept Buzz Makes Buick Reconsider Its Production" href="http://gmauthority.com/blog/2016/01/buick-avista-buzz-making-the-brand-reconsider-production/"><span class="wpb-thumb"><img width="96" height="64" src="//gmauthority.com/blog/wp-content/uploads/2016/01/2016-Buick-Avista-Concept-NAIAS-2016-Live-Reveal-001-96x64.jpg" class="attachment-size-thumbnail-tiny size-size-thumbnail-tiny wp-post-image" alt="2016 Buick Avista Concept - NAIAS 2016 Live Reveal 001" srcset="//gmauthority.com/blog/wp-content/uploads/2016/01/2016-Buick-Avista-Concept-NAIAS-2016-Live-Reveal-001-300x200.jpg 300w, //gmauthority.com/blog/wp-content/uploads/2016/01/2016-Buick-Avista-Concept-NAIAS-2016-Live-Reveal-001-768x512.jpg 768w, //gmauthority.com/blog/wp-content/uploads/2016/01/2016-Buick-Avista-Concept-NAIAS-2016-Live-Reveal-001-1024x683.jpg 1024w, //gmauthority.com/blog/wp-content/uploads/2016/01/2016-Buick-Avista-Concept-NAIAS-2016-Live-Reveal-001-720x480.jpg 720w, //gmauthority.com/blog/wp-content/uploads/2016/01/2016-Buick-Avista-Concept-NAIAS-2016-Live-Reveal-001-96x64.jpg 96w, //gmauthority.com/blog/wp-content/uploads/2016/01/2016-Buick-Avista-Concept-NAIAS-2016-Live-Reveal-001-192x128.jpg 192w, //gmauthority.com/blog/wp-content/uploads/2016/01/2016-Buick-Avista-Concept-NAIAS-2016-Live-Reveal-001.jpg 1200w" sizes="(max-width: 96px) 100vw, 96px"/></span><span class="wpb-text"><i class="title">Avista Concept Buzz Makes Buick Reconsider Its Production</i><i class="meta">January 18, 2016</i></span></a></li><li class="format- wpb-thumb-enabled group"><a title="2016 CT6, 2017 XT5 Introduce New Cadillac Trim Level Structure" href="http://gmauthority.com/blog/2016/01/2016-ct6-2017-xt5-establish-new-cadillac-trim-level-structure/"><span class="wpb-thumb"><img width="96" height="64" src="//gmauthority.com/blog/wp-content/uploads/2016/01/2016-Cadillac-CT6-Exterior-020-96x64.jpeg" class="attachment-size-thumbnail-tiny size-size-thumbnail-tiny wp-post-image" alt="2016 Cadillac CT6 Exterior 020" srcset="//gmauthority.com/blog/wp-content/uploads/2016/01/2016-Cadillac-CT6-Exterior-020-300x200.jpeg 300w, //gmauthority.com/blog/wp-content/uploads/2016/01/2016-Cadillac-CT6-Exterior-020-768x512.jpeg 768w, //gmauthority.com/blog/wp-content/uploads/2016/01/2016-Cadillac-CT6-Exterior-020-1024x682.jpeg 1024w, //gmauthority.com/blog/wp-content/uploads/2016/01/2016-Cadillac-CT6-Exterior-020-720x480.jpeg 720w, //gmauthority.com/blog/wp-content/uploads/2016/01/2016-Cadillac-CT6-Exterior-020-96x64.jpeg 96w, //gmauthority.com/blog/wp-content/uploads/2016/01/2016-Cadillac-CT6-Exterior-020-192x128.jpeg 192w, //gmauthority.com/blog/wp-content/uploads/2016/01/2016-Cadillac-CT6-Exterior-020.jpeg 1280w" sizes="(max-width: 96px) 100vw, 96px"/></span><span class="wpb-text"><i class="title">2016 CT6, 2017 XT5 Introduce New Cadillac Trim Level Structure</i><i class="meta">January 30, 2016</i></span></a></li></ul><ul id="tab-comments-2" class="list-comments wpb-tab"><li class="group wpb-thumb-enabled"><a title="Chevrolet Will Continue To Utilize &#8216;Real People, Not Actors&#8217; Ad Strategy" href="http://gmauthority.com/blog/2016/02/chevrolet-will-continue-to-utilize-real-people-not-actors-ad-strategy/#comment-676683"><span class="wpb-thumb"><img alt='' src='//0.gravatar.com/avatar/c7a9797767fc734ee2987d885d718e5b?s=128&#038;r=g' srcset='http://0.gravatar.com/avatar/c7a9797767fc734ee2987d885d718e5b?s=256&amp;r=g 2x' class='avatar avatar-128 photo' height='128' width='128'/></span><span class="wpb-text"><i class="meta">scott3 on:</i><i class="title">Chevrolet Will Continue To Utilize &#8216;Real People, Not Actors&#8217; Ad Strategy</i></span></a></li><li class="group wpb-thumb-enabled"><a title="Cadillac Marks O&#8217;Connell&#8217;s Four Championships With Velocity Red ATS-V.R For 2016" href="http://gmauthority.com/blog/2016/02/cadillac-marks-oconnells-four-championships-with-velocity-red-ats-v-r-2016/#comment-676682"><span class="wpb-thumb"><img alt='' src='//0.gravatar.com/avatar/c7a9797767fc734ee2987d885d718e5b?s=128&#038;r=g' srcset='http://0.gravatar.com/avatar/c7a9797767fc734ee2987d885d718e5b?s=256&amp;r=g 2x' class='avatar avatar-128 photo' height='128' width='128'/></span><span class="wpb-text"><i class="meta">scott3 on:</i><i class="title">Cadillac Marks O&#8217;Connell&#8217;s Four Championships With Velocity Red ATS-V.R For 2016</i></span></a></li><li class="group wpb-thumb-enabled"><a title="2017 Chevrolet Camaro 1LE Pricing Won&#8217;t &#8216;Mirror&#8217; Fifth-Generation" href="http://gmauthority.com/blog/2016/02/2017-chevrolet-camaro-1le-pricing-wont-mirror-fifth-generation/#comment-676681"><span class="wpb-thumb"><img alt='' src='//0.gravatar.com/avatar/c7a9797767fc734ee2987d885d718e5b?s=128&#038;r=g' srcset='http://0.gravatar.com/avatar/c7a9797767fc734ee2987d885d718e5b?s=256&amp;r=g 2x' class='avatar avatar-128 photo' height='128' width='128'/></span><span class="wpb-text"><i class="meta">scott3 on:</i><i class="title">2017 Chevrolet Camaro 1LE Pricing Won&#8217;t &#8216;Mirror&#8217; Fifth-Generation</i></span></a></li><li class="group wpb-thumb-enabled"><a title="Feast Your Eyes On These Live Photos Of The 2016 Colorado Z71 Midnight Edition: Chicago 2016" href="http://gmauthority.com/blog/2016/02/feast-your-eyes-on-these-live-photos-of-the-2016-colorado-z71-midnight-edition-chicago-2016/#comment-676680"><span class="wpb-thumb"><img alt='' src='//2.gravatar.com/avatar/54b056bc94a11e30681ed6549c98a287?s=128&#038;r=g' srcset='http://2.gravatar.com/avatar/54b056bc94a11e30681ed6549c98a287?s=256&amp;r=g 2x' class='avatar avatar-128 photo' height='128' width='128'/></span><span class="wpb-text"><i class="meta">daniel on:</i><i class="title">Feast Your Eyes On These Live Photos Of The 2016 Colorado Z71 Midnight Edition: Chicago 2016</i></span></a></li><li class="group wpb-thumb-enabled"><a title="Feast Your Eyes On These Live Photos Of The 2016 Colorado Z71 Midnight Edition: Chicago 2016" href="http://gmauthority.com/blog/2016/02/feast-your-eyes-on-these-live-photos-of-the-2016-colorado-z71-midnight-edition-chicago-2016/#comment-676679"><span class="wpb-thumb"><img alt='' src='//2.gravatar.com/avatar/54b056bc94a11e30681ed6549c98a287?s=128&#038;r=g' srcset='http://2.gravatar.com/avatar/54b056bc94a11e30681ed6549c98a287?s=256&amp;r=g 2x' class='avatar avatar-128 photo' height='128' width='128'/></span><span class="wpb-text"><i class="meta">daniel on:</i><i class="title">Feast Your Eyes On These Live Photos Of The 2016 Colorado Z71 Midnight Edition: Chicago 2016</i></span></a></li><li class="group wpb-thumb-enabled"><a title="Chevrolet Will Continue To Utilize &#8216;Real People, Not Actors&#8217; Ad Strategy" href="http://gmauthority.com/blog/2016/02/chevrolet-will-continue-to-utilize-real-people-not-actors-ad-strategy/#comment-676678"><span class="wpb-thumb"><img alt='' src='//0.gravatar.com/avatar/6393332b1a624e394333563aec6aa75a?s=128&#038;r=g' srcset='http://0.gravatar.com/avatar/6393332b1a624e394333563aec6aa75a?s=256&amp;r=g 2x' class='avatar avatar-128 photo' height='128' width='128'/></span><span class="wpb-text"><i class="meta">Paul on:</i><i class="title">Chevrolet Will Continue To Utilize &#8216;Real People, Not Actors&#8217; Ad Strategy</i></span></a></li></ul></li><li id="execphp-4" class="widget widget_execphp"><h3 class="widget-title group"><span>Sponsors</span></h3> <div class="execphpwidget"><div id="ads-sidebar-wrapper"> 
+<div id="ad-sidebar-container-160">
+<script language="javascript1.1" src="//adserver.adtechus.com/addyn|3.0|9994.1|3508058|0|154|ADTECH;loc=100;target=_blank;misc=[TIMESTAMP];rdclick="></script>
+</div>
+<div id="ad-sidebar-container-160">
+<script language="javascript1.1" src="//adserver.adtechus.com/addyn|3.0|9994.1|3508060|0|154|ADTECH;loc=100;target=_blank;misc=[TIMESTAMP];rdclick="></script>
+</div>
+</div>
+</div>
+</li><li id="bbp_topics_widget-2" class="widget widget_display_topics"><h3 class="widget-title group"><span>Recent Forum Discussions</span></h3>
+<ul>
+<li>
+<a class="bbp-forum-title" href="http://gmauthority.com/blog/topic/sandhi-sudha-plus-oil/">Sandhi Sudha Plus Oil</a>
+</li>
+<li>
+<a class="bbp-forum-title" href="http://gmauthority.com/blog/topic/2015-suburban-wfront-sensors-needs-a-grille-guard/">2015 Suburban w/front sensors needs a grille guard</a>
+</li>
+<li>
+<a class="bbp-forum-title" href="http://gmauthority.com/blog/topic/track-my-2016-camaro-ss-convertible-build/">Track my 2016 Camaro SS Convertible Build</a>
+</li>
+<li>
+<a class="bbp-forum-title" href="http://gmauthority.com/blog/topic/2016-half-ton-8-spd-issue/">2016 Half Ton 8-Spd Issue</a>
+</li>
+<li>
+<a class="bbp-forum-title" href="http://gmauthority.com/blog/topic/2016-sierra-8-spd-issue/">2016 Sierra 8-Spd Issue</a>
+</li>
+<li>
+<a class="bbp-forum-title" href="http://gmauthority.com/blog/topic/2016-yukon-denali-buffetingvibration-issues-2/">2016 Yukon Denali Buffeting/Vibration Issues</a>
+</li>
+<li>
+<a class="bbp-forum-title" href="http://gmauthority.com/blog/topic/2016-yukon-denali-buffetingvibration-issues/">2016 Yukon Denali Buffeting/Vibration Issues</a>
+</li>
+<li>
+<a class="bbp-forum-title" href="http://gmauthority.com/blog/topic/when-will-duramax-canyon-arrive/">When will duramax canyon arrive?</a>
+</li>
+<li>
+<a class="bbp-forum-title" href="http://gmauthority.com/blog/topic/2007-lucerne-csx/">2007 Lucerne CSX</a>
+</li>
+<li>
+<a class="bbp-forum-title" href="http://gmauthority.com/blog/topic/986698-safetlight-spotlight-gm-accessory-in-the-mid-60s/">986698 Safetlight spotlight GM accessory in the mid 60&#039;s</a>
+</li>
+</ul>
+</li><li id="execphp-5" class="widget widget_execphp"><h3 class="widget-title group"><span>Sponsors</span></h3> <div class="execphpwidget"><script language="javascript1.1" src="//adserver.adtechus.com/addyn|3.0|9994.1|3505734|0|170|ADTECH;loc=100;target=_blank;misc=[TIMESTAMP];rdclick="></script>
+<br>
+<script language="javascript1.1" src="//adserver.adtechus.com/addyn|3.0|9994.1|3508067|0|170|ADTECH;loc=100;target=_blank;misc=[TIMESTAMP];rdclick="></script>
+</div>
+</li>
+<li id="ngg-sidebar-widget-8" class="widget ngg-sidebar-widget">
+<h3 class="widget-title group"><span>Galleries</span></h3>
+<a href="http://gmauthority.com/blog/gallery/gm-4-8l-v8-vortec-l20-engine/" title="GM 4.8L V8 Vortec L20 Engine"><img src="//gmauthority.com/blog/wp-content/gallery/gm-4-8l-v8-vortec-l20-engine/thumbs/thumbs_gm-4-8l-v8-vortec-l20-engine-1.jpg" width="96" height="72" alt="GM 4.8L V8 Vortec L20 Engine"/></a><a href="http://gmauthority.com/blog/gallery/sema-2010-spark-z-spec/" title="SEMA 2010 - Spark Z-Spec"><img src="//gmauthority.com/blog/wp-content/gallery/sema-2010-spark-z-spec/thumbs/thumbs_sema-2010-spark-z-spec-5.jpg" width="96" height="72" alt="SEMA 2010 - Spark Z-Spec"/></a><a href="http://gmauthority.com/blog/gallery/special-edition-opel-adam-valentino-rossi-and-aldo-drudi/" title="Special Edition Opel ADAM Valentino Rossi and Aldo Drudi"><img src="//gmauthority.com/blog/wp-content/gallery/special-edition-opel-adam-valentino-rossi-and-aldo-drudi/thumbs/thumbs_special-edition-opel-adam-valentino-rossi-and-aldo-drudi-01.jpg" width="96" height="72" alt="Special Edition Opel ADAM Valentino Rossi and Aldo Drudi"/></a><a href="http://gmauthority.com/blog/gallery/2012-cadillac-cue-announcement/" title="2012 Cadillac CUE Announcement"><img src="//gmauthority.com/blog/wp-content/gallery/2012-cadillac-cue-announcement/thumbs/thumbs_2012-cadillac-cue-announcement-2.jpg" width="96" height="72" alt="2012 Cadillac CUE Announcement"/></a><a href="http://gmauthority.com/blog/gallery/2016-chevrolet-colorado-z71-trail-boss-3-0-concept-sema-2015/" title="2016 Chevrolet Colorado Z71 Trail Boss 3.0 Concept - SEMA 2015"><img src="//gmauthority.com/blog/wp-content/gallery/2016-chevrolet-colorado-z71-trail-boss-3-0-concept-sema-2015/thumbs/thumbs_2016-chevrolet-colorado-z71-trail-boss-3-0-concept-sema-2015-01.jpg" width="96" height="72" alt="2016 Chevrolet Colorado Z71 Trail Boss 3.0 Concept - SEMA 2015"/></a><a href="http://gmauthority.com/blog/gallery/gm-4-3l-v6-vortec-lu3-engine/" title="GM 4.3L V6 Vortec LU3 Engine"><img src="//gmauthority.com/blog/wp-content/gallery/gm-4-3l-v6-vortec-lu3-engine/thumbs/thumbs_gm-4-3l-v6-vortec-lu3-engine-1.jpg" width="96" height="72" alt="GM 4.3L V6 Vortec LU3 Engine"/></a><a href="http://gmauthority.com/blog/gallery/gm-ecotec-2-4l-i4-lea-engine/" title="GM Ecotec 2.4L I4 LEA Engine"><img src="//gmauthority.com/blog/wp-content/gallery/gm-ecotec-2-4l-i4-lea-engine/thumbs/thumbs_gm-ecotec-2-4l-lea-engine-1.jpg" width="96" height="72" alt="GM Ecotec 2.4L I4 LEA Engine"/></a><a href="http://gmauthority.com/blog/gallery/ford-custom-graphics/" title="Ford Custom Graphics"><img src="//gmauthority.com/blog/wp-content/gallery/ford-custom-graphics/thumbs/thumbs_ford-custom-graphics-9.jpg" width="96" height="72" alt="Ford Custom Graphics"/></a><a href="http://gmauthority.com/blog/gallery/sema-2012-guy-fieri-corvette-427-convertible/" title="SEMA 2012 - Guy Fieri Corvette 427 Convertible"><img src="//gmauthority.com/blog/wp-content/gallery/sema-2012-guy-fieri-corvette-427-convertible/thumbs/thumbs_sema-2012-guy-fieri-corvette-427-convertible-1.jpg" width="96" height="72" alt="SEMA 2012 - Guy Fieri Corvette 427 Convertible"/></a>
+</li>
+<li id="archives-5" class="widget widget_archive"><h3 class="widget-title group"><span>The Archives</span></h3> <label class="screen-reader-text" for="archives-dropdown-5">The Archives</label>
+<select id="archives-dropdown-5" name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'>
+<option value="">Select Month</option>
+<option value='http://gmauthority.com/blog/2016/02/'> February 2016 </option>
+<option value='http://gmauthority.com/blog/2016/01/'> January 2016 </option>
+<option value='http://gmauthority.com/blog/2015/12/'> December 2015 </option>
+<option value='http://gmauthority.com/blog/2015/11/'> November 2015 </option>
+<option value='http://gmauthority.com/blog/2015/10/'> October 2015 </option>
+<option value='http://gmauthority.com/blog/2015/09/'> September 2015 </option>
+<option value='http://gmauthority.com/blog/2015/08/'> August 2015 </option>
+<option value='http://gmauthority.com/blog/2015/07/'> July 2015 </option>
+<option value='http://gmauthority.com/blog/2015/06/'> June 2015 </option>
+<option value='http://gmauthority.com/blog/2015/05/'> May 2015 </option>
+<option value='http://gmauthority.com/blog/2015/04/'> April 2015 </option>
+<option value='http://gmauthority.com/blog/2015/03/'> March 2015 </option>
+<option value='http://gmauthority.com/blog/2015/02/'> February 2015 </option>
+<option value='http://gmauthority.com/blog/2015/01/'> January 2015 </option>
+<option value='http://gmauthority.com/blog/2014/12/'> December 2014 </option>
+<option value='http://gmauthority.com/blog/2014/11/'> November 2014 </option>
+<option value='http://gmauthority.com/blog/2014/10/'> October 2014 </option>
+<option value='http://gmauthority.com/blog/2014/09/'> September 2014 </option>
+<option value='http://gmauthority.com/blog/2014/08/'> August 2014 </option>
+<option value='http://gmauthority.com/blog/2014/07/'> July 2014 </option>
+<option value='http://gmauthority.com/blog/2014/06/'> June 2014 </option>
+<option value='http://gmauthority.com/blog/2014/05/'> May 2014 </option>
+<option value='http://gmauthority.com/blog/2014/04/'> April 2014 </option>
+<option value='http://gmauthority.com/blog/2014/03/'> March 2014 </option>
+<option value='http://gmauthority.com/blog/2014/02/'> February 2014 </option>
+<option value='http://gmauthority.com/blog/2014/01/'> January 2014 </option>
+<option value='http://gmauthority.com/blog/2013/12/'> December 2013 </option>
+<option value='http://gmauthority.com/blog/2013/11/'> November 2013 </option>
+<option value='http://gmauthority.com/blog/2013/10/'> October 2013 </option>
+<option value='http://gmauthority.com/blog/2013/09/'> September 2013 </option>
+<option value='http://gmauthority.com/blog/2013/08/'> August 2013 </option>
+<option value='http://gmauthority.com/blog/2013/07/'> July 2013 </option>
+<option value='http://gmauthority.com/blog/2013/06/'> June 2013 </option>
+<option value='http://gmauthority.com/blog/2013/05/'> May 2013 </option>
+<option value='http://gmauthority.com/blog/2013/04/'> April 2013 </option>
+<option value='http://gmauthority.com/blog/2013/03/'> March 2013 </option>
+<option value='http://gmauthority.com/blog/2013/02/'> February 2013 </option>
+<option value='http://gmauthority.com/blog/2013/01/'> January 2013 </option>
+<option value='http://gmauthority.com/blog/2012/12/'> December 2012 </option>
+<option value='http://gmauthority.com/blog/2012/11/'> November 2012 </option>
+<option value='http://gmauthority.com/blog/2012/10/'> October 2012 </option>
+<option value='http://gmauthority.com/blog/2012/09/'> September 2012 </option>
+<option value='http://gmauthority.com/blog/2012/08/'> August 2012 </option>
+<option value='http://gmauthority.com/blog/2012/07/'> July 2012 </option>
+<option value='http://gmauthority.com/blog/2012/06/'> June 2012 </option>
+<option value='http://gmauthority.com/blog/2012/05/'> May 2012 </option>
+<option value='http://gmauthority.com/blog/2012/04/'> April 2012 </option>
+<option value='http://gmauthority.com/blog/2012/03/'> March 2012 </option>
+<option value='http://gmauthority.com/blog/2012/02/'> February 2012 </option>
+<option value='http://gmauthority.com/blog/2012/01/'> January 2012 </option>
+<option value='http://gmauthority.com/blog/2011/12/'> December 2011 </option>
+<option value='http://gmauthority.com/blog/2011/11/'> November 2011 </option>
+<option value='http://gmauthority.com/blog/2011/10/'> October 2011 </option>
+<option value='http://gmauthority.com/blog/2011/09/'> September 2011 </option>
+<option value='http://gmauthority.com/blog/2011/08/'> August 2011 </option>
+<option value='http://gmauthority.com/blog/2011/07/'> July 2011 </option>
+<option value='http://gmauthority.com/blog/2011/06/'> June 2011 </option>
+<option value='http://gmauthority.com/blog/2011/05/'> May 2011 </option>
+<option value='http://gmauthority.com/blog/2011/04/'> April 2011 </option>
+<option value='http://gmauthority.com/blog/2011/03/'> March 2011 </option>
+<option value='http://gmauthority.com/blog/2011/02/'> February 2011 </option>
+<option value='http://gmauthority.com/blog/2011/01/'> January 2011 </option>
+<option value='http://gmauthority.com/blog/2010/12/'> December 2010 </option>
+<option value='http://gmauthority.com/blog/2010/11/'> November 2010 </option>
+<option value='http://gmauthority.com/blog/2010/10/'> October 2010 </option>
+<option value='http://gmauthority.com/blog/2010/09/'> September 2010 </option>
+<option value='http://gmauthority.com/blog/2010/08/'> August 2010 </option>
+<option value='http://gmauthority.com/blog/2010/07/'> July 2010 </option>
+<option value='http://gmauthority.com/blog/2010/06/'> June 2010 </option>
+<option value='http://gmauthority.com/blog/2010/05/'> May 2010 </option>
+<option value='http://gmauthority.com/blog/2010/04/'> April 2010 </option>
+<option value='http://gmauthority.com/blog/2010/03/'> March 2010 </option>
+<option value='http://gmauthority.com/blog/2010/02/'> February 2010 </option>
+<option value='http://gmauthority.com/blog/2010/01/'> January 2010 </option>
+<option value='http://gmauthority.com/blog/2009/12/'> December 2009 </option>
+<option value='http://gmauthority.com/blog/2009/11/'> November 2009 </option>
+<option value='http://gmauthority.com/blog/2009/10/'> October 2009 </option>
+<option value='http://gmauthority.com/blog/2009/09/'> September 2009 </option>
+<option value='http://gmauthority.com/blog/2009/08/'> August 2009 </option>
+</select>
+</li></ul> </div> 
+</div> 
+</div> 
+</div> 
+</div> 
+<div class="clear"></div>
+<footer id="footer">
+<div class="container">
+<div id="footer-content" class="pad group">
+<div id="footer-wrapper"> 
+<div id="footer-container">
+<script>var ad_data = get_ad_size('footer');
+							document.write('<script type="text/javascript"> ' + ad_data[0] + '<' + '\/script>'); </script>
+<script> document.write('<script type="text/javascript" ' + ad_data[1] + '><' + '\/script>'); </script>
+</div>
+</div> 
+</div>
+<div id="footer-widgets" class="pad group">
+<div class="grid one-third">
+<ul><li id="wpb-tabs-3" class="widget widget_wpb_tabs"><h3 class="widget-title fix"><span>Fresh Off The Press</span></h3><ul class="wpb-tabs group tabs-3"><li class="wpb-tab-recent"><a href="#tab-recent-3" title="Recent Posts"><i class="icon-time"></i><span>Recent Posts</span></a></li><li class="wpb-tab-popular"><a href="#tab-popular-3" title="Most Popular"><i class="icon-star"></i><span>Most Popular</span></a></li><li class="wpb-tab-comments"><a href="#tab-comments-3" title="Comments"><i class="icon-comments-alt"></i><span>Comments</span></a></li></ul><ul id="tab-recent-3" class="list-recent wpb-tab"><li class="format- wpb-thumb-enabled group"><a title="The 2017 GMC Acadia And Its All Terrain Package: Feature Spotlight" href="http://gmauthority.com/blog/2016/02/the-2017-gmc-acadia-and-its-all-terrain-package-feature-spotlight/"><span class="wpb-thumb"><img width="96" height="64" src="//gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-All-Terrain-NAIAS-2016-Live-Reveal-001-96x64.jpg" class="attachment-size-thumbnail-tiny size-size-thumbnail-tiny wp-post-image" alt="2017 GMC Acadia All Terrain - NAIAS 2016 Live Reveal 001" srcset="//gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-All-Terrain-NAIAS-2016-Live-Reveal-001-300x200.jpg 300w, //gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-All-Terrain-NAIAS-2016-Live-Reveal-001-768x512.jpg 768w, //gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-All-Terrain-NAIAS-2016-Live-Reveal-001-1024x683.jpg 1024w, //gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-All-Terrain-NAIAS-2016-Live-Reveal-001-720x480.jpg 720w, //gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-All-Terrain-NAIAS-2016-Live-Reveal-001-96x64.jpg 96w, //gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-All-Terrain-NAIAS-2016-Live-Reveal-001-192x128.jpg 192w, //gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-All-Terrain-NAIAS-2016-Live-Reveal-001.jpg 1200w" sizes="(max-width: 96px) 100vw, 96px"/></span><span class="wpb-text"><i class="title">The 2017 GMC Acadia And Its All Terrain Package: Feature Spotlight</i><i class="meta">February 16, 2016</i></span></a></li><li class="format- wpb-thumb-enabled group"><a title="Cadillac Marks O&#8217;Connell&#8217;s Four Championships With Velocity Red ATS-V.R For 2016" href="http://gmauthority.com/blog/2016/02/cadillac-marks-oconnells-four-championships-with-velocity-red-ats-v-r-2016/"><span class="wpb-thumb"><img width="96" height="64" src="//gmauthority.com/blog/wp-content/uploads/2016/02/Johnny-OConnell-Red-ATSVR-2016-96x64.jpg" class="attachment-size-thumbnail-tiny size-size-thumbnail-tiny wp-post-image" alt="Johnny OConnell Red ATSVR 2016" srcset="//gmauthority.com/blog/wp-content/uploads/2016/02/Johnny-OConnell-Red-ATSVR-2016-96x64.jpg 96w, //gmauthority.com/blog/wp-content/uploads/2016/02/Johnny-OConnell-Red-ATSVR-2016-192x128.jpg 192w" sizes="(max-width: 96px) 100vw, 96px"/></span><span class="wpb-text"><i class="title">Cadillac Marks O&#8217;Connell&#8217;s Four Championships With Velocity Red ATS-V.R For 2016</i><i class="meta">February 16, 2016</i></span></a></li><li class="format- wpb-thumb-enabled group"><a title="Blackdog To Field Two Camaro Z/28.Rs In 2016 Pirelli World Challenge GTS Class" href="http://gmauthority.com/blog/2016/02/blackdog-to-field-two-camaro-z28-rs-in-2016-pirelli-world-challenge-gts-class/"><span class="wpb-thumb"><img width="96" height="64" src="//gmauthority.com/blog/wp-content/uploads/2016/02/Blackdog-Speed-Shop-96x64.jpg" class="attachment-size-thumbnail-tiny size-size-thumbnail-tiny wp-post-image" alt="Blackdog Speed Shop" srcset="//gmauthority.com/blog/wp-content/uploads/2016/02/Blackdog-Speed-Shop-96x64.jpg 96w, //gmauthority.com/blog/wp-content/uploads/2016/02/Blackdog-Speed-Shop-192x128.jpg 192w" sizes="(max-width: 96px) 100vw, 96px"/></span><span class="wpb-text"><i class="title">Blackdog To Field Two Camaro Z/28.Rs In 2016 Pirelli World Challenge GTS Class</i><i class="meta">February 16, 2016</i></span></a></li><li class="format- wpb-thumb-enabled group"><a title="2017 GMC Acadia To Start At $29,995" href="http://gmauthority.com/blog/2016/02/2017-gmc-acadia-to-start-at-29995/"><span class="wpb-thumb"><img width="96" height="64" src="//gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-Denali-002-96x64.jpg" class="attachment-size-thumbnail-tiny size-size-thumbnail-tiny wp-post-image" alt="2017 GMC Acadia Denali 002" srcset="//gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-Denali-002-96x64.jpg 96w, //gmauthority.com/blog/wp-content/uploads/2016/01/2017-GMC-Acadia-Denali-002-192x128.jpg 192w" sizes="(max-width: 96px) 100vw, 96px"/></span><span class="wpb-text"><i class="title">2017 GMC Acadia To Start At $29,995</i><i class="meta">February 16, 2016</i></span></a></li></ul><ul id="tab-popular-3" class="list-popular wpb-tab"><li class="format- wpb-thumb-enabled group"><a title="Poll: Should GM Bring Back Pontiac?" href="http://gmauthority.com/blog/2012/03/poll-is-it-time-to-start-talking-about-pontiac/"><span class="wpb-thumb"><img width="96" height="64" src="//gmauthority.com/blog/wp-content/uploads/2012/03/Pontiac-G8-G3-96x64.jpg" class="attachment-size-thumbnail-tiny size-size-thumbnail-tiny wp-post-image" alt="Pontiac G8 G3" srcset="//gmauthority.com/blog/wp-content/uploads/2012/03/Pontiac-G8-G3-96x64.jpg 96w, //gmauthority.com/blog/wp-content/uploads/2012/03/Pontiac-G8-G3-192x128.jpg 192w" sizes="(max-width: 96px) 100vw, 96px"/></span><span class="wpb-text"><i class="title">Poll: Should GM Bring Back Pontiac?</i><i class="meta">March 28, 2012</i></span></a></li><li class="format- wpb-thumb-enabled group"><a title="GMT 900 GMC, Chevy Vehicles Subject To Frequently Cracking Dashboards" href="http://gmauthority.com/blog/2012/08/gmt-900-gmc-chevy-vehicles-subject-to-frequently-cracking-dashboards/"><span class="wpb-thumb"><img width="96" height="64" src="//gmauthority.com/blog/wp-content/uploads/2012/08/Cracked-Dashboard-GMT900-trucks-and-suvs-96x64.jpg" class="attachment-size-thumbnail-tiny size-size-thumbnail-tiny wp-post-image" alt="Cracked Dashboard - GMT900 trucks and suvs" srcset="//gmauthority.com/blog/wp-content/uploads/2012/08/Cracked-Dashboard-GMT900-trucks-and-suvs-96x64.jpg 96w, //gmauthority.com/blog/wp-content/uploads/2012/08/Cracked-Dashboard-GMT900-trucks-and-suvs-192x128.jpg 192w" sizes="(max-width: 96px) 100vw, 96px"/></span><span class="wpb-text"><i class="title">GMT 900 GMC, Chevy Vehicles Subject To Frequently Cracking Dashboards</i><i class="meta">August 11, 2012</i></span></a></li><li class="format- wpb-thumb-enabled group"><a title="GM Working On Software Update To Improve iPhone 5 Bluetooth Connectivity" href="http://gmauthority.com/blog/2012/11/gm-working-on-software-update-to-improve-iphone-5-bluetooth-connectivity/"><span class="wpb-thumb"><img width="96" height="64" src="//gmauthority.com/blog/wp-content/uploads/2012/11/Apple-Siri-Eyes-Free-Chevrolet-MyLink-04-96x64.jpg" class="attachment-size-thumbnail-tiny size-size-thumbnail-tiny wp-post-image" alt="Apple Siri Eyes Free - Chevrolet MyLink 04" srcset="//gmauthority.com/blog/wp-content/uploads/2012/11/Apple-Siri-Eyes-Free-Chevrolet-MyLink-04-96x64.jpg 96w, //gmauthority.com/blog/wp-content/uploads/2012/11/Apple-Siri-Eyes-Free-Chevrolet-MyLink-04-192x128.jpg 192w" sizes="(max-width: 96px) 100vw, 96px"/></span><span class="wpb-text"><i class="title">GM Working On Software Update To Improve iPhone 5 Bluetooth Connectivity</i><i class="meta">November 28, 2012</i></span></a></li><li class="format- wpb-thumb-enabled group"><a title="Should Chevrolet Replace Holden In Australia, New Zealand?" href="http://gmauthority.com/blog/2011/05/should-chevrolet-replace-holden-in-australia-new-zealand/"><span class="wpb-thumb"><img width="96" height="64" src="//gmauthority.com/blog/wp-content/uploads/2011/05/Chevrolet-logo-96x64.png" class="attachment-size-thumbnail-tiny size-size-thumbnail-tiny wp-post-image" alt="Chevrolet logo on Silverado HD" srcset="//gmauthority.com/blog/wp-content/uploads/2011/05/Chevrolet-logo-96x64.png 96w, //gmauthority.com/blog/wp-content/uploads/2011/05/Chevrolet-logo-192x128.png 192w" sizes="(max-width: 96px) 100vw, 96px"/></span><span class="wpb-text"><i class="title">Should Chevrolet Replace Holden In Australia, New Zealand?</i><i class="meta">May 2, 2011</i></span></a></li></ul><ul id="tab-comments-3" class="list-comments wpb-tab"><li class="group wpb-thumb-enabled"><a title="Chevrolet Will Continue To Utilize &#8216;Real People, Not Actors&#8217; Ad Strategy" href="http://gmauthority.com/blog/2016/02/chevrolet-will-continue-to-utilize-real-people-not-actors-ad-strategy/#comment-676683"><span class="wpb-thumb"><img alt='' src='//0.gravatar.com/avatar/c7a9797767fc734ee2987d885d718e5b?s=128&#038;r=g' srcset='http://0.gravatar.com/avatar/c7a9797767fc734ee2987d885d718e5b?s=256&amp;r=g 2x' class='avatar avatar-128 photo' height='128' width='128'/></span><span class="wpb-text"><i class="meta">scott3 on:</i><i class="title">Chevrolet Will Continue To Utilize &#8216;Real People, Not Actors&#8217; Ad Strategy</i></span></a></li><li class="group wpb-thumb-enabled"><a title="Cadillac Marks O&#8217;Connell&#8217;s Four Championships With Velocity Red ATS-V.R For 2016" href="http://gmauthority.com/blog/2016/02/cadillac-marks-oconnells-four-championships-with-velocity-red-ats-v-r-2016/#comment-676682"><span class="wpb-thumb"><img alt='' src='//0.gravatar.com/avatar/c7a9797767fc734ee2987d885d718e5b?s=128&#038;r=g' srcset='http://0.gravatar.com/avatar/c7a9797767fc734ee2987d885d718e5b?s=256&amp;r=g 2x' class='avatar avatar-128 photo' height='128' width='128'/></span><span class="wpb-text"><i class="meta">scott3 on:</i><i class="title">Cadillac Marks O&#8217;Connell&#8217;s Four Championships With Velocity Red ATS-V.R For 2016</i></span></a></li><li class="group wpb-thumb-enabled"><a title="2017 Chevrolet Camaro 1LE Pricing Won&#8217;t &#8216;Mirror&#8217; Fifth-Generation" href="http://gmauthority.com/blog/2016/02/2017-chevrolet-camaro-1le-pricing-wont-mirror-fifth-generation/#comment-676681"><span class="wpb-thumb"><img alt='' src='//0.gravatar.com/avatar/c7a9797767fc734ee2987d885d718e5b?s=128&#038;r=g' srcset='http://0.gravatar.com/avatar/c7a9797767fc734ee2987d885d718e5b?s=256&amp;r=g 2x' class='avatar avatar-128 photo' height='128' width='128'/></span><span class="wpb-text"><i class="meta">scott3 on:</i><i class="title">2017 Chevrolet Camaro 1LE Pricing Won&#8217;t &#8216;Mirror&#8217; Fifth-Generation</i></span></a></li><li class="group wpb-thumb-enabled"><a title="Feast Your Eyes On These Live Photos Of The 2016 Colorado Z71 Midnight Edition: Chicago 2016" href="http://gmauthority.com/blog/2016/02/feast-your-eyes-on-these-live-photos-of-the-2016-colorado-z71-midnight-edition-chicago-2016/#comment-676680"><span class="wpb-thumb"><img alt='' src='//2.gravatar.com/avatar/54b056bc94a11e30681ed6549c98a287?s=128&#038;r=g' srcset='http://2.gravatar.com/avatar/54b056bc94a11e30681ed6549c98a287?s=256&amp;r=g 2x' class='avatar avatar-128 photo' height='128' width='128'/></span><span class="wpb-text"><i class="meta">daniel on:</i><i class="title">Feast Your Eyes On These Live Photos Of The 2016 Colorado Z71 Midnight Edition: Chicago 2016</i></span></a></li></ul></li></ul>
+</div>
+<div class="grid one-third">
+<ul><li id="text-65" class="widget widget_text"><h3 class="widget-title fix"><span>ABOUT GM AUTHORITY</span></h3> <div class="textwidget"><span style="color:#FFFFFF;">GM Authority is a must-read for <a href="http://gmauthority.com">GM news</a>, <a href="http://gmauthority.com/blog/category/gma-special/rumormill/">GM rumors</a>, <a href="http://gmauthority.com/blog/category/gma-special/review/">GM reviews</a>, and information about General Motors vehicles.<br/><br/>
+Join others in discussing The General in our <a href="http://gmauthority.com/forum/">GM Forums</a> and browse photos of GM vehicles in our <a href="http://gmauthority.com/blog/gallery/">GM pictures</a> gallery.<br/><br/>
+Also, please note that GM Authority is an independent publication and is not sponsored, owned, or in any other way condoned by General Motors Company, its brands, subsidiaries, or partners.<br/><br/>
+We encourage you to check out our sister publication, Motrolix.com, for the latest <a href="http://motrolix.com">Auto News</a>.
+</span></div>
+</li></ul>
+</div>
+<div class="grid one-third last">
+<ul><li id="text-93" class="widget widget_text"><h3 class="widget-title fix"><span>Get Social</span></h3> <div class="textwidget"><center>
+<a href="https://twitter.com/gmauthority" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @gmauthority</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</br>
+<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fgmauthority&amp;width=200&amp;height=62&amp;show_faces=false&amp;colorscheme=dark&amp;stream=false&amp;show_border=false&amp;header=false&amp;appId=216102895086608" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:62px;" allowTransparency="true"></iframe>
+ 
+<div class="g-plus" data-height="69" data-href="//plus.google.com/106522224833753772925" data-rel="publisher"></div>
+ 
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+</center></div>
+</li><li id="bbp_login_widget-4" class="widget bbp_widget_login"><h3 class="widget-title fix"><span>Login or Register</span></h3>
+<form method="post" action="//gmauthority.com/blog/wp-login.php" class="bbp-login-form">
+<fieldset>
+<legend>Log In</legend>
+<div class="bbp-username">
+<label for="user_login">Username: </label>
+<input type="text" name="log" value="" size="20" id="user_login" tabindex="101"/>
+</div>
+<div class="bbp-password">
+<label for="user_pass">Password: </label>
+<input type="password" name="pwd" value="" size="20" id="user_pass" tabindex="102"/>
+</div>
+<div class="bbp-remember-me">
+<input type="checkbox" name="rememberme" value="forever" id="rememberme" tabindex="103"/>
+<label for="rememberme">Remember Me</label>
+</div>
+<div class="bbp-submit-wrapper">
+<button type="submit" name="user-submit" id="user-submit" tabindex="104" class="button submit user-submit">Log In</button>
+<input type="hidden" name="user-cookie" value="1"/>
+<input type="hidden" id="bbp_redirect_to" name="redirect_to" value="http://gmauthority.com/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/"/><input type="hidden" id="_wpnonce" name="_wpnonce" value="398d296cae"/><input type="hidden" name="_wp_http_referer" value="/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/"/>
+</div>
+<div class="bbp-login-links">
+<a href="http://gmauthority.com/blog/register/" title="Register" class="bbp-register-link">Register</a>
+<a href="http://gmauthority.com/blog/lost-your-password/" title="Lost Password" class="bbp-lostpass-link">Lost Password</a>
+</div>
+</fieldset>
+</form>
+</li></ul>
+</div>
+</div>
+</div> 
+<nav class="nav-container group" id="nav-footer">
+<div class="nav-toggle" id="nav-footer-toggle"><i class="icon-reorder"></i></div>
+<div class="nav-wrap">
+<ul id="menu-footer" class="nav container group"><li id="menu-item-41251" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41251"><a href="http://gmauthority.com">News</a></li><li id="menu-item-41252" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41252"><a href="http://gmauthority.com/blog/forum/">Forum</a></li><li id="menu-item-41253" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41253"><a href="http://gmauthority.com/blog/gallery/">Photos</a></li><li id="menu-item-41254" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41254"><a href="http://gmauthority.com/blog/category/video/">Videos</a></li><li id="menu-item-41256" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41256"><a href="http://gmauthority.com/blog/about/">About Us</a></li><li id="menu-item-41259" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41259"><a href="http://gmauthority.com/blog/contact/">Contact Us</a></li><li id="menu-item-41261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41261"><a href="http://gmauthority.com/blog/tip-us/">Tip Us</a></li><li id="menu-item-46523" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46523"><a href="http://gmauthority.com/blog/sitemap/">Sitemap</a></li></ul> </div>
+</nav> 
+<div id="footer-bottom">
+<div class="container">
+<div class="pad group">
+<p id="copyright">© COPYRIGHT 2016 POWERED BY LSX V8 ENGINES, LOVE & REVERENCE.</p>
+<a id="to-top" href="#"><i class="icon-angle-up"></i></a>
+</div>
+</div>
+</div> 
+</footer> 
+</div> 
+<aside>
+<div id="wpbfsb" class=" wpbfsb wpbfsb-position-vertical-left wpbfsb-position-responsive-horizontal-bottom" data-icon-quantity-full-width="3" data-icon-quantity-responsive="3" data-responsive-width="968">
+<div class="wpbfsb-schema-org"> <button data-text="Buick Sees Major Uptick In Online Traffic Following Cascada Super Bowl Ad" data-href="http://gmauthority.com/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/" title="" style="" class=" wpbfsb-button-named-facebook" onClick="javascript:void(window.open('http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fgmauthority.com%2Fblog%2F2016%2F02%2Fbuick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad%2F', 'Facebook', 'width=650,height=200,scrollbars=yes'));">
+<i class="wpbfsb-icon-facebook"></i> </button>
+<button data-text="Buick Sees Major Uptick In Online Traffic Following Cascada Super Bowl Ad" data-href="http://gmauthority.com/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/" title="" style="" class=" wpbfsb-button-named-twitter" onClick="javascript:void(window.open('http://twitter.com/intent/tweet?text=Buick%20Sees%20Major%20Uptick%20In%20Online%20Traffic%20Following%20Cascada%20Super%20Bowl%20Ad http%3A%2F%2Fgmauthority.com%2Fblog%2F2016%2F02%2Fbuick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad%2F', 'Twitter', 'width=650,height=400,scrollbars=yes'));">
+<i class="wpbfsb-icon-twitter"></i> </button>
+<button data-text="Buick Sees Major Uptick In Online Traffic Following Cascada Super Bowl Ad" data-href="http://gmauthority.com/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/" title="" style="" class=" wpbfsb-button-named-google" onClick="javascript:void(window.open('https://plusone.google.com/_/+1/confirm?url=http%3A%2F%2Fgmauthority.com%2Fblog%2F2016%2F02%2Fbuick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad%2F', 'Plus One', 'width=650,height=200,scrollbars=yes'));">
+<i class="wpbfsb-icon-googleplus"></i> </button>
+<button id="wpbfsb-more-button" class="wpbfsb-more-button" onclick="void(wpbfsb_more_button_toggle());">
+<i class="wpbfsb-icon-chevron-down"></i>
+</button>
+</div> </div>
+<div style="clear: both;"></div>
+</aside>
+<script language="JavaScript">
+	/*<![CDATA[*/
+	function wpbfsb_more_button_toggle() {
+		var el = document.getElementById('wpbfsb'),
+			className = 'wpbfsb-animate-in';
+
+		if (el.classList) {
+			el.classList.toggle(className);
+		} else {
+			var classes = el.className.split(' ');
+			var existingIndex = classes.indexOf(className);
+
+			if (existingIndex >= 0)
+				classes.splice(existingIndex, 1);
+			else
+				classes.push(className);
+
+			el.className = classes.join(' ');
+		}
+	}
+	/*]]>*/
+</script> <form id="login" action="login" method="post">
+<h1>GM Authority</h1>
+<p class="status"></p>
+<label for="username">Username</label>
+<input id="username" type="text" name="username">
+<label for="password">Password</label>
+<input id="password" type="password" name="password">
+<label for="rememberme"><input id="rememberme" type="checkbox"> Remember Me</label>
+<br>
+<a class="lost" href="http://gmauthority.com/blog/lost-your-password/">Lost your password?</a>
+<input class="submit_button" type="submit" value="Login" name="submit">
+<div class="close">X</div>
+<input type="hidden" id="security" name="security" value="6faab1def6"/><input type="hidden" name="_wp_http_referer" value="/blog/2016/02/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad/"/> </form>
+<form id="search" action="/" method="get">
+<div class="close">X</div>
+<input id='mb-searcvhbox' type='text' placeholder='Search...' name='s' class='mtmb-searchbox' required autofocus>
+<p class="search-label">Type Keyword(s) to search</p>
+</form>
+<script type="text/javascript">
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-10454573-1']);
+ _gaq.push(['_setDomainName', 'gmauthority.com']);
+ _gaq.push(['_trackPageview']);
+ (function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+</script>
+<script type='text/javascript' charset='UTF-8' id='polldaddyRatings'><!--//--><![CDATA[//><!--
+PDRTJS_settings_1138624_comm_676149={"id":1138624,"unique_id":"wp-comment-676149","title":"Those%20are%20great%20numbers%20for%20a%20commercial%20that%20was%20the%2030th%20most%20popular%2Cand%20was%20most-appreciated%20by%20the%2050-64%2C%20and%2065%2B%20age%20groups%21%28Data%20courtesy%20of%20USA%20Today%26%23039%3Bs%20Super%20Bowl%20ad%20tracker%29.%E2%80%A6","permalink":"http:\/\/gmauthority.com\/blog\/2016\/02\/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad\/#comment-676149","item_id":"_comm_676149"}; if ( typeof PDRTJS_RATING !== 'undefined' ){if ( typeof PDRTJS_1138624_comm_676149 == 'undefined' ){PDRTJS_1138624_comm_676149 = new PDRTJS_RATING( PDRTJS_settings_1138624_comm_676149 );}}PDRTJS_settings_1138624_comm_676157={"id":1138624,"unique_id":"wp-comment-676157","title":"Yes%2C%20AARPscada.This%20commercial%20made%20ppl%20click%20on%20the%20site%20just%20to%20see%20how%20lame%20Buick%26%23039%3Bs%20line%20up%20still%20is.Buick%20is%20a%20disappointment%E2%80%A6","permalink":"http:\/\/gmauthority.com\/blog\/2016\/02\/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad\/#comment-676157","item_id":"_comm_676157"}; if ( typeof PDRTJS_RATING !== 'undefined' ){if ( typeof PDRTJS_1138624_comm_676157 == 'undefined' ){PDRTJS_1138624_comm_676157 = new PDRTJS_RATING( PDRTJS_settings_1138624_comm_676157 );}}PDRTJS_settings_1138624_comm_676179={"id":1138624,"unique_id":"wp-comment-676179","title":"The%20Cascada%20is%20not%20going%20to%20win%20any%20races%20and%20the%20styling%20is%20a%20little%20bland%20for%20my%20liking%20but%20for%20it%26%23039%3Bs%20intended%20segment%20it%20is%20quite%20competitive%20and%20creates%20a%20good%20value%20proposition.I%20think%20the%20ca%E2%80%A6","permalink":"http:\/\/gmauthority.com\/blog\/2016\/02\/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad\/#comment-676179","item_id":"_comm_676179"}; if ( typeof PDRTJS_RATING !== 'undefined' ){if ( typeof PDRTJS_1138624_comm_676179 == 'undefined' ){PDRTJS_1138624_comm_676179 = new PDRTJS_RATING( PDRTJS_settings_1138624_comm_676179 );}}PDRTJS_settings_1138624_comm_676170={"id":1138624,"unique_id":"wp-comment-676170","title":"Now%2C%20just%20think%20of%20the%20internet%20traffic%20if%20Buick%20runs%20an%20Avista%20commercial%20for%20Super%20Bowl%2051%21%E2%80%A6","permalink":"http:\/\/gmauthority.com\/blog\/2016\/02\/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad\/#comment-676170","item_id":"_comm_676170"}; if ( typeof PDRTJS_RATING !== 'undefined' ){if ( typeof PDRTJS_1138624_comm_676170 == 'undefined' ){PDRTJS_1138624_comm_676170 = new PDRTJS_RATING( PDRTJS_settings_1138624_comm_676170 );}}PDRTJS_settings_1138624_comm_676178={"id":1138624,"unique_id":"wp-comment-676178","title":"Keep%20dreaming.%20I%20like%20the%20Avista%20but%20even%20if%20the%20Avista%20concept%20car%20%20was%20given%20a%20greenlight%20tomorrow%20they%20would%20not%20have%20one%20on%20the%20ground%20ready%20for%20production%2012%20months%20from%20now.Also%20unlikely%20si%E2%80%A6","permalink":"http:\/\/gmauthority.com\/blog\/2016\/02\/buick-sees-major-uptick-in-online-traffic-following-cascada-super-bowl-ad\/#comment-676178","item_id":"_comm_676178"}; if ( typeof PDRTJS_RATING !== 'undefined' ){if ( typeof PDRTJS_1138624_comm_676178 == 'undefined' ){PDRTJS_1138624_comm_676178 = new PDRTJS_RATING( PDRTJS_settings_1138624_comm_676178 );}}
+//--><!]]></script><script type='text/javascript' charset='UTF-8' src='//i0.poll.fm/js/rating/rating.js'></script><script type='text/javascript' src='//gmauthority.com/blog/wp-content/plugins/akismet/_inc/form.js?ver=29955fea1d2415c1105ab90d47587502'></script>
+<link rel='stylesheet' id='stcr-plugin-style-css' href='//gmauthority.com/blog/wp-content/plugins/subscribe-to-comments-reloaded/includes/css/stcr-plugin-style.css?ver=29955fea1d2415c1105ab90d47587502' media='all'/>
+<script type='text/javascript' src='//s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=29955fea1d2415c1105ab90d47587502'></script>
+<script type='text/javascript' src='//gmauthority.com/blog/wp-includes/js/comment-reply.min.js?ver=29955fea1d2415c1105ab90d47587502'></script>
+<script type='text/javascript' src='//gmauthority.com/blog/wp-content/themes/typegrid11/js/jquery.jplayer.min.js?ver=29955fea1d2415c1105ab90d47587502'></script>
+<script type='text/javascript' src='//gmauthority.com/blog/wp-content/themes/typegrid11/js/jquery.flexslider.min.js?ver=29955fea1d2415c1105ab90d47587502'></script>
+<script type='text/javascript' src='//gmauthority.com/blog/wp-content/themes/typegrid11/js/jquery.sharrre-1.3.4.min.js?ver=29955fea1d2415c1105ab90d47587502'></script>
+<script type='text/javascript' src='//gmauthority.com/blog/wp-content/themes/typegrid11/js/jquery.theme.js?ver=29955fea1d2415c1105ab90d47587502'></script>
+<script type='text/javascript' src='//gmauthority.com/blog/wp-content/plugins/motrolix-top-menu-bar/inc/js/mtmb-top-menu-bar.js?ver=29955fea1d2415c1105ab90d47587502'></script>
+<script type='text/javascript' src='//gmauthority.com/blog/wp-content/plugins/motrolix-top-menu-bar/inc/js/mtmb-search-box.js?ver=29955fea1d2415c1105ab90d47587502'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajax_login_object = {"ajaxurl":"http:\/\/gmauthority.com\/blog\/wp-admin\/admin-ajax.php","redirecturl":"http:\/\/gmauthority.com\/blog\/account\/","loadingmessage":"Sending user info, please wait..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//gmauthority.com/blog/wp-content/plugins/motrolix-top-menu-bar/inc/js/mtmb-ajax-login.js?ver=29955fea1d2415c1105ab90d47587502'></script>
+<script type='text/javascript' src='//gmauthority.com/blog/wp-content/plugins/motrolix-top-menu-bar/inc/js/fastclick.js?ver=29955fea1d2415c1105ab90d47587502'></script>
+<script type='text/javascript' src='//gmauthority.com/blog/wp-includes/js/wp-embed.min.js?ver=29955fea1d2415c1105ab90d47587502'></script>
+<script type='text/javascript' src='//gmauthority.com/blog/wp-content/plugins/subscribe-to-comments-reloaded/includes/js/stcr-plugin.js?ver=29955fea1d2415c1105ab90d47587502'></script>
+<script type='text/javascript' src='//stats.wp.com/e-201607.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:3.9.1',blog:'10786057',post:'117446',tz:'-8',srv:'gmauthority.com'} ]);
+	_stq.push([ 'clickTrackerInit', '10786057', '117446' ]);
+</script>
+<script type="text/javascript">
+			var bwpRecaptchaWidget1;
+			var bwpRecaptchaCallback = function() {
+				// render all collected recaptcha instances
+				bwpRecaptchaWidget1 = grecaptcha.render('bwp-recaptcha-3fcdb73d36d54f2cc22d0f68e6b6e182', {
+					sitekey: '6LcR3PsSAAAAAIjDuvo-YA8RORYMO8K50HXGRejT',
+					theme: 'light',
+					size: 'normal',
+					tabindex: '0'
+				});
+			};
+		</script>
+<script src="//www.google.com/recaptcha/api.js?onload=bwpRecaptchaCallback&#038;render=explicit" async defer></script>
+</body>
+</html>
+</html>
+</html>
+ 
+ 
+ 
+ 

@@ -1,0 +1,2148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+	
+
+	<head>
+	
+		
+		
+		<script type="text/javascript" src="scripts/bowser.min.js"></script>
+		<script type="text/javascript" src="scripts/swfobject.js"></script>
+
+		<script>
+			var playSessionID = "4041CF3E-90DF-D15E-05BC02B111118751";
+			var mobilePlayer = false;
+			var privateLabel = false;
+			var centralSvrPrefixURL = "http://radio.securenetsystems.net/";
+
+			var launchFrom = "";
+			var enableCirrusOmni = true;
+
+			var stationSlogan = "Hottest Independent Radio Station";
+			var cdnRfPrefixURL = "http://cdnrf.securenetsystems.net/file_radio/";
+			var playerBgImg = cdnRfPrefixURL + "stations_large/DDDFM/v5/bg.png";
+
+			var geoCTCode = "US";
+			var geoDMACode = "544";
+			var geoLocLat = "36.9311981201";
+			var geoLocLon = "-76.2397003174";
+			var clientIPAddr = "128.82.4.244";
+
+			var playerAdvertisingMode = "ADN";
+			var bannerRotationFqcy = 30;
+			var definedBannerTypes = "M,D,N,E";
+			var sLocaFillOnAdnFail = false;
+			var sTerrFillOnLocalFail = true;
+			var sBedFillOnAllFail = false;
+			var sBedFillFileName = "COMMERCIAL-BREAK-BACKGROUNDER.m4a";
+			var sTspStnId = "SECURENET21";
+			var sGenre = "S21";
+			var logVPAID = false;
+			var vastAbortTimer;
+
+			var royaltyMarkProgram = 30;
+			var royaltyMarkAd = 90;
+
+			var adBlockerPresent = false;
+
+			
+			var prerollApp = new Array();
+
+			
+					
+					prerollApp.push("player-check-ab");
+					
+				
+			
+
+			var checkIEModernUI = false;
+
+			var playerAppOnDemand = true;
+			var playerAppHome = false;
+			var playerAppContact = false;
+			var playerAppFacebook = true;
+			var playerAppTwitter = true;
+			var playerAppYouTube = true;
+			var playerAppsYouTubeUserName = "TripleDRadio";
+			var playerAppUstream = false;
+			var playerAppsUstreamCid = "";
+			var playerAppOtherStations = false;
+			var playerAppShareThis = true;
+			var playerAppNews = true;
+			var playerAppNewsSrc = "http://rss.cnn.com/rss/cnn_topstories.rss";
+			var playerAppSports = true;
+			var playerAppSportsSrc = "http://sports.espn.go.com/espn/rss/news";
+			var playerAppStocks = true;
+			var playerAppStocksSrc = "http://online.wsj.com/xml/rss/3_7031.xml";
+			var playerAppEntertainment = true;
+			var playerAppEntertainmentSrc = "http://syndication.eonline.com/syndication/feeds/rssfeeds/topstories.xml";
+			var playerAppWeather = true;
+			var playerAppFlight = true;
+			var playerAppYelp = false;
+			var playerAppDeals = false;
+			var playerAppPolls = false;
+			var playerAppSongRequest = true;
+			var playerAppChat = true;
+			var chatChannel = "3038041937";
+			var playerAppGames = true;
+			var playerAppWobot = false;
+			var playerAppWobotSrc = "http://www.wobot.tv/rss/";
+			var playerAppPlaylist = true;
+			var playerAppLyrics = true;
+			var playerAppSendToMobile = true;
+			var playerAppHelp = true;
+
+			var playerAutoStartApp = "";
+			var listenSessionTimeout = 90;
+			var playerAppTimeout = true;
+
+			var dspAlbumArt = true;
+			var dftAlbumArt = "http://cdnrf.securenetsystems.net/file_radio/stations_large/DDDFM/v5/album-art-default.png";
+			var dspBuyMediaButton = true;
+			var dspMediaRate = true;
+
+			var dspMenuIcon = true;
+			var playerMenuAutoOpen = true;
+
+			var stationCallSign = "DDDFM";
+
+			var polling = new Object();
+			polling.enabled = true;
+			polling.active = false;
+			polling.adInsert = true;
+
+			
+			
+				var streamProvider = "http";
+
+				
+				
+				
+				var streamSRC = "http://ice7.securenetsystems.net/DDDFM?&playSessionID=4041CF3E-90DF-D15E-05BC02B111118751";
+				var encoderType = "ACP";
+				var playlistType = "";
+				if(encoderType === "ACP"){
+					if((bowser.firefox) || (bowser.msie)){
+						if(swfobject.hasFlashPlayerVersion("1")){
+							streamSRC += "&type=.flv";
+							playlistType = "flv";
+						}else{
+							if(!mobilePlayer){
+								prerollApp.push("flashRequired");
+							}
+						}
+					}else{
+						playlistType = "aac";
+					}
+				}else if(encoderType === "MP3"){
+					playlistType = "mp3"
+				}
+
+				// if(encoderType === "ACP"){
+				// 	if(streamSRC.indexOf(";stream.nsv") > -1){
+				// 		streamSRC += "&type=.flv";
+				// 		playlistType = "aac";
+				// 	}else{
+				// 		streamSRC += "&type=.flv";
+				// 		playlistType = "flv";
+				// 	}
+				// }else if(encoderType === "MP3"){
+				// 	if(streamSRC.indexOf(";stream.nsv") > -1){
+				// 		streamSRC += "&type=.flv";
+				// 		playlistType = "flv";
+				// 	}else{
+				// 		streamSRC += "&type=.flv";
+				// 		playlistType = "flv";
+				// 	}
+				// }
+				
+
+				var liveStreamEnable = true;
+				var streamRoot = "http://ice7.securenetsystems.net/media";
+
+				var blackout = new Object();
+				blackout.active = 0;
+				blackout.type = "";
+				blackout.app = "";
+				blackout.nextCheck = 86492000;
+				blackout.resumeTime = "Wednesday, 2/17/2016 8:25 PM ET";
+
+				var rejoinPriority = "PGM";
+				var enforceRejoinPriority = true;
+
+				var persistAlbumArt = true;
+
+				
+				var xmlODUrl = "";
+				var onDemandQueue = new Object();
+
+				var onDemandFileCount = 46;
+				var onDemandAutoStart = false;
+				var onDemandFill = new Object();
+				onDemandFill.enabled = true;
+				onDemandFill.active = false;
+				
+
+						onDemandQueue[0]=new Object();
+						onDemandQueue[0].fileId=228814;
+						// onDemandQueue[0].fileName="Rihanna - Work (Feat. Drake).m4a";
+						onDemandQueue[0].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Rihanna - Work (Feat. Drake).m4a";
+						onDemandQueue[0].fileDsp="Rihanna - Work (Feat. Drake)";
+						onDemandQueue[0].duration="219.360";
+						onDemandQueue[0].video=false;
+						onDemandQueue[0].modal=false;
+					
+
+						onDemandQueue[1]=new Object();
+						onDemandQueue[1].fileId=228643;
+						// onDemandQueue[1].fileName="Kevin Gates - Jam feat. Trey Songz x Ty Dolla$ign x Jamie Foxx.m4a";
+						onDemandQueue[1].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Kevin Gates - Jam feat. Trey Songz x Ty Dolla$ign x Jamie Foxx.m4a";
+						onDemandQueue[1].fileDsp="Kevin Gates - Jam feat. Trey Songz x Ty Dolla$ign x Jamie Foxx";
+						onDemandQueue[1].duration="213.550";
+						onDemandQueue[1].video=false;
+						onDemandQueue[1].modal=false;
+					
+
+						onDemandQueue[2]=new Object();
+						onDemandQueue[2].fileId=228658;
+						// onDemandQueue[2].fileName="Kevin Gates - Not The Only One.m4a";
+						onDemandQueue[2].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Kevin Gates - Not The Only One.m4a";
+						onDemandQueue[2].fileDsp="Kevin Gates - Not The Only One";
+						onDemandQueue[2].duration="281.170";
+						onDemandQueue[2].video=false;
+						onDemandQueue[2].modal=false;
+					
+
+						onDemandQueue[3]=new Object();
+						onDemandQueue[3].fileId=228657;
+						// onDemandQueue[3].fileName="Kevin Gates - Really Really.m4a";
+						onDemandQueue[3].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Kevin Gates - Really Really.m4a";
+						onDemandQueue[3].fileDsp="Kevin Gates - Really Really";
+						onDemandQueue[3].duration="232.130";
+						onDemandQueue[3].video=false;
+						onDemandQueue[3].modal=false;
+					
+
+						onDemandQueue[4]=new Object();
+						onDemandQueue[4].fileId=228656;
+						// onDemandQueue[4].fileName="Kevin Gates - 2 Phones.m4a";
+						onDemandQueue[4].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Kevin Gates - 2 Phones.m4a";
+						onDemandQueue[4].fileDsp="Kevin Gates - 2 Phones";
+						onDemandQueue[4].duration="240.020";
+						onDemandQueue[4].video=false;
+						onDemandQueue[4].modal=false;
+					
+
+						onDemandQueue[5]=new Object();
+						onDemandQueue[5].fileId=228655;
+						// onDemandQueue[5].fileName="Kevin Gates - Pride.m4a";
+						onDemandQueue[5].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Kevin Gates - Pride.m4a";
+						onDemandQueue[5].fileDsp="Kevin Gates - Pride";
+						onDemandQueue[5].duration="245.450";
+						onDemandQueue[5].video=false;
+						onDemandQueue[5].modal=false;
+					
+
+						onDemandQueue[6]=new Object();
+						onDemandQueue[6].fileId=228654;
+						// onDemandQueue[6].fileName="Kevin Gates - La Familia.m4a";
+						onDemandQueue[6].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Kevin Gates - La Familia.m4a";
+						onDemandQueue[6].fileDsp="Kevin Gates - La Familia";
+						onDemandQueue[6].duration="230.410";
+						onDemandQueue[6].video=false;
+						onDemandQueue[6].modal=false;
+					
+
+						onDemandQueue[7]=new Object();
+						onDemandQueue[7].fileId=228653;
+						// onDemandQueue[7].fileName="Kevin Gates - Time for That.m4a";
+						onDemandQueue[7].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Kevin Gates - Time for That.m4a";
+						onDemandQueue[7].fileDsp="Kevin Gates - Time for That";
+						onDemandQueue[7].duration="208.490";
+						onDemandQueue[7].video=false;
+						onDemandQueue[7].modal=false;
+					
+
+						onDemandQueue[8]=new Object();
+						onDemandQueue[8].fileId=228652;
+						// onDemandQueue[8].fileName="Kevin Gates - Thought I Heard (Bread Winners Anthem).m4a";
+						onDemandQueue[8].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Kevin Gates - Thought I Heard (Bread Winners Anthem).m4a";
+						onDemandQueue[8].fileDsp="Kevin Gates - Thought I Heard (Bread Winners Anthem)";
+						onDemandQueue[8].duration="204.450";
+						onDemandQueue[8].video=false;
+						onDemandQueue[8].modal=false;
+					
+
+						onDemandQueue[9]=new Object();
+						onDemandQueue[9].fileId=228651;
+						// onDemandQueue[9].fileName="Kevin Gates - Hard for.m4a";
+						onDemandQueue[9].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Kevin Gates - Hard for.m4a";
+						onDemandQueue[9].fileDsp="Kevin Gates - Hard for";
+						onDemandQueue[9].duration="247.640";
+						onDemandQueue[9].video=false;
+						onDemandQueue[9].modal=false;
+					
+
+						onDemandQueue[10]=new Object();
+						onDemandQueue[10].fileId=228650;
+						// onDemandQueue[10].fileName="Kevin Gates - Ask for More.m4a";
+						onDemandQueue[10].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Kevin Gates - Ask for More.m4a";
+						onDemandQueue[10].fileDsp="Kevin Gates - Ask for More";
+						onDemandQueue[10].duration="207.370";
+						onDemandQueue[10].video=false;
+						onDemandQueue[10].modal=false;
+					
+
+						onDemandQueue[11]=new Object();
+						onDemandQueue[11].fileId=228649;
+						// onDemandQueue[11].fileName="Kevin Gates - One Thing.m4a";
+						onDemandQueue[11].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Kevin Gates - One Thing.m4a";
+						onDemandQueue[11].fileDsp="Kevin Gates - One Thing";
+						onDemandQueue[11].duration="199.340";
+						onDemandQueue[11].video=false;
+						onDemandQueue[11].modal=false;
+					
+
+						onDemandQueue[12]=new Object();
+						onDemandQueue[12].fileId=228648;
+						// onDemandQueue[12].fileName="Kevin Gates - The Truth.m4a";
+						onDemandQueue[12].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Kevin Gates - The Truth.m4a";
+						onDemandQueue[12].fileDsp="Kevin Gates - The Truth";
+						onDemandQueue[12].duration="210.210";
+						onDemandQueue[12].video=false;
+						onDemandQueue[12].modal=false;
+					
+
+						onDemandQueue[13]=new Object();
+						onDemandQueue[13].fileId=228647;
+						// onDemandQueue[13].fileName="Kevin Gates - Kno One.m4a";
+						onDemandQueue[13].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Kevin Gates - Kno One.m4a";
+						onDemandQueue[13].fileDsp="Kevin Gates - Kno One";
+						onDemandQueue[13].duration="214.200";
+						onDemandQueue[13].video=false;
+						onDemandQueue[13].modal=false;
+					
+
+						onDemandQueue[14]=new Object();
+						onDemandQueue[14].fileId=228646;
+						// onDemandQueue[14].fileName="Kevin Gates - Told Me.m4a";
+						onDemandQueue[14].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Kevin Gates - Told Me.m4a";
+						onDemandQueue[14].fileDsp="Kevin Gates - Told Me";
+						onDemandQueue[14].duration="184.480";
+						onDemandQueue[14].video=false;
+						onDemandQueue[14].modal=false;
+					
+
+						onDemandQueue[15]=new Object();
+						onDemandQueue[15].fileId=228645;
+						// onDemandQueue[15].fileName="Kevin Gates - Ain-t Too Hard.m4a";
+						onDemandQueue[15].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Kevin Gates - Ain-t Too Hard.m4a";
+						onDemandQueue[15].fileDsp="Kevin Gates - Ain-t Too Hard";
+						onDemandQueue[15].duration="205.750";
+						onDemandQueue[15].video=false;
+						onDemandQueue[15].modal=false;
+					
+
+						onDemandQueue[16]=new Object();
+						onDemandQueue[16].fileId=228644;
+						// onDemandQueue[16].fileName="Kevin Gates - I Love It.m4a";
+						onDemandQueue[16].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Kevin Gates - I Love It.m4a";
+						onDemandQueue[16].fileDsp="Kevin Gates - I Love It";
+						onDemandQueue[16].duration="211.370";
+						onDemandQueue[16].video=false;
+						onDemandQueue[16].modal=false;
+					
+
+						onDemandQueue[17]=new Object();
+						onDemandQueue[17].fileId=228642;
+						// onDemandQueue[17].fileName="Kevin Gates - Excuse Me.m4a";
+						onDemandQueue[17].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Kevin Gates - Excuse Me.m4a";
+						onDemandQueue[17].fileDsp="Kevin Gates - Excuse Me";
+						onDemandQueue[17].duration="276.990";
+						onDemandQueue[17].video=false;
+						onDemandQueue[17].modal=false;
+					
+
+						onDemandQueue[18]=new Object();
+						onDemandQueue[18].fileId=228802;
+						// onDemandQueue[18].fileName="Rihanna - Sex With Me.m4a";
+						onDemandQueue[18].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Rihanna - Sex With Me.m4a";
+						onDemandQueue[18].fileDsp="Rihanna - Sex With Me";
+						onDemandQueue[18].duration="206.450";
+						onDemandQueue[18].video=false;
+						onDemandQueue[18].modal=false;
+					
+
+						onDemandQueue[19]=new Object();
+						onDemandQueue[19].fileId=228803;
+						// onDemandQueue[19].fileName="Rihanna - Pose.m4a";
+						onDemandQueue[19].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Rihanna - Pose.m4a";
+						onDemandQueue[19].fileDsp="Rihanna - Pose";
+						onDemandQueue[19].duration="144.260";
+						onDemandQueue[19].video=false;
+						onDemandQueue[19].modal=false;
+					
+
+						onDemandQueue[20]=new Object();
+						onDemandQueue[20].fileId=228804;
+						// onDemandQueue[20].fileName="Rihanna - Goodnight Gotham.m4a";
+						onDemandQueue[20].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Rihanna - Goodnight Gotham.m4a";
+						onDemandQueue[20].fileDsp="Rihanna - Goodnight Gotham";
+						onDemandQueue[20].duration="88.530";
+						onDemandQueue[20].video=false;
+						onDemandQueue[20].modal=false;
+					
+
+						onDemandQueue[21]=new Object();
+						onDemandQueue[21].fileId=228805;
+						// onDemandQueue[21].fileName="Rihanna - Close To You.m4a";
+						onDemandQueue[21].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Rihanna - Close To You.m4a";
+						onDemandQueue[21].fileDsp="Rihanna - Close To You";
+						onDemandQueue[21].duration="223.260";
+						onDemandQueue[21].video=false;
+						onDemandQueue[21].modal=false;
+					
+
+						onDemandQueue[22]=new Object();
+						onDemandQueue[22].fileId=228806;
+						// onDemandQueue[22].fileName="Rihanna - Higher.m4a";
+						onDemandQueue[22].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Rihanna - Higher.m4a";
+						onDemandQueue[22].fileDsp="Rihanna - Higher";
+						onDemandQueue[22].duration="120.670";
+						onDemandQueue[22].video=false;
+						onDemandQueue[22].modal=false;
+					
+
+						onDemandQueue[23]=new Object();
+						onDemandQueue[23].fileId=228807;
+						// onDemandQueue[23].fileName="Rihanna - Love On The Brain.m4a";
+						onDemandQueue[23].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Rihanna - Love On The Brain.m4a";
+						onDemandQueue[23].fileDsp="Rihanna - Love On The Brain";
+						onDemandQueue[23].duration="224.000";
+						onDemandQueue[23].video=false;
+						onDemandQueue[23].modal=false;
+					
+
+						onDemandQueue[24]=new Object();
+						onDemandQueue[24].fileId=228808;
+						// onDemandQueue[24].fileName="Rihanna - Never Ending.m4a";
+						onDemandQueue[24].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Rihanna - Never Ending.m4a";
+						onDemandQueue[24].fileDsp="Rihanna - Never Ending";
+						onDemandQueue[24].duration="202.540";
+						onDemandQueue[24].video=false;
+						onDemandQueue[24].modal=false;
+					
+
+						onDemandQueue[25]=new Object();
+						onDemandQueue[25].fileId=228809;
+						// onDemandQueue[25].fileName="Rihanna - Same Ol Mistakes.m4a";
+						onDemandQueue[25].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Rihanna - Same Ol Mistakes.m4a";
+						onDemandQueue[25].fileDsp="Rihanna - Same Ol Mistakes";
+						onDemandQueue[25].duration="397.130";
+						onDemandQueue[25].video=false;
+						onDemandQueue[25].modal=false;
+					
+
+						onDemandQueue[26]=new Object();
+						onDemandQueue[26].fileId=228810;
+						// onDemandQueue[26].fileName="Rihanna - Yeah, I Said It.m4a";
+						onDemandQueue[26].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Rihanna - Yeah, I Said It.m4a";
+						onDemandQueue[26].fileDsp="Rihanna - Yeah, I Said It";
+						onDemandQueue[26].duration="133.120";
+						onDemandQueue[26].video=false;
+						onDemandQueue[26].modal=false;
+					
+
+						onDemandQueue[27]=new Object();
+						onDemandQueue[27].fileId=228811;
+						// onDemandQueue[27].fileName="Rihanna - Needed Me.m4a";
+						onDemandQueue[27].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Rihanna - Needed Me.m4a";
+						onDemandQueue[27].fileDsp="Rihanna - Needed Me";
+						onDemandQueue[27].duration="191.630";
+						onDemandQueue[27].video=false;
+						onDemandQueue[27].modal=false;
+					
+
+						onDemandQueue[28]=new Object();
+						onDemandQueue[28].fileId=228812;
+						// onDemandQueue[28].fileName="Rihanna - Woo.m4a";
+						onDemandQueue[28].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Rihanna - Woo.m4a";
+						onDemandQueue[28].fileDsp="Rihanna - Woo";
+						onDemandQueue[28].duration="235.610";
+						onDemandQueue[28].video=false;
+						onDemandQueue[28].modal=false;
+					
+
+						onDemandQueue[29]=new Object();
+						onDemandQueue[29].fileId=228813;
+						// onDemandQueue[29].fileName="Rihanna - Desperado.m4a";
+						onDemandQueue[29].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Rihanna - Desperado.m4a";
+						onDemandQueue[29].fileDsp="Rihanna - Desperado";
+						onDemandQueue[29].duration="186.520";
+						onDemandQueue[29].video=false;
+						onDemandQueue[29].modal=false;
+					
+
+						onDemandQueue[30]=new Object();
+						onDemandQueue[30].fileId=228815;
+						// onDemandQueue[30].fileName="Rihanna - Kiss It Better.m4a";
+						onDemandQueue[30].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Rihanna - Kiss It Better.m4a";
+						onDemandQueue[30].fileDsp="Rihanna - Kiss It Better";
+						onDemandQueue[30].duration="253.120";
+						onDemandQueue[30].video=false;
+						onDemandQueue[30].modal=false;
+					
+
+						onDemandQueue[31]=new Object();
+						onDemandQueue[31].fileId=228816;
+						// onDemandQueue[31].fileName="Rihanna - James Joint.m4a";
+						onDemandQueue[31].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Rihanna - James Joint.m4a";
+						onDemandQueue[31].fileDsp="Rihanna - James Joint";
+						onDemandQueue[31].duration="72.090";
+						onDemandQueue[31].video=false;
+						onDemandQueue[31].modal=false;
+					
+
+						onDemandQueue[32]=new Object();
+						onDemandQueue[32].fileId=228817;
+						// onDemandQueue[32].fileName="Rihanna - Consideration (Feat. SZA).m4a";
+						onDemandQueue[32].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Rihanna - Consideration (Feat. SZA).m4a";
+						onDemandQueue[32].fileDsp="Rihanna - Consideration (Feat. SZA)";
+						onDemandQueue[32].duration="161.070";
+						onDemandQueue[32].video=false;
+						onDemandQueue[32].modal=false;
+					
+
+						onDemandQueue[33]=new Object();
+						onDemandQueue[33].fileId=230752;
+						// onDemandQueue[33].fileName="Sham-Pain - Got Me.m4a";
+						onDemandQueue[33].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Sham-Pain - Got Me.m4a";
+						onDemandQueue[33].fileDsp="Sham-Pain - Got Me";
+						onDemandQueue[33].duration="199.060";
+						onDemandQueue[33].video=false;
+						onDemandQueue[33].modal=false;
+					
+
+						onDemandQueue[34]=new Object();
+						onDemandQueue[34].fileId=230753;
+						// onDemandQueue[34].fileName="Sham-Pain - Can I Live.m4a";
+						onDemandQueue[34].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Sham-Pain - Can I Live.m4a";
+						onDemandQueue[34].fileDsp="Sham-Pain - Can I Live";
+						onDemandQueue[34].duration="218.980";
+						onDemandQueue[34].video=false;
+						onDemandQueue[34].modal=false;
+					
+
+						onDemandQueue[35]=new Object();
+						onDemandQueue[35].fileId=230754;
+						// onDemandQueue[35].fileName="Sham-Pain - 7 Figga Stuntin.m4a";
+						onDemandQueue[35].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Sham-Pain - 7 Figga Stuntin.m4a";
+						onDemandQueue[35].fileDsp="Sham-Pain - 7 Figga Stuntin";
+						onDemandQueue[35].duration="248.570";
+						onDemandQueue[35].video=false;
+						onDemandQueue[35].modal=false;
+					
+
+						onDemandQueue[36]=new Object();
+						onDemandQueue[36].fileId=230756;
+						// onDemandQueue[36].fileName="Lil Durk - My Beyonce (feat. Dej Loaf).m4a";
+						onDemandQueue[36].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Lil Durk - My Beyonce (feat. Dej Loaf).m4a";
+						onDemandQueue[36].fileDsp="Lil Durk - My Beyonce (feat. Dej Loaf)";
+						onDemandQueue[36].duration="281.820";
+						onDemandQueue[36].video=false;
+						onDemandQueue[36].modal=false;
+					
+
+						onDemandQueue[37]=new Object();
+						onDemandQueue[37].fileId=230867;
+						// onDemandQueue[37].fileName="Yung Wax -  UGHH UGHH (feat. E40).m4a";
+						onDemandQueue[37].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Yung Wax -  UGHH UGHH (feat. E40).m4a";
+						onDemandQueue[37].fileDsp="Yung Wax -  UGHH UGHH (feat. E40)";
+						onDemandQueue[37].duration="253.020";
+						onDemandQueue[37].video=false;
+						onDemandQueue[37].modal=false;
+					
+
+						onDemandQueue[38]=new Object();
+						onDemandQueue[38].fileId=230954;
+						// onDemandQueue[38].fileName="Holycitydee - Chiraq Monster.m4a";
+						onDemandQueue[38].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Holycitydee - Chiraq Monster.m4a";
+						onDemandQueue[38].fileDsp="Holycitydee - Chiraq Monster";
+						onDemandQueue[38].duration="153.500";
+						onDemandQueue[38].video=false;
+						onDemandQueue[38].modal=false;
+					
+
+						onDemandQueue[39]=new Object();
+						onDemandQueue[39].fileId=230955;
+						// onDemandQueue[39].fileName="HolyCityDee - TRAP NIGGA.m4a";
+						onDemandQueue[39].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"HolyCityDee - TRAP NIGGA.m4a";
+						onDemandQueue[39].fileDsp="HolyCityDee - TRAP NIGGA";
+						onDemandQueue[39].duration="171.620";
+						onDemandQueue[39].video=false;
+						onDemandQueue[39].modal=false;
+					
+
+						onDemandQueue[40]=new Object();
+						onDemandQueue[40].fileId=230956;
+						// onDemandQueue[40].fileName="HolyCityDee - Glock Talk.m4a";
+						onDemandQueue[40].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"HolyCityDee - Glock Talk.m4a";
+						onDemandQueue[40].fileDsp="HolyCityDee - Glock Talk";
+						onDemandQueue[40].duration="174.490";
+						onDemandQueue[40].video=false;
+						onDemandQueue[40].modal=false;
+					
+
+						onDemandQueue[41]=new Object();
+						onDemandQueue[41].fileId=230959;
+						// onDemandQueue[41].fileName="Rico Love - Please (Feat. Push T).m4a";
+						onDemandQueue[41].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Rico Love - Please (Feat. Push T).m4a";
+						onDemandQueue[41].fileDsp="Rico Love - Please (Feat. Push T)";
+						onDemandQueue[41].duration="239.090";
+						onDemandQueue[41].video=false;
+						onDemandQueue[41].modal=false;
+					
+
+						onDemandQueue[42]=new Object();
+						onDemandQueue[42].fileId=231023;
+						// onDemandQueue[42].fileName="T10 - Be My Valentines.m4a";
+						onDemandQueue[42].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"T10 - Be My Valentines.m4a";
+						onDemandQueue[42].fileDsp="T10 - Be My Valentines";
+						onDemandQueue[42].duration="244.390";
+						onDemandQueue[42].video=false;
+						onDemandQueue[42].modal=false;
+					
+
+						onDemandQueue[43]=new Object();
+						onDemandQueue[43].fileId=231024;
+						// onDemandQueue[43].fileName="T10 - Retro Flow (Remix).m4a";
+						onDemandQueue[43].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"T10 - Retro Flow (Remix).m4a";
+						onDemandQueue[43].fileDsp="T10 - Retro Flow (Remix)";
+						onDemandQueue[43].duration="198.130";
+						onDemandQueue[43].video=false;
+						onDemandQueue[43].modal=false;
+					
+
+						onDemandQueue[44]=new Object();
+						onDemandQueue[44].fileId=233185;
+						// onDemandQueue[44].fileName="Antwyn Jackson - Still.m4a";
+						onDemandQueue[44].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Antwyn Jackson - Still.m4a";
+						onDemandQueue[44].fileDsp="Antwyn Jackson - Still";
+						onDemandQueue[44].duration="205.280";
+						onDemandQueue[44].video=false;
+						onDemandQueue[44].modal=false;
+					
+
+						onDemandQueue[45]=new Object();
+						onDemandQueue[45].fileId=233199;
+						// onDemandQueue[45].fileName="senpai.m4a";
+						onDemandQueue[45].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"senpai.m4a";
+						onDemandQueue[45].fileDsp="senpai";
+						onDemandQueue[45].duration="209.740";
+						onDemandQueue[45].video=false;
+						onDemandQueue[45].modal=false;
+					
+					
+					var d = new Date();
+					var localServerTSoffset = d.getTime()+d.getTimezoneOffset()*60000 - Date.parse("17 Feb 2016 01:23:47");
+				
+
+				
+					var nielsenEnabled = true;
+				
+
+			var enableStream = true;
+
+			
+
+		</script>
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+		<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE, NO-STORE, must-revalidate, max-age=0" />
+		<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+		<META HTTP-EQUIV="EXPIRES" CONTENT="0" />
+		<meta name="distribution" content="Global" />
+		<meta property="og:title" content="DDDFM" /> 
+		<meta property="og:description" content="Listen to our station on your computer or mobile device!" />  
+		<meta property="og:image" content="http://cdnrf.securenetsystems.net/file_radio/stations_large/DDDFM/v5/logo.png" /> 	
+		<link REL="SHORTCUT ICON" HREF="images/ssiicon.ico">
+	
+		<title>Hottest Independent Radio Station</title>
+
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" href="css/style_stdres.css" type="text/css" />
+		<![endif]-->
+		<!--[if (!IE)|(gte IE 9)]> -->	
+			<link rel="stylesheet" href="css/style_hires.css" type="text/css" />
+		<!-- <![endif]-->	
+	
+		<style>
+			.bodyDiv {
+				background:url(http://cdnrf.securenetsystems.net/file_radio/stations_large/DDDFM/v5/bg.png) no-repeat top left #1B1B1B;
+				top:50%;
+				left:50%;
+				height:630px;
+				
+					width:940px;
+					margin:-315px 0 0 -470px;
+				
+				position:absolute;
+				display:none;
+			}	
+			div {
+				color: #C8D6FB;
+			}
+			a:link, a:visited, a:hover, a:active, .menuHeader, .player-apps-title, #transport-counter, #transport-volume-label {
+				color: #4F7FF7;
+			}
+		</style>
+		
+		
+		
+
+
+
+
+Tracking ID
+
+UA-71632293-1 
+
+	<script type="text/javascript" src="scripts/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery.json-2.2.min.js"></script>
+	<script type="text/javascript" src="scripts/ifvisible.min.js"></script>
+	<script type="text/javascript" src="scripts/jwplayer.js"></script>
+	
+	<script type="text/javascript">jwplayer.key="J6GkWY0PhN8wDoe50swwLMTN17DrPtt4qudjgA==";</script>
+
+	
+	<script type="text/javascript" src="scripts/adv.js"></script>
+	
+
+	
+	
+		<script type="text/javascript" src="scripts/jquery.qrcode.min.js"></script>
+	
+			<script type="text/javascript" src="scripts/v5.min.js?cb=20160216202347"></script>
+		
+		
+		
+	</head>
+
+	<body onClick="cirrusOmni();">
+		
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-67327905-7', 'auto');
+		  ga('send', 'pageview');
+		  if(playerAdvertisingMode === 'ADN'){
+			  ga('send', 'event', 'Player Event', 'Player Launch', '00000010', 1);
+		  }
+		  if(launchFrom.length > 0){
+			  ga('send', 'event', 'Player Event', 'Player Launch', 'Launch From ' + launchFrom, 1);
+		  }
+		</script>
+		
+
+		
+		<script type="text/javascript">
+		_atrk_opts = { atrk_acct:"U4nwg1awAe00qR", domain:"securenetsystems.net",dynamic: true};
+		(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+		</script>
+		<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=U4nwg1awAe00qR" style="display:none" height="1" width="1" alt="" /></noscript>
+				
+		
+		
+			<div id="bodyDiv" class="bodyDiv">
+
+				<div id="ajax-loader" class="ajax-loader-container ajax-loader"></div>
+				<img id="stationLogo" src="http://cdnrf.securenetsystems.net/file_radio/stations_large/DDDFM/v5/logo.png" /> 
+<div id="top-menu-wrapper" class="top-menu-wrapper dH tS">
+	
+		
+		<div class="top-menu-button-wrapper" onClick="openURL('http://');">
+			<div class="top-menu-button-bg" style="background-color:#23396E;">
+				<div class="top-menu-button dT top-menu-button-shine">
+					<div class="top-menu-button-c1">
+						<div class="top-menu-button-c2 top-menu-text" style="color:#C8D6FB;">CONTACT </div>
+					</div>				
+				</div>
+			</div>
+		</div>
+	
+		
+		<div class="top-menu-button-wrapper" onClick="openURL('http://');">
+			<div class="top-menu-button-bg" style="background-color:#23396E;">
+				<div class="top-menu-button dT top-menu-button-shine">
+					<div class="top-menu-button-c1">
+						<div class="top-menu-button-c2 top-menu-text" style="color:#C8D6FB;">SPECIALS</div>
+					</div>				
+				</div>
+			</div>
+		</div>
+	
+		
+		<div class="top-menu-button-wrapper" onClick="openURL('http://www.foxnews.com');">
+			<div class="top-menu-button-bg" style="background-color:#23396E;">
+				<div class="top-menu-button dT top-menu-button-shine">
+					<div class="top-menu-button-c1">
+						<div class="top-menu-button-c2 top-menu-text" style="color:#C8D6FB;">TODAY'S NEWS</div>
+					</div>				
+				</div>
+			</div>
+		</div>
+	
+		
+		<div class="top-menu-button-wrapper" onClick="startApp('top-menu-2',-1,'');">
+			<div class="top-menu-button-bg" style="background-color:#23396E;">
+				<div class="top-menu-button dT top-menu-button-shine">
+					<div class="top-menu-button-c1">
+						<div class="top-menu-button-c2 top-menu-text" style="color:#C8D6FB;">ABOUT US</div>
+					</div>				
+				</div>
+			</div>
+		</div>
+	
+		
+		<div class="top-menu-button-wrapper" onClick="startApp('top-menu-1',-1,'');">
+			<div class="top-menu-button-bg" style="background-color:#23396E;">
+				<div class="top-menu-button dT top-menu-button-shine">
+					<div class="top-menu-button-c1">
+						<div class="top-menu-button-c2 top-menu-text" style="color:#C8D6FB;">HOME</div>
+					</div>				
+				</div>
+			</div>
+		</div>
+	
+</div>
+
+
+
+<div id="menu" class="menu">
+	
+	<div class="menu-close" title="Close menu" onClick="dspMenu();"></div>
+	
+	
+	<div class="menu-row">
+		
+			<div class="fL menuIcons">
+				<div class="menuText menuHeader f15em">Station info</div>
+				<img src="images/facebook.png" width="60" title="Facebook feed" onClick="startApp('facebook');" /> <img src="images/twitter.png" width="60" title="Read our twitter feed" onClick="startApp('twitter');" /> <img src="images/youtube.png" width="60" title="Our YouTube channel" onClick="startApp('youtube');" />
+			</div>
+		
+			<div class="fL menuIcons">
+				<div class="menuText menuHeader f15em">Streams</div>
+				<img src="images/media-send-to-mobile.png" width="60" title="Send player to mobile phone" onClick="startApp('send-to-mobile');" /> <img src="images/playlist.png" width="60" title="View last 20 songs played" onClick="startApp('playlist');" /> <img src="images/on-demand.png" width="60" title="On-demand streaming" onClick="startApp('on-demand');" /> 
+			</div>
+		
+			<div class="fL menuIcons">
+				<div class="menuText menuHeader f15em">Help</div>
+				<img src="images/help.png" width="60" title="Problems streaming? Click here for common answers." onClick="startApp('help');" />
+			</div>
+		
+	</div>
+	<div class="menu-apps-row dT">
+		<div class="top-menu-button-c1">
+			<div class="top-menu-button-c2">
+				
+					<div class="fL menu-apps mr20">
+						<div class="menuText menuHeader f15em">Player apps</div>
+						<img src="images/news.png" width="60" title="News" onClick="startApp('news');" /> <img src="images/stocks.png" width="60" title="Finance" onClick="startApp('stocks');" /> <img src="images/sports.png" width="60" title="Sports" onClick="startApp('sports');" /> <img src="images/entertainment.png" width="60" title="Entertainment" onClick="startApp('entertainment');" /> <img src="images/weather.png" width="60" title="Weather" onClick="startApp('weather');" /> <img src="images/traffic.png" width="60" title="Traffic map" onClick="startApp('traffic');" /> <img src="images/flight.png" width="60" title="Flight tracker" onClick="startApp('flight');" /> <img src="images/request.png" width="60" title="Song request" onClick="startApp('request');" /> <img src="images/chat.png" width="60" title="Chat with other listeners" onClick="startApp('chat');" /> <img src="images/games.png" width="60" title="Play games" onClick="startApp('games');" /> 
+					</div>
+				
+					<div class="fL menuIcons" style="padding-right:0px;">
+						<div class="menuText menuHeader f15em">Share</div>
+						<!-- AddThis Button BEGIN -->
+						<div class="shareThis addthis_toolbox addthis_default_style addthis_32x32_style">
+						<a class="addthis_button_preferred_1"></a>
+						<a class="addthis_button_preferred_2"></a>
+						<a class="addthis_button_preferred_3"></a>
+						<a class="addthis_button_preferred_4"></a>
+						<a class="addthis_button_compact"></a>
+						<a class="addthis_counter addthis_bubble_style"></a>
+						</div>
+						<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-502552987eaa3f3d"></script>
+						<!-- AddThis Button END -->				
+					</div>				
+				
+			</div>	
+		</div>
+	</div>
+</div>
+
+				
+
+				
+				<div id="updateBrowser">
+					<p>Your browser is out of date. Please upgrade your browser to proceed to the live stream.</p>
+					<p>This player utilizes features that are unavailable in your version of browser. Don't worry - there is an easy solution. Simply upgrade your browser to the latest version and then return to this player to proceed to the live stream. You'll be enjoying your favorite station before you know it!</p>
+				</div>
+				
+
+				
+				
+
+	
+
+		
+		<div id="player-apps-flashRequired" class="player-apps-preroll dH">
+			<div>
+				<div class="player-apps-content papbct dT">
+					<div class="top-menu-button-c1">
+						<p>Adobe Flash Required</p>
+						<br>
+						<p>Adobe Flash is required to listen to this station, but you don't appear to have it installed.</p>
+						<br>
+						<p><a href="https://get.adobe.com/flashplayer/">Click here to install Adobe Flash</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		
+		
+			<div id="player-apps-player-check-ab" class="player-apps-preroll dH">
+				<div>
+					<div class="player-apps-content papbct dT">
+						<div class="top-menu-button-c1">
+							
+							
+							
+
+							<div id="adblockWrapper"></div>
+							<script>
+								function getQueryVariable(variable){
+							       var query = window.location.search.substring(1);
+							       var vars = query.split("&");
+							       for (var i=0;i<vars.length;i++) {
+							               var pair = vars[i].split("=");
+							               if(pair[0] == variable){return pair[1];}
+							       }
+							       return(false);
+								}
+
+								function aLCHq9ue89u9E19cMPXSA423E4YIrIDcswjaIHuSuPJ8x6EaYULNHVJyhcowGihJmfSxurGdqMYukZbhcf3VHx3dCWbYCzLBe9iCu8uchhrlRQ2JN6A3u7MCE8Ox8S9xPJvss96UqCDkEDbrGkpIfIW0jK6ateKd6LpnrE8DHSu558z9jxWkL(){
+									if(window.iExist === undefined){
+										console.log("ad blocker detected");
+										ga('send', 'event', 'Player Event', 'Ad Blocker', 'Ad Blocker Detected', 1);
+
+										adBlockerPresent = true;
+										$("#adblockWrapper").html("<a href=\"abp:subscribe?location=http://streamdb6web.securenetsystems.net/v5/adBlockWhitelist.cfm\"><img id=\"blockImage\" src=\"images/blockdetected.png\" width=\"750\" height=\"92\"></a>");
+										var retryVar = getQueryVariable("retry");
+										if(!retryVar){
+											setTimeout(function(){
+												window.location.replace("http://streamdb6web.securenetsystems.net/v5/index.cfm?stationCallSign=DDDFM&retry=true");
+											}, 5000);
+										}else{
+											$("#blockImage").attr("src", "images/blockgivenup.png");
+										}
+									}else{
+										adBlockerPresent = false;
+										console.log("ad blocker NOT detected");
+										$("#adblockWrapper").hide();
+									}
+								}
+
+								if(playerAdvertisingMode=="ADN" || playerAdvertisingMode=="SEQ"){
+									setTimeout(function(){
+										aLCHq9ue89u9E19cMPXSA423E4YIrIDcswjaIHuSuPJ8x6EaYULNHVJyhcowGihJmfSxurGdqMYukZbhcf3VHx3dCWbYCzLBe9iCu8uchhrlRQ2JN6A3u7MCE8Ox8S9xPJvss96UqCDkEDbrGkpIfIW0jK6ateKd6LpnrE8DHSu558z9jxWkL();
+									}, 500);
+								}	
+							</script>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		
+		
+	
+
+	
+	<div id="player-apps" class="player-apps">
+
+		
+		<div id="player-apps-close-button" class="player-apps-close-button player-apps-close-button-app" title="Close player app" onClick="closeApp();"></div>
+		
+
+		
+		
+			<div id="player-apps-facebook" class="dH">
+				<div>
+					<img src="images/facebook.png" width="40" height="40" />
+					<div class="player-apps-title">Facebook</div>
+					<div class="player-apps-content" id="player-apps-content-facebook">
+						<div id="fb-root"></div>
+						<script>(function(d, s, id) {
+						  var js, fjs = d.getElementsByTagName(s)[0];
+						  if (d.getElementById(id)) return;
+						  js = d.createElement(s); js.id = id;
+						  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=108260835883518";
+						  fjs.parentNode.insertBefore(js, fjs);
+							}(document, 'script', 'facebook-jssdk'));</script>
+						<div class="fb-like-box" data-href="http://www.facebook.com/TripleDRadioFM" data-width="573" data-height="252" data-colorscheme="dark" data-show-faces="false" data-stream="true" data-header="false"></div>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-twitter" class="dH">
+				<div>
+					<img src="images/twitter.png" width="40" height="40" />
+					<div class="player-apps-title">Twitter feed</div>
+					<div class="player-apps-content" id="player-apps-content-twitter">
+						<a class="twitter-timeline" width="520" height="250" href="https://twitter.com/twitterapi" data-widget-id="365511658203910144" data-screen-name="TripleDRadioCom" data-theme="dark"></a>
+						<script>
+							!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
+								if(!d.getElementById(id)){
+									js=d.createElement(s);
+									js.id=id;
+									js.src="//platform.twitter.com/widgets.js";
+									fjs.parentNode.insertBefore(js,fjs);
+								}
+							}
+							(document,"script","twitter-wjs");
+						</script>						
+					</div>			
+				</div>
+			</div>
+		
+			<div id="player-apps-youtube" class="dH">
+				<div>
+					<img src="images/youtube.png" width="40" height="40" />
+					<div class="player-apps-title">YouTube</div>
+					<script type="text/javascript" src="scripts/youtube.js"></script>
+					<div class="player-apps-content" id="player-apps-content-youtube">
+						<link rel="stylesheet" href="css/youtube.css" type="text/css" />
+						<div id="youtubevideos">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-on-demand" class="dH">
+				<div>
+					<img src="images/on-demand.png" width="40" height="40" />
+					<div class="player-apps-title">On-demand streaming</div>
+					<div id="on-demand-list" class="player-apps-content">
+						<p>Click on any file to start listening</p>
+						
+						
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-0" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(0,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Rihanna - Work (Feat. Drake)</div>
+												<div>
+													<div>
+														00:03:39
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-1" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(1,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Kevin Gates - Jam feat. Trey Songz x Ty Dolla$ign x Jamie Foxx</div>
+												<div>
+													<div>
+														00:03:33
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-2" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(2,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Kevin Gates - Not The Only One</div>
+												<div>
+													<div>
+														00:04:41
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-3" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(3,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Kevin Gates - Really Really</div>
+												<div>
+													<div>
+														00:03:52
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-4" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(4,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Kevin Gates - 2 Phones</div>
+												<div>
+													<div>
+														00:04:00
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-5" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(5,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Kevin Gates - Pride</div>
+												<div>
+													<div>
+														00:04:05
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-6" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(6,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Kevin Gates - La Familia</div>
+												<div>
+													<div>
+														00:03:50
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-7" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(7,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Kevin Gates - Time for That</div>
+												<div>
+													<div>
+														00:03:28
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-8" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(8,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Kevin Gates - Thought I Heard (Bread Winners Anthem)</div>
+												<div>
+													<div>
+														00:03:24
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-9" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(9,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Kevin Gates - Hard for</div>
+												<div>
+													<div>
+														00:04:07
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-10" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(10,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Kevin Gates - Ask for More</div>
+												<div>
+													<div>
+														00:03:27
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-11" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(11,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Kevin Gates - One Thing</div>
+												<div>
+													<div>
+														00:03:19
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-12" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(12,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Kevin Gates - The Truth</div>
+												<div>
+													<div>
+														00:03:30
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-13" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(13,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Kevin Gates - Kno One</div>
+												<div>
+													<div>
+														00:03:34
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-14" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(14,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Kevin Gates - Told Me</div>
+												<div>
+													<div>
+														00:03:04
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-15" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(15,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Kevin Gates - Ain-t Too Hard</div>
+												<div>
+													<div>
+														00:03:25
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-16" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(16,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Kevin Gates - I Love It</div>
+												<div>
+													<div>
+														00:03:31
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-17" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(17,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Kevin Gates - Excuse Me</div>
+												<div>
+													<div>
+														00:04:36
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-18" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(18,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Rihanna - Sex With Me</div>
+												<div>
+													<div>
+														00:03:26
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-19" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(19,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Rihanna - Pose</div>
+												<div>
+													<div>
+														00:02:24
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-20" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(20,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Rihanna - Goodnight Gotham</div>
+												<div>
+													<div>
+														00:01:28
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-21" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(21,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Rihanna - Close To You</div>
+												<div>
+													<div>
+														00:03:43
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-22" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(22,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Rihanna - Higher</div>
+												<div>
+													<div>
+														00:02:00
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-23" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(23,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Rihanna - Love On The Brain</div>
+												<div>
+													<div>
+														00:03:44
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-24" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(24,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Rihanna - Never Ending</div>
+												<div>
+													<div>
+														00:03:22
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-25" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(25,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Rihanna - Same Ol Mistakes</div>
+												<div>
+													<div>
+														00:06:37
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-26" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(26,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Rihanna - Yeah, I Said It</div>
+												<div>
+													<div>
+														00:02:13
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-27" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(27,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Rihanna - Needed Me</div>
+												<div>
+													<div>
+														00:03:11
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-28" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(28,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Rihanna - Woo</div>
+												<div>
+													<div>
+														00:03:55
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-29" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(29,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Rihanna - Desperado</div>
+												<div>
+													<div>
+														00:03:06
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-30" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(30,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Rihanna - Kiss It Better</div>
+												<div>
+													<div>
+														00:04:13
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-31" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(31,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Rihanna - James Joint</div>
+												<div>
+													<div>
+														00:01:12
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-32" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(32,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Rihanna - Consideration (Feat. SZA)</div>
+												<div>
+													<div>
+														00:02:41
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-33" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(33,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Sham-Pain - Got Me</div>
+												<div>
+													<div>
+														00:03:19
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-34" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(34,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Sham-Pain - Can I Live</div>
+												<div>
+													<div>
+														00:03:38
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-35" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(35,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Sham-Pain - 7 Figga Stuntin</div>
+												<div>
+													<div>
+														00:04:08
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-36" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(36,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Lil Durk - My Beyonce (feat. Dej Loaf)</div>
+												<div>
+													<div>
+														00:04:41
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-37" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(37,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Yung Wax -  UGHH UGHH (feat. E40)</div>
+												<div>
+													<div>
+														00:04:13
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-38" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(38,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Holycitydee - Chiraq Monster</div>
+												<div>
+													<div>
+														00:02:33
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-39" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(39,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">HolyCityDee - TRAP NIGGA</div>
+												<div>
+													<div>
+														00:02:51
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-40" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(40,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">HolyCityDee - Glock Talk</div>
+												<div>
+													<div>
+														00:02:54
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-41" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(41,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Rico Love - Please (Feat. Push T)</div>
+												<div>
+													<div>
+														00:03:59
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-42" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(42,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">T10 - Be My Valentines</div>
+												<div>
+													<div>
+														00:04:04
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-43" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(43,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">T10 - Retro Flow (Remix)</div>
+												<div>
+													<div>
+														00:03:18
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-44" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(44,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Antwyn Jackson - Still</div>
+												<div>
+													<div>
+														00:03:25
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-45" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(45,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">senpai</div>
+												<div>
+													<div>
+														00:03:29
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-help" class="dH">
+				<div>
+					<img src="images/help.png" width="40" height="40" />
+					<div class="player-apps-title">Help</div>
+					<div class="player-apps-content">
+						<p><b>If you accessed the player from a desktop computer (PC or Mac)</b></p>
+						<ul>
+							<li>For the best experience, we recommend upgrading to the latest version of your Internet browser</li>
+							<li>If the stream is not audible, or doesn't start, please verify that you have the latest version of Adobe Flash plug-in installed.</li>
+							<li>The player is known to work on Windows, Mac OS and Linux, using Chrome, Firefox, Safari or Internet Explorer</li>
+						</ul>
+						<br />
+						<p><b>If you accessed the player from a mobile device</b></p>
+						<ul>
+							<li>If this station has a mobile app, we recommend installing and using it for the best experience</li>
+							<li>Since Adobe Flash is not supported on most mobile devices, you may not be able to listen to the audio stream; however, you can use most of the interactive features of the player</li>
+						</ul>
+						<br />
+						<p><b>Privacy Policy</b></p>
+						<p>
+							We may allow third-party companies to serve ads and/or collect certain anonymous information when you visit this website. These companies may use non-personally identifiable information (e.g., click stream information, browser type, time and date, subject of advertisements clicked or scrolled over) during your visits to this and other websites in order to provide advertisements about goods and services likely to be of greater interest to you. These companies typically use a cookie or third party web beacon to collect this information. To learn more about this behavioral advertising practice or to opt-out of this type of advertising, you can visit <a href="http://networkadvertising.org/choices" target="_blank">http://networkadvertising.org/choices</a>.
+							<br><br>
+							Our properties may feature Nielsen proprietary measurement software, which will allow you to contribute to market research, such as Nielsen Audio. To learn more about the information that Nielsen software may collect and your choices with regard to it, please see the Nielsen Digital Measurement Privacy Policy at <a href="http://www.nielsen.com/digitalprivacy" target="_blank">http://www.nielsen.com/digitalprivacy</a>.
+						</p>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-news" class="dH">
+				<div>
+					<img src="images/news.png" width="40" height="40" />
+					<div class="player-apps-title">News</div>
+					<div id="player-apps-content-news" class="player-apps-content"></div>
+				</div>
+			</div>
+		
+			<div id="player-apps-stocks" class="dH">
+				<div>
+					<img src="images/stocks.png" width="40" height="40" />
+					<div class="player-apps-title">Stocks</div>
+					<div class="player-apps-content">
+						<div id="player-apps-content-stocks" class="fL"></div>
+						<div class="fL">
+							<iframe name="wsjIndexWidget" id="wsjIndexWidget" src="http://online.wsj.com/marketsdata/widgets/mdcwidget_default_wide.html?title=Markets from WSJ.com&symbols=NCM,SPX,DJI,HKS,STOXX50&hl1=true&hl2=false&hl3=false&qsb=true&style=blue" width="175px" height="250px" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe>
+						</div>
+					</div>				
+				</div>
+			</div>
+		
+			<div id="player-apps-sports" class="dH">
+				<div>
+					<img src="images/sports.png" width="40" height="40" />
+					<div class="player-apps-title">Sports</div>
+					<div id="player-apps-content-sports" class="player-apps-content"></div>
+				</div>
+			</div>
+		
+			<div id="player-apps-entertainment" class="dH">
+				<div>
+					<img src="images/entertainment.png" width="40" height="40" />
+					<div class="player-apps-title">Entertainment</div>
+					<div id="player-apps-content-entertainment" class="player-apps-content"></div>
+				</div>
+			</div>
+		
+			<div id="player-apps-weather" class="dH">
+				<div>
+					<img src="images/weather.png" width="40" height="40" />
+					<div class="player-apps-title">Weather</div>
+					<div class="player-apps-content" style="background-color:#C8D6FB">
+						<iframe id="forecast_embed" type="text/html" frameborder="0" height="245" width="100%" src="http://forecast.io/embed/#lat=36.9311981201&lon=-76.2397003174&name=Norfolk,%20VA"></iframe>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-traffic" class="dH">
+				<div>
+					<img src="images/traffic.png" width="40" height="40" />
+					<div class="player-apps-title">Traffic map</div>
+					<div class="player-apps-content" id="player-apps-content-traffic"></div>
+				</div>
+			</div>
+		
+			<div id="player-apps-flight" class="dH">
+				<div>
+					<img src="images/flight.png" width="40" height="40" />
+					<div class="player-apps-title">Flight tracker</div>
+					<div class="player-apps-content">
+						<iframe src="http://www.flightstats.com/go/FlightStatus/getFlightStatusWidget.do?guid=34b64945a69b9cac:-3d959db5:13912449d99:-6659" frameborder="0" scrolling="no" width="280" height="240"></iframe>					
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-request" class="dH">
+				<div>
+					<img src="images/request.png" width="40" height="40" />
+					<div class="player-apps-title">Song request</div>
+					<div class="player-apps-content">
+						<p>Is there a particular song you'd like to have us play? Fill out & stay tuned!<br />
+						Your email address will not be used for any other purpose.</p>
+						<input type="text" id="songRequestName" value="Your name" size="40" maxlength="64" onClick="fieldDesc(this,'in','Your name',2);" onBlur="fieldDesc(this,'out','Your name',2);">
+						<br /><br />
+						<input type="text" id="songRequestEmail" value="Your email address" size="40" maxlength="64" onClick="fieldDesc(this,'in','Your email address',10);" onBlur="fieldDesc(this,'out','Your email address',10);">
+						<br /><br />
+						<input type="text" id="songRequestTitle" value="Song request" size="40" maxlength="64" onClick="fieldDesc(this,'in','Song request',5);" onBlur="fieldDesc(this,'out','Song request',5);">
+						<br /><br />
+						<div class="fL"><input type="button" value="Send request" onClick="songRequest();"></div>
+						<div id="songRequestErr" class="fL ml10 red formErrMsg"></div>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-chat" class="dH">
+				<div>
+					<img src="images/chat.png" width="40" height="40" />
+					<div class="player-apps-title">Chat with other listeners</div>
+					<div id="player-apps-chat-wrapper">Loading chat, please wait....</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-games" class="dH">
+				<div>
+					<img src="images/games.png" width="40" height="40" />
+					<div class="player-apps-title">Play games</div>
+					<div class="player-apps-content">
+						Play fun games for free. The games will launch in a new window; to return to this player simply close the games window once you're done beating all
+						the aliens, flying all the spaceships, avoiding all the asteroids... go get'em!
+						<div class="player-apps-content-games cP" onClick="openURL('player_apps_framed.cfm?stationCallSign=DDDFM&playerApp=games&playerLogo=http%3A%2F%2Fcdnrf%2Esecurenetsystems%2Enet%2Ffile%5Fradio%2Fstations%5Flarge%2FDDDFM%2Fv5%2Flogo%2Epng&geoDMACode=544&geoCTCode=US','1350','780');"><img src="images/games-start.jpg" width="385" border="0" title="Click to start playing" /></div>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-playlist" class="dH">
+				<div>
+					<img src="images/media-playlist.png" width="40" height="40" />
+					<div class="player-apps-title">Playlist history (last 20 songs)</div>
+					<div>
+						<iframe id="player-apps-frame-playlist" class="player-apps-frame" frameborder="no" scrolling="no" src="sd/index.cfm?stationCallSign=DDDFM" allowtransparency="true"></iframe>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-media-buy-song" class="dH">
+				<div>
+					<img src="images/media-buy-song.png" width="40" height="40" />
+					<div class="player-apps-title">Buy media</div>
+					<div class="player-apps-content">
+						<p>You can buy & download this track & more from either Apple iTunes or Amazon.com mp3 store. Simply click the icon for the store you wish to access.</p>
+						<div id="mediaBuyTitle" class="menuHeader"></div>
+						<div id="mediaBuyArtist"></div>
+						<div id="mediaBuyAlbum"></div>
+						<br />
+						<div class="fL cP mr20" onClick="goToMediaStore('iTunes');"><img src="images/media-buy-song-itunes.png" width="75" height="75" title="Click here to buy from Apple iTunes" /></div>
+						<div class="fL cP" onClick="goToMediaStore('amazon');"><img src="images/media-buy-song-amazon.png" width="75" height="75" title="Click here to buy from Amazon.com" /></div>
+						<form id="mediaBuyForm" action="http://radio.securenetsystems.net/get_tune_buy_link.cfm" method="post" style="margin:0px;" target="_blank">
+							<input type="hidden" name="stationCallSign" value="DDDFM">
+							<input type="hidden" name="title" id="mFtitle" value="">
+							<input type="hidden" name="artist" id="mFartist" value="">
+							<input type="hidden" name="album" id="mFalbum" value="">
+						</form>				
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-lyrics" class="dH">
+				<div>
+					<img src="images/media-lyrics.png" width="40" height="40" />
+					<div class="player-apps-title">Song lyrics</div>
+					<div class="player-apps-content" id="player-apps-content-lyrics"></div>
+				</div>
+			</div>
+		
+			<div id="player-apps-send-to-mobile" class="dH">
+				<div>
+					<img src="images/media-send-to-mobile.png" width="40" height="40" />
+					<div class="player-apps-title">Send to mobile</div>
+					<div class="player-apps-content">
+						<br /><br />
+						<div class="playerAppSendToMobileQR-wrapper fL mr20">
+							<div id="playerAppSendToMobileQR"></div>
+						</div>
+						<div>
+							<div class="f15em">Scan the QR code to send the player to your compatible mobile device.</div>
+							<div><br />If your mobile device doesn't have a QR scanning app, download a free one from your device's app store.</div>							
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-timeout" class="dH">
+				<div>
+					<img src="images/on-air.png" width="40" height="40" />
+					<div class="player-apps-title">Are you still here?</div>
+					<div class="player-apps-content">
+						<div id="playerAppTimeoutIni">
+							<div class="fL">Due to inactivity on the player, the stream will stop in&nbsp;</div><div id="sTO_remTime" class="fL">60 seconds</div>
+							<br /><br />
+							<div onClick="streamTimeoutCancel();" class="cP">Click here to continue listening</div>
+						</div>
+						<div id="playerAppTimeoutOn" class="dH">
+							<p>The audio stream has been stopped due to inactivity on the player.</p>
+							<div onClick="streamTimeoutReset();" class="cP">Click here to resume listening</div>
+						</div>						
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-top-menu-5" class="dH">
+				<div>
+					<img src="images/web.png" width="40" height="40" />
+					<div class="player-apps-title">CONTACT </div>
+					<div class="player-apps-content">
+						
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-top-menu-4" class="dH">
+				<div>
+					<img src="images/web.png" width="40" height="40" />
+					<div class="player-apps-title">SPECIALS</div>
+					<div class="player-apps-content">
+						
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-top-menu-3" class="dH">
+				<div>
+					<img src="images/web.png" width="40" height="40" />
+					<div class="player-apps-title">TODAY'S NEWS</div>
+					<div class="player-apps-content">
+						
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-top-menu-2" class="dH">
+				<div>
+					<img src="images/web.png" width="40" height="40" />
+					<div class="player-apps-title">ABOUT US</div>
+					<div class="player-apps-content">
+						<p>We are the future of Radio. Stay tune for moe updates.</p>
+
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-top-menu-1" class="dH">
+				<div>
+					<img src="images/web.png" width="40" height="40" />
+					<div class="player-apps-title">HOME</div>
+					<div class="player-apps-content">
+						<p>This is the home page, add your content and click on SAVE below</p>
+
+					</div>
+				</div>
+			</div>
+		
+		
+
+	</div>
+	
+	
+<div id="playerDiv" class="player-div">
+
+	
+
+		<div id="transport-icons">
+			<img id="transport-play" src="images/transport-play.png" class="player-div-img dH cP" width="80" height="80" onClick="transportAction('play',true);" title="Start playing media" />
+			<img id="transport-pause" src="images/transport-pause.png" class="player-div-img dH cP" width="80" height="80" onClick="transportAction('pause',true);" title="Pause media" />
+			<img id="transport-buffering" src="images/transport-buffering.gif" class="player-div-img dH cP" width="54" height="55" title="Preparing media, please wait...." />
+		</div>
+
+		<img id="now-playing-album-art" src="images/dot_blank.gif" class="player-div-img cP " width="250" height="250" title="Click for song-related options" />
+
+		<div id="transport-counter-wrapper">
+			<div id="transport-counter" class="now-playing f15em tS">00:00</div>
+			<div id="transport-progress"><div id="transport-progress-bar"></div></div>
+		</div>
+
+		<div id="transport-volume-label" class="now-playing f15em tS">VOL</div>
+		<div id="transport-volume" title="Click to change volume"><div id="transport-volume-bar"></div></div>
+
+		<div id="now-playing" class="now-playing tS">
+			<div id="now-playing-title" class="menuHeader f15em"></div>
+			<div id="now-playing-artist"></div>
+			<div id="now-playing-album"></div>
+		</div>
+		
+		
+			<div id="media-rate-wrapper" class="media-rate-wrapper tS dH">
+				<div id="media-rate-up" class="media-rate-up cP fL mr20" onClick="mediaRate('up');" title="Like this track"></div>
+				<div id="media-rate-down" class="media-rate-down cP fL mr20" onClick="mediaRate('down');" title="Dislike this track"></div>
+				<div id="media-rate-message" class="fL"></div>
+			</div>
+		
+
+		<div id="media-icons" class="media-icons dH">
+			<img src="images/media-playlist.png" height="30" width="30" border="0" title="View last songs played" onClick="startApp('playlist');" />
+			<img src="images/media-lyrics.png" height="30" width="30" border="0" title="View song lyrics" onClick="startApp('lyrics');getSongLyrics();" /> <img src="images/media-buy-song.png" height="30" width="30" border="0" title="Buy this song" onClick="buyMedia();" /> 
+				<img src="images/media-facebook.png" height="30" width="30" border="0" title="Share this song on Facebook" onClick="socialShare('facebook');" />
+				<img id="media-icons-twitter" src="images/media-twitter.png" height="30" width="30" border="0" title="Tweet this song" onClick="socialShare('twitter');" /></a>
+			
+		</div>
+	
+	
+</div>
+
+					<div id="powered-about" onClick="dspPoweredSSI();">CIRRUS&#174; &nbsp;BY SSI. WE BUILD IMMERSIVE MEDIA PLAYERS FOR TERRESTRIAL AND INTERNET RADIO STATIONS WORLDWIDE.</div>
+					<div id="powered-link" onClick="openURL('http://www.securenetsystems.net');">CLICK HERE TO GET STARTED WITH</div>
+					<div id="powered-ssi" onClick="dspPoweredSSI();"></div>
+				
+					<div id="menu-button-expand" class="menu-button" onClick="dspMenu();" title="Show menu"></div>
+					<div id="menu-button-contract" class="menu-button" onClick="dspMenu();" title="Hide menu"></div>
+				
+				
+
+				
+				<div id="bannerM"></div>
+				<div id="bannerD"></div>
+					
+					<div id="bannerN" class="bannerNotActive"></div>
+					<div id="bannerE" class="bannerNotActive"></div>
+					
+				
+
+				
+				<div id="mediaplayer" class="mediaplayer mediaplayer-audio"></div>
+				<div id="vpaidplayerdiv" class="mediaplayer vpaidplayer vpaidplayer-hide"></div>
+				<div id="mediaplayer-video-shader" class="mediaplayer-video mediaplayer-video-shader"></div>
+				
+				
+				
+				<div class="flash-proxy">
+					<object
+						id="swfhttprequest" class="xDomainFlash"
+						classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+						codebase="http://fpdownload.adobe.com/pub/shockwave/cabs/flash/swflash.cab##version=9,0,0,0">
+						<param name="movie" value="assets/swfhttprequest.swf?onload=swfhttprequestready" />
+						<param name="allowScriptAccess" value="always" />
+						<embed
+							class="xDomainFlash"
+							src="assets/swfhttprequest.swf?onload=swfhttprequestready"
+							allowScriptAccess="always"
+							type="application/x-shockwave-flash"
+							pluginspage="http://www.adobe.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"> 
+						</embed>
+					</object>
+				</div>					
+				
+				
+				
+				<div id="impressionDiv" class="impression-div"></div>
+				
+				
+				
+
+			</div>
+		
+		
+		
+		<div id="debugDiv">
+			
+		</div>
+		
+		
+	</body>
+
+</html>

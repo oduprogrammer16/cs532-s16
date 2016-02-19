@@ -1,0 +1,736 @@
+<!DOCTYPE html> 
+<!--[if lt IE 7 ]><html class="no-js ie ie6" lang="es-ES" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 7 ]><html class="no-js ie ie7" lang="es-ES" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="es-ES" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="es-ES" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="stylesheet" href="http://www.muywindows.com/wp-content/themes/newsroom14/style.css?2fc20e">
+<link rel="pingback" href="http://www.muywindows.com/xmlrpc.php">
+
+<script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
+
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://www.muywindows.com/wp-content/themes/newsroom14/js/ie/selectivizr.js?2fc20e"></script>
+<![endif]-->
+
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "13498330" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=13498330&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+
+<!-- This site is optimized with the Yoast SEO plugin v3.0.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Windows 10 Mobile y el problema de las aplicaciones falsas » MuyWindows</title>
+<meta name="description" content="Las aplicaciones falsas en las tiendas de apps no son algo nuevo en ninguna de las plataformas móviles dominantes, pero parece que Windows 10 Mobile está s"/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="http://www.muywindows.com/2016/02/08/windows-10-mobile-aplicaciones-falsas" />
+<meta property="og:locale" content="es_ES" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Windows 10 Mobile y el problema de las aplicaciones falsas » MuyWindows" />
+<meta property="og:description" content="Las aplicaciones falsas en las tiendas de apps no son algo nuevo en ninguna de las plataformas móviles dominantes, pero parece que Windows 10 Mobile está s" />
+<meta property="og:url" content="http://www.muywindows.com/2016/02/08/windows-10-mobile-aplicaciones-falsas" />
+<meta property="og:site_name" content="MuyWindows" />
+<meta property="article:tag" content="aplicaciones" />
+<meta property="article:tag" content="Software" />
+<meta property="article:tag" content="Windows 10 Mobile" />
+<meta property="article:section" content="Windows 10" />
+<meta property="article:published_time" content="2016-02-08T12:28:06+00:00" />
+<meta property="og:image" content="http://www.muywindows.com/wp-content/uploads/2016/02/aplicaciones-falsas.png" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:description" content="Las aplicaciones falsas en las tiendas de apps no son algo nuevo en ninguna de las plataformas móviles dominantes, pero parece que Windows 10 Mobile está s"/>
+<meta name="twitter:title" content="Windows 10 Mobile y el problema de las aplicaciones falsas » MuyWindows"/>
+<meta name="twitter:site" content="@muywindows"/>
+<meta name="twitter:image" content="http://www.muywindows.com/wp-content/uploads/2016/02/aplicaciones-falsas.png"/>
+<meta name="twitter:creator" content="@muywindows"/>
+<!-- / Yoast SEO plugin. -->
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.muywindows.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='validate-engine-css-css'  href="http://www.muywindows.com/wp-content/plugins/wysija-newsletters/css/validationEngine.jquery.css?2fc20e"  media='all' />
+<link rel='stylesheet' id='et-gf-open-sans-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:400,700'  media='all' />
+<link rel='stylesheet' id='et_bloom-css-css'  href="http://www.muywindows.com/wp-content/plugins/bloom/css/style.css?2fc20e"  media='all' />
+<link rel='stylesheet' id='cookielawinfo-style-css'  href="http://www.muywindows.com/wp-content/plugins/cookie-law-info/css/cli-style.css?2fc20e"  media='all' />
+<link rel='stylesheet' id='gglcptch-css'  href="http://www.muywindows.com/wp-content/plugins/google-captcha/css/gglcptch.css?2fc20e"  media='all' />
+<link rel='stylesheet' id='et_monarch-open-sans-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:400,700'  media='all' />
+<link rel='stylesheet' id='et_monarch-css-css'  href="http://www.muywindows.com/wp-content/plugins/monarch/css/style.css?2fc20e"  media='all' />
+<link rel='stylesheet' id='social-widget-css'  href="http://www.muywindows.com/wp-content/plugins/social-media-widget/social_widget.css?2fc20e"  media='all' />
+<link rel='stylesheet' id='tpnet-publifija-style-css'  href="http://www.muywindows.com/wp-content/plugins/tpnet_publifija/css/style.css?2fc20e"  media='all' />
+<link rel='stylesheet' id='wpt-twitter-feed-css'  href="http://www.muywindows.com/wp-content/plugins/wp-to-twitter/css/twitter-feed.css?2fc20e"  media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href="http://www.muywindows.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?2fc20e"  media='all' />
+<link rel='stylesheet' id='style-responsive-css'  href="http://www.muywindows.com/wp-content/themes/newsroom14/style-responsive.css?2fc20e"  media='all' />
+<link rel='stylesheet' id='wpbandit-style-css'  href="http://www.muywindows.com/wp-content/themes/newsroom14/styles/boxed-1120.css?2fc20e"  media='all' />
+<link rel='stylesheet' id='wordpress-popular-posts-css'  href="http://www.muywindows.com/wp-content/plugins/wordpress-popular-posts/style/wpp.css?2fc20e"  media='all' />
+<link rel='stylesheet' id='lightboxStyle-css'  href="http://www.muywindows.com/wp-content/plugins/lightbox-plus/css/shadowed/colorbox.min.css?2fc20e"  media='screen' />
+<script type='text/javascript' src="http://www.muywindows.com/wp-includes/js/jquery/jquery.js?2fc20e"></script>
+<script type='text/javascript' src="http://www.muywindows.com/wp-includes/js/jquery/jquery-migrate.min.js?2fc20e"></script>
+<script type='text/javascript' src="http://www.muywindows.com/wp-content/plugins/cookie-law-info/js/cookielawinfo.js?2fc20e"></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=explicit&#038;hl=en&#038;ver=1.21'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var gglcptch = {"options":{"version":"v2","sitekey":"6LdSggcTAAAAADbp23b_lQRQv-r-XfYWLAbr3Trd","theme":"light"},"vars":{"ajaxurl":"http:\/\/www.muywindows.com\/wp-admin\/admin-ajax.php","error_msg":"Error: You have entered an incorrect reCAPTCHA value.","nonce":"990325f258"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src="http://www.muywindows.com/wp-content/plugins/google-captcha/js/script.js?2fc20e"></script>
+<script type='text/javascript' src="http://www.muywindows.com/wp-content/plugins/tpnet_publifija/js/script.js?2fc20e"></script>
+
+<link rel="stylesheet" type="text/css" href="http://www.muywindows.com/wp-content/plugins/Viva-ThumbZoom/lib/v-zoom/viva-zoom.css?2fc20e"  />
+
+				<script type='text/javascript' src="http://www.muywindows.com/wp-content/plugins/Viva-ThumbZoom/lib/v-zoom/viva-zoom-mini.js?2fc20e"></script>
+
+				<script type='text/javascript'>
+               // 26f2c0bd88ed1fe0be78a57439b97490
+	 			vz.graphicsDir = 'http://www.muywindows.com/wp-content/plugins/Viva-ThumbZoom/lib/v-zoom/graphics/';
+
+	    		vz.outlineType = 'rounded-white';
+
+			</script>
+<style type="text/css" id="et-bloom-custom-css">
+					.et_bloom .et_bloom_optin_0 .et_bloom_form_content { background-color: #4781eb !important; } .et_bloom .et_bloom_optin_0 .et_bloom_form_container .et_bloom_form_header { background-color: #ffffff !important; } .et_bloom .et_bloom_optin_0 .carrot_edge .et_bloom_form_content:before { border-top-color: #ffffff !important; } .et_bloom .et_bloom_optin_0 .carrot_edge.et_bloom_form_right .et_bloom_form_content:before, .et_bloom .et_bloom_optin_0 .carrot_edge.et_bloom_form_left .et_bloom_form_content:before { border-top-color: transparent !important; border-left-color: #ffffff !important; }
+						@media only screen and ( max-width: 767px ) {.et_bloom .et_bloom_optin_0 .carrot_edge.et_bloom_form_right .et_bloom_form_content:before, .et_bloom .et_bloom_optin_0 .carrot_edge.et_bloom_form_left .et_bloom_form_content:before { border-top-color: #ffffff !important; border-left-color: transparent !important; }
+						}.et_bloom .et_bloom_optin_0 .et_bloom_form_content button { background-color: #ffffff !important; } .et_bloom .et_bloom_optin_0 .et_bloom_border_solid { border-color: #4781eb !important } .et_bloom .et_bloom_optin_0 .et_bloom_form_content button { background-color: #ffffff !important; } .et_bloom .et_bloom_optin_0 h2, .et_bloom .et_bloom_optin_0 h2 span, .et_bloom .et_bloom_optin_0 h2 strong { font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif; }.et_bloom .et_bloom_optin_0 p, .et_bloom .et_bloom_optin_0 p span, .et_bloom .et_bloom_optin_0 p strong, .et_bloom .et_bloom_optin_0 form input, .et_bloom .et_bloom_optin_0 form button span { font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif; } 
+				</style><style type="text/css" id="et-social-custom-css">
+				 
+			</style>	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css?2fc20e" rel="stylesheet">
+    <link href="http://www.muywindows.com/wp-content/plugins/tpnet_pajarito/style/style.css?2fc20e" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="http://www.muywindows.com/wp-content/uploads/2013/08/faviconMuyWindows2.ico?2fc20e">
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+sc_project=3622156; 
+sc_invisible=1; 
+sc_partition=42; 
+sc_security="755cea5e"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a href="http://www.statcounter.com/" target="_blank"><img class="statcounter" src="http://c43.statcounter.com/3622156/0/755cea5e/1/" alt="free page hit counter" ></a></div></noscript>
+<!-- End of StatCounter Code -->
+
+
+<!-- Analytics muywindows individual-->
+<script type="text/javascript">
+
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-3771886-4']);
+ _gaq.push(['_setDomainName', 'muywindows.com']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+
+</script>
+<!--fin analytics-->
+
+
+
+<!-- Analytics mc sumatorio-->
+<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-3771886-36', 'muywindows.com');
+ ga('send', 'pageview');
+
+</script>
+<!--fin analytics-->
+				<!-- WordPress Popular Posts v3.3.3 -->
+				<script type="text/javascript">//<![CDATA[
+
+					var sampling_active = 0;
+					var sampling_rate   = 100;
+					var do_request = false;
+
+					if ( !sampling_active ) {
+						do_request = true;
+					} else {
+						var num = Math.floor(Math.random() * sampling_rate) + 1;
+						do_request = ( 1 === num );
+					}
+
+					if ( do_request ) {
+
+						// Create XMLHttpRequest object and set variables
+						var xhr = ( window.XMLHttpRequest )
+						  ? new XMLHttpRequest()
+						  : new ActiveXObject( "Microsoft.XMLHTTP" ),
+						url = 'http://www.muywindows.com/wp-admin/admin-ajax.php',
+						params = 'action=update_views_ajax&token=a28bdac7d3&wpp_id=18272';
+						// Set request method and target URL
+						xhr.open( "POST", url, true );
+						// Set request header
+						xhr.setRequestHeader( "Content-type", "application/x-www-form-urlencoded" );
+						// Hook into onreadystatechange
+						xhr.onreadystatechange = function() {
+							if ( 4 === xhr.readyState && 200 === xhr.status ) {
+								if ( window.console && window.console.log ) {
+									window.console.log( xhr.responseText );
+								}
+							}
+						};
+						// Send request
+						xhr.send( params );
+
+					}
+
+				//]]></script>
+				<!-- End WordPress Popular Posts v3.3.3 -->
+				
+<!--CÓDIGO DFP-->
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/3630416/160x600_Sky_Lateral_MuyWindows', [160, 600], 'div-gpt-ad-1387446805731-0').addService(googletag.pubads());
+googletag.defineSlot('/3630416/1x1_Interstitial_MuyWindows', [1, 1], 'div-gpt-ad-1387446821778-0').addService(googletag.pubads());
+googletag.defineSlot('/3630416/300x250_MPU_Inferior_MuyWindows', [300, 250], 'div-gpt-ad-1387447015182-0').addService(googletag.pubads());
+googletag.defineSlot('/3630416/300x250_MPU_Singles_MuyWindows', [300, 250], 'div-gpt-ad-1387447050588-0').addService(googletag.pubads());
+googletag.defineSlot('/3630416/300x600_Doble_MPU_Superior_MuyWindows', [[300, 600],[300,250]], 'div-gpt-ad-1387447179461-0').addService(googletag.pubads());
+googletag.defineSlot('/3630416/468x60_minibanner_singles_MuyWindows', [468, 60], 'div-gpt-ad-1387447208383-0').addService(googletag.pubads());
+googletag.defineSlot('/3630416/618x247_Superbanner_singles_MuyWindows', [618, 247], 'div-gpt-ad-1387447252982-0').addService(googletag.pubads());
+googletag.defineSlot('/3630416/640x480_Superbanner_Singles_MuyWindows', [640, 480], 'div-gpt-ad-1387447327230-0').addService(googletag.pubads());
+googletag.defineSlot('/3630416/728x270_LB_Desplegable_Superior_MuyWindows', [728, 270], 'div-gpt-ad-1387447379888-0').addService(googletag.pubads());
+googletag.defineSlot('/3630416/728x270_LB_Desplegable_Superior_Singles_MuyWindows', [728, 270], 'div-gpt-ad-1387447533998-0').addService(googletag.pubads());
+googletag.defineSlot('/3630416/728x90_MPU_Singles_MuyWindows', [728, 90], 'div-gpt-ad-1387447584576-0').addService(googletag.pubads());
+googletag.defineSlot('/3630416/800x600_Interstitial_MuyWindows', [800, 600], 'div-gpt-ad-1429789326139-0').addService(googletag.pubads());
+googletag.defineSlot('/3630416/Skin_parteInferior_MuyWindows', [1680, 1050], 'div-gpt-ad-1394711320772-0').addService(googletag.pubads());
+googletag.defineSlot('/3630416/320x50_bannerMovil_inferior_MuyWindows', [320, 50], 'div-gpt-ad-1398154962213-0').addService(googletag.pubads());
+googletag.defineSlot('/3630416/300x250_DesplegableMovil_MuyWindows', [300, 250], 'div-gpt-ad-1418720499729-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.pubads().collapseEmptyDivs(true);
+googletag.enableServices();
+});
+</script>
+
+
+<!--FIN CÓDIGO DFP-->
+
+
+
+
+</head>
+
+<!-- Interstitial 1x1 -->
+<div id='div-gpt-ad-1387446821778-0' style="position: absolute; z-index: 999;">
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1387446821778-0'); });
+</script>
+</div>
+
+<body class="single single-post postid-18272 single-format-standard et_bloom et_monarch mobile-sidebar-disable">
+	
+    
+
+<!-- skin  -->
+
+
+<div id="Skin_MuyWindows" style="position:fixed; z-index:0; width:1680px; height:100%; cursor: pointer; text-align:center;  left:50%; overflow:hidden; margin-left:-840px; margin-top: -180px;">
+
+<!-- Skin_parteInferior_MuyWindows -->
+<div id='div-gpt-ad-1394711320772-0' style='width:1680px; height:1050px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1394711320772-0'); });
+</script>
+</div>
+
+</div>
+
+
+
+
+
+<!-- fin skin  -->
+<div id="wrap" style="position:relative; z-index:1; margin:0 auto;">
+
+
+	<header id="header">
+		<div class="container">
+						
+						
+			<div id="header-inner" class="fix">			
+				<div class="pad fix">
+					<p id="logo"><a href="http://www.muywindows.com/" rel="home"><img src="http://www.muywindows.com/wp-content/uploads/2013/08/logoMuyWindows.jpg?2fc20e" alt="MuyWindows"></a></p>
+                                    <div id="header-social"><div class="side-nav header-widget-zone">			<div class="textwidget"><div class="redesSocialesGeneral">
+<div class="redesSociales"><p><a href="https://www.facebook.com/muycomputer" target=_blank;>b</a></p></div>
+<div class="redesSociales"><p><a href="https://plus.google.com/107764813581138315607/posts" target=_blank;>c</a></p></div>
+<div class="redesSociales"><p><a href="https://twitter.com/MuyWindows" target=_blank;>a</a></p></div>
+<div class="redesSociales"><p><a href="http://muytv.com/" target=_blank;>L</a></p></div>
+<div class="redesSociales"><p><a href="http://rss.muywindows.com/feed" target=_blank;>,</a></p></div>
+</div></div>
+		</div></div>
+					                                            <!-- INI: txt Comscore -->
+                                                    <div class="muytheme-txtComscore">
+                                                        <p>Una web de MuyPymes Sites</p>
+                                                    </div>
+                                              <!-- FIN: txt Comscore -->
+                                    
+						<div id="header-search" class="fix"><form method="get" id="searchform" action="http://www.muywindows.com/">
+	<div>
+		<input type="text" id="s" name="s" onblur="if(this.value=='')this.value='';" onfocus="if(this.value=='')this.value='';" value="" />
+
+
+
+
+
+</form>
+
+</div>
+													
+											
+
+
+				</div>
+				<div class="clear"></div>
+			</div>
+			<nav id="header-nav" class="fix"><ul id="nav" class="fix"><li id="menu-item-11731" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-11731"><a href="http://www.muywindows.com">Inicio</a></li>
+<li id="menu-item-11729" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11729"><a href="http://www.muywindows.com/windows-8/">Windows 8</a></li>
+<li id="menu-item-11723" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11723"><a href="http://www.muywindows.com/windows-7/">Windows 7</a></li>
+<li id="menu-item-11724" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-11724"><a href="http://www.muywindows.com/win-phone/">Windows Phone</a></li>
+<li id="menu-item-11730" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11730"><a href="http://www.muywindows.com/windows-server/">Windows Server</a></li>
+<li id="menu-item-11725" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11725"><a href="http://www.muywindows.com/office/">Office</a></li>
+<li id="menu-item-11728" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11728"><a href="http://www.muywindows.com/internet-explorer/">Internet Explorer</a></li>
+<li id="menu-item-11727" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11727"><a href="http://www.muywindows.com/seguridad/">Seguridad</a></li>
+<li id="menu-item-11726" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11726"><a href="http://www.muywindows.com/trucos/">Trucos</a></li>
+</ul></nav>	
+			
+			<div id="header-line"></div>
+					</div>
+
+
+
+
+
+	</header><!--/header-->
+	
+<div id="page">
+	<div class="container">
+		<div id="page-inner">
+			
+						
+							<header class="content">
+
+
+
+<!-- 728x270_LB_Desplegable_Superior_Singles_MuyWindows -->
+<div id='div-gpt-ad-1387447533998-0' style='width:728px; height:90px; margin:0 auto; padding-top:20px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1387447533998-0'); });
+</script>
+</div>
+
+
+
+
+	<div class="pad fix">
+					<p class="entry-comments">
+				<a href="http://www.muywindows.com/2016/02/08/windows-10-mobile-aplicaciones-falsas#comments">
+					<span><span class="dsq-postid" data-dsqidentifier="18272 http://www.muywindows.com/?p=18272">0</span><i class="pike"></i></span>
+				</a>
+			</p>
+				
+					<p class="entry-category"><a href="http://www.muywindows.com/windows-10-2/" rel="category tag">Windows 10</a> &middot; <a href="http://www.muywindows.com/win-phone/" rel="category tag">Windows Phone</a></p>
+				
+		<div class="clear"></div>
+		<h1 class="entry-title">Windows 10 Mobile y el problema de las aplicaciones falsas</h1>
+		<ul class="entry-meta fix">
+							<li class="entry-author">por <a href="http://www.muywindows.com/author/isidro-ros/" title="Entradas de Isidro Ros" rel="author">Isidro Ros</a></li>
+						
+							<li class="entry-date">
+					8 de febrero, 2016									</li>
+			
+<!--se incluye redes sociales-->
+<br>
+<br>
+<div class="social" style="position:absolute;">
+<ul>
+<li>
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="muywindows" data-lang="es">Twittear</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</li>
+
+<li style="margin-right:45px;">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-share-button" data-type="button_count"></div>
+</li>
+
+<li>
+<!-- Inserta esta etiqueta donde quieras que aparezca Botón +1. -->
+<div class="g-plusone" data-size="medium" data-annotation="inline" data-width="300"></div>
+
+<!-- Inserta esta etiqueta después de la última etiqueta de Botón +1. -->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'es'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+</li>
+
+</ul>
+
+</div>
+
+<br>
+<br>
+
+<!-- finalización de redes sociales-->
+	</div><!--/pad-->
+</header>						
+			<div class="main fix sidebar-right">
+
+				<div class="content-part">
+					<article id="entry-18272" class="entry fix post-18272 post type-post status-publish format-standard has-post-thumbnail hentry category-windows-10-2 category-win-phone tag-aplicaciones tag-software tag-windows-10-mobile">	
+																		<div class="pad fix">	
+						
+							<div class="text">
+								<p><a href="http://www.muywindows.com/wp-content/uploads/2016/02/aplicaciones-falsas.png?2fc20e" rel="lightbox[18272]" title="Windows 10 Mobile y el problema de las aplicaciones falsas"><img class="aligncenter size-full wp-image-18274" src="http://www.muywindows.com/wp-content/uploads/2016/02/aplicaciones-falsas.png?2fc20e" alt="aplicaciones falsas" width="630" height="415" /></a></p>
+<p>Las aplicaciones falsas en las tiendas de apps no son algo nuevo en ninguna de las plataformas móviles dominantes, pero parece que Windows 10 Mobile está sufriendo este problema de forma acuciante, tanto que estaría <strong>en una situación similar</strong> a la que vivió <a href="http://www.muycomputer.com/tags/windows-phone/" target="_blank">Windows Phone.</a></p>
+<p>Como sabemos uno de los mayores problemas que se han achacado a la falta de empuje de la plataforma móvil de Microsoft es la escasez de aplicaciones, algo que <strong>no es del todo cierto y que habría que matizar</strong>, aunque lo que sí que no podemos negar es que las aplicaciones basura han llegado a la tienda de Windows 10 Mobile.</p>
+<p>En la captura de pantalla se puede ver claramente lo que decimos, ya que una simple búsqueda del juego Traffic Rider arroja una gran cantidad de resultados falsos y en apariencia repetidos, pero en realidad se trata de aplicaciones que <strong>utilizan el nombre de una app conocida</strong> para que el usuario la instale.</p>
+<p><a href="http://www.muywindows.com/wp-content/uploads/2016/02/apps.jpg?2fc20e" rel="lightbox[18272]" title="Windows 10 Mobile y el problema de las aplicaciones falsas"><img class="aligncenter size-full wp-image-18275" src="http://www.muywindows.com/wp-content/uploads/2016/02/apps.jpg?2fc20e" alt="apps" width="630" height="1120" /></a></p>
+<p>No sabemos cómo es posible que este tipo de aplicaciones consiga superar los filtros que imaginamos utilizará <a href="http://www.muycomputer.com/tags/microsoft" target="_blank">Microsoft</a> para controlar el acceso de las aplicaciones a la tienda oficial, pero desde luego es evidente que el gigante de Redmond tiene que hacer dos cosas, <strong>sacar la escoba y &#8220;barrer&#8221; todas esas aplicaciones basura y mejorar el filtrado.</strong></p>
+<p>Más información: <a href="http://news.softpedia.com/news/windows-10-mobile-plagued-by-the-same-problem-as-windows-phone-fake-apps-500058.shtml" target="_blank">Softpedia.</a></p>
+<div class="et_social_inline et_social_mobile_on et_social_inline_bottom">
+				<div class="et_social_networks et_social_3col et_social_slide et_social_rounded et_social_left et_social_no_animation et_social_withnetworknames et_social_outer_dark">
+					
+					<ul class="et_social_icons_container"><li class="et_social_twitter"><a href="http://twitter.com/share?text=Windows%2010%20Mobile%20y%20el%20problema%20de%20las%20aplicaciones%20falsas&#038;url=http%3A%2F%2Fwww.muywindows.com%2F2016%2F02%2F08%2Fwindows-10-mobile-aplicaciones-falsas&#038;via=muywindows" class="et_social_share" rel="nofollow" data-social_name="twitter" data-post_id="18272" data-social_type="share"><i class="et_social_icon et_social_icon_twitter"></i><div class="et_social_network_label"><div class="et_social_networkname">Twitter</div></div><span class="et_social_overlay"></span></a></li><li class="et_social_facebook"><a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.muywindows.com%2F2016%2F02%2F08%2Fwindows-10-mobile-aplicaciones-falsas&#038;t=Windows%2010%20Mobile%20y%20el%20problema%20de%20las%20aplicaciones%20falsas" class="et_social_share" rel="nofollow" data-social_name="facebook" data-post_id="18272" data-social_type="share"><i class="et_social_icon et_social_icon_facebook"></i><div class="et_social_network_label"><div class="et_social_networkname">Facebook</div></div><span class="et_social_overlay"></span></a></li><li class="et_social_googleplus"><a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.muywindows.com%2F2016%2F02%2F08%2Fwindows-10-mobile-aplicaciones-falsas&#038;t=Windows%2010%20Mobile%20y%20el%20problema%20de%20las%20aplicaciones%20falsas" class="et_social_share" rel="nofollow" data-social_name="googleplus" data-post_id="18272" data-social_type="share"><i class="et_social_icon et_social_icon_googleplus"></i><div class="et_social_network_label"><div class="et_social_networkname">Google+</div></div><span class="et_social_overlay"></span></a></li></ul>
+				</div>
+			</div><span class="et_bloom_bottom_trigger"></span>																<div class="clear"></div>
+							</div>
+							
+															<p class="entry-tags"><span></span> <a href="http://www.muywindows.com/tag/aplicaciones/" rel="tag">aplicaciones</a><a href="http://www.muywindows.com/tag/software/" rel="tag">Software</a><a href="http://www.muywindows.com/tag/windows-10-mobile/" rel="tag">Windows 10 Mobile</a></p>							
+														
+						</div><!--/entry content-->
+
+
+
+<!-- 468x60_minibanner_singles_MuyWindows -->
+<div id='div-gpt-ad-1387447208383-0' style='width:468px; height:60px; margin:0 auto;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1387447208383-0'); });
+</script>
+</div>
+
+<div class="OUTBRAIN" data-src="DROP_PERMALINK_HERE" data-widget-id="AR_1" data-ob-template="ES_MuyComputer" ></div>
+<script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script> 
+
+					</article>
+					
+										<ul class="entry-browse fix">
+						<li class="previous"><a href="http://www.muywindows.com/2016/02/05/whatsapp-web-microsoft-edge" rel="prev"><strong>Anterior post</strong> <span>Ya puedes utilizar WhatsApp Web en Microsoft Edge</span></a></li>
+						<li class="next"><a href="http://www.muywindows.com/2016/02/09/steve-ballmer-hololens-surface-y-xbox" rel="next"><strong>Siguiente post</strong> <span>Steve Ballmer cree que HoloLens, Surface y Xbox son vitales para Microsoft</span></a></li>
+					</ul>
+										
+										
+					
+<div id="disqus_thread">
+    </div>
+
+<script type="text/javascript">
+var disqus_url = 'http://www.muywindows.com/2016/02/08/windows-10-mobile-aplicaciones-falsas';
+var disqus_identifier = '18272 http://www.muywindows.com/?p=18272';
+var disqus_container_id = 'disqus_thread';
+var disqus_shortname = 'muywindows';
+var disqus_title = "Windows 10 Mobile y el problema de las aplicaciones falsas";
+var disqus_config_custom = window.disqus_config;
+var disqus_config = function () {
+    /*
+    All currently supported events:
+    onReady: fires when everything is ready,
+    onNewComment: fires when a new comment is posted,
+    onIdentify: fires when user is authenticated
+    */
+    
+    
+    this.language = '';
+        this.callbacks.onReady.push(function () {
+
+        // sync comments in the background so we don't block the page
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = '?cf_action=sync_comments&post_id=18272';
+
+        var firstScript = document.getElementsByTagName('script')[0];
+        firstScript.parentNode.insertBefore(script, firstScript);
+    });
+    
+    if (disqus_config_custom) {
+        disqus_config_custom.call(this);
+    }
+};
+
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+
+
+
+
+<!-- 300x250_MPU_Singles_MuyWindows -->
+<div id='div-gpt-ad-1387447050588-0' style='width:300px; height:250px; margin:0 auto;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1387447050588-0'); });
+</script>
+</div>
+
+
+
+				</div><!--/content-part-->
+				
+				<div class="sidebar">	
+					
+					
+<ul>
+	<li id="execphp-2" class="widget widget_execphp">			<div class="execphpwidget"><!-- 300x600_Doble_MPU_Superior_MuyWindows -->
+<div id='div-gpt-ad-1387447179461-0'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1387447179461-0'); });
+</script>
+</div></div>
+		</li><li id="text-2" class="widget widget_text">			<div class="textwidget"><div class="newsletters"><a href="suscribete-por-correo-electronico-muylinux" target="_blank" style="text-decoration:none;"><p>SUSCRÍBETE GRATIS A MUYWINDOWS</p></a></div></div>
+		</li><li id="wpb-tabs-2" class="widget widget_wpb_tabs"><h3 class="widget-title fix"><span>Lo último</span></h3><ul class="wpb-tabs fix tabs-3"><li class="wpb-tab-recent"><a href="#wpb-tab-recent-2" title="Recent Posts"><span>Recent Posts</span></a></li><li class="wpb-tab-comments"><a href="#wpb-tab-comments-2" title="Comments"><span>Comments</span></a></li><li class="wpb-tab-popular"><a href="#wpb-tab-popular-2" title="Most Popular"><span>Most Popular</span></a></li></ul><ul id="wpb-tab-recent-2" class="list-recent wpb-tab"><li class="format- wpb-thumb-enabled fix"><a title="Rumor: Forza 6 y Gears of War 4 llegarían a Windows 10" href="http://www.muywindows.com/2016/02/16/forza-6-gears-of-war-4-windows-10"><span class="wpb-thumb"><img width="150" height="100" src="http://www.muywindows.com/wp-content/uploads/2016/02/Forza-6-y-Gears-of-War-150x100.jpg?2fc20e" class="attachment-size-thumbnail wp-post-image" alt="Forza 6 y Gears of War" /></span><span class="wpb-text"><i class="title">Rumor: Forza 6 y Gears of War 4 llegarían a Windows 10</i><i class="meta">16 de febrero de 2016</i></span></a></li><li class="format- wpb-thumb-enabled fix"><a title="Podría llegar un HTC One M10 con Windows 10 Mobile" href="http://www.muywindows.com/2016/02/15/htc-one-m10-windows-10-mobile"><span class="wpb-thumb"><img width="150" height="100" src="http://www.muywindows.com/wp-content/uploads/2016/02/HTC-One-M10-150x100.jpg?2fc20e" class="attachment-size-thumbnail wp-post-image" alt="HTC One M10" /></span><span class="wpb-text"><i class="title">Podría llegar un HTC One M10 con Windows 10 Mobile</i><i class="meta">15 de febrero de 2016</i></span></a></li><li class="format- wpb-thumb-enabled fix"><a title="No, Windows 10 no espía tu PC miles de veces al día" href="http://www.muywindows.com/2016/02/12/windows-10-no-espia"><span class="wpb-thumb"><img width="150" height="100" src="http://www.muywindows.com/wp-content/uploads/2016/02/Windows-10-150x100.jpg?2fc20e" class="attachment-size-thumbnail wp-post-image" alt="Windows 10" /></span><span class="wpb-text"><i class="title">No, Windows 10 no espía tu PC miles de veces al día</i><i class="meta">12 de febrero de 2016</i></span></a></li><li class="format- wpb-thumb-enabled fix"><a title="Como portar aplicación de iOS a Windows 10 en 5 minutos (vídeo)" href="http://www.muywindows.com/2016/02/11/portar-aplicacion-de-ios-a-windows-10"><span class="wpb-thumb"><img width="150" height="100" src="http://www.muywindows.com/wp-content/uploads/2016/02/de-iOS-a-Windows-10-150x100.jpg?2fc20e" class="attachment-size-thumbnail wp-post-image" alt="de iOS a Windows 10" /></span><span class="wpb-text"><i class="title">Como portar aplicación de iOS a Windows 10 en 5 minutos (vídeo)</i><i class="meta">11 de febrero de 2016</i></span></a></li><li class="format- wpb-thumb-enabled fix"><a title="Precio y especificaciones del Lumia 650" href="http://www.muywindows.com/2016/02/10/precio-especificaciones-lumia-650"><span class="wpb-thumb"><img width="150" height="100" src="http://www.muywindows.com/wp-content/uploads/2016/02/Lumia-650-150x100.jpg?2fc20e" class="attachment-size-thumbnail wp-post-image" alt="Lumia 650" /></span><span class="wpb-text"><i class="title">Precio y especificaciones del Lumia 650</i><i class="meta">10 de febrero de 2016</i></span></a></li><li class="format- wpb-thumb-enabled fix"><a title="Steve Ballmer cree que HoloLens, Surface y Xbox son vitales para Microsoft" href="http://www.muywindows.com/2016/02/09/steve-ballmer-hololens-surface-y-xbox"><span class="wpb-thumb"><img width="150" height="100" src="http://www.muywindows.com/wp-content/uploads/2016/02/Steve-Ballmer-150x100.jpg?2fc20e" class="attachment-size-thumbnail wp-post-image" alt="Steve Ballmer" /></span><span class="wpb-text"><i class="title">Steve Ballmer cree que HoloLens, Surface y Xbox son vitales para Microsoft</i><i class="meta">9 de febrero de 2016</i></span></a></li></ul><ul id="wpb-tab-comments-2" class="list-comments wpb-tab"><li class="fix wpb-thumb-enabled"><a title="Podría llegar un HTC One M10 con Windows 10 Mobile" href="http://www.muywindows.com/2016/02/15/htc-one-m10-windows-10-mobile#comment-24734"><span class="wpb-thumb"><img alt='' src='http://2.gravatar.com/avatar/ed5d4e9c3c953a59c1ef22ba99c6fa38?s=64&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/ed5d4e9c3c953a59c1ef22ba99c6fa38?s=128&amp;d=mm&amp;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /></span><span class="wpb-text"><i class="meta">Francisco on:</i><i class="title">Podría llegar un HTC One M10 con Windows 10 Mobile</i></span></a></li><li class="fix wpb-thumb-enabled"><a title="No, Windows 10 no espía tu PC miles de veces al día" href="http://www.muywindows.com/2016/02/12/windows-10-no-espia#comment-24733"><span class="wpb-thumb"><img alt='' src='http://0.gravatar.com/avatar/37d513b8e9c4fa4970b19594a516c014?s=64&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/37d513b8e9c4fa4970b19594a516c014?s=128&amp;d=mm&amp;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /></span><span class="wpb-text"><i class="meta">Isidro Ros on:</i><i class="title">No, Windows 10 no espía tu PC miles de veces al día</i></span></a></li><li class="fix wpb-thumb-enabled"><a title="No, Windows 10 no espía tu PC miles de veces al día" href="http://www.muywindows.com/2016/02/12/windows-10-no-espia#comment-24732"><span class="wpb-thumb"><img alt='' src='http://0.gravatar.com/avatar/08de2d7b12e223c7a88e53d51fcc4d9b?s=64&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/08de2d7b12e223c7a88e53d51fcc4d9b?s=128&amp;d=mm&amp;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /></span><span class="wpb-text"><i class="meta">AndyMad on:</i><i class="title">No, Windows 10 no espía tu PC miles de veces al día</i></span></a></li><li class="fix wpb-thumb-enabled"><a title="No, Windows 10 no espía tu PC miles de veces al día" href="http://www.muywindows.com/2016/02/12/windows-10-no-espia#comment-24731"><span class="wpb-thumb"><img alt='' src='http://0.gravatar.com/avatar/08de2d7b12e223c7a88e53d51fcc4d9b?s=64&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/08de2d7b12e223c7a88e53d51fcc4d9b?s=128&amp;d=mm&amp;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /></span><span class="wpb-text"><i class="meta">AndyMad on:</i><i class="title">No, Windows 10 no espía tu PC miles de veces al día</i></span></a></li><li class="fix wpb-thumb-enabled"><a title="Precio y especificaciones del Lumia 650" href="http://www.muywindows.com/2016/02/10/precio-especificaciones-lumia-650#comment-24730"><span class="wpb-thumb"><img alt='' src='http://1.gravatar.com/avatar/1f2207ded77384800dc78679e6adf911?s=64&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/1f2207ded77384800dc78679e6adf911?s=128&amp;d=mm&amp;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /></span><span class="wpb-text"><i class="meta">Iván - InfoMMO.es on:</i><i class="title">Precio y especificaciones del Lumia 650</i></span></a></li><li class="fix wpb-thumb-enabled"><a title="Precio y especificaciones del Lumia 650" href="http://www.muywindows.com/2016/02/10/precio-especificaciones-lumia-650#comment-24729"><span class="wpb-thumb"><img alt='' src='http://2.gravatar.com/avatar/ed5d4e9c3c953a59c1ef22ba99c6fa38?s=64&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/ed5d4e9c3c953a59c1ef22ba99c6fa38?s=128&amp;d=mm&amp;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /></span><span class="wpb-text"><i class="meta">Francisco on:</i><i class="title">Precio y especificaciones del Lumia 650</i></span></a></li></ul><ul id="wpb-tab-popular-2" class="list-popular wpb-tab"><li class="format- wpb-thumb-enabled fix"><a title="¿Está tu smartphone listo para Windows 10 Mobile?" href="http://www.muywindows.com/2016/01/18/smartphone-para-windows-10-mobile"><span class="wpb-thumb"><img width="150" height="100" src="http://www.muywindows.com/wp-content/uploads/2016/01/para-Windows-10-Mobile-150x100.png?2fc20e" class="attachment-size-thumbnail wp-post-image" alt="para Windows 10 Mobile" /></span><span class="wpb-text"><i class="title">¿Está tu smartphone listo para Windows 10 Mobile?</i><i class="meta">18 de enero de 2016</i></span></a></li><li class="format- wpb-thumb-enabled fix"><a title="Windows Defender ha mejorado considerablemente" href="http://www.muywindows.com/2016/01/27/windows-defender-mejorado"><span class="wpb-thumb"><img width="150" height="100" src="http://www.muywindows.com/wp-content/uploads/2016/01/Windows-Defender-150x100.jpg?2fc20e" class="attachment-size-thumbnail wp-post-image" alt="Windows Defender" /></span><span class="wpb-text"><i class="title">Windows Defender ha mejorado considerablemente</i><i class="meta">27 de enero de 2016</i></span></a></li><li class="format- wpb-thumb-enabled fix"><a title="Actualización a Windows 10 pasa de opcional a recomendada" href="http://www.muywindows.com/2016/02/02/actualizacion-a-windows-10-recomendada"><span class="wpb-thumb"><img width="150" height="100" src="http://www.muywindows.com/wp-content/uploads/2016/02/actualización-a-Windows-10-150x100.jpg?2fc20e" class="attachment-size-thumbnail wp-post-image" alt="actualización a Windows 10" /></span><span class="wpb-text"><i class="title">Actualización a Windows 10 pasa de opcional a recomendada</i><i class="meta">2 de febrero de 2016</i></span></a></li><li class="format- wpb-thumb-enabled fix"><a title="No, Windows 10 no espía tu PC miles de veces al día" href="http://www.muywindows.com/2016/02/12/windows-10-no-espia"><span class="wpb-thumb"><img width="150" height="100" src="http://www.muywindows.com/wp-content/uploads/2016/02/Windows-10-150x100.jpg?2fc20e" class="attachment-size-thumbnail wp-post-image" alt="Windows 10" /></span><span class="wpb-text"><i class="title">No, Windows 10 no espía tu PC miles de veces al día</i><i class="meta">12 de febrero de 2016</i></span></a></li><li class="format- wpb-thumb-enabled fix"><a title="Precio y especificaciones del Lumia 650" href="http://www.muywindows.com/2016/02/10/precio-especificaciones-lumia-650"><span class="wpb-thumb"><img width="150" height="100" src="http://www.muywindows.com/wp-content/uploads/2016/02/Lumia-650-150x100.jpg?2fc20e" class="attachment-size-thumbnail wp-post-image" alt="Lumia 650" /></span><span class="wpb-text"><i class="title">Precio y especificaciones del Lumia 650</i><i class="meta">10 de febrero de 2016</i></span></a></li><li class="format- wpb-thumb-enabled fix"><a title="Windows 10 build 14251 tiene archivos de subsistema Linux" href="http://www.muywindows.com/2016/02/03/windows-10-build-14251-linux"><span class="wpb-thumb"><img width="150" height="100" src="http://www.muywindows.com/wp-content/uploads/2016/02/Windows-10-build-14251-150x100.jpg?2fc20e" class="attachment-size-thumbnail wp-post-image" alt="Windows 10 build 14251" /></span><span class="wpb-text"><i class="title">Windows 10 build 14251 tiene archivos de subsistema Linux</i><i class="meta">3 de febrero de 2016</i></span></a></li></ul></li><li id="text-6" class="widget widget_text"><h3 class="widget-title fix"><span>MuyTV</span></h3>			<div class="textwidget"><iframe width="300" height="240" src="https://www.youtube.com/embed/A_TMdyO-Qlw?list=PL0A038BB089982016" frameborder="0" allowfullscreen></iframe></div>
+		</li><li id="text-5" class="widget widget_text">			<div class="textwidget"><!-- 300x250_MPU_Inferior_MuyWindows -->
+<div id='div-gpt-ad-1387447015182-0'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1387447015182-0'); });
+</script>
+</div></div>
+		</li></ul>				</div><!--/sidebar-->
+				
+			</div><!--/main-->
+			
+		</div><!--/page-inner-->
+	</div><!--/container-->
+</div><!--/page-->
+
+		
+	
+		
+	
+	<div class="clear"></div>
+	<footer id="footer">
+		<div class="container">
+			<div id="footer-inner" class="fix">
+				
+				<nav id="nav-footer" class="menu-principal-container"><ul id="nav-alt" class="pad fix"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-11731"><a href="http://www.muywindows.com">Inicio</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11729"><a href="http://www.muywindows.com/windows-8/">Windows 8</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11723"><a href="http://www.muywindows.com/windows-7/">Windows 7</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-11724"><a href="http://www.muywindows.com/win-phone/">Windows Phone</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11730"><a href="http://www.muywindows.com/windows-server/">Windows Server</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11725"><a href="http://www.muywindows.com/office/">Office</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11728"><a href="http://www.muywindows.com/internet-explorer/">Internet Explorer</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11727"><a href="http://www.muywindows.com/seguridad/">Seguridad</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11726"><a href="http://www.muywindows.com/trucos/">Trucos</a></li>
+</ul></nav>				
+				<div id="footer-bottom">
+					<div class="pad fix">
+						<div class="grid">
+														
+													</div>
+						<div class="grid">
+							<p id="copy"><!-- Inicio footer -->
+
+<div class="contentFooter" align="center">
+
+			<div class="logoFooter" ><img src="/wp-content/uploads/2014/10/logo.png?2fc20e"></div>
+                        <div class="txtFooter" ><p class="primeraLinea"><a href="http://www.tpnet.es/quienes-somos/" target="_blank">Quiénes somos</a> | <a href="http://www.tpnet.es/publicidad/" target="_blank">Publicidad</a> | <a href="http://www.tpnet.es/condiciones-de-uso/" target="_blank">Condiciones de uso</a> | <a href="http://www.tpnet.es/politica-de-cookies/" target="_blank">Política de cookies</a> | <a href="http://www.tpnet.es/aviso-legal/" target="_blank">Aviso legal</a> | <a href="http://www.tpnet.es/contacto/" target="_blank">Contacto</a></p><br><p>Copyright Total Publishing Network S.A. 2008. Todos los derechos reservados. Auditado por <a href="http://www.ojdinteractiva.es/" style="color:red;">OJD</p></div>
+			
+	</div> 
+
+
+<!-- fin footer --></p>
+						</div>
+					</div>
+					<div class="clear"></div>
+					<a id="to-top" href="#"><i class="icon-top"></i></a>
+				</div>
+			</div><!--/footer-inner-->
+		</div>
+	</footer><!--/footer-->
+	
+</div><!--/wrap-->
+
+
+<!-- Sidebar Móvil -->
+<div id="sidebar-bannermovil">
+</div>
+<!-- /Sidebar Móvil -->
+
+<div class="et_bloom_flyin et_bloom_optin et_bloom_resize et_bloom_flyin_right et_bloom_optin_0 et_bloom_auto_popup et_bloom_trigger_bottom et_bloom_hide_mobile_optin" data-delay="20" data-cookie_duration="30">
+							<div class="et_bloom_form_container et_bloom_form_bottom with_edge carrot_edge et_bloom_with_border et_bloom_border_solid et_bloom_border_position_full et_bloom_rounded et_bloom_form_text_light et_bloom_animation_slideup et_flyin_1_field et_bloom_flyin_bottom_inline">
+								
+			<div class="et_bloom_form_container_wrapper clearfix">
+				<div class="et_bloom_header_outer">
+					<div class="et_bloom_form_header split et_bloom_header_text_dark">
+						<img src="http://www.muywindows.com/wp-content/plugins/bloom/images/premade-image-06.png?2fc20e" alt="Suscríbete gratis a MuyWindows" class=" et_bloom_image_slideup et_bloom_image">
+						<div class="et_bloom_form_text">
+						<h1 style="margin: 0px; padding: 0px; border: 0px; font-style: normal; font-variant: normal; font-weight: 600; font-stretch: inherit; font-size: 24px; line-height: 1.3em; font-family: Arial, Helvetica, sans-serif; vertical-align: baseline; color: #111111; letter-spacing: -0.3px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;">Suscríbete gratis a MuyWindows</h1><p><span style="color: #444444; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21.98px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: #ffffff;">Cada sábado te llegará un mensaje con un resumen de todos los artículos publicados esa semana. </span><strong style="margin: 0px; padding: 0px; border: 0px; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: inherit; font-size: 14px; line-height: 21.98px; font-family: Arial, Helvetica, sans-serif; vertical-align: baseline; color: #444444; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;">Sin publicidad.</strong></p>
+					</div>
+						
+					</div>
+				</div>
+				<div class="et_bloom_form_content et_bloom_1_field et_bloom_bottom_inline">
+					
+					
+					<form method="post" class="clearfix">
+						
+						<p class="et_bloom_popup_input et_bloom_subscribe_email">
+							<input placeholder="Correo electrónico">
+						</p>
+
+						<button data-optin_id="optin_0" data-service="mailpoet" data-list_id="3" data-page_id="18272" data-account="TomasCG" data-disable_dbl_optin="" class="et_bloom_submit_subscription">
+							<span class="et_bloom_subscribe_loader"></span>
+							<span class="et_bloom_button_text et_bloom_button_text_color_dark">Enviar</span>
+						</button>
+					</form>
+					<div class="et_bloom_success_container">
+						<span class="et_bloom_success_checkmark"></span>
+					</div>
+					<h2 class="et_bloom_success_message">Gracias por suscribirte a MuyWindows</h2>
+					
+				</div>
+			</div>
+			<span class="et_bloom_close_button"></span>
+							</div>
+						</div><div id="cookie-law-info-bar"><span>Usamos cookies propias y de terceros para mejorar tu experiencia y realizar tareas de analítica. Al continuar navegando entendemos que aceptas nuestra <a href="http://www.tpnet.es/politica-de-cookies" target="_blank">política de cookies</a>.<a href="#" id="cookie_action_close_header"  class="medium cli-plugin-button cli-plugin-main-button" >Aceptar</a> </span></div>		
+		<script type="text/javascript">
+			//<![CDATA[
+			jQuery(document).ready(function() {
+				cli_show_cookiebar({
+					settings: '{"animate_speed_hide":"500","animate_speed_show":"500","background":"#fff","border":"#0097c8","border_on":true,"button_1_button_colour":"#000","button_1_button_hover":"#000000","button_1_link_colour":"#fff","button_1_as_button":true,"button_2_button_colour":"#0097c8","button_2_button_hover":"#0079a0","button_2_link_colour":"#444","button_2_as_button":false,"font_family":"inherit","header_fix":false,"notify_animate_hide":true,"notify_animate_show":false,"notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":false,"scroll_close_reload":false,"showagain_tab":false,"showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#000","show_once_yn":false,"show_once":"10000"}'
+				});
+			});
+			//]]>
+		</script>
+		
+		        <script type="text/javascript">
+        // <![CDATA[
+        var disqus_shortname = 'muywindows';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('data-dsqidentifier'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); 
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+        // ]]>
+        </script>
+        <!-- Lightbox Plus Colorbox v2.7.2/1.5.9 - 2013.01.24 - Message: 0-->
+<script type="text/javascript">
+jQuery(document).ready(function($){
+  $("a[rel*=lightbox]").colorbox({speed:350,initialWidth:"300",initialHeight:"100",opacity:0.8,loop:false,scrolling:false,escKey:false,arrowKey:false,top:false,right:false,bottom:false,left:false});
+});
+</script>
+<script type='text/javascript' src="http://www.muywindows.com/wp-content/plugins/bloom/js/jquery.uniform.min.js?2fc20e"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var bloomSettings = {"ajaxurl":"http:\/\/www.muywindows.com\/wp-admin\/admin-ajax.php","pageurl":"http:\/\/www.muywindows.com\/2016\/02\/08\/windows-10-mobile-aplicaciones-falsas","stats_nonce":"b41a3cbced","subscribe_nonce":"7c28d0ca29"};
+/* ]]> */
+</script>
+<script type='text/javascript' src="http://www.muywindows.com/wp-content/plugins/bloom/js/custom.js?2fc20e"></script>
+<script type='text/javascript' src="http://www.muywindows.com/wp-content/plugins/bloom/js/idle-timer.min.js?2fc20e"></script>
+<script type='text/javascript' src="http://www.muywindows.com/wp-content/plugins/monarch/js/idle-timer.min.js?2fc20e"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monarchSettings = {"ajaxurl":"http:\/\/www.muywindows.com\/wp-admin\/admin-ajax.php","pageurl":"http:\/\/www.muywindows.com\/2016\/02\/08\/windows-10-mobile-aplicaciones-falsas","stats_nonce":"a6457c934c","share_counts":"6e9e72b4ac","follow_counts":"404c67da95","total_counts":"d3b71e359a","media_single":"e1c441587e","media_total":"25c6d9b83a","generate_all_window_nonce":"0de65a1203","no_img_message":"No images available for sharing on this page"};
+/* ]]> */
+</script>
+<script type='text/javascript' src="http://www.muywindows.com/wp-content/plugins/monarch/js/custom.js?2fc20e"></script>
+<script type='text/javascript' src="http://www.muywindows.com/wp-includes/js/comment-reply.min.js?2fc20e"></script>
+<script type='text/javascript' src="http://www.muywindows.com/wp-content/themes/newsroom14/js/jquery.jplayer.min.js?2fc20e"></script>
+<script type='text/javascript' src="http://www.muywindows.com/wp-content/themes/newsroom14/js/jquery.flexslider.min.js?2fc20e"></script>
+<script type='text/javascript' src="http://www.muywindows.com/wp-content/themes/newsroom14/js/jquery.fancybox.pack.js?2fc20e"></script>
+<script type='text/javascript' src="http://www.muywindows.com/wp-content/themes/newsroom14/js/jquery.fancybox-media.js?2fc20e"></script>
+<script type='text/javascript' src="http://www.muywindows.com/wp-content/themes/newsroom14/js/jquery.mousewheel-3.0.6.pack.js?2fc20e"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var objectL10n = {"navigate":"Navigate to..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src="http://www.muywindows.com/wp-content/themes/newsroom14/js/jquery.theme.js?2fc20e"></script>
+<script type='text/javascript' src="http://www.muywindows.com/wp-content/plugins/lightbox-plus/js/jquery.colorbox.1.5.9-min.js?2fc20e"></script>
+<!--[if lt IE 9]><script src="http://www.muywindows.com/wp-content/themes/newsroom14/js/ie/respond.min.js?2fc20e"></script> <![endif]-->
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching 3/107 queries in 0.080 seconds using disk
+
+ Served from: muywindows.com @ 2016-02-17 01:28:44 by W3 Total Cache -->

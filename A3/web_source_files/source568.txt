@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <!-- Google font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,700,900' rel='stylesheet' type='text/css'>
+    <!-- Css -->
+    <link rel="stylesheet" type="text/css" href="css/library/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/library/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/library/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/md-font.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/megzy.css">
+    <link rel="stylesheet" type="text/css" href="css/countdown.css" media="screen">
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+    <link rel="icon" href="images/favicon.png">
+
+    <title>Home: Online learning market place</title>
+</head>
+<body id="page-top" class="home">
+
+<!-- PAGE WRAP -->
+<div id="page-wrap">
+ <!-- PRELOADER -->
+    <div id="preloader">
+        <div class="pre-icon">
+            <div class="pre-item pre-item-1"></div>
+            <div class="pre-item pre-item-2"></div>
+            <div class="pre-item pre-item-3"></div>
+            <div class="pre-item pre-item-4"></div>
+        </div>
+    </div>
+    <!-- END / PRELOADER -->
+
+    <!-- HEADER -->
+    <header id="header" class="header">
+        <div class="container">
+            <!-- LOGO -->
+                  <div class="logo">
+            <a href="index.php"><img src="images/logo.png" alt=""></a>
+            </div>
+                  <!-- END / LOGO -->
+
+            <!-- NAVIGATION -->
+            <nav class="navigation">
+
+                <div class="open-menu">
+                    <span class="item item-1"></span>
+                    <span class="item item-2"></span>
+                    <span class="item item-3"></span>
+                </div>
+                <!-- MENU -->
+               
+                <ul class="menu">
+                                 <!--<li><a href="#"><form action="index.php" method="post" enctype="multipart/form-data" name="stform" class="navbar-form navbar-left" role="search">
+      
+        <div class="input-group">
+      <input type="text" class="form-control" name="tsitem" id="tsitem" placeholder="Search for Courses">
+      
+    </div>
+        
+      </form></a></li>-->
+            <li><a href="about.php">About Us</a></li>
+                      <li><a href="courses.php?int=1">Courses</a></li>
+                <li><a href="binstructor.php">Become an Instructor</a></li>
+                <li><a href="signup.php">Sign Up</a></li>
+        <li><a href="login.php">Login</a></li>
+                <li><a href="carry.php">Cash N Carry</a></li>
+        <li><a href="http://www.acadaweb.com/success/" target="_new">Success Stories</a></li>
+      <li><a href="faq.php">FAQs</a></li>
+                      </ul>
+                <!-- END / MENU -->
+
+            </nav>
+            <!-- END / NAVIGATION -->
+
+        </div>
+    </header>
+    <!-- END / HEADER -->    <!-- HOME SLIDER -->
+    <section class="slide" style="background-image: url(images/homeslider/bg.jpg)">
+        <div class="container">
+            <div class="slide-cn" id="slide-home">
+                
+                <!-- SLIDE ITEM -->
+                <div class="slide-item">
+                    <div class="item-inner">
+                        <div class="text">
+                            <h2>Learn more</h2>
+                            <p>Your best place to learn lucrative skills and get certified online.<br> Search for online courses on Web development, Internet Marketing,<br />Online Importation Business, Mobile App development or anything else<br>
+                            </p>
+                            <div class="group">
+                                <a href="login.php" class="mc-btn btn-style-1">Start learning</a>
+                            </div>
+                        </div>
+
+                        <div class="img">
+                            <img src="images/homeslider/s1.png" alt="">
+                        </div>
+                    </div>
+
+                </div>  
+                <!-- SLIDE ITEM -->     
+
+                <!-- SLIDE ITEM -->
+                <div class="slide-item">
+                    <div class="item-inner">
+                        <div class="text">
+                            <h2>Teach and earn</h2>
+                            <p>Reach millions of students worldwide in the largest online learning <br />marketplace, and deliver your course on any device, at any time.<br><br />Earn 60% from each sale of your materials and build your personal brand,<br />all while making a real difference in the lives of students.
+                            </p>
+                            <div class="group">
+                                <a href="binstructor.php" class="mc-btn btn-style-1">Start teaching</a>
+                            </div>
+                        </div>
+
+                        <div class="img">
+                            <img src="images/homeslider/s2.png" alt="">
+                        </div>
+
+                    </div>  
+                </div>  
+                <!-- SLIDE ITEM -->  
+
+            </div>
+        </div>
+    </section>
+    <!-- END / HOME SLIDER -->
+    
+
+    <!-- AFTER SLIDER -->
+    <section id="after-slider" class="after-slider section">
+        <div class="awe-color bg-color-1"></div>
+        <div class="after-slider-bg-2"></div>
+        <div class="container">
+    <form action="index.php" method="post" enctype="multipart/form-data" name="sform" role="form">
+            <div class="after-slider-content tb">
+            
+                <div class="inner tb-cell">
+                    <h4>Find your course</h4>
+                    
+                    <div class="course-keyword">
+                        <input type="text" name="sitem" placeholder="Course keyword">
+                    </div>
+                    <div class="mc-select-wrap">
+                        <div class="mc-select">
+                                                    <select class="select" name="scat" id="all-categories">
+                                <option value="" selected>All categories</option>
+                                                         <option value="18">Advertising</option>
+                                                 <option value="16">Architectural Design</option>
+                                                 <option value="24">Blogging</option>
+                                                 <option value="13">Business</option>
+                                                 <option value="7">Computer Engineering</option>
+                                                 <option value="5">E-Commerce</option>
+                                                 <option value="27">Engineering</option>
+                                                 <option value="15">Entrepreneurship</option>
+                                                 <option value="4">Game Development</option>
+                                                 <option value="12">Graphic Design</option>
+                                                 <option value="21">Health & Fitness</option>
+                                                 <option value="28">How To</option>
+                                                 <option value="9">Internet Marketing</option>
+                                                 <option value="25">Make Money Online</option>
+                                                 <option value="14">Marketing</option>
+                                                 <option value="2">Mobile Apps</option>
+                                                 <option value="26">Mobile Marketing</option>
+                                                 <option value="8">Networking</option>
+                                                 <option value="11">Oil & Gas Software</option>
+                                                 <option value="10">Online Business</option>
+                                                 <option value="23">Personal Development</option>
+                                                 <option value="3">Programming</option>
+                                                 <option value="17">Search Engine Optimization</option>
+                                                 <option value="19">Security</option>
+                                                 <option value="20">Social Media Marketing</option>
+                                                 <option value="6">Software Development</option>
+                                                 <option value="22">Technology</option>
+                                                 <option value="29">Vocational Skill</option>
+                                                 <option value="1">Web Development</option>
+                          
+                            </select>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="tb-cell text-right">
+                    <div class="form-actions">
+                        <input type="submit" value="Find Course" class="mc-btn btn-style-1">
+                    </div>
+                </div>
+               
+            </div>
+     </form>
+        </div>
+    </section>
+    <!-- END / AFTER SLIDER -->
+    
+    <!-- SECTION 1 -->
+    <section id="mc-section-1" class="mc-section-1 section">
+        <div class="container">
+            <br />
+            <h2 class="text-danger" align="center">Have You Ever Wished There Was A way You Could Acquire Lucrative Technical & Vocational Skills Like; Web Design, Bags & Shoe Making, Mobile App Development, Car Tracking & CCTV Installation, Online Importation Etc. Without A Physical Training/Seminar/Workshop…?</h2>
+            <ul>
+                <li>Due to the huge training fees.</li>
+                <li>Due to your busy schedules.</li>
+                <li>Due to your location in most cases.</li>
+                <li>Due to your dislike for crowd learning etc.</li>
+            </ul>
+            <p><b>Here Is Your Chance To Learn And Acquire New Skills From ‘Do-It-Yourself’ eBooks & Video Courses Using Your Computer Anywhere, Anytime And At Your Own Pace…</b></p>
+            <p>Dear Friend,</p>
+            <p align="justify">Technology is changing every aspect of our lives. Take a look at the business world. </br>The ways businesses are conducted have changed. You mustn’t to go to a physical store to purchase an item anymore.</p>
+            <p align="justify">This has been made possible by eCommerce platforms. They are commonplace. They have a variety of goods and even go further to deliver goods bought by customers.</p>
+            <p>Good news!</p>
+            <p align="justify">Technology is also changing the way we learn and acquire new skills. AcadaWEB as an online learning platform in Nigeria has harnessed the right technology to enable you learn anything online or offline by delivering the home training version of any course to your doorstep. While experts are given the opportunity to monetize their knowledge and get 60% commission on each sale of their courses.</p>
+            <p align="justify"><b>Forget overpriced training institutes with pitifully poor result. Kindly browse through our courses and start learning. </BR>Interestingly, all our courses are geared to make you FINANCIALLY INDEPENDENT or EMPLOYABLE.</B></p>
+            <p align="justify">We save you time, stress and money while you learn at your own convenient.</p>
+            <p align="center"><img src="images/acadaweb-elearning.jpg" class="img-responsive"></p>
+           <!--<div class="row">
+                
+                <div class="col-md-5">
+                    <div class="mc-section-1-content-1"> 
+                        <h2 class="big">AcadaWeb In Summary</h2>
+                        <p class="mc-text">We're Nigeria's leading online learning marketplace that offers students the opportunity to learn anything online and enable experts to monetize their knowledge.</p>
+                        <a href="about.php" class="mc-btn btn-style-1">About us</a>
+                    </div>
+                </div>
+    
+                <div class="col-md-6 col-lg-offset-1 pull-right">
+                <br />
+                <table align="center">
+                <tr>
+                <td>
+                <img src="images/acadaweb-elearning.jpg" class="img-responsive">
+                </td>
+                </tr>
+                </table>
+<!--<div class="row">
+                        <div class="col-sm-6">
+                            <div class="featured-item">
+                                <i class="icon icon-featured-1"></i>
+                                <h4 class="title-box text-uppercase">CLEAN AND EASY</h4>
+                                <p>Simple interface integrated for better navigation.</p>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-6">
+                            <div class="featured-item">
+                                <i class="icon icon-featured-2"></i>
+                                <h4 class="title-box text-uppercase">TEACH AS YOU CAN</h4>
+                                <p>There is no limit to what you can teach. All tools available for you to make your process easy.</p>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-6">
+                            <div class="featured-item">
+                                <i class="icon icon-featured-3"></i>
+                                <h4 class="title-box text-uppercase">COMMUNITY SUPPORT</h4>
+                                <p>Navigate to the forum section and experience good communication between students and tutors.</p>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-6">
+                            <div class="featured-item">
+                                <i class="icon icon-featured-4"></i>
+                                <h4 class="title-box text-uppercase">REPORTING</h4>
+                                <p>We deliver a standard reporting mechanism to track all your transactions on site.</p>
+                            </div>
+                        </div>
+                    </div>-->
+                <!--</div>
+    
+            </div>-->
+            
+        </div>
+    </section>
+    <!-- END / SECTION 1 -->
+    
+    
+    
+    <!-- SECTION 2 -->
+    <!--<section id="mc-section-2" class="mc-section-2 section">
+        <div class="awe-parallax bg-section1-demo"></div>
+        <div class="overlay-color-1"></div>
+        <div class="container">
+            <div class="section-2-content">
+                <div class="row">
+                    
+                    <div class="col-md-5">
+                        <div class="ct">
+                            <h2 class="big">AcadaWeb Approach</h2>
+                            <p class="mc-text">We deliver courses both Online and Offline using a simple bi-instructing system. You can either learn online or request for the physical 'home training kit' to be delivered to your specified address thereby eliminating the need for an internet connection to start learning.</p>
+                            <a href="about.php" class="mc-btn btn-style-3">See how it work</a>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-7">
+                        <div class="image">
+                            <img src="images/image.png" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- END / SECTION 2 -->
+    
+    
+    <!-- SECTION 3 -->
+    <section id="mc-section-3" class="mc-section-3 section">
+        <div class="container">
+            <!-- FEATURE -->
+            <div class="feature-course">
+                <h4 class="title-box text-uppercase">FEATURE COURSES</h4>
+                <a href="courses.php?int=1" class="all-course mc-btn btn-style-1">View all</a>
+                <div class="row">
+                    <div class="feature-slider">
+                                             <div class="mc-item mc-item-1">
+                            <div class="image-heading">
+                                <a href="vcourse.php?cid=6&int=1"><img src="images/course_images/5.jpg" alt=""></a>
+                            </div>
+                            <div class="meta-categories">video</div>
+                            <div class="content-item">
+                                <div class="image-author">
+                                
+                                    <img src="images/user_images/1.jpg" alt="">
+                                </div>
+                                <h4><a href="vcourse.php?cid=6&int=1">Smart Mobile Marketing Course</a></h4>
+                                <div class="name-author">
+                                    By <a href="#">Victory Akpomedaye</a>
+                                </div>
+                            </div>
+                            <div class="ft-item">
+                                                             <div class="rating">
+                                 <a href="#" class="active"></a>   
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+                                        
+                                </div>
+                                <div class="view-info">
+                                    <i class="icon md-users"></i>
+                                    112                                </div>
+                                                                <div class="comment-info">
+                                    <i class="icon md-comment"></i>
+                                    1                                </div>
+                                <div class="price">
+                                        N8,500                                        <span class="price-old"></span>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="mc-item mc-item-1">
+                            <div class="image-heading">
+                                <a href="vcourse.php?cid=7&int=1"><img src="images/course_images/6.jpg" alt=""></a>
+                            </div>
+                            <div class="meta-categories">video</div>
+                            <div class="content-item">
+                                <div class="image-author">
+                                
+                                    <img src="images/user_images/1.jpg" alt="">
+                                </div>
+                                <h4><a href="vcourse.php?cid=7&int=1">The Best Joomla CMS Tutorial</a></h4>
+                                <div class="name-author">
+                                    By <a href="#">Victory Akpomedaye</a>
+                                </div>
+                            </div>
+                            <div class="ft-item">
+                                                             <div class="rating">
+                                 <a href="#" class="active"></a>   
+    <a href="#" class="active"></a>   
+    <a href="#" class="active"></a>   
+    <a href="#" class="active"></a>   
+    <a href="#" class="active"></a>   
+                                        
+                                </div>
+                                <div class="view-info">
+                                    <i class="icon md-users"></i>
+                                    16                                </div>
+                                                                <div class="comment-info">
+                                    <i class="icon md-comment"></i>
+                                    2                                </div>
+                                <div class="price">
+                                        N7,500                                        <span class="price-old"></span>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="mc-item mc-item-1">
+                            <div class="image-heading">
+                                <a href="vcourse.php?cid=12&int=1"><img src="images/course_images/9.jpg" alt=""></a>
+                            </div>
+                            <div class="meta-categories">video</div>
+                            <div class="content-item">
+                                <div class="image-author">
+                                
+                                    <img src="images/user_images/1.jpg" alt="">
+                                </div>
+                                <h4><a href="vcourse.php?cid=12&int=1">A-Z Internet Marketing Blueprint</a></h4>
+                                <div class="name-author">
+                                    By <a href="#">Victory Akpomedaye</a>
+                                </div>
+                            </div>
+                            <div class="ft-item">
+                                                             <div class="rating">
+                                   <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+                                        
+                                </div>
+                                <div class="view-info">
+                                    <i class="icon md-users"></i>
+                                    9                                </div>
+                                                                <div class="comment-info">
+                                    <i class="icon md-comment"></i>
+                                    0                                </div>
+                                <div class="price">
+                                        N6,500                                        <span class="price-old"></span>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="mc-item mc-item-1">
+                            <div class="image-heading">
+                                <a href="vcourse.php?cid=13&int=1"><img src="images/course_images/10.jpg" alt=""></a>
+                            </div>
+                            <div class="meta-categories">video</div>
+                            <div class="content-item">
+                                <div class="image-author">
+                                
+                                    <img src="images/user_images/1.jpg" alt="">
+                                </div>
+                                <h4><a href="vcourse.php?cid=13&int=1">Best Mobile App Development Training With Android</a></h4>
+                                <div class="name-author">
+                                    By <a href="#">Victory Akpomedaye</a>
+                                </div>
+                            </div>
+                            <div class="ft-item">
+                                                             <div class="rating">
+                                   <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+                                        
+                                </div>
+                                <div class="view-info">
+                                    <i class="icon md-users"></i>
+                                    21                                </div>
+                                                                <div class="comment-info">
+                                    <i class="icon md-comment"></i>
+                                    0                                </div>
+                                <div class="price">
+                                        N7,500                                        <span class="price-old"></span>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="mc-item mc-item-1">
+                            <div class="image-heading">
+                                <a href="vcourse.php?cid=15&int=1"><img src="images/course_images/12.jpg" alt=""></a>
+                            </div>
+                            <div class="meta-categories">video</div>
+                            <div class="content-item">
+                                <div class="image-author">
+                                
+                                    <img src="images/user_images/0.jpg" alt="">
+                                </div>
+                                <h4><a href="vcourse.php?cid=15&int=1">Web Consulting Course</a></h4>
+                                <div class="name-author">
+                                    By <a href="#">Ifiok Nkem</a>
+                                </div>
+                            </div>
+                            <div class="ft-item">
+                                                             <div class="rating">
+                                   <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+                                        
+                                </div>
+                                <div class="view-info">
+                                    <i class="icon md-users"></i>
+                                    2                                </div>
+                                                                <div class="comment-info">
+                                    <i class="icon md-comment"></i>
+                                    0                                </div>
+                                <div class="price">
+                                        N12,500                                        <span class="price-old"></span>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="mc-item mc-item-1">
+                            <div class="image-heading">
+                                <a href="vcourse.php?cid=52&int=1"><img src="images/course_images/50.jpg" alt=""></a>
+                            </div>
+                            <div class="meta-categories">e-learning</div>
+                            <div class="content-item">
+                                <div class="image-author">
+                                
+                                    <img src="images/user_images/1.jpg" alt="">
+                                </div>
+                                <h4><a href="vcourse.php?cid=52&int=1">How To Set Up a Mobile Marketing Portal With SMS, Voice, Autoresponder & Online payment In Minutes</a></h4>
+                                <div class="name-author">
+                                    By <a href="#">Victory Akpomedaye</a>
+                                </div>
+                            </div>
+                            <div class="ft-item">
+                                                             <div class="rating">
+                                 <a href="#" class="active"></a>   
+    <a href="#" class="active"></a>   
+    <a href="#" class="active"></a>   
+    <a href="#" class="active"></a>   
+      <a href="#"></a>  
+                                        
+                                </div>
+                                <div class="view-info">
+                                    <i class="icon md-users"></i>
+                                    302                                </div>
+                                                                <div class="comment-info">
+                                    <i class="icon md-comment"></i>
+                                    3                                </div>
+                                <div class="price">
+                                        Free
+                                        <span class="price-old"></span>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="mc-item mc-item-1">
+                            <div class="image-heading">
+                                <a href="vcourse.php?cid=56&int=1"><img src="images/course_images/54.jpg" alt=""></a>
+                            </div>
+                            <div class="meta-categories">e-learning</div>
+                            <div class="content-item">
+                                <div class="image-author">
+                                
+                                    <img src="images/user_images/1.jpg" alt="">
+                                </div>
+                                <h4><a href="vcourse.php?cid=56&int=1">How To Design Quality Squeeze And Sales Pages Using Profit Builder </a></h4>
+                                <div class="name-author">
+                                    By <a href="#">Victory Akpomedaye</a>
+                                </div>
+                            </div>
+                            <div class="ft-item">
+                                                             <div class="rating">
+                                   <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+                                        
+                                </div>
+                                <div class="view-info">
+                                    <i class="icon md-users"></i>
+                                    43                                </div>
+                                                                <div class="comment-info">
+                                    <i class="icon md-comment"></i>
+                                    1                                </div>
+                                <div class="price">
+                                        N5,900                                        <span class="price-old"></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- END / FEATURE -->
+            
+            
+        </div>
+    </section>
+    <!-- END / SECTION 3 -->
+    
+    <!-- CATEGORIES CONTENT -->
+    <section id="categories-content" class="categories-content">
+        <div class="container">
+           
+                    <div class="content grid">
+                    <!-- POPULAR -->
+                    <br /><br />
+                    <table width="100%">
+                    <tr>
+                <td><h4 class="title-box text-uppercase">POPULAR COURSES</h4></td>
+ <td align="right"><a href="courses.php?int=1" class="all-course mc-btn mc-btn-2 btn-style-1">View all</a></td>
+ </tr>
+ </table>
+                                 <div class="col-sm-6 col-md-3">
+                        <div class="mc-item mc-item-1">
+                            <div class="image-heading">
+                                <a href="vcourse.php?cid=68&int=1"><img src="images/course_images/66.jpg" alt=""></a>
+                            </div>
+                            <div class="meta-categories">video</div>
+                            <div class="content-item">
+                                <div class="image-author">
+                                
+                                    <img src="images/user_images/0.jpg" alt="">
+                                </div>
+                                <h4><a href="vcourse.php?cid=68&int=1">How To Produce A Body Cream Like Vaseline And Earn Your Living Selling The Products</a></h4>
+                                <div class="name-author">
+                                    By <a href="#">Vivian </a>
+                                </div>
+                            </div>
+                            <div class="ft-item">
+                                                             <div class="rating">
+                                   <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+                                        
+                                </div>
+                                <div class="view-info">
+                                    <i class="icon md-users"></i>
+                                    8                                </div>
+                                                                <div class="comment-info">
+                                    <i class="icon md-comment"></i>
+                                    0                                </div>
+                                <div class="price">
+                                      
+    N5,500                                        <span class="price-old"></span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                                    <div class="col-sm-6 col-md-3">
+                        <div class="mc-item mc-item-1">
+                            <div class="image-heading">
+                                <a href="vcourse.php?cid=50&int=1"><img src="images/course_images/48.jpg" alt=""></a>
+                            </div>
+                            <div class="meta-categories">e-learning</div>
+                            <div class="content-item">
+                                <div class="image-author">
+                                
+                                    <img src="images/user_images/1.jpg" alt="">
+                                </div>
+                                <h4><a href="vcourse.php?cid=50&int=1">Wordpress Developers Course: Plugins And Themes Development</a></h4>
+                                <div class="name-author">
+                                    By <a href="#">Victory Akpomedaye</a>
+                                </div>
+                            </div>
+                            <div class="ft-item">
+                                                             <div class="rating">
+                                   <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+                                        
+                                </div>
+                                <div class="view-info">
+                                    <i class="icon md-users"></i>
+                                    16                                </div>
+                                                                <div class="comment-info">
+                                    <i class="icon md-comment"></i>
+                                    0                                </div>
+                                <div class="price">
+                                      
+    N7,500                                        <span class="price-old"></span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                                    <div class="col-sm-6 col-md-3">
+                        <div class="mc-item mc-item-1">
+                            <div class="image-heading">
+                                <a href="vcourse.php?cid=71&int=1"><img src="images/course_images/69.jpg" alt=""></a>
+                            </div>
+                            <div class="meta-categories">video</div>
+                            <div class="content-item">
+                                <div class="image-author">
+                                
+                                    <img src="images/user_images/0.jpg" alt="">
+                                </div>
+                                <h4><a href="vcourse.php?cid=71&int=1">Practical Video Course On How To Produce Izal Germicide </a></h4>
+                                <div class="name-author">
+                                    By <a href="#">Vivian </a>
+                                </div>
+                            </div>
+                            <div class="ft-item">
+                                                             <div class="rating">
+                                   <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+                                        
+                                </div>
+                                <div class="view-info">
+                                    <i class="icon md-users"></i>
+                                    10                                </div>
+                                                                <div class="comment-info">
+                                    <i class="icon md-comment"></i>
+                                    0                                </div>
+                                <div class="price">
+                                      
+    N5,500                                        <span class="price-old"></span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                                    <div class="col-sm-6 col-md-3">
+                        <div class="mc-item mc-item-1">
+                            <div class="image-heading">
+                                <a href="vcourse.php?cid=56&int=1"><img src="images/course_images/54.jpg" alt=""></a>
+                            </div>
+                            <div class="meta-categories">e-learning</div>
+                            <div class="content-item">
+                                <div class="image-author">
+                                
+                                    <img src="images/user_images/1.jpg" alt="">
+                                </div>
+                                <h4><a href="vcourse.php?cid=56&int=1">How To Design Quality Squeeze And Sales Pages Using Profit Builder </a></h4>
+                                <div class="name-author">
+                                    By <a href="#">Victory Akpomedaye</a>
+                                </div>
+                            </div>
+                            <div class="ft-item">
+                                                             <div class="rating">
+                                   <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+                                        
+                                </div>
+                                <div class="view-info">
+                                    <i class="icon md-users"></i>
+                                    43                                </div>
+                                                                <div class="comment-info">
+                                    <i class="icon md-comment"></i>
+                                    1                                </div>
+                                <div class="price">
+                                      
+    N5,900                                        <span class="price-old"></span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                                    <div class="col-sm-6 col-md-3">
+                        <div class="mc-item mc-item-1">
+                            <div class="image-heading">
+                                <a href="vcourse.php?cid=17&int=1"><img src="images/course_images/14.jpg" alt=""></a>
+                            </div>
+                            <div class="meta-categories">video</div>
+                            <div class="content-item">
+                                <div class="image-author">
+                                
+                                    <img src="images/user_images/8.jpg" alt="">
+                                </div>
+                                <h4><a href="vcourse.php?cid=17&int=1">The Ultimate 4 IN 1 Video Course</a></h4>
+                                <div class="name-author">
+                                    By <a href="#">Adesanya Sunday Abiodun</a>
+                                </div>
+                            </div>
+                            <div class="ft-item">
+                                                             <div class="rating">
+                                   <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+                                        
+                                </div>
+                                <div class="view-info">
+                                    <i class="icon md-users"></i>
+                                    0                                </div>
+                                                                <div class="comment-info">
+                                    <i class="icon md-comment"></i>
+                                    0                                </div>
+                                <div class="price">
+                                      
+    N10,000                                        <span class="price-old"></span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                                    <div class="col-sm-6 col-md-3">
+                        <div class="mc-item mc-item-1">
+                            <div class="image-heading">
+                                <a href="vcourse.php?cid=79&int=1"><img src="images/course_images/77.jpg" alt=""></a>
+                            </div>
+                            <div class="meta-categories">video</div>
+                            <div class="content-item">
+                                <div class="image-author">
+                                
+                                    <img src="images/user_images/0.jpg" alt="">
+                                </div>
+                                <h4><a href="vcourse.php?cid=79&int=1">Learn How To Make Hair Shampoo And Earn An Extra Income</a></h4>
+                                <div class="name-author">
+                                    By <a href="#">Vivian </a>
+                                </div>
+                            </div>
+                            <div class="ft-item">
+                                                             <div class="rating">
+                                   <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+                                        
+                                </div>
+                                <div class="view-info">
+                                    <i class="icon md-users"></i>
+                                    7                                </div>
+                                                                <div class="comment-info">
+                                    <i class="icon md-comment"></i>
+                                    0                                </div>
+                                <div class="price">
+                                      
+    N4,500                                        <span class="price-old"></span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                                    <div class="col-sm-6 col-md-3">
+                        <div class="mc-item mc-item-1">
+                            <div class="image-heading">
+                                <a href="vcourse.php?cid=65&int=1"><img src="images/course_images/63.jpg" alt=""></a>
+                            </div>
+                            <div class="meta-categories">ebook</div>
+                            <div class="content-item">
+                                <div class="image-author">
+                                
+                                    <img src="images/user_images/95.jpg" alt="">
+                                </div>
+                                <h4><a href="vcourse.php?cid=65&int=1">Guide to Understanding Entrepreneurship</a></h4>
+                                <div class="name-author">
+                                    By <a href="#">Modupe Taiwo</a>
+                                </div>
+                            </div>
+                            <div class="ft-item">
+                                                             <div class="rating">
+                                   <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+                                        
+                                </div>
+                                <div class="view-info">
+                                    <i class="icon md-users"></i>
+                                    26                                </div>
+                                                                <div class="comment-info">
+                                    <i class="icon md-comment"></i>
+                                    0                                </div>
+                                <div class="price">
+                                        Free
+                                        <span class="price-old"></span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                                    <div class="col-sm-6 col-md-3">
+                        <div class="mc-item mc-item-1">
+                            <div class="image-heading">
+                                <a href="vcourse.php?cid=62&int=1"><img src="images/course_images/60.jpg" alt=""></a>
+                            </div>
+                            <div class="meta-categories">e-learning</div>
+                            <div class="content-item">
+                                <div class="image-author">
+                                
+                                    <img src="images/user_images/89.jpg" alt="">
+                                </div>
+                                <h4><a href="vcourse.php?cid=62&int=1">How To Create a Professional Classified Website Using WordPress </a></h4>
+                                <div class="name-author">
+                                    By <a href="#">Joshua Johnson</a>
+                                </div>
+                            </div>
+                            <div class="ft-item">
+                                                             <div class="rating">
+                                   <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+      <a href="#"></a>  
+                                        
+                                </div>
+                                <div class="view-info">
+                                    <i class="icon md-users"></i>
+                                    0                                </div>
+                                                                <div class="comment-info">
+                                    <i class="icon md-comment"></i>
+                                    0                                </div>
+                                <div class="price">
+                                      
+    N8,500                                        <span class="price-old"></span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        
+            <!-- END / POPULAR -->
+                    
+                    </div>
+                </div>
+                
+          
+    </section>
+    <!-- END / CATEGORIES CONTENT -->
+    
+    <!-- BEFORE FOOTER -->
+    <section id="before-footer" class="before-footer">
+        <div class="container">
+        <p><a href="courses.php?int=1" class="btn btn-primary btn-block btn-lg"><strong>Browse Courses</strong></a></p>
+            <div class="row">
+                
+                <!--<div class="col-lg-8">
+                    <div class="mc-count-item">
+                         <h4>Courses</h4>
+                                                  <p><span class="countup">61</span></p>
+                     </div>
+                     <div class="mc-count-item">
+                         <h4>Instructors</h4>
+                                                  <p><span class="countup">174</span></p>
+                     </div>
+                     <div class="mc-count-item">
+                         <h4>Students</h4>
+                                                  <p><span class="countup">908</span></p>
+                     </div>
+                     <div class="mc-count-item">
+                         <h4>Tuition Paid</h4>
+                                                  <p>N <span class="countup">639,324</span></p>
+                     </div>
+                </div>-->
+    
+                <div class="col-lg-4">
+                    <div class="before-footer-link">
+                        <a href="signup.php" class="mc-btn btn-style-2">Become a student</a>
+                        <a href="binstructor.php" class="mc-btn btn-style-1">Become an instructor</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END / BEFORE FOOTER -->
+<!-- FOOTER -->
+    <footer id="footer" class="footer">
+             <div class="first-footer">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-md-3">
+                        <div class="widget megacourse">
+                            <h3 class="md">AcadaWeb</h3>
+                            <p>Our mission is to enable you gain valuable knowledge and acquire lucrative skills from anywhere either online or offline.</p>
+                            <a href="signup.php" class="mc-btn btn-style-1">Get started</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="widget quick_link">
+                            <h3 class="sm">Quick Links</h3>
+                            <ul class="list-style-block">
+                                <li><a href="about.php">About us</a></li>
+                                <!--<li><a href="terms.php">Terms of use</a></li>-->
+                                <li><a href="carry.php">Cash N Carry</a></li>
+                                <!--<li><a href="support.php">Support</a></li>-->
+                                <li><a href="faq.php">FAQs</a></li>
+                                                                <li><a href="binstructor.php">Become an instructor</a></li>
+                                                                <li><a href="contact.php">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                    <br />
+                   
+                       <a href="forum.php?category=1" class="mc-btn mc-btn-1 btn-style-4">FORUM</a> 
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="widget news_letter">
+                            <div class="awe-static bg-news_letter"></div>
+                            <div class="overlay-color-3"></div>
+                            <div class="inner">
+                                <div class="letter-heading">
+                                    <h3 class="md">News letter</h3>
+                                    <p>Don't miss a course sale! Join our network today and keep it up!</p>
+                                </div>
+                                <div class="letter">
+<form action="signup.php" method="post" enctype="multipart/form-data" name="sform" role="form">
+                                        <input class="input-text" type="text" name="nemail">
+                                        <span class="no-spam">* No spam guaranteed</span>
+                                        <input type="submit" value="Submit now" class="mc-btn btn-style-2">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <div class="second-footer">
+            <div class="container">
+                <div class="contact">
+                    <div class="email">
+                        <i class="icon md-email"></i>
+                        <a href="#">info@acadaweb.com</a>
+                    </div>
+                    <div class="phone">
+                        <i class="fa fa-mobile"></i>
+                        <span>+2348065096117</span>
+                    </div>
+                    <div class="email">
+                        <i class="icon md-facebook-1"></i>
+                        <a href="#">Join</a>
+                    </div>
+                    <div class="email">
+                        <i class="icon md-twitter"></i>
+                        <a href="#">Follow</a>
+                    </div>
+                    
+                </div>
+                <p class="copyright">Copyright © 2015-2016 AcadaWeb. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- END / FOOTER -->
+</div>
+<!-- END / PAGE WRAP -->
+
+<!-- Load jQuery -->
+<script type="text/javascript" src="js/library/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/library/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/library/jquery.owl.carousel.js"></script>
+<script type="text/javascript" src="js/library/jquery.appear.min.js"></script>
+<script type="text/javascript" src="js/library/perfect-scrollbar.min.js"></script>
+<script type="text/javascript" src="js/library/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+    <!-- ClickDesk Live Chat Service for websites -->
+    <script type='text/javascript'>
+    var _glc =_glc || []; _glc.push('all_ag9zfmNsaWNrZGVza2NoYXRyDwsSBXVzZXJzGLCU1IkMDA');
+    var glcpath = (('https:' == document.location.protocol) ? 'https://my.clickdesk.com/clickdesk-ui/browser/' : 
+    'http://my.clickdesk.com/clickdesk-ui/browser/');
+    var glcp = (('https:' == document.location.protocol) ? 'https://' : 'http://');
+    var glcspt = document.createElement('script'); glcspt.type = 'text/javascript'; 
+    glcspt.async = true; glcspt.src = glcpath + 'livechat-new.js';
+    var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(glcspt, s);
+    </script>
+    <!-- End of ClickDesk -->
+    <script type="text/javascript" src="js/jquery.countdown.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        var endDate = "August 17, 1986 07:00:00";
+
+        $('.countdown.simple').countdown({ date: endDate });
+
+        $('.countdown.styled').countdown({
+          date: endDate,
+          render: function(data) {
+            $(this.el).html("<div>" + this.leadingZeros(data.days, 3) + " <span>days</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>hrs</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>min</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>sec</span></div>");
+          }
+        });
+
+        $('.countdown.callback').countdown({
+          date: +(new Date) + 10000,
+          render: function(data) {
+            $(this.el).text(this.leadingZeros(data.sec, 2) + " sec");
+          },
+          onEnd: function() {
+            $(this.el).addClass('ended');
+          }
+        }).on("click", function() {
+          $(this).removeClass('ended').data('countdown').update(+(new Date) + 10000).start();
+        });
+
+        // End time for diff purposes
+        var endTimeDiff = new Date().getTime() + 15000;
+        // This is server's time
+        var timeThere = new Date();
+        // This is client's time (delayed)
+        var timeHere = new Date(timeThere.getTime() - 5434);
+        // Get the difference between client time and server time
+        var diff_ms = timeHere.getTime() - timeThere.getTime();
+        // Get the rounded difference in seconds
+        var diff_s = diff_ms / 1000 | 0;
+        
+        var notice = [];
+        notice.push('Server time: ' + timeThere.toDateString() + ' ' + timeThere.toTimeString());
+        notice.push('Your time: ' + timeHere.toDateString() + ' ' + timeHere.toTimeString());
+        notice.push('Time difference: ' + diff_s + ' seconds (' + diff_ms + ' milliseconds to be precise). Your time is a bit behind.');
+        
+        $('.offset-notice').html(notice.join('<br />'));
+        
+        $('.offset-server .countdown').countdown({
+          date: endTimeDiff,
+          offset: diff_s * 1000,
+          onEnd: function() {
+            $(this.el).addClass('ended');
+          }
+        });
+        
+        $('.offset-client .countdown').countdown({
+          date: endTimeDiff,
+          onEnd: function() {
+            $(this.el).addClass('ended');
+          }
+        });
+
+      });
+    </script>
+</body>
+</html>

@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+
+  <head>
+
+
+
+
+
+<meta name="generator" content="Convio CMS" /> 
+<script language="JavaScript" type="text/javascript" src="/components/cookie/cookie.js"></script>
+
+
+<script language="JavaScript" type="text/javascript" src="/components/print/printer-friendly.js"></script>
+
+
+
+<script type="text/javascript">
+if (typeof CONVIO=="undefined" || ! CONVIO) { var CONVIO = {}; }
+CONVIO.pageUserName = '3445:0';
+CONVIO.pageSessionID = 'AAC82FF9FEB4D650F68239EC996696E3.app326b';
+CONVIO.pageSessionName = 'JSESSIONID';
+</script>
+
+<script type="text/javascript" src="/system/auth/session-status.jsp?nocache=1455672173177"></script>
+<script type="text/javascript">
+
+
+
+// The original referrer may have been lost from the session-status.jsp javascript redirect.
+// Read the original referrer from the cookie.
+if (typeof CONVIO=="undefined" || ! CONVIO) { var CONVIO = {}; }
+CONVIO.referrer = getCookie("CONVIO.referrer");
+referrer = "https://www.google.com/";
+if ((CONVIO.referrer === "" || typeof CONVIO.referrer === "undefined") && referrer !== "") {
+CONVIO.referrer = "https://www.google.com/";
+}
+deleteCookie("CONVIO.referrer");
+</script>
+
+
+
+<!-- Convio's CRM JS library -->
+<script type="text/javascript" src="http://www.focusonline.org/js/utils.js"></script>
+
+
+
+
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
+
+  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
+  <title>Lentsanity - FOCUS</title>
+
+
+<meta charset='utf-8' />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon" href="http://focusoncampus.org/touch-icon.png">
+<link rel="icon" href="http://focusoncampus.org/favicon.ico" type="image/x-icon">
+
+
+
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300italic,300' rel='stylesheet' type='text/css'>
+<script src="https://use.fonticons.com/d4b26edc.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2678081-16', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<meta property="fb:app_id" content="1852322514994058"/>
+
+
+
+
+
+    
+  <link rel="stylesheet" media="screen" href="https://focusoncampus.org/assets/site-s.css" />
+
+
+
+  </head>
+
+  
+
+   <body>
+    
+    
+<div class="page-container">
+  <header class="header">
+    
+
+
+<nav class="navbar navbar-fixed-top primary-nav hidden-sm-down visible student">
+  
+<div class="collapse global-nav" id="global-nav">
+  <div class="steel-blue-bg p-a-3">
+    <div class="container p-b-4">
+      <div class="row">
+          <div class="col-xs-12 col-md-12 m-b-2">
+            <form method='GET' action='https://focusoncampus.org/content/filter/all' class="placeholder-labels global-search m-y-4 p-t-2">
+              <fieldset class="form-group">
+                <input id="global-search" type="search" name="search" class="form-control" placeholder="Search Resources, Blog and Stories">
+                <label for="global-search">Search Resources, Blog and Stories</label>
+                <button class="btn"><i class="icon icon-search m-r-0"></i></button>
+              </fieldset>
+            </form>
+          </div>
+          <div class="col-xs-12 col-md-8">
+            <h3>FOCUSONCAMPUS.ORG</h3>
+            <div class="row">
+              <div class="col-xs-12 col-md-6">
+                <ul class="list-unstyled">
+                  <li><a href="http://focusoncampus.org/">Home</a></li>
+                  <li><a href="http://focusoncampus.org/find-my-campus">Find my Campus</a></li>
+                  <li><a href="http://focusoncampus.org/blog">Blog</a></li>
+                  <li><a href="http://focusoncampus.org/stories">Stories</a></li>
+                  <li><a href="http://focusoncampus.org/greek">Greek</a></li>
+                  <li><a href="http://focusoncampus.org/varsity">Varsity</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <ul class="list-unstyled">
+                  <li><a href="http://focusoncampus.org/born-to-be-great" target="blank">Get Involved</a></li>
+                  <li><a href="http://focusmissions.org" target="blank">Missions <i class="icon icon-external-link icon-sm m-l-1"></i></a></li>
+                  <li><a href="http://focusoncampus.org/resources">Resources</a></li>
+                  <li><a href="http://focusoncampus.org/alumni">Alumni</a></li>
+                  <li><a href="http://focusoncampus.org/contact-us">Contact</a></li>
+                  <li><a href="https://shopfocus.org">Shop <i class="icon icon-external-link icon-sm m-l-1"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <h3>FOCUS.ORG</h3>
+            <p>Support Focus and join us in continuing to change and impact lives across America and the world.</p>
+            <p class="m-b-2">Visit <a href="http://focus.org" target="_blank">focus.org <i class="icon icon-external-link icon-sm m-l-1"></i></a></p>
+            <p class="small"><a href="http://focus.org/chaplains" target="_blank">Chaplains <i class="icon icon-external-link icon-sm m-l-1"></i></a></p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="navbar-inner flex white-bg align-content-center">
+    <a class="navbar-brand" href="http://focusoncampus.org/"><i class="icon icon-focus"></i></a>
+    <nav class="nav flex-1 text-xs-center flex">
+        <a class=" nav-link" href="http://focusoncampus.org/find-my-campus"><span class="hidden-xl-up">Campuses</span><span class="hidden-lg-down">Find My Campus</span></a>
+        <a class=" nav-link" href="http://focusoncampus.org/stories">Stories</a>
+        <a class=" nav-link" href="http://focusoncampus.org/blog">Blog</a>
+        <a class=" nav-link" href="http://focusoncampus.org/resources">Resources</a>
+        <a class="nav-link hidden-md-down" href="http://focusoncampus.org/alumni">Alumni</a>
+        <a class=" nav-link" href="http://focusoncampus.org/born-to-be-great">Get Involved</a>
+        <a class="nav-link nav-link-external hidden-md-down" href="https://www.shopfocus.org" target="_blank">
+          Shop <i class="icon icon-external-link icon-sm icon-fe m-l-1"></i>
+        </a>
+        <a class=" nav-link nav-link-external"
+           href="http://focus.org" target="_blank">
+           focus.org <i class="icon icon-external-link icon-sm icon-fe m-l-1"></i>
+        </a>
+    </nav>
+  </div>
+  <button class="btn bars-toggle global-nav-toggle collapsed" type="button" data-toggle="collapse" data-target="#global-nav">
+    <div class="bar bar-1"></div>
+    <div class="bar bar-2"></div>
+    <div class="bar bar-3"></div>
+  </button>
+  <progress class="progress read-progress hidden-xs-up" value="0" max="100" data-content-selector=".article-content"></progress>
+</nav>
+
+<nav class="navbar navbar-fixed-bottom white-bg mobile-nav hidden-md-up">
+  <div id="more-nav" class="collapse" aria-expanded="false" style="height: 0px;">
+    <div class="more-nav-inner">
+      <div class="steel-blue-bg more-nav-content">
+        <button data-target="#more-nav" data-toggle="collapse" type="button" class="btn bars-toggle more-nav-toggle collapsed" aria-expanded="false">
+          <div class="bar bar-1"></div>
+          <div class="bar bar-2"></div>
+          <div class="bar bar-3"></div>
+        </button>
+          <form class="placeholder-labels global-search p-t-3 m-x-5" action="/content" method="GET">
+            <fieldset class="form-group m-b-0">
+              <input id="global-search" type="search" name="search" class="form-control" placeholder="Search Resources, Blog and Stories">
+              <label for="global-search">Search Resources, Blog and Stories</label>
+              <button class="btn"><i class="icon icon-search m-r-0"></i></button>
+            </fieldset>
+          </form>
+        <nav class="nav p-t-4 p-b-8 p-x-5">
+            <a href="https://focusoncampus.org/" class="nav-link">Home</a>
+            <a href="https://focusoncampus.org/find-my-campus" class="nav-link">Find my Campus</a>
+            <a href="https://focusoncampus.org/stories" class="nav-link">Stories</a>
+            <a href="https://focusoncampus.org/blog" class="nav-link">Blog</a>
+            <a href="https://focusoncampus.org/resources" class="nav-link">Resources</a>
+            <a href="https://focusoncampus.org/born-to-be-great" class="nav-link">Get Involved</a>
+            <a href="https://focusoncampus.org/alumni" class="nav-link">Alumni</a>
+            <a href="https://focusoncampus.org/contact-us" class="nav-link">Contact</a>
+            <a href="https://focusoncampus.org/born-to-be-great" class="nav-link">Get Involved</a>
+            <a class="nav-link nav-link-external" href="http://focus.org" target="_blank">focus.org <i class="icon icon-external-link icon-sm m-l-1"></i></a>
+            <a class="nav-link nav-link-external" href="https://shopfocus.org">Shop <i class="icon icon-external-link icon-sm m-l-1"></i></a>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="navbar-inner">
+    <nav class="nav flex-1 text-xs-center flex">
+        <a href="https://focusoncampus.org/" class=" nav-link"><i class="icon icon-home icon-lg"></i>Home</a>
+        <a href="https://focusoncampus.org/find-my-campus" class=" nav-link"><i class="icon icon-america icon-lg"></i>Find Campus</a>
+        <a href="https://focusoncampus.org/blog" class=" nav-link"><i class="icon icon-feather icon-lg"></i>Blog</a>
+        <a href="https://focusoncampus.org/resources" class=" nav-link"><i class="icon icon-book-open icon-lg"></i>Resources</a>
+      <button data-target="#more-nav" data-toggle="collapse" type="button" class="nav-link bars-toggle bars-toggle-sm btn more-nav-toggle collapsed" aria-expanded="false">
+        <div class="bars-wrapper">
+          <div class="bar bar-1"></div>
+          <div class="bar bar-2"></div>
+          <div class="bar bar-3"></div>
+        </div>
+        More
+      </button>
+    </nav>
+  </div>
+</nav>
+
+  </header>
+  <section id="page" class="page p-y-xl">
+
+
+<script type="text/javascript" src="https://focusoncampus.org/components/form/form.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/components/form/form.js"></script>
+
+<link href="http://www.focus.org/demo/lentsanity-2016/lentsanity.css" rel="stylesheet" type="text/css">
+    
+<script type="text/javascript">
+var divSelected = null;
+function SelectOrUnSelect(x)
+{
+if(divSelected != null) divSelected.className = 'video';
+divSelected = x;
+x.className = 'vid_active';
+}
+</script>
+
+<script>
+window.onload = function(){
+	document.getElementById('thevideo').src = 'http://www.focus.org/black.html';
+}
+</script>
+
+<script>function clickLink(link) {
+    var cancelled = false;
+    if (document.createEvent) {
+        var event = document.createEvent("MouseEvents");
+        event.initMouseEvent("click", true, true, window,
+            0, 0, 0, 0, 0,
+            false, false, false, false,
+            0, null);
+        cancelled = !link.dispatchEvent(event);
+    }
+    else if (link.fireEvent) {
+        cancelled = !link.fireEvent("onclick");
+    }
+    if (!cancelled) {
+        window.location = link.href;
+    }
+}</script>
+
+<nav role="navigation" class="navbar scrollspy-nav fixed-c-l hidden-sm-down" id="scrollspy-nav">
+    <ul class="nav">
+        <li class="nav-item">
+          <button onclick="GlassScroll.scrollTo('#page', 0)" href="#page" class="nav-link">
+            <i class="icon icon-circle icon-sm"></i>
+            <i class="icon icon-dot-circle active-icon"></i>
+            <span class="title">Meat Police</span>
+          </button>
+        </li>
+        <li class="nav-item">
+          <button onclick="GlassScroll.scrollTo('#illustrated', 0)" href="#illustrated" class="nav-link">
+            <i class="icon icon-circle icon-sm"></i>
+            <i class="icon icon-dot-circle active-icon"></i>
+            <span class="title">Illustrated Guides</span>
+          </button>
+        </li>
+        <li class="nav-item">
+          <button onclick="GlassScroll.scrollTo('#blog', 0)" href="#blog" class="nav-link">
+            <i class="icon icon-circle icon-sm"></i>
+            <i class="icon icon-dot-circle active-icon"></i>
+            <span class="title">From the Blog</span>
+          </button>
+        </li>
+        <li class="nav-item">
+          <button onclick="GlassScroll.scrollTo('#updates', 0)" href="#updates" class="nav-link">
+            <i class="icon icon-circle icon-sm"></i>
+            <i class="icon icon-dot-circle active-icon"></i>
+            <span class="title">Email Updates</span>
+          </button>
+        </li>
+    </ul>
+  </nav>
+  
+<section id="meat-police">
+        <div class="container">
+            <div class="row row-def">
+                <div class="col-lg-4 col-sm-12 p-25 text-center">
+                	<img src="http://www.focus.org/demo/lentsanity-2016/images/lentsanity.png" class="img-responsive center-block">
+                    <h2>The Lentsanity App</h2>
+                    <p>Reminds You To Skip The Meat!</p>
+                    <img class="img-responsive center-block" src="http://www.focus.org/demo/lentsanity-2016/images/lent-phone.png"/>
+                    <div id="get-app">
+                        <a href="https://itunes.apple.com/us/app/lentsanity/id829017729?ls=1&mt=8"><img src="http://www.focus.org/demo/lentsanity-2016/images/app-store.png" class="img-responsive center-block app-button"></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.goodbarber.lentsanity"><img src="http://www.focus.org/demo/lentsanity-2016/images/play.png" class="img-responsive center-block app-button"></a>
+                    </div>
+                </div>
+                <div class="col-lg-8  p-50">
+                	<div id="police-image" onclick="thevid=document.getElementById('thevideo'); thevid.style.display='block'; this.style.display='none';   document.getElementById('first').click();"><img  onclick="  document.getElementById('episode1').click();" class="img-responsive" style="width:100%;" src="http://www.focus.org/demo/lentsanity-2016/images/meat-police-placeholder.jpg"/></div>
+                    <div id="thevideo" style="display:none;" class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" name="featured-video" src="http://www.focus.org/black.html"></iframe></div>
+                    <div class="row m-0 vid-thumbs row-def">
+                    	<div class="col-sm-6 text-center season-1 p-10">
+                        	SEASON 1
+                        	<div class="row p-t-10">
+                            	<div class="col-xs-6 text-center">
+                                	<div class="video" id="t1">
+                                	<a id="episode1" target="featured-video" href="https://www.youtube.com/embed/rgUmBPGiTv8?rel=0&amp;showinfo=0&amp;autoplay=1"><img onclick="thevid=document.getElementById('thevideo'); thevid.style.display='block'; meat=document.getElementById('police-image'); meat.style.display='none'; SelectOrUnSelect(t1)" id="first" class="img-responsive" src="http://img.youtube.com/vi/rgUmBPGiTv8/0.jpg"/></a>
+                                	</div>
+                                    Episode 1
+                                </div>
+                                <div class="col-xs-6 text-center">
+                                	<div class="video" id="t2">
+                                    <a target="featured-video" href="https://www.youtube.com/embed/cWHgzXr8v9Q?rel=0&amp;showinfo=0&amp;autoplay=1"><img onclick="thevid=document.getElementById('thevideo'); thevid.style.display='block'; meat=document.getElementById('police-image'); meat.style.display='none'; SelectOrUnSelect(t2)" class="img-responsive" src="http://img.youtube.com/vi/cWHgzXr8v9Q/0.jpg"/></a>
+                                    </div>
+                                    Episode 2
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 text-center season-2 p-10">
+                        	SEASON 2
+                        	<div class="row p-t-10">
+                            	<div class="col-xs-6 text-center">
+                                	<img class="img-responsive" src="http://www.focus.org/demo/lentsanity-2016/images/coming-soon.jpg"/>
+                                    Episode 1
+                                </div>
+                                <div class="col-xs-6 text-center">
+                                	<img class="img-responsive" src="http://www.focus.org/demo/lentsanity-2016/images/coming-soon.jpg"/>
+                                    Episode 2
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row m-0 email-me">
+                    	Email me when new episodes are released:
+                    </div>
+                    <form action="http://www.focusonline.org/site/Survey" method="POST" target="thanks">
+                    <input type="hidden" value="t" id="cons_info_component" name="cons_info_component">
+                        <div class="row m-0 form n-15m">
+                            <div class="col-md-3 col-xs-12">
+                                <input class="name" type="text" style="color: #9a9999; " onblur="if (this.value == '') {this.value = 'First Name'; this.style.color='#9a9999'} " onfocus="if (this.value == 'First Name') {this.value = ''; this.style.color='black'}" value="First Name" id="cons_first_name" name="cons_first_name">
+                            </div>
+                            <div class="col-md-3 col-xs-12"><input class="name" type="text" style="color: #9a9999; " onblur="if (this.value == '') {this.value = 'Last Name'; this.style.color='#9a9999'} " onfocus="if (this.value == 'Last Name') {this.value = ''; this.style.color='black'}" value="Last Name" id="cons_last_name" name="cons_last_name"></div>
+                            <div class="col-md-6 col-xs-12">
+                            <div class="email-box">
+                            <input class="email" type="email" style="color: #9a9999; " onblur="if (this.value == '') {this.value = 'Your Email'; this.style.color='#9a9999'} " onfocus="if (this.value == 'Your Email') {this.value = ''; this.style.color='black'}" value="Your Email" id="cons_email" name="cons_email"><input class="subscribe" value="Subscribe" type="submit" id="ACTION_SUBMIT_SURVEY_RESPONSE" name="ACTION_SUBMIT_SURVEY_RESPONSE">
+                            </div>
+                            </div>
+                        </div>
+                    <input type="hidden" value="1622" id="3445_3861_2_4121_1" name="3445_3861_2_4121">
+                    <input type="hidden" value="1661" id="3445_3861_2_4121_2" name="3445_3861_2_4121">
+                    <div style="display:none">
+                    <label for="denySubmit">Spam Control Text:</label>&nbsp;
+                    <input type="text" alt="This field is used to prevent form submission by scripts." value="" id="denySubmit" name="denySubmit">&nbsp;Please leave this field empty
+                    </div>	
+                    <input type="hidden" value="3861" id="SURVEY_ID" name="SURVEY_ID">
+                    </form>
+                    <iframe scrolling="no" style="width:100%; height:42px;  border:none; overflow: hidden;" name="thanks" src=""></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="illustrated">
+    	<div class="container">
+            <div class="row row-def">
+                <div class="col-xs-12 p-y-6 text-xs-center">
+                    <h1 class="text-uppercase m-b-3">Illustrated Guides<svg class="underline" x="0px" y="0px" viewBox="0 0 640 50">
+    <path class="st0" d="M14.9,11.5C49.2,10,83.5,9.5,118,9.9c12.2,0.1,24.4,0.3,36.6,0.3c19,0.1,38,0.1,57,0.2
+      c18,0.1,35.9,0.3,53.9,0.3c30.2,0.1,60.4-0.1,90.6,0.1c27.2,0.2,54.4,0.6,81.5,1.1c31.7,0.5,63.3,1.2,95,1.9
+      c20.1,0.5,40.3,1.1,60.4,1.7c12.2,0.3,24.3,0.7,36.4,1.1c5.4,0.2,12.4-2.6,10.2-4.6c-2.3-2.1-3.7-4.7-10.6-5.7
+      c-9.9-1.5-19.9-0.6-29.9-0.9c-23.3-0.7-46.7-1-70.1-1.4c-36-0.6-72-1.3-107.9-1.8c-26.6-0.3-53.3-0.4-80-0.6
+      c-31.5-0.2-63-0.2-94.5-0.4c-33.3-0.2-66.7-0.6-100-0.7c-32.9-0.1-65.9,0-98.8,0v0.2c-1.8,0-3.6-0.1-5.4,0
+      C30.8,1.4,19.1,1.9,7.7,2.9C1.2,3.5-1.9,7,1.3,9.3C4.3,11.6,9.8,11.7,14.9,11.5z"/>
+    </svg>
+    </h1>
+    <div class="row row-def text-center" style="color:#ffffff;">
+    	
+
+
+
+
+  
+    
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <a href="https://focusoncampus.org/content/the-10-types-of-ashes-you-might-get-on-ash-wednesday">
+        <div class="img-circle center-block illustrated-thumb">
+            <img class="img-responsive center-block img-circle illustrated-guide" src="http://www.focus.org/lentsanity/illustrated-guides/images/ash-thumb.jpg"/>
+        </div>
+        <p><span>The 10 Types of Ashes You Might Get on Ash Wednesday</span></p>
+        </a>
+    </div>
+    
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <a href="https://focusoncampus.org/content/an-illustrated-guide-to-lenten-fasting-and-abstinence">
+        <div class="img-circle center-block illustrated-thumb">
+            <img class="img-responsive center-block img-circle illustrated-guide" src="http://www.focus.org/lentsanity/illustrated-guides/images/fasting-guide.jpg"/>
+        </div>
+        <p>Illustrated Guide to<br><span>Lenten Fasting and Abstinence</span></p>
+        </a>
+    </div>
+    
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <a href="https://focusoncampus.org/content/do-the-lectio-3-step-an-easy-illustrated-guide-to-praying-lectio-divina-9bddfdb0-cebc-4c4c-9d87-a45e5898d87e">
+        <div class="img-circle center-block illustrated-thumb">
+            <img class="img-responsive center-block img-circle illustrated-guide" src="http://www.focus.org/lentsanity/illustrated-guides/images/lectio.jpg"/>
+        </div>
+        <p>Illustrated Guide to<br><span>Lectio Divina</span></p>
+        </a>
+    </div>
+    
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <a href="https://focusoncampus.org/content/whats-the-difference-between-solemnities-feasts-and-memorials">
+        <div class="img-circle center-block illustrated-thumb">
+            <img class="img-responsive center-block img-circle illustrated-guide" src="http://www.focus.org/lentsanity/illustrated-guides/images/solemnities.jpg"/>
+        </div>
+        <p>Illustrated Guide to<br><span>Solemnities, Feasts and Memorials</span></p>
+        </a>
+    </div>
+    
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <a href="https://focusoncampus.org/content/an-illustrated-guide-to-the-triduum">
+        <div class="img-circle center-block illustrated-thumb">
+            <img class="img-responsive center-block img-circle illustrated-guide" src="http://www.focus.org/lentsanity/illustrated-guides/images/triduum.jpg"/>
+        </div>
+        <p>Illustrated Guide to<br><span>The Triduum</span></p>
+        </a>
+    </div>
+    
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <a href="https://focusoncampus.org/content/an-illustrated-guide-to-the-paschal-candle">
+        <div class="img-circle center-block illustrated-thumb">
+            <img class="img-responsive center-block img-circle illustrated-guide" src="http://www.focus.org/lentsanity/illustrated-guides/images/paschal-candle.jpg"/>
+        </div>
+        <p>Illustrated Guide to<br><span>The Paschal Candle</span></p>
+        </a>
+    </div>
+    
+    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        <section id="blog" class="related steel-blue-bg p-b-5 p-t-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 class="text-uppercase text-xs-center m-b-5 white">From the blog <svg viewBox="0 0 640 50" y="0px" x="0px" class="underline">
+<path d="M14.9,11.5C49.2,10,83.5,9.5,118,9.9c12.2,0.1,24.4,0.3,36.6,0.3c19,0.1,38,0.1,57,0.2
+  c18,0.1,35.9,0.3,53.9,0.3c30.2,0.1,60.4-0.1,90.6,0.1c27.2,0.2,54.4,0.6,81.5,1.1c31.7,0.5,63.3,1.2,95,1.9
+  c20.1,0.5,40.3,1.1,60.4,1.7c12.2,0.3,24.3,0.7,36.4,1.1c5.4,0.2,12.4-2.6,10.2-4.6c-2.3-2.1-3.7-4.7-10.6-5.7
+  c-9.9-1.5-19.9-0.6-29.9-0.9c-23.3-0.7-46.7-1-70.1-1.4c-36-0.6-72-1.3-107.9-1.8c-26.6-0.3-53.3-0.4-80-0.6
+  c-31.5-0.2-63-0.2-94.5-0.4c-33.3-0.2-66.7-0.6-100-0.7c-32.9-0.1-65.9,0-98.8,0v0.2c-1.8,0-3.6-0.1-5.4,0
+  C30.8,1.4,19.1,1.9,7.7,2.9C1.2,3.5-1.9,7,1.3,9.3C4.3,11.6,9.8,11.7,14.9,11.5z" class="st0"/>
+</svg>
+</h1>
+      </div>
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-offset-0 col-md-6 col-lg-4 flex flex-column card-wrapper
+     article content_text ">
+  <div class="card tall flex-1 tall-image">
+    <a href="https://focusoncampus.org/content/a-lenten-challenge-the-devil-will-hate-you-for" class="card-link flex flex-column flex-1">
+    <div class="flex flex-column flex-1">
+      <div style="background-image: url(https://focusoncampus.org/system/images/W1siZiIsIjIwMTYvMDEvMjYvNHVmZTB6Mm4wY19pU3RvY2tfMDAwMDY5OTQ2MzA3X01lZGl1bS5qcGciXSxbInAiLCJ0aHVtYiIsIjM1MHg0MTMjIl1d/iStock_000069946307_Medium.jpg)" class="card-header p-t-4 flex-1">
+          <h3 class="card-title z-5">A Lenten Challenge the Devil will Hate You For</h3>
+          <p class="teaser z-5">Lent makes me uncomfortable. Every year, I am challenged to ask myself what sins and bad habits...</p>
+      </div>
+    </div>
+    <div class="card-block card-category flex align-items-center p-x-4">
+      <p class="text-uppercase m-b-0 flex-1"><i style="color: #6e4de9;" class="icon icon-circle m-r-2"></i> Lentsanity</p>
+      
+    </div>
+
+    </a>
+
+    <a href="https://focusoncampus.org/blog" class="card-footer flex p-y-2">
+        <div class="avatar m-r-2">
+          <img src="https://focusoncampus.org/system/images/W1siZiIsIjIwMTUvMTEvMTgvNDFlbHFrN3l5NF9mb2N1c190ZWFtLmpwZyJdLFsicCIsInRodW1iIiwiNDV4NDUjIl1d/focus-team.jpg" class="img-circle img-fluid">
+        </div>
+        <div class="card-meta p-r-2 blog-bold">
+          The FOCUS Blog
+        </div>
+
+      
+    </a>
+  </div>
+</div>
+<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-offset-0 col-md-6 col-lg-4 flex flex-column card-wrapper
+     article content_text ">
+  <div class="card tall flex-1 tall-image">
+    <a href="https://focusoncampus.org/content/what-should-i-do-for-lent-pope-francis-10-tips-10b29c3d-3e0b-44be-9596-3363c5b02875" class="card-link flex flex-column flex-1">
+    <div class="flex flex-column flex-1">
+      <div style="background-image: url(https://focusoncampus.org/system/images/W1siZiIsIjIwMTUvMTIvMTgvMW85b2s5cTNnMl9pU3RvY2tfMDAwMDMyNzkwMTQ0X01lZGl1bS5qcGciXSxbInAiLCJ0aHVtYiIsIjEyMDB4Il1d/iStock_000032790144_Medium.jpg)" class="card-header p-t-4 flex-1">
+          <h3 class="card-title z-5">What Should I Do For Lent? Pope Francis' 10 Tips</h3>
+          <p class="teaser z-5">Every year Catholics try to answer the age old question: What should I do for Lent?</p>
+      </div>
+    </div>
+    <div class="card-block card-category flex align-items-center p-x-4">
+      <p class="text-uppercase m-b-0 flex-1"><i style="color: #6e4de9;" class="icon icon-circle m-r-2"></i> Lentsanity</p>
+      
+    </div>
+
+    </a>
+
+    <a href="https://focusoncampus.org/blog" class="card-footer flex p-y-2">
+        <div class="avatar m-r-2">
+          <img src="https://focusoncampus.org/system/images/W1siZiIsIjIwMTUvMTEvMTgvNDFlbHFrN3l5NF9mb2N1c190ZWFtLmpwZyJdLFsicCIsInRodW1iIiwiNDV4NDUjIl1d/focus-team.jpg" class="img-circle img-fluid">
+        </div>
+        <div class="card-meta p-r-2 blog-bold">
+          The FOCUS Blog
+        </div>
+
+      
+    </a>
+  </div>
+</div><div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-offset-0 col-md-6 col-lg-4 flex flex-column card-wrapper
+     article content_text ">
+  <div class="card tall flex-1 tall-image">
+    <a href="https://focusoncampus.org/content/which-fast-food-fish-sandwiches-are-worth-eating" class="card-link flex flex-column flex-1">
+    <div class="flex flex-column flex-1">
+      <div style="background-image: url(https://focusoncampus.org/system/images/W1siZiIsIjIwMTUvMTIvMjEvOHI2bzY3bnVlNl9pU3RvY2tfMDAwMDA1NzY5NzYxX0Z1bGwuanBnIl0sWyJwIiwidGh1bWIiLCIxMjAweCJdXQ/iStock_000005769761_Full.jpg)" class="card-header p-t-4 flex-1">
+          <h3 class="card-title z-5">Which Fast Food Fish Sandwiches Are Worth Eating?</h3>
+          <p class="teaser z-5">We ate 10 sandwiches and ranked them all. Welcome to our comprehensive review...</p>
+      </div>
+    </div>
+    <div class="card-block card-category flex align-items-center p-x-4">
+      <p class="text-uppercase m-b-0 flex-1"><i style="color: #6e4de9;" class="icon icon-circle m-r-2"></i> Lentsanity</p>
+      
+    </div>
+
+    </a>
+
+    <a href="https://focusoncampus.org/blog" class="card-footer flex p-y-2">
+        <div class="avatar m-r-2">
+          <img src="https://focusoncampus.org/system/images/W1siZiIsIjIwMTUvMTEvMTgvNDFlbHFrN3l5NF9mb2N1c190ZWFtLmpwZyJdLFsicCIsInRodW1iIiwiNDV4NDUjIl1d/focus-team.jpg" class="img-circle img-fluid">
+        </div>
+        <div class="card-meta p-r-2 blog-bold">
+          The FOCUS Blog
+        </div>
+
+      
+    </a>
+  </div>
+</div>
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-offset-0 col-md-6 col-lg-4 flex flex-column card-wrapper
+     article content_text ">
+  <div class="card tall flex-1 tall-image">
+    <a href="https://focusoncampus.org/content/why-pray-the-stations-of-the-cross-8-reasons-from-pope-francis" class="card-link flex flex-column flex-1">
+    <div class="flex flex-column flex-1">
+      <div style="background-image: url(https://focusoncampus.org/system/images/W1siZiIsIjIwMTUvMTIvMTUvNXZ2ZmFtaHpuMV9zdGF0aW9ucy5qcGciXSxbInAiLCJ0aHVtYiIsIjEyMDB4Il1d/stations.jpg)" class="card-header p-t-4 flex-1">
+          <h3 class="card-title z-5">Why Pray the Stations of the Cross? 8 Reasons from Pope Francis</h3>
+          <p class="teaser z-5">The Stations of the Cross are an ancient tradition in the Catholic Church...</p>
+      </div>
+    </div>
+    <div class="card-block card-category flex align-items-center p-x-4">
+      <p class="text-uppercase m-b-0 flex-1"><i style="color: #6e4de9;" class="icon icon-circle m-r-2"></i> Lentsanity</p>
+      
+    </div>
+
+    </a>
+
+    <a href="https://focusoncampus.org/blog" class="card-footer flex p-y-2">
+        <div class="avatar m-r-2">
+          <img src="https://focusoncampus.org/system/images/W1siZiIsIjIwMTUvMTEvMTgvNDFlbHFrN3l5NF9mb2N1c190ZWFtLmpwZyJdLFsicCIsInRodW1iIiwiNDV4NDUjIl1d/focus-team.jpg" class="img-circle img-fluid">
+        </div>
+        <div class="card-meta p-r-2 blog-bold">
+          The FOCUS Blog
+        </div>
+
+      
+    </a>
+  </div>
+</div>
+<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-offset-0 col-md-6 col-lg-4 flex flex-column card-wrapper
+     article content_text ">
+  <div class="card tall flex-1 tall-image">
+    <a href="https://focusoncampus.org/content/9-ways-to-use-lent-for-mission-on-campus" class="card-link flex flex-column flex-1">
+    <div class="flex flex-column flex-1">
+      <div style="background-image: url(https://focusoncampus.org/system/images/W1siZiIsIjIwMTYvMDEvMjUvODR1ODBsdTRtcl9pU3RvY2tfMDAwMDY4MzEyNDU3X01lZGl1bS5qcGciXSxbInAiLCJ0aHVtYiIsIjM1MHg0MTMjIl1d/iStock_000068312457_Medium.jpg)" class="card-header p-t-4 flex-1">
+          <h3 class="card-title z-5">9 Ways to Use Lent for Mission on Campus&nbsp;</h3>
+          <p class="teaser z-5">Lent is just around the corner.&nbsp; Just two weeks away, in fact.&nbsp; This is the perfect time to not...</p>
+      </div>
+    </div>
+    <div class="card-block card-category flex align-items-center p-x-4">
+      <p class="text-uppercase m-b-0 flex-1"><i style="color: #6e4de9;" class="icon icon-circle m-r-2"></i> Lentsanity</p>
+      
+    </div>
+
+    </a>
+
+    <a href="https://focusoncampus.org/blog" class="card-footer flex p-y-2">
+        <div class="avatar m-r-2">
+          <img src="https://focusoncampus.org/system/images/W1siZiIsIjIwMTUvMTEvMTgvNDFlbHFrN3l5NF9mb2N1c190ZWFtLmpwZyJdLFsicCIsInRodW1iIiwiNDV4NDUjIl1d/focus-team.jpg" class="img-circle img-fluid">
+        </div>
+        <div class="card-meta p-r-2 blog-bold">
+          The FOCUS Blog
+        </div>
+
+      
+    </a>
+  </div>
+</div><div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-offset-0 col-md-6 col-lg-4 flex flex-column card-wrapper
+     article content_text ">
+  <div class="card tall flex-1 tall-image">
+    <a href="https://focusoncampus.org/content/what-to-do-for-lent-7-reasonable-ideas" class="card-link flex flex-column flex-1">
+    <div class="flex flex-column flex-1">
+      <div style="background-image: url(https://focusoncampus.org/system/images/W1siZiIsIjIwMTYvMDEvMjkvMmF4eTlncDIydF9pU3RvY2tfMDAwMDg0MTU4NTE5X01lZGl1bS5qcGciXSxbInAiLCJ0aHVtYiIsIjEyMDB4Il1d/iStock_000084158519_Medium.jpg)" class="card-header p-t-4 flex-1">
+          <h3 class="card-title z-5">What to Do for Lent: 7 Reasonable Ideas</h3>
+          <p class="teaser z-5">Still trying to figure out what you want to do for Lent? Here are some ideas...</p>
+      </div>
+    </div>
+    <div class="card-block card-category flex align-items-center p-x-4">
+      <p class="text-uppercase m-b-0 flex-1"><i style="color: #6e4de9;" class="icon icon-circle m-r-2"></i> Lentsanity</p>
+      
+    </div>
+
+    </a>
+
+    <a href="https://focusoncampus.org/blog" class="card-footer flex p-y-2">
+        <div class="avatar m-r-2">
+          <img src="https://focusoncampus.org/system/images/W1siZiIsIjIwMTUvMTEvMTgvNDFlbHFrN3l5NF9mb2N1c190ZWFtLmpwZyJdLFsicCIsInRodW1iIiwiNDV4NDUjIl1d/focus-team.jpg" class="img-circle img-fluid">
+        </div>
+        <div class="card-meta p-r-2 blog-bold">
+          The FOCUS Blog
+        </div>
+
+      
+    </a>
+  </div>
+</div>
+      
+    </div>
+  </div>
+</section>
+
+    <section id="updates">
+        <div class="container">
+            <div class="row row-def">
+                <div class="col-xs-12 col-lg-10 col-lg-offset-1 col-xl-8 col-xl-offset-2 p-50 text-center">
+                    <h1 class="text-uppercase m-b-3">Weekly Updates<svg class="underline" x="0px" y="0px" viewBox="0 0 640 50">
+    <path class="st0" d="M14.9,11.5C49.2,10,83.5,9.5,118,9.9c12.2,0.1,24.4,0.3,36.6,0.3c19,0.1,38,0.1,57,0.2
+      c18,0.1,35.9,0.3,53.9,0.3c30.2,0.1,60.4-0.1,90.6,0.1c27.2,0.2,54.4,0.6,81.5,1.1c31.7,0.5,63.3,1.2,95,1.9
+      c20.1,0.5,40.3,1.1,60.4,1.7c12.2,0.3,24.3,0.7,36.4,1.1c5.4,0.2,12.4-2.6,10.2-4.6c-2.3-2.1-3.7-4.7-10.6-5.7
+      c-9.9-1.5-19.9-0.6-29.9-0.9c-23.3-0.7-46.7-1-70.1-1.4c-36-0.6-72-1.3-107.9-1.8c-26.6-0.3-53.3-0.4-80-0.6
+      c-31.5-0.2-63-0.2-94.5-0.4c-33.3-0.2-66.7-0.6-100-0.7c-32.9-0.1-65.9,0-98.8,0v0.2c-1.8,0-3.6-0.1-5.4,0
+      C30.8,1.4,19.1,1.9,7.7,2.9C1.2,3.5-1.9,7,1.3,9.3C4.3,11.6,9.8,11.7,14.9,11.5z"/>
+    </svg>
+    </h1>
+                    <p>Get the best of Lentsanity straight to your inbox every week.<br>
+(Tip: Stick around until Easter for a special Easter surprise.)</p>
+					<div id="weekly-updates">
+                    	<form action="http://www.focusonline.org/site/Survey" method="POST" target="thank-you">
+                    <input type="hidden" value="t" id="cons_info_component" name="cons_info_component">
+                             <input class="name" type="text" style="color: #9a9999; padding:10px; " onblur="if (this.value == '') {this.value = 'First Name'; this.style.color='#9a9999'} " onfocus="if (this.value == 'First Name') {this.value = ''; this.style.color='black'}" value="First Name" id="cons_first_name" name="cons_first_name">
+                            <input class="name" type="text" style="color: #9a9999; padding:10px;" onblur="if (this.value == '') {this.value = 'Last Name'; this.style.color='#9a9999'} " onfocus="if (this.value == 'Last Name') {this.value = ''; this.style.color='black'}" value="Last Name" id="cons_last_name" name="cons_last_name">
+                            <div class="email-box">
+                            <input class="email" type="email" style="color: #9a9999; padding:10px;" onblur="if (this.value == '') {this.value = 'Your Email'; this.style.color='#9a9999'} " onfocus="if (this.value == 'Your Email') {this.value = ''; this.style.color='black'}" value="Your Email" id="cons_email" name="cons_email"><input class="subscribe" value="Subscribe" type="submit" id="ACTION_SUBMIT_SURVEY_RESPONSE" name="ACTION_SUBMIT_SURVEY_RESPONSE">
+                            </div>
+                     <input type="hidden" value="1622" id="3445_3861_2_4121_1" name="3445_3861_2_4121">
+                    <input type="hidden" value="1661" id="3445_3861_2_4121_2" name="3445_3861_2_4121">
+                    <div style="display:none">
+                    <label for="denySubmit">Spam Control Text:</label>&nbsp;
+                    <input type="text" alt="This field is used to prevent form submission by scripts." value="" id="denySubmit" name="denySubmit">&nbsp;Please leave this field empty
+                    </div>	
+                    <input type="hidden" value="3861" id="SURVEY_ID" name="SURVEY_ID">
+                        </form>
+                        <iframe scrolling="no" style="width:100%; height:42px;  border:none; overflow: hidden;" name="thank-you" src=""></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/system/components/logging/logging.js"></script>
+
+
+
+
+<script type="text/javascript">
+if (typeof CONVIO=="undefined" || ! CONVIO) { var CONVIO = {}; }
+
+if (! CONVIO.page) { CONVIO.page = {}; }
+
+CONVIO.page.folderID = '504855547';
+CONVIO.page.hostID = '296983629';
+CONVIO.page.adminURL = 'https://cmsadmin30.convio.net';
+
+
+CONVIO.page.navFolderID = '296983631';
+CONVIO.page.navFolderTitle = 'www.focus.org';
+
+
+
+CONVIO.page.draftID = '706646014';
+CONVIO.page.hasForm = false;
+
+
+
+CONVIO.page.typeID = '296983638';
+CONVIO.page.typeLabel = 'Web Page';
+
+
+
+CONVIO.page.hasEditorStep = true;
+
+
+if (! CONVIO.user) { CONVIO.user = {}; }
+CONVIO.user.isAnonymous = true;
+</script>
+
+
+
+<script type="text/javascript" src="https://cmsadmin30.convio.net/system/auth/author-toolbar.jsp"></script>
+
+
+<script type="text/javascript" src="/components/floatbar/floatbar.js"></script>
+
+
+
+
+				 
+
+
+
+
+</section>
+  <footer class="footer">
+    <div class="container">
+  <div class="row p-y-5">
+    <div class="col-xs-12 footer-inner flex">
+        <a class="footer-brand m-b-4" href="http://focusoncampus.org/"><i class="icon icon-focus icon-2x"></i></a>
+        <nav class="nav m-b-4 text-xs-center">
+          <a class="nav-link" href="http://focusoncampus.org/find-my-campus">Find my Campus</a>
+          <a class="nav-link" href="http://focusoncampus.org/contact-us">Contact</a>
+          <a class="nav-link" href="http://focusoncampus.org/born-to-be-great">Join Us</a>
+          <a class="nav-link nav-link-external" href="http://focus.org/chaplains">Chaplains <i class="icon icon-external-link icon-fe icon-sm m-l-1"></i></a>
+          <a class="nav-link nav-link-external" href="http://focus.org" target="_blank">focus.org <i class="icon icon-external-link icon-fe icon-sm m-l-1"></i></a>
+        </nav>
+        <div class="flex align-items-center flex-wrap">
+          <div class="m-a-3 shrink-0 flex-1 text-xs-center footer-social">
+            <a href="https://www.facebook.com/focuscatholic" target="blank" class="btn btn-outline-white btn-circle m-x-2"><i class="icon icon-facebook"></i></a>
+            <a href="https://twitter.com/focuscatholic" target="blank" class="btn btn-outline-white btn-circle m-x-2"><i class="icon icon-twitter"></i></a>
+            <a href="https://www.instagram.com/focuscatholic/" target="blank" class="btn btn-outline-white btn-circle m-x-2"><i class="icon icon-instagram"></i></a>
+          </div>
+        </div>
+
+  </div>
+</div>
+        <div id="poweredBy" style="DISPLAY: inline">
+
+
+
+
+
+<!-- BEGIN: Powered By -->
+<style type="text/css">
+#cv-poweredBy {
+  text-align: center;
+}
+
+#cv-poweredBy a {
+  color: #ccc;
+  font-family: arial,sans-serif;
+  font-size: 9px;
+  text-decoration: none;
+}
+</style>
+
+<div id="cv-poweredBy">
+  <a href="http://www.blackbaud.com" title="online fundraising, advocacy &amp; donor database">
+    <img src="/assets/poweredby.gif" border="0" alt="Powered by Blackbaud" /><br />
+    nonprofit software</a>
+</div>
+<!-- END: Powered By -->
+</div>
+
+  </footer>
+</div>
+
+    
+  <script src="https://focusoncampus.org/assets/site.js"></script>
+
+<!-- WAS entire views/refinery/_javascripts -->
+
+
+
+<!-- WAS entire views/refinery/_javascripts -->
+
+    
+  </body>
+</html><!-- Powered by Convio -->
+<!-- 10.12.0.39:8900 -->
+

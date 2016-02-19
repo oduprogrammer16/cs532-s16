@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="robots" content="noindex,follow" />
+<title>404 - gooニュース</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<link rel="stylesheet" href="http://img.news.goo.ne.jp/css/style.css?1541" />
+</head>
+<body class="NR-col1">
+<script>
+dataLayer = [{
+    'template': 'pc',
+    'rwd': 1
+}];
+var u = navigator.userAgent;
+if((/android/i.test(u)&&/mobile/i.test(u))||(!/ipad/i.test(u)&&/ip(hone|od)/i.test(u))){
+    dataLayer[0].template = 'sp';
+}
+</script>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MFQTPP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MFQTPP');</script>
+<!-- End Google Tag Manager -->
+<div id="NR-page">
+	<header role="banner"><div id="NR-header">
+		<div id="NR-header-in">
+			<p id="NR-header-logo"><a href="http://www.goo.ne.jp/" id="NR-header-logo-goo"><img src="http://u.xgoo.jp/img/goo.png" alt="goo" title="goo" /></a><a href="/" id="NR-header-logo-sv">ニュース<img src="http://u.xgoo.jp/cmm001/img/icon/i_04.gif" alt="ニュース" title="ニュース" /></a></p>
+		<!-- header-in --></div>
+	<!-- header --></div></header>
+	<div id="NR-wrapper">
+		<div id="NR-wrapper-in" class="cx">
+			<div id="NR-main">
+				<div id="NR-main-in">
+					<section><div class="section">
+						<h1>お探しの情報は見つかりませんでした。</h1>
+						<div class="unit">
+							<ul>
+								<li><a href="/">gooニュース</a></li>
+								<li><a href="http://www.goo.ne.jp/">gooトップ</a></li>
+							</ul>
+						</div>
+						<div class="unit">
+							<p>同じ状態が続く場合はお手数をおかけしますが、goo事務局までお問い合わせください。</p>
+							<ul>
+								<li><a href="https://goo.e-srvc.com/app/ask_select">goo事務局</a></li>
+							</ul>
+						</div>
+					<!-- section --></div></section>
+				<!-- main-in --></div>
+			<!-- main --></div>
+		<!-- wrapper-in --></div>
+	<!-- wrapper --></div>
+	<footer role="contentinfo"><div id="NR-footer">
+		<div id="NR-footer-in">
+			<p class="NR-copyright"><small><span class="small">&copy;NTT Resonant Inc.</span></small></p>
+		<!-- footer-in --></div>
+	<!-- footer --></div></footer>
+<!-- page --></div>
+</body>
+</html>

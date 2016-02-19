@@ -1,0 +1,319 @@
+   #[1]GitHub [2]Recent Commits to bumper:master
+
+   [3]Skip to content
+
+   [4]Sign up [5]Sign in
+   This repository
+   ____________________
+     * [6]Explore
+     * [7]Features
+     * [8]Enterprise
+     * [9]Pricing
+
+     * [10]Watch [11]17
+     * [12]Star [13]24
+     * [14]Fork [15]0
+
+[16]silkapp/[17]bumper
+
+   [18]Code [19]Issues 1 [20]Pull requests 0 [21]Pulse [22]Graphs
+   Haskell tool to automatically bump package versions transitively.
+     * [23]58 commits
+     * [24]1 branch
+     * [25]4 releases
+     * [26]Fetching contributors
+
+    1. [27]Haskell 100.0%
+
+   Haskell
+   (BUTTON) New file [28]Find file
+   (BUTTON) HTTPS
+   https://github.com/s
+   (BUTTON)
+   Choose a clone URL
+   (*) HTTPS (recommended) Clone with Git or checkout with SVN using the
+   repository's web address.
+   (BUTTON) HTTPS
+   https://github.com/s
+   (BUTTON)
+   Learn more about clone URLs
+   [29]Download ZIP
+   (BUTTON) Branch: master
+   Switch branches/tags
+   ____________________
+     * [30]Branches
+     * [31]Tags
+
+   [32]master
+   Nothing to show
+   [33]0.6.0.1 [34]0.6 [35]0.5.1.2 [36]0.5.1
+   Nothing to show
+   (BUTTON) New pull request
+   Fetching latest commit…
+   Cannot retrieve the latest commit at this time.
+   [37]Permalink
+   Failed to load latest commit information.
+   [38]src
+   [39].gitignore
+   [40].travis.yml
+   [41]CHANGELOG.md
+   [42]LICENSE
+   [43]README.md
+   [44]Setup.hs
+   [45]bumper.cabal
+
+README.md
+
+Bumper
+
+   [46]Build Status
+
+   Bumper is a tool for working with cabal packages. It lets you manage
+   the version bounds of packages by transitively bumping packages (and
+   their dependencies transitively), without you needing to edit the cabal
+   files manually.
+
+   It's useful if you have a set of packages that you develop together.
+
+   You can install the latest version from [47]Hackage
+$ cabal install bumper
+
+   or try the git version if you are feeling adventurous.
+
+   To get started you should have all projects under a common directory,
+   such as
+project/package-1
+project/package-2
+
+   You can now make changes to these packages and use bumper to handle
+   version bumps. See Examples below.
+
+Interface
+
+$ bumper --help
+Usage: bumper [OPTIONS...], with the following options:
+  -m PACKAGE(,PACKAGE)*  --major=PACKAGE(,PACKAGE)*                         Comm
+a-separated list of packages which will get a major bump (bump at position 1).
+  -n PACKAGE(,PACKAGE)*  --minor=PACKAGE(,PACKAGE)*                         Comm
+a-separated list of packages which will get a minor bump (bump at position 2).
+  -0 PACKAGE(,PACKAGE)*  --bump-0=PACKAGE(,PACKAGE)*                        Comm
+a-separated list of packages which will get a bump at position 0.
+  -1 PACKAGE(,PACKAGE)*  --bump-1=PACKAGE(,PACKAGE)*                        Comm
+a-separated list of packages which will get a bump at position 1.
+  -2 PACKAGE(,PACKAGE)*  --bump-2=PACKAGE(,PACKAGE)*                        Comm
+a-separated list of packages which will get a bump at position 2.
+  -3 PACKAGE(,PACKAGE)*  --bump-3=PACKAGE(,PACKAGE)*                        Comm
+a-separated list of packages which will get a bump at position 3.
+                         --set-versions=PACKAGE@VERSION(,PACKAGE@VERSION)*  Comm
+a-separated list of packages and their versions.
+  -t                     --no-transitive                                    Do n
+ot apply bumping transitively.
+  -i PACKAGE(,PACKAGE)*  --ignore=PACKAGE(,PACKAGE)*                        Comm
+a-separated list of packages which will be ignored when transitive bumping.
+  -g PATH                --global=PATH                                      Bump
+ according to latest version number in the given package database.
+  -d                     --dry-run                                          Just
+ output the dependencies that will be updated.
+  -?                     --help                                             Show
+ usage help and exit.
+  -v                     --version                                          Show
+ version info and exit.
+
+Behavior
+
+     * Bumper does not reformat your cabal file, it only replaces the
+       version ranges without using Cabal's pretty printer (which ignores
+       existing formatting)
+     * Transitive bumps are always position 3 (D) bumps. Note that your
+       transitive packages may re-export modules or instances from their
+       dependencies, so they may need to bumped further
+     * There is no support for bumping external packages. If you depend on
+       something you are not maintaining you need to bump that version
+       manually
+     * Bumper respects version ranges you have specified, if b depends on
+       a >= 0.1 && < 0.3 and you bump a to 0.2.3 the bound will not
+       change, but if you bump a to 0.3 b's dependency will change to a ==
+       0.3.*
+     * If you depend on a specific version range (minor, major, ...) the
+       level of the range may change after bumping. Depending on a ==
+       0.1.2.* and doing a major bump of a will change your dependency to
+       a == 0.2.*, but...
+     * If you have an explicit version dependency (a == 0.1.0.1) then a
+       major bump of a will result in a == 0.2.
+
+Examples
+
+   You can find this repository with empty cabal projects at
+   [48]http://github.com/silkapp/bumper-example
+$ git clone http://www.github.com/silkapp/bumper-example.git
+
+   It contains four empty cabal projects, all with version 0.1:
+     * b depends on a == 0.1 (fixed version)
+     * c depends on a == 0.1.* and b == 0.1.* (major dependencies)
+     * d depends on a (any version) and b >= 0.1 && < 0.2 (major
+       dependency)
+
+   Say we make a minor change to a and we've checked that all packages
+   build together, so we run
+$ bumper --minor a # or bumper -2 a
+$ git diff
+
+a/a.cabal
+-version:             0.1
++version:             0.1.1
+
+b/b.cabal
+-version:             0.1
++version:             0.1.0.1
+-                     , a == 0.1
++                     , a == 0.1.1
+
+   b's version and its dependency on a was bumped as well. c and d are
+   still compatible with a so they were not modified.
+
+   It works in the same fashion no matter what degree of bumping you do.
+$ git reset --hard
+$ bumper --major a
+$ git diff
+
+a/a.cabal
+-version:             0.1
++version:             0.2
+
+b/b.cabal
+-version:             0.1
++version:             0.1.0.1
+-                     , a == 0.1
++                     , a == 0.2
+
+c/c.cabal
+-version:             0.1
++version:             0.1.0.1
+-                     , a == 0.1.*
++                     , a == 0.2.*
+
+   Bumper combines all changes you do so versions aren't bumped several
+   times, below b gets one major bump instead of a major and a minor.
+$ git reset --hard
+$ bumper --major a,b
+$ git diff
+
+a/a.cabal
+-version:             0.1
++version:             0.2
+
+b/b.cabal
+-version:             0.1
++version:             0.2
+
+c/c.cabal
+-version:             0.1
++version:             0.1.0.1
+-                     , a == 0.1.*
++                     , a == 0.2.*
+-                     , b == 0.1.*
++                     , b == 0.2.*
+
+d/d.cabal
+-version:             0.1
++version:             0.1.0.1
+-                     , b >= 0.1 && < 0.2
++                     , b == 0.2
+
+     * [49]Status
+     * [50]API
+     * [51]Training
+     * [52]Shop
+     * [53]Blog
+     * [54]About
+     * [55]Pricing
+
+     * © 2016 GitHub, Inc.
+     * [56]Terms
+     * [57]Privacy
+     * [58]Security
+     * [59]Contact
+     * [60]Help
+
+   (BUTTON) Something went wrong with that request. Please try again.
+
+   You signed in with another tab or window. [61]Reload to refresh your
+   session. You signed out in another tab or window. [62]Reload to refresh
+   your session.
+
+   (BUTTON)
+
+References
+
+   Visible links
+   1. file:///opensearch.xml
+   2. https://github.com/silkapp/bumper/commits/master.atom
+   3. file:///home/kclemmon/a3CS432/source973.txt#start-of-content
+   4. file:///join?source=header-repo
+   5. file:///login?return_to=/silkapp/bumper
+   6. file:///explore
+   7. file:///features
+   8. https://enterprise.github.com/
+   9. file:///pricing
+  10. file:///login?return_to=/silkapp/bumper
+  11. file:///silkapp/bumper/watchers
+  12. file:///login?return_to=/silkapp/bumper
+  13. file:///silkapp/bumper/stargazers
+  14. file:///login?return_to=/silkapp/bumper
+  15. file:///silkapp/bumper/network
+  16. file:///silkapp
+  17. file:///silkapp/bumper
+  18. file:///silkapp/bumper
+  19. file:///silkapp/bumper/issues
+  20. file:///silkapp/bumper/pulls
+  21. file:///silkapp/bumper/pulse
+  22. file:///silkapp/bumper/graphs
+  23. file:///silkapp/bumper/commits/master
+  24. file:///silkapp/bumper/branches
+  25. file:///silkapp/bumper/releases
+  26. file:///silkapp/bumper/graphs/contributors
+  27. file:///silkapp/bumper/search?l=haskell
+  28. file:///silkapp/bumper/find/master
+  29. file:///silkapp/bumper/archive/master.zip
+  30. file:///home/kclemmon/a3CS432/source973.txt
+  31. file:///home/kclemmon/a3CS432/source973.txt
+  32. file:///silkapp/bumper/tree/master
+  33. file:///silkapp/bumper/tree/0.6.0.1
+  34. file:///silkapp/bumper/tree/0.6
+  35. file:///silkapp/bumper/tree/0.5.1.2
+  36. file:///silkapp/bumper/tree/0.5.1
+  37. file:///silkapp/bumper/tree/917e546d2c90e33ebd21d065f2cfc1449cbed506
+  38. file:///silkapp/bumper/tree/master/src
+  39. file:///silkapp/bumper/blob/master/.gitignore
+  40. file:///silkapp/bumper/blob/master/.travis.yml
+  41. file:///silkapp/bumper/blob/master/CHANGELOG.md
+  42. file:///silkapp/bumper/blob/master/LICENSE
+  43. file:///silkapp/bumper/blob/master/README.md
+  44. file:///silkapp/bumper/blob/master/Setup.hs
+  45. file:///silkapp/bumper/blob/master/bumper.cabal
+  46. https://travis-ci.org/silkapp/bumper
+  47. http://hackage.haskell.org/package/bumper
+  48. http://github.com/silkapp/bumper-example
+  49. https://status.github.com/
+  50. https://developer.github.com/
+  51. https://training.github.com/
+  52. https://shop.github.com/
+  53. https://github.com/blog
+  54. https://github.com/about
+  55. https://github.com/pricing
+  56. https://github.com/site/terms
+  57. https://github.com/site/privacy
+  58. https://github.com/security
+  59. https://github.com/contact
+  60. https://help.github.com/
+  61. file:///home/kclemmon/a3CS432/source973.txt
+  62. file:///home/kclemmon/a3CS432/source973.txt
+
+   Hidden links:
+  64. https://github.com/
+  65. https://help.github.com/articles/which-remote-url-should-i-use
+  66. file://localhost/home/kclemmon/a3CS432/source973.txt#bumper
+  67. file://localhost/home/kclemmon/a3CS432/source973.txt#interface
+  68. file://localhost/home/kclemmon/a3CS432/source973.txt#behavior
+  69. file://localhost/home/kclemmon/a3CS432/source973.txt#examples
+  70. https://github.com/

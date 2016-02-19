@@ -1,0 +1,1776 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="ja"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<title>(Deleted) - TwitCasting</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<!--[if lte IE 8]><meta http-equiv="X-UA-Compatible" content="IE=emulateIE7"><![endif]-->
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,600,300">
+<link rel="stylesheet" type="text/css" media="all" href="/css/mainstyle-us.css">
+<!--[if lte IE 8]>
+<link rel="stylesheet" type="text/css" media="all" href="/css/newheader-ie8.css"/>
+<![endif]-->
+<!--[if lte IE 7]>
+<link rel="stylesheet" type="text/css" media="all" href="/css/newheader-ie7.css"/>
+<![endif]-->
+  <link rel="canonical" href="http://twitcasting.tv/kentahiyadam/movie/240396320" />
+<link href="/img/icon72@2x.png" rel="apple-touch-icon" type="image/png" />
+<link rel="stylesheet" href="/css/bootstrap.css" type="text/css" media="all" />
+<script type="text/javascript" src="/js/jquery-1.7.2.min.js"></script>
+
+<script type="text/javascript" src="/js/common.js"></script>
+<script type="text/javascript" src="/js/compact.js"></script>
+<meta name="format-detection" content="telephone=no">
+<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51336-17', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+   ga('create', 'UA-51336-19', 'auto', {'name': 'usTracker'});
+   ga('usTracker.require', 'displayfeatures');
+   ga('usTracker.send', 'pageview');
+
+
+
+</script>
+<script type="text/javascript" src="/js/jquery.Scroller-1.0.min.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="/css/wideview-us.css">
+
+	<meta property="og:description" content="モイ！iPhoneからキャス配信中 -"/>
+
+</head>
+<body>
+
+
+<div class="global-nav">
+  <div class="global-nav-inner">
+    <div class="header-container">
+            <div class="navbar-header">
+          <div class="logo-wrapper"><a href="/"><h1 class="logo"></h1></a></div>
+                <button class="navbar-search button-toggle-search" type="button">
+                    <img src="/img/ic_magnifier_wh.png" height="20" width="20">
+                    <span class="icon_explain">Search</span>
+                </button>
+
+                <button class="navbar-ranking navbar-clickable" type="button">
+                    <a href="/rankingindex.php"><img src="/img/ic_ranking.png" height="20" width="20"></a>
+                    <span class="icon_explain">Ranking</span>
+                </button>
+                <button class="navbar-info navbar-clickable" type="button">
+                    <a href="/indexhelp.php"><img src="/img/ic_welcome.png" height="20" width="20"></a>
+                    <span class="icon_explain">Welcome</span>
+                </button>
+
+                <button class="navbar-language button-toggle-language" type="button">
+                    <img class="lang-flag" src="/img/c/us.gif" height="10" width="15">
+                </button>
+                <button class="navbar-login button-toggle-login hideinapp" type="button">
+                    <img src="/img/ajax-loader-header.gif" class="ajaxloader">Sign in<img class="down-arrow-right" src="/img/ic_down_arrow.png" height="6" width="10">
+                </button>
+            </div>
+            <div class="collapse">
+                <div class="search">
+                    <form id="global-nav-search" method="post" action="/search/text/">
+                        <input type="search" class="search-input" id="search-query" name="q" value="" placeholder="Search"><button type="submit" class="search-btn"><img src="/img/ic_magnifier.png" width="12" height="12"></button>
+                    </form>
+                </div>
+                <div class="navigation-right">
+                    <div id="toggle"><a href="#"></a></div>
+                    <ul class="global-actions">
+            <li><a class="header-link midtext header-broadcast" href="/indexloginwindow.php?next=broadcaster">Broadcast</a></li>
+                        <li class="divider"><span class="blue-separator"></span></li>
+                        <li><a class="header-link midtext" href="/indexhelp.php">Welcome</a></li>
+                        <li class="divider"><span class="blue-separator"></span></li>
+
+                        <li><a class="header-link midtext" href="/tcairindex.php">Subscriptions</a></li>
+                        <li class="divider"><span class="blue-separator"></span></li>
+                        <li class="nav-dropdown">
+                          <span class="midtext">
+                            <img src="/img/ajax-loader-header.gif" class="ajaxloader">
+                            Sign in<img class="down-arrow-right" src="/img/ic_down_arrow.png" height="6" width="10">
+                            </span>
+                            <ul class="nav-dropdown-menu">
+                                <li><a href="#" onclick="javascript:go_auth(); return false;" class="nav-dropdown-login"><img class="login-img" src="/img/login-tw.png" height="18" width="18">Sign in</a></li>
+                                <li><a href="#" onclick="javascript:go_auth('f'); return false;" class="nav-dropdown-login"><img class="login-img" src="/img/login-fb.png" height="18" width="18">Sign in</a></li>
+
+                                <li><a href="#" onclick="javascript:go_auth('c'); return false;" class="nav-dropdown-login"><img class="login-img" src="/img/login-cas.png" height="18" width="18">TwitCasting Account Login</a>
+                                <a href="/indexcasregister.php" style="padding: 6px 20px;"><img class="login-img" src="/img/go-icon-wh.png" height="18" width="18">Create New Account</a>
+
+                                </li>
+
+                                <li>
+                                  <form class="nav-dropdown-login">
+                                <input type="checkbox" id="keep" checked> <label for="keep">Keep me logged in</label>
+                                </form>
+                              <a href="/indexlicense.php" class="nav-dropdown">Terms of Service</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="divider"><span class="blue-separator"></span></li>
+                        <li class="nav-dropdown">
+                          <span class="midtext">
+                            <img class="lang-flag" src="/img/c/us.gif" height="10" width="15">
+                            </span>
+                            <ul class="nav-dropdown-menu">
+                                <li><a href="http://en.twitcasting.tv/kentahiyadam/movie/240396320?hl=en"><img class="lang-flag" src="/img/c/us.gif" height="10" width="15">English</a></li>
+                                <li><a href="http://pt.twitcasting.tv/kentahiyadam/movie/240396320?hl=pt"><img class="lang-flag" src="/img/c/br.gif" height="10" width="15">Português</a></li>
+                                <li><a href="http://es.twitcasting.tv/kentahiyadam/movie/240396320?hl=es"><img class="lang-flag" src="/img/c/mx.gif" height="10" width="15">Español</a></li>
+                                <li><a href="http://ja.twitcasting.tv/kentahiyadam/movie/240396320?hl=ja"><img class="lang-flag" src="/img/c/jp.gif" height="10" width="15">日本語</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+        <div class="toggle-search">
+            <div class="search-mob">
+                <form id="global-nav-search" method="post" action="/search/text/">
+                    <input type="search" class="search-input-mob" id="search-query" name="q" value="" placeholder="Search"><button type="submit" class="search-btn"><img src="/img/ic_magnifier.png" width="12" height="12"></button>
+                </form>
+            </div>
+        </div>
+        <div class="toggle-login">
+            <ul class="hideinapp">
+                <li><a href="#" onclick="javascript:go_auth(); return false;"><img class="login-img" src="/img/login-tw.png" height="18" width="18">Sign in</a></li>
+                <li><a href="#" onclick="javascript:go_auth('f'); return false;"><img class="login-img" src="/img/login-fb.png" height="18" width="18">Sign in</a></li>
+                <li><a href="#" onclick="javascript:go_auth('c'); return false;"><img class="login-img" src="/img/login-cas.png" height="18" width="18">TwitCasting Account Login</a>
+                    <a href="/indexcasregister.php"><img class="login-img" src="/img/go-icon-wh.png" height="18" width="18">Create New Account</a>
+                </li>
+
+                <li><a href="/indexlicense.php">Terms of Service</a></li>
+
+            </ul>
+        </div>
+        <div class="toggle-language">
+            <ul>
+                                <li><a href="http://en.twitcasting.tv/kentahiyadam/movie/240396320?hl=en"><img class="lang-flag" src="/img/c/us.gif" height="10" width="15">English</a></li>
+                                <li><a href="http://pt.twitcasting.tv/kentahiyadam/movie/240396320?hl=pt"><img class="lang-flag" src="/img/c/br.gif" height="10" width="15">Português</a></li>
+                                <li><a href="http://es.twitcasting.tv/kentahiyadam/movie/240396320?hl=es"><img class="lang-flag" src="/img/c/mx.gif" height="10" width="15">Español</a></li>
+                                <li><a href="http://ja.twitcasting.tv/kentahiyadam/movie/240396320?hl=ja"><img class="lang-flag" src="/img/c/jp.gif" height="10" width="15">日本語</a></li>
+                                <li><a href="http://ko.twitcasting.tv/kentahiyadam/movie/240396320?hl=ko"><img class="lang-flag" src="/img/c/kr.gif" height="10" width="15">한국어</a></li>
+
+            </ul>
+        </div>
+        <div class="toggle-menu">
+            <ul>
+                        <li><a class="header-link" href="/tcairindex.php">Subscriptions</a></li>
+                <li><ul>
+                                <li class="sub"><a href="http://en.twitcasting.tv/kentahiyadam/movie/240396320?hl=en" class="header-link" ><img class="lang-flag" src="/img/c/us.gif" height="10" width="15">English</a></li>
+                                <li class="sub"><a href="http://pt.twitcasting.tv/kentahiyadam/movie/240396320?hl=pt" class="header-link" ><img class="lang-flag" src="/img/c/br.gif" height="10" width="15">Português</a></li>
+                                <li class="sub"><a href="http://es.twitcasting.tv/kentahiyadam/movie/240396320?hl=es" class="header-link" ><img class="lang-flag" src="/img/c/mx.gif" height="10" width="15">Español</a></li>
+                                <li class="sub"><a href="http://ja.twitcasting.tv/kentahiyadam/movie/240396320?hl=ja" class="header-link" ><img class="lang-flag" src="/img/c/jp.gif" height="10" width="15">日本語</a></li>
+                </ul></li>
+            </ul>
+        </div>
+  </div>
+</div>
+
+
+
+	<script type="text/javascript">
+
+
+		function go_auth(target){
+            ga('usTracker.send', 'event', 'signin-begin', target ? target : 'tw', window.location.pathname);
+
+            if (typeof isprivatemode != 'undefined' && isprivatemode){
+                alert('Sorry our service does not work with Private Browse mode. Please change your browser settings and try again.');
+                return false;
+            }
+			$('.ajaxloader').css('display', 'inline');
+			var k = "0";
+			if ($("#keep").prop("checked")) k = "1";
+			if (target == "f"){
+				location.href="/facebookauth.php?redir=%2Fkentahiyadam%2Fmovie%2F240396320&keep=" + k;
+			}else if (target == "mixi"){
+				location.href="/mixiauth.php?redir=%2Fkentahiyadam%2Fmovie%2F240396320&keep=" + k;
+			}else if (target == "c"){
+                location.href="/indexcaslogin.php?redir=%2Fkentahiyadam%2Fmovie%2F240396320&keep=" + k;
+            }else{
+				location.href="/?goauth=1&b=%2Fkentahiyadam%2Fmovie%2F240396320&keep=" + k;
+			}
+			return false;
+		}
+	</script>
+
+
+<script type="text/javascript">
+function openLoginWindow(noParam){
+    var path = noParam ? '/indexloginwindow.php' : '/indexloginwindow.php?p=ret';
+  var popup = window.open(path, 'TwitCastingLogin',
+  'left=0,top=0,width=640,height=520');
+  // send message after 1 second
+  setTimeout(function(){
+    popup.postMessage('parent', '*');
+  }, 1000);
+}
+
+function TwitCastingLiveLoginEventReceived(result, userid){
+  if (result){
+    location.reload();
+  }else{
+  }
+}
+
+$(function(){
+    $(".button-toggle-menu").on("click", function(e) {
+        $(".toggle-menu").slideToggle(100);
+    });
+    $(".button-toggle-search").on("click", function() {
+        $(".toggle-search").slideToggle(100);
+    });
+    $(".button-toggle-language").on("click", function() {
+        $(".toggle-language").slideToggle(100);
+    });
+    $(".button-toggle-login").on("click", function() {
+        $(".toggle-login").slideToggle(100);
+    });
+    $(".navbar-clickable").on("click", function(e) {
+        location.href = $(this).children("a").attr("href");
+    });
+});
+</script>
+
+
+
+
+
+    
+    <div id="navcontainer"><div id="nav" class="clearfix">
+    <ul id="globalnav">
+    <li  class="active"><a href="/">Live</a></li>
+    <li ><a href="/indexnew.php">Recent Lives</a></li>
+    <li ><a href="/rankingindex.php"><img src="/img/ic_ranking_blue.png" height="14" class="icon32">Ranking</a></li>
+    </ul>
+    <script type="text/javascript">
+        $("#globalnav li").on('click', function(e){
+            if ($(this).find('a')){
+                location.href = $(this).find('a').attr("href");
+            }
+        });
+    </script>
+
+
+    <a href="https://twitter.com/twitcastinglive" target="_blank"><img alt="" class="icon32" height="32" src="/img/icon_social_.png" /></a>
+    <a href="https://www.facebook.com/twitcastinglive" target="_blank"><img alt="" class="icon32" height="32" src="/img/icon_social_f.png" /></a>
+    <a href="http://twitcasting.tv/twitcastinglive/spotlight"><img alt="" class="icon32" height="32" src="/img/icon_social_c.png" /></a>
+    <a href="http://twitcastinglive.tumblr.com/"><img alt="" class="icon32" height="32" src="/img/icon_social_t.png" /></a>
+    <a href="https://instagram.com/twitcastinglive/"><img alt="" class="icon32" height="32" src="/img/icon_social_i.png" /></a>
+    </div>
+    </div>
+    
+    
+
+<div id="mainwrapper" class="clearfix">
+
+<div id="wrapper">
+
+
+  
+
+    <h2>
+    <img src="http://202-234-44-61.moi.st/image3s/pbs.twimg.com/profile_images/695431740177780737/2W8O_mkn_normal.jpg" width="24" height="24" class="usericon" /><span class="username">kentahiyadam</span>'s Live
+
+    </h2>
+    
+    <div id="submenu" class="clearfix" style="overflow:hidden">
+    <ul>
+            <li><a href="/kentahiyadam">Live</a></li>
+            <li class="selected"><a href="/kentahiyadam/show/">Live History (8)</a></li>
+            <li><a href="/kentahiyadam/backers/">Fans (21)</a></li>
+            <li><a href="/kentahiyadam/community/">Community Wall (1)</a></li>
+    </ul>
+    </div>
+    
+    
+
+
+    <div class="box" style="text-align: center;margin: 4px 0 0 0;padding-bottom: 0px">
+            <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-8715918894710040";
+            /* tc-live-delete-header */
+            google_ad_slot = "8571274639";
+            google_ad_width = 728;
+            google_ad_height = 90;
+            //-->
+            </script>
+            <script type="text/javascript"
+            src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+            </script>
+    </div>
+	<div id="content">
+
+		<h2>
+    <a href="/kentahiyadam/show">Live History (8)</a> &raquo;
+<span id="movietitle"><img src="/img/c/jp.gif" class="icon countryflag" alt="Japan" title="Japan">(Deleted)</span>
+
+		</h2>
+
+        <div class="box" style="padding-top:10px;">
+
+		<div class="alert alert-info" id="liveicon" style="display:none"><a href="/kentahiyadam" id="liveiconlink">This user is ON LIVE now. Click to join Live.</a></div>
+		
+		<div class="live">
+	<img src="/img/movie-deleted.png" width="480" height="270" class="liveimage"><br>
+	
+	
+		</div>
+
+
+		<div class="endbox"></div>
+
+		</div>
+
+		<div style="padding: 8px 4px;">
+					&laquo; <a href="/kentahiyadam/movie/240404882">Recorded Live #240404882</a>
+								<span  style="float:right"><a href="/kentahiyadam/movie/239909415">Recorded Live #239909415</a> &raquo;</span>
+					<div style="clear:both"></div>
+		</div>
+		
+		<div id="itemboxwrapper" class="box small">
+	<div id="itemboxcontainer">
+		<div id="itembox" class="clearfix">
+			<ul class="clearfix">
+				<li><a href="javascript:showItemDialog('kentahiyadam', 'snow_falling');"><img src="/img/item_snowfall.png" width="50" height="50" class="item" title="Snow"></a><span class="num">1</span></li>
+			</ul>
+			<div id="viewall"><a href="javascript:showUserGear('kentahiyadam');">View all</a></div>
+			<div id="itembtn">
+				<p><a class="btn btn-sendgift" href="javascript:giftItem('kentahiyadam');">Item</a></p>
+			</div>
+		</div>
+		<div class="clearfix" style="font-size: 12px; text-align: left; background: #fff;">
+			<img src="http://twitcasting.tv/img/item_badge_star_ltr2.png" height="16" style="margin:2px;">
+			<span style="position: relative; top: 6px; margin-right: 12px; vertical-align: top;">3 MP</span>
+		</div>
+	</div>
+</div>
+    
+	<div id="windowcontainer" class="modal hide" style="width:556px;">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">×</button>
+    <h3 id="dlg_title">Item</h3>
+    </div>
+    <div id="modalbody" class="modal-body">
+    <div class="windowwrapper">
+    <div id="dlgdata" class="window"></div>
+    </div>
+    </div>
+    <div class="modal-footer">
+    <a href="#" class="btn" data-dismiss="modal">Close</a>
+    </div>
+	</div>
+    
+    <script type="text/javascript">
+    var g_luserid = false;
+    var g_loginWindow = false;
+    var g_cancelbp = false;
+    var g_timer = false;
+    var g_reloadable = true;
+    
+    $("img.item").tooltip({
+                          placement: "bottom"
+                          });
+    
+    function giftItem(tuid, itemid, cancelbp){
+        var h = 'auto';
+        if (cancelbp) g_cancelbp = true; else g_cancelbp = false;
+        if (g_luserid){
+            var dlgurl = "/gearajax.php?c=sendgift&tuser=" + tuid;
+            if(itemid){
+                dlgurl += "&itemid=" + itemid;
+            }else{
+                h = 540;
+            }
+            showLoadingDialog();
+            $.ajax({
+                   url: dlgurl,
+                   dataType: "html",
+                   type: "GET",
+                   success: function(data){
+                   $("#dlgdata").html(data);
+                   showDialog(h);
+                   },
+                   error: function (XMLHttpRequest, textStatus, errorThrown) {
+                   //alert(errorThrown);
+                   
+                   }
+                   });
+        } else {
+            window.location.href = '/indexloginwindow.php';
+        }
+    }
+    
+    function showItemDialog(tuid, itemid, bp){
+        var durl = "/gearajax.php?c=showitem&itemid=" + itemid;
+        if (tuid){
+            durl += "&u=" + tuid;
+        }
+        if (bp){
+            durl += "&bp=" + bp;
+        }
+        showLoadingDialog();
+        $.ajax({
+               url: durl,
+               dataType: "html",
+               type: "GET",
+               success: function(data){
+               $("#dlgdata").html(data);
+               showDialog();
+               },
+               error: function (XMLHttpRequest, textStatus, errorThrown) {
+               //alert(errorThrown);
+               
+               }
+               });
+    }
+    
+    function selectItemFrame(){
+        var durl = "/gearajax.php?c=selectitemframe";
+        showLoadingDialog();
+        $.ajax({
+               url: durl,
+               dataType: "html",
+               type: "GET",
+               success: function(data){
+               $("#dlgdata").html(data);
+               showDialog();
+               },
+               error: function (XMLHttpRequest, textStatus, errorThrown) {
+               //alert(errorThrown);
+               
+               }
+               });
+    }
+    
+    function selectItemStamp(){
+        var durl = "/gearajax.php?c=selectitemstamp";
+        showLoadingDialog();
+        $.ajax({
+               url: durl,
+               dataType: "html",
+               type: "GET",
+               success: function(data){
+               $("#dlgdata").html(data);
+               showDialog();
+               },
+               error: function (XMLHttpRequest, textStatus, errorThrown) {
+               //alert(errorThrown);
+               
+               }
+               });
+    }
+    
+    function showUserGear(tuid){
+        showLoadingDialog();
+        $.ajax({
+               url: "/gearajax.php?c=showgear&u=" + tuid,
+               dataType: "html",
+               type: "GET",
+               success: function(data){
+               $("#dlgdata").html(data);
+               showDialog();
+               },
+               error: function (XMLHttpRequest, textStatus, errorThrown) {
+               //alert(errorThrown);
+               
+               }
+               });
+    }
+    
+    function showLoadingDialog(){
+        $("#dlgdata").html('<p><img src="/img/loading.gif"></p>');
+        $("#windowcontainer").modal();
+    }
+    
+    function showDialog(h,title){
+        if (g_timer){
+            clearTimeout(g_timer);
+            g_timer = false;
+        }
+        if (!h){
+            h = 'auto';
+        }else{
+            //$("#windowcontainer .modal-body").css("height", h + 260);
+        }
+        
+        $("#windowcontainer").modal();
+        
+
+		if (title){
+			$("#dlg_title").text(title);
+		}else{
+			$("#dlg_title").text("Item");
+		}
+
+        // Height
+        var height = $(window).height() - 260;
+        if (height < 300) height = 300;
+        $("#windowcontainer .modal-body").css("height", "" + height + "px");
+        $("#windowcontainer .modal-body").css("max-height", "" + height + "px");
+        /*
+         $("#windowcontainer").dialog({
+         minHeight: 300,
+         minWidth: 556,
+         zIndex: 30000,
+         height: h,
+         modal: true,
+         buttons:{
+         "Close": function() { $(this).dialog("close"); }
+         }
+         });
+         */
+    }
+    
+    function closeDialog(){
+        $("#windowcontainer").modal('hide');
+        // $("#windowcontainer").dialog("close");
+    }
+    
+    function updateItems(){
+        if ($("#itemboxcontainer").length){
+                            var durl = "/gearajax.php?c=showitems&u=kentahiyadam";
+                if (movieid){
+                    durl += "&p=" + movieid;
+                }
+				                $.ajax({
+                       url: durl,
+                       dataType: "html",
+                       type: "GET",
+                       success: function(data){
+                       $("#itemboxcontainer").html(data);
+                       },
+                       error: function (XMLHttpRequest, textStatus, errorThrown) {
+                       //alert(errorThrown);
+                       }
+                       });
+                    }else if (g_reloadable){
+            location.reload();
+        }
+    }
+    
+    function onCloseLoginItemDialog(result, userid){
+        if (g_loginWindow){
+            g_loginWindow.close();
+            g_loginWindow = false;
+        }
+        if(result){
+            location.reload();
+        } else {
+            alert("Unable to login Twitter.");
+        }
+    }
+    </script>
+    
+    
+
+<style type="text/css">
+.blocks {
+  -moz-column-count: 1;
+  -moz-column-gap: 10px;
+  -webkit-column-count: 1;
+  -webkit-column-gap: 10px;
+  column-count: 1;
+  column-gap: 10px;
+  margin-right: 20px;
+  position: relative;
+  margin: -4px 0 6px 0;
+  margin: -4px 6px 6px 2px;
+  padding: 24px 12px 2px 20px;
+  *padding-top: 26px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+
+}
+.blocks:after {
+  content: "Recent";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+
+
+.blockitem {
+  column-break-inside: avoid;
+  display: inline-block;
+  text-align: left;
+  margin-top: 10px;
+  padding-left: 12px;
+  width: 200px;
+
+.blockitem .genreheader{
+  padding: 2px 0;
+  font-weight: bold;
+  color: #999;
+}
+
+.blockitem .genre{
+  padding: 2px 0 2px 4px;
+}
+
+</style>
+
+<div class="blocks" id="newliveads">
+
+<iframe src="/indexadstwitcast.php?genre=&ex=240396320" width="468" height="60" frameBorder="0" scrolling="no"></iframe>
+
+<br clear="all">
+</div>
+	<div class="box">
+	<div class="author">
+	
+
+
+	<a href="/indexloginwindow.php" style="display:none" class="btn btn-primary subscribebutton btn-subscribe" id="back_user">Fan</a>
+    	<a href="#" style="display:none" class="btn subscribebutton active btn-subscribing" id="backing_user">Fanned</a>
+	
+	<script type="text/javascript">
+	function onBackerButtonLoginFinished(result, userid){
+		if (result) back_user('kentahiyadam', 1);
+	}
+	function show_back_user(){
+		$("#back_user").show();
+		$("#backing_user").hide();
+		$("#back_user").unbind("click");
+		$("#back_user").click(function(){
+			back_user('kentahiyadam', 1);
+			return false;
+		});
+	}
+	function show_backing_user(){
+		$("#back_user").hide();
+		$("#backing_user").show();
+		$("#backing_user").unbind("click");
+		$("#backing_user").click(function(){
+			var r =  confirm('Are you sure you want to quit being a fan for this user?');
+			if (r){
+				back_user('kentahiyadam', 0);
+			}
+			return false;
+		});
+	}	
+	function back_user(target, mode){
+		$.ajax({
+			url: "/userajax.php?",
+			data: {
+								"c": "backuser",
+				"m": mode,
+				"u": target
+			},
+			dataType: "json",
+			type: "POST",
+			success: function(data){
+				if (data){
+					if (mode){
+						show_backing_user();
+					}else{
+						show_back_user();
+					}
+				}
+			}
+		});
+	}
+	</script>
+	<script type="text/javascript">
+	$("#back_user").show();
+	</script>
+
+
+<a href="/kentahiyadam"><img class="authorthumbnail" src="http://202-234-44-61.moi.st/image3s/pbs.twimg.com/profile_images/695431740177780737/2W8O_mkn_normal.jpg" width="48" height="48"></a>
+<a href="/kentahiyadam"><span class="username">kentahiyadam</span></a>
+ <a href="/kentahiyadam/show/" class="nobr">(8)</a>
+
+	<p class="fullname">けんた </p>
+
+
+
+
+<p>
+<a href="/kentahiyadam/backers">Level: <span class="levelnum">15</span></a> <img src="http://twitcasting.tv/img/item_badge_star_ltr2.png" height="14" class="icon">    <span class="nowrap">		<img src="/img/subscribe-user.png" class="icon"><a href="/kentahiyadam/alert" class="addnotify">Subscribe</a>
+</span>		<script type="text/javascript">
+		function toggle_subscribe_user(target){
+			var user = $(target).attr("user");
+			var dataparam = "tuser=" + user;
+			$(target).prop("disabled", true);
+			if ($(target).attr("sub")){
+				// 購読解除なのでメッセージを表示する
+				var result = confirm("You want to unsubscribe this user?");
+				if (!result){
+					$(target).removeAttr("disabled");
+					return;
+				}
+			}
+			
+			$.ajax({
+				   url: "/kentahiyadam/userajax.php?c=tcairtogglesubscribeuser",
+				   data: dataparam,
+				   dataType: "json",
+				   type: "POST",
+				   success: function(data){
+				   $(target).removeAttr("disabled");
+				   if (data["error"]){
+				   // error がある
+				   alert(data["error"]);
+				   }else if (data["register"]){
+				   // 新規に購読した
+				   $(target).text("Subscribed");
+				   $(target).prev("img").attr("src", "/img/subscribed-user.png");
+				   $(target).attr("sub", "1");
+				   }else{
+				   // 購読を解除した
+				   $(target).text("Subscribe");
+				   $(target).prev("img").attr("src", "/img/subscribe-user.png");
+				   $(target).attr("sub", "");
+				   }
+				   }
+				   }
+				   )
+		}
+		</script>
+</p>
+
+
+
+
+
+
+<p class="comment" id="authorcomment"  >
+ツイキャスよう垢</p>
+
+
+<div class="authorcommandbox">
+
+
+
+
+
+<p>	<a href="http://twitter.com/kentahiyadam" target="_blank" class="icon32"><img src="/img/icon_social_.png" width="42"></a>
+</p>
+
+</div><!--// authorcommandbox -->
+
+
+
+
+	</div>
+
+	<div class="alert alert-info" id="tcalert" style="display:none"><img src="/img/tcair-icon16.png" class="icon"><a href="/tcairadduser.php?user=kentahiyadam">Get kentahiyadam's live notification by TwitCasting Alerts</a></div>
+	<script type="text/javascript">
+	setTimeout(function(){
+			   $("#tcalert").fadeIn("slow");
+			   }, 1500);
+	</script>
+    
+	</div> 
+	
+	
+	<h2><a href="/kentahiyadam/show/">kentahiyadam's Live History (8)</a></h2>
+        
+
+	<div class="box tile">
+        
+            <div></div><!-- for IE Bug -->
+    <div style="float:right; width:300px;height:600px;border-left: 1px solid #ccc;margin: 8px 8px 0 0px; padding-left: 8px;">
+                <script type="text/javascript"><!--
+                google_ad_client = "ca-pub-8715918894710040";
+                /* td-largest-live-footer */
+                google_ad_slot = "3149617396";
+                google_ad_width = 300;
+                google_ad_height = 600;
+                //-->
+                </script>
+                <script type="text/javascript"
+                src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                </script>
+    </div>
+        
+        
+	
+	
+<div class="moviethumb">
+<div class="title "><img src="/img/c/jp.gif" class="icon countryflag" alt="Japan" title="Japan"><a href="/kentahiyadam/movie/240986774">Recoded Radio 下手だけどてきとーに歌う #240986774 (32)</a></div>
+	<a class="movie_thumb_link" href="/kentahiyadam/movie/240986774" style="display: inline-block; overflow: hidden;">
+        <img src="http://202-230-12-92.twitcasting.tv/image3/image.twitcasting.tv/image54_1/96/2a/0e5d2a96-1.jpg" class="thumb" style="width: 100%; height: 100%;">
+    </a>
+    <script>
+                var wrapper = $('.title');
+        var aTag = $('a.movie_thumb_link');
+        var aTagWidth = wrapper.css('width').replace('px', '');
+        var aTagHeight = Math.floor(aTagWidth * 9 / 16);
+        aTag.css('height', aTagHeight);
+    </script>
+		<div class="sticker orange"><div>REC</div></div>
+	<div class="author"><a href="/kentahiyadam"><img src="http://202-234-44-61.moi.st/image3s/pbs.twimg.com/profile_images/695431740177780737/2W8O_mkn_normal.jpg" width=24 height=24 class="icon32_s"></a><a href="/kentahiyadam">kentahiyadam</a></div>
+<div class="comment">
+モイ！iPhoneからキャス配信中 -<br>
+<span class="smalldate">Duration: 30:04</span>
+ | <span class="smalldate">Total: 10 Views</span><br>
+<span class="smalldate"><span id="56c3cb592609a"></span><script type="text/javascript">
+var d = new Date(Date.parse("Thu, 11 Feb 2016 04:17:36 +0900"));
+$("#56c3cb592609a").text(d.toLocaleDateString() + " " + d.toLocaleTimeString());
+</script>
+</span>
+</div>
+</div>
+	
+	
+<div class="moviethumb">
+<div class="title "><img src="/img/c/jp.gif" class="icon countryflag" alt="Japan" title="Japan"><a href="/kentahiyadam/movie/240641981">Recorded Live #240641981 (1)</a></div>
+	<a class="movie_thumb_link" href="/kentahiyadam/movie/240641981" style="display: inline-block; overflow: hidden;">
+        <img src="http://202-230-12-92.twitcasting.tv/image3/image.twitcasting.tv/image54_1/bd/e7/0e57e7bd-1.jpg" class="thumb" style="width: 100%; height: 100%;">
+    </a>
+    <script>
+                var wrapper = $('.title');
+        var aTag = $('a.movie_thumb_link');
+        var aTagWidth = wrapper.css('width').replace('px', '');
+        var aTagHeight = Math.floor(aTagWidth * 9 / 16);
+        aTag.css('height', aTagHeight);
+    </script>
+	<div class="author"><a href="/kentahiyadam"><img src="http://202-234-44-61.moi.st/image3s/pbs.twimg.com/profile_images/695431740177780737/2W8O_mkn_normal.jpg" width=24 height=24 class="icon32_s"></a><a href="/kentahiyadam">kentahiyadam</a></div>
+<div class="comment">
+モイ！iPhoneからキャス配信中 -<br>
+<span class="smalldate">Duration: 03:27</span>
+ | <span class="smalldate">Total: 1 Views</span><br>
+<span class="smalldate"><span id="56c3cb5926331"></span><script type="text/javascript">
+var d = new Date(Date.parse("Wed, 10 Feb 2016 00:37:45 +0900"));
+$("#56c3cb5926331").text(d.toLocaleDateString() + " " + d.toLocaleTimeString());
+</script>
+</span>
+</div>
+</div>
+	
+	
+<div class="moviethumb">
+<div class="title "><img src="/img/c/jp.gif" class="icon countryflag" alt="Japan" title="Japan"><a href="/kentahiyadam/movie/240404882">Recorded Live 雑談 #240404882 (50)</a></div>
+	<a class="movie_thumb_link" href="/kentahiyadam/movie/240404882" style="display: inline-block; overflow: hidden;">
+        <img src="http://202-230-12-91.twitcasting.tv/image3/image.twitcasting.tv/image55_1/92/49/0e544992-1.jpg" class="thumb" style="width: 100%; height: 100%;">
+    </a>
+    <script>
+                var wrapper = $('.title');
+        var aTag = $('a.movie_thumb_link');
+        var aTagWidth = wrapper.css('width').replace('px', '');
+        var aTagHeight = Math.floor(aTagWidth * 9 / 16);
+        aTag.css('height', aTagHeight);
+    </script>
+		<div class="sticker orange"><div>REC</div></div>
+	<div class="author"><a href="/kentahiyadam"><img src="http://202-234-44-61.moi.st/image3s/pbs.twimg.com/profile_images/695431740177780737/2W8O_mkn_normal.jpg" width=24 height=24 class="icon32_s"></a><a href="/kentahiyadam">kentahiyadam</a></div>
+<div class="comment">
+モイ！iPhoneからキャス配信中 -<br>
+<span class="smalldate">Duration: 1:00:01</span>
+ | <span class="smalldate">Total: 13 Views</span><br>
+<span class="smalldate"><span id="56c3cb5926674"></span><script type="text/javascript">
+var d = new Date(Date.parse("Tue, 09 Feb 2016 03:53:47 +0900"));
+$("#56c3cb5926674").text(d.toLocaleDateString() + " " + d.toLocaleTimeString());
+</script>
+</span>
+</div>
+</div>
+	
+	<p style="clear:left">
+	<a href="/kentahiyadam/show/">Show All History (8)</a>
+	</p>
+        
+	
+	<div class="endbox"></div>
+	</div>
+        
+
+
+	
+	
+	
+
+	</div>
+
+	<div id="navigation">
+	<div id="navibox">
+	
+	
+
+<script type="text/javascript">
+function show_follow_option(user){
+    $("#dlgdata2").html('<iframe id="followdialog" src="/mfollow.php?if=1&tuser=' + encodeURIComponent(user) + '" style="height:100%;" seamless="seamless" scrolling="no" frameborder="0"></iframe>');
+    $("#windowcontainer2").modal();
+    $("#dlg_title2").text("Follow Options..");
+    // Height
+    var height = $(window).height() - 260;
+    if (height < 300) height = 300;
+    $("#windowcontainer2 .modal-body").css("height", "" + height + "px");
+    $("#windowcontainer2 .modal-body").css("max-height", "" + height + "px");
+    $("#followdialog").on('load', function(){
+        var the_height = document.getElementById('followdialog').contentWindow.document.body.scrollHeight;
+        $("#followdialog").height(the_height);
+        var the_height = $(document.getElementById('followdialog').contentWindow).height();
+        if (the_height > 300){
+            $("#windowcontainer2 .modal-body").css("height", "" + the_height + "px");
+            $("#windowcontainer2 .modal-body").css("max-height", "" + the_height + "px");
+        }
+    });
+    $("#followdialog").width($("#dlgdata2").width());
+    return false;
+}
+</script>
+<div id="windowcontainer2" class="modal hide" style="width:380px;">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">×</button>
+<h3 id="dlg_title2">Item</h3>
+</div>
+<div id="modalbody2" class="modal-body">
+<div class="windowwrapper">
+<div id="dlgdata2" class="window" style="padding: 0 20px!important;"></div>
+</div>
+</div>
+<div class="modal-footer">
+<a href="#" class="btn" data-dismiss="modal">Close</a>
+</div>
+</div>
+	<h2>Comments <span id="commentnumarea">(<a href="/kentahiyadam/moviecomment/240396320"><span id="commentnum">7</span></a>)</span>
+	</h2> 
+	<div class="box" id="commentbox">
+
+	<div class="alert alert-info">
+		Please sign in to send a comment to kentahiyadam.		（<a href="/indexlicense.php">Terms of Service</a>）<br>
+		<div class="login-with-social"><a href="#" onclick="javascript:go_auth(); return false;"><img src="/img/btn_twitter_en.png" alt="sign in with twitter" title="sign in with twitter" class="signin-icon" width="110" height="28"></a> <a href="#" onclick="javascript:go_auth('f'); return false;"><img src="/img/btn_fb_en.png" alt="sign in with facebook" title="sign in with facebook" class="signin-icon" width="110" height="28"></a> <a href="#" onclick="javascript:go_auth('c'); return false;"><img src="/img/btn_cas_en.png" alt="TwitCasting Account" title="TwitCasting Account" class="signin-icon" width="110" height="28"></a></div>
+	</div>
+
+		<table class="commentlist">
+		<tbody id="comment">
+		</tbody>
+		</table>
+            <a href="#" id="loadmore" class="btn btn-mini">Show More Comments</a>
+		<div class="endbox"></div>
+</div>
+
+
+<script type="text/javascript">
+
+// call back from flash player
+var current_frame_id = 0;
+function TwitCastingSetFrameId(value) {
+	current_frame_id = value;
+}
+function TwitCastingPostComment(message) {
+	send_comment(true, message);
+}
+
+// char left
+function update_charleft(){
+	if ($("#commenttext").length == 0) return false;
+	var chars = $("#commenttext").val().length;
+	var left = maxchars - chars;
+	$("#charleft").text(left);
+	if (left < 0){
+		$("#commentbutton").prop("disabled", true);
+		$("#charleft").addClass("charminus");
+	}else{
+		$("#commentbutton").prop("disabled", false);
+		$("#charleft").removeClass("charminus");
+	}
+}
+
+// toggle twitter post checkbox
+function toggle_twitpost(){
+	if ($("#twitpost").prop('checked')){
+		document.cookie = "notwitter=0;path=/;expires=Wed, 24 Feb 2016 01:22:33 +0000;domain=.twitcasting.tv";
+	}else{
+		document.cookie = "notwitter=1;path=/;expires=Wed, 24 Feb 2016 01:22:33 +0000;domain=.twitcasting.tv";
+	}
+	// erase warning
+	send_twitter_count = -1000;
+	$("#twitteralert").fadeOut("slow");
+
+}
+
+// toggle reply 
+function toggle_reply(username){
+	// erase warning
+	send_twitter_count = -1000;
+	var val = $("#commenttext").val();
+	// check if it is already reply
+	if (val.length == 0 || val.substr(0, 1) != "@"){
+		// add reply message
+		$("#commenttext").val("@" + username + " " + $("#commenttext").val());
+		$("#commenttext").focus();
+		
+	}else{
+		// toggle
+		if (val.toLowerCase().indexOf("@"+username) == 0){
+			$("#commenttext").val($("#commenttext").val().substr(username.length + 2));
+		}
+	}
+	$("#twitteralert").fadeOut("slow");
+
+	return false;
+}
+
+// send comment message
+var send_twitter_count = 0;
+var collabo_str = "";
+
+function send_comment(forcetwitter, message){
+	// value
+	var val = $("#commenttext").val();
+	if (forcetwitter) val = message;
+	if (!val) return false;
+	// remove returns
+	val = val.replace(/[\n\r]+/g, " ");
+    // trim
+    val = val.replace(/(^\s+)|(\s+$)/g, "");
+	if (!val) return false;
+	// check
+	var notwitter = "";
+	if (!forcetwitter && !$("#twitpost").prop('checked')){
+		notwitter = "2";
+	}
+	// disable form
+	$("#commentbutton").prop("disabled", true);
+	$("#commenttext").prop("disabled", true);
+	$("#loading").css("display", "inline");
+	var dataparam = "m=" + movieid + "&s=" + encodeURIComponent(val) + "&o=kentahiyadam&k=" + lastcommentid + "&nt=" + notwitter + collabo_str;
+	$.ajax({
+		url: "/kentahiyadam/userajax.php?c=post",
+		data: {
+			"m" : movieid,
+			"s" : val,
+			"o" : "kentahiyadam",
+			"k" : lastcommentid,
+						"nt" : notwitter
+		},
+		dataType: "json",
+		type: "POST",
+		success: function(data){
+			$("#commentbutton").prop("disabled", false);
+			$("#commenttext").prop("disabled", false);
+		   last_comment_chars = 0; // need this to hack javascript continuously
+			$("#loading").css("display", "none");
+			if (data["error"]){
+				alert(data["error"]);
+				if (data["redirect"]){
+					location.href = document.URL;
+				}
+			}else if (data.length == 0){
+				// error - maybe live is deleted
+				alert("Failed to post comment - Please try again later.");
+				return;
+           }else{
+                $("#commenttext").val("");
+           }
+			update_comment(data, true);
+			if ($("#twitpost").prop('checked')){
+				if (++send_twitter_count == 2  && false){
+					// show message
+					$("#twitteralert").fadeIn("slow");
+					setTimeout(function(){
+						$("#twitteralert").fadeOut("slow");
+					}, 10000);
+				}
+			}
+			$("#commenttext").focus();
+
+			if (typeof ga === 'function') {
+				ga('usTracker.send', 'event', 'comment', 'post', window.location.pathname);
+			}
+		},
+		error: function (XMLHttpRequest, textStatus, errorThrown) {
+		   //alert(errorThrown);
+		   
+		}
+	});
+}
+
+var lastcommentid = 0;
+
+// update comment timeline
+function update_comment(data, fade){
+	var shown = 0;
+	for (var i in data){
+		var val = data[i];
+		var commentid = val["id"];
+		var commentidstr = "" + commentid;
+		var show = val["show"];
+		// find comment id;
+		if (commentid && commentidstr.indexOf(".") < 0 && $("tr[commentid=" + commentid + "]").length > 0){
+			continue;
+		}
+		// skip if no show
+		
+		var elm = $("<tr></tr>");
+		if (!show){
+			elm.css("display", "none");
+		}
+
+		if (show){
+			shown++;
+			// add date
+			var d = new Date(Date.parse(val["date"]));
+			var datestr = "";
+			if (val["dur"]){
+				datestr = val["dur"] + " | ";
+			}
+			datestr += d.toLocaleDateString() + " " + d.toLocaleTimeString();
+			// br
+			var elmblock = $("<div></div>");
+			var elmdatespan = $("<span></span>");
+			elmdatespan.text(datestr + " ");
+			elmdatespan.addClass("smalldate");
+			elmblock.append(elmdatespan);
+			
+			if (commentid && commentidstr.indexOf(".") < 0){
+				if (val["uid"] == ""){
+					var elmclickspan = $("<span></span>");
+					var elmclicka = $("<a></a>");
+					elmclicka.addClass("smalldate block");
+					elmclicka.attr("href", "#");
+					elmclicka.attr("commentid", commentid);
+					elmclicka.click(function(){
+						remove_comment($(this).attr('commentid'));
+						return false;
+					});
+					elmclicka.text('Delete');
+					elmblock.append(elmclicka);
+				}
+			}
+			if (val["uid"] != "" && false){
+				var elmclickspan = $("<span></span>");
+				var elmclicka = $("<a></a>");
+				elmclicka.addClass("smalldate block");
+				elmclicka.attr("href", "#");
+				elmclicka.attr("uid", val["uid"]);
+				elmclicka.click(function(){
+								toggle_reply($(this).attr('uid'));
+								return false;
+								});
+				elmclicka.text('@Reply');
+				elmblock.append(elmclicka);
+			}
+			if (false && val["uid"] != "" && val["uid"].indexOf(":") == -1 &&
+				val["statusid"] && false && true){
+				var elmclickspan = $("<span></span>");
+				var elmclicka = $("<a></a>");
+				elmclicka.addClass("smalldate block");
+				elmclicka.attr("href", "#");
+				elmclicka.attr("statusid", val["statusid"]);
+				elmclicka.click(function(){
+								retweet_comment($(this).attr('statusid'));
+								return false;
+								});
+				elmclicka.text('Retweet');
+				elmblock.append(elmclicka);
+			}
+			if (commentid  && commentidstr.indexOf(".") < 0 && val["uid"] != "" && false){
+				var elmclickspan = $("<span></span>");
+				var elmclicka = $("<a></a>");
+				elmclicka.addClass("smalldate block");
+				elmclicka.attr("href", "#");
+				elmclicka.attr("commentid", val["id"]);
+				elmclicka.click(function(){
+					report_comment($(this).attr('commentid'));
+					return false;
+				});
+				elmclicka.text('Report Spam');
+				elmblock.append(elmclicka);
+			}
+			if (val["uid"] != "" && false){
+				var elmclickspan = $("<span></span>");
+				var elmclicka = $("<a></a>");
+				elmclicka.addClass("smalldate block");
+				elmclicka.attr("href", "/kentahiyadam/accountblock/?user=" + val["uid"]);
+				elmclicka.text('Block');
+                // block in another page
+				elmclicka.attr("target", "_blank");
+				elmblock.append(elmclicka);
+			}
+			if (val["lat"] != 0 || val["lng"] != 0){
+				var elmclickspan = $("<span></span>");
+				var elmclicka = $("<a></a>");
+				elmclicka.addClass("smalldate block");
+				elmclicka.attr("href", "#");
+				elmclicka.attr("mapid", "map_canvas" + val["id"]);
+				elmclicka.attr("lat", val["lat"]);
+				elmclicka.attr("lng", val["lng"]);
+				elmclicka.click(function(){
+					show_map($(this), $(this).attr('mapid'), $(this).attr('lat'), $(this).attr('lng'));
+					return false;
+				});
+				elmclicka.html('<img src="/img/map-pin.png" class="icon">Show Map');
+				elmblock.append(elmclicka);
+				var maparea = $("<div></div>");
+				maparea.attr("id", "map_canvas" + val["id"]);
+				maparea.addClass("commentmap");
+				maparea.css("display", "none");
+				elmblock.append(maparea);
+			}
+			
+			var elm2 = $(datestr);
+			
+			elm.addClass(val["class"]);
+			elm.html(val["html"]);
+			
+			// update typing status
+			if (val["uid"].toLowerCase() == typing_current_user){
+				clear_typing_user();
+			}else if (val["screen"] && val["screen"].toLowerCase() == typing_current_user){
+				clear_typing_user();
+			}
+            //
+            if (val["yomi"] && typeof clipboardData != "undefined" && typeof　clipboardData.setData == "function"){
+                clipboardData.setData("text", val["yomi"]);
+            }
+		}
+		if (commentid){
+			elm.attr("commentid", commentid);
+		}
+		if (fade && show){
+			elm.css("display", "none");
+			elm.fadeIn(700);
+		}
+		// find insert point
+		var currenttr = $("#comment tr:first");
+		while(currenttr.length){
+			if (!commentid || currenttr.attr("commentid") < commentid){
+				// insert before this element
+				currenttr.before(elm);
+				break;
+			}
+			currenttr = currenttr.next();
+		}
+		if (currenttr.length == 0){
+			$("#comment").append(elm);
+		}
+		// add date
+		elm.find("td.comment").append(elmblock);
+		if (commentid > lastcommentid) lastcommentid = commentid;
+		if (fade && fade != 2){
+			update_comment_num(1);
+		}
+	}
+	update_charleft();
+	// trim
+	trim_shown_comments();
+	return shown;
+}
+
+
+var max_comment_count = 100;
+function trim_shown_comments(){
+	var currentcount = $("#comment tr").length;
+	while(currentcount > max_comment_count){
+		for(var i = 0; i < currentcount - max_comment_count; i++){
+			$("#comment tr:last").remove();
+		}
+		currentcount = $("#comment tr").length;
+	}
+}
+
+
+
+var google_map_obj = null;
+function show_map(obj, elmid, lat, lng){
+	if (!obj.attr("mapshown")){
+		$("#" + elmid).show("slow", function(){
+                            var myLatlng = new google.maps.LatLng(lat, lng);
+                            var myOptions = {
+                            zoom: 13,
+                            center: myLatlng,
+                            mapTypeId: google.maps.MapTypeId.ROADMAP
+                            };
+                            google_map_obj = new google.maps.Map(document.getElementById(elmid),
+                                                                 myOptions);
+                            var marker = new google.maps.Marker({
+                                                                position: myLatlng, 
+                                                                map: google_map_obj,
+                                                                title:""
+                                                                });
+		});
+		obj.attr("mapshown", true)
+	}else{
+		$("#" + elmid).hide("slow");
+		google_map_obj = null;
+		obj.attr("mapshown", "")
+	}
+}
+
+
+function update_comment_num(val){
+	var current = parseInt($("#commentnum").text());
+	current = val + current;
+	$("#commentnum").text(current);
+    update_comment_num_area()
+}
+
+function update_comment_num_area(){
+	var current = parseInt($("#commentnum").text());
+    if (current > 0){
+        $("#commentnumarea").show();
+    }else{
+        $("#commentnumarea").hide();
+    }
+}
+update_comment_num_area();
+
+
+function remove_comment(commentid){
+	$.ajax({
+		url: "/userajax.php?c=removecomment&m=" + movieid + "&i=" + commentid,
+		dataType: "json",
+		type: "GET",
+		success: function(data){
+			// remove comment
+			$("#comment tr[commentid=" + commentid + "]").fadeOut("slow");
+			if (data["result"] == movieid){
+				update_comment_num(-1);
+			}
+		},
+		error: function(data){
+           // alert(data.responseText)
+           }
+	});
+}
+
+function retweet_comment(statusid){
+	$.ajax({
+		url: "/userajax.php?c=retweetcomment&i=" + statusid,
+		dataType: "json",
+		type: "GET",
+		success: function(data){
+			if (typeof(data) == "number" && data == 1){
+				// failed to update
+				alert("Could not retweet the specified comment.");
+			}else{
+				alert("Comment was retweeted to your followers.")
+			}
+		},
+		error: function(data){
+           //alert(data.responseText)
+           }
+	});
+}
+
+var send_comment_editing_notice_last_ts = 0;
+function send_comment_editing_notice(){
+	if (parseInt((new Date)/1000) - send_comment_editing_notice_last_ts > 5){
+		$.ajax({
+			   url: "/userajax.php?c=editcomment&m=" + movieid,
+			   dataType: "json",
+			   type: "GET",
+			   success: function(data){
+			   },
+			   error: function(data){
+               //alert(data.responseText)
+               }
+			   });
+		send_comment_editing_notice_last_ts = parseInt((new Date)/1000);
+	}
+}
+
+function report_comment(commentid){
+	if (confirm("You want to report this comment as a spam?")){
+		$.ajax({
+			url: "/userajax.php?c=reportcomment&cid=" + commentid,
+			dataType: "json",
+			type: "POST",
+			success: function(data){
+			   if (data["frequent"]){
+                alert("Thanks, but too many reports. Please send your report later.");
+			   }else{
+                alert("Thank you for your report.");
+                $("#comment tr[commentid=" + commentid + "]").fadeOut("slow");
+			   }
+			},
+			error: function(data){
+               //alert(data.responseText)
+               }
+		});
+	}
+	return false;
+}
+
+var updating_comment = false; // true while updating comment
+function do_update_comment(fade, from, num){
+	if (!from) from = 0;
+	if (!num) num = 10;
+	if (updating_comment) return true;
+	updating_comment = true;
+	$.ajax({
+		url: "/kentahiyadam/userajax.php?c=list&m=" + movieid + "&k=" + lastcommentid + "&f=" + from + "&n=" + num,
+		dataType: "json",
+		type: "GET",
+		success: function(data){
+		    var shown = update_comment(data, fade);
+			// remove more button if max reached
+			if (data == null || data.length < num * 0.8){
+				// end reached
+				$("#loadmore").hide();
+		   }
+           currentcommentsfrom += data.length;
+           max_comment_count += data.length;
+			updating_comment = false;
+		   if (data.length > 0 && shown == 0){
+				load_more_comments(null);
+		   }
+		},
+		error: function(data){
+		}
+	});
+}
+
+function on_comment_update_pressed(){
+    if (check_update_comment){
+        $("#loadingcomment").show();
+        check_comment_update();
+    }
+}
+
+var check_update_comment = true;
+var check_update_timer_id = false;
+// periodically check comment updates.
+function check_comment_update(){
+	if (check_update_comment){
+		$.ajax({
+			url: "/kentahiyadam/userajax.php?c=listupdate&m=" + movieid + "&n=" + movie_cnum + "&k=" + lastcommentid,
+			dataType: "json",
+			type: "GET",
+			success: function(data){
+				if (data["comment"]){
+					update_comment(data["comment"], true);
+					movie_cnum = data["cnum"];
+				}
+			   if (data["edit"] != undefined){
+					show_typing_user(data["edit"]);
+			   }
+               if (check_update_timer_id != false){
+                    clearTimeout(check_update_timer_id);
+               }
+               check_update_timer_id = setTimeout(function(){
+					check_comment_update();
+				}, 8000);
+               $("#loadingcomment").hide();
+			},
+			error: function(data){
+               check_update_timer_id = setTimeout(function(){
+					check_comment_update();
+				}, 8000);
+			}			
+		});
+	}else{
+        if (check_update_timer_id != false){
+            clearTimeout(check_update_timer_id);
+        }
+		check_update_timer_id = setTimeout(function(){
+			check_comment_update();
+		}, 8000);
+	}
+}
+
+// load more comments
+var currentcommentsfrom = 0;
+function load_more_comments(e){
+	auto_load_comment_count++;
+	if (auto_load_comment_count < 2){
+		var currenttrs = $("#comment tr").length;
+		do_update_comment(2, currentcommentsfrom, 10);
+	}
+	return false;
+}
+
+// hide comment
+function hide_comment(){
+	check_update_comment = false;
+	$("#commentbox").fadeOut("slow");
+}
+function show_comment(){
+	check_update_comment = true;
+	$("#commentbox").fadeIn("slow");
+}
+
+// show typing
+var typing_timer = null;
+var typing_current_user = "";
+// callback
+function TwitCastingBeginTyping(user){
+	show_typing_user(user);
+}
+
+// show typing user
+function show_typing_user(user){
+	if (user.toLowerCase() == "") return;
+	if (user.toLowerCase() == typing_current_user) return;
+	if (user == "kentahiyadam") return;
+	typing_current_user = user.toLowerCase();
+	if (user == ""){
+		clear_typing_user();
+		return;
+	}
+	if (typing_timer){
+		clearTimeout(typing_timer);
+		typing_timer = null;
+		$("#typing").fadeOut("fast", function(){
+				$("#typing").text(user + " is typing..").fadeIn("fast");
+		});
+	}else{
+		$("#typing").text(user + " is typing..").fadeIn("fast");
+	}
+	typing_timer = setTimeout(clear_typing_user, 7000);
+}
+
+// clear typing user
+function clear_typing_user(){
+	$("#typing").fadeOut("fast");
+	if (typing_timer){
+		clearTimeout(typing_timer);
+		typing_timer = null;
+	}
+}
+
+var maxchars = 140;
+var comment_update_interval = 8000;
+var movie_cnum = 7;
+var movieid = "240396320";
+var posttitle = "";
+var postmessage = "";
+
+function update_for_movie(mid){
+	$.ajax({
+		   url: "/userajax.php?c=movieinfo&m=" + mid,
+		   dataType: "json",
+		   type: "GET",
+		   success: function(data){
+		   if (data["maxchars"]) maxchars = data["maxchars"];
+		   if (data["comment_update_interval"]) comment_update_interval = data["comment_update_interval"];
+		   if (data["posttitle"]) posttitle = data["posttitle"];
+		   if (data["postmessage"]) postmessage = data["postmessage"];
+		   if (data["duration"] && $("#updatetimer").length){
+				// update live timer
+				my_timer = start_uptimer("#updatetimer", data["duration"]);
+		   }
+		   if (data["movietitle"] && $("#movietitle").length){
+			$("#movietitle").html(data["movietitle"]);
+		   }
+           if (data["cnum"] != undefined) movie_cnum = data["cnum"];
+		   $("#commentnum").text(movie_cnum);
+           update_comment_num_area()
+		   movieid = mid;
+		   }
+		   });
+}	
+
+// openedwindow
+var commentwindow = false;
+function closecommentwindow(){
+	commentwindow = false;
+}
+
+var auto_load_comment_count = 0;
+
+
+// events
+var last_comment_chars = 0;
+$("#commenttext").keyup(function(){
+	update_charleft();
+	if (last_comment_chars == 0 && $("#commenttext").val().length > 0){
+		send_comment_editing_notice();
+	}
+	last_comment_chars = $("#commenttext").val().length;
+						
+});
+$("#commenttext").change(function(){
+	update_charleft();
+});
+
+$("#twitpost").change(function(){
+	toggle_twitpost();
+});
+
+$("#toggle_reply_link").click(function(){
+	toggle_reply('kentahiyadam');
+	return false;
+});
+
+			  
+
+// initialization
+$(document).ready(function(){
+
+
+	// show more comments
+	$("#loadmore").click(function(){
+		auto_load_comment_count = -9999;
+		load_more_comments(false);
+		return false;
+	});
+
+	// need this, for initial comment
+	$("#commenttext").val("");
+		$("#commenttext").focus();
+	// reset typing user
+	$("#typing").fadeOut();
+	// chars
+	update_charleft();
+	// update comment 
+	do_update_comment(false, 0, 10);
+	// update cooment timer
+	check_comment_update();
+
+	// window opener
+	$(".openwindowlink").click(
+		function(){
+			commentwindow = window.open("/kentahiyadam/windowcomment/" + movieid, 'commentwindow', 'width=580,toolbar=no,menubar=no,scrollbars=yes');
+			hide_comment();
+		}
+	);
+	var initial_document_height = $(document).height();
+	$(window).scroll(function(){
+		if ($("#loadmore:visible").length && $(window).height() + $(document).scrollTop()  > $("#loadmore").offset().top + $("#loadmore").height()){
+			// auto show comments
+			if (auto_load_comment_count < 0 || initial_document_height >= $(document).height()){
+				load_more_comments(false);
+			}
+		}
+	});
+});
+</script>
+
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+
+<noscript>
+        <div class="box">
+        <table class="commentlist">
+        <tbody id="comment">
+<tr><td class="img"><a href="/emo___jp"><img src="http://202-234-44-61.moi.st/image3s/pbs.twimg.com/profile_images/696970715044548609/xSKOkNre_normal.jpg" width="48" height="48"></a></td><td class="comment"><span class="user"><a href="/emo___jp">emo___jp</a><span class="name">(しろくま)</span></span><br><p><a href="/kentahiyadam/comment/240396320-5994285200">おけ</a></p><br><span class="smalldate"><span id="56c3cb59282e3"></span><script type="text/javascript">
+var d = new Date(Date.parse("Tue, 09 Feb 2016 02:55:06 +0900"));
+$("#56c3cb59282e3").text(d.toLocaleDateString() + " " + d.toLocaleTimeString());
+</script>
+</span></td><td></td></tr><tr><td class="img"><a href="/kotasan4"><img src="http://202-234-23-158.moi.st/image3s/pbs.twimg.com/profile_images/695623492415258625/Mp_xYyXr_normal.jpg" width="48" height="48"></a></td><td class="comment"><span class="user"><a href="/kotasan4">Kotasan4</a><span class="name">(Kotasan)</span></span><br><p><a href="/kentahiyadam/comment/240396320-5994284066">初見です。(笑)</a></p><br><span class="smalldate"><span id="56c3cb5929712"></span><script type="text/javascript">
+var d = new Date(Date.parse("Tue, 09 Feb 2016 02:54:53 +0900"));
+$("#56c3cb5929712").text(d.toLocaleDateString() + " " + d.toLocaleTimeString());
+</script>
+</span></td><td></td></tr><tr><td class="img"><a href="/emo___jp"><img src="http://202-234-44-61.moi.st/image3s/pbs.twimg.com/profile_images/696970715044548609/xSKOkNre_normal.jpg" width="48" height="48"></a></td><td class="comment"><span class="user"><a href="/emo___jp">emo___jp</a><span class="name">(しろくま)</span></span><br><p><a href="/kentahiyadam/comment/240396320-5994282861">あがろうか？</a></p><br><span class="smalldate"><span id="56c3cb592acef"></span><script type="text/javascript">
+var d = new Date(Date.parse("Tue, 09 Feb 2016 02:54:39 +0900"));
+$("#56c3cb592acef").text(d.toLocaleDateString() + " " + d.toLocaleTimeString());
+</script>
+</span></td><td></td></tr><tr><td class="img"><a href="/yugabf19991029"><img src="http://202-234-44-63.moi.st/image3s/pbs.twimg.com/profile_images/696034093482389504/iAonLR9b_normal.jpg" width="48" height="48"></a></td><td class="comment"><span class="user"><a href="/yugabf19991029">yugabf19991029</a><span class="name">(유우가悠雅)</span></span><br><p><a href="/kentahiyadam/comment/240396320-5994282483">かくかくなってる笑</a></p><br><span class="smalldate"><span id="56c3cb592bcd4"></span><script type="text/javascript">
+var d = new Date(Date.parse("Tue, 09 Feb 2016 02:54:34 +0900"));
+$("#56c3cb592bcd4").text(d.toLocaleDateString() + " " + d.toLocaleTimeString());
+</script>
+</span></td><td></td></tr><tr><td class="img"><a href="/kotasan4"><img src="http://202-234-23-158.moi.st/image3s/pbs.twimg.com/profile_images/695623492415258625/Mp_xYyXr_normal.jpg" width="48" height="48"></a></td><td class="comment"><span class="user"><a href="/kotasan4">Kotasan4</a><span class="name">(Kotasan)</span></span><br><p><a href="/kentahiyadam/comment/240396320-5994282173">てい</a></p><br><span class="smalldate"><span id="56c3cb592c375"></span><script type="text/javascript">
+var d = new Date(Date.parse("Tue, 09 Feb 2016 02:54:31 +0900"));
+$("#56c3cb592c375").text(d.toLocaleDateString() + " " + d.toLocaleTimeString());
+</script>
+</span></td><td></td></tr><tr><td class="img"><a href="/emo___jp"><img src="http://202-234-44-61.moi.st/image3s/pbs.twimg.com/profile_images/696970715044548609/xSKOkNre_normal.jpg" width="48" height="48"></a></td><td class="comment"><span class="user"><a href="/emo___jp">emo___jp</a><span class="name">(しろくま)</span></span><br><p><a href="/kentahiyadam/comment/240396320-5994281397">けーんちゃん</a></p><br><span class="smalldate"><span id="56c3cb592ca68"></span><script type="text/javascript">
+var d = new Date(Date.parse("Tue, 09 Feb 2016 02:54:22 +0900"));
+$("#56c3cb592ca68").text(d.toLocaleDateString() + " " + d.toLocaleTimeString());
+</script>
+</span></td><td></td></tr><tr><td class="img"><a href="/kentahiyadam"><img src="http://202-234-44-61.moi.st/image3s/pbs.twimg.com/profile_images/695431740177780737/2W8O_mkn_normal.jpg" width="48" height="48"></a></td><td class="comment"><span class="user"><a href="/kentahiyadam">kentahiyadam</a><span class="name">(けんた)</span></span><br><p><a href="/kentahiyadam/comment/240396320-5994279991">モイ！iPhoneからキャス配信中 -</a></p><br><span class="smalldate"><span id="56c3cb592d309"></span><script type="text/javascript">
+var d = new Date(Date.parse("Tue, 09 Feb 2016 02:54:06 +0900"));
+$("#56c3cb592d309").text(d.toLocaleDateString() + " " + d.toLocaleTimeString());
+</script>
+</span></td><td></td></tr>        </tbody>
+        </table>
+        <p>
+            <a href="/kentahiyadam/moviecomment/240396320">Comment history of (Deleted)</a>
+        </p>
+        <p>
+            <a href="/kentahiyadam/listcomment">kentahiyadam's comment history</a>
+        </p>
+        </div>
+
+</noscript>
+	</div>
+	</div>
+
+</div>
+</div>
+    <input type="hidden" id="edit_required_flag" value="true" />
+    <input type="hidden" id="user_id" value="kentahiyadam" />
+    <input type="hidden" id="movie_id" value="240396320" />
+    <input type="hidden" id="created_unix_time" value="1454954042" />
+<!-- footer -->
+<div id="footerwrapper">
+	<div id="pagetop">
+	<p><span class="toplink"><a href="#">Page Top</a></span></p>
+	</div>
+	<div id="footercontainer"> 
+		<div id="footer" class="clearfix">
+			<p>
+		<a href="/indexprivacy.php">Privacy Policy</a> |
+		<a href="/indexlicense.php">Terms of Service</a> |
+		<a href="/indexsupport.php">Support </a> | 
+		<a href="/indexattribution.php">Attribution</a> | 
+		<a href="/indexapi.php">Developer API</a>
+			<br>
+Copyright (c) 2009-2016 <a href="http://moi.st/">Moi Corp.</a>
+ (<a href="http://sidefeed.com/">sidefeed, Inc.</a>)
+			</p>	
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+// scroller
+$("span.toplink a").click(
+	function(){
+		$('html,body').animate({ scrollTop: 0 }, 'slow');
+		return false;
+	}
+);
+
+if (typeof assign_table_event != 'function'){
+	assign_table_event = function(){
+	  $("table td.rankcol .ranknum").each(function(){
+	    if ($(this).text().length == 2){
+	      $(this).css({fontSize: "30px", lineHeight: 1.5});
+	    }else if ($(this).text().length >= 3){
+	      $(this).css({fontSize: "20px", lineHeight: 2.0});
+	    }
+	  });
+	};
+	assign_table_event();
+}
+
+</script>
+<!-- end of footer -->
+
+
+<script type="text/javascript">
+var time_offset = (new Date()).getTimezoneOffset();
+document.cookie = "time_offset=" + time_offset + ";path=/;domain=.twitcasting.tv";
+</script>
+
+
+
+
+    <object width="1" height="1" id="register" align="middle">
+    <param name="allowScriptAccess" value="sameDomain" />
+    <param name="wmode" value="transparent" />
+    <param name="movie" value="/swf/register.swf" />
+    <embed wmode="transparent" src="/swf/register.swf" quality="high" width="1" height="1" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" name="registerembed" id="registerembed"/>
+    </object>
+
+
+
+
+
+    <script type="text/javascript" src="/js/minified/class/MovieSubtitleManager.min.js"></script>
+    <script type="text/javascript" src="/js/minified/others/usermovie.min.js"></script>
+</body>
+</html>

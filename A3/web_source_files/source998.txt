@@ -1,0 +1,1549 @@
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="Page-Enter" content="blendTrans(duration=0)" />
+    <meta http-equiv="Page-Exit" content="blendTrans(duration=0)" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>    
+    <meta http-equiv="X-Frame-Options" content="allow">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"b0216f3ff3","applicationID":"3434714","transactionName":"YlxWbBBZWkUDB0IMXlsWdWsyF0RZERAZAV5WTFldDExCXwcTUxcfVEpEQA==","queueTime":0,"applicationTime":213,"ttGuid":"CAA7CAC6AF826506","agent":""}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function c(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),c=a.length,u=0;c>u;u++)a[u].apply(i,r);return i}function u(t,e){p[t]=f(t).concat(e)}function f(t){return p[t]||[]}function s(){return r(c)}var p={};return{on:u,emit:c,create:s,listeners:f,context:e,_events:p}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!v++){var t=l.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(p,function(e,n){t[e]||(t[e]=n)});var n="https"===s.split(":")[0]||t.sslForHttp;l.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=l.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),c=t(1),u=window,f=u.document;t(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),l=e.exports={offset:i(),origin:s,features:{},xhrWrappable:d};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var v=0},{1:12,2:3,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],12:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],13:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}]},{},["G9z0Bl"]);</script>
+    <title>How Have Dealerships Fared In Fight Against Union "Quickie" Elections? | Fisher & Phillips LLP - JDSupra</title>
+    <meta name="description" content="The National Labor Relations Board’s (NLRB) “quickie” election rules took effect on April 14, 2015, substantially expediting the union election process. Among other things, the new..." />
+    <link rel="image_src" href="https://www.jdsupra.com/showThumbnail.aspx?img=7295_3726.jpg" />   
+    <meta property="og:title" content="How Have Dealerships Fared In Fight Against Union &quot;Quickie&quot; Elections? | JD Supra" /> 
+    <meta property="og:url" content="http://www.jdsupra.com/legalnews/how-have-dealerships-fared-in-fight-46946/" />
+    <meta property="og:image" content="http://www.jdsupra.com/showThumbnail.aspx?img=7295_3726.jpg&size=og" />
+    <meta property="og:site_name" content="JD Supra" />
+       
+    <meta property="fb:app_id" content="87741124305">
+    <meta property="og:type" content="article" />
+    
+    
+        
+        
+    
+    
+    
+       
+    <meta name="twitter:card" content="summary"> 
+    <meta name="twitter:title" content="How Have Dealerships Fared In Fight Against Union &quot;Quickie&quot; Elections?">    
+    <meta name="twitter:description" content="The National Labor Relations Board’s (NLRB) “quickie” election rules took effect on April 14, 2015, substantially expediting the union election process. Among other things, the new rules cut the...">  
+    <meta name="twitter:image" content="http://www.jdsupra.com/showThumbnail.aspx?img=7295_3726.jpg&amp;size=hr">    
+    <meta name="twitter:site" content="@jdsupra"> 
+    <meta name="twitter:creator" content="@labor_attorneys">   
+       
+      
+     
+    
+    
+    <link rel="alternate" href="http://www.jdsupra.com/oembed/index.asmx/GetOembedObject?url=http%3a%2f%2fwww.jdsupra.com%2flegalnews%2fhow-have-dealerships-fared-in-fight-46946%2f" type="text/xml+oembed" />
+    <link rel="canonical" href="http://www.jdsupra.com/legalnews/how-have-dealerships-fared-in-fight-46946/" />
+    <link rel="shortcut icon" href="/img/fav-jdsupra.ico" />
+    
+<link href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic|Open+Sans:400,400italic,700|Droid+Serif:400" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="/inc/css/style-responsive.css" />
+<script src="/inc/js/libs/modernizr-1.7.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">      
+    <link href="/inc/css/video-js.css" rel="stylesheet" />
+    <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-1583108-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+ 
+
+</head>
+
+<body id="docviewer" class="clearfix ">
+    <span id="pageNameDebug"></span>
+    <a name="top"></a>
+  
+    <div class="site-header">
+        <div>
+            <div class="site-body">    
+                <div class="col">
+                    <div class="cell-side">            
+                        <div class="col sizefill ">
+	                        <div class="cell-side">
+                        	<!--Full Size-->
+                            <div class="site-top-nav sitemenu full-width" role="navigation">
+
+                                <div class="logo"><a href="/"><img src="/img/logo-jd-supra-business-advisor-inverse.png"></a></div>         
+                                <ul class="nav nav-primary" id="topNavigation">
+                                    
+                                    <!--<li id="topNavHome"><a class="nav-primary-home-lnk" href="/">&nbsp;</a></li>-->
+                                    <li id="topNavLawNews" class="has-mega">
+                                        <a class="nav-for-ie6" href="/law-news/">News &amp; Insights</a>
+                                        <div class="nav-primary-law-news-lnk menu-item nav-primary-has-mega" onclick="openMegaMenu('topNavLawNews')"><div class="nav-menu-arrow">News &amp; Insights &nbsp;</div></div>
+                                        <div class="mega-menu is-collapsed topNavLawNews">
+                                        <div class="sm" style="margin: 0 20px 15px;">
+                                                <a href="/law-news/" class="red"><strong>Jump to: Latest Updates &raquo;</strong></a>
+                                            </div>
+                                            <div class="float-left size1of3">
+                                                <ul class="y_list sm dottedright">
+                                                    <li><strong>Popular</strong></li>
+                                                    <li><a href="/law-news/labor-employment/" class="lnk" onclick="_gaq.push(['_trackPageview', '/NewsInsights']);">Labor & Employment</a></li>        
+<li><a href="/law-news/finance-banking-law/" class="lnk" onclick="_gaq.push(['_trackPageview', '/NewsInsights']);">Finance & Banking</a></li>
+<li><a href="/law-news/ip-law/" class="lnk" onclick="_gaq.push(['_trackPageview', '/NewsInsights']);">Intellectual Property</a></li>
+<li><a href="/law-news/health-law/" class="lnk" onclick="_gaq.push(['_trackPageview', '/NewsInsights']);">Health &amp; Healthcare</a></li>
+<li><a href="/law-news/environmental-law/" class="lnk" onclick="_gaq.push(['_trackPageview', '/NewsInsights']);">Environmental Issues</a></li>
+
+
+                                                    <li><a href="/browse/legal-news.aspx" class="red">...more</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="float-left size1of3">
+                                                <ul class="y_list sm dottedright">
+                                                    <li><strong>Business</strong></li>
+                                                    <li><a href="/law-news/insurance-law/">Insurance</a></li>
+                                                    <li><a href="/law-news/commercial-real-estate/">Commercial Real Estate</a></li>        
+                                                    <li><a href="/topics/corporate-taxes/">Corporate Taxes</a></li>
+                                                    <li><a href="/law-news/immigration-law/">Immigration</a></li>
+                                                    <li><a href="/law-news/securities-law/">Securities</a></li>                                    
+                                                    <li><a href="/browse/legal-news.aspx" class="red">...more</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="float-left size1of3">
+                                                <ul class="y_list sm">
+                                                    <li><strong>Personal</strong></li>        
+                                                    <li><a href="/law-news/residential-real-estate-law/">Residential Real Estate</a></li>
+                                                    <li><a href="/topics/estate-planning/">Estate Planning</a></li>
+                                                    <li><a href="/law-news/civil-rights/">Civil Rights</a></li>
+                                                    <li><a href="/topics/income-taxes/">Personal Taxes</a></li>
+                                                    <li><a href="/law-news/bankruptcy-law/">Bankruptcy</a></li>
+                                                    <li><a href="/browse/legal-news.aspx" class="red">...more</a></li>
+                                                </ul>
+                                           </div>
+                                        </div>
+                                    </li>
+                                    <li id="topNavTrending" class="has-mega">
+                                        <a class="nav-for-ie6" href="/browse/legal-news.aspx">Trending</a>
+                                        <div class="nav-primary-trending-lnk menu-item nav-primary-has-mega" onclick="openMegaMenu('topNavTrending')"><div class="nav-menu-arrow">Trending [7] &nbsp;</div></div>
+                                        <div class="mega-menu is-collapsed topNavTrending">
+                                            <div class="col">
+                                                <ul class="y_list sm grey-arrow">
+                                                    <li><a href="/legalnews/the-oil-bust-bankruptcy-boom-67365/" class="lnk" onclick="_gaq.push(['_trackPageview', '/trending']);">The Oil Bust...Bankruptcy Boom?</a></li>
+<li><a href="/legalnews/will-wearable-technology-be-a-boost-to-52581/" class="lnk" onclick="_gaq.push(['_trackPageview', '/trending']);">Will Wearable Tech Be a Boost To Enterprise Security?</a></li>
+<li><a href="/legalnews/uber-complicated-insurance-gaps-for-48463/" class="lnk" onclick="_gaq.push(['_trackPageview', '/trending']);">Uber-Complicated: Insurance Gaps for Rideshare Vehicles...</a></li>
+<li><a href="/legalnews/bitcoin-and-the-changing-legal-landscape-55070/" class="lnk" onclick="_gaq.push(['_trackPageview', '/trending']);">Bitcoin and the Changing Legal Landscape</a></li>
+<li><a href="/legalnews/top-considerations-when-building-byod-30290/" class="lnk" onclick="_gaq.push(['_trackPageview', '/trending']);">Top Considerations When Building BYOD Policies</a></li>
+<li><a href="/legalnews/10-rules-for-writing-to-be-read-infogra-81173/" class="lnk" onclick="_gaq.push(['_trackPageview', '/trending']);">10 Rules for Writing to Be Read [Infographic]</a></li>
+<li><a href="http://www.jdsupra.com/follow/manageyourinterests/" class="lnk" onclick="_gaq.push(['_trackPageview', '/trending']);">Build a Custom News Brief: Easy, Convenient, Free!</a></li>
+
+													<li class="nobullet"><a class="red lnk" href="/browse/legal-news.aspx">Browse All Law News Topics &raquo;</a></li>                                                    
+                                                </ul>                                  
+                                            </div>
+                                        </div>
+                                    </li>      
+                                    <li id="topNavFindLawyer" class="has-mega">
+                                        <a class="nav-for-ie6" href="/findauthor/">Find Author</a>                                        
+                                        <div class="nav-primary-author-lnk menu-item nav-primary-has-mega" onclick="openMegaMenu('topNavFindLawyer')"><div class="nav-menu-arrow">Find Author &nbsp;</div></div>
+                                        <div class="mega-menu is-collapsed topNavFindLawyer">
+                                            <div class="size1of3 float-left">
+                                                <ul class="y_list sm dottedright">
+                                                    <li><strong>By Business Matters</strong></li>
+                                                    <li><a href="/findauthor/Labor-Employment-Law/">Labor & Employment</a></li>
+                                                    <li><a href="/findauthor/Finance-Banking/">Finance & Banking</a></li>
+                                                    <li><a href="/findauthor/Intellectual-Property/">Intellectual Property</a></li>                                                                         
+                                                    <li><a href="/findauthor/Insurance/">Insurance</a></li>
+                                                    <li><a href="/findauthor/Taxation/">Taxes</a></li>
+                                                    <li><a href="/findauthor/" class="red">See All Subjects &raquo;</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="size1of3 float-left">
+                                                <ul class="y_list sm dottedright">
+                                                    <li><strong>By Personal Issues</strong></li>
+                                                    <li><a href="/findauthor/Civil-Rights/">Civil Rights</a></li>
+                                                    <li><a href="/findauthor/Family-Law/">Family Matters</a></li>
+                                                    <li><a href="/findauthor/Personal-Injury/">Personal Injury</a></li>
+                                                    <li><a href="/findauthor/Wills-Trusts-Estate-Planning/">Wills, Trusts, & Estate Planning</a></li>
+                                                    <li><a href="/findauthor/Workers-Compensation/">Worker&rsquo;s Compensation</a></li>
+                                                    <li><a href="/findauthor/" class="red">See All Subjects &raquo;</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="size1of3 float-left">
+                                                <ul class="y_list sm">
+                                                    <li><strong>By Location</strong></li>
+                                                    <li><a href="/findauthor/United-States/California/">California</a></li>
+                                                    <li><a href="/findauthor/United-States/New-York/">New York</a></li>
+                                                    <li><a href="/findauthor/United-States/Texas/">Texas</a></li>
+                                                    <li><a href="/findauthor/Canada/">Canada</a></li>
+                                                    <li><a href="/findauthor/United-Kingdom/">United Kingdom</a></li>
+                                                    <li><a href="/findauthor/" class="red">See All Locations &raquo;</a></li>
+                                                </ul>
+                                           </div>
+                                        </div>      
+                                    </li>
+
+                                    <li id="topNavFollow" class="has-mega">
+                                        <a class="nav-for-ie6" href="/follow/manageyourinterests/">Subscribe</a>                                       
+
+                                        <div class="nav-primary-subscribe-lnk menu-item nav-primary-has-mega" onclick="openMegaMenu('topNavFollow')"><div class="nav-menu-arrow">Subscribe &nbsp;</div></div><div class="nav-primary-more-lnk menu-item nav-primary-has-mega" onclick="openMegaMenu('topNavFollow')"><div class="nav-menu-arrow">More &nbsp;</div></div>
+                                        <div class="mega-menu is-collapsed topNavFollow">
+                                            <div class="col">
+                                                <ul class="y_list sm grey-arrow">
+                                                    <li><a href="/follow/manageyourinterests/" 
+                                                        onclick="ga('send', 'event', 'follow', 'Topnav Email Link - Subscribe', 'Custom Email Digests');">Custom Email Digests</a></li> 
+                                                    <li><a href="/legal-news/twitter-law-feeds.aspx">Twitter</a></li>
+                                                    <li><a href="/legal-news/rss-law-feeds.aspx">RSS</a></li>
+                                                    <li><a href="/legal-news/mobile-law-feeds.aspx">iPhone</a></li>
+                                                    <li><a href="/legal-news/publisher-law-feeds.aspx">Feeds for Publishers</a></li>
+                                                    <li class="nav-tablet-for-reporters"><a href="/perspective/media-query.aspx" class="lnk">For Reporters</a></li>
+                                                    <li><a href="/follow/manageyourinterests/" onclick="ga('send', 'event', 'follow', 'Topnav Email Link mgmt - Subscribe', 'Manage My Feeds');">Manage My Feeds</a></li> 
+                                                                                                                                               
+                                                </ul>                                  
+                                            </div>
+                                        </div>
+                                    </li>                                        
+                                    <li id="topNavForReporters"><a href="/perspective/media-query.aspx" class="nav-primary-default-lnk">For Reporters</a></li>
+                                    <li class="has-mega" id="topNavAccount"><div class="nav-primary-account-lnk nav-primary-has-mega" onclick="openMegaMenu('topNavAccount')">&nbsp;</div>
+                                            	                  
+                                                                       
+                                                
+                                             
+                                            <div class="mega-menu is-collapsed topNavAccount">
+                                                <ul class="y_list sm grey-arrow">
+                                                <li><a href="/login.aspx" onclick="ga('send', 'event', 'follow', 'Topnav Contributor Log In', 'Contributor Log In');">Log In</a></li>
+                                                <li><a href="/follow/manageyourinterests/" onclick="ga('send', 'event', 'follow', 'Topnav Email Link mgmt ', 'Manage My Feeds');">Manage My Feeds</a></li>
+                                            </ul>
+                                            </div>                  	
+                                                   
+                                    </li>           
+  
+                                   <li class="has-mega" id="topNavSearchIcon"><div class="nav-primary-search-lnk nav-primary-has-mega" onclick="openMegaMenu('topNavSearchIcon')">&nbsp;</div>
+										<div class="mega-menu is-collapsed topNavSearchIcon">                                        
+											<script type="text/javascript">	
+                                                function checkSearch() {            
+                                                    var y=document.UniSearchForm.sTerm.value;                                      
+                                                    if ((y=="")||(y=="Search All Docs")) {
+                                                        alert("Please enter Document Search text.");
+                                                        return false;	
+                                                    }
+                                                    else {			                	
+                                                        document.getElementById("loadingTop1").style.visibility = 'visible';	
+                                                        return true;	    
+                                                    }                		
+                                                } 
+                                                
+                                                function clearSearch(thefield){
+                                                    if (thefield.value=="Search All Docs")
+                                                    thefield.value = ""
+                                                } 
+                                            </script>
+                                        <ul>             
+                                        	<li>
+                                                <form id="UniSearchForm" name="UniSearchForm" action="/search/searchResults.aspx" method="get" onsubmit="return checkSearch();">
+                                                <input type="text" id="sTerm" name="sTerm" value="Search All Docs" onfocus="clearSearch(this);" class="nav-search-input"  /><input type="image" src="/img/search-icon-white.png" class="nav-search-btn" alt="Search" />
+                                                <!--<img id="loadingTop1" name="loadingTop1" src="/img/uniSearchLoading.gif" alt="WORKING..." class="formatLoader" style="visibility:hidden;" />-->
+                                                </form>                                              
+                                            </li>
+                                    	</ul>
+                                        </div>        
+                                   </li>                                                                       
+                                    <li id="topNavSearch">
+                                    	<div class="nav-primary-search-lnk-bar">
+                                            <form id="UniSearchForm" name="UniSearchForm" action="/search/searchResults.aspx" method="get" onsubmit="return checkSearch();">
+                                            <input type="text" id="sTerm" name="sTerm" value="Search All Docs" onfocus="clearSearch(this);" class="nav-search-input"  /><input type="image" src="/img/search-icon-white.png" class="nav-search-btn" alt="Search" />
+                                            <!--<img id="loadingTop1" name="loadingTop1" src="/img/uniSearchLoading.gif" alt="WORKING..." class="formatLoader" style="visibility:hidden;" />-->
+                                            </form>          
+                                    	</div>          
+                                    </li>              
+                  
+                                </ul>     
+                               
+                            </div>
+                            </div>                       
+                            <!--Mobile--> 
+                            <div class="sitemenu-responsive collapsible collapsed">
+                                <div class="col collapse-trigger">
+                                <div class="site-top-nav">
+                                    <ul class="nav full-width">
+	                                    <li>
+                                            <a class="nav-primary-mobile-home-lnk" href="/">
+                                                <object data="/img/home.svg" type="image/svg+xml" width="16" height="16">
+                                                  <img src="/img/home.png" />
+                                                </object>
+                                            </a>
+                                        </li>
+                                        <li>
+                                        	<div class="nav-primary-mobile-menu-lnk nav-has-secondary" id="MobileMenuLnk" onclick="openTier('MobileMenuLnk')">
+                                                <div class="media mobile-media-menu">
+                                                    <div class="img mobile-media-menu-img">
+                                                        <object data="/img/hamburger.svg" type="image/svg+xml" width="16" height="16">
+                                                          <img src="/img/hamburger.png" />
+                                                        </object>
+                                                    </div>
+                                                    <div class="bd">MENU</div>
+                                                </div>
+                                            </div>
+                                        </li>
+	                                    <li class="float-right"><div class="nav-primary-mobile-account-lnk nav-has-secondary" id="MobileAccountLnk" onclick="openTier('MobileAccountLnk')">
+                                            <object data="/img/settings.svg" type="image/svg+xml" width="16" height="16">
+                                                <img src="/img/settings.png" />
+                                            </object>
+                                        </div></li>   
+	                                    <li class="float-right"><div class="nav-primary-mobile-search-lnk nav-has-secondary" id="MobileSearchLnk" onclick="openTier('MobileSearchLnk')">
+                                            <object data="/img/search.svg" type="image/svg+xml" width="16" height="16">
+                                                <img src="/img/search.png" />
+                                            </object>
+                                        </div></li>                                         
+                                    </ul>
+                                </div>
+                        	</div>
+                    	</div>                                             
+            		</div>
+            	</div>
+       		 </div>
+    	</div>
+    </div>
+	</div>
+
+    <div class="site-center" id="MobileMenuBlock">
+        <div class="col">
+            <div class="left is-collapsed mobile-mega-menu MobileSearchLnk">
+                <ul class="nav-secondary sm">
+                    <li><div class="lnk">
+                        <form id="UniSearchForm" name="UniSearchForm" action="/search/searchResults.aspx" method="get" onsubmit="return checkSearch();">
+                        <input type="text" id="sTerm" name="sTerm" value="Search All Docs" onfocus="clearSearch(this);" class="nav-search-input"  /><input type="image" src="/img/search-icon-white.png" class="nav-search-btn" alt="Search" />
+                        <!--<img id="loadingTop1" name="loadingTop1" src="/img/uniSearchLoading.gif" alt="WORKING..." class="formatLoader" style="visibility:hidden;" />-->
+                        </form>                        
+                    </div> </li>                                
+                </ul>
+            </div>          
+            <div class="left is-collapsed MobileMenuLnk mobile-mega-menu">
+                <ul class="nav-secondary sm">
+                    <li><a href="/" class="lnk upper">Home
+
+
+                    <div class="nav-mobile-menu-no-collapsable">
+                        <img src="/img/right-arrow.png" />
+                    </div>
+
+                    </a></li>
+                    <li id="MobileSecondaryNewsLnk" class="mega-secondary-top">
+                        <div class="lnk nav-secondary-has-mega upper">
+                            News &amp; Insights &nbsp;&nbsp;
+                            <div class="nav-mobile-menu-collapsable">
+                                <img src="/img/plus-white.png" />
+                            </div>
+                            <div class="nav-mobile-menu-open-collapsable">
+                                <img src="/img/minus-white.png" />
+                            </div>
+                        </div>
+                        <div class="MobileSecondaryNewsLnk mega-secondary-collapsable is-collapsed">
+                            <ul class="nav-secondary nav-secondary-mega sm">            
+                                <li><a href="/law-news/" class="lnk"><strong>Jump to: Latest Updates &raquo;</strong></a></li>
+                                <li><a href="/browse/legal-news.aspx" class="lnk"><strong>See All Subjects &raquo;</strong></a></li>
+                                <li><div class="lnk red"><strong>Popular</strong></div></li>
+                                <li><a href="/law-news/labor-employment/" class="lnk" onclick="_gaq.push(['_trackPageview', '/NewsInsights']);">Labor & Employment</a></li>        
+<li><a href="/law-news/finance-banking-law/" class="lnk" onclick="_gaq.push(['_trackPageview', '/NewsInsights']);">Finance & Banking</a></li>
+<li><a href="/law-news/ip-law/" class="lnk" onclick="_gaq.push(['_trackPageview', '/NewsInsights']);">Intellectual Property</a></li>
+<li><a href="/law-news/health-law/" class="lnk" onclick="_gaq.push(['_trackPageview', '/NewsInsights']);">Health &amp; Healthcare</a></li>
+<li><a href="/law-news/environmental-law/" class="lnk" onclick="_gaq.push(['_trackPageview', '/NewsInsights']);">Environmental Issues</a></li>
+
+
+                                <li><div class="lnk red"><strong>Business</strong></div></li>
+                                <li><a href="/law-news/insurance-law/" class="lnk">Insurance</a></li>
+                                <li><a href="/law-news/commercial-real-estate/" class="lnk">Commercial Real Estate</a></li>        
+                                <li><a href="/topics/corporate-taxes/" class="lnk">Corporate Taxes</a></li>
+                                <li><a href="/law-news/immigration-law/" class="lnk">Immigration</a></li>
+                                <li><a href="/law-news/securities-law/" class="lnk">Securities</a></li>                                    
+                                <li><div class="lnk red"><strong>Personal</strong></div></li>    
+                                <li><a href="/law-news/residential-real-estate-law/" class="lnk">Residential Real Estate</a></li>
+                                <li><a href="/topics/estate-planning/" class="lnk">Estate Planning</a></li>
+                                <li><a href="/law-news/civil-rights/" class="lnk">Civil Rights</a></li>
+                                <li><a href="/topics/income-taxes/" class="lnk">Personal Taxes</a></li>
+                                <li><a href="/law-news/bankruptcy-law/" class="lnk">Bankruptcy</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li id="MobileSecondaryTrendingLnk" class="mega-secondary-top">
+                        <div class="lnk nav-secondary-has-mega upper">Trending &nbsp;&nbsp;
+                            <div class="nav-mobile-menu-collapsable">
+                                <img src="/img/plus-white.png" />
+                            </div>
+                            <div class="nav-mobile-menu-open-collapsable">
+                                <img src="/img/minus-white.png" />
+                            </div>
+                        </div>
+                        <div class="MobileSecondaryTrendingLnk mega-secondary-collapsable is-collapsed">
+                            <ul class="nav-secondary nav-secondary-mega sm">
+                                <li><a href="/legalnews/the-oil-bust-bankruptcy-boom-67365/" class="lnk" onclick="_gaq.push(['_trackPageview', '/trending']);">The Oil Bust...Bankruptcy Boom?</a></li>
+<li><a href="/legalnews/will-wearable-technology-be-a-boost-to-52581/" class="lnk" onclick="_gaq.push(['_trackPageview', '/trending']);">Will Wearable Tech Be a Boost To Enterprise Security?</a></li>
+<li><a href="/legalnews/uber-complicated-insurance-gaps-for-48463/" class="lnk" onclick="_gaq.push(['_trackPageview', '/trending']);">Uber-Complicated: Insurance Gaps for Rideshare Vehicles...</a></li>
+<li><a href="/legalnews/bitcoin-and-the-changing-legal-landscape-55070/" class="lnk" onclick="_gaq.push(['_trackPageview', '/trending']);">Bitcoin and the Changing Legal Landscape</a></li>
+<li><a href="/legalnews/top-considerations-when-building-byod-30290/" class="lnk" onclick="_gaq.push(['_trackPageview', '/trending']);">Top Considerations When Building BYOD Policies</a></li>
+<li><a href="/legalnews/10-rules-for-writing-to-be-read-infogra-81173/" class="lnk" onclick="_gaq.push(['_trackPageview', '/trending']);">10 Rules for Writing to Be Read [Infographic]</a></li>
+<li><a href="http://www.jdsupra.com/follow/manageyourinterests/" class="lnk" onclick="_gaq.push(['_trackPageview', '/trending']);">Build a Custom News Brief: Easy, Convenient, Free!</a></li>
+
+                                <li class="nobullet"><a class="lnk" href="/browse/legal-news.aspx">Browse All Law News Topics &raquo;</a></li>                             
+                            </ul>                         
+                        </div>
+                    </li>                    
+                    <li id="MobileSecondaryAuthorLnk" class="mega-secondary-top">
+                        <div class="lnk nav-secondary-has-mega upper">Find Author &nbsp;&nbsp;
+
+                            <div class="nav-mobile-menu-collapsable">
+                                <img src="/img/plus-white.png" />
+                            </div>
+                            <div class="nav-mobile-menu-open-collapsable">
+                                <img src="/img/minus-white.png" />
+                            </div>
+                        </div>
+                        <div class="MobileSecondaryAuthorLnk mega-secondary-collapsable is-collapsed">
+                            <ul class="nav-secondary nav-secondary-mega">    
+                                <li><a href="/findauthor/" class="lnk"><strong>See All Subjects &raquo;</strong></a></li>
+                                <li><div class="lnk red"><strong>By Business Matters</strong></div></li>
+                                <li><a href="/findauthor/Labor-Employment-Law/" class="lnk">Labor & Employment</a></li>
+                                <li><a href="/findauthor/Finance-Banking/" class="lnk">Finance & Banking</a></li>
+                                <li><a href="/findauthor/Intellectual-Property/" class="lnk">Intellectual Property</a></li>                                                                         
+                                <li><a href="/findauthor/Insurance/" class="lnk">Insurance</a></li>
+                                <li><a href="/findauthor/Taxation/" class="lnk">Taxes</a></li>
+                                <li><div class="lnk red"><strong>By Personal Issues</strong></div></li>
+                                <li><a href="/findauthor/Civil-Rights/" class="lnk">Civil Rights</a></li>
+                                <li><a href="/findauthor/Family-Law/" class="lnk">Family Matters</a></li>
+                                <li><a href="/findauthor/Personal-Injury/" class="lnk">Personal Injury</a></li>
+                                <li><a href="/findauthor/Wills-Trusts-Estate-Planning/" class="lnk">Wills, Trusts, & Estate Planning</a></li>
+                                <li><a href="/findauthor/Workers-Compensation/" class="lnk">Worker&rsquo;s Compensation</a></li>
+                                <li><div class="lnk red"><strong>By Location</strong></div></li>
+                                <li><a href="/findauthor/United-States/California/" class="lnk">California</a></li>
+                                <li><a href="/findauthor/United-States/New-York/" class="lnk">New York</a></li>
+                                <li><a href="/findauthor/United-States/Texas/" class="lnk">Texas</a></li>
+                                <li><a href="/findauthor/Canada/" class="lnk">Canada</a></li>
+                                <li><a href="/findauthor/United-Kingdom/" class="lnk">United Kingdom</a></li>
+                                <li><a href="/findauthor/" class="red lnk">See All Locations &raquo;</a></li>
+                            </ul>                   
+                        </div>                    
+                    </li>
+
+                    <li id="MobileSecondarySubscribeLnk" class="mega-secondary-top">
+                        <div class="lnk nav-secondary-has-mega upper">Subscribe &nbsp;&nbsp;
+                            <div class="nav-mobile-menu-collapsable">
+                                  <img src="/img/plus-white.png" />
+                            </div>
+                            <div class="nav-mobile-menu-open-collapsable">
+                                  <img src="/img/minus-white.png" />
+                            </div>
+                        </div>
+                        <div class="MobileSecondarySubscribeLnk mega-secondary-collapsable is-collapsed">
+                            <ul class="nav-secondary nav-secondary-mega">                        
+                                <li><a href="/follow/manageyourinterests/" class="lnk" onclick="ga('send', 'event', 'follow', 'Topnav Email Link - mobile lg', 'Custom Email Digests');">Custom Email Digests</a></li> 
+                                <li><a href="/legal-news/twitter-law-feeds.aspx" class="lnk">Twitter</a></li>
+                                <li><a href="/legal-news/rss-law-feeds.aspx" class="lnk">RSS</a></li>
+                                <li><a href="/legal-news/mobile-law-feeds.aspx" class="lnk">iPhone</a></li>
+                                <li><a href="/legal-news/publisher-law-feeds.aspx" class="lnk">Feeds for Publishers</a></li>
+                                <li><a href="/follow/manageyourinterests/" class="lnk" onclick="ga('send', 'event', 'follow', 'Topnav Email Link mgmt - mobile lg', 'Manage My Feeds');">Manage My Feeds</a></li>
+                            </ul>                   
+                        </div>                    
+                    </li>                    
+                    <li><a href="/perspective/media-query.aspx" class="lnk upper">For Reporters
+                    <div class="nav-mobile-menu-no-collapsable">
+                          <img src="/img/right-arrow.png" />
+                    </div>
+                    </a></li>                                    
+                </ul>
+            </div>              
+            <div class="left is-collapsed mobile-mega-menu MobileAccountLnk">
+                    
+                 
+                    <ul class="nav-secondary sm list-solid-border">             
+                        <li><a href="/login.aspx" class="lnk" onclick="ga('send', 'event', 'follow', 'Topnav Contributor Log In - mobile', 'Contributor Log In');">Log In
+                        <div class="nav-mobile-menu-no-collapsable">
+                              <img src="/img/right-arrow.png" />
+                        </div>
+                        </a></li>
+
+                        <li><a href="/follow/manageyourinterests/" class="lnk" onclick="ga('send', 'event', 'follow', 'Topnav Email Link mgmt - mobile', 'Manage My Feeds');">Manage My Feeds
+                        <div class="nav-mobile-menu-no-collapsable">
+                              <img src="/img/right-arrow.png" />
+                        </div>
+                        </a>
+
+                        </li>
+                    </ul>                   	
+                                
+            </div>           
+                                                    
+        </div>    
+    </div>     
+
+    <div class="site-center">
+        <div class="site-body">
+            <div class="col">
+                <div class="logo jds-logo">
+                    <a href="/"><img src="/img/logo-300px-mobile.png" alt="JD Supra Business Advisor" class="stackLogo" /></a>
+                </div>   
+            </div>
+       </div>
+    </div>
+
+    
+
+    
+    <form method="post" action="/legalnews/how-have-dealerships-fared-in-fight-46946/" id="superForm">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMjczMzg3NDQ3D2QWNmYPFgIeBFRleHQFaEhvdyBIYXZlIERlYWxlcnNoaXBzIEZhcmVkIEluIEZpZ2h0IEFnYWluc3QgVW5pb24gIlF1aWNraWUiIEVsZWN0aW9ucz8gfCBGaXNoZXIgJiBQaGlsbGlwcyBMTFAgLSBKRFN1cHJhZAIBDxYCHwAF4wE8bWV0YSBuYW1lPSJkZXNjcmlwdGlvbiIgY29udGVudD0iVGhlIE5hdGlvbmFsIExhYm9yIFJlbGF0aW9ucyBCb2FyZOKAmXMgKE5MUkIpIOKAnHF1aWNraWXigJ0gZWxlY3Rpb24gcnVsZXMgdG9vayBlZmZlY3Qgb24gQXByaWwgMTQsIDIwMTUsIHN1YnN0YW50aWFsbHkgZXhwZWRpdGluZyB0aGUgdW5pb24gZWxlY3Rpb24gcHJvY2Vzcy4gQW1vbmcgb3RoZXIgdGhpbmdzLCB0aGUgbmV3Li4uIiAvPmQCAg8WAh8ABVw8bGluayByZWw9ImltYWdlX3NyYyIgaHJlZj0iaHR0cHM6Ly93d3cuamRzdXByYS5jb20vc2hvd1RodW1ibmFpbC5hc3B4P2ltZz03Mjk1XzM3MjYuanBnIiAvPmQCAw8WAh8ABYIBPG1ldGEgcHJvcGVydHk9Im9nOnRpdGxlIiBjb250ZW50PSJIb3cgSGF2ZSBEZWFsZXJzaGlwcyBGYXJlZCBJbiBGaWdodCBBZ2FpbnN0IFVuaW9uICZxdW90O1F1aWNraWUmcXVvdDsgRWxlY3Rpb25zPyB8IEpEIFN1cHJhIiAvPmQCBA8WAh8ABXA8bWV0YSBwcm9wZXJ0eT0ib2c6dXJsIiBjb250ZW50PSJodHRwOi8vd3d3Lmpkc3VwcmEuY29tL2xlZ2FsbmV3cy9ob3ctaGF2ZS1kZWFsZXJzaGlwcy1mYXJlZC1pbi1maWdodC00Njk0Ni8iIC8+ZAIFDxYCHwAFajxtZXRhIHByb3BlcnR5PSJvZzppbWFnZSIgY29udGVudD0iaHR0cDovL3d3dy5qZHN1cHJhLmNvbS9zaG93VGh1bWJuYWlsLmFzcHg/aW1nPTcyOTVfMzcyNi5qcGcmc2l6ZT1vZyIgLz5kAgcPFgIfAAUtPG1ldGEgcHJvcGVydHk9Im9nOnR5cGUiIGNvbnRlbnQ9ImFydGljbGUiIC8+ZAIQDxYCHwAFLDxtZXRhIG5hbWU9InR3aXR0ZXI6Y2FyZCIgY29udGVudD0ic3VtbWFyeSI+ZAIRDxYCHwAFdjxtZXRhIG5hbWU9InR3aXR0ZXI6dGl0bGUiIGNvbnRlbnQ9IkhvdyBIYXZlIERlYWxlcnNoaXBzIEZhcmVkIEluIEZpZ2h0IEFnYWluc3QgVW5pb24gJnF1b3Q7UXVpY2tpZSZxdW90OyBFbGVjdGlvbnM/Ij5kAhIPFgIfAAX3ATxtZXRhIG5hbWU9InR3aXR0ZXI6ZGVzY3JpcHRpb24iIGNvbnRlbnQ9IlRoZSBOYXRpb25hbCBMYWJvciBSZWxhdGlvbnMgQm9hcmTigJlzIChOTFJCKSDigJxxdWlja2ll4oCdIGVsZWN0aW9uIHJ1bGVzIHRvb2sgZWZmZWN0IG9uIEFwcmlsIDE0LCAyMDE1LCBzdWJzdGFudGlhbGx5IGV4cGVkaXRpbmcgdGhlIHVuaW9uIGVsZWN0aW9uIHByb2Nlc3MuIEFtb25nIG90aGVyIHRoaW5ncywgdGhlIG5ldyBydWxlcyBjdXQgdGhlLi4uIj5kAhMPFgIfAAVtPG1ldGEgbmFtZT0idHdpdHRlcjppbWFnZSIgY29udGVudD0iaHR0cDovL3d3dy5qZHN1cHJhLmNvbS9zaG93VGh1bWJuYWlsLmFzcHg/aW1nPTcyOTVfMzcyNi5qcGcmYW1wO3NpemU9aHIiPmQCFA8WAh8ABS08bWV0YSBuYW1lPSJ0d2l0dGVyOnNpdGUiIGNvbnRlbnQ9IkBqZHN1cHJhIj5kAhUPFgIfAAU5PG1ldGEgbmFtZT0idHdpdHRlcjpjcmVhdG9yIiBjb250ZW50PSJAbGFib3JfYXR0b3JuZXlzIj4gZAIWDxYCHgdWaXNpYmxlaGQCFw8WAh8BaGQCGA8WAh8BaGQCGQ8WAh8BaGQCGg8WAh8BaGQCGw8WAh8ABcsBPGxpbmsgcmVsPSJhbHRlcm5hdGUiIGhyZWY9Imh0dHA6Ly93d3cuamRzdXByYS5jb20vb2VtYmVkL2luZGV4LmFzbXgvR2V0T2VtYmVkT2JqZWN0P3VybD1odHRwJTNhJTJmJTJmd3d3Lmpkc3VwcmEuY29tJTJmbGVnYWxuZXdzJTJmaG93LWhhdmUtZGVhbGVyc2hpcHMtZmFyZWQtaW4tZmlnaHQtNDY5NDYlMmYiIHR5cGU9InRleHQveG1sK29lbWJlZCIgLz5kAhwPFgIfAAVrPGxpbmsgcmVsPSJjYW5vbmljYWwiIGhyZWY9Imh0dHA6Ly93d3cuamRzdXByYS5jb20vbGVnYWxuZXdzL2hvdy1oYXZlLWRlYWxlcnNoaXBzLWZhcmVkLWluLWZpZ2h0LTQ2OTQ2LyIgLz5kAh0PFgIfAWhkAh8PDxYCHwFoZGQCIA8WAh8BaGQCIg8WAh8BaGQCJxBkZBYQAgIPZBYGAgEPFgIfAAVgPGgxIGNsYXNzPSJkb2NfbmFtZSI+SG93IEhhdmUgRGVhbGVyc2hpcHMgRmFyZWQgSW4gRmlnaHQgQWdhaW5zdCBVbmlvbiAiUXVpY2tpZSIgRWxlY3Rpb25zPzwvaDE+ZAIDD2QWCAIBDxYCHwAFFTx0aW1lPjIvOC8yMDE2PC90aW1lPmQCAw8WBB8ABeIEPGRpdiBjbGFzcz0ibWVkaWEtY2xlYW4iPjxkaXYgY2xhc3M9ImltZyBhdXRob3JfaW1nIj48YSBocmVmPSIvYXV0aG9ycy9zdGV2ZW4tZmVyZW5jenkvIj48aW1nIHNyYz0iaHR0cDovL2pkc3VwcmEtc3RhdGljLnMzLmFtYXpvbmF3cy5jb20vYXV0aG9ycy81NmI4YTQ1NDM5Mzg2LjMwaC5qcGciIGFsdD0iU3RldmVuIEZlcmVuY3p5IiAvPjwvYT48L2Rpdj48ZGl2IGNsYXNzPSJiZCBhdXRob3JfbmFtZSI+PGEgaHJlZj0iL2F1dGhvcnMvc3RldmVuLWZlcmVuY3p5LyI+U3RldmVuIEZlcmVuY3p5PC9hPiwgPC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0ibWVkaWEtY2xlYW4iPjxkaXYgY2xhc3M9ImltZyBhdXRob3JfaW1nIj48YSBocmVmPSIvYXV0aG9ycy9tYXR0aGV3LXNpbXBzb24vIj48aW1nIHNyYz0iaHR0cDovL2pkc3VwcmEtc3RhdGljLnMzLmFtYXpvbmF3cy5jb20vYXV0aG9ycy81MTJiZDJiYjI4Zjk3LjMwaC5qcGciIGFsdD0iTWF0dGhldyBTaW1wc29uIiAvPjwvYT48L2Rpdj48ZGl2IGNsYXNzPSJiZCBhdXRob3JfbmFtZSI+PGEgaHJlZj0iL2F1dGhvcnMvbWF0dGhldy1zaW1wc29uLyI+TWF0dGhldyBTaW1wc29uPC9hPiZuYnNwOyZuYnNwOzwvZGl2PjwvZGl2Ph8BZ2QCBQ8WAh8BZ2QCBg8PFgIeC05hdmlnYXRlVXJsBR4vcHJvZmlsZS9maXNoZXJfcGhpbGxpcHNfZG9jcy9kFgJmDxYCHwAFFUZpc2hlciAmIFBoaWxsaXBzIExMUGQCBQ8WBB4LXyFJdGVtQ291bnQCBR8BZxYKAgEPZBYCZg8VAhVhbWJ1c2gtZWxlY3Rpb24tcnVsZXMVQW1idXNoIEVsZWN0aW9uIFJ1bGVzZAICD2QWAmYPFQIZYmVzdC1tYW5hZ2VtZW50LXByYWN0aWNlcxlCZXN0IE1hbmFnZW1lbnQgUHJhY3RpY2VzZAIDD2QWAmYPFQIPY2FyLWRlYWxlcnNoaXBzD0NhciBEZWFsZXJzaGlwc2QCBA9kFgJmDxUCBG5scmIETkxSQmQCBQ9kFgJmDxUCBnVuaW9ucwZVbmlvbnNkAgMPZBYKAgEPFgIfAAXIATxkaXYgY2xhc3M9ImZiLWxpa2UiIGRhdGEtaHJlZj0iaHR0cDovL3d3dy5qZHN1cHJhLmNvbS9sZWdhbG5ld3MvaG93LWhhdmUtZGVhbGVyc2hpcHMtZmFyZWQtaW4tZmlnaHQtNDY5NDYvIiBkYXRhLXNlbmQ9ImZhbHNlIiBkYXRhLWxheW91dD0iYnV0dG9uX2NvdW50IiBkYXRhLXdpZHRoPSI0NyIgZGF0YS1zaG93LWZhY2VzPSJmYWxzZSI+PC9kaXY+ZAIDDxYCHwAFeDxnOnBsdXNvbmUgaHJlZj0iaHR0cDovL3d3dy5qZHN1cHJhLmNvbS9sZWdhbG5ld3MvaG93LWhhdmUtZGVhbGVyc2hpcHMtZmFyZWQtaW4tZmlnaHQtNDY5NDYvIiBzaXplPSJtZWRpdW0iPjwvZzpwbHVzb25lPmQCBQ8WAh8ABbQBPGEgaHJlZj0iaHR0cHM6Ly90d2l0dGVyLmNvbS9zaGFyZSIgdXJsPSJodHRwOi8vd3d3Lmpkc3VwcmEuY29tL2xlZ2FsbmV3cy9ob3ctaGF2ZS1kZWFsZXJzaGlwcy1mYXJlZC1pbi1maWdodC00Njk0Ni8iIGNsYXNzPSJ0d2l0dGVyLXNoYXJlLWJ1dHRvbiIgZGF0YS1jb3VudD0iaG9yaXpvbnRhbCI+VHdlZXQ8L2E+ZAIHDxYCHwAFjQE8c2NyaXB0IHR5cGU9IklOL1NoYXJlIiBkYXRhLXVybD0iaHR0cDovL3d3dy5qZHN1cHJhLmNvbS9sZWdhbG5ld3MvaG93LWhhdmUtZGVhbGVyc2hpcHMtZmFyZWQtaW4tZmlnaHQtNDY5NDYvIiBkYXRhLWNvdW50ZXI9InJpZ2h0Ij48L3NjcmlwdD5kAg0PZBYCAgEPFgIfAAX+ATxpZnJhbWUgc3JjPSJodHRwOi8vd3d3Lmpkc3VwcmEuY29tL3Bvc3QvY29udGVudFZpZXdlckVtYmVkLmFzcHg/ZmlkPTkzOWU0NzNlLWM0ZWItNGViNC1hODJkLTEyMTBhMTQ4YjVkMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iNjIwIiBmcmFtZWJvcmRlcj0iMSIgc3R5bGU9ImJvcmRlcjogMnB4IHNvbGlkICNjY2M7IG92ZXJmbG93LXg6aGlkZGVuICFpbXBvcnRhbnQ7IG92ZXJmbG93OmhpZGRlbjsiIHNjcm9sbGluZz0iYXV0byI+PC9pZnJhbWU+ZAIEDw8WAh8BaGQWCAIBDxYCHwAFClB1Ymxpc2hlZDpkAgMPFgIfAAUIMi84LzIwMTZkAgQPFgIfAWhkAgYPFgIfAAUIMi84LzIwMTZkAgUPDxYCHwFoZGQCCA9kFggCAQ8PFgIfAWdkFgICAQ8WAh8ABZYDVGhlIE5hdGlvbmFsIExhYm9yIFJlbGF0aW9ucyBCb2FyZOKAmXMgKE5MUkIpIOKAnHF1aWNraWXigJ0gZWxlY3Rpb24gcnVsZXMgdG9vayBlZmZlY3Qgb24gQXByaWwgMTQsIDIwMTUsIHN1YnN0YW50aWFsbHkgZXhwZWRpdGluZyB0aGUgdW5pb24gZWxlY3Rpb24gcHJvY2Vzcy4gQW1vbmcgb3RoZXIgdGhpbmdzLCB0aGUgbmV3IHJ1bGVzIGN1dCB0aGUgdGltZSBwZXJpb2QgYmV0d2VlbiByZXByZXNlbnRhdGlvbiBwZXRpdGlvbiBhbmQgZWxlY3Rpb24gaW4gaGFsZiwgYW5kIHJlcXVpcmUgZW1wbG95ZXJzIHRvIHByb3ZpZGUgZXhwZWRpdGVkIGRpc2Nsb3N1cmUgb2Ygd29ya2VyIHBob25lIG51bWJlcnMsIGVtYWlsIGFkZHJlc3NlcyBhbmQgb3RoZXIgcGVyc29uYWwgaW5mb3JtYXRpb24gdG8gdW5pb25zLiAgIGQCAw8WAh8ABdEBPGEgY2xhc3M9InllbGxvdy1idG4gVmlld1BERkJ0biIgaHJlZj0iaHR0cDovL3d3dy5qZHN1cHJhLmNvbS9wb3N0L2ZpbGVTZXJ2ZXIuYXNweD9mTmFtZT05MzllNDczZS1jNGViLTRlYjQtYTgyZC0xMjEwYTE0OGI1ZDAucGRmIj48aW1nIGNsYXNzPSJidG4taW1nIiBzcmM9Ii9pbWcvaWNvbi1wZGYtZG93bmxvYWQuZ2lmIiAvPiZuYnNwO0Rvd25sb2FkIFBERjwvYT5kAgUPFgIfAAWOGw0KPG5vc2NyaXB0Pg0KDQoJDQoNCglUaGUgTmF0aW9uYWwgTGFib3IgUmVsYXRpb25zIEJvYXJkJmFtcDtyc3F1bztzIChOTFJCKSAmYW1wO2xkcXVvO3F1aWNraWUmYW1wO3JkcXVvOyBlbGVjdGlvbiBydWxlcyB0b29rIGVmZmVjdCBvbiBBcHJpbCAxNCwgMjAxNSwgc3Vic3RhbnRpYWxseSBleHBlZGl0aW5nIHRoZSB1bmlvbiBlbGVjdGlvbiBwcm9jZXNzLiBBbW9uZyBvdGhlciB0aGluZ3MsIHRoZSBuZXcgcnVsZXMgY3V0IHRoZSB0aW1lIHBlcmlvZCBiZXR3ZWVuIHJlcHJlc2VudGF0aW9uIHBldGl0aW9uIGFuZCBlbGVjdGlvbiBpbiBoYWxmLCBhbmQgcmVxdWlyZSBlbXBsb3llcnMgdG8gcHJvdmlkZSBleHBlZGl0ZWQgZGlzY2xvc3VyZSBvZiB3b3JrZXIgcGhvbmUgbnVtYmVycywgZW1haWwgYWRkcmVzc2VzIGFuZCBvdGhlciBwZXJzb25hbCBpbmZvcm1hdGlvbiB0byB1bmlvbnMuJmFtcDtuYnNwOyAmYW1wO25ic3A7DQoNCglUaGVzZSBuZXcgcnVsZXMgaGF2ZSBiZWVuIGEgc291cmNlIG9mIGNvbnRlbnRpb24gZm9yIG1hbnkgZW1wbG95ZXJzIHRoYXQgaGF2ZSBiZWVuIGZvcmNlZCB0byBwcmVwYXJlIGZvciBzaWduaWZpY2FudCBjaGFuZ2VzIGluIHVuaW9uLW9yZ2FuaXppbmcgdGFjdGljcy4gRmlzaGVyICZhbXA7YW1wOyBQaGlsbGlwcyBoYXMgY29uZHVjdGVkIGl0cyBvd24gcmV2aWV3IG9mIHVuaW9uIHBldGl0aW9ucyBmaWxlZCBhZ2FpbnN0IGRlYWxlcnNoaXBzIGluIHRoZSBsYXN0IHllYXIuIFdoaWxlIGFuIGFuYWx5c2lzIG9mIHRoZSBmaXJzdCBzaXggbW9udGhzIG9mIHVuaW9uIGFjdGl2aXR5IGZvbGxvd2luZyB0aGUgbmV3IHJ1bGVzIGVzdGFibGlzaGVkIHRoYXQgdW5pb25zIGFzIGEgd2hvbGUgYXJlIGJlbmVmaXRpbmcgc2lnbmlmaWNhbnRseSBmcm9tIHRoZSBjaGFuZ2VzLCB0aGUgc2FtZSBtYXkgbm90IGJlIHRydWUgd2hlbiBpdCBjb21lcyB0byBkZWFsZXJzaGlwIGVsZWN0aW9ucy4NCg0KCVN1bW1hcnkgT2YgRmluZGluZ3MNCglJbnRlcmVzdGluZ2x5LCBvbmx5IDMwIHBldGl0aW9ucyB3ZXJlIGZpbGVkIGFnYWluc3QgZGVhbGVyc2hpcHMgaW4gMjAxNSwgd2hpY2ggaXMgZG93biBjb25zaWRlcmFibHkgZnJvbSBhIGZpdmUteWVhciBoaWdoIG9mIDQyIHBldGl0aW9ucyBpbiAyMDE0LiBQZXJoYXBzIG9mIG1vcmUgaW50ZXJlc3Q6IHRoZSBmcmVxdWVuY3kgb2YgcGV0aXRpb25zIGZpbGVkIGFnYWluc3QgZGVhbGVyc2hpcHMgc2xvd2VkIGFmdGVyIHRoZSBBcHJpbCAxNCwgMjAxNSBpbmNlcHRpb24gZGF0ZSwgc3dpdGggbW9yZSB0aGFuIDMwJSBvZiB0aGUgMjAxNSBwZXRpdGlvbnMgZmlsZWQgaW4gdGhlIGZpcnN0IHF1YXJ0ZXIgb2YgdGhlIHllYXIuDQoNCglJbiBhZGRpdGlvbiB0byB0aGUgbnVtYmVyIG9mIHBldGl0aW9ucyBzbG93aW5nIGFmdGVyIHRoZSBuZXcgcnVsZXMga2lja2VkIGluLCB0aGUgcGVyY2VudGFnZSBvZiB1bmlvbiB2aWN0b3JpZXMgdHJlbmRlZCBkb3duIGFmdGVyIHRoZSAmYW1wO2xkcXVvO3F1aWNraWUmYW1wO3JkcXVvOyBlbGVjdGlvbiBydWxlcyB0b29rIGVmZmVjdC4gVGhlcmUgd2VyZSBzaXggZWxlY3Rpb25zIHRoYXQgb2NjdXJyZWQgdW5kZXIgdGhlIG9sZCBydWxlcywgd2l0aCB2aWN0b3JpZXMgZm9yIHVuaW9ucyBpbiBmb3VyIG9mIHRoZSBzaXgsIGZvciBhIDY3JSB1bmlvbi13aW4gcmF0ZS4gVGhlcmUgd2VyZSAxMiBlbGVjdGlvbnMgdGhhdCBvY2N1cnJlZCB1bmRlciB0aGUgbmV3IHJ1bGVzLCB3aXRoIHZpY3RvcmllcyBmb3IgdW5pb25zIGluIHNldmVuIG9mIHRoZSAxMiBlbGVjdGlvbnMsIG9yIGEgNTglIHVuaW9uLXdpbiByYXRlLg0KDQoJSW4gdG90YWwsIHRoZSAzMCBwZXRpdGlvbnMgeWllbGRlZCBvbmx5IDExIHVuaW9uIHZpY3Rvcmllcy4gTWFuYWdlbWVudCBlbWVyZ2VkIHZpY3RvcmlvdXMgaW4gc2V2ZW4gZWxlY3Rpb25zLCB3aGlsZSB0aGVyZSB3ZXJlIG5pbmUgd2l0aGRyYXduIHBldGl0aW9ucywgb25lIGRpc21pc3NhbCwgYW5kIHR3byBibG9ja2VkIGVsZWN0aW9ucy4gTm90IHN1cnByaXNpbmdseSwgdGhlIG92ZXJ3aGVsbWluZyBtYWpvcml0eSBvZiB0aGVzZSBwZXRpdGlvbnMgd2VyZSBmaWxlZCBpbiB0aGUgdGhyZWUgc3RhdGVzIHRoYXQgY29uc2lzdGVudGx5IHNlZSB0aGUgbW9zdCBkZWFsZXJzaGlwIHVuaW9uIGFjdGl2aXR5OiBDYWxpZm9ybmlhLCBJbGxpbm9pcywgYW5kIE5ldyBKZXJzZXkuDQoNCglBbHRob3VnaCBkZWFsZXJzaGlwcyBzZWVtIHRvIGhhdmUgZG9kZ2VkIG11Y2ggb2YgdGhlIHB1bmNoIHRoYXQgdGhlICZhbXA7bGRxdW87cXVpY2tpZSZhbXA7cmRxdW87IGVsZWN0aW9uIHJ1bGVzIHBhY2tlZCBpbiAyMDE1LCB0aGV5IGRpZCBub3QgZ28gY29tcGxldGVseSB1bnNjYXRoZWQuIEZpcnN0LCBlbGVjdGlvbnMgYXJlIG9jY3VycmluZyBmYXN0ZXIgdGhhbiBldmVyLiBJbiBmYWN0LCB0aGV5IG9jY3VycmVkIGFib3V0IGVpZ2h0IGRheXMgZmFzdGVyIGZyb20gdGhlIGVmZmVjdGl2ZSBkYXRlIHRocm91Z2ggdGhlIGVuZCBvZiB0aGUgeWVhciAoMjYuMyBkYXlzIGZyb20gQXByaWwgMTQgdGhyb3VnaCBEZWNlbWJlciAzMSB2cy4gMzQuMiBkYXlzIGZyb20gSmFudWFyeSAxIHRocm91Z2ggQXByaWwgMTMpLCBhbmQgb2NjdXJyZWQgMTQgZGF5cyBmYXN0ZXIgdGhhbiBhIHllYXIgYWdvICgyNi4zIGRheXMgdnMuIDQwLjMgZGF5cyBkdXJpbmcgdGhlIHNhbWUgcGVyaW9kIGluIDIwMTQpLiBGaW5hbGx5LCB0aGUgcGVyY2VudGFnZSBvZiBkZWFsZXJzaGlwIHZpY3RvcmllcyBjb250aW51ZWQgdG8gdHJlbmQgZG93bndhcmQgaW4gMjAxNSwgd2l0aCBhIDM4LjklIHZpY3RvcnkgcmF0ZSBjb21wYXJlZCB0byBhIDQyLjQlIHZpY3RvcnkgcmF0ZSBpbiAyMDE0Lg0KDQoJUHJlcGFyZSBGb3IgVGhlIEZ1dHVyZQ0KCVdoaWxlIHRoZSB0cnVlIGVmZmVjdCBvZiB0aGUgbmV3ICZhbXA7bGRxdW87cXVpY2tpZSZhbXA7cmRxdW87IGVsZWN0aW9uIHJ1bGVzIG1heSBub3QgaGF2ZSBpbXBhY3RlZCBkZWFsZXJzaGlwcyBhcyBoYXJkIGFzIHNvbWUgb3RoZXIgaW5kdXN0cmllcywgeW91IG5lZWQgdG8gZW5zdXJlIHRoYXQgeW91IGFyZSBwcm9hY3RpdmUgcmF0aGVyIHRoYW4gcmVhY3RpdmUgaW4gdGhpcyBhcmVhLiBZb3Ugc2hvdWxkIHByZXBhcmUgdG9kYXkgZm9yIGEgcG90ZW50aWFsIHdhdmUgb2YgbmV3IHBldGl0aW9ucyB0b21vcnJvdy4NCg0KCUl0IGlzIGNyaXRpY2FsIHRoYXQgeW91IHRha2UgdGhlIHRpbWUgdG8gcHJvcGVybHkgdHJhaW4geW91ciBzdXBlcnZpc29ycyB0byBsb29rIGZvciB0aGUgZWFybHkgd2FybmluZyBzaWducyBvZiBwb3RlbnRpYWwgdW5pb24gYWN0aXZpdHksIGFuZCBlbnN1cmUgdGhhdCB0aGVzZSBzYW1lIHN1cGVydmlzb3JzIHVuZGVyc3RhbmQgdGhlIGxhYm9yIGxhd3MgZ292ZXJuaW5nIHRoZSB1bmlvbiBlbGVjdGlvbiBwcm9jZXNzLg0KDQo8L25vc2NyaXB0Pg0KZAIJD2QWAmYPZBYCAgEPZBYIAgEPFgIfAWgWAgIBDxYCHwAFBVswS0JdZAIDDxYCHwFoFgICAQ8WAh8ABQVbMEtCXWQCBQ8PFgIfAgWUAS9yZXBvcnRhcHJvYmxlbS9pbmRleC5hc3B4P3B0PUpEJTJiU3VwcmElMjUzYSUyYkhvdyUyYkhhdmUlMmJEZWFsZXJzaGlwcyUyYkZhcmVkJTJiSW4lMmJGaWdodCUyYkFnYWluc3QlMmJVbmlvbiUyYiUyNTIyUXVpY2tpZSUyNTIyJTJiRWxlY3Rpb25zJTI1M2ZkZAIJDxYCHwAFKDkzOWU0NzNlLWM0ZWItNGViNC1hODJkLTEyMTBhMTQ4YjVkMC5wZGZkAgkPZBYCAgEPFgIfAAWWA1RoZSBOYXRpb25hbCBMYWJvciBSZWxhdGlvbnMgQm9hcmTigJlzIChOTFJCKSDigJxxdWlja2ll4oCdIGVsZWN0aW9uIHJ1bGVzIHRvb2sgZWZmZWN0IG9uIEFwcmlsIDE0LCAyMDE1LCBzdWJzdGFudGlhbGx5IGV4cGVkaXRpbmcgdGhlIHVuaW9uIGVsZWN0aW9uIHByb2Nlc3MuIEFtb25nIG90aGVyIHRoaW5ncywgdGhlIG5ldyBydWxlcyBjdXQgdGhlIHRpbWUgcGVyaW9kIGJldHdlZW4gcmVwcmVzZW50YXRpb24gcGV0aXRpb24gYW5kIGVsZWN0aW9uIGluIGhhbGYsIGFuZCByZXF1aXJlIGVtcGxveWVycyB0byBwcm92aWRlIGV4cGVkaXRlZCBkaXNjbG9zdXJlIG9mIHdvcmtlciBwaG9uZSBudW1iZXJzLCBlbWFpbCBhZGRyZXNzZXMgYW5kIG90aGVyIHBlcnNvbmFsIGluZm9ybWF0aW9uIHRvIHVuaW9ucy4gICBkAgoPDxYCHwFnZBYCAgEPFgIfAAWvHDxwPg0KCTxpbWcgYWx0PSIiIHNyYz0iaHR0cDovL3d3dy5qZHN1cHJhLmNvbS9pbWcvY2xpZW50X2hlYWRlcnMvRmlzaGVyUGhpbGxpcHMvRGVhbGVyc2hpcC5qcGciIHN0eWxlPSJ3aWR0aDogNzQ1cHg7IGhlaWdodDogMjIycHg7IiAvPjwvcD4NCjxwPg0KCVRoZSBOYXRpb25hbCBMYWJvciBSZWxhdGlvbnMgQm9hcmQmcnNxdW87cyAoTkxSQikgJmxkcXVvO3F1aWNraWUmcmRxdW87IGVsZWN0aW9uIHJ1bGVzIHRvb2sgZWZmZWN0IG9uIEFwcmlsIDE0LCAyMDE1LCBzdWJzdGFudGlhbGx5IGV4cGVkaXRpbmcgdGhlIHVuaW9uIGVsZWN0aW9uIHByb2Nlc3MuIEFtb25nIG90aGVyIHRoaW5ncywgdGhlIG5ldyBydWxlcyBjdXQgdGhlIHRpbWUgcGVyaW9kIGJldHdlZW4gcmVwcmVzZW50YXRpb24gcGV0aXRpb24gYW5kIGVsZWN0aW9uIGluIGhhbGYsIGFuZCByZXF1aXJlIGVtcGxveWVycyB0byBwcm92aWRlIGV4cGVkaXRlZCBkaXNjbG9zdXJlIG9mIHdvcmtlciBwaG9uZSBudW1iZXJzLCBlbWFpbCBhZGRyZXNzZXMgYW5kIG90aGVyIHBlcnNvbmFsIGluZm9ybWF0aW9uIHRvIHVuaW9ucy4mbmJzcDsgJm5ic3A7PC9wPg0KPHA+DQoJVGhlc2UgbmV3IHJ1bGVzIGhhdmUgYmVlbiBhIHNvdXJjZSBvZiBjb250ZW50aW9uIGZvciBtYW55IGVtcGxveWVycyB0aGF0IGhhdmUgYmVlbiBmb3JjZWQgdG8gcHJlcGFyZSBmb3Igc2lnbmlmaWNhbnQgY2hhbmdlcyBpbiB1bmlvbi1vcmdhbml6aW5nIHRhY3RpY3MuIEZpc2hlciAmYW1wOyBQaGlsbGlwcyBoYXMgY29uZHVjdGVkIGl0cyBvd24gcmV2aWV3IG9mIHVuaW9uIHBldGl0aW9ucyBmaWxlZCBhZ2FpbnN0IGRlYWxlcnNoaXBzIGluIHRoZSBsYXN0IHllYXIuIFdoaWxlIGFuIGFuYWx5c2lzIG9mIHRoZSBmaXJzdCBzaXggbW9udGhzIG9mIHVuaW9uIGFjdGl2aXR5IGZvbGxvd2luZyB0aGUgbmV3IHJ1bGVzIGVzdGFibGlzaGVkIHRoYXQgdW5pb25zIGFzIGEgd2hvbGUgYXJlIGJlbmVmaXRpbmcgc2lnbmlmaWNhbnRseSBmcm9tIHRoZSBjaGFuZ2VzLCB0aGUgc2FtZSBtYXkgbm90IGJlIHRydWUgd2hlbiBpdCBjb21lcyB0byBkZWFsZXJzaGlwIGVsZWN0aW9ucy48L3A+DQo8cD4NCgk8c3Ryb25nPlN1bW1hcnkgT2YgRmluZGluZ3M8L3N0cm9uZz48YnIgLz4NCglJbnRlcmVzdGluZ2x5LCBvbmx5IDMwIHBldGl0aW9ucyB3ZXJlIGZpbGVkIGFnYWluc3QgZGVhbGVyc2hpcHMgaW4gMjAxNSwgd2hpY2ggaXMgZG93biBjb25zaWRlcmFibHkgZnJvbSBhIGZpdmUteWVhciBoaWdoIG9mIDQyIHBldGl0aW9ucyBpbiAyMDE0LiBQZXJoYXBzIG9mIG1vcmUgaW50ZXJlc3Q6IHRoZSBmcmVxdWVuY3kgb2YgcGV0aXRpb25zIGZpbGVkIGFnYWluc3QgZGVhbGVyc2hpcHMgc2xvd2VkIGFmdGVyIHRoZSBBcHJpbCAxNCwgMjAxNSBpbmNlcHRpb24gZGF0ZSwgc3dpdGggbW9yZSB0aGFuIDMwJSBvZiB0aGUgMjAxNSBwZXRpdGlvbnMgZmlsZWQgaW4gdGhlIGZpcnN0IHF1YXJ0ZXIgb2YgdGhlIHllYXIuPC9wPg0KPHA+DQoJSW4gYWRkaXRpb24gdG8gdGhlIG51bWJlciBvZiBwZXRpdGlvbnMgc2xvd2luZyBhZnRlciB0aGUgbmV3IHJ1bGVzIGtpY2tlZCBpbiwgdGhlIHBlcmNlbnRhZ2Ugb2YgdW5pb24gdmljdG9yaWVzIHRyZW5kZWQgZG93biBhZnRlciB0aGUgJmxkcXVvO3F1aWNraWUmcmRxdW87IGVsZWN0aW9uIHJ1bGVzIHRvb2sgZWZmZWN0LiBUaGVyZSB3ZXJlIHNpeCBlbGVjdGlvbnMgdGhhdCBvY2N1cnJlZCB1bmRlciB0aGUgb2xkIHJ1bGVzLCB3aXRoIHZpY3RvcmllcyBmb3IgdW5pb25zIGluIGZvdXIgb2YgdGhlIHNpeCwgZm9yIGEgNjclIHVuaW9uLXdpbiByYXRlLiBUaGVyZSB3ZXJlIDEyIGVsZWN0aW9ucyB0aGF0IG9jY3VycmVkIHVuZGVyIHRoZSBuZXcgcnVsZXMsIHdpdGggdmljdG9yaWVzIGZvciB1bmlvbnMgaW4gc2V2ZW4gb2YgdGhlIDEyIGVsZWN0aW9ucywgb3IgYSA1OCUgdW5pb24td2luIHJhdGUuPC9wPg0KPHA+DQoJSW4gdG90YWwsIHRoZSAzMCBwZXRpdGlvbnMgeWllbGRlZCBvbmx5IDExIHVuaW9uIHZpY3Rvcmllcy4gTWFuYWdlbWVudCBlbWVyZ2VkIHZpY3RvcmlvdXMgaW4gc2V2ZW4gZWxlY3Rpb25zLCB3aGlsZSB0aGVyZSB3ZXJlIG5pbmUgd2l0aGRyYXduIHBldGl0aW9ucywgb25lIGRpc21pc3NhbCwgYW5kIHR3byBibG9ja2VkIGVsZWN0aW9ucy4gTm90IHN1cnByaXNpbmdseSwgdGhlIG92ZXJ3aGVsbWluZyBtYWpvcml0eSBvZiB0aGVzZSBwZXRpdGlvbnMgd2VyZSBmaWxlZCBpbiB0aGUgdGhyZWUgc3RhdGVzIHRoYXQgY29uc2lzdGVudGx5IHNlZSB0aGUgbW9zdCBkZWFsZXJzaGlwIHVuaW9uIGFjdGl2aXR5OiBDYWxpZm9ybmlhLCBJbGxpbm9pcywgYW5kIE5ldyBKZXJzZXkuPC9wPg0KPHA+DQoJQWx0aG91Z2ggZGVhbGVyc2hpcHMgc2VlbSB0byBoYXZlIGRvZGdlZCBtdWNoIG9mIHRoZSBwdW5jaCB0aGF0IHRoZSAmbGRxdW87cXVpY2tpZSZyZHF1bzsgZWxlY3Rpb24gcnVsZXMgcGFja2VkIGluIDIwMTUsIHRoZXkgZGlkIG5vdCBnbyBjb21wbGV0ZWx5IHVuc2NhdGhlZC4gRmlyc3QsIGVsZWN0aW9ucyBhcmUgb2NjdXJyaW5nIGZhc3RlciB0aGFuIGV2ZXIuIEluIGZhY3QsIHRoZXkgb2NjdXJyZWQgYWJvdXQgZWlnaHQgZGF5cyBmYXN0ZXIgZnJvbSB0aGUgZWZmZWN0aXZlIGRhdGUgdGhyb3VnaCB0aGUgZW5kIG9mIHRoZSB5ZWFyICgyNi4zIGRheXMgZnJvbSBBcHJpbCAxNCB0aHJvdWdoIERlY2VtYmVyIDMxIHZzLiAzNC4yIGRheXMgZnJvbSBKYW51YXJ5IDEgdGhyb3VnaCBBcHJpbCAxMyksIGFuZCBvY2N1cnJlZCAxNCBkYXlzIGZhc3RlciB0aGFuIGEgeWVhciBhZ28gKDI2LjMgZGF5cyB2cy4gNDAuMyBkYXlzIGR1cmluZyB0aGUgc2FtZSBwZXJpb2QgaW4gMjAxNCkuIEZpbmFsbHksIHRoZSBwZXJjZW50YWdlIG9mIGRlYWxlcnNoaXAgdmljdG9yaWVzIGNvbnRpbnVlZCB0byB0cmVuZCBkb3dud2FyZCBpbiAyMDE1LCB3aXRoIGEgMzguOSUgdmljdG9yeSByYXRlIGNvbXBhcmVkIHRvIGEgNDIuNCUgdmljdG9yeSByYXRlIGluIDIwMTQuPC9wPg0KPHA+DQoJPHN0cm9uZz5QcmVwYXJlIEZvciBUaGUgRnV0dXJlPC9zdHJvbmc+PGJyIC8+DQoJV2hpbGUgdGhlIHRydWUgZWZmZWN0IG9mIHRoZSBuZXcgJmxkcXVvO3F1aWNraWUmcmRxdW87IGVsZWN0aW9uIHJ1bGVzIG1heSBub3QgaGF2ZSBpbXBhY3RlZCBkZWFsZXJzaGlwcyBhcyBoYXJkIGFzIHNvbWUgb3RoZXIgaW5kdXN0cmllcywgeW91IG5lZWQgdG8gZW5zdXJlIHRoYXQgeW91IGFyZSBwcm9hY3RpdmUgcmF0aGVyIHRoYW4gcmVhY3RpdmUgaW4gdGhpcyBhcmVhLiBZb3Ugc2hvdWxkIHByZXBhcmUgdG9kYXkgZm9yIGEgcG90ZW50aWFsIHdhdmUgb2YgbmV3IHBldGl0aW9ucyB0b21vcnJvdy48L3A+DQo8cD4NCglJdCBpcyBjcml0aWNhbCB0aGF0IHlvdSB0YWtlIHRoZSB0aW1lIHRvIHByb3Blcmx5IHRyYWluIHlvdXIgc3VwZXJ2aXNvcnMgdG8gbG9vayBmb3IgdGhlIGVhcmx5IHdhcm5pbmcgc2lnbnMgb2YgcG90ZW50aWFsIHVuaW9uIGFjdGl2aXR5LCBhbmQgZW5zdXJlIHRoYXQgdGhlc2Ugc2FtZSBzdXBlcnZpc29ycyB1bmRlcnN0YW5kIHRoZSBsYWJvciBsYXdzIGdvdmVybmluZyB0aGUgdW5pb24gZWxlY3Rpb24gcHJvY2Vzcy48L3A+DQpkAgsPZBYkZg8PFgIfAWhkFgYCAQ8WAh8ABR5MZWdhbCBBcnRpY2xlL05ld3NsZXR0ZXIgTmFtZTpkAgMPFgIfAAUYTGVnYWwgQXJ0aWNsZS9OZXdzbGV0dGVyZAIFDxYCHwAFDVVuaXRlZCBTdGF0ZXNkAgEPDxYCHwFnZGQCAg8PFgIfAgWUAS9yZXBvcnRhcHJvYmxlbS9pbmRleC5hc3B4P3B0PUpEJTJiU3VwcmElMjUzYSUyYkhvdyUyYkhhdmUlMmJEZWFsZXJzaGlwcyUyYkZhcmVkJTJiSW4lMmJGaWdodCUyYkFnYWluc3QlMmJVbmlvbiUyYiUyNTIyUXVpY2tpZSUyNTIyJTJiRWxlY3Rpb25zJTI1M2ZkZAIED2QWBAIBDxYCHwAFlAU8aHIgY2xhc3M9InRoaWNrYm9yZGVyIiAvPjxoMiBjbGFzcz0icHRzYW5zIHVwcGVyIj5SZWxhdGVkIFBvc3RzPC9oMj48dWwgY2xhc3M9ImdyZXktYXJyb3ciPg0KPGxpPjxhIGhyZWY9Ii9sZWdhbG5ld3MvbmV3LXllYXItcy1yZXNvbHV0aW9uLXJldmlldy15b3VyLXNhbGVzLTY5Nzg1LyI+TmV3IFllYXIncyBSZXNvbHV0aW9uPyBSZXZpZXcgWW91ciBTYWxlcyBQYXkgUGxhbjwvYT48L2xpPg0KPGxpPjxhIGhyZWY9Ii9sZWdhbG5ld3MvbmxyYi1xdWlja2llLWVsZWN0aW9uLXJ1bGUtcHJvdmlkaW5nLWEtNjIzMzYvIj5OTFJCICJRdWlja2llIEVsZWN0aW9uIiBSdWxlIFByb3ZpZGluZyBBIEJpZyBCb29zdCBUbyBVbmlvbnM8L2E+PC9saT4NCjxsaT48YSBocmVmPSIvbGVnYWxuZXdzL25scmJzLWZpbmFsaXplcy1xdWlja2llLWVsZWN0aW9uLXJ1bGVzLTUzODk0LyI+TkxSQidzIEZpbmFsaXplcyBRdWlja2llIEVsZWN0aW9uIFJ1bGVzIGZvciBBcHJpbCBJbXBsZW1lbnRhdGlvbidzPC9hPjwvbGk+DQo8bGk+PGEgaHJlZj0iL2xlZ2FsbmV3cy9jb3VydC1zdHJpa2VzLWRvd24tbmxyYi1xdWlja2llLWVsZWN0aW8tNTIwODEvIj5Db3VydCBTdHJpa2VzIERvd24gTkxSQiAiUXVpY2tpZSBFbGVjdGlvbiIgUnVsZTwvYT48L2xpPg0KPC91bD4NCjwvdWw+DQpkAgMPFgIfAAXDAjxociBjbGFzcz0idGhpY2tib3JkZXIiIC8+PGgyIGNsYXNzPSJwdHNhbnMgdXBwZXIiPkxhdGVzdCBQb3N0czwvaDI+PHVsIGNsYXNzPSJncmV5LWFycm93Ij48bGk+PGEgaHJlZj0iL2xlZ2FsbmV3cy9ob3VzZS1tZW1iZXJzLW9wcG9zZS1leGVtcHRpb24tY2hhbmdlcy00NzYwNS8iPkhvdXNlIE1lbWJlcnMgT3Bwb3NlIEV4ZW1wdGlvbiBDaGFuZ2VzPC9hPjwvbGk+DQo8L3VsPjxwIGNsYXNzPSJtb3JlTGVzc0xpbmsgdGV4dHJpZ2h0IHNtYWxsIj48YSBocmVmPSIvcHJvZmlsZS9maXNoZXJfcGhpbGxpcHNfZG9jcy8iPlNlZSBtb3JlICZyYXF1bzs8L2E+PC9wPg0KZAIFD2QWAgIBDxYCHwAFH1ZpZGVvcyBieSBGaXNoZXIgJiBQaGlsbGlwcyBMTFBkAgYPZBYCAgEPFgIfAAUVRmlzaGVyICYgUGhpbGxpcHMgTExQZAIIDxYCHwAFFnN0eWxlPSJkaXNwbGF5OiBub25lOyJkAgkPFgIfAGVkAgwPFgIfAWdkAg0PFgQfAwICHwFnFgRmD2QWBgICDxUIAAU1MDc3Ng9TdGV2ZW4gRmVyZW5jenkBMQExBTUwNzc2ATEFNTA3NzZkAgMPFgIfAWdkAgQPFQ0ABTUwNzc2D1N0ZXZlbiBGZXJlbmN6eQExATEFNTA3NzYBMQU1MDc3Ng9zdGV2ZW4tZmVyZW5jenlEaHR0cDovL2pkc3VwcmEtc3RhdGljLnMzLmFtYXpvbmF3cy5jb20vYXV0aG9ycy81NmI4YTQ1NDM5Mzg2LjMwaC5qcGcPU3RldmVuIEZlcmVuY3p5D3N0ZXZlbi1mZXJlbmN6eQ9TdGV2ZW4gRmVyZW5jenlkAgEPZBYGAgIPFQgABDU4NzMPTWF0dGhldyBTaW1wc29uATEBMQQ1ODczATEENTg3M2QCAw8WAh8BZ2QCBA8VDQAENTg3Mw9NYXR0aGV3IFNpbXBzb24BMQExBDU4NzMBMQQ1ODczD21hdHRoZXctc2ltcHNvbkRodHRwOi8vamRzdXByYS1zdGF0aWMuczMuYW1hem9uYXdzLmNvbS9hdXRob3JzLzUxMmJkMmJiMjhmOTcuMzBoLmpwZw9NYXR0aGV3IFNpbXBzb24PbWF0dGhldy1zaW1wc29uD01hdHRoZXcgU2ltcHNvbmQCDg8WAh8BZ2QCDw8WBB8DAgUfAWcWCmYPZBYGAgIPFQUABDY5MDgVQW1idXNoIEVsZWN0aW9uIFJ1bGVzBDY5MDgENjkwOGQCAw8WAh8BZ2QCBA8VBwAENjkwOBVBbWJ1c2ggRWxlY3Rpb24gUnVsZXMENjkwOAQ2OTA4FWFtYnVzaC1lbGVjdGlvbi1ydWxlcxVBbWJ1c2ggRWxlY3Rpb24gUnVsZXNkAgEPZBYGAgIPFQUABDkwNTIZQmVzdCBNYW5hZ2VtZW50IFByYWN0aWNlcwQ5MDUyBDkwNTJkAgMPFgIfAWdkAgQPFQcABDkwNTIZQmVzdCBNYW5hZ2VtZW50IFByYWN0aWNlcwQ5MDUyBDkwNTIZYmVzdC1tYW5hZ2VtZW50LXByYWN0aWNlcxlCZXN0IE1hbmFnZW1lbnQgUHJhY3RpY2VzZAICD2QWBgICDxUFAAQ0NDIwD0NhciBEZWFsZXJzaGlwcwQ0NDIwBDQ0MjBkAgMPFgIfAWdkAgQPFQcABDQ0MjAPQ2FyIERlYWxlcnNoaXBzBDQ0MjAENDQyMA9jYXItZGVhbGVyc2hpcHMPQ2FyIERlYWxlcnNoaXBzZAIDD2QWBgICDxUFAAI3NAROTFJCAjc0Ajc0ZAIDDxYCHwFnZAIEDxUHAAI3NAROTFJCAjc0Ajc0BG5scmIETkxSQmQCBA9kFgYCAg8VBQACODQGVW5pb25zAjg0Ajg0ZAIDDxYCHwFnZAIEDxUHAAI4NAZVbmlvbnMCODQCODQGdW5pb25zBlVuaW9uc2QCEA8WBB8DAgEfAWcWAmYPZBYGAgIPFQUAAjQ1EkxhYm9yICYgRW1wbG95bWVudAI0NQI0NWQCAw8WAh8BZ2QCBA8VBwACNDUSTGFib3IgJiBFbXBsb3ltZW50AjQ1AjQ1MWh0dHA6Ly93d3cuamRzdXByYS5jb20vbGF3LW5ld3MvbGFib3ItZW1wbG95bWVudC8STGFib3IgJiBFbXBsb3ltZW50ZAISD2QWCgIBDxYCHwAFFUZpc2hlciAmIFBoaWxsaXBzIExMUGQCAw8WBB4EaHJlZgU1aHR0cDovL3d3dy5saW5rZWRpbi5jb20vY29tcGFueS9maXNoZXItJi1waGlsbGlwcy1sbHAfAWdkAgcPFgIfBAUjaHR0cDovL3R3aXR0ZXIuY29tL2xhYm9yX2F0dG9ybmV5cyBkAgkPFgIfBAUbaHR0cDovL3d3dy5sYWJvcmxhd3llcnMuY29tZAILDxYEHwQFHC9wcm9maWxlL2Zpc2hlcl9waGlsbGlwc19yc3MfAWdkAhMPDxYCHwIFHi9wcm9maWxlL2Zpc2hlcl9waGlsbGlwc19kb2NzL2QWAmYPFgIfAAUVRmlzaGVyICYgUGhpbGxpcHMgTExQZAIVDxYCHwAFYE1hbnkgbGF3IGZpcm1zIHRvZGF5IHRhbGsgYWJvdXQgdmFsdWUgYXMgaWYgaXQncyBhIG5ldyBjb25jZXB0LiBBdCBGaXNoZXIgJiBQaGlsbGlwcywgd2Ugd2VyZS4uLmQCFg8PFgIfAWhkZAIZDxYCHwAFRkhvdyBIYXZlIERlYWxlcnNoaXBzIEZhcmVkIEluIEZpZ2h0IEFnYWluc3QgVW5pb24gIlF1aWNraWUiIEVsZWN0aW9ucz9kAisPFgIfAAVFaHR0cDovL2RvY3VtZW50cy5qZHN1cHJhLmNvbS85MzllNDczZS1jNGViLTRlYjQtYTgyZC0xMjEwYTE0OGI1ZDAucGRmZAIsDxYCHwAFfWh0dHA6Ly9kb2NzLmdvb2dsZS5jb20vdmlld2VyP3VybD1odHRwJTNBJTJGJTJGZG9jdW1lbnRzLmpkc3VwcmEuY29tJTJGOTM5ZTQ3M2UtYzRlYi00ZWI0LWE4MmQtMTIxMGExNDhiNWQwLnBkZiZlbWJlZGRlZD10cnVlZGREDKOSuBOrOb0PcZbXareOFRGCLJyRALmihnxsRX2HIA==" />
+</div>
+
+
+<script src="/ScriptResource.axd?d=iS7XrC6Yyxl-PJ0XtmOTKpB-Wpr-UEgyv6H5rc2mPYRC6nzenmwkkrJ1z35i5mQS2hoVtND2QdpxOUaQfw7g1P__ZOBNKmmm9VlIgfPt_tAlqciihx-vq4G7VqwOKUB1wnXj3ME-25alpTPb10oV0NZkeiAZMTIaKHMfpI5QVDY1&amp;t=72e85ccd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+var PageMethods = function() {
+PageMethods.initializeBase(this);
+this._timeout = 0;
+this._userContext = null;
+this._succeeded = null;
+this._failed = null;
+}
+PageMethods.prototype = {
+_get_path:function() {
+ var p = this.get_path();
+ if (p) return p;
+ else return PageMethods._staticInstance.get_path();},
+OpenGate:function(gateData,gateFieldData,succeededCallback, failedCallback, userContext) {
+return this._invoke(this._get_path(), 'OpenGate',false,{gateData:gateData,gateFieldData:gateFieldData},succeededCallback,failedCallback,userContext); },
+GetGateFieldData:function(fileID,succeededCallback, failedCallback, userContext) {
+return this._invoke(this._get_path(), 'GetGateFieldData',true,{fileID:fileID},succeededCallback,failedCallback,userContext); },
+AbandonGate:function(gateData,succeededCallback, failedCallback, userContext) {
+return this._invoke(this._get_path(), 'AbandonGate',false,{gateData:gateData},succeededCallback,failedCallback,userContext); },
+CheckReCaptcha:function(captchaData,succeededCallback, failedCallback, userContext) {
+return this._invoke(this._get_path(), 'CheckReCaptcha',false,{captchaData:captchaData},succeededCallback,failedCallback,userContext); }}
+PageMethods.registerClass('PageMethods',Sys.Net.WebServiceProxy);
+PageMethods._staticInstance = new PageMethods();
+PageMethods.set_path = function(value) { PageMethods._staticInstance.set_path(value); }
+PageMethods.get_path = function() { return PageMethods._staticInstance.get_path(); }
+PageMethods.set_timeout = function(value) { PageMethods._staticInstance.set_timeout(value); }
+PageMethods.get_timeout = function() { return PageMethods._staticInstance.get_timeout(); }
+PageMethods.set_defaultUserContext = function(value) { PageMethods._staticInstance.set_defaultUserContext(value); }
+PageMethods.get_defaultUserContext = function() { return PageMethods._staticInstance.get_defaultUserContext(); }
+PageMethods.set_defaultSucceededCallback = function(value) { PageMethods._staticInstance.set_defaultSucceededCallback(value); }
+PageMethods.get_defaultSucceededCallback = function() { return PageMethods._staticInstance.get_defaultSucceededCallback(); }
+PageMethods.set_defaultFailedCallback = function(value) { PageMethods._staticInstance.set_defaultFailedCallback(value); }
+PageMethods.get_defaultFailedCallback = function() { return PageMethods._staticInstance.get_defaultFailedCallback(); }
+PageMethods.set_enableJsonp = function(value) { PageMethods._staticInstance.set_enableJsonp(value); }
+PageMethods.get_enableJsonp = function() { return PageMethods._staticInstance.get_enableJsonp(); }
+PageMethods.set_jsonpCallbackParameter = function(value) { PageMethods._staticInstance.set_jsonpCallbackParameter(value); }
+PageMethods.get_jsonpCallbackParameter = function() { return PageMethods._staticInstance.get_jsonpCallbackParameter(); }
+PageMethods.set_path("documentViewer.aspx");
+PageMethods.OpenGate= function(gateData,gateFieldData,onSuccess,onFailed,userContext) {PageMethods._staticInstance.OpenGate(gateData,gateFieldData,onSuccess,onFailed,userContext); }
+PageMethods.GetGateFieldData= function(fileID,onSuccess,onFailed,userContext) {PageMethods._staticInstance.GetGateFieldData(fileID,onSuccess,onFailed,userContext); }
+PageMethods.AbandonGate= function(gateData,onSuccess,onFailed,userContext) {PageMethods._staticInstance.AbandonGate(gateData,onSuccess,onFailed,userContext); }
+PageMethods.CheckReCaptcha= function(captchaData,onSuccess,onFailed,userContext) {PageMethods._staticInstance.CheckReCaptcha(captchaData,onSuccess,onFailed,userContext); }
+var gtc = Sys.Net.WebServiceProxy._generateTypedConstructor;
+Type.registerNamespace('jdsupra.DocGate');
+if (typeof(jdsupra.DocGate.GateData) === 'undefined') {
+jdsupra.DocGate.GateData=gtc("jdsupra.DocGate.GateData");
+jdsupra.DocGate.GateData.registerClass('jdsupra.DocGate.GateData');
+}
+if (typeof(jdsupra.DocGate.GateFieldData) === 'undefined') {
+jdsupra.DocGate.GateFieldData=gtc("jdsupra.DocGate.GateFieldData");
+jdsupra.DocGate.GateFieldData.registerClass('jdsupra.DocGate.GateFieldData');
+}
+if (typeof(jdsupra.DocGate.CaptchaData) === 'undefined') {
+jdsupra.DocGate.CaptchaData=gtc("jdsupra.DocGate.CaptchaData");
+jdsupra.DocGate.CaptchaData.registerClass('jdsupra.DocGate.CaptchaData');
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1D9A11B9" />
+</div>
+    <input type="hidden" name="curContentID" id="curContentID" value="939e473e-c4eb-4eb4-a82d-1210a148b5d0" />
+
+
+
+<div class="site-center jds-content-viewer clearfix">  
+    <div class="jds-main-content whitebg">
+        <div class="jds-content-viewer-padding">
+        
+        
+        <!--Content Header-->
+        <div id="DocumentHeaderPanel">
+	
+            <div class="t-cv-header">
+              <h1 class="doc_name">How Have Dealerships Fared In Fight Against Union "Quickie" Elections?</h1><!--Title-->
+
+              <!--Author & Firm Name w/ truncation-->
+              <div id="attributionPanel">
+		  
+                 <div class="truncate_tags media" id="AuthorTagList">
+                    <div class="imgExt">
+                        <div class="doc_trunk_more"><span class="blue" onClick="showMoreTags('#AuthorTagList')">more+</span></div>
+                        <div class="doc_trunk_less"><span class="blue" onClick="hideMoreTags('#AuthorTagList')">less-</span></div>
+                    </div>
+                    <div class="bd">
+                        <div class="doc_trunk_list_tags t-cv-head-byline">
+                            <div class="author_tag_space"><time>2/8/2016</time></div>
+                            <div class="author_tag_space">by</div>
+                            <div class="media-clean"><div class="img author_img"><a href="/authors/steven-ferenczy/"><img src="http://jdsupra-static.s3.amazonaws.com/authors/56b8a45439386.30h.jpg" alt="Steven Ferenczy" /></a></div><div class="bd author_name"><a href="/authors/steven-ferenczy/">Steven Ferenczy</a>, </div></div><div class="media-clean"><div class="img author_img"><a href="/authors/matthew-simpson/"><img src="http://jdsupra-static.s3.amazonaws.com/authors/512bd2bb28f97.30h.jpg" alt="Matthew Simpson" /></a></div><div class="bd author_name"><a href="/authors/matthew-simpson/">Matthew Simpson</a>&nbsp;&nbsp;</div></div>
+                            <div class="author_tag_firm_name author_tag_space">| <a id="ProfileHyperLink1" href="/profile/fisher_phillips_docs/">Fisher & Phillips LLP</a>
+                            </div>
+                        </div>
+                    </div>
+                 </div>          
+              
+	</div>   
+            
+            <!--Topics Tags w/ truncation-->       
+            <!--
+                 <div class="truncate_tags media" id="TopicTagsExplore">
+                    <div class="imgExt">
+                        <div class="doc_trunk_more"><span class="blue" onClick="showMoreTags('#TopicTagsExplore')">more+</span></div>
+                        <div class="doc_trunk_less"><span class="blue" onClick="hideMoreTags('#TopicTagsExplore')">less-</span></div>      
+                    </div>       
+                    <div class="bd">
+                    <div class="doc_trunk_list_tags t-cv-tag-line gray sm">            
+                    Explore:&nbsp;&nbsp;<a class="btn sm-blue-btn" href="/topics/ambush-election-rules/">Ambush Election Rules</a> <a class="btn sm-blue-btn" href="/topics/best-management-practices/">Best Management Practices</a> <a class="btn sm-blue-btn" href="/topics/car-dealerships/">Car Dealerships</a> <a class="btn sm-blue-btn" href="/topics/nlrb/">NLRB</a> <a class="btn sm-blue-btn" href="/topics/unions/">Unions</a> 
+                        </div>
+                    </div>
+                </div>
+                -->
+            </div>
+        
+</div>
+        <!--/Content Header-->
+
+        <!--Social Media Row-->        
+    <div id="followPanel">
+	 
+            <div class="socialIconRow clearfix">        
+              <div class="fb-like" data-href="http://www.jdsupra.com/legalnews/how-have-dealerships-fared-in-fight-46946/" data-send="false" data-layout="button_count" data-width="47" data-show-faces="false"></div>    
+              <div class="social-row-googleplus"><g:plusone href="http://www.jdsupra.com/legalnews/how-have-dealerships-fared-in-fight-46946/" size="medium"></g:plusone></div>
+              <div class="social-row-twitter"><a href="https://twitter.com/share" url="http://www.jdsupra.com/legalnews/how-have-dealerships-fared-in-fight-46946/" class="twitter-share-button" data-count="horizontal">Tweet</a></div>          
+              <div class="social-row-linkedin"><script type="IN/Share" data-url="http://www.jdsupra.com/legalnews/how-have-dealerships-fared-in-fight-46946/" data-counter="right"></script></div>   
+              <div class="SendPanelLink drkgraylnk">
+                <a href="javascript:sendit();" class="tiny sm-send-btn">Send</a>
+              </div>   
+              
+                  <div class="EmbedPanelLink drkgraylnk marg-right-20">
+                    <span onClick="HideShowEmbed();" class="tiny sm-send-btn cursor-pointer">Embed</span>
+                  </div>               
+              
+            <div><a href="/profile/contributor-contact.aspx" id="ContactNowBTNlink" class="sm-contact-btn" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;follow&#39;, &#39;Contact Button - Doc View Top&#39;, &#39;Contact Button - Doc View Top&#39;);">Contact</a>  
+            </div>            
+            </div>                    
+              <div id="EmbedPanel">
+		 
+                <div class="embedBox gray sm" style="display: none;">
+                    <p>To embed, copy and paste the code into your website or blog:</p>
+                    <textarea class="embed-textarea"><iframe src="http://www.jdsupra.com/post/contentViewerEmbed.aspx?fid=939e473e-c4eb-4eb4-a82d-1210a148b5d0" width="100%" height="620" frameborder="1" style="border: 2px solid #ccc; overflow-x:hidden !important; overflow:hidden;" scrolling="auto"></iframe></textarea>        
+                </div>             
+              
+	</div>
+                   
+        
+</div>   
+        <!--/Social Media Row-->    
+        
+        
+    
+        <!--File unavailable error msg-->
+            
+        <!--/File unavailable error msg-->
+
+        <!--Owner Message-->
+        
+        
+          
+
+        <!--Case 1: PDF View-->
+                      
+        <!--/End PDF View-->    
+        
+        <!--Case 2: Video View-->
+            
+        <!--/Video View-->   
+     
+        <!--Case 3: HTML Content View-->
+        <div id="HTMLContentViewPanel">
+	
+            <div id="html-view-content" class="t-cv-summary htmlBoxSize"><p>
+	<img alt="" src="http://www.jdsupra.com/img/client_headers/FisherPhillips/Dealership.jpg" style="width: 745px; height: 222px;" /></p>
+<p>
+	The National Labor Relations Board&rsquo;s (NLRB) &ldquo;quickie&rdquo; election rules took effect on April 14, 2015, substantially expediting the union election process. Among other things, the new rules cut the time period between representation petition and election in half, and require employers to provide expedited disclosure of worker phone numbers, email addresses and other personal information to unions.&nbsp; &nbsp;</p>
+<p>
+	These new rules have been a source of contention for many employers that have been forced to prepare for significant changes in union-organizing tactics. Fisher &amp; Phillips has conducted its own review of union petitions filed against dealerships in the last year. While an analysis of the first six months of union activity following the new rules established that unions as a whole are benefiting significantly from the changes, the same may not be true when it comes to dealership elections.</p>
+<p>
+	<strong>Summary Of Findings</strong><br />
+	Interestingly, only 30 petitions were filed against dealerships in 2015, which is down considerably from a five-year high of 42 petitions in 2014. Perhaps of more interest: the frequency of petitions filed against dealerships slowed after the April 14, 2015 inception date, swith more than 30% of the 2015 petitions filed in the first quarter of the year.</p>
+<p>
+	In addition to the number of petitions slowing after the new rules kicked in, the percentage of union victories trended down after the &ldquo;quickie&rdquo; election rules took effect. There were six elections that occurred under the old rules, with victories for unions in four of the six, for a 67% union-win rate. There were 12 elections that occurred under the new rules, with victories for unions in seven of the 12 elections, or a 58% union-win rate.</p>
+<p>
+	In total, the 30 petitions yielded only 11 union victories. Management emerged victorious in seven elections, while there were nine withdrawn petitions, one dismissal, and two blocked elections. Not surprisingly, the overwhelming majority of these petitions were filed in the three states that consistently see the most dealership union activity: California, Illinois, and New Jersey.</p>
+<p>
+	Although dealerships seem to have dodged much of the punch that the &ldquo;quickie&rdquo; election rules packed in 2015, they did not go completely unscathed. First, elections are occurring faster than ever. In fact, they occurred about eight days faster from the effective date through the end of the year (26.3 days from April 14 through December 31 vs. 34.2 days from January 1 through April 13), and occurred 14 days faster than a year ago (26.3 days vs. 40.3 days during the same period in 2014). Finally, the percentage of dealership victories continued to trend downward in 2015, with a 38.9% victory rate compared to a 42.4% victory rate in 2014.</p>
+<p>
+	<strong>Prepare For The Future</strong><br />
+	While the true effect of the new &ldquo;quickie&rdquo; election rules may not have impacted dealerships as hard as some other industries, you need to ensure that you are proactive rather than reactive in this area. You should prepare today for a potential wave of new petitions tomorrow.</p>
+<p>
+	It is critical that you take the time to properly train your supervisors to look for the early warning signs of potential union activity, and ensure that these same supervisors understand the labor laws governing the union election process.</p>
+</div>
+        
+</div>        
+    
+
+
+        <!--Content Info-->                 
+        <div id="BottomFileInfoPanel" class="t-cv-info-panel">
+	
+
+       
+        <!--Case Info-->
+         
+
+        <div class="t-cv-source">
+            <a href="javascript:sendit();" class="sm-outline-btn btn-cv-send">Send</a>
+            <a id="PrintHTMLHyperLink" class="sm-outline-btn btn-cv-print" href="javascript:window.print();">Print</a>
+            <a id="reportproblemDocViewer2" class="sm-outline-btn btn-cv-report" href="/reportaproblem/index.aspx?pt=JD%2bSupra%253a%2bHow%2bHave%2bDealerships%2bFared%2bIn%2bFight%2bAgainst%2bUnion%2b%2522Quickie%2522%2bElections%253f">Report</a>
+            <a href="/profile/contributor-contact.aspx" id="ContactNowBTNlink2" class="sm-contact-btn" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;follow&#39;, &#39;Contact Button - Doc View Bottom&#39;, &#39;Contact Button - Doc View Bottom&#39;);">Contact</a>
+
+   
+        </div>
+
+
+        <!--Related/latest docs-->
+        <div id="ContentViewRelatedPanel" class="connect-related-list">
+		 
+            
+            <hr class="thickborder" /><h2 class="ptsans upper">Related Posts</h2><ul class="grey-arrow">
+<li><a href="/legalnews/new-year-s-resolution-review-your-sales-69785/">New Year's Resolution? Review Your Sales Pay Plan</a></li>
+<li><a href="/legalnews/nlrb-quickie-election-rule-providing-a-62336/">NLRB "Quickie Election" Rule Providing A Big Boost To Unions</a></li>
+<li><a href="/legalnews/nlrbs-finalizes-quickie-election-rules-53894/">NLRB's Finalizes Quickie Election Rules for April Implementation's</a></li>
+<li><a href="/legalnews/court-strikes-down-nlrb-quickie-electio-52081/">Court Strikes Down NLRB "Quickie Election" Rule</a></li>
+</ul>
+</ul>
+
+            
+            <hr class="thickborder" /><h2 class="ptsans upper">Latest Posts</h2><ul class="grey-arrow"><li><a href="/legalnews/house-members-oppose-exemption-changes-47605/">House Members Oppose Exemption Changes</a></li>
+</ul><p class="moreLessLink textright small"><a href="/profile/fisher_phillips_docs/">See more &raquo;</a></p>
+
+        
+	</div>  
+
+
+        <!--Video Ribbon-->
+        
+
+        
+        <!--Disclaimer-->
+        <div id="disclaimerDisplay">
+		
+        <hr class="thickborder">
+            <div class="t-cv-disclaimer sm gray">
+                <p>DISCLAIMER: Because of the generality of this update, the information provided herein may not be applicable in all situations and should not be acted upon without specific legal advice based on particular situations.</p>
+                <p>&copy; Fisher & Phillips LLP <script>var today = new Date(); var yyyy = today.getFullYear();document.write(yyyy + " ");</script> |  Attorney Advertising</p>   
+            </div>
+        
+	</div>
+
+        <!--Subscribe Ad-->
+                
+    </div>    
+</div>
+    </div>    
+
+<div class="jds-doc-side-content">
+
+    <div class="border-light whitebg pad-30x30">
+
+        <a name="FollowSection"></a>
+        <div class="yellow_alert marg-bot-15" name="MasterAlerter" style="display: none;"><br/><a href="/follow/manageyourinterests//">Refine your interests</a>.
+        </div>
+
+        <h3 class="upper ptsans">Written by:</h3>
+
+        <!--Follow Firm-->
+        <div class="block-with-bot-border media">
+            <div class="imgExt">
+                <span class="follow-action-lnk follow-lnk"  onclick="PostChange('',9982,'Fisher & Phillips LLP',4,1)" name="follow_4_9982">+ Follow</span>
+                <span class="follow-action-lnk following-lnk" style="display: none;" name="follow_spinner_4_9982">x&nbsp;Following</span>
+                <span class="follow-action-lnk following-lnk" style="display: none;" onclick="PostChange('',9982,'Fisher & Phillips LLP',4,0)" name="unfollow_4_9982">x&nbsp;Following</span> 
+                <span class="follow-action-lnk unfollowing-lnk blue" style="display: none;" name="unfollow_spinner_4_9982">- Unfollow</span>
+            </div>
+            <div class="bd follow-media sm">
+                <div class="img">
+                    <a href="/profile/fisher_phillips/"><img src="http://www.jdsupra.com/showThumbnail.aspx?img=7295_3726.jpg&size=sm" alt="Fisher & Phillips LLP" class="border-light"></a>
+                </div>
+                <div class="bd drkgraylnk">
+                    <a href="/profile/fisher_phillips_docs/">Fisher & Phillips LLP</a>
+                </div>
+            </div>
+        </div> 
+
+ 
+
+    <!--Follow People-->
+    <div id="followPeopleSection">
+         <div class="follow-people-list">      
+            <!--Follow Author Buttons-->
+             
+                <div class="block-with-bot-border media js-followauthor">
+                    <div class="imgExt">
+
+                        <span class="follow-action-lnk follow-lnk"  onclick="PostChange('',50776,'Steven Ferenczy',1,1)" name="follow_1_50776">+ Follow</span>
+                        <span class="follow-action-lnk following-lnk" style="display: none;" name="follow_spinner_1_50776">x&nbsp;Following</span>
+                        <span class="follow-action-lnk following-lnk" style="display: none;" onclick="PostChange('',50776,'Steven Ferenczy',1,0)" name="unfollow_1_50776">x&nbsp;Following</span> 
+                        <span class="follow-action-lnk unfollowing-lnk blue" style="display: none;" name="unfollow_spinner_1_50776">- Unfollow</span>
+                    </div>
+                    <div class="bd follow-media sm">
+                        <div class="img">
+                            <a href="/authors/steven-ferenczy/"><img src="http://jdsupra-static.s3.amazonaws.com/authors/56b8a45439386.30h.jpg" alt="Steven Ferenczy"></a>
+                        </div>
+                        <div class="bd drkgraylnk">
+                            <a href="/authors/steven-ferenczy/">Steven Ferenczy</a>
+                        </div>
+                    </div>
+                </div> 
+                
+                <div class="block-with-bot-border media js-followauthor">
+                    <div class="imgExt">
+
+                        <span class="follow-action-lnk follow-lnk"  onclick="PostChange('',5873,'Matthew Simpson',1,1)" name="follow_1_5873">+ Follow</span>
+                        <span class="follow-action-lnk following-lnk" style="display: none;" name="follow_spinner_1_5873">x&nbsp;Following</span>
+                        <span class="follow-action-lnk following-lnk" style="display: none;" onclick="PostChange('',5873,'Matthew Simpson',1,0)" name="unfollow_1_5873">x&nbsp;Following</span> 
+                        <span class="follow-action-lnk unfollowing-lnk blue" style="display: none;" name="unfollow_spinner_1_5873">- Unfollow</span>
+                    </div>
+                    <div class="bd follow-media sm">
+                        <div class="img">
+                            <a href="/authors/matthew-simpson/"><img src="http://jdsupra-static.s3.amazonaws.com/authors/512bd2bb28f97.30h.jpg" alt="Matthew Simpson"></a>
+                        </div>
+                        <div class="bd drkgraylnk">
+                            <a href="/authors/matthew-simpson/">Matthew Simpson</a>
+                        </div>
+                    </div>
+                </div> 
+                  
+
+        </div>
+        <div class="doc_trunk_more"><span class="blue" onClick="showMoreTags('#followPeopleSection')">more+</span></div>
+        <div class="doc_trunk_less"><span class="blue" onClick="hideMoreTags('#followPeopleSection')">less-</span></div>
+    </div><!--end truncate tags-->
+
+<!--Follow Topics/Subjects-->
+<div class="marg-top-20 follow-trunk-List block-with-bot-border" id="followTopSubSection">
+    <h3 class="upper ptsans">Published In:</h3> 
+
+     <div class="follow-subtop-list">             
+        <!--Follow Topics Buttons-->
+        
+            <div class="block-with-bot-border media js-followsubtops">
+                <div class="imgExt">
+                    <span class="follow-action-lnk follow-lnk"  onclick="PostChange('',6908,'Ambush Election Rules',2,1)" name="follow_2_6908">+ Follow</span>
+                    <span class="follow-action-lnk following-lnk" style="display: none;" name="follow_spinner_2_6908">x&nbsp;Following</span>
+                    <span class="follow-action-lnk following-lnk" style="display: none;" onclick="PostChange('',6908,'Ambush Election Rules',2,0)" name="unfollow_2_6908">x&nbsp;Following</span> 
+                    <span class="follow-action-lnk unfollowing-lnk blue" style="display: none;" name="unfollow_spinner_2_6908">- Unfollow</span>
+                </div>
+                <div class="bd drkgraylnk sm">
+                    <a href="/topics/ambush-election-rules/">Ambush Election Rules</a>
+                </div>
+            </div> 
+            
+            <div class="block-with-bot-border media js-followsubtops">
+                <div class="imgExt">
+                    <span class="follow-action-lnk follow-lnk"  onclick="PostChange('',9052,'Best Management Practices',2,1)" name="follow_2_9052">+ Follow</span>
+                    <span class="follow-action-lnk following-lnk" style="display: none;" name="follow_spinner_2_9052">x&nbsp;Following</span>
+                    <span class="follow-action-lnk following-lnk" style="display: none;" onclick="PostChange('',9052,'Best Management Practices',2,0)" name="unfollow_2_9052">x&nbsp;Following</span> 
+                    <span class="follow-action-lnk unfollowing-lnk blue" style="display: none;" name="unfollow_spinner_2_9052">- Unfollow</span>
+                </div>
+                <div class="bd drkgraylnk sm">
+                    <a href="/topics/best-management-practices/">Best Management Practices</a>
+                </div>
+            </div> 
+            
+            <div class="block-with-bot-border media js-followsubtops">
+                <div class="imgExt">
+                    <span class="follow-action-lnk follow-lnk"  onclick="PostChange('',4420,'Car Dealerships',2,1)" name="follow_2_4420">+ Follow</span>
+                    <span class="follow-action-lnk following-lnk" style="display: none;" name="follow_spinner_2_4420">x&nbsp;Following</span>
+                    <span class="follow-action-lnk following-lnk" style="display: none;" onclick="PostChange('',4420,'Car Dealerships',2,0)" name="unfollow_2_4420">x&nbsp;Following</span> 
+                    <span class="follow-action-lnk unfollowing-lnk blue" style="display: none;" name="unfollow_spinner_2_4420">- Unfollow</span>
+                </div>
+                <div class="bd drkgraylnk sm">
+                    <a href="/topics/car-dealerships/">Car Dealerships</a>
+                </div>
+            </div> 
+            
+            <div class="block-with-bot-border media js-followsubtops">
+                <div class="imgExt">
+                    <span class="follow-action-lnk follow-lnk"  onclick="PostChange('',74,'NLRB',2,1)" name="follow_2_74">+ Follow</span>
+                    <span class="follow-action-lnk following-lnk" style="display: none;" name="follow_spinner_2_74">x&nbsp;Following</span>
+                    <span class="follow-action-lnk following-lnk" style="display: none;" onclick="PostChange('',74,'NLRB',2,0)" name="unfollow_2_74">x&nbsp;Following</span> 
+                    <span class="follow-action-lnk unfollowing-lnk blue" style="display: none;" name="unfollow_spinner_2_74">- Unfollow</span>
+                </div>
+                <div class="bd drkgraylnk sm">
+                    <a href="/topics/nlrb/">NLRB</a>
+                </div>
+            </div> 
+            
+            <div class="block-with-bot-border media js-followsubtops">
+                <div class="imgExt">
+                    <span class="follow-action-lnk follow-lnk"  onclick="PostChange('',84,'Unions',2,1)" name="follow_2_84">+ Follow</span>
+                    <span class="follow-action-lnk following-lnk" style="display: none;" name="follow_spinner_2_84">x&nbsp;Following</span>
+                    <span class="follow-action-lnk following-lnk" style="display: none;" onclick="PostChange('',84,'Unions',2,0)" name="unfollow_2_84">x&nbsp;Following</span> 
+                    <span class="follow-action-lnk unfollowing-lnk blue" style="display: none;" name="unfollow_spinner_2_84">- Unfollow</span>
+                </div>
+                <div class="bd drkgraylnk sm">
+                    <a href="/topics/unions/">Unions</a>
+                </div>
+            </div> 
+            
+
+        <!--Follow Subject Buttons-->
+        
+            <div class="block-with-bot-border media marg-top-20 js-followsubtops">
+                <div class="imgExt">
+                    <span class="follow-action-lnk follow-lnk"  onclick="PostChange('',45,'Labor & Employment',3,1)" name="follow_3_45">+ Follow</span>
+                    <span class="follow-action-lnk following-lnk" style="display: none;" name="follow_spinner_3_45">x&nbsp;Following</span>
+                    <span class="follow-action-lnk following-lnk" style="display: none;" onclick="PostChange('',45,'Labor & Employment',3,0)" name="unfollow_3_45">x&nbsp;Following</span> 
+                    <span class="follow-action-lnk unfollowing-lnk blue" style="display: none;" name="unfollow_spinner_3_45">- Unfollow</span>
+                </div>
+                <div class="bd drkgraylnk sm">
+                    <a href="http://www.jdsupra.com/law-news/labor-employment/">Labor & Employment</a>
+                </div>
+            </div> 
+              
+
+        
+    </div>
+    <div class="doc_trunk_more"><span class="blue" onClick="showMoreTags('#followTopSubSection')">more+</span></div>
+    <div class="doc_trunk_less"><span class="blue" onClick="hideMoreTags('#followTopSubSection')">less-</span></div>    
+</div>
+
+
+        <!--Start Connect Panel-->  
+        <div id="ContactPanelStatic">
+		  
+
+            <h4 class="marg-top-20 padbottom">Fisher & Phillips LLP on:</h4>
+            <div class="x_item follow-social-content">
+                <div class="item"><a href="http://www.linkedin.com/company/fisher-&-phillips-llp" id="hrefLinkedin"><img src="/img/social-icons/linkedin-32x32.png" /></a></div>
+                <div class="item"></div>
+                <div class="item"><a href="http://twitter.com/labor_attorneys " id="hrefTwitter"><img src="/img/social-icons/twitter-32x32.gif" /></a></div>
+                <div class="item"><a href="http://www.laborlawyers.com" id="hrefWebsite"><img src="/img/social-icons/website-32x32.gif" /></a></div>    
+                <div class="item"><a href="/profile/fisher_phillips_rss" id="hrefRSS"><img src="/img/social-icons/supra-32x32.gif" /></a></div>
+            </div>
+        
+	</div>
+        <!--/End Connect Panel-->
+
+
+<!--hidden .net no longer needed-->
+<a id="BigProfileHyperLink1" class="name" href="/profile/fisher_phillips_docs/"></a>
+
+
+
+
+
+ </div> <!--End writter by and published section-->
+
+
+
+<!--Rotating Ads-->
+            
+<div id="adPanel2">
+
+	</div> 
+<!--/Rotating Ads-->
+
+        
+<div class="marg-top-20 side-tab-ad-fixwidth textcenter">            
+    <a href="/perspective/media-query.htm"><img src="/img/ad-for-journalists.png" alt="Reporters on Deadline" ></a>
+</div>
+
+         
+
+    
+          
+</div><!--jds-doc-side-content-->
+
+        
+
+</div>
+
+    
+    <!--Gated-->
+    <script src="/inc/js/jquery.reveal.js" type="text/javascript"></script>    
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="/inc/js/DocGate.js" type="text/javascript"></script>   
+    <script type="text/javascript">
+
+        // Gated
+        var gated = 0 ;
+
+        // Document Attributes
+        var gatedDocumentTitle = '' ;
+        var gatedDocumentURL = '' ;
+        var gatedUniqueFileID = ''  ;
+        var gatedFileID = '0' ;
+
+        // Contributor Attributes
+        var gatedContributorFirstName = 'Kevin' ;
+        var gatedContributorLastName = 'Sullivan' ;
+        var gatedContributorEmailAddress = 'ksullivan@laborlawyers.com' ;
+    </script>
+                     
+    <div id="FollowLinkedInSignIn" class="reveal-modal">
+        <h2 class="h2 textcenter">"My best business intelligence, in one easy email&hellip;"</h2>
+        <p class="textcenter">Your first step to building a free, personalized, morning email brief covering pertinent authors and topics on JD Supra:</p>  
+ 
+        <p class="textcenter marg-top-25"><a href="/follow/linkedinlogin/" class="yellow-btn h3" onclick="ga('send', 'event', 'follow', 'LinkedIn Button MDB - Doc View', 'Sign up Button - Doc View');"><strong>Sign up to create your digest using LinkedIn</strong><span class="red">*</span></a></p>
+ 
+        <div class="textcenter h3"><a href="/follow/subscribe-form.aspx" onclick="ga('send', 'event', 'follow', 'Email Signup MDB - Doc View', 'Email Signup MDB - Doc View');" class="bld">Or, sign up using your email address &raquo;</a></div>
+
+
+        <div class="small marg-top-10 marg-bot-15 textcenter"><em><span class="red">*</span>By using the service, you signify your acceptance of <span id="policy-click" class="blue">JD Supra's Privacy Policy.</span></em></div>
+
+
+        <div id="policy-blk" class="ltbluebg pad-25x25 h5 marg-bot-15" style="display: none; height: 200px; overflow-y: scroll;"> 
+            <div class="media">
+                <div class="imgExt tiny blue close-lnk">
+                    - hide
+                </div>
+                <h5 c;ass="bd">Privacy Policy <em>(Updated: October 8, 2015)</em>:</h5>
+            </div>
+            
+            <p>JD Supra provides users with access to its legal industry publishing services (the "Service") through <a href="/" target="_blank">its website</a> (the "Website") as well as through other sources. Our policies with regard to data collection and use of personal information of users of the Service, regardless of the manner in which users access the Service, and visitors to the Website are set forth in this statement ("Policy"). By using the Service, you signify your acceptance of this Policy.
+            </p>
+            
+            <h5>Information Collection and Use by JD Supra</h5>
+            <p>JD Supra collects users' names, companies, titles, e-mail address and industry. JD Supra also tracks the pages that users visit, logs IP addresses and aggregates non-personally identifiable user data and browser type. This data is gathered using cookies and other technologies. </p>
+
+            <p>The information and data collected is used to authenticate users and to send notifications relating to the Service, including email alerts to which users have subscribed; to manage the Service and Website, to improve the Service and to customize the user's experience. This information is also provided to the authors of the content to give them insight into their readership and help them to improve their content, so that it is most useful for our users. </p>
+
+            <p>JD Supra does not sell, rent or otherwise provide your details to third parties, other than to the authors of the content on JD Supra.</p>
+
+            <p>If you prefer not to enable cookies, you may change your browser settings to disable cookies; however, please note that rejecting cookies while visiting the Website may result in certain parts of the Website not operating correctly or as efficiently as if cookies were allowed.</p>
+            
+            <h5>Email Choice/Opt-out</h5>
+            
+            <p>Users who opt in to receive emails may choose to no longer receive e-mail updates and newsletters by selecting the "opt-out of future email" option in the email they receive from JD Supra or in their JD Supra account management screen.
+            </p>
+            
+            <h5>Security</h5>
+            
+            <p>JD Supra takes reasonable precautions to insure that user information is kept private. We restrict access to user information to those individuals who reasonably need access to perform their job functions, such as our third party email service, customer service personnel and technical staff. However, please note that no method of transmitting or storing data is completely secure and we cannot guarantee the security of user information. Unauthorized entry or use, hardware or software failure, and other factors may compromise the security of user information at any time.
+            </p>
+
+            <p>If you have reason to believe that your interaction with us is no longer secure, you must immediately notify us of the problem by contacting us at <a href="mailto:info@jdsupra.com">info@jdsupra.com</a>. In the unlikely event that we believe that the security of your user information in our possession or control may have been compromised, we may seek to notify you of that development and, if so, will endeavor to do so as promptly as practicable under the circumstances.</p>        
+            
+
+            <h5>Sharing and Disclosure of Information JD Supra Collects</h5>
+            
+            <p>Except as otherwise described in this privacy statement, JD Supra will not disclose personal information to any third party unless we believe that disclosure is necessary to: (1) comply with applicable laws; (2) respond to governmental inquiries or requests; (3) comply with valid legal process; (4) protect the rights, privacy, safety or property of JD Supra, users of the Service, Website visitors or the public; (5) permit us to pursue available remedies or limit the damages that we may sustain; and (6) enforce our Terms & Conditions of Use.
+            </p>
+            
+            <p>In the event there is a change in the corporate structure of JD Supra such as, but not limited to, merger, consolidation, sale, liquidation or transfer of substantial assets, JD Supra may, in its sole discretion, transfer, sell or assign information collected on and through the Service to one or more affiliated or unaffiliated third parties.
+            </p>
+            
+            <h5>Links to Other Websites</h5>
+            
+            <p>This Website and the Service may contain links to other websites. The operator of such other websites may collect information about you, including through cookies or other technologies. If you are using the Service through the Website and link to another site, you will leave the Website and this Policy will not apply to your use of and activity on those other sites. We encourage you to read the legal notices posted on those sites, including their privacy policies. We shall have no responsibility or liability for your visitation to, and the data collection and use practices of, such other sites. This Policy applies solely to the information collected in connection with your use of this Website and does not apply to any practices conducted offline or in connection with any other websites.
+            </p>
+            
+            <h5>Changes in Our Privacy Policy</h5>
+            
+            <p>We reserve the right to change this Policy at any time. Please refer to the date at the top of this page to determine when this Policy was last revised. Any changes to our privacy policy will become effective upon posting of the revised policy on the Website. By continuing to use the Service or Website following such changes, you will be deemed to have agreed to such changes. If you do not agree with the terms of this Policy, as it may be amended from time to time, in whole or part, please do not continue using the Service or the Website.
+            </p>
+            
+            <h5>Contacting JD Supra</h5>
+            
+            <p>If you have any questions about this privacy statement, the practices of this site, your dealings with this Web site, or if you would like to change any of the information you have provided to us, please contact us at: <a href="mailto:info@jdsupra.com">info@jdsupra.com</a>.
+            </p>
+            <div class="imgExt tiny blue close-lnk textright">
+                - hide
+            </div>            
+        </div>
+
+        <p class="textcenter small border-img site-center marg-top-20" style="width: 50%;">Already signed up? <a href="/login.aspx">Log in here</a></p>
+
+        <div class="textcenter marg-top-20" id="digest-img"><a href="/follow/linkedinlogin/" onclick="ga('send', 'event', 'follow', 'Digest Image MDB - Doc View', 'Digest Screenshot Image - Doc View');"><img src="/img/digest-screenshot.jpg"></a></div>
+ 
+        <div class="h5"><span class="red">*</span><em>With LinkedIn, you don't need to create a separate login to manage your free JD Supra account, and we can make suggestions based on your needs and interests. We will not post anything on LinkedIn in your name. <a href="/follow/subscribe-form.aspx" onclick="ga('send', 'event', 'follow', 'Email Signup Link - Doc View', 'Email Signup Link - Doc View');">Or, sign up using your email address.</a></em></div>
+ 
+        <a class="close-reveal-modal" onclick="ga('send', 'event', 'follow', 'Close LinkedIn MDB - Doc View', 'X icon in LI MDB - Doc View');">×</a>
+    </div>
+    <div id="FollowEmailPreview" class="reveal-modal xlarge">    
+        <div class="gray whitebg borderbottom follow-preview-notice">This is a preview of your email.  Not all subjects or topics are updated every day.  If you see no results for a particular subject or topic, consider broadening your interests.</div>
+        <div id="previewiframe">Loading...</div>            
+        <a class="close-reveal-modal">&#215</a>
+    </div>  
+
+
+</form>
+    
+<!--End markup-->
+    <script type="text/javascript" src="http://vjs.zencdn.net/c/video.js"></script>
+
+    <script type="text/javascript">
+    <!--
+        _V_("video_player").ready(function(){
+        this.addEvent('play', function(){ _gaq.push(['_trackEvent', 'Videos', 'Play', '']) });
+        this.addEvent('ended', function(){ _gaq.push(['_trackEvent', 'Videos', 'Ended', '']) });
+        this.addEvent('error', function(){ _gaq.push(['_trackEvent', 'Videos', 'Error', '']) });
+        });
+    // -->
+    </script>
+    
+    <script type="text/javascript" language="javascript">
+
+    $(document).ready(function(){
+        $("#lnkRefreshCache").click(function () {
+            $.ajax({ url: "", success:function(responseText){
+                location.reload(); 
+                }});
+        });
+        ImageResize();
+
+        /* Edit/Close Page: toggle & reload iframe (FF) */
+        $("#cms_file_edit_div").click(function() {
+                $("#cms_file_edit").toggle(function() {
+                    // if Firefox & in visible mode, reload the iframe
+                    if ($.browser.mozilla == true && $(this).is(':visible')) {
+                       document.getElementById('cms_file_edit').src = document.getElementById('cms_file_edit').src
+                    }
+
+            if ($(this).is(':visible')) {
+                $("#cms_file_edit_div").text('Close Page');                
+                    } else {
+                $("#cms_file_edit_div").text('Edit Page');                
+                    }  
+                });
+        });
+
+    });
+
+    $(window).resize(function(){
+        ImageResize();
+    });
+
+    function ImageResize(){
+        $width = $('#HTMLContentViewPanel').width();
+        $('#HTMLContentViewPanel img').css({
+            'max-width' : $width , 'height' : 'auto'
+        });
+        if ($width > 480 && $(window).width() > 600)
+            $('#HTMLContentViewPanel img').first().show();
+        else
+            $('#HTMLContentViewPanel img').first().hide();
+
+    }
+
+    Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(pageLoadedHandler)
+    function pageLoadedHandler(sender, args)
+    {     
+        window.scrollTo(0,0);
+    }
+  
+    function HideShowEmbed() {
+        if ($('.embedBox').is(':visible'))
+            $('.embedBox').hide();
+        else
+            $('.embedBox').show();
+    }
+
+    function CopyToClipboard(e) {
+        $(e).focus();
+        $(e).select();
+
+        $('#embedURLCopyBtn').hide();
+        $('#embedCopyHint').show(); 
+    }    
+
+    function sumShowLink() {$('#vidSumSubStr').hide();$('#vidSummary').show();}
+    function sumHideLink() {$('#vidSummary').hide();$('#vidSumSubStr').show();}
+
+    </script>
+    <script type="text/javascript" src="/inc/pdfobject.js"></script>
+    <script type="text/javascript"> 
+
+    window.onload = function (){    
+            var msg;
+            var s = document.getElementById("statement");   
+            var pdfWindow = document.getElementById("pdf");
+            var googlepdfWindow = document.getElementById("googlePDF");
+            var googlepdfFrame = document.getElementById("googlePDFiframe");
+            
+            var embedURL = "http://documents.jdsupra.com/939e473e-c4eb-4eb4-a82d-1210a148b5d0.pdf"
+            var embedURLGoogle = "http://docs.google.com/viewer?url=http%3A%2F%2Fdocuments.jdsupra.com%2F939e473e-c4eb-4eb4-a82d-1210a148b5d0.pdf&embedded=true"            
+
+            if (false) {
+                $('html').addClass('ie11');
+            }    
+            else if(ismac()){
+                // Mac              
+                if(issafari() || have_plugin_for("application\\\/pdf")){
+                    show_embedded_viewerSafari(embedURL);
+                } else {
+                    show_google_viewer(embedURLGoogle);
+                    //Circle back later to get cookie working.  
+                    //if(isfirefox() && !get_cookie('ffmac_warned')){
+                    //    $("#mozilla_mac_warning").show();
+                    //    set_cookie('ffmac_warned', true);
+                    //}
+                }
+            } else {          
+
+                // Probably Windows
+                //if(isie()){
+                //    show_embedded_viewer(embedURL);   
+                //    return;
+                //    }
+                    var myPDF = null;
+                    try{
+                        var params = { url: embedURL, pdfOpenParams: {navpanes: 0,toolbar: 1,statusbar: 1,view: "FitH"}};
+                    
+                        // If this bombs, the plugin isn't there
+                        myPDF = new PDFObject(params).embed("pdf");
+                        
+                    } catch (e){ myPDF = false; }
+                    
+
+
+                    if(myPDF){
+                        if (isChrome()) {show_google_viewer(embedURLGoogle);}
+                        else {show_embedded_viewer(embedURL);}
+                    } else {show_google_viewer(embedURLGoogle);}
+            }
+            
+        }
+        
+        function show_google_viewer(url){       
+                
+                //window.alert("SHOW GOOGLE VIEWER: " + url);
+                
+                var s = document.getElementById("statement");   
+                var pdfWindow = document.getElementById("pdf");
+                var googlepdfWindow = document.getElementById("googlePDF");
+                var googlepdfFrame = document.getElementById("googlePDFiframe");
+                
+                s.className = "fail";
+                pdfWindow.style.display = 'none';
+                googlepdfFrame.src = url;
+                googlepdfWindow.style.display = 'block';
+        }
+        
+        function show_embedded_viewer(url){
+                
+                //window.alert("SHOW EMBEDDED VIEWER: " + url);
+                
+                var s = document.getElementById("statement");   
+                var pdfWindow = document.getElementById("pdf");
+                var googlepdfWindow = document.getElementById("googlePDF");
+                var googlepdfFrame = document.getElementById("googlePDFiframe");
+                
+                s.className = "success";
+                pdfWindow.style.display = 'block';  
+                googlepdfFrame.src = '';
+                googlepdfWindow.style.display = 'none';     
+    
+        }
+        
+       function show_embedded_viewerSafari(url){
+       
+                //window.alert("SHOW SAFARI EMBEDDED VIEWER: " + url);
+                
+                var s = document.getElementById("statement");   
+                var pdfWindow = document.getElementById("pdf");
+                var googlepdfWindow = document.getElementById("googlePDF");
+                var googlepdfFrame = document.getElementById("googlePDFiframe");
+                
+                s.className = "fail";
+                pdfWindow.style.display = 'none';
+                googlepdfFrame.src = url;
+                googlepdfWindow.style.display = 'block';
+       }
+
+        function isie(){
+            return /msie/i.test(navigator.userAgent) && !/opera/i.test(navigator.userAgent);
+        }
+        function ismac(){
+            return /macintosh/i.test(navigator.userAgent) || /mac os x/i.test(navigator.userAgent);
+        }
+        function isfirefox(){
+            return /mozilla/i.test(navigator.userAgent) && /firefox/i.test(navigator.userAgent);
+        }
+        function issafari(){
+            return /safari/i.test(navigator.userAgent) && /applewebkit/i.test(navigator.userAgent) && !/chrome/i.test(navigator.userAgent);
+        }
+        function isChrome(){
+            return /chrome/i.test(navigator.userAgent);
+        }
+
+        function have_plugin_for(mimetype){
+            try {
+                // The rest of the browsers
+                var re = eval('/' + mimetype + '/i');
+                var ilen = navigator.plugins.length;
+                var jlen = null;
+                var found = false;
+                var i,j = 0;
+                for(i=0;i<ilen;i++){
+                    jlen = navigator.plugins[i].length;
+                    for(j=0;j<jlen;j++){
+                        found = re.test(navigator.plugins[i][j]['type']);
+                        if(found){
+                            return true;
+                        }
+                    }
+                }
+            } catch (e) { return false; }
+            return false;
+        }
+
+        function get_cookie(name){
+            var a_all_cookies = document.cookie.split(';');
+            var a_temp_cookie = '';
+            var cookie_name = '';
+            var cookie_value = '';
+            var b_cookie_found = false;
+            for (i=0;i<a_all_cookies.length;i++){
+                a_temp_cookie = a_all_cookies[i].split('=');
+                cookie_name = a_temp_cookie[0].replace(/^\s+|\s+$/g,'');
+                if ( cookie_name == name ){
+                    b_cookie_found = true;
+                    if (a_temp_cookie.length>1){
+                        cookie_value = unescape(a_temp_cookie[1].replace(/^\s+|\s+$/g,''));
+                    }
+                    return cookie_value;
+                    break;
+                }
+                a_temp_cookie = null;
+                cookie_name = '';
+            }
+            if (!b_cookie_found){
+                return null;
+            }
+        }
+
+        function set_cookie(name, value){
+            var today = new Date();
+            var expires = 365 * 1000 * 60 * 60 * 24;
+            today.setTime( today.getTime() );
+            var expires_date = new Date( today.getTime() + (expires) );
+            document.cookie = name + "=" + escape( value ) +
+                ";expires=" + expires_date.toGMTString() ;
+        }
+
+
+        var whitespace = " \t\n\r";
+        
+        function isEmpty(s)
+        {   return ((s == null) || (s.length == 0))
+        }
+        
+        function isWhitespace (s)
+        {   var i;
+            if (isEmpty(s)) return true;
+            for (i = 0; i < s.length; i++)
+            {   
+                var c = s.charAt(i);
+                if (whitespace.indexOf(c) == -1) return false;
+            }
+            return true;
+        }   
+        
+    </script>
+
+    <!-- social icons scripts -->
+    <div id="fb-root"></div>
+    <script type="text/javascript">(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {return;}
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=243911108982003";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>      
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = '//apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>  
+    <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+    <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>     
+    
+
+    <!-- Now populating pixel analytics directly from InsertViewCount in code-behind
+    <script type="text/javascript">
+        (function(){
+         var a = document.createElement('script');
+         a.type = 'text/javascript'; a.async = true;
+         a.src = document.location.protocol + '//fbapps.jdsupra.com/statistics/static/analytics.js';
+         var s = document.getElementsByTagName('script')[0];
+         s.parentNode.insertBefore(a, s);
+        })();
+    </script>
+    -->
+
+   <script type="text/javascript">
+      // Once the video is ready
+      _V_("jdsupra_video_1").ready(function(){
+
+        var myPlayer = this;    // Store the video object
+        var aspectRatio = 9/16; // Make up an aspect ratio
+
+        function resizeVideoJS(){
+          // Get the parent element's actual width
+          var width = document.getElementById(myPlayer.id).parentElement.offsetWidth;
+          // Set width to fill parent element, Set height
+          myPlayer.width(width).height( width * aspectRatio );
+        }
+
+        resizeVideoJS(); // Initialize the function
+        window.onresize = resizeVideoJS; // Call the function on resize
+      });
+    $(window).on( "orientationchange", function( event ) {
+        resizeVideoJS();
+        ImageResize();
+    });      
+
+
+    </script>    
+
+
+
+    <!-- FOLLOW BUTTON SCRIPTS -->
+    <script src="/inc/js/JDSupraFollowScripts1.js" type="text/javascript"></script>    
+    <script type="text/javascript">
+        $(document).ready(function(){ 
+            //This will force the you are now following message to disappear after 5 seconds - Otherwise it'll do nothing
+            $("div[name='MasterAlerter']").delay(14500).fadeOut(500);
+            $("div[name='DailyWeeklyAlerter']").delay(14500).fadeOut(500);
+
+            //nulling out all the cookies too!
+            document.cookie= "manageyourinterests_postchange=123" +
+                //"; path=/follow/manageyourinterests/" +
+                "; path=" + window.location.href.toString() +
+                "; expires=Thu, 01 Jan 1970 00:00:01 GMT";
+            document.cookie= "manageyourinterests_editorial=123" +
+                //"; path=/follow/manageyourinterests/" +
+                "; path=" + window.location.href.toString() +
+                "; expires=Thu, 01 Jan 1970 00:00:01 GMT";            
+            document.cookie= "manageyourinterests_search=123" +
+                //"; path=/follow/manageyourinterests/" +
+                "; path=" + window.location.href.toString() +
+                "; expires=Thu, 01 Jan 1970 00:00:01 GMT";
+            document.cookie= "manageyourinterests_'caseNameLiteral.Textchedule=123" +
+               // "; path=/follow/manageyourinterests/" +
+                "; path=" + window.location.href.toString() +
+                "; expires=Thu, 01 Jan 1970 00:00:01 GMT";
+            //$("#lnk_liforgetfullogin").click(function () {alert("Clicked");});
+            $("#btnMoreRecommendations").click(function () { ga('send', 'event', 'follow', 'More button', 'More recommendations please'); });
+        });
+            
+        $(document).ready(function(){             
+           
+            if (true) {
+
+                LinkedInConfirmed=false;
+
+                if ($(window).width() < 650) {
+                    $('#FollowLinkedInSignIn').addClass('small');
+                }
+                $('.follow-action-lnk').click(function(){
+                    $('#FollowLinkedInSignIn').reveal();
+                });
+                $('input[name=FollowFrequency]').click(function(){
+                    $('#FollowLinkedInSignIn').reveal();
+                });
+
+                if(false) {
+                        $('#FollowLinkedInSignIn').reveal();
+                }
+                
+            } else { LinkedInConfirmed=true;}
+
+            });  
+        
+            //%%% NO PREVIEW ACTION FOR NOW %%%    
+            //Every time the preview button is clicked on, the iFrame is loaded in.  Initial state the iframe isn't loaded.  
+            //function loadPreviewiFrame() {
+            //    $('#previewiframe').html('<iframe width="680" height="450" frameborder="0" src="email-preview.aspx" style="margin-bottom: -6px;"></iframe>');
+            //}
+
+            $( ".following-lnk" ).mouseover(function() {
+                $(this).html('-&nbsp;Unfollow'); 
+                $(this).addClass('blue');
+            });
+            $( ".following-lnk" ).mouseout(function() {
+                $(this).html('x&nbsp;Following'); 
+                $(this).removeClass('blue');
+            });
+
+            //Privacy Policy
+            $( "#policy-click" ).click(function() {
+                  $( "#policy-blk" ).show();
+                  $( "#digest-img" ).hide();
+            });    
+            $( ".close-lnk" ).click(function() {
+                  $( "#policy-blk" ).hide();
+                  $( "#digest-img" ).show();
+            }); 
+
+    </script>
+    <!-- END - FOLLOW BUTTON SCRIPTS - END -->
+    
+    <!-- GATED DOCUMENTS -->  
+
+    <!--Gated Doc 'Form' -->
+    <div ID="documentGatePanel" class="reveal-modal">
+        <form id="documentGateForm">
+            <div ID="documentGateFields">
+                <!-- dynamically constructed -->
+            </div>
+            <div ID="gate-recaptcha" class="g-recaptcha marg-top-10" data-sitekey="6LcYwwQTAAAAALFY17-Q70jRVCFNcrDZQwvmqTKL" style="transform:scale(0.86);transform-origin:0 0"></div>
+            <div ID="gate-error" class="boldred"></div>
+            <div class="marg-top-10 textcenter">
+                <input type="submit" ID="btnGateOpen" 
+                            value="View Document &raquo;"  
+                            onclick="btnGateOpen_Click();" 
+                            class="yellow-btn bld h3" />
+            </div>    
+            <a ID="gatedModalClose" class="close-reveal-modal" onclick="btnAbandonGate_Click();" href="/profile/fisher_phillips_docs/">&#215</a>    
+        </form>
+    </div>
+
+ 
+        <div class="site-footer">
+                <div class="center sm textcenter">       
+                        <p><a href="#top">Back to Top</a></p>
+		            <div class="col site-footer-nav">
+                        <a href="/">Home</a>
+                        <a href="/services/">About</a>
+                        <a href="/follow/manageyourinterests/" class="footer-digest-lnk" onClick="_gaq.push(['_trackEvent', 'follow', 'Footer Nav Email Link', 'Custom Email Digests']);">Customize</a>
+                        <a href="/services/content-marketing.aspx">Become a Contributor</a>
+                        <a href="/services/syndicated-content.aspx">Syndicate JD Supra Content</a>
+                        <a href="/terms/privacy.aspx">Privacy Policy</a>                        
+                        <a href="/terms/termsandconditions.aspx">Terms &amp; Conditions</a>
+                        <a href="/about/contact.aspx">Contact</a>
+                        <a href="/services/team.aspx">Team</a>
+                        <a href="/jobs/index.aspx" class="last">Jobs</a>
+                    </div>
+                    <div class="col">                
+                    <p>Copyright &copy; <script>var today = new Date(); var yyyy = today.getFullYear();document.write(yyyy + " ");</script> JD Supra, LLC</p>
+                    </div>
+                </div>
+            </div>                        
+        </div>
+    </div>    
+    <!--<script src="inc/js/jquery.mobile.custom.min.js"></script>-->
+    <script defer src="/inc/js/script-responsive.min.js"></script>
+    <!--<script src="/inc/js/jquery.hoverIntent.minified.js"></script> // Not used just yet-->
+    <!--<script src="/inc/js/mylibs/jquery.masonry.min.js"></script>  // Not used currently -->
+    <script src="/inc/js/mylibs/jquery.jcarousel.min.js"></script>	 
+
+</body>
+
+</html>

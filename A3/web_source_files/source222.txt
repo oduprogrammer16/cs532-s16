@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7 not-logged-in "> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8 not-logged-in "> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9 not-logged-in "> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js not-logged-in "> <!--<![endif]-->
+    <head>
+        
+    <script type="text/javascript">window._timings = {"domLoading": Date.now()}</script>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>
+Instagram
+</title>
+
+        <script type="text/javascript">
+  WebFontConfig = {
+    custom: {
+      families: ['proxima-nova:n3,n4,n6,n7'],
+    }
+  };
+</script>
+<script src="//instagramstatic-a.akamaihd.net/h1/scripts/webfont.js/c0456c81549b.js" type="text/javascript" async></script>
+
+<style type="text/css">
+  /* @license
+   * MyFonts Webfont Build ID 2164953, 2012-03-23T23:06:30-0400
+   *
+   * The fonts listed in this notice are subject to the End User License
+   * Agreement(s) entered into by the website owner. All other parties are
+   * explicitly restricted from using the Licensed Webfonts(s).
+   *
+   * You may obtain a valid license at the URLs below.
+   *
+   *
+   * Webfont: Proxima Nova Light by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/light/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Regular by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Semibold by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/semibold/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Bold Italic by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold-it/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Bold by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Italic by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular-it/
+   * Licensed pageviews: unlimited
+   *
+   *
+   * License: http://www.myfonts.com/viewlicense?type=web&buildid=2164953
+   * Webfonts copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+   *
+   * (c) 2012 Bitstream Inc
+   */
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.eot/115b1f7f9c04.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.eot/115b1f7f9c04.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.woff/618250d25a4d.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.ttf/646346e03084.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.svg/e55a9d6051e8.svg#ProximaNovaBold') format("svg");
+    font-weight: bold;
+    font-style: normal; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.eot/1cbb869da891.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.eot/1cbb869da891.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.woff/b1cf049474c9.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.ttf/3adb020ceae3.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.svg/29948a2d3c58.svg#ProximaNovaBoldItalic') format("svg");
+    font-weight: bold;
+    font-style: italic; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.eot/12af77715cee.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.eot/12af77715cee.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.woff/a9a9773b8e29.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.ttf/99e19808976a.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.svg/c33d2fd56309.svg#ProximaNovaRegular') format("svg");
+    font-weight: normal;
+    font-style: normal; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.eot/1bbbd1312b0d.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.eot/1bbbd1312b0d.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.woff/9e306befca91.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.ttf/4a8663684135.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.svg/876278d4b189.svg#ProximaNovaRegularItalic') format("svg");
+    font-weight: normal;
+    font-style: italic; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.eot/5016edf79e1d.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.eot/5016edf79e1d.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.woff/615c1b06d8fa.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.ttf/2973bd483f7a.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.svg/868597833e49.svg#ProximaNovaSemibold') format("svg");
+    font-weight: 600;
+    font-style: normal; }
+</style>
+
+  <style type="text/css">
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.eot/63c84728610f.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.eot/63c84728610f.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.woff/66bbe029f180.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.ttf/eb408516399b.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.svg/858f6a9b7ef3.svg#ProximaNovaLight') format("svg");
+    font-weight: 300;
+    font-style: normal; }
+</style>
+
+
+        
+    
+        <meta name="robots" content="noimageindex">
+        
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+        
+    <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+
+        <script type="text/javascript">
+        (function() {
+            var docElement = document.documentElement;
+            var classRE = new RegExp('(^|\\s)no-js(\\s|$)');
+            var className = docElement.className;
+            docElement.className = className.replace(classRE, '$1js$2');
+        })();
+        </script>
+
+        
+    
+    
+    
+        <link rel="Shortcut Icon" type="image/x-icon" href="//instagramstatic-a.akamaihd.net/h1/images/ico/favicon.ico/7cdab0872b15.ico"><link rel="mask-icon" href="//instagramstatic-a.akamaihd.net/h1/images/ico/favicon.svg/dfde15ef1533.svg" color="#125688">
+    
+    
+        <link rel="apple-touch-icon-precomposed" href="//instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-precomposed.png/29d68fc587d7.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="//instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-72x72-precomposed.png/3f5e04d85488.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="//instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-114x114-precomposed.png/29d68fc587d7.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="//instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-144x144-precomposed.png/52fcc0fc09e4.png">
+    
+    
+    
+
+    
+    
+    <link rel="canonical" href="https://www.instagram.com/p/BBiMZYcFDzP/" />
+    <meta content="“Happy Birthday to this little nugget brain @ernaldbostonator he is 2 years old today. He punched me in the balls really hard about 3 seconds after I took…”" name="description" />
+    <meta property="og:site_name" content="Instagram" />
+    <meta property="og:title" content="Jake Pitts on Instagram: “Happy Birthday to this little nugget brain @ernaldbostonator he is 2 years old today. He punched me in the balls really hard about 3…”" />
+    <meta property="og:image" content="https://scontent.cdninstagram.com/t51.2885-15/e35/12547327_1721249031419974_616969610_n.jpg?ig_cache_key=MTE4MDU2MDU3MzExMDQzNTAyMw%3D%3D.2" />
+    <meta property="og:description" content="“Happy Birthday to this little nugget brain @ernaldbostonator he is 2 years old today. He punched me in the balls really hard about 3 seconds after I took…”" />
+    <meta property="fb:app_id" content="124024574287414" />
+    <meta property="og:url" content="https://www.instagram.com/p/BBiMZYcFDzP/" />
+    <meta property="instapp:owner_user_id" content="25056294" />
+    <meta property="al:ios:app_name" content="Instagram" />
+    <meta property="al:ios:app_store_id" content="389801252" />
+    <meta property="al:ios:url" content="instagram://media?id=1180560573110435023" />
+    <meta property="al:android:app_name" content="Instagram" />
+    <meta property="al:android:package" content="com.instagram.android" />
+    <meta property="al:android:url" content="https://www.instagram.com/p/BBiMZYcFDzP/" />
+    
+    <meta name="medium" content="image" />
+    <meta property="og:type" content="instapp:photo" />
+    
+
+    <link rel="alternate" href="android-app://com.instagram.android/https/instagram.com/p/BBiMZYcFDzP/" />
+    
+    <link href="https://www.instagram.com/p/BBiMZYcFDzP/" rel="alternate" hreflang="x-default" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=el" rel="alternate" hreflang="el" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=gu" rel="alternate" hreflang="gu" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=en" rel="alternate" hreflang="en" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=af" rel="alternate" hreflang="af" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=vi" rel="alternate" hreflang="vi" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=it" rel="alternate" hreflang="it" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=kn" rel="alternate" hreflang="kn" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=pt-br" rel="alternate" hreflang="pt-br" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=cs" rel="alternate" hreflang="cs" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=id" rel="alternate" hreflang="id" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=es" rel="alternate" hreflang="es" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=ru" rel="alternate" hreflang="ru" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=nl" rel="alternate" hreflang="nl" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=pt" rel="alternate" hreflang="pt" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=zh-tw" rel="alternate" hreflang="zh-tw" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=nb" rel="alternate" hreflang="nb" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=tr" rel="alternate" hreflang="tr" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=ne" rel="alternate" hreflang="ne" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=zh-cn" rel="alternate" hreflang="zh-cn" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=tl" rel="alternate" hreflang="tl" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=pa" rel="alternate" hreflang="pa" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=th" rel="alternate" hreflang="th" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=te" rel="alternate" hreflang="te" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=pl" rel="alternate" hreflang="pl" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=ta" rel="alternate" hreflang="ta" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=fr" rel="alternate" hreflang="fr" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=hr" rel="alternate" hreflang="hr" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=bn" rel="alternate" hreflang="bn" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=de" rel="alternate" hreflang="de" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=da" rel="alternate" hreflang="da" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=hi" rel="alternate" hreflang="hi" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=fi" rel="alternate" hreflang="fi" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=hu" rel="alternate" hreflang="hu" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=ja" rel="alternate" hreflang="ja" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=ml" rel="alternate" hreflang="ml" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=ko" rel="alternate" hreflang="ko" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=sv" rel="alternate" hreflang="sv" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=ur" rel="alternate" hreflang="ur" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=sk" rel="alternate" hreflang="sk" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=si" rel="alternate" hreflang="si" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=ms" rel="alternate" hreflang="ms" />
+<link href="https://www.instagram.com/p/BBiMZYcFDzP/?hl=mr" rel="alternate" hreflang="mr" />
+    
+
+    </head>
+    <body class="">
+        
+    
+    <span id="react-root"></span>
+
+    
+
+        
+    <script src=//instagramstatic-a.akamaihd.net/h1/scripts/polyfills/es5-shim.min.js/6514c5e08593.js></script>
+<script src=//instagramstatic-a.akamaihd.net/h1/scripts/polyfills/es5-sham.min.js/fc3c22cf2d67.js></script>
+<script type="text/javascript">window._sharedData = {"country_code":"US","language_code":"en","gatekeepers":{"rhp":true},"qs":"{\"shift\":10,\"header\":\"vEK8Ttx4pu41cFdRPwfUEqFhQtmy4kWt\",\"edges\":100,\"blob\":\"AQB4SBf33c6Da0jXxrnyvv88kNuti40nyyPW5q5AkkGUUOGmLsWdpvUfjnI9G2jyOjrp531c9V2gfnxvqOowj5TW3HyWqx_-mJW_U3DAhJewm4PsTNcN3cLfWGevL1boCH1evAErJGbVF50SJKJL29B8UijNJr-4jY4e2dI_6YCkjiIGkGKFInNdTdifyKznlnOoXYUR74PPuDMVd4aPasWjY_GhvQSMKvnJrBcfKVl-qg\",\"iterations\":7,\"size\":42}","static_root":"\/\/instagramstatic-a.akamaihd.net\/bluebar\/b2908ed","platform":"web","hostname":"www.instagram.com","entry_data":{"PostPage":[{"media":{"code":"BBiMZYcFDzP","date":1454953808.0,"dimensions":{"width":1080,"height":1080},"usertags":{"nodes":[{"y":0.5394524837,"x":0.5225442711,"user":{"username":"ernaldbostonator"}}]},"comments":{"count":480,"page_info":{"has_previous_page":true,"start_cursor":"1180811402967006485","end_cursor":"1184938425230573162","has_next_page":false},"nodes":[{"text":"Happy birthday Ernie","created_at":1454983710.0,"id":"1180811402967006485","user":{"username":"rossana8890","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12748386_1521517841512180_1676040464_a.jpg","id":"2177994021"}},{"text":"happy bday Ernie @ernaldbostonator","created_at":1454983866.0,"id":"1180812715213733232","user":{"username":"musicplusyoutube","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/12407257_1325025744190179_2061420944_a.jpg","id":"2362687416"}},{"text":"@the_creepy_troll_princess \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f\u2764\ufe0f\u2764\ufe0f awwww HAPPY BIRTHDAY","created_at":1454983975.0,"id":"1180813629261626816","user":{"username":"raven_cb","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11350839_959243044106775_54389075_a.jpg","id":"251278748"}},{"text":"Poor Jake. Feel for ya. Happy 2nd Birthday Ernie. Hope daddy got you a doggie \ud83c\udf82 cake. Glad to see a new vlog from you Jake.\ud83d\udc4d\u2764\ud83d\udc80\u2764\ud83c\udf89\ud83c\udf86\ud83c\udf8a","created_at":1454984869.0,"id":"1180821131923569691","user":{"username":"catsinjax","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12356360_805804756211834_500297010_a.jpg","id":"1823195893"}},{"text":"@dfatpr AAAAAAAA","created_at":1454985088.0,"id":"1180822967426497696","user":{"username":"lady_drock","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/10616855_142947046078769_1782182777_a.jpg","id":"840668488"}},{"text":"\ud83d\udc36\ud83c\udf89\ud83c\udf89","created_at":1454985504.0,"id":"1180826453044116908","user":{"username":"alexhisoka","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11251944_1669266886624724_1809574809_a.jpg","id":"2036606595"}},{"text":"HAPPY BIRTHDAY Ernie!!!!!\ud83c\udf82\ud83c\udf89\ud83c\udf8a\ud83c\udf82\ud83c\udf89\ud83c\udf8a\ud83d\udc15\ud83d\udc15","created_at":1454985862.0,"id":"1180829459848380001","user":{"username":"luz_purdy","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/10009337_595133620644411_2079667223_a.jpg","id":"2696316494"}},{"text":"Happy Birthday Ernie!!","created_at":1454985934.0,"id":"1180830058216177289","user":{"username":"beatriz_gusmao2","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11899674_1687803051448563_123167482_a.jpg","id":"1301879487"}},{"text":"Ohh baby happy birthday !! @ernaldbostonator","created_at":1454986039.0,"id":"1180830941024894676","user":{"username":"bvbjakepitts","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12747624_1656143974651856_1930947494_a.jpg","id":"2307614359"}},{"text":"Happy birthday Ernald!!","created_at":1454986353.0,"id":"1180833575098138481","user":{"username":"xxcorvidlightningxx","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11356638_1444249125905493_2087672997_a.jpg","id":"1717543258"}},{"text":"happy b-day","created_at":1454986612.0,"id":"1180835748250926085","user":{"username":"angel_of_the_dark1","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12534306_160257154352607_1720760936_a.jpg","id":"2904032383"}},{"text":"Happy birthday ernald","created_at":1454986658.0,"id":"1180836132927323173","user":{"username":"the_morticians_daughter0282","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12545325_468559463329614_153740345_a.jpg","id":"2048488740"}},{"text":"Happy bday Ernie buster! \ud83c\udf8a\ud83c\udf89\ud83c\udf8a\ud83c\udf81","created_at":1454987565.0,"id":"1180843746864152142","user":{"username":"thepartydan","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12598960_1149272308417530_671574141_a.jpg","id":"1644836105"}},{"text":"Hey!! ITS MY BIRTHDAY TOO \ud83d\ude02\ud83d\ude02\ud83d\ude02 HAPPY BIRYHDAY ERNIE AND ELIX \ud83c\udfb8","created_at":1454987868.0,"id":"1180846287035318018","user":{"username":"elix_stuff","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11272124_1446052942373327_79390041_a.jpg","id":"892003537"}},{"text":"Happy birthday Ernie \ud83d\udc36\ud83c\udf89\ud83c\udf89","created_at":1454988755.0,"id":"1180853722538065245","user":{"username":"___xxoxandyb____","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11254655_442694809236161_1037870198_a.jpg","id":"423257083"}},{"text":"What pedals do you use?","created_at":1454989398.0,"id":"1180859117629357776","user":{"username":"xxpjxx13","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11939285_1475829952742302_1643431441_a.jpg","id":"1526474830"}},{"text":"Such an adorable dog \ud83d\udc36\ud83d\ude0d I'm such a sucker for dogs \ud83d\ude1d\ud83d\ude01 Oh, and happy birthday to your dog too \ud83c\udf89","created_at":1454990970.0,"id":"1180872307666861650","user":{"username":"megs_wong97","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/12568163_1704660856487365_2102091806_a.jpg","id":"1458816721"}},{"text":"Happy birthday Ernie!!!!!!","created_at":1454991255.0,"id":"1180874698655022802","user":{"username":"emyloveswhonow","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11258898_1549339225394545_868974353_a.jpg","id":"695997269"}},{"text":"Happy birthday Ernie!","created_at":1454991477.0,"id":"1180876562821824321","user":{"username":"rominaprelog","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12501918_1647508155493778_444383225_a.jpg","id":"2606303296"}},{"text":"Happy bday Ernie !!!!\u2728\u2747\ud83c\udf1f","created_at":1454995301.0,"id":"1180908638937824990","user":{"username":"_niiille_","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12394179_1683935555186330_652802746_a.jpg","id":"1533025194"}},{"text":"Happy Birthday Ernie!!! Hope you had a great day! \ud83d\udc99\ud83d\udc99\ud83d\udc36\ud83d\udc36","created_at":1454998776.0,"id":"1180937791347112995","user":{"username":"_my_kelsea_bear_","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12534068_1546719778975144_145999226_a.jpg","id":"1090867833"}},{"text":"@sofiebergl","created_at":1455001469.0,"id":"1180960379905522805","user":{"username":"ankie_berg","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/10948722_1524081397875280_759424008_a.jpg","id":"1017919599"}},{"text":"Happy Birthday Ernie!!\ud83d\udc36","created_at":1455009382.0,"id":"1181026762374790293","user":{"username":"blackbeilbrides","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12534184_1707153832888967_1225205237_a.jpg","id":"2680406725"}},{"text":"Happy birthday Ernie! \ud83d\udc36\ud83c\udf89\ud83c\udf88\ud83c\udf82\ud83d\ude04","created_at":1455017041.0,"id":"1181091010480193432","user":{"username":"judith0821","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11376102_1645223115693041_1070703953_a.jpg","id":"1777292144"}},{"text":"Omg awww \ud83d\ude22\ud83d\ude22\ud83d\ude22\u2764\u2764\ud83d\udc8b happy birthday","created_at":1455017387.0,"id":"1181093906194119768","user":{"username":"sofiebergl","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12677650_788795731224451_1643109128_a.jpg","id":"25975628"}},{"text":"What a goober","created_at":1455018229.0,"id":"1181100971658591866","user":{"username":"jaydetheghost","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/10553990_579334655576314_965079822_a.jpg","id":"280433653"}},{"text":"Tell Ernie I said happy birthday and big hello from me. And hey to you to Jake! @jakepittsbvb","created_at":1455019297.0,"id":"1181109930918428027","user":{"username":"chaotic_at_best","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12749781_481094928743734_1872390653_a.jpg","id":"325265558"}},{"text":"Happy birthday Ernie!!! \ud83d\udc9e\ud83d\udc9e\ud83d\udc9e\ud83d\udc9e\ud83c\udf82\ud83c\udf81\ud83c\udf8a\ud83c\udf89\ud83c\udf88","created_at":1455026912.0,"id":"1181173809195269536","user":{"username":"meggshanene","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12599242_1672921899599249_282834210_a.jpg","id":"1647303592"}},{"text":"Awwww ! Happy birthday Ernie! Stay cute\ud83d\ude4a\ud83d\ude4a\ud83d\ude4a","created_at":1455028765.0,"id":"1181189352648359612","user":{"username":"x_m1ssunderstood_x","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12568727_766137646852854_477743111_a.jpg","id":"305110891"}},{"text":"Happy Birthday!!!\ud83c\udf89\ud83c\udf70","created_at":1455029803.0,"id":"1181198065719328210","user":{"username":"anacorzanu","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11254466_507195489439930_2014238217_a.jpg","id":"2253240962"}},{"text":"Sorry about the plums,But that cute little face! You can't get angry with the Ernster.... At only 2 he's still just a babe...","created_at":1455035267.0,"id":"1181243897072074289","user":{"username":"melizzardrn","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11258258_111663505889034_873863503_a.jpg","id":"1529709311"}},{"text":"THANKS I JUST LAUGHED OUT LOUD IN CLASS","created_at":1455040883.0,"id":"1181291005263232987","user":{"username":"anna.is.jinxxed","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11850419_484935185014060_1437037058_a.jpg","id":"13928838"}},{"text":"Aww, Ernie is so cute","created_at":1455041577.0,"id":"1181296829398269422","user":{"username":"x_pierce_the_black_valentine_x","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12599129_1044878195535668_1675254569_a.jpg","id":"2555645274"}},{"text":"Aww happy birthday and @ellie_voskou_  lol \ud83d\ude02","created_at":1455041773.0,"id":"1181298471778664020","user":{"username":"faithless_soulxox","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12534062_1671668066434617_1909861541_a.jpg","id":"2317756458"}},{"text":"\u0645\u0646 \u062e\u06cc\u0644\u06cc \u0633\u06af \u062f\u0648\u0633\u062a \u062f\u0627\u0631\u0645","created_at":1455089510.0,"id":"1181698921384394440","user":{"username":"zahrasingle","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11348170_1479299235727349_713014272_a.jpg","id":"1949931361"}},{"text":"happy birthday ernie!!","created_at":1455093433.0,"id":"1181731832334662828","user":{"username":"missmourner","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12269843_611032259047970_489856518_a.jpg","id":"50737268"}},{"text":"*squeals* puppy!! *coughs* ahem I mean ..\ud83d\ude33","created_at":1455164501.0,"id":"1182327988206976466","user":{"username":"mad_crybabes","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/1661182_1555772794736920_1893512837_a.jpg","id":"2801661350"}},{"text":"HAPPY (LATE) BIRTHDAY! :D","created_at":1455237671.0,"id":"1182941785649069831","user":{"username":"creepy._.lollipop","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12568130_1550774601909488_1617284879_a.jpg","id":"2315883169"}},{"text":"Nawww\ud83d\ude0d...happy birthday too youu happy birthday tooo youuu happy birthday der @ernaldbostonator  happyy birthdayyy toooo youuuu!!!!\u2764\u2764\u2764","created_at":1455258432.0,"id":"1183115943620132472","user":{"username":"_annatomic_","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/10932445_1466236990354624_575842613_a.jpg","id":"2025609595"}},{"text":"Happy Belated E.","created_at":1455475689.0,"id":"1184938425230573162","user":{"username":"black.veiled.beauty","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12519340_1733659363533652_486046687_a.jpg","id":"2881450994"}}]},"id":"1180560573110435023","caption":"Happy Birthday to this little nugget brain @ernaldbostonator he is 2 years old today. He punched me in the balls really hard about 3 seconds after I took this picture.","likes":{"count":16517,"viewer_has_liked":false,"nodes":[{"user":{"username":"joker_batmal_harleyquinn","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12717132_1680450532244194_37395993_a.jpg","id":"2932089312"}},{"user":{"username":"mariapitts77","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12729493_169992010044716_1172663695_a.jpg","id":"2937944258"}},{"user":{"username":"nastiasatanlosneva","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12677635_1164049386962767_1509005488_a.jpg","id":"2932231941"}},{"user":{"username":"joannacooer","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11906329_960233084022564_1448528159_a.jpg","id":"2933977445"}},{"user":{"username":"_.bryanb._","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12677161_1252941834735510_1650120261_a.jpg","id":"2931997897"}},{"user":{"username":"izacombii","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12446156_1565247020434059_140958406_a.jpg","id":"2934698444"}},{"user":{"username":"michayla_webber","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12599217_1116225971734850_1255282261_a.jpg","id":"2932825090"}},{"user":{"username":"rose__bvb_104","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12750078_461725360686889_2084473696_a.jpg","id":"2938868567"}},{"user":{"username":"danny.wick_","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12716902_447850522082282_822503007_a.jpg","id":"2945358526"}},{"user":{"username":"in_the_end_101","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12748237_631509366997916_1489595913_a.jpg","id":"2944143461"}}]},"owner":{"username":"jakepittsbvb","is_unpublished":false,"requested_by_viewer":false,"followed_by_viewer":false,"blocked_by_viewer":false,"profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/10844230_384697381707029_608894422_a.jpg","full_name":"Jake Pitts","has_blocked_viewer":false,"id":"25056294","is_private":false},"is_video":false,"is_ad":false,"display_src":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/e35\/12547327_1721249031419974_616969610_n.jpg?ig_cache_key=MTE4MDU2MDU3MzExMDQzNTAyMw%3D%3D.2","location":null}}]},"qe":{"nav":{"p":{},"g":""},"su":{"p":{"enabled":"true"},"g":"test"},"discovery":{"p":{},"g":""}},"display_properties_server_guess":{"viewport_width":360,"pixel_ratio":1.5},"config":{"viewer":null,"csrf_token":"038d1e6126d7655f4462df77ffcc35ba"},"environment_switcher_visible_server_guess":true};</script>
+<script src="//instagramstatic-a.akamaihd.net/h1/bundles/en_US_Commons.js/3c52a0a63b2c.js" type="text/javascript"></script>
+<script src="//instagramstatic-a.akamaihd.net/h1/bundles/en_US_PostPage.js/8fcc50bee964.js" type="text/javascript"></script>
+        
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1425767024389221');
+fbq('track', 'PageView');
+
+
+</script>
+<noscript>
+
+
+</noscript>
+
+    
+    <script type="text/javascript">window._timings.domInteractive = Date.now()</script>
+
+    </body>
+</html>

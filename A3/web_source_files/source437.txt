@@ -1,0 +1,1542 @@
+
+<!DOCTYPE HTML>
+<html lang="en"> <!-- lang="xx" is allowed, but NO xmlns="http://www.w3.org/1999/xhtml", lang:xml="", and so on -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]> <html class="no-js" lang="en"> <![endif]-->
+<head id="" data-template-set="html5-reset-wordpress-theme"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQYCUFJVDRAHU1hQAAYH"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:24,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:25,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t,e){function n(){return s}if(t[1]){var r=t[1];if("function"==typeof r){var s=a(r,"nr@wrapped",function(){return i(r,"fn-",n,r.name||"anonymous")});this.wrapped=t[1]=s,o.emit("initEventContext",[t,e],this.wrapped)}else"function"==typeof r.handleEvent&&i.inPlace(r,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:26,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:26,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:26,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){function r(){return a}this.ctx={};var a={"nr@context":this.ctx};o.emit("initTimerContext",[t,n],a),t[0]=i(t[0],"fn-",r,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:26,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,p,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:26,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1),u=window.XMLHttpRequest;t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof u&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:12,4:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:24,2:25,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:24,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],24:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],25:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],26:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:25,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<!-- Meta, title, CSS, favicons, etc. -->
+<meta charset="UTF-8">    
+<title>Boulder Celebrates The Broncos Super Bowl Victory</title>
+<meta name="title" content="Boulder Celebrates The Broncos Super Bowl Victory">
+<meta name="description" content="Boulder Celebrates The Broncos Super Bowl Victory at the Lazy Dog Sports Bar in Boulder" />
+<!--Google will often use this as its description of your page/site. Make it good.-->
+<meta name="fragment" content="!" />
+<link rel="canonical" href="http://mediacenter.dailycamera.com/2016/02/07/photos-boulder-celebrates-the-broncos-super-bowl-victory/" />    
+<meta name="Copyright" content="Copyright &copy; Boulder Daily Camera 2016. All Rights Reserved.">
+<link rel="shortcut icon" href="http://extras.mnginteractive.com/live/media/favIcon/DailyCamera/dcicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="http://mediacenter.dailycamera.com/wp-content/themes/media-center-2014/style.min.css" />
+<link rel="stylesheet" href="http://mediacenter.dailycamera.com/wp-content/themes/media-center-2014/local.css" />
+
+<!-- Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="http://mediacenter.dailycamera.com/wp-content/themes/media-center-2014/js/lib/respond.min.js"></script>
+<![endif]-->
+
+<!-- Application-specific meta tags -->
+	
+
+<!-- Facebook -->
+<meta property="og:description" content="Boulder Celebrates The Broncos Super Bowl Victory at the Lazy Dog Sports Bar in Boulder" />
+
+
+<meta property="og:image" content="http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-j2P8jRv/0/M/super19-M.jpg" />
+
+
+	
+
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://mediacenter.dailycamera.com/xmlrpc.php" />
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v2.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Boulder Celebrates The Broncos Super Bowl Victory"/>
+<link rel="canonical" href="http://mediacenter.dailycamera.com/2016/02/07/photos-boulder-celebrates-the-broncos-super-bowl-victory/" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Boulder Daily Camera Media Center &raquo; Feed" href="http://mediacenter.dailycamera.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Boulder Daily Camera Media Center &raquo; Comments Feed" href="http://mediacenter.dailycamera.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Boulder Daily Camera Media Center &raquo; Photos: Boulder Celebrates The Broncos Super Bowl Victory Comments Feed" href="http://mediacenter.dailycamera.com/2016/02/07/photos-boulder-celebrates-the-broncos-super-bowl-victory/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/mediacenter.dailycamera.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=71cfc2738087cd516a89c7cc807fa5bf"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<script type='text/javascript' src='http://local.digitalfirstmedia.com/common/dfm/assets/js/dfm-core-level1.min.js?ver=71cfc2738087cd516a89c7cc807fa5bf'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js?ver=71cfc2738087cd516a89c7cc807fa5bf'></script>
+<script type='text/javascript' src='http://mediacenter.dailycamera.com/wp-content/themes/media-center-2014/js/swipy.js?ver=71cfc2738087cd516a89c7cc807fa5bf'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://mediacenter.dailycamera.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://mediacenter.dailycamera.com/wp-includes/wlwmanifest.xml" /> 
+
+<link rel='shortlink' href='http://mediacenter.dailycamera.com/?p=25149' />
+<link rel="stylesheet" type="text/css" href="http://mediacenter.dailycamera.com/wp-content/plugins/bcvideo/bcvideo.css" />
+    <script type="text/javascript" src="http://local.denverpost.com/common/dfm/dfm-core.js"></script>
+    <script type="text/javascript">
+        dfm.api("data","siteId",            "9");
+        dfm.api("data","company",            "MNG");
+        dfm.api("data","siteName",          "Boulder Daily Camera");
+        dfm.api("data","siteDomain",        "dailycamera.com");
+        dfm.api("data","currentDomain",      "mediacenter.dailycamera.com");
+        dfm.api("data","contentId",         "");
+        dfm.api("data","sectionName",       "DC_LOCAL");
+        dfm.api("data","pageID",            "");
+        dfm.api("data","pageUrl",           "/2016/02/07/photos-boulder-celebrates-the-broncos-super-bowl-victory/");
+        dfm.api("data","pageTitle",         "Photos: Boulder Celebrates The Broncos Super Bowl Victory");
+        dfm.api("data","sectionId",         "");
+        dfm.api("data","keywords",          "");
+        dfm.api("data","adTaxonomy",         "");
+        dfm.api("data","Taxonomy1",         "DC_LOCAL");
+        dfm.api("data","Taxonomy2",         "");
+        dfm.api("data","Taxonomy3",         "");
+        dfm.api("data","Taxonomy4",         "");
+        dfm.api("data","kv",                "news");
+        dfm.api("data","googleUA",          "UA-61435456-9");
+        dfm.api("data","contentGeography",  "");
+        dfm.api("data","contentRegion",     "");
+        dfm.api("data","contentPostalCode", "");
+        dfm.api("data","contentPrice",      "");
+        dfm.api("data","contentChannel",    "");
+        dfm.api("data","contentType",       "");
+        dfm.api("data","contentCity",       "");
+        //Extra
+        dfm.api("data","errorType",      		"");
+        dfm.api("data","pageType",         	"gallery");
+        dfm.api("data", "quantcast",		"p-34ecDc3dtE4OQ");
+        dfm.api("data", "comscore",		"6035443");
+    </script>
+    
+
+		<!-- GTM Data Layer -->
+		<script type="text/javascript">
+		  var dfm_gtm_dataLayer = true;
+
+		var dfm_gtm_publisherproduct = dfm.api("data","currentDomain");
+		var dataLayer_gaua = dfm.api("data", "googleUA");
+		var dataLayer_digitalpublisher = dfm.api("data", "company");
+		var dataLayer_taxonomy1 = dfm.api("data","Taxonomy1");
+		var dataLayer_quantcast = dfm.api("data", "quantcast");
+		var dataLayer_comscore = dfm.api("data", "comscore");
+
+		  analyticsEvent = function() {};
+		  analyticsSocial = function() {};
+		  analyticsVPV = function() {};
+		  analyticsClearVPV = function() {};
+		  analyticsForm = function() {};
+		  window.dataLayer = window.dataLayer || [];
+		  (function() {
+		    window.gaJsonData = window.gaJsonData || [];
+		    var gaTempJson = {
+		      "comscore": "",
+		      "pubplatform": "WP",
+		      "releaseversion": "",
+		      "digitalpublisher": "",
+		      "publisherstate": ""
+		    };
+		    gaJsonData.push(gaTempJson);
+		    var data = gaJsonData[0];
+		    var json = {
+		      "gaua": function() {
+		        return data.gaua;
+		      },
+		      "quantcast": function () {
+		        return data.quantcast;
+		      },
+		      "comscore": function() {
+		        return data.comscore;
+		      },
+		      "pubplatform": function() {
+		        return data.pubplatform;
+		      },
+		      "releaseversion": function() {
+		        return data.releaseversion;
+		      },
+		      "digitalpublisher": function() {
+		        return data.digitalpublisher;
+		      },
+		      "publisherstate": function() {
+		        return data.publisherstate;
+		      }
+		    };
+		    /*
+		      Error type
+		    */
+		     var dataLayer_error = dfm.api("data","errorType");
+		    /*
+		      ga_ua
+		    */
+		    //var dataLayer_gaua = json["gaua"]();
+		    /*
+		      quantcast
+		    */
+		    //var dataLayer_quantcast = json["quantcast"]();
+		    /*
+		      comscore
+		    */
+		    //var dataLayer_comscore = json["comscore"]();
+		    /*
+		      Release Version
+		    */
+		    var dataLayer_releaseversion = json["releaseversion"]();
+		    /*
+		      Digital Publisher
+		    */
+		    //var dataLayer_digitalpublisher = json["digitalpublisher"]();
+		    /*
+		      Platform
+		    */
+		    var dataLayer_pubplatform = json["pubplatform"]();
+		    /*
+		      Publisher State
+		    */
+		    var dataLayer_publisherstate = json["publisherstate"]();
+		    // Push the values into the dataLayer
+		    dataLayer.push({
+		      "errorType":dataLayer_error,
+		      "ga_ua":dataLayer_gaua,
+		      "quantcast":dataLayer_quantcast,
+		      "comscore":dataLayer_comscore,
+		      "Release Version":dataLayer_releaseversion,
+		      "Digital Publisher":dataLayer_digitalpublisher,
+		      "Platform":dataLayer_pubplatform,
+		      "Publisher State":dataLayer_publisherstate
+		    });
+		  }()); 
+		</script>
+
+		<!-- GA global -->
+		<script type="text/javascript" src="http://local.medianewsgroup.com/common/dfm/ga-datalayer.js"></script>
+		<!-- Google Tag Manager dfm -->
+		<noscript>
+			<iframe src="//www.googletagmanager.com/ns.html?id=GTM-TLFP4R" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+			<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-TLFP4R');</script>
+		<!-- End Google Tag Manager --><script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//mediacenter.dailycamera.com/?wordfence_logHuman=1&hid=B20E5C09D5EA5EB5C9B2C13EC9D48994');
+</script>
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<link rel="author" href="http://mediacenter.dailycamera.com//humans.txt" />
+<meta name="dcterms.rightsHolder" content="Property name here" />
+<meta name="dcterms.dateCopyrighted" content="2016" />
+
+<!-- ICONS -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
+
+<!-- Tile icon for Win8 (144x144 + tile color) -->
+<meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
+<meta name="msapplication-TileColor" content="#222222">
+
+<!-- iOS apps -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Media Center">
+
+<!-- MODERNIZER -->
+<script src="http://mediacenter.dailycamera.com/wp-content/themes/media-center-2014/js/lib/modernizr.js"></script>
+
+<!-- GPT AD TAGS -->
+<script type="text/javascript" src="http://local.denverpost.com/common/dfm/dfm-core.js"></script>
+<!-- Start: GPT Sync -->
+<script type='text/javascript'>
+ // Load GPT
+ var googletag = googletag || {};
+ googletag.cmd = googletag.cmd || [];
+ (function(){
+   var gads = document.createElement('script');
+   gads.async = true;
+   var useSSL = 'https:' == document.location.protocol;
+   gads.src = (useSSL ? 'https:' : 'http:') +
+       '//www.googletagservices.com/tag/js/gpt.js';
+   var node = document.getElementsByTagName('script')[0];
+   node.parentNode.insertBefore(gads, node);
+   })();
+
+ googletag.cmd.push(function() {
+    //Adslot 1 declaration//
+            var slot1 = googletag.defineSlot('/8013/dailycamera.com/media-center', [[300,250]],'cube1').setTargeting('pos',['Cube1_RRail_ATF']).addService(googletag.pubads());
+    
+    //Adslot 2 declaration
+    var slot2 = googletag.defineSlot('/8013/dailycamera.com/media-center', [[728,90]],'top_leaderboard').setTargeting('pos',['top_leaderboard']).addService(googletag.pubads());
+
+    //Adslot 3 declaration
+    var slot3 = googletag.defineSlot('/8013/dailycamera.com/media-center', [[300,250]],'cube2').setTargeting('pos',['Cube2_RRail_mid']).addService(googletag.pubads());
+
+    //Adslot 4 declaration
+    var slot4 = googletag.defineSlot('/8013/dailycamera.com/media-center', [[1,1]],'mc_interstitial').setTargeting('pos',['mc_interstitial']).addService(googletag.pubads());
+
+    //Adslot 5 decleration
+    var slot5 = googletag.defineSlot('/8013/dailycamera.com/media-center', [[970,30]], 'div_SBB').setTargeting('pos', ['SBB']).addService(googletag.pubads());
+
+    googletag.pubads().setTargeting('kv',['news']);
+    // Infinite scroll requires SRA
+    googletag.pubads().enableSingleRequest();
+
+    // Disable initial load, we will use refresh() to fetch ads.
+    // Calling this function means that display() calls just
+    // register the slot as ready, but do not fetch ads for it.
+    googletag.pubads().disableInitialLoad();
+
+    // Enable services
+    googletag.enableServices();
+
+ });
+ // Function to generate unique names for slots
+ var nextSlotId = 1;
+ function generateNextSlotName() {
+   var id = nextSlotId++;
+   return 'adslot' + id;
+ }
+
+var cubeCount = 1;
+//loadAd is called for recurring ads -- slogallery and infinitescoll
+
+ 
+  
+ function loadAd( targetDiv, slotType ) {
+    var slotName = generateNextSlotName();
+
+    // Create a div for the slot
+    var slotDiv = document.createElement('div');
+    slotDiv.id = slotName; // Id must be the same as slotName 
+    slotDiv.style.zIndex="999999999999999999999999999999999999999999999999";
+
+    var wrapperDiv = document.getElementById(targetDiv);
+    wrapperDiv.appendChild( slotDiv );
+
+    googletag.cmd.push(function() {
+        switch( slotType ) {
+            case 'gallery':
+                var ad_loc = '/8013/dailycamera.com/media-center';
+                var tagOrd=Math.random()*10000000000000000;
+
+                // May want to change from 500px down the road. 
+                var mq = window.matchMedia( "(min-width: 500px)" );
+                if ( mq.matches ) {
+                    var slot = googletag.defineSlot('/8013/dailycamera.com/media-center/home', [[1,1]],slotName).setTargeting('pos',['mc_interstitial']).addService(googletag.pubads());
+                }
+                else {
+                    // Mobile device, just show a cube ad
+                    var slot = "<iframe width='300px' height='250px' frameborder=0 scrolling=no seamless src='http://pubads.g.doubleclick.net/gampad/adx?iu=/8013/dailycamera.com/Media-Center&t=pos%3D[\"cube1\"]&sz=300x250&c="+tagOrd+"'></iframe>";
+                    $( wrapperDiv ).append( slot );
+                }
+
+                slotDiv.style.top="160px";
+                slotDiv.style.marginLeft="auto";
+                slotDiv.style.marginRight="auto";
+                slotDiv.style.textAlign="center";
+                break;
+        }
+        googletag.pubads().setTargeting('kv',['gallery']);
+
+        // Display has to be called before
+        // refresh and after the slot div is in the page.
+        googletag.display( slotName) ;
+        googletag.pubads().refresh([slot]);
+    });
+}
+
+
+</script>
+
+<!-- End: GPT -->
+
+<script> 
+$( window ).resize(function() {
+	if(menuIsOpen) {
+		//alert(menuIsOpen);
+		screenWMenu=$(window).width();
+		console.log("screenMEnu"+screenWMenu);
+		$("body").width(screenWMenu-300);
+		console.log("Body"+$("body").width());
+		$("#site-header").width(screenWMenu-300);
+		$("#carousel").width(screenWMenu-660);	
+	}
+	$("#carousel").removeAttr("width");
+});
+</script>
+
+<!--share toggles-->
+<script type="text/javascript">
+	$(document).ready(function(){
+        	var $headerShareToggle = $('#site-header').find($('.share-toggle')),
+    		$headerSearchToggle = $('#site-header').find($('.search-toggle'));
+		$headerShareToggle.bind('click', function(e){
+			$('#site-header').toggleClass('share-active').removeClass('search-active');
+		});
+		$headerSearchToggle.bind('click', function(e){
+			$('#site-header').toggleClass('search-active').removeClass('share-active');
+			setTimeout(function(){
+				($('#site-header').hasClass('search-active')) ? $('#search-field').focus() :  $('#search-field').blur();
+			}, 250);
+		});			   
+		loadShareToggles();
+	});
+</script>
+<!--share toggles-->
+
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', '', 'auto');
+ga('send', 'pageview', {'page': 'http://mediacenter.dailycamera.com/2016/02/07/photos-boulder-celebrates-the-broncos-super-bowl-victory/'+window.location.hash});
+</script>
+
+
+</head>
+<body class="article-page">
+<script>
+var mq = window.matchMedia( "(max-width: 736px)" );
+</script>
+      <nav id="main-menu" class="sidenav default fixed-left offcanvas" role="navigation">
+        <span class="sidenav-brand"> 
+        	<button type="button" class="close-button" data-toggle="offcanvas"  data-target=".sidenav">
+        		<span class="glyphicon glyphicon-remove"></span> Close
+        	</button>
+        </span>
+        <ul class="nav sidenav-nav">
+            <li>
+                <span class="arrow-subnav glyphicon glyphicon-chevron-left"></span>
+                <a onclick="window.location='http://mediacenter.dailycamera.com/category/dc_local';" href="http://mediacenter.dailycamera.com/category/dc_local">Daily Camera Local</a>
+                <ul class="subnav">
+                    <li class="back"><a>Back <span style="pointer-events: none;" class="pull-right arrow glyphicon glyphicon-chevron-right"></span></a></li>
+               </ul>
+            </li>
+            <li>
+                <span class="arrow-subnav glyphicon glyphicon-chevron-left"></span>
+                <a onclick="window.location='http://mediacenter.dailycamera.com/category/news';" href="http://mediacenter.dailycamera.com/category/news">News</a>
+                <ul class="subnav">
+                    <li class="back"><a>Back <span style="pointer-events: none;" class="pull-right arrow glyphicon glyphicon-chevron-right"></span></a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/news/conflict';" href="http://mediacenter.dailycamera.com/category/news/conflict">Conflict</a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/editorial-cartoons';" href="http://mediacenter.dailycamera.com/category/editorial-cartoons">Cartoons</a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/news/historic';" href="http://mediacenter.dailycamera.com/category/news/historic">Historic</a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/news/offbeat';" href="http://mediacenter.dailycamera.com/category/news/offbeat">Offbeat</a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/news/politics';" href="http://mediacenter.dailycamera.com/category/news/politics">Politics</a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/news/science-and-technology';" href="http://mediacenter.dailycamera.com/category/news/science-and-technology">Science and Technology</a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/news/severe-weather';" href="http://mediacenter.dailycamera.com/category/news/severe-weather">Severe Weather</a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/news/state-and-regional';" href="http://mediacenter.dailycamera.com/category/news/state-and-regional">State and Regional</a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/news/u-s-national';" href="http://mediacenter.dailycamera.com/category/news/u-s-national">U.S. National</a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/news/weird-news';" href="http://mediacenter.dailycamera.com/category/news/weird-news">Weird News</a></li>
+               </ul>
+            </li>
+            <li>
+                <span class="arrow-subnav glyphicon glyphicon-chevron-left"></span>
+                <a onclick="window.location='http://mediacenter.dailycamera.com/category/sports';" href="http://mediacenter.dailycamera.com/category/sports">Sports</a>
+                <ul class="subnav">
+                    <li class="back"><a>Back <span style="pointer-events: none;" class="pull-right arrow glyphicon glyphicon-chevron-right"></span></a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/sports/college-sports';" href="http://mediacenter.dailycamera.com/category/sports/college-sports">College Sports</a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/sports/mlb';" href="http://mediacenter.dailycamera.com/category/sports/mlb">MLB</a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/sports/nba';" href="http://mediacenter.dailycamera.com/category/sports/nba">NBA</a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/nfl';" href="http://mediacenter.dailycamera.com/category/nfl">NFL</a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/sports/nhl';" href="http://mediacenter.dailycamera.com/category/sports/nhl">NHL</a></li>
+               </ul>
+            </li>
+            <li>
+                <span class="arrow-subnav glyphicon glyphicon-chevron-left"></span>
+                <a onclick="window.location='http://mediacenter.dailycamera.com/category/sports/bolder-boulder';" href="http://mediacenter.dailycamera.com/category/sports/bolder-boulder">Bolder Boulder</a>
+                <ul class="subnav">
+                    <li class="back"><a>Back <span style="pointer-events: none;" class="pull-right arrow glyphicon glyphicon-chevron-right"></span></a></li>
+               </ul>
+            </li>
+            <li>
+                <span class="arrow-subnav glyphicon glyphicon-chevron-left"></span>
+                <a onclick="window.location='http://mediacenter.dailycamera.com/category/bocopreps';" href="http://mediacenter.dailycamera.com/category/bocopreps">BOCOPREPS</a>
+                <ul class="subnav">
+                    <li class="back"><a>Back <span style="pointer-events: none;" class="pull-right arrow glyphicon glyphicon-chevron-right"></span></a></li>
+               </ul>
+            </li>
+            <li>
+                <span class="arrow-subnav glyphicon glyphicon-chevron-left"></span>
+                <a onclick="window.location='http://mediacenter.dailycamera.com/category/buffzone';" href="http://mediacenter.dailycamera.com/category/buffzone">BUFFZONE</a>
+                <ul class="subnav">
+                    <li class="back"><a>Back <span style="pointer-events: none;" class="pull-right arrow glyphicon glyphicon-chevron-right"></span></a></li>
+               </ul>
+            </li>
+            <li>
+                <span class="arrow-subnav glyphicon glyphicon-chevron-left"></span>
+                <a onclick="window.location='http://mediacenter.dailycamera.com/category/entertainment';" href="http://mediacenter.dailycamera.com/category/entertainment">Entertainment</a>
+                <ul class="subnav">
+                    <li class="back"><a>Back <span style="pointer-events: none;" class="pull-right arrow glyphicon glyphicon-chevron-right"></span></a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/entertainment/hollywood';" href="http://mediacenter.dailycamera.com/category/entertainment/hollywood">Hollywood</a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/entertainment/movies';" href="http://mediacenter.dailycamera.com/category/entertainment/movies">Movies</a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/entertainment/music';" href="http://mediacenter.dailycamera.com/category/entertainment/music">Music</a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/entertainment/style';" href="http://mediacenter.dailycamera.com/category/entertainment/style">Style</a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/entertainment/television';" href="http://mediacenter.dailycamera.com/category/entertainment/television">Television</a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/entertainment/travel';" href="http://mediacenter.dailycamera.com/category/entertainment/travel">Travel</a></li>
+                    <li><a onclick="window.location='http://mediacenter.dailycamera.com/category/entertainment/visual-arts';" href="http://mediacenter.dailycamera.com/category/entertainment/visual-arts">Visual Arts</a></li>
+               </ul>
+            </li>
+            <li>
+                <span class="arrow-subnav glyphicon glyphicon-chevron-left"></span>
+                <a onclick="window.location='http://mediacenter.dailycamera.com/category/local';" href="http://mediacenter.dailycamera.com/category/local">Local</a>
+                <ul class="subnav">
+                    <li class="back"><a>Back <span style="pointer-events: none;" class="pull-right arrow glyphicon glyphicon-chevron-right"></span></a></li>
+               </ul>
+            </li>
+        </ul>
+      </nav>
+<header id="site-header" role="banner">
+  <div class="container">
+    <a class="branding logotype" href="http://mediacenter.dailycamera.com"> MEDIA CENTER </a>
+	    <a class="branding-logo" href="http://dailycamera.com"><img src="http://local.dailycamera.com//assets/logo.svg" alt="Boulder Daily Camera Media Center" /></a>
+	
+<div id="shareSearch">
+    <div id="share-global" class="share-zipper hidden-touch">
+        <div class="share-zipper">
+	<div class="drawer">
+		<ul class="share-tools">
+						<li>
+			<div class="fc-webicon facebook large" style="cursor:pointer" onClick="shareMC_FB();">
+			</li>
+			<li>
+			<div class="fc-webicon twitter large" style="cursor:pointer" onClick="shareMC_twitter();">
+			</li>
+			<li>
+			<div class="fc-webicon googleplus large" style="cursor:pointer" onClick="shareMC_google();">
+			</li>
+			
+						
+			<li><a class="fc-webicon mail large" href="mailto:?Subject=Photos: Boulder Celebrates The Broncos Super Bowl Victory"><span class="sr-only">Email</span></a></li>
+		</ul> <!-- .share-tools -->
+	</div> <!-- .drawer -->
+<button class="share-toggle"><span class="glyphicon glyphicon-share-alt"><span class="sr-only">Share</span></span></button>
+</div> <!-- .share-zipper -->    </div> <!-- #share-global -->
+    <div id="global-search" class="search-zipper">
+        <div class="drawer">
+            <form id="site-search" action="http://mediacenter.dailycamera.com" class="search-bar" role="search">
+                <input type="text" name="s" id="search-field"/>
+            </form>
+        </div>
+        <button class="search-toggle"><span class="glyphicon glyphicon-search"><span class="sr-only">Search</span></span></button>
+    </div> <!-- #search-global -->
+</div><!-- #shareSearch -->
+  </div> <!-- .container -->
+</header>
+<div id="top_leaderboard" class="top_leaderboard">
+<script>
+if ( mq.matches === false ) {
+    $('<div id="top_leaderboard" class="top_leaderboard">');
+    $("#top_leaderboard").css('background-image', "url(http://local.dailycamera.com//assets/logo.svg)"); 
+    $("#top_leaderboard").css("background-repeat", "no-repeat");
+    $("#top_leaderboard").css("background-position", "center center");
+    googletag.cmd.push(function() {
+        googletag.display('top_leaderboard');
+        googletag.pubads().refresh();
+    }); 
+}
+else {
+    $(' #top_leaderboard ').append( '<div id="div_mobile" class="div_mobile">' );
+    $( '.top_leaderboard' ).removeClass( 'top_leaderboard' );
+    $('#top_leaderboard').removeAttr('id');
+    
+    var tagOrd=Math.random()*10000000000000000;
+    var mobileAd = "<iframe width='320px' height='50px' frameborder=0 scrolling=no seamless src='http://pubads.g.doubleclick.net/gampad/adx?iu=/8013/denverpost.com/media-center&t=pos%3D[\"div_mobile\"]&sz=320x50&c="+tagOrd+"'></iframe>";
+    $( '#div_mobile' ).html( mobileAd );
+}
+</script>
+<script>
+function shareRedirect(url) {
+	url=escape(url);
+	url=url.replace('%u200E', '');
+	url=unescape(url);
+	if(url=="N\/A"||!url)
+		alert("Google Plus is not available for this site");
+	else
+		window.open(url, '_blank');
+}
+</script>
+<script>
+function getFButton(url) {	
+	$("#FBlikebutton").html("");	
+		$("#FBlikebutton").html('<div style="position:absolute; opacity:0; margin-left:12px;" id="FBlikebutton-inner"  class="fb-like"   data-href="'+url+'"  data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>');
+		FB.XFBML.parse();	
+}
+function getLikes(url) { 
+	var fburl = "https://graph.facebook.com/fql?q=SELECT+total_count+FROM+link_stat+WHERE+url%3D%22"+url+"%22&callback=?"
+	$.getJSON(fburl, function(a){
+		if( a.data[0] !== undefined ){
+			$("#likesFB").html(a.data[0].total_count);
+		}
+	});
+}
+
+//getting url # 
+var hashLocation=window.location.hash;
+hashLocation=hashLocation.split("?");
+hashLocation=hashLocation[0].split("#");
+hashLocation=hashLocation[1];
+if (typeof hashLocation == 'undefined')
+	hashLocation=1;
+setTimeout(function(){ getLikes("http://mediacenter.dailycamera.com/2016/02/07/photos-boulder-celebrates-the-broncos-super-bowl-victory/?id="+hashLocation); }, 1500);
+//setTimeout(function(){ getLikes("http://mediacenter.dailycamera.com/2016/02/07/photos-boulder-celebrates-the-broncos-super-bowl-victory/"); }, 1500);
+$(document).ready(function(){
+	$("#FBlikebutton-inner").attr("data-href", "http://mediacenter.dailycamera.com/2016/02/07/photos-boulder-celebrates-the-broncos-super-bowl-victory/?id="+hashLocation);
+	//alert($("#FBsharebutton-inner").length);
+	//$("#FBsharebutton-inner").append("hola msundo");	
+});
+
+function shareMC_FB() {
+	var myLocation=String(window.location);
+	myLocation=myLocation.replace("#", "?id=");
+	myLocation="http://www.facebook.com/sharer.php?u="+myLocation;
+	window.open(myLocation,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
+}
+function shareMC_twitter() {
+	var myLocation=String(window.location);
+	myLocation=myLocation.replace("#", "?id=");
+	myLocation="http://twitter.com/share?url="+myLocation+"&text=Photos: Boulder Celebrates The Broncos Super Bowl Victory&via=dailycamera";
+	window.open(myLocation,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
+}
+function shareMC_google() {
+	var myLocation=String(window.location);
+	myLocation=myLocation.replace("#", "?id=");
+	myLocation="https://plus.google.com/share?url="+myLocation;
+	window.open(myLocation,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
+}
+</script>
+</div>
+<div id="content" class="container"><!-- #content -->
+    <body>
+    	<br>
+
+	<noscript>
+	<h5>Photo navigation</h5>
+	<ul>
+	    	</ul>
+	</noscript>
+
+<div class="story">
+	<div class="content-well">
+	<!-- Carousel -->
+			<script type="text/javascript" src="http://dfm-ssp.medianewsgroup.com/dailycamera/wp-content/mu-plugins/dfm-wp-photogallery/js/carousel.js"></script>
+<script type="text/javascript" src="http://dfm-ssp.medianewsgroup.com/dailycamera/wp-content/mu-plugins/dfm-wp-photogallery/js/smart-resize.js"></script>
+<script type="text/javascript" src="http://dfm-ssp.medianewsgroup.com/dailycamera/wp-content/mu-plugins/dfm-wp-photogallery/js/bootstrap-transition.js"></script>
+<script type="text/javascript" src="http://dfm-ssp.medianewsgroup.com/dailycamera/wp-content/mu-plugins/dfm-wp-photogallery/js/handlebars.min.js"></script>
+<script type="text/javascript" src="http://dfm-ssp.medianewsgroup.com/dailycamera/wp-content/mu-plugins/dfm-wp-photogallery/js/imagesLoaded.js"></script>
+<script type="text/javascript" src="http://dfm-ssp.medianewsgroup.com/dailycamera/wp-content/mu-plugins/dfm-wp-photogallery/js/custom/JSON-helper.js"></script>
+<script type="text/javascript" src="http://dfm-ssp.medianewsgroup.com/dailycamera/wp-content/mu-plugins/dfm-wp-photogallery/js/custom/carousel-bindings.js"></script>
+<link type="text/css" rel="stylesheet" href="http://dfm-ssp.medianewsgroup.com/dailycamera/wp-content/mu-plugins/dfm-wp-photogallery/css/gallery-styles.css" />
+<link type="text/css" rel="stylesheet" href="http://dfm-ssp.medianewsgroup.com/dailycamera/wp-content/mu-plugins/dfm-wp-photogallery/css/custom/gallery-styles.css" />
+
+<div class="photo-gallery">
+<p><!-- .photo-gallery -->
+	<div id="carousel" class="carousel slide">
+		<div class="carousel-inner">
+						<div class="item">
+							<div class="image-container widescreen">
+					<div class="interstitial"></div>
+						<img src="http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-j2P8jRv/0/XL/super19-XL.jpg" srcset="
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-j2P8jRv/0/S/super19-S.jpg 1014w,
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-j2P8jRv/0/XL/super19-XL.jpg 1430w, 
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-j2P8jRv/0/X3/super19-X3.jpg 2x" alt=". Celebrating the Denver Broncos Super Bowl victory Chris Mancuso, left, Vanessa Allard with Dean Raper from Australia and Pam Reaves at the Super Bowl Party at the Lazy Dog Sports Bar on Sunday.
+For more
+photos:www.dailycamera.com.
+David R. Jennings Staff Photographer
+February 5, 2016"/>
+
+						</div>
+<div class="carousel-caption">
+					<!-- Buy this button -->
+													<div class="forsale">
+								<a href="http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super#!i=4706297796&k=j2P8jRv" target="_blank">Buy This Photo</a>
+							</div>
+						 <!-- end if forsale -->
+							Celebrating the Denver Broncos Super Bowl victory Chris Mancuso, left, Vanessa Allard with Dean Raper from Australia and Pam Reaves at the Super Bowl Party at the Lazy Dog Sports Bar on Sunday.
+For more
+photos:www.dailycamera.com.
+David R. Jennings Staff Photographer
+February 5, 2016<!-- end if caption -->
+						</div>
+			<!-- end else -->
+			</div>
+						<div class="item">
+							<div class="image-container widescreen">
+					<div class="interstitial"></div>
+						<img src="http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-FHSHCc7/0/XL/super12-XL.jpg" srcset="
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-FHSHCc7/0/S/super12-S.jpg 1014w,
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-FHSHCc7/0/XL/super12-XL.jpg 1430w, 
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-FHSHCc7/0/X3/super12-X3.jpg 2x" alt=". Chris Mancuso reacts to a Broncos play against Carolina during the Super Bowl Party at the Lazy Dog Sports Bar on Sunday.
+For more
+photos:www.dailycamera.com.
+David R. Jennings Staff Photographer
+February 5, 2016"/>
+
+						</div>
+<div class="carousel-caption">
+					<!-- Buy this button -->
+													<div class="forsale">
+								<a href="http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super#!i=4706297674&k=FHSHCc7" target="_blank">Buy This Photo</a>
+							</div>
+						 <!-- end if forsale -->
+							Chris Mancuso reacts to a Broncos play against Carolina during the Super Bowl Party at the Lazy Dog Sports Bar on Sunday.
+For more
+photos:www.dailycamera.com.
+David R. Jennings Staff Photographer
+February 5, 2016<!-- end if caption -->
+						</div>
+			<!-- end else -->
+			</div>
+						<div class="item">
+							<div class="image-container widescreen">
+					<div class="interstitial"></div>
+						<img src="http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-Bm9ZkdZ/0/XL/super11-XL.jpg" srcset="
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-Bm9ZkdZ/0/S/super11-S.jpg 1014w,
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-Bm9ZkdZ/0/XL/super11-XL.jpg 1430w, 
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-Bm9ZkdZ/0/X3/super11-X3.jpg 2x" alt=". Broncos fans Amanda Boernke, center, reacts to a play with Zack Sanders, left, and Tom Fuller during the Super Bowl Party at The Lazy Dog Sports Bar  in Boulder. 
+For more
+photos:www.dailycamera.com.
+David R. Jennings Staff Photographer
+February 7, 2016"/>
+
+						</div>
+<div class="carousel-caption">
+					<!-- Buy this button -->
+													<div class="forsale">
+								<a href="http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super#!i=4706297745&k=Bm9ZkdZ" target="_blank">Buy This Photo</a>
+							</div>
+						 <!-- end if forsale -->
+							Broncos fans Amanda Boernke, center, reacts to a play with Zack Sanders, left, and Tom Fuller during the Super Bowl Party at The Lazy Dog Sports Bar  in Boulder. 
+For more
+photos:www.dailycamera.com.
+David R. Jennings Staff Photographer
+February 7, 2016<!-- end if caption -->
+						</div>
+			<!-- end else -->
+			</div>
+						<div class="item">
+							<div class="image-container widescreen">
+					<div class="interstitial"></div>
+						<img src="http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-6qxCqwZ/0/XL/super23-XL.jpg" srcset="
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-6qxCqwZ/0/S/super23-S.jpg 1014w,
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-6qxCqwZ/0/XL/super23-XL.jpg 1430w, 
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-6qxCqwZ/0/X3/super23-X3.jpg 2x" alt=". Amanda Boernke, center, celebrates the Denver Broncos Super Bowl victory with Zack Sanders, left, and Tom Fuller at  the Super Bowl Party at the Lazy Dog Sports Bar on Sunday.
+For more
+photos:www.dailycamera.com.
+David R. Jennings Staff Photographer
+February 5, 2016"/>
+
+						</div>
+<div class="carousel-caption">
+					<!-- Buy this button -->
+													<div class="forsale">
+								<a href="http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super#!i=4706297886&k=6qxCqwZ" target="_blank">Buy This Photo</a>
+							</div>
+						 <!-- end if forsale -->
+							Amanda Boernke, center, celebrates the Denver Broncos Super Bowl victory with Zack Sanders, left, and Tom Fuller at  the Super Bowl Party at the Lazy Dog Sports Bar on Sunday.
+For more
+photos:www.dailycamera.com.
+David R. Jennings Staff Photographer
+February 5, 2016<!-- end if caption -->
+						</div>
+			<!-- end else -->
+			</div>
+						<div class="item">
+							<div class="image-container widescreen">
+					<div class="interstitial"></div>
+						<img src="http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-Xxrkh9V/0/XL/super25-XL.jpg" srcset="
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-Xxrkh9V/0/S/super25-S.jpg 1014w,
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-Xxrkh9V/0/XL/super25-XL.jpg 1430w, 
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-Xxrkh9V/0/X3/super25-X3.jpg 2x" alt=". Chris Mancuso reacts to a Broncos play against Carolina during the Super Bowl Party at the Lazy Dog Sports Bar on Sunday.
+For more
+photos:www.dailycamera.com.
+David R. Jennings Staff Photographer
+February 5, 2016"/>
+
+						</div>
+<div class="carousel-caption">
+					<!-- Buy this button -->
+													<div class="forsale">
+								<a href="http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super#!i=4706297953&k=Xxrkh9V" target="_blank">Buy This Photo</a>
+							</div>
+						 <!-- end if forsale -->
+							Chris Mancuso reacts to a Broncos play against Carolina during the Super Bowl Party at the Lazy Dog Sports Bar on Sunday.
+For more
+photos:www.dailycamera.com.
+David R. Jennings Staff Photographer
+February 5, 2016<!-- end if caption -->
+						</div>
+			<!-- end else -->
+			</div>
+						<div class="item">
+							<div class="image-container widescreen">
+					<div class="interstitial"></div>
+						<img src="http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-fXmBn3t/0/XL/super26-XL.jpg" srcset="
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-fXmBn3t/0/S/super26-S.jpg 1014w,
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-fXmBn3t/0/XL/super26-XL.jpg 1430w, 
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-fXmBn3t/0/X3/super26-X3.jpg 2x" alt=". Australian Dean Raper, left, hugs Boulderite Vanessa Allard while elebrating the Denver Broncos Super Bowl victory over Carolina  at the Super Bowl Party at the Lazy Dog Sports Bar on Sunday.
+For more
+photos:www.dailycamera.com.
+David R. Jennings Staff Photographer
+February 5, 2016"/>
+
+						</div>
+<div class="carousel-caption">
+					<!-- Buy this button -->
+													<div class="forsale">
+								<a href="http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super#!i=4706297967&k=fXmBn3t" target="_blank">Buy This Photo</a>
+							</div>
+						 <!-- end if forsale -->
+							Australian Dean Raper, left, hugs Boulderite Vanessa Allard while elebrating the Denver Broncos Super Bowl victory over Carolina  at the Super Bowl Party at the Lazy Dog Sports Bar on Sunday.
+For more
+photos:www.dailycamera.com.
+David R. Jennings Staff Photographer
+February 5, 2016<!-- end if caption -->
+						</div>
+			<!-- end else -->
+			</div>
+						<div class="item">
+							<div class="image-container widescreen">
+					<div class="interstitial"></div>
+						<img src="http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-dxjKKqW/0/XL/super30-XL.jpg" srcset="
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-dxjKKqW/0/S/super30-S.jpg 1014w,
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-dxjKKqW/0/XL/super30-XL.jpg 1430w, 
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-dxjKKqW/0/X3/super30-X3.jpg 2x" alt=". Amanda Boernke, center, celebrates the Denver Broncos Super Bowl victory with fellow fans at the Super Bowl Party at the Lazy Dog Sports Bar on Sunday.
+For more
+photos:www.dailycamera.com.
+David R. Jennings Staff Photographer
+February 5, 2016"/>
+
+						</div>
+<div class="carousel-caption">
+					<!-- Buy this button -->
+													<div class="forsale">
+								<a href="http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super#!i=4706298028&k=dxjKKqW" target="_blank">Buy This Photo</a>
+							</div>
+						 <!-- end if forsale -->
+							Amanda Boernke, center, celebrates the Denver Broncos Super Bowl victory with fellow fans at the Super Bowl Party at the Lazy Dog Sports Bar on Sunday.
+For more
+photos:www.dailycamera.com.
+David R. Jennings Staff Photographer
+February 5, 2016<!-- end if caption -->
+						</div>
+			<!-- end else -->
+			</div>
+						<div class="item">
+							<div class="image-container widescreen">
+					<div class="interstitial"></div>
+						<img src="http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-dTX4N9H/0/XL/super31-XL.jpg" srcset="
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-dTX4N9H/0/S/super31-S.jpg 1014w,
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-dTX4N9H/0/XL/super31-XL.jpg 1430w, 
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-dTX4N9H/0/X3/super31-X3.jpg 2x" alt=". Celebrating the Denver Broncos Super Bowl victory Pam Reaves, left front, Chris Mancuso, with Dean Raper from Australia and Vanessa Allard at the Super Bowl Party at the Lazy Dog Sports Bar on Sunday.
+For more
+photos:www.dailycamera.com.
+David R. Jennings Staff Photographer
+February 5, 2016"/>
+
+						</div>
+<div class="carousel-caption">
+					<!-- Buy this button -->
+													<div class="forsale">
+								<a href="http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super#!i=4706298054&k=dTX4N9H" target="_blank">Buy This Photo</a>
+							</div>
+						 <!-- end if forsale -->
+							Celebrating the Denver Broncos Super Bowl victory Pam Reaves, left front, Chris Mancuso, with Dean Raper from Australia and Vanessa Allard at the Super Bowl Party at the Lazy Dog Sports Bar on Sunday.
+For more
+photos:www.dailycamera.com.
+David R. Jennings Staff Photographer
+February 5, 2016<!-- end if caption -->
+						</div>
+			<!-- end else -->
+			</div>
+						<div class="item">
+							<div class="image-container widescreen">
+					<div class="interstitial"></div>
+						<img src="http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-x3rjfLs/0/XL/super22-XL.jpg" srcset="
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-x3rjfLs/0/S/super22-S.jpg 1014w,
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-x3rjfLs/0/XL/super22-XL.jpg 1430w, 
+http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super/i-x3rjfLs/0/X3/super22-X3.jpg 2x" alt=". Amanda Boernke reacts to a Broncos play against Carolina during the Super Bowl Party at the Lazy Dog Sports Bar on Sunday.
+For more
+photos:www.dailycamera.com.
+David R. Jennings Staff Photographer
+February 5, 2016"/>
+
+						</div>
+<div class="carousel-caption">
+					<!-- Buy this button -->
+													<div class="forsale">
+								<a href="http://photos.dailycamera.com/Fans-Celebrate-Broncos-Super#!i=4706297856&k=x3rjfLs" target="_blank">Buy This Photo</a>
+							</div>
+						 <!-- end if forsale -->
+							Amanda Boernke reacts to a Broncos play against Carolina during the Super Bowl Party at the Lazy Dog Sports Bar on Sunday.
+For more
+photos:www.dailycamera.com.
+David R. Jennings Staff Photographer
+February 5, 2016<!-- end if caption -->
+						</div>
+			<!-- end else -->
+			</div>
+			<!-- end foreach -->
+		</div>
+
+		<div class="nav-left"><a class="left carousel-control" href="#carousel" id="prev_btn" data-slide="prev">&lsaquo;</a></div>
+		<div class="nav-right"><a class="right carousel-control" href="#carousel" id="next_btn" data-slide="next">&rsaquo;</a></div>
+	</div>
+						
+<div class="pic_number_box">
+	<span id="num_pic_styled"><span id="num_pic_pg">1</span> of 9</span>
+</div>
+
+</div><!-- .photo-gallery -->
+  <!-- ON LOAD --></p>
+<p>&nbsp; </p>
+<script>
+(function($){
+	var html,       // html to be printed to carousel container
+		noCache = Date(), // Prevent IE caching of JSON
+		json = _JSONHelper; // CUSTOM CODE found in js/JSON_helper.js
+	var positionCounter = 1;
+	var isiPad = navigator.userAgent.match(/iPad/i) != null;
+	var retina =  window.devicePixelRatio;
+    	var screenW = screen.width;
+		var i=0;
+	$('.carousel-inner').find('.item').first().addClass('active');
+	$('.carousel-indicators').find('li').first().addClass('active');
+
+	// trigger the carousel and add settings
+	$('#carousel').carousel('pause');
+		
+	var url = document.location.toString();
+	if (url.match('#')) {
+		$("#num_pic_pg").html(parseInt(url.split('#')[1]));
+	}
+		
+	$("#carousel .carousel-inner .image-container").on('swiperight',function() {  
+		$("#carousel").carousel('prev'); 
+	});  
+	$("#carousel .carousel-inner .image-container").on('swipeleft',function() {  
+		$("#carousel").carousel('next'); 
+	}); 
+	document.getElementById('carousel').style.webkitTouchCallout = 'none'; 
+		
+	$('#carousel').on('slid.bs.carousel', function (e) {
+		//FB like
+		if($("#FBlikebutton-inner").length) {
+			var pic_index=parseInt($('#carousel .carousel-inner .item.active').index()+1);
+			var permalink=url.split("#");
+			permalink=permalink[0].split("?");
+			permalink=permalink[0];
+			getLikes(permalink+"?id="+pic_index);
+			getFButton(permalink+"?id="+pic_index);
+			//google Analytics
+			ga('send', 'event', 'image view', permalink+'#'+pic_index);	
+		}
+		//omniture  ipad fixes
+		if(isiPad) {
+			window.location.hash=pic_index;
+			omniTrack(pic_index,9);
+		}
+
+		//PHP function to get the title
+		var wpTitle = 'Photos: Boulder Celebrates The Broncos Super Bowl Victory'; 		// Virtual Page Name to Track current image in GA
+		if ( typeof dfm_gtm_dataLayer !== undefined ){
+			analyticsVPV = function(virtualPageName) {
+				//Gallery functions
+				var pageTitle = wpTitle;
+				var pic_index=parseInt($('#carousel .carousel-inner .item.active').index()+1);
+				var virtualPageName = '/#'+pic_index;
+			
+				//Data Layer
+				dataLayer.push(
+					{ 'event': 'analyticsVPV', 'vpvName': 'ImageView-' + pageTitle + virtualPageName }
+				);
+			}
+			// Run function
+			analyticsVPV();
+		}
+	}); //End of events loading on image change
+
+	window.onhashchange = function() {
+ 		$("#num_pic_pg").html(parseInt($('#carousel .carousel-inner .item.active').index()+1));
+	}
+})(jQuery);
+/*rigth click, drag and copy disable */  
+$('#carousel .carousel-inner .image-container').bind('contextmenu',function(e){
+      e.preventDefault();
+});
+$('#carousel .carousel-inner .image-container').bind('mousedown',function(e){
+     e.preventDefault();
+});
+
+</script>
+<script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script> 
+<!-- end if is_single -->
+
+
+		<div class="story-info">
+		<h5 class="section-name"><a href="http://mediacenter.dailycamera.com/category/dc_local/">DC_LOCAL</a></h5>
+		<h1>Photos: Boulder Celebrates The Broncos Super Bowl Victory</h1>
+				<div class="meta">
+	<p>
+	<span class="posted-by">
+			Posted by Paul Aiken on
+			<span class="timestamp">02/07/2016 10:06pm PDT</span>
+	</span>
+	<span class="divider"></span>
+	    
+	</p>
+    <div class="share-zipper">
+	<div class="drawer">
+		<ul class="share-tools">
+						<li>
+			<div class="fc-webicon facebook large" style="cursor:pointer" onClick="shareMC_FB();">
+			</li>
+			<li>
+			<div class="fc-webicon twitter large" style="cursor:pointer" onClick="shareMC_twitter();">
+			</li>
+			<li>
+			<div class="fc-webicon googleplus large" style="cursor:pointer" onClick="shareMC_google();">
+			</li>
+			
+						
+			<li><a class="fc-webicon mail large" href="mailto:?Subject=Photos: Boulder Celebrates The Broncos Super Bowl Victory"><span class="sr-only">Email</span></a></li>
+		</ul> <!-- .share-tools -->
+	</div> <!-- .drawer -->
+<button class="share-toggle"><span class="glyphicon glyphicon-share-alt"><span class="sr-only">Share</span></span></button>
+</div> <!-- .share-zipper --></div> <!-- .meta -->
+<div id="longform-story-description">
+	<p>
+										Boulder Celebrates The Broncos Super Bowl Victory at the Lazy Dog Sports Bar in Boulder
+			 
+				</p>
+</div><!-- #story-description -->
+
+	<ul class="pager plain">
+	
+	<li class="prev">
+		<p class="position"><span class="glyphicon glyphicon-chevron-left"></span> Previous Post</p>
+		<p><a href="http://mediacenter.dailycamera.com/2016/02/07/photos-cu-vs-utah-womens-basketball/">Photos: CU vs. Utah Womens Basketball</a></p>
+	</li>
+		
+	<li class="next">
+		<p class="position"></span>Next Post<span class="glyphicon glyphicon-chevron-right"></p>
+		<p><a href="http://mediacenter.dailycamera.com/2016/02/08/photos-dead-and-company-coming-to-folsom-field/">Photos: Dead and Company Coming to Folsom Field</a></p>
+	</li>
+	
+</ul> <!-- .pager -->
+	<div class="comments" id="comments">
+			<h1>&nbsp;</h1>
+<div id="disqus_thread" class="span4"></div>
+<script type="text/javascript">
+            var disqus_shortname = 'boulder-dailycamera'; // required: replace example with your forum shortname
+
+           // Do not edit below this line! 
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+		</div>
+
+	</div> <!-- .content-well -->
+	<div class="ad-well">
+        <div class="ad">
+				<div id="cube1" style="background-image: url(http://local.dailycamera.com//assets/logo.svg);">
+		<script>
+			googletag.cmd.push(function() { 
+				googletag.display('cube1');
+				googletag.pubads().refresh();
+			});
+		</script>
+	</div><!-- #adposition -->
+</div><!-- .ad -->
+		<br>
+		<!-- Facebook like function -->
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=717796548271188&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<!-- Facebook like function end-->
+<ul class="stats">
+	<li>
+	<div id="FBlikebutton">
+		<div style="position:absolute; opacity:0; margin-left:12px;" id="FBlikebutton-inner"  class="fb-like"   data-href="http://mediacenter.dailycamera.com/2016/02/07/photos-boulder-celebrates-the-broncos-super-bowl-victory/"  data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+	</div>
+	<span class="glyphicon glyphicon-thumbs-up"></span><span class="fbLikeText">Like (<span id="likesFB">0</span>)</span></li>
+	<li><span class="glyphicon glyphicon-retweet"></span><a href="http://twitter.com/share?url=http://mediacenter.dailycamera.com/2016/02/07/photos-boulder-celebrates-the-broncos-super-bowl-victory/&text=Photos: Boulder Celebrates The Broncos Super Bowl Victory&via=dailycamera" target="_blank"><span class="fbLikeText">Retweet</span></a></li>
+	<li><span class="glyphicon glyphicon-envelope"></span><a href="mailto:?Subject=Photos: Boulder Celebrates The Broncos Super Bowl Victory" target="_blank"><span class="fbLikeText">Email</span></a></li>
+</ul>
+<script type="text/javascript">
+window.fbAsyncInit = function() {
+    FB.Event.subscribe('edge.create',
+        function(response) {
+			var urlTemp=$("#FBlikebutton-inner").attr("data-href");
+        	getLikes(urlTemp);
+			getFButton(urlTemp);
+        }
+    );
+};
+</script>
+<script>
+/*  BOOKMARK THE PAGE  */
+function bookmark()
+{
+	if ((navigator.appName == 'Microsoft Internet Explorer') && (parseInt(navigator.appVersion) >= 4))
+	{
+		window.external.AddFavorite(window.location,document.title);
+	}
+	else
+	{
+		alert('Bookmark  (CTRL-D)');
+	}
+}
+</script>			<div class="related-posts">
+		<h4>Related Posts</h4>
+		<ul class="sm-block-grid-2">
+					<li>
+				<a href="http://dfm-ssp.medianewsgroup.com/dailycamera/?p=25254">
+	            																		<div class="sm-block-grid-2-th" style="background-image:url(http://photos.dailycamera.com/Water-Line-Break-on-Norwood/i-XnNNfG7/0/200x200/Water%20Damage276-200x200.jpg);"></div>
+																			<div class="quick-info">
+					<h4>Photo: Water Pipe Break on Norwood Ave in Boulder</h4>
+				</div>
+				</a>
+			</li>
+					<li>
+				<a href="http://dfm-ssp.medianewsgroup.com/dailycamera/?p=25251">
+	            																		<div class="sm-block-grid-2-th" style="background-image:url(http://photos.dailycamera.com/Photos-Saolin-Hung-Mei-Kung-Fu/i-q3GNS3X/0/200x200/lion1-200x200.jpg);"></div>
+																			<div class="quick-info">
+					<h4>Photos: Shaolin Hung Mei Kung Fu Chinese New Year Lion Dance</h4>
+				</div>
+				</a>
+			</li>
+					<li>
+				<a href="http://dfm-ssp.medianewsgroup.com/dailycamera/?p=25243">
+	            																		<div class="sm-block-grid-2-th" style="background-image:url(http://photos.dailycamera.com/Valentines-Day-Love-Notes-by/i-VXQbv9V/0/200x200/chorale02-200x200.jpg);"></div>
+																			<div class="quick-info">
+					<h4>Photos: Valentines Day Love Notes by the Longmont Chorale Singers</h4>
+				</div>
+				</a>
+			</li>
+					<li>
+				<a href="http://dfm-ssp.medianewsgroup.com/dailycamera/?p=25237">
+	            																		<div class="sm-block-grid-2-th" style="background-image:url(http://photos.dailycamera.com/State-4A-Girls-Swimming/i-CFmR8LK/0/200x200/Gswim4A17-200x200.jpg);"></div>
+																			<div class="quick-info">
+					<h4>Photos: State 4A Girls Swimming Championships</h4>
+				</div>
+				</a>
+			</li>
+					<li>
+				<a href="http://dfm-ssp.medianewsgroup.com/dailycamera/?p=25233">
+	            																		<div class="sm-block-grid-2-th" style="background-image:url(http://photos.dailycamera.com/Colorado-81-Washington-80-NCAA/i-xPNSFqd/0/200x200/CU%20Washcliff300-200x200.jpg);"></div>
+																			<div class="quick-info">
+					<h4>Photos: Colorado 81  Washington 80 Men</h4>
+				</div>
+				</a>
+			</li>
+					<li>
+				<a href="http://dfm-ssp.medianewsgroup.com/dailycamera/?p=25228">
+	            																		<div class="sm-block-grid-2-th" style="background-image:url(http://photos.dailycamera.com/Boulder-vs-Monarch-Boys/i-9hFNPw3/0/200x200/BouldervsMonarch010-200x200.jpg);"></div>
+																			<div class="quick-info">
+					<h4>Photos: Boulder vs Monarch Boys Basketball</h4>
+				</div>
+				</a>
+			</li>
+				</ul>
+	</div> <!-- .related-posts -->
+		<div class="ad">
+				<div id="cube2" style="background-image: url(http://local.dailycamera.com//assets/logo.svg);">
+		<script>
+			googletag.cmd.push(function() { 
+				googletag.display('cube2');
+				googletag.pubads().refresh();
+			});
+		</script>
+	</div><!-- #adposition -->
+</div><!-- .ad -->
+		<br>
+	</div> <!-- .ad-well -->
+
+</div> <!-- .story -->
+
+
+ 
+        </div><!-- #content -->
+<!-- Asynchronous google analytics; this is the official snippet. -->
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+<footer id="site-footer">
+  <div class="container">
+    <div id="ticker" class="moving-feed hidden-sm-down">
+    <h5>Latest Headlines from <a href="http://mediacenter.dailycamera.com">
+          Boulder Daily Camera 
+    </a>:</h5>
+        <ul class="ticker-feed">
+                    <li title="http://www.dailycamera.com/news/boulder/ci_29521071/city-old-piping-may-have-led-north-boulder?source=rss">
+                <a href="http://www.dailycamera.com/news/boulder/ci_29521071/city-old-piping-may-have-led-north-boulder?source=rss">North Boulder residents clean up, assess damage after water-main break </a>
+            </li>
+                    <li title="http://www.dailycamera.com/news/ci_29522393/rock-slide-near-glenwood-springs-closes-i-70?source=rss">
+                <a href="http://www.dailycamera.com/news/ci_29522393/rock-slide-near-glenwood-springs-closes-i-70?source=rss">I-70 will be closed until Thursday after Glenwood Canyon rock slide</a>
+            </li>
+                    <li title="http://www.dailycamera.com/news/boulder/ci_29522958/boulder-county-cities-partner-new-solar-benefits-program?source=rss">
+                <a href="http://www.dailycamera.com/news/boulder/ci_29522958/boulder-county-cities-partner-new-solar-benefits-program?source=rss">Boulder County, cities partner on new solar benefits program</a>
+            </li>
+                    <li title="http://www.dailycamera.com/cu-news/ci_29524304/steve-wozniak-keynote-cus-conference-world-affairs?source=rss">
+                <a href="http://www.dailycamera.com/cu-news/ci_29524304/steve-wozniak-keynote-cus-conference-world-affairs?source=rss">Steve Wozniak to keynote Conference on World Affairs</a>
+            </li>
+                    <li title="http://www.dailycamera.com/news/ci_29523963/three-colorado-preschools-reach-top-level-quality-rating?source=rss">
+                <a href="http://www.dailycamera.com/news/ci_29523963/three-colorado-preschools-reach-top-level-quality-rating?source=rss">Broomfield preschool reaches top level in quality rating system</a>
+            </li>
+                    <li title="http://www.dailycamera.com/news/boulder/ci_29520982/full-jury-selection-expected-begin-today-dynel-lane?source=rss">
+                <a href="http://www.dailycamera.com/news/boulder/ci_29520982/full-jury-selection-expected-begin-today-dynel-lane?source=rss">Dynel Lane trial: Jury seated, Michelle Wilkins expected to testify Wednesday </a>
+            </li>
+                    <li title="http://www.dailycamera.com/news/boulder/ci_29521091/boulder-closes-portion-eldorado-springs-trails-due-damaged?source=rss">
+                <a href="http://www.dailycamera.com/news/boulder/ci_29521091/boulder-closes-portion-eldorado-springs-trails-due-damaged?source=rss">Boulder closes portion of Eldorado Springs trails due to damaged power-line tower</a>
+            </li>
+                    <li title="http://www.dailycamera.com/news/boulder/ci_29520683/boulder-county-commissioners-consider-north-st-vrain-creek-restoration?source=rss">
+                <a href="http://www.dailycamera.com/news/boulder/ci_29520683/boulder-county-commissioners-consider-north-st-vrain-creek-restoration?source=rss">Boulder County commissioners to consider North St Vrain Creek stream restoration</a>
+            </li>
+                    <li title="http://www.dailycamera.com/boulder-weather/ci_29521061/boulder-weather-high-61-today-more-strong-winds?source=rss">
+                <a href="http://www.dailycamera.com/boulder-weather/ci_29521061/boulder-weather-high-61-today-more-strong-winds?source=rss">Boulder weather: High of 61 today with more strong winds</a>
+            </li>
+                    <li title="http://www.dailycamera.com/news/boulder/ci_29521067/boulder-coroner-ids-body-found-sunday-that-longmont?source=rss">
+                <a href="http://www.dailycamera.com/news/boulder/ci_29521067/boulder-coroner-ids-body-found-sunday-that-longmont?source=rss">Boulder coroner ID's body found Sunday as that of Longmont man</a>
+            </li>
+                    <li title="http://www.dailycamera.com/entertainment/ci_29520392/10-things-do-boulder-county-today-feb-16?source=rss">
+                <a href="http://www.dailycamera.com/entertainment/ci_29520392/10-things-do-boulder-county-today-feb-16?source=rss">10 things to do in Boulder County today, Feb. 16, 2016</a>
+            </li>
+                </ul>
+    </div>
+    <button type="button" class="menu-toggle" data-toggle="offcanvas" data-recalc="false" data-target=".sidenav" data-canvas="body">
+      <span class="glyphicon glyphicon-list">
+        <span class="sr-only">Menu</span>
+      </span>
+    </button>
+
+<div id="loadingInfiniteScroll">loading</div>
+</div> <!-- .container -->
+
+</footer>
+
+
+<script>
+(function($){
+  $('#site-header, #site-footer').addClass('hide-content');
+
+  setTimeout(function(){
+    $(document).on('click',function(){
+      $('#site-header, #site-footer').toggleClass('show-content');
+    });
+
+  },10);
+
+  $(window).resize(function(){  
+    if ($('#site-header').css('opacity') == 0 || $(window).width() <= 736 ){
+      // This takes care of spacing and hides the top_leaderboard ad on mobile devices since nothing ever shows
+      $('#content').addClass('move-up');
+      //$('.top_leaderboard').addClass('display-none');
+    } else {
+      $('#content').removeClass('move-up');
+      //$('top-leaderboard').removeClass('display-none');
+    }
+  });
+
+  if ( mq.matches != false ) {
+    $('#content').addClass('move-up');
+    $('.div_mobile').addClass('display-none');
+    //$('div').css('display','none');
+  } 
+})(jQuery);
+</script>
+
+
+<!--  -->
+
+<!-- JAVASCRIPTS -->
+<script src="http://mediacenter.dailycamera.com/wp-content/themes/media-center-2014/js/script.min.js"></script>
+<!--[if lt IE 9]>
+  <script src="http://mediacenter.dailycamera.com/wp-content/themes/media-center-2014/js/ie.min.js"></script>
+<![endif]-->
+
+<script id="tickertpl" type="text/x-handlebars-template">
+  <h5>Breaking news from <a href="http://www.dailycamera.com">Boulder Daily Camera</a>:</h5>
+  <ul class="ticker-feed">
+  
+    <li id="" title="">
+      <a href=""></a>
+    </li>
+  
+  </ul>
+</script>
+
+<script>
+  // HANDLEBARS HELPERS
+  Handlebars.registerHelper('unless_blank', function(item, block) {
+    return (item && item.replace(/\s/g,"").length) ? block.fn(this) : block.inverse(this);
+  });
+
+  // share toggles
+    function loadShareToggles () {
+
+      var $shareToggles = $('#content').find($('.share-toggle'));
+     
+	  $.each($shareToggles, function() {
+        $(this).unbind();
+      });
+	 
+	  $.each($shareToggles, function() {
+        $(this).bind('click', function(e){
+          e.preventDefault();
+          $(this).parent().parent().toggleClass('active');
+        });
+      });
+      
+    }
+    
+    //Load toggle effect for header
+    function loadShareTogglesHead () {
+  
+      var $shareTogglesHead = $('#site-header').find($('.share-toggle'));
+     
+	  $.each($shareTogglesHead, function() {
+        $(this).unbind();
+      });
+	 
+	  $.each($shareTogglesHead, function() {
+        $(this).bind('click', function(e){
+          e.preventDefault();
+          $(this).parent().parent().toggleClass('active');
+        });
+      });
+      
+    }
+  
+  // PACKERY
+
+    var container = document.querySelector('#content'),
+        pckryOptions = {
+      // options
+      itemSelector: '.col',
+      isInitLayout: false,
+      gutter: 0
+    },
+    pckry = new Packery(container, pckryOptions),
+    init = true;
+  
+    pckry.on( 'layoutComplete', function() {
+    if (init) {
+      container.className += ' ready';
+      init = false;
+      pckry.layout();
+      setTimeout(isVis, 300); // delay
+    }
+    });
+
+    //////// APPEND NEW PACKERY ITEMS
+        ///////END APPENDING PACKERY ITEMS search
+	
+	 function isVis() {
+    var win = $(window);
+    var allMods = $('.module');
+
+    // Already visible modules
+    allMods.each(function(i, el) {
+      var el = $(el);
+      if (el.visible(true)) {
+        el.addClass('isVis'); 
+      } 
+    });
+
+    $(window).scroll(function(e) {
+      $('.module').each(function(i, el) {
+        var el = $(el);
+        if (el.visible(true)) {
+          if(!el.hasClass('isVis')) {
+            el.addClass('animated fadeInUp');
+            el.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+              el.removeClass('animated fadeInUp').addClass('isVis')});
+            }
+          }
+        });
+      });
+    }
+    
+    // manually trigger initial layout
+    function setLayout(){ pckry.layout() }
+      setTimeout(setLayout, 900); // delay
+
+  // JQUERY
+  ;(function (window, document, $) {
+  
+    // TICKER STUFF
+    var baseURL = $(document).data('baseurl'),
+        currentURL = $(document).data('currenturl'),
+        currentLatestFeed,
+        currentPage;
+
+    $.ajaxSetup({ cache: false });
+    
+    $(document).ready(function(){
+      //loadMediaCenter();
+      setTimeout(function(){rotateItems()}, 7000); // amount of time until the ticker starts
+    });
+
+var $ticker = $('ul.ticker-feed'),
+  currentIndex = 0;
+
+function rotateItems() {
+  var items = $('ul.ticker-feed > li').length;
+  var slideTime = 2500; // amount of time it takes for post to slide from right to left
+  var timeToNextPost = 3000;
+  var timeUntilItemMovesUp = 7000; // Time Item stays in ticker until it moves up.
+  currentIndex ++;
+  currentItem = $(items[currentIndex]);
+  var $this = $('ul.ticker-feed > li').first()
+  $this.animate({'margin-left':'0px'}, slideTime, function(){
+    $this.delay(timeUntilItemMovesUp).animate({'margin-top':-$this.height()}, 1000 /* controls traisition of post from bottom to top */, function(){
+      if(currentIndex == items) {
+        setTimeout( function(){ $('ul.ticker-feed').append($this); resetTicker() }, timeToNextPost );
+      } else {
+        $('ul.ticker-feed').append($this);
+        $this.css('display','none');
+        setTimeout(function(){rotateItems()}, 1000); // amount of time between posts.
+      }
+    });
+  });
+}
+
+function resetTicker(){
+  currentIndex = 0;
+  $('ul.ticker-feed').find('li').css('margin-top','');
+  $('ul.ticker-feed').find('li').css('margin-left','');
+  $('ul.ticker-feed').find('li').css('display','block');
+  rotateItems()      
+}
+    
+    // Footer toggles
+    $('.settings-toggle').click(function(){
+      $(this).toggleClass('active')
+      if($('#global-nav').hasClass('active')) {
+        $('#global-nav').removeClass('active');
+      }
+      if($('.filter-toggle .popover').is(':visible')) {
+        $('.filter-toggle').popover('hide').removeClass('active');
+      }
+    });
+    $('.filter-toggle').click(function(){
+      $(this).toggleClass('active');
+      if($('#global-nav').hasClass('active')) {
+        $('#global-nav').removeClass('active');
+      }
+      if($('.settings-toggle .popover').is(':visible')) {
+        $('.settings-toggle').popover('hide').removeClass('active');
+      }
+    });
+    
+    // menu toggle
+    $('.menu-toggle').click(function(){
+      if($(this).hasClass('active')) {
+        $('.subnav').removeClass('activated');
+      }
+      $(this).toggleClass('active');
+      });
+      
+      $('.arrow-subnav').click(function(e){
+        e.stopPropagation();
+        var subnav = $(e.target.parentNode.children[2]);
+        subnav.addClass('activated');
+        subnav.find('.back').click(function(e){
+          e.preventDefault();
+          subnav.removeClass('activated');
+        });
+      });
+
+    // reset everything on resize
+    $(window).resize(function(){
+      $('.settings-toggle').removeClass('active');
+      $('.filter-toggle').removeClass('active');
+      $('.menu-toggle').removeClass('active');
+      $('[data-toggle=popover]').popover('hide');
+    });
+    
+    // hide popover on modal showing
+    $('#login-form').on('show.bs.modal', function () {
+     $('[data-toggle=popover]').popover('hide');
+    });
+    
+    // tooltips
+    $('.share-tools').tooltip({
+        selector: "[data-toggle=tooltip]",
+        placement: 'bottom',
+        container: "body",
+        delay: { show: 500, hide: 0 }
+      });
+  
+      // popover
+	  $(document).ready(function(e) {
+		$("[data-toggle=popover]").popover();
+		$('span#settings-button').popover();
+    });
+    }(this, document, window.jQuery||window.Zepto));
+</script>
+   
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7faef49a98","applicationID":"7792770","transactionName":"YlEGZEoECxZXBkQLWVsbJVNMDAoLGRZZDFFZUQ==","queueTime":0,"applicationTime":1212,"atts":"ThYFEgIeGBg=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-768.min.js"}</script></body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using memcached
+Database Caching 36/203 queries in 0.087 seconds using memcached
+Object Caching 7254/7629 objects using memcached
+Application Monitoring using New Relic
+
+ Served from: mediacenter.dailycamera.com @ 2016-02-16 18:26:20 by W3 Total Cache -->

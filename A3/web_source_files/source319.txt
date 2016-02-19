@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7 not-logged-in "> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8 not-logged-in "> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9 not-logged-in "> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js not-logged-in "> <!--<![endif]-->
+    <head>
+        
+    <script type="text/javascript">window._timings = {"domLoading": Date.now()}</script>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>
+Instagram
+</title>
+
+        <script type="text/javascript">
+  WebFontConfig = {
+    custom: {
+      families: ['proxima-nova:n3,n4,n6,n7'],
+    }
+  };
+</script>
+<script src="//instagramstatic-a.akamaihd.net/h1/scripts/webfont.js/c0456c81549b.js" type="text/javascript" async></script>
+
+<style type="text/css">
+  /* @license
+   * MyFonts Webfont Build ID 2164953, 2012-03-23T23:06:30-0400
+   *
+   * The fonts listed in this notice are subject to the End User License
+   * Agreement(s) entered into by the website owner. All other parties are
+   * explicitly restricted from using the Licensed Webfonts(s).
+   *
+   * You may obtain a valid license at the URLs below.
+   *
+   *
+   * Webfont: Proxima Nova Light by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/light/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Regular by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Semibold by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/semibold/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Bold Italic by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold-it/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Bold by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Italic by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular-it/
+   * Licensed pageviews: unlimited
+   *
+   *
+   * License: http://www.myfonts.com/viewlicense?type=web&buildid=2164953
+   * Webfonts copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+   *
+   * (c) 2012 Bitstream Inc
+   */
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.eot/115b1f7f9c04.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.eot/115b1f7f9c04.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.woff/618250d25a4d.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.ttf/646346e03084.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.svg/e55a9d6051e8.svg#ProximaNovaBold') format("svg");
+    font-weight: bold;
+    font-style: normal; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.eot/1cbb869da891.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.eot/1cbb869da891.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.woff/b1cf049474c9.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.ttf/3adb020ceae3.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.svg/29948a2d3c58.svg#ProximaNovaBoldItalic') format("svg");
+    font-weight: bold;
+    font-style: italic; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.eot/12af77715cee.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.eot/12af77715cee.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.woff/a9a9773b8e29.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.ttf/99e19808976a.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.svg/c33d2fd56309.svg#ProximaNovaRegular') format("svg");
+    font-weight: normal;
+    font-style: normal; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.eot/1bbbd1312b0d.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.eot/1bbbd1312b0d.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.woff/9e306befca91.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.ttf/4a8663684135.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.svg/876278d4b189.svg#ProximaNovaRegularItalic') format("svg");
+    font-weight: normal;
+    font-style: italic; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.eot/5016edf79e1d.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.eot/5016edf79e1d.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.woff/615c1b06d8fa.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.ttf/2973bd483f7a.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.svg/868597833e49.svg#ProximaNovaSemibold') format("svg");
+    font-weight: 600;
+    font-style: normal; }
+</style>
+
+  <style type="text/css">
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.eot/63c84728610f.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.eot/63c84728610f.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.woff/66bbe029f180.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.ttf/eb408516399b.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.svg/858f6a9b7ef3.svg#ProximaNovaLight') format("svg");
+    font-weight: 300;
+    font-style: normal; }
+</style>
+
+
+        
+    
+        <meta name="robots" content="noimageindex">
+        
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+        
+    <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+
+        <script type="text/javascript">
+        (function() {
+            var docElement = document.documentElement;
+            var classRE = new RegExp('(^|\\s)no-js(\\s|$)');
+            var className = docElement.className;
+            docElement.className = className.replace(classRE, '$1js$2');
+        })();
+        </script>
+
+        
+    
+    
+    
+        <link rel="Shortcut Icon" type="image/x-icon" href="//instagramstatic-a.akamaihd.net/h1/images/ico/favicon.ico/7cdab0872b15.ico"><link rel="mask-icon" href="//instagramstatic-a.akamaihd.net/h1/images/ico/favicon.svg/dfde15ef1533.svg" color="#125688">
+    
+    
+        <link rel="apple-touch-icon-precomposed" href="//instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-precomposed.png/29d68fc587d7.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="//instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-72x72-precomposed.png/3f5e04d85488.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="//instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-114x114-precomposed.png/29d68fc587d7.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="//instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-144x144-precomposed.png/52fcc0fc09e4.png">
+    
+    
+    
+
+    
+    
+    <link rel="canonical" href="https://www.instagram.com/p/BBiK7QCJ0DW/" />
+    <meta content="“Have to give big props to @_christiancraig - i grew up riding with his dad and had the opportunity to work with Christian a few years ago, but we were…”" name="description" />
+    <meta property="og:site_name" content="Instagram" />
+    <meta property="og:title" content="Ryan Hughes on Instagram: “Have to give big props to @_christiancraig - i grew up riding with his dad and had the opportunity to work with Christian a few years ago,…”" />
+    <meta property="og:image" content="https://scontent.cdninstagram.com/t51.2885-15/e35/12568745_1541164996180959_1563896466_n.jpg?ig_cache_key=MTE4MDU1NDEwNDQ1NDcyNTg0Ng%3D%3D.2" />
+    <meta property="og:description" content="“Have to give big props to @_christiancraig - i grew up riding with his dad and had the opportunity to work with Christian a few years ago, but we were…”" />
+    <meta property="fb:app_id" content="124024574287414" />
+    <meta property="og:url" content="https://www.instagram.com/p/BBiK7QCJ0DW/" />
+    <meta property="instapp:owner_user_id" content="22152511" />
+    <meta property="al:ios:app_name" content="Instagram" />
+    <meta property="al:ios:app_store_id" content="389801252" />
+    <meta property="al:ios:url" content="instagram://media?id=1180554104454725846" />
+    <meta property="al:android:app_name" content="Instagram" />
+    <meta property="al:android:package" content="com.instagram.android" />
+    <meta property="al:android:url" content="https://www.instagram.com/p/BBiK7QCJ0DW/" />
+    
+    <meta name="medium" content="image" />
+    <meta property="og:type" content="instapp:photo" />
+    <meta content="chargelife" property="instapp:hashtags" />
+
+    <link rel="alternate" href="android-app://com.instagram.android/https/instagram.com/p/BBiK7QCJ0DW/" />
+    
+    <link href="https://www.instagram.com/p/BBiK7QCJ0DW/" rel="alternate" hreflang="x-default" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=el" rel="alternate" hreflang="el" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=gu" rel="alternate" hreflang="gu" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=en" rel="alternate" hreflang="en" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=af" rel="alternate" hreflang="af" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=vi" rel="alternate" hreflang="vi" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=it" rel="alternate" hreflang="it" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=kn" rel="alternate" hreflang="kn" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=pt-br" rel="alternate" hreflang="pt-br" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=cs" rel="alternate" hreflang="cs" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=id" rel="alternate" hreflang="id" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=es" rel="alternate" hreflang="es" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=ru" rel="alternate" hreflang="ru" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=nl" rel="alternate" hreflang="nl" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=pt" rel="alternate" hreflang="pt" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=zh-tw" rel="alternate" hreflang="zh-tw" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=nb" rel="alternate" hreflang="nb" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=tr" rel="alternate" hreflang="tr" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=ne" rel="alternate" hreflang="ne" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=zh-cn" rel="alternate" hreflang="zh-cn" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=tl" rel="alternate" hreflang="tl" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=pa" rel="alternate" hreflang="pa" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=th" rel="alternate" hreflang="th" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=te" rel="alternate" hreflang="te" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=pl" rel="alternate" hreflang="pl" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=ta" rel="alternate" hreflang="ta" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=fr" rel="alternate" hreflang="fr" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=hr" rel="alternate" hreflang="hr" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=bn" rel="alternate" hreflang="bn" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=de" rel="alternate" hreflang="de" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=da" rel="alternate" hreflang="da" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=hi" rel="alternate" hreflang="hi" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=fi" rel="alternate" hreflang="fi" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=hu" rel="alternate" hreflang="hu" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=ja" rel="alternate" hreflang="ja" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=ml" rel="alternate" hreflang="ml" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=ko" rel="alternate" hreflang="ko" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=sv" rel="alternate" hreflang="sv" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=ur" rel="alternate" hreflang="ur" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=sk" rel="alternate" hreflang="sk" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=si" rel="alternate" hreflang="si" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=ms" rel="alternate" hreflang="ms" />
+<link href="https://www.instagram.com/p/BBiK7QCJ0DW/?hl=mr" rel="alternate" hreflang="mr" />
+    
+
+    </head>
+    <body class="">
+        
+    
+    <span id="react-root"></span>
+
+    
+
+        
+    <script src=//instagramstatic-a.akamaihd.net/h1/scripts/polyfills/es5-shim.min.js/6514c5e08593.js></script>
+<script src=//instagramstatic-a.akamaihd.net/h1/scripts/polyfills/es5-sham.min.js/fc3c22cf2d67.js></script>
+<script type="text/javascript">window._sharedData = {"country_code":"US","language_code":"en","gatekeepers":{"rhp":true},"qs":"{\"shift\":10,\"header\":\"si9zTvucUV3Bupb1z4ru0dMTIK4YmC4e\",\"edges\":100,\"blob\":\"AQBODJ3eWR5ZqaJQsYyaZvvUe54E-xXO12Y5B0518TLC8bmvHxEA3H_emuG4guls5Whim74PRhepTG5Wd7DInaBKksTpmY60yc6hUICxzCVG1CxjbVuyn_jpqaGIDHJXeelziRTN_Ne57dQ99_vlzmSXI-akxKK3Hs7gpMsh7Tan5ewmlm-TKDkFOkdplKhSWvuiYQPHlgTVihwO28Zl3P4gVXut3ZoWdV0bsq2boFU97A\",\"iterations\":7,\"size\":42}","static_root":"\/\/instagramstatic-a.akamaihd.net\/bluebar\/b2908ed","platform":"web","hostname":"www.instagram.com","entry_data":{"PostPage":[{"media":{"code":"BBiK7QCJ0DW","date":1454953037.0,"dimensions":{"width":640,"height":640},"usertags":{"nodes":[]},"comments":{"count":48,"page_info":{"has_previous_page":true,"start_cursor":"1180563326043112194","end_cursor":"1184326364768453448","has_next_page":false},"nodes":[{"text":"Couldn't agree more","created_at":1454954137.0,"id":"1180563326043112194","user":{"username":"alredwood","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12407684_801410923318801_2004961877_a.jpg","id":"713266714"}},{"text":"I do not need to train with you to see results in racing and moods. You are still super talented and train hard you expect the same not everyone is wired the same. If you think you telling me to shh, is going to shh me please you ride moto for a living and attempted modeling know you train youth. Great for you so Stay professional.","created_at":1454954318.0,"id":"1180564845102580676","user":{"username":"amenvandyck","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/1941205_315493918642944_262591011_a.jpg","id":"1401367644"}},{"text":"Well said\ud83d\udc4a\ud83c\udffd\ud83d\udc4a\ud83c\udffd\ud83d\udc4a\ud83c\udffd\ud83d\udc4a\ud83c\udffd","created_at":1454954787.0,"id":"1180568778604757464","user":{"username":"stansievers","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/l\/t51.2885-19\/s150x150\/12298854_427821647428924_373679847_a.jpg","id":"42487421"}},{"text":"@amenvandyck I'm completely lost at what your getting at. Have a nice day !","created_at":1454954966.0,"id":"1180570282648617616","user":{"username":"rynoglobal","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11205707_142218332783327_972101960_a.jpg","id":"22152511"}},{"text":"@cb_620","created_at":1454955045.0,"id":"1180570946950873832","user":{"username":"bj90tt3r","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11373818_729497370530010_942028159_a.jpg","id":"1909144232"}},{"text":"@ancient_relek","created_at":1454955646.0,"id":"1180575987631866112","user":{"username":"_691_schneider","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11820715_925776160816971_453062195_a.jpg","id":"44926105"}},{"text":"I was watching him In the main with my jaw open perfect technique for 15 laps truly an amazing ride @rynoglobal","created_at":1454955738.0,"id":"1180576763829764423","user":{"username":"needsahelmet686","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/1516116_488990337938497_1217227546_a.jpg","id":"22915052"}},{"text":"@rynoglobal love a keyboard warrior \ud83d\ude0e. Even from my really rubbish level your techniques you write about even I notice the improvement from trying them \ud83d\udc4d\ud83c\udffb","created_at":1454955845.0,"id":"1180577658734854567","user":{"username":"robinwilkins338","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12145400_834821533283150_1460683516_a.jpg","id":"207324436"}},{"text":"You are a gnarly dude ryno and I enjoy reading your posts, keep it up","created_at":1454955917.0,"id":"1180578263696097780","user":{"username":"mccalip498","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11428701_940457489308210_327760166_a.jpg","id":"312107883"}},{"text":"@cmaassberg very well said!","created_at":1454956009.0,"id":"1180579035137655385","user":{"username":"mrsmaassberg","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12362567_210611092606310_708734733_a.jpg","id":"27361302"}},{"text":"@cooperbitler","created_at":1454956012.0,"id":"1180579062031532635","user":{"username":"codybitler","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11850166_517391078429471_299282161_a.jpg","id":"179121429"}},{"text":"@kdawg.414","created_at":1454956738.0,"id":"1180585151305302235","user":{"username":"haydenroberts521","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12142280_1038107932908496_1987172715_a.jpg","id":"287516947"}},{"text":"@rynoglobal. Please share your views on Adam ciancirulo, heard he broke his wrist a few days ago. He's another example of go fast in a hurry. Thoughts?","created_at":1454957085.0,"id":"1180588061682516442","user":{"username":"bigreds1963ss","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11267201_1596676650557155_1195381393_a.jpg","id":"305817317"}},{"text":"@mrsdickclark","created_at":1454957218.0,"id":"1180589173869331019","user":{"username":"dickclark","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11264177_1627887724160457_2093644617_a.jpg","id":"10732490"}},{"text":"Money is the root of all evil. Most these teams don't care about the riders, unless they are bringing in the cash for them.","created_at":1454957238.0,"id":"1180589347035365984","user":{"username":"a_pen138","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12530792_557204091125113_1358353080_a.jpg","id":"35732609"}},{"text":"Unless your a privateer your going to be pushed too hard. Your their investment their going to want a return, same in any job that's life. Unless your self employed. Good point though.","created_at":1454957684.0,"id":"1180593087951881207","user":{"username":"bradpick10","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/10979699_911750058859240_1419723088_a.jpg","id":"1694709917"}},{"text":"@cooperwebb_17 is younger, more mature, and has more talent.","created_at":1454958672.0,"id":"1180601369068258258","user":{"username":"pmx183","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11420945_1482039742105324_810552491_a.jpg","id":"1557859270"}},{"text":"@rynoglobal \ud83d\udc4a\ud83c\udffc\ud83d\udc4a\ud83c\udffc\ud83d\udc4a\ud83c\udffc\ud83d\udc4a\ud83c\udffc","created_at":1454959366.0,"id":"1180607195602436988","user":{"username":"jrwessling","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12568310_543937552449464_331969896_a.jpg","id":"144990308"}},{"text":"@rynoglobal your wisdom \ud83d\udc4c\ud83c\udffb","created_at":1454959468.0,"id":"1180608050057658413","user":{"username":"tommyfiveonetwo","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11821323_1627169074228750_367418734_a.jpg","id":"239587274"}},{"text":"Thanks @rynoglobal  I still use the starting technique you taught me! Along with some other stuff thank you!","created_at":1454959501.0,"id":"1180608325388550249","user":{"username":"_christiancraig","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11376340_1621869598060524_118922855_a.jpg","id":"192917478"}},{"text":"I'm a huge advocate of @RynoGlobal's program. He works on motocross intelligence, emotional intelligence (self awareness, trust, stillness) and body intelligence (fitness, rest and diet). In my opinion, he light years ahead of most motocross coaches. I would love to see him work with @TreyCanard and @AdamCianciarulo. Trey is arguably the fastest rider on the circuit --- with stillness and tweaks, he can win championships. Ryno and Trey are a good match. Stay on the Gas Ryno!","created_at":1454959647.0,"id":"1180609548430819708","user":{"username":"bartdebuono","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11910401_1679602748942812_1001789823_a.jpg","id":"37035968"}},{"text":"Wow, awesome! Thank you!!","created_at":1454960081.0,"id":"1180613189757780974","user":{"username":"_paigecraig","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12230802_185788335095060_103195926_a.jpg","id":"424289859"}},{"text":"@rynoglobal do you feel that going to arenacross series first is going to assist with making these athletes better prepared for the supercross series?","created_at":1454960422.0,"id":"1180616049157423407","user":{"username":"jessejamez4five0","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11887199_135077406835240_1929013896_a.jpg","id":"32282767"}},{"text":"@rocc_g","created_at":1454960812.0,"id":"1180619328272679793","user":{"username":"nettersnlulu","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11326776_191040187895875_569368369_a.jpg","id":"1257082893"}},{"text":"@rynoglobal reading this was refreshing... As a young dad that got back into the sport recently and am currently investing into my four year old to get into. It makes me feel good about passing on the love and respect I have for motocross also just to have fun with. Thanks","created_at":1454961316.0,"id":"1180623552515621302","user":{"username":"ryan_cyril","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/10598522_1471980446385380_1203925508_a.jpg","id":"1411748941"}},{"text":"Well said, Ryno. Much agreed. @mxjef @nickccthiel @a_sansotta Good read here.","created_at":1454961728.0,"id":"1180627006105534504","user":{"username":"kylecowling","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/11875424_1617967205133809_682416782_a.jpg","id":"7734146"}},{"text":"Very well said!.... @kylecowling","created_at":1454962445.0,"id":"1180633024990495089","user":{"username":"mxjef","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11349381_516156358549175_724152520_a.jpg","id":"283790020"}},{"text":"@brimmer501","created_at":1454966215.0,"id":"1180664648994079700","user":{"username":"joelb155x","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11887000_1483130008672219_1054045434_a.jpg","id":"27982033"}},{"text":"@jessejamez4five0 I don't think it is a good idea when you are racing against guys with years and years of experience. Again get in there and go fast, o ya figure out how to do it yourself. How about having a month school put on by supercross for all the first timers to learn from the best like RC - MC - RV or myself. We practice supercross for a month all free for the riders, so now we know they are educated on how to ride SX. Plus now they will be safer so they can possibly have a career in the sport  from all the tips these guys could offer that take years and years to learn.","created_at":1454969439.0,"id":"1180691692515704957","user":{"username":"rynoglobal","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11205707_142218332783327_972101960_a.jpg","id":"22152511"}},{"text":"@bigreds1963ss my opinion on him is exactly what I wrote about, but you will see him again on top.","created_at":1454969726.0,"id":"1180694100029423994","user":{"username":"rynoglobal","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11205707_142218332783327_972101960_a.jpg","id":"22152511"}},{"text":"@rynoglobal. I enjoy your point of views from a former pro's perspective. It's too bad there's so much pressure for these kids to go out and destroy their bodies just for a couple of tenths of a second. I know Adam will rebound but his young body has taken a serious beating already.","created_at":1454973884.0,"id":"1180728976187278044","user":{"username":"bigreds1963ss","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11267201_1596676650557155_1195381393_a.jpg","id":"305817317"}},{"text":"@rynoglobal correct me if I'm wrong. Didn't Craig also go straight to the 450 ranks out amateurs to pro. On the Lucas Oil Honda","created_at":1454975302.0,"id":"1180740873632563285","user":{"username":"twh987","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11024280_1567211596871795_215252029_a.jpg","id":"1733796353"}},{"text":"@spencerkirton","created_at":1454979650.0,"id":"1180777351771275309","user":{"username":"chandlerreese14","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12224654_877429365711954_1146737197_a.jpg","id":"217056573"}},{"text":"I think what helped him the most after having that time off was the growth as a person and a new worldview @rynoglobal love your input, people are paying attention... although others think they've got it all sorted out ;-)","created_at":1454984139.0,"id":"1180815002117292884","user":{"username":"vdcheathens","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12139617_1671945449689889_363940492_a.jpg","id":"31830454"}},{"text":"@ng899 biste ready juuuuunge","created_at":1455050091.0,"id":"1181368249630540601","user":{"username":"pg_21","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11258332_105245983161531_1208210383_a.jpg","id":"296791869"}},{"text":"Said it all @familiafreeride @ric.bergamini","created_at":1455057717.0,"id":"1181432220962210114","user":{"username":"giancarlobergamini","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/924034_681691145240450_108644291_a.jpg","id":"646401786"}},{"text":"@pmx183 you are so wrong","created_at":1455062739.0,"id":"1181474348543197285","user":{"username":"_.russbus._","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/10914560_1374578342854991_178165377_a.jpg","id":"417372199"}},{"text":"@_.russbus._  I guess we will see who's on top at the end of the season. They are both exceptional riders for sure. Looks like we are in for another exciting championship.","created_at":1455067932.0,"id":"1181517913487000090","user":{"username":"pmx183","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11420945_1482039742105324_810552491_a.jpg","id":"1557859270"}},{"text":"@pmx183 I'm not at all saying Webb isn't as good  he is more aggressive and a great rider Craig is just more experienced has better technique and has a much better flow which makes make less mistakes","created_at":1455068956.0,"id":"1181526504210121472","user":{"username":"_.russbus._","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/10914560_1374578342854991_178165377_a.jpg","id":"417372199"}},{"text":"Very well said, on point!","created_at":1455402726.0,"id":"1184326364768453448","user":{"username":"life_of_mark","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12317727_679976725476702_1460019911_a.jpg","id":"4889825"}}]},"id":"1180554104454725846","caption":"Have to give big props to @_christiancraig - i grew up riding with his dad and had the opportunity to work with Christian a few years ago, but we were always dealing with a injury, crash or lack of confidence, Then everyone including himself just gave up, he was used up to this sport, in only a few years ! I have worked with only one other rider that has his talent and grace on a motorcycle. I feel he is the most talented and has the best technique out of any rider in SX. The reason I'm writing this is to explain a problem I see in our sport from not developing the young riders, it's not like it was when RC and JS came up they had to make the jump from a 80cc 2-stroke to a 125cc 2-stroke, now days go from a 80cc to a 250 4-stroke, the jump isn't a big deal but how fast they are expecting these kids to jump in with the lions, is. They just came out of the amateur class and now they get with a trainer and a team that says, this is what Dungey does training and this is the lap time you need to be at on the SX track. This sport is to greedy on finding the next guy or making a kid fast to win, then we just blow them out of the sport, by mentally destroying their confidence or injuries. This sport says go fast ! I ask - where - when - how - why do you go fast. Christian was a perfect example of that, they brought him in so quick that they almost ruined him for life. His experience and mind was far from ready, but his talent was years ahead. Now you see with life putting in the right circumstance he has a ride again after a few years off, and if this one circumstance didn't come around, you would of never heard from him again in this sport. Because in this sport, if you don't pay up with results, you are cut, just like a tear off - next ! I have seen so many kids go down the drain because of teams and trainers pushing them to hard or training them incorrectly. -- Go to comments to read the rest -- #CHARGELIFE","likes":{"count":746,"viewer_has_liked":false,"nodes":[{"user":{"username":"julien_170","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/10005212_448406108696031_1266012691_a.jpg","id":"2350849409"}},{"user":{"username":"cooperbitler","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12747648_560544497445619_1134346606_a.jpg","id":"2701538722"}},{"user":{"username":"ariekhadafy09","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12729548_1676195549289641_1819332912_a.jpg","id":"2537381955"}},{"user":{"username":"ashleyblizzard123","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12534522_1568515876771667_141198852_a.jpg","id":"2878477260"}},{"user":{"username":"joly187","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12534135_1568773830079507_1672236277_a.jpg","id":"2719597647"}},{"user":{"username":"geee_707","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12523569_833968940047493_586690639_a.jpg","id":"2500029745"}},{"user":{"username":"dsvmtb","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12598973_751124231685021_1945075550_a.jpg","id":"2815717749"}},{"user":{"username":"jonnyelisom_lima","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12728579_530000417167553_1393276147_a.jpg","id":"2915296378"}},{"user":{"username":"ismael5318","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12407549_1211630732184640_1530047720_a.jpg","id":"2689155419"}},{"user":{"username":"javi_2004_beas","profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/s150x150\/12446216_1421116317903874_1811186245_a.jpg","id":"2894487804"}}]},"owner":{"username":"rynoglobal","is_unpublished":false,"requested_by_viewer":false,"followed_by_viewer":false,"blocked_by_viewer":false,"profile_pic_url":"https:\/\/scontent.cdninstagram.com\/t51.2885-19\/11205707_142218332783327_972101960_a.jpg","full_name":"Ryan Hughes","has_blocked_viewer":false,"id":"22152511","is_private":false},"is_video":false,"is_ad":false,"display_src":"https:\/\/scontent.cdninstagram.com\/t51.2885-15\/e35\/12568745_1541164996180959_1563896466_n.jpg?ig_cache_key=MTE4MDU1NDEwNDQ1NDcyNTg0Ng%3D%3D.2","location":null}}]},"qe":{"nav":{"p":{},"g":""},"su":{"p":{},"g":""},"discovery":{"p":{},"g":""}},"display_properties_server_guess":{"viewport_width":360,"pixel_ratio":1.5},"config":{"viewer":null,"csrf_token":"7f929281a20d9d655588179e19411684"},"environment_switcher_visible_server_guess":true};</script>
+<script src="//instagramstatic-a.akamaihd.net/h1/bundles/en_US_Commons.js/3c52a0a63b2c.js" type="text/javascript"></script>
+<script src="//instagramstatic-a.akamaihd.net/h1/bundles/en_US_PostPage.js/8fcc50bee964.js" type="text/javascript"></script>
+        
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1425767024389221');
+fbq('track', 'PageView');
+
+
+</script>
+<noscript>
+
+
+</noscript>
+
+    
+    <script type="text/javascript">window._timings.domInteractive = Date.now()</script>
+
+    </body>
+</html>

@@ -1,0 +1,425 @@
+
+   [1]Creative Punch
+     * [2]Home
+     * [3]Articles
+          + [4]Android
+          + [5]C/C++
+          + [6]Front-End Development
+               o [7]CSS
+               o [8]HTML5
+               o [9]JavaScript
+          + [10]General
+          + [11]Machine Learning / AI
+          + [12]Mobile App Development
+          + [13]PHP
+               o [14]General PHP
+               o [15]Laravel
+          + [16]Python
+     * [17]Cheat sheets
+     * [18]Contact
+
+     * [19]Articles / [20]Laravel
+     * [21]5
+
+Laravel 4 packages showcase #1
+
+   by [22]Creative Punch · December 15, 2013
+   [INS: :INS]
+
+   I have a confession to make. I am absolutely in love with Laravel 4,
+   but I guess that shouldn’t come as a surprise looking at the fact that
+   it is just the most awesome framework there is!
+
+   If you love Laravel as much as I do, there is no doubt you want to take
+   it for a spin and realize its full potential once you have the basics
+   down.
+
+   One of the beautiful features of Laravel are the easy-to-install,
+   easy-to-use Laravel 4 packages that you can include in your Laravel
+   project to help you start up your next project as quickly as possible.
+
+   Without further ado, here are some of the packages – in no particular
+   order – that I have been using a lot to make coding in Laravel even
+   easier and faster than it already is.
+
+Laravel 4 Generators – Jeffrey Way
+
+   Hands down the most useful packages out there to be used in every
+   Laravel 4 project.
+
+   It pretty much does what it says on the box. It generates code for you,
+   and does this in such a way that it makes CodeIgniter’s 20-minute-blog
+   tutorial pale in comparison. 20 minutes? With Laravel 4 generators you
+   can do it in about 2 minutes flat!
+
+   It can automagically generate the following with a few simple artisan
+   commands:
+     * Models
+     * Views
+     * Controllers
+     * Seeds
+     * Migrations
+     * Forms
+     * Tests
+     * Resources (this will generate a model, migration and controllers
+       for you)
+     * Scaffolds (now this will generate pretty much everything to get you
+       started prototyping your application at lightning speed)
+     * Pivot tables
+
+   In addition to this, there is also a [23]Sublime Text plugin available
+   that will give you access to all these generators from within Sublime
+   Text.
+
+   Github: [24]https://github.com/JeffreyWay/Laravel-4-Generators
+
+Sentry – Cartalyst
+
+   By default, Laravel 4 comes with a basic User model which includes
+   password reminders and other basics. Cartalyst however will offer you a
+   full user system with its amazing Sentry package.
+
+   It has the following features:
+     * Configurable authentication (can use any type of authentication
+       required, such as username or email)
+     * Authorization
+     * Activation of user (optional)
+     * Groups and group permissions
+     * “Remember me”
+     * User suspension
+     * Login throttling (optional)
+     * User banning
+     * Password resetting
+     * User data
+     * Interface driven – switch out your own implementations at will
+
+   Not only is it available in Laravel 4, but also in FuelPHP1,
+   CodeIgniter 3 and native PHP (through composer). It currently sits at
+   version 2.1 and has an alpha of version 3. If you are looking to make a
+   website or application that will have to handle multiple users, and
+   multiple types of users (Administrator, normal user, premium user, …)
+   then Cartalyst Sentry is definitely the way to go!
+   [INS: :INS]
+
+   Website: [25]https://cartalyst.com/manual/sentry
+   Github: [26]https://github.com/cartalyst/sentry
+
+Laravel-ide-helper – Barryvdh
+
+   If you are beginning to learn Laravel 4, or if you are really attached
+   to having autocompletion/intellisense for Laravel 4, then
+   laravel-ide-helper is perfect for you. I personally stopped using this
+   a while ago but if you don’t want to dive into the Laravel 4
+   documentation to look up the naming of every single function you should
+   definitely give laravel-ide-helper by barryvdh a try.
+
+   To use this package, you can either grab a pre-generated version and
+   drop it in your project, or get the full package and generate your own
+   autocompletion file.
+
+   It has automatic phpDoc generation for Laravel Facades, and for Models.
+
+   Github: [27]https://github.com/barryvdh/laravel-ide-helper
+
+Laravel Test Helpers – Jeffrey Way
+
+   Another great package from Laravel demi-god: Jeffrey Way
+
+   This package eases the process of writing tests for a Laravel
+   application by offering:
+     * A Factory utility (quickly create and populate models)
+     * Model test helpers (assertValid, assertBelongsTo, etc.)
+     * Controller test helpers (assertSee)
+     * Assert and Should PHPUnit wrappers
+
+   Testing in Laravel is very important and should not be overlooked if
+   you want your application to be as solid as possible.
+
+   There isn’t much else to be said about this package other than that I
+   highly recommend it if you would like to make testing in Laravel just
+   that little bit easier than it already is!
+
+Ardent – laravelbook
+
+   Self-validating smart models for Laravel. Validation is something you
+   will without doubt use in every single Laravel project. If you have
+   ever worked with CakePHP, you know how handy this feature is. You can
+   write your model and specify all the validation that needs to be done
+   before saving your model to your database. Then when you save the Model
+   inside of your Controller, validation will happen automatically instead
+   of cluttering your Controllers with a lot of redundant code.
+
+   Using Ardent for Laravel you can specify all the validation, error
+   messages, … directly inside your model (valid e-mail, username, …)
+
+   I use this package in almost every project I start up and it cuts down
+   my development time by a great amount of time!
+
+   Github: [28]https://github.com/laravelbook/ardent
+
+   I hope this post will help everyone that is looking to speed up their
+   development time with some packages that can be used in almost every
+   project.
+
+   If you have any suggestions, or packages that you use in a lot of your
+   projects over and over again, feel free to leave a commend below and
+   I’ll update this post with some information on the package.
+   Share the knowledge!
+   [29]Share on Facebook Share on Facebook 10[30] Tweet about this on
+   Twitter Tweet about this on Twitter 0[31] Share on Google+ Share on
+   Google+ 9[32] Share on StumbleUpon Share on StumbleUpon 422[33] Share
+   on Reddit Share on Reddit 1[34] Share on LinkedIn Share on LinkedIn
+   0[35] Share on Tumblr Share on Tumblr [36]Buffer this page Buffer this
+   page [37]Digg this Digg this
+
+   Tags: [38]laravel[39]lists[40]tutorial
+
+Comments
+
+   [41]Sri Raman says:
+   [42]August 19, 2014 at 10:19 am
+
+   Check out [43]http://goo.gl/UJYVKv for more laravel packages to save
+   your precious time and speed up the development
+   [44]Will Bowman says:
+   [45]May 13, 2014 at 6:19 am
+
+   Great article. I love laravel too. Check out this starter package
+   [46]https://github.com/gcphost/laravelcp
+   [47]Janet Schultz Jordan says:
+   [48]January 21, 2014 at 4:03 pm
+
+   I have four fraudulent charges on my account from Yahoo Laravel
+   Showcase, I need some help!
+   [49]Tomaz Tomazic says:
+   [50]January 12, 2014 at 12:21 am
+
+   i also found bootstrapper package in all my projects,
+   [51]http://bootstrapper.aws.af.cm/
+   I also really like former. It makes writing forms so easy and writing
+   validation once for client and server side!
+
+You may also like...
+
+     * [52]laravel laravel
+
+[53]Database seeding in Laravel 4 using randomuser.me
+       12 Dec, 2013
+     * [54]CSS3 and Masonry gallery CSS3 and Masonry gallery
+
+[55]Full-screen responsive gallery using CSS and Masonry
+       13 Jan, 2014
+     * [56]PHP PHP
+
+[57]Creating a nested array from items with parent IDs
+       2 Jan, 2014
+
+   Follow:
+     *
+     *
+     *
+
+   ____________________
+     * [58]Recent Posts
+     * [59]Popular Posts
+
+     * [60]angularjs angularjs
+       [61]Exchange Data Between Directive and Controller in AngularJS
+       5 Feb, 2016
+     * [62]Ionic framework Ionic framework
+       [63]Create a cross-platform mobile app with AngularJS and Ionic
+       31 Jul, 2015
+     * [64]Deep learning - Deep dream Deep learning - Deep dream
+       [65]Frameworks and Libraries for Deep Learning
+       29 Jul, 2015
+     * [66]HTML5 Speech Synthesis HTML5 Speech Synthesis
+       [67]Intro to the HTML5 Speech Synthesis API
+       19 Oct, 2014
+     * [68]jquery jquery
+       [69]Prevent Delay on the Focus Event in HTML5 Apps for Mobile
+       Devices with jQuery Mobile
+       3 Sep, 2014
+
+     * [70]radial-menu radial-menu
+       [71]Making an animated radial menu with CSS3 and JavaScript
+       25 Feb, 2014
+     * [72]angularjs angularjs
+       [73]Preserve HTML in text output with AngularJS 1.1 and AngularJS
+       1.2+
+       24 Apr, 2014
+     * [74]laravel laravel
+       [75]Implementing Full-Text search in Laravel
+       30 Dec, 2013
+     * [76]laravel laravel
+       [77]Resizing and serving images on the fly with Laravel – Part 2
+       19 Jan, 2014
+     * [78]CSS3 and Masonry gallery CSS3 and Masonry gallery
+       [79]Full-screen responsive gallery using CSS and Masonry
+       13 Jan, 2014
+
+   More
+
+Facebook
+
+Twitter
+
+     * [80]@creative_punch [81]January 12, 2016
+       Owl [82]#dotwork made by [83]@CAROTillu on [84]#Etsy -
+       [85]etsy.me/1M6r5a8 via [86]@Etsy--- [87]#Art [88]#Etsy
+       [89]#illustration
+     * [90]@creative_punch [91]January 12, 2016
+       [92]#Kitsune mask geometric [93]#drawing by [94]@CAROTillu -
+       [95]etsy.me/1M6Hv2h via [96]@Etsy--- [97]#Art [98]#geometry
+       [99]#illustration [100]#Etsy
+     * [101]@creative_punch [102]January 12, 2016
+       Making animated [103]#CSS3 social buttons
+       [104]creative-punch.net/2014/02/making… --- [105]#UI
+       [106]#webdesign [107]#UX [108]#webdev
+
+   [INS: :INS]
+
+   Creative Punch © 2016. All Rights Reserved.
+     *
+     *
+     *
+
+   This website uses cookies to improve your experience. We'll assume
+   you're ok with this, but you can opt-out if you wish.[109]Accept
+   [110]Read More
+
+Stay updated
+
+   Subscribe!
+
+References
+
+   Visible links
+   1. http://creative-punch.net/
+   2. http://creative-punch.net/
+   3. http://creative-punch.net/articles/
+   4. http://creative-punch.net/articles/android/
+   5. http://creative-punch.net/articles/c-cpp/
+   6. http://creative-punch.net/articles/front-end/
+   7. http://creative-punch.net/articles/front-end/css-front-end/
+   8. http://creative-punch.net/articles/front-end/html5-front-end/
+   9. http://creative-punch.net/articles/front-end/javascript/
+  10. http://creative-punch.net/articles/general/
+  11. http://creative-punch.net/articles/machine-learning-ai/
+  12. http://creative-punch.net/articles/mobile-app-development/
+  13. http://creative-punch.net/articles/php-articles/
+  14. http://creative-punch.net/articles/php-articles/general-php/
+  15. http://creative-punch.net/articles/php-articles/laravel-tutorials/
+  16. http://creative-punch.net/articles/python/
+  17. http://creative-punch.net/cheat-sheets/
+  18. http://creative-punch.net/contact/
+  19. http://creative-punch.net/articles/
+  20. http://creative-punch.net/articles/php-articles/laravel-tutorials/
+  21. http://creative-punch.net/2013/12/kickstart-every-new-laravel-4-project-with-these-packages/#comments
+  22. http://creative-punch.net/author/CreativePunch/
+  23. http://net.tutsplus.com/tutorials/tools-and-tips/pro-workflow-in-laravel-and-sublime-text/
+  24. https://github.com/JeffreyWay/Laravel-4-Generators
+  25. https://cartalyst.com/manual/sentry
+  26. https://github.com/cartalyst/sentry
+  27. https://github.com/barryvdh/laravel-ide-helper
+  28. https://github.com/laravelbook/ardent
+  29. http://www.facebook.com/sharer.php?u=http://creative-punch.net/2013/12/kickstart-every-new-laravel-4-project-with-these-packages/
+  30. http://twitter.com/share?url=http://creative-punch.net/2013/12/kickstart-every-new-laravel-4-project-with-these-packages/&text=Laravel+4+packages+showcase+#1+by+@creative_punch
+  31. https://plus.google.com/share?url=http://creative-punch.net/2013/12/kickstart-every-new-laravel-4-project-with-these-packages/
+  32. http://www.stumbleupon.com/submit?url=http://creative-punch.net/2013/12/kickstart-every-new-laravel-4-project-with-these-packages/&title=Laravel 4 packages showcase #1
+  33. http://reddit.com/submit?url=http://creative-punch.net/2013/12/kickstart-every-new-laravel-4-project-with-these-packages/&title=Laravel 4 packages showcase #1
+  34. http://www.linkedin.com/shareArticle?mini=true&url=http://creative-punch.net/2013/12/kickstart-every-new-laravel-4-project-with-these-packages/
+  35. http://www.tumblr.com/share/link?url=creative-punch.net/2013/12/kickstart-every-new-laravel-4-project-with-these-packages/&name=Laravel 4 packages showcase #1
+  36. https://bufferapp.com/add?url=http://creative-punch.net/2013/12/kickstart-every-new-laravel-4-project-with-these-packages/&text= Laravel 4 packages showcase #1
+  37. http://www.digg.com/submit?url=http://creative-punch.net/2013/12/kickstart-every-new-laravel-4-project-with-these-packages/
+  38. http://creative-punch.net/tag/laravel/
+  39. http://creative-punch.net/tag/lists/
+  40. http://creative-punch.net/tag/tutorial/
+  41. http://facebook.com/profile.php?id=100001551225311
+  42. http://creative-punch.net/2013/12/kickstart-every-new-laravel-4-project-with-these-packages/#comment-767
+  43. http://goo.gl/UJYVKv
+  44. http://facebook.com/profile.php?id=6846660
+  45. http://creative-punch.net/2013/12/kickstart-every-new-laravel-4-project-with-these-packages/#comment-220
+  46. https://github.com/gcphost/laravelcp
+  47. http://facebook.com/profile.php?id=100001663431971
+  48. http://creative-punch.net/2013/12/kickstart-every-new-laravel-4-project-with-these-packages/#comment-54
+  49. http://facebook.com/profile.php?id=1146495674
+  50. http://creative-punch.net/2013/12/kickstart-every-new-laravel-4-project-with-these-packages/#comment-40
+  51. http://bootstrapper.aws.af.cm/
+  52. http://creative-punch.net/2013/12/seeding-laravel-4-user-profiles-using-randomuser-me/
+  53. http://creative-punch.net/2013/12/seeding-laravel-4-user-profiles-using-randomuser-me/
+  54. http://creative-punch.net/2014/01/full-screen-image-gallery-using-css-masonry/
+  55. http://creative-punch.net/2014/01/full-screen-image-gallery-using-css-masonry/
+  56. http://creative-punch.net/2014/01/creating-nested-array-items-parent-ids/
+  57. http://creative-punch.net/2014/01/creating-nested-array-items-parent-ids/
+  58. file:///home/kclemmon/a3CS432/source360.txt#tab-recent
+  59. file:///home/kclemmon/a3CS432/source360.txt#tab-popular
+  60. http://creative-punch.net/2016/02/exchange-data-directive-controller-angularjs/
+  61. http://creative-punch.net/2016/02/exchange-data-directive-controller-angularjs/
+  62. http://creative-punch.net/2015/07/create-a-cross-platform-mobile-app-with-angularjs-and-ionic/
+  63. http://creative-punch.net/2015/07/create-a-cross-platform-mobile-app-with-angularjs-and-ionic/
+  64. http://creative-punch.net/2015/07/frameworks-and-libraries-for-deep-learning/
+  65. http://creative-punch.net/2015/07/frameworks-and-libraries-for-deep-learning/
+  66. http://creative-punch.net/2014/10/intro-html5-speech-synthesis-api/
+  67. http://creative-punch.net/2014/10/intro-html5-speech-synthesis-api/
+  68. http://creative-punch.net/2014/09/prevent-delay-focus-event-html5-apps-mobile-devices-jquery-mobile/
+  69. http://creative-punch.net/2014/09/prevent-delay-focus-event-html5-apps-mobile-devices-jquery-mobile/
+  70. http://creative-punch.net/2014/02/making-animated-radial-menu-css3-javascript/
+  71. http://creative-punch.net/2014/02/making-animated-radial-menu-css3-javascript/
+  72. http://creative-punch.net/2014/04/preserve-html-text-output-angularjs/
+  73. http://creative-punch.net/2014/04/preserve-html-text-output-angularjs/
+  74. http://creative-punch.net/2013/12/implementing-laravel-4-full-text-search/
+  75. http://creative-punch.net/2013/12/implementing-laravel-4-full-text-search/
+  76. http://creative-punch.net/2014/01/manipulating-serving-images-fly-laravel-part-2/
+  77. http://creative-punch.net/2014/01/manipulating-serving-images-fly-laravel-part-2/
+  78. http://creative-punch.net/2014/01/full-screen-image-gallery-using-css-masonry/
+  79. http://creative-punch.net/2014/01/full-screen-image-gallery-using-css-masonry/
+  80. https://twitter.com/creative_punch
+  81. https://twitter.com/creative_punch/statuses/687032563072892928
+  82. http://twitter.com/search?q=#dotwork
+  83. http://twitter.com/CAROTillu
+  84. http://twitter.com/search?q=#Etsy
+  85. http://etsy.me/1M6r5a8
+  86. http://twitter.com/Etsy
+  87. http://twitter.com/search?q=#Art
+  88. http://twitter.com/search?q=#Etsy
+  89. http://twitter.com/search?q=#illustration
+  90. https://twitter.com/creative_punch
+  91. https://twitter.com/creative_punch/statuses/687031303749939200
+  92. http://twitter.com/search?q=#Kitsune
+  93. http://twitter.com/search?q=#drawing
+  94. http://twitter.com/CAROTillu
+  95. http://etsy.me/1M6Hv2h
+  96. http://twitter.com/Etsy
+  97. http://twitter.com/search?q=#Art
+  98. http://twitter.com/search?q=#geometry
+  99. http://twitter.com/search?q=#illustration
+ 100. http://twitter.com/search?q=#Etsy
+ 101. https://twitter.com/creative_punch
+ 102. https://twitter.com/creative_punch/statuses/687030045022498816
+ 103. http://twitter.com/search?q=#CSS3
+ 104. http://creative-punch.net/2014/02/making-animated-css3-social-buttons/
+ 105. http://twitter.com/search?q=#UI
+ 106. http://twitter.com/search?q=#webdesign
+ 107. http://twitter.com/search?q=#UX
+ 108. http://twitter.com/search?q=#webdev
+ 109. file:///home/kclemmon/a3CS432/source360.txt
+ 110. http://creative-punch.net/
+
+   Hidden links:
+ 112. http://twitter.com/creative_punch
+ 113. https://www.facebook.com/creativepunch.net
+ 114. https://plus.google.com/+CreativepunchNetBlog
+ 115. https://twitter.com/intent/tweet?in_reply_to=687032563072892928
+ 116. https://twitter.com/intent/retweet?tweet_id=687032563072892928
+ 117. https://twitter.com/intent/favorite?tweet_id=687032563072892928
+ 118. https://twitter.com/intent/tweet?in_reply_to=687031303749939200
+ 119. https://twitter.com/intent/retweet?tweet_id=687031303749939200
+ 120. https://twitter.com/intent/favorite?tweet_id=687031303749939200
+ 121. https://twitter.com/intent/tweet?in_reply_to=687030045022498816
+ 122. https://twitter.com/intent/retweet?tweet_id=687030045022498816
+ 123. https://twitter.com/intent/favorite?tweet_id=687030045022498816
+ 124. file://localhost/home/kclemmon/a3CS432/source360.txt
+ 125. http://twitter.com/creative_punch
+ 126. https://www.facebook.com/creativepunch.net
+ 127. https://plus.google.com/+CreativepunchNetBlog
+ 128. javascript:void(0);

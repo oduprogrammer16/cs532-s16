@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang=en-US>
+<!-- [endif] -->
+<head>
+<meta charset=UTF-8 />
+<meta name=viewport content="width=device-width"/>
+<title>
+La transición a DevOps es más un cambio cultural que un cambio tecnológico | Diario TI</title>
+<link rel=profile href="http://gmpg.org/xfn/11"/>
+<link rel=pingback href="http://diarioti.com/xmlrpc.php"/>
+<link rel="shortcut icon" href="http://diarioti.com/wp-content/themes/wpdiarioti/images/diariot-logo-160px-png.png"/>
+<!--[if IE 7]><link rel='stylesheet' id='css-ie-fix' href='http://diarioti.com/wp-content/plugins/special-recent-posts/css/css-ie7-fix.css' type='text/css' media='all' /> <![endif]-->	<!--[if lte IE 8]>
+<div id="fb-root" style="width: 90;"></div> 
+ 
+<![endif]-->
+<link rel=alternate type="application/rss+xml" title="Diario TI &raquo; Feed" href="http://diarioti.com/feed"/>
+<link rel=alternate type="application/rss+xml" title="Diario TI &raquo; Comments Feed" href="http://diarioti.com/comments/feed"/>
+<link rel=stylesheet id=theme-my-login-css href='http://diarioti.com/wp-content/plugins/theme-my-login/theme-my-login.css?ver=6.3.6' type='text/css' media=all />
+<link rel=stylesheet id=bootstrap-css href='http://diarioti.com/wp-content/themes/wpdiarioti/bootstrap.css?ver=3.8.4' type='text/css' media=all />
+<link rel=stylesheet id=bootstrap-override-css href='http://diarioti.com/wp-content/themes/wpdiarioti/bootstrap-override.css?ver=3.8.4' type='text/css' media=all />
+<link rel=stylesheet id=newsletter-widget-css href='http://diarioti.com//wp-content/plugins/email-newsletter/widget/widget.css?ver=3.8.4' type='text/css' media=all />
+<!--[if IE 8]>
+<link rel='stylesheet' id='ie8-style-css'  href='http://diarioti.com/wp-content/themes/wpdiarioti/ie8.css?ver=3.8.4' type='text/css' media='all' />
+<![endif]-->
+<!--[if IE 7]>
+<link rel='stylesheet' id='ie7-style-css'  href='http://diarioti.com/wp-content/themes/wpdiarioti/ie8.css?ver=3.8.4' type='text/css' media='all' />
+<![endif]-->
+<link rel=stylesheet id=srp-front-stylesheet-css href='http://diarioti.com/wp-content/plugins/special-recent-posts/css/css-front.css?ver=3.8.4' type='text/css' media=all />
+<link rel=stylesheet id=wpuf-css href='http://diarioti.com/wp-content/plugins/WP-User-Frontend/css/wpuf.css?ver=3.8.4' type='text/css' media=all />
+<link rel=stylesheet id=jamie_social-css href='http://diarioti.com/wp-content/plugins/jamie-social-icons/social.css?ver=3.8.4' type='text/css' media=all />
+<link rel=stylesheet id=wprssmi_template_styles-css href='http://diarioti.com/wp-content/plugins/wp-rss-multi-importer/templates/templates.css?ver=3.8.4' type='text/css' media=all />
+<link rel=stylesheet id=featured-post-css-css href='http://diarioti.com/wp-content/plugins/featured-post-with-thumbnail/featured-post.css?ver=3.8.4' type='text/css' media=all />
+<link rel=stylesheet id=simple-pagination-css-css href='http://diarioti.com/wp-content/plugins/simple-pagination//css/default.css?ver=2.1.3' type='text/css' media=screen />
+<link rel=stylesheet id=wp-cpl-base-css-css href='http://diarioti.com/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-theme.css?ver=2.0.3' type='text/css' media=all />
+<link rel=stylesheet id=wp_cpl_css_0-css href='http://diarioti.com/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-light.css?ver=2.0.3' type='text/css' media=all />
+<link rel=stylesheet id=wp_cpl_css_1-css href='http://diarioti.com/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-dark.css?ver=2.0.3' type='text/css' media=all />
+<link rel=stylesheet id=wp_cpl_css_2-css href='http://diarioti.com/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-giant-gold-fish.css?ver=2.0.3' type='text/css' media=all />
+<link rel=stylesheet id=wp_cpl_css_3-css href='http://diarioti.com/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-adrift-in-dreams.css?ver=2.0.3' type='text/css' media=all />
+<script type='text/javascript' src='http://diarioti.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://diarioti.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://diarioti.com/wp-content/themes/wpdiarioti/js/html5.js?ver=3.8.4'></script>
+<script type='text/javascript' src='http://diarioti.com//wp-content/themes/wpdiarioti/js/password-strength-meter.dev.js?ver=3.8.4'></script>
+<script type='text/javascript' src='http://diarioti.com/wp-content/themes/wpdiarioti/js/script.js?ver=3.8.4'></script>
+<script type='text/javascript' src='http://diarioti.com//wp-content/plugins/email-newsletter/widget/widget.js?ver=3.8.4'></script>
+<script type='text/javascript' src='http://diarioti.com/wp-includes/js/comment-reply.min.js?ver=3.8.4'></script>
+<script type='text/javascript'>//<![CDATA[
+var wpuf={"ajaxurl":"http:\/\/diarioti.com\/wp-admin\/admin-ajax.php","postingMsg":"Por favor espere...","confirmMsg":"Are you sure?","nonce":"9561422952","featEnabled":"1","plupload":{"runtimes":"html5,silverlight,flash,html4","browse_button":"wpuf-ft-upload-pickfiles","container":"wpuf-ft-upload-container","file_data_name":"wpuf_featured_img","max_file_size":"2097152b","url":"http:\/\/diarioti.com\/wp-admin\/admin-ajax.php?action=wpuf_featured_img&nonce=4f50be8b3d","flash_swf_url":"http:\/\/diarioti.com\/wp-includes\/js\/plupload\/plupload.flash.swf","silverlight_xap_url":"http:\/\/diarioti.com\/wp-includes\/js\/plupload\/plupload.silverlight.xap","filters":[{"title":"Allowed Files","extensions":"*"}],"multipart":true,"urlstream_upload":true}};
+//]]></script>
+<script type='text/javascript' src='http://diarioti.com/wp-content/plugins/WP-User-Frontend/js/wpuf.js?ver=3.8.4'></script>
+<script type='text/javascript' src='http://connect.facebook.net/en_GB/all.js?ver=3.8.4#xfbml=1'></script>
+<script type='text/javascript' src='http://diarioti.com/wp-content/plugins/jamie-social-icons/js/googletracking.js?ver=3.8.4'></script>
+<script type='text/javascript' src='http://diarioti.com/wp-content/plugins/jamie-social-icons/js/head_twitterlinkedin.js?ver=3.8.4'></script>
+<script type='text/javascript' src='http://diarioti.com/wp-content/plugins/wp-xml-export/modules/js/front.js?ver=1.0'></script>
+<link rel=EditURI type="application/rsd+xml" title=RSD href="http://diarioti.com/xmlrpc.php?rsd"/>
+<link rel=wlwmanifest type="application/wlwmanifest+xml" href="http://diarioti.com/wp-includes/wlwmanifest.xml"/>
+<link rel=prev title='En 2016, Yahoo! ha perdido el derecho a existir' href='http://diarioti.com/en-2016-yahoo-ha-perdido-el-derecho-a-existir/92482'/>
+<link rel=next title='Site24x7 anuncia monitoreo RUM y administración APM a nivel global' href='http://diarioti.com/site24x7-anuncia-monitoreo-rum-y-administracion-apm-a-nivel-global/92410'/>
+<meta name=generator content="WordPress 3.8.4"/>
+<link rel=canonical href='http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456'/>
+<link rel=shortlink href='http://diarioti.com/?p=92456'/>
+<style type="text/css">ul.wpuf-attachments{list-style:none;overflow:hidden}ul.wpuf-attachments li{float:left;margin:0 10px 10px 0}</style>
+<script type="text/javascript">var _statcounter=_statcounter||[];_statcounter.push({"tags":{"author":"Editora"}});</script>
+<meta name=google-site-verification content=Rv5nR8Q1SUjfTlsEPck_6t6fMk9Egwu71pAJni8cByE />
+<style type="text/css" id=custom-background-css>body.custom-background{background-color:#e0e0e0}</style>
+<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700,900' rel=stylesheet type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700,800' rel=stylesheet type='text/css'>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<link rel=stylesheet href="http://diarioti.com/wp-content/themes/wpdiarioti/lib/colorbox/colorbox.css"/>
+<script src="http://diarioti.com/wp-content/themes/wpdiarioti/lib/colorbox/jquery.colorbox.js"></script>
+<script>var j=jQuery.noConflict();j(document).ready(function(){j(".minus").hide();j(".content_c").hide();j(".title_c .plus").click(function(){j(".content_c").slideDown();j(".minus").show();j(".plus").hide();j('.title_c .minus').click(function(){j(".content_c").slideUp();j(".plus").show();j(".minus").hide();});});j('.question .ipt_uif_question_content').hide();j('.question .ipt_uif_question_label').click(function(){j(this).parent().find('.ipt_uif_question_content').toggle();});j('.btn_show .search_btn').click(function(){j('.top .topfistrow .frm-search').toggle();});j('.btn_show .solcial_btn').click(function(){j('.top .topfistrow .social').toggle();});j('.btn_show_menu').click(function(){j('header.new_header .header-wrap .menu_main').toggle();});j('.btn_show .letter_btn').click(function(){j('header.new_header .header-wrap .new_letter').toggle();});j('.gallery dl.gallery-item').each(function(){var src=$(this).find('img').attr('src');_str=src.replace('-169x118','');$(this).find('a').attr('href',_str);});j(".gallery dl.gallery-item dt a").colorbox({rel:'cboxElement'});});</script>
+<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel=stylesheet type="text/css"><style type="text/css">#mc_embed_signup{clear:left;font:14px Helvetica,Arial,sans-serif}</style></head>
+<body>
+<div id=page class=hfeed>
+<div class=top>
+<div class=container>
+<div class="row topfistrow">
+<div class="span2 slogan">
+<p>
+DiarioTi.com - el diario del profesional TI
+</p>
+</div>
+<div class="span3 datetext">
+Miércoles
+17 Feb 2016 | Año 14 | Edici&#243;n 4257 </div>
+<div class="span2 fright social">
+<a target=_blank href="http://facebook.com/diarioti" class=fb></a>
+<a target=_blank href="http://twitter.com/diarioti" class=tw></a>
+<a target=_blank href="https://plus.google.com/u/0/110118627810686500689/posts/p/pub" class=g></a>
+<a target=_blank href="mailto:info@diarioti.com" class=mail></a>
+</div>
+<div class="fright btn_show hide">
+<span class=search_btn></span>
+<span class=solcial_btn></span>
+</div>
+<div class="span3 fright frm-search">
+<div class="serchbox clearfix">
+<div class=fright>
+<form id=search name=searchform method=get action="http://diarioti.com">
+<section id=searchMain>
+<input type=search id=s name=s title="Buscar en Diario TI" placeholder="Buscar en Diario TI" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Buscar en Diario TI'"/>
+<button type=submit value=search id=searchsubmit><img title=Buscar src="http://diarioti.com//wp-content/themes/wpdiarioti/images/search-button.png" alt=""></button>
+</section>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<header class="new_header  ">
+<div class=container>
+<div class=row>
+<div class="btn_show_menu hide">
+Menu
+</div>
+<div class="span2 logo">
+<h1>
+<a href="http://diarioti.com/">
+<img title=DiarioTi.com src="http://diarioti.com/wp-content/themes/wpdiarioti/images/logo150.jpg" alt="Diario Ti">
+</a>
+</h1>
+</div>
+<div class="span10 header-wrap">
+<div class=menu_main>
+<nav class=navbar>
+<div class="nav-collapse collapse">
+<div class=menu-main-menu-container><ul id=menu-main-menu class=nav><li id=menu-item-63216 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-63216"><a href="http://diarioti.com/category/seguridad">Seguridad</a></li>
+<li id=menu-item-63218 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-63218"><a href="http://diarioti.com/category/ciencia">Ciencia</a></li>
+<li id=menu-item-63219 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-63219"><a href="http://diarioti.com/category/software">Software</a></li>
+<li id=menu-item-63220 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-63220"><a href="http://diarioti.com/category/apps">Apps</a></li>
+<li id=menu-item-63221 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-63221"><a href="http://diarioti.com/category/negocios">Empresas</a></li>
+<li id=menu-item-63222 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-63222"><a href="http://diarioti.com/category/telefoniamoviles">Telefonía</a></li>
+<li id=menu-item-63223 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-63223"><a href="http://diarioti.com/category/hardware">Hardware</a></li>
+<li id=menu-item-63225 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-63225"><a href="http://diarioti.com/category/nubecloud">Cloud</a></li>
+<li id=menu-item-64586 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-64586"><a href="http://diarioti.com/category/datacenter">Centros de Datos</a></li>
+<li id=menu-item-64587 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-64587"><a href="http://diarioti.com/category/network">Redes</a></li>
+<li id=menu-item-63217 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-63217"><a href="http://diarioti.com/category/internet">Internet</a></li>
+<li id=menu-item-63226 class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-63226"><a href="http://diarioti.com/category/opinion-ti">Opinión</a></li>
+<li id=menu-item-64611 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-64611"><a href="http://diarioti.com/category/gobierno">Gobierno</a></li>
+<li id=menu-item-66120 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-66120"><a href="http://diarioti.com/category/big-data-2">Big Data</a></li>
+<li id=menu-item-86131 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-86131"><a href="http://diarioti.com/category/sdn-nfv">SDN/NFV</a></li>
+</ul></div>	</div>
+</nav>
+<div class=clear></div>
+</div>
+<div class=new_letter>
+<div class="newsletter-widget fright">
+<aside id=text-6 class="widget widget_text">	<div class=textwidget>
+<div id=mc_embed_signup>
+<form action="//diarioti.us11.list-manage.com/subscribe/post?u=f69cb7eba3707ee2b738caac1&amp;id=eebc0219fd" method=post id=mc-embedded-subscribe-form name=mc-embedded-subscribe-form class=validate target=_blank novalidate>
+<h3 class=widget-title>Suscripción newsletter</h3>
+<div id=mc_embed_signup_scroll>
+<input type=email value="" name=EMAIL class=email id=mce-EMAIL placeholder=Email required>
+<input type=hidden name=b_f69cb7eba3707ee2b738caac1_eebc0219fd tabindex=-1 value=""><input type=submit value=Enviar name=subscribe id=mc-embedded-subscribe class=button>
+</div>
+</form>
+</div>
+</div>
+</aside>	<div class=clear></div>
+</div>
+<div class=clear></div>
+</div>
+<div class="fright btn_show hide">
+<span class=letter_btn>letter</span>
+</div>
+</div>
+<div class=clear></div>
+</div>
+</div>
+</header>
+<div id=main class=" ">
+<div class=category-page>
+<script>var jj=jQuery.noConflict();jj(document).ready(function(){if(jj('.category-page .container.container-body').hasClass('advertise_nq')){jj('.menu_main .nav-collapse .menu-main-menu-container ul.nav li').each(function(){jj(this).removeClass('current-menu-parent');jj(this).removeClass('current-post-parent');});}});</script>
+<div class="container container-body ">
+<div class="row homecontainer">
+<div class="span7 mainblock">
+<div style=text-align:center>
+</div>
+<article>
+</article>
+﻿	<article id=post-92456 class="news-detail clearfix">
+<aside class="clearfix article-detailmainimg">
+<figure>
+<span class=title_bg style="background-color: #dd9933">OPINIÓN</span>
+<a href="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456" title="Permalink to La transición a DevOps es más un cambio cultural que un cambio tecnológico" rel=bookmark>
+<img width=1000 height=500 src="http://diarioti.com/wp-content/uploads/2016/02/Opinon-Saba-Aanes-AppDynamics.jpg" class=attachment-full alt=Opinon-Saba-Aanes-AppDynamics title="La transición a DevOps es más un cambio cultural que un cambio tecnológico"/>	</a>
+</figure>
+<div class=imgrightside>
+<div class=socialicon>
+<ul id=jamie_social>
+<!--[if !lte IE 7]><!-->
+<li>
+<g:plusone size=medium href="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456" callback=plusone_vote></g:plusone>
+</li>
+<!--<![endif]-->
+<li><fb:like send=false layout=button_count href="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456" show_faces=false width=90></fb:like>
+</li>
+<li><a href="https://twitter.com/share" class=twitter-share-button data-count=horizontal data-url="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456" data-text="La transición a DevOps es más un cambio cultural que un cambio tecnológico"></a></li>
+<li><script type="in/share" data-url="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456" data-counter=right data-onsuccess=LinkedInShare></script></li>
+</ul>
+<br id=jamie_clear />
+</div>
+</div>
+</aside>
+<div class=clearfix>
+<div class=left-contsid>
+<h1 style="color: #0088CC">
+La transición a DevOps es más un cambio cultural que un cambio tecnológico
+</h1>
+<div class=entry-meta>
+</div>
+<p class=textb>
+Opinión: Actualmente, el cambio organizacional es hacia DevOps y se requieren cambios culturales importantes que abarquen a la gente, a los procesos y a la tecnología. </p>
+<b class=date-time5>Diario TI 08/02/16 10:57:08</b>
+<p>Probablemente usted ha leído mucho sobre lo que el nuevo año le deparará a las empresas en cuanto a la transformación digital.</p>
+<p>Las estadísticas son <a href="http://www.cio.com/article/3009670/it-strategy/digital-transformation-will-shape-2016.html" target=_blank>abrumadoras</a>; evidentemente mantener su marco heredado en la próxima generación de innovación empresarial no es una opción. En su estudio más reciente “<a href="https://www.idc.com/getdoc.jsp?containerId=IDC_P33689" target=_blank>IDC FutureScape: Predicciones Mundiales de la Agenda del CIO en 2016</a>”, IDC reporta que sólo 25% de lo CIOs creen estar preparados para poner en práctica una estrategia que lleve a su empresa a la innovación digital. La mayoría están varados tratando de hacer que los marcos de TI funcionen para una industria que evoluciona a pasos agigantados, sin contar con el presupuesto o los recursos suficientes.</p>
+<p>Hoy, el CIO necesita conocer el alcance de su empresa y la tecnología con la que cuenta para poder entender las capacidades de crecimiento y las necesidades de los usuarios finales. A medida que su rol se desarrolla para cerrar la brecha entre el negocio y la tecnología, el objetivo depende de mejorar la experiencia del usuario final, La encuesta de directores generales (CEOs) de Gartner reveló que gestionar la experiencia de los clientes se ha convertido en su máxima prioridad; de hecho 37% de los CIOs consultados estarán impulsándola en los próximos cinco años. Anticiparse a los clientes es una forma de mantener la interacción con ellos. Esto es posible gracias a los pequeños cambios que se realizan a las aplicaciones y midiendo la manera en que los usuarios interactúan con el nuevo cambio respecto al viejo cambio. Estos pequeños experimentos son necesarios para entender las preferencias de los clientes y satisfacer sus necesidades.</p>
+<p>Dentro de la empresa hay mucho en juego cuando se trata de la interacción única del usuario final con sus aplicaciones. Cuando aumenta la complejidad de cosas como el diseño o las transacciones de la red, es mucho más complicado identificar y resolver los problemas que surgen durante dicha interacción. Estos problemas afectan a sus usuarios, de ahí el enfoque principal y el entendimiento de su cliente. Si sus sistemas no funcionan y su cliente tiene poca experiencia, no sólo es perjudicial para usted como organización de TI, sino también es perjudicial para la marca de la compañía.</p>
+<p>Actualmente, el cambio organizacional es hacia DevOps (desarrollo y operaciones), y se requieren cambios culturales importantes que abarquen a la gente, a los procesos y a la tecnología. El objetivo final es acelerar la agilidad del negocio al permitir que TI repita y haga cambios más pequeños con mayor rapidez. Con esta agilidad, la complejidad se convierte en una gran preocupación más allá de la deuda y la técnica heredadas en la mayoría de las organizaciones. Con este cambio a ser más ágiles, los equipos deben incluir a la ingeniería, que es multidisciplinaria por naturaleza versus a estar aislado en una organización de ITIL. Anteriormente, usted podría pensar en un equipo de desarrollo de aplicaciones que escribían aplicaciones de trabajo para un equipo de contabilidad, entonces el equipo de operaciones implementaba el código y gestionaba el middleware de la aplicación, otro equipo gestionaba la base de datos y otro equipo los servidores, pero otro más el almacenamiento, y finalmente otro equipo la red. Cada uno de estos equipos estaba dentro de silos, cada equipo traía sus propias tecnologías, sus propias herramientas para gestionar y monitorear las especificaciones del silo. Con el fin de actuar más rápidamente como una unidad cohesiva que utiliza metodologías ágiles, es necesario crear equipos más pequeños, a menudo de entre cuatro y ocho personas, responsables de desarrollar, probar y operar productos. Esta transición a DevOps es más un <a href="https://blog.appdynamics.com/devops/keep-calm-embrace-devops-culture/" target=_blank>cambio cultural que un cambio tecnológico</a> – lo que permite que los empleados tomen decisiones con los datos correctos, las tecnologías APM (Application Performance Management) que proporcionan los datos y el hilo para permitir que esos equipos interfuncionales colaboren y trabajen juntos de manera más eficiente, un componente clave de la filosofía DevOps.</p>
+<p>Entonces, ¿cuál es el plan de acción? ¿Qué tiene que hacer un CIO para hacer la transición a empoderar a sus empleados para que tengan éxito en la economía digital? La visibilidad de las aplicaciones y de los usuarios a menudo es un área, APM se convierte en una manera para que el CIO piense por arriba de la infraestructura. Para tener éxito con una implementación inicial, se debe seleccionar una aplicación estratégica específica como la primera incursión al APM moderno. Es vital identificar al líder durante el proyecto, este individuo puede llevar a cabo el proyecto, y ampliar ese éxito a toda la organización. La mayoría de los clientes de APM siguen la misma metodología. Los directores de TI conocen el riesgo de comprar suites de herramientas que a menudo se quedan abandonadas en un cajón, que son demasiado costosas y cuya implementación es muy compleja, o que no pueden satisfacer los requerimientos de detalles y de volumen de las empresas digitales de hoy. Actualmente, el CIO tiene mucho más que gestionar que un entorno de TI, debe ser el líder digital de la organización. La transformación digital requiere que la oficina del CIO reúna y gestione los datos a lo largo del ciclo de vida de los productos, desde el desarrollo a la entrega de resultados, para seguir enfocándose en los clientes y finalmente promover el éxito de su organización en el nuevo año.</p>
+<p><em><strong>Por <a title="Posts by Saba Anees" href="https://blog.appdynamics.com/author/sabaanees/" target=_blank>Saba Anees</a> , ejecutiva de AppDynamics</strong></em></p>
+<script type="text/javascript" src="http://diarioti.com/wp-content/plugins/top-10/top-10-addcount.js.php?top_ten_id=92456"></script>
+</div>
+<div class=right-contsid>
+<div id=Inner_page_content_right class=widgets_on_page>
+<ul></ul>
+</div>	</div>
+</div>
+</article>
+<div id=sidebar-banner-bottom-home class=widgets_on_page>
+<ul><aside id=simpleimage-11 class="widget widget_simpleimage">
+<p class=simple-image>
+<a href="http://www.netevents.org/portfolio/cloud-innovation-awards-201516" target=_blank><img width=1000 height=263 src="http://diarioti.com/wp-content/uploads/2016/02/Cloud-innovation-awards-2016-DiarioTI.jpg" class=attachment-full alt="Cloud Innovation Awards 2016"/></a>	</p>
+</aside></ul>
+</div>
+<footer class=entry-meta>
+</footer>
+<div class=ads>
+<aside class="widget simple_ads_manager_widget">
+<h3 class=widget-title>Destacamos</h3>
+<ul>
+<li class="column2 posts-ads fleft">
+<a href="http://diarioti.com/google-presenta-iniciativa-para-acelerar-la-web-movil/90681" class=title_ads>Google presenta iniciativa para acelerar la web móvil</a>
+<a href="http://diarioti.com/google-presenta-iniciativa-para-acelerar-la-web-movil/90681"><figure><figure><img width=1200 height=582 src="http://diarioti.com/wp-content/uploads/2015/10/amp.jpg" class="attachment-full wp-post-image" alt=amp /></figure></figure></a>
+<p></p>
+</li>
+</ul>
+</aside>
+</div>
+<article>
+</article>
+</div>
+<div class="span3 rightlistingblock">
+<div id=Inner_page_sidebar_banner class=widgets_on_page>
+<ul></ul>
+</div>
+<div id=Widget_Top class=widgets_on_page>
+<ul><li id=text-5 class="widget widget_text">	<div class=textwidget><div id=accordion class=select_country>
+<div class=title_c><span>Seleccione su país</span> <span class="minus fright">-</span><span class="plus fright">+</span></div>
+<div class=content_c>
+<p>Diario TI utiliza una plataforma GeoIP que automáticamente intenta detectar el país desde donde usted se conecta, para así presentarle contenidos regionales. Sin embargo, si la detección automática no es posible, usted puede seleccionar manualmente su país.</p>
+</div>
+</div></div>
+</li></ul>
+</div>
+<select class=og-shortby onchange="document.location.href=this.options[this.selectedIndex].value;" name=ogcountrycode>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=">Seleccione su pa&iacute;s</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=AR">Argentina
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=BO">Bolivia
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=BR">Brasil
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=CL">Chile
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=CO">Colombia
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=CR">Costa Rica
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=CU">Cuba
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=EC">Ecuador
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=SV">El Salvador
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=ES">España
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=US">Estados Unidos
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=GT">Guatemala
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=HN">Honduras
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=MX">Mexico
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=NI">Nicaragua
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=PA">Panama
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=PY">Paraguay
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=PE">Peru
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=PR">Puerto Rico
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=GB">Reino Unido
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=DO">Republica Dominicana
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=UY">Uruguay
+</option>
+<option value="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456?ogcountrycode=VE">Venezuela
+</option>
+</select>
+<div id=secondary class=widget-area role=complementary>
+<aside id=dt_brand_story-2 class="widget widget_text"><h3 class=widget-title></h3>
+<div class=brand_sidebar>
+<div class=brand_frontpage>
+<div class=col1>
+<div class=logo_small><div class=float_left>	<h5>BRAND STORY</h5>
+</div><div class=float_right><img src="http://diarioti.com/wp-content/uploads/2015/10/StorPool_logo_brand-story-2001.jpg" alt="">	</div></div>	<h3><a href="http://diarioti.com/brand/storpool">Brand Story: StorPool</a></h3>
+</div>
+<div class=col2>
+<img src="http://diarioti.com/wp-content/uploads/2015/10/shutterstock_322658537-Timofeev-Vladimir-Servidores.jpg">
+</div>
+<div class=col1>
+<ul>
+<li><a href="http://diarioti.com/brand/storpool/brand-story-5-subitem-5-casos-de-uso-devops">Casos de uso: DevOps</a></li>
+<li><a href="http://diarioti.com/brand/storpool/brand-story-4-subitem-4-casos-de-uso-nubes-privadas">Casos de uso: nubes privadas</a></li>
+<li><a href="http://diarioti.com/brand/storpool/brand-story-4-subitem-3-casos-de-uso-nubes-publicas-y-proveedores-de-servicios">Casos de uso: Nubes públicas y proveedores de servicios</a></li>
+<li><a href="http://diarioti.com/brand/storpool/brand-story-4-subitem-2-como-funciona">¿Cómo funciona?</a></li>
+<li><a href="http://diarioti.com/brand/storpool/que-es-el-almacenamiento-distribuido-y-por-que-google-esta-silenciosa">¿Qué es el almacenamiento distribuido y por qué Google está silenciosa?</a></li>
+</ul>
+</div>
+<div class=clear></div>
+</div>
+</div>
+</aside><aside id=widget_tptn_pop-2 class="widget widget_tptn_pop"><h3 class=widget-title><div class=headingtitle><h1>+ POPULAR</h1></div></h3><div class=toptenList><aside class=clearfix><a href="http://diarioti.com/la-industria-de-los-semiconductores-abandona-la-ley-de-moore/92678" rel=bookmark class=tptn_link><figure><img src="http://diarioti.com/wp-content/uploads/2016/02/shutterstock_374585785-hywards-microprocesador-169x118.jpg" alt="La industria de los semiconductores abandona la Ley de Moore" title="La industria de los semiconductores abandona la Ley de Moore" style="max-width:69px;max-height:55px;" border=0 class=tptn_thumb /></figure></a><h3><a href="http://diarioti.com/la-industria-de-los-semiconductores-abandona-la-ley-de-moore/92678" rel=bookmark class=tptn_link></a></h3><a href="http://diarioti.com/la-industria-de-los-semiconductores-abandona-la-ley-de-moore/92678" rel=bookmark><p>La industria de los semiconductores abandona la Ley de Moore</p></a></aside><aside class=clearfix><a href="http://diarioti.com/cibercriminales-aprovechan-la-expansion-de-netflix-para-acceder-a-datos-de-los-usuarios/92632" rel=bookmark class=tptn_link><figure><img src="http://diarioti.com/wp-content/uploads/2016/02/shutterstock_243599323-Scyther5-Netflix-streaming-bug-169x118.jpg" alt="Cibercriminales aprovechan la expansión de Netflix para acceder a datos de los usuarios" title="Cibercriminales aprovechan la expansión de Netflix para acceder a datos de los usuarios" style="max-width:69px;max-height:55px;" border=0 class=tptn_thumb /></figure></a><h3><a href="http://diarioti.com/cibercriminales-aprovechan-la-expansion-de-netflix-para-acceder-a-datos-de-los-usuarios/92632" rel=bookmark class=tptn_link></a></h3><a href="http://diarioti.com/cibercriminales-aprovechan-la-expansion-de-netflix-para-acceder-a-datos-de-los-usuarios/92632" rel=bookmark><p>Cibercriminales aprovechan la expansión de Netflix para acceder a datos de los usuarios</p></a></aside><aside class=clearfix><a href="http://diarioti.com/schneider-electric-obtiene-la-puntuacion-mas-alta-en-ranking-de-sustentabilidad-empresarial/92644" rel=bookmark class=tptn_link><figure><img src="http://diarioti.com/wp-content/uploads/2016/02/shutterstock_375922291-CHOATphotographer-sostenible-verde-169x118.jpg" alt="Schneider Electric obtiene la puntuación más alta en ranking de sustentabilidad empresarial" title="Schneider Electric obtiene la puntuación más alta en ranking de sustentabilidad empresarial" style="max-width:69px;max-height:55px;" border=0 class=tptn_thumb /></figure></a><h3><a href="http://diarioti.com/schneider-electric-obtiene-la-puntuacion-mas-alta-en-ranking-de-sustentabilidad-empresarial/92644" rel=bookmark class=tptn_link></a></h3><a href="http://diarioti.com/schneider-electric-obtiene-la-puntuacion-mas-alta-en-ranking-de-sustentabilidad-empresarial/92644" rel=bookmark><p>Schneider Electric obtiene la puntuación más alta en ranking de sustentabilidad empresarial</p></a></aside><aside class=clearfix><a href="http://diarioti.com/una-de-cada-cinco-empresas-ha-alcanzado-la-madurez-cloud/92635" rel=bookmark class=tptn_link><figure><img src="http://diarioti.com/wp-content/uploads/2016/02/shutterstock_285597362-Wavebreakmedia-Cloud-computing-169x118.jpg" alt="Una de cada cinco empresas ha alcanzado la ‘madurez cloud’" title="Una de cada cinco empresas ha alcanzado la ‘madurez cloud’" style="max-width:69px;max-height:55px;" border=0 class=tptn_thumb /></figure></a><h3><a href="http://diarioti.com/una-de-cada-cinco-empresas-ha-alcanzado-la-madurez-cloud/92635" rel=bookmark class=tptn_link></a></h3><a href="http://diarioti.com/una-de-cada-cinco-empresas-ha-alcanzado-la-madurez-cloud/92635" rel=bookmark><p>Una de cada cinco empresas ha alcanzado la ‘madurez cloud’</p></a></aside><aside class=clearfix><a href="http://diarioti.com/google-estrena-cloud-bigtable-servicio-de-base-de-datos-nosql-para-empresas/87605" rel=bookmark class=tptn_link><figure><img src="http://diarioti.com/wp-content/uploads/2015/05/shutterstock_99120257-pcruciatti-google-cloud-169x84.jpg" alt="Google estrena Cloud Bigtable, servicio de base de datos NoSQL para empresas" title="Google estrena Cloud Bigtable, servicio de base de datos NoSQL para empresas" style="max-width:69px;max-height:55px;" border=0 class=tptn_thumb /></figure></a><h3><a href="http://diarioti.com/google-estrena-cloud-bigtable-servicio-de-base-de-datos-nosql-para-empresas/87605" rel=bookmark class=tptn_link></a></h3><a href="http://diarioti.com/google-estrena-cloud-bigtable-servicio-de-base-de-datos-nosql-para-empresas/87605" rel=bookmark><p>Google estrena Cloud Bigtable, servicio de base de datos NoSQL para empresas</p></a></aside></div></aside><aside id=wp_category_post_list_itg-2 class="widget widget_wp_category_post_list_itg"><h3 class=widget-title></h3><article class=opinion><div class=headingtitle><h1>OPINION TI </h1></div><aside class=clearfix><figure class=thumbImg><a href="http://diarioti.com/hacia-donde-ira-el-comercio-electronico-en-2016/92675" title="Hacia dónde irá el comercio electrónico en 2016" alt="Hacia dónde irá el comercio electrónico en 2016"><figure><img width=80 height=40 src="http://diarioti.com/wp-content/uploads/2016/02/shutterstock_88961464_Andresr_e-commerce-80x40.jpg" class="attachment-wp-cpl-post-thumb wp-post-image" alt="Comercio electrónico" title="Hacia dónde irá el comercio electrónico en 2016"/></figure></a></figure><p><a href="http://diarioti.com/hacia-donde-ira-el-comercio-electronico-en-2016/92675" title="Permalink to: Hacia dónde irá el comercio electrónico en 2016" target=_self>Hacia dónde irá el comercio electrónico en 2016</a></p></aside><aside class=clearfix><figure class=thumbImg><a href="http://diarioti.com/preparandose-para-la-nueva-generacion-de-empleados-millennials/92559" title="Preparándose para la nueva generación de empleados millennials" alt="Preparándose para la nueva generación de empleados millennials"><figure><img width=80 height=40 src="http://diarioti.com/wp-content/uploads/2016/02/Opinion-Paulo-Pedrao-Infor-80x40.jpg" class="attachment-wp-cpl-post-thumb wp-post-image" alt="Paulo Pedrao Infor" title="Preparándose para la nueva generación de empleados millennials"/></figure></a></figure><p><a href="http://diarioti.com/preparandose-para-la-nueva-generacion-de-empleados-millennials/92559" title="Permalink to: Preparándose para la nueva generación de empleados millennials" target=_self>Preparándose para la nueva generación de empleados millennials</a></p></aside><aside class=clearfix><figure class=thumbImg><a href="http://diarioti.com/adios-a-la-era-de-las-contrasenas/92548" title="Adiós a la era de las contraseñas" alt="Adiós a la era de las contraseñas"><figure><img width=80 height=40 src="http://diarioti.com/wp-content/uploads/2016/02/shutterstock_374463379-isak55-password-80x40.jpg" class="attachment-wp-cpl-post-thumb wp-post-image" alt=Password title="Adiós a la era de las contraseñas"/></figure></a></figure><p><a href="http://diarioti.com/adios-a-la-era-de-las-contrasenas/92548" title="Permalink to: Adiós a la era de las contraseñas" target=_self>Adiós a la era de las contraseñas</a></p></aside><aside class=clearfix><figure class=thumbImg><a href="http://diarioti.com/recursos-humanos-y-cloud-tienen-mucho-mas-en-comun-de-lo-que-imaginas/92446" title="¿Recursos Humanos y cloud" Tienen mucho más en común de lo que imaginas" alt="¿Recursos Humanos y cloud" Tienen mucho más en común de lo que imaginas"><figure><img width=80 height=40 src="http://diarioti.com/wp-content/uploads/2016/02/Opinion-Maribel-Dos-Santos-Oracle-80x40.jpg" class="attachment-wp-cpl-post-thumb wp-post-image" alt="Maribel Dos Santos-Oracle" title="¿Recursos Humanos y cloud" Tienen mucho más en común de lo que imaginas" /></figure></a></figure><p><a href="http://diarioti.com/recursos-humanos-y-cloud-tienen-mucho-mas-en-comun-de-lo-que-imaginas/92446" title="Permalink to: ¿Recursos Humanos y cloud" Tienen mucho más en común de lo que imaginas" target=_self>¿Recursos Humanos y cloud" Tienen mucho más en común de lo que imaginas</a></p></aside><aside class=clearfix><figure class=thumbImg><a href="http://diarioti.com/exfiltracion-de-datos-el-quien-que-por-que-donde-y-como/92552" title="Exfiltración de datos: El Quién, Qué, Por Qué, Dónde y Cómo" alt="Exfiltración de datos: El Quién, Qué, Por Qué, Dónde y Cómo"><figure><img width=80 height=40 src="http://diarioti.com/wp-content/uploads/2016/02/David-Bull-Intel-Security-80x40.jpg" class="attachment-wp-cpl-post-thumb wp-post-image" alt="David Bull Intel Security" title="Exfiltración de datos: El Quién, Qué, Por Qué, Dónde y Cómo"/></figure></a></figure><p><a href="http://diarioti.com/exfiltracion-de-datos-el-quien-que-por-que-donde-y-como/92552" title="Permalink to: Exfiltración de datos: El Quién, Qué, Por Qué, Dónde y Cómo" target=_self>Exfiltración de datos: El Quién, Qué, Por Qué, Dónde y Cómo</a></p></aside><aside class=clearfix><figure class=thumbImg><a href="http://diarioti.com/tres-formas-de-lograr-el-exito-en-la-era-de-la-disrupcion/92536" title="Tres formas de lograr el éxito en la Era de la Disrupción" alt="Tres formas de lograr el éxito en la Era de la Disrupción"><figure><img width=80 height=40 src="http://diarioti.com/wp-content/uploads/2016/02/David-Ruiz-IBM-80x40.jpg" class="attachment-wp-cpl-post-thumb wp-post-image" alt="David Ruiz Director de la Unidad de Watson en IBM México" title="Tres formas de lograr el éxito en la Era de la Disrupción"/></figure></a></figure><p><a href="http://diarioti.com/tres-formas-de-lograr-el-exito-en-la-era-de-la-disrupcion/92536" title="Permalink to: Tres formas de lograr el éxito en la Era de la Disrupción" target=_self>Tres formas de lograr el éxito en la Era de la Disrupción</a></p></aside><aside class=clearfix><figure class=thumbImg><a href="http://diarioti.com/ciberseguridad-en-un-mundo-conectado-a-internet/92533" title="Ciberseguridad en un mundo conectado a Internet" alt="Ciberseguridad en un mundo conectado a Internet"><figure><img width=80 height=40 src="http://diarioti.com/wp-content/uploads/2016/02/Oscar-Cortes-Ingeniero-de-sistemas-Fortinet-80x40.jpg" class="attachment-wp-cpl-post-thumb wp-post-image" alt="Oscar Cortes Ingeniero de sistemas Fortinet" title="Ciberseguridad en un mundo conectado a Internet"/></figure></a></figure><p><a href="http://diarioti.com/ciberseguridad-en-un-mundo-conectado-a-internet/92533" title="Permalink to: Ciberseguridad en un mundo conectado a Internet" target=_self>Ciberseguridad en un mundo conectado a Internet</a></p></aside><aside class=clearfix><figure class=thumbImg><a href="http://diarioti.com/los-datos-son-el-nuevo-petroleo-el-combustible-de-las-economias-digitales/92439" title="Los datos son el nuevo petróleo: el combustible de las economías digitales" alt="Los datos son el nuevo petróleo: el combustible de las economías digitales"><figure><img width=80 height=40 src="http://diarioti.com/wp-content/uploads/2016/02/Jeff-Klenner-80x40.jpg" class="attachment-wp-cpl-post-thumb wp-post-image" alt="Jeff Klenner" title="Los datos son el nuevo petróleo: el combustible de las economías digitales"/></figure></a></figure><p><a href="http://diarioti.com/los-datos-son-el-nuevo-petroleo-el-combustible-de-las-economias-digitales/92439" title="Permalink to: Los datos son el nuevo petróleo: el combustible de las economías digitales" target=_self>Los datos son el nuevo petróleo: el combustible de las economías digitales</a></p></aside><aside class=clearfix><figure class=thumbImg><a href="http://diarioti.com/la-transformacion-del-usuario-de-software/92500" title="La transformación del usuario de software" alt="La transformación del usuario de software"><figure><img width=80 height=40 src="http://diarioti.com/wp-content/uploads/2016/02/Opinion-Laercio-Cosentino-TOTVS-80x40.jpg" class="attachment-wp-cpl-post-thumb wp-post-image" alt="Opinion Laercio Cosentino TOTVS" title="La transformación del usuario de software"/></figure></a></figure><p><a href="http://diarioti.com/la-transformacion-del-usuario-de-software/92500" title="Permalink to: La transformación del usuario de software" target=_self>La transformación del usuario de software</a></p></aside><aside class=clearfix><figure class=thumbImg><a href="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456" title="La transición a DevOps es más un cambio cultural que un cambio tecnológico" alt="La transición a DevOps es más un cambio cultural que un cambio tecnológico"><figure><img width=80 height=40 src="http://diarioti.com/wp-content/uploads/2016/02/Opinon-Saba-Aanes-AppDynamics-80x40.jpg" class="attachment-wp-cpl-post-thumb wp-post-image" alt=Opinon-Saba-Aanes-AppDynamics title="La transición a DevOps es más un cambio cultural que un cambio tecnológico"/></figure></a></figure><p><a href="http://diarioti.com/la-transicion-a-devops-es-mas-un-cambio-cultural-que-un-cambio-tecnologico/92456" title="Permalink to: La transición a DevOps es más un cambio cultural que un cambio tecnológico" target=_self>La transición a DevOps es más un cambio cultural que un cambio tecnológico</a></p></aside></article><p class="clearfix viewallbut"><a href="http://diarioti.com/category/opinion-ti" title="">Ver Todos</a></p></aside><aside id=simpleimage-4 class="widget widget_simpleimage">
+<p class=simple-image>
+<a href="http://diarioti.com/quienes-leen-diario-ti-infografia/91488" target=_blank><img width=621 height=371 src="http://diarioti.com/wp-content/uploads/2016/01/infografia-lectores.png" class=attachment-full alt="Infografia lectores Diario TI"/></a>	</p>
+<p>¿Quienes leen Diario TI?</p>
+<p class=more>
+<a href="http://diarioti.com/quienes-leen-diario-ti-infografia/91488" target=_blank>Infografía</a>	</p>
+</aside> </div>
+</div>
+<div class="span2 rightaddblock">
+<article>
+</article>
+</div>
+</div>
+</div>
+﻿</div>
+</div>
+<div class="container container-body">
+<div id=Bottom_Recent_Posts class=widgets_on_page>
+<ul><li id=wdg_specialrecentpostsfree-4 class="widget widget_specialrecentpostsFree"><div><div class=headingtitle><h1>ULTIMAS NOTICIAS</h1></div><div class="row ultimas"><article class=span4><a class=srp-widget-thmblink href="http://diarioti.com/cientificos-consideran-ilusorio-instalar-puertas-traseras-en-productos-criptograficos/92695" title="Cient&iacute;ficos consideran ilusorio instalar puertas traseras en productos criptogr&aacute;ficos"><img class="" width=168 height=119 src="http://diarioti.com/wp-content/plugins/special-recent-posts/cache/MTY4MTE5bm9iYWNrZG9vci1icnVjZS1zY2huZWllci03Mjh4MzMw.jpg" alt="Cient&iacute;ficos consideran ilusorio instalar puertas traseras en productos criptogr&aacute;ficos"></a><p class=" "><a class=srp-widget-stringbreak-link-image href="http://diarioti.com/cientificos-consideran-ilusorio-instalar-puertas-traseras-en-productos-criptograficos/92695" title="Cient&iacute;ficos consideran ilusorio instalar puertas traseras en productos criptogr&aacute;ficos">Cient&iacute;ficos consideran ilusorio instalar puertas traseras en productos criptogr&aacute;ficos</a></p></article><article class=span4><a class=srp-widget-thmblink href="http://diarioti.com/hacia-donde-ira-el-comercio-electronico-en-2016/92675" title="Hacia d&oacute;nde ir&aacute; el comercio electr&oacute;nico en 2016"><img class="" width=168 height=119 src="http://diarioti.com/wp-content/plugins/special-recent-posts/cache/MTY4MTE5bm9zaHV0dGVyc3RvY2tfODg5NjE0NjRfQW5kcmVzcl9lLWNvbW1lcmNlLTcyOHgzNjQ=.jpg" alt="Hacia d&oacute;nde ir&aacute; el comercio electr&oacute;nico en 2016"></a><p class=" "><a class=srp-widget-stringbreak-link-image href="http://diarioti.com/hacia-donde-ira-el-comercio-electronico-en-2016/92675" title="Hacia d&oacute;nde ir&aacute; el comercio electr&oacute;nico en 2016">Hacia d&oacute;nde ir&aacute; el comercio electr&oacute;nico en 2016</a></p></article><article class=span4><a class=srp-widget-thmblink href="http://diarioti.com/unisys-anuncia-solucion-de-nube-hibrida-en-america-latina/92674" title="Unisys anuncia soluci&oacute;n de nube h&iacute;brida en Am&eacute;rica Latina"><img class="" width=168 height=119 src="http://diarioti.com/wp-content/plugins/special-recent-posts/cache/MTY4MTE5bm9zaHV0dGVyc3RvY2tfMzc1NDUyNTY5LU1ha3NpbS1LYWJha291LW51YmUtY2xvdWQtNzI4eDMzMA==.jpg" alt="Unisys anuncia soluci&oacute;n de nube h&iacute;brida en Am&eacute;rica Latina"></a><p class=" "><a class=srp-widget-stringbreak-link-image href="http://diarioti.com/unisys-anuncia-solucion-de-nube-hibrida-en-america-latina/92674" title="Unisys anuncia soluci&oacute;n de nube h&iacute;brida en Am&eacute;rica Latina">Unisys anuncia soluci&oacute;n de nube h&iacute;brida en Am&eacute;rica Latina</a></p></article><div class=clearfix></div><article class=span4><a class=srp-widget-thmblink href="http://diarioti.com/la-industria-de-los-semiconductores-abandona-la-ley-de-moore/92678" title="La industria de los semiconductores abandona la Ley de Moore"><img class="" width=168 height=119 src="http://diarioti.com/wp-content/plugins/special-recent-posts/cache/MTY4MTE5bm9zaHV0dGVyc3RvY2tfMzc0NTg1Nzg1LWh5d2FyZHMtbWljcm9wcm9jZXNhZG9yLTcyOHgzMjc=.jpg" alt="La industria de los semiconductores abandona la Ley de Moore"></a><p class=" "><a class=srp-widget-stringbreak-link-image href="http://diarioti.com/la-industria-de-los-semiconductores-abandona-la-ley-de-moore/92678" title="La industria de los semiconductores abandona la Ley de Moore">La industria de los semiconductores abandona la Ley de Moore</a></p></article><article class=span4><a class=srp-widget-thmblink href="http://diarioti.com/solucion-openstack-de-huawei-destaca-en-informe-cloud-de-forrester/92652" title="Soluci&oacute;n OpenStack de Huawei destaca en informe Cloud de Forrester"><img class="" width=168 height=119 src="http://diarioti.com/wp-content/plugins/special-recent-posts/cache/MTY4MTE5bm9IdWF3ZWktQ2xvdWQtNzI4eDMyOA==.jpg" alt="Soluci&oacute;n OpenStack de Huawei destaca en informe Cloud de Forrester"></a><p class=" "><a class=srp-widget-stringbreak-link-image href="http://diarioti.com/solucion-openstack-de-huawei-destaca-en-informe-cloud-de-forrester/92652" title="Soluci&oacute;n OpenStack de Huawei destaca en informe Cloud de Forrester">Soluci&oacute;n OpenStack de Huawei destaca en informe Cloud de Forrester</a></p></article><article class=span4><a class=srp-widget-thmblink href="http://diarioti.com/vmware-introduce-vrealize-suite-7-para-iniciativas-devops/92656" title="VMware introduce vRealize Suite 7 para iniciativas DevOps"><img class="" width=168 height=119 src="http://diarioti.com/wp-content/plugins/special-recent-posts/cache/MTY4MTE5bm9zaHV0dGVyc3RvY2tfMzcyNjI1MTk4LURhbmllbGQtbnViZS1hdmlvbi03Mjh4MzI3.jpg" alt="VMware introduce vRealize Suite 7 para iniciativas DevOps"></a><p class=" "><a class=srp-widget-stringbreak-link-image href="http://diarioti.com/vmware-introduce-vrealize-suite-7-para-iniciativas-devops/92656" title="VMware introduce vRealize Suite 7 para iniciativas DevOps">VMware introduce vRealize Suite 7 para iniciativas DevOps</a></p></article><div class=clearfix></div><article class=span4><a class=srp-widget-thmblink href="http://diarioti.com/schneider-electric-obtiene-la-puntuacion-mas-alta-en-ranking-de-sustentabilidad-empresarial/92644" title="Schneider Electric obtiene la puntuaci&oacute;n m&aacute;s alta en ranking de sustentabilidad empresarial"><img class="" width=168 height=119 src="http://diarioti.com/wp-content/plugins/special-recent-posts/cache/MTY4MTE5bm9zaHV0dGVyc3RvY2tfMzc1OTIyMjkxLUNIT0FUcGhvdG9ncmFwaGVyLXNvc3RlbmlibGUtdmVyZGUtNzI4eDM2NA==.jpg" alt="Schneider Electric obtiene la puntuaci&oacute;n m&aacute;s alta en ranking de sustentabilidad empresarial"></a><p class=" "><a class=srp-widget-stringbreak-link-image href="http://diarioti.com/schneider-electric-obtiene-la-puntuacion-mas-alta-en-ranking-de-sustentabilidad-empresarial/92644" title="Schneider Electric obtiene la puntuaci&oacute;n m&aacute;s alta en ranking de sustentabilidad empresarial">Schneider Electric obtiene la puntuaci&oacute;n m&aacute;s alta en ranking de sustentabilidad empresarial</a></p></article><article class=span4><a class=srp-widget-thmblink href="http://diarioti.com/cibercriminales-aprovechan-la-expansion-de-netflix-para-acceder-a-datos-de-los-usuarios/92632" title="Cibercriminales aprovechan la expansi&oacute;n de Netflix para acceder a datos de los usuarios"><img class="" width=168 height=119 src="http://diarioti.com/wp-content/plugins/special-recent-posts/cache/MTY4MTE5bm9zaHV0dGVyc3RvY2tfMjQzNTk5MzIzLVNjeXRoZXI1LU5ldGZsaXgtc3RyZWFtaW5nLWJ1Zy03Mjh4MzY0.jpg" alt="Cibercriminales aprovechan la expansi&oacute;n de Netflix para acceder a datos de los usuarios"></a><p class=" "><a class=srp-widget-stringbreak-link-image href="http://diarioti.com/cibercriminales-aprovechan-la-expansion-de-netflix-para-acceder-a-datos-de-los-usuarios/92632" title="Cibercriminales aprovechan la expansi&oacute;n de Netflix para acceder a datos de los usuarios">Cibercriminales aprovechan la expansi&oacute;n de Netflix para acceder a datos de los usuarios</a></p></article><article class=span4><a class=srp-widget-thmblink href="http://diarioti.com/una-de-cada-cinco-empresas-ha-alcanzado-la-madurez-cloud/92635" title="Una de cada cinco empresas ha alcanzado la &lsquo;madurez cloud&rsquo;"><img class="" width=168 height=119 src="http://diarioti.com/wp-content/plugins/special-recent-posts/cache/MTY4MTE5bm9zaHV0dGVyc3RvY2tfMjg1NTk3MzYyLVdhdmVicmVha21lZGlhLUNsb3VkLWNvbXB1dGluZy03Mjh4MzI3.jpg" alt="Una de cada cinco empresas ha alcanzado la &lsquo;madurez cloud&rsquo;"></a><p class=" "><a class=srp-widget-stringbreak-link-image href="http://diarioti.com/una-de-cada-cinco-empresas-ha-alcanzado-la-madurez-cloud/92635" title="Una de cada cinco empresas ha alcanzado la &lsquo;madurez cloud&rsquo;">Una de cada cinco empresas ha alcanzado la &lsquo;madurez cloud&rsquo;</a></p></article><div class=clearfix></div></div></div></li></ul>
+</div></div>
+<hr/>
+<footer>
+<div class=container>
+<div class="row footercontant">
+<article class=span4>
+<h2>Categorías</h2>
+<p>
+<a href="http://diarioti.com/category/apps" title="">Apps</a> | <a href="http://diarioti.com/category/big-data-2" title="">Big Data</a> | <a href="http://diarioti.com/category/datacenter" title="">Centros de Datos</a> | <a href="http://diarioti.com/category/cibercultura" title="">Cibercultura</a> | <a href="http://diarioti.com/category/ciencia" title="">Ciencia</a> | <a href="http://diarioti.com/category/cursos-ti" title="">Cursos Ti</a> | <a href="http://diarioti.com/category/english" title="">English</a> | <a href="http://diarioti.com/category/eventos" title="">Eventos</a> | <a href="http://diarioti.com/category/gobierno" title="">Gobierno</a> | <a href="http://diarioti.com/category/hardware" title="">Hardware</a> | <a href="http://diarioti.com/category/internet" title="">Internet</a> | <a href="http://diarioti.com/category/negocios" title="">Negocios</a> | <a href="http://diarioti.com/category/network" title="">Network</a> | <a href="http://diarioti.com/category/nubecloud" title="">Nube/Cloud</a> | <a href="http://diarioti.com/category/opinion-ti" title="">Opini&oacute;n Ti</a> | <a href="http://diarioti.com/category/sdn-nfv" title="">SDN/NFV</a> | <a href="http://diarioti.com/category/seguridad" title="">Seguridad</a> | <a href="http://diarioti.com/category/software" title="">Software</a> | <a href="http://diarioti.com/category/telefoniamoviles" title="">Telefon&iacute;a/M&oacute;viles</a> | </p>
+<hr>
+<div class="fleft loginlink  loginlinkMargin1">
+<a href="http://diarioti.com/login">
+login
+</a>
+</div>
+<div class=fleft>
+<p>
+<a href="http://diarioti.com/contact-us/">Contacto</a>
+</p>
+</div>
+<div class=clear></div>
+</article>
+<article class="span4 footlogo">
+<img src="http://diarioti.com//wp-content/themes/wpdiarioti/images/DTI-logo.new.png" alt=""></article>
+<article class=span4>
+<h2>Síganos</h2>
+<p class=followusimg>
+<a href="mailto:info@diarioti.com" target=_blank><img title=E-mail src="http://diarioti.com//wp-content/themes/wpdiarioti/images/foot-newlatter-icon.png" alt=Newslatter> </a>
+<a href="http://facebook.com/diarioti" target=_blank><img title=Facebook src="http://diarioti.com//wp-content/themes/wpdiarioti/images/foot-facebook-icon.png" alt=""> </a>
+<a href="http://twitter.com/diarioti" target=_blank><img title=Twitter src="http://diarioti.com//wp-content/themes/wpdiarioti/images/foot-twitter-icon.png" alt=""></a>
+<a href="https://plus.google.com/u/0/110118627810686500689/posts/p/pub" target=_blank><img title="Google Plus" src="http://diarioti.com//wp-content/themes/wpdiarioti/images/foot-google-icon.png" alt=""></a>
+<div class=clear></div>
+</p>
+<hr>
+<p>Publicación diaria de MPA Publishing International Ltd.</p>
+<p><a href="http://diarioti.com/">Diseño: DiarioTi </a></p>
+</article>
+</div>
+</div>
+<div class=summertextbg> ® Derechos reservados © derechos de autor internacional 1997-2016 </div>
+</footer>
+</div>
+<!--[if !lte IE 8]><!-->
+<!--<![endif]-->
+<script>var sc_project=10615084;var sc_security="d82c9e8b";var sc_invisible=1;var scJsHost=(("https:"==document.location.protocol)?"https://secure.":"http://www.");document.write("<sc"+"ript src='"+scJsHost+"statcounter.com/counter/counter.js'></"+"script>");</script>
+<noscript><div class=statcounter><a title="web analytics" href="https://statcounter.com/"><img class=statcounter src="https://c.statcounter.com/10615084/0/d82c9e8b/1/" alt="web analytics"/></a></div></noscript>
+<link rel=stylesheet id=wrbbootsrap_css-css href='http://diarioti.com/wp-content/plugins/wp-xml-export/modules/inc/assets/css/boot-cont.css?ver=3.8.4' type='text/css' media=all />
+<link rel=stylesheet id=wxefront_css-css href='http://diarioti.com/wp-content/plugins/wp-xml-export/modules/css/front.css?ver=3.8.4' type='text/css' media=all />
+<link rel=stylesheet id=frp-frontend-css href='http://diarioti.com/wp-content/plugins/flexible-recent-posts/css/frp-front.css?ver=3.8.4' type='text/css' media=all />
+<script type='text/javascript' src='http://diarioti.com/wp-content/plugins/wp-gallery-custom-links/wp-gallery-custom-links.js?ver=1.1'></script>
+<script type='text/javascript' src='http://diarioti.com/wp-content/plugins/jamie-social-icons/js/iefacebook.js?ver=3.8.4'></script>
+<script type='text/javascript' src='http://diarioti.com/wp-content/plugins/jamie-social-icons/js/social.js?ver=3.8.4'></script>
+<script type='text/javascript' src='http://platform.linkedin.com/in.js?ver=3.8.4'></script>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-140888-1']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+</body>
+</html>

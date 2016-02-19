@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"> 
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta about="/ideas/ideas/mundos-gigantes" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<link rel="shortcut icon" href="http://www.planv.com.ec/sites/default/files/logo-home_0_0.png" type="image/png" />
+<meta content="Mundos de gigantes" about="/ideas/ideas/mundos-gigantes" property="dc:title" />
+<link rel="shortlink" href="/node/1744" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="http://www.planv.com.ec/ideas/ideas/mundos-gigantes?nopaging=1" />
+  <title>Mundos de gigantes | Plan V</title>
+  <meta charset="utf-8">
+  <meta name="MobileOptimized" content="width">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="viewport" content="initial-scale=1, width=device-width">
+  <meta http-equiv="cleartype" content="on">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <style type="text/css" media="all">@import url("http://www.planv.com.ec/modules/system/system.base.css?o162ts");
+@import url("http://www.planv.com.ec/modules/system/system.menus.css?o162ts");
+@import url("http://www.planv.com.ec/modules/system/system.messages.css?o162ts");
+@import url("http://www.planv.com.ec/modules/system/system.theme.css?o162ts");</style>
+<style type="text/css" media="all">@import url("http://www.planv.com.ec/modules/comment/comment.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/modules/date/date_api/date.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/modules/domain/domain_nav/domain_nav.css?o162ts");
+@import url("http://www.planv.com.ec/modules/field/theme/field.css?o162ts");
+@import url("http://www.planv.com.ec/modules/node/node.css?o162ts");
+@import url("http://www.planv.com.ec/modules/search/search.css?o162ts");
+@import url("http://www.planv.com.ec/modules/user/user.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/modules/video_filter/video_filter.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/modules/workflow/workflow_admin_ui/workflow_admin_ui.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/modules/views/css/views.css?o162ts");</style>
+<style type="text/css" media="all">@import url("http://www.planv.com.ec/sites/all/modules/ckeditor/ckeditor.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/modules/colorbox/styles/default/colorbox_style.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/modules/ctools/css/ctools.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/modules/panels/css/panels.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/modules/addtoany/addtoany.css?o162ts");</style>
+<style type="text/css" media="all">@import url("http://www.planv.com.ec/sites/all/themes/squaregrid/styles/normalize.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/themes/squaregrid/styles/default.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/themes/squaregrid/styles/squaregrid800.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/themes/tema_planv/estilos/disqus-form.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/themes/tema_planv/estilos/planv-culturas.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/themes/tema_planv/estilos/planv-form.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/themes/tema_planv/estilos/planv-general.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/themes/tema_planv/estilos/planv-historias.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/themes/tema_planv/estilos/planv-ideas.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/themes/tema_planv/estilos/planv-investigacion.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/themes/tema_planv/estilos/planv-miradas.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/themes/tema_planv/estilos/planv-notas-ampliadas.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/themes/tema_planv/estilos/planv-notas.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/themes/tema_planv/estilos/planv-portada.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/themes/tema_planv/estilos/planv-publicidades.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/themes/tema_planv/estilos/planv-quienes-somos.css?o162ts");
+@import url("http://www.planv.com.ec/sites/all/themes/tema_planv/estilos/planv-rejillas.css?o162ts");</style>
+      <!--[if lt IE 9]>
+    <script src="sites/all/themes/squaregrid/scripts/html5shiv.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="http://www.planv.com.ec/sites/default/files/js/js_zzcIWOou_jnX0ZWAIA4sb6Xy_p5a8FZNA0GySvuWjPU.js"></script>
+<script type="text/javascript" src="http://www.planv.com.ec/sites/default/files/js/js_-fJT2IAaQ-4kSlhtWJ628484s2SHeJax6pzhqzRaepM.js"></script>
+<script type="text/javascript" src="http://www.planv.com.ec/sites/default/files/js/js_TDSje_tKunUfPMDRR5Nz3cV1OQrm4a-ZfZ2xtr4nYTA.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-65236147-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.planv.com.ec/sites/default/files/js/js_96JzwlwkgziKaHGfjeMbBBBrOeqVx5rxSlymKTSmadM.js"></script>
+<script type="text/javascript" src="http://www.planv.com.ec/sites/default/files/js/js_Zp_mdFhscdwUejyaQecLQjKtnFU56FoGqqC71K3wnDk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"tema_planv","theme_token":"8Y8_blC08PCxo7bz6Eq2dl-2YCs2FxESKZAvc77HE5o","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.5\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/accordions\/accordions.js":1,"misc\/form.js":1,"public:\/\/languages\/es_x9cy5cPDASmY_-Gu0SKedW-gYshuLnCwJDmKVCVd-w8.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/modules\/disqus\/disqus.js":1,"misc\/collapse.js":1,"sites\/all\/themes\/tema_planv\/js\/tooltip.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/domain\/domain_nav\/domain_nav.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/workflow\/workflow_admin_ui\/workflow_admin_ui.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/ckeditor.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/addtoany\/addtoany.css":1,"sites\/all\/themes\/squaregrid\/styles\/normalize.css":1,"sites\/all\/themes\/squaregrid\/styles\/default.css":1,"sites\/all\/themes\/squaregrid\/styles\/squaregrid800.css":1,"sites\/all\/themes\/tema_planv\/estilos\/disqus-form.css":1,"sites\/all\/themes\/tema_planv\/estilos\/planv-culturas.css":1,"sites\/all\/themes\/tema_planv\/estilos\/planv-form.css":1,"sites\/all\/themes\/tema_planv\/estilos\/planv-general.css":1,"sites\/all\/themes\/tema_planv\/estilos\/planv-historias.css":1,"sites\/all\/themes\/tema_planv\/estilos\/planv-ideas.css":1,"sites\/all\/themes\/tema_planv\/estilos\/planv-investigacion.css":1,"sites\/all\/themes\/tema_planv\/estilos\/planv-miradas.css":1,"sites\/all\/themes\/tema_planv\/estilos\/planv-notas-ampliadas.css":1,"sites\/all\/themes\/tema_planv\/estilos\/planv-notas.css":1,"sites\/all\/themes\/tema_planv\/estilos\/planv-portada.css":1,"sites\/all\/themes\/tema_planv\/estilos\/planv-publicidades.css":1,"sites\/all\/themes\/tema_planv\/estilos\/planv-quienes-somos.css":1,"sites\/all\/themes\/tema_planv\/estilos\/planv-rejillas.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Cerrar","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"video_filter":{"url":{"ckeditor":"\/video_filter\/dashboard\/ckeditor"},"modulepath":"sites\/all\/modules\/video_filter"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"disqus":{"domain":"planv","url":"http:\/\/www.planv.com.ec\/ideas\/ideas\/mundos-gigantes","title":"Mundos de gigantes","identifier":"node\/1744"}});
+//--><!]]>
+</script>
+  
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' type='text/css'>
+  
+  <script type="text/javascript">var disqus_iframe_css = "http://planv.com.ec/sites/all/themes/tema_planv/estilos/disqus-form.css";</script>
+  
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-1744 node-type-articulo-plan-v domain-www-planv-com-ec i18n-es nogrid" >
+  <a name="inicio_pagina"></a>
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Pasar al contenido principal</a>
+  </div>
+    
+
+<div id="wrapper" class="px1000">
+
+  <header class="section sg-35 clearfix" role="banner">
+
+    
+    
+    
+  </header>
+
+  
+  <div class="section sg-35 clearfix ideas">
+          <div id="block-block-8" class="block block-block odd">
+
+          <!--smart_paging_autop_filter--><!--smart_paging_filter--><div class="logo_seccion">
+	<a href="http://planv.com.ec/"><img alt="" src="/sites/default/files/logo-ideas.png" style="width: 112px; height: 128px; " /></a></div>
+<div class="nombre_seccion nombre_seccion_ideas">
+	ideas</div>
+</div>
+<div id="block-plan-v-fecha" class="block block-plan-v even">
+
+          ECUADOR, 16 de febrero del 2016</div>
+<div id="block-block-3" class="block block-block odd">
+
+          <!--smart_paging_autop_filter--><!--smart_paging_filter--><div class="redes_sociales_portadas">
+	Síguenos en redes sociales</div>
+<div class="redes_sociales_portadas_iconos">
+	<span class="face"><a href="https://www.facebook.com/revistaPlanV" target="_blank"><img alt="" src="/sites/default/files/link-face.png" /></a></span> <span class="twit"><a href="https://twitter.com/revistaPlanV" target="_blank"> <img alt="" src="/sites/default/files/link-twitter.png" /></a></span> <span class="youtube"><a href="http://www.youtube.com/channel/UC3Z_-rHPKERPm5LyEMiHOFw" target="_blank"> <img alt="" src="/sites/default/files/youtube.png" /></a></span> <span class="soundcloud"><a href="https://soundcloud.com/portalplanv" target="_blank"> <img alt="" src="/sites/default/files/soundcloud.png" /></a></span> <span class="rss"><a href="http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp://planv.com.ec/rss" target="_blank"><img alt="" src="/sites/default/files/link-rss.png" style="width: 18px; height: 20px; " /></a></span></div>
+</div>
+<nav id="block-menu-menu-menu-plan-v" role="navigation" class="block block-menu even" role="navigation">
+
+        <ul class="menu"><li class="first leaf"><a href="/historias" class="historias">Historias</a></li>
+<li class="leaf"><a href="/investigacion" class="investigacion">Investigación</a></li>
+<li class="leaf"><a href="/miradas" class="miradas">Miradas</a></li>
+<li class="leaf active"><a href="/ideas" class="ideas active">Ideas</a></li>
+<li class="leaf"><a href="/culturas" class="culturas">Culturas</a></li>
+<li class="last leaf"><a href="http://boletines.planv.com.ec/planv/subscribe.html" target="_blank">Suscripciones</a></li>
+</ul></nav>
+  </div>
+
+  
+  
+  
+  <div id="content-wrapper" class="sg-35 clear clearfix">
+
+    <main id="main-content" role="main" class="column sg-23 push-0">
+      
+      <div class="tabs"></div>
+      <a id="main-content"></a>
+                        <article role="article">
+                      <h1 class="title invisible" id="page-title">Mundos de gigantes</h1>
+            
+            
+        
+
+
+      <footer class="articulo_plan_v-full submitted">
+<!--            <span class="submitted">By
+        <span rel="sioc:has_creator"><span class="username" xml:lang="" about="/users/juancalderon" typeof="sioc:UserAccount" property="foaf:name" datatype="">juan.calderon</span></span>, posted
+        <time pubdate datetime="2016-02-08T07:43:01-05:00">
+          <span property="dc:date dc:created" content="2016-02-08T07:43:01-05:00" datatype="xsd:dateTime">Lun, 02/08/2016 - 07:43</span>        </time>
+      </span>-->
+    </footer>
+  
+
+<div class="field field-name-field-video-nota field-type-file field-label-hidden">
+    <div class="field-items">
+      </div>
+</div>
+<div class='bloque_imprimir'></div><div id="block-plan-v-redes-sociales" class="block block-plan-v odd">
+
+          <div class='twitter'><a href='https://twitter.com/share' class='twitter-share-button' data-via='revistaPlanV' data-lang='es'>Twittear</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div><div class='facebook'><iframe src='//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.planv.com.ec%2Fideas%2Fideas%2Fmundos-gigantes&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=21&amp;appId=385494598163104' scrolling='no' frameborder='0' style='border:none; overflow:hidden; height:21px;' allowTransparency='true'></iframe></div></div>
+
+<div class="field field-name-title-field field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Mundos de gigantes</div>
+      </div>
+</div>
+
+<div class="field field-name-field-resena field-type-text-long field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">La Universidad Central, institución en donde se planeaba originalmente la conferencia de Erdogan, sí se manifestó firmemente contra la visita y como “acto de dignidad” redactó un pronunciamiento en donde rechazan “rotundamente la presencia de un personaje que ha pisoteado de forma tan brutal los principios básicos del pensamiento libre y del quehacer académico, para no hablar de las constantes violaciones a los derechos humanos”.</div>
+      </div>
+</div>
+<div class='fecha_del_nodo'>08 de Febrero del 2016</div><div class='autor_ideas'><div class='autor_ideas_perfil'><img typeof="foaf:Image" src="http://www.planv.com.ec/sites/default/files/styles/autor_ideas/public/fotos_autores/cristina-burneo-img_9162.jpg?itok=OUzowI3n" alt="" /><div class='nombre_ideas'>POR: Cristina Burneo Salazar</div><div class='descripcion_ideas'><p>Docente de la Universidad Andina Simón Bolívar.&nbsp;Trabaja en Letras, género y traducción.</p>
+</div></div><div class='nota_autor_ideas'>
+<div class="field field-name-field-nota-de-autor field-type-text field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even">Erdogan jamás debió ser invitado a hablar en una univer-sidad&quot;.</div>
+      </div>
+</div>
+</div></div><div class='contenido_ideas'><p class="rteright"><span style="font-size:18px;"><em>Ante ti, un mundo de gigantes tontos y altivos</em><br /><em>te bajarán de tu caballo y te golpearán.</em><br /><em>Pero tú, caballera invencible de nuestra sed,</em><br /><em>seguirás brillando tras tu armadura.</em></span></p>
+<p class="rteright"><strong>Variación de “Don Quijote”, de Nazim Hikmet</strong></p>
+<p><strong>Erdogan, febrero 2016.</strong> Así entró Turquía a Ecuador, a “estrechar lazos” entre ambos países, como suelen anunciarse las cosas impredecibles. En marzo, Gabriela Rivadeneria recibió la visita oficial del embajador turco en Quito. En septiembre de 2015, la empresa turca Yilport ya había manifestado su interés comercial por Puerto Bolívar y se preveía que empezarían a operar el puerto en enero, una vez establecida una alianza público-privada. La ley respectiva se aprobó en Ecuador hacia fines de año, en perfecta sincronía y dos semanas después de la terrible jornada de represión del 3 de diciembre.</p>
+<p>Con respecto a la visita de Erdogan, además de la amenaza para los derechos humanos que puede representar la entrada de multinacionales, -lo prueba el desalojo de Rosario Ware, mujer shuar de 107 años, por parte de la empresa china Ecuacorriente, que tuvo lugar durante la visita de Erdogan-, él es calificado internacionalmente como genocida y ultraconservador, en un gobierno en pugna permanente sobre todo con los sectores seculares de la sociedad turca. “Es un asesino que encabeza un régimen autoritario”, ha dicho Noam Chomsky recientemente.</p>
+<p>Junto a más de mil personas de todo el mundo, Chomsky firmó la petición de un grupo de académicos turcos que denuncian la masacre contra el pueblo kurdo. Un grupo de esos académicos fue apresado en enero por “terrorismo”. Erdogan los acusó de convocar a poderes extranjeros para socavar la soberanía nacional. “La campaña contra los académicos tiene como blanco un nuevo grupo y consecuencias muy serias para la libertad de cátedra y de expresión en Turquía”, ha anunciado Human Rights Watch. ¿Le suena?</p>
+<p>Turquía es también país de un feminismo guerrero donde acaban de ser asesinadas por fuerzas policiales tres conocidas activistas, parte de la Caravana Feminista de Kurdistán y del Congreso de Mujeres. Estas mujeres murieron en un país en donde en 2014, Bulent Arinc, aliado político de Erdogan, ordenó a las mujeres no reír en público, sólo meses después de que Erdogan insistiera en nuestra “inferioridad natural”. Este contexto misógino no es ajeno al cine turco, por ejemplo, el de Deniz G. Ergüven y el reciente filme Mustang, donde cinco hermanas viven con el estigma de esa inferioridad, parte de la violencia que atraviesa todo el país. En Turquía, Marx estuvo censurado hasta 2013, poetas como Nazim Hikmet murieron desterrados y, hoy, varias escritoras turcas enfrentan procesos kafkianos o el exilio. En Turquía, escribir, hacer cine, opinar y ser mujer son actividades de alto riesgo.</p>
+<p>La visita de Erdogan a Quito incluía una conferencia magistral en el Instituto de Altos Estudios Nacionales, IAEN. Un grupo de activistas ecuatorianas, consciente de estos antecedentes, se había distribuido en el auditorio para protestar por la presencia del jefe de Estado, decididas a mostrar su solidaridad con Turquía. A la cuenta de tres, le dijeron quién es al grito de “asesino”. Miembros de la seguridad turca arremetieron contra ellas golpeándolas en la vagina y en los senos. “Saben golpear muy bien, porque duele pero tenemos pocos moretones”, relatan. “Me arrastraron desde el lobby hasta la puerta principal”. En una imagen que ha dado la vuelta al mundo, un miembro de la seguridad turca patea en el suelo a un hombre mientras la policía nacional queda atónita. En otra imagen, un policía mantiene las manos cruzadas por la espalda mientras las mujeres son sacadas a rastras del auditorio por los hombres de negro. Quienquiera que haya planeado esto no tomó en cuenta que el mundo tiene los ojos puestos en Erdogan, y sus constantes desafueros son difundidos globalmente, como ahora el de Ecuador, ya traducido al turco, a las caricaturas, al inglés.  </p>
+<p>Ante esto, IAEN emite un comunicado: “la Universidad recibió la solicitud de parte del Ministerio de Relaciones Exteriores de realizar un evento académico en el marco de la visita oficial del primer mandatario turco al Ecuador” Esa visita, dicen sus autoridades, “tanto en términos logísticos como de seguridad, debía seguir los protocolos propios de un Jefe de Estado, procedimientos a cargo de los organismos competentes.” Se justifican como si no hubieran tomado decisiones, pero, sobre todo, IAEN jamás cuestiona la visita, aunque haya razones de sobra para que un centro de estudios se rehúse a darle la palabra a un hombre como Erdogan. Lo histórico para este centro de estudios y la escuela de diplomacia que mantiene entre sus programas hubiera sido rechazar esta conferencia, pero ni siquiera se pone en duda la estatura moral del invitado.</p>
+<p>¿Qué aceptan las autoridades de una universidad cuando acuerdan que haya 70 elementos extranjeros de seguridad controlando un auditorio? ¿Cómo pudo la señora Analía Minteguiaga, rectora encargada hasta enero y que debió conocer los preparativos de esta visita, bienvenir a alguien como Erdogan y abrirle las puertas? Antes de la visita, IAEN envió una invitación a través de su página web: “Luego de su gira por Chile y Perú, Erdogan llega a Ecuador (...) Invitamos a la ciudadanía a participar de esta actividad, este evento también contará con la presencia del Dr. Claudio Rama, Rector del IAEN, y la Dra. Analía Minteguiaga, vicerrectora académica. ¡Los esperamos!” Un instituto de altos estudios que no se halla a la altura: paradojas de la excelencia académica.</p>
+<p>La Universidad Central, institución en donde se planeaba originalmente la conferencia, sí se manifestó firmemente contra la visita y como “acto de dignidad” redactó un pronunciamiento en donde rechazan “rotundamente la presencia de un personaje que ha pisoteado de forma tan brutal los principios básicos del pensamiento libre y del quehacer académico, para no hablar de las constantes violaciones a los derechos humanos”. Con esto, y en consecuencia con lo que debe hacer una universidad frente a una figura así, lograron que Erdogan no pisara sus predios.</p>
+<p>En contraste con esta postura, el gobierno y sus instituciones quedan retratados de cuerpo entero en el acto de Erdogan. Quieren una universidad no sólo obediente y técnica, ya no crítica, sino que, además, pacte con una idea de gobierno y de poder que anula su espíritu mismo. Con un auditorio que tiene más guardaespaldas que asistentes y que da la bienvenida a la palabra de un genocida, han evidenciado que quieren una universidad que vaya contra sí misma hasta aniquilarse (el martes de esa misma semana, Correa desarrolla una reunión de gabinete en la Universidad de las Artes y utiliza los predios para crear el efecto especial de un vínculo genuino entre él y la educación superior. Falla).</p>
+<p>En lugar de darle legitimidad a su discurso político al (a)cercar las universidades y su gestión, el gobierno pierde una oportunidad tras otra. No sólo por invitar a un genocida, acosar a la UASB o cooptar la FLACSO o la Central, o por usar la UArtes como escenario de un mundo feliz, sino por subestimar a sus comunidades, como se lo recordaron la Universidad Central y las mujeres en IAEN. También pierde legitimidad el discurso de quienes, desde espacios académicos afines al régimen, pretenden justificar lo injustificable con elaboraciones teóricas que no podrán ocultar la ambigüedad del gobierno frente a agresiones como ésta. La universidad no es para eso ni puede justificar el exceso y abuso de poder, ni sus docentes y estudiantes tienen por qué ver violentada su autonomía, ya sea con amenazas, con guardaespaldas extranjeros que les aplican su entrenamiento represivo o viendo interrumpida su vida cotidiana cuando el presidente quiere ser visto en una visita académica de esas que quedan sólo para el gran teatro de la revolución. Erdogan jamás debió ser invitado a hablar en una universidad.</p>
+<p>Tras su “interpretación” de los hechos, que culpabiliza a las mujeres agredidas y las responsabiliza de un conflicto diplomático sin preocuparse por la agresión contra ellas, el mejor retrato del presidente ha sido esta imagen de una tuitera: “El presidente del Ecuador considera que las 'malcriadas' merecen unos azotes por intervenir cuando los hombres estaban haciendo negocios”.  ¿Qué van a hacer Guillaume Long, Gabriela Rivadeneira, Rosana Alvarado, que se han pronunciado contra este acto de violencia, el mismo que Correa y Patiño han desestimado entre la ambigüedad de sus declaraciones y la reverencia al jefe de Estado turco?</p>
+<p>Al levantarse contra Erdogan, las seis mujeres del IAEN se levantan contra la sumisión del gobierno ecuatoriano frente al capital extranjero, no sólo el turco; contra la presencia de un tirano que está aniquilando sistemáticamente a su propia población; por personas como Rosario Ware, desplazadas en nombre del desarrollo; en favor de las mujeres turcas, sometidas a una misoginia de Estado. Estas activistas han despertado la ira de los “hombres de negocios” porque han puesto varias cosas en evidencia, y no son menores. En este episodio, las mujeres caen de pie, y un tirano queda bajo la suela de otro tirano.</p>
+</div><span class="print-link"></span><div id="disqus_thread"><noscript><p><a href="http://planv.disqus.com/?url=http%3A%2F%2Fwww.planv.com.ec%2Fideas%2Fideas%2Fmundos-gigantes">View the discussion thread.</a></p></noscript></div>
+<footer class="fecha_del_sitio-full links">
+  </footer>
+
+
+</article>
+
+          </main> <!-- /#main-content -->
+
+    
+          <aside id="sidebar-second" role="complementary" class="column sidebar sg-12 push-23"> 
+              <nav id="block-views-noticias-recomendadas-block" class="block block-views odd">
+
+        <h2 class="block-title">Los imperdibles en Plan V</h2>
+    
+  <div class="view view-noticias-recomendadas view-id-noticias_recomendadas view-display-id-block view-dom-id-ce8a2df6d8d9ca438236cd8fcc4256fe">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-imagen">        <div class="field-content"><a href="http://www.planv.com.ec/historias/entrevistas/elsie-monge-nunca-he-visto-algo-tan-masivo-y-brutal"><img typeof="foaf:Image" src="http://www.planv.com.ec/sites/default/files/styles/fotos_notas_mini/public/plan-v-elsie-monge.jpg?itok=GSj9FtgM" alt="" /><blockquote class="image-field-caption">
+  <!--smart_paging_autop_filter--><!--smart_paging_filter--><div class="autor" style="undefined">
+	<p>Foto: Luis Argüello A.</p>
+</div>
+<div class="pie" style="undefined">
+	<p>La misionera católica Elsie Monge ha estado atenta a los procesos sociales y políticos en el Ecuador desde 1973. </p>
+</div>
+</blockquote>
+</a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/historias/entrevistas/elsie-monge-nunca-he-visto-algo-tan-masivo-y-brutal">Elsie Monge: &quot;nunca he visto algo tan masivo y brutal&quot;</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-field-imagen">        <div class="field-content"><a href="http://www.planv.com.ec/historias/politica/pagos-mcsquared-estrellas-hollywood"><img typeof="foaf:Image" src="http://www.planv.com.ec/sites/default/files/styles/fotos_notas_mini/public/dany-glover.jpg?itok=N9CsWBmM" alt="" /><blockquote class="image-field-caption">
+  <!--smart_paging_autop_filter--><!--smart_paging_filter--><div class="autor">
+	<p>Foto: <em>Wikimedia</em></p>
+</div>
+<div class="pie">
+	<p>Danny Glover, estrella de películas como Arma Letal y Depredador 2. La agencia que lo representa cobró 330 mil dólares por traerlo al Ecuador. </p>
+</div>
+<p> </p>
+</blockquote>
+</a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/historias/politica/pagos-mcsquared-estrellas-hollywood">Los pagos de MCSquared a las &quot;estrellas&quot; de Hollywood</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-field-imagen">        <div class="field-content"><a href="http://www.planv.com.ec/historias/politica/correa-el-pulpito-del-pueblo"><img typeof="foaf:Image" src="http://www.planv.com.ec/sites/default/files/styles/fotos_notas_mini/public/plan-v-marcha-6.jpg?itok=1cXfLRMN" alt="" /><blockquote class="image-field-caption">
+  <!--smart_paging_autop_filter--><!--smart_paging_filter--><div class="autor" style="undefined">
+	<p>Fotos: Luis Argüello y Presidencia de la República</p>
+</div>
+<div class="pie" style="undefined">
+	<p>Miles de manifestantes de las centrales sindicales marchan por el Centro Histórico de Quito, en una compacta movilización que abarcó 15 cuadras.</p>
+</div>
+<p> </p>
+</blockquote>
+</a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/historias/politica/correa-el-pulpito-del-pueblo">Correa en el púlpito del pueblo</a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-field-imagen">        <div class="field-content"><a href="http://www.planv.com.ec/historias/entrevistas/correa-esta-destruyendo-valores-democraticos-enrique-ayala-mora"><img typeof="foaf:Image" src="http://www.planv.com.ec/sites/default/files/styles/fotos_notas_mini/public/plan-v-enrique-ayala-5.jpg?itok=w8Cn6huw" alt="" /><blockquote class="image-field-caption">
+  <!--smart_paging_autop_filter--><!--smart_paging_filter--><div class="pie" style="undefined">
+	<p>Ayala cree que será necesario desmontar el andamiaje legal del correísmo en el futuro, empezando por la Carta correísta de Montecristi. </p>
+</div>
+<p> </p>
+</blockquote>
+</a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/historias/entrevistas/correa-esta-destruyendo-valores-democraticos-enrique-ayala-mora">&quot;Correa está destruyendo los valores democráticos&quot;: Enrique Ayala Mora</a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-field-imagen">        <div class="field-content"><a href="http://www.planv.com.ec/historias/entrevistas/ramiro-aguilar-el-gobierno-camina-una-cornisa"><img typeof="foaf:Image" src="http://www.planv.com.ec/sites/default/files/styles/fotos_notas_mini/public/ramiro-aguilar-plan-v-1.jpg?itok=dZUGGsSV" alt="" /><blockquote class="image-field-caption">
+  <!--smart_paging_autop_filter--><!--smart_paging_filter--><div class="autor" style="undefined">
+	<p>Fotos: Luis Argüello</p>
+</div>
+<div class="pie" style="undefined">
+	<p>La lista de deudores de la banca cerrada es algo que los asambleístas de PAIS no entregan al país, a pesar de los pedidos del asambleísta Ramiro Aguilar.</p>
+</div>
+<p> </p>
+</blockquote>
+</a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/historias/entrevistas/ramiro-aguilar-el-gobierno-camina-una-cornisa">Ramiro Aguilar: el gobierno camina por una cornisa</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></nav>
+<nav id="block-views-noticias-relacionadas-block" class="block block-views even">
+
+        <h2 class="block-title">Notas relacionadas</h2>
+    
+  <div class="view view-noticias-relacionadas view-id-noticias_relacionadas view-display-id-block view-dom-id-f1c762f2703b1248bd894094cb396848">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-imagen">        <div class="field-content"><a href="/ideas/ideas/la-universidad-olvidos"><img typeof="foaf:Image" src="http://www.planv.com.ec/sites/default/files/styles/fotos_notas_mini/public/fotos_autores/rodrigo-tenorio-plan-v.jpg?itok=mxoGh9uY" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/ideas/ideas/la-universidad-olvidos">La universidad de los olvidos</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-field-imagen">        <div class="field-content"><a href="/ideas/ideas/el-legado-la-universidad-andina-ecuador"><img typeof="foaf:Image" src="http://www.planv.com.ec/sites/default/files/styles/fotos_notas_mini/public/fotos_autores/carlos_poveda_bn.jpg?itok=Kg9aPRco" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/ideas/ideas/el-legado-la-universidad-andina-ecuador">El legado de la Universidad Andina para Ecuador</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-field-imagen">        <div class="field-content"><a href="/ideas/ideas/lo-que-nos-ensena-la-causa-la-universidad-andina"><img typeof="foaf:Image" src="http://www.planv.com.ec/sites/default/files/styles/fotos_notas_mini/public/fotos_autores/consuelo-albornoz.jpg?itok=NWJ8JLCr" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/ideas/ideas/lo-que-nos-ensena-la-causa-la-universidad-andina">Lo que nos enseña la causa por la Universidad Andina</a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-field-imagen">        <div class="field-content"><a href="http://www.planv.com.ec/historias/entrevistas/pipo-laso-alguien-tiene-que-convertir-la-indignacion-esperanza"><img typeof="foaf:Image" src="http://www.planv.com.ec/sites/default/files/styles/fotos_notas_mini/public/pipo-lassso-abririmg_4749.jpg?itok=152vZH3_" alt="" /><blockquote class="image-field-caption">
+  <!--smart_paging_autop_filter--><!--smart_paging_filter--><div class="autor" style="undefined">
+	<p>Fotos: Luis Argüello</p>
+</div>
+<div class="pie" style="undefined">
+	<p>Leonardo "Pipo" Laso es consultor político y asesor de comunicación política. Plantea que los actores políticos deben fortalecer su relación con los ciudadanos y así construir una agenda para salir de la crisis.</p>
+</div>
+<p> </p>
+</blockquote>
+</a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/historias/entrevistas/pipo-laso-alguien-tiene-que-convertir-la-indignacion-esperanza">Pipo Laso: &quot;alguien tiene que convertir la indignación en esperanza&quot;</a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-field-imagen">        <div class="field-content"><a href="/ideas/ideas/la-obligacion-imaginar"><img typeof="foaf:Image" src="http://www.planv.com.ec/sites/default/files/styles/fotos_notas_mini/public/fotos_autores/cristina-burneo-img_9162.jpg?itok=kuRzDy2T" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/ideas/ideas/la-obligacion-imaginar">La obligación de imaginar</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></nav>
+      </aside>
+    
+  </div> <!-- /#content-wrapper -->
+      <footer class="sg-35 clear" role="contentinfo">
+          <div id="block-menu-block-1" class="block block-menu-block odd" role="navigation">
+
+          <div class="menu-block-wrapper menu-block-1 menu-name-menu-menu-plan-v parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-555"><a href="/historias" class="historias">Historias</a></li>
+<li class="leaf menu-mlid-556"><a href="/investigacion" class="investigacion">Investigación</a></li>
+<li class="leaf menu-mlid-557"><a href="/miradas" class="miradas">Miradas</a></li>
+<li class="leaf menu-mlid-558 active"><a href="/ideas" class="ideas active">Ideas</a></li>
+<li class="leaf menu-mlid-561"><a href="/culturas" class="culturas">Culturas</a></li>
+<li class="last leaf menu-mlid-562"><a href="http://boletines.planv.com.ec/planv/subscribe.html" target="_blank">Suscripciones</a></li>
+</ul></div>
+</div>
+<div id="block-plan-v-barra-inferior" class="block block-plan-v even">
+
+          <div id='quienes_somos'><a href='/quienes-somos' class='quienes_somos' >Quiénes somos / Equipo Plan V</a><a href='mailto:redaccion@planv.com.ec' class='contactenos' >Contáctenos</a><a href='/' class='ir_al_home' >Ir al home</a><a href='#inicio_pagina' class='subir' >Subir</a></div></div>
+    </footer>
+  
+</div> <!-- /#wrapper -->
+  </body>
+</html>

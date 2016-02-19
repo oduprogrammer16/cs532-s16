@@ -1,0 +1,1446 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="alternate" type="application/rss+xml" title="Serendipity" href="http://gksmd.tistory.com/rss" />
+		<link rel="stylesheet" media="screen" type="text/css" href="http://ts.daumcdn.net/custom/blog/123/1239619/skin/style.css?_T_=1351689123" />
+		<link rel="stylesheet" media="print" type="text/css" href="http://ts.daumcdn.net/custom/blog/123/1239619/skin/images/print.css" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<title>Serendipity :: 하이큐 성지순례기</title>
+		<script type="text/javascript">
+		//<![CDATA[
+	  function updateDate(){
+		var elem = document.getElementById("userLocalDate");
+		if(elem){
+		  var now = new Date();
+		  var year = now.getFullYear();
+		  var month = now.getMonth() + 1;
+		  var date = now.getDate();
+		  month = (parseInt(month) < 10) ? "0" + month : month;
+		  date = (parseInt(date) < 10) ? "0" + date : date;
+		  elem.innerHTML = year + "." + month + "." + date;
+		}
+	  }
+		//]]>
+		</script>
+	<style type="text/css">
+#lightbox {
+	background-color: #eee;
+	padding: 10px;
+	border-bottom: 1px solid #666;
+	border-right: 1px solid #666;
+}
+#overlay {
+	text-align: left;
+	background-image: url(http://i1.daumcdn.net/cfs.tistory/resource/2017/blog/plugins/lightbox/images/overlay.png);
+}
+#lightboxCaption {
+	color: #333;
+	background-color: #eee;
+	font-size: 90%;
+	text-align: center;
+	border-bottom: 1px solid #666;
+	border-right: 1px solid #666;
+}
+* html #overlay {
+	background-color: #000;
+	background-image: url(http://i1.daumcdn.net/cfs.tistory/resource/2017/blog/plugins/lightbox/images/blank.gif);
+	filter: Alpha(opacity=50);
+}
+
+</style>
+<script src="http://s1.daumcdn.net/cfs.tistory/resource/2017/blog/plugins/lightbox/lightbox_plus_ope.js" type="text/javascript"></script>
+<script type="text/javascript">
+function loadlightbox() {
+	if(document.getElementById("lightbox").outerHTML) {}
+	else {
+	document.getElementById("lightbox").outerHTML = "";
+	document.getElementById("overlay").outerHTML = "";
+	}
+}
+addEvent(window,"load",function() {
+	var lightbox = new LightBox({
+		loadingimg:'http://i1.daumcdn.net/cfs.tistory/resource/2017/blog/plugins/lightbox/images/loading.gif',
+		expandimg:'http://i1.daumcdn.net/cfs.tistory/resource/2017/blog/plugins/lightbox/images/expand.gif',
+		shrinkimg:'http://i1.daumcdn.net/cfs.tistory/resource/2017/blog/plugins/lightbox/images/shrink.gif',
+		effectimg:'http://i1.daumcdn.net/cfs.tistory/resource/2017/blog/plugins/lightbox/images/zzoop.gif',
+		effectpos:{x:-40,y:-20},
+		effectclass:'effectable',
+		closeimg:'http://i1.daumcdn.net/cfs.tistory/resource/2017/blog/plugins/lightbox/images/close.gif'
+	});
+});
+</script>
+
+<style type="text/css">
+		#daumSearchBox {
+			height: 21px;
+			background-image : url(http://i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bg_search2_2.gif);
+			margin: 5px auto ;
+			padding: 0;
+		}
+		#daumSearchBox input {
+			background: none;
+			margin : 0;
+			padding : 0;
+			border : 0;
+		}
+		#daumSearchBox #daumLogo {
+			width: 34px;
+			height: 21px;
+			float: left;
+			margin-right: 5px;
+			background-image : url(http://i1.daumcdn.net/img-media/tistory/img/bg_search1_2_2010ci.gif);
+		}
+		#daumSearchBox #show_q {
+			background-color: transparent;
+			border: none;
+			font: 12px Gulim, Sans-serif;
+			color: #555;
+			margin-top: 4px;
+			margin-right: 15px;
+			float: left;
+		}
+
+		#daumSearchBox #show_btn {
+			background-image : url(http://i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bt_search_2.gif);
+			width: 37px;
+			height: 21px;
+			float: left;
+			margin:0;
+			cursor:pointer;
+			text-indent:-1000em;
+		}
+	</style>
+<link rel="stylesheet" type="text/css" href="http://s1.daumcdn.net/cfs.tistory/resource/2017/blog/plugins/TistoryProfileLayer/style.css" />
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2017/blog/plugins/TistoryProfileLayer/profile.js"></script>
+<script type="text/javascript">var asyncProfileItems = [];</script>
+	<style type="text/css">
+		.another_category { border: 1px solid #E5E5E5; padding: 10px 10px 5px; margin:10px 0; clear: both; }
+		.another_category h4 { font-size: 12px !important; margin: 0 !important; border-bottom: 1px solid #E5E5E5 !important; padding: 2px 0 6px !important; }
+		.another_category h4 a { font-weight: bold !important; }
+		.another_category table { table-layout: fixed; border-collapse: collapse; width: 100% !important; margin-top: 10px !important; }
+		* html .another_category table { width: auto !important; }
+		*:first-child+html .another_category table { width: auto !important; }
+		.another_category th, .another_category td { padding: 0 0 4px !important; }
+		.another_category th { text-align: left; font-size: 12px !important; font-weight: normal;  word-break: break-all; overflow: hidden; line-height: 1.5; }
+		.another_category td { text-align: right; width: 80px; font-size: 11px; }
+		.another_category th a { font-weight: normal; text-decoration: none; border: none !important; }
+		.another_category th a.current{ font-weight: bold; text-decoration: none !important; border-bottom: 1px solid !important; }
+		.another_category th span { font-weight: normal; text-decoration: none; font: 10px Tahoma, Sans-serif; border: none !important; }
+
+		.another_category_color_gray, .another_category_color_gray h4 { border-color: #E5E5E5 !important; }
+		.another_category_color_gray * { color: #909090 !important; }
+		.another_category_color_gray th a.current{border-color:#909090 !important;}
+		.another_category_color_gray h4, .another_category_color_gray h4 a { color: #737373 !important; }
+
+
+		.another_category_color_red, .another_category_color_red h4 { border-color: #F6D4D3 !important;  }
+		.another_category_color_red * { color: #E86869 !important; }
+		.another_category_color_red th a.current{border-color:#E86869 !important;}
+		.another_category_color_red h4, .another_category_color_red h4 a { color: #ED0908 !important; }
+
+
+		.another_category_color_green, .another_category_color_green h4 { border-color: #CCE7C8 !important; }
+		.another_category_color_green * { color: #64C05B !important; }
+		.another_category_color_green th a.current{border-color:#64C05B !important;}
+		.another_category_color_green h4, .another_category_color_green h4 a { color: #3EA731 !important; }
+
+
+		.another_category_color_blue, .another_category_color_blue h4 { border-color: #C8DAF2 !important; }
+		.another_category_color_blue * { color: #477FD6 !important; }
+		.another_category_color_blue th a.current{border-color:#477FD6 !important;}
+		.another_category_color_blue h4, .another_category_color_blue h4 a { color: #1960CA !important; }
+
+
+		.another_category_color_violet, .another_category_color_violet h4 { border-color: #E1CEEC !important;  }
+		.another_category_color_violet * { color:#9D64C5 !important; }
+		.another_category_color_violet th a.current{border-color:#9D64C5 !important;}
+		.another_category_color_violet h4, .another_category_color_violet h4 a { color: #7E2CB5 !important; }
+	</style>
+<script type="text/javascript">
+//<![CDATA[
+var servicePath = "";
+var blogURL = "";
+var s_trackbackUrlCopied = "엮인글 주소가 복사되었습니다";
+var s_trackbackUrlCopyFailed = "엮인글 주소를 복사하지 못했습니다";
+var SCRIPT_VERSION = '2017';
+//]]>
+</script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2017/blog/script/lib/jigu/jigu-latest.min.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2017/blog/script/T.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2017/blog/script/EAF2.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2017/blog/script/common.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2017/blog/script/gallery.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2017/blog/script/flash.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2017/blog/script/PHON.js"></script>
+<script type="text/javascript" src="http://s1.daumcdn.net/cfs.tistory/resource/2017/blog/script/swfobject.js"></script>
+<link rel="stylesheet" type="text/css" href="http://s1.daumcdn.net/cfs.tistory/resource/2017/blog/style/dialog.css" />
+<link rel="stylesheet" type="text/css" href="http://s1.daumcdn.net/cfs.tistory/resource/2017/blog/style/menubar.css"/><style type="text/css">.tt_article_useless_p_margin p {padding-top:0 !important;padding-bottom:0 !important;margin-top:0 !important;margin-bottom:0 !important;}</style>
+
+<!-- BEGIN OPENGRAPH -->
+<link rel="canonical" href="http://gksmd.tistory.com/entry/하이큐-성지순례기" /><meta property="og:type" content="article"><meta property="og:url" content="http://gksmd.tistory.com/entry/하이큐-성지순례기" ><meta property="og:site_name" content="Serendipity" ><meta property="og:title" content="하이큐 성지순례기" ><meta name="by" content="박하능" ><meta property="og:description" content="성지순례를 하려고 준비를 할 때 한글로 된 정보가 적어서 다소 힘들었습니다. 조금이라도 더 편하게 하이큐 팬들이 성지순례를 하셨으면 좋겠다는 마음에서 적습니다. 2016년 1월 말 기준으로 작성된 글입니다. 이후 변화내용이 반영되지 않으니 적절히 참고만 하시기 바랍니다. 하이큐의 배경이 된 곳은 '이와테현(岩手県) 카루마이마을(軽米町)'이다. 릿새님과 난 사실 '카루마이마을'을 전혀 모르고 일단 숙소부터 정했는데.." ><meta property="og:image" content="http://cfile3.uf.tistory.com/image/2741834456B89EFF2BE5F9" >
+<!-- END OPENGRAPH -->
+
+
+
+<!-- BEGIN TWITTERCARD -->
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="하이큐 성지순례기" ><meta name="twitter:description" content="성지순례를 하려고 준비를 할 때 한글로 된 정보가 적어서 다소 힘들었습니다. 조금이라도 더 편하게 하이큐 팬들이 성지순례를 하셨으면 좋겠다는 마음에서 적습니다. 2016년 1월 말 기준으로 작성된 글입니다. 이후 변화내용이 반영되지 않으니 적절히 참고만 하시기 바랍니다. 하이큐의 배경이 된 곳은 '이와테현(岩手県) 카루마이마을(軽米町)'이다. 릿새님과 난 사실 '카루마이마을'을 전혀 모르고 일단 숙소부터 정했는데.." ><meta property="twitter:image" content="http://cfile3.uf.tistory.com/image/2741834456B89EFF2BE5F9" >
+<!-- END TWITTERCARD -->
+
+
+
+<!-- BEGIN DAUMAPP -->
+<meta property="dg:plink" content="http://gksmd.tistory.com/327" ><meta name="plink" content="http://gksmd.tistory.com/327" ><meta name="title" content="하이큐 성지순례기" ><meta name="article:media_name" content="Serendipity" ><meta property="article:mobile_url" content="http://gksmd.tistory.com/m/post/entry/하이큐-성지순례기" ><meta property="article:pc_url" content="http://gksmd.tistory.com/entry/하이큐-성지순례기" ><meta property="article:mobile_view_url" content="http://gksmd.tistory.com/m/post/entry/하이큐-성지순례기" ><meta property="article:pc_view_url" content="http://gksmd.tistory.com/entry/하이큐-성지순례기" ><meta property="article:pc_service_home" content="http://www.tistory.com" ><meta property="article:mobile_service_home" content="http://www.tistory.com/m" ><meta property="article:txid" content="1239619_327" /><meta property="article:published_time" content="20160209020426" ><meta property="og:regDate" content="20160209020426" ><meta property="article:modified_time" content="20160209020646" >
+<!-- END DAUMAPP -->
+
+
+
+<!-- BEGIN GOOGLE -->
+<script type="application/ld+json">{"@context":"http://schema.org", "@type":"BlogPosting","mainEntityOfPage":{"@id": "http://gksmd.tistory.com/entry/하이큐-성지순례기"},"url":"http://gksmd.tistory.com/entry/하이큐-성지순례기","headline":"하이큐 성지순례기","description":"성지순례를 하려고 준비를 할 때 한글로 된 정보가 적어서 다소 힘들었습니다. 조금이라도 더 편하게 하이큐 팬들이 성지순례를 하셨으면 좋겠다는 마음에서 적습니다. 2016년 1월 말 기준으로 작성된 글입니다. 이후 변화내용이 반영되지 않으니 적절히 참고만 하시기 바랍니다. 하이큐의 배경이 된 곳은 '이와테현(岩手県) 카루마이마을(軽米町)'이다. 릿새님과 난 사실 '카루마이마을'을 전혀 모르고 일단 숙소부터 정했는데..","author":{"@type":"Person","name":"박하능"},"image":{"@type":"ImageObject","url":"http://cfile3.uf.tistory.com/image/2741834456B89EFF2BE5F9","width":"800px","height":"800px"},"datePublished":"20160209T02:04:26+09:00","dateModified":"20160209T02:06:46+09:00","publisher":{"@type":"Organization","name":"TISTORY","logo":{"@type":"ImageObject","url":"http://m1.daumcdn.net/svc/image/U03/common_icon/557567EA016E200001","width":"800px","height":"800px"}}}</script>
+<!-- END GOOGLE -->
+
+</head>
+	<body id="tt-body-page">
+<div id="overlay" style="display:none;position:fixed;top:0px;left:0px;z-index:150;width:100%;height:100%;"></div>
+<div id="lightbox" style="display:none;position:absolute;z-index:160;"></div>
+<div style="margin:0px; padding:0px; border:none; background:none; float:none; clear:none; z-index:0"></div>
+		
+<script type="text/javascript">
+//<![CDATA[
+	var TOP_SSL_URL = 'https://www.tistory.com';
+
+	function processShortcut(event) {
+			if (isIE)
+		{
+			event = window.event;
+			event.target = event.srcElement;
+		}
+
+		if (event.altKey || event.ctrlKey || event.metaKey)
+			return;
+		switch (event.target.nodeName) {
+			case "INPUT":
+			case "SELECT":
+			case "TEXTAREA":
+				return;
+		}
+		switch (event.keyCode) {
+			case 81: //Q
+
+				window.location = "/admin";
+				break;
+			case 83: //S
+				window.location = "/323";
+				break;
+			case 90: //Z
+				window.location = "#recentEntries";
+				break;
+			case 88: //X
+				window.location = "#recentComments";
+				break;
+			case 67: //C
+				window.location = "#recentTrackback";
+				break;
+		}
+	}
+	document.onkeydown = processShortcut;
+
+	function addComment(caller, entryId) {
+		var oForm = findFormObject(caller);
+		if (!oForm)
+			return false;
+		var request = new HTTPRequest("POST", oForm.action);
+		request.onSuccess = function () {
+			if(entryId == 0)
+				window.location = blogURL + "/guestbook";
+			else {
+				document.getElementById("entry" + entryId + "Comment").innerHTML = this.getText("/response/commentBlock");
+				if(document.getElementById("recentComments"))
+					document.getElementById("recentComments").innerHTML = this.getText("/response/recentCommentBlock");
+				if(document.getElementById("commentCount" + entryId))
+					document.getElementById("commentCount" + entryId).innerHTML = this.getText("/response/commentView");
+				if(document.getElementById("commentCountOnRecentEntries" + entryId))
+					document.getElementById("commentCountOnRecentEntries" + entryId).innerHTML = "(" + this.getText("/response/commentCount") + ")";
+			}
+			if(typeof window.needCommentCaptcha !== "undefined"){
+				captchaPlugin.init('complete');
+			}
+		}
+		request.onError = function() {
+			var description = this.getText("/response/description");
+			if (description) { alert(description); }
+		}
+		var queryString = "key=tistory";
+		var captchaInput = document.getElementById('inputCaptcha');
+		if (oForm["name"])
+			queryString += "&name=" + encodeURIComponent(oForm["name"].value);
+		if (oForm["password"])
+			queryString += "&password=" + encodeURIComponent(oForm["password"].value);
+		if (oForm["homepage"])
+			queryString += "&homepage=" + encodeURIComponent(oForm["homepage"].value);
+		if (oForm["secret"] && oForm["secret"].checked)
+			queryString += "&secret=1";
+		if (oForm["comment"])
+			queryString += "&comment=" + encodeURIComponent(oForm["comment"].value);
+		if (captchaInput) {
+			if (!captchaInput.value) {
+				alert('그림문자가 입력되지 않았습니다.');
+				return false;
+			}
+			queryString += "&captcha=" + encodeURIComponent(captchaInput.value);
+		}
+		request.send(queryString);
+	}
+	function commentRequireLogin() {
+		if(confirm("'Serendipity' 블로그에 댓글을 남기시려면 티스토리에 로그인하셔야 합니다. \n 지금 로그인하시겠습니까?")) {
+			window.location = "https://www.tistory.com/login/?requestURI=http%3A%2F%2Fgksmd.tistory.com%2F327";
+		} else {
+			window.focus();
+		}
+	}
+	function commentObserverForAuth(evetObj) {
+		var reex = /name|password|homepage|secret|comment/;
+		if (isIE)
+			var	name = evetObj.srcElement.name
+		else
+			var	name = evetObj.target.name
+		if(reex.test(name) && !(new RegExp("^entry\\d+password$").test(name))) {
+			commentRequireLogin();
+		}
+	}
+
+	STD.addEventListener(document);
+	document.addEventListener("click", commentObserverForAuth, false);
+	var openWindow='';
+	function alignCenter(win,width,height) {
+		if(navigator.userAgent.indexOf("Chrome") == -1)
+			win.moveTo(screen.width/2-width/2,screen.height/2-height/2);
+	}
+
+	function deleteComment(id) {
+		var width = 450;
+		var height = 360;
+				try { openWindow.close(); } catch(e) { }
+				openWindow = window.open("/comment/delete/" + id, "tatter", "width="+width+",height="+height+",location=0,menubar=0,resizable=0,scrollbars=0,status=0,toolbar=0");
+		openWindow.focus();
+		alignCenter(openWindow,width,height);
+	}
+
+	function commentComment(parent, guestbookPage) {
+		var width = 450;
+		var height = 360;
+				try { openWindow.close(); } catch(e) { }
+				openWindow = window.open("/comment/comment/" + parent + (guestbookPage ? "?guestbookPage=" + guestbookPage: ""), "tatter", "width="+width+",height="+height+",location=0,menubar=0,resizable=0,scrollbars=0,status=0,toolbar=0");
+		openWindow.focus();
+		alignCenter(openWindow,width,height);
+	}
+
+	function editEntry(parent,child) {
+		var width =  1169;
+		var height = 600;
+		if(openWindow != '') openWindow.close();
+		openWindow = window.open("/admin/entry/edit/" + parent + "?popupEditor&returnURL=CLOSEME","tatter", "width="+1169+",height="+600+",location=0,menubar=0,resizable=1,scrollbars=1,status=0,toolbar=0");
+		openWindow.focus();
+		alignCenter(openWindow,width,height);
+	}
+
+	function guestbookComment(parent) {
+		var width = 450;
+		var height = 360;
+				try { openWindow.close(); } catch(e) { }
+				openWindow = window.open("/comment/comment/" + parent, "tatter", "width="+width+",height="+height+",location=0,menubar=0,resizable=0,scrollbars=0,status=0,toolbar=0");
+		openWindow.focus();
+		alignCenter(openWindow,width,height);
+	}
+
+	function sendTrackback(id) {
+		var width = 700;
+		var height = 500;
+				try { openWindow.close(); } catch(e) { }
+				openWindow = window.open("/trackback/send/" + id, "tatter", "width=580,height=400,location=0,menubar=0,resizable=1,scrollbars=1,status=0,toolbar=0");
+				openWindow.focus();
+		alignCenter(openWindow,width,height);
+	}
+
+	function deleteTrackback(id,entryId) {
+		if (confirm("트랙백을 삭제하기 위해서는 로그인이 필요합니다.\n로그인 하시겠습니까?\t")) {
+			window.location = "https://www.tistory.com/login/";
+			return false;
+		} else {
+			return false;
+		}
+	}
+
+	function reloadEntry(id) {
+		var password = document.getElementById("entry" + id + "password");
+		if (!password)
+			return;
+		document.cookie = "GUEST_PASSWORD=" + encodeURIComponent(password.value) + ";path=";
+
+		window.location.href = window.location.href;
+	}
+	loadedComments = new Array();
+	loadedTrackbacks = new Array();
+	function viewTrigger(id, category, categoryId) {
+		var request = new HTTPRequest("GET", "/"+category+"/view/" + id);
+		var target = document.getElementById('entry'+id+(category == 'comment' ? 'Comment' : 'Trackback'));
+		if(target == null)
+			return false;
+		request.onSuccess = function() {
+			target.innerHTML = this.getText("/response/result");
+			target.style.display = 'block';
+			highlight();
+			category == 'comment' ? loadedComments[id] = true : loadedTrackbacks[id] = true;
+			if(categoryId > -1)
+				location = location.toString();
+			if(category == 'trackback') {
+				var holder = document.getElementById('TrackbackCopyHolder' + id);
+				if(holder) {
+					holder.innerHTML = AC_FL_RunContentNotWriteGetString(
+						'src','http://s1.daumcdn.net/cfs.tistory/resource/2017/blog/script/copyTrackback',
+						'Flashvars','url=http://gksmd.tistory.com/trackback/' + id + '&mode=whiteButton',
+						'width','29',
+						'height','18',
+						'id', 'TrackbackCopyButton' + id,
+						'wmode','transparent',
+						'allowScriptAccess','always',
+						'type','application/x-shockwave-flash',
+						'pluginspage','http://www.macromedia.com/go/getflashplayer'
+					);
+				}
+			}
+			if(typeof window.needCommentCaptcha !== "undefined"){
+				captchaPlugin.init();
+			}
+		}
+		request.onError = function() {
+			alert('실패 했습니다');
+		}
+		request.send();
+	}
+	function highlight() {
+		var hash = new RegExp("^#(comment\\d+)").exec(window.location.hash);
+		if(hash && (el = document.getElementById(hash[1])))
+			highlightElement(hash[1], 0, el.style.backgroundColor);
+	}
+	function highlightElement(id, amount, origColor) {
+		var el = document.getElementById(id);
+		if (!el) {
+			return;
+		}
+		el.style.backgroundColor = amount % 2 ? "#FFFF44" : origColor;
+		if (++amount < 7) {
+			setTimeout("highlightElement('" + id + "', " + amount + ", '" + origColor + "')", 200);
+		}
+	}
+	function toggleLayerForEntry(id, category, categoryId, mode) {
+		if((category == 'comment' ? loadedComments[id] : loadedTrackbacks[id])) {
+			try {
+				var obj = document.getElementById('entry'+id+(category == 'comment' ? 'Comment' : 'Trackback'));
+				if(mode == undefined)
+					obj.style.display = (obj.style.display == "none") ? "block" : "none";
+				else
+					obj.style.display = (mode == 'show') ? "block" : "none";
+			} catch (e) {
+
+			}
+			return true;
+		} else {
+			if(categoryId) {
+				viewTrigger(id,category, categoryId);
+			} else {
+				viewTrigger(id,category, -1);
+			}
+		}
+	}
+	function ObserverForAnchor(evetObj) {
+		var lo = location.toString();
+		var queryString = lo.substr(lo.lastIndexOf('/')+1);
+		if(queryString.indexOf('#')>-1) {
+			var qsElements = queryString.split('#');
+			if(qsElements[1].indexOf('comment')>-1) {
+				var category = 'comment';
+			} else if(qsElements[1].indexOf('trackback')>-1) {
+				var category = 'trackback';
+			}
+			if(category) {
+				entryid = qsElements[0];
+				categoryId = qsElements[1].substr(category.length);
+				toggleLayerForEntry(entryid,category,categoryId, 'show');
+			}
+		}
+	}
+
+	STD.addEventListener(window);
+	window.addEventListener("load", ObserverForAnchor, false);
+//]]>
+</script>
+<div style="margin:0px; padding:0px; border:none; background:none; float:none; clear:none; z-index:0"></div>
+
+			<div id="mid-bg">
+				<div id="main-bg">
+					<div id="container">
+					  <div id="header" class="wrapHeader">
+  						<div class="userDate">
+  							<span id="userLocalDate"></span>
+  						</div>
+  						<div id="searchBox">
+  							
+  								<input type="text" name="search" value="" onkeypress="if (event.keyCode == 13) { try{window.location.href='/search/' + looseURIEncode(document.getElementsByName('search')[0].value);document.getElementsByName('search')[0].value = ''; return false;}catch(e){} }" class="input" /><input value="검색" type="button" onclick="try{window.location.href='/search/' + looseURIEncode(document.getElementsByName('search')[0].value);document.getElementsByName('search')[0].value = ''; return false;}catch(e){}" class="submit"/>
+  							
+  						</div>
+  						<ul id="counter">
+  							<li class="total"><span>Total </span>11,348</li>
+  							<li class="today"><span>Today </span>19</li>
+  							<li class="yesterday"><span>Yesterday </span>113</li>
+  						</ul>
+			  <h1 id="title"><a href="/" onfocus="this.blur()">Serendipity</a></h1>
+  						<div class="blogMenu">
+  							<ul>
+  								<li class="tab_media"><a href="/media" title="MediaLog">MediaLog</a></li>
+  								<li class="tab_taglog"><a href="/tag" title="Tag">Tag</a></li>
+  								<li class="tab_localog"><a href="/location" title="LocationLog">LocationLog</a></li>
+  								<li class="tab_guestbook"><a href="/guestbook" title="Guestbook">Guestbook</a></li>
+  								<li class="tab_admin"><a href="/admin" title="Admin">Admin</a></li>
+  								<li class="tab_write"><a href="/admin/entry/post" title="Write">Write</a></li>
+  								<!-- <li class="tab_key"><a href="/keylog" title="KeyLog">KeyLog</a></li> -->
+  							</ul>
+  						</div>
+			 </div>
+						<div class="wrapBody">
+						  <div class="wrapContent">
+  							<div id="content">
+  							  <div class="content-head"></div>
+									<div class="content-main">
+  								
+  								
+  								
+  								
+  								
+  								
+  								
+  								
+										<div class="entry">
+											<div class="titleWrap">
+												<h2><a href="/entry/하이큐-성지순례기">하이큐 성지순례기</a></h2>
+						<div class="articleDescWrap">
+						  <div class="articleDesc">
+							<span class="category"><a href="/category/">분류없음</a></span> |
+							<span class="date">2016.02.09 02:04</span>
+						  </div>
+						  <div class="author">
+							<span class="text">Posted by </span>박하능
+						  </div>
+						</div>
+					  </div>
+											
+											<div class="article">
+												<div class="tt_article_useless_p_margin"><P>&nbsp;</P>
+<P style="TEXT-ALIGN: center"><SPAN style="FONT-SIZE: 11pt; COLOR: #ff5e00">성지순례를 하려고 준비를 할 때 한글로 된 정보가 적어서 다소 힘들었습니다.</SPAN></P>
+<P style="TEXT-ALIGN: center"><SPAN style="FONT-SIZE: 11pt; COLOR: #ff5e00">조금이라도 더 편하게 하이큐 팬들이 성지순례를 하셨으면 좋겠다는 마음에서 적습니다.</SPAN></P>
+<P style="TEXT-ALIGN: center"><SPAN style="FONT-SIZE: 11pt; COLOR: #ff5e00">2016년 1월 말 기준으로 작성된 글입니다.</SPAN></P>
+<P style="TEXT-ALIGN: center"><SPAN style="FONT-SIZE: 11pt; COLOR: #ff5e00">이후 변화내용이 반영되지 않으니 적절히 참고만 하시기 바랍니다.</SPAN></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt">하이큐의 배경이 된 곳은 '이와테현(岩手県) 카루마이마을(</SPAN><SPAN style="FONT-SIZE: 10pt">軽米町)'이다. </SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">릿새님과 난 사실 '카루마이마을'을 전혀 모르고 일단 숙소부터 정했는데 바로 '오보나이 료칸'.</SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">이곳은&nbsp;하이큐 팬이 예약을 하면 방을 하이큐 굿즈로 도배해준다고 소문난 곳이었다.</SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">(주소 : おぼない旅館, 일본 〒028-5711 Iwate Prefecture, Ninohe, Kintaichi, Yuda−43−5)</SPAN></P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt">도쿄에서 이와테현까지 가는 방법은 크게 두 가지가 있다. </SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">하나는 신칸센이고 다른 하나는 버스다.</SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">&nbsp;*&nbsp;신칸센 예약페이지 - <A class=tx-link href="https://www.eki-net.com/" target=_blank>https://www.eki-net.com</A> </SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">&nbsp;* 야간버스 예약페이지 - <A href="http://www.orion-bus.jp/">http://www.orion-bus.jp</A></SPAN></P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt">신칸센은 편도 3시간, 15만원 정도가 들고,&nbsp; 야간버스는 편도 8시간, 3만원 정도가 든다.(이와테현까지)</SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">우리는 늙은 몸이라 야간버스를 버리고 신칸센을 선택했다. </SPAN></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt">도쿄에서 오보나이 료칸까지의 경로는 다음과 같다.</SPAN></P>
+<P>&nbsp;</P>
+<P><span class="imageblock" style="display:inline-block;width:686px;;height:auto;max-width:100%"><span dir="http://cfile3.uf.tistory.com/original/2741834456B89EFF2BE5F9" rel="lightbox" target="_blank"><img src="http://cfile3.uf.tistory.com/image/2741834456B89EFF2BE5F9" style="cursor: pointer;max-width:100%;height:auto" width="686" height="492"  /></span></span></P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt">여긴 우에노부터나왔지만...신칸센을 탈수있는 역이면 어디든 상관없다. 뭐 간단하게 말하면</SPAN></P>
+<P>&nbsp;</P>
+<P style="TEXT-ALIGN: center"><STRONG><SPAN style="FONT-SIZE: 10pt; COLOR: #0055ff">우에노&nbsp;-(도호쿠신칸센) -&gt; 니노헤역 -(카루마이병원행 버스) -&gt; 온천센터 -(걸어서) -&gt; 오보나이 료칸</SPAN></STRONG></P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt">총 4시간이 조금 더 넘게 걸리는 경로다. </SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">구글 지도를 검색하면 아주 자세하게 시간까지 잘 나오니 구글지도를 이용하면 좋을듯하다.</SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">조금 조심해야할건 지금부터 몇번이고 얘기할거 같은데 '버스'다</SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">이곳은 시골이더라...난 도시서 커서 시골에 버스 배차를 체험한 적이 없었는데 제대로 체험하고 왔다.</SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">버스 배차시간까지 고려해서 신칸센 시간을 잡는게 좋을 듯하다. </SPAN></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt">이렇게 오랜시간을 달려달려 도착한 오보나이 료칸! </SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">그곳에서 우리는 천국을 보았다.</SPAN></P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:685px;;height:auto;max-width:100%"><span dir="http://cfile30.uf.tistory.com/original/2537284D56B8C6E311036E" rel="lightbox" target="_blank"><img src="http://cfile30.uf.tistory.com/image/2537284D56B8C6E311036E" style="max-width:100%;height:auto" width="685" height="473" /></span></span></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt">진짜 옆에 료칸 주인분이 계셔서 발작을 못하는 바람에 감정을 억누르느라 오히려 딱딱한 표정과 목소리가 흘러나왔다.</SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">후... 여긴 최고야ㅠㅠㅠㅠ....</SPAN></P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt">주인분이 나가자마자 릿새님이랑 발작좀 하고. 셔터 누르고 트위터에 자랑하고 하다가 </SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">다소 진정하며 코타츠에 앉아서 다음 진로를 찾아보기 시작했다. </SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">아직 2시 정도여서 성지순례지에 다녀올 수 있지 않을까? 라는 생각이었다.</SPAN></P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt">그때서야 우리는 <STRONG><SPAN style="COLOR: #0055ff"><SPAN style="FONT-SIZE: 11pt">'카루마이 마을'이 </SPAN></SPAN><SPAN style="FONT-SIZE: 11pt; COLOR: #0055ff">성지순례지</SPAN></STRONG>라는걸 알게되었는데(no준비) </SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">당연히 숙소에서 가까울거라 생각했던 그곳은 숙소에서 무려 30-40분정도 버스를 타고 가야하는 곳이었다. </SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">그것까진 괜찮았다. 아직 2시인걸.</SPAN></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt">그러나 괜찮지 않았다. </SPAN></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:686px;;height:auto;max-width:100%"><span dir="http://cfile8.uf.tistory.com/original/240E614656B8A26B2B3427" rel="lightbox" target="_blank"><img src="http://cfile8.uf.tistory.com/image/240E614656B8A26B2B3427" style="cursor: pointer;max-width:100%;height:auto" width="686" height="379"  /></span></span></P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt">배차시간이....아주 괜찮지 않았다...</SPAN></P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt">심지어 카루마이마을에서 오보나이료칸으로 오는 막차 버스가 4시 40분인가? 쯤에 있다... </SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">이건 뭐 가자마자 돌아와야할 상황. </SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">일단 오늘 가는건 포기했다. 게다가 내일도 아침 일찍 출발해야 할 상황. </SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">위에 있는 4대의 버스는 평일의 배차시간이고 우리가 갔던 주말은 10시타임 버스가 없다. </SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">결국 우리는 오전 7시반 버스를 타기로 결정! </SPAN></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt">* 참고로 오보나이 료칸 주변은 뭐 먹을 곳이 별로 없다고 한다. 심지어 편의점도 차타고 나가야 한다.</SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">&nbsp; 우리는 점심을 못먹어서 편의점에 갈 수 있을까? 여쭤봤더니 옆집 아주머니께 부탁해 차 태워주심..ㅋㅋㅋㅋ</SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">&nbsp; 외국에 와서 차 얻어탈줄은 상상도 못했기에 엄청 신기했다. </SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">&nbsp; 이와테 현은 진짜 시골이라 차 없이 움직이기 상당히 힘들다~ </SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">&nbsp; 운전가능하신 분은 렌트해서 운전하는 것도 좋을듯. 니노헤역에 렌트하는 곳 있었다.</SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">&nbsp; 오보나이료칸의 저녁과 아침도 꽤 맛있다. 그냥 료칸 밥 먹는것도 좋은 선택일듯</SPAN></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt">다음날 아침 버스를 타고 카루마이 마을로 향했다. </SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">눈쌓인 도로를 달리면서 산을 몇개나 넘는데 히나타가 매일 자전거로 넘는 산이 이산인가~ 라는 생각이 떠오르더라.</SPAN></P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt">드디어 카루마이 마을 도착!! </SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">성지순례가 시작되었다.(아침8시15분)</SPAN></P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt">성지순례 장소는 구글링해서 발견한 이 페이지의 자료를 주로 활용하였다.</SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt"><A href="https://seichimap.jp/spots?q=%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%EF%BC%81%EF%BC%81">https://seichimap.jp/spots?q=%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%EF%BC%81%EF%BC%81</A></SPAN></P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt; COLOR: #0055ff"><STRONG>*지금부터 나오는 사진들은 전부 '릿새님'의 작품입니다! 릿새님 땡스! 아이폰 땡스!</STRONG></SPAN></P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:686px;;height:auto;max-width:100%"><span dir="http://cfile24.uf.tistory.com/original/2175FC3656B8AEE3110B6E" rel="lightbox" target="_blank"><img src="http://cfile24.uf.tistory.com/image/2175FC3656B8AEE3110B6E" style="cursor: pointer;max-width:100%;height:auto" width="686" height="610"  /></span></span></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt">우리가 여행오기 1주일전 폭설이내린 덕에 애니에서 나오지 않은 카라스노 마을의 모습을 볼수있었다....ㅠ</SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">너무 추워서 덜덜 떨면서 돌아다녔다.</SPAN></P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt">처음 간 곳은 지도에 적지 않았는데...사실 뭐한 곳인지 잘 모르겠어서 패스했다.</SPAN></P>
+<P><SPAN style="FONT-SIZE: 11pt"><STRONG><SPAN style="COLOR: #0055ff">그리고 두번째로 간 곳이 마츠하시 상점!&nbsp; 카루마이 마을의 유일한 서점이라고 했다.</SPAN></STRONG></SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">아침에도 열려있어서 어찌나 다행이었는지. </SPAN></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:681px;;height:auto;max-width:100%"><span dir="http://cfile5.uf.tistory.com/original/240DA73656B8B58F119FC6" rel="lightbox" target="_blank"><img src="http://cfile5.uf.tistory.com/image/240DA73656B8B58F119FC6" style="max-width:100%;height:auto" width="681" height="475" /></span></span></P>
+<P><SPAN style="FONT-SIZE: 10pt">후루다테쌤 친필 싸인이 전시되어 있었다.</SPAN></P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt"><span class="imageblock" style="display:inline-block;width:628px;;height:auto;max-width:100%"><span dir="http://cfile27.uf.tistory.com/original/255B993456B8B5771950B2" rel="lightbox" target="_blank"><img src="http://cfile27.uf.tistory.com/image/255B993456B8B5771950B2" style="max-width:100%;height:auto" width="628" height="439" /></span></span></SPAN></P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 10pt">서점 곳곳에 하이큐 관련 굿즈가 전시되어 있었는데 일부는 비매품이었다.</SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt">생각보다 굿즈 가격이 싸서 본의아니게 여기서 이것저것 질러버림.</SPAN></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><SPAN style="FONT-SIZE: 11pt"><STRONG><SPAN style="COLOR: #0055ff">그다음으로 시마다 마트의 모델인 타케사와 스토어에 갔다.</SPAN></STRONG></SPAN></P>
+<P><SPAN style="FONT-SIZE: 10pt"><span class="imageblock" style="display:inline-block;width:685px;;height:auto;max-width:100%"><span dir="http://cfile5.uf.tistory.com/original/240D9F3C56B8B536219C2B" rel="lightbox" target="_blank"><img src="http://cfile5.uf.tistory.com/image/240D9F3C56B8B536219C2B" style="max-width:100%;height:auto" width="685" height="484" /></span></span></SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:683px;;height:auto;max-width:100%"><span dir="http://cfile22.uf.tistory.com/original/251EB73C56B8B53511F254" rel="lightbox" target="_blank"><img src="http://cfile22.uf.tistory.com/image/251EB73C56B8B53511F254" style="max-width:100%;height:auto" width="683" height="475" /></span></span></P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">확실히 시마다 마트의 배경이 되는 곳이라 그런지 시마다와 야마구치 중심으로 꾸며져 있어서 재미있었다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">너무 추었기 때문에 따땃한 음료수 한잔씩 홀짝홀짝.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">정문쪽에는 야마구치와 츠키시마 등신대가 있어서 얼굴에 철판깔고 열심히 사진찍었다///</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">얼음 밟고 넘어지지 않게 조심조심하며 시민체육관으로 이동!</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 11pt"><STRONG><SPAN style="COLOR: #0055ff">시민체육관은 중3때 히나타와 카게야마가 처음 경기한 곳이다.</SPAN></STRONG></SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:684px;;height:auto;max-width:100%"><span dir="http://cfile8.uf.tistory.com/original/267D503956B8B69A20A678" rel="lightbox" target="_blank"><img src="http://cfile8.uf.tistory.com/image/267D503956B8B69A20A678" style="max-width:100%;height:auto" width="684" height="474" /></span></span></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:683px;;height:auto;max-width:100%"><span dir="http://cfile7.uf.tistory.com/original/2663D13956B8B69B370049" rel="lightbox" target="_blank"><img src="http://cfile7.uf.tistory.com/image/2663D13956B8B69B370049" style="max-width:100%;height:auto" width="683" height="472" /></span></span></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">눈이 쌓여있어서 애니의 느낌은 좀 나지 않아서 아쉬웠다. </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">시민체육관 안에 살짝 들어가 보았더니 중학교 테니스 경기가 진행중이었다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">뒤에 서있는 같은 학교 팀원들의 응원이 재밌었다. 실수하면 "쯔기 간바~(다음번에 힘내~)" 라는데 귀욤.. </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt"><STRONG><SPAN style="COLOR: #0055ff">바로&nbsp;이 시민체육관쪽</SPAN><SPAN style="COLOR: #0055ff">에서</SPAN><SPAN style="COLOR: #0055ff">&nbsp;신젠 고교의 배경이 되는 카루마이중학교를 찍어야 만화책의 장면이 나온다.</SPAN></STRONG></SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt"><span class="imageblock" style="display:inline-block;width:684px;;height:auto;max-width:100%"><span dir="http://cfile30.uf.tistory.com/original/2664243456B8B77517BA7C" rel="lightbox" target="_blank"><img src="http://cfile30.uf.tistory.com/image/2664243456B8B77517BA7C" style="max-width:100%;height:auto" width="684" height="471" /></span></span></SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">여기서 리에프가 뛰어나와서 "히나타~ 키컸어~?"하는 그 장면이 나왔던거 같은데..</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">처음에 모르고 카루마이 중학교까지 걸어올라갔다. </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">주말인데도 무슨 행사가 있는지 학생들이 막 모여있더라.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">처음 보는 얼굴인 우리를 보면서 뭔가 수근거렸는데 아마 '하이큐 팬이 또왔네'정도가 아니었을까 ㅋㅋㅋ </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">다시 걸어걸어 가다가 어랏? 뭔가 익숙한 상점 발견</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt"><STRONG><SPAN style="FONT-SIZE: 11pt; COLOR: #0055ff">사카노시타 상점의 모델인 곳!</SPAN></STRONG></SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">이름도 모른다..간판이 없는걸;;;;</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:683px;;height:auto;max-width:100%"><span dir="http://cfile30.uf.tistory.com/original/217EFD3756B8B84C04E822" rel="lightbox" target="_blank"><img src="http://cfile30.uf.tistory.com/image/217EFD3756B8B84C04E822" style="max-width:100%;height:auto" width="683" height="473" /></span></span></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">사실 여기 들어가서 중화만두를 사먹고 싶었다...고기만두랑 카레만두..</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">근데 안팔더라...ㅠㅠ</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">가리가리군은 있었다. 그치만 너무 추워서 먹을수가 없었다 ㅠㅠ </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">바로 이 상점 앞의 삼거리가 하이큐 1기에서 삼학년들이 등교하다가 딱 마주친 장소다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:488px;;height:auto;max-width:100%"><span dir="http://cfile3.uf.tistory.com/original/215F013756B8B84E1F7C35" rel="lightbox" target="_blank"><img src="http://cfile3.uf.tistory.com/image/215F013756B8B84E1F7C35" style="max-width:100%;height:auto" width="488" height="603" /></span></span></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">여기서 아사히가 감상에 젖은 이야기하려다가 스가랑 다이치한테 츳코미 당하는...</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">이런 관계인 너희들이 난 참 정말로 좋아 ㅠ///ㅠ</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">저기보이는 오르막길을 올라가면 드디어!! 대망의!!</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt"><STRONG><SPAN style="FONT-SIZE: 11pt; COLOR: #0055ff">카라스노 고등학교 배경인 카루마이 고등학교</SPAN></STRONG></SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">고등학교로 올라가는 오르막길을 걸어가고 있는데 왠 여고생 두명이 우리를 스쳐내려가면서 인사를 했다;;;</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">뭐뭐지.. 하이큐 팬인가봐~하면서 인사하는걸까...상냥해..</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:683px;;height:auto;max-width:100%"><span dir="http://cfile8.uf.tistory.com/original/2107CC3C56B8B941330387" rel="lightbox" target="_blank"><img src="http://cfile8.uf.tistory.com/image/2107CC3C56B8B941330387" style="max-width:100%;height:auto" width="683" height="476" /></span></span></P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">애니에서 등굣길에 이 장면이 나왔는데 </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">눈때문에 학교명이 적힌 돌이 덮혀있어서 </SPAN><SPAN style="FONT-SIZE: 10pt">우린 훨씬더 올라갔다가 되돌아왔었다..</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">그냥 학교 보이자마자 들어가면 된다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">다행히 주말이라 학생들이 없어서 학교 안에 들어갈 수 있었다. 평일에는 좀 어렵지 않을까.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">정문으로 들어가 저기보이는 건물의 오른쪽을 돌아가면 아아아주 익숙한 풍경을 만날 수 있다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt"><span class="imageblock" style="display:inline-block;width:683px;;height:auto;max-width:100%"><span dir="http://cfile27.uf.tistory.com/original/2415423C56B8B943234A97" rel="lightbox" target="_blank"><img src="http://cfile27.uf.tistory.com/image/2415423C56B8B943234A97" style="max-width:100%;height:auto" width="683" height="472" /></span></span></SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">이거 보자마자 환호 지를뻔...</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P><span class="imageblock" style="display:inline-block;width:682px;;height:auto;max-width:100%"><span dir="http://cfile30.uf.tistory.com/original/2611503C56B8B94528CC1E" rel="lightbox" target="_blank"><img src="http://cfile30.uf.tistory.com/image/2611503C56B8B94528CC1E" style="max-width:100%;height:auto" width="682" height="481" /></span></span> 
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">아...너무나 익숙한 모습 ㅠㅠㅠㅠㅠㅠㅠㅠㅠ금방이라도 카라스노 얘들이 튀어나올거 같았다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">저 눈덮힌 계단을 밟고 올라가 2층까지 가봤다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">배구부가 있었는데 여자배구부밖에 없더라...뭔가 아쉽.. </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt"><span class="imageblock" style="display:inline-block;width:684px;;height:auto;max-width:100%"><span dir="http://cfile2.uf.tistory.com/original/260B503C56B8B9442E94F1" rel="lightbox" target="_blank"><img src="http://cfile2.uf.tistory.com/image/260B503C56B8B9442E94F1" style="max-width:100%;height:auto" width="684" height="475" /></span></span></SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:680px;;height:auto;max-width:100%"><span dir="http://cfile9.uf.tistory.com/original/26149B3C56B8B94227D056" rel="lightbox" target="_blank"><img src="http://cfile9.uf.tistory.com/image/26149B3C56B8B94227D056" style="max-width:100%;height:auto" width="680" height="477" /></span></span></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">만화책과 다소 다르긴 하지만 체육관으로 들어가는 통로! </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">여기를 볼 때마다 1기 오프닝에 3학년들의 뒷모습이 떠올라서 왠지 찡해진다/// </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">주말인데도 체육관 안에서 운동하는 학생들의 소리가 났다. </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">과연 일본의 운동부는 주말도 빡세구나.. </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">이까지 돌아보고 나니 거의 12시가 다 되어갔다. 무려 4시간을 돌아다닌거!!!</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">춥고 배고파서 <SPAN style="FONT-SIZE: 11pt"><STRONG><SPAN style="COLOR: #0055ff">후루다테 선생님의 부모님이 운영한다는 소바가게</SPAN></STRONG></SPAN>를 가기로 했다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">사실 이때까지 우리는 소바가게가 식당인줄 알았다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">그런데 막상 가보니 그냥 면을 파는 가게였다 ㅎㅎㅎ </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">곳곳에 후루다테선생님의 친필 싸인들이 전시되어 있었는데 너무 귀엽더라///</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:686px;;height:auto;max-width:100%"><span dir="http://cfile2.uf.tistory.com/original/277FCB3756B8BB3C0C6A3F" rel="lightbox" target="_blank"><img src="http://cfile2.uf.tistory.com/image/277FCB3756B8BB3C0C6A3F" style="cursor: pointer;max-width:100%;height:auto" width="686" height="513"  /></span></span></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:511px;;height:auto;max-width:100%"><span dir="http://cfile28.uf.tistory.com/original/256DAD3756B8BB3D1BA102" rel="lightbox" target="_blank"><img src="http://cfile28.uf.tistory.com/image/256DAD3756B8BB3D1BA102" style="max-width:100%;height:auto" width="511" height="677" /></span></span></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"></P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">소바를 먹는다1! 는 목표를 상실하는 바람에 릿새님이랑 같이 어버버 하다가 용기를 내어 어머니께 말을 걸었다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">하이큐 팬이라서 방문했다고 정말 재밌게 보고 있다고 말씀드렸더니 어머니는 꽃처럼 웃으시며 고맙다고 말씀하셨다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">마침 어머니께서 앞치마에 스가 뱃지를 하고 계시길래 최애가 누군지 여쭤보았다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">어머니께서는 모든 캐릭터가 다 좋긴한데 히나타와 카게야마의 위기를&nbsp;타나카가 선배 역할을 제대로 해줘서 이끌어 준것이 좋다고 하셨다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">하이큐가 방송되면서 출근 전 날이라 힘들었던 일요일이 행복한 일요일이 되었다고 말씀드렸다. </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">역시 미소지으며 어머니께서는 "자식바보는 아니지만 사실 저도 점프가 월요일날 발매가 되어서 한주의 시작으로 힘들었던 월요일이 힘을 받는 요일이 되었어요"라고 하시는데 왤케 귀여우신지1!!! 크으으</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">식당을 여쭤봤더니 주말이라 대개 닫았을&nbsp;거라며 어머니네 가게에서 면을 납품하는 라멘가게를 알려주셨다. </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">상당히 걸어야한다고 하시길래 감사의 인사를 전하고 당당히 빠져나왔다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">그리고 우린 가게를 못찾았다.....</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">돌아가는 버스는 2시간정도 남았고 배는 고프고 춥고 열린 가게는 없고</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">우린 매우 고통스러웠다 ㅠㅠㅠㅠㅠ </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">일단 열린 상점에 들어가 식당을 여쭤보았다. </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">할아버지께서 갸웃거리더니 아들을 부르셨고, 그분은 지도책까지 꺼내서 알려주시더라...</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">이 친절함이란..!!</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">지도를 보니 식당의 위치를 알게되었는데 한 20분은 걸어야 될거리..ㅠㅠ</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">일단 가보자고 하고 걸어가던 도중 릿새님이 외쳤다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">&nbsp;"한님 이것봐!"</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">&lt;이것&gt;</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:686px;;height:auto;max-width:100%"><span dir="http://cfile21.uf.tistory.com/original/2502093A56B8BD350BC2E8" rel="lightbox" target="_blank"><img src="http://cfile21.uf.tistory.com/image/2502093A56B8BD350BC2E8" style="cursor: pointer;max-width:100%;height:auto" width="686" height="518"  /></span></span></P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">커다랗게 &lt;하이큐-!!&gt;라고 적힌 게시판이 앞에 나와있더라!</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">이게 뭐야? 하면서 릿새님과 기웃기웃거리고 있는데 갑자기 건물안에서 마르고 키큰 남자분이 나오셨다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">"하이큐 팬?" </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">고개를 끄덕거리니 활짝 웃으시며 들어오라고 하시더라</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">따라들어간 곳에서 우리가 본 것은 바로 이것1!</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:686px;;height:auto;max-width:100%"><span dir="http://cfile21.uf.tistory.com/original/271F033A56B8BD37304B89" rel="lightbox" target="_blank"><img src="http://cfile21.uf.tistory.com/image/271F033A56B8BD37304B89" style="cursor: pointer;max-width:100%;height:auto" width="686" height="514"  /></span></span></P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:682px;;height:auto;max-width:100%"><span dir="http://cfile26.uf.tistory.com/original/225CC04A56B8C89E1C9A33" rel="lightbox" target="_blank"><img src="http://cfile26.uf.tistory.com/image/225CC04A56B8C89E1C9A33" style="max-width:100%;height:auto" width="682" height="476" /></span></span></P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">아 멋있다 정말 멋있다1!</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">알고보니 이분은 (아마도 개인적으로) 하이큐 성지순례를 온 사람들을 안내해주는 일을 하고 계셨다.</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">성지순례 지도도 있고 각 성지순례지 사진도 있어서 우리한테 안가본데 있냐고 보여주셨다.</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">사진을 뒤적거리다가 눈에 띈 것이 '히나타가 작은거인을 본 전파상' 이랑 '히나타랑 켄마가 처음만난 곳'</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">마침 전파상은 바로 옆이라 금방 갔다왔고...히나타랑 켄마가 만난 곳이 문제였다. </P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">우리가 먹으러 가려고 했단 라멘집 근처였는데 역시나 상당히 멀었다. </P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><span class="imageblock" style="display:inline-block;width:686px;;height:auto;max-width:100%"><span dir="http://cfile26.uf.tistory.com/original/2564B94B56B8BFD301B178" rel="lightbox" target="_blank"><img src="http://cfile26.uf.tistory.com/image/2564B94B56B8BFD301B178" style="cursor: pointer;max-width:100%;height:auto" width="686" height="423"  /></span></span></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">2시 버스를 타려니 저기까지 갔다오기는 무리네- 그다음 버스는 4시 40분인데 그건 싫은데-</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">하면서 릿새님과 그냥 돌아갈 생각을 하고 있던 찰라</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">그 남자분(이하 타나카선배. 오보나이료칸 주인분께서 이분을 타나카 선배라 부르셨다)이 갑자기 말씀하셨다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">"내가 데려다 줄게!"</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">....?? </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">머리에 물음표가 많이 뜨는게... 왜 이러시지? 라는 의심부터 생기는 팍팍한 도시소녀(..)들 </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">차로 태워준대니 슬쩍 겁도 났다. 이래도 되나? 싶기도했다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">근데. </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">이래도 되더라.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">진짜 이분은 완전 좋은 마음으로 하이큐 팬들에게 하이큐 배경이 되는 곳을 보여주고 싶다는 생각 아래 움직이시는 듯했다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">우선 라멘집앞에 내려주시더니 다른 팬이 올지도 몰라 가게를 비우면 안되니 1시간 뒤에 오겠다고 하셨다. </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">괜찮다고 우리가 알아서 가겠다고 하니 켄마랑 히나타 만난곳도 봐야하니 태워주시겠다고...</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">그리고 1시간 뒤 그분은 우릴 데리러 오셨고. <STRONG><SPAN style="FONT-SIZE: 11pt; COLOR: #0055ff">켄마랑 히나타가 만난 곳</SPAN></STRONG> 에 데려다 주셨다...ㅠㅠ</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:686px;;height:auto;max-width:100%"><span dir="http://cfile1.uf.tistory.com/original/242FC84D56B8C1170C6219" rel="lightbox" target="_blank"><img src="http://cfile1.uf.tistory.com/image/242FC84D56B8C1170C6219" style="cursor: pointer;max-width:100%;height:auto" width="686" height="511"  /></span></span></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">눈덮혀서 솔직히 그냥 지나갔으면&nbsp;전혀 못 알아볼 곳이었다..ㅎㅎㅎ </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">저 앞은 개인 주택이라 들어가면 안된다더라.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">또 릿새님과 나는 덕심을 발휘해서 눈더미에도 불구하고 들어가서 켄마 포즈로 사진 찰칵찰칵</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">우리를 흐뭇하게 보시던 타나카 선배는 마지막으로 우릴 태우더니 '코타츠 아줌마네'에 데리고 갔다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">도대체 거기가 어딘지도 모른채 우린 '코타츠 아줌마네'에 배송되었다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">타나카 선배가 어느집 문을 열자마자 통통한 얼굴의 아주머니께서 나오시더니 우릴 보자마자 '역시!!'라고 외치셨다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">알고보니 어제 니노헤 역에서 오보나이 료칸으로 가는 버스에 같이 타셨단다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">젊은 여자 둘이 캐리어 끌고 버스타는거 보면서 '저거저거 하이큐 팬일거같은데~ 말걸어볼까?'생각하셨으나..</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">어차피 내일 만날거같구만! 하며 말걸지 않으셨댄다 ㅋㅋㅋㅋㅋ 선견지명!!</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">내가 릿새님을 정말 사진사로 끌고다녔는지 아주머니는 릿새님을 '사진찍는 아이'로 기억하셨다 ㅋㅋㅋ </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">그분은 일명 '난파 아주머니'(난파-젊은 남성이 거리에서 처음 본 여성에게 데이트를 신청하는 행동을 일컫는 일본말) </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">하이큐 성지순례자가 지나가고 있으면 "어이~ 하이큐상~"하면서 집에 데리고오신댄다 ㅎㅎㅎ</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">방에 들어가니 아저씨도 계셨다. 두분은 자꾸자꾸 우리에게 먹을걸 권하셨다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:506px;;height:auto;max-width:100%"><span dir="http://cfile5.uf.tistory.com/original/2371E14856B8C3901544E7" rel="lightbox" target="_blank"><img src="http://cfile5.uf.tistory.com/image/2371E14856B8C3901544E7" style="max-width:100%;height:auto" width="506" height="672" /></span></span></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:686px;;height:auto;max-width:100%"><span dir="http://cfile24.uf.tistory.com/original/22029D4856B8C3920973A8" rel="lightbox" target="_blank"><img src="http://cfile24.uf.tistory.com/image/22029D4856B8C3920973A8" style="cursor: pointer;max-width:100%;height:auto" width="686" height="514"  /></span></span></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">아주머니와 아저씨 부부의 코타츠에서 많은 이야기를 나누었다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">하이큐가 뜨면서 시골마을인 카루마이 마을에 매일같이 외부 사람들이 놀러오기 시작했다고 한다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">본인들은 평생 이곳에서 살았는데 정말 다양한 사람들을 만날 수 있어서 즐겁다고 하셨다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">몇 달전엔 히로시마에서 팬이 왔고, 얼마전엔 베트남에서 하이큐 팬이 왔다고 한다. </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">매년 이곳을 찾는 하이큐 팬도 있댄다. 그 팬들은 이미 두분의 자식처럼 "엄마~ 나왔어~"하면서 들어온다고 한다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">하이큐 코스를 하고 와서 옆마을의 초등학교 배구부 얘들과 놀다간 팬도 있단다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">이상하게 하이큐 팬들은 다들 착하다고 말씀하셨다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">그런 만남들이 너무 재밌다고, 우리가 어떻게 인연을 맺여 이렇게 만나겠냐고 말씀하시는데 마음이 따듯해졌다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">길 줄 알았던 1시간반은 금방 지나갔다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">하이큐라고 하면 주인공인 히나타와 카게야마 이름밖에 모르면서도 팬들과 인사하고 소통하는 두분 덕에 너무 즐거웠다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">4시40분 막차를 타러 버스정류소에 가는데도 이분들이 배웅을 해주며...지나가는 여러 마을사람한테 우리를 소개시켜줬다 ㅋㅋㅋㅋㅋ </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">아..뭔가 웃겼다 정말 ㅋㅋㅋㅋㅋㅋ </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">이와테현은 마지막까지 우리에게 상냥했다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">돌아가는 날 아침 오보나이 료칸에서는 버스가 있는 킨다이치 역까지 우릴 태워주셨다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">눈누난나 버스를 기다리고 있었는데 버스가 15분이 지나도 오질않았다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">이미 신칸센을 놓칠위기에 놓여서 역에 들어가 역무원처럼 보이는 분께 상황을 설명했더니... 우릴 니노헤 역까지 태워주셨다!!!! </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">알고보니 그분이 니노헤역에 근무하시는 분이셨더라 ㅎㅎ 운도 좋지!! </SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">여행와서 이렇게 남의 차에 많이 타본적은, 랄까 차에 타본 적 자체가 처음이었지.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">이렇게 상냥한 사람들이 넘치는 곳이었으니 하이큐 얘들이 그렇게 순수했던건가 싶었다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">하이큐 성지순례는 덕질과는 다른 의미로 나에게 지금까지의 여행과는 다른 신선한 경험을 주었다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"><SPAN style="FONT-SIZE: 10pt">정말이지 또 가고싶은 곳이다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none">&lt;마을 곳곳의 하이큐 굿즈들&gt;&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:391px;;height:auto;max-width:100%"><span dir="http://cfile28.uf.tistory.com/original/275E224956B8CA0C0D03D8" rel="lightbox" target="_blank"><img src="http://cfile28.uf.tistory.com/image/275E224956B8CA0C0D03D8" style="max-width:100%;height:auto" width="391" height="493" /></span></span></P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:495px;;height:auto;max-width:100%"><span dir="http://cfile30.uf.tistory.com/original/2530FE4956B8CA0D2DD449" rel="lightbox" target="_blank"><img src="http://cfile30.uf.tistory.com/image/2530FE4956B8CA0D2DD449" style="max-width:100%;height:auto" width="495" height="628" /></span></span></P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:505px;;height:auto;max-width:100%"><span dir="http://cfile5.uf.tistory.com/original/215E094956B8CA0F0D26FA" rel="lightbox" target="_blank"><img src="http://cfile5.uf.tistory.com/image/215E094956B8CA0F0D26FA" style="max-width:100%;height:auto" width="505" height="626" /></span></span></P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"></P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><SPAN style="FONT-SIZE: 11pt">다들 하이큐 성지순례 가셔서 진심 힐링하시고 오시길 바래요///</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none">&nbsp;</P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><SPAN style="FONT-SIZE: 11pt">&nbsp;'센다이'도 가보려고 했으나 센다이는 후쿠시마 원전 폭발의 직접적 피해지역이라고</SPAN><SPAN style="FONT-SIZE: 11pt"> 합니다.</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><SPAN style="FONT-SIZE: 11pt">혹시 가시려고 하시는 분은 알고 결정하시기 바랍니다~</SPAN></P>
+<P style="FLOAT: none; TEXT-ALIGN: left; CLEAR: none"></P></div>
+											</div>
+											
+											<div class="actionTrail">
+												<a href="#tb" onclick="toggleLayerForEntry(327, 'trackback'); return false"><span id="trackbackCount327">Trackback <span class="cnt">0</span></span></a>&nbsp;
+						<a href="#rp" onclick="toggleLayerForEntry('327', 'comment'); return false"><span id="commentCount327">Comment <span class="cnt">0</span></span></a>
+											</div>
+											<div id="entry327Trackback" style="display:none">
+												<div class="trackback">
+													<h3><span class="head">Trackback Address</span>	<span class="trackback-url" style="cursor: text">http://gksmd.tistory.com/trackback/327</span>
+	<span id="TrackbackCopyHolder327" style="vertical-align: -4px; margin-left: 1px">
+	<script type="text/javascript">
+	//<![CDATA[
+	AC_FL_RunContent(
+		'src','http://s1.daumcdn.net/cfs.tistory/resource/2017/blog/script/copyTrackback',
+		'Flashvars','url=http://gksmd.tistory.com/trackback/327&mode=whiteButton',
+		'width','29',
+		'height','18',
+		'id', 'TrackbackCopyButton327',
+		'wmode','transparent',
+		'allowScriptAccess','always',
+		'type','application/x-shockwave-flash',
+		'pluginspage','http://www.macromedia.com/go/getflashplayer'
+	);
+	//]]>
+	</script>
+	</span>
+	<span>
+		<a href="http://www.tistory.com/gateway/?trackback=http%3A%2F%2Fgksmd.tistory.com%2Ftrackback%2F327&amp;defaultAdmin=%2Fadmin" onclick="window.open(this.href); return false">
+	<img src="http://i1.daumcdn.net/cfs.tistory/resource/2017/static/admin/btn_track_white.gif" alt="관련글 쓰기" title="" style="_margin-left: 5px; vertical-align: -4px"/>
+	</a></span>
+</h3>
+													
+												</div>
+											</div>
+											<div id="entry327Comment" style="display:none"></div>
+										</div><!-- close entry -->
+  								
+				  </div>
+				  <div class="content-btm"></div>
+  								
+  									<div id="paging">
+  										<a   class="no-more-prev" id="prevPage" title="이전">&laquo;</a>
+  										<span class="numbox">
+  											
+  												<a   class="num"><span class="selected" >1</span> </a>
+  											
+  												<a href='/323'  class="num"><span>2</span> </a>
+  											
+  												<a href='/322'  class="num"><span>3</span> </a>
+  											
+  												<a href='/321'  class="num"><span>4</span> </a>
+  											
+  												<a href='/304'  class="num"><span>5</span> </a>
+  											 <span class="interword">...</span> 
+  												<a href='/168'  class="num"><span>11</span> </a>
+  											
+  										</span>
+  										<a href='/323'  class="" id="nextPage" title="다음">&raquo;</a>
+  									</div>
+  								
+  							</div>
+			  </div><!-- close content -->
+			  <div class="wrapSidebar">
+  							<div id="profile-tag">
+  								<div class="profile-tag-header">
+  									<!-- 블로그 이미지 모듈 -->
+  									<div class="profile">
+  										<div id="blogImage">
+  											<img src="http://i1.daumcdn.net/cfs.tistory/resource/1949/blog/image/spacer.gif" alt="블로그 이미지" />
+  										</div>
+					  <!-- 블로그 설명 모듈 -->
+					  <p class="userID">박하능</p>
+  										<p class="blogDesc"></p>
+  									</div>
+  									<!-- 카테고리 모듈 -->
+  									<div id="category">
+  										<h3>카테고리</h3>
+  										<div class="container">
+  											<script type="text/javascript">
+//<![CDATA[
+	var expanded = false;
+	function expandTree() {
+	}
+
+	function expandFolder(category, expand) {
+		var oLevel1 = document.getElementById("category_" + category);
+		var oImg = oLevel1.getElementsByTagName("img")[0];
+		switch (expand) {
+			case true:
+				oImg.src = "http://i1.daumcdn.net/cfs.tistory/resource/1949/blog/image/tree/base/tab_opened.gif";
+				showLayer("category_" + category + "_children");
+				return true;
+			case false:
+				oImg.src = "http://i1.daumcdn.net/cfs.tistory/resource/1949/blog/image/tree/base/tab_closed.gif";
+				hideLayer("category_" + category + "_children");
+				return true;
+		}
+		return false;
+	}
+
+	function toggleFolder(category) {
+		var oLevel1 = document.getElementById("category_" + category);
+		var oImg = oLevel1.getElementsByTagName("img")[0];
+		switch (oImg.src.substr(oImg.src.length - 10, 6)) {
+			case "isleaf":
+				return true;
+			case "closed":
+				oImg.src = "http://i1.daumcdn.net/cfs.tistory/resource/1949/blog/image/tree/base/tab_opened.gif";
+				tt_showLayer("category_" + category + "_children");
+				expanded = true;
+				return true;
+			case "opened":
+				oImg.src = "http://i1.daumcdn.net/cfs.tistory/resource/1949/blog/image/tree/base/tab_closed.gif";
+				tt_hideLayer("category_" + category + "_children");
+				expanded = false;
+				return true;
+		}
+		return false;
+	}
+	var selectedNode = 0;
+	function selectNode(category) {
+
+		try {
+			var root = document.getElementById('treeComponent');
+			var prevSelectedNode= root.getAttribute('currentselectednode');
+			var oLevel = document.getElementById("category_" + selectedNode);
+			var oChild = oLevel.getElementsByTagName("table")[0];
+
+			oChild.style.color = "#222222";
+			oChild.style.backgroundColor = "#transparent"
+			root.setAttribute('currentselectednode',category);
+			document.getElementById('text_'+selectedNode).style.color="#222222";
+
+			var oLevel = document.getElementById("category_" + category);
+			var oChild = oLevel.getElementsByTagName("table")[0];
+			oChild.style.color = "#222222";
+			oChild.style.backgroundColor = "#transparent"
+			document.getElementById('text_'+category).style.color="#222222";
+
+			selectedNode = category;
+		} catch(e) {
+		}
+	}
+
+	function setTreeStyle(skin) {
+		try {
+			treeNodes = document.getElementsByName("treeNode");
+			for(var i=0; i<treeNodes.length; i++) {
+				if( ('category_'+selectedNode) == (treeNodes[i].getAttribute('id').value) ) {
+					var oLevel = document.getElementById('category_'+i);
+					var oChild = oLevel.getElementsByTagName("table")[0];
+					oChild.style.color ='#'+skin['activeItemColor'];
+					if (skin['activeItemBgColor'] != '' && skin['activeItemBgColor'] != undefined) {
+						oChild.style.backgroundColor ='#'+skin['activeItemBgColor'];
+					} else {
+						oChild.style.backgroundColor ="";
+					}
+				} else{
+					var oLevel = document.getElementById("category_" + i);
+					var oChild = oLevel.getElementsByTagName("table")[0];
+					oChild.style.color ='#'+skin['colorOnTree'];
+					oChild.style.backgroundColor ='#'+skin['bgColorOnTree'];
+					var oLevel = document.getElementById('text_'+i).style.color='#'+skin['colorOnTree'];
+				}
+			}
+		} catch(e) {
+		}
+	}
+//]]>
+</script>
+		<table id="treeComponent"  cellpadding="0" cellspacing="0" style="width: 100%;"><tr>
+	<td>
+		<table id="category_0"  cellpadding="0" cellspacing="0"><tr>
+			<td class="ib" style="font-size: 1px"><img src="http://i1.daumcdn.net/cfs.tistory/resource/1949/blog/image/tree/base/tab_top.gif" width="16" onclick="expandTree()" alt=""/></td>
+			<td valign="top" style="font-size:9pt; padding-left:3px">
+				<table onclick="" id="imp0" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tr>
+										<td class="branch3" onclick="window.location.href='/category'"><div id="text_0" style=" color: #222222;">분류 전체보기 </div></td>
+				</tr></table>
+			</td>
+		</tr></table>
+
+		<table   id="category_508791" cellpadding="0" cellspacing="0"><tr>
+			<td class="ib" style="width:39px; font-size: 1px; background-image: url('http://i1.daumcdn.net/cfs.tistory/resource/1949/blog/image/tree/base/navi_back_noactive_end.gif"><a class="click" onclick="toggleFolder('508791')"><img src="http://i1.daumcdn.net/cfs.tistory/resource/1949/blog/image/tree/base/tab_isleaf.gif" width="39" alt=""/></a></td>
+			<td>
+				<table cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tr>
+					<td class="branch3" onclick="window.location.href='/category/그림'"><div id="text_508791" style="color: #222222;">그림 </div></td>
+				</tr></table>
+			</td>
+		</tr></table>
+		<div id="category_508791_children" style="display:none">
+		</div>
+	</td></tr></table>
+
+  										</div>
+  									</div>
+  								</div>
+  								<div class="profile-tag-footer"></div>
+  							</div>
+  							<div id="sidebar">
+  								
+  										<!-- 공지사항 모듈 -->
+  										
+  											<div id="notice" class="module">
+  												<h3>Notice</h3>
+  												<ul>
+  													
+  												</ul>
+  											</div>
+  										
+  									
+  										<!-- 최근 포스트 모듈 -->
+  										<div id="recentPost" class="module">
+  											<h3>Recent Post</h3>
+  											<ul>
+  												
+  													<li>
+  														<a href="/entry/하이큐-성지순례기">하이큐 성지순례기.</a>
+  														<span class="cnt"><span id="commentCountOnRecentEntries327"></span></span>
+  													</li>
+  												
+  													<li>
+  														<a href="/entry/고무고무노-제3체육관-샘플">고무고무노 제3체육...</a>
+  														<span class="cnt"><span id="commentCountOnRecentEntries323"></span></span>
+  													</li>
+  												
+  													<li>
+  														<a href="/entry/매미소리-너머-샘플">매미소리 너머 샘플.</a>
+  														<span class="cnt"><span id="commentCountOnRecentEntries322"></span></span>
+  													</li>
+  												
+  													<li>
+  														<a href="/entry/130-대운동회-관련-공지입니다">1/30 대운동회 관련...</a>
+  														<span class="cnt"><span id="commentCountOnRecentEntries321"></span></span>
+  													</li>
+  												
+  													<li>
+  														<a href="/entry/쿠로스가">[쿠로스가].</a>
+  														<span class="cnt"><span id="commentCountOnRecentEntries304"></span></span>
+  													</li>
+  												
+  											</ul>
+  										</div>
+  									
+  										<!-- 최근 댓글 모듈 -->
+  										<div id="recentComment" class="module">
+  											<h3>Recent Comment</h3>
+  											<ul id="recentComments">
+  												
+  											</ul>
+  										</div>
+  									
+  										<!-- 최근 트랙백 모듈 -->
+  										<div id="recentTrackback" class="module">
+  											<h3>Recent Trackback</h3>
+  											<ul>
+  												
+  											</ul>
+  										</div>
+  									
+  										<!-- 글 보관함 모듈 -->
+  										<div id="archive" class="module">
+  											<h3>Archive</h3>
+  											<ul>
+  												
+  													<li>
+  														<a href="/archive/201602">2016/02</a>
+  														<span class="cnt">(1)</span>
+  													</li>
+  												
+  													<li>
+  														<a href="/archive/201601">2016/01</a>
+  														<span class="cnt">(3)</span>
+  													</li>
+  												
+  													<li>
+  														<a href="/archive/201510">2015/10</a>
+  														<span class="cnt">(1)</span>
+  													</li>
+  												
+  													<li>
+  														<a href="/archive/201508">2015/08</a>
+  														<span class="cnt">(1)</span>
+  													</li>
+  												
+  													<li>
+  														<a href="/archive/201505">2015/05</a>
+  														<span class="cnt">(1)</span>
+  													</li>
+  												
+  											</ul>
+  										</div>
+  									
+  										<!-- 링크 모듈 -->
+  										<div id="link" class="module">
+  											<h3>My Link</h3>
+  											<ul>
+  												
+  											</ul>
+  										</div>
+  									
+  										<!-- 태그목록 모듈 -->
+  										<div id="tagbox" class="module">
+  											<h3>Tag</h3>
+  											<ul>
+  												
+  											</ul>
+  										</div>
+  									
+  										<!-- 달력 모듈 -->
+  										<div id="calendar">
+  											<h3>달력</h3>
+  											
+  												<table class="tt-calendar" cellpadding="0" cellspacing="1" style="width: 100%; table-layout: fixed">
+  													<caption class="cal_month">
+  														<a href="/archive/201601" title="1개월 앞의 달력을 보여줍니다." class="prev-month">&laquo;</a>
+  														<a href="/archive/201602" title="현재 달의 달력을 보여줍니다." class="this-month">2016/02</a>
+  														<a href="/archive/201603" title="1개월 뒤의 달력을 보여줍니다." class="next-month">&raquo;</a>
+  													</caption>
+  													
+  														<thead>
+  															<tr>
+  																
+  																	<th class="cal_week2">일</th>
+  																
+  																	<th class="cal_week1">월</th>
+  																
+  																	<th class="cal_week1">화</th>
+  																
+  																	<th class="cal_week1">수</th>
+  																
+  																	<th class="cal_week1">목</th>
+  																
+  																	<th class="cal_week1">금</th>
+  																
+  																	<th class="cal_week1">토</th>
+  																
+  															</tr>
+  														</thead>
+  													
+  													
+  														<tbody>
+  															
+  																<tr class="cal_week">
+  																	
+  																		<td class="cal_day1">&nbsp;</td>
+  																	
+  																		<td class="cal_day cal_day3">1</td>
+  																	
+  																		<td class="cal_day cal_day3">2</td>
+  																	
+  																		<td class="cal_day cal_day3">3</td>
+  																	
+  																		<td class="cal_day cal_day3">4</td>
+  																	
+  																		<td class="cal_day cal_day3">5</td>
+  																	
+  																		<td class="cal_day cal_day3">6</td>
+  																	
+  																</tr>
+  															
+  																<tr class="cal_week">
+  																	
+  																		<td class="cal_day cal_day3 cal_day_sunday">7</td>
+  																	
+  																		<td class="cal_day cal_day3">8</td>
+  																	
+  																		<td class="cal_day cal_day3"><a class="cal_click" href="/archive/20160209">9</a></td>
+  																	
+  																		<td class="cal_day cal_day3">10</td>
+  																	
+  																		<td class="cal_day cal_day3">11</td>
+  																	
+  																		<td class="cal_day cal_day3">12</td>
+  																	
+  																		<td class="cal_day cal_day3">13</td>
+  																	
+  																</tr>
+  															
+  																<tr class="cal_week cal_current_week">
+  																	
+  																		<td class="cal_day cal_day3 cal_day_sunday">14</td>
+  																	
+  																		<td class="cal_day cal_day3">15</td>
+  																	
+  																		<td class="cal_day cal_day3">16</td>
+  																	
+  																		<td class="cal_day cal_day4">17</td>
+  																	
+  																		<td class="cal_day cal_day3">18</td>
+  																	
+  																		<td class="cal_day cal_day3">19</td>
+  																	
+  																		<td class="cal_day cal_day3">20</td>
+  																	
+  																</tr>
+  															
+  																<tr class="cal_week">
+  																	
+  																		<td class="cal_day cal_day3 cal_day_sunday">21</td>
+  																	
+  																		<td class="cal_day cal_day3">22</td>
+  																	
+  																		<td class="cal_day cal_day3">23</td>
+  																	
+  																		<td class="cal_day cal_day3">24</td>
+  																	
+  																		<td class="cal_day cal_day3">25</td>
+  																	
+  																		<td class="cal_day cal_day3">26</td>
+  																	
+  																		<td class="cal_day cal_day3">27</td>
+  																	
+  																</tr>
+  															
+  																<tr class="cal_week">
+  																	
+  																		<td class="cal_day cal_day3 cal_day_sunday">28</td>
+  																	
+  																		<td class="cal_day cal_day3">29</td>
+  																	
+  																		<td class="cal_day2">&nbsp;</td>
+  																	
+  																		<td class="cal_day2">&nbsp;</td>
+  																	
+  																		<td class="cal_day2">&nbsp;</td>
+  																	
+  																		<td class="cal_day2">&nbsp;</td>
+  																	
+  																		<td class="cal_day2">&nbsp;</td>
+  																	
+  																</tr>
+  															
+  														</tbody>
+  													
+  												</table>
+  											
+  										</div>
+  									
+  										<!-- RSS 링크 -->
+  										<div id="btnRSS">
+  											<a href="http://gksmd.tistory.com/rss" onclick="window.open(this.href); return false" title="Serendipity 구독하기">Rss feed</a>
+  										</div>
+  									
+  							</div>
+							</div><!-- close sidebar -->
+						</div>
+					</div><!-- close container -->
+				</div>
+				<div id="footer">
+					<div class="footMenu">
+						<a href="/tag" title="Tag Log">Tag Log</a> |
+			<a href="/media" title="Media Log">Media Log</a> |
+						<a href="/location" title="Location Log">Location Log</a> |
+						<!-- <a href="/keylog" title="Key Log">Key Log</a> |-->
+			<a href="/guestbook" title="Guestbook">Guestbook</a> |
+						<a href="/admin" title="Admin">Admin</a> |
+						<a href="/admin/entry/post" title="Write">Write</a>
+					</div>
+					<div class="copyright">
+						<span id="adTistory"><a href="http://www.tistory.com" title="Tistory 바로가기"><img src="http://ts.daumcdn.net/custom/blog/123/1239619/skin/images/logo.gif" alt="Tistory 로고 이미지" title="Tistory 바로가기" /></a><a href="http://www.tistory.com/join" title="티스토리 가입하기!">티스토리 가입하기!</a></span>
+						<a href="/">박하능</a>'s Blog is powered by <a href="http://daum.net" onclick="window.open(this.href); return false;" title="DAUM 바로가기">DAUM</a>
+						/ Designed by <a href="http://www.tistory.com" title="TISTORY 바로가기">TISTORY</a>
+					</div>
+				</div><!-- close footer -->
+			</div><!-- close mid-bg -->
+		
+	<script type="text/javascript">
+	  updateDate();
+	</script>
+	<script id="DragSearchJs" type="text/javascript" src="http://s1.daumcdn.net/img.search/front/js/searchDragSelection.js?nil_ch=tistory" charset="euc-kr"></script>
+<script type="text/javascript">if (asyncProfileItems) {tistoryProfile.getSidebarInfo(asyncProfileItems);}</script>
+<script charset="utf-8" type="text/javascript" src="http://m1.daumcdn.net/tiara/js/td.min.js"></script>
+
+        <script type="text/javascript">
+        //<!--<![CDATA
+        	var __pageTracker = {};
+        	if (typeof __Tiara != "undefined" && typeof __Tiara.__getTracker != "undefined") {
+        		__pageTracker = __Tiara.__getTracker();
+        	} else {
+        		__pageTracker.__trackPageview = function() {};
+        		__pageTracker.__addParam = function() {};
+        		__pageTracker.__setTitle = function() {};
+        	}
+
+        	__pageTracker.__setTitle("Serendipity :: 하이큐 성지순례기");
+        	__pageTracker.__addParam("svcdomain","user.tistory.com");
+        	__pageTracker.__addParam("category","");
+        	__pageTracker.__addParam("articleno","327");
+        	__pageTracker.__addParam("plink","http://gksmd.tistory.com/327");
+        	__pageTracker.__addParam("date","2016-02-09 02:04:26");
+        	__pageTracker.__addParam("author","gksmd");
+        	__pageTracker.__addParam("length ","47420");
+        	__pageTracker.__addParam("isauthor","N");
+        	__pageTracker.__addParam("ishidden","1");
+        	__pageTracker.__addParam("comments","0");
+        	__pageTracker.__addParam("param1","0");
+        	__pageTracker.__addParam("param2","e");
+        	__pageTracker.__addParam("param3","");
+        	
+
+        	window.setTimeout("try { __pageTracker.__trackPageview('http://gksmd.tistory.com/327'); } catch(e) {}", 1);
+        //]]>-->
+        </script>
+
+        <script type="text/javascript">
+        window.roosevelt_params_queue = window.roosevelt_params_queue || [];
+        window.roosevelt_params_queue.push({
+        	channel_id: "dk", channel_label: "tistory"
+        });
+        </script>
+        <script type="text/javascript" src="//adimg.daumcdn.net/rt/dk_bt/roosevelt_dk_bt.js" async></script><div id="tistorytoolbarid" style="position:absolute;height:20px;top:4px;right:0px;background-color:transparent;background-image:none;z-index:11;">
+	<div class="tistorytoolbar tt_menubar_login">
+		<div class="tt_menubar_black">
+			<div id="ttMenubarInnerWrap" class="tt_menubar_inner">
+				<div class="tt_menubar_bg_toolbar"></div>
+				<h2 style="display:none;">티스토리 툴바</h2>
+				<div class="tt_menubar_mainmenu"><a class="tt_menubar_link_tit tt_menubar_link_tit_daum tt_menubar_link_tit_eng" href="http://www.daum.net/?nil_ref=tistory" target="_blank">Daum</a></div>
+				<div class="tt_menubar_bg_bar"></div>
+				<div class="tt_menubar_mainmenu"><a class="tt_menubar_link_tit tt_menubar_link_tit_eng" href="http://www.tistory.com">Tistory</a></div>
+				<div class="tt_menubar_bg_bar"></div>
+				<div class="tt_menubar_logout"><a class="tt_menubar_link_tit" href="https://www.tistory.com/login">로그인</a></div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

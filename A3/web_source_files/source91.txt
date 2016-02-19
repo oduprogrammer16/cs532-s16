@@ -1,0 +1,1685 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vipid - Video Intro Maker</title>
+  <!--[if lte IE 7]><script src="/site_media/static/js/ie6/warning.js?987325"></script><script>window.onload=function(){e("/site_media/static/js/ie6/")}</script><![endif]-->
+
+  <link rel="stylesheet" type="text/css" media="screen" href="http://ivipid.com/site_media/static/skins/default/video_scrollbar.css?944b9c94e623c4eac337ed837a4fd874c57558c7">
+  <link rel="stylesheet" type="text/css" media="screen" href="http://ivipid.com/site_media/static/skins/default/vipid_new.css?944b9c94e623c4eac337ed837a4fd874c57558c7">
+  <link rel="stylesheet" type="text/css" media="screen" href="http://ivipid.com/site_media/static/skins/default/fonts.css?944b9c94e623c4eac337ed837a4fd874c57558c7">   
+    
+  <script type="text/javascript">
+  //window.DEBUG = ;
+  window.DEBUG = false;
+  var media_url = "http://ivipid.com/site_media/static/skins/default";
+  </script>
+  <link type="text/css" rel="stylesheet" href="http://ivipid.com/site_media/static/skins/default/jquery-ui/ui-darkness/jquery-ui-1.8.13.custom.css">
+  <script type="text/javascript" src="http://ivipid.com/site_media/static/js/jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="http://ivipid.com/site_media/static/js/console.log.patch.js?944b9c94e623c4eac337ed837a4fd874c57558c7"></script>
+  <!--<script type="text/javascript" src="http://ivipid.com/site_media/static/js/jquery.dataSelector.js"></script>-->
+  <!--<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>-->
+<!--  <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>-->
+
+  <meta property="og:title" content="VipID" />
+  <meta property="og:description" content="The fastest way to create your own videos." />
+  
+  <link rel="shortcut icon" href="http://ivipid.com/site_media/static/skins/default/vipid_new_16.png" type="image/x-icon">
+  
+  
+  
+  <meta name="google-site-verification" content="LEkRz9OWQL5hrKj8MUR0qAIxs-wNxI6c9ld2wIDNC0M" />
+  <style type="text/css">
+body, html {
+height: 100%;
+}
+
+.main-heading {
+      font-family: "BebasRegular";
+      font-size: 24px;
+      padding-top: 28px;
+      margin-left: 10px;n
+      -moz-text-shadow:    1px 1px 1px #000;
+      -webkit-text-shadow: 1px 1px  1px #000;
+      text-shadow:         1px 1px  1px #000;
+      color: #fff;
+}
+
+.gold-link{
+font-size: 14px;
+color: gold;
+}
+
+.buttons-hint {
+      font-family: Verdana, sans-serif;
+      font-size: 11px;
+      color: #767676;
+      width: 440px;
+      margin-left: 10px;
+      margin-top: 10px;
+      -moz-text-shadow:   1px 1px 1px #000;
+      -webkit-text-shadow: 1px 1px 1px #000;
+      text-shadow:         1px 1px 1px #000;
+}
+
+#hello {
+font-family: "GothamBlackItalic";
+font-size: 14px;
+color: #c0c0c0;
+}
+
+div.caption {
+}
+
+#switchers {
+      float: right;
+      margin-top: 32px;
+      margin-right: 13px;
+}
+
+#switchers #buttons {
+      width: 182px;
+      height: 36px;
+      background: url("http://ivipid.com/site_media/static/skins/default/switchers-bg.png?182") no-repeat;
+      margin-left: 10px;
+      float: left;
+}
+
+#switchers .caption{
+      float: left;
+      font-family: "BebasRegular", Sans-serif;
+      font-size: 15px;
+      height: 36px;
+      line-height: 36px;
+}
+
+#switchers ul {
+      margin-left: 12px;
+
+}
+
+#switchers ul li a{
+      font-family: "FuturaCondensedMedium", sans-serif;
+      font-size: 18px;
+      float: left;
+      display: block;
+      padding: 6px 12px;
+      -moz-text-shadow:    1px 1px 1px #000;
+      -webkit-text-shadow: 1px 1px  1px #000;
+      text-shadow:         1px 1px  1px #000
+}
+
+#switchers ul li a:hover{
+      color: #fff;
+}
+
+#switchers ul li a.selected{
+      color: #f7dc46;
+      -moz-text-shadow:   0 0 12px rgba(255,144,0, 0.4);
+      -webkit-text-shadow: 0 0 12px rgba(255,144,0, 0.4);
+      text-shadow:         0 0 12px rgba(255,144,0, 0.4);
+}
+
+.chrome-title {
+font-family: "BebasRegular", Sans-serif;
+font-size: 18px;
+color: #121212;
+margin-left: 4px;
+-moz-text-shadow:    1px 1px 1px #fff;
+-webkit-text-shadow: 1px 1px  1px #fff;
+text-shadow:         1px 1px  1px #fff;
+margin-top: -2px;
+}
+
+.chrome-title-select {
+font-family: "BebasRegular", Sans-serif;
+font-size: 16px;
+color: #ececec;
+margin-left: 9px;
+margin-top: 0px;
+-moz-text-shadow:    1px 0px 0px #000;
+-webkit-text-shadow: 1px 0px  0px #000;
+text-shadow:         1px 0px  0px #000;
+}
+
+.chrome-title-myvideos {
+font-family: "BebasRegular", Sans-serif;
+font-size: 16px;
+color: #2f2f2f;
+margin-left: 9px;
+-moz-text-shadow:    1px 0px 0px #d4d4d4;
+-webkit-text-shadow: 1px 0px  0px #d4d4d4;
+text-shadow:         1px 0px  0px #d4d4d4;
+float: left;
+width: 225px;
+overflow: hidden;
+cursor: pointer;
+}
+
+
+#header-new {
+      height: 66px;
+      background:black;
+      -moz-box-shadow:    0 1px 10px 0 rgba(0,0,0,0.5);
+      -webkit-box-shadow: 0 1px 10px 0 rgba(0,0,0,0.5);
+      box-shadow:         0 1px 10px 0 rgba(0,0,0,0.5);
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+
+#header-fixed {
+      position: relative;
+      height: 60px;
+      width: 960px;
+      margin: 0 auto;
+}
+
+#header-lnav {
+      list-style-type: none;
+      float: left;
+      margin-top: 23px;
+      margin-left: 20px;
+}
+
+#header-lnav li {
+      float: left;
+      margin-left: 22px;
+      padding: 0;
+}
+
+#header-lnav li a {
+      font-size:16px;
+      color: #fff;
+      font-family: "BebasRegular", Sans-serif;
+}
+
+#header-lnav li a:hover {
+color: #ffcc00;
+}
+
+#header-lnav li.round-sep {
+      height:20px;
+      width: 4px;
+      background: url("/site_media/static/skins/default/round-sep.png") no-repeat 0 50%;
+}
+
+
+#header-rnav {
+      float:right;
+      margin: 24px 10px 0 0;
+}
+
+#header-rnav li {
+      float: left;
+}
+
+#header-rnav li a {
+      font-size:16px;
+      color: #fff;
+      font-family: "GothamBlackRegular";
+
+}
+
+#bal-top {
+font-family: "GothamBlackRegular";
+font-size: 14px;
+color: #fff;
+text-style: normal;
+}
+
+#header-rnav li a:hover {
+color: #ffcc00;
+}
+
+li.or-sep {
+      height: 20px;
+      width: 17px;
+      background: url("/site_media/static/skins/default/or-sep.png") no-repeat 0 50%;
+      margin: 0 12px;
+}
+
+
+
+
+
+#logo {
+      background: url("/site_media/static/skins/default/uipid.png?198328") no-repeat;
+      float: left;
+      width: 148px;
+      height: 54px;
+      margin-top: 6px;
+}
+
+#logo_boomshot {
+      background: url("/site_media/static/skins/default/boomshot_logo.png") no-repeat;
+      float: left;
+      width: 148px;
+      height: 54px;
+      margin-top: 6px;
+}
+
+
+#my-videos {
+    float: right;
+    margin-top: 25px;
+    width: 110px;
+}
+
+#container {
+      width: 100%;
+      background: #333 url(http://ivipid.com/site_media/static/skins/default/bg_tile_256.png);
+      min-height:100%;
+      position:relative;
+}
+
+
+#content {
+      width: 964px;
+      margin:0 auto;
+      margin-top: 10px;
+      padding-bottom:260px;
+
+
+}
+
+#new-footer {
+      height: 260px;
+      background: url(http://ivipid.com/site_media/static/skins/default/newfooter-bg.png?new);
+      width: 100%;
+      position: absolute;
+      bottom:0;
+}
+
+#new-footer-inner {
+      width: 964px;
+      margin: 0 auto;
+      height: 162px;
+      padding-top: 42px;
+}
+
+#new-footer-bottom {
+      font-family: Verdana;
+      font-size: 13px;
+}
+
+#new-footer-bottom a:hover{
+color: #fff;
+}
+
+#tellafriend {
+      float: left;
+      width: 138px;
+      height: 160px;
+
+      margin-left: 10px;
+      margin-right: 25px;
+}
+
+#tellafriend img {
+      margin-right: 8px;
+}
+
+#tellafriend2 {
+width: 138px;
+height: 116px;
+background: url(http://ivipid.com/site_media/static/skins/default/tellafriend.png) no-repeat 0 0;
+}
+
+.footer-menu {
+float: left;
+margin-right: 50px;
+}
+
+.footer-menu li a {
+font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+font-size: 14px;
+color: #fff;
+padding-bottom: 3px;
+display: block;
+}
+
+.admin-stuff {
+margin-right: 20px;
+}
+.admin-stuff li a {
+font-size: 11px;
+}
+
+.footer-menu li a:hover {
+color: #ffcc00;
+}
+
+.footer-menu li.menu-header {
+      font-size: 20px;
+      color: #fff;
+      font-family: "BebasRegular", Sans-serif;
+      padding-bottom: 14px;
+}
+
+#counter-holder {
+      float: right;
+      width: 200px;
+      height: 150px;
+      margin-right: 10px;
+      background: url(http://ivipid.com/site_media/static/skins/default/footer-logo.png) no-repeat 100% 48px;
+      text-align: right;
+}
+
+#counter-holder-boomshot {
+      float: right;
+      width: 200px;
+      height: 150px;
+      margin-right: 10px;
+      background: url(http://ivipid.com/site_media/static/skins/default/footer-logo-boomshot.png) no-repeat 100% 48px;
+      text-align: right;
+}
+
+#videos-counter {
+      font-family: "GothamBlackRegular";
+      font-size: 42px;
+      margin-top: -7px;
+      -moz-text-shadow:   3px 3px 3px  rgba(0,0,0, 0.6);
+      -webkit-text-shadow:    3px 3px 3px  rgba(0,0,0, 0.6);
+      text-shadow:            3px 3px 3px  rgba(0,0,0, 0.6);
+}
+
+#new-footer-bottom {
+      height: 55px;
+      background: #202020;
+      text-align: center;
+border-top: 1px solid #2b2b2b;
+}
+
+#new-footer-bottom p, #new-footer-bottom a { 
+      color: #666;
+      font-size: 11px;
+padding-top: 20px;
+}
+
+.header-dropdown {
+      position: absolute;
+      z-index: 9999;
+      top: 60px;
+      background:black;
+      -moz-box-shadow:    0 1px 10px 0 rgba(0,0,0,0.5);
+      -webkit-box-shadow: 0 1px 10px 0 rgba(0,0,0,0.5);
+      box-shadow:         0 1px 10px 0 rgba(0,0,0,0.5);
+      padding: 20px 30px 10px 30px;
+      display: none;
+}
+
+.header-dropdown li a {
+      display: block;
+      font-size:16px;
+      color: #fff;
+      font-family: "BebasRegular", Sans-serif;
+      padding-bottom: 14px;
+}
+
+.header-dropdown li a.last {
+      color: #fd522b;
+}
+#account-dd {
+      left: 367px;
+}
+
+.gold-button {
+height: 37px;
+background: gold;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fef455', endColorstr='#dfae01');
+background: -webkit-gradient(linear, left top, left bottom, from(#fef455), to(#dfae01));
+background: -moz-linear-gradient(top,  #fef455,  #dfae01);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+text-align: center;
+  font-family: "GothamBlackRegular";
+font-size: 14px;
+color: #000;
+  -moz-text-shadow:    1px 1px 0 rgba(255,244,73, 0.7);
+  -webkit-text-shadow: 1px 1px  0 rgba(255,244,73, 0.7);
+  text-shadow:         1px 1px  0 rgba(255,244,73, 0.7);
+line-height: 37px;
+cursor: pointer;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+@-moz-document url-prefix() {
+.myvideo .caption-date-active {
+text-align: right;
+margin-top: 54px;
+height: 14px; }
+input[type="submit"] { 
+border: 0px;
+padding: 0px;}
+.chrome-title-select,
+.chrome-title-myvideos {
+margin-top: -2px;}
+.chrome-title {margin-top: -4px;}
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+.social {
+margin-top: 18px;
+}}
+
+
+.social_avatar {
+      width:        32px;
+      height:       32px;
+      margin-right: 12px;
+      margin-top:   -6px;
+}
+
+#sidebar {
+    background: url("/site_media/static/skins/default/bg_tile_256.png") repeat scroll 0 0 #333333;
+    box-shadow: 0 0 5px #222222;
+    font-size: 9px;
+    line-height: normal;
+    margin: 0 0 0 -100px;
+    overflow: hidden;
+    padding: 5px;
+    position: fixed;
+    top: 200px;
+    width: 55px;
+    border: 1px solid #202020;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;    
+}
+</style>
+
+
+  <script type="text/javascript">
+    current_app =  'vipid' 
+$(function() {
+    $("#status-tools").toggle(
+	function() {
+	    $("#status-tools").css("background", "url(/site_media/static/skins/default/gear.png) 0px 0px no-repeat");
+	    $("#yt-dropdown").show();
+	},
+	function() {
+	    $("#yt-dropdown").hide();
+	    $("#status-tools").css("background", "url(/site_media/static/skins/default/gear.png) -21px 0px no-repeat");
+	}
+    );
+    
+    $(".dropdown-click").toggle(
+	function(e) {
+	    $(".dropdown").fadeIn("fast");
+	},
+	function(e) {
+	    $(".dropdown").fadeOut("fast");
+	});
+    
+    $(".dropdown a").click(function(e) {
+	e.stopPropagation();
+    });
+    
+    $(".dropdown input").click(function(e) {
+	e.stopPropagation();
+    });
+    
+    $("#account-li").toggle(
+	function(e) {
+	    $("#account-dd").show();
+	},
+	function(e) {
+	    $("#account-dd").hide();
+	}
+    );
+
+    $("#admin-li").toggle(
+	function(e) {
+	    $("#admin-dd").show();
+	},
+	function(e) {
+	    $("#admin-dd").hide();
+	}
+    );
+    
+    displayCount();
+    
+    
+});
+
+function updateCounter() {
+    if (window.not_update_counter)
+        return;
+    
+    $.get("/api/total_vipids_done/", function(nvideos) {
+    
+	var old = $("#videos-counter").attr("data-count");
+	if (old != nvideos) {
+            $("#videos-counter").attr("data-count", nvideos);
+	    displayCount();
+	}
+    });
+    
+}
+
+function displayCount() {
+    var x = $("#videos-counter").attr("data-count");
+    var formatted = x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    $("#videos-counter").text(formatted);
+}
+
+</script>
+    
+  
+	<meta property="og:title" content="VipID" />
+	<meta property="og:description" content="The fastest way to create your own videos." />
+
+  	
+
+  
+<meta name="keywords" content="vipid, video intro, animation, custom, video, intro, greeting card" />
+<meta name="description" content="Vipid lets you create customized, high-quality video intros and animated greeting cards with just a few clicks !" />
+  <meta property="og:image" content="http://ivipid.com/site_media/static/skins/big_orange_logo_button_01_twitter.jpg" />
+
+<script type="text/javascript" src="http://ivipid.com/site_media/static/js/jquery.tools.min.js"></script>
+<script type="text/javascript" src="/site_media/static/player/jwplayer.js?944b9c94e623c4eac337ed837a4fd874c57558c7"></script>
+<script type="text/javascript" src="http://ivipid.com/site_media/static/js/vipid_functions.js?972598235"></script>
+<style type="text/css">
+#front-left {
+    width: 420px;
+    float: left;
+}
+
+#front-right {
+    width: 540px;
+    float: right;
+
+}
+
+#graysand {
+background: url(http://ivipid.com/site_media/static/skins/default/graysand.png) repeat-x 0 -15px;
+
+}
+
+#demo {
+width: 464px;
+height: 267px;
+cursor: pointer;
+float:right;
+margin-right: 10px;
+position: relative;
+background: url(http://ivipid.com/site_media/static/skins/default/demo-pic.jpg) no-repeat;
+}
+
+#theatre-play {
+
+
+position: absolute;
+background: url(http://ivipid.com/site_media/static/skins/default/theatre-play.png) no-repeat;
+width:47px;
+height:47px;
+top: 110px;
+left: 208px;
+display: none;
+}
+
+#demo-player {
+width: 450px;
+height: 252px;
+margin-top: 7px;
+margin-left: 7px;
+
+}
+
+
+#front-left h1 {
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+} 
+
+#front-left h2 {
+font-family: Arial, sans-serif; 
+    text-align: justify;
+    font-size: 40px;
+}
+
+#front-left h3 {
+    text-align: justify;
+    font-family: Arial, sans-serif; 
+    font-size: 25px;
+}
+
+#press {
+visibility: hidden;
+}
+#press span {
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+#press img {
+vertical-align: -12px;
+margin-left: 10px;
+}
+
+#about-nav {
+    float: right;
+    width: 395px;
+    margin-top: 38px;
+margin-bottom: 11px;
+margin-right: 70px;
+}
+
+#about-nav a {
+color: #d0d0d0;
+font-family: "FuturaCondensedMedium";
+font-size: 18px;
+margin-left: 70px;
+}
+
+#about-nav a:hover {
+color: #fff;
+}
+
+#amazing {
+width: 450px;
+height: 207px;
+margin-left: 10px;
+margin-top: 60px;
+}
+
+#action {
+height: 57px;
+margin-left: 37px;
+margin-top: 16px;
+}
+
+#action img {
+float: left;
+}
+
+#action-or {
+float: left;
+width: 17px;
+height: 57px;
+
+margin-left: 25px;
+margin-right: 18px;
+
+      background: url("/site_media/static/skins/default/or-grey.png") no-repeat 0 50%;
+}
+
+#steps {
+background: url(http://ivipid.com/site_media/static/skins/default/steps.png) no-repeat;
+width: 948px;
+height: 109px;
+margin-left: 10px;
+}
+
+#news-block {
+margin-top: 62px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.news-image {
+margin-left: 14px;
+width:288px;
+margin-top: 4px;
+margin-bottom: 10px;
+}
+
+
+table #news-block {
+margin-left: 8px;
+}
+
+
+.bebas-title {
+height: 25px;
+margin-right: 15px;
+}
+
+.hdivisor {
+height: 1px;
+background: #1f1f1f;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #434343;
+float:left;
+width: 100%;
+}
+
+.vdivisor {
+height: 100%;
+background: #1f1f1f;
+border-left: 1px solid #1a1a1a;
+border-right: 1px solid #434343;
+}
+
+
+
+.news-body {
+font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+font-size: 14px;
+width: 85%;
+padding-top: 4px;
+padding-bottom: 10px;
+margin-left: 12px;
+}
+
+.news-container {
+color: #a3a3a3;
+-moz-text-shadow:    1px 1px 1px rgba(0,0,0,0.5);
+-webkit-text-shadow: 1px 1px  1px rgba(0,0,0,0.5);
+text-shadow:         1px 1px  1px rgba(0,0,0,0.5);
+}
+
+.news-url .news-container:hover {
+color: #ccc;
+}
+
+.news-header {
+margin-left: 20px;
+margin-top: 26px;
+font-family: "BebasRegular", Sans-serif;
+font-size: 16px;
+color: #fff;
+-moz-text-shadow:    1px 1px 2px #000;
+-webkit-text-shadow: 1px 1px  2px #000;
+text-shadow:         1px 1px  2px #000;
+}
+
+.newsdate {
+color: #00d8ff;
+font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+font-size: 16px;
+-moz-text-shadow:    2px 0px 2px rgba(0,0,0,0.5);
+-webkit-text-shadow: 2px 0px  2px rgba(0,0,0,0.5);
+text-shadow:         2px 0px  2px rgba(0,0,0,0.5);
+margin-top: 14px;
+margin-left: 14px;
+}
+
+
+
+.readmore {
+margin-left: 14px;
+}
+
+.sample-thumb {
+    position: relative;
+float: left;
+width: 288px;
+height: 193px;
+background: url(http://ivipid.com/site_media/static/skins/default/chromebg.jpg) no-repeat;
+-moz-box-shadow:    1px 1px 1px #000;
+-webkit-box-shadow: 1px 1px  1px #000;
+box-shadow:         1px 1px  1px #000;
+margin-right: 24px;
+cursor: pointer;
+} 
+
+.sample-play {
+width: 50px;
+height: 50px;
+position: absolute;
+background: url(http://ivipid.com/site_media/static/skins/default/play_icon.png) no-repeat;
+top: 60px;
+left: 119px;
+display: none;
+}
+
+#sample-videos {
+margin-top: 25px;
+width: 964px;
+position: relative;
+}
+
+#switchers-block {
+height: 30px;
+text-align: center;
+}
+
+.sample-switch {
+height: 14px;
+width: 14px;
+display: inline-block;
+cursor: pointer;
+}
+
+.sample-switch.on {
+background: url(http://ivipid.com/site_media/static/skins/default/front-switchon.png) no-repeat;
+}
+
+.sample-switch.off {
+background: url(http://ivipid.com/site_media/static/skins/default/front-switchoff.png) no-repeat;
+}
+
+
+#sample-videos-inner {
+position: relative;
+overflow: hidden;
+width: 913px;
+height: 200px;
+margin-left: 25px;
+}
+
+
+#sample-videos-inner .items {
+width:10000em;
+position:absolute;
+}
+
+#sample-videos-inner .items div{
+float: left;
+}
+
+.sample-thumb img {
+padding-left: 2px;
+padding-top: 2px;
+}
+
+.prev {
+float: left;
+margin-top: 90px;
+width: 9px;
+height: 13px;
+background: url(http://ivipid.com/site_media/static/skins/default/arrow-left.png) no-repeat;
+cursor: pointer;
+}
+
+
+.next {
+float: right;
+margin-top: 90px;
+width: 9px;
+height: 13px;
+background: url(http://ivipid.com/site_media/static/skins/default/arrow-right.png) no-repeat;
+cursor: pointer;
+}
+
+#latest-theme-thumb {
+width: 464px;
+height: 268px;
+margin-top: 25px;
+background: url(http://ivipid.com/site_media/static/skins/default/latest-theme-mount.png) no-repeat;
+padding-top: 6px;
+}
+
+#latest-theme-img {
+border:1px solid transparent;
+width: 450px;
+height: 254px;
+margin-left: 6px;
+}
+
+#latest-theme-strip {
+width: 450px;
+height: 53px;
+margin-top:200px;
+margin-left: 0px;
+background: url(http://ivipid.com/site_media/static/skins/default/latest-theme-strip.png) no-repeat;
+border-top: 1px solid transparent;
+}
+
+#latest-theme-strip p{
+font-family: "BebasRegular", Sans-serif;
+font-size: 24px;
+color: #fff;
+-moz-text-shadow:    2px 1px 2px #000;
+-webkit-text-shadow: 2px 1px  2px #000;
+text-shadow:         2px 1px  2px #000;
+margin-left: 14px;
+margin-top: 10px;
+}
+
+#twitter-link-blue {
+display: block;
+float: left;
+font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+font-size: 16px;
+font-weight: bold;
+color: #00d8ff;
+-moz-text-shadow:    2px 0px 2px rgba(0,0,0,0.5);
+-webkit-text-shadow: 2px 0px  2px rgba(0,0,0,0.5);
+text-shadow:         2px 0px  2px rgba(0,0,0,0.5);
+margin-left: 10px;
+}
+
+#latest-tweets dl {
+margin-top: 26px;
+font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+font-size: 15px;
+font-weight: lighter;
+color: #cccaca;
+text-align: right;
+}
+
+#latest-tweets dl dt {
+color: #00d8ff;
+-moz-text-shadow:    2px 0px 2px rgba(0,0,0,0.5);
+-webkit-text-shadow: 2px 0px  2px rgba(0,0,0,0.5);
+text-shadow:         2px 0px  2px rgba(0,0,0,0.5);
+font-size: 14px;
+}
+
+#latest-tweets dl dd {
+font-style:italic;
+font-size: 16px;
+margin-bottom: 18px;
+}
+
+/*++*/
+#template-details {
+    position: absolute;
+    height: 500px;
+    z-index: 9999;
+background: transparent;
+visibility: hidden;
+
+}
+
+#template-details-top p{
+      font-family: "BebasRegular";
+      font-size: 24px;
+       margin-bottom: 12px;
+      -moz-tex-shadow:    1px 1px 1px #000;
+      -webkit-tex-shadow: 1px 1px  1px #000;
+      tex-shadow:         1px 1px  1px #000;
+
+}
+
+#template-details-inner {
+    height: 391px;
+    width: 680px;
+    background: #999 url("http://ivipid.com/site_media/static/skins/default/bg_tile_256.png");
+    -webkit-box-shadow: 5px 0 46px rgba(0,0,0,.75);
+    -moz-box-shadow: 5px 0 46px rgba(0,0,0,.75);
+    box-shadow: 5px 0 46px rgba(0,0,0,.75);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+border: 1px solid #4e4e4e;
+}
+
+#template-details-player-holder{
+    background: #000;
+    width: 640px;
+    height: 360px;
+    float: left;
+    margin-top: 18px;
+    margin-left: 18px;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.75);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,.75);
+    box-shadow: 0 0 10px rgba(0,0,0,.75);
+}
+
+
+#template-details-close{
+	float: right;
+	width: 37px;
+	height: 37px;
+	background: url("/site_media/static/skins/default/close37.png") no-repeat;
+	cursor: pointer;
+	margin-right: -20px;
+	margin-top: -18px;
+}
+
+
+#overlay {
+background-color: rgba(31,31,31, 0.95);
+}
+
+
+
+</style>
+
+<script type="text/javascript">
+var vipids = {
+
+63:{'image':'http://ivipid.com/site_media/content/templates/vipids/63/example_image_1.png.640x360_q95_crop-smart_upscale.jpg',
+		 'title': "Glass Ball",
+		 'file': 'http://d3stzszue4x9wz.cloudfront.net/content/2__uid/956926_glassball/956926_glassball_sd.mp4',
+		 'exclusive':    false
+		},
+
+62:{'image':'http://ivipid.com/site_media/content/templates/vipids/None/example_image_23.jpg.640x360_q95_crop-smart_upscale.jpg',
+		 'title': "Comics",
+		 'file': 'http://d3stzszue4x9wz.cloudfront.net/content/2__uid/950469_comics/950469_comics_sd.mp4',
+		 'exclusive':    false
+		},
+
+61:{'image':'http://ivipid.com/site_media/content/templates/vipids/61/example_image_2.jpg.640x360_q95_crop-smart_upscale.jpg',
+		 'title': "Sunshine",
+		 'file': 'http://d3stzszue4x9wz.cloudfront.net/vipid_examples/932970_skydance.mp4',
+		 'exclusive':    false
+		},
+
+60:{'image':'http://ivipid.com/site_media/content/templates/vipids/60/example_image_1.jpg.640x360_q95_crop-smart_upscale.jpg',
+		 'title': "Telescope",
+		 'file': 'http://d3stzszue4x9wz.cloudfront.net/content/2__uid/642285_spyglass/642285_spyglass_sd.mp4',
+		 'exclusive':    false
+		},
+
+58:{'image':'http://ivipid.com/site_media/content/templates/vipids/58/example_image.jpg.640x360_q95_crop-smart_upscale.jpg',
+		 'title': "Lighthouse",
+		 'file': 'http://d3stzszue4x9wz.cloudfront.net/content/2__uid/331000_castlerock/331000_castlerock.mp4',
+		 'exclusive':    false
+		},
+
+57:{'image':'http://ivipid.com/site_media/content/templates/vipids/57/example_image.jpg.640x360_q95_crop-smart_upscale.jpg',
+		 'title': "Bokeh Features",
+		 'file': 'http://d3stzszue4x9wz.cloudfront.net/content/2__uid/281880_focus/281880_focus_sd.mp4',
+		 'exclusive':    false
+		},
+
+56:{'image':'http://ivipid.com/site_media/content/templates/vipids/56/example_image.jpg.640x360_q95_crop-smart_upscale.jpg',
+		 'title': "Torch Lady",
+		 'file': 'http://d3stzszue4x9wz.cloudfront.net/content/2__uid/265299_columbia_mdl/265299_columbia_mdl_sd.mp4',
+		 'exclusive':    false
+		},
+
+54:{'image':'http://ivipid.com/site_media/content/templates/vipids/54/example_image_1.jpg.640x360_q95_crop-smart_upscale.jpg',
+		 'title': "Universal Sun",
+		 'file': 'http://d3stzszue4x9wz.cloudfront.net/content/2__uid/218234_universal_sun/218234_universal_sun_sd.mp4',
+		 'exclusive':    false
+		},
+
+23:{'image':'http://ivipid.com/site_media/content/templates/vipids/23/example_image_1.jpg.640x360_q95_crop-smart_upscale.jpg',
+		 'title': "Gears",
+		 'file': 'http://d3stzszue4x9wz.cloudfront.net/content/6459__uid/173158_lionsgate/173158_lionsgate_sd.mp4',
+		 'exclusive':    false
+		},
+
+21:{'image':'http://ivipid.com/site_media/content/templates/vipids/21/example_image_2.jpg.640x360_q95_crop-smart_upscale.jpg',
+		 'title': "Shield in the sky",
+		 'file': 'http://d3stzszue4x9wz.cloudfront.net/content/6459__uid/173148_warnerbros/173148_warnerbros_sd.mp4',
+		 'exclusive':    false
+		},
+
+18:{'image':'http://ivipid.com/site_media/content/templates/vipids/18/example_image_1.jpg.640x360_q95_crop-smart_upscale.jpg',
+		 'title': "Suspense",
+		 'file': 'http://d3stzszue4x9wz.cloudfront.net/content/6459__uid/173160_suspense/173160_suspense_sd.mp4',
+		 'exclusive':    false
+		},
+
+9:{'image':'http://ivipid.com/site_media/content/templates/vipids/9/example_image_1.jpg.640x360_q95_crop-smart_upscale.jpg',
+		 'title': "Halloween",
+		 'file': 'http://d3stzszue4x9wz.cloudfront.net/content/3_deep/1502_halloween/1502_halloween.mp4',
+		 'exclusive':    false
+		},
+
+7:{'image':'http://ivipid.com/site_media/content/templates/vipids/7/example_image_3.jpg.640x360_q95_crop-smart_upscale.jpg',
+		 'title': "Jumping Lamp",
+		 'file': 'http://d3stzszue4x9wz.cloudfront.net/content/6459__uid/173138_pixar/173138_pixar_sd.mp4',
+		 'exclusive':    false
+		}
+
+};
+
+var example_movies = {"7": "http://d3stzszue4x9wz.cloudfront.net/content/6459__uid/173138_pixar/173138_pixar_sd.mp4", "9": "http://d3stzszue4x9wz.cloudfront.net/content/3_deep/1502_halloween/1502_halloween.mp4", "18": "http://d3stzszue4x9wz.cloudfront.net/content/6459__uid/173160_suspense/173160_suspense_sd.mp4", "21": "http://d3stzszue4x9wz.cloudfront.net/content/6459__uid/173148_warnerbros/173148_warnerbros_sd.mp4", "54": "http://d3stzszue4x9wz.cloudfront.net/content/2__uid/218234_universal_sun/218234_universal_sun_sd.mp4", "23": "http://d3stzszue4x9wz.cloudfront.net/content/6459__uid/173158_lionsgate/173158_lionsgate_sd.mp4", "56": "http://d3stzszue4x9wz.cloudfront.net/content/2__uid/265299_columbia_mdl/265299_columbia_mdl_sd.mp4", "57": "http://d3stzszue4x9wz.cloudfront.net/content/2__uid/281880_focus/281880_focus_sd.mp4", "58": "http://d3stzszue4x9wz.cloudfront.net/content/2__uid/331000_castlerock/331000_castlerock.mp4", "60": "http://d3stzszue4x9wz.cloudfront.net/content/2__uid/642285_spyglass/642285_spyglass_sd.mp4", "61": "http://d3stzszue4x9wz.cloudfront.net/vipid_examples/932970_skydance.mp4", "62": "http://d3stzszue4x9wz.cloudfront.net/content/2__uid/950469_comics/950469_comics_sd.mp4", "63": "http://d3stzszue4x9wz.cloudfront.net/content/2__uid/956926_glassball/956926_glassball_sd.mp4"};
+var example_movies_hd = {"7": "http://d3stzszue4x9wz.cloudfront.net/content/6459__uid/173138_pixar/173138_pixar.mp4", "18": "http://d3stzszue4x9wz.cloudfront.net/content/6459__uid/173160_suspense/173160_suspense.mp4", "21": "http://d3stzszue4x9wz.cloudfront.net/content/6459__uid/173148_warnerbros/173148_warnerbros.mp4", "54": "http://d3stzszue4x9wz.cloudfront.net/content/2__uid/218234_universal_sun/218234_universal_sun.mp4", "23": "http://d3stzszue4x9wz.cloudfront.net/content/6459__uid/173158_lionsgate/173158_lionsgate.mp4", "56": "http://d3stzszue4x9wz.cloudfront.net/content/2__uid/265299_columbia_mdl/265299_columbia_mdl.mp4", "57": "http://d3stzszue4x9wz.cloudfront.net/content/2__uid/281880_focus/281880_focus.mp4", "60": "http://d3stzszue4x9wz.cloudfront.net/content/2__uid/642285_spyglass/642285_spyglass.mp4", "62": "http://d3stzszue4x9wz.cloudfront.net/content/2__uid/950469_comics/950469_comics.mp4", "63": "http://d3stzszue4x9wz.cloudfront.net/content/2__uid/956926_glassball/956926_glassball.mp4"};
+var interval;
+var themes = [{'title':"Glass Ball", 'info':"", 'img':"http://ivipid.com/site_media/content/templates/vipids/63/example_image_1.png.203x110_q85.jpg", 'slug':"glassball"},{'title':"Comics", 'info':"Listen to your favourite pages shuffling with your own pictures in it.", 'img':"http://ivipid.com/site_media/content/templates/vipids/None/example_image_23.jpg.203x110_q85.jpg", 'slug':"comics"},{'title':"Sunshine", 'info':"Do not touch, it’s hot!", 'img':"http://ivipid.com/site_media/content/templates/vipids/61/example_image_2.jpg.203x110_q85.jpg", 'slug':"skydance"},{'title':"Telescope", 'info':"Through the looking glass.", 'img':"http://ivipid.com/site_media/content/templates/vipids/60/example_image_1.jpg.203x110_q85.jpg", 'slug':"spyglass"},{'title':"Lighthouse", 'info':"Let this lighthouse reveal your text.", 'img':"http://ivipid.com/site_media/content/templates/vipids/58/example_image.jpg.203x110_q85.jpg", 'slug':"lighthouse"},{'title':"Bokeh Features", 'info':"Blurry shapes you all know.", 'img':"http://ivipid.com/site_media/content/templates/vipids/57/example_image.jpg.203x110_q85.jpg", 'slug':"focus"},{'title':"Torch Lady", 'info':"Goddess lady carrying your text.", 'img':"http://ivipid.com/site_media/content/templates/vipids/56/example_image.jpg.203x110_q85.jpg", 'slug':"torch"},{'title':"Universal Sun", 'info':"Watch the Sun revealing your own text.", 'img':"http://ivipid.com/site_media/content/templates/vipids/54/example_image_1.jpg.203x110_q85.jpg", 'slug':"universal_sun"},{'title':"Gears", 'info':"Watch beauty of mechanics bring you to your own text.", 'img':"http://ivipid.com/site_media/content/templates/vipids/23/example_image_1.jpg.203x110_q85.jpg", 'slug':"gears"},{'title':"Shield in the sky", 'info':"Shield in the sky intro !", 'img':"http://ivipid.com/site_media/content/templates/vipids/21/example_image_2.jpg.203x110_q85.jpg", 'slug':"shield"},{'title':"Suspense", 'info':"Original somewhat cosmic theme.", 'img':"http://ivipid.com/site_media/content/templates/vipids/18/example_image_1.jpg.203x110_q85.jpg", 'slug':"suspense"},{'title':"Halloween", 'info':"Halloween greeting card", 'img':"http://ivipid.com/site_media/content/templates/vipids/9/example_image_1.jpg.203x110_q85.jpg", 'slug':"halloween"},{'title':"Jumping Lamp", 'info':"Do we even need to explain that theme ?", 'img':"http://ivipid.com/site_media/content/templates/vipids/7/example_image_3.jpg.203x110_q85.jpg", 'slug':"lamp"},]
+var counter = 0;
+var pos = 0;
+var pos_step = 936;
+var pos_min;
+
+
+
+$(function() {
+    $.get("/api/latest_tweets", function(data){
+	$.each(data, function(k,v) {
+	    $("<dt/>", {"text":v.date}).appendTo("#tweets-dl");
+	    $("<dd/>", {"text":v.text}).appendTo("#tweets-dl");
+	});
+    });
+
+    $("#demo").hover(function(){$(this).find("#theatre-play").show();}, function(){$(this).find("#theatre-play").hide();});
+    
+    $("#demo").bind("click", startDemo);
+
+    function demoComplete () {
+	$("#demo-player").hide();
+	$("#demo").bind("click", startDemo);
+    }
+    
+    function startDemo() {
+	$("#demo").unbind("click");
+	$("#demo-player").show();
+	jwplayer("demo-player").setup({
+	    flashplayer: "/site_media/static/player/player.swf?944b9c94e623c4eac337ed837a4fd874c57558c7", 
+	    width: 450, 
+	    height: 252,
+	    'autoplay':true,
+	    bufferlength: 0,
+	    'file': "http://d3stzszue4x9wz.cloudfront.net/vipid_examples/demo.mp4",
+	    events: {
+		onComplete: demoComplete
+	    }
+	});
+    }
+    
+    $(".sample-thumb").mouseenter(function() {
+	$(this).find(".sample-play").show();
+    });
+
+    $(".sample-thumb").mouseleave(function() {
+	$(this).find(".sample-play").hide();
+    });
+
+    $(".sample-thumb").click(function() {
+	var id  = $(this).attr("rel");
+	$("#overlay").live("click",function(){$("#template-details-close").click()});
+	var details = $("#template-details");
+	$("#title").text(vipids[id].title);
+	
+	$(document).bind("keydown", Document_esc_handler);
+	
+	jwplayer("template-details-player-holder").setup( $.extend({}, {
+	    flashplayer: "/site_media/static/player/player.swf?944b9c94e623c4eac337ed837a4fd874c57558c7", 
+	    width: 640, 
+	    height: 360
+	}, 
+								   {'autoplay':true, 'file': example_movies[id], 'image':vipids[id].image}, 
+								   id in example_movies_hd ? { plugins: { hd: { file: example_movies_hd[id] }}} : {} ));
+	overlayOn();
+	
+	details.center();
+	details.css("visibility","visible");
+});
+
+    function Document_esc_handler(e)
+    {
+        if (e.keyCode === 27) {
+            e.preventDefault();
+            $("#template-details-close").click();
+        }            
+    }
+
+
+    $("#template-details-close").click(function() {
+        $(document).unbind("keydown", Document_esc_handler);
+    	$("#template-details").css("visibility","hidden");
+	jwplayer("template-details-player-holder").stop();
+        $("#overlay").die("click");
+    	overlayOff();
+    });
+    
+    
+    pos_min = 0 - (($(".group3").size() - 1) * pos_step);
+    
+    $(".prev").click(function(){
+	if (pos < 0) {
+	    pos = pos + pos_step;
+	    $(".items").animate({"left": pos + "px"});
+	    currentOn(pos);
+	}
+    });
+    
+    $(".next").click(function(){
+	if (pos > pos_min) {
+	    pos = pos - pos_step;
+	    $(".items").animate({"left": pos + "px"});
+	    currentOn(pos);
+	}
+    });
+
+
+    for (var i=0; i < $(".group3").size(); i++) {
+	if (i == 0) {
+	    $("#switchers-block").append("<div class='sample-switch on' data-n='" + (0 - pos_step * i) + "'></div>");
+	} else {
+	    $("#switchers-block").append("<div class='sample-switch off' data-n='" + (0 - pos_step * i) + "'></div>");
+	}
+    }
+
+
+    $(".sample-switch").click(function() {
+	if (!$(this).is(".on")) {
+	    pos = parseInt($(this).attr("data-n"));
+	    $(".items").animate({"left": $(this).attr("data-n") + "px"});
+	    currentOn(pos);
+	}
+    });
+})
+
+function currentOn(pos) {
+    $(".sample-switch").removeClass("on").addClass("off");
+    $(".sample-switch[data-n=" + pos + "]").removeClass("off").addClass("on");
+}
+
+</script>
+
+
+</head>
+<body>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=128439573889394";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  
+	
+    <div id="container">
+	<div id="graysand">
+    <div id="header-new">
+	
+	<div id="header-fixed">
+              
+	    <a href="/"><div id="logo"></div></a>
+            
+            
+	    <ul id="header-lnav">
+		<li class="themes"><a href="/themes/">THEMES</a></li>
+		<li class="round-sep"></li>
+		<li class="my-videos"><a href="/my_videos/">MY VIDEOS</a></li>
+		
+	    </ul>
+
+	    <ul id="header-rnav">
+		
+		<li><a href="/accounts/login/">SIGN IN</a></li>
+		<li class="or-sep"></li>
+		<li><a href="/accounts/register/">SIGN UP</a></li>
+		
+	    </ul>
+	<ul class="header-dropdown" id="account-dd">          
+	    
+	    <li><a href="/profile/">MY PROFILE</a></li>
+	    <li><a href="/packages/">BUY PACKAGE</a></li>            
+	    <li><a href="/my_referrals/">MY REFERRALS</a></li>            
+	    <li><a href="/accounts/logout/" class="last">SIGN OUT</a></li>
+        </ul>
+	</div>
+
+    
+    </div>
+	<div id="content">
+            <div id="sidebar">
+              
+              <div style="margin: 4px">
+                <div class="fb-like" data-href="http://www.facebook.com/ivipid" data-send="false" data-layout="box_count" data-width="450" data-show-faces="true" data-colorscheme="dark" data-font="lucida grande"></div>
+              </div>
+              <div style="margin-top: 8px">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://ivipid.com" data-text="Create your own personal video intros, greeting cards and much more with ivipid.com !" data-count="vertical"></a>
+              </div>
+            </div>
+            
+
+	    
+
+
+<div id="template-details">
+    <div id="template-details-top">
+	<p id="title">Title</p>
+    </div>
+    <div id="template-details-inner">
+	<div id="template-details-close"></div>
+	<div id="template-details-player-holder" class="left"></div>
+	<br class="clear">
+    </div>
+    <br class="clear">
+</div>
+
+
+<div id="front-left">
+    <div id="amazing"></div>
+    <div id="action">
+	<a href="/select/"><img src="http://ivipid.com/site_media/static/skins/default/getstarted.png"/></a>
+	<div id="action-or"></div>
+	<a href="/about/"><img src="http://ivipid.com/site_media/static/skins/default/learnmore.png"/></a>
+    </div>
+</div>
+
+<div id="front-right">
+    <div id="about-nav">
+	<a href="/about/">About</a>
+	<a href="/samples/">Sample Videos</a>
+	<a href="/packages/">Pricing</a>
+</div>
+<div id="demo">
+    <div id="theatre-play"></div>
+    <div id="demo-player"></div>
+</div>
+
+</div>
+
+
+<div style="margin-top: 36px; width:946px; margin-left:10px; margin-bottom:20px;" class="hdivisor"></div>
+<br class="clear">
+
+<div id="steps"></div>
+
+<div id="news-block">
+    <div class="block-title">
+	<table border="0" cellpadding="0" cellspacing="0"><tr>
+		<td><img class="bebas-title" src="http://ivipid.com/site_media/static/skins/default/news.png" /></td>
+		<td width="100%"><div class="hdivisor"></div></td>
+	</tr></table>
+    </div>
+
+<table border="0">
+<tr>
+
+<td><p class="news-header">Bitcoin, baby!</p><div class="newsdate">26 Jan 2016</div></td>
+<td></td>
+
+<td><p class="news-header">HAPPY NEW YEAR!</p><div class="newsdate">31 Dec 2015</div></td>
+<td></td>
+
+<td><p class="news-header">COMICS PROMO</p><div class="newsdate">12 Oct 2015</div></td>
+
+
+</tr>
+<tr>
+
+
+<td valign="top" width="318">
+    <a class="news-url" href="http://ivipid.com/packages/">
+	<div class="news-container">
+	
+	    <img src="http://ivipid.com/site_media/content/news/bitcoin-gold_1024x1024.jpg.288x162_q95_crop-smart.jpg" class="news-image"/>
+	
+	    <div class="news-body">
+			<p>Dear all,<br />As it&#8217;s been told, we&#8217;re working on several more methods of payment and today we&#8217;re happy to announce that the first part of this work is done: now you can also pay by ‎Bitcoins‬!<br />This extremely popular form of digital currency is now here to help you create more videos! Start your ‪bitcoin madness‬ now!</p>
+	    </div>
+	</div>
+    </a>
+</td>
+
+<td class="vdivisor"></td>
+
+</td>
+
+<td valign="top" width="318">
+    
+	<div class="news-container">
+	
+	    <img src="http://ivipid.com/site_media/content/news/happy-new-year-champagne.jpg.288x162_q95_crop-smart.jpg" class="news-image"/>
+	
+	    <div class="news-body">
+			<p>We wish you the year full of beautiful memories and fun! We&#8217;ll try to make this year brighter and warmer for you!</p>
+
+	<p>Your <span class="caps">IVIPID</span> team</p>
+	    </div>
+	</div>
+    
+</td>
+
+<td class="vdivisor"></td>
+
+</td>
+
+<td valign="top" width="318">
+    <a class="news-url" href="https://www.youtube.com/watch?v=p_GJhIKCbGQ&amp;feature=youtu.be">
+	<div class="news-container">
+	
+	    <img src="http://ivipid.com/site_media/content/news/391ebbc19d157bb0d1a46ffef780cb0a.jpg.288x162_q95_crop-smart.jpg" class="news-image"/>
+	
+	    <div class="news-body">
+			<p>Cilck here to see a heads-up, guys. For what will be availalble for you by the end of this week. Are you excited?</p>
+	    </div>
+	</div>
+    </a>
+</td>
+
+</td>
+
+
+</tr>
+
+
+</table>
+
+</div>
+
+
+<div id="news-block">
+    <div class="block-title">
+	<table border="0" cellpadding="0" cellspacing="0"><tr>
+		<td><img class="bebas-title" src="http://ivipid.com/site_media/static/skins/default/samplevideos.png" /></td>
+		<td width="100%"><div class="hdivisor"></div></td>
+	    </tr>
+	</table>
+    </div>
+</div>
+
+<div id="sample-videos">
+    <div class="next browse right"></div>
+    <div class="prev browse left"></div>
+    <div id="sample-videos-inner">
+	<div class="items">
+	<div class="group3">
+	
+	<div class="sample-thumb" rel="63">
+	    <div class="sample-play"></div>
+	    <img width="284" height="160" src="http://ivipid.com/site_media/content/templates/vipids/63/example_image_1.png.284x160_q95_crop-smart_upscale.jpg" />
+	    <div class="chrome-title">Glass Ball</div>
+	</div>
+	
+	
+	<div class="sample-thumb" rel="62">
+	    <div class="sample-play"></div>
+	    <img width="284" height="160" src="http://ivipid.com/site_media/content/templates/vipids/None/example_image_23.jpg.284x160_q95_crop-smart_upscale.jpg" />
+	    <div class="chrome-title">Comics</div>
+	</div>
+	
+	
+	<div class="sample-thumb" rel="61">
+	    <div class="sample-play"></div>
+	    <img width="284" height="160" src="http://ivipid.com/site_media/content/templates/vipids/61/example_image_2.jpg.284x160_q95_crop-smart_upscale.jpg" />
+	    <div class="chrome-title">Sunshine</div>
+	</div>
+	</div><div class="group3">
+	
+	<div class="sample-thumb" rel="60">
+	    <div class="sample-play"></div>
+	    <img width="284" height="160" src="http://ivipid.com/site_media/content/templates/vipids/60/example_image_1.jpg.284x160_q95_crop-smart_upscale.jpg" />
+	    <div class="chrome-title">Telescope</div>
+	</div>
+	
+	
+	<div class="sample-thumb" rel="58">
+	    <div class="sample-play"></div>
+	    <img width="284" height="160" src="http://ivipid.com/site_media/content/templates/vipids/58/example_image.jpg.284x160_q95_crop-smart_upscale.jpg" />
+	    <div class="chrome-title">Lighthouse</div>
+	</div>
+	
+	
+	<div class="sample-thumb" rel="57">
+	    <div class="sample-play"></div>
+	    <img width="284" height="160" src="http://ivipid.com/site_media/content/templates/vipids/57/example_image.jpg.284x160_q95_crop-smart_upscale.jpg" />
+	    <div class="chrome-title">Bokeh Features</div>
+	</div>
+	</div><div class="group3">
+	
+	<div class="sample-thumb" rel="56">
+	    <div class="sample-play"></div>
+	    <img width="284" height="160" src="http://ivipid.com/site_media/content/templates/vipids/56/example_image.jpg.284x160_q95_crop-smart_upscale.jpg" />
+	    <div class="chrome-title">Torch Lady</div>
+	</div>
+	
+	
+	<div class="sample-thumb" rel="54">
+	    <div class="sample-play"></div>
+	    <img width="284" height="160" src="http://ivipid.com/site_media/content/templates/vipids/54/example_image_1.jpg.284x160_q95_crop-smart_upscale.jpg" />
+	    <div class="chrome-title">Universal Sun</div>
+	</div>
+	
+	
+	<div class="sample-thumb" rel="23">
+	    <div class="sample-play"></div>
+	    <img width="284" height="160" src="http://ivipid.com/site_media/content/templates/vipids/23/example_image_1.jpg.284x160_q95_crop-smart_upscale.jpg" />
+	    <div class="chrome-title">Gears</div>
+	</div>
+	</div><div class="group3">
+	
+	<div class="sample-thumb" rel="21">
+	    <div class="sample-play"></div>
+	    <img width="284" height="160" src="http://ivipid.com/site_media/content/templates/vipids/21/example_image_2.jpg.284x160_q95_crop-smart_upscale.jpg" />
+	    <div class="chrome-title">Shield in the sky</div>
+	</div>
+	
+	
+	<div class="sample-thumb" rel="18">
+	    <div class="sample-play"></div>
+	    <img width="284" height="160" src="http://ivipid.com/site_media/content/templates/vipids/18/example_image_1.jpg.284x160_q95_crop-smart_upscale.jpg" />
+	    <div class="chrome-title">Suspense</div>
+	</div>
+	
+	
+	<div class="sample-thumb" rel="9">
+	    <div class="sample-play"></div>
+	    <img width="284" height="160" src="http://ivipid.com/site_media/content/templates/vipids/9/example_image_1.jpg.284x160_q95_crop-smart_upscale.jpg" />
+	    <div class="chrome-title">Halloween</div>
+	</div>
+	</div><div class="group3">
+	
+	<div class="sample-thumb" rel="7">
+	    <div class="sample-play"></div>
+	    <img width="284" height="160" src="http://ivipid.com/site_media/content/templates/vipids/7/example_image_3.jpg.284x160_q95_crop-smart_upscale.jpg" />
+	    <div class="chrome-title">Jumping Lamp</div>
+	</div>
+	
+	
+	</div>
+	</div>
+    </div>
+<div id="switchers-block"></div>
+
+
+<br class="clear">
+</div>
+
+<div id="news-2col">
+    <table border="0" cellpadding="0" cellspacing="0"><tr>
+	    <td width="480" valign="top">
+		<div id="news-block">
+		    <div class="block-title">
+			<table border="0" cellpadding="0" cellspacing="0"><tr>
+				<td><img class="bebas-title" src="http://ivipid.com/site_media/static/skins/default/latestthemes.png" /></td>
+				<td width="100%"><div class="hdivisor"></div></td>
+			</tr></table>
+		    </div>
+		    <div id="latest-theme-thumb">
+			<a href="/themes/glassball/">
+			<div id="latest-theme-img" style="background:url(http://ivipid.com/site_media/content/templates/vipids/63/example_image_1.png.450x254_q95_crop-smart_upscale.jpg) no-repeat;">
+			    <div id="latest-theme-strip">
+				<p>Glass Ball</p>
+			    </div>
+			</div>
+			</a>
+		    </div>
+		</div>
+	    </td>
+
+	    <td width="480" valign="top">
+		<div id="news-block">
+		    <div class="block-title">
+			<table border="0" cellpadding="0" cellspacing="0"><tr>
+				<td><img class="bebas-title" src="http://ivipid.com/site_media/static/skins/default/latesttweets.png" /></td>
+				<td width="100%"><div class="hdivisor"></div></td>
+			</tr></table>
+		    </div>
+		    <div id="latest-tweets">
+			<!--<a id="twitter-link-blue" href="http://twitter.com/ivipid">@ivipid</a>-->
+			<dl id="tweets-dl"></dl>
+			<a class="twitter-timeline"  height="260" data-chrome="noheader nofooter noborders transparent"  data-tweet-limit="3" href="https://twitter.com/ivipid" data-widget-id="597729303426682883"  data-show-replies="false"></a>
+		    </div>
+		</div>
+    </td></tr>
+    </table>
+</div>
+
+
+
+
+	</div>
+	<div id="new-footer">
+	<div id="new-footer-inner">
+	    <div id="tellafriend">
+                
+		<a href="http://www.facebook.com/ivipid"><img src="http://ivipid.com/site_media/static/skins/default/facebook32.png"></a>
+		<a href="http://twitter.com/ivipid"><img src="http://ivipid.com/site_media/static/skins/default/twitter32.png"></a>
+		<a href="http://youtube.com/user/ivipid"><img src="http://ivipid.com/site_media/static/skins/default/youtube32.png"></a>
+                
+                
+		<a href="/my_referrals/"><div id="tellafriend2"></div></a>
+            </div>
+	    <ul class="footer-menu">
+		<li class="menu-header">Product</li>
+		<li><a href="/about/">About</a></li>
+		<li><a href="/packages/">Pricing</a></li>
+		<li><a href="/news/">News</a></li>
+	    </ul>
+
+	    <ul class="footer-menu">
+		<li class="menu-header">Vipid For</li>
+		<li><a href="/samples/">Enthusiasts</a></li>
+		<li><a href="/samples/">Businesses</a></li>
+	    </ul>
+
+	    <ul class="footer-menu">
+		<li class="menu-header">Support</li>
+		<li><a href="/faq/">FAQ</a></li>
+		<li><a href="/contacts/">Contacts</a></li>
+		<li><a href="/privacy-policy/">Privacy Policy</a></li>
+		<li><a href="/terms-of-service/">Terms of Service</a></li>
+                                
+		<li><a href="/passreset/">Forgot Password?</a></li>
+                
+	    </ul>
+	    <div id="counter-holder">
+                
+		<div id="videos-counter" data-count="960523"></div>
+                
+                
+	    </div>
+	</div>
+        
+	<div id="new-footer-bottom"><p><a href="/terms-of-service/">Terms of Service</a> | <a href="/privacy-policy/">Privacy Policy</a> | <a href="http://www.youtube.com/user/ivipid">Youtube</a> | <a href="http://twitter.com/ivipid">Twitter</a> | <a href="http://www.facebook.com/ivipid">Facebook</a></p><div>
+	
+        
+        
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24504828-1']);
+  _gaq.push(['_setDomainName', '.ivipid.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  
+  
+</script>
+
+
+</body>
+</html>

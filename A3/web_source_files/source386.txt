@@ -1,0 +1,1711 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"     
+xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
+<!--  ABOVE XMLNS FOR FACEBOOK OPENGRAPH --> 
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]> <html class="no-js" lang="en"> <![endif]-->
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+
+
+
+<head><meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"6e831fb790","applicationID":"2214965","transactionName":"Y1BXMUoFDBAFVxYPCVoadiF6NgcXBV0OSQVQGg==","queueTime":0,"applicationTime":471,"ttGuid":"4069285D7C6B7144","agent":"","atts":"TxdARwIfQAIIVhcLL1AXD0dPBQ4IAUYLDQdGUQRXGhkf"}</script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwMOVVVWGwECVVVbAQQ="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function s(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),s=a.length,c=0;s>c;c++)a[c].apply(i,r);return i}function c(t,e){d[t]=f(t).concat(e)}function f(t){return d[t]||[]}function u(){return r(s)}var d={};return{on:c,emit:s,create:u,listeners:f,context:e,_events:d}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:25,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,a){try{f?f-=1:r("err",[a||new UncaughtException(t,e,n)])}catch(c){try{r("ierr",[c,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof s?s.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=t("loader"),s=window.onerror,c=!1,f=0;a.features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(u){"stack"in u&&(t(1),t(2),"addEventListener"in window&&t(3),a.xhrWrappable&&t(4),c=!0)}i.on("fn-start",function(){c&&(f+=1)}),i.on("fn-err",function(t,e,r){c&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){c&&!this.thrown&&f>0&&(f-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:26,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.clearResourceTimings?window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1):window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){for(var e=t;e&&!e.hasOwnProperty("addEventListener");)e=Object.getPrototypeOf(e);e&&r(e)}function r(t){a.inPlace(t,["addEventListener","removeEventListener"],"-",o)}function o(t){return t[1]}var i=t("ee").create(),a=t(1)(i),s=t("gos");e.exports=i,r(window),"getPrototypeOf"in Object?(n(document),n(XMLHttpRequest.prototype)):XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&r(XMLHttpRequest.prototype),i.on("addEventListener-start",function(t){if(t[1]){var e=t[1];if("function"==typeof e){var n=s(e,"nr@wrapped",function(){return a(e,"fn-",null,e.name||"anonymous")});this.wrapped=t[1]=n}else"function"==typeof e.handleEvent&&a.inPlace(e,["handleEvent"],"fn-")}}),i.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:27,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:27,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:27,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=i(t[0],"fn-",this,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:27,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,l,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-",o)}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,l=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[e],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:27,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var o=0;u>o;o++)t.removeEventListener(f[o],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=this.lastSize||n(t);if(i&&(r.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,c.emit("xhr-done",[t],t),a("xhr",[e,r,this.startTime])}}}function n(t){var e=t.responseType,n="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return r(n)}function r(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function o(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var i=t("loader");if(i.xhrWrappable){var a=t("handle"),s=t(2),c=t("ee"),f=["load","error","abort","timeout"],u=f.length,d=t(1),l=t(3),p=window.XMLHttpRequest;i.features.xhr=!0,t(5),t(4),c.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=e,n.ended=!1,n.xhrGuids={},n.lastSize=0,l&&(l>34||10>l)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),c.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),c.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),c.on("send-xhr-start",function(t,e){var n=this.metrics,o=t[0],i=this;if(n&&o){var a=r(o);a&&(n.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{c.emit("internal-error",[n])}catch(r){}}};for(var s=0;u>s;s++)e.addEventListener(f[s],this.listener,!1)}),c.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),c.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),c.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),c.on("addEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-added",[t[1],t[2]],e)}),c.on("removeEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-removed",[t[1],t[2]],e)}),c.on("fn-start",function(t,e,n){e instanceof p&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),c.on("fn-end",function(t,e){this.xhrCbStart&&c.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:16,4:12,5:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:25,2:26,handle:"D5DuLP"}],16:[function(t,e){var n=0,r=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);r&&(n=+r[1]),e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!h++){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){t[e]||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},l=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),p=e.exports={offset:i(),origin:u,features:{},xhrWrappable:l};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var h=0},{1:25,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],25:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],26:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],27:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,c;try{i=this,n=o(arguments),s="function"==typeof r?r(n,i):r||{}}catch(u){d([u,"",[n,i,a],s])}f(e+"start",[n,i,a],s);try{return c=t.apply(i,n)}catch(l){throw f(e+"err",[n,i,l],s),l}finally{f(e+"end",[n,i,c],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,u(t,nrWrapper),nrWrapper)}function c(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!s){s=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}s=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=c,e.flag=i,e}},{1:26,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script><title>
+	Walker Ikard | Just a Running | CD Baby Music Store
+</title>
+    	
+    <script type="text/javascript" src='/js/libs/modernizr-2.0.6.min.js?token=47'></script>
+    <script type="text/javascript" src='/js/scripts-updatepanels.js?token=47'></script>
+    
+    <link id="canonicalLink" rel="canonical" href="www.cdbaby.com/cd/walkerikard12" />
+    <meta id="cphHead_metaTitle" name="title" content="Just a Running"></meta>
+    <link id="cphHead_metaImage" rel="image_src" href="//images.cdbaby.name/w/a/walkerikard12_small.jpg"></link>
+	<link rel="stylesheet" href="/css/albumCarousel.css" />
+    <link rel="stylesheet" href="/css/validation.css" />
+	<link rel="stylesheet" href="/css/shareMenu.css" />
+	<style type="text/css">
+		.center-left 
+		{
+			text-align:left; 
+			vertical-align: middle;
+		}
+
+		.availableFormatText
+		{			
+			padding:5px;
+			font-size: 12px;
+			font-style:italic;
+			font-family:Georgia;
+			color:#666;
+		}
+
+		.availableFormatContainer 
+		{
+			width: 400px;
+			position: relative;
+			float: left;
+			text-align: left;
+		}
+		.center-me {
+			position: relative;
+		}
+		.clip-note {
+			display: none;
+			position: absolute;
+			background-color: white;
+			border: 1px solid #A7A6A6;
+			line-height: 1em;
+			padding: 2px 2px 1px 2px;
+			right: 12px;
+			top: 40px;
+			color: #666;
+			font-weight: bold;
+			font-size: 9px;
+			border-radius: 3px;
+			text-transform: capitalize;
+			font-family: arial;
+			padding: 2px;
+		}
+		.clip-note:after, .clip-note:before {
+			bottom: 100%;
+			left: 50%;
+			border: solid transparent;
+			content: " ";
+			height: 0;
+			width: 0;
+			position: absolute;
+			pointer-events: none;
+		}
+
+		.clip-note:after {
+			border-color: rgba(255, 255, 255, 0);
+			border-bottom-color: #FFFFFF;
+			border-width: 5px;
+			margin-left: -5px;
+		}
+		.clip-note:before {
+			border-color: rgba(102, 102, 102, 0);
+			border-bottom-color: #A7A6A6;
+			border-width: 6px;
+			margin-left: -6px;
+		}
+	</style>
+	<script type="text/javascript" src="/js/validation/validation.js"></script>
+<meta property="og:title" content="♫ Just a Running - Walker Ikard. Listen @cdbaby" /><meta property="og:type" content="music.album" /><meta property="og:url" content="http://www.cdbaby.com/cd/walkerikard12" /><meta property="og:image" content="http://images.cdbaby.name/w/a/walkerikard12_large.jpg?v=a2b60a3e-2701-4fb2-b1f5-28a548371846" /><meta property="og:image:height" content="600" /><meta property="og:image:width" content="600" /><meta property="og:description" content="Click to listen at CDBaby" /><meta name="twitter:card" content="summary" /><meta name="twitter:description" content="Click to listen at CDBaby" /><meta name="description" content="Listen to and buy Walker Ikard music on CD Baby. Download Just a Running by Walker Ikard on the independent record store by musicians for musicians." /><meta name="keywords" content="Just a Running, Walker Ikard, CD Baby, Independent Music, Independent Music Downloads" /></head>
+<body id ="content">
+    <link href="https://plus.google.com/107412413371084264127" rel="publisher" />
+    <link rel="stylesheet" href='/css/styles.css?token=47'/> 
+	<link rel="stylesheet" href='/css/modal.css?token=47'/>
+    <link rel="stylesheet" href='/css/print.css?token=47' media="print" />
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'/>
+    <link href='/css/jquery-ui-smoothness.css?token=47' rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href='/css/passwordStrength.css?token=47' />
+     <style>
+        /* for autocomplete */
+        .ui-front
+        {
+            z-index: 999;
+        }
+    </style>
+
+	
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KDXVJN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<script>
+	(function (w, d, s, l, i) {
+		w[l] = w[l] || []; w[l].push({
+			'gtm.start':
+			new Date().getTime(), event: 'gtm.js'
+		}); var f = d.getElementsByTagName(s)[0],
+		j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+			'//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+	})(window, document, 'script', 'dataLayer', 'GTM-KDXVJN');
+
+	
+</script>
+
+
+
+
+	
+
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	var pluginUrl =
+	 '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+	_gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+	_gaq.push(['_setAccount', 'UA-16769648-1']);
+	_gaq.push(['_setDomainName', 'cdbaby.com']);
+	_gaq.push(['_setAllowLinker', true]);
+	
+	_gaq.push(['_trackPageview']);
+
+
+	(function () {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+
+
+    <form method="post" action="/cd/walkerikard12" id="form1">
+<input type="hidden" name="__vskey" id="__vskey" value="a610b822-e177-48b0-b9ef-40d4a9fbc2a7" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+
+
+<script src="/ScriptResource.axd?d=oDgI_49_zSMaHHv0YfKAz8OoLD6HzCW-9_9PW0YjuBqXLenwi0WmfNk-PUP_-T4aCTpwTtOhi-pXdjMZXc8xBKfv-g2ruTFdePQSTKMbbxElt1lpNz69LX9R4c9OtvtyeNyespTjkcovE2sEj-2hHq1EgGUHXqZS-Yrv8l_gItA1&amp;t=6119e399" type="text/javascript"></script>
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAA+vVXD1oYELeveMr0vHCmYP9a0O8q8s/uPuEIQ6UzrrnVI8JsWbUrGKzL6kWKrKSpyCne3LFnFFhEwPwNyySOpEqz+rFFrnVvgwd5WRcAq8qAEVwJepWm9Zv59/bHGChBHP03gQAYosatNzTJezIdIVCMYgDbDYTxXYzI052wE5w2PKfacREbLJPbM/3ty29MzrtLCKph8URoeOOpD2uCr9Lbv+HM8Ns07y4s0G5QOMzQXQZHUqY7ZjImwHkLF1mykrHB7wrj1KIzK4+TuWFDdts/PpJfm9bwiSAQfAHyMzSHzezWleAsZgqrTygxUXamad68c/m5zHm4bwI9atCIDcU5cGlbOHEV/V3MUv8St27g==" />
+
+		
+		
+
+<style type="text/css">
+        
+    .overlay-button
+	{
+		border: 0;
+		border-radius: 4px;
+		color: #FFF;
+		font-size: 14px;
+		font-weight: bold;
+		padding: 10px;
+		text-align: center;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+	}   
+	
+	.float-right
+	{
+	    float:right;	    
+	}
+	
+	.empty-cart
+	{
+	    margin-top: 30px;   
+	    margin-bottom: 30px;
+	}
+        
+</style>
+
+    
+<div id="cart-modal" class="clearfix avlModalHideClass">
+    <div id="ucCartOverlay_cartHeader" class="page-header">
+	    <div class="header-icon my-cart-icon"></div>
+	    <h4>My Cart</h4>
+    </div>
+
+    <div id="ucCartOverlay_upCartOverlay">
+	  
+            <div>
+		
+                <div id="divTopButtons">
+	                <a href="javascript:;" id="overlay-top-continue" onclick="$.closeModal({target:'#cart-modal'})" title="continue shopping" class="button small green">Continue Shopping</a>
+					<div id="banner-cartpreview-upper"></div>
+	                <input type="submit" name="ctl00$ucCartOverlay$btnCheckoutTop" value="Checkout" id="ucCartOverlay_btnCheckoutTop" class="button small float-right" />
+                </div>
+                <div class="separator"></div>
+                <div style="clear:both"></div>
+		        
+		        <div id="ucCartOverlay_pnlCartOverlay">
+			
+			        
+ 
+<style type="text/css">
+	.error-response-div
+	{
+		margin:10px 0 10px 0;
+	}
+</style>	
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    
+</script>
+
+
+		        
+		</div>
+                <div id="ucCartOverlay_overlayButtonContainer">
+	                <a href="javascript:;" id="overlay-continue" onclick="$.closeModal({target:'#cart-modal'})" title="continue shopping" class="btn-gradient-tertiary overlay-button">Continue Shopping</a>
+	                <input type="submit" name="ctl00$ucCartOverlay$btnCheckoutBottom" value="Checkout" id="ucCartOverlay_btnCheckoutBottom" class="btn-gradient-primary overlay-button float-right" />
+                </div>
+            
+	</div>
+	    
+</div>
+
+    <a href="javascript:;" class="overlay-close" title="close" onclick="$.closeModal({target:'#cart-modal'})"></a>
+</div>
+
+
+        <div id="container">
+			<div id="header-container">
+				
+<header>
+	<a id="cdb-nav-logo" href="/"><img src="/img/cdbaby-music-store-logo.png" alt="CD Baby Indie Music Store Logo" title="CD Baby" /></a>
+
+	
+	<div id="ucHeader_pnlh2">
+	
+		<h2 id="cdb-tagline">the <span class="highlight">best independent</span> music store on the web</h2>
+	
+</div>
+	
+	<nav>
+		<a href="/cart" id="ucHeader_cartLinkIcon"><img src="/img/music-shopping-cart.png" alt="CD Baby music shopping cart" title="Shopping Cart" />Cart</a> 
+		<a href="/redeem" id="ucHeader_downloadCardLink">Redeem Download Card</a>
+		<a href="/login.aspx?showSO=yes" id="ucHeader_soLookupLink">Find an order / download</a>
+		<div style="display:none;"><a href="/Account" id="ucHeader_myAccountLnk">My Account</a></div>
+		<div class="account-hover">
+			<a id="ucHeader_hlLogIn" class="login-logout" href="/Login?PageTo=/account">My Account</a>
+			<div class="account-dropdown">
+				
+				<div id="ucHeader_acctLoggedOut">				
+					<a href="/login">
+						<span class="link-title">
+							Sign in
+						</span>
+						<span class="link-description">
+							Using your CDBaby.com account
+						</span>
+					</a>
+					<a href="http://members.cdbaby.com/login" class="small">
+						<span class="link-title"><strong>CD Baby Artist?</strong> <u>Sign in here</u>.</span>
+					</a>
+				</div>
+			</div>
+
+		</div>
+	</nav> 
+</header>
+			</div>
+			<div id="nav-container">
+				
+<nav id="top-nav">
+	<img src="/img/button-notch.jpg" />
+	<div class="browse-box-wrapper">
+		<a href="javascript:;" class="nav-link browse-link">Browse Music</a>
+		<div id="browse-box">
+			<nav id="browse-box-browse-by">
+				<h5 class="highlight">Browse</h5>
+				<a href="/new">New Arrivals</a>
+				<a href="/top">Top Sellers</a>
+				<a href="/staffpicks">Staff Picks</a>
+				<a href="/picks">Editors' Picks</a>
+				<a href="/artistsyoumayknow">Artists You May Know</a>
+				<a href="/playlists">Curated Collections</a>
+				<a href="/places">Artists by Locations</a>
+				<a href="/sale">$5 Sale</a>
+				<a href="http://musicdiscovery.cdbabypodcast.com">Music Discovery Podcast</a>
+				<a href="/topsongs">Top Songs</a>
+				<a href="/search">Advanced Search</a>
+			</nav>
+
+			<nav id="browse-box-genres">
+				<h5 class="highlight">Genres</h5>        
+				<div><a href="/style/avant">Avant Garde</a>	<a href="/style/latin">Latin</a></div>
+				<div><a href="/style/blues">Blues</a>	<a href="/style/metal">Metal/Punk</a></div>
+				<div><a href="/style/classical">Classical</a>		<a href="/style/mood">Moods</a></div>
+				<div><a href="/style/country">Country</a>		<a href="/style/newage">New Age</a></div>
+				<div><a href="/style/easy">Easy Listening</a>		<a href="/style/pop">Pop</a></div>
+				<div><a href="/style/electronic">Electronic</a>   		<a href="/style/reggae">Reggae</a></div>
+				<div><a href="/style/folk">Folk</a>		<a href="/style/rock">Rock</a></div>
+				<div><a href="/style/hiphop">Hip Hop</a>		<a href="/style/gospel">Spiritual</a></div>
+				<div><a href="/style/holiday">Holiday</a>		<a href="/style/spoken">Spoken Word</a></div>
+				<div><a href="/style/jazz">Jazz</a>		<a href="/style/urban">Urban/R&amp;B</a></div>
+				<div><a href="/style/kids">Kids/Family</a>		<a href="/style/world">World</a></div>
+			</nav>
+		</div>
+	</div><!-- .browse-box-wrapper -->
+	<img src="/img/button-notch.jpg" />
+	<a href="http://members.cdbaby.com" class="nav-link" title="Sell Music Online With CD Baby" onClick="_gaq.push(['_trackEvent', 'cdbaby-retail-artist-signup', 'Click', 'top-nag-sell-your-music']);">Sell Your Music</a>
+	<img src="/img/button-notch.jpg" />
+    <div id="search-box" class="txt-input-gradient">
+    <div id="ucNav_pnlSiteSearch">
+	
+		<div id="input-container">
+			<input type="text" id="txtSearch" class="search-input ui-autocomplete-input" placeholder="Type your search here..." maxlength="50" />
+			<input type="hidden" name="ctl00$ucNav$hfSearch" id="ucNav_hfSearch" />
+			<input type="button" name="ctl00$ucNav$btnSearch" value="Search ►" onclick="UpdateSearchField($(&#39;.search-input&#39;).val()); this.disabled = true;__doPostBack(&#39;ctl00$ucNav$btnSearch&#39;,&#39;&#39;)" id="ucNav_btnSearch" class="search-button btn-gradient-primary" />
+		</div>
+	
+</div>
+    </div>
+    
+
+
+
+    <!-- autocomplete for search -->
+    <script type="text/javascript" src="/js/libs/jquery-1.6.4.min.js?token=47"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.10.3/jquery-ui.js?token=47"></script> <!-- TODO: minified local, or official CDN -->
+    <script type="text/javascript">
+
+    	function UpdateSearchField(terms) {
+    	    
+            // Limit search to 50 characters here as well in case the user somehow got past the textbox control limiter
+            if (terms.length > 50)
+    	    {
+    	        terms = terms.substring(50);
+    	    }   // if
+
+    	    // Encode search terms
+    		$('#ucNav_hfSearch').val(encodeURI(terms));
+
+    		if ($('.search-input').val() == 'type your search here...' || $('.search-input').val() == '')
+    		{
+    			return false;
+    		};
+    	}	// UpdateSearchField(terms)
+		
+    	function autocompleteSearch() {
+    	    var ajaxUrl = "/SearchResults.aspx/GetAutoSuggest";
+            var val = $(".search-input").val().replace(/'/g, "\\'");
+
+            $.ajax(
+                {
+                    type: "POST",
+                    url: ajaxUrl,
+                    async: true,
+                    username: null,
+                    password: null, 
+                    data: "{'query':'" + val + "'}",
+                    contentType: 'application/json; charset=utf-8',
+                    dataType: 'json',
+                    success: function (msg) {
+                        var newList = (msg.d) ? msg.d.split("||") : [];
+                        var ajaxSource = [];
+                        for (var i = 0; i < newList.length; i++) {
+                            var itemstring = newList[i];
+                            var itemobj = { label: itemstring, value: itemstring };
+                            ajaxSource.push(itemobj);
+                        }
+                        $(".search-input").autocomplete("option", "source", ajaxSource);
+                    }, // success
+                    error: function (jqxhr, txtstatus, errthrown) {
+                       // alert?
+                    } // error
+                }  // ajax
+          )
+        }
+        $(document).ready(function () {
+           
+            $(".search-input").keyup(function () {
+                 autocompleteSearch();  
+            });
+
+            $(".search-input").autocomplete({
+                source: [],
+                response: function (event, ui) {
+                    // override to match everything in source
+                    ui.content.splice(0, ui.content.length); // ditch all, but keep object
+                    var src = $(this).autocomplete("option", "source")
+                    for (var i = 0; i < src.length; i++) {
+                        ui.content.push(src[i]);
+                    }
+                }
+            });
+        });
+
+
+
+    </script> <!-- autocomplete for search -->
+</nav>
+
+
+			</div>
+			<section id="main" role="main" style="clearfix">
+				
+<!-- Bread Crumb -->	
+<div itemscope itemtype="http://www.schema.org/MusicAlbum">
+	<div id="bread-crumb-container">
+		<nav id="bread-crumb">
+			<ul>
+				<li><a href="/">Home </a>&nbsp;&nbsp;>&nbsp;</li>                							
+				<li itemprop="byArtist" itemscope itemtype="http://schema.org/MusicGroup">
+					<span itemprop="name"><a id="cphContent_hlArtistBreadCrumb" title="Walker Ikard" class="bread-crumb" href="http://www.cdbaby.com/Artist/WALKERIKARD">Walker Ikard</a></span></li>
+                <li> > </li>
+                <li itemprop="name"><span id="cphContent_lblAlbumName" title="Walker Ikard | Just a Running" class="bread-crumb-last-item">Just a Running</span></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div id="left-nav-container">
+		<!-- Left Column -->
+		<span itemprop="image"><img id="cphContent_imgAlbum" title="Walker Ikard | Just a Running" src="//images.cdbaby.name/w/a/walkerikard12.jpg" alt="Walker Ikard | Just a Running" /></span>
+		<br /><br />
+		<a id="cphContent_hlArtistPage" title="Walker Ikard" class="bread-crumb" href="http://www.cdbaby.com/Artist/WALKERIKARD">Go To Artist Page</a>	
+		<div id="cphContent_albumsCarousel" style="height:235px; width:200px">
+			
+<style type="text/css">
+	.extra-margin
+	{
+	   margin-top: 125px;
+	}
+
+</style>
+<div id="cphContent_ucArtistAlbums_pnlArtistAlbumsCarousel">
+	
+<div class="section-header carousel-header">            
+			<div class="more-about-this-artist-icon"></div>
+			<div class="more-about-this-artist-head"><h4>MORE ALBUMS BY THIS ARTIST</h4></div>			
+	     </div>	
+         
+           
+                    <div id="deluxe-info">    
+                        <div class="carousel-container"> 
+                            <div id="deluxe-covers" >
+                
+                    <div class="carousel-feature">                                    
+                        <a id="cphContent_ucArtistAlbums_rptArtistAlbums_hlArtistAlbum_0" title="Walker Ikard | Blackbird" class="carousel-image" href="/cd/walkerikard11"><img id="cphContent_ucArtistAlbums_rptArtistAlbums_imgFeature_0" class="carousel-image" src="//images.cdbaby.name/w/a/walkerikard11_small.jpg" /></a>                           
+                    </div> 
+                                               
+                
+                    <div class="carousel-feature">                                    
+                        <a id="cphContent_ucArtistAlbums_rptArtistAlbums_hlArtistAlbum_1" title="Walker Ikard | Outlaws Burned the Barn Down" class="carousel-image" href="/cd/walkerikard10"><img id="cphContent_ucArtistAlbums_rptArtistAlbums_imgFeature_1" class="carousel-image" src="//images.cdbaby.name/w/a/walkerikard10_small.jpg" /></a>                           
+                    </div> 
+                                               
+                
+                    <div class="carousel-feature">                                    
+                        <a id="cphContent_ucArtistAlbums_rptArtistAlbums_hlArtistAlbum_2" title="Walker Ikard | I Still Get High On You" class="carousel-image" href="/cd/walkerikard9"><img id="cphContent_ucArtistAlbums_rptArtistAlbums_imgFeature_2" class="carousel-image" src="//images.cdbaby.name/w/a/walkerikard9_small.jpg" /></a>                           
+                    </div> 
+                                               
+                
+                    <div class="carousel-feature">                                    
+                        <a id="cphContent_ucArtistAlbums_rptArtistAlbums_hlArtistAlbum_3" title="Walker Ikard | When the World Lost Mr. James" class="carousel-image" href="/cd/walkerikard8"><img id="cphContent_ucArtistAlbums_rptArtistAlbums_imgFeature_3" class="carousel-image" src="//images.cdbaby.name/w/a/walkerikard8_small.jpg" /></a>                           
+                    </div> 
+                                               
+                
+                    <div class="carousel-feature">                                    
+                        <a id="cphContent_ucArtistAlbums_rptArtistAlbums_hlArtistAlbum_4" title="WALKER IKARD | I&#39;M GONNA WRITE A SONG ABOUT MAMA" class="carousel-image" href="/cd/walkerikard"><img id="cphContent_ucArtistAlbums_rptArtistAlbums_imgFeature_4" class="carousel-image" src="//images.cdbaby.name/w/a/walkerikard_small.jpg" /></a>                           
+                    </div> 
+                                               
+                
+                    <div class="carousel-feature">                                    
+                        <a id="cphContent_ucArtistAlbums_rptArtistAlbums_hlArtistAlbum_5" title="Walker Ikard | Nothin&#39; But A Rat Race" class="carousel-image" href="/cd/walkerikard2"><img id="cphContent_ucArtistAlbums_rptArtistAlbums_imgFeature_5" class="carousel-image" src="//images.cdbaby.name/w/a/walkerikard2_small.jpg" /></a>                           
+                    </div> 
+                                               
+                
+                    <div class="carousel-feature">                                    
+                        <a id="cphContent_ucArtistAlbums_rptArtistAlbums_hlArtistAlbum_6" title="Walker Ikard | You Need To Love Everybody" class="carousel-image" href="/cd/walkerikard3"><img id="cphContent_ucArtistAlbums_rptArtistAlbums_imgFeature_6" class="carousel-image" src="//images.cdbaby.name/w/a/walkerikard3_small.jpg" /></a>                           
+                    </div> 
+                                               
+                
+                    <div class="carousel-feature">                                    
+                        <a id="cphContent_ucArtistAlbums_rptArtistAlbums_hlArtistAlbum_7" title="Walker Ikard | Standing On Shaky Ground" class="carousel-image" href="/cd/walkerikard4"><img id="cphContent_ucArtistAlbums_rptArtistAlbums_imgFeature_7" class="carousel-image" src="//images.cdbaby.name/w/a/walkerikard4_small.jpg" /></a>                           
+                    </div> 
+                                               
+                
+                    <div class="carousel-feature">                                    
+                        <a id="cphContent_ucArtistAlbums_rptArtistAlbums_hlArtistAlbum_8" title="Walker Ikard | Shine Your Love Light" class="carousel-image" href="/cd/walkerikard5"><img id="cphContent_ucArtistAlbums_rptArtistAlbums_imgFeature_8" class="carousel-image" src="//images.cdbaby.name/w/a/walkerikard5_small.jpg" /></a>                           
+                    </div> 
+                                               
+                
+                    <div class="carousel-feature">                                    
+                        <a id="cphContent_ucArtistAlbums_rptArtistAlbums_hlArtistAlbum_9" title="Walker Ikard | Blessings Money Cannot Buy" class="carousel-image" href="/cd/walkerikard6"><img id="cphContent_ucArtistAlbums_rptArtistAlbums_imgFeature_9" class="carousel-image" src="//images.cdbaby.name/w/a/walkerikard6_small.jpg" /></a>                           
+                    </div> 
+                                               
+                
+                    <div class="carousel-feature">                                    
+                        <a id="cphContent_ucArtistAlbums_rptArtistAlbums_hlArtistAlbum_10" title="Walker Ikard | Nothing Takes the Place of You" class="carousel-image" href="/cd/walkerikard7"><img id="cphContent_ucArtistAlbums_rptArtistAlbums_imgFeature_10" class="carousel-image" src="//images.cdbaby.name/w/a/walkerikard7_small.jpg" /></a>                           
+                    </div> 
+                                               
+                
+               
+                            </div>
+                             
+                        <a href="javascript:;" class="a-carousel-left" title="previous album"></a>
+                        <a href="javascript:;" class="a-carousel-right" title="next album"></a>
+                          
+                        </div> 
+                        	
+                    </div>
+                    <div class="carousel-album-seperator input-gradient extra-margin"></div> 
+                
+         
+         
+        
+</div>  <!-- pnlArtistAlbumsCarousel --> 
+		</div>	
+
+		
+<div class="album-page-left-nav-headers">    
+    <br />Recommended if You Like
+</div>
+<div class="dotted-line">
+</div>
+
+
+
+	
+		<span id="cphContent_ucRecommendedIfYouLike_rptSoundsLike_lblSoundsLike_0" class="album-page-left-nav-items">Elvis Presley</span>
+	
+		<span id="cphContent_ucRecommendedIfYouLike_rptSoundsLike_lblSoundsLike_1" class="album-page-left-nav-items">Johnny Cash</span>
+	
+		<span id="cphContent_ucRecommendedIfYouLike_rptSoundsLike_lblSoundsLike_2" class="album-page-left-nav-items">Waylon Jennings</span>
+	
+	
+		
+		
+<div class="album-page-left-nav-headers">    
+    <br /><span id="cphContent_ucMoreArtistsFrom_lblMoreArtists">More Artists From</span> 
+         
+</div>
+<div class="dotted-line">
+</div>
+
+
+	
+		<a id="cphContent_ucMoreArtistsFrom_rptLocations_hlLocation_0" title="United States - Alabama" class="left-nav-links" href="/Places/9AL0">United States - Alabama</a>
+	
+	
+		
+<div class="album-page-left-nav-headers">    
+    <br /><span id="cphContent_ucOtherGenresYouWillLove_lblOtherGenresYouWillLove">Other Genres You Will Love</span> 
+         
+</div>
+<div class="dotted-line">
+</div>
+
+
+	
+		<a id="cphContent_ucOtherGenresYouWillLove_rptSubGenres_hlGenre_0" title="Country:&amp;nbsp;Contemporary Country" class="left-nav-links" href="/Style/362">Country:&nbsp;Contemporary Country</a>
+	
+		<a id="cphContent_ucOtherGenresYouWillLove_rptSubGenres_hlGenre_1" title="Rock:&amp;nbsp;Americana" class="left-nav-links" href="/Style/106">Rock:&nbsp;Americana</a>
+	
+		<a id="cphContent_ucOtherGenresYouWillLove_rptSubGenres_hlGenre_2" title="Moods:&amp;nbsp;Mood: Fun" class="left-nav-links" href="/Style/183">Moods:&nbsp;Mood: Fun</a>
+	
+	<br />
+		
+<style type="text/css">
+#banner-advanced-search
+	{
+		margin-top: 6px;
+		overflow: hidden;
+		position: relative;
+		float:left;
+		height: 50px;
+		width: 200px;
+	}
+	#banner-advanced-search img
+	{
+	    position: relative;
+	    top: -657px;
+	    left: 0px;
+	}
+	#banner-advanced-search img:hover
+	{
+		top: -707px;
+		left: 0px;
+	}
+
+</style>
+<a href="/search" id="banner-advanced-search">Not what your looking for? Use advanced search.<img src="/IMG/sprite-elements.jpg" alt="Not what your looking for? Use advanced search." /></a>
+
+
+<div id="left-banner"></div>
+
+<style type="text/css">
+#banner-podcast
+	{
+		margin-top: 20px;
+		overflow: hidden;
+		position: relative;
+		float:left;
+		height: 70px;
+		width: 200px;
+	}
+	#banner-podcast img
+	{
+	    
+	    position: relative;
+	    top: -345px;
+	    left: 0px;
+	}
+	#banner-podcast img:hover
+	{
+		top: -415px;
+		left: 0px;
+	}
+	
+</style>
+
+<a href="http://musicdiscovery.cdbabypodcast.com/" id="banner-podcast" ><img src="/IMG/sprite-elements.jpg" alt="Listen to the CD Baby Music Discovery Podcast" />Listen to the CD Baby Music Discovery Podcast</a>
+
+
+
+		<!-- Left Column -->
+	</div>
+
+	<!-- Wishlist -->
+	
+
+ <link rel="stylesheet" href="/css/styles.css">
+<style type="text/css">
+        
+    .overlay-button
+	{
+		border: 0;
+		border-radius: 4px;
+		color: #FFF;
+		font-size: 14px;
+		font-weight: bold;
+		padding: 10px;
+		text-align: center;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+	}   
+	
+	.float-right
+	{
+	    float:right;	    
+	}
+	.table-display
+	{
+	    margin-top: 0px !important;
+	}
+	.download-button
+    {
+        font-size:11px;
+        float: left;
+        display: block;
+        margin: 10px;
+        padding: 7px 7px;
+    }
+    .item-description, .item-name
+    {
+        display: block;
+        float: left;
+        font-family: Arial, Sans-Serif;
+        font-style: normal;
+        text-align: left;
+        margin-bottom:5px;
+        width: 100%;
+    }
+        .item-name 
+    {
+        font-size: 18px;
+        font-weight: bold;
+        
+    }
+     .table-display
+    {
+       float:left;
+       margin-top: 10px;
+    }
+   
+   .table-display td, .formats 
+    {
+        vertical-align: middle;
+        text-align: left;   
+
+        
+</style>
+
+    
+<div id="wishlist-modal" class="clearfix avlModalHideClass">
+    <div id="cphContent_ucWishlistOverlay_wishlistHeader" class="page-header">
+	    <div class="header-icon music-icon"></div>
+	    <h4>My Wishlist</h4>
+    </div>
+    
+    <div id="cphContent_ucWishlistOverlay_upWishlistOverlay">
+	  
+         
+            
+
+<style type="text/css">
+    .download-button
+    {
+        font-size:11px;
+        float: left;
+        display: block;
+        margin: 10px;
+        padding: 7px 7px;
+    }
+    .item-description, .item-name
+    {
+        display: block;
+        float: left;
+        font-family: Arial, Sans-Serif;
+        font-style: normal;
+        text-align: left;
+        margin-bottom:5px;
+        width: 100%;
+    }
+        .item-name 
+    {
+        font-size: 18px;
+        font-weight: bold;
+        
+    }
+     .table-display
+    {
+       float:left;
+       margin-top: 10px;
+    }
+   
+   .table-display td, .formats 
+    {
+        vertical-align: middle;
+        text-align: left;   
+    }
+  
+
+</style>
+
+<div id="cphContent_ucWishlistOverlay_ucWishlistView_pnlNoWishlistItems">
+		
+<div class="output-message">There are no items in your wishlist.</div>
+
+	</div>
+		    
+		    <div id="cphContent_ucWishlistOverlay_pnlWishlistOverlay">
+		
+			    
+		    
+	</div>
+	    
+</div>
+
+    <a href="javascript:;" class="overlay-close" title="close" onclick="$.closeModal({target:'#wishlist-modal'})"></a>
+</div>
+ 
+	<!-- Right Column -->
+    
+    <div id="right-container" class="clearfix">
+	<!-- Top Portion -->
+        <!-- Left Half-->
+		<div class="float-container">
+			<div id="album-page-right-container-topleft">
+				<h1 id="album-page-album"><span itemprop="name"><span id="cphContent_lblAlbumTitle">Just a Running</span></span></h1>
+				<h2 id="album-page-artist"><span itemprop="byArtist">by <a id="cphContent_hlByLine" class="underline" href="http://www.cdbaby.com/Artist/WALKERIKARD"> Walker Ikard</a></span></h2>
+				<div id="album-page-copyright"><span itemprop="copyrightHolder"><span id="cphContent_lblCopyrightLine">© Copyright - Walker Ikard / Nebo (889211791125)</span></span></div>
+      
+				<!-- Buy Buttons --->
+				<div class="album-page-buy-button-container">
+					
+		
+						
+							<a id="cphContent_rptFormats_lbBuyFormat_0" title="Download" class="btn-std buy-button btn-gradient-buy-mp3" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">Download $0.99</a>
+						
+		
+						
+				</div> <!-- Buy Buttons --->
+  
+				<div class="dotted-line-space"></div>
+				<div class="album-page-summary"> 
+					<div id="album-page-summary-short-description"><span id="cphContent_lblShortDescription">Walker Ikard is back with "Just A Running" for all his many fans around the world.</span></div>
+
+					<div id="cphContent_divGenre"><b>Genre:&nbsp;</b><meta id="cphContent_metaGenre" itemprop="genre" content="Country"></meta><span id="cphContent_lblMainGenre">Country: Contemporary Country</span></div>
+					<div><b>Release Date:&nbsp;</b><span itemprop="datePublished"><span id="cphContent_lblReleaseDate">2015</span></span></div>
+				</div>	
+			</div><!-- Left Half -->
+			<!-- Right Half -->
+			<div class="right-container-top-right"> 
+				<div id="waiting-list-modal" class="clearfix avlModalHideClass">  
+		
+					<div id="cphContent_upWaitingList">
+	
+							<div id="cphContent_divWaitingListSignup" class="notify-container">
+							<div id="cphContent_Panel1">
+		
+								<h2>We'll ship when it's back in stock</h2>
+								<div class="notify-content">
+									<div>Order now and we'll ship when it's back in stock, or enter your email below to be notified when it's back in stock.</div>
+									<input name="ctl00$cphContent$txtWaitingListEmail" type="text" id="cphContent_txtWaitingListEmail" class="input-gradient notify-email" />
+									<input type="submit" name="ctl00$cphContent$btnSubmitWaitingList" value="Submit ▶" id="cphContent_btnSubmitWaitingList" class="btn-gradient-primary newsletter-button btn-waiting" />
+									<div></div>
+									<span style="float:left; margin-right:5px; margin-left:-2px;"><input id="cphContent_cbNewsletter" type="checkbox" name="ctl00$cphContent$cbNewsletter" checked="checked" /></span>
+									<div><strong>Sign up for the CD Baby Newsletter</strong><br />
+									Your email address will not be sold for any reason.</div>
+									
+								</div>
+								<div class="clear-both"></div>
+								
+	</div>
+							</div> <!-- notify-container -->
+			
+							
+							<a href="javascript:;" id="wait-overlay-continue" onclick="$.closeModal({target:'#waiting-list-modal'})" title="continue shopping" class="btn-std btn-gradient-tertiary">Continue Shopping</a>
+						
+</div>
+					<a href="javascript:;" class="overlay-close" title="close" onclick="$.closeModal({target:'#waiting-list-modal'})"></a>
+				</div> <!--waiting-list-modal -->
+    
+				<div class="right-container-top-right-small"> 
+					
+
+					
+
+					<div id="cphContent_pnlDownloadOnly" class="download-only-panel">
+	
+						<div class="download-only-img"></div> 
+						<div class="download-only-panel-text">available for download only</div>
+					
+</div>
+		
+					
+
+					
+
+					<div id="cphContent_pnlWishList">
+	
+						<a id="cphContent_lbAddToMyWishlist" title="add to my wishlist" class="wish-list-button-login" href="javascript:__doPostBack(&#39;ctl00$cphContent$lbAddToMyWishlist&#39;,&#39;&#39;)">Log in to view wishlist</a>
+					
+</div>
+
+					<div id="cphContent_pnlSocial">
+	
+						<div class="addthis_toolbox" addthis:email_template="ShareAlbum"
+							addthis:email_vars="{ArtistName: 'Walker Ikard', AlbumName: 'Just a Running'}", addthis:url ='http://www.cdbaby.com/cd/walkerikard12'>
+                
+							<a class="addthis_button_facebook facebook-button"><img src="" width="30" height="30" border="0" alt="Share to Facebook" /></a>
+							<a class="addthis_button_twitter twitter-button"><img src="" width="30" height="30" border="0" alt="Share to Twitter" /></a>
+							<a class="addthis_button_google_plusone_share google-button" target="blank"><img src="" width="30" height="30" border="0" alt="Share to Google +1" /></a>
+							<a class="addthis_button_compact share-button"><img src="/IMG/Blank.gif" width="60" height="30" border="0" alt=""  /></a>
+						</div>
+					
+</div>
+				</div> <!--right-container-top-right-small  -->
+			</div><!-- Right Half -->
+			
+		</div>
+
+
+		
+		<div class="float-container">
+			<div id="jp-no-solution" class="hide-error">
+				<p>To listen to tracks you will need to <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_">update your browser to a recent version</a>.</p>
+			</div>
+		</div>
+
+
+		<div class="right-column-album-header">
+			<div class="carousel-header-icon music-icon"></div>
+
+			<h4>Tracks</h4>
+			
+			<div class="play-all-container">
+				<a class="play-all-button play-track-all"><div class="now-playing">Preview all songs</div></a>
+			</div>
+		</div>
+
+		
+				<table class="track-table">
+					<thead>
+						<tr class="table-headings">
+							<td style="width: 5%" >&nbsp;</td>                        
+							<td style="width: 67%;">Song</td>
+							<td style="width: 5%" class="text-center">Share</td>
+							<td style="width: 9%" class="text-center">Time</td>
+							<td style="width: 13%" class="text-center">Download</td>
+						</tr>
+					</thead>
+					<tbody>				
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_0" content="http://www.cdbaby.com/cd/walkerikard12" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							<span id="cphContent_rptTrack_lblClipNote_0" class="clip-note">clip</span>
+							<a id="cphContent_rptTrack_hlPlayButton_0" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/samples/f8506fb6/walkerikard12-01.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_0" itemprop="inAlbum" content="Just a Running"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_0" class="track-title-meta" itemprop="name" content="Just a Running"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_0" class="track-title">1. Just a Running</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl01$hfTrackID" id="cphContent_rptTrack_hfTrackID_0" value="TR0001778340" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Walker Ikard', AlbumName: 'Just a Running'}"
+								addthis:url ='http://www.cdbaby.com/cd/walkerikard12'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_0" content="PT0H2M50S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_0">2:50</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_0_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl01$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+				</tbody>
+				<tfoot>
+					<tr>
+						<td class="center-me">
+							<div style="display: none;">
+							<a id="cphContent_rptTrack_hlPlayAll" class="play-all-icon play-all" onclick="PlayAll();" href="javascript:;"></a>
+							</div>
+						</td>
+						<td class="bold-italic" colspan="3" ></td>
+					</tr>
+				</tfoot>
+				</table>
+			
+		
+		<div class="availableFormatContainer">
+			<span id="cphContent_lblAvailableFormatText" class="availableFormatText">Available as MP3, MP3 320, and FLAC files.</span>
+		</div>
+		
+		<div class="right-column-album-header">
+			<div class="carousel-header-icon about-this-ablum-icon"></div>
+			<h4>ABOUT THIS ALBUM</h4>
+		</div>
+        
+		<div class="pad">
+			<div id="cphContent_divAlbumNotes" class="album-notes">
+				<div class="album-page-left-nav-headers"><br />Album Notes</div>
+				<div class="dotted-line"></div>
+					<div id="albumNote" class="note"><span id="cphContent_lblAlbumNotes" class="album-page-album-note">International Singer/Songwriter, Walker Ikard, is headed to the #1 Charts again with "Just A Running".</span>  
+				</div><br />
+				<a href="javascript:;" id="readMoreAboutAlbum" class="read-more-about-album login-logout" >Read more...</a>
+			</div>      
+        
+        
+		<div class="album-notes">
+            <div class="album-page-left-nav-headers"><br />Reviews</div>
+            <div class="dotted-line"></div><br /><br />
+          
+			<div id="cphContent_upAddReview">
+	
+                    <script type="text/javascript">Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(pageLoaded);</script>
+					
+					<div id="cphContent_pnlReviewNotLoggedIn">
+		
+						<a id="cphContent_hlLogInAndReview" title="Log in" class="log-in-to-write-a-review" href="/Login?PageTo=/cd/walkerikard12">Log in</a>
+                        <span class="review-to-write">to write a review</span>
+					
+	</div>
+
+
+									
+				
+</div>
+
+			<div id="cphContent_upReviews">
+	                   
+					
+				
+</div>
+            </div> <!-- padding -->
+		</div>
+	  <!--Lower Right  --> 
+   
+	<div style="clear: both;"></div>
+
+  </div>
+
+			</section>
+			<div id="footer-container">
+				
+
+ <style type="text/css">           
+        .overlay-content-wrap
+	    {
+		    height:auto;		
+		    top:100px;    
+	    }
+	    .email-address
+	    {
+	        font-weight:bold;
+	    }	    
+</style>
+
+
+
+<footer>
+    <div id="ucFooter_upNewsletter">
+	
+                
+        
+</div>
+
+    
+	<div id="social-bar">
+		<div id="social-options">
+			<label for="ucFooter_txtEmailNewsletter" id="ucFooter_lblEmailNewsletter" class="newsletter-label">
+				Subscribe and discover new music.
+			</label>
+
+            <div id="ucFooter_UpdatePanel1">
+	
+                        <div>
+		
+			            <div class="txt-input-container"><input name="ctl00$ucFooter$txtEmailNewsletter" type="text" id="ucFooter_txtEmailNewsletter" class="txt-input-newsletter-gradient txt-input-newsletter" placeholder="Email Address" />
+                            
+                        </div>
+			            <input type="submit" name="ctl00$ucFooter$btnSignUp" value="Submit ►" id="ucFooter_btnSignUp" class="search-button btn-gradient-primary newsletter-button" />
+                    
+	</div>
+                
+</div>
+			<div id="follow-us">
+				Follow <span class="highlight">CD Baby</span> on
+			</div>
+			<div id="social-icons-container">
+				<a href="http://www.facebook.com/cdbaby" id="facebook-icon" class="social-icon"></a>
+				<a href="https://twitter.com/#!/cdbaby" id="twitter-icon" class="social-icon"></a>
+				<a href="http://www.youtube.com/user/cdbabyvideo" id="youtube-icon" class="social-icon"></a>
+				<a href="http://plus.google.com/107412413371084264127/" rel="publisher" id="google-icon" class="social-icon"></a>
+			</div>
+		</div>
+	</div>
+        
+    
+	<div id="footer-navigation" style="width:1000px">
+		<nav id="footer-company-info">
+			<div id="company-info-icon"></div>
+			<h5 class="footer-header highlight">Company Info</h5>
+			<a href="/about">About CD Baby</a>			
+            <a href="/reseller">Wholesale Music Distribution</a>
+			<a href="/terms">Terms &amp; Conditions</a>
+			<a href="/privacy">Privacy Policy</a>
+			<a href="http://members.cdbaby.com" onClick="_gaq.push(['_trackEvent', 'cdbaby-retail-artist-signup', 'Click', 'footer-link-artist-signup']);">Artist Sign Up</a>
+			<a href="/careers.aspx">Careers</a>
+			<a href="/sitemap.aspx">Sitemap</a>
+		</nav>
+		<nav id="footer-need-help">
+			<div id="help-icon"></div>
+			<h5 class="footer-header highlight">Need Help?</h5>
+			<a href="/contact">Contact us</a>
+			<a href="/shipping">Shipping info</a>
+			<a href="/returns">Returns</a>
+			<a href="/auth">Forgot your password</a>			
+			<a href="/faq">FAQ</a>
+		</nav>
+		<nav id="footer-my-acct">
+			<div id="myaccount-icon"></div>
+			<h5 class="footer-header highlight">My Account</h5>
+			<a href="/login.aspx">Login</a>
+			<a href="/myaccount/manageaccount.aspx">Manage account</a>
+			<a href="/myaccount/orderhistory.aspx">Order Information</a>
+		</nav>
+		<nav id="footer-more">
+			<div id="more-icon"></div>
+			<h5 class="footer-header highlight">More</h5>
+			<a href="http://www.hostbaby.com/?utm_source=cdbaby&utm_medium=footer&utm_campaign=textlink" title="Websites for Musicians and Bands">HostBaby</a>
+			<a href="https://www.bookbaby.com/?utm_source=CDB-com&utm_medium=footer&utm_campaign=textlink" title="Self Publishing and Distribution">BookBaby</a>
+			<a href="http://diymusician.cdbaby.com" title="Music Promotion for Independent Musicians" onClick="_gaq.push(['_trackEvent', 'cdbaby-retail-diy-blog', 'Click', 'footer-link-diy-blog']);">DIY Musician Blog</a>
+			<a href="http://musicdiscovery.cdbabypodcast.com" title="Music Promotion Podcast">Podcast</a>
+			<a href="http://duplication.cdbaby.com/?utm_source=cdbaby&utm_medium=footer&utm_campaign=textLink" title="CD Duplication and CD Replication">Disc Duplication</a>
+			<a href="/redeem">Redeem Download Cards</a>
+		</nav>
+	</div>
+</footer>
+
+
+            </div>
+        </div><!-- #container -->
+
+        <label id="update-action"></label>
+
+        
+
+<style type="text/css">
+        
+    .edit-button
+	{
+	    float:right;
+	    margin-top: 10px;
+    }
+    
+    .login-button
+    {
+        width:50px;
+        
+    }
+	#update-your-browser-banner
+	{
+		line-height: 26px;
+		background-color: #ccd00a;
+		font-size: 14px;
+		padding: 10px;
+		font-weight: bold;
+		text-align: center;
+		display: none;
+		cursor: pointer;
+	}
+	#updateYourBrowser li{
+		float: left;
+		margin: 12px 12px 34px 12px;
+		text-align: center;
+		
+	}
+	#updateYourBrowser li div{
+		background-image: url(../../IMG/sprites/browserlogos.png);
+		background-repeat:no-repeat;
+		width: 100px;
+		height: 100px;
+	}
+	#lnk-chrome{background-position: -4px 0;}
+	#lnk-firefox{background-position: -171px 0;}
+	#lnk-safari{background-position: -340px 0;}
+	#lnk-ie{background-position:-495px 0;}
+
+</style>
+
+<div id="avlModal1" class="clearfix avlModalHideClass">        
+    <div>
+        <div id="ucPageIncludes_upSessionWarning">
+	                  
+                <h2>Session Expiration Warning</h2>
+                <p>Your CD Baby online session is due to expire shortly.  Would you like to extend your session and remain logged in?</p>
+                <div>                        
+                    <input type="submit" name="ctl00$ucPageIncludes$btnExtendSession" value="Yes" id="ucPageIncludes_btnExtendSession" class="edit-button btn-gradient-primary" />                    
+                </div>               
+            
+</div>
+    </div>
+</div>
+   
+
+<div id="avlModal2" class="clearfix avlModalHideClass">        
+    <div>
+        <h2>Session Expiration</h2>
+        <p>We're sorry, but your CD Baby online session has expired.</p>
+        <div>
+            <div><a href="javascript:;" class="edit-button btn-gradient-primary login-button" onclick="LogIn();">Log in</a></div>            
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    
+    // --- Session timeout notification and expiration script ---
+
+    var jsTimeoutNotify;
+    var jsTimeoutExpire;
+
+    var sessTimeoutExpire;  //time until expiration
+    var sessTimeoutNotify;  //time until warning; 
+
+            
+    //Initial load and partial postbacks initiate/refresh the session
+    function pageLoad() {    
+    	FeatureDetection();
+        
+        sessTimeoutExpire = 0;  
+        sessTimeoutNotify = sessTimeoutExpire - 300000; // (5 minutes = 300,000 milliseconds)   
+
+        if (sessTimeoutExpire > 0)
+        {             
+            if(jsTimeoutExpire)
+            {
+                clearTimeout(jsTimeoutExpire);   
+                clearTimeout(jsTimeoutNotify);   
+            }//if
+                
+            jsTimeoutNotify = setTimeout("TimeoutNotifaction()", sessTimeoutNotify );
+            jsTimeoutExpire = setTimeout("TimeoutExpiration()", sessTimeoutExpire );     
+        }   // if   
+    } //pageLoad()         
+    
+    function TimeoutNotifaction()
+    {
+        $.openModal({ target: '#avlModal1', width: '400px', height: '130px' });                 
+    }   // TimeoutNotifaction()   
+
+    function LogIn()
+    {        
+         window.location = "/Login.aspx";
+    }   //LogIn()
+       
+    function TimeoutExpiration()
+    {
+        $.closeModal({ target: '#avlModal1'});          
+        var x = setTimeout("$.openModal({ target: '#avlModal2', width: '340px', height: '120px' })", 510 );         
+    }   // TimeoutExpiration()
+
+    function FeatureDetection() {
+		//detect base support at the site level  checking for audio support elimintates IE8 this should be expanded to include common failure points in older browsers based on actual features used.
+    	if (!Modernizr.audio) {
+
+    		if(!$.cookie('updatebrowser')== true){
+    			updateYourBrowserModal();
+    		}
+    		if(!$('#update-your-browser-banner').length){
+    			$('<div id="update-your-browser-banner" onclick ="updateYourBrowserModal();">NOTE: Your browser is out of date and no longer supported by CD Baby.  Please upgrade or use a different browser for the best experience. </div>').insertBefore('#header-container')
+    			$('#update-your-browser-banner').slideDown('slow');
+    		}
+    	}
+    }
+    function createUpdateBrowserCookie(){
+    	$.cookie('updatebrowser', true);
+    }
+    function updateYourBrowserModal(){
+    	var updateYourBrowserModalString="";
+    		updateYourBrowserModalString += "<div id=\"updateYourBrowser\" class=\"clearfix avlModalHideClass\">        ";
+    		updateYourBrowserModalString += "    <div>";
+    		updateYourBrowserModalString += "		<h2>Oops<\/h2>";
+    		updateYourBrowserModalString += "		<p>Looks like the web browser you’re using is a little outdated and no longer supported by CD Baby. We have good news though! <\/p>";
+    		updateYourBrowserModalString += "		<p>You can easily upgrade your web browser by using one of the links below.<\/p>";
+    		
+    		updateYourBrowserModalString += "		<ul>";
+    		updateYourBrowserModalString += "			<li><a href=\"http:\/\/www.google.com\/chrome\/\" target=\"_blank\"><div id=\"lnk-chrome\"><\/div>Google Chrome<\/a><\/li>";
+    		updateYourBrowserModalString += "			<li><a href=\"https:\/\/www.mozilla.com\/firefox\/\" target=\"_blank\"><div id=\"lnk-firefox\"> <\/div>Mozilla Firefox<\/a><\/li>";
+    		updateYourBrowserModalString += "			<li><a href=\"http:\/\/www.apple.com\/safari\/download\/\" target=\"_blank\"><div id=\"lnk-safari\"><\/div>Safari<\/a><\/li>";
+    		updateYourBrowserModalString += "			<li><a href=\"http:\/\/www.microsoft.com\/windows\/internet-explorer\" target=\"_blank\"><div id=\"lnk-ie\"><\/div>Internet Explorer<\/a><\/li>";
+    		updateYourBrowserModalString += "		<\/ul>";
+    		updateYourBrowserModalString += "			<div><a href=\"javascript:;\" class=\"edit-button btn-gradient-primary edit-button\" onclick=\"$.closeModal({target:'#updateYourBrowser'});createUpdateBrowserCookie();\">Close<\/a><\/div>";
+    		updateYourBrowserModalString += "			<a href=\"javascript:;\" class=\"overlay-close\" title=\"close\" onclick=\"$.closeModal({target:'#updateYourBrowser'});createUpdateBrowserCookie();\"><\/a>";
+    		updateYourBrowserModalString += "	<\/div>";
+    		updateYourBrowserModalString += "<\/div>";
+    		$('body').append(updateYourBrowserModalString);
+    	$.openModal({ target: '#updateYourBrowser', width: '500px' });
+    }
+  
+</script>
+
+    
+
+
+      
+
+    </form>
+
+    <script type="text/javascript" src="/js/libs/jquery-1.6.4.min.js?token=47"></script>
+    <script type="text/javascript" src="/js/libs/jquery-ui.min.js?token=47"></script>
+    <script type="text/javascript" src="/js/libs/jquery.dotdotdot-1.5.6.js?token=47"></script>
+    <script type="text/javascript" src="/js/libs/jquery.easing.1.3.js?token=47"></script>
+    <script type="text/javascript" src="/js/libs/jquery.scrollTo-1.4.min.js?token=47"></script>
+    <script type="text/javascript" src="/js/avlModal/jquery.avlModal.js?token=47"></script>
+    <script type="text/javascript" src="/js/libs/jquery.bxSlider.js?token=47"></script>
+    <script type="text/javascript" src="/js/libs/jquery.tools.min.js?token=47"></script>
+    <script type="text/javascript" src="/js/libs/jquery.coversCarousel.js?token=47"></script>
+    <script type="text/javascript" src="/js/scripts.js?token=47"></script>
+    <script type="text/javascript" src="/js/libs/jquery.lazyload.min.js?token=47"></script>
+    <script type="text/javascript" src="/JS/libs/jquery.cookie.js?token=47"></script>
+
+    
+    <!--fix for IE7 z-index stacking problems -->
+         <!--[if IE 7]>
+          <script type="text/javascript">
+            $(function () {
+                var zIndexNumber = 6000;
+                $('div').each(function () {
+                    $(this).css('zIndex', zIndexNumber);
+                    zIndexNumber -= 10;
+                });
+            });  
+            </script>
+          <![endif]-->  
+
+
+    
+	<script type="text/javascript" src="/JS/AlbumPlayer.js"></script>
+    <script type="text/javascript">
+    	jQuery.support.cors = true;
+    	var addthis_config = {
+    		username: "cdbaby",
+    		data_track_clickback: true
+        }
+
+        var addthis_share = {
+        	email_template: 'ShareAlbum',
+        	email_vars: {ArtistName: 'Walker Ikard', AlbumName: 'Just a Running'},
+        	templates: {
+        		twitter: '♫ ; Walker Ikard. Listen @cdbaby {{url}}'
+            },
+            url_transforms: {
+                shorten: {
+                    twitter: 'bitly'
+                }
+            },
+            shorteners: {
+                bitly: {
+                    username: 'cdbabyweb',
+                    apiKey: 'R_c2a4ea11b87569a52b3d6822640ee33c'
+                }
+            }
+        }
+
+
+        //***************Read-more/Read-less           
+
+            var $link = $("#albumNote").parent().find(".read-more-about-album");
+
+            if ($("#albumNote").height() > 90) {
+                $("#albumNote").css("height", "90");
+                $link.show();
+            }
+            else {
+                $link.hide();
+            }
+            
+            $("#albumNote").css("overflow", "hidden");                
+
+            $("#readMoreAboutAlbum").click(function () {               
+                var $link = $("#readMoreAboutAlbum");
+                var $reviewText = $("#readMoreAboutAlbum").parent().find(".note");
+
+                if ($("#readMoreAboutAlbum").text() == "Read more...") {                    
+                    $reviewText.css("height", "100%");
+                  
+                    $link.text("Read less....");
+                    $link.removeClass("read-more-about-album");
+                    $link.addClass("read-less-about-album");
+                }
+                else {                  
+                    $reviewText.animate({ height: '90' }, 500, function () { });
+                    $link.text("Read more...");
+                    $link.removeClass("read-less-about-album");
+                    $link.addClass("read-more-about-album");
+                }
+            });
+        //********End-of "Read more/Read less"
+         
+	</script>
+
+	<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#username=cdbaby"></script>
+				
+	<style type="text/css">
+		.console { 
+			position: fixed;
+			top: 10px;
+			left: 10px;
+			background-color: #000000;
+			color: #4cff00;
+			line-height: 1.7em;
+			display: block;
+			z-index: 999999;
+			width: 450px;
+			height: 440px;
+			opacity: 0.7;
+			padding: 10px 15px;
+			overflow-y: scroll;
+			font-family: "Lucida Console", Monaco, monospace;
+		}
+			
+		.console-header {
+			display: block;
+			overflow:hidden;
+			margin-bottom: 10px;
+			border-bottom: 1px dashed #4cff00;
+			padding-bottom: 7px;
+		}
+		.console-content {
+			display: block;
+			overflow-y: scroll;
+			height:350px;
+		}
+		.console-line { 
+			display: block;
+			margin-bottom: 5px;
+			overflow:hidden;
+		}
+
+		.item-label {
+			width: 150px;
+			float: left;
+		}
+		.item-value {
+			width: 283px;
+			float: left;
+		}
+
+		.play-track{
+			background-color: #F1F1F1;
+			border: 1px solid #ccc;
+			position: relative;
+			height: 25px;
+			width: 25px;
+			border-radius: 40px;
+			display: block;
+			cursor: pointer;
+		}
+		.play-track.paused:after,
+		.play-track-all.paused:after {
+			content: " ";
+			height: 0;
+			width: 0;
+			border-left: 7px solid #333;
+			border-top: 5px solid transparent;
+			border-bottom: 5px solid transparent;
+			border-right: 0px solid transparent;
+			position: absolute;
+			top: 8px;
+			left: 10px;
+		}
+		.play-track.playing:after,
+		.play-track-all.playing:after {
+			content: " ";
+			height: 10px;
+			width: 3px;
+			position: absolute;
+			top: 8px;
+			left: 8px;
+			background-color: #333;
+		}
+		.play-track:focus {
+			outline:0; 
+		}
+		.play-track.playing:before,
+		.play-track-all.playing:before {
+			content: " ";
+			height: 10px;
+			width: 3px;
+			position: absolute;
+			top: 8px;
+			left: 14px;
+			background-color: #333;
+		}
+		.play-all-container {
+			display: inline-block;
+			float: Right;
+			width: 151px;
+			margin-top: 6px;
+		}
+		.play-all-container .play-track-all {
+			float: left;
+			margin-right: 6px;
+			background-color:#ffffff;
+			border: 1px solid #C6C6C6;
+		}
+		.play-all-container .now-playing {
+			float: left;
+			line-height: 22px;
+			display: inline-block;
+			padding-top: 1px;
+		}
+		.play-all-button {
+			background-color: #fff;
+			border: 1px solid #D4D3D3;
+			border-radius: 5px;
+			padding: 4px 13px 4px 33px;
+			margin-bottom: 0px;
+			font-size: 12px;
+			position:relative;
+			display: inline-block;
+			cursor: pointer;
+		}
+		.play-all-button.paused:after { 
+			position: absolute;
+			content: " ";
+			top: 10px;
+			left: 13px;
+			border-bottom: 5px solid transparent;
+			border-left: 6px solid #333333;
+			border-top: 5px solid transparent;
+		}
+		.play-all-button:after {
+			position: absolute;
+			content: " ";
+			top: 10px;
+			left: 13px;
+			border-bottom: 5px solid transparent;
+			border-left: 6px solid #333333;
+			border-top: 5px solid transparent;
+		}
+
+	</style>
+	<script type="text/javascript">
+		    
+		$(document).ready(function (){
+		    AlbumId = "walkerikard12";
+		    Referrer = "";
+			albumPlayer = AlbumPlayer();
+		}); // ready()
+
+	</script>
+
+	<script type="text/javascript">
+
+		var albumPlayList = [{name:'Just a Running',trackID:'TR0001778340',fullLength:'False',mp3:'http://content.cdbaby.com/audio/samples/f8506fb6/walkerikard12-01.mp3', trackNumber: 1}];
+			
+        $(document).ready(function()
+        {
+        	HideNoPreviewPlayButton();
+        	ShowShareSongMenu();
+        	LoadSingleSongFunctions();
+        });
+
+		function HideNoPreviewPlayButton()
+		{
+			$("tr[itemprop*='track']").each(function() {
+				if ($(this).find(".jplay-button").length === 0) {
+					var playIcon = $(this).find(".play-track");
+					playIcon.hide();
+				}
+			});
+		}
+
+        function ShowShareSongMenu()
+        {	
+        	// Load menu on click
+        	$('.custom_button').click(function() {
+        		$(this).parent().parent().find('.hover_menu').fadeIn('fast');
+        		$(this).data('in', true);
+        		$(this).parent().parent().find('.hover_menu').data('hidden', false); 
+        		$(this).addClass('present');         		
+			});
+
+			// Fix cursor issue
+        	$('.hover_menu_close').mouseover(function()	{document.body.style.cursor='pointer';})
+			.mouseleave(function() 	{ document.body.style.cursor='default'; });
+
+			// Hide menu on click
+        	$('.hover_menu_close').click(function ()
+        	{
+        		$(this).parent().hide();					        		
+        	});     	
+        }	// ShowShareSongMenu()
+			
+        function LoadSingleSongFunctions()
+        {
+        	ChangeSingleSongURL();
+        	ChangeSingleSongMetaTitle();
+        	PlaySingleSong();
+        }	// LoadSingleSongFunctions()
+
+        function PlaySingleSong()
+        {
+        	var trackInURL = window.location.pathname.split('/'); 
+        	var correcTrack = trackInURL[trackInURL.length-1];
+			
+        	$('.track-title-meta').each(function ()
+        	{
+        		var currentTracks = $(this).attr("content");
+
+        		currentTracks = currentTracks.replace(/\s+/g, '').replace(/[^a-z0-9\s]/gi,'');
+								
+        		if(currentTracks == correcTrack)
+        		{
+        			$(this).parent().parent().find('.play').click();
+        		}	// if
+        	});
+        }  // CheckAndPlaySingleSong()
+
+			
+        function ChangeSingleSongURL()
+        {
+        	$(".custom_button").each( function()
+        	{        		
+        		var trackName = $(this).parent().parent().parent().parent().find('.track-title-meta').attr("content");	
+		
+        		if(trackName != undefined)
+        		{   	
+        			// Trim down the track name
+        			trackName = trackName.replace(/\s+/g, '').replace(/[^a-z0-9\s]/gi,'');
+
+        			var tempUrl = document.URL.split('#'); 
+
+        			// Make sure we only attach one song title
+        			var url = tempUrl[0].split('/');
+        			var newURL = url[0] + "/" + url[1] + "/" + url[2] + "/" + url[3] + "/" + url[4] + "/"+ trackName;
+					        			
+        			$(this).parent().parent().attr("addthis:url",newURL);
+        		}	// if
+        	});
+			        	
+        	$(".addthis_button_compact").each(function()
+        	{
+        		$(this).parent().attr("addthis:url",document.URL);
+        	});
+
+        }	// ChangeAddThisURL()
+		
+        function ChangeSingleSongMetaTitle()
+        {
+        	var orgTitle = $('meta[property="og:title"]').attr('content');
+        	var titlePieces =  orgTitle.split('-'); 
+        	var twitterTitle;
+        	var updatedTemplate;
+        	var twitterTemplate = addthis_share.templates.twitter.split(';');
+			
+        	// Share songs 
+        	$(".custom_button").mouseover(function ()
+        	{
+        		var trackName = $(this).parent().parent().parent().parent().find('.track-title-meta').attr("content");	
+				        		
+        		var ogTitle = '♫ ' + trackName + ' - ' + titlePieces[1];
+        					
+        		if(trackName != 'undefined')
+        		{
+        			var ogTitle = '♫ ' + trackName + ' - ' + titlePieces[1];
+        		}	// if
+        		else
+        		{
+        			var ogTitle = orgTitle;
+        		}	// else
+				
+        		// Change meta titles				
+        		$('meta[property="og:title"]').attr('content', ogTitle);
+        		
+        		updatedTemplate = twitterTemplate[0] + ' ' + trackName + ' - ' + twitterTemplate[1];
+        		addthis_share.templates.twitter = updatedTemplate; 
+        	});
+
+        	// Share album
+        	$(".addthis_button_compact").mouseover(function ()
+        	{
+        		updatedTemplate = twitterTemplate[0] + ' ' + twitterTemplate[1];
+        		addthis_share.templates.twitter = updatedTemplate; 
+        		
+        		// Put meta back to orginal 
+        		$('meta[property="og:title"]').attr('content', orgTitle);
+        	});
+        }	// ChangeSingleSongMetaTitle()
+
+		//defining this function so as not to break AlbumPlayer.js
+        function setTrackSources() {}
+	</script>   
+    	
+</body>
+</html>

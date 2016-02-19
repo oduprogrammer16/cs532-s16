@@ -1,0 +1,445 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="viewport" content="width=device-width">
+<title>冬の妖精 「クリオネ」展示中！ | 新江ノ島水族館</title>
+<meta name="description" content="流氷とともにやってくる、天使のような姿をした巻貝のなかまです。
+殻はなく、体は透明で内蔵が透けて見えます。体には1対の翼のような足（翼足）があり、これを動かして泳ぎます。
+流氷の下を泳ぐイメージが大変強いですが、生息域は広く、水深0m～600m付近と深海でも確認されています。
+
+※ 展示場所はクラゲサイエンスですが、クラゲのなかまではありません。
+
+">
+<link rel="start" type="text/html" href="http://www.enosui.com/" title="新江ノ島水族館" />
+<link rel="contents" type="text/html" href="" title="新着生物 | 新江ノ島水族館" />
+<link rel="stylesheet" type="text/css" href="/css/default.css?v2" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script type="text/javascript" src="js/default.js?v3"></script>
+<script type="text/javascript" src="js/pagelink.js"></script>
+<script type="text/javascript">
+<!--
+	var bodytext =$('meta[name=description]').attr("content").substring(0,200);
+	//console.log(bodytext);
+	$('meta[name=description]').attr("content",bodytext);
+// -->
+</script>
+<link media="screen" rel="stylesheet" href="./js/colorbox/colorbox.css" />
+<script src="./js/colorbox/js/jquery.colorbox.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$("a[rel^='prettyPhoto']").colorbox();
+});
+</script>
+</head>
+<body class="animalspage">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="header1"><div class="header_inner" id="top">
+
+<div id="headerHead">
+<div id="head_submenu">
+<ul><li><a href="map/index.html"><img src="images/hsbmn_map2.gif" width="77" height="17" border="0" alt="館内マップ" /></a><br /></li>
+<script type="text/javascript">head_submenuAdd();</script></ul>
+</div>
+<div id="head_link">
+<ul><li><a href="javascript:news_link();">ニュース</a></li>
+<li><a href="introduce.html">ご挨拶</a></li>
+<li><a href="faq.html">よくある質問</a></li>
+<li><a href="contact.html">お問い合わせ</a></li>
+<li><a href="sitemap.html">サイトマップ</a></li>
+<li><select name="language" id="select_lang" onChange="navi(this)">
+<option value="">Select Language</option>
+<option value="/en/" id="lang_en">English</option>
+<option value="/tw/" id="lang_tw">Traditional Chinese</option>
+<option value="/cn/" id="lang_cn">Simplified Chinese</option>
+<option value="/kr/" id="lang_kr">Korean</option>
+</select></li></ul>
+</div>
+</div><!-- / #headerHead -->
+<div id="head_logo"><a href="/"><img src="images/logo.gif" width="156" height="44" border="0" alt="新江ノ島水族館 ENOSHIMA AQUARIUM" /></a></div>
+<div id="gnavi"><ul>
+<li class="basicinfo"><a href="basicinfo.html"><img src="images/gnavi_basicinfo.gif" alt="営業時間・料金・交通" /></a></li>
+<li class="exhibition"><a href="exhibition_index.php"><img src="images/gnavi_exhibition.gif" alt="展示" /></a></li>
+<li class="show"><a href="show_index.php"><img src="images/gnavi_show.gif" alt="ショー＆ふれあいプログラム" /></a></li>
+<li class="experience"><a href="javascript:experience_link();"><img src="images/gnavi_experience.gif" alt="体験学習プログラム" /></a></li>
+<li class="member"><a href="member/index.html"><img src="images/gnavi_member.gif" alt="お得！年間パスポート" /></a></li>
+<li class="basicinfooff"><a href="basicinfo.html#off"><img src="images/gnavi_basicinfooff.gif" alt="割引のご案内" /></a></li>
+<li class="event"><a href="javascript:eventthis_link();"><img src="images/gnavi_event.gif" alt="イベント" /></a></li>
+<li class="schedule"><a href="show_schedule.php"><img src="images/gnavi_schedule.gif" alt="タイムスケジュール" /></a></li>
+<li class="shoppage"><a href="shop_index.php"><img src="images/gnavi_shop.gif" alt="お土産・お食事" /></a></li>
+<li class="group"><a href="group.html"><img src="images/gnavi_group.gif" alt="団体でのご利用" /></a></li>
+</ul></div>
+
+<div id="spHeader">
+<div id="s_head"><a href="/"><img src="images/logo.gif" width="156" height="44" border="0" alt="新江ノ島水族館 ENOSHIMA AQUARIUM" /></a></div> 
+<div id="nav-wrap">
+<div id="menu-icon">メニュー</div>
+<div id="s_search"><a><img src="images/icon_loupe.png" height="21" border="0" alt="検索" /></a></div>
+<ul id="nav">
+<li><a href="/show_schedule.php">タイムスケジュール</a></li>
+<li><a href="javascript:eventthis_link();">イベント</a></li>
+<li><a href="javascript:experience_link();">体験学習プログラム</a></li>
+<li><a href="/overnight.php">お泊りナイトツアー</a></li>
+<li><a href="/shop_index.php">お土産・お食事</a></li>
+<li class="sub_shop"><a href="/shop_mainshop.php" class="map9">メインショップ</a></li>
+<li class="sub_shop"><a href="/shop_oceanshop.php" class="map10">オーシャンショップ</a></li>
+<li class="sub_shop"><a href="/shop_oceancafe.php" class="map10 on">オーシャンカフェ</a></li>
+<li class="sub_shop"><a href="/shop_shonancafe.php" class="map9">湘南カフェ</a></li>
+<li class="sub_shop"><a href="/shop_stadiumcafe.php" class="map6">スタジアムカフェ</a></li>
+<li class="sub_shop"><a href="/shop_illust.php" class="map10">似顔絵コーナー</a></li>
+<li class="sub_shop"><a href="/shop_photo.php" class="map11">フォトコーナー</a></li>
+<li><a href="/basicinfo.html#off">割引案内</a></li>
+<li><a href="/group.html">団体でのご利用</a></li>
+<li><a href="/faq.html">よくある質問</a></li>
+<li><a href="/mailmagazine.html">メールマガジン</a></li>
+<li><a href="/contact.html">お問い合わせ</a></li>
+<li><a href="/introduce.html">ご挨拶</a></li>
+</ul>
+</div>
+</div>
+
+<div id="headsearch">
+<script>
+(function() {
+var cx = '013088371841782141947:mqg0yrz_q-a';
+var gcse = document.createElement('script');
+gcse.type = 'text/javascript';
+gcse.async = true;
+gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+'//www.google.com/cse/cse.js?cx=' + cx;
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(gcse, s);
+})();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>
+</div><!-- / #headsearch -->
+
+</div></div><!-- / #header1 -->
+<div id="container">
+
+	<div id="crumb">
+		<a href="/">ホーム</a> &gt;
+		<a href="exhibition_index.php">展示</a> &gt;
+		新着生物
+	</div>
+
+	<h1><a href="animals.php"><img src="images/h1_animals.gif" width="162" height="29" border="0" alt="新着生物" /></a></h1>
+
+	<div id="content">
+
+		<div id="contentmain">
+			<script type="text/javascript" src="//media.line.me/js/line-button.js?v=20140411" ></script>
+			<div class="ccm_tabletp">
+<h3 class="animals">冬の妖精 「クリオネ」展示中！</h3>
+<div class="clear_b"><img src="images/spacer.gif" width="1" height="1" border="0" alt=""></div>
+</div><div class="ccm_tablebtm">
+<p class="p5">
+			展示開始日：2016年2月7日（日）～<div class="ccsinfo"><p class="place"><a href="exhibition_jellyscience.php">クラゲサイエンス</a></p></div><h4>ハダカカメガイ  （裸亀貝） ／クリオネ  </h4>学名：<i>Clione limacina</i><br>軟体動物門 腹足綱 裸殻翼足目 ハダカカメガイ科<br>展示場所： クラゲサイエンス</p>
+<div class="center01">
+<img src="/cmsdesigner/data/entry/animals/animals.00180.00000001.jpg" width="440" height="281" border="0" alt=""><br>
+</div>
+<div class="area_rep">
+<div class="text_rep2"><p>流氷とともにやってくる、天使のような姿をした巻貝のなかまです。<br />
+殻はなく、体は透明で内蔵が透けて見えます。体には1対の翼のような足（翼足）があり、これを動かして泳ぎます。<br />
+流氷の下を泳ぐイメージが大変強いですが、生息域は広く、水深0m～600m付近と深海でも確認されています。<br />
+<br />
+<font color="#7d7d7d">※ 展示場所はクラゲサイエンスですが、クラゲのなかまではありません。</font><br />
+<br />
+
+</p></div>
+<br class="clearFix">
+</div>
+<div class="nice">
+<div class="twitter_btn_area"><a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-url="http://www.enosui.com/animalsentry.php?eid=00180">ツイート</a></div>
+<div class="mixi_area"><div data-plugins-type="mixi-favorite" data-service-key="45d13d98e3127c6c09eb193d4e717e347544aeb9" data-size="medium" data-href="http://www.enosui.com/animalsentry.php?eid=00180" data-show-faces="false" data-show-count="true" data-show-comment="false" data-width=""></div></div>
+<div class="fb_area"><div class="fb-like" data-send="false" data-layout="button_count" data-width="200" data-show-faces="false"></div></div>
+<div class="gplus_area"><div class="g-plusone"></div></div>
+<div class="hatebu_area"><a href="http://b.hatena.ne.jp/entry/http://www.enosui.com/animalsentry.php?eid=00180" class="hatena-bookmark-button" data-hatena-bookmark-title="冬の妖精 「クリオネ」展示中！" data-hatena-bookmark-layout="simple-balloon" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;"></a></div>
+<div class="line_area"><span><script type="text/javascript">new media_line_me.LineButton({"pc":false,"lang":"ja","type":"a","text":"冬の妖精 「クリオネ」展示中！","withUrl":true});</script></span></div>
+</div>
+</div><div class="pagelink">
+<a href="?eid=00179">&lt; 前の記事</a>
+		｜<a href="animals.php">最新の記事一覧</a>｜<a href="?eid=00181">次の記事 &gt;</a>
+</div>
+			<script type="text/javascript">
+			(function(d) {
+			var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true;
+			s.src = '//static.mixi.jp/js/plugins.js#lang=ja';
+			d.getElementsByTagName('head')[0].appendChild(s);
+			})(document);
+			</script>
+			<script type="text/javascript">
+			  window.___gcfg = {lang: 'ja'};
+			  (function() {
+				var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+				po.src = 'https://apis.google.com/js/platform.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+			  })();
+			</script>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			<script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+			<div class="pagetop"><img src="images/ccs_icon_pagetop.gif" width="18" height="17" border="0" alt=""><a href="#top">ページトップへ</a></div>
+		</div>
+
+		<div id="contentside">
+			<div class="ccs_tabletp">
+				<div class="ccs_ttl"><img src="images/ccs_ttl_backnum.gif" width="70" height="22" border="0" alt="バックナンバー" /></div>
+				<div class="ccs_rss">
+					<a href="animals.php"><img src="images/btn_all.gif" width="28" height="12" border="0" alt="一覧" /></a>
+					<a href="animalsrss.php"><img src="images/btn_rss.gif" width="28" height="12" border="0" alt="RSS" /></a>
+				</div>
+<!-- s_ccs_ttl start --> 
+                <div class="s_ccs_ttl"><a href="animals.php">バックナンバー</a></div>
+				<div class="s_ccs_rss">
+					<a href="animals.php"><img height="12" border="0" width="28" alt="一覧" src="images/btn_all.gif" class="list"></a>
+				</div>
+<!-- s_ccs_ttl end -->
+				<div class="clear_b"><img src="images/spacer.gif" width="1" height="1" border="0" alt="" /></div>
+			</div>
+			<div class="ccs_tablebtm">
+				<p><a href="animalsentry.php?eid=00181">ユーモラスな風貌の癒し系「ミドリフサアンコウ」が仲間入り</a></p><p><a href="animalsentry.php?eid=00180">冬の妖精 「クリオネ」展示中！</a></p><p><a href="animalsentry.php?eid=00179">メンダコの生態解明への挑戦！
+お耳が生えた深海のアイドル「メンダコ」展示開始！</a></p><p><a href="animalsentry.php?eid=00178">天狗の顔と恐竜の体、ペガサスのような翼を広げて歩く魚！
+「ウミテング」展示開始</a></p><p><a href="animalsentry.php?eid=00176">みるからに気が荒そうな面構え「オキハギ」展示開始</a></p><p><a href="animalsentry.php?eid=00177">不思議な体型が宇宙生物のようでかっこいい！
+「サカタザメ」展示開始 </a></p><p><a href="animalsentry.php?eid=00175">群れでの展示はえのすい初、イボダイ展示中</a></p><p><a href="animalsentry.php?eid=00173">真っ赤な体に大きな目「チカメキントキ」展示開始</a></p><p><a href="animalsentry.php?eid=00172">かわいらしい顔で思わずにっこり
+「ウナギギンポ」えのすい初展示！</a></p><p><a href="animalsentry.php?eid=00169">「シリヤケイカ」相模湾ゾーンで展示中</a></p><p><a href="animalsentry.php?eid=00168">えのすい初「ホテイウオ」展示開始</a></p><p><a href="animalsentry.php?eid=00167">えのすい初！なかなか市場に出回らない
+知る人ぞ知る高級魚「アラ」展示公開中</a></p><p><a href="animalsentry.php?eid=00160">貴重な深海生物「ゴエモンコシオリエビ」展示飼育開始！</a></p><p><a href="animalsentry.php?eid=00157">バンドウイルカの「ミュー」が出産！
+元気な赤ちゃんが誕生しました！</a></p><p><a href="animalsentry.php?eid=00151">深海の高級魚「アブラボウズ」えのすい初展示！</a></p><p><a href="animalsentry.php?eid=00149">長く平たい剣状の吻をもつ「ノコギリザメ」展示飼育開始</a></p><p><a href="animalsentry.php?eid=00031">世界最大のダンゴムシのなかま
+「ダイオウグソクムシ」（大王具足虫）の展示開始！
+～深海にすみ体長45cmになるダンゴムシ～</a></p><p><a href="animalsentry.php?eid=00011">硫化鉄の鱗を鎧のように身にまとった巻貝として
+世界中で話題になった「ウロコフネタマガイ」
+（俗称：スケーリーフット）、標本展示中！</a></p>
+			</div>
+			<div class="ccs_tabletp">
+				<div class="ccs_ttl"><a href="diary.php"><img src="images/ccs_ttl_diary.gif" width="110" height="22" border="0" alt="えのすいトリーター日誌" /></a></div>
+				<div class="ccs_rss">
+					<a href="diary.php"><img src="images/btn_all.gif" width="28" height="12" border="0" alt="一覧" /></a>
+					<a href="diaryrss.php"><img src="images/btn_rss.gif" width="28" height="12" border="0" alt="RSS" /></a>
+				</div>
+<!-- s_ccs_ttl start --> 
+                <div class="s_ccs_ttl"><a href="diary.php">えのすいトリーター日誌</a></div>
+				<div class="s_ccs_rss">
+					<a href="diary.php"><img height="12" border="0" width="28" alt="一覧" src="images/btn_all.gif" class="list"></a>
+				</div>
+<!-- s_ccs_ttl end --> 
+				<div class="clear_b"><img src="images/spacer.gif" width="1" height="1" border="0" alt="" /></div>
+			</div>
+			<div class="ccs_tablebtm">
+				<img src="images/spacer.gif" alt="" /><br />
+			</div>
+			<div class="ccs_tabletp">
+				<div class="ccs_ttl"><a href="onboard.php"><img src="images/ccs_ttl_onboard2.gif" width="110" height="22" border="0" alt="航海・採集日誌" /></a></div>
+				<div class="ccs_rss">
+					<a href="onboard.php"><img src="images/btn_all.gif" width="28" height="12" border="0" alt="一覧" /></a>
+					<a href="onboardrss.php"><img src="images/btn_rss.gif" width="28" height="12" border="0" alt="RSS" /></a>
+				</div>
+<!-- s_ccs_ttl start --> 
+                <div class="s_ccs_ttl"><a href="onboard.php">航海・採集日誌</a></div>
+				<div class="s_ccs_rss">
+					<a href="onboard.php"><img src="images/btn_all.gif" width="28" height="12" border="0" alt="一覧" class="list" /></a>
+				</div>
+<!-- s_ccs_ttl end -->
+				<div class="clear_b"><img src="images/spacer.gif" width="1" height="1" border="0" alt="" /></div>
+			</div>
+			<div class="ccs_tablebtm">
+				<img src="images/spacer.gif" alt="" /><br />
+			</div>
+			<div class="ccs_tabletp">
+				<div class="ccs_ttl"><a href="research.php"><img src="images/ccs_ttl_research.gif" width="70" height="22" border="0" alt="研究発表" /></a></div>
+				<div class="ccs_rss">
+					<a href="research.php"><img src="images/btn_all.gif" width="28" height="12" border="0" alt="一覧" /></a>
+					<a href="researchrss.php"><img src="images/btn_rss.gif" width="28" height="12" border="0" alt="RSS" /></a>
+				</div>
+<!-- s_ccs_ttl start --> 
+                <div class="s_ccs_ttl"><a href="research.php">研究発表</a></div>
+				<div class="s_ccs_rss">
+					<a href="research.php"><img src="images/btn_all.gif" width="28" height="12" border="0" alt="一覧" class="list" /></a>
+				</div>
+<!-- s_ccs_ttl end --> 
+				<div class="clear_b"><img src="images/spacer.gif" width="1" height="1" border="0" alt="" /></div>
+			</div>
+			<div class="ccs_tablebtm">
+				<img src="images/spacer.gif" alt="" /><br />
+			</div>
+		</div>
+
+		<div class="clear_b"><img src="images/spacer.gif" width="1" height="1" border="0" alt="" /></div>
+	</div>
+
+	<div id="side">
+	</div>
+
+	<div class="clear_b"><img src="images/spacer.gif" width="1" height="1" border="0" alt="" /></div>
+</div>
+
+<div id="foot_links">
+  <div class="inner">
+    <div class="cell ml10">
+      <h3>ご利用案内</h3>
+      <ul>
+        <li><a href="/basicinfo.html">営業時間</a></li>
+        <li><a href="/basicinfo.html#pay">料金</a></li>
+        <li><a href="/basicinfo.html#fortrain">交通</a></li>
+        <li><a href="/map/index.html">館内マップ</a></li>
+        <li><a href="/group.html">団体でのご利用</a></li>
+      </ul>
+      <h3><a href="/show_schedule.php">タイムスケジュール</a></h3>
+      <h3><a href="/today.php">今日のえのすい</a></h3>
+      <h3><a href="/book.php">募集中</a></h3>
+      <h3>お得な会員制度</h3>
+      <ul>
+        <li><a href="/member/index.html">年間パスポート</a></li>
+        <li><a href="/member/kidsclub.html">えのすいKids Club</a></li>
+        <li><a href="/member/platinumclub.html">えのすいプラチナクラブ</a></li>
+        <li><a href="/eco/supporter.html">えのすいecoサポーター</a></li>
+      </ul>
+      <h3><a href="/introduce.html">ご挨拶</a></h3>
+      <h3><a href="/faq.html">よくある質問</a></h3>
+      <h3><a href="/contact.html">お問合せ</a></h3>
+      <h3><a href="/sitemap.html">サイトマップ</a></h3>
+    </div>
+    <div class="cell">
+      <h3><a href="/exhibition_index.php">展示一覧</a></h3>
+      <ul>
+        <li><a href="/exhibition_sagami.php">相模湾ゾーン</a></li>
+        <li><a href="/exhibition_deepsea.php">深海&#8544;<span> ～JAMSTECとの共同研究～</span></a></li>
+        <li><a href="/exhibition_jellyfish.php">クラゲファンタジーホール</a></li>
+        <li><a href="/exhibition_pacific.php">太平洋</a></li>
+        <li><a href="/exhibition_majesty.php">今上陛下のご研究</a></li>
+        <li><a href="/exhibition_jellyscience.php">クラゲサイエンス</a></li>
+        <li><a href="/exhibition_penguin.php">ペンギン・アザラシ</a></li>
+        <li><a href="/exhibition_theme.php">テーマ水槽</a></li>
+        <li><a href="/exhibition_deepsea2.php">深海&#8545;<span> ～しんかい2000～</span></a></li>
+        <li><a href="/exhibition_turtle.php">ウミガメの浜辺</a></li>
+        <li><a href="javascript:exhibitionexperience_link();">なぎさの体験学習館</a></li>
+        <li><a href="/exhibition_stadium.php">イルカショースタジアム</a></li>
+        <li><a href="/exhibition_touching.php">タッチプール</a></li>
+        <li><a href="/exhibition_environment.php">環境水槽</a></li>
+      </ul>
+      <h3><a href="/show_index.php">ショー一覧</a></h3>
+      <ul>
+        <li><a href="/show_kizuna.php">きずな/kizuna </a></li>
+        <li><a href="/show_dolferiarenew.php">ドルフェリア</a></li>
+        <li><a href="/show_uogokoro.php">うおゴコロ</a></li>
+        <li><a href="/show_fins.php">フィンズ</a></li>
+        <li><a href="/show_penguin.php">ペングィーン！</a></li>
+        <li><a href="/show_kurage.php">海月の宇宙</a></li>
+        <li><a href="/show_schedule.php">タイムスケジュール</a></li>
+      </ul>
+      <h3><a href="/show_index.php">ふれあいプログラム</a></h3>
+      <ul>
+        <li><a href="/show_shakehands.php">イルカと握手</a></li>
+        <li><a href="/show_turtle.php">ウミガメにタッチ</a></li>
+      </ul>
+    </div>
+    <div class="cell">
+      <h3><a href="/animals.php">新着生物</a></h3>
+      <h3><a href="javascript:news_link();">ニュース</a></h3>
+      <h3><a href="javascript:eventthis_link();">イベント</a></h3>
+      <h3><a href="javascript:experience_link();">体験学習プログラム</a></h3>
+      <h3><a href="/overnight.php">お泊りナイトツアー</a></h3>
+      <h3><a href="/shop_index.php">お土産・お食事</a></h3>
+      <ul>
+        <li><a href="/shop_mainshop.php">メインショップ</a></li>
+        <li><a href="/shop_oceanshop.php">オーシャンショップ</a></li>
+        <li><a href="/shop_oceancafe.php">オーシャンカフェ</a></li>
+        <li><a href="/shop_shonancafe.php">湘南カフェ</a></li>
+        <li><a href="/shop_stadiumcafe.php">スタジアムカフェ</a></li>
+        <li><a href="/shop_illust.php">似顔絵コーナー</a></li>
+        <li><a href="/shop_photo.php">フォトコーナー</a></li>
+      </ul>
+    </div>
+    <div class="cell pr0">
+      <h3><a href="/ecotop.php">えのすいeco</a></h3>
+      <ul>
+        <li><a href="/ecology.php">エコロジー<span> ～生物に関する生態学～</span></a></li>
+        <li><a href="/ecoaction.php">エコアクション<span> ～環境を考える活動～</span></a></li>
+        <li><a href="/ecotopics.php">えのすいecoトピックス</a></li>
+        <li><a href="/eco/supporter.html">えのすいecoサポーター</a>／<a href="/eco/supporter_corporation.html">法人</a></li>
+      </ul>
+      <h3>スペースレンタル</h3>
+      <ul>
+        <li><a href="/special/spacerental.html">パーティー・ウエディングも</a></li>
+      </ul>
+      <h3><a href="/diary.php">トリーター日誌</a></h3>
+      <h3><a href="/onboard.php">航海採集日誌</a></h3>
+      <h3><a href="/research.php">研究発表</a></h3>
+      <h3><a href="/wallpaper.php">壁紙ギャラリー</a></h3>
+      <ul class="mt30">
+        <li class="blnk_win"><a href="https://www.facebook.com/enosui" target="_blank">Facebook</a></li>
+        <li class="blnk_win"><a href="http://www.youtube.com/EnosuiMovie" target="_blank">YouTube</a></li>
+        <li class="blnk_win"><a href="http://twitter.com/enosui_com" target="_blank">twitter</a></li>
+        <li class="blnk_win"><a href="http://p.mixi.jp/enosui" target="_blank">mixi</a></li>
+        <li class="blnk_win"><a href="newsentry.php?eid=00498" target="_blank">LINE</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- / #foot_links -->
+<div id="s_foot_links">
+  <div class="inner">
+    <div class="cell">
+      <ul>
+        <li><a href="/basicinfo.html">営業時間</a></li>
+        <li><a href="/basicinfo.html#pay">料金</a></li>
+        <li><a href="/basicinfo.html#fortrain">交通</a></li>
+        <li><a href="/basicinfo.html#off">割引案内</a></li>
+        <li><a href="/basicinfo.html#cvs">前売り券</a></li>
+        <li><a href="/exhibition_index.php">展示</a></li>
+        <li><a href="/show_index.php">ショー</a></li>
+        <li><a href="/animals.php">新着生物</a></li>
+        <li><a href="javascript:news_link();">ニュース</a></li>
+        <li><a href="javascript:eventthis_link();">イベント</a></li>
+        <li><a href="javascript:experience_link();">体験学習プログラム</a></li>
+        <li><a href="/overnight.php">お泊りナイトツアー</a></li>
+      </ul>
+    </div>
+    <div class="cell pr0">
+		<ul>
+        <li><a href="/member/index.html">年間パスポート</a></li>
+        <li><a href="/shop_index.php">お土産・お食事</a></li>
+        <li><a href="/special/spacerental.html">スペースレンタル</a></li>
+        <li><a href="/faq.html">よくある質問</a></li>
+        <li><a href="/contact.html">お問合せ</a></li>
+        <li><a href="/sitemap.html">サイトマップ</a></li>
+        <li><a href="/policy.html">サイトポリシー</a></li>
+		<li><a href="/privacy.html">プライバシーポリシー</a></li>
+        <li><a href="/en/">English</a></li>
+        <li><a href="/tw/">Traditional Chinese</a></li>
+        <li><a href="/cn/">Simplified Chinese</a></li>
+        <li><a href="/kr/">Korean</a></li>
+        </ul>
+    </div>
+  </div>
+</div>
+<!-- / #s_foot_links -->
+
+<div id="foot_copyright">
+	<div class="inner">
+		<ul>
+			<li class="first"><a href="policy.html">サイトポリシー</a></li>
+			<li><a href="privacy.html">プライバシーポリシー</a></li>
+			<li><a href="link.html">リンク</a></li>
+		</ul>
+	<p>copyright(C) ENOSHIMA AQUARIUM All Rights Reserved.</p>
+	</div>
+   </div><!-- / #foot_copyright -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10007919-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

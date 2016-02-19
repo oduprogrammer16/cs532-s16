@@ -1,0 +1,3673 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Google Analytics Content Experiment code -->
+		<!--<script>function utmx_section(){}function utmx(){}(function(){var
+		k='66160699-0',d=document,l=d.location,c=d.cookie;
+		if(l.search.indexOf('utm_expid='+k)>0)return;
+		function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+		indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+		length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+		'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+		'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+		'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+		valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+		'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+		</script><script>utmx('url','A/B');</script>-->
+		<!-- End of Google Analytics Content Experiment code -->
+
+		<title>Ally.js: Simpler Accessibility JavaScript Library - ByPeople</title>
+
+        
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=8,IE=9" />
+		<meta name="twitter:widgets:csp" content="on">
+
+					<!-- Facebook fields -->
+			<meta property="og:title" content="Ally.js: Simpler Accessibility JavaScript Library" />
+			<meta property="og:url" content="http://www.bypeople.com/accessibility-javascript-library/" />
+			<meta property="og:description" content="A JavaScript library that simplifies certain accessibility features, functions, and behaviors by providing certain standard functions that the web platform should've provided itself for JavaScript applications to be made accessible more easily." />
+			<meta property="og:image" content="http://www.bypeople.com/wp-content/uploads/2015/12/accessibility-javascript-library.jpg" />
+			<meta property="fb:app_id" content="299022556864918" />
+
+			<!-- Twitter fields -->
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:site" content="@bypeopleteam" />
+			<meta name="twitter:creator" content="@bypeopleteam" />
+			<meta name="twitter:title" content="Ally.js: Simpler Accessibility JavaScript Library" />
+			<meta name="twitter:url" content="http://www.bypeople.com/accessibility-javascript-library/" />
+			<meta name="twitter:description" content="A JavaScript library that simplifies certain accessibility features, functions, and behaviors by providing certain standard functions that the web platform should've provided itself for JavaScript applications to be made accessible more easily." />
+			<meta name="twitter:image" content="http://www.bypeople.com/wp-content/uploads/2015/12/accessibility-javascript-library.jpg" />
+
+		
+		
+		<link rel="stylesheet" href="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets//css/load-styles.php?load=single&v=1455670291" />		<link rel="stylesheet" href="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/css/custom/owl.carousel.css">
+		<link rel="stylesheet" href="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/css/custom/owl.theme.css">
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-4078085-13', 'bypeople.com');
+			ga('require', 'displayfeatures');
+			ga('send', 'pageview');
+
+		</script>
+
+			</head>
+	<body class=" ">
+
+		<!-- BuySellAds Ad Code -->
+		<script type="text/javascript">
+		(function(){
+		  var bsa = document.createElement('script');
+		     bsa.type = 'text/javascript';
+		     bsa.async = true;
+		     bsa.src = '//s3.buysellads.com/ac/bsa.js';
+		  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+		})();
+		</script>
+		<!-- End BuySellAds Ad Code -->
+
+		
+
+		
+	<!-- NavMenu goes here -->
+	<div class="navbar  ">
+
+		<div class="wrapper-1200 topbar-wrapper">
+
+			<div class="NavActions navbar-left ">
+
+				<div class="slide-menu-icon"><span></span></div>
+
+				<!-- Corporative Scene -->
+				<div class="wrapper-logo">
+
+					
+						<a href="http://www.bypeople.com/">
+							<img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/corporative/header-logo.png">							<div class="title-logo">
+								<span><small>web.</small>bypeople</span>
+							</div>
+						</a>
+
+					
+											<i class="changelink icon-chevron-down"></i>
+						<ul class="downmenu">
+
+							
+							
+							
+							
+								<li>
+									<a href="//wp.bypeople.com">
+										<div class="title-logo">
+											<span><small>wp.</small>bypeople</span>
+										</div>
+									</a>
+								</li>
+
+								<li>
+									<a href="//fonts.bypeople.com">
+										<div class="title-logo">
+											<span><small>fonts.</small>bypeople</span>
+										</div>
+									</a>
+								</li>
+
+							
+							<li class="disable">
+								<a href="http://photos.bypeople.com">
+
+									<div class="title-logo">
+										<span><small>photos.</small>bypeople</span>
+									</div>
+								</a>
+							</li>
+							<li class="disable">
+								<a href="http://www.bypeople.com/upcoming">
+
+									<div class="title-logo">
+										<span><small>3d.</small>bypeople</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+									</div>
+
+				<div class="actions-buttons actions-menu">
+										<ul class="main-menu-text ">
+
+						<li class="link-tooltip align-first-element">
+								<a class="regular-link" href="http://www.bypeople.com/collections/">
+								Collections
+							</a>
+						</li>
+
+						
+							<li class="link-tooltip align-first-element">
+								<a class="regular-link" href="http://www.bypeople.com/faq#what-is-by-people" target="_blank">
+										FAQ
+								</a>
+							</li>
+
+
+						
+						
+
+							<!-- <li class="link-tooltip link-blog">
+								<a class="regular-link" href="http://www.bypeople.com/deals/">
+									<b>Deals</b>
+								</a>
+							</li> -->
+
+							<li class="link-tooltip ">
+								<a class="regular-link" href="http://www.bypeople.com/submit">
+									<b>Submit</b>
+								</a>
+							</li>
+							<li class="link-tooltip link-blog">
+								<a href="http://www.bypeople.com/newsletter-sponsors" target="_blank">
+									<b>Ads</b>
+								</a>
+							</li>
+
+
+							<!--
+								<li class="link-tooltip">
+									<a class="regular-link suggest-list link-tooltip-deal navbar-tooltip" href="http://www.bypeople.com/full-web-development-course-freebie-eduonix"
+										data-content="
+											<a href='http://www.bypeople.com/full-web-development-course-freebie-eduonix' class='feat-deal feat-main'>
+												18 Web Dev Courses (Valued at over $2500) for Only $89 Plus a great freebie! (96% Dsct.)											</a>"
+										data-position="bottom" data-elclass="nav-tooltip">
+											<i class="icon-suitcase"></i><b>Featured deal</b>
+									</a>
+								</li> -->
+
+							
+							
+								<!-- <li class="link-tooltip main-feat-freebie">
+									<i class="icon-gift"></i>
+									<a href="http://www.bypeople.com/blog" class="link-blog" target="_blank">Blog</a>
+									<a class="regular-link suggest-list link-tooltip-freebie navbar-tooltip" href="http://www.bypeople.com/photographers-rights-and-release-forms"
+										data-content="
+											<a href='http://www.bypeople.com/photographers-rights-and-release-forms' class='feat-freebie feat-main'>
+												Photographers rights, learn everything											</a>"
+										data-position="bottom" data-elclass="nav-tooltip">
+										<b>: Featured Freebie</b>
+									</a>
+								</li> -->
+
+
+							
+							<!-- <li>
+								<a class="regular-link suggest-list suggest-list-modal"
+									data-modal=".SuggestList-modal"
+									data-content=""
+									data-position="" data-elclass="">
+									<i class="icon-plus"></i><b>Suggest a list</b>
+								</a>
+							</li> -->
+
+							<li class="link-tooltip">
+								<a class="regular-link suggest-list suggest-list-modal"
+									data-modal=".SuggestList-modal"
+									data-content="<span>Would you like us to add a new list? Just</span> <a class='tweet-list' href='http://ctt.ec/KDECB'>tweet using '#bpList'</a> <span>and one of our curators will attend your request.</span>"
+									data-position="bottom" data-elclass="nav-tooltip">
+									<!-- <i class="icon-plus"></i> -->
+									<b>Suggest a list</b>
+								</a>
+							</li>
+
+							
+					</ul>
+
+
+				</div>
+
+						<ul class="social-int" >
+						<li class="link-tooltip social tw">
+							<a href="https://twitter.com/bypeopleteam" class="link-blog" target="_blank"><i class="icon-twitter"></i></a>
+						</li>
+						<li class="link-tooltip social fb">
+							<a href="https://www.facebook.com/ByPeopleTeam" class="link-blog" target="_blank"><i class="icon-facebook-sign"></i></a>
+						</li>
+				</ul>
+
+			</div>
+
+			<div class="navbar-center  ">
+
+				
+				<a href="http://www.bypeople.com/javascript-animation-plugins/" class="custom-bppl-link">
+					<p>
+													Featured:
+						
+						JavaScript Animation Libraries
+											</p>
+				</a>
+
+							</div>
+
+
+			<!-- init re-design nabvar  -->
+
+			<!-- end -->
+
+
+			<div class="NavActions navbar-right ">
+
+				<ul class="rigth-user">
+				
+					<li class="search-navbar">
+						<i class="icon-search"></i>
+					</li>
+											<li>
+							<a class="regular-link align-login no-login-schema mt-btn" data-modal=".LoginRegister-modal"><i class="icon-user"></i></a>
+						</li>
+									</ul>
+
+			</div>
+		</div>
+
+	</div>
+
+	<div class="slide-menu">
+		<div class="close slide-menu-icon">CLOSE</div>
+		<ul>
+			<a href="http://www.bypeople.com/faq#what-is-by-people" target="_blank" class="Faq">
+				<li>
+					<i class="icon-question-sign"></i>What's this
+				</li>
+			</a>
+			<a href="http://www.bypeople.com/submit">
+				<li>
+					<i class="icon-plus"></i>Suggest a resource
+				</li>
+			</a>
+			<a href="http://www.bypeople.com/blog" target="_blank">
+				<li>
+					<i class="icon-book"></i>Blog
+				</li>
+			</a>
+			<a class="regular-link suggest-list suggest-list-modal"
+				data-modal=".SuggestList-modal"
+				data-content=""
+				data-position="" data-elclass="">
+				<li>
+					<i class="icon-plus"></i>Suggest a list
+				</li>
+			</a>
+			<a class="regular-link desktop-mode"
+				data-content=""
+				data-position="" data-elclass="">
+				<li>
+					<i class="icon-desktop"></i>View desktop mode
+				</li>
+			</a>
+
+			
+			<li class="social-divider">
+				check our socials
+				<div class="line"></div>
+			</li>
+			<a href="https://www.facebook.com/ByPeopleTeam" target="_blank">
+				<li>
+					<i class="icon-facebook-sign"></i> facebook
+				</li>
+			</a>
+			<a href="https://twitter.com/bypeopleteam" target="_blank">
+				<li>
+					<i class="icon-twitter"></i> twitter
+				</li>
+			</a>
+		</ul>
+	</div>
+
+
+	<!-- Background menu here -->
+
+	
+		
+		<div class="background-main-menu
+									
+						
+			
+									
+			 single
+			">
+
+
+
+			<div class="landing-content">
+
+				
+				
+					
+						<div class="description-principal
+							hidden">
+
+							<!--<div class="search-bar">
+								<form class="search-form" role="autocomplete-search">
+									<input class="" name="s" role="search-input" type="search" placeholder="Search" autocomplete="off" autofocus >
+									<span class="search-icon icon-search"></span>
+								</form>
+							</div>-->
+
+							<div class="down">
+								<i class="icon-chevron-down"></i>
+							</div>
+
+							<ul class="main-intro-principal list">
+																<span>A growing repository with <a href="http://www.bypeople.com/collections/"><span class="rayed">742 Collections</span></a> &amp; <a class="scrollIntro" href="#"><span class="rayed">10435 resources</span></a> for web ninjas
+								(freebies, plugins and snippets) updated &amp; curated every day,<span class="italic-black"> so it never expires.</span></span>
+							</ul>
+
+							<ul class="tags tags-frontpage">
+								<li><a href="http://www.bypeople.com/javascript/">Javascript</a></li>
+								<li><a href="http://www.bypeople.com/php/">PHP</a></li>
+								<li><a href="http://www.bypeople.com/html5/">HTML5</a></li>
+								<li><a href="http://www.bypeople.com/bootstrap/">Bootstrap</a></li>
+								<li><a href="http://www.bypeople.com/icon/">Icons</a></li>
+								<li><a href="http://www.bypeople.com/gui/">GUI</a></li>
+								<li><a href="http://www.bypeople.com/css/">CSS</a></li>
+								<li><a href="http://www.bypeople.com/android/">Android</a></li>
+								<li><a href="http://www.bypeople.com/ios-objective-c/">iOS</a></li>
+								<li><a href="http://www.bypeople.com/wordpress/">Wordpress</a></li>
+								<li><a href="http://www.bypeople.com/freebies/">Design templates</a></li>
+								<li><a href="http://www.bypeople.com/free-fonts/">Fonts</a></li>
+								<li><a href="http://www.bypeople.com/resources/">Resources</a></li>
+								<li><a href="http://www.bypeople.com/wordpress-themes/">WP Themes</a></li>
+								<li><a href="http://www.bypeople.com/wordpress-plugins/">WP plugins</a></li>
+								<li class="list-builder-access active"><a href="http://www.bypeople.com/build/" target="_blank" class="btn-small btn-view-more btn-view-more-green-lite">Collection builder</a></li>
+							</ul>
+
+
+						</div>
+
+						
+							
+			<div class="list-collage">
+
+				
+				
+					<div class="description-principal">
+
+						<div class="description-principal visible">
+							<ul class="main-intro-principal list">
+																<span>A growing repository with <a href="http://www.bypeople.com/collections/"><span class="rayed">742 Collections</span></a> &amp; <a class="scrollIntro" href="#"><span class="rayed">10435 resources</span></a> for web ninjas
+								(freebies, plugins and snippets) updated &amp; curated every day,<span class="italic-black"> so it never expires.</span></span>
+							</ul>
+
+						</div>
+
+						<ul class="tags">
+							<li><a href="http://www.bypeople.com/javascript/">Javascript</a></li>
+							<li><a href="http://www.bypeople.com/php/">PHP</a></li>
+							<li><a href="http://www.bypeople.com/html5/">HTML5</a></li>
+							<li><a href="http://www.bypeople.com/bootstrap/">Bootstrap</a></li>
+							<li><a href="http://www.bypeople.com/icon/">Icons</a></li>
+							<li><a href="http://www.bypeople.com/gui/">GUI</a></li>
+							<li><a href="http://www.bypeople.com/css/">CSS</a></li>
+							<li><a href="http://www.bypeople.com/android/">Android</a></li>
+							<li><a href="http://www.bypeople.com/ios-objective-c/">iOS</a></li>
+							<li><a href="http://www.bypeople.com/wordpress/">Wordpress</a></li>
+							<li><a href="http://www.bypeople.com/freebies/">Design templates</a></li>
+							<li><a href="http://www.bypeople.com/free-fonts/">Fonts</a></li>
+							<li><a href="http://www.bypeople.com/resources/">Resources</a></li>
+							<li><a href="http://www.bypeople.com/wordpress-themes/">WP Themes</a></li>
+							<li><a href="http://www.bypeople.com/wordpress-plugins/">WP plugins</a></li>
+						</ul>
+
+					</div>
+				
+			</div>
+
+		
+						
+					
+							</div>
+
+			<!--<div class="prespective">
+
+				<div class="wrapper ">
+				  <div class="inner">
+
+					<ul>
+											</ul>
+
+				  </div>
+				</div>
+ 			-->
+			</div>
+
+		</div>
+
+	
+	<!-- Background menu affiliate -->
+	
+	<!-- Background menu authors signup -->
+	
+		<!-- search modal -->
+		<div class="overlay-search   ">
+			<div class="prespective">
+
+				<div class="wrapper t1">
+				  <div class="inner">
+
+					<ul>
+						<li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/75.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/6.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/94.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/90.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/72.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/19.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/38.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/78.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/80.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/15.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/11.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/51.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/56.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/39.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/40.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/7.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/70.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/86.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/28.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/81.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/100.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/42.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/82.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/45.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/107.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/98.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/26.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/52.jpg"></li><li><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/collage/65.jpg"></li>					</ul>
+
+				  </div>
+				</div>
+
+			</div>
+
+			
+			
+			
+		</div>
+		<div class="search-modal">
+			<div class="container">
+				<div class="close">CLOSE</div>
+				<div class="content">
+											<div class="bppl-pet">
+							<img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/corporative/mascot-bypeople.png">						</div>
+					
+					<div class="search-bar">
+						<form class="search-form" role="autocomplete-search">
+							<input class="" name="s" role="search-input" type="search" placeholder="Search" autocomplete="off" autofocus >
+							<span class="search-icon icon-search"></span>
+						</form>
+					</div>
+					<div>
+																</div>
+				</div>
+			</div>
+		</div>
+		<div class="pattern-search-photos  "></div>
+
+		<div class="container-1200    ">
+
+		<!-- Notifications -->
+
+		
+		
+		
+		
+	
+	<!-- Filters bar -->
+	<div class="Home-subcontainer retracted single-retracted">
+		<div class="Home-postshome-filtersbar" id="gradient">
+
+			<div class="clearfix"></div>
+
+		</div>
+
+		<!-- Keyword stats single -->
+		
+		
+			</div>
+		
+		<!-- Further filters -->
+		<div class="keyword-filters"></div>
+	
+
+		<div class="post-area single-post ">
+
+			
+			<div class="post-header">
+				<h3 class="title post-title" data-post-id="170102">Ally.js: Simpler Accessibility JavaScript Library</h3>
+
+				
+				
+					<!-- <div class="author-meta">Created by
+						<a href="http://www.bypeople.com/author/joncom/">
+							Jon Marquez						</a>
+						on Feb 2 2016					</div> -->
+
+				
+			</div>
+
+			<div class="post-body">
+
+				<div class="post-image">
+
+					
+						<img src="http://www.bypeople.com/wp-content/uploads/2015/12/accessibility-javascript-library.jpg?rt=1455670291" />
+
+					
+				</div>
+
+				
+					<!-- Actions -->
+					<div class="actions ">
+
+						<ul data-downloadable="">
+
+							
+							
+							
+								
+								<li>
+
+									<a href="#" class="download-resource btn-view-more btn-large btn-view-more-green flat-line"
+										data-post-github="https://github.com/medialize/ally.js/"
+										data-post-id="170102" data-method="both">
+									   	<i class="icon-download"></i> Download
+									</a>
+
+
+									
+								</li>
+
+								
+														
+							                                <li>
+                                    
+                                    	                                    <a rel="nofollow" href="http://allyjs.io?utm_source=bypeople" class="post-source-button btn-view-more btn-large btn-view-more-white flat-line"
+	                                        data-type="button" data-postid="170102">
+	                                            <span class="icon-external-link"></span> Source
+	                                    </a>
+                                                                    </li>
+                            <!--     <li>
+                                                                        <a href="#" class="post-like-button btn-view-more btn-large btn-view-more-white flat-line like-170102 not-logged-in"
+                                        data-count="0" data-type="button" data-postid="170102">
+                                            <i class="icon-heart" style="color: #5a5a5a;"></i>
+                                            <span class="like-count">0</span>
+                                            <span class="bold">Likes</span>
+                                    </a>
+                                </li> -->
+
+                                
+                                <li>
+                                    <a 	href="#"
+                                    	class="btn flag-this-button btn-view-more btn-large btn-view-more-red mt-btn flat-line"
+                                    	data-modal=".flagmt-modal"
+                                    	data-item-id="170102" data-item-type="post">
+                                        <i class="icon-flag"></i> Flag
+                                    </a>
+                                </li>
+
+                                
+                                <li>
+                                    <div class="share-this-tooltip bottom">
+                                        <span class="triangle-gray">
+                                            <span class="triangle-white"></span>
+                                        </span>
+
+                                        <!-- Facebook -->
+                                        <div class="Share-facebook">
+                                            <a href="#" class="fb-share btn-fb">Share</a>
+                                        </div>
+
+                                        <!-- Twitter -->
+                                        <div class="Share-twitter">
+                                            <a href="" class="twitter-share-button" data-lang="en">Tweet</a>
+                                        </div>
+
+                                        <!-- Google+ -->
+                                        <div class="Share-google">
+                                            <g:plus action="share"></g:plus>
+                                        </div>
+
+                                        <!-- Pinterest -->
+                                        <div class="Share-pinterest">
+                                            <a href="#"><a href="//www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" ><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a></a>
+                                        </div>
+
+                                    </div>
+                                </li>
+													</ul>
+					</div>
+
+					<div class="share-actions">
+						<ul>
+
+							<div class="share-responsive">
+								<div class="addthis_toolbox addthis_default_style addthis_32x32_style single"></div>
+							</div>
+
+						</ul>
+					</div>
+
+				
+				<!-- Temporary trash post -->
+				
+				<div class="post-content-wrapper">
+					
+					<div class="post-content">
+												<div class="post-content-text"><p>A JavaScript library that simplifies certain accessibility features, functions, and behaviors by providing certain standard functions that the web platform should&#8217;ve provided itself for JavaScript applications to be made accessible more easily.</p>
+</div>
+
+						<!-- Additional images starts -->
+						
+						<!-- End of additional images -->
+
+
+						<!-- Show the next info if the single is a deal -->
+						
+
+						<!-- Show the next info if the single is freemium -->
+											</div>
+				</div>
+			</div>
+								
+					
+					<!-- Actions -->
+					<div class="actions after-post ">
+
+						<ul data-downloadable="">
+
+							
+							
+							
+								
+								<li>
+
+									<a href="#" class="download-resource btn-view-more btn-large btn-view-more-green flat-line"
+										data-post-github="https://github.com/medialize/ally.js/"
+										data-post-id="170102" data-method="both">
+									   	<i class="icon-download"></i> Download
+									</a>
+
+
+									
+								</li>
+
+								
+														
+							                                <li>
+                                    
+                                    	                                    <a rel="nofollow" href="http://allyjs.io?utm_source=bypeople" class="post-source-button btn-view-more btn-large btn-view-more-white flat-line"
+	                                        data-type="button" data-postid="170102">
+	                                            <span class="icon-external-link"></span> Source
+	                                    </a>
+                                                                    </li>
+                              <!--   <li>
+                                                                        <a href="#" class="post-like-button btn-view-more btn-large btn-view-more-white flat-line like-170102 not-logged-in"
+                                        data-count="0" data-type="button" data-postid="170102">
+                                            <i class="icon-heart" style="color: #5a5a5a;"></i>
+                                            <span class="like-count">0</span>
+                                            <span class="bold">Likes</span>
+                                    </a>
+                                </li>
+ -->
+                                
+                                <li>
+                                    <a 	href="#"
+                                    	class="btn flag-this-button btn-view-more btn-large btn-view-more-red mt-btn flat-line"
+                                    	data-modal=".flagmt-modal"
+                                    	data-item-id="170102" data-item-type="post">
+                                        <i class="icon-flag"></i> Flag
+                                    </a>
+                                </li>
+
+                                
+                                <li>
+                                    <div class="share-this-tooltip bottom">
+                                        <span class="triangle-gray">
+                                            <span class="triangle-white"></span>
+                                        </span>
+
+                                        <!-- Facebook -->
+                                        <div class="Share-facebook">
+                                            <a href="#" class="fb-share btn-fb">Share</a>
+                                        </div>
+
+                                        <!-- Twitter -->
+                                        <div class="Share-twitter">
+                                            <a href="" class="twitter-share-button" data-lang="en">Tweet</a>
+                                        </div>
+
+                                        <!-- Google+ -->
+                                        <div class="Share-google">
+                                            <g:plus action="share"></g:plus>
+                                        </div>
+
+                                        <!-- Pinterest -->
+                                        <div class="Share-pinterest">
+                                            <a href="#"><a href="//www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" ><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a></a>
+                                        </div>
+
+                                    </div>
+                                </li>
+													</ul>
+					</div>
+
+				
+				<div class="post-footer">
+
+					
+						<!-- Posts in list -->
+						<div class="post-in-lists">
+
+							<h4><i class="icon-th-large"></i> 2 bundles contain  Ally.js: Simpler Accessibility JavaScript Library</h4>
+							<ul>
+								
+									
+										<li>
+											<span class="icon-circle"></span>
+											<a class="regular-link" href="http://www.bypeople.com/usability-tools/" class="list-title">
+												Usability Tools -
+												16																								posts.
+											</a>
+										</li>
+
+									
+								
+									
+										<li>
+											<span class="icon-circle"></span>
+											<a class="regular-link" href="http://www.bypeople.com/web-development-tools/" class="list-title">
+												Web Development Tools -
+												108																								posts.
+											</a>
+										</li>
+
+									
+															</ul>
+
+						</div>
+
+					
+					<a href="#" id="comments"></a>
+
+					<!--
+						comments odd and even view
+						(peak and plate)
+					-->
+
+					
+
+	<!-- Comments -->
+	<div class="post-comments single">
+
+		<h4>Leave a comment</h4>
+
+		<!-- Comments Form -->
+		<div class="comments-form">
+			<form id="form-comment-0">
+				<ul>
+					<li>
+						<a href="#" class="comment-user-pic">
+							<img alt='' src='http://2.gravatar.com/avatar/bca3d83984660824e851aaa2a4e24887?s=51&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/bca3d83984660824e851aaa2a4e24887?s=102&amp;d=mm&amp;r=g 2x' class='avatar avatar-51 photo' height='51' width='51' />						</a>
+					</li>
+					<li class="item-bubble">
+						<div class="comment-form-tooltip">
+							<textarea data-name="content"></textarea>
+						</div>
+					</li>
+				</ul>
+				<div class="comment-actions single-button <!--in-comment-actions-->">
+					<input type="button" value="Comment" data-original-text="Comment" id="submit"
+					class="btn btn-info btn-view-more btn-comment save-comment trigger-login not-logged-in"
+					data-depth="1" data-post-id="170102" data-parent-id="0" data-login-type="comment">
+				</div>
+			</form>
+			
+<div class="min-login comments single" >
+	<ul class="box-container">
+							<li class="box-left">
+				<ul class="inline min-login-ul">
+					<li>
+						<a class="btn btn-social btn-bypeople mt-btn" data-modal=".LoginRegister-modal" title="By People" alt="By People" role="bypeople">
+							<i class="icon-group"></i>
+							<span class="bp-login-style">Login</span>
+						</a>
+					</li>
+					<li>
+						<a class="social btn btn-social btn-facebook " title="Facebook" alt="Facebook" role="facebook" data-login-type="minified">
+							<i class="icon-facebook-sign"></i>
+						</a>
+					</li>
+					<li>
+						<a class="social btn btn-social btn-google-plus " title="Google+" alt="Google+" role="google" data-login-type="minified">
+							<i class="icon-google-plus-sign"></i>
+						</a>
+					</li>
+					<li>
+						<a class="social btn btn-social btn-github " title="GitHub" alt="GitHub" role="github" data-login-type="minified">
+							<i class="icon-github"></i>
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li class="box-right">
+				<!-- id="register-form" -->
+				<form class="register-form" action="#">
+					<label> Or </label>
+					<input type="email" name="email" id="email" placeholder="user@domain.com" required>
+					<input type="hidden" name="n_token" value="true">
+					<input type="hidden" name="li" value="7">
+											<input type="submit" class="btn btn-view-more btn-view-more-green" data-original-text="Register" data-login-type="minified" value="Register">
+									</form>
+			</li>
+			</ul>
+	<div class="error-message">
+		<div class="alert alert-error">
+			Email field is required
+		</div>
+	</div>
+</div>		</div>
+
+		<h5>
+			<span class="comments-count">0</span> comments for Ally.js: Simpler Accessibility JavaScript Library		</h5>
+
+		<!-- Comments -->
+		<ul class="comments-parent single">
+
+			
+		</ul>
+
+	</div>
+
+
+				</div>
+					</div>
+
+		
+
+	  	
+	
+
+<!-- New Sidebar Design -->
+<div class="
+		Home-sidebar-wrapper twoSidebar Home-sidebar-movil
+		single-sidebar				realign						" >
+
+
+		
+		
+
+	<!-- Latest photo bundles lists resources -->
+	<div class="latest sidebar-latest-additions on-production-bundles photo-bundles-widget hidden ">
+
+		<div class="header">
+			<span class="title">
+				Check the latest Photo Collections
+			</span>
+		</div>
+
+		<div class="content">
+
+			<div class="latest-additions">
+
+				<div class="sla-description">These Photo Collectios were carefully curated with the best CC0-licensed pictures we could find:</div>
+
+				<div class="sc-slider-latest bp-slider">
+
+					
+					<ul id="page-1" data-page="1" class="page-1">
+
+						
+												<li>
+							<a href="http://photos.bypeople.com/business-pictures" class="thumb">
+								<img src="http://www.bypeople.com/bppl_image/166/hnck5108.jpg" />
+								<span class="group-date"></span>
+							</a>
+
+							<p>
+								<a href="http://photos.bypeople.com/business-pictures" class="post_title">
+									Business Pictures								</a>
+								<a href="http://photos.bypeople.com/business-pictures">
+									72 submissions								</a>
+								<br />
+								A set of business photos, perfect for showing corporate aspects and workplace ambiances.							</p>
+							<div class="submit-one-opts">
+								<a href="http://photos.bypeople.com/business-pictures" class="" data-list-id="5547a65b2e8961084b8b4567" target="_blank"><i class="icon-eye-open"></i> View 72 Photos</a>
+							</div>
+						</li>
+						
+												<li>
+							<a href="http://photos.bypeople.com/vintage-photos" class="thumb">
+								<img src="http://www.bypeople.com/bppl_image/166/hnck5467.jpg" />
+								<span class="group-date"></span>
+							</a>
+
+							<p>
+								<a href="http://photos.bypeople.com/vintage-photos" class="post_title">
+									Vintage Photos								</a>
+								<a href="http://photos.bypeople.com/vintage-photos">
+									100 submissions								</a>
+								<br />
+								A curated set of photographs with vintage and retro styles. They can be used freely on any creative project.							</p>
+							<div class="submit-one-opts">
+								<a href="http://photos.bypeople.com/vintage-photos" class="" data-list-id="554248742e8961cd0d8b4567" target="_blank"><i class="icon-eye-open"></i> View 100 Photos</a>
+							</div>
+						</li>
+						
+												<li>
+							<a href="http://photos.bypeople.com/food-pictures" class="thumb">
+								<img src="http://www.bypeople.com/bppl_image/166/IMG_7725.jpg" />
+								<span class="group-date"></span>
+							</a>
+
+							<p>
+								<a href="http://photos.bypeople.com/food-pictures" class="post_title">
+									Food Pictures								</a>
+								<a href="http://photos.bypeople.com/food-pictures">
+									401 submissions								</a>
+								<br />
+								A set of food pictures including food preparation, vegetables, fruits, cooked and raw.							</p>
+							<div class="submit-one-opts">
+								<a href="http://photos.bypeople.com/food-pictures" class="" data-list-id="5537a18f2e896163668b4567" target="_blank"><i class="icon-eye-open"></i> View 401 Photos</a>
+							</div>
+						</li>
+						
+												<li>
+							<a href="http://photos.bypeople.com/dog-pictures" class="thumb">
+								<img src="http://www.bypeople.com/bppl_image/166/hnck5278.jpg" />
+								<span class="group-date"></span>
+							</a>
+
+							<p>
+								<a href="http://photos.bypeople.com/dog-pictures" class="post_title">
+									Dog Pictures								</a>
+								<a href="http://photos.bypeople.com/dog-pictures">
+									59 submissions								</a>
+								<br />
+								Perfect for dog-people, this set of dog photos can be used for pet stores, dog food websites and more. They are CC0 licensed.							</p>
+							<div class="submit-one-opts">
+								<a href="http://photos.bypeople.com/dog-pictures" class="" data-list-id="552be72c2e8961345e8b4567" target="_blank"><i class="icon-eye-open"></i> View 59 Photos</a>
+							</div>
+						</li>
+						
+												<li>
+							<a href="http://photos.bypeople.com/technology-pictures" class="thumb">
+								<img src="http://www.bypeople.com/bppl_image/166/device-music-recording-1774.jpg" />
+								<span class="group-date"></span>
+							</a>
+
+							<p>
+								<a href="http://photos.bypeople.com/technology-pictures" class="post_title">
+									Technology Pictures								</a>
+								<a href="http://photos.bypeople.com/technology-pictures">
+									159 submissions								</a>
+								<br />
+								A big set of pictures for technology purposes. It includes photos of computers, mobile phones, tablets and more techy stuff.							</p>
+							<div class="submit-one-opts">
+								<a href="http://photos.bypeople.com/technology-pictures" class="" data-list-id="5502021c2e896134268b4567" target="_blank"><i class="icon-eye-open"></i> View 159 Photos</a>
+							</div>
+						</li>
+						
+												<li>
+							<a href="http://photos.bypeople.com/city-pictures" class="thumb">
+								<img src="http://www.bypeople.com/bppl_image/166/hnck5491.jpg" />
+								<span class="group-date"></span>
+							</a>
+
+							<p>
+								<a href="http://photos.bypeople.com/city-pictures" class="post_title">
+									City Pictures								</a>
+								<a href="http://photos.bypeople.com/city-pictures">
+									250 submissions								</a>
+								<br />
+								A huge set of pictures portraying city landscapes, buildings, houses, roads and the urban lifestyle.							</p>
+							<div class="submit-one-opts">
+								<a href="http://photos.bypeople.com/city-pictures" class="" data-list-id="54f5f94b2e896158758b4567" target="_blank"><i class="icon-eye-open"></i> View 250 Photos</a>
+							</div>
+						</li>
+						
+												<li>
+							<a href="http://photos.bypeople.com/music-pictures" class="thumb">
+								<img src="http://www.bypeople.com/bppl_image/166/switch.jpg" />
+								<span class="group-date"></span>
+							</a>
+
+							<p>
+								<a href="http://photos.bypeople.com/music-pictures" class="post_title">
+									Music Pictures								</a>
+								<a href="http://photos.bypeople.com/music-pictures">
+									54 submissions								</a>
+								<br />
+								The music pictures bundle includes high-quality photos for bands, songwriters and music producers' digital projects.							</p>
+							<div class="submit-one-opts">
+								<a href="http://photos.bypeople.com/music-pictures" class="" data-list-id="54ef83262e8961f3618b4567" target="_blank"><i class="icon-eye-open"></i> View 54 Photos</a>
+							</div>
+						</li>
+						
+												<li>
+							<a href="http://photos.bypeople.com/nature-pictures" class="thumb">
+								<img src="http://www.bypeople.com/bppl_image/166/hnck5447.jpg" />
+								<span class="group-date"></span>
+							</a>
+
+							<p>
+								<a href="http://photos.bypeople.com/nature-pictures" class="post_title">
+									Nature Pictures								</a>
+								<a href="http://photos.bypeople.com/nature-pictures">
+									468 submissions								</a>
+								<br />
+								A pack of natural places' photos to be amazed by. This set can be used freely for environmental and wildlife purposes.							</p>
+							<div class="submit-one-opts">
+								<a href="http://photos.bypeople.com/nature-pictures" class="" data-list-id="54ef50bb2e8961e0278b4567" target="_blank"><i class="icon-eye-open"></i> View 468 Photos</a>
+							</div>
+						</li>
+						
+					</ul>
+
+				</div>
+
+			</div>
+
+		</div>
+		<div class="footer">
+			<a href=""></a>
+		</div>
+
+	</div>
+
+	<!-- Sidebar On production lists resources -->
+	<div class="latest sidebar-latest-additions on-production-bundles hidden ">
+
+		<div class="header">
+			<span class="title">
+				Collections Needing Your Help
+			</span>
+		</div>
+
+		<div class="content">
+
+			<div class="latest-additions">
+
+				<div class="sla-description">These lists are being curated, help us submiting items to them:</div>
+
+				<div class="sc-slider-latest bp-slider">
+
+					
+					<ul id="page-1" data-page="1" class="page-1">
+
+						
+
+<li>
+	<a href="http://www.bypeople.com/web-development-tools/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/07/prefix-free-unprefixed-css-properties-135x110.jpg" />
+		<span class="group-date">Feb 16, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/web-development-tools/" class="post_title">
+			Web Development Tools		</a>
+						<a href="http://www.bypeople.com/web-development-tools/">
+				106 submissions			</a>
+			<br />
+			Multiple purpose web development tools, ideal for improving daily workflow and adding extra functions to your projects.	</p>
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/web-development-tools/" class="" data-list-id="39285" target="_blank"><i class="icon-eye-open"></i> View 108 items</a>
+		<a href="http://www.bypeople.com/submit/?lid=39285" class="" data-list-id="39285" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+<li>
+	<a href="http://www.bypeople.com/material-ui/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2015/04/simple-html5-user-interface-design-135x110.png" />
+		<span class="group-date">Feb 15, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/material-ui/" class="post_title">
+			Material UI		</a>
+						<a href="http://www.bypeople.com/material-ui/">
+				19 submissions			</a>
+			<br />
+			A list with several user interfaces created in multiple formats resembling the popular design style created by Google.	</p>
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/material-ui/" class="" data-list-id="149673" target="_blank"><i class="icon-eye-open"></i> View 20 items</a>
+		<a href="http://www.bypeople.com/submit/?lid=149673" class="" data-list-id="149673" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+<li>
+	<a href="http://www.bypeople.com/wireframe-tools/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2016/01/online-vector-based-wireframing-tool-135x110.jpg" />
+		<span class="group-date">Feb 15, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/wireframe-tools/" class="post_title">
+			Wireframe Tools		</a>
+						<a href="http://www.bypeople.com/wireframe-tools/">
+				17 submissions			</a>
+			<br />
+			A selection of useful resources for wireframing, prototyping and mock-up design to speed up and simplify the development of your projects.	</p>
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/wireframe-tools/" class="" data-list-id="39353" target="_blank"><i class="icon-eye-open"></i> View 19 items</a>
+		<a href="http://www.bypeople.com/submit/?lid=39353" class="" data-list-id="39353" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+<li>
+	<a href="http://www.bypeople.com/startup-wordpress-themes/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/09/free-business-wordpress-theme-135x110.jpg" />
+		<span class="group-date">Feb 9, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/startup-wordpress-themes/" class="post_title">
+			Startup WordPress Themes		</a>
+						<a href="http://www.bypeople.com/startup-wordpress-themes/">
+				35 submissions			</a>
+			<br />
+			A list with WordPress themes for startup companies and entrepreneurs, featuring a one-page design, beautiful typography and great photography.	</p>
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/startup-wordpress-themes/" class="" data-list-id="127544" target="_blank"><i class="icon-eye-open"></i> View 34 items</a>
+		<a href="http://www.bypeople.com/submit/?lid=127544" class="" data-list-id="127544" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+<li>
+	<a href="http://www.bypeople.com/bootstrap-themes/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/04/roots-html5-wordpress-starter-theme-135x110.jpg" />
+		<span class="group-date">Feb 5, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/bootstrap-themes/" class="post_title">
+			Bootstrap Themes		</a>
+						<a href="http://www.bypeople.com/bootstrap-themes/">
+				36 submissions			</a>
+			<br />
+			Various Bootstrap themes for WordPress and non-WordPress environments, designed according to the latest web design trends.	</p>
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/bootstrap-themes/" class="" data-list-id="41328" target="_blank"><i class="icon-eye-open"></i> View 48 items</a>
+		<a href="http://www.bypeople.com/submit/?lid=41328" class="" data-list-id="41328" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+<li>
+	<a href="http://www.bypeople.com/parallax-wordpress-themes/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2015/02/free-parallax-wordpress-theme-135x110.png" />
+		<span class="group-date">Feb 4, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/parallax-wordpress-themes/" class="post_title">
+			Parallax WordPress Themes		</a>
+						<a href="http://www.bypeople.com/parallax-wordpress-themes/">
+				32 submissions			</a>
+			<br />
+			These are neat Parallax WordPress themes that will make your background, and subsequently your website, more dynamic.	</p>
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/parallax-wordpress-themes/" class="" data-list-id="110635" target="_blank"><i class="icon-eye-open"></i> View 32 items</a>
+		<a href="http://www.bypeople.com/submit/?lid=110635" class="" data-list-id="110635" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+<li>
+	<a href="http://www.bypeople.com/color-palettes/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/11/palettabcolorpalettechromeextension-135x110.jpg" />
+		<span class="group-date">Feb 3, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/color-palettes/" class="post_title">
+			Color Palette Tools		</a>
+						<a href="http://www.bypeople.com/color-palettes/">
+				18 submissions			</a>
+			<br />
+			A list for creating, interacting with and editing color palettes.	</p>
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/color-palettes/" class="" data-list-id="125523" target="_blank"><i class="icon-eye-open"></i> View 18 items</a>
+		<a href="http://www.bypeople.com/submit/?lid=125523" class="" data-list-id="125523" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+<li>
+	<a href="http://www.bypeople.com/css-template/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/04/responsive-email-newsletter-135x110.jpg" />
+		<span class="group-date">Feb 3, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/css-template/" class="post_title">
+			CSS Templates		</a>
+						<a href="http://www.bypeople.com/css-template/">
+				67 submissions			</a>
+			<br />
+			A very useful set or templates made in pure CSS.	</p>
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/css-template/" class="" data-list-id="54884" target="_blank"><i class="icon-eye-open"></i> View 87 items</a>
+		<a href="http://www.bypeople.com/submit/?lid=54884" class="" data-list-id="54884" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+<li>
+	<a href="http://www.bypeople.com/jquery-svg/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/04/d3-js-data-driven-documents-135x110.jpg" />
+		<span class="group-date">Feb 1, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/jquery-svg/" class="post_title">
+			JQuery SVG Libraries		</a>
+						<a href="http://www.bypeople.com/jquery-svg/">
+				18 submissions			</a>
+			<br />
+			Here you can find both JavaScript and jQuery SVG libraries that allow you to add animations and conceive interactive experiences.	</p>
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/jquery-svg/" class="" data-list-id="53922" target="_blank"><i class="icon-eye-open"></i> View 19 items</a>
+		<a href="http://www.bypeople.com/submit/?lid=53922" class="" data-list-id="53922" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+<li>
+	<a href="http://www.bypeople.com/wireframe-templates/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2015/01/flat-iphone-wireframe-freebie-psd-135x110.png" />
+		<span class="group-date">Jan 28, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/wireframe-templates/" class="post_title">
+			Wireframe Templates		</a>
+						<a href="http://www.bypeople.com/wireframe-templates/">
+				20 submissions			</a>
+			<br />
+			Start your development project with these wireframe templates and save yourself valuable time in the creation process.	</p>
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/wireframe-templates/" class="" data-list-id="39355" target="_blank"><i class="icon-eye-open"></i> View 22 items</a>
+		<a href="http://www.bypeople.com/submit/?lid=39355" class="" data-list-id="39355" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+<li>
+	<a href="http://www.bypeople.com/css-ui/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/05/clean-webkit-css3-user-inteface-elements-135x110.jpg" />
+		<span class="group-date">Jan 15, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/css-ui/" class="post_title">
+			CSS UIs		</a>
+						<a href="http://www.bypeople.com/css-ui/">
+				19 submissions			</a>
+			<br />
+			Catch your users' attention and entertain them with interesting user interface controls for both web and mobile devices.	</p>
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/css-ui/" class="" data-list-id="51112" target="_blank"><i class="icon-eye-open"></i> View 32 items</a>
+		<a href="http://www.bypeople.com/submit/?lid=51112" class="" data-list-id="51112" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+<li>
+	<a href="http://www.bypeople.com/jquery-menu/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/12/animated-sidebar-menus-135x110.png" />
+		<span class="group-date">Jan 14, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/jquery-menu/" class="post_title">
+			JQuery Menus		</a>
+						<a href="http://www.bypeople.com/jquery-menu/">
+				35 submissions			</a>
+			<br />
+			In this list, you will find a selection of multiple jQuery menus through tutorials, libraries and plugins, offering stunning effects.	</p>
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/jquery-menu/" class="" data-list-id="50976" target="_blank"><i class="icon-eye-open"></i> View 44 items</a>
+		<a href="http://www.bypeople.com/submit/?lid=50976" class="" data-list-id="50976" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+<li>
+	<a href="http://www.bypeople.com/jquery-grid/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/03/waterfall-jquery-image-grid-plugin-135x110.jpg" />
+		<span class="group-date">Oct 5, 2015</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/jquery-grid/" class="post_title">
+			JQuery Grids		</a>
+						<a href="http://www.bypeople.com/jquery-grid/">
+				29 submissions			</a>
+			<br />
+			jQuery grids are a very useful layout option when its potential is grasped. In this list, you will see responsive, drag and drop, animated filtering, and other types of grids.	</p>
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/jquery-grid/" class="" data-list-id="50895" target="_blank"><i class="icon-eye-open"></i> View 35 items</a>
+		<a href="http://www.bypeople.com/submit/?lid=50895" class="" data-list-id="50895" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+<li>
+	<a href="http://www.bypeople.com/php-database/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/03/medoo-php-database-framework-135x110.jpg" />
+		<span class="group-date">Aug 13, 2015</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/php-database/" class="post_title">
+			PHP Databases		</a>
+						<a href="http://www.bypeople.com/php-database/">
+				10 submissions			</a>
+			<br />
+			This set of libraries will help you deal with PHP databases, easing the workload when managing big amounts of information.	</p>
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/php-database/" class="" data-list-id="54820" target="_blank"><i class="icon-eye-open"></i> View 12 items</a>
+		<a href="http://www.bypeople.com/submit/?lid=54820" class="" data-list-id="54820" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+<li>
+	<a href="http://www.bypeople.com/form-design-templates/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/12/clear-web-form-psd-set-135x110.png" />
+		<span class="group-date">Apr 16, 2015</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/form-design-templates/" class="post_title">
+			Form Design Templates		</a>
+						<a href="http://www.bypeople.com/form-design-templates/">
+				15 submissions			</a>
+			<br />
+			In this showcase, you can find several concepts for form design templates that will help you with login, sign up and data gathering screens for your web projects.	</p>
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/form-design-templates/" class="" data-list-id="54048" target="_blank"><i class="icon-eye-open"></i> View 22 items</a>
+		<a href="http://www.bypeople.com/submit/?lid=54048" class="" data-list-id="54048" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+<li>
+	<a href="http://www.bypeople.com/jquery-drag-and-drop/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/03/dragtable-movable-jquery-tables-135x110.jpg" />
+		<span class="group-date">Apr 16, 2015</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/jquery-drag-and-drop/" class="post_title">
+			JQuery Drag and Drop Tools		</a>
+						<a href="http://www.bypeople.com/jquery-drag-and-drop/">
+				18 submissions			</a>
+			<br />
+			This collection of drag and drop tools will allow users to move elements around. A fun and useful touch that your users will surely appreciate.	</p>
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/jquery-drag-and-drop/" class="" data-list-id="23397" target="_blank"><i class="icon-eye-open"></i> View 18 items</a>
+		<a href="http://www.bypeople.com/submit/?lid=23397" class="" data-list-id="23397" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+					</ul>
+
+				</div>
+
+			</div>
+
+		</div>
+		<div class="footer">
+			<a href=""></a>
+		</div>
+
+	</div>
+
+	<!-- Sidebar Latest items resources -->
+	<div class="latest sidebar-latest-additions latest-resources">
+
+		<div class="header">
+			<span class="title">
+				Recently Updated Collections
+			</span>
+		</div>
+
+		<div class="content">
+
+			<div class="latest-additions">
+
+				<!-- <div class="sla-description">Check our the most recently updated lists.</div> -->
+
+				<div class="sc-slider-latest bp-slider">
+
+					
+					<ul id="page-1" data-page="1" class="page-1">
+
+						
+
+<li>
+	<a href="http://www.bypeople.com/javascript-frameworks/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2013/07/kineticjs-html5-canvas-framework-135x110.jpg" />
+		<span class="group-date">Feb 16, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/javascript-frameworks/" class="post_title">
+			JavaScript Frameworks		</a>
+						<a href="http://www.bypeople.com/javascript-frameworks/">
+				60 submissions			</a>
+			<br />
+			Picking the right JavaScript framework in which to build your creations is vital, this set provides you with a wide range of options to ensure a perfect fit.	</p>
+
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/submit/?lid=24437" class="" data-list-id="24437" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+
+<li>
+	<a href="http://www.bypeople.com/psd-template/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/12/website-content-freebie-psd-135x110.png" />
+		<span class="group-date">Feb 16, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/psd-template/" class="post_title">
+			PSD Templates		</a>
+						<a href="http://www.bypeople.com/psd-template/">
+				170 submissions			</a>
+			<br />
+			Give your project a unique look with these Photoshop PSD templates. Ideal for any website, mobile app or dashboard design.	</p>
+
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/submit/?lid=51056" class="" data-list-id="51056" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+
+<li>
+	<a href="http://www.bypeople.com/web-development-tools/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/07/prefix-free-unprefixed-css-properties-135x110.jpg" />
+		<span class="group-date">Feb 16, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/web-development-tools/" class="post_title">
+			Web Development Tools		</a>
+						<a href="http://www.bypeople.com/web-development-tools/">
+				106 submissions			</a>
+			<br />
+			Multiple purpose web development tools, ideal for improving daily workflow and adding extra functions to your projects.	</p>
+
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/submit/?lid=39285" class="" data-list-id="39285" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+
+<li>
+	<a href="http://www.bypeople.com/elegant-fonts/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2015/03/clean-sans-serif-font-135x110.png" />
+		<span class="group-date">Feb 15, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/elegant-fonts/" class="post_title">
+			Elegant Fonts		</a>
+						<a href="http://www.bypeople.com/elegant-fonts/">
+				66 submissions			</a>
+			<br />
+			This list contains refined and elegant font faces, ideal to use in all types of formal projects like event invitations, flyers, wedding cards and more.	</p>
+
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/submit/?lid=84659" class="" data-list-id="84659" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+
+<li>
+	<a href="http://www.bypeople.com/css-framework/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/05/almost-flat-ui-135x110.jpg" />
+		<span class="group-date">Feb 15, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/css-framework/" class="post_title">
+			CSS Frameworks		</a>
+						<a href="http://www.bypeople.com/css-framework/">
+				39 submissions			</a>
+			<br />
+			An extensive compilation of CSS frameworks for web development, so you can choose the right foundation to begin new designing endeavors.	</p>
+
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/submit/?lid=24552" class="" data-list-id="24552" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+
+<li>
+	<a href="http://www.bypeople.com/wireframe-tools/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2016/01/online-vector-based-wireframing-tool-135x110.jpg" />
+		<span class="group-date">Feb 15, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/wireframe-tools/" class="post_title">
+			Wireframe Tools		</a>
+						<a href="http://www.bypeople.com/wireframe-tools/">
+				17 submissions			</a>
+			<br />
+			A selection of useful resources for wireframing, prototyping and mock-up design to speed up and simplify the development of your projects.	</p>
+
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/submit/?lid=39353" class="" data-list-id="39353" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+
+<li>
+	<a href="http://www.bypeople.com/startup-wordpress-themes/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/09/free-business-wordpress-theme-135x110.jpg" />
+		<span class="group-date">Feb 9, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/startup-wordpress-themes/" class="post_title">
+			Startup WordPress Themes		</a>
+						<a href="http://www.bypeople.com/startup-wordpress-themes/">
+				35 submissions			</a>
+			<br />
+			A list with WordPress themes for startup companies and entrepreneurs, featuring a one-page design, beautiful typography and great photography.	</p>
+
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/submit/?lid=127544" class="" data-list-id="127544" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+
+<li>
+	<a href="http://www.bypeople.com/app-templates/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/07/darksocialmacappui-135x110.jpg" />
+		<span class="group-date">Feb 9, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/app-templates/" class="post_title">
+			App Templates		</a>
+						<a href="http://www.bypeople.com/app-templates/">
+				26 submissions			</a>
+			<br />
+			Enjoy an easier mobile developing process with any of these app templates, created in Photoshop and provided for free in PSD format.	</p>
+
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/submit/?lid=21098" class="" data-list-id="21098" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+
+<li>
+	<a href="http://www.bypeople.com/flat-ui/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2015/07/flat-ui-pack-psd-135x110.jpg" />
+		<span class="group-date">Feb 9, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/flat-ui/" class="post_title">
+			Flat UIs		</a>
+						<a href="http://www.bypeople.com/flat-ui/">
+				47 submissions			</a>
+			<br />
+			A list of flat user interface design kits intended for use in social media mobile applications and mobile control panels, provided in PSD format.	</p>
+
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/submit/?lid=39314" class="" data-list-id="39314" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+
+<li>
+	<a href="http://www.bypeople.com/ui-design/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/05/fmradiouiios7app-135x110.jpg" />
+		<span class="group-date">Feb 9, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/ui-design/" class="post_title">
+			UI Design Templates		</a>
+						<a href="http://www.bypeople.com/ui-design/">
+				137 submissions			</a>
+			<br />
+			An extensive gallery with lots of user interface design templates in PSD format, useful for both mobile and web applications.	</p>
+
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/submit/?lid=54097" class="" data-list-id="54097" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+
+<li>
+	<a href="http://www.bypeople.com/restaurant-wordpress-themes/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2016/02/flat-restaurant-wordpress-theme-135x110.jpg" />
+		<span class="group-date">Feb 9, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/restaurant-wordpress-themes/" class="post_title">
+			Restaurant WordPress Themes		</a>
+						<a href="http://www.bypeople.com/restaurant-wordpress-themes/">
+				13 submissions			</a>
+			<br />
+			A collection of different restaurant WordPress themes that will make your food stand out on your website to attract more customers.	</p>
+
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/submit/?lid=110603" class="" data-list-id="110603" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+
+<li>
+	<a href="http://www.bypeople.com/responsive-wordpress-themes/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/blainwordpresstheme-135x110.jpg" />
+		<span class="group-date">Feb 9, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/responsive-wordpress-themes/" class="post_title">
+			Responsive WordPress Themes		</a>
+						<a href="http://www.bypeople.com/responsive-wordpress-themes/">
+				70 submissions			</a>
+			<br />
+			A bunch of responsive WordPress themes with easy-to-implement layouts that will help you show your content in any device.	</p>
+
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/submit/?lid=110599" class="" data-list-id="110599" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+
+<li>
+	<a href="http://www.bypeople.com/wordpress-themes-sports/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/07/atletica-wordpress-theme-135x110.jpg" />
+		<span class="group-date">Feb 9, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/wordpress-themes-sports/" class="post_title">
+			Sports WordPress Themes		</a>
+						<a href="http://www.bypeople.com/wordpress-themes-sports/">
+				6 submissions			</a>
+			<br />
+			A compilation with various WordPress themes for sports so you can write about your favorite leagues.	</p>
+
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/submit/?lid=110639" class="" data-list-id="110639" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+
+<li>
+	<a href="http://www.bypeople.com/jquery-video-player/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/02/ui-volume-slider-css-js-snippet-135x110.jpg" />
+		<span class="group-date">Feb 8, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/jquery-video-player/" class="post_title">
+			JQuery Players		</a>
+						<a href="http://www.bypeople.com/jquery-video-player/">
+				17 submissions			</a>
+			<br />
+			Diversify the content in your website thanks to these jQuery players that give your projects the possibility to showcase media files.	</p>
+
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/submit/?lid=51105" class="" data-list-id="51105" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+
+<li>
+	<a href="http://www.bypeople.com/blogging-wordpress-themes/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2014/12/journal-free-wordpress-theme-135x110.png" />
+		<span class="group-date">Feb 5, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/blogging-wordpress-themes/" class="post_title">
+			Blogging WordPress Themes		</a>
+						<a href="http://www.bypeople.com/blogging-wordpress-themes/">
+				125 submissions			</a>
+			<br />
+			A series of free blogging WordPress themes for you to start your next site in style. The themes are versatile, fitting blogs and websites of any kind.	</p>
+
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/submit/?lid=110230" class="" data-list-id="110230" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+
+<li>
+	<a href="http://www.bypeople.com/minimal-wordpress-themes/" class="thumb">
+		<img src="http://www.bypeople.com/wp-content/uploads/2015/01/_tk-free-wordpress-starter-theme-135x110.png" />
+		<span class="group-date">Feb 5, 2016</span>
+	</a>
+
+	<p>
+		<a href="http://www.bypeople.com/minimal-wordpress-themes/" class="post_title">
+			Minimal WordPress Themes		</a>
+						<a href="http://www.bypeople.com/minimal-wordpress-themes/">
+				79 submissions			</a>
+			<br />
+			This is a collection of minimal WordPress themes that follows a simple line of design and gives your page a modern look.	</p>
+
+	<div class="submit-one-opts">
+		<a href="http://www.bypeople.com/submit/?lid=110637" class="" data-list-id="110637" target="_blank"><i class="icon-plus"></i> Submit</a>
+	</div>
+</li>
+
+					</ul>
+				</div>
+
+			</div>
+
+		</div>
+		<div class="footer">
+			<a href=""></a>
+		</div>
+
+	</div>
+
+	<!-- ADS Zone -->
+	<div class="latest sidebar-latest-additions ads-zone ">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+		<!--<ins class="adsbygoogle"
+		    style="display:block"
+		    data-ad-client="ca-pub-3091154364370754"
+		    data-ad-slot="3615976629"
+		    data-ad-format="auto"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>-->
+
+
+		<div class="ads-block">
+
+			<!-- Slider owl carousel -->
+			<div class="list-wrapp-sidebar ui sticky" id="issidebar">
+			    <div class="sidect">
+			        <div class="issidebar">
+
+				        <div class="header">
+
+							<span class="title">
+								<a href="http://www.designshock.com/?utm_source=bypeople_side">Biggest Design Bundle Ever</a>
+							</span>
+						</div>
+
+			            <ul>
+			                <li> <span>.</span> More than 2 million individual icons<br>all grouped in 770 sets with vector source files.</li>
+			                <li> <span>.</span> All icons area editable in their respective source file.</li>
+			                <li> <span>.</span> 990+ templates and counting.</li>
+			                <li> <span>.</span> 100.000 design elements. </li>
+			                <li> <span>.</span> 350+ wordpress themes always up-to-date with latest wp version.</li>
+			                <li> <span>.</span> 400+ pre-designed Wordpress and HTML themes.</li>
+			                <li> <span>.</span> support 24/7</li>
+			                <li> <span>.</span> Weekly updates</li>
+			            </ul>
+
+						<!-- Slider items selector -->
+			            <div class="owl-slider-selector">
+			            	<a href="" data-active-owl="is">Icons</a> - <a href="" class="active" data-active-owl="ds">design sets</a> - <a href="" data-active-owl="themeshock">themes</a> - <a href="" data-active-owl="ts">templates</a>
+			            </div>
+
+						<!-- owl carousels -->
+			            <div id="owl-is" class="owl-ds-carousel">
+			            				            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/is_images/flat.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=is" class="owl-item-title"><strong>Flat Education - 2572 icons.</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/is_images/iphone.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=is" class="owl-item-title"><strong>iPhone Medical - 2898 icons.</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/is_images/windows8.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=is" class="owl-item-title"><strong>Windows 8 Web Design - 2609 icons.</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/is_images/material.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=is" class="owl-item-title"><strong>Material accounting - 2805 icons.</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/is_images/iconfont.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=is" class="owl-item-title"><strong>Icon Fonts Graphics - 2528 icons.</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/is_images/outlined.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=is" class="owl-item-title"><strong>line icons: 12000 free outline icons - 2462 icons.</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/is_images/real_vista.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=is" class="owl-item-title"><strong>Real vista computer gadgets - 2452 icons.</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/is_images/social_icons.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=is" class="owl-item-title"><strong>Social Media Icons - 2520 icons.</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/is_images/perspective.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=is" class="owl-item-title"><strong>Perspective general icons - 2406 icons.</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/is_images/brilliant.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=is" class="owl-item-title"><strong>BRILLIANT Networking icons - 2591 icons.</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/is_images/sigma.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=is" class="owl-item-title"><strong>Sigma jobs - 2806 icons.</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/is_images/vista.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=is" class="owl-item-title"><strong>Vista Construction - 2763 icons.</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/is_images/lumina.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=is" class="owl-item-title"><strong>LUMINA Graphics - 2759 icons.</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/is_images/x-mac.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=is" class="owl-item-title"><strong>XMac Database - 2410 icons.</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/is_images/diamond.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=is" class="owl-item-title"><strong>DIAMOND Database icons - 2415 icons.</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/is_images/clean.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=is" class="owl-item-title"><strong>Clean Accounting - 2722 icons.</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/is_images/stroke.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=is" class="owl-item-title"><strong>STROKE Video Production - 2721 icons.</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/is_images/office.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=is" class="owl-item-title"><strong>Office - 2875 icons.</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/is_images/beta.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=is" class="owl-item-title"><strong>Beta Networking - 2517 icons.</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/is_images/sunny_day.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=is" class="owl-item-title"><strong>SUNNY DAY Accounting icons - 2877 icons.</strong></a>
+								</div>
+											            				            </div>
+
+			            <div id="owl-ts" class="owl-ds-carousel">
+			            				            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ts_images/flyer.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ts" class="owl-item-title"><strong>Photography Flyer</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ts_images/logo.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ts" class="owl-item-title"><strong>3D Logo Template</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ts_images/letter.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ts" class="owl-item-title"><strong>Vibrant Letter Template</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ts_images/trifold.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ts" class="owl-item-title"><strong>Blue Tri-fold Template</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ts_images/menu.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ts" class="owl-item-title"><strong>Bakery Menu</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ts_images/folder.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ts" class="owl-item-title"><strong>Modern Folder</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ts_images/business_card.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ts" class="owl-item-title"><strong>Geometric Business Card</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ts_images/Cv.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ts" class="owl-item-title"><strong>Watercolor CV</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ts_images/quotation.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ts" class="owl-item-title"><strong>Vibrant Green Quotation</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ts_images/Proposal.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ts" class="owl-item-title"><strong>Clean Proposal Template</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ts_images/poster.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ts" class="owl-item-title"><strong>Technology Poster</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ts_images/invoice.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ts" class="owl-item-title"><strong>Formal Invoice</strong></a>
+								</div>
+											            				            </div>
+
+			            <div id="owl-themeshock" class="owl-ds-carousel">
+			            				            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/themeshock_images/dolly.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=themeshock" class="owl-item-title"><strong>Girly WordpressTheme</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/themeshock_images/magazine.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=themeshock" class="owl-item-title"><strong>Retro Journal Wordpress Theme</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/themeshock_images/funyo.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=themeshock" class="owl-item-title"><strong>Baby's Wordpress Theme</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/themeshock_images/metal.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=themeshock" class="owl-item-title"><strong>Simple eCommerce WordPress Theme</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/themeshock_images/grapyxel.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=themeshock" class="owl-item-title"><strong>Grid Photography WordPress Theme</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/themeshock_images/vinttage.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=themeshock" class="owl-item-title"><strong>Vintage Landing WordPress theme</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/themeshock_images/coffedream.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=themeshock" class="owl-item-title"><strong>Antique WP Coffee Theme</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/themeshock_images/cleanbook.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=themeshock" class="owl-item-title"><strong>Simple WP Fashion Theme</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/themeshock_images/strippy.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=themeshock" class="owl-item-title"><strong>WordPress Classic Tutorial Theme</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/themeshock_images/multicolor.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=themeshock" class="owl-item-title"><strong>Colorful Design WordPress Theme</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/themeshock_images/retrobusiness.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=themeshock" class="owl-item-title"><strong>Fancy Vintage Theme for Wordpress </strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/themeshock_images/bridgelight.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=themeshock" class="owl-item-title"><strong>WP Gourmet Restaurant Theme</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/themeshock_images/paint_black.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=themeshock" class="owl-item-title"><strong>Elegant Landing WP Theme </strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/themeshock_images/paintler.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=themeshock" class="owl-item-title"><strong>Art and Photo WP Theme</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/themeshock_images/splash_minimal.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=themeshock" class="owl-item-title"><strong>WP Modern eCommerce Theme </strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/themeshock_images/tourissm.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=themeshock" class="owl-item-title"><strong>Tourism Magazine WP Theme</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/themeshock_images/pallets.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=themeshock" class="owl-item-title"><strong>Interior Design WordPress Theme</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/themeshock_images/woody_miniblog.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=themeshock" class="owl-item-title"><strong>WordPress Crafty Wood Theme</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/themeshock_images/rednews.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=themeshock" class="owl-item-title"><strong>Colorful News WordPress theme</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/themeshock_images/fashionphoto.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=themeshock" class="owl-item-title"><strong>Dark and fancy WordPress Theme</strong></a>
+								</div>
+											            				            </div>
+
+			            <div id="owl-ds" class="owl-ds-carousel active">
+			            				            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ds_images/line_mockups.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ds" class="owl-item-title"><strong>Mobile Mockup PSD: 43 items, Line Style.</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ds_images/desktop_generator.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ds" class="owl-item-title"><strong>Vector Desktop Generator, 200 editable elements</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ds_images/cute_icons.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ds" class="owl-item-title"><strong>300 Cute Icons and Avatars for Kids and Girls (kawaii Style)</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ds_images/flat_mockups.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ds" class="owl-item-title"><strong>Flat mockups bundle: 70 state of the art device mockups in different angles</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ds_images/hipster_pack.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ds" class="owl-item-title"><strong>Hipster Vectors for Vintage and Retro Designs (530 Items)</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ds_images/flat_characters.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ds" class="owl-item-title"><strong>1000 Flat Characters and Material Design Avatars</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ds_images/lowpoly.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ds" class="owl-item-title"><strong>Low Poly Backgrounds: 530 Geometric Background Designs Mega Pack</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ds_images/flat_illustrations.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ds" class="owl-item-title"><strong>Free Flat Illustrations Pack: 500 compositions in many shapes and a cornucopia of subjects</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ds_images/inphographic_design.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ds" class="owl-item-title"><strong>Infographic Design Vector Pack: Create infographics the easy way, thousands of possible combinations!</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ds_images/business_characters.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ds" class="owl-item-title"><strong>Free vector business characters: More than 1000 combinations</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ds_images/flat_gui.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ds" class="owl-item-title"><strong>Flat GUI: Spectacular set with more than 500 elements, 30 different colors and 100 vector icons, in totally editable files</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ds_images/Hades.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ds" class="owl-item-title"><strong>Hades PSD GUI: Menus, tabs, sliders, buttons, icons, scrollbars, players, widgets, text elements</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ds_images/Handwritten_font.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ds" class="owl-item-title"><strong>Shock Handwritten Font: A beautiful, and exclusive free font you can download now</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ds_images/mega_business_character.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ds" class="owl-item-title"><strong>MEGA Business Characters: More than 1000 characters, with sources files in AI</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ds_images/badges.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ds" class="owl-item-title"><strong>PSD Badges Pack: More than 100 badges, 5 different styles, 30 different colors</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ds_images/product_presentation.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ds" class="owl-item-title"><strong>Product Presentation Photoshop Action: Create amazing previews with one click!</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ds_images/apolo_gui.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ds" class="owl-item-title"><strong>Apollo PSD GUI Pack: The biggest (and greatest) GUI set you have ever seen</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ds_images/designers_and_developers_iconset.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ds" class="owl-item-title"><strong>Designers and Developers Icon Set: 1000+ icons, 4 different styles</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ds_images/credit_cards.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ds" class="owl-item-title"><strong>Free credit card icons and payment icons, pixel perfect, all payment methods included</strong></a>
+								</div>
+											            				            										<div class="item">
+									<a href="http://www.designshock.com/?utm_source=bypeople_side"><img src="http://designshock.com//wp-content/themes/designshock/img/ds_images/retro_icons.jpg" alt=""></a>
+									<a href="http://www.designshock.com/professional-design/?c=ds" class="owl-item-title"><strong>50 amazingly designed retro and vintage icons (yes, it's free too)</strong></a>
+								</div>
+											            				            </div>
+
+			        </div>
+			        <div class="isiconshock">
+			            <a href="http://www.designshock.com/design_upsale/?utm_source=bypeople_side" class="upbtn isbuy"> More info </a>
+			            <p><a href="http://www.designshock.com/?utm_source=bypeople_side" class="upbtn inline"> All sets</a> up to now</p>
+			        </div>
+			    </div>
+			</div>
+
+			<!-- <div class="bppl-signature" data-width="300" data-height="325" data-type="slider" data-client="bp-ca-2524685758854578" style="display:none;"></div>
+			<script id="bps" async src="http://designshock.com/wp-content/themes/designshock/public_script/dist/appds.js"></script>
+			<a href="https://buysellads.com/buy/detail/262918/zone/1302374?utm_source=site_262918&utm_medium=website&utm_campaign=imagetext&utm_content=zone_1302374" class="promo">Advertise with us</a> -->
+
+			<!-- BuySellAds Zone Code -->
+			<!-- <div id="bsap_1302373" class="bsarocks bsap_ae313b9d1007f673c758651b481ef1db"></div>
+			<div id="bsap_1302374" class="bsarocks bsap_ae313b9d1007f673c758651b481ef1db"></div> -->
+			<!-- End BuySellAds Zone Code -->
+		</div>
+
+	</div>
+</div>	</div>
+<input type="hidden" name="4zafhhTZ4GCh" id="4zafhhTZ4GCh" />
+<script type="text/javascript">
+function fxskBpuHnzRhv() {
+	var o=document.getElementById("4zafhhTZ4GCh");
+	o.value="D0FEjwuczULq";
+}
+var bl8ZzN8rXzSAN = document.getElementById("submit");
+if (bl8ZzN8rXzSAN) {
+	var ckIiRvZT9QPkk = document.getElementById("4zafhhTZ4GCh");
+	var pGMbjyCxoYiBd = bl8ZzN8rXzSAN.parentNode;
+	pGMbjyCxoYiBd.appendChild(ckIiRvZT9QPkk, bl8ZzN8rXzSAN);
+	addHandler(bl8ZzN8rXzSAN, "mousedown", fxskBpuHnzRhv);
+	addHandler(bl8ZzN8rXzSAN, "keypress", fxskBpuHnzRhv);
+}
+</script>
+
+
+		
+		</div><!-- container-1200 closer tag -->
+
+		
+		
+		<!-- Global  Notifications -->
+		<div class="global-notifications">
+			<i class="global-notification-icon icon-remove"></i>
+			<span class="message">This a test message in global notification</span>
+		</div>
+
+		<!-- Modal Overlay -->
+		<div class="modal-backdrop"></div>
+
+		<!-- Modal in download -->
+		<div class="in-download">
+			<div class="in-middle icon-download-alt">
+				<div class="dtext">Your download will start shortly.</div>
+			</div>
+		</div>
+
+		
+		<!-- Suggest List -->
+		
+<div class="modal SuggestList-modal">
+
+	<div class="modal-header">
+		<h3>Suggest A List</h3>
+	</div>
+
+	<div class="submitter-close modal-close-btn toggle-modal" data-modal=".SuggestList-modal">
+		<i class="icon-remove"></i>
+	</div>
+
+	<div class="modal-body SuggestList-modal-body">
+
+		<div class="list-top-rank">
+
+			<div class="group-title">
+				Featured Suggestions
+			</div>
+
+			<ul>
+
+				
+					<li class="suggestion-list-top-rank list-suggestion-0" data-list-id="0"
+						id="suggestion-list-top-rank-0">
+						<span class="list-name">
+
+							<div class="title">
+								<i class="icon-star"></i>
+								all the data							</div>
+							<div class="author">
+															</div>
+						</span>
+
+						<div class="votes">
+							<a href="#" class="vote-list maurix1942 not-logged-in" data-author="6883"
+								data-list-id="0" data-vote-type="up">
+								<i class="icon-plus-sign"></i>
+								2								votes							</a>
+						</div>
+
+						
+					</li>
+
+				
+					<li class="suggestion-list-top-rank list-suggestion-1" data-list-id="1"
+						id="suggestion-list-top-rank-1">
+						<span class="list-name">
+
+							<div class="title">
+								<i class="icon-star"></i>
+								Prueba de lista jp 							</div>
+							<div class="author">
+															</div>
+						</span>
+
+						<div class="votes">
+							<a href="#" class="vote-list admin not-logged-in" data-author="1"
+								data-list-id="1" data-vote-type="up">
+								<i class="icon-plus-sign"></i>
+								2								votes							</a>
+						</div>
+
+						
+					</li>
+
+				
+					<li class="suggestion-list-top-rank list-suggestion-3" data-list-id="3"
+						id="suggestion-list-top-rank-3">
+						<span class="list-name">
+
+							<div class="title">
+								<i class="icon-star"></i>
+								Kirby Themes							</div>
+							<div class="author">
+															</div>
+						</span>
+
+						<div class="votes">
+							<a href="#" class="vote-list Danny not-logged-in" data-author="186"
+								data-list-id="3" data-vote-type="up">
+								<i class="icon-plus-sign"></i>
+								0								votes							</a>
+						</div>
+
+						
+					</li>
+
+				
+					<li class="suggestion-list-top-rank list-suggestion-4" data-list-id="4"
+						id="suggestion-list-top-rank-4">
+						<span class="list-name">
+
+							<div class="title">
+								<i class="icon-star"></i>
+								Project Management WordPress Plugin							</div>
+							<div class="author">
+															</div>
+						</span>
+
+						<div class="votes">
+							<a href="#" class="vote-list Danny not-logged-in" data-author="186"
+								data-list-id="4" data-vote-type="up">
+								<i class="icon-plus-sign"></i>
+								1								vote							</a>
+						</div>
+
+						
+					</li>
+
+				
+					<li class="suggestion-list-top-rank list-suggestion-5" data-list-id="5"
+						id="suggestion-list-top-rank-5">
+						<span class="list-name">
+
+							<div class="title">
+								<i class="icon-star"></i>
+								Sketch Wireframes							</div>
+							<div class="author">
+															</div>
+						</span>
+
+						<div class="votes">
+							<a href="#" class="vote-list Danny not-logged-in" data-author="186"
+								data-list-id="5" data-vote-type="up">
+								<i class="icon-plus-sign"></i>
+								0								votes							</a>
+						</div>
+
+						
+					</li>
+
+				
+					<li class="suggestion-list-top-rank list-suggestion-6" data-list-id="6"
+						id="suggestion-list-top-rank-6">
+						<span class="list-name">
+
+							<div class="title">
+								<i class="icon-star"></i>
+								Bypeople Prelaunch Bundle							</div>
+							<div class="author">
+															</div>
+						</span>
+
+						<div class="votes">
+							<a href="#" class="vote-list skyjunk1967 not-logged-in" data-author="11772"
+								data-list-id="6" data-vote-type="up">
+								<i class="icon-plus-sign"></i>
+								0								votes							</a>
+						</div>
+
+						
+					</li>
+
+				
+					<li class="suggestion-list-top-rank list-suggestion-7" data-list-id="7"
+						id="suggestion-list-top-rank-7">
+						<span class="list-name">
+
+							<div class="title">
+								<i class="icon-star"></i>
+								Project Management Platforms							</div>
+							<div class="author">
+															</div>
+						</span>
+
+						<div class="votes">
+							<a href="#" class="vote-list admin not-logged-in" data-author="1"
+								data-list-id="7" data-vote-type="up">
+								<i class="icon-plus-sign"></i>
+								0								votes							</a>
+						</div>
+
+						
+					</li>
+
+				
+					<li class="suggestion-list-top-rank list-suggestion-8" data-list-id="8"
+						id="suggestion-list-top-rank-8">
+						<span class="list-name">
+
+							<div class="title">
+								<i class="icon-star"></i>
+								This is a Test 2							</div>
+							<div class="author">
+															</div>
+						</span>
+
+						<div class="votes">
+							<a href="#" class="vote-list hello262 not-logged-in" data-author="50262"
+								data-list-id="8" data-vote-type="up">
+								<i class="icon-plus-sign"></i>
+								0								votes							</a>
+						</div>
+
+						
+					</li>
+
+				
+					<li class="suggestion-list-top-rank list-suggestion-9" data-list-id="9"
+						id="suggestion-list-top-rank-9">
+						<span class="list-name">
+
+							<div class="title">
+								<i class="icon-star"></i>
+								Worpress login customers 							</div>
+							<div class="author">
+															</div>
+						</span>
+
+						<div class="votes">
+							<a href="#" class="vote-list pepepropblemas not-logged-in" data-author="51736"
+								data-list-id="9" data-vote-type="up">
+								<i class="icon-plus-sign"></i>
+								0								votes							</a>
+						</div>
+
+						
+					</li>
+
+				
+					<li class="suggestion-list-top-rank list-suggestion-10" data-list-id="10"
+						id="suggestion-list-top-rank-10">
+						<span class="list-name">
+
+							<div class="title">
+								<i class="icon-star"></i>
+								Wireframe Tools							</div>
+							<div class="author">
+															</div>
+						</span>
+
+						<div class="votes">
+							<a href="#" class="vote-list admin not-logged-in" data-author="1"
+								data-list-id="10" data-vote-type="up">
+								<i class="icon-plus-sign"></i>
+								0								votes							</a>
+						</div>
+
+						
+					</li>
+
+				
+
+			</ul>
+
+		</div>
+
+		<div class="suggest-list-form">
+
+			<div class="form-title">
+				<h4>What Additional List Should We Have?</h4>
+			</div>
+
+			<form class="modal-form" id='form-suggestList'>
+
+				<fieldset>
+
+					<div class="control-group">
+						<label>List Name</label>
+						<input name="title" type="text" placeholder='Example: Best jQuery Forms' maxlength="140" class="list-name">
+				    	<input class='btn btn-view-more btn-view-more-green not-logged-in' data-original-text="Send" type='submit'  value='Send'>
+						<br>
+						<span class="countdown">140 Chars left</span>
+					</div>
+
+					<div class="error-message">
+						<div class="alert alert-error">
+							Please fill all the data in the form.
+						</div>
+					</div>
+
+				</fieldset>
+
+			</form>
+
+			<div class="list-examples">
+				<p>Suggest a list to be created in ByPeople. Be sure to be very descriptive.</p>
+				<p>These are examples of the kind of list we are searching for.</p>
+				<span><span class="icon-circle"></span> Best jquery plugins.</span>
+				<span><span class="icon-circle"></span> Better designer tools.</span>
+				<span><span class="icon-circle"></span> Plugins For WordPress.</span>
+				<span><span class="icon-circle"></span> Bootstrap Themes.</span>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+		<!-- Login Register -->
+		
+<div class="modal mt-modal LoginRegister-modal">
+	<div class="container">
+
+		<div class="close">CLOSE</div>
+		<div class="content">
+			<div class="modal-body ">
+
+			
+
+				<!-- Social area -->
+				<div class="left-area">
+
+					<!-- Register -->
+					<div class="register-area">
+
+						<h4 class="text-resgiter">Register</h4>
+						<h4 class="text-forget">Recover Password</h4>
+
+						<form id='register-form' class="register-form active">
+
+							<!-- <label>Email</label> -->
+							<i class="icon-envelope"></i>
+							<input name="email" type="text" id="email" class="register-forget email" placeholder="user@domain.com" />
+							<input type="hidden" name="n_token" value="true">
+							<input type="hidden" name="li" value="13">
+							<span class="btn btn-view-more btn-view-more-blue cancel-btn register">Cancel</span>
+							<span class="btn btn-view-more btn-view-more-blue cancel-btn register-mobile hidden">Cancel</span>
+							<input type="submit" class="btn btn-view-more btn-view-more-green register-authors-signup" id="register" data-original-text="Register" data-login-type="normal" value="Register"/>
+							<input type="button" class="btn btn-view-more btn-view-more-green forgot-author-password" id="forgot-password" data-original-text="I forgot my password" value="I forgot my password"/>
+							<input type="button" class="btn btn-view-more btn-view-more-green forgot-author-password mobile hidden" id="forgot-password-mobile" data-original-text="Recover" value="Recover"/>
+
+						</form>
+
+						<p class="text-resgiter">Join ByPeople!, just write your email. An email message will be sent to you with the activation link.</p>
+						<p class="text-forget">If you lost your password write your email. An email message will be sent to you with the recovery link.</p>
+					</div>
+
+					<div class="social-area">
+
+						<h4>Login or sign up with</h4>
+						<ul class="inline">
+
+							<li>
+								<a class="social btn btn-social btn-facebook" data-original-text="Facebook" role="facebook">
+									<i class="icon-facebook-sign"></i> Sign Up With Facebook
+								</a>
+							</li>
+
+							<li>
+								<a class="social btn btn-social btn-google-plus" data-original-text="Google" role="google">
+									<i class="icon-google-plus-sign"></i> Sign Up With Google
+								</a>
+							</li>
+
+							<li>
+								<a class="social btn btn-social btn-github" data-original-text="GitHub" role="github">
+									<i class="icon-github"></i> Sign Up With GitHub
+								</a>
+							</li>
+
+							<li>
+								<span class="link register">Sign up with email</span>
+							</li>
+
+							<li>
+								<a class="social btn btn-social btn-bypeople switch-login hidden" data-original-text="Login" role="login">
+									<i class="icon-user"></i> ByPeople Login
+								</a>
+							</li>
+
+						</ul>
+
+					</div>
+
+					<!-- Modal Authors Signup user logout -->
+
+					
+				</div>
+
+				<!-- Login area -->
+				<div class="login-area">
+
+					<h4>Login</h4>
+
+					<form id='login-form'>
+
+						<div class="form-group">
+							<i class="icon-user"></i>
+							<input name="username" type="text" id="username" placeholder="username"/>
+						</div>
+
+						<div class="form-group">
+							<i class="icon-lock"></i>
+							<input name="password" type="password" id="password" placeholder="password"/>
+						</div>
+
+						<div class="forgot">
+							<div class="checkbox">
+								<input name="remember" type='checkbox' id='remember' checked/>
+								<span>Remember Me</span>
+							</div>
+							<span class="link forgot-btn" href="#"><span>Forgot Password?</span></span>
+							<span class="link forgot-btn-mobile hidden" href="#"><span>Forgot Password?</span></span>
+						</div>
+
+						<div class="form-group">
+							<input type="submit" class="btn btn-view-more btn-view-more-green login-authors-signup" data-original-text="Login" value="Login"/>
+							<input type="button" class="btn btn-view-more btn-view-more-green back-to-modal hidden" value="Back">
+							<input type="hidden" name="event" value="">
+						</div>
+
+					</form>
+
+				</div>
+
+				<!-- Modal Authors Signup user logged -->
+				
+			</div>
+
+			<div class="modal-footer">
+				<p>When you click on "Register" button you're inmediately accepting all <a class="link" href="http://www.bypeople.com/terms.php" target="_blank">terms and conditions</a> of bypeople.com.</p>
+			</div>
+		</div>
+
+	</div>
+</div>
+		
+		<!-- Flag content -->
+		
+<div class="modal mt-modal flagmt-modal">
+	<div class="container">
+		<div class="close">CLOSE</div>
+		<div class="content">
+
+			<form id="form-flag-content" class="modal-form">
+
+				<div class="modal-body">
+
+					<h1>Report Content</h1>
+					<p class="flag-text">ByPeople staff works hard to keep away inappropriate content. We'll review your report and and take actions on the issue.</p>
+					<div class="left-area">
+						<h4 class="flag-h">This content is:</h4>
+						<ul class="radiobutton-group">
+
+							<li class="label-radio">
+								<input type="radio" name="type" checked="checked" value="1"/>
+								<span>Offensive, unfit for bypeople public.</span>
+							</li>
+
+							<li class="label-radio">
+								<input type="radio" name="type" value="2"/>
+								<span>Outdated, discontinued content.</span>
+							</li>
+
+							<li class="label-radio">
+								<input type="radio" name="type" value="3"/>
+								<span>Not working.</span>
+							</li>
+
+							<li class="label-radio">
+								<input type="radio" name="type" value="4"/>
+								<span>Copyrighted, violates copyright laws.</span>
+							</li>
+
+							<li class="label-radio">
+								<input type="radio" name="type" value="5"/>
+								<span>Other.</span>
+							</li>
+
+						</ul>
+					</div>
+					<div class="right-area">
+						<h4 class="flag-h">Add more details (optional) :</h4>
+						<textarea data-name="description"></textarea>
+						<input type="hidden" name="item-type" value="">
+						<a class="btn btn-info close-cancel">Cancel</a>
+						<input type="submit" class="btn btn-view-more btn-view-more-green " value="Send" data-original-text="Send"/>
+					</div>
+
+				</div>
+
+
+			</form>
+
+		</div>
+	</div>
+</div>
+		<!-- Miscelaneous components -->
+		
+<div class="popover top">
+    <div class="arrow"></div>
+    <h3 class="popover-title">Done!</h3>
+    <div class="popover-content">
+        <p>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+    </div>
+</div>
+		<!-- Load social sharing templates -->
+		
+
+<!-- Newsletter only -->
+
+<div class="modal modal-sharing-email hide">
+	<div class="modal-header">
+		<h3>Download Resource</h3>
+		<div class="submitter-close modal-close-btn toggle-modal" data-modal=".modal-sharing-email">
+			<i class="icon-remove action-close-submitter"></i>
+		</div>
+	</div>
+
+	<form class="sharing-form-newsletter modal-form">
+		<fieldset>
+			<div class="modal-body">
+				<h4>Newsletter</h4>
+				<p>Download this resource by subscribing to our freebies newsletter.
+				   We deliver no ads and no spam, only quality freebies.
+				</p>
+				<label><small>Email</small></label>
+				<input class="input-block-level" placeholder="name@email.com" type="text" name="email">
+
+				<!-- Join us -->
+				<div class="control-group">
+					<label class="inline">
+					<input type="checkbox" class="join-us reset-checkbox" name="" value=""> Join us,</label> accept <a href="http://www.bypeople.com/privacy.php">terms</a>
+				</div>
+
+				<div class="alert alert-warning hide">Oops! Please revise your email format.</div>
+			</div>
+			<div class="modal-footer">
+				<input type="hidden" id="sharing.newsletter" name="sharing.newsletter" value="59b9d40ed7" /><input type="hidden" name="_wp_http_referer" value="/accessibility-javascript-library/" />				<input type="hidden" name="post-id" value="">
+				<input class="btn btn-info" type="submit" data-original-text="Sign Up And Download" value="Sign Up And Download">
+			</div>
+		</fieldset>
+	</form>
+</div>
+<!-- Twitter and Facebook only -->
+
+<div class="modal modal-sharing-social hide">
+	<center>
+		<div class="modal-header">
+			<h3>Download Resource</h3>
+			<div class="submitter-close modal-close-btn toggle-modal" data-modal=".modal-sharing-social">			
+				<i class="icon-remove action-close-submitter"></i>
+			</div>
+		</div>
+
+		<form class="sharing-form-social ">
+			<fieldset>
+
+				<div class="modal-body">
+					<h4>Social Sharing</h4>
+					<p>Download this set by sharing it on Facebook or Twitter.</p>
+					<p>
+						<a href="#" class="btn btn-inverse download-facebook"
+							data-post-id="">
+							<i class="icon-facebook"></i> Facebook
+						</a>
+						<a href="#" class="btn btn-inverse download-twitter"
+							data-post-id="">
+							<i class="icon-twitter"></i> Twitter
+						</a>
+					</p>
+				</div>
+
+			</fieldset>
+		</form>
+
+	</center>
+</div>
+<!-- Social and sharing buttons -->
+
+<div class="modal mt-modal modal-sharing-both">
+	<div class="container">
+		<div class="close">CLOSE</div>
+		<div class="content">
+
+			<div class="modal-body ">
+
+				<!-- Social area -->
+				<div class="left-area">
+					
+						<!-- Register -->
+						<div class="register-area">
+
+
+								<h4 class="text-resgiter">Register</h4>
+								<h4 class="text-forget">Recover Password</h4>
+
+								<form class="sharing-both-form-newsletter" action="">
+									<i class="icon-envelope"></i>
+									<input name="email" type="text" class="register-forget email" placeholder="user@domain.com">
+									<input type="hidden" name="n_token" value="true">
+									<input type="hidden" name="li" value="13">
+									<span class="btn btn-view-more btn-view-more-blue cancel-btn cancel-down">Cancel</span>
+									<input type="submit" class="btn btn-view-more btn-view-more-green singup" data-original-text="Sign Up And Download" value="Signup And Download">
+									<input type="button" class="btn btn-view-more btn-view-more-green forgot-author-password" id="forgot-password" data-original-text="I forgot my password" value="I forgot my password" style="display: none;">
+									<input type="hidden" name="post-id" value="">
+									<input type="hidden" id="sharing.newsletter" name="sharing.newsletter" value="59b9d40ed7" /><input type="hidden" name="_wp_http_referer" value="/accessibility-javascript-library/" />								</form>
+
+								<p class="text-resgiter">
+									Join ByPeople! Add your email and check your inbox for the activation link. By clicking on Register, you're accepting all <a class="link" href="http://www.bypeople.com/terms.php" target="_blank">terms and conditions</a> of bypeople.com.
+								</p>
+								<p class="text-forget">If you lost your password write your email. An email message will be sent to you with the recovery link.</p>
+
+						</div>
+
+						<div class="login-area hidden">
+
+							<h4>Login</h4>
+
+							<form id="login-form">
+
+								<div class="form-group">
+									<i class="icon-user"></i>
+									<input name="username" type="text" id="username" placeholder="username">
+								</div>
+
+
+								<div class="form-group">
+									<i class="icon-lock"></i>
+									<input name="password" type="password" id="password" placeholder="password">
+								</div>
+
+								<div class="forgot">
+									<div class="checkbox">
+										<input name="remember" type="checkbox" id="remember" checked="">
+										<span>Remember Me</span>
+									</div>
+								</div>
+								<span class="btn btn-view-more btn-view-more-blue cancel-btn cancel-down">Cancel</span>
+								<div class="form-group">
+									<input type="submit" class="btn btn-view-more btn-view-more-green login-authors-signup" data-original-text="Login" value="Login">
+									<input type="hidden" name="event" value="">
+								</div>
+
+							</form>
+
+						</div>
+
+						<div class="social-area" style="display: block;">
+
+							<h4>Download this item and all our future resources, <a href="http://photos.bypeople.com">photos</a> and <a href="http://www.bypeople.com/bundles">Collections</a> by signin in, it takes only 5 seconds.</h4>
+							<ul class="inline">
+
+								<li>
+									<a class="social btn btn-social btn-facebook" data-original-text="Facebook" role="facebook">
+										<i class="icon-facebook-sign"></i> Sign Up With Facebook
+									</a>
+								</li>
+
+								<li>
+									<a class="social btn btn-social btn-google-plus" data-original-text="Google" role="google">
+										<i class="icon-google-plus-sign"></i> Sign Up With Google
+									</a>
+								</li>
+
+								<li>
+									<a class="social btn btn-social btn-github" data-original-text="GitHub" role="github">
+										<i class="icon-github"></i> Sign Up With GitHub
+									</a>
+								</li>
+
+								<li>
+									<span class="link register-down">Sign up with email</span>
+									or
+									<span class="link login-down">Login</span>
+								</li>
+
+							</ul>
+
+						</div>
+									</div>
+
+				<!-- Login area -->
+				<div class="right-area">
+
+					<h4>Social Sharing</h4>
+					<p>Give us some love downloading this by sharing it in Facebook or Twitter.</p>
+					<ul class="inline">
+						<li>
+							<a href="#" class="btn download-facebook btn-social btn-facebook"
+								data-post-id="">
+								<i class="icon-facebook-sign"></i> Facebook
+							</a>
+						</li>
+						<li>
+							<a href="#" class="btn btn-twitter download-twitter"
+								data-post-id="">
+								<i class="icon-twitter"></i> Twitter
+							</a>
+						</li>
+					</ul>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+		<!-- Become Curator -->
+		
+<div class="modal BecomeCurator-modal">
+
+	<div class="modal-header">
+		<h3>Become Curator</h3>
+	</div>
+
+	<div class="submitter-close modal-close-btn toggle-modal" data-modal=".BecomeCurator-modal">
+		<i class="icon-remove"></i>
+	</div>
+
+	<div class="modal-body BecomeCurator-modal-body">
+
+		<div class="become-curator-form">
+			<p>Please enter your social information for us to be able to verify you as a curator.</p>
+			<form class="modal-form" id="form-becomeCurator">
+				<div class="form-group">
+					<label for="twitter">Twitter</label>
+					<input name="twitter" id="twitter" type="text">
+				</div>
+				<div class="form-group">
+					<label for="github">GitHub</label>
+					<input name="github" id="github" type="text">
+				</div>
+				<div class="form-group">
+					<label for="stack_overflow">Stack Overflow</label>
+					<input name="stack_overflow" id="stack_overflow" type="text">
+				</div>
+				<div class="form-group">
+					<label for="comments">What makes you awesome?</label>
+					<textarea name="comments" id="comments"></textarea>
+				</div>
+				<div class="error-message">
+					<div class="alert alert-error">
+						Please fill "What makes you awesome?" field.
+					</div>
+				</div>
+				<div class="form-group">
+					<input class="btn btn-view-more btn-view-more-green not-logged-in" data-original-text="Send" type="submit" value="Send">
+					<input type="hidden">
+				</div>
+			</form>
+		</div>
+
+	</div>
+
+</div>
+		
+		<!-- Reset Password -->
+		
+		<!-- Insert new product to marketplace -->
+		
+		<!-- Insert new theme to marketplace -->
+		
+		<!-- Insert new photo to bypeople -->
+		
+		<!-- Load submitter view -->
+		 
+
+	<!-- Main Form -->
+	<div id='bmAppContainer' class="modal">
+
+		<!-- Submitter Overlay -->
+		<div class='sb-smt-overlay'>
+			<div class='sb-smt-overlay-inner'>
+
+				<p>Inserting post data...</p>
+				<span><img src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/components/loading.gif"></span>
+
+			</div>
+		</div>
+
+		<div class="submitter-close modal-close-btn">
+			<i class="icon-remove action-close-submitter"></i>
+		</div>
+
+		<img id="bp-bm-loader" src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/components/loading.gif">
+
+		<div class='bp-bm-user-info'>
+
+		</div>
+
+
+		<!-- GRAPHIC FREEBIE TAB #1 -->
+		<div class='sb-smt-tab-graphic-freebie submitter-view type-graphic-content'>
+
+			<label class="section-label label-title">Freebie title*</label>
+			<h3 contenteditable='true' id='sb-smt-graphic-title'>Graphic resource title...</h3>
+
+			<!-- Left col -->
+			<div class="sb-smt-left-col">
+
+				
+				<!-- Upload progress -->
+				<div class='sb-smt-feat-img-prog-wrapper'>
+					<div class='sb-smt-feat-img-progress'></div>
+				</div>
+
+				<!-- Upload actions -->
+				<div class='sb-smt-upload-actions'>
+										<label class="section-label label-freebie">* Upload graphic file</label>
+					<span>
+						<a class='btn btn-info' id='bp-smt-attachment-upload' href="#">
+							<span class='bp-smt-attachment-description'></span>
+								<i class='icon-upload icon-white'></i>
+								Upload Freebie*<br />
+								(PSD, ZIP, AI, 3D, etc)
+						</a>
+					</span>
+
+				</div>
+
+			</div>
+
+			<!-- Right Col -->
+			<div class="sb-smt-right-col">
+
+				<!-- Textarea -->
+				<div class='sb-smt-editor sb-smt-graphic-editor'>
+					<label class="section-label label-content" for="">Freebie description*</label>
+					<textarea class="sb-smt-graphic-tiny-editor" id="sb-smt-graphic-freebie-editor"
+						placeholder="Describe this graphic resource..."></textarea>
+				</div>
+				<div class='sb-smt-clerfix'></div>
+
+				<!-- Footer -->
+				<div class='sb-smt-footer'>
+
+					<!-- Is user the content author -->
+					<div class='sb-smt-footer-author-message'>
+						<label>
+							<div>Are you the author of this resource?</div>
+							<ul class="inline switch-buttons">
+								<li>
+									<input type="radio" id="radio5" name="is-author-graphic" value="true">
+								  	<label for="radio5">Yes</label>
+								</li>
+								<li>
+									<input type="radio" id="radio6" name="is-author-graphic" value="true" checked>
+								  	<label for="radio6">No</label>
+								</li>
+							</ul>
+						</label>
+					</div>
+
+					<input class='btn btn-view-more btn-view-more-green btn-large sb-smt-submit-post not-logged-in' type='button'
+					value='Submit' id='sb-post-data-click' data-cat-id='124'
+					data-cat="graphic"  data-list-id="" data-is-admin="0">
+
+				</div>
+			</div>
+
+		</div>
+
+		<!-- CODE FREEBIES TAB #2 -->
+		<div class='sb-smt-tab-code-freebie sb-smt-tab-hide submitter-view type-code-content'>
+
+			<label class="section-label label-title title-left-col-miss" for="">Snippet title*</label>
+			<h3 contenteditable='true' id='sb-smt-code-title' class="title-left-col-miss">Code snippet title...</h3>
+
+			
+			<!-- Right col -->
+			<div class='sb-smt-right-col sb-smt-left-col-miss'>
+
+				<!-- Textarea -->
+				<label class="section-label label-content" for="">Snippet description*</label>
+				<div class='sb-smt-editor sb-smt-code-editor'>
+					<textarea  class="sb-smt-code-tiny-editor" id="sb-smt-code-freebie-editor"
+						placeholder="Describe this code snippet..."></textarea>
+				</div>
+
+				<!-- Inputs and  -->
+				<div class='sb-smt-inputs'>
+
+					<div class='sb-smt-input-element'>
+						<label>Snippet URL from JsFiddle, CSSDeck Or CodePen*</label>
+						<input type='text' id='sb-smt-code-jsfiddle-source'>
+					</div>
+
+					<div class='sb-display-tags' id='collection-code-tags'></div>
+
+					<div class='sb-smt-clerfix'></div>
+				</div>
+
+				<div class="sb-smt-clerfix"></div>
+
+				<!-- Footer -->
+				<div class="sb-smt-footer">
+
+					<!-- Is user the content author -->
+					<div class='sb-smt-footer-author-message'>
+						<div>Are you the author of this resource?</div>
+						<ul class="inline switch-buttons">
+							<li>
+								<input type="radio" id="radio3" name="is-author-code" value="true">
+								<label for="radio3">Yes</label>
+							</li>
+							<li>
+								<input type="radio" id="radio4" name="is-author-code" value="false" checked>
+								<label for="radio4">No</label>
+							</li>
+						</ul>
+					</div>
+
+					<input type="button" class="btn btn-view-more btn-view-more-green btn-large sb-smt-submit-post not-logged-in"
+						data-list-id="" data-cat="code" data-cat-id="22" data-is-admin="0" value="Submit">
+
+				</div>
+
+
+			</div>
+		</div>
+
+
+
+		<!-- TOOL REVIEW TAB #3 -->
+		<div class='sb-smt-tab-tool-review sb-smt-tab-hide submitter-view type-tool-content'>
+
+			<label class="section-label label-title">Resource title*</label>
+			<h3 contenteditable='true' id='sb-smt-tool-review-title' >Resource title...</h3>
+
+			<!-- Left column -->
+			<div class='sb-smt-left-col'>
+
+				
+				<!-- Upload progress -->
+				<div class='sb-smt-feat-img-prog-wrapper'>
+					<div class='sb-smt-feat-img-progress'></div>
+				</div>
+
+				
+				<!-- Licenses -->
+				<div class='sb-smt-licenses'>
+
+					<!-- Licenses List -->
+					<label class="section-label label-license">License*</label>
+					<div class="licenses-wrapper">
+						<ul class="unstyled">
+							<li>
+								<div class='licence-input-element'>
+									<input name="sb-smt-licence-type" id="sb-smt-free" type="radio" checked="" value="Free">
+									<label rel='popover' data-placement='right' data-title='Free licence description' data-content='This product can be used for free in commercial and personal project.' for='sb-smt-free'>Free</label>
+								</div>
+
+								<div class='licence-input-element'>
+									<input name="sb-smt-licence-type" id="sb-smt-commercial" type='radio' value='Commercial' />
+									<label rel='popover' data-placement='left' data-title='Commercial licence description' data-content='In order to use this product, a licence must be purchased.' for='sb-smt-commercial'>Commercial</label>
+								</div>
+								<div class='sb-smt-clearfix'></div>
+							</li>
+
+							<li>
+								<div class='licence-input-element'>
+									<input name='sb-smt-licence-type' id='sb-smt-both' type='radio' value='Both'>
+									<label rel='popover' data-placement='right' data-title='Free and Commercial licence description' data-content='This product can be used for free for personal porpusses. For commercial porpuses users have to purchase a licence.' for='sb-smt-both'>Both</label>
+								</div>
+
+								<div class='licence-input-element'>
+									<input name="sb-smt-licence-type" id="sb-smt-custom-licence" type="radio" value="CUSTOM-LICENCE" />
+									<label rel="popover" data-placement="left" data-title="GPL licence description" data-content="The above licenses does not describe this product licence. You prefer to specify the licence by yourself." for="sb-smt-custom-licence">Other</label>
+								</div>
+								<div class='sb-smt-clearfix'></div>
+							</li>
+
+						</ul>
+
+						<div class='other-licence'>
+							<input type="text" id="sb-smt-custom-licence-description" placeholder="Other license">
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<!-- Right Column -->
+			<div class='sb-smt-right-col'>
+
+				<!-- Textarea -->
+				<div class='sb-smt-editor sb-smt-tool-review-editor'>
+					<label class="section-label label-content" for="">Resource description*</label>
+					<textarea class="sb-smt-tool-review-tiny-editor" id="sb-smt-tool-review-editor"
+						placeholder="Describe this resource..."></textarea>
+				</div>
+
+				<!-- Inputs and  -->
+				<div class='sb-smt-inputs'>
+
+					<div class='sb-smt-input-element'>
+						<label class="section-label label-detail-link">Resource link*</label>
+						<input type='text' id='sb-smt-tool-review-detail-link'>
+					</div>
+
+					<div class='sb-smt-input-element'>
+						<label class="section-label label-demo-link">Resource demo link</label>
+						<input class="block" type='text' id='sb-smt-tool-review-demo-link'>
+					</div>
+
+					<div class='sb-smt-clerfix'></div>
+
+				</div>
+
+				<div class='bp-bm-clearfix'></div>
+
+				<!-- Footer -->
+				<div class='sb-smt-footer'>
+
+
+					<!-- Is user the content author -->
+					<div class='sb-smt-footer-author-message'>
+
+						<div>Are you the author of this resource?</div>
+						<ul class="inline switch-buttons">
+							<li>
+								<input type="radio" id="radio1" name="is-author-resource" value="true">
+								<label for="radio1">Yes</label>
+							</li>
+							<li>
+								<input type="radio" id="radio2" name="is-author-resource" value="false" checked>
+								<label for="radio2">No</label>
+							</li>
+						</ul>
+					</div>
+
+					<input type="button" value='Submit' data-cat-id="24"
+						class='btn btn-view-more btn-view-more-green btn-large sb-smt-submit-post not-logged-in'
+						data-list-id=""
+						data-cat="resource" data-is-admin="0">
+
+				</div>
+
+			</div>
+		</div>
+
+
+		<!-- Tooltip -->
+    	<div class="popover">
+	    	<div class="arrow"></div>
+	    	<div class="popover-inner">
+	    		<h3 class="popover-title"></h3>
+	    		<div class="popover-content">
+	    			<p></p>
+	    		</div>
+	    	</div>
+	    </div>
+
+
+	</div>
+
+	<!-- Uploads
+	  =============================== -->
+
+	  <div class='bp-smt-img-uploads-container'>
+
+	  	<div id='bp-smt-img-dragger'></div>
+
+	  	<div class='bp-smt-img-uploads-controls'>
+	  		<a id='bp-smt-upload-images' class='btn btn-success' href="#">Browse</a>
+	  		<div class='sb-smt-clearfix'></div>
+	  		<a id='bp-smt-done-uploading-images-hook' class='btn btn-info' href="#">Done</a>
+	  	</div>
+	  	<input id='bp-selected-image-holder' type='hidden' value='http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images//submitter-default-image.jpg' />
+
+	  </div>
+
+	 <!-- Success message
+	  =================================== -->
+	 <div class="sb-smt-success-view">
+
+	 	<div class="success-view-close modal-close-btn">
+			<i class="icon-remove action-close-submitter"></i>
+		</div>
+
+	  	<div class=''>
+	        <h2>Thank You!</h2>
+	        <p>Your post has been received, and will be reviewed by a curator</p>
+	        <a href="#" id="sb-smt-success-dismiss"><i class="icon-ok" ></i></a>
+        </div>
+ 	</div>
+
+ 	<!-- Login Dialog -->
+ 	<div class='sb-smt-login-dialog-outer'>
+ 		<div class='sb-smt-login-dialog-inner'>
+
+ 			<!-- Header -->
+			<div class='sb-smt-dialog-header'>
+				<h3>
+					<a class='sb-dialog-link' data-trigger='sb-dialog-login' href="#">Login</a>
+					or
+					<a class='sb-dialog-link' data-trigger='sb-dialog-register' href="#">Register</a></h3>
+			</div>
+
+			<!-- Lelft col -->
+			<div class='sb-smt-dialog-left-col'>
+
+				<!-- Login -->
+				<div class='sb-dialog-login sb-dialog-login-tabs '>
+					<label>Username</label>
+					<input type='text' id='sb-dialog-username' >
+					<label>Password</label>
+					<input type='text' id='sb-dialog-pass' >
+					<input type='button' value='Login' class='btn btn-success'>
+				</div>
+
+				<!-- Register -->
+				<div class='sb-dialog-register sb-dialog-login-tabs sb-dialog-tab-hide'>
+					<p>Enter your email to create a new account</p>
+					<label>Email</label>
+					<input type='email' >
+					<input id='sb-dialog-register' type='button' value='Register' class='btn btn-success'>
+				</div>
+
+				<!-- Registration Message -->
+				<div class='sb-dialog-reg-message sb-dialog-login-tabs sb-dialog-tab-hide'>
+					<p>
+						An email has been sent to the mail you specified, please
+						confirm it and start getting all the benefits ByPeople offers
+					</p>
+				</div>
+
+			</div>
+
+			<div class='sb-smt-clearfix'></div>
+
+			<!-- footer -->
+			<div class='sb-smt-dialog-footer'></div>
+
+ 		</div>
+
+ 	</div>
+		
+			<!-- PHOTOS CMS -->
+			<!--  <div class="photos-cms-modal">
+
+				<div class="close-cms-modal"><i class="icon-remove"></i></div> -->
+				<!-- <div class="open-cms-modal"><i class="icon-tasks"></i> Open bundle builder</div> -->
+
+				<!-- <h3>Bundle Builder</h3>
+
+				<div class="images-selected">
+					<i class="icon-check"></i> <span class="img-selected-counter">0</span> elements selected  -->| <!-- <a href="#" class="view-selections"> View items</a> | --> <!-- <a href="#" class="clear-all">Clear all &times;</a>
+				</div>
+
+				<p>Select the bundle you want to add the items to.</p>
+
+				<a class="enable-filter">Search bundle (filter by name)</a>
+
+				<div class="assign-form"> -->
+					<!-- <label for="">Add queue to bundle:</label> -->
+					<!-- <input type="text" class="search-bundle" placeholder="Filter by bundle name">
+				</div>
+
+				<span class="add-new-bundle"><i class="icon-plus"></i> Create new bundle</span>
+
+				<ul class="bundle-results">
+																									<li class="bundle" data-id="" data-slug=""> -->
+								<!-- <div class="title add-to-this-bundle" data-id="" data-user="" title="Click for adding the queued elements to this bundle">
+									<h4 class="bundle-title"></h4>
+									<span class="item-count"> Elements</span>
+								</div>
+								<div class="options">
+									<a href="/" class="regular-link link-to-bundle" target="_blank" title="View bundle">
+										<div class="bundle-opt"><i class="icon-external-link"></i></div>
+									</a>
+									<div class="bundle-opt edit-this-bundle"
+										data-id=""
+										data-user-id=""
+										data-title=""
+										data-slug=""
+										data-description=""
+										data-status=""
+										data-type="" title="Edit this bundle"><i class="icon-edit"></i></div>
+									<div class="bundle-opt remove-this-bundle" data-id="" data-user="" title="Remove this bundle"><i class="icon-remove"></i></div>
+
+																		<div class="bundle-opt " data-p=""  data-id="" title="Create zip and download"><i class="icon-download-alt"></i></div>
+																		<div class="bundle-opt zip-this-bundle" data-p="acuario" data-id="" title="Create zip and download"><i class="icon-download-alt"></i></div>
+									
+								</div>
+
+																<div class="bundle-opt-dwn " data-p=""  data-id="" title="Create zip and download"><i class="icon-download-alt"></i> Download Collection</div>
+																<div class="bundle-opt-dwn zip-this-bundle" data-p="acuario" data-id="" title="Create zip and download"><i class="icon-download-alt"></i> Download Collection</div>
+								
+							</li>
+																	<li class="empty-bundle">
+							<div class="container">
+								<h4>No bundles yet.</h4>
+								<span class="add-new-bundle"><i class="icon-plus"></i> Create new bundle</span>
+							</div>
+						</li>
+									</ul>
+ -->
+				<!-- Form for adding bundles -->
+				<!-- <div class="form-new-bundle" data-action="create">
+					<div class="close-this">&times;</div>
+					<form id="new-photo-bundle">
+						<h4>Add new bundle</h4>
+						<input type="text" name="bundle-name" placeholder="Bundle title">
+						<input type="text" name="bundle-slug" placeholder="Bundle slug" class="">
+						<textarea name="bundle-description" id="" cols="30" rows="10"></textarea>
+						<select name="bundle-status" id="" class="">
+							<option value="1">Publish</option>
+							<option value="2" selected>Draft</option>
+							<option value="3">Private</option>
+						</select>
+												<input type="hidden" name="bundle-type" value="">
+						<input type="hidden" name="bundle-user-id" value="">
+						<input type="submit" class="btn-small btn-view-more btn-view-more-green" value="Create">
+					</form>
+				</div> -->
+
+				<!-- Form to edit bundles -->
+				<!-- <div class="edit-bundle" data-action="create">
+					<div class="close-this">&times;</div>
+					<form id="edit-photo-bundle">
+						<h4>Edit bundle</h4>
+						<input type="text" name="bundle-name" placeholder="Bundle title">
+						<input type="text" name="bundle-slug" placeholder="Bundle slug" class="">
+						<textarea name="bundle-description" id="" cols="30" rows="10"></textarea>
+						<select name="bundle-status" id="" class="">
+							<option value="1">Publish</option>
+							<option value="2" selected>Draft</option>
+							<option value="3">Private</option>
+						</select>
+						<input type="hidden" name="bundle-id">
+						<input type="hidden" name="bundle-type">
+						<input type="hidden" name="bundle-user-id">
+						<input type="submit" class="btn-small btn-view-more btn-view-more-green" value="Update">
+					</form>
+				</div>
+			</div> -->
+		
+		
+		
+				<footer>
+
+							<div class="footer-bottom-bar">
+					<div class="container-1200 wrapper-bottom-bar">
+						<ul>
+							<li><a href="http://www.bypeople.com/faq#what-is-by-people">About</a>  </li>
+							<li><a href="http://www.bypeople.com/faq">FAQ</a>  </li>
+							<li><a href="http://www.bypeople.com/contact-us/"> Contact Us</a>  </li>
+							<li><a href="http://www.bypeople.com/terms.php" class="privacy-policy" data-width="1000" data-height="700"> Terms And Conditions</a>  </li>
+							<li><a href="http://www.bypeople.com/privacy.php" class="terms-and-conditions" data-width="1000" data-height="700"> Policy Privacy</a></li>
+						</ul>
+					</div>
+				</div>
+			
+					</footer>
+
+		<!-- Scripts zone: Important to maintain the site compatibilty with other wordpress plugins -->
+		<!-- REVISE FOR IMPROVEMENTS -->
+
+		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/js/lib/jquery/jquery.jscroll.js"></script>
+
+		<!-- WP-TopBar_5.33 :: DB: 5.09 :: Number of TopBars Selected: 0 :: Rotate TopBars: no -->
+			<style>
+				div#infscr-loading img{
+					width: 220px;
+					height: 19px;
+					border: none;
+					display: inline;
+					padding: 0;
+				}
+				body .pagination-list .next{
+					display: block !important;
+				}
+				body .pagination-list {
+					visibility: hidden;
+				}
+				body .pagination-list.visible {
+					visibility: visible;
+				}
+			</style>
+
+			
+			<script>
+				if ( jQuery( '.pagination-list a.next' ).length == 0 )
+					jQuery( 'body .pagination-list' ).css( 'visibility', 'visible' );
+
+				frag = 0;
+				page = 0;
+				byppostn = 'accessibility-javascript-library';
+
+				if ( !window.ids ){
+					window.ids = []
+				}
+
+				
+				jQuery( '#content' ).infinitescroll({
+				  	// other options
+				  	loading :{
+						finishedMsg	: ''
+				  	},
+				  	dataType		: 'html',
+					navSelector 	: ".pagination-list a.next",
+					nextSelector 	: ".pagination-list a.next",
+					itemSelector 	: "li.results-list-listview",
+					contentSelector : "#content",
+					debug		 	: true,
+					appendCallback	: true,
+					maxPage 		: 100,
+					bufferPx 		: jQuery( document ).height()*2.75,
+					path: function( index ) {
+
+						if ( frag == 0 )
+							page = index;
+
+						skipVal = ( jQuery( '.results-list-listview[data-skip-pos]' ).last().data( 'skip-pos' ) ) ? jQuery( '.results-list-listview[data-skip-pos]' ).last().data( 'skip-pos' ) : 0;
+						url = aUrl + '?action=bypplpage&postname='+byppostn+'&page=' + page + '&frag=' + frag + '&val=&ids=' + window.ids + '&bk=' + skipVal;
+
+						switch ( frag ){
+							case 0:
+							break;
+							case 4:
+								return false;
+							break;
+							default:
+								frag++;
+							break;
+
+						}
+
+						return url;
+					},
+
+				}, function( data, object, url ) {
+
+					jQuery( '#content' ).append( data );
+
+					// Insert the requested advertising into query
+					jQuery( '.results-list-listview[role="ad"].active-ad:first' ).clone().insertAfter( '.results-list-listview:nth-child(' + parseInt( jQuery( '.results-list-listview' ).length - 13 ) + ')' );
+
+					if ( frag == 4 )
+						jQuery( 'body .pagination-list' ).css( 'visibility','visible' );
+
+					// Rearrange lists according to the content type
+					jQuery( 'li[role="' + localStorage.filterBy +  '"]' ).addClass( 'filtered' ).prependTo( jQuery( 'li[role="' + localStorage.filterBy +  '"]' ).parent() );
+
+					// sort elemenst according to filter attr
+					var	li = '.results-list-listview'
+					,	byLength = byDate = byRand = [];
+
+					// filter by attr
+					if ( localStorage.filterByAttr == 'date' ) {
+						// extract data from the lists
+						jQuery( li ).each( function () {
+							// put raw data in array
+							byDate.push( jQuery( this ).data( 'timestamp' ) );
+						});
+
+						// sort desc the array
+						byDate = _.sortBy( byDate, function( num ) {
+						    return -num;
+						});
+
+						// rearrange lists by items number
+						jQuery.each( byDate, function ( key, val ) {
+
+							jQuery( 'li.results-list-listview[data-timestamp="' + val +  '"]' ).appendTo( jQuery( 'li[data-timestamp="' + val +  '"]' ).parent() );
+						});
+					}
+
+					if ( localStorage.filterByAttr == 'length' ) {
+
+	 					// extract data from the lists
+						jQuery( li ).each( function () {
+							// put raw data in array
+							byLength.push( jQuery( this ).data( 'count-items' ) );
+						});
+
+						// sort desc the array
+						byLength = _.sortBy( byLength, function( num ) {
+						    return -num;
+						});
+
+						// rearrange lists by items number
+						jQuery.each( byLength, function ( key, val ) {
+
+							jQuery( 'li.results-list-listview[data-count-items="' + val +  '"]' ).appendTo( jQuery( 'li[data-count-items="' + val +  '"]' ).parent() );
+						});
+
+					}
+
+					if ( localStorage.filterByAttr == 'rand' ) {
+
+	 					// extract data from the lists
+						jQuery( li ).each( function () {
+							// put raw data in array
+							byRand.push( jQuery( this ).data( 'count-items' ) );
+						});
+
+						// sort desc the array
+						byRand = _.sortBy( byRand, function( num ) {
+						    return num;
+						});
+
+						// rearrange lists by items number
+						jQuery.each( byRand, function ( key, val ) {
+
+							jQuery( 'li.results-list-listview[data-count-items="' + val +  '"]' ).appendTo( jQuery( 'li[data-count-items="' + val +  '"]' ).parent() );
+						});
+					}
+
+					// chkCreators
+					var template = '<li class="except-this"><a href="" class="icon-plus view-all-creators"></a></li>'
+					,	length;
+
+					jQuery( '.created-by' ).each( function ( e ) {
+
+						length = jQuery( this ).find( 'li' ).length;
+
+						if ( length > 5 ) {
+							jQuery( template ).insertAfter( jQuery( this ).find( 'li' ).eq( 4 ) );
+						}
+					});
+
+					// Do something with JSON data, create DOM elements, etc ..
+				}, '#content' );
+
+				
+			</script>
+		
+		
+		
+		<!-- jquery code -->
+
+		<script>
+			( function() {
+
+				// var origin = 'http://www.bypeople.com/';
+				// console.warn( origin, 'www.bypeople.com', 'relis' );
+
+				// TODO: namespace this var
+				window.Constants = {
+						aUrl: 'http://www.bypeople.com/wp-admin/admin-ajax.php'
+					,	JSTemplates: 'http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/js/templates/'
+					,	imagesUrl: 'http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/images/'
+					,	siteURL: 'http://www.bypeople.com/'
+					,	libsUrl: 'http://www.bypeople.com/wp-content/themes/bppl-alpha/application/lib/'
+					,	twitterRedirect: 'http://www.bypeople.com/twitter-redirect'
+					// ,	twitterRedirect: origin + 'twitter-redirect'
+					// ,	twitterRedirect: 'http://www.bypeople.com/twitter-callback'
+					,	CATEGORY_ENV: ''
+					,	LIST_ID: '0'
+					,	SUPERLIST_ID: ''
+					,	IS_POST_SINGLE: '1'
+					,	CONTENT_TYPE_CODE_URL: 'http://www.bypeople.com/live-codes'
+					,	CONTENT_TYPE_FREEBIE_URL: 'http://www.bypeople.com/freebies'
+					,	CONTENT_TYPE_RESOURCE_URL: 'http://www.bypeople.com/resources'
+					,	GOOGLE_AUTHORIZE_PAGE: 'http://www.bypeople.com/google-authorize'
+					,	GITHUB_AUTHORIZE_URL: 'https://github.com/login/oauth/authorize?scope=user:email&client_id=343be17a67abd2b6ba57&redirect_uri=http://www.bypeople.com/github-callback/&response_type=code'
+					,	POST_ID: '170102'
+					,	POST_NAME: 'accessibility-javascript-library'
+					,	OWNER: ''
+					,	IS_FRONTPAGE: ''
+					,	pathName : window.location.pathname
+					,	ptmpname : ''
+					,	screenshotid : '8b87d53101'
+					,	relative: 'prod'
+				};
+
+				
+				window.aUrl = 'http://www.bypeople.com/wp-admin/admin-ajax.php';
+				// window.aUrl = 'http://www.bypeople.com/wp-admin/admin-ajax.php';
+
+				
+				
+				
+				
+			})();
+
+
+		</script>
+
+		<script type="text/javascript" async>var addthis_config = {"data_track_clickback": false};</script>
+		<!-- Facebook -->
+		<script src="http://connect.facebook.net/en_US/all.js#xfbml=1" async></script>
+		<script src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/js/load-scripts.php?v=1455670291" async></script>
+		<script async>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</body>
+
+	<!-- Google Plus -->
+	<script src="https://apis.google.com/js/plusone.js" async></script>
+
+	<!-- Twitter -->
+  	<script type="text/javascript" charset="utf-8" async>
+	    window.twttr = (function (d,s,id) {
+	      var t, js, fjs = d.getElementsByTagName(s)[0];
+	      if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+	      js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+	      return window.twttr || (t = { _e: [], ready: function(f){ t._e.push( f ) } });
+	    }(document, "script", "twitter-wjs"));
+  	</script>
+
+	<script src="http://www.bypeople.com/wp-content/themes/bppl-alpha/assets/js/lib/tinymce/tiny_mce.js"></script>
+
+			<!-- Pure Chat Snippet -->
+		<script type="text/javascript" async>
+			var _gscq = _gscq || [];
+			_gscq.push(['language', navigator.language]);
+			(function() {
+		    	var gscw = document.createElement('script');
+		    	gscw.type = 'text/javascript'; gscw.async = true;
+		    	gscw.src = '//widgets.getsitecontrol.com/10572/script.js';
+		    	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gscw, s);
+			})();
+		</script>
+		<!-- End Pure Chat Snippet -->
+	
+	
+</html>
+
+
+<!--  litte script to to resize images -->
+<!-- ZenCache file path: /cache999/cache/http/www-bypeople-com/accessibility-javascript-library.html -->
+<!-- ZenCache file built for (http://www.bypeople.com/accessibility-javascript-library/) in 0.79328 seconds, on: Feb 17th, 2016 @ 12:51 am UTC. -->
+<!-- This ZenCache file will auto-expire (and be rebuilt) on: Feb 17th, 2016 @ 1:51 am UTC (based on your configured expiration time). -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ZenCache fully functional :-) Cache file served for (http://www.bypeople.com/accessibility-javascript-library/) in 0.00285 seconds, on: Feb 17th, 2016 @ 1:32 am UTC. -->

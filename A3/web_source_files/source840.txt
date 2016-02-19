@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Twitter Party | Details - SoFabChats!</title>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link data-turbolinks-track="true" href="/assets/application-dc2d89303af224973ed759407405bd54.css" media="all" rel="stylesheet" />
+<script data-turbolinks-track="true" src="/assets/application-6f483f8ed1b77b2d248c74b16e48bcbb.js"></script>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="nJnvnDFIFj6G9jOgGwiPbRkKIK5zGaJ4TvOYUXk2fWM=" name="csrf-token" />
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<link href="/assets/favicon-7bada6d4cea200fc08ed2660c262017e.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+</head>
+<body class='parties_body' data-action='show' data-controller='parties'>
+<div class='body-wrapper'>
+<header class='navbar navbar-fixed-top'>
+<div class='container-fluid'>
+<div class='navbar-header'>
+<div class='navbar-brand'>
+<a href="/"><div id='logo'></div>
+</a></div>
+<button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse'>
+<span class='sr-only'>Toggle navigation</span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</button>
+</div>
+<div class='navbar-collapse collapse'>
+<ul class='nav navbar-nav pull-right'>
+<li><a href="/about">About</a></li>
+<li><a href="/parties">Parties</a></li>
+<li><a href="/party_tips">Party Tips</a></li>
+<a class="twitter-btn btn" href="/auth/twitter"><i class='fa fa-twitter'></i>
+Sign in with Twitter
+</a></ul>
+</div>
+</div>
+</header>
+
+
+<div class='container-fluid' id='main'>
+
+<div class='top-row clearfix'>
+<div class='party-page-heading'>
+<h3>
+#MeAndMyTea
+<span>Twitter Party</span>
+</h3>
+<div class='sponsor'>
+sponsored by:
+<span>Collective Bias</span>
+</div>
+</div>
+</div>
+<div class='row clearfix'>
+<div class='col-xs-8 img-desc'>
+<div id='party-image'>
+<img alt=" meandmytea coldflu tp badge" class="img-responsive" src="/uploads/party/partybanner/822/_MeAndMyTea_ColdFlu_TP_Badge.jpg" />
+</div>
+<div class='party-description'>
+Do you love tea during cough and cold season? Grab a cup of tea in this winter weather and share your tips and tricks for combating a cold!
+</div>
+</div>
+<div class='col-xs-4 sidebar'>
+<div class='party-page-buttons'>
+<a class="btn btn-default large rules" href="/parties/822-twitter-party/rules">Party Rules</a>
+<small class='finished'>
+<i class='fa fa-exclamation-circle'></i>
+This party has concluded
+</small>
+</div>
+<div class='party-time-date text-center'>
+<h4>
+This Party Starts:
+</h4>
+<div class='date'>
+<i class='fa fa-calendar fa-fw'></i>
+Monday, February 08, 2016
+</div>
+<div class='time'>
+<i class='fa fa-clock-o fa-fw'></i>
+ 1:00pm
+Eastern Time
+</div>
+</div>
+<div class='party-rsvp-count clearfix text-center'>
+<h4>
+RSVP's:
+<span class='num'>422</span>
+</h4>
+</div>
+<div class='prizes'>
+<h4>
+<i class='fa fa-gift'></i>
+Prizes
+</h4>
+<div class='text-center'>
+<i class='fa fa-star-o fa-fw'></i>
+Prize 1: $100 Walmart GC + Bigelow Tea Prize Pack
+</div>
+<div class='text-center'>
+<i class='fa fa-star-o fa-fw'></i>
+Early Bird: $50 Walmart GC + Bigelow Tea Prize Pack
+</div>
+<div class='text-center'>
+<i class='fa fa-star-o fa-fw'></i>
+Prize 2: $100 Walmart GC + Bigelow Tea Prize Pack
+</div>
+<div class='text-center'>
+<i class='fa fa-star-o fa-fw'></i>
+Prize 3: $100 Walmart GC + Bigelow Tea Prize Pack
+</div>
+<div class='text-center'>
+<i class='fa fa-star-o fa-fw'></i>
+Prize 4: $100 Walmart GC + Bigelow Tea Prize Pack
+</div>
+<div class='text-center'>
+<i class='fa fa-star-o fa-fw'></i>
+Prize 5: $100 Walmart GC + Bigelow Tea Prize Pack
+</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-xs-12' id='follow-list'>
+<h4>Be sure to follow these people on Twitter:</h4>
+<a class='twitter-follow-button' data-lang='en' data-show-count='false' href='https://twitter.com/bigelowtea'>
+Follow @bigelowtea
+</a>
+<a class='twitter-follow-button' data-lang='en' data-show-count='false' href='https://twitter.com/AleaMilham'>
+Follow @AleaMilham
+</a>
+<a class='twitter-follow-button' data-lang='en' data-show-count='false' href='https://twitter.com/2Wired2Tired'>
+Follow @2Wired2Tired
+</a>
+<a class='twitter-follow-button' data-lang='en' data-show-count='false' href='https://twitter.com/kellystilwell'>
+Follow @kellystilwell
+</a>
+<a class='twitter-follow-button' data-lang='en' data-show-count='false' href='https://twitter.com/mandipie4u'>
+Follow @mandipie4u
+</a>
+<a class='twitter-follow-button' data-lang='en' data-show-count='false' href='https://twitter.com/kateuhldean'>
+Follow @kateuhldean
+</a>
+</div>
+</div>
+<div class='row'>
+<div class='col-xs-12 clearfix featured-content-images'>
+<a href="http://amindfullmom.com/green-tea-ramen-soup/" target="_blank"><img alt="Flu soup" class="img-responsive featured-content-img" src="http://i2.wp.com/amindfullmom.com/wp-content/uploads/2016/01/flu-soup.jpg?w=800" /></a>
+<a href="http://www.prettylifegirls.com/2016/01/plg-diy-loveyou-mugs.html" target="_blank"><img alt="Img 7962" class="img-responsive featured-content-img" src="http://2.bp.blogspot.com/-KiD9FWTAjWg/Vp7b2wtyYAI/AAAAAAAAEnc/e5RpPE2OR3c/s1600/IMG_7962.png" /></a>
+<a href="http://therustic.life/2015/12/tea-tips-for-surviving-the-cold-flu-season/" target="_blank"><img alt="Cupoftea 683x1024" class="img-responsive featured-content-img" src="http://therustic.life/wp-content/uploads/2015/12/cupoftea-683x1024.jpg" /></a>
+<a href="" target="_blank"><img class="img-responsive featured-content-img" src="" /></a>
+</div>
+</div>
+
+</div>
+<div class='clearfix' id='footer'>
+<div class='container-fluid'>
+<div class='row-fluid'>
+<div class='col-md-8 col-sm-6 col-xs-6 pull-left clearfix npr f-logo'>
+<div class="col-xs-12 npl">
+  <a href="http://collectivebias.com" class="platform" target="_blank">
+   A <div id="footer_logo"></div> Platform
+   </a>
+</div>
+<div class='col-md-4 col-sm-6 npl col-xs-12 copyright'>
+&copy; 2015 CollectiveBias
+<span>&reg;</span>
+</div>
+</div>
+<div class='col-md-4 pull-right clearfix npr s-links'>
+<div class="social-links">
+  <a href="https://plus.google.com/117910910208528168025/posts" target="_blank" ><i class="fa fa-fw fa fa-google-plus"></i><span class="sr-only">SoFabChats GooglePlus</span></a>
+  <a href="http://www.youtube.com/user/CollectiveBiasTV?feature=watch" target="_blank" ><i class="fa fa-fw fa-youtube"></i><span class="sr-only">SoFabChats YouTube</span></a>
+  <a href="http://www.linkedin.com/company/collective-bias" target="_blank" ><i class="fa fa-fw fa-linkedin"></i><span class="sr-only">SoFabChats LinkedIn</span></a>
+  <a href="http://www.pinterest.com/SoFabChats/" target="_blank" ><i class="fa fa-fw fa-pinterest"></i><span class="sr-only">SoFabChats Pinterest</span></a>
+  <a href="https://twitter.com/SoFabChats" target="_blank" ><i class="fa fa-fw fa-twitter"></i><span class="sr-only">SoFabChats Twitter</span></a>
+  <a href="https://www.facebook.com/SoFabChats"  target="_blank"><i class="fa fa-fw fa-facebook"></i><span class="sr-only">SoFabChats Facebook</span></a>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-29632581-3', 'sofabchats.com');
+  ga('send', 'pageview');
+
+</script>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7 " lang="es-ES" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8 " lang="es-ES" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8) ]><!-->
+<html class="" lang="es-ES" prefix="og: http://ogp.me/ns#">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Convierte tu Android en un PC con Debian GNU/Linux al conectar un monitor con Maru OS - Ubuntizando.com</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="http://www.ubuntizando.com/xmlrpc.php" />
+    
+<meta content='43.374672,-8.395958' name='geo.position'/>
+<meta content='A coruna, A Coruna, Espana' name='geo.placename'/>
+<meta content='es-sp' name='geo.region'/>
+<meta http-equiv="content-language" content="es">
+<meta content='es,sp,spanish,español' name='language'/>
+<meta content='Noticias sobre Ubuntu, Linux y tecnología' name='description'/><meta content='ubuntu, linux, debian, fedora, tecnologia, android, smartphones, ' name='keywords'/>
+<meta content='noodp, noydir' name='robots'/>
+<meta http-equiv="Refresh" content="1000">
+    
+    
+		<link rel="apple-touch-icon" sizes="57x57" href="http://www.ubuntizando.com/wp-content/uploads/apple-touch-icon-57x57.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="http://www.ubuntizando.com/wp-content/uploads/apple-touch-icon-114x114.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="http://www.ubuntizando.com/wp-content/uploads/apple-touch-icon-72x72.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="http://www.ubuntizando.com/wp-content/uploads/apple-touch-icon-144x144.png" />
+		<link rel="apple-touch-icon" sizes="60x60" href="http://www.ubuntizando.com/wp-content/uploads/apple-touch-icon-60x60.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="http://www.ubuntizando.com/wp-content/uploads/apple-touch-icon-120x120.png" />
+		<link rel="apple-touch-icon" sizes="76x76" href="http://www.ubuntizando.com/wp-content/uploads/apple-touch-icon-76x76.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="http://www.ubuntizando.com/wp-content/uploads/apple-touch-icon-152x152.png" />
+			<link rel="icon" type="image/png" href="http://www.ubuntizando.com/wp-content/uploads/favicon-16x16.png" sizes="16x16" />
+		<link rel="icon" type="image/png" href="http://www.ubuntizando.com/wp-content/uploads/favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="http://www.ubuntizando.com/wp-content/uploads/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/png" href="http://www.ubuntizando.com/wp-content/uploads/favicon-160x160.png" sizes="160x160" />
+		<link rel="icon" type="image/png" href="http://www.ubuntizando.com/wp-content/uploads/favicon-196x196.png" sizes="196x196" />
+		<!--[if lt IE 9]>
+	<script src="http://www.ubuntizando.com/wp-content/themes/outspoken/js/html5.js" type="text/javascript"></script>
+	<![endif]-->
+	<style type='text/css'>
+          .no-break br {
+            display: none !important;
+          }
+      </style>
+<!-- This site is optimized with the Yoast SEO plugin v3.0.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="http://www.ubuntizando.com/2016/02/08/convierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os/" />
+<meta property="og:locale" content="es_ES" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Convierte tu Android en un PC con Debian GNU/Linux al conectar un monitor con Maru OS - Ubuntizando.com" />
+<meta property="og:description" content="Ahora que disfrutamos de más potencia en nuestras tablets y teléfonos inteligentes se ve mas necesaria la llegada de soluciones" />
+<meta property="og:url" content="http://www.ubuntizando.com/2016/02/08/convierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os/" />
+<meta property="og:site_name" content="Ubuntizando.com" />
+<meta property="article:tag" content="android" />
+<meta property="article:tag" content="debian" />
+<meta property="article:tag" content="maru os" />
+<meta property="article:tag" content="nexus" />
+<meta property="article:section" content="android" />
+<meta property="article:published_time" content="2016-02-08T10:27:00+00:00" />
+<meta property="article:modified_time" content="2016-02-07T03:30:05+00:00" />
+<meta property="og:updated_time" content="2016-02-07T03:30:05+00:00" />
+<meta property="og:image" content="http://www.ubuntizando.com/wp-content/uploads/2016/02/1366_2000.jpg" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Ubuntizando.com &raquo; Feed" href="http://www.ubuntizando.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ubuntizando.com &raquo; RSS de los comentarios" href="http://www.ubuntizando.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ubuntizando.com &raquo; Convierte tu Android en un PC con Debian GNU/Linux al conectar un monitor con Maru OS RSS de los comentarios" href="http://www.ubuntizando.com/2016/02/08/convierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.ubuntizando.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='opinionstage-style-css'  href='http://www.ubuntizando.com/wp-content/plugins/social-polls-by-opinionstage/opinionstage-style-common.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='opinionstage-font-style-css'  href='http://www.ubuntizando.com/wp-content/plugins/social-polls-by-opinionstage/opinionstage-font.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='validate-engine-css-css'  href='http://www.ubuntizando.com/wp-content/plugins/wysija-newsletters/css/validationEngine.jquery.css?ver=2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-style-css'  href='http://www.ubuntizando.com/wp-content/themes/outspoken/fancybox/jquery.fancybox.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='outspoken-style-css'  href='http://www.ubuntizando.com/wp-content/themes/outspoken-child/style.css?ver=4.4.2' type='text/css' media='all' />
+<style id='outspoken-style-inline-css' type='text/css'>
+html {
+	height: 100%;
+	font-size: 62%;
+}html,
+button,
+input,
+select,
+textarea {
+	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+}
+
+#page {
+	max-width: 1031px;
+}
+
+#section-navigation.floating,
+.entry-media,
+.post-navigation {
+	max-width: 951px;
+}
+
+.outspoken-gallery.uncropped article > a {
+	padding-bottom: 42.060988433228%;
+}
+
+.entry-media .cropped {
+	padding-bottom: 42.060988433228%;
+}@media (max-width: 950px) {
+	#primary,
+	.csscalc #primary {
+		width: 100%;
+	}
+
+	#tertiary {
+		display: none;
+	}
+}
+
+.navbar {
+	background-color: #000000;
+}
+
+@media (min-width: 951px) {
+	#site-navigation ul ul a {
+		border-bottom-color: #000000;
+	}
+
+	#site-navigation > div > ul > li > ul > li {
+		background: #000000;
+	}
+}
+
+@media (max-width: 950px) {
+	.no-touch #site-navigation > div a:hover,
+	.no-touch #site-navigation > div > ul li.submenu-off > a:hover:after {
+		color: #000000;
+	}
+}
+
+#site-navigation a,
+#search-toggle .icon,
+#search-toggle .social a {
+	color: #ffffff;
+}
+
+@media (min-width: 951px) {
+	.no-touch #site-navigation > div > ul > li > a:hover,
+	.no-touch #site-navigation > div > ul > li:hover > a,
+	#site-navigation > div > ul > li.current_page_item > a,
+	.no-touch #site-navigation ul ul a:hover {
+		border-color: #ffffff;
+	}
+}
+
+@media (max-width: 950px) {
+	.menu-toggle,
+	#site-navigation > div > ul li.submenu-off > a:after {
+		color: #ffffff;
+	}
+
+	.no-touch #site-navigation > div a:hover {
+		background-color: #ffffff;
+	}
+}
+
+.site-footer {
+	background: #000000;
+}
+
+.site-footer,
+.site-footer a {
+	color: #ffffff;
+}
+
+.site-footer a {
+	border-bottom-color: rgba(255,255,255, 0.4);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+mark,
+del,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+#outspoken-gallery-fullscreen .meta,
+#outspoken-gallery-fullscreen .meta a,
+body.single .entry-title,
+body.archive .entry-title,
+body.search .entry-title,
+body.page .entry-title,
+.portfolio-info h1,
+.portfolio-info .category span,
+.portfolio-info .description,
+.portfolio-info .description-content span,
+body.wpshower-blog .entry-title,
+body.wpshower-masonry .entry-title,
+.no-touch .navigation.post-navigation a:hover span,
+.archive-title,
+.page-title,
+.widget .widget-title,
+.bullets span.current,
+.full_width_bullets span.current,
+.no-touch .widget_wpshower_tabs .tabs a.active:hover,
+.widget_wpshower_recent_comments > ul > li > div,
+.widget-title > a {
+	color: #444444;
+}
+
+.site-header .searchform [type="text"],
+.share-side > div .share-links a span,
+.widget_wpshower_follow_us a span {
+	background: #444444;
+}
+
+#search-toggle .pointer {
+	border-top-color: #444444;
+}
+
+@media (min-width: 951px) {
+	#section-navigation > div > ul > li.submenu-active > a,
+	#section-navigation > div > ul > li > ul a {
+		background: #444444;
+	}
+}
+
+@media (max-width: 640px) {
+	.outspoken-gallery h2 a {
+		color: #444444;
+	}
+}
+
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+.home-link h2,
+body.archive .entry-content,
+body.search .entry-content,
+.entry-summary,
+.entry-media,
+.archives-template li,
+.sitemap li,
+.entry-content .tags .column div,
+.portfolio-info .site,
+.load-more,
+.load-more a,
+#infscr-loading,
+.widget {
+	color: #6b6b6b;
+}
+
+@media (max-width: 640px) {
+	.outspoken-gallery .meta,
+	.outspoken-gallery .meta a {
+		color: #6b6b6b;
+	}
+}
+
+a,
+.entry-content a,
+.entry-summary a,
+.page-content a,
+.comment-content a {
+	color: #444444;
+}
+
+.entry-content a,
+.entry-summary a,
+.page-content a,
+.comment-content a {
+	border-bottom-color: rgba(68,68,68, 0.4);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+	border-color: #969696;
+	box-shadow: 0px 0px 0px 4px rgba(150,150,150, 0.07);
+	-webkit-box-shadow: 0px 0px 0px 4px rgba(150,150,150, 0.07);
+	-moz-box-shadow: 0px 0px 0px 4px rgba(150,150,150, 0.07);
+}
+
+.no-touch .outspoken-gallery .prev:hover,
+.no-touch .outspoken-gallery .next:hover,
+.no-touch .outspoken-gallery .expand:hover,
+.no-touch #outspoken-gallery-contract:hover {
+	background: #969696;
+}
+
+.widget_wpshower_index_videos .content span.current:after {
+	background: rgba(150,150,150, 0.5);
+}
+
+.no-touch a:hover,
+.no-touch .widget .outspoken-error a:hover,
+#search-toggle .social a:hover,
+.no-touch #section-navigation a:hover,
+.no-touch .outspoken-gallery .meta a:hover,
+.no-touch .outspoken-gallery h2 a:hover,
+#outspoken-gallery-fullscreen .meta a:hover,
+.no-touch body.single .entry-meta-top a:hover,
+.no-touch body.archive .entry-meta-top a:hover,
+.no-touch body.search .entry-meta-top a:hover,
+.no-touch body.single .entry-meta a:hover,
+.no-touch body.single .entry-meta:hover a:hover,
+.no-touch body.archive .entry-meta a:hover,
+.no-touch body.archive .entry-meta:hover a:hover,
+.no-touch body.search .entry-meta a:hover,
+.no-touch body.search .entry-meta:hover a:hover,
+.no-touch .share-side > a:hover,
+.no-touch .share-side > div:hover .share-content,
+.share-side > div.hover .share-content,
+#main .me-cannotplay a,
+#contact-us .error,
+.no-touch .portfolio-info .meta a:hover,
+.no-touch body.wpshower-blog .entry-meta-top a:hover,
+.no-touch body.wpshower-blog .entry-meta a:hover,
+.no-touch body.wpshower-blog .entry-meta:hover a:hover,
+.no-touch body.wpshower-masonry .entry-meta-top a:hover,
+.no-touch body.wpshower-masonry .entry-meta a:hover,
+.no-touch body.wpshower-masonry .entry-meta:hover a:hover,
+.no-touch .navigation a:hover .meta-nav,
+.no-touch .post-navigation a:hover span.arrow,
+.no-touch .comment-metadata a:hover,
+.no-touch .logged-in-as a:hover,
+.no-touch .bullets span:hover,
+.no-touch .full_width_bullets span:hover,
+.no-touch .widget-title > a:hover,
+.no-touch .widget-title > a:not([class]):hover:after,
+.no-touch .widget_wpshower_popular_posts .meta a:hover,
+.no-touch .widget_wpshower_index_featured_articles article .meta a:hover,
+.no-touch .widget_wpshower_index_highlights li article .meta a:hover,
+.no-touch .widget_wpshower_index_highlights .latest .meta a:hover,
+.no-touch .widget_wpshower_index_highlights .latest a:hover,
+.no-touch .widget_wpshower_index_category .meta a:hover,
+.no-touch .widget_wpshower_index_editors_choice article .meta a:hover,
+.no-touch .widget_wpshower_index_categories .meta a:hover,
+.no-touch .widget_wpshower_index_two_categories .meta a:hover,
+.no-touch .widget_wpshower_index_videos .meta a:hover,
+.no-touch .widget_wpshower_index_latest_entries .meta-top a:hover,
+.no-touch .widget_wpshower_index_latest_entries .meta a:hover,
+.no-touch .site-footer a:hover {
+	color: #969696;
+}
+
+.no-touch .site-footer a:hover {
+	border-bottom-color: rgba(150,150,150, 0.4);
+}
+
+.no-touch button:hover,
+button:focus,
+.no-touch input[type="submit"]:hover,
+.no-touch input[type="button"]:hover,
+.no-touch input[type="reset"]:hover,
+input[type="submit"]:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+button:active,
+input[type="submit"]:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+.no-touch .entry-content .tags-links a:hover,
+.no-touch .portfolio-info .site:hover,
+.no-touch .load-more:hover,
+.no-touch .comment-list article .reply div:hover,
+.no-touch .tagcloud a:hover {
+	background-color: #969696;
+	border-color: #969696;
+}
+
+.no-touch .share-side > div .share-links a:hover span,
+#main .mejs-controls .mejs-time-rail .mejs-time-current,
+.no-touch .widget .widget-title .prev:hover,
+.no-touch .widget .widget-title .next:hover,
+.no-touch .widget_wpshower_follow_us a:hover span,
+.no-touch .widget_wpshower_tabs .tabs a:hover,
+.no-touch .widget_wpshower_index_videos div.prev div:hover,
+.no-touch .widget_wpshower_index_videos div.next div:hover {
+	background-color: #969696;
+}
+
+.no-touch .entry-content a:hover,
+.no-touch .entry-summary a:hover,
+.no-touch .page-content a:hover,
+.no-touch .comment-content a:hover {
+	color: #969696;
+	border-bottom-color: rgba(150,150,150, 0.4);
+}
+
+@media (min-width: 951px) {
+	.no-touch #section-navigation > div > ul > li > ul a:hover {
+		background: #969696;
+	}
+}
+
+@media (max-width: 950px) {
+	.no-touch #section-navigation > div > ul li.submenu-off > a:hover:after {
+		color: #969696;
+	}
+
+	.no-touch #section-toggle:hover span {
+		background-color: #969696;
+	}
+}
+
+@media (max-width: 640px) {
+	.no-touch #section-navigation a:hover {
+		background: #969696;
+		border-right-color: #969696;
+		border-left-color: #969696;
+	}
+}
+
+::-webkit-input-placeholder {
+	color: #969696;
+}
+
+:-moz-placeholder {
+	color: #969696;
+}
+
+::-moz-placeholder {
+	color: #969696;
+}
+
+:-ms-input-placeholder {
+	color: #969696;
+}
+
+.wp-caption .wp-caption-text,
+.entry-caption,
+.gallery-caption,
+.entry-content .tags-links a,
+body.single .entry-meta-top,
+body.single .entry-meta-top a,
+body.archive .entry-meta-top,
+body.search .entry-meta-top,
+body.archive .entry-meta-top a,
+body.search .entry-meta-top a,
+body.single .entry-meta,
+body.single .entry-meta a,
+body.archive .entry-meta,
+body.search .entry-meta,
+body.archive .entry-meta a,
+body.search .entry-meta a,
+.share-side > a,
+.share-side > div .share-content,
+.portfolio-item .meta,
+.portfolio-info .meta,
+.portfolio-info .meta a,
+.portfolio-info .category,
+body.wpshower-blog .entry-meta-top,
+body.wpshower-blog .entry-meta-top a,
+body.wpshower-blog .entry-meta,
+body.wpshower-blog .entry-meta a,
+body.wpshower-masonry .entry-meta-top,
+body.wpshower-masonry .entry-meta-top a,
+body.wpshower-masonry .entry-meta,
+body.wpshower-masonry .entry-meta a,
+.nav-links .total,
+.paging-navigation a .meta-nav,
+.comment-navigation a .meta-nav,
+.image-navigation a .meta-nav,
+.post-navigation a .arrow,
+.author-bio,
+.archive-meta,
+.reply a,
+.comment-metadata a,
+.comment-metadata .separator,
+.comment-awaiting-moderation,
+.logged-in-as a,
+.searchform-wrapper .icon,
+.widget_archive > ul > li,
+.widget_categories > ul > li,
+.widget_wpshower_popular_posts .meta,
+.widget_wpshower_popular_posts .meta a,
+.widget_wpshower_twitter > ul > li .meta,
+.widget_wpshower_recent_comments > ul > li > div .meta,
+.widget_wpshower_recent_comments > ul > li > div > span,
+.tagcloud a,
+.widget_wpshower_index_featured_articles article .meta,
+.widget_wpshower_index_featured_articles article .meta a,
+.widget_wpshower_index_highlights li article .meta,
+.widget_wpshower_index_highlights li article .meta a,
+.widget_wpshower_index_highlights .latest .meta,
+.widget_wpshower_index_highlights .latest .meta a,
+.widget_wpshower_index_category .widget-title span a.current,
+.widget_wpshower_index_category .meta,
+.widget_wpshower_index_category .meta a,
+.widget_wpshower_index_editors_choice article .meta,
+.widget_wpshower_index_editors_choice article .meta a,
+.widget_wpshower_index_categories .meta,
+.widget_wpshower_index_categories .meta a,
+.widget_wpshower_index_two_categories .meta,
+.widget_wpshower_index_two_categories .meta a,
+.widget_wpshower_index_videos .meta,
+.widget_wpshower_index_videos .meta a,
+.widget_wpshower_index_latest_entries .meta-top,
+.widget_wpshower_index_latest_entries .meta-top a,
+.widget_wpshower_index_latest_entries .meta,
+.widget_wpshower_index_latest_entries .meta a {
+	color: #969696;
+}
+</style>
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='outspoken-ie-css'  href='http://www.ubuntizando.com/wp-content/themes/outspoken/css/ie.css?ver=2014-05-05' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='mediaelement-css'  href='http://www.ubuntizando.com/wp-includes/js/mediaelement/mediaelementplayer.min.css?ver=2.18.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://www.ubuntizando.com/wp-includes/js/mediaelement/wp-mediaelement.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='author-avatars-widget-css'  href='http://www.ubuntizando.com/wp-content/plugins/author-avatars/css/widget.css?ver=1.9.5' type='text/css' media='all' />
+<link rel='stylesheet' id='author-avatars-shortcode-css'  href='http://www.ubuntizando.com/wp-content/plugins/author-avatars/css/shortcode.css?ver=1.9.5' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://www.ubuntizando.com/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='http://www.ubuntizando.com/wp-content/plugins/jetpack/css/jetpack.css?ver=3.9.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js?ver=1.7.2'></script>
+<script type='text/javascript' src='http://www.ubuntizando.com/wp-content/plugins/jetpack/modules/related-posts/related-posts.js?ver=20150408'></script>
+<script type='text/javascript' src='http://www.ubuntizando.com/wp-content/themes/outspoken/js/apple_viewportmeta.js?ver=2013-11-11'></script>
+<link rel='https://api.w.org/' href='http://www.ubuntizando.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.ubuntizando.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.ubuntizando.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<link rel='shortlink' href='http://wp.me/p29GxM-3Df' />
+<link rel="alternate" type="application/json+oembed" href="http://www.ubuntizando.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.ubuntizando.com%2F2016%2F02%2F08%2Fconvierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.ubuntizando.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.ubuntizando.com%2F2016%2F02%2F08%2Fconvierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os%2F&#038;format=xml" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.ubuntizando.com/wp-content/plugins/cookiescontrol-master/css/cookiescontrol-plugin.css" />        
+        <!--custom styling set through the admin panel-->
+                <style>
+        #cookie-allow {
+			  background-color:white;
+			  color:black;
+			  bottom:0;
+		}
+		#cookie-allow a.allow {
+			  color:black;
+		 }
+		#cookie-allow a.allow {
+			   background-color:green;
+			   border:solid 1px grey;
+		   }
+		   #cookie-allow a.cookiemore {
+			   background-color:black;
+			   border:solid 1px grey;
+			   
+		   }
+		    #cookie-allow a.cookiemore {
+			  color:grey;
+		 }
+		</style>
+        
+		<script charset="utf-8" type="text/javascript">var switchTo5x=false;</script><script charset="utf-8" type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script charset="utf-8" type="text/javascript">stLight.options({publisher:"e420e2fe-f9c4-459b-98d3-3e342bbb32da" , doNotCopy: true, hashAddressBar: false, doNotHash: true});var st_type='wordpress3.8';</script>
+<!-- Simple Google Analytics Begin -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount','UA-8884392-2']);
+_gaq.push(['_trackPageLoadTime']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<!-- Simple Google Analytics End -->
+
+<link rel='dns-prefetch' href='//i0.wp.com'>
+<link rel='dns-prefetch' href='//i1.wp.com'>
+<link rel='dns-prefetch' href='//i2.wp.com'>
+<style type='text/css'>img#wpstats{display:none}</style></head>
+
+<body class="single single-post postid-13965 single-format-standard sidebar">
+
+
+<!---mobusi--->
+<script language="javascript" type="text/javascript">
+document.write("<scr"+"ipt language=javascript  type=text/javascript src=http://codead.dajusepe.com/iw.php?canal=8485&f=1&tm=468x60&lgid="+new Date().getTime()+"></scr"+"ipt>");
+</script>
+<!--- END mobusi--->
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header" role="banner">
+			<form role="search" method="get" class="searchform" action="http://www.ubuntizando.com/">
+	<div class="searchform-wrapper">
+		<label><span class="screen-reader-text">Buscar por:</span>
+			<input type="text" placeholder="Escriba y pulse enter" value="" name="s" title="Buscar por:" />
+			<span class="icon">s</span>
+		</label>
+		<input type="submit" class="searchsubmit" value="" />
+	</div>
+</form>
+			<div id="navbar" class="navbar">
+				<div id="search-toggle">
+					<span class="social"><a href="http://www.facebook.com/pages/Ubuntizando-el-planeta/213874956464" class="external" rel="nofollow">f</a></span>
+					<span class="social"><a href="https://plus.google.com/114953613195216825638/posts" class="external" rel="nofollow">g</a></span>
+					<span class="social"><a href="http://twitter.com/ubuntizando" class="external" rel="nofollow">w</a></span>
+					<span class="social"><a href="http://www.youtube.com/user/ubuntizando" class="external" rel="nofollow">y</a></span>
+					<span class="social"><a href="http://feeds.feedburner.com/UbuntizandoElPlaneta" class="external" rel="nofollow">e</a></span>
+					<span class="icon">s</span>
+					<span class="pointer"></span>
+				</div>
+				<h3 class="menu-toggle">m</h3>
+				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
+					<a class="screen-reader-text skip-link" href="#content" title="Ir a la página">Ir a la página</a>
+					<div class="menu-top-menu-container"><ul id="menu-top-menu" class="nav-menu"><li id="menu-item-1825" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1825"><a title="Inicio" href="http://www.ubuntizando.com">Inicio</a></li>
+<li id="menu-item-1820" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1820"><a title="La plantilla de Ubuntizando, conócenos. " href="http://www.ubuntizando.com/staff/">Staff</a></li>
+<li id="menu-item-1824" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1824"><a title="Ayúdanos, colabora con nosotros enviando tu noticia o nota." href="http://www.ubuntizando.com/ayudanos/">Ayúdanos</a></li>
+<li id="menu-item-1826" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1826"><a title="Escríbenos " href="http://www.ubuntizando.com/contacto/">Contacto</a></li>
+<li id="menu-item-6703" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6703"><a href="http://www.ubuntizando.com/publicidad/">Publicidad</a></li>
+</ul></div>				</nav><!-- #site-navigation -->
+			</div><!-- #navbar -->
+			<div id="site-header-container">
+				<div class="site-title">
+					<div class="home-link">
+						<a href="http://www.ubuntizando.com/" title="Ubuntizando.com" rel="home">
+							<img src="http://www.ubuntizando.com/wp-content/uploads/2014/07/logo-header.png" alt="Ubuntizando.com" title="Ubuntizando.com" />
+						</a>
+					</div>
+				</div>
+				<div id="header-banner">
+					<br>
+
+ <script type="text/javascript"><!--
+google_ad_client = "ca-pub-7736886954484996";
+/* 468x60, creado 8/03/11 */
+google_ad_slot = "3703116996";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script> 				</div>
+			</div>
+
+			<div id="section-toggle">Secciones<span></span></div>
+			<div id="section-navigation">
+				<div class="menu-navigation-container"><ul id="menu-navigation" class="nav-menu"><li id="menu-item-5182" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children submenu-off menu-item-5182"><a title="noticias" href="http://www.ubuntizando.com/category/noticia/"><span>Noticias</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-5181" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5181"><a title="open source" href="http://www.ubuntizando.com/category/open-source/"><span>Open source</span></a></li>
+	<li id="menu-item-1863" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1863"><a title="software libre" href="http://www.ubuntizando.com/category/software-libre/"><span>Software libre</span></a></li>
+</ul>
+</li>
+<li id="menu-item-1862" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children submenu-off menu-item-1862"><a title="linux" href="http://www.ubuntizando.com/category/linux/"><span>GNU/Linux</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-1867" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1867"><a title="debian" href="http://www.ubuntizando.com/category/linux/debian/"><span>Debian</span></a></li>
+	<li id="menu-item-1861" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children submenu-off menu-item-1861"><a href="http://www.ubuntizando.com/category/linux/ubuntu/"><span>Ubuntu</span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-12556" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12556"><a href="http://www.ubuntizando.com/category/smartphone/ubuntu-phone/"><span>Ubuntu phone</span></a></li>
+	</ul>
+</li>
+	<li id="menu-item-1868" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1868"><a title="mint" href="http://www.ubuntizando.com/category/linux/mint/"><span>Linux Mint</span></a></li>
+	<li id="menu-item-1865" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1865"><a title="fedora" href="http://www.ubuntizando.com/category/linux/fedora/"><span>Fedora</span></a></li>
+</ul>
+</li>
+<li id="menu-item-12554" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children submenu-off menu-item-12554"><a href="http://www.ubuntizando.com/category/hardware/"><span>Hardware</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-12559" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12559"><a href="http://www.ubuntizando.com/category/tablet/"><span>Tablets</span></a></li>
+	<li id="menu-item-12555" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12555"><a href="http://www.ubuntizando.com/category/smartphone/"><span>Smartphone</span></a></li>
+</ul>
+</li>
+<li id="menu-item-1910" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1910"><a title="android" href="http://www.ubuntizando.com/category/android/"><span>Android</span></a></li>
+<li id="menu-item-2349" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2349"><a title="tutoriales" href="http://www.ubuntizando.com/category/tutorial/"><span>Tutoriales</span></a></li>
+<li id="menu-item-1873" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1873"><a title="juegos" href="http://www.ubuntizando.com/category/juegos/"><span>Juegos</span></a></li>
+<li id="menu-item-7456" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7456"><a href="http://www.ubuntizando.com/category/offtopic/"><span>Offtopic</span></a></li>
+<li id="menu-item-12558" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12558"><a href="http://www.ubuntizando.com/category/descarga/"><span>Descargas</span></a></li>
+<li id="menu-item-12560" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12560"><a href="http://www.ubuntizando.com/category/wallpaper/"><span>Wallpapers</span></a></li>
+</ul></div>			</div>
+		</header><!-- #masthead -->
+
+			<nav class="navigation post-navigation" role="navigation">
+		<h1 class="screen-reader-text">Navegación de entradas</h1>
+		<div class="nav-previous">
+			<a href="http://www.ubuntizando.com/2016/02/02/probamos-g2-mini-pc-e-instalamos-linux-64bits-efi-32/" rel="prev"><span class="arrow">&lt;</span><span class="meta-nav">Probamos un G2 Mini PC e instalamos Linux 64bits en EFI 32</span></a>		</div>
+		<div class="nav-next">
+			<a href="http://www.ubuntizando.com/2016/02/09/cloudspectator-publica-informe-ranking-mejores-proveedores-servicios-la-nube/" rel="next"><span class="meta-nav">Cloudspectator publica su informe con su ranking de mejores proveedores de servicios en la nube</span><span class="arrow">&gt;</span></a>		</div>
+	</nav><!-- .navigation -->
+	
+		<div id="main" class="site-main">
+
+
+
+		
+
+	<div class="share-side-helper"></div>
+	<div class="share-side">
+		<a class="fb" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.ubuntizando.com%2F2016%2F02%2F08%2Fconvierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os%2F&t=Convierte+tu+Android+en+un+PC+con+Debian+GNU%2FLinux+al+conectar+un+monitor+con+Maru+OS">f</a>
+		<a class="tw" href="http://twitter.com/share?text=Convierte+tu+Android+en+un+PC+con+Debian+GNU%2FLinux+al+conectar+un+monitor+con+Maru+OS&url=http%3A%2F%2Fwww.ubuntizando.com%2F2016%2F02%2F08%2Fconvierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os%2F">w</a>
+		<div>
+			<div class="share-content">h</div>
+			<div class="share-links">
+				<div class="border-fix"></div>
+				<a class="fb" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.ubuntizando.com%2F2016%2F02%2F08%2Fconvierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os%2F&t=Convierte+tu+Android+en+un+PC+con+Debian+GNU%2FLinux+al+conectar+un+monitor+con+Maru+OS"><span>f</span>Facebook</a>
+				<a class="tw" href="http://twitter.com/share?text=Convierte+tu+Android+en+un+PC+con+Debian+GNU%2FLinux+al+conectar+un+monitor+con+Maru+OS&url=http%3A%2F%2Fwww.ubuntizando.com%2F2016%2F02%2F08%2Fconvierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os%2F"><span>w</span>Twitter</a>
+				<a class="g external" href="https://plus.google.com/share?url=http%3A%2F%2Fwww.ubuntizando.com%2F2016%2F02%2F08%2Fconvierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os%2F" rel="nofollow"><span>g</span>Google+</a>
+				<a class="pint" href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.ubuntizando.com%2F2016%2F02%2F08%2Fconvierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os%2F&media=http%3A%2F%2Fi0.wp.com%2Fwww.ubuntizando.com%2Fwp-content%2Fuploads%2F2016%2F02%2F1366_2000.jpg%3Fresize%3D436%252C291&description=Convierte+tu+Android+en+un+PC+con+Debian+GNU%2FLinux+al+conectar+un+monitor+con+Maru+OS"><span>p</span>Pinterest</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="primary" class="content-area">
+	<div id="content" class="site-content" role="main">
+
+		<article id="post-13965" class="post-13965 post type-post status-publish format-standard has-post-thumbnail hentry category-android category-debian tag-android tag-debian tag-maru-os tag-nexus">
+
+			<header class="entry-header">
+				<div class="entry-meta-top">
+					<span class="categories-links"><a href="http://www.ubuntizando.com/category/android/" rel="category tag">android</a>, <a href="http://www.ubuntizando.com/category/linux/debian/" rel="category tag">debian</a></span>				</div><!-- .entry-meta -->
+
+				<h1 class="entry-title">Convierte tu Android en un PC con Debian GNU/Linux al conectar un monitor con Maru OS</h1>
+
+				<div class="entry-meta">
+					<span class="author vcard"><a class="url fn n" href="http://www.ubuntizando.com/author/miguel_parada/" title="Ver todas las entradas de Miguel Parada" rel="author">Miguel Parada</a></span><span class="separator">el</span><span class="date"><a href="http://www.ubuntizando.com/2016/02/08/convierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os/" title="Enlace permanente a Convierte tu Android en un PC con Debian GNU/Linux al conectar un monitor con Maru OS" rel="bookmark"><time class="entry-date" datetime="2016-02-08T10:27:00+00:00">8 febrero, 2016</time></a></span><span class="separator">/</span><span class="leave-reply"><a href="http://www.ubuntizando.com/2016/02/08/convierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os/#comments"><span class="dsq-postid" data-dsqidentifier="13965 http://www.ubuntizando.com/?p=13965">2 comentarios</span></a></span>				</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+			<div class="entry-content">
+				<p><img class="aligncenter size-large wp-image-13966" src="http://i0.wp.com/www.ubuntizando.com/wp-content/uploads/2016/02/1366_2000.jpg?resize=951%2C535" alt="maru" srcset="http://i0.wp.com/www.ubuntizando.com/wp-content/uploads/2016/02/1366_2000.jpg?resize=300%2C169 300w, http://i0.wp.com/www.ubuntizando.com/wp-content/uploads/2016/02/1366_2000.jpg?resize=768%2C432 768w, http://i0.wp.com/www.ubuntizando.com/wp-content/uploads/2016/02/1366_2000.jpg?resize=1024%2C576 1024w, http://i0.wp.com/www.ubuntizando.com/wp-content/uploads/2016/02/1366_2000.jpg?resize=600%2C337 600w, http://i0.wp.com/www.ubuntizando.com/wp-content/uploads/2016/02/1366_2000.jpg?resize=436%2C245 436w, http://i0.wp.com/www.ubuntizando.com/wp-content/uploads/2016/02/1366_2000.jpg?resize=951%2C535 951w, http://i0.wp.com/www.ubuntizando.com/wp-content/uploads/2016/02/1366_2000.jpg?w=1366 1366w" sizes="(max-width: 951px) 100vw, 951px" data-recalc-dims="1" /></p>
+<p>Ahora que disfrutamos de más potencia en nuestras tablets y teléfonos inteligentes se ve mas necesaria la llegada de soluciones como la planteada por <a href="http://maruos.com/" target="_blank" class="external" rel="nofollow">Maru OS</a>. Se trata de una ROM que permite disfrutar de Android en la pantalla de tu móvil, Debian en la pantalla de tu monitor sin cambiar de dispositivo.</p>
+<p>Con Maru OS conectamos nuestro smartphone a una pantalla mediante un conector HDMI e inmediatamente tendremos un escritorio funcional donde trabajar, instalar aplicaciones, etc. Si estás pensando en llevarte el trabajo a casa, Maru te lo pone fácil. Ahora bien por el momento la ROM solo se encuentra disponible para Nexus 5 mediante un <a href="http://maruos.com/" target="_blank" class="external" rel="nofollow">sistema de invitación</a>. La razón es que Maru OS se encuentra en fase beta.</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Compártelo:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-13965" class="share-twitter sd-button share-icon no-text" href="http://www.ubuntizando.com/2016/02/08/convierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os/?share=twitter" target="_blank" title="Haz clic para compartir en Twitter"><span></span><span class="sharing-screen-reader-text">Haz clic para compartir en Twitter (Se abre en una ventana nueva)</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-13965" class="share-facebook sd-button share-icon no-text" href="http://www.ubuntizando.com/2016/02/08/convierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os/?share=facebook" target="_blank" title="Haz clic para compartir en Facebook"><span></span><span class="sharing-screen-reader-text">Haz clic para compartir en Facebook (Se abre en una ventana nueva)</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-13965" class="share-google-plus-1 sd-button share-icon no-text" href="http://www.ubuntizando.com/2016/02/08/convierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os/?share=google-plus-1" target="_blank" title="Haz clic para compartir en Google+"><span></span><span class="sharing-screen-reader-text">Haz clic para compartir en Google+ (Se abre en una ventana nueva)</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Relacionado</em></h3>
+</div>				<div class="tags-links">Etiquetas: <a href="http://www.ubuntizando.com/tag/android/" rel="tag">android</a> <a href="http://www.ubuntizando.com/tag/debian/" rel="tag">debian</a> <a href="http://www.ubuntizando.com/tag/maru-os/" rel="tag">maru os</a> <a href="http://www.ubuntizando.com/tag/nexus/" rel="tag">nexus</a></div>							</div><!-- .entry-content -->
+
+			
+	<div class="share">
+		<div class="text">Comparte este post:</div>
+		<div class="g">
+			<!-- Place this tag where you want the +1 button to render. -->
+			<div class="g-plusone" data-size="medium"></div>
+			<!-- Place this tag after the last +1 button tag. -->
+			<script type="text/javascript">
+			  (function() {
+				var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+				po.src = 'https://apis.google.com/js/platform.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+			  })();
+			</script>
+		</div>
+		<div class="fb">
+			<div class="fb-like" data-href="http%3A%2F%2Fwww.ubuntizando.com%2F2016%2F02%2F08%2Fconvierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os%2F" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+		</div>
+		<div class="tw">
+			<a href="https://twitter.com/share" class="twitter-share-button external" data-via="twitterapi" data-lang="en" rel="nofollow">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+	</div>
+
+	
+			<footer class="author-meta">
+				
+<div class="author-info">
+	<div class="author-avatar">
+		<img alt='Miguel Parada' src='http://www.ubuntizando.com/wp-content/uploads/2013/07/Miguel-Parada_avatar_1372692126-74x74.png' class='avatar avatar-74 photo' height='74' width='74' />	</div><!-- .author-avatar -->
+	<div class="author-description">
+		<h2 class="author-title">Acerca de Miguel Parada</h2>
+		<p class="author-bio">
+			Gafapasta, ideólogo, ex-informático y estudiante de psicología en la intimidad. También cocino :)			<a class="author-link" href="http://www.ubuntizando.com/author/miguel_parada/" rel="author">
+				Ver todas las publicaciones de Miguel Parada <span class="meta-nav">&rarr;</span>			</a>
+		</p>
+	</div><!-- .author-description -->
+</div><!-- .author-info -->
+			</footer><!-- .author-meta -->
+
+		</article><!-- #post -->
+
+		<div class="widget-area">
+			<!-- <aside class="widget wpshower-more-like-this">
+	<h3 class="widget-title">Te podría gustar</h3>
+	<ul>		<li>
+			<article>
+					<a href="http://www.ubuntizando.com/2016/02/09/reparar-los-pixeles-muertos-monitor-la-pantalla-movil/"><img src="http://i2.wp.com/www.ubuntizando.com/wp-content/uploads/2016/02/140110054933319566.jpg?resize=436%2C291" alt="" /></a>
+					<h2><a href="http://www.ubuntizando.com/2016/02/09/reparar-los-pixeles-muertos-monitor-la-pantalla-movil/">¿Cómo reparar los pixeles muertos de tu monitor o la pantalla de tu móvil?</a></h2>
+			</article>
+		</li>
+		<li>
+			<article>
+					<a href="http://www.ubuntizando.com/2016/01/04/liberado-deepin-15/"><img src="http://i0.wp.com/www.ubuntizando.com/wp-content/uploads/2016/01/deepin-15.jpg?resize=436%2C291" alt="" /></a>
+					<h2><a href="http://www.ubuntizando.com/2016/01/04/liberado-deepin-15/">Liberado Deepin 15</a></h2>
+			</article>
+		</li>
+		<li>
+			<article>
+					<a href="http://www.ubuntizando.com/2016/01/04/gravity-juegazo-epico-smartphone/"><img src="http://i0.wp.com/www.ubuntizando.com/wp-content/uploads/2016/01/imagen-interna-1024x512.jpg?resize=436%2C291" alt="" /></a>
+					<h2><a href="http://www.ubuntizando.com/2016/01/04/gravity-juegazo-epico-smartphone/">Gravity, un juegazo épico para nuestro smartphone</a></h2>
+			</article>
+		</li>
+</ul>
+</aside>
+ -->
+			<!--  SCRIPT ADDOR -->
+
+<!-- www.ubuntizando.com/nativo -->
+<div class="addoor-widget" id="addoor-widget-243"></div>
+<script type="text/javascript" src="//pubtags.addoor.net/lib/contags/contags.js"></script>
+<!--  SCRIPT ADDOR  END -->
+
+		</div>
+
+
+
+		
+<div id="disqus_thread">
+            <div id="dsq-content">
+
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-5830">
+        <div id="dsq-comment-header-5830" class="dsq-comment-header">
+            <cite id="dsq-cite-5830">
+http://lamiradadelreplicante.com/                <span id="dsq-author-user-5830">tannhausser</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-5830" class="dsq-comment-body">
+            <div id="dsq-comment-message-5830" class="dsq-comment-message"><p>Interesante la iniciativa! </p>
+<p>Ahora falta que lo extiendan a otros dispositivos.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-5831">
+        <div id="dsq-comment-header-5831" class="dsq-comment-header">
+            <cite id="dsq-cite-5831">
+                <span id="dsq-author-user-5831">Miguel Parada</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-5831" class="dsq-comment-body">
+            <div id="dsq-comment-message-5831" class="dsq-comment-message"><p>pues sí. sería muy interesante ver esta y otras iniciativas además de que Google no ponga demasiados obstaculos.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+            </ul>
+
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+var disqus_url = 'http://www.ubuntizando.com/2016/02/08/convierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os/';
+var disqus_identifier = '13965 http://www.ubuntizando.com/?p=13965';
+var disqus_container_id = 'disqus_thread';
+var disqus_shortname = 'ubuntizandoelplaneta';
+var disqus_title = "Convierte tu Android en un PC con Debian GNU\/Linux al conectar un monitor con Maru OS";
+var disqus_config_custom = window.disqus_config;
+var disqus_config = function () {
+    /*
+    All currently supported events:
+    onReady: fires when everything is ready,
+    onNewComment: fires when a new comment is posted,
+    onIdentify: fires when user is authenticated
+    */
+    
+    
+    this.language = '';
+        this.callbacks.onReady.push(function () {
+
+        // sync comments in the background so we don't block the page
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = '?cf_action=sync_comments&post_id=13965';
+
+        var firstScript = document.getElementsByTagName('script')[0];
+        firstScript.parentNode.insertBefore(script, firstScript);
+    });
+    
+    if (disqus_config_custom) {
+        disqus_config_custom.call(this);
+    }
+};
+
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+
+
+
+	</div><!-- #content -->
+</div><!-- #primary -->
+
+<div id="tertiary" class="sidebar-container" role="complementary">
+	<div class="sidebar-inner">
+		<div class="widget-area">
+			<aside id="wpshower_ad-3" class="widget widget_wpshower_ad">
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-7736886954484996";
+google_ad_slot = "8616858036";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.c
+om/pagead/show_ads.js">
+</script>
+
+</aside><aside id="wpshower_popular_posts-5" class="widget widget_wpshower_popular_posts"><h6 class="widget-title">Posts Populares</h6>
+		<ul>
+					<li>
+							<div class="thumbnail">
+					<a href="http://www.ubuntizando.com/2016/01/22/truco-recuperar-nuestra-contrasena-de-usuario-desde-terminal/"><img src="http://i0.wp.com/www.ubuntizando.com/wp-content/uploads/2013/06/Terminal.png?resize=436%2C291" alt="Truco: Recuperar nuestra contraseña de usuario desde terminal" title="Truco: Recuperar nuestra contraseña de usuario desde terminal" /></a>
+				</div>
+							<div  class="thumbnail_fix">
+					<div class="meta"><span class="date"><a href="http://www.ubuntizando.com/2016/01/22/truco-recuperar-nuestra-contrasena-de-usuario-desde-terminal/" title="Enlace permanente a Truco: Recuperar nuestra contraseña de usuario desde terminal" rel="bookmark"><time class="entry-date" datetime="2016-01-22T01:27:08+00:00">22 enero, 2016</time></a></span></div>
+					<h4><a href="http://www.ubuntizando.com/2016/01/22/truco-recuperar-nuestra-contrasena-de-usuario-desde-terminal/">Truco: Recuperar nuestra contraseña de usuario desde terminal</a></h4>
+				</div>
+			</li>
+					<li>
+							<div class="thumbnail">
+					<a href="http://www.ubuntizando.com/2016/02/12/agregando-global-menu-elementary-os-freya/"><img src="http://i0.wp.com/www.ubuntizando.com/wp-content/uploads/2016/02/Captura-de-pantalla-de-2016-02-07-053449.png?resize=436%2C291" alt="Agregando el global menu en Elementary OS Freya" title="Agregando el global menu en Elementary OS Freya" /></a>
+				</div>
+							<div  class="thumbnail_fix">
+					<div class="meta"><span class="date"><a href="http://www.ubuntizando.com/2016/02/12/agregando-global-menu-elementary-os-freya/" title="Enlace permanente a Agregando el global menu en Elementary OS Freya" rel="bookmark"><time class="entry-date" datetime="2016-02-12T12:35:04+00:00">12 febrero, 2016</time></a></span></div>
+					<h4><a href="http://www.ubuntizando.com/2016/02/12/agregando-global-menu-elementary-os-freya/">Agregando el global menu en Elementary OS Freya</a></h4>
+				</div>
+			</li>
+					<li>
+							<div class="thumbnail">
+					<a href="http://www.ubuntizando.com/2016/02/09/reparar-los-pixeles-muertos-monitor-la-pantalla-movil/"><img src="http://i2.wp.com/www.ubuntizando.com/wp-content/uploads/2016/02/140110054933319566.jpg?resize=436%2C291" alt="¿Cómo reparar los pixeles muertos de tu monitor o la pantalla de tu móvil?" title="¿Cómo reparar los pixeles muertos de tu monitor o la pantalla de tu móvil?" /></a>
+				</div>
+							<div  class="thumbnail_fix">
+					<div class="meta"><span class="date"><a href="http://www.ubuntizando.com/2016/02/09/reparar-los-pixeles-muertos-monitor-la-pantalla-movil/" title="Enlace permanente a ¿Cómo reparar los pixeles muertos de tu monitor o la pantalla de tu móvil?" rel="bookmark"><time class="entry-date" datetime="2016-02-09T13:30:14+00:00">9 febrero, 2016</time></a></span></div>
+					<h4><a href="http://www.ubuntizando.com/2016/02/09/reparar-los-pixeles-muertos-monitor-la-pantalla-movil/">¿Cómo reparar los pixeles muertos de tu monitor o la pantalla de tu móvil?</a></h4>
+				</div>
+			</li>
+					<li>
+							<div class="thumbnail">
+					<a href="http://www.ubuntizando.com/2016/02/08/convierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os/"><img src="http://i0.wp.com/www.ubuntizando.com/wp-content/uploads/2016/02/1366_2000.jpg?resize=436%2C291" alt="Convierte tu Android en un PC con Debian GNU/Linux al conectar un monitor con Maru OS" title="Convierte tu Android en un PC con Debian GNU/Linux al conectar un monitor con Maru OS" /></a>
+				</div>
+							<div  class="thumbnail_fix">
+					<div class="meta"><span class="date"><a href="http://www.ubuntizando.com/2016/02/08/convierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os/" title="Enlace permanente a Convierte tu Android en un PC con Debian GNU/Linux al conectar un monitor con Maru OS" rel="bookmark"><time class="entry-date" datetime="2016-02-08T10:27:00+00:00">8 febrero, 2016</time></a></span></div>
+					<h4><a href="http://www.ubuntizando.com/2016/02/08/convierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os/">Convierte tu Android en un PC con Debian GNU/Linux al conectar un monitor con Maru OS</a></h4>
+				</div>
+			</li>
+				</ul>
+
+		</aside><aside id="text-7" class="widget widget_text"><h6 class="widget-title">PATROCINADORES</h6>			<div class="textwidget">
+
+<a href="http://www.pcubuntu.es/" target="_blank" class="external" rel="nofollow"><img src="http://www.ubuntizando.com/wp-content/uploads/2015/10/PC-Ubuntu.png" alt="PC-Ubuntu, tienda de ordenadores con Ubuntu preinstalado" title="PC-Ubuntu, tienda de ordenadores con Ubuntu preinstalado" border="0" height="250px" width="300px"/></a>
+
+<a href="http://vantpc.es/tienda-online " target="_blank" class="external" rel="nofollow"><img src="http://www.ubuntizando.com/wp-content/uploads/2015/11/vantpc_300x250.jpg" alt="VANT PC, tienda de ordenadores con Ubuntu preinstalado" title="VANT PC, tienda de ordenadores con Ubuntu preinstalado" border="0" height="250px" width="300px"/></a>
+
+<a href="http://zizack.es" target="_blank" class="external" rel="nofollow"><img src="http://www.ubuntizando.com/wp-content/uploads/2014/10/banner-zizack-300x250.gif" alt="Vende, compra o comparte en Zizack.es Anuncios clasificados en tu ciudad" border="0" height="250px" width="300px"/></a>
+
+
+
+<a href="http://www.siteground.com" onClick="this.href='https://www.siteground.com/web-hosting.htm?afbannercode=09d1014d6e90e270d939d89300183392'"  class="external" rel="nofollow"><img src="https://ua.siteground.com/img/banners/general/dynamic-price/250x250_es_ES.jpg" alt="Web Hosting" width="300" height="250" border="0"/></a>
+
+<!-- <a href="http://www.dpbolvw.net/click-7938418-11368592-1446599207000" target="_top" rel="follow" class="external"><img src="http://www.awltovhc.com/image-7938418-11368592-1446599207000" width="150" height="150" alt="Tired of Waiting for your Website to Load? $1/ mo Hosting + Free domain!" border="0"/> -->
+
+
+<a href="http://www.ubuntizando.com/publicidad/"><img src="http://www.ubuntizando.com/wp-content/uploads/2015/11/publi150.png" alt="tu publicidad aquí" width="146" height="146" /></a>
+<a href="http://www.ubuntizando.com/publicidad/"><img src="http://www.ubuntizando.com/wp-content/uploads/2015/11/publi150.png" alt="tu publicidad aquí" width="146" height="146" /></a>
+
+
+
+
+
+</div>
+		</aside><aside id="wpshower_recent_comments-2" class="widget widget_wpshower_recent_comments"><h6 class="widget-title">Comentarios</h6>
+		<ul>
+					<li>
+				<span><a href="http://www.ubuntizando.com/2016/02/02/probamos-g2-mini-pc-e-instalamos-linux-64bits-efi-32/#view-comment-5851"><img alt='' src='http://0.gravatar.com/avatar/00b60e2825ac52230461720d8dd3b269?s=50&#038;d=retro&#038;r=g' srcset='http://0.gravatar.com/avatar/00b60e2825ac52230461720d8dd3b269?s=100&amp;d=retro&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a></span>
+				<div>
+					<a href="http://www.ubuntizando.com/2016/02/02/probamos-g2-mini-pc-e-instalamos-linux-64bits-efi-32/#view-comment-5851">vk2r</a>
+					<span>en</span>
+					<a href="http://www.ubuntizando.com/2016/02/02/probamos-g2-mini-pc-e-instalamos-linux-64bits-efi-32/">Probamos un G2 Mini PC e instalamos Linux 64bits en EFI 32</a>
+				</div>
+			</li>
+					<li>
+				<span><a href="http://www.ubuntizando.com/2016/02/12/agregando-global-menu-elementary-os-freya/#view-comment-5850"><img alt='' src='http://2.gravatar.com/avatar/5c03dd234670be88752abc309f3ae381?s=50&#038;d=retro&#038;r=g' srcset='http://2.gravatar.com/avatar/5c03dd234670be88752abc309f3ae381?s=100&amp;d=retro&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a></span>
+				<div>
+					<a href="http://www.ubuntizando.com/2016/02/12/agregando-global-menu-elementary-os-freya/#view-comment-5850">Miguel Parada</a>
+					<span>en</span>
+					<a href="http://www.ubuntizando.com/2016/02/12/agregando-global-menu-elementary-os-freya/">Agregando el global menu en Elementary OS Freya</a>
+				</div>
+			</li>
+					<li>
+				<span><a href="http://www.ubuntizando.com/2016/02/09/reparar-los-pixeles-muertos-monitor-la-pantalla-movil/#view-comment-5849"><img alt='' src='http://2.gravatar.com/avatar/5c03dd234670be88752abc309f3ae381?s=50&#038;d=retro&#038;r=g' srcset='http://2.gravatar.com/avatar/5c03dd234670be88752abc309f3ae381?s=100&amp;d=retro&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a></span>
+				<div>
+					<a href="http://www.ubuntizando.com/2016/02/09/reparar-los-pixeles-muertos-monitor-la-pantalla-movil/#view-comment-5849">Miguel Parada</a>
+					<span>en</span>
+					<a href="http://www.ubuntizando.com/2016/02/09/reparar-los-pixeles-muertos-monitor-la-pantalla-movil/">¿Cómo reparar los pixeles muertos de tu monitor o la pantalla de tu móvil?</a>
+				</div>
+			</li>
+					<li>
+				<span><a href="http://www.ubuntizando.com/2016/02/12/agregando-global-menu-elementary-os-freya/#view-comment-5847"><img alt='' src='http://0.gravatar.com/avatar/96bf334b5b75eebc193a79b66c3dcebf?s=50&#038;d=retro&#038;r=g' srcset='http://0.gravatar.com/avatar/96bf334b5b75eebc193a79b66c3dcebf?s=100&amp;d=retro&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a></span>
+				<div>
+					<a href="http://www.ubuntizando.com/2016/02/12/agregando-global-menu-elementary-os-freya/#view-comment-5847">Facu Barril Acedo</a>
+					<span>en</span>
+					<a href="http://www.ubuntizando.com/2016/02/12/agregando-global-menu-elementary-os-freya/">Agregando el global menu en Elementary OS Freya</a>
+				</div>
+			</li>
+					<li>
+				<span><a href="http://www.ubuntizando.com/2016/02/09/reparar-los-pixeles-muertos-monitor-la-pantalla-movil/#view-comment-5846"><img alt='' src='http://0.gravatar.com/avatar/9bf9d569c818c5d21f0a9b995e2dba32?s=50&#038;d=retro&#038;r=g' srcset='http://0.gravatar.com/avatar/9bf9d569c818c5d21f0a9b995e2dba32?s=100&amp;d=retro&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a></span>
+				<div>
+					<a href="http://www.ubuntizando.com/2016/02/09/reparar-los-pixeles-muertos-monitor-la-pantalla-movil/#view-comment-5846">David Villegas</a>
+					<span>en</span>
+					<a href="http://www.ubuntizando.com/2016/02/09/reparar-los-pixeles-muertos-monitor-la-pantalla-movil/">¿Cómo reparar los pixeles muertos de tu monitor o la pantalla de tu móvil?</a>
+				</div>
+			</li>
+				</ul>
+
+		</aside><aside id="wpshower_ad-5" class="widget widget_wpshower_ad"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- enqueplanetaestoy_sidebar-right-1_AdSense2_300x600_as -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-7736886954484996"
+     data-ad-slot="1082280842"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></aside>		</div><!-- .widget-area -->
+	</div><!-- .sidebar-inner -->
+</div><!-- #tertiary -->
+
+		</div><!-- #main -->
+
+		<div id="footer-widgets" class="sidebar-container" role="complementary">
+			<div class="sidebar-inner">
+				<div class="widget-area">
+									</div>
+				<div class="widget-area">
+									</div>
+				<div class="widget-area">
+									</div>
+			</div>
+		</div>
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+			<div class="site-info"
+                <p>&#169;<a href="http://www.ubuntizando.com/">Ubuntizando.com</a> 2016 | <a rel="license nofollow" href="http://creativecommons.org/licenses/by-nc/4.0/" class="external"> Creative Commons</a> | <a rel="legal" href="/declaracion-sobre-uso-de-cookies/"> Cookies</a> | <a rel="legal" href="/condiciones-legales/"> Legal</a> |</p>                
+                            </div>
+			</div><!-- .site-info -->
+			
+		</footer><!-- #colophon -->
+	</div><!-- #page -->
+
+	        <!-- 
+            Lockers: user tracker for visibility filters
+            OnePress, bizpanda.com
+        -->
+        <script>
+            window.__bp_session_timeout = '900';
+            window.__bp_session_freezing = 0;
+            !function(){window.bizpanda||(window.bizpanda={}),window.bizpanda.bp_can_store_localy=function(){return!1},window.bizpanda.bp_ut_get_cookie=function(e){for(var n=e+"=",i=document.cookie.split(";"),o=0;o<i.length;o++){for(var t=i[o];" "==t.charAt(0);)t=t.substring(1);if(0==t.indexOf(n))return decodeURIComponent(t.substring(n.length,t.length))}return!1},window.bizpanda.bp_ut_set_cookie=function(e,n,i){var o=new Date;o.setTime(o.getTime()+24*i*60*60*1e3);var t="expires="+o.toUTCString();document.cookie=e+"="+encodeURIComponent(n)+"; "+t+"; path=/"},window.bizpanda.bp_ut_get_obj=function(e){var n=null;return(n=window.bizpanda.bp_can_store_localy()?window.localStorage.getItem("bp_ut_session"):window.bizpanda.bp_ut_get_cookie("bp_ut_session"))?(n=JSON.parse(n),n.started+1e3*e<(new Date).getTime()&&(n=null),n):!1},window.bizpanda.bp_ut_set_obj=function(e){e.started&&window.__bp_session_freezing||(e.started=(new Date).getTime());var e=JSON.stringify(e);window.bizpanda.bp_can_store_localy()?window.localStorage.setItem("bp_ut_session",e):window.bizpanda.bp_ut_set_cookie("bp_ut_session",e,5e3)},window.bizpanda.bp_ut_count_pageview=function(){var e=window.bizpanda.bp_ut_get_obj(window.__bp_session_timeout);e||(e={}),e.pageviews||(e.pageviews=0),0===e.pageviews&&(e.referrer=document.referrer,e.landingPage=window.location.href,e.pageviews=0),e.pageviews++,window.bizpanda.bp_ut_set_obj(e)},window.bizpanda.bp_ut_count_locker_pageview=function(){var e=window.bizpanda.bp_ut_get_obj(window.__bp_timeout);e||(e={}),e.lockerPageviews||(e.lockerPageviews=0),e.lockerPageviews++,window.bizpanda.bp_ut_set_obj(e)},window.bizpanda.bp_ut_count_pageview()}();
+        </script>
+        <!-- / -->
+                  
+	<script type="text/javascript">
+        function SetCookie(c_name,value,expiredays)
+        {
+        var exdate=new Date()
+            exdate.setDate(exdate.getDate()+expiredays)
+            document.cookie=c_name+ "=" +escape(value)+";path=/"+((expiredays==null) ? "" : ";expires="+exdate.toGMTString())
+        }
+    </script>
+	<link rel="stylesheet" type="text/css" media="all" href="/css/" />
+        <div id="cookie-allow" >
+            ¡Hola, soy una cookie! Necesito tu permiso. (2009/136/CE)            <a id="removecookie" class="allow"> Cerrar</a>
+            <a id="more" class="cookiemore" href="declaracion-sobre-uso-de-cookies" target="_blank">Más información</a>
+        </div>
+    
+     
+    <script type="text/javascript">
+        if( document.cookie.indexOf("ubuntizandocom") ===-1 ){
+            $("#cookie-allow").show();
+            //Expiration of cookie. Expires in a session. 
+            // We set this cookie since configuration cookies are allowed without explicit confirmation
+            SetCookie('ubuntizandocom','ubuntizandocom')
+        }
+        $("#removecookie").click(function () {
+          $("#cookie-allow").remove();
+		  
+        });
+    </script>
+	        <script type="text/javascript">
+        // <![CDATA[
+        var disqus_shortname = 'ubuntizandoelplaneta';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('data-dsqidentifier'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); 
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+        // ]]>
+        </script>
+        	<div style="display:none">
+	<div class="grofile-hash-map-aa4d3e2c51e2ac90a04423c6891aaed3">
+	</div>
+	<div class="grofile-hash-map-00b60e2825ac52230461720d8dd3b269">
+	</div>
+	<div class="grofile-hash-map-5c03dd234670be88752abc309f3ae381">
+	</div>
+	<div class="grofile-hash-map-96bf334b5b75eebc193a79b66c3dcebf">
+	</div>
+	<div class="grofile-hash-map-9bf9d569c818c5d21f0a9b995e2dba32">
+	</div>
+	</div>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"http:\/\/www.ubuntizando.com\/2016\/02\/08\/convierte-android-pc-debian-gnulinux-al-conectar-monitor-maru-os\/":13965};
+	</script>
+		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-twitter' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-facebook' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-google-plus-1' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomgoogle-plus-1', 'menubar=1,resizable=1,width=480,height=550' );
+				return false;
+			});
+		});
+		</script>
+		<script type='text/javascript' src='http://www.ubuntizando.com/wp-content/plugins/jetpack/modules/photon/photon.js?ver=20130122'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201607'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2016Febaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.ubuntizando.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.ubuntizando.com/wp-includes/js/comment-reply.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.ubuntizando.com/wp-content/themes/outspoken/js/jquery.mousewheel-3.0.6.pack.js?ver=20130701'></script>
+<script type='text/javascript' src='http://www.ubuntizando.com/wp-content/themes/outspoken/fancybox/jquery.fancybox.pack.js?ver=20130701'></script>
+<script type='text/javascript' src='http://www.ubuntizando.com/wp-content/themes/outspoken/js/jquery.mobile.custom.min.js?ver=2013-06-06'></script>
+<script type='text/javascript' src='http://www.ubuntizando.com/wp-content/themes/outspoken/js/modernizr.custom.js?ver=2013-06-06'></script>
+<script type='text/javascript' src='http://www.ubuntizando.com/wp-content/themes/outspoken/js/jquery.transit.min.js?ver=2013-06-06'></script>
+<script type='text/javascript' src='http://www.ubuntizando.com/wp-content/themes/outspoken/js/wpshower-responsive-videos.js?ver=2013-08-15'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var outspoken = {"floating_menu":"1","masonry":"0","navigation":"standard_pages"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.ubuntizando.com/wp-content/themes/outspoken/js/functions.js?ver=2014-04-03'></script>
+<script type='text/javascript' src='http://www.ubuntizando.com/wp-content/themes/outspoken/js/wpshower-slider.js?ver=2013-08-15'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"es-ES","strings":{"Close":"Cerrar","Fullscreen":"Pantalla completa","Download File":"Descargar archivo","Download Video":"Descargar v\u00eddeo","Play\/Pause":"Reproducir\/Pausar","Mute Toggle":"Desactivar sonido","None":"Ninguna","Turn off Fullscreen":"Salir de pantalla completa","Go Fullscreen":"Ver en pantalla completa","Unmute":"Activar sonido","Mute":"Silenciar","Captions\/Subtitles":"Pies de foto \/ Subt\u00edtulos"}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.ubuntizando.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.18.1'></script>
+<script type='text/javascript' src='http://www.ubuntizando.com/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.ubuntizando.com/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.ubuntizando.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js?ver=3.9.1'></script>
+<script type='text/javascript' src='http://stats.wp.com/e-201607.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:3.9.1',blog:'31861166',post:'13965',tz:'1',srv:'www.ubuntizando.com'} ]);
+	_stq.push([ 'clickTrackerInit', '31861166', '13965' ]);
+</script>
+</body>
+</html>
