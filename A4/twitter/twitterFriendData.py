@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-# -*- coding: utf-8 -*-
 
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
