@@ -19,10 +19,13 @@
 
 ### Running 
 1) Run the command "python twitterFriendData.py", a json file will be created.
+
 2) Run the command "python createRScript.py <json-file-name> <output-r-script-file>", an r-script will be generated 
+
 3) Run the command "Rscript <output-r-script-file>" to generate the graph, a pdf will be generated. 
 
 ## Facebook Program 
 ### Running 
 1) Run the command "python extractFacebookFriendData.py <optional-facebook-file>", an r-script will be generated. 
+
 2) Run the command "Rscript <output-r-script-file>" to generate the graph, a pdf will be generated. 
