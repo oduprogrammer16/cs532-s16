@@ -8,7 +8,7 @@
  * Contains source code for the facebook portion of the assignment 
 
 ### reports
-* Contains report for assignment 4 and thee graphs produced. 
+* Contains report for assignment 4 and the graphs produced. 
 
 ## Twitter Program 
 * Located in folder called twitter
