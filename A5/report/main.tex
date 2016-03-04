@@ -128,15 +128,12 @@ scale_graph <- function(vertex,alpha,beta){
 
 
 E(karate_network)$color <- "grey"
-
 # Plot the graph
 tkplot(karate_network,layout=layout.kamada.kawai,vertex.label.font=2)
-
 \end{lstlisting}
 
 Once the algorithm is complete, a list all the edges in the order that they were deleted will be produced along with their computed edge-betweenness will be produced in a manner that can be copied and pasted into a table in \LaTeX . \\\\
 The data that was used in the program, is written in a graph modeling format, models weighted graph of social interactions among friendship within a University in the United States during the 1970s \cite{waynewzachary1977,zachData}.  \\\\ 
-
 The edges and the order in which they were deleted can be found in Table 1.
 \begin{table}[ht!]
     \centering
@@ -158,11 +155,10 @@ The edges and the order in which they were deleted can be found in Table 1.
     \label{tab:my_label}
 \end{table}
 \end{answer}
-
-
 \newpage 
-The following figures below visually depict each iteration of the Girvan-Newman algorithm. \\ 
-\begin{figure}
+The following figures below visually depict each iteration of the Girvan-Newman algorithm. \\ \begin{center}This space intentionally left blank \end{center}
+\newpage
+\begin{figure}[ht!]
 \centering
 \begin{subfigure}{.5\textwidth}
   \centering
@@ -269,12 +265,8 @@ The following figures below visually depict each iteration of the Girvan-Newman 
 \caption{Iterations 10 and 11}
 \label{fig:test}
 \end{figure}
-
-
 \newpage
 Based on the graph obtained from running the program it is clearly evident that a weighted graph of social interactions can be used to predict the result of a split. It should be noted that in Figure 5-b and 6-a, that node 3 has switched groups. This indicates that the node may have changed it's mind to which group it belongs to or that perhaps maybe there exists limitation to how well the model can predict a split. 
-
 \newpage 
 \printbibliography
-
 \end{document}
