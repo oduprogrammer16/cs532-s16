@@ -103,7 +103,7 @@ It should be noted that this code is not effecient. A better strategy for determ
 
 The code that was ran to extract the followers and who they follow in my follower list took exactly 4 hours, 29 minutes and thirty one seconds. This due to the fact that the twitter api only allows 180 requests every 15 minutes. \cite{twitterinc2016}
 
-After the data was extracted, a visual graph was created using D3\cite{mikebostock2015}. The graph was created in an html file called {\it followergraph.html} and the is a modified version of Mike Bostock's basic directional force layout diagram\cite{mikebostock2016}. Figure 1 shows my network graph. 
+After the data was extracted, a visual graph was created using D3\cite{mikebostock2015}. The graph was created in an html file called {\it followergraph.html} and the is a modified version of Mike Bostock's basic directional force layout diagram\cite{mikebostock2016}. Figure 1 shows my network graph. This graph can also be viewed via the following url: \url{http://www.cs.odu.edu/~kclemmon/follower_graph.html}
  
 \begin{figure}[ht!]
 \centering 
@@ -192,7 +192,7 @@ To determine Gender Homophily, a list of followers  and their names was obtained
 \end{table}
 \newpage 
 
-Once The genders were obtained, a new csv file called {\it kevinGenderNetwork} was generated and contains a reduced number of edges. This is due to the fact that the edges who had nodes in which a gender was deemed unknown were eliminated from the graph. Figure 2 shows the network without the nodes in which a gender could not be obtained. 
+Once The genders were obtained, a new csv file called {\it kevinGenderNetwork} was generated and contains a reduced number of edges. This is due to the fact that the edges who had nodes in which a gender was deemed unknown were eliminated from the graph. Figure 2 shows the network without the nodes in which a gender could not be obtained. This graph can also be viewed via the following link \url{http://www.cs.odu.edu/~kclemmon/gender_graph.html}.
 \newpage 
 \begin{figure}[ht!]
 \centering 
