@@ -1,0 +1,38 @@
+03-31 17:16:39 default      INFO     Using default name: User
+03-31 17:16:39 default      INFO     Using custom age: 23
+03-31 17:16:39 default      INFO     Using custom gender: m
+03-31 17:16:39 default      DEBUG    gender set to: M
+03-31 17:16:39 default      INFO     Custom occupation given: None
+03-31 17:16:39 default      INFO     8 similar users found
+03-31 17:16:39 default      DEBUG    Getting movie ratings for user: 33
+03-31 17:16:39 default      DEBUG    23 movie ratings found for user: 23
+03-31 17:16:39 default      DEBUG    Creating list that can be sorted for user: 33
+03-31 17:16:39 default      INFO     Determining top three favorite movies and top three least favorite films for user: 33
+03-31 17:16:39 default      DEBUG    Getting movie ratings for user: 37
+03-31 17:16:39 default      DEBUG    57 movie ratings found for user: 57
+03-31 17:16:39 default      DEBUG    Creating list that can be sorted for user: 37
+03-31 17:16:39 default      INFO     Determining top three favorite movies and top three least favorite films for user: 37
+03-31 17:16:39 default      DEBUG    Getting movie ratings for user: 66
+03-31 17:16:39 default      DEBUG    38 movie ratings found for user: 38
+03-31 17:16:39 default      DEBUG    Creating list that can be sorted for user: 66
+03-31 17:16:39 default      INFO     Determining top three favorite movies and top three least favorite films for user: 66
+03-31 17:16:39 default      DEBUG    Getting movie ratings for user: 135
+03-31 17:16:39 default      DEBUG    55 movie ratings found for user: 55
+03-31 17:16:39 default      DEBUG    Creating list that can be sorted for user: 135
+03-31 17:16:39 default      INFO     Determining top three favorite movies and top three least favorite films for user: 135
+03-31 17:16:39 default      DEBUG    Getting movie ratings for user: 391
+03-31 17:16:39 default      DEBUG    121 movie ratings found for user: 121
+03-31 17:16:39 default      DEBUG    Creating list that can be sorted for user: 391
+03-31 17:16:39 default      INFO     Determining top three favorite movies and top three least favorite films for user: 391
+03-31 17:16:39 default      DEBUG    Getting movie ratings for user: 408
+03-31 17:16:39 default      DEBUG    27 movie ratings found for user: 27
+03-31 17:16:39 default      DEBUG    Creating list that can be sorted for user: 408
+03-31 17:16:39 default      INFO     Determining top three favorite movies and top three least favorite films for user: 408
+03-31 17:16:39 default      DEBUG    Getting movie ratings for user: 706
+03-31 17:16:39 default      DEBUG    29 movie ratings found for user: 29
+03-31 17:16:39 default      DEBUG    Creating list that can be sorted for user: 706
+03-31 17:16:39 default      INFO     Determining top three favorite movies and top three least favorite films for user: 706
+03-31 17:16:39 default      DEBUG    Getting movie ratings for user: 838
+03-31 17:16:39 default      DEBUG    93 movie ratings found for user: 93
+03-31 17:16:39 default      DEBUG    Creating list that can be sorted for user: 838
+03-31 17:16:39 default      INFO     Determining top three favorite movies and top three least favorite films for user: 838
