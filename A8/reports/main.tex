@@ -1,0 +1,743 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{MnSymbol,wasysym}
+\usepackage{caption}
+\usepackage{subcaption}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage{biblatex}
+
+\addbibresource{bibliography.bib}
+
+\lstdefinestyle{mystyle}{
+  language=R,
+  backgroundcolor=\color{backcolour},   commentstyle=\color{codegreen},
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=left,
+  numbersep=5pt,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true
+  tabsize=2
+}
+
+\lstset{style=mystyle}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage[margin=3cm]{geometry}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+
+% Edit these as appropriate
+\newcommand\course{CS432}
+\newcommand\semester{Spring 2016}     
+\newcommand\hwnum{8}
+\newcommand\yourname{Kevin R. Clemmons}
+\newcommand\login{oduprogrammer16}
+
+\newenvironment{answer}[1]{
+  \subsubsection*{Problem #1}
+}
+
+\pagestyle{fancyplain}
+\headheight 40pt
+\lhead{\yourname\ \\(\login)\\\course\ --- \semester}
+\chead{\textbf{\Large Assignment \hwnum}}
+\rhead{\today}
+\headsep 40pt
+
+\begin{document}
+
+All files mentioned in this file are uploaded into the {\it github} repository.
+
+The \LaTeX code invovled in the generation of this document was aided by the example code provided in the links that Dr. Nelson sent out on January 17, 2016\cite{mohammedaturban2013}. \\\\
+All credit is given to Shawn Jones who wrote the original code used in this assignment\cite{shawnjones2013}. This was found via the following url:  \url{https://github.com/shawnmjones/cs595-f13/tree/master/assignment9} and has been modified to accept inputs from anyone using this code. \\ \\ 
+
+This document was compiled on \url{www.sharelatex.com} \\ \\ 
+
+
+\begin{answer}{1}
+Generation of the blog-term matrix begins with a script retrieves 98 random blogs. A program written by Shawn Jones called fetchFeeds.py, retrieves a list of random blogs\cite{shawnjones2013}. The code was modified to ensure that the same link is not put into the list of links. A data file called feedlist.txt will be generated and put into a folder called producedFiles. Listing 1 shows the code used to generate a list of random blogs\cite{shawnjones2013}. Listing 2 lists all the uri's used in this assignment. 
+
+\begin{lstlisting}[language=Python,caption=Retrieving a Unique list of blogs]
+import sys
+import os
+import os.path
+import feedparser
+import urllib2
+import time
+import chardet
+import argparse
+from bs4 import BeautifulSoup
+
+def dereferenceUri(uri):
+
+    pagehandle = urllib2.urlopen(uri)
+    pagedata = pagehandle.read()
+    derefurl = pagehandle.geturl()
+    pagehandle.close()
+
+    return pagedata,derefurl
+
+def getAtomFeedUri(html):
+
+    soup = BeautifulSoup(html,'html') 
+
+    atomLinks = soup.find_all('link',
+        attrs = { 'rel' : 'alternate', 'type' : 'application/atom+xml' })
+
+    # we assume there is only one atom link
+    atomURI = atomLinks[0].attrs['href']
+
+    return atomURI
+
+def meetsCriteria(feedText):
+
+    parsedData = feedparser.parse(feedText)
+
+    # assume we're good to go by default (fail optimistic?)
+    goodToGo = True
+
+    sys.stderr.write("blog has " + str(len(parsedData.entries)) + " entries\n")
+
+    if (len(parsedData.entries) < 25):
+        goodToGo = False        
+
+    #if (chardet.detect(feedText)['encoding'] != 'ascii'):
+    #    sys.stderr.write("blog charset is " + chardet.detect(feedText)['encoding'] +
+    #        ", likely won't parse well for feed vector\n")
+    #    goodToGo = False
+
+    return goodToGo
+
+def getNextUri():
+
+    uri = "http://www.blogger.com/next-blog?navBar=true&blogID=30361063" 
+
+    pagehandle = urllib2.urlopen(uri)
+    nexturi = pagehandle.geturl()
+    pagehandle.close() 
+
+    return nexturi
+
+
+if __name__ == "__main__":
+
+    feedlist = []
+    feedlist.append(
+    "http://f-measure.blogspot.com/feeds/posts/default?max-results=200"
+    )
+    feedlist.append(
+    "http://ws-dl.blogspot.com/feeds/posts/default?max-results=200"
+    )
+    feedlist.append(
+    "http://www.russianmachineneverbreaks.com/feed/"
+    )
+ 
+
+    uriList = []
+    while (len(feedlist) <= 100):
+        out = open('../producedFiles/feedlist.txt','w+')
+        for link in feedlist:
+            out.write(link)
+            out.write('\n')
+        out.close()
+
+        try:
+            uri = getNextUri()
+            print("Getting unique uri")
+            while len(list(filter(lambda x: x == uri,uriList))) != 0:
+                uri = getNextUri()
+                #time.sleep(1)
+            uriList.append(uri)
+        except urllib2.HTTPError as e:
+            sys.stderr.write("failed to acquire next uri, delaying 5 seconds\n")
+            time.sleep(5)
+        else:
+            sys.stderr.write("\n" + "working on URI " + uri + "\n")
+    
+            try:
+                # dereference the uri and get text
+                html,derefuri = dereferenceUri(uri)
+            except urllib2.HTTPError as e:
+                sys.stderr.write("failed to dereference " + uri +
+                    ", delaying 5 seconds\n")
+                time.sleep(5)
+            else:
+                try:
+                    # fetch the atom feed URI
+                    feedURI = getAtomFeedUri(html)
+                    sys.stderr.write("acquired feed URI " + feedURI + "\n")
+                except IndexError as e:
+                    sys.stderr.write(
+                        "failed to acquire Atom feed from HTML, delaying 5 seconds\n \n")
+                else:
+                    try:
+                        # get the atom feed text
+                        feedText,feedURI = dereferenceUri(feedURI)
+                    except urllib2.HTTPError as e:
+                        sys.stderr.write("failed to dereference " + feedURI +
+                            ", delaying 5 seconds\n")
+                        time.sleep(5)
+                    else:
+                        # if it meets the criteria, save the file
+                        #toCheck = feedURI + '?max-results=1000\n'
+                        if meetsCriteria(feedText):
+                            
+                            sys.stderr.write("Saving blog feed " + feedURI + "?max-results=1000\n")
+                            #print(feedURI + "?max-results=1000")
+                            feedlist.append(feedURI + "?max-results=1000")
+        
+                        # be nice to the site
+                        time.sleep(1)
+
+    for feed in feedlist:
+        print feed
+\end{lstlisting}
+
+\begin{lstlisting}[caption=List of blog uri's]
+http://f-measure.blogspot.com/feeds/posts/default?max-results=200
+http://ws-dl.blogspot.com/feeds/posts/default?max-results=200
+http://www.russianmachineneverbreaks.com/feed/
+http://turnitupjack.blogspot.com/feeds/posts/default?max-results=1000
+http://ashleyemwarren.blogspot.com/feeds/posts/default?max-results=1000
+http://www.sonology.com/feeds/posts/default?max-results=1000
+http://elijace.blogspot.com/feeds/posts/default?max-results=1000
+http://stonehillsketchbook.blogspot.com/feeds/posts/default?max-results=1000
+http://mondaywakeup.blogspot.com/feeds/posts/default?max-results=1000
+http://www.chrisanne-grise.com/feeds/posts/default?max-results=1000
+http://isyelili.blogspot.com/feeds/posts/default?max-results=1000
+http://ihatethe90s.blogspot.com/feeds/posts/default?max-results=1000
+http://flipmpip.blogspot.com/feeds/posts/default?max-results=1000
+http://timeispoetry.blogspot.com/feeds/posts/default?max-results=1000
+http://seveninchesisenough.blogspot.com/feeds/posts/default?max-results=1000
+http://kunstlertreu.blogspot.com/feeds/posts/default?max-results=1000
+http://ourpodcastcouldbeyourlife.blogspot.com/feeds/posts/default?max-results=1000
+http://jamiemclelland.blogspot.com/feeds/posts/default?max-results=1000
+http://ps-music.blogspot.com/feeds/posts/default?max-results=1000
+http://theindiefriend.blogspot.com/feeds/posts/default?max-results=1000
+http://adrianomarquesblog.blogspot.com/feeds/posts/default?max-results=1000
+http://glipress.blogspot.com/feeds/posts/default?max-results=1000
+http://feeds.feedburner.com/blogspot/qbENp?max-results=1000
+http://flowradio.blogspot.com/feeds/posts/default?max-results=1000
+http://my-name-is-blue-canary.blogspot.com/feeds/posts/default?max-results=1000
+http://mattsbunker.blogspot.com/feeds/posts/default?max-results=1000
+http://dinosaursarefun.blogspot.com/feeds/posts/default?max-results=1000
+http://feeds.feedburner.com/karldrinkwater?max-results=1000
+http://markeortega.blogspot.com/feeds/posts/default?max-results=1000
+http://skinnyshoes.blogspot.com/feeds/posts/default?max-results=1000
+http://marshwiggle.blogspot.com/feeds/posts/default?max-results=1000
+http://ahtapotunbahcesi.blogspot.com/feeds/posts/default?max-results=1000
+http://richardwhitten.blogspot.com/feeds/posts/default?max-results=1000
+http://kidchair.blogspot.com/feeds/posts/default?max-results=1000
+http://hiiijaaackie.blogspot.com/feeds/posts/default?max-results=1000
+http://mo-forgetaboutit.blogspot.com/feeds/posts/default?max-results=1000
+http://hani-bittersweet.blogspot.com/feeds/posts/default?max-results=1000
+http://listeningear.blogspot.com/feeds/posts/default?max-results=1000
+http://theworldsfirstinternetbaby.blogspot.com/feeds/posts/default?max-results=1000
+http://jbreitling.blogspot.com/feeds/posts/default?max-results=1000
+http://bogglemethursday.blogspot.com/feeds/posts/default?max-results=1000
+http://feeds.feedburner.com/AW/sixeyes?max-results=1000
+http://ngaio1619.blogspot.com/feeds/posts/default?max-results=1000
+http://rosiegigga2media.blogspot.com/feeds/posts/default?max-results=1000
+http://blog.spinitron.com/feeds/posts/default?max-results=1000
+http://floorshimezipperboots.blogspot.com/feeds/posts/default?max-results=1000
+http://www.samtasticreview.com/feeds/posts/default?max-results=1000
+http://steel-city-rust.blogspot.com/feeds/posts/default?max-results=1000
+http://ilovetotaldestruction.blogspot.com/feeds/posts/default?max-results=1000
+http://onestunningsingleegg.blogspot.com/feeds/posts/default?max-results=1000
+http://didnotchart.blogspot.com/feeds/posts/default?max-results=1000
+http://lostintheshuffle899.blogspot.com/feeds/posts/default?max-results=1000
+http://mesastivromia.blogspot.com/feeds/posts/default?max-results=1000
+http://laespiraldejosephk.blogspot.com/feeds/posts/default?max-results=1000
+http://deadbeatfanzine.blogspot.com/feeds/posts/default?max-results=1000
+http://spicyseatdolphin.blogspot.com/feeds/posts/default?max-results=1000
+http://dana9morgan.blogspot.com/feeds/posts/default?max-results=1000
+http://psychfolkmusic.blogspot.com/feeds/posts/default?max-results=1000
+http://semregrasluispink.blogspot.com/feeds/posts/default?max-results=1000
+http://out-of-the-swamp.blogspot.com/feeds/posts/default?max-results=1000
+http://mobbie2.blogspot.com/feeds/posts/default?max-results=1000
+http://cherryarea.blogspot.com/feeds/posts/default?max-results=1000
+http://storiesfromthecityradiovalencia.blogspot.com/feeds/posts/default?max-results=1000
+http://organmyth.blogspot.com/feeds/posts/default?max-results=1000
+http://jojobethkatiehannahlcm1516.blogspot.com/feeds/posts/default?max-results=1000
+http://srkikiblog.blogspot.com/feeds/posts/default?max-results=1000
+http://thepowerofindependenttrucking.blogspot.com/feeds/posts/default?max-results=1000
+http://harisphotonet.blogspot.com/feeds/posts/default?max-results=1000
+http://thefastbreakofchampions.blogspot.com/feeds/posts/default?max-results=1000
+http://globalgoon.blogspot.com/feeds/posts/default?max-results=1000
+http://mileinmine.blogspot.com/feeds/posts/default?max-results=1000
+http://dancingincirclesnow.blogspot.com/feeds/posts/default?max-results=1000
+http://campusbuzzwsou.blogspot.com/feeds/posts/default?max-results=1000
+http://rantsfromthepants.blogspot.com/feeds/posts/default?max-results=1000
+http://fortheotherthings.blogspot.com/feeds/posts/default?max-results=1000
+http://moontopples.blogspot.com/feeds/posts/default?max-results=1000
+http://hartsdesire.blogspot.com/feeds/posts/default?max-results=1000
+http://onebaseonanoverthrow.blogspot.com/feeds/posts/default?max-results=1000
+http://flatbasset.blogspot.com/feeds/posts/default?max-results=1000
+http://doginasweatershowreviews.blogspot.com/feeds/posts/default?max-results=1000
+http://maggotcaviar.blogspot.com/feeds/posts/default?max-results=1000
+http://encorenorthernireland.blogspot.com/feeds/posts/default?max-results=1000
+http://superchicken46.blogspot.com/feeds/posts/default?max-results=1000
+http://castironsongs.blogspot.com/feeds/posts/default?max-results=1000
+http://feeds.feedburner.com/DavecromwellWrites?max-results=1000
+http://thekidsarecoming.blogspot.com/feeds/posts/default?max-results=1000
+http://rodshone.blogspot.com/feeds/posts/default?max-results=1000
+http://jlmdlhlcm1516.blogspot.com/feeds/posts/default?max-results=1000
+http://intheframefilmreviews.blogspot.com/feeds/posts/default?max-results=1000
+http://desolationrowrecords.blogspot.com/feeds/posts/default?max-results=1000
+http://www.symmetrysymmetry.com/feeds/posts/default?max-results=1000
+http://www.radioshower.com/feeds/posts/default?max-results=1000
+http://headspacedaily.blogspot.com/feeds/posts/default?max-results=1000
+http://thebeautifultrashart.blogspot.com/feeds/posts/default?max-results=1000
+http://www.thejeopardyofcontentment.com/feeds/posts/default?max-results=1000
+http://beckysharpfashionblog.blogspot.com/feeds/posts/default?max-results=1000
+http://sweetcrimsonblood.blogspot.com/feeds/posts/default?max-results=1000
+http://thenightmail.blogspot.com/feeds/posts/default?max-results=1000
+http://mtjrrantsravesonmusic.blogspot.com/feeds/posts/default?max-results=1000
+http://chantellesmedia2.blogspot.com/feeds/posts/default?max-results=1000
+
+
+\end{lstlisting}
+Once this code was written, a blog term matrix was generated by a program called generatefeedvector.py\cite{shawnjones2013}. This program generates a matrix with all the popular terms. A script called eliminateWords.py creates a new matrix in which no more than 500 terms are present.  This matrix is called blogtermmatrix.txt and is used to create an ascii dengrogram and jpeg dendrogram used for question 2. 
+\end{answer}
+%
+\begin{answer}{2}
+Creating the ascii and jpeg dendrogram is performed by a program called makeDendogram.py \cite{shawnjones2013}. This code was modified so that any feed-list can be used and the user has the option of generating either an ascii dendrogram or a jpeg dendrogram. This code utilizes the argparse module to do this as seen in listing 3. This code also utilizes code written in a file called clusters.py\cite{tobysegaran2007} which runs the hierarchical clustering algorithm as described on page 33 in the book Programming Collective Intelligence\cite{tobysegaran2007}. Once the hierarchical clustering algorithm is complete, an ascii dendrogram called asciDendrogram.txt and a jpeg dendrogram called dendrogram.jpg are produced. The jpeg dendrogram can be seen in figure 2. \\ 
+\newpage
+\begin{figure}[ht!]
+\centering
+\includegraphics[scale=0.25]{dendrogram}
+\caption{Dendrogram created for the blog links in listing 2}
+\label{overflow}
+\end{figure}
+
+\newpage 
+
+\end{answer}
+
+\begin{answer}{3}
+To cluster the blogs using K-Means, a program was written which used the function kcluster which was suppied from the book Programming Collective Intelligence\cite{tobysegaran2007}. The program takes in two command line arguments, -f file containing the blog term matrix and -k values of k to use. This program will allow the user to supply any number of values for k and will print the results to the standard output. Listing 3 contains the output acquired from the k-clustering algorithm.
+
+\begin{lstlisting}[caption=Results for K clustering]
+For k= 5
+Iteration 0
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+*****************************************
+["Riley Haas' blog", 'SEM REGRAS', 'My Name Is Blue Canary', 'ORGANMYTH', "MarkEOrtega's Journalism Portfolio", 'Green Eggs and Ham Mondays 8-10am', 'Stories From the City, Stories From the Sea', 'Lost in the Shuffle', 'How to be an artist and still pass for normal', 'IoTube     :)', 'forget about it', 'jaaackie.', 'The Girl at the Rock Show', 'The Listening Ear', 'FlowRadio Playlists (and Blog)', 'INDIEohren.!', 'Russian Machine Never Breaks', "Morgan's Blog", 'www.doginasweater.com Live Show Review Archive', 'La espiral de Joseph K', 'funky little demons', 'Boggle Me Thursday', 'Mile In Mine', 'The Stearns Family', 'If You Give a Girl a Camera...', 'What Am I Doing?', 'Becky Sharp Fashion Blog', 'Rod Shone', 'KiDCHAIR', 'Sonology', 'bittersweet', "Room 19's Blog 2016", 'sweeping the kitchen', 'One Stunning Single Egg', 'Rants from the Pants', 'Time Is Poetry', "A Wife's Tale", 'sweet crimson blood', 'the fast break of champions', 'The Moon Topples', "isyeli's", "But She's Not Stupid", 'Haris Sfakianakis Photography', 'Cast Iron Songs']
+*****************************************
+['MTJR RANTS & RAVES ON MUSIC', 'turnitup!', 'adrianoblog', 'For the Other Things', 'T H E V O I D S', 'Head Space Daily', 'The Campus Buzz on WSOU', 'Spinitron Blog', 'k\xc3\xbcnstler treu', 'THE HUB', 'Lo importante es que estes t\xc3\xba bien', 'Kid F', 'The Kids Are Coming Up From Behind', 'In the Frame Film Reviews', 'Cherry Area', '\xce\x94\xce\xaf\xcf\x83\xce\xba\xce\xbf\xce\xb9 \xce\x9c\xce\xbf\xcf\x85\xcf\x83\xce\xb9\xce\xba\xce\xae\xcf\x82 \xcf\x83\xcf\x84\xce\xbf \xce\xa7\xcf\x81\xcf\x8c\xce\xbd\xce\xbf']
+*****************************************
+['Steel City Rust', 'One Base on an Overthrow', 'Did Not Chart', 'Interstellar Radio Shower', 'The Power of Independent Trucking', 'DaveCromwell Writes', 'Rosie Gigg A2 Media Studies', 'FOLK IS NOT HAPPY', 'MAGGOT CAVIAR', 'Desolation Row Records', "The World's First Internet Baby", 'Eli Jace | The Mind Is A Terrible Thing To Paste', 'The Jeopardy of Contentment', '.', '*Sixeyes: by Alan Williamson', 'Swinging Singles Club', 'I/LOVE/TOTAL/DESTRUCTION', 'F-Measure', 'Encore', 'I Hate The 90s']
+*****************************************
+['MR. BEAUTIFUL TRASH ART', 'A H T A P O T', 'Floorshime Zipper Boots', 'Stonehill Sketchbook', 'Samtastic! Review', 'The Bunker', 'Deadbeat', 'theindiefriend', 'symmetry/symmetry', 'this time tomorrow', '\xce\x9c\xce\x95\xce\xa3\xce\x91 \xce\xa3\xce\xa4\xce\x97 \xce\x92\xce\xa1\xce\xa9\xce\x9c\xce\x99\xce\x91']
+*****************************************
+['Flatbasset', 'Web Science and Digital Libraries Research Group', 'GLI Press', 'Chantelle Swain A2 Media Studies', 'A2 MEDIA COURSEWORK JOINT BLOG', 'Our Podcast Could Be Your Life', 'The Night Mail', 'Karl Drinkwater', '"DANCING IN CIRCLES"']
+For k= 10
+Iteration 0
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+*****************************************
+['Steel City Rust', 'DaveCromwell Writes', "The World's First Internet Baby", '.', 'The Night Mail']
+*****************************************
+['ORGANMYTH', 'How to be an artist and still pass for normal', 'forget about it', 'A2 MEDIA COURSEWORK JOINT BLOG', 'Russian Machine Never Breaks', "Morgan's Blog", 'Boggle Me Thursday', 'Mile In Mine', 'What Am I Doing?', 'Becky Sharp Fashion Blog', 'bittersweet', "Room 19's Blog 2016", 'One Stunning Single Egg', 'Time Is Poetry', "A Wife's Tale", 'Karl Drinkwater', 'In the Frame Film Reviews', 'Cherry Area', 'The Moon Topples', "isyeli's", "But She's Not Stupid"]
+*****************************************
+['MTJR RANTS & RAVES ON MUSIC', 'turnitup!', 'For the Other Things', 'T H E V O I D S', 'Head Space Daily', 'The Campus Buzz on WSOU', 'THE HUB', 'Lo importante es que estes t\xc3\xba bien', 'Kid F', 'The Kids Are Coming Up From Behind', '\xce\x94\xce\xaf\xcf\x83\xce\xba\xce\xbf\xce\xb9 \xce\x9c\xce\xbf\xcf\x85\xcf\x83\xce\xb9\xce\xba\xce\xae\xcf\x82 \xcf\x83\xcf\x84\xce\xbf \xce\xa7\xcf\x81\xcf\x8c\xce\xbd\xce\xbf']
+*****************************************
+['MR. BEAUTIFUL TRASH ART', 'Stonehill Sketchbook', 'Samtastic! Review', 'theindiefriend', 'symmetry/symmetry', 'Rants from the Pants', 'this time tomorrow', '\xce\x9c\xce\x95\xce\xa3\xce\x91 \xce\xa3\xce\xa4\xce\x97 \xce\x92\xce\xa1\xce\xa9\xce\x9c\xce\x99\xce\x91']
+*****************************************
+['One Base on an Overthrow', 'Interstellar Radio Shower', 'The Power of Independent Trucking', 'MAGGOT CAVIAR', 'Swinging Singles Club', 'I/LOVE/TOTAL/DESTRUCTION', 'F-Measure']
+*****************************************
+['SEM REGRAS', 'Green Eggs and Ham Mondays 8-10am', 'GLI Press', 'Stories From the City, Stories From the Sea', 'Lost in the Shuffle', 'A H T A P O T', 'adrianoblog', 'IoTube     :)', 'FlowRadio Playlists (and Blog)', 'INDIEohren.!', 'La espiral de Joseph K', 'If You Give a Girl a Camera...', 'sweeping the kitchen', 'sweet crimson blood', '"DANCING IN CIRCLES"']
+*****************************************
+['Flatbasset', "Riley Haas' blog", 'The Girl at the Rock Show', 'The Listening Ear', 'www.doginasweater.com Live Show Review Archive', 'Eli Jace | The Mind Is A Terrible Thing To Paste', 'The Bunker', 'Deadbeat', 'KiDCHAIR', 'Our Podcast Could Be Your Life', 'the fast break of champions', 'Encore']
+*****************************************
+["MarkEOrtega's Journalism Portfolio", 'Did Not Chart', 'Rosie Gigg A2 Media Studies', 'FOLK IS NOT HAPPY', 'funky little demons', 'The Jeopardy of Contentment', '*Sixeyes: by Alan Williamson', 'Rod Shone', 'Sonology', 'Haris Sfakianakis Photography', 'I Hate The 90s', 'Cast Iron Songs']
+*****************************************
+['My Name Is Blue Canary', 'jaaackie.', 'Spinitron Blog', 'Desolation Row Records', 'k\xc3\xbcnstler treu']
+*****************************************
+['Web Science and Digital Libraries Research Group', 'Floorshime Zipper Boots', 'Chantelle Swain A2 Media Studies', 'The Stearns Family']
+For k= 20
+Iteration 0
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+*****************************************
+['Mile In Mine', 'Deadbeat', 'What Am I Doing?', 'Becky Sharp Fashion Blog', 'Karl Drinkwater', 'The Moon Topples']
+*****************************************
+['SEM REGRAS', 'Lo importante es que estes t\xc3\xba bien']
+*****************************************
+["MarkEOrtega's Journalism Portfolio"]
+*****************************************
+['MR. BEAUTIFUL TRASH ART', 'A H T A P O T', 'IoTube     :)', '\xce\x9c\xce\x95\xce\xa3\xce\x91 \xce\xa3\xce\xa4\xce\x97 \xce\x92\xce\xa1\xce\xa9\xce\x9c\xce\x99\xce\x91', 'Haris Sfakianakis Photography']
+*****************************************
+['Web Science and Digital Libraries Research Group']
+*****************************************
+[]
+*****************************************
+['Green Eggs and Ham Mondays 8-10am', 'Stories From the City, Stories From the Sea', 'Lost in the Shuffle', 'adrianoblog', 'FlowRadio Playlists (and Blog)', 'INDIEohren.!', 'La espiral de Joseph K', 'sweeping the kitchen']
+*****************************************
+['MTJR RANTS & RAVES ON MUSIC']
+*****************************************
+['Steel City Rust', 'One Base on an Overthrow', 'Floorshime Zipper Boots', 'Did Not Chart', 'Interstellar Radio Shower', 'The Power of Independent Trucking', 'DaveCromwell Writes', 'FOLK IS NOT HAPPY', 'Desolation Row Records', "The World's First Internet Baby", 'Eli Jace | The Mind Is A Terrible Thing To Paste', 'The Jeopardy of Contentment', '.', '*Sixeyes: by Alan Williamson', 'Swinging Singles Club', 'I/LOVE/TOTAL/DESTRUCTION', 'F-Measure', 'Encore', 'I Hate The 90s', 'Cast Iron Songs']
+*****************************************
+['forget about it', 'jaaackie.', 'k\xc3\xbcnstler treu', 'funky little demons', 'Rod Shone', 'symmetry/symmetry', 'bittersweet', 'One Stunning Single Egg', 'Time Is Poetry', "A Wife's Tale", 'sweet crimson blood']
+*****************************************
+["Riley Haas' blog", 'The Listening Ear', 'Russian Machine Never Breaks']
+*****************************************
+['My Name Is Blue Canary', 'The Girl at the Rock Show', 'www.doginasweater.com Live Show Review Archive', 'KiDCHAIR', 'the fast break of champions']
+*****************************************
+['Stonehill Sketchbook', 'Samtastic! Review', 'theindiefriend', 'this time tomorrow']
+*****************************************
+['Boggle Me Thursday', 'The Night Mail']
+*****************************************
+['turnitup!', 'For the Other Things', 'T H E V O I D S', 'Head Space Daily', 'The Campus Buzz on WSOU', 'Spinitron Blog', 'THE HUB', 'Kid F', 'The Kids Are Coming Up From Behind', '\xce\x94\xce\xaf\xcf\x83\xce\xba\xce\xbf\xce\xb9 \xce\x9c\xce\xbf\xcf\x85\xcf\x83\xce\xb9\xce\xba\xce\xae\xcf\x82 \xcf\x83\xcf\x84\xce\xbf \xce\xa7\xcf\x81\xcf\x8c\xce\xbd\xce\xbf']
+*****************************************
+['Flatbasset', 'Our Podcast Could Be Your Life']
+*****************************************
+['ORGANMYTH', 'How to be an artist and still pass for normal', "Morgan's Blog", 'If You Give a Girl a Camera...', 'Sonology', "Room 19's Blog 2016", 'Rants from the Pants', "isyeli's", "But She's Not Stupid"]
+*****************************************
+['GLI Press', 'MAGGOT CAVIAR', 'The Stearns Family', '"DANCING IN CIRCLES"']
+*****************************************
+['Chantelle Swain A2 Media Studies', 'A2 MEDIA COURSEWORK JOINT BLOG', 'Rosie Gigg A2 Media Studies']
+*****************************************
+['The Bunker', 'In the Frame Film Reviews', 'Cherry Area']
+
+\end{lstlisting}
+
+\end{answer}
+\begin{answer}{4}
+To create a 2D representation of the blog space for the links in listing 2, a program called makeMDS.py\cite{shawnjones2013} was used. The program utilizes the scaledown algorithm from the book Programming Collective Intelligence and draws a 2D representation in a file called 2dBlogSpace.jpg, of the blog space\cite{tobysegaran2007}. Figure 2 shows the 2D representation of the blog space and listing 4 shows the number iterations needed to scale the blog space. 
+\begin{figure}[ht!]
+\centering
+\includegraphics[scale=0.25]{2dBlogSpace}
+\caption{2D Representation of the blog space}
+\label{overflow}
+\end{figure}
+\newpage 
+\begin{lstlisting}[caption=Iterations required for MDS]
+4718.51649633
+3641.97350222
+3576.96217617
+3539.60253906
+3512.67702734
+3494.99028129
+3483.80107693
+3475.57121843
+3469.52965368
+3463.27561441
+3456.7835787
+3450.27551531
+3444.08961094
+3437.54006712
+3431.50292669
+3426.17372458
+3421.10982328
+3415.98606711
+3411.1559161
+3406.32027765
+3401.83641255
+3398.12688863
+3394.79579743
+3391.49244857
+3388.49506945
+3384.64294071
+3380.75208309
+3377.59262979
+3375.00512136
+3372.68827107
+3370.96246612
+3369.34268541
+3368.08545575
+3366.85898541
+3365.49677511
+3364.02518928
+3362.78501271
+3361.43977691
+3359.8537339
+3358.40389381
+3356.87464499
+3355.1467079
+3353.38305176
+3351.87112389
+3350.2260748
+3348.35168706
+3346.37604568
+3344.27519227
+3342.18341596
+3340.13615412
+3338.05365006
+3335.87144199
+3333.41969356
+3330.83221337
+3327.95127669
+3324.84257802
+3322.0416319
+3319.16234253
+3316.3473465
+3313.37295427
+3310.49165346
+3307.28385959
+3304.00323659
+3300.82293052
+3297.99970987
+3295.75455656
+3293.81779719
+3291.97788891
+3290.49808839
+3288.82862761
+3287.55682522
+3286.63368372
+3285.99950652
+3285.31668922
+3284.45321373
+3283.23801208
+3281.78382236
+3280.24517945
+3278.84454485
+3277.25266183
+3275.51790068
+3273.67190647
+3271.81521812
+3269.9431567
+3267.96365612
+3265.72522362
+3263.17232414
+3260.51327019
+3258.24482526
+3256.3866625
+3254.44642971
+3252.24169692
+3249.82006317
+3247.35481361
+3244.81039009
+3242.20922239
+3239.72801646
+3237.40627784
+3234.94280414
+3232.77566797
+3230.69377997
+3228.47989115
+3226.02924869
+3223.31669341
+3220.71667971
+3218.04554086
+3215.45717012
+3213.09564425
+3210.93683631
+3208.59910428
+3206.2020228
+3203.69862518
+3201.29193291
+3198.72893757
+3196.29244053
+3193.78519901
+3191.20431635
+3188.26711971
+3185.12243763
+3182.16120409
+3179.18510355
+3176.48397672
+3174.20406002
+3172.03853225
+3170.24383412
+3168.58344488
+3166.87999717
+3165.09531244
+3163.31661213
+3161.42268393
+3159.40143804
+3157.5876041
+3155.71798425
+3154.00147959
+3152.59721439
+3151.14431428
+3149.67417281
+3148.35140712
+3147.08168744
+3145.79569992
+3144.4006539
+3143.04111531
+3141.64944648
+3140.43713912
+3139.25935606
+3137.99021553
+3136.85180613
+3136.06412775
+3135.27798404
+3134.53058866
+3133.80460728
+3132.87800713
+3131.99527854
+3131.01588024
+3130.09252017
+3129.28375933
+3128.60271563
+3128.06204592
+3127.55347909
+3127.1236509
+3126.69595292
+3126.23457725
+3125.78166362
+3125.40652465
+3125.08931784
+3124.85547976
+3124.59595213
+3124.31859554
+3123.98557577
+3123.65897693
+3123.19598904
+3122.68951641
+3122.25382081
+3121.80650338
+3121.37520038
+3121.08536914
+3120.70361954
+3120.33402496
+3119.92323731
+3119.53582426
+3119.06714439
+3118.59252274
+3118.07158124
+3117.57261216
+3117.03673574
+3116.49588772
+3115.93681307
+3115.34079945
+3114.65744936
+3113.91109348
+3113.22003957
+3112.64482366
+3112.01945422
+3111.3382306
+3110.71302774
+3110.04597428
+3109.45294195
+3109.10198756
+3108.87170342
+3108.60347398
+3108.22979951
+3107.74561401
+3107.26572759
+3106.75330697
+3106.23290917
+3105.69647949
+3105.20698392
+3104.77487977
+3104.37557331
+3104.01187388
+3103.69034947
+3103.37304116
+3103.08534168
+3102.73296415
+3102.32582518
+3101.89548411
+3101.39862864
+3100.91169405
+3100.57661925
+3100.25039012
+3099.90928657
+3099.58402974
+3099.29819089
+3099.06248655
+3098.80589936
+3098.51908921
+3098.1828542
+3097.79177092
+3097.44975923
+3097.09948512
+3096.73779302
+3096.4186162
+3096.13915026
+3095.87259575
+3095.60801025
+3095.39126726
+3095.15259978
+3094.90146284
+3094.68612559
+3094.45551959
+3094.25702271
+3094.05871604
+3093.87283206
+3093.67792791
+3093.43898554
+3093.14471602
+3092.82933052
+3092.56720895
+3092.34146051
+3092.12097417
+3091.91494931
+3091.67683608
+3091.47605608
+3091.29069908
+3091.11613855
+3090.95214451
+3090.77552722
+3090.63105552
+3090.50208367
+3090.36575605
+3090.306496
+3090.23548283
+3090.15826187
+3090.10753242
+3090.09813437
+3090.07926905
+3090.03551191
+3089.94110065
+3089.83812378
+3089.6771371
+3089.45384228
+3089.20636229
+3088.94872664
+3088.68614012
+3088.41624462
+3088.15176819
+3087.85913983
+3087.54890355
+3087.26278425
+3087.00674136
+3086.76313181
+3086.52667818
+3086.30999801
+3086.11442809
+3085.94162213
+3085.8722325
+3085.77796736
+3085.657085
+3085.52392424
+3085.40790028
+3085.27818146
+3085.1999139
+3085.21398912
+
+\end{lstlisting}
+\end{answer}
+\newpage 
+\printbibliography
+\end{document}
