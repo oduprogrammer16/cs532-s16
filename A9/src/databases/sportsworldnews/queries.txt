@@ -1,0 +1,3 @@
+SELECT predictedEntries.guid AS 'ID',predictedEntries.predictedCategory as 'Predicted Category', feeds.actualcategory AS 'Actual Category', predictedEntries.fprob AS 'fprob', predictedEntries.cprob AS 'cprob' FROM predictedEntries JOIN feeds ON predictedEntries.guid = feeds.guid;
+
+SELECT feeds.title AS 'Title',predictedEntries.predictedCategory as 'Predicted Category', feeds.actualcategory AS 'Actual Category', predictedEntries.fprob AS 'fprob', predictedEntries.cprob AS 'cprob' FROM predictedEntries JOIN feeds ON predictedEntries.guid = feeds.guid;
