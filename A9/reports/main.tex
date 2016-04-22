@@ -1,0 +1,219 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{MnSymbol,wasysym}
+\usepackage{caption}
+\usepackage{longtable}
+\usepackage{subcaption}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage{biblatex}
+
+\addbibresource{bibliography.bib}
+
+\lstdefinestyle{mystyle}{
+  language=R,
+  backgroundcolor=\color{backcolour},   commentstyle=\color{codegreen},
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=left,
+  numbersep=5pt,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true
+  tabsize=2
+}
+
+\lstset{style=mystyle}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage[margin=3cm]{geometry}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+
+% Edit these as appropriate
+\newcommand\course{CS432}
+\newcommand\semester{Spring 2016}     
+\newcommand\hwnum{9}
+\newcommand\yourname{Kevin R. Clemmons}
+\newcommand\login{oduprogrammer16}
+
+\newenvironment{answer}[1]{
+  \subsubsection*{Problem #1}
+}
+
+\pagestyle{fancyplain}
+\headheight 40pt
+\lhead{\yourname\ \\(\login)\\\course\ --- \semester}
+\chead{\textbf{\Large Assignment \hwnum}}
+\rhead{\today}
+\headsep 40pt
+
+\begin{document}
+
+All files mentioned in this file are uploaded into the {\it github} repository.
+
+The \LaTeX code invovled in the generation of this document was aided by the example code provided in the links that Dr. Nelson sent out on January 17, 2016\cite{mohammedaturban2013}. \\\\
+
+This document was compiled on \url{www.sharelatex.com} \\ \\ 
+
+\newpage 
+
+\begin{answer}{1}
+The rss feed that was used in this assignment was obtained from Sports World News 4/12/16 at 4:15 PM EST, via the following link \url{http://www.sportsworldnews.com/rss/}. Once this feed was obtained, the 100 entries were then classified according to the following categories as seen in Table 1. 
+\begin{table}[ht!]
+    \centering
+    \begin{tabular}{|c|c|}\hline
+    \textbf{Number} & \textbf{Category}  \\\hline
+    1 & Wrestling  \\\hline 
+    2 & National Hockey League \\\hline 
+    3 & National Football League  \\\hline 
+    4 & Boxing  \\\hline 
+    5 & Other   \\\hline 
+    6 & MLS   \\\hline 
+    7 & Major League Baseball   \\\hline 
+    \end{tabular}
+    \caption{Categories and their description}
+    \label{tab:my_label}
+\end{table}
+\end{answer}
+
+\begin{answer}{2}
+A program called makeTrainingData.py was created to aid in assigning each feed a category. The program reads a list of categories and the name of an rss feed link or file. It then displays the description in the entry and prompts the user for a number corresponding to a category as seen in Figure 1. Afterwards, the user is prompted for the name of a file to save the data, and the program saves the data in the format $<$guid$>$ $|$ $<$category$>$. 
+\begin{figure}[ht!]
+\centering 
+\includegraphics[scale=0.55]{makeTrainingData}
+\caption{Screen-shot of makeTrainingData}
+\label{overflow}
+\end{figure}
+
+%
+\newpage
+
+Once all 100 entries were classified, a program called trainClassifier.py was written. This program utilizes a sqlite3 database. This database is also accessed by fisherclassifier\cite{tobysegaran2007}. First, the title, guid(link), description and actual category, are parsed and inserted into  a table called feeds which is located within the database. This table also has an integer called isTrainingData for which 0 means that is is not training data and 1 indicating that is is training data. A dictionary is also created which maps the guid to the feedelement created by the feedparser. Once the information from all 100 feed elements are extracted, and loaded into the database, a file called partialTrainingData.txt is read by the program. Each line of the file is in the format $<$guid$>|<$category$>$. The program matches the guid with the description in each feed acquired from the database and uses the description to train the fisher classifier\cite{tobysegaran2007} and updates the corresponding column isTrainingData to a 1. classifier.  The database code in the fisher classifier was rewritten to use sqlite3.  
+\newpage 
+\begin{lstlisting}[language=Python,caption=Training the fisher classifier]
+def train_classifier(settings,trainingData):
+	
+	counter = 0 # Used for status information.
+	size = len(trainingData)
+	database = FeedDatabase(settings['database'])
+	
+	# Create the classifier
+	classifier = fisherclassifier(getwords)
+	
+	# Set the name of the database
+	classifier.setdb(settings['database'])
+	for key in trainingData.keys():
+		sys.stderr.write('...Training ({0}/{1})...\n'.format(counter,size))
+		classifier.train(trainingData[key]['description'],
+		                    trainingData[key]['category'])
+		counter +=1
+	sys.stderr.write('...Finished Training Classifier\n')
+\end{lstlisting}
+After the fisher classifier is trained, a program called classifyFeed.py pulls the training data from the database. It then  pulls all the feed entries in which the value isTrainingData is equal to zero and then classify those entries based on the content in the description. After the remaining unclassified entries are classified, the guid, and predicted category are printed to the standard output. For this assignment, the standard output is piped into a file called resul2.txt. Then a script called analyzePredictions.py, pulls the actual categories for each feed from the database,compares them with the predicted categories in the file result.txt and computes the fisher probability. The title, predicted category, actual category and fisher probability are then displayed to the standard output. Table 1 shows the results from the analysis. 
+\begin{longtable}{| p{.49\textwidth} | p{.15\textwidth} | p{.15\textwidth}| p{.25\textwidth}|} 
+\hline
+\textbf{Title} & \textbf{Predicted Category} & \textbf{Actual Category} & \textbf{Fisher Probability} \\ \hline 
+J.J. Watt Girlfriend: Texans DE Spotted On Date With Kate Hudson [VIDEO] & National Basketball League  & National Football League & 0.310612856966 \\\hline
+Air Jordan Release Dates \& Price: AJ 17+ Retro Copper and AJ 4 Retro Pinnacle Coming Out [Photos] & National Football League & Other & 0.0949490510526 \\\hline
+NBA Trades: Los Angeles Lakers Almost Dealt Kobe Bryant to Detroit Pistons in 2007 & National Basketball League  & National Basketball League  & 0.258121846233 \\\hline
+Los Angeles Lakers Rumors: Iggy Azalea Threatens To Cut Off Nick Young's Penis If He Cheats On Her Again [VIDEO] & National Basketball League  & National Basketball League  & 0.553163568105 \\\hline
+Bill Simmons HBO News: Game Of Thrones Season 6 Gives Sports Guy A New Gig [VIDEO] & Wrestling & Other & 0.088246841396 \\\hline
+Barcelona vs Atletico Madrid: Champions League 2016 Quarterfinals Live Stream, Where to Watch Online, Rosters & Major League Baseball & MLS & 0.0595697546653 \\\hline
+WWE Rumors: Next Opponent For Dean Ambrose Possibly Revealed [VIDEO] & Wrestling & Wrestling & 0.706240890025 \\\hline
+Nike Release Dates \& Price: Kobe 11 'Lower Merion Aces' Pays Tribute to Bryants Alma Mater, Check Photos and Details Here & National Basketball League  & National Basketball League  & 0.691119394578 \\\hline
+WWE 'SmackDown' Spoilers 4/7/16: Match Results For 'WrestleMania 32' Fallout Edition As Cesaro Returns [POLL, VIDEO] & Wrestling & Wrestling & 0.323058580156 \\\hline
+REDS vs CUBS Watch Live Stream Online \& Listen: Opening Day For Wrigley Field, Live Coverage From Chicago & Major League Baseball & Major League Baseball & 0.949377763656 \\\hline
+The Undertaker WWE Return Rumors 2016: Another Sign Of 'Deadman's' Career Being Over Surfaces [VIDEO] & Wrestling & Wrestling & 0.487022043892 \\\hline
+WWE 'RAW' Spoilers \& Rumors: AJ Styles, Roman Reigns Ready For Battle [POLL, VIDEO] & Wrestling & Wrestling & 0.356032010374 \\\hline
+Rob Gronkowski Rumors: Patriots Star's Amazing
+ Offseason Includes Photo Shoots With Beautiful Women [PHOTOS, VIDEO] & National Football League & National Football League & 0.755665853992 \\\hline
+NFL Trade Rumors 2016: Dallas Cowboys Eyeing to Deal for Carson Wentz? & National Football League & National Football League & 0.831531144167 \\\hline
+Aaron Rodgers, Olivia Munn Relationship Update: QB Lashes Back At Presidential Candidate John Kasich [VIDEO] & National Football League & National Football League & 0.62391633611 \\\hline
+Renee Young, Dean Ambrose Relationship Rumors: 'Lunatic Fringe' Better Not Appear On 'Total Divas' [VIDEO] & Wrestling & Wrestling & 0.846363747872 \\\hline
+Chicago Bulls Rumors 2016: Pau Gasol, Jimmy Butler Leaving This Summer? & Major League Baseball & National Basketball League  & 0.27647413967 \\\hline
+New York Knicks News \& Rumors: Phil Jackson to Leave? Hall of Famer Eyeing Return to Los Angeles Lakers? & National Hockey League & National Basketball League  & 0.12807500029 \\\hline
+Sting WWE Retirement 2016 Rumors: Hall Of Famer Opens Up About Calling It A Career [VIDEO] & National Football League & Wrestling & 0.348206373073 \\\hline
+Aaron Rodgers, Olivia Munn Relationship Update: Actress Has Her Own Critics, Just Like QB Boyfriend [PHOTO, VIDEO] & National Basketball League  & National Football League & 0.356949995972 \\\hline
+Golden State Warriors Record 2016: Michael Jordan Gave Blessing to Break 72-10 Card, Says Draymond Green & National Basketball League  & National Basketball League  & 0.303237792126 \\\hline
+Brie Bella Retirement WWE Rumors: Daniel Bryan's Wife May Not Have Had Her Last Match [VIDEO] & Wrestling & Wrestling & 0.513440510395 \\\hline
+Canelo Alvarez vs Amir Khan Predictions: British Superstar Could Pull Off an Upset, Says Roy Jones Jr. & Boxing & Boxing & 0.697330224212 \\\hline
+Transfer Rumors: Chelsea to Keep John Terry, Diego Costa? & National Football League & National Football League & 0.617262856773 \\\hline
+Brie Bella Retirement WWE Rumors: 'Total Divas' Key Reason For WWE Staying Mum About Superstar's Future [VIDEO] & Wrestling & Wrestling & 0.876076307374 \\\hline
+Kobe Bryant Wife: Lakers Star Uses Bling To Make Up For Past Mistakes With Vanessa Bryant & National Basketball League  & National Basketball League  & 0.467397246403 \\\hline
+TIGERS vs MARLINS Watch Live Stream Online \& Listen: MLB Opening Day 2016, Live Coverage From Miami & Major League Baseball & Major League Baseball & 0.941471174738 \\\hline
+WWE 'Payback 2016' Rumors \& Predictions: Potential Stipulations To AJ Styles vs Roman Reigns [VIDEO] & Wrestling & Wrestling & 0.207657485128 \\\hline
+WWE 'RAW' Spoilers \& Rumors: Roman Reigns Era Begins With 'WrestleMania 32' Fallout [PHOTOS, POLL \& VIDEO] & Wrestling & Wrestling & 0.379926617923 \\\hline
+Colin Kaepernick Broncos Rumors: 49ers QB, Johnny Manziel Share One Common Plight [VIDEO] & National Football League & National Football League & 0.363125396532 \\\hline
+Greg Hardy News: Refusal To Discuss Domestic Violence Issue Based On Ray Rice Ban After Confession [VIDEO] & National Basketball League  & National Football League & 0.583271727279 \\\hline
+Roman Reigns WWE News \& Rumors: Company Not Doing Champion Any Favors By Making AJ Styles No. 1 Contender [POLL, VIDEO] & Wrestling & Wrestling & 0.712079829909 \\\hline
+Derek Fisher, Gloria Govan Rumors: Matt Barnes Still Wants To Fight Former Knicks Coach [VIDEO] & Wrestling & National Basketball League  & 0.421703208553 \\\hline
+EPL Week 33 Schedule, Fixtures, Table \& Live Stream: Leicester Continue Title Chase; Tottenham, Manchester United Collide in Crucial Match & National Basketball League  & MLS & 0.0911292914534 \\\hline
+CM Punk WWE Return 2016 Rumors: UFC's Michael Bisping Reveals Why 'Best In The World' Should Have Stayed In Wrestling [VIDEO] & Wrestling & Wrestling & 0.528563606537 \\\hline
+Cody Rhodes Wife: Eden Stiles Appears Open To Wrestling In Ring Like Her Husband Stardust [VIDEO] & Wrestling & Wrestling & 0.508994321518 \\\hline
+Maria Sharapova Innocent Rumors: Meldonium Inventor Says Drug Is Not PED, Ban Wrong [VIDEO] & National Hockey League & Other & 0.357778093453 \\\hline
+Floyd Mayweather vs Manny Pacquiao 2: Robert Garcia Says Rematch Will Happen If Pacman KOs Timothy Bradley & Wrestling & Boxing & 0.120440905181 \\\hline
+NFL Trade Rumors 2016: Los Angeles Rams to Trade Nick Foles to New York Jets or Denver Broncos? & National Basketball League  & National Football League & 0.218609276649 \\\hline
+WWE 'Payback 2016' Rumors \& Predictions: Potential Swerves To AJ Styles vs Roman Reigns [POLL, VIDEO] & Wrestling & Wrestling & 0.426511813761 \\\hline
+UFC Rumors 2016: Conor McGregor, Georges St-Pierre Could Face Off; Anderson Silva Wants Rematch with Michael Bisping & Wrestling & Wrestling & 0.659722056895 \\\hline
+Russell Wilson, Ciara Engagement Rumors: Singer Is Marrying Into Royalty [PHOTO, VIDEO] & Wrestling & National Football League & 0.260914518629 \\\hline
+DODGERS vs PADRES Watch FREE Live Stream Online: MLB Opening Day 2016 Live Coverage From San Diego & Major League Baseball & Major League Baseball & 0.841599973097 \\\hline
+Brie Bella Retirement WWE Rumors: 'Total Divas' Star Comments On Regrets Of Departing During New Women's Movement [VIDEO] & Wrestling & Wrestling & 0.878027940134 \\\hline
+Randy Orton Return 2016 WWE Rumors: 'Viper' Has 2 Opponents In Mind For When He Returns [VIDEO] & Wrestling & Wrestling & 0.57405658471 \\\hline
+Boxing News 2016: Canelo Alvarez Will Be Ready to Face Manny Pacquiao, Miguel Cotto [VIDEO] & Boxing & Boxing & 0.753799286872 \\\hline
+New York Knicks Rumors \& News: Patrick Ewing Back to the Big Apple? Hall of Famer Wants to Coach in NY & National Football League & National Basketball League  & 0.230202432222 \\\hline
+DODGERS vs GIANTS Watch Live Stream Online \& Listen: Giants Home Opener, Live Coverage From San Francisco & Major League Baseball & Major League Baseball & 0.763208956982 \\\hline
+Lamar Odom, Khloe Kardashian Relationship Update: Reality Star Out Of Job After 'Kocktails With Khloe' Gets Canceled [VIDEO] & Wrestling & National Basketball League  & 0.378533884798 \\\hline
+
+
+
+\caption{Predictions made from the fisher classifier} % needs to go inside longtable environment
+\label{tab:myfirstlongtable}
+\end{longtable}
+\end{answer}
+%
+\newpage
+\begin{answer}{3}
+To analyze the performance of the classifier, a script called AS9P1.py which was graciously written by Gabriel Marquez, computes the precision, recall and F-Measure of the classifier. The formula that was used in the computation of the precision for a category is based on the formulas from wikipedia and is as follows\cite{unknown}: \\ \\ $\displaystyle\text{Precision for a category} = \frac{\text{Number of correct predictions for a category}}{\text{Total Number of Predictions Made}}$ \\\\ \\
+To compute the recall the following formula was used: \\\\
+$\displaystyle \text{Recall for a category} = \frac{\text{Number of correct predictions for a category}}{\text{Actual Number of entries in the category}}$ \\\\\\
+To compute the F-Measure for a category the following formula was used: \\ \\ 
+$\displaystyle \text{F-Measure for a category} = \frac{2 \times \text{Precision for a category} \times \text{Recall for a category}}{\text{Precision for a category} + \text{Recall for a category}}$ \\\\Table 3 shows the performance values computed for each of the categories. 
+
+\begin{table}[ht!]
+    \centering
+    \begin{tabular}{|c|c|c|c|}\hline
+    \textbf{Category} & \textbf{Precision} & \textbf{Recall} & \textbf{F-Measure}  \\\hline
+    Wrestling & 0.32 & 0.72 & 0.44 \\\hline 
+    National Hockey League & 0.0 & 0.0 & 0.0 \\\hline 
+    National Football League & 0.1 & 0.38 & 0.15 \\\hline
+    Boxing & 0.04 & 0.66 & 0.075 \\\hline 
+    Other & 0.0 & 0.0 & 0.0 \\\hline  
+    MLS & 0.0 & 0.0 & 0.0 \\\hline 
+    Major League Baseball & 0.08 & 0.66 & 0.14 \\\hline 
+    \end{tabular}
+    \caption{Performance values of the Fisher Classifier}
+    \label{tab:my_label}
+\end{table}
+\end{answer}
+Based on the measures provided in table, it is concluded that the training data is skewed in wrestling had the highest precision. This could be due to the fact that most of the training data was involved Wrestling as a category. It is suggested that if this assignment were to be continued or attempted again, that a training dataset should not show as much bias towards a single category. It is also hypothesized that perhaps performing ten fold cross validation may remove some of the bias that occurred in this assignment. 
+\newpage 
+\printbibliography
+\end{document}
