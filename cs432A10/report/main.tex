@@ -1,0 +1,123 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{MnSymbol,wasysym}
+\usepackage{caption}
+\usepackage{longtable}
+\usepackage{subcaption}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage{biblatex}
+
+\addbibresource{bibliography.bib}
+
+\lstdefinestyle{mystyle}{
+  language=R,
+  backgroundcolor=\color{backcolour},   commentstyle=\color{codegreen},
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=left,
+  numbersep=5pt,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true
+  tabsize=2
+}
+
+\lstset{style=mystyle}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage[margin=3cm]{geometry}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+
+% Edit these as appropriate
+\newcommand\course{CS432}
+\newcommand\semester{Spring 2016}     
+\newcommand\hwnum{10}
+\newcommand\yourname{Kevin R. Clemmons}
+\newcommand\login{oduprogrammer16}
+
+\newenvironment{answer}[1]{
+  \subsubsection*{Problem #1}
+}
+\newenvironment{additionalsection}[1]{
+    \subsection*{Last Comments}
+}
+
+\pagestyle{fancyplain}
+\headheight 40pt
+\lhead{\yourname\ \\(\login)\\\course\ --- \semester}
+\chead{\textbf{\Large Assignment \hwnum}}
+\rhead{\today}
+\headsep 40pt
+
+\begin{document}
+
+All files mentioned in this file are uploaded into the {\it github} repository.
+
+The \LaTeX code invovled in the generation of this document was aided by the example code provided in the links that Dr. Nelson sent out on January 17, 2016\cite{mohammedaturban2013}. \\\\
+
+This document was compiled on \url{www.sharelatex.com} \\ \\ 
+
+\newpage 
+
+\begin{answer}{1}
+To use the compute the nearest neighbors for \url{http://f-measure.blogspot.com/} and \url{http://ws-dl.blogspot.com/}, a program called q1.py, computes the nearest neighbor. This code was generously donated by Sandy Wilson. Tables 1 and 2 show the computations for the nearest neighbors for \url{http://f-measure.blogspot.com/} and \url{http://ws-dl.blogspot.com/}. The blog term matrix was obtained from my githum account via the following url: \url{https://github.com/oduprogrammer16/cs532-s16/blob/master/A8/src/producedFiles/blogtermmatrix.txt}
+
+\begin{table}[ht!]
+    \centering
+    \begin{tabular}{|c|c|}\hline
+    \textbf{K} & \textbf{Result from knnestimate()} \\\hline 
+    1 & 7.0 \\\hline 
+    2 & 14.0 \\\hline 
+    5 & 30.0 \\\hline 
+    10 & 41.7 \\\hline 
+    20 & 47.95 \\\hline
+    \end{tabular}
+    \caption{knnestimate for \url{http://f-measure.blogspot.com/} }
+    \label{tab:my_label}
+\end{table}
+\begin{table}[ht!]
+    \centering
+    \begin{tabular}{|c|c|}\hline
+    \textbf{K} & \textbf{Result from knnestimate()} \\\hline 
+    1 & 90.0 \\\hline 
+    2 & 59.5 \\\hline 
+    5 & 33.2 \\\hline 
+    10 & 42.3 \\\hline 
+    20 & 48.90 \\\hline
+    \end{tabular}
+    \caption{knnestimate for \url{http://ws-dl.blogspot.com/} }
+    \label{tab:my_label}
+\end{table}
+\end{answer}
+\newpage
+
+\begin{answer}{2}
+Unfortunately, I ran out of time to do question 2. 
+\end{answer}
+
+\newpage 
+\subsection*{Additional Comments}
+Had it not been for exams, this submission might have been a bit better. With that being said, I thoroughly enjoyed this class. I know I was not the best student but I definitely learned a lot. My view of the world-wide-web has radically changed. My python skill are sharper than ever before. I wish you the very best in your research. (Note: This is no attempt to try to get a better grade on this submission, it's just simple honest feedback). Lastly, my grandfather was a launchpad technician for North American Aviation. He worked in the Apollo program and was one of the launch that tried to rescue the crew during the Apollo-1 File. See this link for his testimony to what happened \url{http://as204.blogspot.com/2009/09/real-heroes-by-stephen-clemmons.html}, additional proof \url{http://www.starnewsonline.com/article/20140605/ARTICLES/140609806}
+\printbibliography
+
+
+\end{document}
