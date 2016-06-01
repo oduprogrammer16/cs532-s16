@@ -1,4 +1,4 @@
-# Work For CS432 Introduction to Web Science 
+# Course Work for CS432 Introduction to Web Science (Spring 2016)
 
 ## Comments
 
