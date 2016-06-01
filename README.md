@@ -20,3 +20,4 @@ This set of assignments is used to show my persistancy. I refuse to give up with
 |8| 10/10|Another triumph of academic work.|
 |9| 10/10|This assignment secured a passing grade in the course.|
 |10| 0/10|Got overwhelmed with final exams|
+|Final Grade| 76/100| Solid C for the course.|
