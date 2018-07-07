@@ -4,7 +4,7 @@
 
 This course was not easy. I was taking 18-credits or 6 classes during the semester and managing the heavy load required every ounce of strength I had. My grades got off to a rough start but I managed to pull the grades up. I ended up earning a 76-C for the class. Had I not been sick during Assignment 2, I would have probably recieved a solid B for the course. 
 
-This set of assignments is used to show my persistancy. I refuse to give up without a fight. 
+This set of assignments is evidence of  persistance. I refuse to give up without a fight. 
 
 ## Assignment Grades 
 
